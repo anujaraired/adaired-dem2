@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* body style */
+    --background: 0 0% 100%; /* #ffffff */
+    --foreground: 224 71.4% 4.1%; /* #484848 */
+    --muted: 220 14.3% 95.9%; /* #e3e3e3 */
+    --muted-foreground: 220 8.9% 46.1%; /* #929292 */
+  }
+
+  html {
+    @apply h-full antialiased;
+  }
+
+  body {
+    @apply flex min-h-full flex-col overflow-x-hidden bg-[#FFFFFF] text-sm text-gray-600 dark:bg-gray-50;
+  }
+
+  /* typography style for the Text component */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply text-[#000000];
+  }
+
+  h1 {
+    @apply text-[26px] font-bold text-black md:text-3xl md:font-medium md:leading-tight;
+  }
+  h2 {
+    /* @apply text-3xl dark:text-gray-800 2xl:text-[26px] 4xl:text-3xl; */
+    @apply font-nunito text-[1.6rem] font-medium md:pt-4 md:text-3xl;
+  }
+
+  h3 {
+    @apply font-nunito text-lg font-medium text-[#101C3A] md:text-xl;
+  }
+
+  h4 {
+    @apply font-nunito text-lg font-medium text-[#000000];
+  }
+
+  h5 {
+    @apply font-nunito text-xs font-semibold md:text-md;
+  }
+
+  h6 {
+    @apply text-sm 2xl:text-base;
+  }
+
+  p {
+    @apply font-nunito text-xs font-normal text-[#262626] md:text-sm;
+  }
+  span {
+    @apply text-xxs md:text-xs;
+  }
+}
+
+@layer utilities {
+  .fill-opacity-10 {
+    fill-opacity: 0.1;
+  }
+
+  .card-shadow {
+    box-shadow:
+      0px 1px 0 rgba(0, 0, 0, 0.02),
+      0px 2px 6px rgba(0, 0, 0, 0.05);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
