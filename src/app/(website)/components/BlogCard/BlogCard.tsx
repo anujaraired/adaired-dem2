@@ -40,13 +40,13 @@ const BlogCard: React.FC<BlogCardProps> = ({ data }) => {
           </Link>
         </div>
 
-        <CardTitle className="line-clamp-2 font-nunito text-2xl">
+        <CardTitle className="line-clamp-2 font text-2xl">
           <Link href={`/blog/${data.slug}`} className="">
             {data.postTitle}
           </Link>
         </CardTitle>
       </CardHeader>
-      <CardContent className="p-4 pt-0 text-left font-nunito text-lg">
+      <CardContent className="p-4 pt-0 text-left font text-lg">
         <div className="line-clamp-3">{getExcerpt(data.postDescription)}</div>
       </CardContent>
       <div className="p-4">

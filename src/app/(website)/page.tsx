@@ -14,11 +14,13 @@ import CaseStudy from './components/home/CaseStudy';
 import Testimonial from './components/home/Testimonial';
 import Contact from './components/home/Contact';
 import Blogs from './components/home/Blogs';
+import Banner from './components/HereComponent/Banner';
 
 export default function HomePage() {
   return (
     <>
-      <HereComponent />
+      {/* <HereComponent /> */}
+      <Banner />
       <About />
       <Services />
       <Expect />

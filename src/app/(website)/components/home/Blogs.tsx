@@ -43,7 +43,7 @@ const Blogs = () => {
                   />
                 </div>
                 <div className="p-[2rem]">
-                  <p className="pb-[0.5rem] font-nunito text-xs font-[500] text-[#101C3A] lg:text-sm">
+                  <p className="pb-[0.5rem] font text-xs font-[500] text-[#101C3A] lg:text-sm">
                     {blog.title}
                   </p>
                   <div className="flex w-full justify-between border-t pt-[1rem]">
@@ -52,7 +52,7 @@ const Blogs = () => {
                       name="Read More"
                       className="tex-[14px] !bg-yellow-200 py-[6px]"
                     />
-                    <p className="my-auto font-nunito text-[14px] font-medium text-[#C4C4C4] lg:text-xs">
+                    <p className="my-auto font text-[14px] font-medium text-[#C4C4C4] lg:text-xs">
                       30, July 2025
                     </p>
                   </div>

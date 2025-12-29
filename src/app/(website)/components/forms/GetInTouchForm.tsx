@@ -101,7 +101,7 @@ function GetInTouchForm({ colorScheme }: { colorScheme: string }) {
           rows={4}
           size="xl"
           {...register('message')}
-          className="font-nunito text-lg"
+          className="font text-lg"
         />
 
         <Button

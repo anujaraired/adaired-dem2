@@ -64,7 +64,7 @@ const About = () => {
                   <div className="mt-3 h-6 w-2 bg-[#1B5A96]"></div>
 
                   <div>
-                    <div className="relative py-2 font-nunito text-2xl font-semibold">
+                    <div className="relative py-2 font text-2xl font-semibold">
                       <div className="absolute bottom-1 left-1/2 h-0.5 w-14 -translate-x-1/2 rounded-lg text-black lg:left-0 lg:translate-x-0"></div>
                       <h4 className="">{point.title}</h4>
                     </div>

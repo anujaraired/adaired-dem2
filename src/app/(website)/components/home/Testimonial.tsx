@@ -29,11 +29,11 @@ const Testimonial = () => {
               <div
                 className={`rounded-2xl border border-transparent bg-white p-[2rem] transition-all duration-300 hover:border-8 hover:border-[#FFEFDA] ${''}`}
               >
-                <div className="font-nunito text-sm font-normal text-[#262626]">
+                <div className="font text-sm font-normal text-[#262626]">
                   {testimonial?.description}
                   <div className="flex justify-between pt-[2rem]">
                     <div>
-                      <p className="font-nunito text-sm font-medium">
+                      <p className="font text-sm font-medium">
                         {testimonial?.name}
                       </p>
                       <span className="flex gap-1">

@@ -171,7 +171,7 @@ export const ProcessSection = () => {
     <section className="pb-20">
       <MaxWidthWrapper className="text-center">
         <div className="flex flex-col items-center">
-          <div className="relative inline px-4 font-nunito text-lg text-[#515151]">
+          <div className="relative inline px-4 text-lg text-[#515151]">
             <div className="absolute left-full top-1/2 h-px w-16 -translate-y-1/2 transform bg-[#A7A9AC]"></div>
             <div className="absolute right-full top-1/2 h-px w-16 -translate-y-1/2 transform bg-[#A7A9AC]"></div>
             How We Work

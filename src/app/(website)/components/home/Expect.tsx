@@ -65,8 +65,8 @@ const Expect = () => {
                 key={idx}
                 className={`${!isLast && 'border-[#FB9100w] lg:border-r'}`}
               >
-                <div className="text-center font-nunito text-xl font-semibold text-[#101C3A] lg:text-[36px]">
-                  <div className="text-center font-nunito text-xl font-semibold text-[#101C3A] lg:text-[36px]">
+                <div className="text-center font text-xl font-semibold text-[#101C3A] lg:text-[36px]">
+                  <div className="text-center font text-xl font-semibold text-[#101C3A] lg:text-[36px]">
                     <CountUp end={record.number} />
                     {record.suffix}
                   </div>

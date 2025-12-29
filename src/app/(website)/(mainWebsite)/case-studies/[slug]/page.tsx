@@ -162,7 +162,7 @@ const Introsection = ({
     <section className="py-6 lg:py-12">
       <MaxWidthWrapper>
         <div className="flex flex-col items-center justify-center text-center">
-          <h5 className="relative inline px-4 font-nunito text-base text-[#515151] sm:text-lg">
+          <h5 className="relative inline px-4 font- text-base text-[#515151] sm:text-lg">
             <div className="absolute left-full top-1/2 hidden h-px w-16 -translate-y-1/2 transform bg-[#A7A9AC] sm:block"></div>
             <div className="absolute right-full top-1/2 hidden h-px w-16 -translate-y-1/2 transform bg-[#A7A9AC] sm:block"></div>
             {subHeading}
@@ -534,7 +534,7 @@ const Resultsection = ({
                 className="shrink-0 rounded-lg border p-2 text-5xl"
               />
               <div>
-                <h3 className="font-nunito text-xl font-bold">
+                <h3 className="font- text-xl font-bold">
                   {item.title}
                   <div
                     className="h-0.5 w-10"

@@ -74,7 +74,7 @@ const BlogWPagination: FC<IProps> = ({ data }) => {
                 <h4 className="mt-2">
                   <Link href={`/blog/${blog.slug}`}>{blog.postTitle}</Link>
                 </h4>
-                <p className="mt-2 line-clamp-2 font-nunito text-gray-600">
+                <p className="mt-2 line-clamp-2 font text-gray-600">
                   {blog.excerpt}
                 </p>
                 <Button
@@ -98,12 +98,12 @@ const BlogWPagination: FC<IProps> = ({ data }) => {
                     className="rounded-t-lg object-cover"
                   />
                 </Link>
-                <CardTitle className="mt-4 font-nunito text-xl">
+                <CardTitle className="mt-4 font text-xl">
                   <Link href={`/blog/${blog.slug}`}>{blog.postTitle}</Link>
                 </CardTitle>
               </CardHeader>
               <CardContent className="p-4 pt-0">
-                <p className="line-clamp-3 font-nunito text-gray-600">
+                <p className="line-clamp-3 font text-gray-600">
                   {blog.excerpt}
                 </p>
               </CardContent>

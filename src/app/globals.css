@@ -16,7 +16,7 @@
   }
 
   body {
-    @apply flex min-h-full flex-col overflow-x-hidden bg-[#FFFFFF] text-sm text-gray-600 dark:bg-gray-50;
+    @apply flex min-h-full flex-col overflow-x-hidden bg-[#FFFFFF] font-poppins text-sm text-gray-600 dark:bg-gray-50;
   }
 
   /* typography style for the Text component */
@@ -30,23 +30,23 @@
   }
 
   h1 {
-    @apply text-[26px] font-bold text-black md:text-3xl md:font-medium md:leading-tight;
+    @apply text-[60px] font-semibold text-[#000000] md:leading-[74.4px];
   }
   h2 {
     /* @apply text-3xl dark:text-gray-800 2xl:text-[26px] 4xl:text-3xl; */
-    @apply font-nunito text-[1.6rem] font-medium md:pt-4 md:text-3xl;
+    @apply text-[1.6rem] font-medium md:pt-4 md:text-3xl;
   }
 
   h3 {
-    @apply font-nunito text-lg font-medium text-[#101C3A] md:text-xl;
+    @apply text-lg font-medium text-[#101C3A] md:text-xl;
   }
 
   h4 {
-    @apply font-nunito text-lg font-medium text-[#000000];
+    @apply text-lg font-medium text-[#000000];
   }
 
   h5 {
-    @apply font-nunito text-xs font-semibold md:text-md;
+    @apply text-xs font-semibold md:text-md;
   }
 
   h6 {
@@ -54,7 +54,7 @@
   }
 
   p {
-    @apply font-nunito text-xs font-normal text-[#262626] md:text-sm;
+    @apply text-xs font-normal text-[#000000] md:text-xs;
   }
   span {
     @apply text-xxs md:text-xs;

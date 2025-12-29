@@ -47,7 +47,7 @@ const Button = ({
   } items-center justify-center gap-2
   overflow-hidden rounded-[60px]
   bg-custom-gradient px-[28px] py-[0.75rem]
-  font-nunito text-xs font-normal text-white
+  font- text-xs font-normal text-white
   transition-transform duration-200 active:scale-95
 
   /* TOP BORDER (left → right) */

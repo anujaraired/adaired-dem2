@@ -17,7 +17,7 @@ import CldImage from '../../components/CloudinaryImageComponent';
 const WebFooter = () => {
   return (
     <>
-      <footer className="bg-footer-gradient py-12 font-nunito text-white">
+      <footer className="font- bg-footer-gradient py-12 text-white">
         <MaxWidthWrapper className="px-4">
           <div
             className={cn(
@@ -47,7 +47,7 @@ const WebFooter = () => {
                 <div className="mt-4 flex gap-2">
                   <Link
                     href={process.env.NEXT_PUBLIC_FACEBOOK_URL || '/'}
-                    className="group/fb rounded-full bg-white p-2 hover:bg-theme-orange"
+                    className="group/fb hover:bg-theme-orange rounded-full bg-white p-2"
                   >
                     <Icons.Facebook className="text-[#1B5A96] group-hover/fb:text-white" />
                     <span className="sr-only">
@@ -56,7 +56,7 @@ const WebFooter = () => {
                   </Link>
                   <Link
                     href={process.env.NEXT_PUBLIC_TWITTER_URL || '/'}
-                    className="group/x rounded-full bg-white p-2 hover:bg-theme-orange"
+                    className="group/x hover:bg-theme-orange rounded-full bg-white p-2"
                   >
                     <Icons.Twitter className="text-[#1B5A96] group-hover/x:text-white" />
                     <span className="sr-only">
@@ -65,7 +65,7 @@ const WebFooter = () => {
                   </Link>
                   <Link
                     href={process.env.NEXT_PUBLIC_INSTAGRAM_URL || '/'}
-                    className="group/insta rounded-full bg-white p-2 hover:bg-theme-orange"
+                    className="group/insta hover:bg-theme-orange rounded-full bg-white p-2"
                   >
                     <Icons.Instagram className="text-[#1B5A96] group-hover/insta:text-white" />
                     <span className="sr-only">
@@ -74,7 +74,7 @@ const WebFooter = () => {
                   </Link>
                   <Link
                     href={process.env.NEXT_PUBLIC_LINKEDIN_URL || '/'}
-                    className="group/in rounded-full bg-white p-2 hover:bg-theme-orange"
+                    className="group/in hover:bg-theme-orange rounded-full bg-white p-2"
                   >
                     <Icons.LinkedIn className="text-[#1B5A96] group-hover/in:text-white" />
                     <span className="sr-only">
@@ -86,12 +86,12 @@ const WebFooter = () => {
             </div>
 
             <div className="col-span-12 md:col-span-3 lg:col-span-2">
-              <h3 className="text-md lg:text-md relative font-nunito font-semibold tracking-wide text-white after:absolute after:bottom-[-5px] after:left-0 after:h-0.5 after:w-16 after:bg-[#FB9100] after:content-['']">
+              <h3 className="font relative text-md font-semibold tracking-wide text-white after:absolute after:bottom-[-5px] after:left-0 after:h-0.5 after:w-16 after:bg-[#FB9100] after:content-[''] lg:text-md">
                 Useful Links
               </h3>
               <ul
                 className={cn(
-                  `mt-6 space-y-2 font-nunito text-xs transition-colors duration-200 hover:[&>li]:text-theme-orange`
+                  `font hover:[&>li]:text-theme-orange mt-6 space-y-2 text-xs transition-colors duration-200`
                 )}
               >
                 <li>
@@ -128,12 +128,12 @@ const WebFooter = () => {
             </div>
 
             <div className="col-span-12 md:col-span-5 lg:col-span-3">
-              <h3 className="text-md lg:text-md relative font-nunito font-semibold tracking-wide text-white after:absolute after:bottom-[-5px] after:left-0 after:h-0.5 after:w-16 after:bg-[#FB9100] after:content-['']">
+              <h3 className="font relative text-md font-semibold tracking-wide text-white after:absolute after:bottom-[-5px] after:left-0 after:h-0.5 after:w-16 after:bg-[#FB9100] after:content-[''] lg:text-md">
                 Services
               </h3>
               <ul
                 className={cn(
-                  `mt-6 space-y-2 font-nunito text-xs transition-colors duration-200 hover:[&>li]:text-theme-orange`
+                  `font hover:[&>li]:text-theme-orange mt-6 space-y-2 text-xs transition-colors duration-200`
                 )}
               >
                 <li>
@@ -185,17 +185,17 @@ const WebFooter = () => {
             </div>
 
             <div className="col-span-12 md:col-span-4 lg:col-span-3">
-              <h3 className="text-md lg:text-md relative font-nunito font-semibold tracking-wide text-white after:absolute after:bottom-[-5px] after:left-0 after:h-0.5 after:w-16 after:bg-[#FB9100] after:content-['']">
+              <h3 className="font relative text-md font-semibold tracking-wide text-white after:absolute after:bottom-[-5px] after:left-0 after:h-0.5 after:w-16 after:bg-[#FB9100] after:content-[''] lg:text-md">
                 Subscribe
               </h3>
-              <p className="mt-6 font-nunito text-xs text-white">
+              <p className="font mt-6 text-xs text-white">
                 Share your email address to subscribe to Adaired&apos;s
                 newsletter.
               </p>
               <NewsLetter />
             </div>
             <div className="col-span-12 mt-6 lg:hidden">
-              <h3 className="lg:text-md font-nunito text-lg font-semibold tracking-wide text-white">
+              <h3 className="font text-lg font-semibold tracking-wide text-white lg:text-md">
                 Follow Us
               </h3>
               <div className="mt-4 flex gap-2">
@@ -255,10 +255,10 @@ const WebFooter = () => {
       </footer>
       <MaxWidthWrapper>
         <div className="py- flex flex-col-reverse items-center justify-center bg-white text-center text-black md:flex-row md:justify-between">
-          <div className="font-nunito text-xs">
+          <div className="font text-xs">
             Copyright © {new Date().getFullYear()} - AdAired Digital Media
           </div>
-          <div className="flex gap-5 py-2 font-nunito text-xs sm:gap-1 sm:bg-transparent">
+          <div className="font flex gap-5 py-2 text-xs sm:gap-1 sm:bg-transparent">
             <Link href="/terms-and-conditions">Terms & Conditions </Link>
             <span className="hidden sm:block">/</span>
             <div className="sm:hidden">

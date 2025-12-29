@@ -31,10 +31,10 @@ const ContactForm = () => {
     <div className="flex-1 space-y-8 rounded-2xl p-[1rem] text-center shadow-[0_0_20px_rgba(66,71,76,0.08)] lg:h-[650px] lg:w-[620px] lg:p-[3.25rem] lg:text-left">
       <div className="flex justify-between">
         <div>
-          <p className="text:[2rem] text-left font-nunito font-medium text-[#120A21] md:text-xl">
+          <p className="text:[2rem] text-left font font-medium text-[#120A21] md:text-xl">
             Let’s Talk
           </p>
-          <p className="text-left font-nunito text-[14px] font-normal text-[#666666] lg:text-center lg:text-xs">
+          <p className="text-left font text-[14px] font-normal text-[#666666] lg:text-center lg:text-xs">
             Reach out and let’s start the conversation:
           </p>
         </div>

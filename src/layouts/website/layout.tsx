@@ -10,14 +10,16 @@ export default function WebsiteLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className="flex min-h-dvh flex-col">
+    <div className="relative flex min-h-dvh flex-col">
       {/* <Navbar /> */}
-      <Header/>
+      <div className="fixed z-40 mt-[1.25rem] w-[100%]">
+        <Header />
+      </div>
       <main id="main" className="flex-1">
         {children}
       </main>
       <LenisPrevent />
-      <CookieConsentComponent/>
+      <CookieConsentComponent />
       <Footer />
     </div>
   );

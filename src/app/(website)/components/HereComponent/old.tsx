@@ -55,7 +55,7 @@ const HereComponent = () => {
           alt="32"
           className="hidden lg:block"
         />
-        <div className="mt-4 flex gap-2 font-nunito text-xs text-black lg:mt-20">
+        <div className="mt-4 flex gap-2 font text-xs text-black lg:mt-20">
           <Image src={star} width={18} height={17} alt="d" />
           <span className="">WELCOME TO ADAIRED</span>
         </div>

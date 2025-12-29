@@ -26,11 +26,12 @@ const config: Omit<Config, 'prefix' | 'presets' | 'content'> = {
       inter: ['var(--font-inter)'],
       lexend: ['var(--font-lexend)'],
       // nunito: ['var(--font-nunito)', 'sans-serif'],
-      nunito: ['var(--font-Poppins)', 'Poppins'],
-
+      // nunito: ['var(--font-Poppins)', 'Poppins'],
+      poppins: ['var(--font-poppins)', 'sans-serif'],
+      outfit: ['var(--font-outfit)', 'sans-serif'],
       baby: ['var(--font-baby)'],
       dm: ['var(--font-dm)'],
-      poppins: ['var(--font-poppins)'],
+      // poppins: ['var(--font-poppins)'],
     },
     screens: {
       xs: '480px',
@@ -150,6 +151,7 @@ const config: Omit<Config, 'prefix' | 'presets' | 'content'> = {
       step4: 'stepBounce4 4s ease-in-out infinite',
       slide: 'slide 20s linear infinite',
       marquee: 'marquee 50s linear infinite',
+      animateping: 'animate-ping',
     },
   },
   plugins: [

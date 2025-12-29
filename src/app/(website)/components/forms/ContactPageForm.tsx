@@ -113,7 +113,7 @@ const ContactPageForm = () => {
           label="Message"
           size="xl"
           {...register('message')}
-          className="!mb-5 font-nunito text-lg"
+          className="!mb-5 font text-lg"
         />
         {/* <FormField
           control={form.control}

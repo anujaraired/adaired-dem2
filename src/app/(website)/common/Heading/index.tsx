@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import star from '../../../../../public/assets/icons/star.png';
+
 export interface IHeading {
   subTitle: String;
   title: String;
@@ -78,7 +79,7 @@ const Heading = ({
       ) : (
         <div>
           <div className="md:flex` block w-fit gap-3">
-            <div className="flex gap-3">
+            <div className="flex w-fit gap-3 rounded-full border-[0.87px] border-[#000000] px-[1rem]">
               <Image
                 src={star}
                 width={18}
@@ -86,21 +87,22 @@ const Heading = ({
                 alt=""
                 className="mb-auto mt-1"
               />
-              <span className="font-nunito text-xxs md:text-xs">
-                {' '}
+              <span className="font-Outfit text-xs font-normal uppercase text-[#000000]">
                 {subTitle}
               </span>
-              <div className="mb-auto mt-3 h-0.5 w-24 bg-[#D7EBFF]"></div>
+              {/* <div className="mb-auto mt-3 h-0.5 w-24 bg-[#D7EBFF]"></div> */}
             </div>
-            <div className="mt-[1px] md:mt-[0px]">
-              <h2 className="leading-tight">
+            <div className="mt-[1px] md:mt-[8px]">
+              <h1 className="">
                 {title} <br></br>
                 {span}
-              </h2>
+              </h1>
             </div>
           </div>
           <div>
-            <p className="py-3">{description}</p>
+            <p className="font-Outfit py-3 text-[18px] font-normal text-[#000000]">
+              {description}
+            </p>
           </div>
         </div>
       )}

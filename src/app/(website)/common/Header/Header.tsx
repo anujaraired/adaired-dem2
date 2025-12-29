@@ -15,6 +15,8 @@ import img from '../../../../../public/assets/triexgagykxxpxhfvx8e.webp';
 import { IoReorderThreeOutline } from 'react-icons/io5';
 import { IoClose } from 'react-icons/io5';
 import { MdKeyboardDoubleArrowLeft } from 'react-icons/md';
+import SaveAndCancel from '../SaveAndCancel';
+import { GoArrowUpRight } from 'react-icons/go';
 
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -26,15 +28,14 @@ const Header = () => {
   const [activeGroup, setActiveGroup] = useState<any>(null);
 
   return (
-    <div className="sticky inset-x-0 top-0 z-50 h-16 bg-white lg:h-20">
-      <div className="relative h-[6rem] bg-[#F28F17]"></div>
-      <div className="rounded-tl-3xle rounded-tr-3xle relative -mt-[3rem] flex w-[100%] items-center rounded-full border-b-[1px] border-[#0000001A] bg-white py-[1.5rem]">
-        <MaxWidthWrapper>
-          <div className="relative flex justify-between">
-            <div>
-              <Image src={logo} width={145} height={55} alt="brand logo" />
+    <div className="">
+      <MaxWidthWrapper>
+        <div className="rounded-tl-3xle rounded-tr-3xle 3bg-white flex w-[100%] items-center rounded-full border-b-[1px] border-[#0000001A] bg-[#FFFFFF]">
+          <div className="relative flex w-full justify-between p-[1%]">
+            <div className="pl-3">
+              <Image src={logo} width={132} height={50} alt="brand logo" />
             </div>
-            <div className="hidden justify-between gap-2 lg:flex">
+            <div className="hidden justify-between gap-2 rounded-full bg-[#FFF7EC] p-2 lg:flex">
               {websiteNav.map((menu, idx) => {
                 const isHover = hover === idx;
                 return (
@@ -46,7 +47,7 @@ const Header = () => {
                     {/* MAIN MENU */}
                     <Link
                       href={menu.href}
-                      className={`font-Outfit flex items-center rounded-full px-8 py-3 text-xs text-[#000000] transition ${pathname === menu.href && 'bg-[#FFECD580]'} ${isHover ? 'bg-[#FFECD580]' : ''}`}
+                      className={`font-Outfit flex items-center rounded-full px-5 py-2 text-xs transition ${pathname === menu.href && 'bg-[#FB9100] text-[#FFFFFF]'} ${isHover ? 'bg-[#FB9100] text-[#FFFFFF]' : 'text-[#000000]'}`}
                     >
                       {menu.label}
                       {menu.subItems && <MdKeyboardArrowDown size={18} />}
@@ -163,17 +164,24 @@ const Header = () => {
               })}
             </div>
 
-            <div className="hidden lg:block">
-              <Button name={'Book A Demo'} />
+            <div className="my-auto hidden gap-2 lg:flex">
+              <SaveAndCancel isBgWhite={true} name={'Book A Demo'} />
+              <span className="animate-bounce inline-block">
+                <GoArrowUpRight
+                  size={48}
+                  className="my-auto rounded-full bg-[#FB9100] p-3 font-bold text-[#ffffff]"
+                />
+              </span>
             </div>
             <IoReorderThreeOutline
               onClick={() => setShow(!show)}
               size={50}
-              className="block lg:hidden"
+              className="animate-pulse block lg:hidden"
             />
           </div>
-        </MaxWidthWrapper>
-      </div>
+        </div>
+      </MaxWidthWrapper>
+
       {show && (
         <div className="fixed inset-0 z-[999] lg:hidden">
           {/* OVERLAY */}
