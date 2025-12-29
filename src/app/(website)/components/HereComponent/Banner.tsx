@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import Heading from '../../common/Heading';
 import MaxWidthWrapper from '../MaxWidthWrapper';
 import user from '../../../../../public/assets/review/Ellipse 30.png';
@@ -20,6 +20,29 @@ import hero_banner from '../../../../../public/assets/images/home/hero_banner-bg
 const Banner = () => {
   const users = [user, user_2, user_3, user_4, user_5];
   const reviews = [MdStarRate, MdStarRate, MdStarRate, MdStarRate, MdStarRate];
+  const [active, setActive] = useState<null | 'img3' | 'img2'>(null);
+
+  useEffect(() => {
+    let step = 0;
+
+    const interval = setInterval(() => {
+      step++;
+
+      if (step % 2 === 1) {
+        setActive('img3'); // show banner_img_3 in center
+      } else {
+        setActive('img2'); // show banner_img_2 in center
+      }
+
+      // hide after animation
+      setTimeout(() => {
+        setActive(null);
+      }, 1200);
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <div className="animate-pulse relative w-full pt-[12vh]">
       <Image
@@ -88,21 +111,36 @@ const Banner = () => {
         <div className="relative w-[50%]">
           <div className="space-y-4">
             <div className="flex justify-center">
-              <Image src={banner_img_1} width={631} height={510} alt="" />
+              {/* <Image src={banner_img_1} width={631} height={510} alt="" /> */}
+              <Image
+                src={banner_img_1}
+                width={631}
+                height={510}
+                alt=""
+                className="transition-opacity duration-700 ease-in-out"
+              />
             </div>
             <Image
               src={banner_img_3}
               width={318}
               height={198}
               alt=""
-              className="absolute right-[33.5rem] top-[62.5%]"
+              className={`absolute transition-all duration-700 ease-in-out ${
+                active === 'img3'
+                  ? 'left-1/2 top-1/2 z-30 -translate-x-1/2 -translate-y-1/2 bg-white/80 opacity-100 backdrop-blur-md'
+                  : 'right-[33.5rem] top-[62.5%] opacity-100'
+              } `}
             />
             <Image
               src={banner_img_2}
               width={409}
               height={254}
               alt=""
-              className="absolute bottom-[68%] left-[24rem]"
+              className={`absolute transition-all duration-700 ease-in-out ${
+                active === 'img2'
+                  ? 'left-1/2 top-1/2 z-30 -translate-x-1/2 -translate-y-1/2 bg-white/80 opacity-100 backdrop-blur-md'
+                  : 'bottom-[68%] left-[24rem] opacity-100'
+              } `}
             />
 
             <div className="flex justify-end gap-1 pr-[10%]">
