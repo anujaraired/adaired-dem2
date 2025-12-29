@@ -16,28 +16,20 @@ import banner_img_4 from '../../../../../public/assets/images/home/banner_img_7.
 import banner_img_5 from '../../../../../public/assets/images/home/banner_img_8.png';
 import banner_img_6 from '../../../../../public/assets/images/home/banner_img_9.png';
 import hero_banner from '../../../../../public/assets/images/home/hero_banner-bg.png';
+type Step = 'img3-enter' | 'img3-exit' | 'img2-enter' | 'img2-exit';
 
 const Banner = () => {
   const users = [user, user_2, user_3, user_4, user_5];
   const reviews = [MdStarRate, MdStarRate, MdStarRate, MdStarRate, MdStarRate];
-  const [active, setActive] = useState<null | 'img3' | 'img2'>(null);
+  const [active, setActive] = useState<null | 'img3'>(null);
 
   useEffect(() => {
-    let step = 0;
-
     const interval = setInterval(() => {
-      step++;
+      setActive('img3');
 
-      if (step % 2 === 1) {
-        setActive('img3'); // show banner_img_3 in center
-      } else {
-        setActive('img2'); // show banner_img_2 in center
-      }
-
-      // hide after animation
       setTimeout(() => {
         setActive(null);
-      }, 1200);
+      }, 1000); // stay in center for 1s
     }, 3000);
 
     return () => clearInterval(interval);
@@ -111,7 +103,6 @@ const Banner = () => {
         <div className="relative w-[50%]">
           <div className="space-y-4">
             <div className="flex justify-center">
-              {/* <Image src={banner_img_1} width={631} height={510} alt="" /> */}
               <Image
                 src={banner_img_1}
                 width={631}
@@ -120,28 +111,40 @@ const Banner = () => {
                 className="transition-opacity duration-700 ease-in-out"
               />
             </div>
+            {/* <Image
+              src={banner_img_3}
+              width={318}
+              height={198}
+              alt=""
+              className={`absolute bg-yellow-200 p-2 transition-all duration-700 ease-in-out ${
+                active === 'img3'
+                  ? 'left-1/2 top-1/2 z-30 -translate-x-1/2 -translate-y-1/2 bg-white/80 opacity-100 backdrop-blur-md'
+                  : 'right-[33.5rem] top-[62.5%] opacity-100'
+              } `}
+            /> */}
             <Image
               src={banner_img_3}
               width={318}
               height={198}
               alt=""
-              className={`absolute transition-all duration-700 ease-in-out ${
+              className={`absolute right-[33.5rem] top-[62.5%] transition-opacity transition-transform duration-700 ease-in-out ${
                 active === 'img3'
-                  ? 'left-1/2 top-1/2 z-30 -translate-x-1/2 -translate-y-1/2 bg-white/80 opacity-100 backdrop-blur-md'
-                  : 'right-[33.5rem] top-[62.5%] opacity-100'
+                  ? 'z-30 translate-x-[90%] translate-y-[-110%] scale-105 backdrop-blur-md'
+                  : 'z-10 translate-x-0 translate-y-0 scale-100'
               } `}
             />
-            <Image
+
+            {/* <Image
               src={banner_img_2}
               width={409}
               height={254}
               alt=""
-              className={`absolute transition-all duration-700 ease-in-out ${
+              className={`absolute bg-yellow-200 transition-all duration-700 ease-in-out ${
                 active === 'img2'
                   ? 'left-1/2 top-1/2 z-30 -translate-x-1/2 -translate-y-1/2 bg-white/80 opacity-100 backdrop-blur-md'
                   : 'bottom-[68%] left-[24rem] opacity-100'
               } `}
-            />
+            /> */}
 
             <div className="flex justify-end gap-1 pr-[10%]">
               <Image
