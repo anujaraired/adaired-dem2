@@ -21,16 +21,40 @@ type Step = 'img3-enter' | 'img3-exit' | 'img2-enter' | 'img2-exit';
 const Banner = () => {
   const users = [user, user_2, user_3, user_4, user_5];
   const reviews = [MdStarRate, MdStarRate, MdStarRate, MdStarRate, MdStarRate];
-  const [active, setActive] = useState<null | 'img3'>(null);
+  // const [active, setActive] = useState<null | 'img3'>(null);
+
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setActive('img3');
+
+  //     setTimeout(() => {
+  //       setActive(null);
+  //     }, 1000); // stay in center for 1s
+  //   }, 3000);
+
+  //   return () => clearInterval(interval);
+  // }, []);
+
+  const [active, setActive] = useState<null | 'img3' | 'img2'>(null);
 
   useEffect(() => {
     const interval = setInterval(() => {
+      // 1️⃣ IMG 3
       setActive('img3');
 
       setTimeout(() => {
         setActive(null);
-      }, 1000); // stay in center for 1s
-    }, 3000);
+
+        // 2️⃣ IMG 2 (after img3 returns)
+        setTimeout(() => {
+          setActive('img2');
+
+          setTimeout(() => {
+            setActive(null);
+          }, 1000); // img2 center stay
+        }, 400);
+      }, 1000); // img3 center stay
+    }, 3500);
 
     return () => clearInterval(interval);
   }, []);
@@ -111,17 +135,6 @@ const Banner = () => {
                 className="transition-opacity duration-700 ease-in-out"
               />
             </div>
-            {/* <Image
-              src={banner_img_3}
-              width={318}
-              height={198}
-              alt=""
-              className={`absolute bg-yellow-200 p-2 transition-all duration-700 ease-in-out ${
-                active === 'img3'
-                  ? 'left-1/2 top-1/2 z-30 -translate-x-1/2 -translate-y-1/2 bg-white/80 opacity-100 backdrop-blur-md'
-                  : 'right-[33.5rem] top-[62.5%] opacity-100'
-              } `}
-            /> */}
             <Image
               src={banner_img_3}
               width={318}
@@ -133,18 +146,17 @@ const Banner = () => {
                   : 'z-10 translate-x-0 translate-y-0 scale-100'
               } `}
             />
-
-            {/* <Image
+            <Image
               src={banner_img_2}
               width={409}
               height={254}
               alt=""
-              className={`absolute bg-yellow-200 transition-all duration-700 ease-in-out ${
+              className={`absolute bottom-[68%] left-[24rem] bg-yellow-200 transition-opacity transition-transform duration-700 ease-in-out ${
                 active === 'img2'
-                  ? 'left-1/2 top-1/2 z-30 -translate-x-1/2 -translate-y-1/2 bg-white/80 opacity-100 backdrop-blur-md'
-                  : 'bottom-[68%] left-[24rem] opacity-100'
+                  ? 'z-30 translate-x-[-50%] translate-y-[80%] scale-105 bg-white/80 backdrop-blur-md'
+                  : 'z-10 translate-x-0 translate-y-0 scale-100'
               } `}
-            /> */}
+            />
 
             <div className="flex justify-end gap-1 pr-[10%]">
               <Image
