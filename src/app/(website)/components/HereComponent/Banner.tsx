@@ -17,25 +17,13 @@ import banner_img_5 from '../../../../../public/assets/images/home/banner_img_8.
 import banner_img_6 from '../../../../../public/assets/images/home/banner_img_9.png';
 import hero_banner from '../../../../../public/assets/images/home/hero_banner-bg.png';
 type Step = 'img3-enter' | 'img3-exit' | 'img2-enter' | 'img2-exit';
-
+type ActiveImg = null | 'img1' | 'img2' | 'img3';
+type Phase = 'idle' | 'move' | 'hold' | 'return';
 const Banner = () => {
   const users = [user, user_2, user_3, user_4, user_5];
   const reviews = [MdStarRate, MdStarRate, MdStarRate, MdStarRate, MdStarRate];
-  // const [active, setActive] = useState<null | 'img3'>(null);
 
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setActive('img3');
-
-  //     setTimeout(() => {
-  //       setActive(null);
-  //     }, 1000); // stay in center for 1s
-  //   }, 3000);
-
-  //   return () => clearInterval(interval);
-  // }, []);
-
-  const [active, setActive] = useState<null | 'img3' | 'img2'>(null);
+  const [active, setActive] = useState<null | 'img3' | 'img2' | 'img1'>(null);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -132,7 +120,13 @@ const Banner = () => {
                 width={631}
                 height={510}
                 alt=""
-                className="transition-opacity duration-700 ease-in-out"
+                className={`transition-opacity transition-transform duration-700 ease-in-out ${
+                  active === 'img1'
+                    ? 'z-40 opacity-100'
+                    : active
+                      ? 'opacity-40'
+                      : 'opacity-100'
+                } `}
               />
             </div>
             <Image
@@ -142,9 +136,11 @@ const Banner = () => {
               alt=""
               className={`absolute right-[33.5rem] top-[62.5%] transition-opacity transition-transform duration-700 ease-in-out ${
                 active === 'img3'
-                  ? 'z-30 translate-x-[90%] translate-y-[-110%] scale-105 backdrop-blur-md'
-                  : 'z-10 translate-x-0 translate-y-0 scale-100'
-              } `}
+                  ? 'z-30 translate-x-[90%] translate-y-[-110%] scale-105 opacity-100 backdrop-blur-md'
+                  : active
+                    ? 'z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
+                    : 'z-10 translate-x-0 translate-y-0 scale-100 opacity-100'
+              }`}
             />
             <Image
               src={banner_img_2}
@@ -153,9 +149,11 @@ const Banner = () => {
               alt=""
               className={`absolute bottom-[68%] left-[24rem] bg-yellow-200 transition-opacity transition-transform duration-700 ease-in-out ${
                 active === 'img2'
-                  ? 'z-30 translate-x-[-50%] translate-y-[80%] scale-105 bg-white/80 backdrop-blur-md'
-                  : 'z-10 translate-x-0 translate-y-0 scale-100'
-              } `}
+                  ? 'z-30 translate-x-[-50%] translate-y-[80%] scale-105 bg-white/80 opacity-100 backdrop-blur-md'
+                  : active
+                    ? 'z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
+                    : 'z-10 translate-x-0 translate-y-0 scale-100 opacity-100'
+              }`}
             />
 
             <div className="flex justify-end gap-1 pr-[10%]">
