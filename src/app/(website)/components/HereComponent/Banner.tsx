@@ -23,6 +23,30 @@ const Banner = () => {
   const users = [user, user_2, user_3, user_4, user_5];
   const reviews = [MdStarRate, MdStarRate, MdStarRate, MdStarRate, MdStarRate];
 
+  // const [active, setActive] = useState<null | 'img3' | 'img2' | 'img1'>(null);
+
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     // 1️⃣ IMG 3
+  //     setActive('img3');
+
+  //     setTimeout(() => {
+  //       setActive(null);
+
+  //       // 2️⃣ IMG 2 (after img3 returns)
+  //       setTimeout(() => {
+  //         setActive('img2');
+
+  //         setTimeout(() => {
+  //           setActive(null);
+  //         }, 1000); // img2 center stay
+  //       }, 400);
+  //     }, 1000); // img3 center stay
+  //   }, 3500);
+
+  //   return () => clearInterval(interval);
+  // }, []);
+
   const [active, setActive] = useState<null | 'img3' | 'img2' | 'img1'>(null);
 
   useEffect(() => {
@@ -33,16 +57,25 @@ const Banner = () => {
       setTimeout(() => {
         setActive(null);
 
-        // 2️⃣ IMG 2 (after img3 returns)
+        // 2️⃣ IMG 2
         setTimeout(() => {
           setActive('img2');
 
           setTimeout(() => {
             setActive(null);
-          }, 1000); // img2 center stay
+
+            // 3️⃣ IMG 1
+            setTimeout(() => {
+              setActive('img1');
+
+              setTimeout(() => {
+                setActive(null);
+              }, 1000); // img1 stay
+            }, 400);
+          }, 1000); // img2 stay
         }, 400);
-      }, 1000); // img3 center stay
-    }, 3500);
+      }, 1000); // img3 stay
+    }, 5200); // total cycle time
 
     return () => clearInterval(interval);
   }, []);
