@@ -23,43 +23,19 @@ const Banner = () => {
   const users = [user, user_2, user_3, user_4, user_5];
   const reviews = [MdStarRate, MdStarRate, MdStarRate, MdStarRate, MdStarRate];
 
-  // const [active, setActive] = useState<null | 'img3' | 'img2' | 'img1'>(null);
-
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     // 1️⃣ IMG 3
-  //     setActive('img3');
-
-  //     setTimeout(() => {
-  //       setActive(null);
-
-  //       // 2️⃣ IMG 2 (after img3 returns)
-  //       setTimeout(() => {
-  //         setActive('img2');
-
-  //         setTimeout(() => {
-  //           setActive(null);
-  //         }, 1000); // img2 center stay
-  //       }, 400);
-  //     }, 1000); // img3 center stay
-  //   }, 3500);
-
-  //   return () => clearInterval(interval);
-  // }, []);
-
   const [active, setActive] = useState<null | 'img3' | 'img2' | 'img1'>(null);
 
   useEffect(() => {
     const interval = setInterval(() => {
       // 1️⃣ IMG 3
-      setActive('img3');
+      setActive('img2');
 
       setTimeout(() => {
         setActive(null);
 
         // 2️⃣ IMG 2
         setTimeout(() => {
-          setActive('img2');
+          setActive('img3');
 
           setTimeout(() => {
             setActive(null);
@@ -70,11 +46,11 @@ const Banner = () => {
 
               setTimeout(() => {
                 setActive(null);
-              }, 1000); // img1 stay
+              }, 2000); // img1 stay
             }, 400);
-          }, 1000); // img2 stay
+          }, 2000); // img2 stay
         }, 400);
-      }, 1000); // img3 stay
+      }, 2000); // img3 stay
     }, 5200); // total cycle time
 
     return () => clearInterval(interval);
@@ -180,7 +156,7 @@ const Banner = () => {
               width={409}
               height={254}
               alt=""
-              className={`absolute bottom-[68%] left-[24rem] bg-yellow-200 transition-opacity transition-transform duration-700 ease-in-out ${
+              className={`absolute bottom-[68%] left-[24rem] transition-opacity transition-transform duration-700 ease-in-out ${
                 active === 'img2'
                   ? 'z-30 translate-x-[-50%] translate-y-[80%] scale-105 bg-white/80 opacity-100 backdrop-blur-md'
                   : active
