@@ -30,11 +30,11 @@
   }
 
   h1 {
-    @apply text-[60px] font-semibold text-[#000000] md:leading-[74.4px];
+    @apply text-[60px] font-bold text-[#000000] md:leading-[74.4px];
   }
   h2 {
     /* @apply text-3xl dark:text-gray-800 2xl:text-[26px] 4xl:text-3xl; */
-    @apply text-[1.6rem] font-medium md:pt-4 md:text-3xl;
+    @apply text-[1.6rem] font-semibold md:text-[40px];
   }
 
   h3 {
@@ -54,7 +54,7 @@
   }
 
   p {
-    @apply text-xs font-normal text-[#000000] md:text-xs;
+    @apply text-xs font-normal text-[#323232] md:text-xs;
   }
   span {
     @apply text-xxs md:text-xs;

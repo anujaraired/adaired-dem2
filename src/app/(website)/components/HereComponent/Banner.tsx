@@ -70,6 +70,7 @@ const Banner = () => {
       <MaxWidthWrapper className="flex justify-between pb-[8rem] pt-[10rem]">
         <div className="w-[42%] space-y-4">
           <Heading
+            isH1={true}
             subTitle={'WELCOME TO Adaired Digital Media'}
             title={'The Driving Force Behind the Brands That Lead'}
             span={''}

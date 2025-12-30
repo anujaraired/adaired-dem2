@@ -6,6 +6,8 @@ import TransparentProcesses from '../../../../public/assets/icons/Transparent Pr
 import ExperiencedDigital from '../../../../public/assets/icons/Experienced  Digital Specialists.svg';
 import DedicatedProject from '../../../../public/assets/icons/Dedicated Project Manager.svg';
 import CustomerFirst from '../../../../public/assets/icons/Customer-First Approach.svg';
+import visible from '../../../../public/assets/icons/visions.png';
+import goal from '../../../../public/assets/icons/goal.png';
 
 export const AboutSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
@@ -15,13 +17,13 @@ export const AboutSectionData = {
     'Transform your marketing outcomes and experience exponential ROI growth by partnering with Adaired! We offer smart, targeted, integrated campaigns that drive traffic, build engagement, generate conversions, and foster long-term relationships. Our online marketing services will turn your website into a lead-generating machine, and our ongoing efforts will bring in more clients than you can handle.',
   points: [
     {
-      icon: 'Static Website Images/homepage_about2',
+      icon: goal,
       title: 'Our Mission',
       description:
         'From building identities to shaping conversations and driving measurable impact, we work as your dedicated enterprise digital marketing agency, focused on outcomes, inspired by ideas, and committed to making your brand hard to ignore.',
     },
     {
-      icon: 'Static Website Images/homepage_about1',
+      icon: visible,
       title: 'Our Vision',
       description:
         'We’re a team of expert strategists, creators, designers, and digital thinkers, a modern blend you’d expect from leading digital transformation agencies, who turn insights into ideas. For us, it’s simple: brands don’t grow by accident. They grow with intention, consistency, and bold execution. That’s what we bring to the table.',

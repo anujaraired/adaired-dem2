@@ -6,6 +6,7 @@ export interface IHeading {
   subTitle: String;
   title: String;
   span: String;
+  isH1?: boolean;
   description: String;
   isStyped?: boolean;
   isVarticle?: boolean;
@@ -21,6 +22,7 @@ const Heading = ({
   isVarticle,
   isBgWhite,
   className,
+  isH1,
 }: IHeading) => {
   return (
     <div className={className}>
@@ -93,16 +95,21 @@ const Heading = ({
               {/* <div className="mb-auto mt-3 h-0.5 w-24 bg-[#D7EBFF]"></div> */}
             </div>
             <div className="mt-[1px] md:mt-[8px]">
-              <h1 className="">
-                {title} <br></br>
-                {span}
-              </h1>
+              {isH1 ? (
+                <h1>
+                  {title} <br></br>
+                  {span}
+                </h1>
+              ) : (
+                <h2 className="">
+                  {title} <br></br>
+                  {span}
+                </h2>
+              )}
             </div>
           </div>
           <div>
-            <p className="font-Outfit py-3 text-[18px] font-normal text-[#000000]">
-              {description}
-            </p>
+            <p className="py-4">{description}</p>
           </div>
         </div>
       )}
