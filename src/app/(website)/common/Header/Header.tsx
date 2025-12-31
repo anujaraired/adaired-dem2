@@ -17,6 +17,7 @@ import { IoClose } from 'react-icons/io5';
 import { MdKeyboardDoubleArrowLeft } from 'react-icons/md';
 import SaveAndCancel from '../SaveAndCancel';
 import { GoArrowUpRight } from 'react-icons/go';
+import { MdArrowOutward } from 'react-icons/md';
 
 const Header = () => {
   const [show, setShow] = useState(false);
@@ -56,7 +57,7 @@ const Header = () => {
                     {/* MEGA MENU */}
                     {menu.subItems && (
                       <div
-                        className={`absolute left-0 right-0 top-[110%] z-50 transition-all duration-300 ease-out ${
+                        className={`absolute left-0 right-0 top-[80%] z-50 transition-all duration-300 ease-out ${
                           isHover
                             ? 'pointer-events-auto translate-y-0 opacity-100'
                             : 'pointer-events-none -translate-y-3 opacity-0'
@@ -64,15 +65,20 @@ const Header = () => {
                       >
                         {/* ===================== RESOURCES MENU ===================== */}
                         {menu.label === 'Resources' ? (
-                          <div className="mx-auto ml-[51%] w-fit rounded-xl bg-white p-4 shadow-lg">
+                          <div className="mx-auto ml-[48%] w-fit rounded-xl bg-white p-4 shadow-lg">
                             <ul className="space-y-2">
                               {menu.subItems.map((item, i) => (
                                 <li key={i}>
                                   <Link
                                     href={item.href}
-                                    className="block rounded-lg px-4 py-2 text-sm text-gray-700 hover:text-[#F28F17]"
+                                    className="group flex items-center gap-2 text-xs text-gray-600 hover:text-[#F28F17]"
                                   >
+                                    <span className="h-2 w-2 rounded bg-gray-300"></span>
                                     {item.name}
+                                    <MdArrowOutward
+                                      size={16}
+                                      className="translate-x-[-4px] opacity-0 transition-all duration-200 group-hover:translate-x-0 group-hover:opacity-100"
+                                    />
                                   </Link>
                                 </li>
                               ))}
@@ -97,13 +103,17 @@ const Header = () => {
                                       <ul className="space-y-2">
                                         {sub.subItems?.map(
                                           (item: any, j: number) => (
-                                            <li key={j}>
+                                            <li>
                                               <Link
                                                 href={item.href}
-                                                className="flex items-center gap-2 text-xs text-gray-600 hover:text-[#F28F17]"
+                                                className="group flex items-center gap-2 text-xs text-gray-600 hover:text-[#F28F17]"
                                               >
                                                 <span className="h-2 w-2 rounded bg-gray-300"></span>
                                                 {item.name}
+                                                <MdArrowOutward
+                                                  size={16}
+                                                  className="translate-x-[-4px] opacity-0 transition-all duration-200 group-hover:translate-x-0 group-hover:opacity-100"
+                                                />
                                               </Link>
                                             </li>
                                           )
