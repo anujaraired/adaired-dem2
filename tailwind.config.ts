@@ -145,6 +145,26 @@ const config: Omit<Config, 'prefix' | 'presets' | 'content'> = {
         '0%': { transform: 'translateX(0%)' },
         '100%': { transform: 'translateX(-50%)' },
       },
+      zoomPulse: {
+        '0%, 100%': { transform: 'scale(1)' },
+        '50%': { transform: 'scale(1.15)' },
+      },
+      bubble: {
+        '0%': {
+          transform: 'scale(0.6)',
+          opacity: '0.45',
+        },
+        '40%': {
+          transform: 'scale(2.6)',
+          opacity: '0',
+        },
+
+        /* remaining time = PAUSE */
+        '100%': {
+          transform: 'scale(2.6)',
+          opacity: '0',
+        },
+      },
     },
     animation: {
       step1: 'stepBounce1 4s ease-in-out infinite',
@@ -154,6 +174,8 @@ const config: Omit<Config, 'prefix' | 'presets' | 'content'> = {
       slide: 'slide 20s linear infinite',
       marquee: 'marquee 50s linear infinite',
       animateping: 'animate-ping',
+      zoomPulse: 'zoomPulse 1.5s ease-in-out infinite',
+      bubble: 'bubble 90s ease-out infinite',
     },
   },
   plugins: [

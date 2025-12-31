@@ -74,8 +74,8 @@ const Services = () => {
                     </h5>
                     {isActive && (
                       <MdArrowOutward
-                        size={50}
-                        className={`rounded-full p-3 text-black ${isActive ? 'bg-[#FFFFFF] text-black' : 'text-black'}`}
+                        size={48}
+                        className={`animate-zoomPulse rounded-full p-3 text-black ${isActive ? 'bg-[#FFFFFF] text-black' : 'text-black'}`}
                       />
                     )}
                   </div>

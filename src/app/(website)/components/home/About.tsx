@@ -38,7 +38,7 @@ const About = () => {
                 className="rounded-lg"
               />
             </div>
-            <div className="absolute left-0 top-14 flex gap-2 rounded-xl border-[1px] border-[#000000]/10 bg-[#FFFFFF] px-4 py-2">
+            <div className="animate-zoomPulse absolute left-0 top-14 flex gap-2 rounded-xl border-[1px] border-[#000000]/10 bg-[#FFFFFF] px-4 py-2">
               <Image
                 src={check}
                 width={18}

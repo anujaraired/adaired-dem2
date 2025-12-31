@@ -79,25 +79,28 @@ const Banner = () => {
             }
           />
           <div className="relative flex h-[55px]">
-            {users?.map((img, index) => (
-              <span
-                key={index}
-                className="absolute"
-                style={{
-                  left: `${index * 32}px`,
-                  // zIndex: users.length - index,
-                  zIndex: index + 1,
-                }}
-              >
-                <Image
-                  src={img}
-                  width={55}
-                  height={55}
-                  alt="user"
-                  className="rounded-full border-[1px] border-white"
-                />
-              </span>
-            ))}
+            {users?.map((img, index) => {
+              const lastuser = users.length - 1 === index;
+              return (
+                <span
+                  key={index}
+                  className="absolute"
+                  style={{
+                    left: `${index * 32}px`,
+                    // zIndex: users.length - index,
+                    zIndex: index + 1,
+                  }}
+                >
+                  <Image
+                    src={img}
+                    width={55}
+                    height={55}
+                    alt="user"
+                    className={`${lastuser && 'animate-zoomPulse'} rounded-full border-[1px] border-white`}
+                  />
+                </span>
+              );
+            })}
 
             <span className="absolute right-[48%] top-4 flex">
               <MdStarRate size={20} className="my-auto text-[#FB9100]" />
