@@ -8,8 +8,8 @@ import Button from '../../common/Button';
 import useHoverZoom from '@/@core/hooks/useHoverZoom';
 import serviceBg from '../../../../../public/assets/images/home/service-bg-img.png';
 import serviceBgOpecity from '../../../../../public/assets/images/home/serviceBg.png';
-import seo from '../../../../../public/assets/images/home/seo_service.png';
-import check from '../../../../../public/assets/icons/check.png';
+import seo from '../../../../../public/assets/images/home/seo-tag-3d-icon 1.png';
+import check from '../../../../../public/assets/icons/check_1.svg';
 import SaveAndCancel from '../../common/SaveAndCancel';
 import { MdArrowOutward } from 'react-icons/md';
 
@@ -51,7 +51,7 @@ const Services = () => {
           </div>
 
           {/* MAIN LAYOUT */}
-          <div className="z-20 mt-[2.5rem] block rounded-3xl lg:flex lg:bg-white">
+          <div className="z-20 mt-[2.5rem] block rounded-3xl lg:flex lg:bg-[#F5F5F5]">
             {/* LEFT SIDE - TABS */}
             <div className="z-20 w-full lg:w-[32%] lg:px-[4rem] lg:py-[2.5rem]">
               {services.map((service, idx) => {
@@ -63,8 +63,8 @@ const Services = () => {
                     onClick={() => setActiveTab(idx)} // click
                     className={`my-2 flex w-full cursor-pointer justify-between gap-2 rounded-full border-[4px] transition-all duration-300 ease-in-out lg:my-6 ${
                       isActive
-                        ? 'scale-[1.02] border-[#0D2D4B] bg-[#1B5A96] py-[10px] pl-[41px] pr-[11px] font-semibold text-white lg:w-[535px]'
-                        : 'border-[#B3C8DC] bg-white px-[41px] py-[18px] text-black hover:scale-[1.02] hover:bg-[#1B5A96] hover:text-white lg:w-[440px]'
+                        ? 'scale-[1.02] border-[#FB9100] bg-[#FCA32A] py-[10px] pl-[41px] pr-[11px] font-semibold text-white lg:w-[535px]'
+                        : 'border-[#EFEFEF] bg-white px-[41px] py-[18px] text-black hover:scale-[1.02] hover:bg-[#1B5A96] hover:text-white lg:w-[440px]'
                     } `}
                   >
                     <h5
@@ -75,7 +75,7 @@ const Services = () => {
                     {isActive && (
                       <MdArrowOutward
                         size={48}
-                        className={`animate-zoomPulse rounded-full p-3 text-black ${isActive ? 'bg-[#FFFFFF] text-black' : 'text-black'}`}
+                        className={`animate-zoomPulse rounded-full p-3 text-black ${isActive ? 'bg-[#FFFFFF] text-[#FCA32A]' : 'text-black'}`}
                       />
                     )}
                   </div>
@@ -86,7 +86,7 @@ const Services = () => {
             {/* RIGHT SIDE - ACTIVE CONTENT */}
             <div
               key={activeTab}
-              className="animate-fadeIn relative col-span-2 ml-[2rem] rounded-3xl bg-[#F5FAFF] p-[1rem] lg:pl-[8rem] lg:pr-[4.5rem] lg:pt-[4rem]"
+              className="animate-fadeIn relative col-span-2 ml-[2rem] rounded-3xl border-[1px] border-[#FB910066] bg-[#FFFFFF] p-[1rem] lg:pl-[8rem] lg:pr-[4.5rem] lg:pt-[4rem]"
             >
               <h4 className="mb-4 font-[700]">{services[activeTab].title}</h4>
 
@@ -101,8 +101,8 @@ const Services = () => {
                     /> */}
                     <Image
                       src={check}
-                      width={26}
-                      height={26}
+                      width={30}
+                      height={30}
                       alt="check"
                       className="my-auto"
                     />
@@ -120,9 +120,10 @@ const Services = () => {
                 width={false}
               /> */}
               <SaveAndCancel
-                isBgWhite={true}
+                isBgWhite={false}
                 isIcon={true}
                 name={'Know More'}
+                className='absolute bottom-16'
               />
 
               <div className="absolute bottom-0 right-[2.5rem] hidden lg:block">
