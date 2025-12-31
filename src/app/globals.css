@@ -46,7 +46,7 @@
   }
 
   h5 {
-    @apply font-montserrat text-xs font-semibold md:text-md;
+    @apply font-montserrat text-xs leading-[32px] font-semibold md:text-md;
   }
 
   h6 {
@@ -54,7 +54,7 @@
   }
 
   p {
-    @apply font-montserrat text-xs font-normal text-[#323232] md:text-xs;
+    @apply font-montserrat leading-[26px] text-xs font-normal text-[#323232] md:text-xs;
   }
   span {
     @apply text-xxs md:text-xs;

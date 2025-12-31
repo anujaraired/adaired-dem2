@@ -7,8 +7,11 @@ import ExperiencedDigital from '../../../../public/assets/icons/Experienced  Dig
 import DedicatedProject from '../../../../public/assets/icons/Dedicated Project Manager.svg';
 import CustomerFirst from '../../../../public/assets/icons/Customer-First Approach.svg';
 import visible from '../../../../public/assets/icons/visions.png';
+import Transparent from '../../../../public/assets/icons/Transparent.svg';
+import Experienced from '../../../../public/assets/icons/Experienced.svg';
+import Dedicated from '../../../../public/assets/icons/Dedicated.svg';
+import customer from '../../../../public/assets/icons/customer.svg';
 import goal from '../../../../public/assets/icons/goal.png';
-
 export const AboutSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
   subTitle: 'ABOUT US',
@@ -110,26 +113,30 @@ export const WhyChooseSectionData = {
     'Choosing a digital partner is more than just selecting a service; it is selecting a team that understands your vision, elevates your ideas, and drives the growth your brand deserves.',
   points: [
     {
-      icon: ExperiencedDigital,
-      title: 'Experienced Digital Specialists',
+      icon: Experienced,
+      title: 'Experienced ',
+      span: 'Digital Specialists',
       description:
         "Our team includes skilled digital experts who understand what works in today's competitive environment. From strategy to execution, we have years of hands-on expertise to help your brand grow faster and smarter.",
     },
     {
-      icon: DedicatedProject,
-      title: 'Dedicated Project Manager',
+      icon: Dedicated,
+      title: 'Dedicated ',
+      span: 'Project Manager',
       description:
         'Every client is assigned a single point of contact who understands your objectives, keeps everything on track, and ensures effective communication from beginning to end. There will be no confusion or delays, only seamless project management.',
     },
     {
-      icon: TransparentProcesses,
-      title: 'Transparent Processes',
+      icon: Transparent,
+      title: 'Transparent',
+      span: 'Processes',
       description:
         'We believe in honesty at every step. You always know what we’re doing, why we’re doing it, and how it benefits your brand. Clear updates, open communication, and performance reports you can trust.',
     },
     {
-      icon: CustomerFirst,
-      title: 'Customer-First Approach',
+      icon: customer,
+      title: 'Customer',
+      span: 'First Approach',
       description:
         'Your success is our priority. We listen, we understand, and we tailor our solutions to your needs, not the other way around. Your goals guide our strategy, and your growth drives our decisions.',
     },
