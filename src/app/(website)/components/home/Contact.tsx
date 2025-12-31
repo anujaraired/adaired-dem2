@@ -30,7 +30,6 @@ const Contact = () => {
               title={title}
               span={''}
               description={description}
-              isStyped={true}
               isBgWhite={true}
             />
             <div className={`h-full overflow-hidden ${className}`} ref={ref}>

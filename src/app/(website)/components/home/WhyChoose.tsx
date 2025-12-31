@@ -30,7 +30,6 @@ const WhyChoose = () => {
             title={title}
             span={''}
             description={description}
-            isStyped={true}
             isVarticle={true}
           />
           <div className="mt-[4rem] grid grid-cols-1 gap-[2rem] lg:grid-cols-4">
