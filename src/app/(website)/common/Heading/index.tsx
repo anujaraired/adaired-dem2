@@ -81,15 +81,15 @@ const Heading = ({
       ) : (
         <div>
           <div className="md:flex` block w-fit gap-3">
-            <div className="flex w-fit gap-3 rounded-full border-[0.87px] border-[#000000] px-[1rem]">
+            <div className="flex w-fit gap-3 rounded-full border-[0.71px] border-[#000000]/20 px-[1rem] py-[0.25rem]">
               <Image
                 src={star}
                 width={18}
                 height={17}
                 alt=""
-                className="mb-auto mt-1"
+                className="mb-auto"
               />
-              <span className="font-Outfit text-xs font-normal uppercase text-[#000000]">
+              <span className="font-montserrat text-[12px] font-normal my-auto uppercase text-[#000000]">
                 {subTitle}
               </span>
               {/* <div className="mb-auto mt-3 h-0.5 w-24 bg-[#D7EBFF]"></div> */}

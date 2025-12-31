@@ -29,6 +29,8 @@ const config: Omit<Config, 'prefix' | 'presets' | 'content'> = {
       // nunito: ['var(--font-Poppins)', 'Poppins'],
       poppins: ['var(--font-poppins)', 'sans-serif'],
       outfit: ['var(--font-outfit)', 'sans-serif'],
+      montserrat: ['var(--font-montserrat)'],
+
       baby: ['var(--font-baby)'],
       dm: ['var(--font-dm)'],
       // poppins: ['var(--font-poppins)'],

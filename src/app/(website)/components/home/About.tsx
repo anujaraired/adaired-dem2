@@ -8,6 +8,8 @@ import Button from '../../common/Button';
 import img from '../../../../../public/assets/images/home/aboutus.png';
 import about_graph from '../../../../../public/assets/images/home/about_graph.png';
 import Mask from '../../../../../public/assets/images/home/Mask group.png';
+import check from '../../../../../public/assets/icons/check.png';
+
 import { PiSealCheckBold } from 'react-icons/pi';
 
 const About = () => {
@@ -20,7 +22,7 @@ const About = () => {
   return (
     <section className="">
       <MaxWidthWrapper className="py-[2rem] lg:py-[8rem]">
-        <div className="flex">
+        <div className="flex justify-between gap-[5.25rem]">
           {/* Image Section */}
           <div className="relative mx-auto flex-1">
             {/* CENTER IMAGE */}
@@ -33,9 +35,17 @@ const About = () => {
                 className="rounded-lg"
               />
             </div>
-            <div className=" absolute top-14 left-0 flex gap-1 rounded-xl bg-[#FFFFFF] border-[1px] border-[#000000] p-2">
-              <PiSealCheckBold />
-              <p>100% Business Growth</p>
+            <div className="absolute left-0 top-14 flex gap-2 rounded-xl border-[1px] border-[#000000]/10 bg-[#FFFFFF] px-4 py-2">
+              <Image
+                src={check}
+                width={18}
+                height={18}
+                alt="check "
+                className="my-auto"
+              />
+              <p className="my-auto font-outfit text-[15.62px] text-[#000000]">
+                100% Business Growth
+              </p>
             </div>
             {/* MASK – TOP RIGHT */}
             <Image
@@ -43,7 +53,7 @@ const About = () => {
               alt="Mask Image"
               width={246}
               height={136}
-              className="absolute -top-9 right-10 -z-10"
+              className="absolute -top-9 right-6 -z-10"
             />
 
             {/* MASK – BOTTOM LEFT */}
@@ -52,7 +62,7 @@ const About = () => {
               alt="Mask Image"
               width={246}
               height={136}
-              className="absolute bottom-5 left-10 -z-10"
+              className="absolute bottom-12 left-6 -z-10"
             />
 
             {/* ABOUT GRAPH – BOTTOM RIGHT */}
@@ -61,7 +71,7 @@ const About = () => {
               alt="Graph Image"
               width={276}
               height={215}
-              className="absolute bottom-0 right-5"
+              className="absolute bottom-9 right-0"
             />
           </div>
 
@@ -74,7 +84,7 @@ const About = () => {
               span=""
               description={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`}
             />
-            <p className="-4">
+            <p className="font-montserrat">
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
               ever since the 1500s, when an unknown printer took a galley of
@@ -89,8 +99,8 @@ const About = () => {
                     <Image
                       src={point.icon}
                       alt={point.title}
-                      width={28}
-                      height={28}
+                      width={35}
+                      height={35}
                       className="object-contain"
                     />
                   </div>
@@ -98,7 +108,7 @@ const About = () => {
                   {/* CONTENT */}
                   <div>
                     <h4 className="text-xs font-bold">{point.title}</h4>
-                    <p className="mt-1 font-poppins text-xs">
+                    <p className="font-montserrat mt-1 text-xs">
                       {point.description}
                     </p>
                   </div>

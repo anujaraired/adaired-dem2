@@ -8,7 +8,7 @@ import { ReCaptchaProvider } from 'next-recaptcha-v3';
 import GlobalDrawer from '@/app/shared/drawer-views/container';
 import GlobalModal from '@/app/shared/modal-views/container';
 
-import { Poppins, Outfit } from 'next/font/google';
+import { Poppins, Outfit, Montserrat } from 'next/font/google';
 
 export const poppins = Poppins({
   subsets: ['latin'],
@@ -21,6 +21,12 @@ export const outfit = Outfit({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700'],
   variable: '--font-outfit',
+  display: 'swap',
+});
+export const montserrat = Montserrat({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-montserrat',
   display: 'swap',
 });
 
