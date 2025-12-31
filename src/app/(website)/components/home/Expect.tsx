@@ -20,7 +20,7 @@ const Expect = () => {
         <div className="relative grid grid-cols-1 gap-[2rem] pt-7 lg:grid-cols-2">
           <div className="">
             <Heading subTitle={subTitle} title={title} span="" description="" />
-            <div ref={ref} className={`relative h-[630px] w-full ${className}`}>
+            <div ref={ref} className={`relative h-[660px] w-full ${className}`}>
               <Image
                 src={expectImg}
                 alt="About Image"
