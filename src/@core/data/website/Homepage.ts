@@ -71,10 +71,34 @@ export const ExpectSectionData = {
     'At Adaired Digital Media, we don’t just create strategies; we deliver measurable impact. Our approach transforms ideas into action and action into results that are important to your business.',
   btnHref: '/about',
   records: [
-    { number: 7, suffix: '+', name: 'Years of Industry Expertise' },
-    { number: 500, suffix: '+', name: 'Projects Delivered' },
-    { number: 30, suffix: 'M+', name: 'Organic Impressions Generated' },
-    { number: 320, suffix: '+', name: 'Brands Empowered Globally' },
+    {
+      number: 7,
+      suffix: '+',
+      name: 'Years of Industry Expertise',
+      description:
+        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ',
+    },
+    {
+      number: 500,
+      suffix: '+',
+      name: 'Projects Delivered',
+      description:
+        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ',
+    },
+    {
+      number: 30,
+      suffix: 'M+',
+      name: 'Organic Impressions Generated',
+      description:
+        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ',
+    },
+    {
+      number: 320,
+      suffix: '+',
+      name: 'Brands Empowered Globally',
+      description:
+        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ',
+    },
   ],
 };
 

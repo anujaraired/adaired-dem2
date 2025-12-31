@@ -47,7 +47,7 @@ const CountUp = ({ end, duration = 2000 }: CountUpProps) => {
   }, [end, duration]);
 
   return (
-    <span ref={ref} className="text-2xl font-bold">
+    <span ref={ref} className="text-[50px] font-poppins font-semibold">
       {value}
     </span>
   );

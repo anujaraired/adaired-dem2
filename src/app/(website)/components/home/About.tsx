@@ -26,7 +26,10 @@ const About = () => {
           {/* Image Section */}
           <div className="relative mx-auto flex-1">
             {/* CENTER IMAGE */}
-            <div className="flex items-center justify-center p-3">
+            <div
+              ref={ref}
+              className={`flex items-center justify-center p-3 ${className}`}
+            >
               <Image
                 src={img}
                 alt="About Image"
