@@ -8,7 +8,10 @@ import Button from '../../common/Button';
 import useHoverZoom from '@/@core/hooks/useHoverZoom';
 import serviceBg from '../../../../../public/assets/images/home/service-bg-img.png';
 import serviceBgOpecity from '../../../../../public/assets/images/home/serviceBg.png';
-import seo from '../../../../../public/assets/images/home/seo.png';
+import seo from '../../../../../public/assets/images/home/seo_service.png';
+import check from '../../../../../public/assets/icons/check.png';
+import SaveAndCancel from '../../common/SaveAndCancel';
+import { MdArrowOutward } from 'react-icons/md';
 
 const Services = () => {
   const { subtitle, title, description, services } = ServiceSectionData;
@@ -18,9 +21,9 @@ const Services = () => {
     scaleOut: 0.9,
   });
   return (
-    <section className="relative py-6 lg:py-[6rem]">
+    <section className="relative min-h-screen bg-gradient-to-br from-[#000000] via-[#0D2D4B] to-[#000000] py-6 lg:py-[6rem]">
       {/* Backgrounds */}
-      <Image
+      {/* <Image
         src={serviceBg}
         fill
         alt="background"
@@ -33,17 +36,19 @@ const Services = () => {
         alt="overlay"
         className="object-cover"
         priority
-      />
+      /> */}
 
       <div className="relative z-20">
         <MaxWidthWrapper>
-          <Heading
-            subTitle={subtitle}
-            title={title}
-            span=""
-            description={description}
-            isStyped
-          />
+          <div className="">
+            <Heading
+              subTitle={subtitle}
+              title={title}
+              span=""
+              description={description}
+              isInCenter={true}
+            />
+          </div>
 
           {/* MAIN LAYOUT */}
           <div className="z-20 mt-[2.5rem] block rounded-3xl lg:flex lg:bg-white">
@@ -51,20 +56,29 @@ const Services = () => {
             <div className="z-20 w-full lg:w-[32%] lg:px-[4rem] lg:py-[2.5rem]">
               {services.map((service, idx) => {
                 const isActive = activeTab === idx;
-
                 return (
-                  <h5
+                  <div
                     key={idx}
                     onMouseEnter={() => setActiveTab(idx)} // hover
                     onClick={() => setActiveTab(idx)} // click
-                    className={`my-2 w-full cursor-pointer rounded-full border-4 px-[41px] py-[18px] transition-all duration-300 ease-in-out lg:my-6 lg:w-[440px] ${
+                    className={`my-2 flex w-full cursor-pointer justify-between gap-2 rounded-full border-[4px] transition-all duration-300 ease-in-out lg:my-6 ${
                       isActive
-                        ? 'scale-[1.02] border-[#EAF5FF] bg-[#1B5A96] font-semibold text-white'
-                        : 'border-[#EAF5FF] bg-white font-normal text-black hover:scale-[1.02] hover:bg-[#1B5A96] hover:text-white'
+                        ? 'scale-[1.02] border-[#0D2D4B] bg-[#1B5A96] py-[10px] pl-[41px] pr-[11px] font-semibold text-white lg:w-[535px]'
+                        : 'border-[#B3C8DC] bg-white px-[41px] py-[18px] text-black hover:scale-[1.02] hover:bg-[#1B5A96] hover:text-white lg:w-[440px]'
                     } `}
                   >
-                    {service.title}
-                  </h5>
+                    <h5
+                      className={`${isActive ? 'text-white' : 'text-[#323232]'} my-auto`}
+                    >
+                      {service.title}
+                    </h5>
+                    {isActive && (
+                      <MdArrowOutward
+                        size={50}
+                        className={`rounded-full p-3 text-black ${isActive ? 'bg-[#FFFFFF] text-black' : 'text-black'}`}
+                      />
+                    )}
+                  </div>
                 );
               })}
             </div>
@@ -72,18 +86,25 @@ const Services = () => {
             {/* RIGHT SIDE - ACTIVE CONTENT */}
             <div
               key={activeTab}
-              className="animate-fadeIn relative col-span-2 rounded-3xl bg-[#EAF5FF] p-[1rem] lg:pl-[8rem] lg:pr-[2.5rem] lg:pt-[4rem]"
+              className="animate-fadeIn relative col-span-2 ml-[2rem] rounded-3xl bg-[#F5FAFF] p-[1rem] lg:pl-[8rem] lg:pr-[4.5rem] lg:pt-[4rem]"
             >
-              <h4 className="mb-4">{services[activeTab].title}</h4>
+              <h4 className="mb-4 font-[700]">{services[activeTab].title}</h4>
 
               <p className="mb-6">{services[activeTab].description}</p>
 
-              <div className="ml-6 space-y-2">
+              <div className="ml- space-y-2">
                 {services[activeTab].list?.map((item, i) => (
-                  <div key={i} className="flex gap-2 py-1 text-black">
-                    <IoCheckmark
+                  <div key={i} className="flex gap-4 py-1.5 text-black">
+                    {/* <IoCheckmark
                       size={22}
                       className="rounded-full bg-[#1EAD0B] p-1 text-white"
+                    /> */}
+                    <Image
+                      src={check}
+                      width={26}
+                      height={26}
+                      alt="check"
+                      className="my-auto"
                     />
                     <p className="font-medium">{item}</p>
                   </div>
@@ -92,18 +113,23 @@ const Services = () => {
 
               <p className="mt-6">{services[activeTab]?.lastPara}</p>
 
-              <Button
+              {/* <Button
                 href={services[activeTab]?.link}
                 name="Know More"
                 className="mt-9"
-                width={true}
+                width={false}
+              /> */}
+              <SaveAndCancel
+                isBgWhite={true}
+                isIcon={true}
+                name={'Know More'}
               />
 
               <div className="absolute bottom-0 right-[2.5rem] hidden lg:block">
                 <Image
                   src={seo}
-                  width={472}
-                  height={317}
+                  width={512}
+                  height={383}
                   alt="service visual"
                 />
               </div>

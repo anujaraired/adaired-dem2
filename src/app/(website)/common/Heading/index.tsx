@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
 import star from '../../../../../public/assets/icons/star.png';
+import blue_star from '../../../../../public/assets/icons/blue_star.png';
 
 export interface IHeading {
   subTitle: String;
@@ -8,7 +9,7 @@ export interface IHeading {
   span: String;
   isH1?: boolean;
   description: String;
-  isStyped?: boolean;
+  isInCenter?: boolean;
   isVarticle?: boolean;
   isBgWhite?: boolean;
   className?: string;
@@ -18,7 +19,7 @@ const Heading = ({
   title,
   span,
   description,
-  isStyped,
+  isInCenter,
   isVarticle,
   isBgWhite,
   className,
@@ -26,57 +27,51 @@ const Heading = ({
 }: IHeading) => {
   return (
     <div className={className}>
-      {isStyped ? (
+      {isInCenter ? (
         <div className="">
-          <div
-            className={`flex w-fit items-center gap-3 ${isBgWhite ? 'text-black' : 'text-white'} ${
-              isVarticle ? 'mx-auto' : ''
-            }`}
-          >
-            <Image
-              src={star}
-              width={18}
-              height={17}
-              alt=""
-              className="mb-auto mt-1"
-            />
-            <span className={`${isBgWhite ? 'text-black' : 'text-white'}`}>
-              {subTitle}
-            </span>
-            <div className="my-auto h-0.5 w-24 bg-[#D7EBFF]"></div>
-          </div>
-
-          {isVarticle ? (
-            <div className={`$ text-center md:px-[15%]`}>
-              <h2
-                className={`md:pt-4 ${isBgWhite ? 'text-black' : 'text-white'}`}
-              >
-                {title} <br />
-                {span}
-              </h2>
-              <p className={`py-3 ${isBgWhite ? 'text-black' : 'text-white'} `}>
-                {description}
-              </p>
-            </div>
-          ) : (
-            <div
-              className={`block lg:grid ${isBgWhite ? 'grid-cols-1' : 'grid-cols-3'}`}
-            >
-              <div className={`col-span-2 w-full md:w-[75%] md:leading-[60px]`}>
-                <h2
-                  className={`md:pt-4 ${isBgWhite ? 'text-black' : 'text-white'} `}
+          <div className="md:flex` w- block gap-3">
+            <div className="flex justify-center">
+              <div className="flex w-fit justify-center gap-3 rounded-full border-[0.71px] border-[#FFFFFF]/50 bg-[#FFFFFF] px-[1rem] py-[0.25rem]">
+                <Image
+                  src={blue_star}
+                  width={18}
+                  height={17}
+                  alt=""
+                  className="mb-auto"
+                />
+                <span
+                  className={`font-montserrat my-auto text-[12px] font-normal uppercase text-[#000000]`}
                 >
-                  {title} <br />
+                  {subTitle}
+                </span>
+                {/* <div className="mb-auto mt-3 h-0.5 w-24 bg-[#D7EBFF]"></div> */}
+              </div>
+            </div>
+            <div className="mt-[1px] md:mt-[8px]">
+              {isH1 ? (
+                <h1
+                  className={`${isBgWhite ? 'text-[#000000]' : 'text-[#FFFFFF]'} text-center`}
+                >
+                  {title} <br></br>
+                  {span}
+                </h1>
+              ) : (
+                <h2
+                  className={`${isBgWhite ? 'text-[#000000]' : 'text-[#FFFFFF]'} text-center`}
+                >
+                  {title} <br></br>
                   {span}
                 </h2>
-              </div>
-              <p
-                className={`py- text-sm ${isBgWhite ? 'text-black' : 'text-white'} py-3`}
-              >
-                {description}
-              </p>
+              )}
             </div>
-          )}
+          </div>
+          <div className="px-[20%]">
+            <p
+              className={`${isBgWhite ? 'text-[#000000]' : 'text-[#FFFFFF]'} py-4 text-center`}
+            >
+              {description}
+            </p>
+          </div>
         </div>
       ) : (
         <div>
@@ -89,7 +84,7 @@ const Heading = ({
                 alt=""
                 className="mb-auto"
               />
-              <span className="font-montserrat text-[12px] font-normal my-auto uppercase text-[#000000]">
+              <span className="font-montserrat my-auto text-[12px] font-normal uppercase text-[#000000]">
                 {subTitle}
               </span>
               {/* <div className="mb-auto mt-3 h-0.5 w-24 bg-[#D7EBFF]"></div> */}

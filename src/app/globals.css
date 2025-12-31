@@ -42,11 +42,11 @@
   }
 
   h4 {
-    @apply font-poppins text-lg font-medium text-[#000000];
+    @apply font-poppins text-[25px] font-bold text-[#000000];
   }
 
   h5 {
-    @apply text-xs font-semibold md:text-md;
+    @apply font-montserrat text-xs font-semibold md:text-md;
   }
 
   h6 {

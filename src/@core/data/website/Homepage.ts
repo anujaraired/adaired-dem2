@@ -239,28 +239,11 @@ export const LogoSliderSectionData = {
 };
 
 export const ServiceSectionData = {
-  subtitle: 'OUR SERVICES',
+  subtitle: 'WHAT WE DO',
   title: 'How We Help Your Brand Grow',
   description:
     "Adaired Digital Media believes that every solution should elevate your brand, connect with your target audience, and generate measurable growth. Here's how we accomplish it:",
   services: [
-    {
-      title: 'Web Design & Development',
-      description:
-        'Your website is your digital home. We create websites that look great, work smoothly, and keep visitors coming back.',
-      link: '/services/web-design-and-development-services',
-      list: [
-        'Responsive and Mobile-Friendly Design',
-        'User Experience (UX) Optimization',
-        'Pages Load Quickly',
-        'Secure and Reliable Development',
-        'CMS and E-commerce Setup',
-        'Continuous Website Support',
-      ],
-      mainSvg: 'Web Dev_JjQ6b',
-      hoverSvg: '/assets/images/web-hover.svg',
-      accentColor: '#038eb0',
-    },
     {
       title: 'Search Engine Optimization (SEO)',
       description:
@@ -277,6 +260,23 @@ export const ServiceSectionData = {
       hoverSvg: '/assets/images/seo-hover.svg',
       accentColor: '#f89520',
       link: '/services/search-engine-optimization',
+    },
+    {
+      title: 'Web Design & Development',
+      description:
+        'Your website is your digital home. We create websites that look great, work smoothly, and keep visitors coming back.',
+      link: '/services/web-design-and-development-services',
+      list: [
+        'Responsive and Mobile-Friendly Design',
+        'User Experience (UX) Optimization',
+        'Pages Load Quickly',
+        'Secure and Reliable Development',
+        'CMS and E-commerce Setup',
+        'Continuous Website Support',
+      ],
+      mainSvg: 'Web Dev_JjQ6b',
+      hoverSvg: '/assets/images/web-hover.svg',
+      accentColor: '#038eb0',
     },
     {
       title: 'Social Media Management',
