@@ -10,7 +10,7 @@ import {
   MdOutlineKeyboardArrowRight,
 } from 'react-icons/md';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import { usePathname, useRouter } from 'next/navigation';
 import img from '../../../../../public/assets/triexgagykxxpxhfvx8e.webp';
 import { IoReorderThreeOutline } from 'react-icons/io5';
 import { IoClose } from 'react-icons/io5';
@@ -20,6 +20,7 @@ import { GoArrowUpRight } from 'react-icons/go';
 import { MdArrowOutward } from 'react-icons/md';
 
 const Header = () => {
+  const router = useRouter();
   const [show, setShow] = useState(false);
   const pathname = usePathname();
   const [hover, setHover] = useState<number | null>(null);
@@ -175,8 +176,15 @@ const Header = () => {
             </div>
 
             <div className="my-auto hidden gap-2 lg:flex">
-              <SaveAndCancel isBgWhite={true} name={'Book A Demo'} />
-              <span className="mt-1 inline-block animate-zoomPulse">
+              <SaveAndCancel
+                handleClick={() => router.push('/contact')}
+                isBgWhite={true}
+                name={'Book A Call'}
+              />
+              <span
+                onClick={() => router.push('/contact')}
+                className="mt-1 inline-block animate-zoomPulse"
+              >
                 <GoArrowUpRight
                   size={45}
                   className="cursor-pointer rounded-full bg-[#FB9100] p-3 font-bold text-white transition-transform duration-500 ease-in-out hover:rotate-[45deg]"

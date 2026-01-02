@@ -11,6 +11,7 @@ export interface ISaveAndCancel {
   is2Icon?: boolean;
   button2Name?: string;
   isFullWidth?: boolean;
+  handleClick?: () => void;
 }
 const SaveAndCancel = ({
   name,
@@ -22,6 +23,7 @@ const SaveAndCancel = ({
   is2Icon,
   button2Name,
   isFullWidth,
+  handleClick,
 }: ISaveAndCancel) => {
   const [isHover, setIsHover] = useState(false);
   return (
@@ -29,6 +31,7 @@ const SaveAndCancel = ({
       <button
         onMouseEnter={() => setIsHover(true)}
         onMouseLeave={() => setIsHover(false)}
+        onClick={handleClick}
         className={`font-Outfi flex w-full cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-[60px] py-[0.75rem] text-xs font-normal transition-all duration-300 ease-out active:scale-95 ${
           isBgWhite
             ? isHover
