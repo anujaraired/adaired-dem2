@@ -20,28 +20,28 @@ const Testimonial = () => {
   const [enableTransition, setEnableTransition] = useState(true);
 
   // Auto slide
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setIndex((prev) => prev + 1);
-    }, 3000);
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setIndex((prev) => prev + 1);
+  //   }, 3000);
 
-    return () => clearInterval(interval);
-  }, []);
+  //   return () => clearInterval(interval);
+  // }, []);
 
   // Reset when reaching cloned slides
-  useEffect(() => {
-    if (index === total) {
-      setTimeout(() => {
-        setEnableTransition(false);
-        setIndex(0);
-      }, 700); // must match transition duration
-    } else {
-      setEnableTransition(true);
-    }
-  }, [index, total]);
+  // useEffect(() => {
+  //   if (index === total) {
+  //     setTimeout(() => {
+  //       setEnableTransition(false);
+  //       setIndex(0);
+  //     }, 700); // must match transition duration
+  //   } else {
+  //     setEnableTransition(true);
+  //   }
+  // }, [index, total]);
 
   return (
-    <section className="relative bg-[#FFFBF6] py-6 lg:py-[6rem]">
+    <section className="relative bg-gradient-to-b from-[#05121E] to-[#1A5A96] bg-cover bg-no-repeat py-6 lg:py-[6rem]">
       <div className="relative z-20">
         <div className="flex w-[100%] justify-center">
           <Heading
@@ -50,110 +50,77 @@ const Testimonial = () => {
             span={''}
             description={description}
             isInCenter={true}
-            isBgWhite={true}
             className="w-[90%] lg:w-[50%]"
           />
         </div>
-        <div className="relative overflow-x-hidden px-[5%] pt-[2.5rem]">
-          {/* Track */}
-          <div
-            className={`flex gap-[2rem] ${
-              enableTransition
-                ? 'transition-transform duration-700 ease-in-out'
-                : ''
-            }`}
-            style={{
-              transform: `translateX(-${index * (100 / VISIBLE_CARDS)}%)`,
-            }}
-          >
-            {/* {slides.map((testimonial: any, idx: number) => (
-              <div key={idx} className="shrink-0 basis-1/3">
-                <div className="rounded-2xl bg-white p-[2rem] transition-all duration-300 hover:border-[5px] hover:border-[#FB910080]">
-                  <p className="text-sm text-[#262626]">
-                    {testimonial.description}
-                  </p>
+        <div className="flex justify-center">
+          <div className="relative w-[90%] overflow-x-hidden pt-[2.5rem]">
+            {/* Track */}
+            <div
+              className={`flex ${
+                enableTransition
+                  ? 'transition-transform duration-700 ease-in-out'
+                  : ''
+              }`}
+              style={{
+                transform: `translateX(-${index * (100 / VISIBLE_CARDS)}%)`,
+              }}
+            >
+              {slides.map((testimonial: any, idx: number) => (
+                <div key={idx} className="shrink-0 basis-1/3 px-[1rem]">
+                  <div className="transform-gpu rounded-2xl bg-white p-[2.5rem] transition-all duration-300 ease-out hover:scale-[1.03] hover:border-[5px] hover:border-[#1B5A96]">
+                    <p className="text-sm text-[#262626]">
+                      {testimonial.description}
+                    </p>
 
-                  <div className="flex justify-between pt-[2rem]">
-                    <div>
-                      <p className="text-sm font-medium">{testimonial.name}</p>
-
-                      <div className="flex gap-1">
-                        {Array.from({ length: 5 }).map((_, i) => (
-                          <MdOutlineStar
-                            key={i}
-                            size={16}
-                            className="text-[#FB9100]"
-                          />
-                        ))}
+                    <div className="flex justify-between pt-[2rem]">
+                      <div>
+                        <p className="text-sm font-medium">
+                          {testimonial.name}
+                        </p>
+                        <div className="flex gap-1">
+                          {Array.from({ length: 5 }).map((_, i) => (
+                            <MdOutlineStar
+                              key={i}
+                              size={16}
+                              className="text-[#FB9100]"
+                            />
+                          ))}
+                        </div>
                       </div>
-                    </div>
 
-                    <div className="h-[25px] w-[95px]">
-                      <Image
-                        src={google}
-                        width={95}
-                        height={25}
-                        alt="Google"
-                        unoptimized
-                      />
+                      <div className="h-[25px] w-[95px]">
+                        <Image
+                          src={google}
+                          width={95}
+                          height={25}
+                          alt="Google"
+                          unoptimized
+                        />
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))} */}
-            {slides.map((testimonial: any, idx: number) => (
-              <div key={idx} className="shrink-0 basis-1/3">
-                <div className="transform-gpu rounded-2xl bg-white p-[2.5rem] transition-all duration-300 ease-out hover:scale-[1.03] hover:border-[5px] hover:border-[#FB910080]">
-                  <p className="text-sm text-[#262626]">
-                    {testimonial.description}
-                  </p>
-
-                  <div className="flex justify-between pt-[2rem]">
-                    <div>
-                      <p className="text-sm font-medium">{testimonial.name}</p>
-
-                      <div className="flex gap-1">
-                        {Array.from({ length: 5 }).map((_, i) => (
-                          <MdOutlineStar
-                            key={i}
-                            size={16}
-                            className="text-[#FB9100]"
-                          />
-                        ))}
-                      </div>
-                    </div>
-
-                    <div className="h-[25px] w-[95px]">
-                      <Image
-                        src={google}
-                        width={95}
-                        height={25}
-                        alt="Google"
-                        unoptimized
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-          {/* Pagination */}
-          {total > VISIBLE_CARDS && (
-            <div className="mt-6 flex justify-center gap-2">
-              {Array.from({ length: total }).map((_, i) => {
-                const activeIndex = index % total;
-                return (
-                  <button
-                    key={i}
-                    onClick={() => setIndex(i)}
-                    className={`h-2 w-2 rounded-full transition-all ${
-                      activeIndex === i ? 'bg-[#FB9100]' : 'bg-gray-300'
-                    }`}
-                  />
-                );
-              })}
+              ))}
             </div>
-          )}
+            {/* Pagination */}
+            {total > VISIBLE_CARDS && (
+              <div className="mt-[4rem] flex justify-center gap-2">
+                {Array.from({ length: total }).map((_, i) => {
+                  const activeIndex = index % total;
+                  return (
+                    <button
+                      key={i}
+                      onClick={() => setIndex(i)}
+                      className={`h-2 w-2 rounded-full transition-all ${
+                        activeIndex === i ? 'bg-[#FB9100]' : 'bg-gray-300'
+                      }`}
+                    />
+                  );
+                })}
+              </div>
+            )}
+          </div>
         </div>
       </div>
     </section>

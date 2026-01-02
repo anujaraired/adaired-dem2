@@ -6,7 +6,7 @@ import Heading from '../../common/Heading';
 import { IoCheckmark } from 'react-icons/io5';
 import Button from '../../common/Button';
 import useHoverZoom from '@/@core/hooks/useHoverZoom';
-import serviceBg from '../../../../../public/assets/images/home/service-bg-img.png';
+import serviceBg from '../../../../../public/assets/images/home/what_we_do.png';
 import serviceBgOpecity from '../../../../../public/assets/images/home/serviceBg.png';
 import seo from '../../../../../public/assets/images/home/seo-tag-3d-icon 1.png';
 import check from '../../../../../public/assets/icons/check_1.svg';
@@ -21,16 +21,16 @@ const Services = () => {
     scaleOut: 0.9,
   });
   return (
-    <section className="relative min-h-screen bg-gradient-to-br from-[#000000] via-[#0D2D4B] to-[#000000] py-6 lg:py-[6rem]">
+    <section className="relative min-h-screen py-6 lg:py-[6rem]">
       {/* Backgrounds */}
-      {/* <Image
+      <Image
         src={serviceBg}
         fill
         alt="background"
         className="object-cover"
         priority
       />
-      <Image
+      {/* <Image
         src={serviceBgOpecity}
         fill
         alt="overlay"
@@ -123,7 +123,7 @@ const Services = () => {
                 isBgWhite={false}
                 isIcon={true}
                 name={'Know More'}
-                className='absolute bottom-16'
+                className="absolute bottom-16"
               />
 
               <div className="absolute bottom-0 right-[2.5rem] hidden lg:block">
