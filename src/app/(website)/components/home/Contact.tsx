@@ -46,8 +46,8 @@ const Contact = () => {
               className="rounded-3xl border-[#e3e3e3] object-cover p-1"
             />
           </div>
-          {/* <ContactForm /> */}
-          <ContactPageForm />
+          <ContactForm />
+          {/* <ContactPageForm /> */}
         </div>
       </MaxWidthWrapper>
     </section>
