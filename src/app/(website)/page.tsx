@@ -15,6 +15,7 @@ import Testimonial from './components/home/Testimonial';
 import Contact from './components/home/Contact';
 import Blogs from './components/home/Blogs';
 import Banner from './components/HereComponent/Banner';
+import FAQ from './components/home/FAQ';
 
 export default function HomePage() {
   return (
@@ -29,6 +30,7 @@ export default function HomePage() {
       <Testimonial />
       <Contact />
       <Blogs />
+      <FAQ/>
     </>
   );
 }

@@ -43,7 +43,7 @@ const WhyChoose = () => {
                   className="relative"
                 >
                   <div
-                    className={`mt-[-2.5rem] h-[26.5rem] cursor-pointer rounded-3xl border-[1px] border-[#FB910040] bg-[#FFF8F0] p-[2rem] transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl`}
+                    className={`mt-[-2.5rem] h-[27.5rem] cursor-pointer rounded-3xl border-[1px] border-[#FB910040] bg-[#FFF8F0] p-[2rem] transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl`}
                   >
                     <Image
                       src={item.icon}
@@ -53,16 +53,16 @@ const WhyChoose = () => {
                       className="rounded-xl border-[1px] border-[#FB910040] bg-[#FEDAAA66] p-3.5 text-[#000000]"
                     />
                     <h5
-                      className={`pt-[2rem] text-left font-montserrat text-lg font-bold text-[#111111]`}
+                      className={`pt-[2rem] text-left font-montserrat text-[25px] font-semibold leading-[35px] text-[#111111]`}
                     >
                       {item?.title}
                     </h5>
-                    <h5
-                      className={`text-left text-lg font-bold text-[#111111]`}
+                    <p
+                      className={`text-left font-montserrat text-[25px] font-semibold leading-[35px] text-[#111111]`}
                     >
                       {item?.span}
-                    </h5>
-                    <p className={`pt-[1.5rem] text-left text-[#111111]`}>
+                    </p>
+                    <p className={`pt-[1.5rem] text-left text-[#323232B2]`}>
                       {item?.description}
                     </p>
                   </div>

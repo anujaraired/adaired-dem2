@@ -11,9 +11,9 @@ const Blogs = () => {
   const { subTitle, title, description, blogs } = BlogSectionData;
   const [isHover, setIsHover] = useState<number | null>(1);
   return (
-    <section className="relative py-6 lg:py-[6rem]">
+    <section className="relative bg-[#F5F5F599] py-6 lg:py-[6rem]">
       <div className="absolute inset-0 -z-10 h-[500px]">
-        <Image src={blog_bg_opecity} fill alt="blog" className="object-cover" />
+        {/* <Image src={blog_bg_opecity} fill alt="blog" className="object-cover" /> */}
       </div>
       <MaxWidthWrapper>
         <div className="flex w-[100%] justify-center">
@@ -32,9 +32,9 @@ const Blogs = () => {
             return (
               <div
                 key={idx}
-                className={`rounded-3xl shadow-[0_0_20px_rgba(0,0,0,0.14)]`}
+                className={`rounded-3xl shadow-[0_0_20px_rgba(0,0,0,0.14)] bg-[#FFFFFF]`}
               >
-                <div className="relative h-[180px] w-full overflow-hidden rounded-2xl lg:h-[252px]">
+                <div className="relative h-[190px] w-full overflow-hidden rounded-2xl lg:h-[306px]">
                   <Image
                     src={blog?.image}
                     fill
@@ -43,7 +43,7 @@ const Blogs = () => {
                   />
                 </div>
                 <div className="space-y-4 p-[2rem]">
-                  <p className="font my-auto text-[14px] font-medium text-[#C4C4C4] lg:text-xs">
+                  <p className="font border-[0.5px] border-[#000000] w-fit px-[1rem] rounded-full my-auto text-[14px]">
                     30, July 2025
                   </p>
                   <h5 className="font-semibold text-[#111111]">{blog.title}</h5>

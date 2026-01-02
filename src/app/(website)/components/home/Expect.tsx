@@ -6,8 +6,10 @@ import CountUp from '../CountUp';
 import useImageAnimation from '@/@core/hooks/useImageAnimation';
 import expectImg from '../../../../../public/assets/images/home/expect.png';
 import queen from '../../../../../public/assets/icons/Queen.png';
+import { useState } from 'react';
 
 const Expect = () => {
+  const [hover, setHover] = useState(null);
   const { image, subTitle, title, description, points, para2, records } =
     ExpectSectionData;
   const { ref, className } = useImageAnimation({
@@ -41,47 +43,42 @@ const Expect = () => {
             </p> */}
             {/* Points Section */}
             <div className="grid grid-cols-1 gap-3 md:mt-[2.5rem] md:grid-cols-2 lg:grid-cols-2">
-              {records?.map((record, idx) => {
-                const isLast = idx === records.length - 1;
+              {records?.map((record, idx: any) => {
+                const isHovered = hover === idx;
 
                 return (
                   <div
                     key={idx}
-                    className={`rounded-3xl bg-gradient-to-br from-[#FB9100] to-[#000000] px-[2rem] py-[1.5rem]`}
+                    onMouseEnter={() => setHover(idx)}
+                    onMouseLeave={() => setHover(null)}
+                    className={`rounded-3xl px-[2rem] py-[1.5rem] transition-all duration-300 ${
+                      isHovered
+                        ? 'bg-gradient-to-br from-[#FB9100] to-[#000000]'
+                        : 'bg-white'
+                    } `}
                   >
-                    <div className="font text-center text-xl font-semibold text-[#FFFFFF] lg:text-[36px]">
-                      <div className="font text-left text-xl font-semibold text-[#FFFFFF] lg:text-[50px]">
-                        <CountUp end={record.number} />
-                        {record.suffix}
-                      </div>
+                    <div
+                      className={`text-left text-xl font-semibold transition-colors duration-300 lg:text-[50px] ${isHovered ? 'text-white' : 'text-[#FB9100]'} `}
+                    >
+                      <CountUp end={record.number} />
+                      {record.suffix}
                     </div>
-                    <h5 className="pb-[1rem] pt-[3.25rem] text-left text-[#FFFFFF]">
+
+                    <h5
+                      className={`pb-[1rem] pt-[3.25rem] text-left transition-colors duration-300 ${isHovered && 'text-white'} `}
+                    >
                       {record.name}
                     </h5>
-                    <p className="text-left text-[#FFFFFF]">
+
+                    <p
+                      className={`text-left transition-colors duration-300 ${isHovered && 'text-white'} `}
+                    >
                       {record.description}
                     </p>
                   </div>
                 );
               })}
             </div>
-            {/* <div className="py-6">
-              {points.map((point, index) => (
-                <div key={index} className="my-[1rem] flex gap-4 rounded-lg">
-                  <Image
-                    src={queen}
-                    width={30}
-                    height={24}
-                    alt="queen"
-                    className="mb-auto"
-                  />
-                  <p className="my-auto text-[13px] font-medium text-[#000000] md:text-xs lg:text-sm">
-                    {point.title}
-                  </p>
-                </div>
-              ))}
-            </div>
-            <p className="">{para2}</p> */}
           </div>
         </div>
       </MaxWidthWrapper>

@@ -519,3 +519,54 @@ export const BlogSectionData = {
     },
   ],
 };
+
+export const FAQSSectionData = {
+  image: 'Static Website Images/about_main_anwqk5',
+  subTitle: 'FAQS',
+  title: 'Got Questions? We’ve Got Answers.',
+  span: 'Turns Businesses Into Brands',
+  description:
+    'Stay ahead of the digital curve with expert insights, practical strategies, and the latest trends designed to help your brand grow with confidence.',
+  faqs: [
+    {
+      image: blog_1,
+      title: 'What services does Adaired offer?',
+      description:
+        'Adaired is a full-service digital agency providing branding, website design, UI/UX, digital marketing, performance ads, and growth-focused strategies tailored to your business goals.',
+      bgColor: '#FFF4F3',
+      rating: 5,
+    },
+    {
+      image: blog_2,
+      title: 'How does Adaired approach new projects?',
+      description:
+        'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out.',
+      bgColor: '#D7EBFF',
+      rating: 5,
+    },
+    {
+      image: blog_3,
+      title: 'Do you work with startups or established brands?',
+      description:
+        'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out.',
+      bgColor: '#E1F2E2',
+      rating: 5,
+    },
+    {
+      image: blog_2,
+      title: 'How does Adaired approach new projects?',
+      description:
+        'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out.',
+      bgColor: '#D7EBFF',
+      rating: 5,
+    },
+    {
+      image: blog_3,
+      title: 'Do you work with startups or established brands?',
+      description:
+        'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out.',
+      bgColor: '#E1F2E2',
+      rating: 5,
+    },
+  ],
+};
