@@ -61,13 +61,11 @@ const Banner = () => {
       <Image
         src={hero_banner}
         fill
-        width={undefined}
-        height={undefined}
-        alt="d"
-        className="object-cover"
+        alt="hero bg"
         priority
+        className="pointer-events-none object-cover"
       />
-      <MaxWidthWrapper className="flex justify-between pb-[8rem] pt-[10rem]">
+      <MaxWidthWrapper className="relative z-10 flex justify-between pb-[8rem] pt-[10rem]">
         <div className="w-[42%] space-y-4">
           <Heading
             isH1={true}
@@ -175,21 +173,21 @@ const Banner = () => {
                 width={150}
                 height={46}
                 alt=""
-                className="bg-white animate-step1"
+                className="animate-step1 bg-white"
               />
               <Image
                 src={banner_img_5}
                 width={150}
                 height={46}
                 alt=""
-                className="bg-white animate-step2"
+                className="animate-step2 bg-white"
               />
               <Image
                 src={banner_img_6}
                 width={150}
                 height={46}
                 alt=""
-                className="bg-white animate-step3"
+                className="animate-step3 bg-white"
               />
             </div>
           </div>

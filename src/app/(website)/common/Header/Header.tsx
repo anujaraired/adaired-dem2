@@ -176,10 +176,10 @@ const Header = () => {
 
             <div className="my-auto hidden gap-2 lg:flex">
               <SaveAndCancel isBgWhite={true} name={'Book A Demo'} />
-              <span className="inline-block">
+              <span className="mt-1 inline-block animate-zoomPulse">
                 <GoArrowUpRight
                   size={45}
-                  className="my-auto animate-zoomPulse rounded-full cursor-pointer bg-[#FB9100] p-3 font-bold text-[#ffffff]"
+                  className="cursor-pointer rounded-full bg-[#FB9100] p-3 font-bold text-white transition-transform duration-500 ease-in-out hover:rotate-[45deg]"
                 />
               </span>
             </div>
