@@ -4,8 +4,6 @@ import Heading from '../../common/Heading';
 import { MdOutlineStar } from 'react-icons/md';
 import Image from 'next/image';
 import google from '../../../../../public/assets/icons/goole.png';
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Autoplay, Pagination } from 'swiper/modules';
 
 const Testimonial = () => {
   const { subTitle, title, description, testimonials } = TestimonialSectionData;
