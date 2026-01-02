@@ -175,21 +175,21 @@ const Banner = () => {
                 width={150}
                 height={46}
                 alt=""
-                className="bg-white"
+                className="bg-white animate-step1"
               />
               <Image
                 src={banner_img_5}
                 width={150}
                 height={46}
                 alt=""
-                className="bg-white"
+                className="bg-white animate-step2"
               />
               <Image
                 src={banner_img_6}
                 width={150}
                 height={46}
                 alt=""
-                className="bg-white"
+                className="bg-white animate-step3"
               />
             </div>
           </div>

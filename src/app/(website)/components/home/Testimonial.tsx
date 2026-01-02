@@ -54,7 +54,7 @@ const Testimonial = () => {
             className="w-[90%] lg:w-[50%]"
           />
         </div>
-        <div className="relative overflow-hidden px-[5%] pt-[2.5rem]">
+        <div className="relative overflow-x-hidden px-[5%] pt-[2.5rem]">
           {/* Track */}
           <div
             className={`flex gap-[2rem] ${
