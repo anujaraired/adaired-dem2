@@ -1,6 +1,6 @@
-import blog_1 from '../../../../public/assets/images/blogs/blog_1.png';
-import blog_2 from '../../../../public/assets/images/blogs/blog_2.png';
-import blog_3 from '../../../../public/assets/images/blogs/blog_3.png';
+import blog_1 from '../../../../public/assets/images/blogs/blog_1.webp';
+import blog_2 from '../../../../public/assets/images/blogs/blog_2.webp';
+import blog_3 from '../../../../public/assets/images/blogs/blog_3.webp';
 
 import TransparentProcesses from '../../../../public/assets/icons/Transparent Processes.svg';
 import ExperiencedDigital from '../../../../public/assets/icons/Experienced  Digital Specialists.svg';
@@ -513,26 +513,31 @@ export const BlogSectionData = {
   blogs: [
     {
       image: blog_1,
-      title: 'We’re a digital agency that transforms businesses into brands.',
+      title:
+        'The Science Behind a Good Logo for Business and High-Impact Website Design',
       description:
-        'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out.',
+        'In a highly competitive digital marketplace, your brand has only a few seconds to make an impression.  Your customers will notice two things in ',
       bgColor: '#FFF4F3',
       rating: 5,
+      link: '/good-logo-for-business-and-website-design-science',
     },
     {
       image: blog_2,
-      title: 'We’re a digital agency that transforms businesses into brands.',
+      title:
+        'What to Expect from a Digital Marketing Agency USA: A Complete Guide for Businesses',
       description:
-        'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out.',
+        'In today’s competitive online landscape, having a strong digital presence is no longer optional;',
       bgColor: '#D7EBFF',
+      link: '/what-to-expect-from-a-digital-marketing-agency-usa',
       rating: 5,
     },
     {
       image: blog_3,
-      title: 'We’re a digital agency that transforms businesses into brands.',
+      title: 'The Complete Web Design Process For Successful Business',
       description:
-        'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out.',
+        'Looking for website design services in the USA ? Bringing a website to life is more than just technical work. It’s a creative',
       bgColor: '#E1F2E2',
+      link: '/web-design-process-for-business',
       rating: 5,
     },
   ],

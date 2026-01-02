@@ -7,8 +7,10 @@ import Heading from '../../common/Heading';
 import Button from '../../common/Button';
 import blog_bg_opecity from '../../../../../public/assets/images/home/blog_bg_opecity.png';
 import SaveAndCancel from '../../common/SaveAndCancel';
+import { usePathname, useRouter } from 'next/navigation';
 
 const Blogs = () => {
+  const router = useRouter();
   const { subTitle, title, description, blogs } = BlogSectionData;
   const [isHover, setIsHover] = useState<number | null>(1);
   return (
@@ -48,15 +50,13 @@ const Blogs = () => {
                     30, July 2025
                   </p>
                   <h5 className="font-semibold text-[#111111]">{blog.title}</h5>
-                  <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.{' '}
-                  </p>
+                  <p>{blog.description}</p>
                   <div className="flex w-full justify-between pt-[1rem]">
                     <SaveAndCancel
                       isBgWhite={true}
                       name={'Read More'}
                       isIcon={true}
+                      handleClick={() => router.push(`/blog/${blog.link}`)}
                     />
                   </div>
                 </div>
