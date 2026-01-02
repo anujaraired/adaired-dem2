@@ -7,6 +7,9 @@ import NextProgress from '@core/components/next-progress';
 import { ReCaptchaProvider } from 'next-recaptcha-v3';
 import GlobalDrawer from '@/app/shared/drawer-views/container';
 import GlobalModal from '@/app/shared/modal-views/container';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/autoplay';
 
 import { Poppins, Outfit, Montserrat } from 'next/font/google';
 

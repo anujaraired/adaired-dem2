@@ -210,6 +210,22 @@ export const TestimonialSectionData = {
       bgColor: '#E1F2E2',
       rating: 5,
     },
+        {
+      image: 'Static Website Images/homepage_about1',
+      name: 'Sherry Lin',
+      description:
+        'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out.',
+      bgColor: '#D7EBFF',
+      rating: 5,
+    },
+    {
+      image: 'Static Website Images/homepage_about2',
+      name: 'Sherry Lin',
+      description:
+        'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out.',
+      bgColor: '#E1F2E2',
+      rating: 5,
+    },
   ],
 };
 
