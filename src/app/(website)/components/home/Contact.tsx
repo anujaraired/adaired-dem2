@@ -7,7 +7,7 @@ import InputField from '../UI/InputField';
 import MessageField from '../UI/MessageField';
 import Button from '../../common/Button';
 import useImageAnimation from '@/@core/hooks/useImageAnimation';
-import reachout from '../../../../../public/assets/images/home/reachout.png';
+import reachout from '../../../../../public/assets/images/home/contact_us.png';
 import chat from '../../../../../public/assets/icons/chat.png';
 import SelectField from '../UI/SelectField';
 import ContactForm from '../forms/ContactForm';
@@ -22,25 +22,28 @@ const Contact = () => {
 
   return (
     <section className="">
-      <MaxWidthWrapper className="py-[2rem] lg:py-[6rem]">
-        <div className="grid grid-cols-1 gap-[4rem] lg:grid-cols-2">
-          <div>
-            <Heading
-              subTitle={subTitle}
-              title={title}
-              span={''}
-              description={description}
-              isBgWhite={true}
+      <MaxWidthWrapper className="space-y-7 py-[2rem] lg:py-[6rem]">
+        <div className="px-[10%]">
+          <Heading
+            subTitle={subTitle}
+            title={title}
+            span={''}
+            description={description}
+            isInCenter={true}
+            isBgWhite={true}
+          />
+        </div>
+        <div className="grid grid-cols-1 gap-[4.5rem] lg:grid-cols-2">
+          <div
+            className={`relative h-full overflow-hidden ${className}`}
+            ref={ref}
+          >
+            <Image
+              src={reachout}
+              alt="About Image"
+              fill
+              className="rounded-3xl border-[#e3e3e3] object-cover p-1"
             />
-            <div className={`h-full overflow-hidden ${className}`} ref={ref}>
-              <Image
-                src={reachout}
-                alt="About Image"
-                height={507}
-                width={642}
-                className="rounded-lg border-[#e3e3e3] p-1"
-              />
-            </div>
           </div>
           <ContactForm />
         </div>

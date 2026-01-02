@@ -1,12 +1,13 @@
-import { CaseStudySectionData } from "@/@core/data/website/Homepage";
+import { CaseStudySectionData } from '@/@core/data/website/Homepage';
 import study_1 from '../../../../../public/assets/images/case_staudy/case_study.webp';
 import study_2 from '../../../../../public/assets/images/case_staudy/case_study_2.webp';
 import study_3 from '../../../../../public/assets/images/case_staudy/case_study_3.webp';
-import MaxWidthWrapper from "../MaxWidthWrapper";
-import Heading from "../../common/Heading";
-import Image from "next/image";
-import { IoIosArrowRoundForward } from "react-icons/io";
-import Button from "../../common/Button";
+import MaxWidthWrapper from '../MaxWidthWrapper';
+import Heading from '../../common/Heading';
+import Image from 'next/image';
+import { IoIosArrowRoundForward } from 'react-icons/io';
+import Button from '../../common/Button';
+import SaveAndCancel from '../../common/SaveAndCancel';
 const CaseStudy = () => {
   const { image, subTitle, title, span, description } = CaseStudySectionData;
 
@@ -43,12 +44,19 @@ const CaseStudy = () => {
   return (
     <section className="">
       <MaxWidthWrapper className="py-[2rem] lg:py-[6rem]">
-        <Heading
-          subTitle={subTitle}
-          title={title}
-          span={span}
-          description={''}
-        />
+        <div className="grid grid-cols-2">
+          <Heading
+            subTitle={subTitle}
+            title={title}
+            span={span}
+            description={''}
+          />
+          <p>
+            {
+              "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+            }
+          </p>
+        </div>
         <div className="grid grid-cols-1 gap-7 py-[1.5rem] md:grid-cols-2 lg:grid-cols-3">
           {studies?.map((study, idx) => {
             return (
@@ -67,28 +75,27 @@ const CaseStudy = () => {
                 <div className="flex gap-2 py-[1rem]">
                   {study?.labels?.map((label) => {
                     return (
-                      <span className="rounded-full bg-white px-[1rem] py-[0.25rem]">
+                      <span className="rounded-full uppercase border-[0.5px] border-[#000000] text-[#000000] text-[12px] px-[1rem] py-[0.25rem]">
                         {label}
                       </span>
                     );
                   })}
                 </div>
-                <div className="grid grid-cols-2">
-                  <h3 className="">{study.title}</h3>
-                  <div className="flex items-center justify-end">
+                <div className="">
+                  <h4 className="font-semibold">{study.title}</h4>
+                  <p className='pt-[0.5rem]'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                  <SaveAndCancel name={'View Details'} isBgWhite={true} isIcon={true} className='mt-[2rem]'/>
+                  {/* <div className="flex items-center justify-end">
                     <IoIosArrowRoundForward
                       size={40}
                       className="rounded-full bg-white p-1"
                       style={{ transform: 'rotate(310deg)' }}
                     />
-                  </div>
+                  </div> */}
                 </div>
               </div>
             );
           })}
-        </div>
-        <div className="flex items-center justify-center lg:mt-[2rem]">
-          <Button href="/case-studies" name="View All Studies" />
         </div>
       </MaxWidthWrapper>
     </section>
@@ -96,4 +103,3 @@ const CaseStudy = () => {
 };
 
 export default CaseStudy;
-

@@ -14,7 +14,7 @@ const WhyChoose = () => {
   const [isHover, setIsHover] = useState<number | null>(1);
   return (
     <section className="relative md:py-[8rem]">
-      <Image src={chooseUsBg} fill alt="d" className="object-cover" priority />
+      {/* <Image src={chooseUsBg} fill alt="d" className="object-cover" priority /> */}
       <div className="relative z-20">
         <MaxWidthWrapper>
           <Heading
@@ -23,6 +23,7 @@ const WhyChoose = () => {
             span={''}
             description={description}
             isInCenter={true}
+            isBgWhite={true}
           />
           <div className="mt-[6rem] grid grid-cols-1 gap-[2rem] lg:grid-cols-4">
             {points?.map((item, idx: any) => {
@@ -42,22 +43,26 @@ const WhyChoose = () => {
                   className="relative"
                 >
                   <div
-                    className={`mt-[-2.5rem] h-[26rem] cursor-pointer rounded-3xl border p-[2rem] transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl ${hovered ? 'bg-[#FB9100] text-[#FFFFFF]' : 'bg-[#1E2934] text-white'} `}
+                    className={`mt-[-2.5rem] h-[26.5rem] cursor-pointer rounded-3xl border-[1px] border-[#FB910040] bg-[#FFF8F0] p-[2rem] transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl`}
                   >
-                    <Image src={item.icon} width={60} height={60} alt="img" />
+                    <Image
+                      src={item.icon}
+                      width={70}
+                      height={70}
+                      alt="img"
+                      className="rounded-xl border-[1px] border-[#FB910040] bg-[#FEDAAA66] p-3.5 text-[#000000]"
+                    />
                     <h5
-                      className={`pt-[2rem] text-left text-lg ${hovered ? 'font-semibold text-[#FFFFFF]' : 'font-normal text-white'} `}
+                      className={`pt-[2rem] text-left font-montserrat text-lg font-bold text-[#111111]`}
                     >
                       {item?.title}
                     </h5>
                     <h5
-                      className={`text-left text-lg ${hovered ? 'font-semibold text-[#FFFFFF]' : 'font-normal text-white'} `}
+                      className={`text-left text-lg font-bold text-[#111111]`}
                     >
                       {item?.span}
                     </h5>
-                    <p
-                      className={`pt-[1.5rem] text-left ${hovered ? 'text-[#FFFFFF]' : 'text-white'} `}
-                    >
+                    <p className={`pt-[1.5rem] text-left text-[#111111]`}>
                       {item?.description}
                     </p>
                   </div>

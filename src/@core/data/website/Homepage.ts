@@ -7,9 +7,9 @@ import ExperiencedDigital from '../../../../public/assets/icons/Experienced  Dig
 import DedicatedProject from '../../../../public/assets/icons/Dedicated Project Manager.svg';
 import CustomerFirst from '../../../../public/assets/icons/Customer-First Approach.svg';
 import visible from '../../../../public/assets/icons/visions.png';
-import Transparent from '../../../../public/assets/icons/Transparent.svg';
-import Experienced from '../../../../public/assets/icons/Experienced.svg';
-import Dedicated from '../../../../public/assets/icons/Dedicated.svg';
+import Transparent from '../../../../public/assets/icons/built_1.svg';
+import Experienced from '../../../../public/assets/icons/Experienced_1.svg';
+import Dedicated from '../../../../public/assets/icons/Dedicated_1.svg';
 import customer from '../../../../public/assets/icons/customer.svg';
 import goal from '../../../../public/assets/icons/goal.png';
 export const AboutSectionData = {

@@ -17,7 +17,7 @@ const Testimonial = () => {
             title={title}
             span={''}
             description={description}
-            isVarticle={true}
+            isInCenter={true}
             isBgWhite={true}
             className="w-[90%] lg:w-[50%]"
           />

@@ -1,4 +1,4 @@
-"use client"
+'use client';
 import Image from 'next/image';
 import React, { useState } from 'react';
 import InputField from '../UI/InputField';
@@ -6,6 +6,7 @@ import SelectField from '../UI/SelectField';
 import MessageField from '../UI/MessageField';
 import Button from '../../common/Button';
 import chat from '../../../../../public/assets/icons/chat.png';
+import SaveAndCancel from '../../common/SaveAndCancel';
 
 const ContactForm = () => {
   const [inputValue, setInputValue] = useState({
@@ -28,13 +29,13 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="flex-1 space-y-8 rounded-2xl p-[1rem] text-center shadow-[0_0_20px_rgba(66,71,76,0.08)] lg:h-[650px] lg:w-[620px] lg:p-[3.25rem] lg:text-left">
+    <div className="2lg:h-[650px] 2lg:w-[620px] h-full w-full flex-1 space-y-8 rounded-2xl p-[1rem] text-center shadow-[0_0_20px_rgba(66,71,76,0.08)] lg:p-[3.25rem] lg:text-left">
       <div className="flex justify-between">
         <div>
-          <p className="text:[2rem] text-left font font-medium text-[#120A21] md:text-xl">
+          <p className="text:[2rem] text-left font-poppins font-semibold text-[#111111] md:text-[35px]">
             Let’s Talk
           </p>
-          <p className="text-left font text-[14px] font-normal text-[#666666] lg:text-center lg:text-xs">
+          <p className="font pt-3 text-left text-[14px] font-normal text-[#666666] lg:text-center lg:text-xs">
             Reach out and let’s start the conversation:
           </p>
         </div>
@@ -83,7 +84,12 @@ const ContactForm = () => {
           className="my-2"
         />
       </div>
-      <Button href="" name="Submit" className="w-full" />
+      <SaveAndCancel
+        name={'Submit'}
+        isFullWidth={true}
+        isIcon={true}
+        className=""
+      />
     </div>
   );
 };

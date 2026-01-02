@@ -15,7 +15,7 @@ const Expect = () => {
     delay: 350,
   });
   return (
-    <section className="">
+    <section className="bg-[#F5F5F580]">
       <MaxWidthWrapper className="py-[2rem] lg:py-[8rem]">
         <div className="relative grid grid-cols-1 gap-[2rem] pt-7 lg:grid-cols-2">
           <div className="">
@@ -47,18 +47,18 @@ const Expect = () => {
                 return (
                   <div
                     key={idx}
-                    className={`rounded-3xl bg-[#D8E6FFB2]/70 px-[2rem] py-[1.5rem]`}
+                    className={`rounded-3xl bg-gradient-to-br from-[#FB9100] to-[#000000] px-[2rem] py-[1.5rem]`}
                   >
-                    <div className="font text-center text-xl font-semibold text-[#101C3A] lg:text-[36px]">
-                      <div className="font text-left text-xl font-semibold text-[#101C3A] lg:text-[50px]">
+                    <div className="font text-center text-xl font-semibold text-[#FFFFFF] lg:text-[36px]">
+                      <div className="font text-left text-xl font-semibold text-[#FFFFFF] lg:text-[50px]">
                         <CountUp end={record.number} />
                         {record.suffix}
                       </div>
                     </div>
-                    <h5 className="pb-[1rem] pt-[3.25rem] text-left text-[#111111]">
+                    <h5 className="pb-[1rem] pt-[3.25rem] text-left text-[#FFFFFF]">
                       {record.name}
                     </h5>
-                    <p className="text-left text-[#656565]">
+                    <p className="text-left text-[#FFFFFF]">
                       {record.description}
                     </p>
                   </div>

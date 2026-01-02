@@ -5,6 +5,7 @@ import MaxWidthWrapper from '../MaxWidthWrapper';
 import Heading from '../../common/Heading';
 import Button from '../../common/Button';
 import blog_bg_opecity from '../../../../../public/assets/images/home/blog_bg_opecity.png';
+import SaveAndCancel from '../../common/SaveAndCancel';
 
 const Blogs = () => {
   const { subTitle, title, description, blogs } = BlogSectionData;
@@ -21,7 +22,7 @@ const Blogs = () => {
             title={title}
             span={''}
             description={description}
-            isVarticle={true}
+            isInCenter={true}
             isBgWhite={true}
             className="w-[100%] lg:w-[70%]"
           />
@@ -33,35 +34,34 @@ const Blogs = () => {
                 key={idx}
                 className={`rounded-3xl shadow-[0_0_20px_rgba(0,0,0,0.14)]`}
               >
-                <div className="relative h-[180px] w-full overflow-hidden rounded-r-2xl lg:h-[252px]">
+                <div className="relative h-[180px] w-full overflow-hidden rounded-2xl lg:h-[252px]">
                   <Image
                     src={blog?.image}
                     fill
                     alt=""
-                    className="rounded-r-2xl object-cover transition-transform duration-500 ease-in-out hover:scale-110"
+                    className="rounded-2xl object-fill transition-transform duration-500 ease-in-out hover:scale-110"
                   />
                 </div>
-                <div className="p-[2rem]">
-                  <p className="pb-[0.5rem] font text-xs font-[500] text-[#101C3A] lg:text-sm">
-                    {blog.title}
+                <div className="space-y-4 p-[2rem]">
+                  <p className="font my-auto text-[14px] font-medium text-[#C4C4C4] lg:text-xs">
+                    30, July 2025
                   </p>
-                  <div className="flex w-full justify-between border-t pt-[1rem]">
-                    <Button
-                      href={''}
-                      name="Read More"
-                      className="tex-[14px] !bg-yellow-200 py-[6px]"
+                  <h5 className="font-semibold text-[#111111]">{blog.title}</h5>
+                  <p>
+                    Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry.{' '}
+                  </p>
+                  <div className="flex w-full justify-between pt-[1rem]">
+                    <SaveAndCancel
+                      isBgWhite={true}
+                      name={'Read More'}
+                      isIcon={true}
                     />
-                    <p className="my-auto font text-[14px] font-medium text-[#C4C4C4] lg:text-xs">
-                      30, July 2025
-                    </p>
                   </div>
                 </div>
               </div>
             );
           })}
-        </div>
-        <div className="flex items-center justify-center lg:mt-[2rem]">
-          <Button href="" name="View All Blogs" />
         </div>
       </MaxWidthWrapper>
     </section>

@@ -31,16 +31,18 @@ const Heading = ({
         <div className="">
           <div className="md:flex` w- block gap-3">
             <div className="flex justify-center">
-              <div className="flex w-fit justify-center gap-3 rounded-full border-[0.71px] border-[#FFFFFF]/50 bg-[#FFFFFF] px-[1rem] py-[0.25rem]">
+              <div
+                className={` ${isBgWhite ? 'border-[#000000]/50 bg-[#FFFFFF]' : 'border-[#FFFFFF]/50 bg-[#FFFFFF]'} flex w-fit justify-center gap-3 rounded-full border-[0.71px] px-[1rem] py-[0.25rem]`}
+              >
                 <Image
-                  src={blue_star}
+                  src={isBgWhite ? star : blue_star}
                   width={18}
                   height={17}
                   alt=""
                   className="mb-auto"
                 />
                 <span
-                  className={`font-montserrat my-auto text-[12px] font-normal uppercase text-[#000000]`}
+                  className={`my-auto font-montserrat text-[12px] font-normal uppercase text-[#000000]`}
                 >
                   {subTitle}
                 </span>
@@ -84,7 +86,7 @@ const Heading = ({
                 alt=""
                 className="mb-auto"
               />
-              <span className="font-montserrat my-auto text-[12px] font-normal uppercase text-[#000000]">
+              <span className="my-auto font-montserrat text-[12px] font-normal uppercase text-[#000000]">
                 {subTitle}
               </span>
               {/* <div className="mb-auto mt-3 h-0.5 w-24 bg-[#D7EBFF]"></div> */}
