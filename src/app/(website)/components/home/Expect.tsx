@@ -35,12 +35,12 @@ const Expect = () => {
           {/* Content Section */}
           <div className="flex-1 p-2 text-center lg:text-left">
             <p className="">{description}</p>
-            {/* <p className="py-3">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p> */}
+            <p className="py-3">
+              At Adaired Digital Media, we don’t just create strategies; we
+              deliver measurable impact. Our approach transforms ideas into
+              action and action into results that are important to your
+              business.
+            </p>
             {/* Points Section */}
             <div className="grid grid-cols-1 gap-3 md:mt-[2.5rem] md:grid-cols-2 lg:grid-cols-2">
               {records?.map((record, idx: any) => {

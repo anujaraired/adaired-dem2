@@ -1,3 +1,4 @@
+'use client';
 import { BlogSectionData } from '@/@core/data/website/Homepage';
 import Image from 'next/image';
 import { useState } from 'react';
@@ -32,7 +33,7 @@ const Blogs = () => {
             return (
               <div
                 key={idx}
-                className={`rounded-3xl shadow-[0_0_20px_rgba(0,0,0,0.14)] bg-[#FFFFFF]`}
+                className={`rounded-3xl bg-[#FFFFFF] shadow-[0_0_20px_rgba(0,0,0,0.14)]`}
               >
                 <div className="relative h-[190px] w-full overflow-hidden rounded-2xl lg:h-[306px]">
                   <Image
@@ -43,7 +44,7 @@ const Blogs = () => {
                   />
                 </div>
                 <div className="space-y-4 p-[2rem]">
-                  <p className="font border-[0.5px] border-[#000000] w-fit px-[1rem] rounded-full my-auto text-[14px]">
+                  <p className="font my-auto w-fit rounded-full border-[0.5px] border-[#000000] px-[1rem] text-[14px]">
                     30, July 2025
                   </p>
                   <h5 className="font-semibold text-[#111111]">{blog.title}</h5>

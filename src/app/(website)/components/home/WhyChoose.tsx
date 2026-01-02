@@ -10,7 +10,7 @@ import ChooseIcon2 from '../../../../../public/assets/icons/Group 1000004066.png
 import curve from '../../../../../public/assets/icons/curve_Imag.png';
 
 const WhyChoose = () => {
-  const { subTitle, title, description, points } = WhyChooseSectionData;
+  const { subTitle, title,span, description, points } = WhyChooseSectionData;
   const [isHover, setIsHover] = useState<number | null>(1);
   return (
     <section className="relative md:py-[8rem]">
@@ -20,7 +20,7 @@ const WhyChoose = () => {
           <Heading
             subTitle={subTitle}
             title={title}
-            span={''}
+            span={span}
             description={description}
             isInCenter={true}
             isBgWhite={true}
@@ -43,7 +43,7 @@ const WhyChoose = () => {
                   className="relative"
                 >
                   <div
-                    className={`mt-[-2.5rem] h-[27.5rem] cursor-pointer rounded-3xl border-[1px] border-[#FB910040] bg-[#FFF8F0] p-[2rem] transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl`}
+                    className={`mt-[-2.5rem] h-[24rem] cursor-pointer rounded-3xl border-[1px] border-[#FB910040] bg-[#FFF8F0] p-[2rem] transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl`}
                   >
                     <Image
                       src={item.icon}

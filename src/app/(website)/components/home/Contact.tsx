@@ -11,6 +11,7 @@ import reachout from '../../../../../public/assets/images/home/contact_us.png';
 import chat from '../../../../../public/assets/icons/chat.png';
 import SelectField from '../UI/SelectField';
 import ContactForm from '../forms/ContactForm';
+import ContactPageForm from '../forms/ContactPageForm';
 
 const Contact = () => {
   const { image, subTitle, title, description } = ContactSectionData;
@@ -45,7 +46,8 @@ const Contact = () => {
               className="rounded-3xl border-[#e3e3e3] object-cover p-1"
             />
           </div>
-          <ContactForm />
+          {/* <ContactForm /> */}
+          <ContactPageForm />
         </div>
       </MaxWidthWrapper>
     </section>

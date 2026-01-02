@@ -13,7 +13,7 @@ import check from '../../../../../public/assets/icons/check.png';
 import { PiSealCheckBold } from 'react-icons/pi';
 
 const About = () => {
-  const { subTitle, title, points, cursive } = AboutSectionData;
+  const { subTitle, title, points, description, cursive } = AboutSectionData;
   const { ref, className } = useImageAnimation({
     direction: 'left',
     delay: 350,
@@ -38,7 +38,7 @@ const About = () => {
                 className="rounded-lg"
               />
             </div>
-            <div className="animate-zoomPulse absolute left-0 top-14 flex gap-2 rounded-xl border-[1px] border-[#000000]/10 bg-[#FFFFFF] px-4 py-2">
+            <div className="absolute left-0 top-14 flex animate-zoomPulse gap-2 rounded-xl border-[1px] border-[#000000]/10 bg-[#FFFFFF] px-4 py-2">
               <Image
                 src={check}
                 width={18}
@@ -65,7 +65,7 @@ const About = () => {
               alt="Mask Image"
               width={246}
               height={136}
-              className="absolute bottom-20 left-6 -z-10"
+              className="absolute -bottom-8 left-5 -z-10"
             />
 
             {/* ABOUT GRAPH – BOTTOM RIGHT */}
@@ -74,7 +74,7 @@ const About = () => {
               alt="Graph Image"
               width={276}
               height={215}
-              className="absolute bottom-9 right-0"
+              className="absolute -bottom-10 right-0"
             />
           </div>
 
@@ -85,13 +85,12 @@ const About = () => {
               subTitle={subTitle}
               title={title}
               span=""
-              description={`Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`}
+              description={description}
             />
             <p className="font-montserrat">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+              We've helped brands transform their digital presences, build loyal
+              audiences, and exceed their growth goals. When you work with us,
+              you are investing in outcomes rather than simply marketing.
             </p>
 
             <div className="gap-5 space-y-8 py-6 sm:flex-row">
@@ -111,7 +110,7 @@ const About = () => {
                   {/* CONTENT */}
                   <div>
                     <h4 className="text-xs font-bold">{point.title}</h4>
-                    <p className="font-montserrat mt-1 text-xs">
+                    <p className="mt-1 font-montserrat text-xs">
                       {point.description}
                     </p>
                   </div>

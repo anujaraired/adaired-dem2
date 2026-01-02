@@ -95,7 +95,7 @@ const ImageWithDetailedFeatureDescription = ({
         >
           {data.title}
         </h2>
-        <div className="space-y-4 font text-lg">
+        <div className="font space-y-4 text-lg">
           {parse(data.description, options)}
         </div>
         <div>

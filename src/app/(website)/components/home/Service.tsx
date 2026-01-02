@@ -14,7 +14,7 @@ import SaveAndCancel from '../../common/SaveAndCancel';
 import { MdArrowOutward } from 'react-icons/md';
 
 const Services = () => {
-  const { subtitle, title, description, services } = ServiceSectionData;
+  const { subtitle, title, span, description, services } = ServiceSectionData;
   const [activeTab, setActiveTab] = useState(0);
   const zoom = useHoverZoom({
     scaleIn: 1.1,
@@ -44,7 +44,7 @@ const Services = () => {
             <Heading
               subTitle={subtitle}
               title={title}
-              span=""
+              span={span}
               description={description}
               isInCenter={true}
             />

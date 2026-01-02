@@ -17,19 +17,19 @@ export const AboutSectionData = {
   subTitle: 'ABOUT US',
   title: 'Every Brand Has A Story, And We’re Here To Tell It Better!',
   description:
-    'Transform your marketing outcomes and experience exponential ROI growth by partnering with Adaired! We offer smart, targeted, integrated campaigns that drive traffic, build engagement, generate conversions, and foster long-term relationships. Our online marketing services will turn your website into a lead-generating machine, and our ongoing efforts will bring in more clients than you can handle.',
+    'As a powerhouse digital agency, we craft bold ideas backed by data and fueled by creativity that attract attention, command authority, and convert consistently. If you want a partner that pushes limits and powers real growth, you’re in the right place.',
   points: [
     {
       icon: goal,
       title: 'Our Mission',
       description:
-        'From building identities to shaping conversations and driving measurable impact, we work as your dedicated enterprise digital marketing agency, focused on outcomes, inspired by ideas, and committed to making your brand hard to ignore.',
+        'We work as your dedicated enterprise digital marketing agency, focused on outcomes, inspired by ideas, and committed to making your brand hard to ignore.',
     },
     {
       icon: visible,
       title: 'Our Vision',
       description:
-        'We’re a team of expert strategists, creators, designers, and digital thinkers, a modern blend you’d expect from leading digital transformation agencies, who turn insights into ideas. For us, it’s simple: brands don’t grow by accident. They grow with intention, consistency, and bold execution. That’s what we bring to the table.',
+        'We’re a team of expert strategists, and digital thinkers, a modern blend you’d expect from leading digital transformation agencies, who turn insights into ideas.',
     },
   ],
   cursive:
@@ -41,9 +41,9 @@ export const AboutSectionData = {
 export const ExpectSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
   subTitle: 'What You Can Expect',
-  title: 'Digital Marketing Experts Dedicated To Your Growth',
-  description:
-    "Our clients, from startups to established brands, experience measurable increases in traffic, engagement, leads, and revenue. Every campaign, design, and post is intended to aid your growth. We've helped brands transform their digital presences, build loyal audiences, and exceed their growth goals. When you work with us, you are investing in outcomes rather than simply marketing.",
+  title:
+    'Proven Growth Across Industries Through Strategy, Creativity, and Measurable Results',
+  description: `Our clients, from startups to established brands, experience measurable increases in traffic, engagement, leads, and revenue. Every campaign, design, and post is intended to aid your growth.`,
   points: [
     {
       icon: 'Static Website Images/homepage_about2',
@@ -76,31 +76,31 @@ export const ExpectSectionData = {
   records: [
     {
       number: 7,
-      suffix: '+',
-      name: 'Years of Industry Expertise',
+      suffix: ' years',
+      name: 'Industry Expertise',
       description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ',
+        'Proven experience delivering thoughtfully crafted digital strategies designed to drive measurable results',
     },
     {
       number: 500,
       suffix: '+',
       name: 'Projects Delivered',
       description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ',
+        'Successfully executed projects focused on performance, precision, consistency, and measurable outcomes',
     },
     {
       number: 30,
       suffix: 'M+',
-      name: 'Organic Impressions Generated',
+      name: 'Organic Impressions',
       description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ',
+        'Consistent organic growth achieved through data-led SEO and content-driven digital strategies',
     },
     {
       number: 320,
       suffix: '+',
-      name: 'Brands Empowered Globally',
+      name: 'Rands Empowered Globally',
       description:
-        'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the ',
+        'Helping brands across the globe grow visibility, credibility, trust, and sustainable success.',
     },
   ],
 };
@@ -108,7 +108,8 @@ export const ExpectSectionData = {
 export const WhyChooseSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
   subTitle: 'WHY CHOOSE US',
-  title: 'Because Your Brand Deserves the Best!',
+  title: 'Your brand deserves more than',
+  span: 'attention—strategy and creativity.',
   description:
     'Choosing a digital partner is more than just selecting a service; it is selecting a team that understands your vision, elevates your ideas, and drives the growth your brand deserves.',
   points: [
@@ -117,28 +118,28 @@ export const WhyChooseSectionData = {
       title: 'Experienced ',
       span: 'Digital Specialists',
       description:
-        "Our team includes skilled digital experts who understand what works in today's competitive environment. From strategy to execution, we have years of hands-on expertise to help your brand grow faster and smarter.",
+        "Our team includes skilled digital experts who understand what works in today's competitive environment. From strategy to execution.",
     },
     {
       icon: Dedicated,
       title: 'Dedicated ',
       span: 'Project Manager',
       description:
-        'Every client is assigned a single point of contact who understands your objectives, keeps everything on track, and ensures effective communication from beginning to end. There will be no confusion or delays, only seamless project management.',
+        'Every client is assigned a single point of contact who understands your objectives, keeps everything on track, and ensures effective communication.',
     },
     {
       icon: Transparent,
       title: 'Transparent',
       span: 'Processes',
       description:
-        'We believe in honesty at every step. You always know what we’re doing, why we’re doing it, and how it benefits your brand. Clear updates, open communication, and performance reports you can trust.',
+        'We believe in honesty at every step. You always know what we’re doing, why we’re doing it, and how it benefits your brand.',
     },
     {
       icon: customer,
       title: 'Customer',
       span: 'First Approach',
       description:
-        'Your success is our priority. We listen, we understand, and we tailor our solutions to your needs, not the other way around. Your goals guide our strategy, and your growth drives our decisions.',
+        'Your success is our priority. We listen, we understand, and we tailor our solutions to your needs, not the other way around. ',
     },
   ],
 };
@@ -146,10 +147,10 @@ export const WhyChooseSectionData = {
 export const CaseStudySectionData = {
   image: 'Static Website Images/about_main_anwqk5',
   subTitle: 'CASE STUDIES',
-  title: 'Digital Agency That',
-  span: 'Turns Businesses Into Brands',
+  title: 'We transform businesses into',
+  span: 'memorable brands.',
   description:
-    'Choosing a digital partner is more than just selecting a service; it is selecting a team that understands your vision, elevates your ideas, and drives the growth your brand deserves.',
+    'We combine strategy, creativity, and data to deliver digital solutions that drive measurable growth and long-term success. Every solution we build is designed to turn visibility into engagement and engagement into results.',
   studies: [
     {
       image: 'Static Webstudy_3',
@@ -188,42 +189,42 @@ export const TestimonialSectionData = {
   testimonials: [
     {
       image: 'Static Website Images/homepage_about2',
-      name: 'Sherry Lin',
+      name: 'Lina M., Marketing Director',
       description:
-        'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out.',
+        'Adaired’s social media strategy completely transformed our engagement. Our follower growth and customer interactions have skyrocketed!',
       bgColor: '#FFF4F3',
       rating: 5,
     },
     {
       image: 'Static Website Images/homepage_about1',
-      name: 'Sherry Lin',
+      name: 'Raj P., CEO',
       description:
-        'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out.',
+        'Thanks to Adaired’s SEO and content services, our website traffic doubled, and we’re attracting the right clients.',
       bgColor: '#D7EBFF',
       rating: 5,
     },
     {
       image: 'Static Website Images/homepage_about2',
-      name: 'Sherry Lin',
+      name: ' Sofia K., Founder',
       description:
-        'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out.',
+        'Their full-service digital campaign helped us launch a new product successfully, driving sales and brand recognition fast.',
       bgColor: '#E1F2E2',
       rating: 5,
     },
-        {
+    {
+      image: 'Static Website Images/homepage_about2',
+      name: 'Lina M., Marketing Director',
+      description:
+        'Adaired’s social media strategy completely transformed our engagement. Our follower growth and customer interactions have skyrocketed!',
+      bgColor: '#FFF4F3',
+      rating: 5,
+    },
+    {
       image: 'Static Website Images/homepage_about1',
-      name: 'Sherry Lin',
+      name: 'Raj P., CEO',
       description:
-        'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out.',
+        'Thanks to Adaired’s SEO and content services, our website traffic doubled, and we’re attracting the right clients.',
       bgColor: '#D7EBFF',
-      rating: 5,
-    },
-    {
-      image: 'Static Website Images/homepage_about2',
-      name: 'Sherry Lin',
-      description:
-        'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out.',
-      bgColor: '#E1F2E2',
       rating: 5,
     },
   ],
@@ -287,7 +288,8 @@ export const LogoSliderSectionData = {
 
 export const ServiceSectionData = {
   subtitle: 'WHAT WE DO',
-  title: 'How We Help Your Brand Grow',
+  title: 'Trusted by Clients for Professional, ',
+  span: 'Reliable, and Quality Solutions',
   description:
     "Adaired Digital Media believes that every solution should elevate your brand, connect with your target audience, and generate measurable growth. Here's how we accomplish it:",
   services: [
@@ -546,41 +548,40 @@ export const FAQSSectionData = {
   faqs: [
     {
       image: blog_1,
-      title: 'What services does Adaired offer?',
+      title: 'What services does Adaired provide?',
       description:
-        'Adaired is a full-service digital agency providing branding, website design, UI/UX, digital marketing, performance ads, and growth-focused strategies tailored to your business goals.',
+        'Adaired is a full-service digital agency that provides SEO, web design and development, branding, UI/UX, content marketing, social media management, paid advertising, and performance-based digital strategies. Everything we do is customized for your specific business goals, ensuring measurable growth rather than simply maintaining an online presence.',
       bgColor: '#FFF4F3',
       rating: 5,
     },
     {
       image: blog_2,
-      title: 'How does Adaired approach new projects?',
+      title: 'How does Adaired deal with new projects?',
       description:
-        'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out.',
+        'We begin by learning about your brand, goals, target audience, and challenges. Before moving forward with execution, we develop a clear strategy based on data and insights. Every project has a structured, transparent process that ensures alignment, clarity, and results at all stages.',
       bgColor: '#D7EBFF',
       rating: 5,
     },
     {
       image: blog_3,
       title: 'Do you work with startups or established brands?',
-      description:
-        'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out.',
+      description: `We collaborate with both. Whether you're a startup building a digital platform or an established brand looking to grow, we tailor our approach to your stage of development, industry, and objectives. Our strategies are adaptable, scalable, and designed to grow with your company.`,
       bgColor: '#E1F2E2',
       rating: 5,
     },
     {
       image: blog_2,
-      title: 'How does Adaired approach new projects?',
+      title: 'What is the average time frame for a project?',
       description:
-        'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out.',
+        'Project timelines differ depending on the scope and complexity of the task. Smaller projects may take a few weeks to complete, whereas larger, multi-service campaigns may require months. We will provide you with a clear timeline once we have determined your requirements.',
       bgColor: '#D7EBFF',
       rating: 5,
     },
     {
       image: blog_3,
-      title: 'Do you work with startups or established brands?',
+      title: 'Will I be involved during the process?',
       description:
-        'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out.',
+        'Absolutely. We believe collaboration leads to better results. You’ll have a dedicated project manager who keeps you informed, gathers feedback, and ensures your vision is reflected throughout the project. You’re involved at key stages, without being overwhelmed.',
       bgColor: '#E1F2E2',
       rating: 5,
     },

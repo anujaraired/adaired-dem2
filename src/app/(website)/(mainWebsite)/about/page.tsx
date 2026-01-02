@@ -9,6 +9,7 @@ import type { Metadata } from 'next';
 import CldImage from '@web-components/CloudinaryImageComponent';
 import { BaseURL } from '@/baseUrl';
 import Heading from '../../common/Heading';
+import Blogs from '../../components/home/Blogs';
 
 export const metadata: Metadata = {
   title: 'Unveiling Adaired: Our History, Team, and Vision | Learn About Us',
@@ -57,7 +58,8 @@ const About = async () => {
       <WorkStation />
       <ProcessSection />
       <TestimonialSlider />
-      <BlogCards blogs={blogs} />
+      <Blogs/>
+      {/* <BlogCards blogs={blogs} /> */}
     </div>
   );
 };

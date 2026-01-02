@@ -7,6 +7,7 @@ import Button from '../../common/Button';
 import { routes } from '@/config/routes';
 import { useReCaptcha } from 'next-recaptcha-v3';
 import { usePathname, useRouter } from 'next/navigation';
+import SaveAndCancel from '../../common/SaveAndCancel';
 
 const schema = z.object({
   gRecaptchaToken: z.string(),
@@ -104,10 +105,15 @@ function GetInTouchForm({ colorScheme }: { colorScheme: string }) {
           className="font text-lg"
         />
 
-        <Button
+        {/* <Button
           name="Send Your Inquiry"
           className="w-full justify-center border-[#FB9100] bg-white pl-0 pr-0 text-black hover:pl-0 hover:pr-0"
           onClick={() => onSubmit}
+        /> */}
+        <SaveAndCancel
+          name={'Send Your Inquiry'}
+          isIcon={true}
+          handleClick={() => onSubmit}
         />
       </form>
     </div>
