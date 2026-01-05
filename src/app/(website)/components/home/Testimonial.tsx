@@ -17,27 +17,6 @@ const Testimonial = () => {
   const [index, setIndex] = useState(0);
   const [enableTransition, setEnableTransition] = useState(true);
 
-  // Auto slide
-  // useEffect(() => {
-  //   const interval = setInterval(() => {
-  //     setIndex((prev) => prev + 1);
-  //   }, 3000);
-
-  //   return () => clearInterval(interval);
-  // }, []);
-
-  // Reset when reaching cloned slides
-  // useEffect(() => {
-  //   if (index === total) {
-  //     setTimeout(() => {
-  //       setEnableTransition(false);
-  //       setIndex(0);
-  //     }, 700); // must match transition duration
-  //   } else {
-  //     setEnableTransition(true);
-  //   }
-  // }, [index, total]);
-
   return (
     <section className="relative bg-gradient-to-b from-[#05121E] to-[#1A5A96] bg-cover bg-no-repeat py-6 lg:py-[6rem]">
       <div className="relative z-20">
@@ -65,14 +44,14 @@ const Testimonial = () => {
               }}
             >
               {slides.map((testimonial: any, idx: number) => (
-                <div key={idx} className="shrink-0 basis-1/3 px-[1rem]">
-                  <div className="transform-gpu rounded-2xl bg-white p-[2.5rem] transition-all duration-300 ease-out hover:scale-[1.03] hover:border-[5px] hover:border-[#1B5A96]">
+                <div className="relative shrink-0 basis-1/3 px-[1rem]">
+                  <div className="h-full min-h-[270px] transform-gpu rounded-2xl border-[5px] border-transparent bg-white p-[2.5rem] transition-all duration-300 ease-out will-change-transform hover:scale-[1.03] hover:border-[#1B5A96]">
                     <p className="text-sm text-[#262626]">
                       {testimonial.description}
                     </p>
 
                     <div className="flex justify-between pt-[2rem]">
-                      <div>
+                      <div className="absolute bottom-10 left-10">
                         <p className="text-sm font-medium">
                           {testimonial.name}
                         </p>
@@ -87,7 +66,7 @@ const Testimonial = () => {
                         </div>
                       </div>
 
-                      <div className="h-[25px] w-[95px]">
+                      <div className="absolute bottom-10 right-10 h-[25px] w-[95px]">
                         <Image
                           src={google}
                           width={95}
