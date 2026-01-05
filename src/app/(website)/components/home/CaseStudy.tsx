@@ -53,7 +53,7 @@ const CaseStudy = () => {
             description={description}
           />
         </div>
-        <div className="grid grid-cols-1 gap-7 py-[1.5rem] md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-7 pt-[3.5rem]  md:grid-cols-2 lg:grid-cols-3">
           {studies?.map((study, idx) => {
             return (
               <div
