@@ -165,6 +165,30 @@ const config: Omit<Config, 'prefix' | 'presets' | 'content'> = {
           opacity: '0',
         },
       },
+      pageOpen: {
+        '0%': {
+          opacity: '0',
+          transform: 'translateX(-40px) scale(0.96)',
+        },
+        '60%': {
+          opacity: '1',
+          transform: 'translateX(10px) scale(1.02)',
+        },
+        '100%': {
+          transform: 'translateX(0) scale(1)',
+        },
+      },
+      contentReveal: {
+        '0%': {
+          opacity: '0',
+          // transform: 'translateX(-8px) translateY(12px)',
+          transform: 'translateX(-6px) translateY(16px)',
+        },
+        '100%': {
+          opacity: '1',
+          transform: 'translateX(0) translateY(0)',
+        },
+      },
     },
     animation: {
       step1: 'stepBounce1 4s ease-in-out infinite',
@@ -176,6 +200,9 @@ const config: Omit<Config, 'prefix' | 'presets' | 'content'> = {
       animateping: 'animate-ping',
       zoomPulse: 'zoomPulse 1.5s ease-in-out infinite',
       bubble: 'bubble 90s ease-out infinite',
+      pageOpen: 'pageOpen 0.55s ease-out forwards',
+      // contentReveal: 'contentReveal 0.35s cubic-bezier(0.22, 1, 0.36, 1) both',,
+      contentReveal: 'contentReveal 0.6s cubic-bezier(0.22, 1, 0.36, 1) both',
     },
   },
   plugins: [
