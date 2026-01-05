@@ -9,10 +9,19 @@ import seo from '../../../../../public/assets/images/home/seo-tag-3d-icon 1.png'
 import check from '../../../../../public/assets/icons/check_1.svg';
 import SaveAndCancel from '../../common/SaveAndCancel';
 import { MdArrowOutward } from 'react-icons/md';
+import useImageCenterAnimation from '@/@core/hooks/useImageCenterAnimation';
 
 const Services = () => {
-  const { subtitle, title, span, description, services } = ServiceSectionData;
   const [activeTab, setActiveTab] = useState(0);
+
+  const { ref, className } = useImageCenterAnimation(
+    {
+      direction: 'left',
+      delay: 650,
+    },
+    activeTab
+  );
+  const { subtitle, title, span, description, services } = ServiceSectionData;
   const zoom = useHoverZoom({
     scaleIn: 1.1,
     scaleOut: 0.9,
@@ -76,7 +85,7 @@ const Services = () => {
             {/* RIGHT SIDE - ACTIVE CONTENT */}
             <div
               key={activeTab}
-              className="animate-fadeIn relative col-span-2 ml-[2rem] rounded-3xl border-[1px] border-[#FB910066] bg-[#FFFFFF] p-[1rem] lg:pl-[8rem] lg:pr-[4.5rem] lg:pt-[4rem]"
+              className="animate- relative col-span-2 ml-[2rem] rounded-3xl border-[1px] border-[#FB910066] bg-[#FFFFFF] p-[1rem] lg:pl-[8rem] lg:pr-[4.5rem] lg:pt-[4rem]"
             >
               <h4 className="mb-4 animate-[contentReveal_0.6s_120ms_both] font-[700]">
                 {services[activeTab].title}
@@ -111,12 +120,17 @@ const Services = () => {
                 className="absolute bottom-16 animate-[contentReveal_0.7s_500ms_both]"
               />
 
-              <div className="absolute bottom-0 right-[2.5rem] hidden lg:block">
+              <div
+                ref={ref}
+                className={`absolute bottom-0 right-[2.5rem] hidden lg:block ${className}`}
+              >
                 <Image
+                  key={activeTab}
                   src={seo}
                   width={512}
                   height={383}
                   alt="service visual"
+                  className=""
                 />
               </div>
             </div>

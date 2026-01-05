@@ -1,6 +1,5 @@
 import { AboutSectionData } from '@/@core/data/website/Homepage';
 import React from 'react';
-import useImageAnimation from '@/@core/hooks/useImageAnimation';
 import MaxWidthWrapper from '../MaxWidthWrapper';
 import Heading from '../../common/Heading';
 import Image from 'next/image';
@@ -11,12 +10,21 @@ import Mask from '../../../../../public/assets/images/home/Mask group.png';
 import check from '../../../../../public/assets/icons/check.png';
 
 import { PiSealCheckBold } from 'react-icons/pi';
+import {
+  useImageReveal,
+  useZoomOnView,
+} from '@/@core/hooks/useScrollAnimations';
 
 const About = () => {
   const { subTitle, title, points, description, cursive } = AboutSectionData;
-  const { ref, className } = useImageAnimation({
+  const { ref: imageRef, className: imageClass } = useImageReveal({
     direction: 'left',
     delay: 350,
+  });
+
+  const { ref: zoomRef, className: zoomClass } = useZoomOnView({
+    delay: 200,
+    once: true,
   });
 
   return (
@@ -27,8 +35,8 @@ const About = () => {
           <div className="relative mx-auto flex-1">
             {/* CENTER IMAGE */}
             <div
-              ref={ref}
-              className={`flex items-center justify-center p-3 ${className}`}
+              ref={imageRef}
+              className={`flex items-center justify-center p-3 ${imageClass}`}
             >
               <Image
                 src={img}
@@ -69,13 +77,16 @@ const About = () => {
             />
 
             {/* ABOUT GRAPH – BOTTOM RIGHT */}
-            <Image
-              src={about_graph}
-              alt="Graph Image"
-              width={276}
-              height={215}
-              className="absolute -bottom-10 right-0"
-            />
+            <div ref={zoomRef} className={`${zoomClass}`}>
+              <Image
+                src={about_graph}
+                alt="Graph Image"
+                width={276}
+                height={215}
+                // ref={zoomRef}
+                className={`absolute -bottom-10 right-0`}
+              />
+            </div>
           </div>
 
           {/* Content Section */}

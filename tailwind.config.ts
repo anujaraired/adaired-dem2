@@ -174,6 +174,16 @@ const config: Omit<Config, 'prefix' | 'presets' | 'content'> = {
           opacity: '1',
           transform: 'translateX(0) translateY(0)',
         },
+        imageZoomIn: {
+          '0%': {
+            opacity: '0',
+            transform: 'scale(0.88)',
+          },
+          '100%': {
+            opacity: '1',
+            transform: 'scale(1)',
+          },
+        },
       },
     },
     animation: {
@@ -187,6 +197,7 @@ const config: Omit<Config, 'prefix' | 'presets' | 'content'> = {
       zoomPulse: 'zoomPulse 1.5s ease-in-out infinite',
       bubble: 'bubble 90s ease-out infinite',
       contentReveal: 'contentReveal 0.6s cubic-bezier(0.22, 1, 0.36, 1) both',
+      imageZoomIn: 'imageZoomIn 0.7s cubic-bezier(0.22, 1, 0.36, 1) both',
     },
   },
   plugins: [
