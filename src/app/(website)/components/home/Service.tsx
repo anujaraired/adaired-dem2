@@ -74,7 +74,7 @@ const Services = () => {
                     {isActive && (
                       <MdArrowOutward
                         size={48}
-                        className={`animate-zoomPulse rounded-full p-3 text-black ${isActive ? 'bg-[#FFFFFF] text-[#FCA32A]' : 'text-black'}`}
+                        className={`animate-zoomPulse rounded-full p-3 text-[#FCA32A] ${isActive ? 'bg-[#FFFFFF] text-[#FCA32A]' : 'text-black'}`}
                       />
                     )}
                   </div>
