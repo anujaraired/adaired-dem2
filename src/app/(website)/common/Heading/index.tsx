@@ -14,7 +14,7 @@ export interface IHeading {
   isBgWhite?: boolean;
   className?: string;
   isDecVarticle?: boolean;
-  description2?:string;
+  description2?: string;
 }
 const Heading = ({
   subTitle,
@@ -56,14 +56,14 @@ const Heading = ({
             <div className="mt-[1px] md:mt-[15px]">
               {isH1 ? (
                 <h1
-                  className={`${isBgWhite ? 'text-[#000000]' : 'text-[#FFFFFF]'} text-center`}
+                  className={`${isBgWhite ? 'text-[#111111]' : 'text-[#FFFFFF]'} text-center`}
                 >
                   {title} <br></br>
                   {span}
                 </h1>
               ) : (
                 <h2
-                  className={`${isBgWhite ? 'text-[#000000]' : 'text-[#FFFFFF]'} text-center`}
+                  className={`${isBgWhite ? 'text-[#111111]' : 'text-[#FFFFFF]'} text-center`}
                 >
                   {title} <br></br>
                   {span}
