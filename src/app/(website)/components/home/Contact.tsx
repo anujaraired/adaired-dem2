@@ -14,7 +14,7 @@ import ContactForm from '../forms/ContactForm';
 import ContactPageForm from '../forms/ContactPageForm';
 
 const Contact = () => {
-  const { image, subTitle, title, description } = ContactSectionData;
+  const { image, subTitle, title, span, description } = ContactSectionData;
 
   const { ref, className } = useImageAnimation({
     direction: 'left',
@@ -28,7 +28,7 @@ const Contact = () => {
           <Heading
             subTitle={subTitle}
             title={title}
-            span={''}
+            span={span}
             description={description}
             isInCenter={true}
             isBgWhite={true}

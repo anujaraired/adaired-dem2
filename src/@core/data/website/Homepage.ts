@@ -181,11 +181,11 @@ export const CaseStudySectionData = {
 
 export const TestimonialSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
-  subTitle: 'TESTIMONIAL',
-  title: 'What Our Clients Say',
-  span: 'Turns Businesses Into Brands',
+  subTitle: 'Testimonials',
+  title: 'What Our Clients Say About Us',
+  span: '',
   description:
-    'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity.',
+    'Hear directly from the brands we’ve worked with. Real feedback, real experiences, and real results, because nothing speaks louder than the words of satisfied clients.',
   testimonials: [
     {
       image: 'Static Website Images/homepage_about2',
@@ -472,7 +472,8 @@ export const AwardsSectionData = [
 export const ContactSectionData = {
   image: 'Static Website Images/contact_us_image',
   subTitle: 'READY TO GROW?',
-  title: 'Reach Us',
+  title: 'Ready to Grow Your Brand and ',
+  span:"Stay Ahead in the Digital World?",
   description:
     'Stay ahead in the digital world with our latest tips and practical strategies. From marketing trends to SEO insights, our blog helps you grow smarter and faster.',
   contactDetails: [

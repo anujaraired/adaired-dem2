@@ -110,9 +110,9 @@ const Banner = () => {
             </span>
           </div>
           <p>
-            Offering a full-service, 360° digital strategy for your business,
-            helping you rise above the noise and claim your space in the digital
-            world.
+            And that’s where Adaired Digital Media comes in. Offering a
+            full-service, 360° digital strategy for your business, helping you
+            rise above the noise and claim your space in the digital world.
           </p>
           <SaveAndCancel
             name={'Get a Quote'}

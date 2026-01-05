@@ -7,7 +7,7 @@ import Button from '../../common/Button';
 import img from '../../../../../public/assets/images/home/aboutus.png';
 import about_graph from '../../../../../public/assets/images/home/about_graph.png';
 import Mask from '../../../../../public/assets/images/home/Mask group.png';
-import check from '../../../../../public/assets/icons/check.png';
+import check from '../../../../../public/assets/icons/blue_check.png';
 
 import { PiSealCheckBold } from 'react-icons/pi';
 import {

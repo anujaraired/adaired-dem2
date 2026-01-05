@@ -27,7 +27,7 @@ const Testimonial = () => {
             span={''}
             description={description}
             isInCenter={true}
-            className="w-[90%] lg:w-[50%]"
+            className="w-[90%] lg:w-[65%]"
           />
         </div>
         <div className="flex justify-center">
