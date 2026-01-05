@@ -3,11 +3,8 @@ import Image from 'next/image';
 import { useState } from 'react';
 import MaxWidthWrapper from '../MaxWidthWrapper';
 import Heading from '../../common/Heading';
-import { IoCheckmark } from 'react-icons/io5';
-import Button from '../../common/Button';
 import useHoverZoom from '@/@core/hooks/useHoverZoom';
 import serviceBg from '../../../../../public/assets/images/home/what_we_do.png';
-import serviceBgOpecity from '../../../../../public/assets/images/home/serviceBg.png';
 import seo from '../../../../../public/assets/images/home/seo-tag-3d-icon 1.png';
 import check from '../../../../../public/assets/icons/check_1.svg';
 import SaveAndCancel from '../../common/SaveAndCancel';
@@ -30,13 +27,6 @@ const Services = () => {
         className="object-cover"
         priority
       />
-      {/* <Image
-        src={serviceBgOpecity}
-        fill
-        alt="overlay"
-        className="object-cover"
-        priority
-      /> */}
 
       <div className="relative z-20">
         <MaxWidthWrapper>
@@ -51,7 +41,7 @@ const Services = () => {
           </div>
 
           {/* MAIN LAYOUT */}
-          <div className="z-20 mt-[2.5rem] block rounded-3xl lg:flex lg:bg-[#F5F5F5]">
+          <div className="z-20 mt-[2.5rem] block h-[45rem] rounded-3xl lg:flex lg:bg-[#F5F5F5]">
             {/* LEFT SIDE - TABS */}
             <div className="z-20 w-full lg:w-[32%] lg:px-[4rem] lg:py-[2.5rem]">
               {services.map((service, idx) => {
@@ -63,7 +53,7 @@ const Services = () => {
                     onClick={() => setActiveTab(idx)} // click
                     className={`my-2 flex w-full cursor-pointer justify-between gap-2 rounded-full border-[4px] transition-all duration-300 ease-in-out lg:my-6 ${
                       isActive
-                        ? 'scale-[1.02] border-[#FB9100] bg-[#FCA32A] py-[10px] pl-[41px] pr-[11px] font-semibold text-white lg:w-[535px]'
+                        ? 'scale-[1.02] border-[#FB9100] bg-[#FCA32A] py-[0.5rem] pl-[41px] pr-[11px] font-semibold text-white lg:w-[535px]'
                         : 'border-[#EFEFEF] bg-white px-[41px] py-[18px] text-black hover:scale-[1.02] hover:bg-[#1B5A96] hover:text-white lg:w-[440px]'
                     } `}
                   >
@@ -88,17 +78,17 @@ const Services = () => {
               key={activeTab}
               className="animate-fadeIn relative col-span-2 ml-[2rem] rounded-3xl border-[1px] border-[#FB910066] bg-[#FFFFFF] p-[1rem] lg:pl-[8rem] lg:pr-[4.5rem] lg:pt-[4rem]"
             >
-              <h4 className="mb-4 font-[700]">{services[activeTab].title}</h4>
+              <h4 className="mb-4 animate-[contentReveal_0.6s_120ms_both] font-[700]">
+                {services[activeTab].title}
+              </h4>
 
-              <p className="mb-6">{services[activeTab].description}</p>
+              <p className="mb-6 animate-[contentReveal_0.6s_200ms_both]">
+                {services[activeTab].description}
+              </p>
 
-              <div className="ml- space-y-2">
+              <div className="ml- animate-[contentReveal_0.6s_300ms_both] space-y-2">
                 {services[activeTab].list?.map((item, i) => (
                   <div key={i} className="flex gap-4 py-1.5 text-black">
-                    {/* <IoCheckmark
-                      size={22}
-                      className="rounded-full bg-[#1EAD0B] p-1 text-white"
-                    /> */}
                     <Image
                       src={check}
                       width={30}
@@ -111,19 +101,14 @@ const Services = () => {
                 ))}
               </div>
 
-              <p className="mt-6">{services[activeTab]?.lastPara}</p>
-
-              {/* <Button
-                href={services[activeTab]?.link}
-                name="Know More"
-                className="mt-9"
-                width={false}
-              /> */}
+              <p className="mt-6 animate-[contentReveal_0.6s_420ms_both]">
+                {services[activeTab]?.lastPara}
+              </p>
               <SaveAndCancel
                 isBgWhite={false}
                 isIcon={true}
                 name={'Know More'}
-                className="absolute bottom-16"
+                className="absolute bottom-16 animate-[contentReveal_0.7s_500ms_both]"
               />
 
               <div className="absolute bottom-0 right-[2.5rem] hidden lg:block">
