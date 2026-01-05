@@ -49,7 +49,7 @@ const Heading = ({
                 {/* <div className="mb-auto mt-3 h-0.5 w-24 bg-[#D7EBFF]"></div> */}
               </div>
             </div>
-            <div className="mt-[1px] md:mt-[8px]">
+            <div className="mt-[1px] md:mt-[15px]">
               {isH1 ? (
                 <h1
                   className={`${isBgWhite ? 'text-[#000000]' : 'text-[#FFFFFF]'} text-center`}
