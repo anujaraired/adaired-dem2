@@ -15,6 +15,7 @@ export interface IHeading {
   className?: string;
   isDecVarticle?: boolean;
   description2?: string;
+  isPara2?:boolean;
 }
 const Heading = ({
   subTitle,
@@ -28,6 +29,7 @@ const Heading = ({
   isH1,
   isDecVarticle,
   description2,
+  isPara2
 }: IHeading) => {
   return (
     <div className={className}>
@@ -110,8 +112,8 @@ const Heading = ({
             </div>
           </div>
           <div className={`${isDecVarticle && 'pt-[1rem]'}`}>
-            <p className="py-4">{description}</p>
-            <p className="py-4">{description2}</p>
+            <p className="pt-4">{description}</p>
+            {isPara2 && <p className="py-4">{description2}</p>}
           </div>
         </div>
       )}

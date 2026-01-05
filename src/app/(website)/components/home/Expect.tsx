@@ -26,6 +26,7 @@ const Expect = () => {
             title={title}
             span=""
             description={description}
+            isPara2={true}
             description2={` At Adaired Digital Media, we don’t just create strategies; we
               deliver measurable impact. Our approach transforms ideas into
               action and action into results that are important to your

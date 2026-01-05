@@ -97,6 +97,7 @@ const About = () => {
               title={title}
               span=""
               description={description}
+              isPara2={true}
               description2={` We've helped brands transform their digital presences, build loyal
               audiences, and exceed their growth goals. When you work with us,
               you are investing in outcomes rather than simply marketing.`}
