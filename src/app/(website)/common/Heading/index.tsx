@@ -13,6 +13,8 @@ export interface IHeading {
   isVarticle?: boolean;
   isBgWhite?: boolean;
   className?: string;
+  isDecVarticle?: boolean;
+  description2?:string;
 }
 const Heading = ({
   subTitle,
@@ -24,6 +26,8 @@ const Heading = ({
   isBgWhite,
   className,
   isH1,
+  isDecVarticle,
+  description2,
 }: IHeading) => {
   return (
     <div className={className}>
@@ -76,7 +80,7 @@ const Heading = ({
           </div>
         </div>
       ) : (
-        <div>
+        <div className={`${isDecVarticle && 'grid grid-cols-2 gap-[10rem]'}`}>
           <div className="md:flex` block w-fit gap-3">
             <div className="flex w-fit gap-3 rounded-full border-[0.71px] border-[#000000]/20 px-[1rem] py-[0.25rem]">
               <Image
@@ -105,8 +109,9 @@ const Heading = ({
               )}
             </div>
           </div>
-          <div>
+          <div className={`${isDecVarticle && 'pt-[1rem]'}`}>
             <p className="py-4">{description}</p>
+            <p className="py-4">{description2}</p>
           </div>
         </div>
       )}

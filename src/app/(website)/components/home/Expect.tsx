@@ -19,30 +19,32 @@ const Expect = () => {
   return (
     <section className="bg-[#F5F5F580]">
       <MaxWidthWrapper className="py-[2rem] lg:py-[8rem]">
-        <div className="relative grid grid-cols-1 gap-[2rem] pt-7 lg:grid-cols-2">
-          <div className="">
-            <Heading subTitle={subTitle} title={title} span="" description="" />
-            <div ref={ref} className={`relative h-[660px] w-full ${className}`}>
-              <Image
-                src={expectImg}
-                alt="About Image"
-                fill
-                className="rounded-3xl object-cover p-1"
-              />
-            </div>
-          </div>
-
-          {/* Content Section */}
-          <div className="flex-1 p-2 text-center lg:text-left">
-            <p className="">{description}</p>
-            <p className="py-3">
-              At Adaired Digital Media, we don’t just create strategies; we
+        <div className="">
+          <Heading
+            isDecVarticle={true}
+            subTitle={subTitle}
+            title={title}
+            span=""
+            description={description}
+            description2={` At Adaired Digital Media, we don’t just create strategies; we
               deliver measurable impact. Our approach transforms ideas into
               action and action into results that are important to your
-              business.
-            </p>
+              business.`}
+          />
+        </div>
+        <div className="relative grid grid-cols-1 gap-[2rem] pt-7 lg:grid-cols-2">
+          {/* Content Section */}
+          <div ref={ref} className={`relative h-[660px] w-full ${className}`}>
+            <Image
+              src={expectImg}
+              alt="About Image"
+              fill
+              className="rounded-3xl object-cover p-1"
+            />
+          </div>
+          <div className="flex-1 p-2 text-center lg:text-left">
             {/* Points Section */}
-            <div className="grid grid-cols-1 gap-3 md:mt-[2.5rem] md:grid-cols-2 lg:grid-cols-2">
+            <div className="grid grid-cols-1 gap-3  md:grid-cols-2 lg:grid-cols-2">
               {records?.map((record, idx: any) => {
                 const isHovered = hover === idx;
 

@@ -44,14 +44,14 @@ const CaseStudy = () => {
   return (
     <section className="">
       <MaxWidthWrapper className="py-[2rem] lg:py-[6rem]">
-        <div className="grid grid-cols-2">
+        <div className="">
           <Heading
             subTitle={subTitle}
             title={title}
             span={span}
-            description={''}
+            isDecVarticle={true}
+            description={description}
           />
-          <p>{description}</p>
         </div>
         <div className="grid grid-cols-1 gap-7 py-[1.5rem] md:grid-cols-2 lg:grid-cols-3">
           {studies?.map((study, idx) => {
