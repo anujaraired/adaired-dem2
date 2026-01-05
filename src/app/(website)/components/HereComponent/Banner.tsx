@@ -57,7 +57,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="animate-pulse relative w-full pt-[8vh]">
+    <div className="animate-pulse relative w-full pt-[10vh]">
       <Image
         src={hero_banner}
         fill
@@ -65,7 +65,7 @@ const Banner = () => {
         priority
         className="pointer-events-none object-cover"
       />
-      <MaxWidthWrapper className="relative z-10 flex justify-between pb-[8rem] pt-[10rem]">
+      <MaxWidthWrapper className="relative z-10 flex justify-between pb-[10rem] pt-[10rem]">
         <div className="w-[42%] space-y-4">
           <Heading
             isH1={true}
