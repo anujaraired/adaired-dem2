@@ -97,12 +97,10 @@ const About = () => {
               title={title}
               span=""
               description={description}
-            />
-            <p className="font-montserrat">
-              We've helped brands transform their digital presences, build loyal
+              description2={` We've helped brands transform their digital presences, build loyal
               audiences, and exceed their growth goals. When you work with us,
-              you are investing in outcomes rather than simply marketing.
-            </p>
+              you are investing in outcomes rather than simply marketing.`}
+            />
 
             <div className="gap-5 space-y-8 py-6 sm:flex-row">
               {points.map((point, index) => (
