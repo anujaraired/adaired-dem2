@@ -57,7 +57,7 @@ const Banner = () => {
   }, []);
 
   return (
-    <div className="animate-pulse relative w-full pt-[10vh]">
+    <div className="animate-pulse relative w-full pt-[8vh]">
       <Image
         src={hero_banner}
         fill
