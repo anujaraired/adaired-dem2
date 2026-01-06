@@ -12,6 +12,12 @@ import Experienced from '../../../../public/assets/icons/Experienced_1.svg';
 import Dedicated from '../../../../public/assets/icons/Dedicated_1.svg';
 import customer from '../../../../public/assets/icons/customer.svg';
 import goal from '../../../../public/assets/icons/goal.png';
+import social_media_marketing from '../../../../public/assets/images/home/Service_1.png';
+import Web_Design from '../../../../public/assets/images/home/Service_2.png';
+import Digital_Creative from '../../../../public/assets/images/home/Service_3.png';
+import content from '../../../../public/assets/images/home/Service_1.png';
+import seo from '../../../../public/assets/images/home/Service_2.png';
+
 export const AboutSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
   subTitle: 'ABOUT US',
@@ -213,17 +219,17 @@ export const TestimonialSectionData = {
     },
     {
       image: 'Static Website Images/homepage_about2',
-      name: 'Lina M., Marketing Director',
+      name: 'Geetha Radhakrishnan',
       description:
-        'Adaired’s social media strategy completely transformed our engagement. Our follower growth and customer interactions have skyrocketed!',
+        'Adaired Digital Media made the whole process smooth and stress-free. What stood out to me was their clarity, patience, and willingness to listen. ',
       bgColor: '#FFF4F3',
       rating: 5,
     },
     {
       image: 'Static Website Images/homepage_about1',
-      name: 'Raj P., CEO',
+      name: 'Chandrasekar V',
       description:
-        'Thanks to Adaired’s SEO and content services, our website traffic doubled, and we’re attracting the right clients.',
+        'AdAired truly gets business growth! Their digital strategies boosted our leads and brand presence faster than expected. Super friendly team, great communication, and real results.',
       bgColor: '#D7EBFF',
       rating: 5,
     },
@@ -294,7 +300,7 @@ export const ServiceSectionData = {
     "Adaired Digital Media believes that every solution should elevate your brand, connect with your target audience, and generate measurable growth. Here's how we accomplish it:",
   services: [
     {
-      title: 'Search Engine Optimization (SEO)',
+      title: 'Search Engine Optimization',
       description:
         'We assist you in getting your website discovered by the right people. Our SEO services combine strategy and practical changes to boost your visibility and traffic, the foundation of any strong lead generation digital marketing agency approach.',
       list: [
@@ -306,7 +312,7 @@ export const ServiceSectionData = {
         'Penalty Revision and Recovery',
       ],
       mainSvg: 'Search Engine Optimization_eyQDn',
-      hoverSvg: '/assets/images/seo-hover.svg',
+      img: seo,
       accentColor: '#f89520',
       link: '/services/search-engine-optimization',
     },
@@ -324,7 +330,7 @@ export const ServiceSectionData = {
         'Continuous Website Support',
       ],
       mainSvg: 'Web Dev_JjQ6b',
-      hoverSvg: '/assets/images/web-hover.svg',
+      img: Web_Design,
       accentColor: '#038eb0',
     },
     {
@@ -340,7 +346,7 @@ export const ServiceSectionData = {
         'Performance Monitoring and Analytics',
       ],
       mainSvg: 'Social Media_tzOgg',
-      hoverSvg: '/assets/images/smm-hover.svg',
+      img: social_media_marketing,
       accentColor: '#7fbe26',
     },
     {
@@ -357,7 +363,7 @@ export const ServiceSectionData = {
         'Creative Consultation',
       ],
       mainSvg: 'Logo Design_PpqcI',
-      hoverSvg: '/assets/images/logo-hover.svg',
+      img: Web_Design,
       accentColor: '#5c34b1',
     },
     {
@@ -374,7 +380,7 @@ export const ServiceSectionData = {
         'Conversion Tracking & Optimization',
       ],
       mainSvg: 'Pay Per Click_pdGDn',
-      hoverSvg: '/assets/images/ppc-hover.svg',
+      img: Digital_Creative,
       accentColor: '#d71a1a',
     },
     {
@@ -389,8 +395,9 @@ export const ServiceSectionData = {
         'SEO-Friendly Content Strategy',
         'Analytics for Content Performance.',
       ],
+      link: '/services/compelling-content-marketing',
       mainSvg: 'Content Marketing_iPYl2',
-      hoverSvg: '/assets/images/content-marketing-hover.svg',
+      img: content,
       accentColor: '#24a486',
       lastPara: 'What You Can Expect',
     },
@@ -473,7 +480,7 @@ export const ContactSectionData = {
   image: 'Static Website Images/contact_us_image',
   subTitle: 'READY TO GROW?',
   title: 'Ready to Grow Your Brand and ',
-  span:"Stay Ahead in the Digital World?",
+  span: 'Stay Ahead in the Digital World?',
   description:
     'Stay ahead in the digital world with our latest tips and practical strategies. From marketing trends to SEO insights, our blog helps you grow smarter and faster.',
   contactDetails: [

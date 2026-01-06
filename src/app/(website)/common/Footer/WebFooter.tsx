@@ -25,6 +25,7 @@ const WebFooter = () => {
     const { name, value } = e.target;
     setInputVal({ ...inputVal, [name]: value });
   };
+  const handleSubcribe = () => {};
   return (
     <>
       <footer className="relative py-12 text-white">
@@ -224,6 +225,7 @@ const WebFooter = () => {
                   alt="Send"
                   width={35}
                   height={35}
+                  onClick={handleSubcribe}
                   className="absolute right-2 top-1.5 cursor-pointer rounded-full bg-[#FB9100] p-1"
                 />
               </div>
@@ -292,12 +294,9 @@ const WebFooter = () => {
           <div className="font text-xxs">
             Copyright © {new Date().getFullYear()} - AdAired Digital Media
           </div>
+          <span className="px-1">|</span>
           <div className="font flex gap-5 py-2 text-xxs sm:gap-1 sm:bg-transparent">
-            <Link href="/terms-and-conditions">Terms & Conditions </Link>
-            <span className="hidden sm:block">/</span>
-            <div className="sm:hidden">
-              <Separator orientation="vertical" />
-            </div>
+            <Link href="/terms-and-conditions">Terms & Conditions </Link>/
             <Link href="/privacy-policy">Privacy Policy</Link>
           </div>
         </div>
