@@ -1,11 +1,6 @@
-import blog_1 from '../../../../public/assets/images/blogs/blog_1.webp';
-import blog_2 from '../../../../public/assets/images/blogs/blog_2.webp';
-import blog_3 from '../../../../public/assets/images/blogs/blog_3.webp';
-
-import TransparentProcesses from '../../../../public/assets/icons/Transparent Processes.svg';
-import ExperiencedDigital from '../../../../public/assets/icons/Experienced  Digital Specialists.svg';
-import DedicatedProject from '../../../../public/assets/icons/Dedicated Project Manager.svg';
-import CustomerFirst from '../../../../public/assets/icons/Customer-First Approach.svg';
+import blog_1 from '../../../../public/assets/images/blogs/dummy_blog_1.png';
+import blog_2 from '../../../../public/assets/images/blogs/dummy_blog_2.png';
+import blog_3 from '../../../../public/assets/images/blogs/dummy_blog_3.png';
 import visible from '../../../../public/assets/icons/visions.png';
 import Transparent from '../../../../public/assets/icons/built_1.svg';
 import Experienced from '../../../../public/assets/icons/Experienced_1.svg';

@@ -8,7 +8,7 @@ import check from '../../../../../public/assets/icons/blue_check.png';
 import { useRouter } from 'next/navigation';
 
 const Service = () => {
-  const router = useRouter()
+  const router = useRouter();
   const [activeTab, setActiveTab] = useState<number>(0);
   const { subtitle, title, span, description, services } = ServiceSectionData;
 
@@ -75,7 +75,7 @@ const Service = () => {
                     }}
                   >
                     <h5
-                      className={`cursor-pointer border px-4 py-6 hover:bg-[#FFFFFF] hover:text-[#000000] hover:border-[#FCA32A] hover:rounded-xl ${activeTab === idx ? 'rounded-xl border-[#FB9100] bg-white' : 'bg-[#F5F5F5]'} ${isFirst && 'rounded-t-xl'} ${isLast && 'rounded-b-xl'} `}
+                      className={`cursor-pointer border px-4 py-6 hover:rounded-xl hover:border-[#FCA32A] hover:bg-[#FFFFFF] hover:text-[#000000] ${activeTab === idx ? 'rounded-xl border-[#FB9100] bg-white' : 'bg-[#F5F5F5]'} ${isFirst && 'rounded-t-xl'} ${isLast && 'rounded-b-xl'} `}
                     >
                       {service.title}
                     </h5>
@@ -116,7 +116,11 @@ const Service = () => {
                     {service.description}
                   </p>
 
-                  <SaveAndCancel handleClick={()=>router.push(service.link)} name="LEARN MORE" isIcon />
+                  <SaveAndCancel
+                    handleClick={() => router.push(service.link)}
+                    name="LEARN MORE"
+                    isIcon
+                  />
                 </div>
 
                 {/* RIGHT LIST */}
