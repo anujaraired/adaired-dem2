@@ -6,6 +6,7 @@ import MaxWidthWrapper from '../MaxWidthWrapper';
 import Heading from '../../common/Heading';
 import SaveAndCancel from '../../common/SaveAndCancel';
 import { usePathname, useRouter } from 'next/navigation';
+import { IoArrowForwardSharp } from 'react-icons/io5';
 
 const Blogs = () => {
   const router = useRouter();
@@ -48,12 +49,20 @@ const Blogs = () => {
                   </p>
                 </div>
                 <div className="absolute -bottom-20 mx-[2rem] space-y-4 rounded-xl bg-[#FFFFFF] p-[2rem]">
-                  <h5 className="text-[1.125rem] font-normal text-[#111111]">
+                  <h5
+                    onClick={() => router.push(`/blog/${blog.link}`)}
+                    className="text-[1.125rem] font-normal text-[#111111] cursor-pointer hover:text-[#F28F17]"
+                  >
                     {blog.title}
                   </h5>
-                  <p className="border-t-[1px] border-[#000000]/20 pt-2">
-                    {'Sherry Lin'}
+                  <p className="flex items-center gap-2 border-t cursor-pointer border-black/20 pt-4 hover:text-[#F28F17]">
+                    <IoArrowForwardSharp
+                      size={25}
+                      className="rounded-full bg-[#1A5A96] p-1 text-white"
+                    />
+                    <span>Read More</span>
                   </p>
+
                   {/* <div className="flex w-full justify-between pt-[1rem]">
                       <SaveAndCancel
                         isBgWhite={false}
