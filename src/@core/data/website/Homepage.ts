@@ -1,6 +1,6 @@
-import blog_1 from '../../../../public/assets/images/blogs/dummy_blog_1.png';
-import blog_2 from '../../../../public/assets/images/blogs/dummy_blog_2.png';
-import blog_3 from '../../../../public/assets/images/blogs/dummy_blog_3.png';
+import blog_1 from '../../../../public/assets/images/blogs/blog_1.webp';
+import blog_2 from '../../../../public/assets/images/blogs/blog_2.webp';
+import blog_3 from '../../../../public/assets/images/blogs/blog_3.webp';
 import visible from '../../../../public/assets/icons/visions.png';
 import Transparent from '../../../../public/assets/icons/built_1.svg';
 import Experienced from '../../../../public/assets/icons/Experienced_1.svg';
@@ -516,6 +516,7 @@ export const BlogSectionData = {
   blogs: [
     {
       image: blog_1,
+      label: '02 Jan, 2026',
       title:
         'The Science Behind a Good Logo for Business and High-Impact Website Design',
       description:
@@ -526,6 +527,7 @@ export const BlogSectionData = {
     },
     {
       image: blog_2,
+      label: '30 Dec, 2025',
       title:
         'What to Expect from a Digital Marketing Agency USA: A Complete Guide for Businesses',
       description:
@@ -536,6 +538,7 @@ export const BlogSectionData = {
     },
     {
       image: blog_3,
+      label: '26 Dec, 2025',
       title: 'The Complete Web Design Process For Successful Business',
       description:
         'Looking for website design services in the USA ? Bringing a website to life is more than just technical work. It’s a creative',
