@@ -98,7 +98,9 @@ const Service = () => {
                 {/* LEFT CONTENT */}
                 <div className="w-[40%]">
                   {/* IMAGE WRAPPER */}
-                  <div className="relative h-[320px] w-full overflow-hidden rounded-xl">
+                  <div
+                    className={`${activeTab === idx && 'transition-transform duration-500 group-hover:scale-110'} relative h-[320px] w-full overflow-hidden rounded-xl`}
+                  >
                     <Image
                       src={service.img}
                       fill
@@ -113,12 +115,14 @@ const Service = () => {
                   </h4>
 
                   <p className="mb-6 animate-[contentReveal_0.6s_200ms_both]">
-                    {service.description}
+                    {service.description.length > 130
+                      ? service.description.slice(0, 130) + `...`
+                      : service.description}
                   </p>
 
                   <SaveAndCancel
                     handleClick={() => router.push(service.link)}
-                    name="LEARN MORE"
+                    name="Learn More"
                     isIcon
                   />
                 </div>
