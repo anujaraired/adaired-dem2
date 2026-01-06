@@ -10,33 +10,33 @@ import type { Metadata } from 'next';
 import { BaseURL } from '@/baseUrl';
 import { notFound } from 'next/navigation';
 
-export async function generateStaticParams() {
-  try {
-    if (!BaseURL) {
-      console.warn('OLD_API_URI not defined at build time');
-      return [];
-    }
+// export async function generateStaticParams() {
+//   try {
+//     if (!BaseURL) {
+//       console.warn('OLD_API_URI not defined at build time');
+//       return [];
+//     }
 
-    const res = await fetch(`${BaseURL}/case-study/read`, {
-      cache: 'no-store',
-    });
+//     const res = await fetch(`${BaseURL}/case-study/read`, {
+//       cache: 'no-store',
+//     });
 
-    if (!res.ok) {
-      console.error('Failed to fetch case studies:', res.status);
-      return [];
-    }
+//     if (!res.ok) {
+//       console.error('Failed to fetch case studies:', res.status);
+//       return [];
+//     }
 
-    const data = await res.json();
-    const caseStudies = data?.result ?? [];
+//     const data = await res.json();
+//     const caseStudies = data?.result ?? [];
 
-    return caseStudies.map((cs: any) => ({
-      slug: String(cs.slug),
-    }));
-  } catch (error) {
-    console.error('generateStaticParams(case-studies) failed:', error);
-    return [];
-  }
-}
+//     return caseStudies.map((cs: any) => ({
+//       slug: String(cs.slug),
+//     }));
+//   } catch (error) {
+//     console.error('generateStaticParams(case-studies) failed:', error);
+//     return [];
+//   }
+// }
 
 async function getCaseStudyData({ slug }: { slug: string }) {
   const res = await fetch(`${BaseURL}/case-study/read?slug=${slug}`, {
