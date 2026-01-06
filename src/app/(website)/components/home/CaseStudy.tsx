@@ -8,8 +8,13 @@ import Image from 'next/image';
 import { IoIosArrowRoundForward } from 'react-icons/io';
 import Button from '../../common/Button';
 import SaveAndCancel from '../../common/SaveAndCancel';
+import { BaseURL } from '@/baseUrl';
+import { useEffect, useState } from 'react';
+import { useRouter } from 'next/navigation';
 const CaseStudy = () => {
+  const router = useRouter();
   const { image, subTitle, title, span, description } = CaseStudySectionData;
+  const [caseStudies, setCaseStudies] = useState<any[]>([]);
 
   const studies = [
     {
@@ -40,7 +45,29 @@ const CaseStudy = () => {
       link: '/case-studies/bayside-heating-and-cooling',
     },
   ];
+  const getCaseStudy = async () => {
+    try {
+      const res = await fetch(`${BaseURL}/case-study/read`);
+      console.log(res, 'res>>>>DZODZ');
 
+      if (!res.ok) {
+        throw new Error(`Failed to fetch: ${res.status}`);
+      }
+
+      const json = await res.json();
+
+      // 👇 YOUR API RETURNS data[]
+      setCaseStudies(json.data || []);
+    } catch (err) {
+      console.log(err);
+    }
+  };
+
+  console.log(caseStudies, 'caseStudies>>>>DZODZ');
+
+  useEffect(() => {
+    getCaseStudy();
+  }, []);
   return (
     <section className="">
       <MaxWidthWrapper className="py-[2rem] lg:py-[6rem]">
@@ -53,49 +80,52 @@ const CaseStudy = () => {
             description={description}
           />
         </div>
-        <div className="grid grid-cols-1 gap-7 pt-[3.5rem]  md:grid-cols-2 lg:grid-cols-3">
-          {studies?.map((study, idx) => {
+        <div className="grid grid-cols-1 gap-7 pt-[3.5rem] md:grid-cols-2 lg:grid-cols-3">
+          {caseStudies?.map((study, idx) => {
             return (
               <div
                 key={idx}
-                className={`rounded-3xl p-[1.5rem]`}
-                style={{ backgroundColor: study.bgColor }}
+                className={`rounded-3xl bg-[#FFF4F3] p-[1.5rem]`}
+                // style={{ backgroundColor: study.bgColor }}
               >
                 <Image
-                  src={study?.image}
+                  src={study_1}
                   width={400}
                   height={258}
                   alt=""
                   className="transition-transform duration-500 ease-in-out hover:scale-110"
                 />
                 <div className="flex gap-2 py-[1rem]">
-                  {study?.labels?.map((label) => {
+                  <span className="rounded-full border-[0.5px] border-[#000000] px-[1rem] py-[0.25rem] text-[12px] uppercase text-[#000000]">
+                    {'Agency Analytics'}
+                  </span>
+                  <span className="rounded-full border-[0.5px] border-[#000000] px-[1rem] py-[0.25rem] text-[12px] uppercase text-[#000000]">
+                    {'Canva'}
+                  </span>
+                  {/* {study?.labels?.map((label: any) => {
                     return (
                       <span className="rounded-full border-[0.5px] border-[#000000] px-[1rem] py-[0.25rem] text-[12px] uppercase text-[#000000]">
-                        {label}
+                        {label ?? "Agency Analytics', 'Canva"}
                       </span>
                     );
-                  })}
+                  })} */}
                 </div>
                 <div className="">
-                  <h4 className="font-semibold">{study.title}</h4>
+                  <h4 className="font-semibold">{study?.caseStudyName}</h4>
                   <p className="pt-[0.5rem]">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry.{' '}
+                    {study?.caseStudyDescription?.length > 130
+                      ? study?.caseStudyDescription.slice(0, 130) + `...`
+                      : study?.caseStudyDescription}
                   </p>
                   <SaveAndCancel
                     name={'View Details'}
                     isBgWhite={true}
                     isIcon={true}
                     className="mt-[2rem]"
+                    handleClick={() =>
+                      router.push(`/case-studies/${study?.slug}`)
+                    }
                   />
-                  {/* <div className="flex items-center justify-end">
-                    <IoIosArrowRoundForward
-                      size={40}
-                      className="rounded-full bg-white p-1"
-                      style={{ transform: 'rotate(310deg)' }}
-                    />
-                  </div> */}
                 </div>
               </div>
             );
