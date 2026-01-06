@@ -95,7 +95,7 @@ export async function generateMetadata({
     },
   };
 }
-
+//tes
 async function fetchCaseStudyCategory({ slug }: { slug: string }) {
   const res = await fetch(`${BaseURL}/case-study/category/read?slug=/${slug}`, {
     method: 'GET',
