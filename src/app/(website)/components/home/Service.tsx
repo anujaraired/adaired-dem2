@@ -137,9 +137,11 @@ const Service = () => {
                         >
                           <Image
                             src={check}
-                            width={40}
-                            height={40}
+                            width={35}
+                            height={35}
                             alt="check"
+                            unoptimized
+                            className="shrink-0"
                           />
                           <h5 className="w-[70%] pt-4 text-[1.15rem] font-medium">
                             {item}

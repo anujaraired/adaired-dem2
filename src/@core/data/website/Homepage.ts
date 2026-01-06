@@ -7,11 +7,11 @@ import Experienced from '../../../../public/assets/icons/Experienced_1.svg';
 import Dedicated from '../../../../public/assets/icons/Dedicated_1.svg';
 import customer from '../../../../public/assets/icons/customer.svg';
 import goal from '../../../../public/assets/icons/goal.png';
-import social_media_marketing from '../../../../public/assets/images/home/Service_1.png';
-import Web_Design from '../../../../public/assets/images/home/Service_2.png';
-import Digital_Creative from '../../../../public/assets/images/home/Service_3.png';
-import content from '../../../../public/assets/images/home/Service_1.png';
-import seo from '../../../../public/assets/images/home/Service_2.png';
+import social_media_marketing from '../../../../public/assets/images/home/smm.png';
+import Web_Design from '../../../../public/assets/images/home/design.png';
+import Digital_Creative from '../../../../public/assets/images/home/degital.png';
+import content from '../../../../public/assets/images/home/content.png';
+import seo from '../../../../public/assets/images/home/seo.png';
 
 export const AboutSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
