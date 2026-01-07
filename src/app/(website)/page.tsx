@@ -25,7 +25,6 @@ export default function HomePage() {
       <About />
       <Services />
       <Expect />
-      <Awards/>
       <WhyChoose />
       <CaseStudy />
       <Testimonial />
