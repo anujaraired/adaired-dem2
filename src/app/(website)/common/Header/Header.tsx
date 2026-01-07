@@ -34,7 +34,7 @@ const Header = () => {
       <MaxWidthWrapper>
         <div className="rounded-tl-3xle rounded-tr-3xle 3bg-white flex w-[100%] items-center rounded-full border-b-[1px] border-[#0000001A] bg-[#FFFFFF]">
           <div className="relative flex w-full justify-between p-[1%]">
-            <div className="pl-3">
+            <div onClick={() => router.push('/')} className="pl-3 cursor-pointer">
               <Image src={logo} width={132} height={50} alt="brand logo" />
             </div>
             <div className="hidden justify-between gap-2 rounded-full bg-[#FFF7EC] p-2 lg:flex">
