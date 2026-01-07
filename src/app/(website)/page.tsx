@@ -21,13 +21,13 @@ export default function HomePage() {
   return (
     <>
       {/* <HereComponent /> */}
-      <Banner />
+      {/* <Banner /> */}
       <About />
       <Services />
       <Expect />
       <WhyChoose />
       <CaseStudy />
-      <Testimonial />
+      {/* <Testimonial /> */}
       <Contact />
       <Blogs />
       <FAQ />

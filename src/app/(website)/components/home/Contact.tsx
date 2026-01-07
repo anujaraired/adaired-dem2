@@ -24,7 +24,7 @@ const Contact = () => {
   return (
     <section className="">
       <MaxWidthWrapper className="space-y-7 py-[2rem] lg:py-[6rem]">
-        <div className="px-[10%]">
+        <div className="lg:px-[10%]">
           <Heading
             subTitle={subTitle}
             title={title}
@@ -34,7 +34,7 @@ const Contact = () => {
             isBgWhite={true}
           />
         </div>
-        <div className="grid grid-cols-1 gap-[4.5rem] lg:grid-cols-2">
+        <div className="grid grid-cols-1 lg:gap-[4.5rem] lg:grid-cols-2">
           <div
             className={`relative h-full overflow-hidden ${className}`}
             ref={ref}

@@ -35,7 +35,7 @@ const Expect = () => {
         </div>
         <div className="relative grid grid-cols-1 gap-[2rem] pt-7 lg:grid-cols-2">
           {/* Content Section */}
-          <div ref={ref} className={`relative h-[660px] w-full ${className}`}>
+          <div ref={ref} className={`relative h-[20rem] lg:h-[660px] w-full ${className}`}>
             <Image
               src={expectImg}
               alt="About Image"

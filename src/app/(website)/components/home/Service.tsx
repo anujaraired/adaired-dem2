@@ -44,7 +44,7 @@ const Service = () => {
   }, []);
 
   return (
-    <div className="bg-[#F1F1F1] py-[8rem]">
+    <div className="bg-[#F1F1F1] py-[3rem] lg:py-[8rem]">
       <MaxWidthWrapper>
         <Heading
           subTitle={subtitle}
@@ -55,7 +55,7 @@ const Service = () => {
           isInCenter
         />
 
-        <div className="grid grid-cols-4 gap-[1rem] pt-[3rem]">
+        <div className="grid grid-cols-1 gap-[1rem] pt-[3rem] lg:grid-cols-4">
           {/* LEFT TABS (STICKY) */}
           <div className="relative">
             <div className="sticky top-[15rem]">
@@ -93,24 +93,26 @@ const Service = () => {
                 ref={(el) => {
                   sectionRefs.current[idx] = el;
                 }}
-                className="flex justify-between rounded-xl bg-white p-8"
+                className="block justify-between rounded-xl bg-white p-8 lg:flex"
               >
                 {/* LEFT CONTENT */}
-                <div className="w-[40%]">
+                <div className="w-[100%] lg:w-[40%]">
                   {/* IMAGE WRAPPER */}
                   <div
-                    className={`${activeTab === idx && 'transition-transform duration-500 group-hover:scale-110'} relative h-[320px] w-full overflow-hidden rounded-xl`}
+                    className={`${activeTab === idx && 'transition-transform duration-500 group-hover:scale-110'} relative overflow-hidden rounded-xl`}
                   >
-                    <Image
-                      src={service.img}
-                      fill
-                      alt={service.title}
-                      className="object-cover"
-                      priority
-                    />
+                    <div className="relative h-[180px] w-full overflow-hidden rounded-2xl md:h-[240px] lg:h-[300px]">
+                      <Image
+                        src={service.img}
+                        fill
+                        alt={service.title}
+                        className="object-cover"
+                        priority
+                      />
+                    </div>
                   </div>
 
-                  <h4 className="my-4 animate-[contentReveal_0.6s_120ms_both] font-bold">
+                  <h4 className="my-2 animate-[contentReveal_0.6s_120ms_both] font-bold lg:my-4">
                     {service.title}
                   </h4>
 
@@ -128,8 +130,8 @@ const Service = () => {
                 </div>
 
                 {/* RIGHT LIST */}
-                <div className="w-[58%]">
-                  <div className="grid animate-[contentReveal_0.6s_300ms_both] grid-cols-2">
+                <div className="w-[100%] lg:w-[58%]">
+                  <div className="grid animate-[contentReveal_0.6s_300ms_both] grid-cols-1 lg:grid-cols-2">
                     {service?.list?.map((item, i, arr) => {
                       const isLast = i === arr.length - 1;
                       const isSecondLast = i === arr.length - 2;
@@ -147,7 +149,7 @@ const Service = () => {
                             unoptimized
                             className="shrink-0"
                           />
-                          <h5 className="w-[70%] pt-4 text-[1.15rem] font-medium">
+                          <h5 className="w-[100%] pt-4 text-[1.15rem] font-medium lg:w-[70%]">
                             {item}
                           </h5>
                         </div>

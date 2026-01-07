@@ -29,8 +29,8 @@ const About = () => {
 
   return (
     <section className="">
-      <MaxWidthWrapper className="py-[2rem] lg:py-[8rem]">
-        <div className="flex justify-between gap-[5.25rem]">
+      <MaxWidthWrapper className="pb-[8rem] pt-[3rem] lg:py-[8rem]">
+        <div className="flex flex-col-reverse gap-[3rem] lg:flex-row lg:justify-between lg:gap-[5.25rem]">
           {/* Image Section */}
           <div className="relative mx-auto flex-1">
             {/* CENTER IMAGE */}
@@ -43,10 +43,10 @@ const About = () => {
                 alt="About Image"
                 width={581}
                 height={554}
-                className="rounded-lg"
+                className="h-[14rem] w-[14rem] rounded-lg lg:h-[34.625rem] lg:w-[36.313rem]"
               />
             </div>
-            <div className="absolute left-0 top-14 flex animate-zoomPulse gap-2 rounded-xl border-[1px] border-[#000000]/10 bg-[#FFFFFF] px-4 py-2">
+            <div className="absolute left-[-1rem] top-[2rem] flex animate-zoomPulse gap-2 rounded-xl border-[1px] border-[#000000]/10 bg-[#FFFFFF] px-2 py-1 lg:left-0 lg:top-14 lg:px-4 lg:py-2">
               <Image
                 src={check}
                 width={18}
@@ -54,7 +54,7 @@ const About = () => {
                 alt="check "
                 className="my-auto"
               />
-              <p className="my-auto font-outfit text-[15.62px] text-[#000000]">
+              <p className="my-auto font-outfit text-[12px] text-[#000000] lg:text-[15.62px]">
                 100% Business Growth
               </p>
             </div>
@@ -64,7 +64,7 @@ const About = () => {
               alt="Mask Image"
               width={246}
               height={136}
-              className="absolute -top-9 right-6 -z-10"
+              className="absolute right-[-3rem] top-[-2rem] -z-10 lg:right-6 lg:top-9"
             />
 
             {/* MASK – BOTTOM LEFT */}
@@ -73,7 +73,7 @@ const About = () => {
               alt="Mask Image"
               width={246}
               height={136}
-              className="absolute -bottom-4 left-5 -z-10"
+              className="absolute bottom-[-1.8rem] left-[-3rem] -z-10 lg:bottom-[-4] lg:left-5"
             />
 
             {/* ABOUT GRAPH – BOTTOM RIGHT */}
@@ -84,7 +84,7 @@ const About = () => {
                 width={276}
                 height={215}
                 // ref={zoomRef}
-                className={`absolute -bottom-10 right-0`}
+                className={`absolute bottom-[-2.25rem] right-[-2rem] h-[7rem] w-[8rem] lg:bottom-[-8] lg:right-0 lg:h-[14.063rem] lg:w-[17.25rem]`}
               />
             </div>
           </div>
@@ -105,7 +105,10 @@ const About = () => {
 
             <div className="gap-5 space-y-8 py-6 sm:flex-row">
               {points.map((point, index) => (
-                <div key={index} className="flex items-start gap-4">
+                <div
+                  key={index}
+                  className="block items-center gap-4 lg:flex lg:items-start"
+                >
                   {/* ICON */}
                   <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl bg-[#FEE9CC99]">
                     <Image

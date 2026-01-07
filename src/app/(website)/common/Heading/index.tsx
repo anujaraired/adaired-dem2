@@ -15,7 +15,7 @@ export interface IHeading {
   className?: string;
   isDecVarticle?: boolean;
   description2?: string;
-  isPara2?:boolean;
+  isPara2?: boolean;
 }
 const Heading = ({
   subTitle,
@@ -29,7 +29,7 @@ const Heading = ({
   isH1,
   isDecVarticle,
   description2,
-  isPara2
+  isPara2,
 }: IHeading) => {
   return (
     <div className={className}>
@@ -73,7 +73,7 @@ const Heading = ({
               )}
             </div>
           </div>
-          <div className="px-[20%]">
+          <div className="px-0 lg:px-[20%]">
             <p
               className={`${isBgWhite ? 'text-[#000000]' : 'text-[#FFFFFF]'} py-4 text-center`}
             >
@@ -82,7 +82,9 @@ const Heading = ({
           </div>
         </div>
       ) : (
-        <div className={`${isDecVarticle && 'grid grid-cols-2 gap-[10rem]'}`}>
+        <div
+          className={`${isDecVarticle && 'grid grid-cols-1 lg:grid-cols-2 lg:gap-[10rem]'}`}
+        >
           <div className="md:flex` block w-fit gap-3">
             <div className="flex w-fit gap-3 rounded-full border-[0.71px] border-[#000000]/20 px-[1rem] py-[0.25rem]">
               <Image
