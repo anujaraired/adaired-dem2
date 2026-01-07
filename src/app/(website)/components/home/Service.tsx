@@ -131,7 +131,7 @@ const Service = () => {
 
                 {/* RIGHT LIST */}
                 <div className="w-[100%] lg:w-[58%]">
-                  <div className="grid animate-[contentReveal_0.6s_300ms_both] grid-cols-1 lg:grid-cols-2">
+                  <div className="grid animate-[contentReveal_0.6s_300ms_both] grid-cols-1 md:grid-cols-2">
                     {service?.list?.map((item, i, arr) => {
                       const isLast = i === arr.length - 1;
                       const isSecondLast = i === arr.length - 2;

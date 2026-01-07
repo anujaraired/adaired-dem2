@@ -91,7 +91,7 @@ const Blogs = () => {
   const { subTitle, title, description, blogs } = BlogSectionData;
 
   return (
-    <section className="relative bg-[#F5F5F599] pt-[3rem] pb-[6rem] lg:pb-[10rem] lg:pt-[6rem]">
+    <section className="relative bg-[#F5F5F599] pb-[6rem] pt-[3rem] lg:pb-[10rem] lg:pt-[6rem]">
       <MaxWidthWrapper>
         <div className="flex justify-center">
           <Heading
@@ -105,7 +105,7 @@ const Blogs = () => {
           />
         </div>
 
-        <div className="grid grid-cols-1 gap-7 lg:pt-[3rem] md:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-7 md:grid-cols-1 lg:grid-cols-3 lg:pt-[3rem]">
           {blogs?.map((blog, idx) => (
             <div
               key={idx}

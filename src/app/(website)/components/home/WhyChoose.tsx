@@ -25,7 +25,7 @@ const WhyChoose = () => {
             isInCenter={true}
             isBgWhite={true}
           />
-          <div className="grid grid-cols-1 gap-[2rem] py-[1rem] lg:mt-[6rem] lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-[2rem] py-[1rem] md:grid-cols-2 lg:mt-[6rem] lg:grid-cols-4">
             {points?.map((item, idx: any) => {
               const lastCard = idx === points.length - 1;
               const isSecond = idx === 1;

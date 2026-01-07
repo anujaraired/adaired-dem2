@@ -43,7 +43,7 @@ const About = () => {
                 alt="About Image"
                 width={581}
                 height={554}
-                className="h-[14rem] w-[14rem] rounded-lg lg:h-[34.625rem] lg:w-[36.313rem]"
+                className="h-[14rem] w-[14rem] rounded-lg md:h-[34.625rem] md:w-[36.313rem] lg:h-[34.625rem] lg:w-[36.313rem]"
               />
             </div>
             <div className="absolute left-[-1rem] top-[2rem] flex animate-zoomPulse gap-2 rounded-xl border-[1px] border-[#000000]/10 bg-[#FFFFFF] px-2 py-1 lg:left-0 lg:top-14 lg:px-4 lg:py-2">
@@ -84,7 +84,7 @@ const About = () => {
                 width={276}
                 height={215}
                 // ref={zoomRef}
-                className={`absolute bottom-[-2.25rem] right-[-2rem] h-[7rem] w-[8rem] lg:bottom-[-3rem] lg:right-0 lg:h-[14.063rem] lg:w-[17.25rem]`}
+                className={`absolute bottom-[-2.25rem] right-[-2rem] h-[7rem] w-[8rem] md:bottom-[-3.25rem] md:right-[-3rem] md:h-[14.063rem] md:w-[17.25rem] lg:bottom-[-3rem] lg:right-0`}
               />
             </div>
           </div>
