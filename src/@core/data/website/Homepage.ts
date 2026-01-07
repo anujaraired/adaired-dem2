@@ -1,17 +1,17 @@
-import blog_1 from '../../../../public/assets/images/blogs/blog_1.webp';
-import blog_2 from '../../../../public/assets/images/blogs/blog_2.webp';
-import blog_3 from '../../../../public/assets/images/blogs/blog_3.webp';
+import blog_1 from '../../../../public/assets/images/blogs/blog_01.png';
+import blog_2 from '../../../../public/assets/images/blogs/blog_02.png';
+import blog_3 from '../../../../public/assets/images/blogs/blog_03.png';
 import visible from '../../../../public/assets/icons/visions.png';
 import Transparent from '../../../../public/assets/icons/built_1.svg';
 import Experienced from '../../../../public/assets/icons/Experienced_1.svg';
 import Dedicated from '../../../../public/assets/icons/Dedicated_1.svg';
 import customer from '../../../../public/assets/icons/customer.svg';
 import goal from '../../../../public/assets/icons/goal.png';
-import social_media_marketing from '../../../../public/assets/images/home/smm.png';
-import Web_Design from '../../../../public/assets/images/home/design.png';
-import Digital_Creative from '../../../../public/assets/images/home/degital.png';
-import content from '../../../../public/assets/images/home/content.png';
-import seo from '../../../../public/assets/images/home/seo.png';
+import social_media_marketing from '../../../../public/assets/images/service/Social Media Management.png';
+import Web_Design from '../../../../public/assets/images/service/Web Design & Development.png';
+import Digital_Creative from '../../../../public/assets/images/service/Paid Media & Advertising.png';
+import content from '../../../../public/assets/images/service/Digital Creative & Logo Design.png';
+import seo from '../../../../public/assets/images/service/Search Engine Optimization.png';
 
 export const AboutSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
