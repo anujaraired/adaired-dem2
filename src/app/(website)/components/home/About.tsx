@@ -64,7 +64,7 @@ const About = () => {
               alt="Mask Image"
               width={246}
               height={136}
-              className="absolute right-[-3rem] top-[-2rem] -z-10 lg:right-6 lg:top-9"
+              className="absolute right-[-3rem] top-[-2rem] -z-10 lg:right-6 lg:top-[-2rem]"
             />
 
             {/* MASK – BOTTOM LEFT */}
@@ -73,7 +73,7 @@ const About = () => {
               alt="Mask Image"
               width={246}
               height={136}
-              className="absolute bottom-[-1.8rem] left-[-3rem] -z-10 lg:bottom-[-4] lg:left-5"
+              className="absolute bottom-[-1.8rem] left-[-3rem] -z-10 lg:bottom-[-1rem] lg:left-5"
             />
 
             {/* ABOUT GRAPH – BOTTOM RIGHT */}
@@ -84,7 +84,7 @@ const About = () => {
                 width={276}
                 height={215}
                 // ref={zoomRef}
-                className={`absolute bottom-[-2.25rem] right-[-2rem] h-[7rem] w-[8rem] lg:bottom-[-8] lg:right-0 lg:h-[14.063rem] lg:w-[17.25rem]`}
+                className={`absolute bottom-[-2.25rem] right-[-2rem] h-[7rem] w-[8rem] lg:bottom-[-3rem] lg:right-0 lg:h-[14.063rem] lg:w-[17.25rem]`}
               />
             </div>
           </div>

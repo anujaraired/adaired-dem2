@@ -69,13 +69,23 @@ const Banner = () => {
       />
       <MaxWidthWrapper className="relative z-10 flex justify-between pb-[10rem] pt-[10rem]">
         <div className="w-[42%] space-y-4">
-          <Heading
+          {/* <Heading
             isH1={true}
             subTitle={'WELCOME TO Adaired Digital Media'}
             title={'The Driving Force Behind the Brands That Lead'}
             span={''}
             description={
               "In a world where thousands of brands compete for a moment's attention, being seen isn’t enough. You want to be remembered, right?"
+            }
+              
+          /> */}
+          <Heading
+            isH1={true}
+            subTitle={`Gain Visibility That Converts`}
+            title={`Result-Driven Digital Marketing Agency for Scalable Growth`}
+            span={''}
+            description={
+              'From Google searches to AI chats, we make sure your brand is visible to your customers wherever they look.'
             }
           />
           <div className="relative flex h-[55px]">
@@ -108,13 +118,14 @@ const Banner = () => {
               <MdStarRate size={20} className="my-auto text-[#FB9100]" />
               <MdStarRate size={20} className="my-auto text-[#FB9100]" />
               <MdStarRate size={20} className="my-auto text-[#FB9100]" />
-              <span className="ml-2">4.5/5</span>
+              <span className="ml-2">Rated 4.9/5</span>
             </span>
           </div>
           <p>
-            And that’s where Adaired Digital Media comes in. Offering a
-            full-service, 360° digital strategy for your business, helping you
-            rise above the noise and claim your space in the digital world.
+            Scale your business, generate leads by 15% or more within your first
+            6 months with real-time data and expert insights. Our strategy
+            ensures that your brand reaches the right people, produces
+            measurable results, and effectively expands across digital channels.
           </p>
           <SaveAndCancel
             name={'Get a Quote'}
