@@ -67,9 +67,9 @@ const Banner = () => {
         priority
         className="pointer-events-none object-cover"
       />
-      <MaxWidthWrapper className="relative z-10 flex justify-between pb-[10rem] pt-[10rem]">
-        <div className="w-[42%] space-y-4">
-          {/* <Heading
+      <MaxWidthWrapper className="relative z-10 block justify-between pb-[10rem] pt-[3rem] lg:flex lg:pt-[10rem]">
+        <div className="w-[100%] space-y-4 lg:w-[42%]">
+          <Heading
             isH1={true}
             subTitle={'WELCOME TO Adaired Digital Media'}
             title={'The Driving Force Behind the Brands That Lead'}
@@ -77,9 +77,8 @@ const Banner = () => {
             description={
               "In a world where thousands of brands compete for a moment's attention, being seen isn’t enough. You want to be remembered, right?"
             }
-              
-          /> */}
-          <Heading
+          />
+          {/* <Heading
             isH1={true}
             subTitle={`Gain Visibility That Converts`}
             title={`Result-Driven Digital Marketing Agency for Scalable Growth`}
@@ -87,8 +86,8 @@ const Banner = () => {
             description={
               'From Google searches to AI chats, we make sure your brand is visible to your customers wherever they look.'
             }
-          />
-          <div className="relative flex h-[55px]">
+          /> */}
+          <div className="relative flex h-[55px] justify-between">
             {users?.map((img, index) => {
               const lastuser = users.length - 1 === index;
               return (
@@ -97,7 +96,6 @@ const Banner = () => {
                   className="absolute"
                   style={{
                     left: `${index * 32}px`,
-                    // zIndex: users.length - index,
                     zIndex: index + 1,
                   }}
                 >
@@ -112,16 +110,22 @@ const Banner = () => {
               );
             })}
 
-            <span className="absolute right-[48%] top-4 flex">
+            <span className="mt-1 flex pl-[12rem]">
+              <MdStarRate
+                size={20}
+                className="my-auto hidden text-[#FB9100] lg:block"
+              />
+              <MdStarRate
+                size={20}
+                className="my-auto hidden text-[#FB9100] lg:block"
+              />
               <MdStarRate size={20} className="my-auto text-[#FB9100]" />
               <MdStarRate size={20} className="my-auto text-[#FB9100]" />
               <MdStarRate size={20} className="my-auto text-[#FB9100]" />
-              <MdStarRate size={20} className="my-auto text-[#FB9100]" />
-              <MdStarRate size={20} className="my-auto text-[#FB9100]" />
-              <span className="ml-2">Rated 4.9/5</span>
+              <span className="lg:mt:2 ml-2 mt-4">4.9/5</span>
             </span>
           </div>
-          <p>
+          <p className="hidden lg:block">
             Scale your business, generate leads by 15% or more within your first
             6 months with real-time data and expert insights. Our strategy
             ensures that your brand reaches the right people, produces
@@ -133,14 +137,14 @@ const Banner = () => {
             is2ndButton={true}
             isIcon={true}
             is2BgWhite={true}
-            className="pt-[2rem]"
+            className="lg:pt-[2rem]"
             handleClick={() => router.push('/contact')}
             handleClick2={() =>
               router.push('/services/search-engine-optimization')
             }
           />
         </div>
-        <div className="relative w-[50%]">
+        <div className="relative mt-[5rem] w-[100%] lg:mt-0 lg:w-[50%]">
           <div className="space-y-4">
             <div className="flex justify-center">
               <Image
@@ -148,7 +152,7 @@ const Banner = () => {
                 width={631}
                 height={510}
                 alt=""
-                className={`transition-opacity transition-transform duration-700 ease-in-out ${
+                className={`h-[14rem] w-[15rem] transition-opacity transition-transform duration-700 ease-in-out lg:h-[31.875rem] lg:w-[39.438rem] ${
                   active === 'img1'
                     ? 'z-40 opacity-100'
                     : active
@@ -162,20 +166,14 @@ const Banner = () => {
               width={318}
               height={198}
               alt=""
-              className={`absolute right-[33.5rem] top-[62.5%] transition-opacity transition-transform duration-700 ease-in-out ${
-                active === 'img3'
-                  ? 'z-30 translate-x-[90%] translate-y-[-110%] scale-105 opacity-100 backdrop-blur-md'
-                  : active
-                    ? 'z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
-                    : 'z-10 translate-x-0 translate-y-0 scale-100 opacity-100'
-              }`}
+              className={`absolute left-[0rem] top-[9rem] h-[6rem] w-[8rem] transition-opacity transition-transform duration-700 ease-in-out lg:left-[-4rem] lg:top-[22.5rem] lg:h-[12.375rem] lg:w-[19.875rem]`}
             />
             <Image
               src={banner_img_2}
               width={409}
               height={254}
               alt=""
-              className={`absolute bottom-[68%] left-[24rem] transition-opacity transition-transform duration-700 ease-in-out ${
+              className={`absolute right-0 top-[-3rem] h-[6.875rem] w-[10.563rem] transition-opacity transition-transform duration-700 ease-in-out lg:left-[24rem] lg:top-[-5rem] lg:h-[15.875rem] lg:w-[25.563rem] ${
                 active === 'img2'
                   ? 'z-30 translate-x-[-50%] translate-y-[80%] scale-105 bg-white/80 opacity-100 backdrop-blur-md'
                   : active
@@ -184,7 +182,7 @@ const Banner = () => {
               }`}
             />
 
-            <div className="flex justify-end gap-1 pr-[10%]">
+            <div className="hidden justify-end gap-1 pr-[10%] lg:flex">
               <Image
                 src={banner_img_4}
                 width={150}

@@ -30,7 +30,7 @@
   }
 
   h1 {
-    @apply text-[3.75rem] font-bold text-[#000000] md:leading-[74.4px];
+    @apply text-[1.8rem] font-bold text-[#000000] md:leading-[4.65rem] lg:text-[3.75rem];
   }
   h2 {
     /* @apply text-3xl dark:text-gray-800 2xl:text-[26px] 4xl:text-3xl; */
@@ -46,7 +46,7 @@
   }
 
   h5 {
-    @apply font-montserrat text-xs leading-[32px] font-semibold md:text-md;
+    @apply font-montserrat text-xs font-semibold leading-[32px] md:text-md;
   }
 
   h6 {
@@ -54,7 +54,7 @@
   }
 
   p {
-    @apply font-montserrat leading-[26px] text-xs font-normal text-[#323232] md:text-xs;
+    @apply font-montserrat text-xs font-normal leading-[26px] text-[#323232] md:text-xs;
   }
   span {
     @apply text-xxs md:text-xs;
