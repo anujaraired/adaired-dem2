@@ -20,7 +20,6 @@ import FAQ from './components/home/FAQ';
 export default function HomePage() {
   return (
     <>
-      {/* <HereComponent /> */}
       <Banner />
       <About />
       <Services />

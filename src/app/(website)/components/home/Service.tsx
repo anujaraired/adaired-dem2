@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useEffect, useRef, useState } from 'react';
 import MaxWidthWrapper from '../MaxWidthWrapper';
 import Heading from '../../common/Heading';
@@ -6,45 +8,68 @@ import Image from 'next/image';
 import SaveAndCancel from '../../common/SaveAndCancel';
 import check from '../../../../../public/assets/icons/blue_check.png';
 import { useRouter } from 'next/navigation';
+import { useScrollTabs } from '@/@core/hooks/useScrollTabs';
 
 const Service = () => {
   const router = useRouter();
-  const [activeTab, setActiveTab] = useState<number>(0);
   const { subtitle, title, span, description, services } = ServiceSectionData;
 
   const sectionRefs = useRef<(HTMLDivElement | null)[]>([]);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            const index = sectionRefs.current.findIndex(
-              (el) => el === entry.target
-            );
-
-            if (index !== -1) {
-              setActiveTab(index);
-            }
-          }
-        });
-      },
-      {
-        root: null,
-        rootMargin: '-40% 0px -40% 0px', // 👈 center detection
-        threshold: 0,
-      }
-    );
-
-    sectionRefs.current.forEach((el) => {
-      if (el) observer.observe(el);
+  const servicesWrapperRef = useRef<HTMLDivElement | null>(null);
+  const { activeTab, setActiveTab, isMobile, showMobileTab, mobileTabs } =
+    useScrollTabs({
+      items: services,
+      sectionRefs,
+      wrapperRef: servicesWrapperRef,
     });
 
-    return () => observer.disconnect();
-  }, []);
+  const getMobileTabs = () => {
+    if (!services) return [];
+
+    // First tab active → show only 2
+    if (activeTab === 0) {
+      return services.slice(0, 2).map((service, index) => ({
+        ...service,
+        position: index === 0 ? 'active' : 'next',
+        realIndex: index,
+      }));
+    }
+
+    // Any other tab → show prev, active, next
+    const tabs = [];
+
+    if (services[activeTab - 1]) {
+      tabs.push({
+        ...services[activeTab - 1],
+        position: 'prev',
+        realIndex: activeTab - 1,
+      });
+    }
+
+    if (services[activeTab]) {
+      tabs.push({
+        ...services[activeTab],
+        position: 'active',
+        realIndex: activeTab,
+      });
+    }
+
+    if (services[activeTab + 1]) {
+      tabs.push({
+        ...services[activeTab + 1],
+        position: 'next',
+        realIndex: activeTab + 1,
+      });
+    }
+
+    return tabs;
+  };
 
   return (
-    <div className="bg-[#F1F1F1] py-[3rem] lg:py-[8rem]">
+    <div
+      ref={servicesWrapperRef}
+      className="bg-[#F1F1F1] py-[3rem] lg:py-[8rem]"
+    >
       <MaxWidthWrapper>
         <Heading
           subTitle={subtitle}
@@ -56,8 +81,39 @@ const Service = () => {
         />
 
         <div className="grid grid-cols-1 gap-[1rem] pt-[3rem] lg:grid-cols-4">
-          {/* LEFT TABS (STICKY) */}
-          <div className="relative">
+          {/* MOBILE TABS */}
+          {isMobile && showMobileTab && (
+            <div className="fixed left-[1rem] right-[1rem] top-[5.5rem] z-50 bg-[#F1F1F1] py-2">
+              <div className="flex items-center justify-center gap-2 overflow-hidden px-3">
+                {getMobileTabs().map((tab) => {
+                  const isActive = tab.position === 'active';
+
+                  return (
+                    <button
+                      key={tab.realIndex}
+                      onClick={() => {
+                        setActiveTab(tab.realIndex);
+                        sectionRefs.current[tab.realIndex]?.scrollIntoView({
+                          behavior: 'smooth',
+                          block: 'start',
+                        });
+                      }}
+                      className={`rounded-full border px-4 py-3 text-xxs font-medium transition-all duration-300 lg:rounded-xl lg:text-sm ${
+                        isActive
+                          ? 'scale-100 border-[#FB9100] bg-[#FB9100] text-[#FFFFFF]'
+                          : 'scale-90 border-transparent bg-[#FFFFFF]'
+                      } ${tab.position !== 'active' ? 'w-[45%]' : 'w-[70%]'} whitespace-nowrap`}
+                    >
+                      {tab.title}
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+
+          {/* ---------------- LEFT TABS (DESKTOP) ---------------- */}
+          <div className="relative hidden lg:block">
             <div className="sticky top-[15rem]">
               {services?.map((service, idx) => {
                 const isFirst = idx === 0;
@@ -75,7 +131,11 @@ const Service = () => {
                     }}
                   >
                     <h5
-                      className={`cursor-pointer border px-4 py-6 hover:rounded-xl hover:border-[#FCA32A] hover:bg-[#FFFFFF] hover:text-[#000000] ${activeTab === idx ? 'rounded-xl border-[#FB9100] bg-white' : 'bg-[#F5F5F5]'} ${isFirst && 'rounded-t-xl'} ${isLast && 'rounded-b-xl'} `}
+                      className={`cursor-pointer border px-4 py-6 transition hover:rounded-xl hover:border-[#FCA32A] hover:bg-white ${
+                        activeTab === idx
+                          ? 'rounded-xl border-[#FB9100] bg-white'
+                          : 'bg-[#F5F5F5]'
+                      } ${isFirst && 'rounded-t-xl'} ${isLast && 'rounded-b-xl'} `}
                     >
                       {service.title}
                     </h5>
@@ -85,7 +145,7 @@ const Service = () => {
             </div>
           </div>
 
-          {/* RIGHT CONTENT */}
+          {/* ---------------- RIGHT CONTENT ---------------- */}
           <div className="col-span-3 space-y-[2rem]">
             {services?.map((service, idx) => (
               <div
@@ -96,11 +156,8 @@ const Service = () => {
                 className="block justify-between rounded-xl bg-white p-8 lg:flex"
               >
                 {/* LEFT CONTENT */}
-                <div className="w-[100%] lg:w-[40%]">
-                  {/* IMAGE WRAPPER */}
-                  <div
-                    className={`${activeTab === idx && 'transition-transform duration-500 group-hover:scale-110'} relative overflow-hidden rounded-xl`}
-                  >
+                <div className="w-full lg:w-[40%]">
+                  <div className="relative overflow-hidden rounded-xl">
                     <div className="relative h-[180px] w-full overflow-hidden rounded-2xl md:h-[240px] lg:h-[300px]">
                       <Image
                         src={service.img}
@@ -112,13 +169,13 @@ const Service = () => {
                     </div>
                   </div>
 
-                  <h4 className="my-2 animate-[contentReveal_0.6s_120ms_both] font-bold lg:my-4">
+                  <h4 className="my-2 text-center font-bold lg:my-4 lg:text-left">
                     {service.title}
                   </h4>
 
-                  <p className="mb-6 animate-[contentReveal_0.6s_200ms_both]">
+                  <p className="mb-6 text-center lg:text-left">
                     {service.description.length > 130
-                      ? service.description.slice(0, 130) + `...`
+                      ? service.description.slice(0, 130) + '...'
                       : service.description}
                   </p>
 
@@ -130,8 +187,8 @@ const Service = () => {
                 </div>
 
                 {/* RIGHT LIST */}
-                <div className="w-[100%] lg:w-[58%]">
-                  <div className="grid animate-[contentReveal_0.6s_300ms_both] grid-cols-1 md:grid-cols-2">
+                <div className="w-full lg:w-[58%]">
+                  <div className="grid grid-cols-1 md:grid-cols-2">
                     {service?.list?.map((item, i, arr) => {
                       const isLast = i === arr.length - 1;
                       const isSecondLast = i === arr.length - 2;
@@ -139,7 +196,10 @@ const Service = () => {
                       return (
                         <div
                           key={i}
-                          className={`p-5 ${!(isLast || isSecondLast) && 'border-b border-black/10'} `}
+                          className={`flex gap-3 p-5 md:block ${
+                            !(isLast || isSecondLast) &&
+                            'border-b border-black/10'
+                          }`}
                         >
                           <Image
                             src={check}
@@ -147,11 +207,11 @@ const Service = () => {
                             height={35}
                             alt="check"
                             unoptimized
-                            className="shrink-0"
+                            className="my-auto"
                           />
-                          <h5 className="w-[100%] pt-4 text-[1.15rem] font-medium lg:w-[70%]">
+                          <p className="my-auto text-[1.25rem] font-medium lg:pt-4">
                             {item}
-                          </h5>
+                          </p>
                         </div>
                       );
                     })}

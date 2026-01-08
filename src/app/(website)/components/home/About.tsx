@@ -90,7 +90,7 @@ const About = () => {
           </div>
 
           {/* Content Section */}
-          <div className="flex-1 p-2 text-center lg:text-left">
+          <div className="flex-1 p-2 text-left lg:text-left">
             {/* Points Section */}
             <Heading
               subTitle={subTitle}
@@ -107,7 +107,7 @@ const About = () => {
               {points.map((point, index) => (
                 <div
                   key={index}
-                  className="block items-center gap-4 lg:flex lg:items-start"
+                  className="flex flex-col items-center gap-4 lg:flex-row lg:items-start"
                 >
                   {/* ICON */}
                   <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl bg-[#FEE9CC99]">
@@ -122,25 +122,16 @@ const About = () => {
 
                   {/* CONTENT */}
                   <div>
-                    <h4 className="text-xs font-bold">{point.title}</h4>
-                    <p className="mt-1 font-montserrat text-xs">
+                    <h4 className="text-center text-xs font-bold lg:text-left">
+                      {point.title}
+                    </h4>
+                    <p className="mt-1 text-center font-montserrat text-xs lg:text-left">
                       {point.description}
                     </p>
                   </div>
                 </div>
               ))}
             </div>
-            {/* 
-            <div className="py-2 text-xs font-semibold text-[#1B5A96] lg:text-sm">
-              {cursive}
-            </div>
-
-            <Button
-              href={'/about'}
-              name={'See What’s Next'}
-              width={true}
-              className="mt-9"
-            /> */}
           </div>
         </div>
       </MaxWidthWrapper>

@@ -67,9 +67,9 @@ const Banner = () => {
         priority
         className="pointer-events-none object-cover"
       />
-      <MaxWidthWrapper className="relative z-10 block justify-between pb-[10rem] pt-[3rem] lg:flex lg:pt-[10rem]">
+      <MaxWidthWrapper className="relative z-10 block justify-between px-[0.8rem] pb-[10rem] pt-[3rem] lg:flex lg:pt-[10rem]">
         <div className="w-[100%] space-y-4 lg:w-[42%]">
-          <Heading
+          {/* <Heading
             isH1={true}
             subTitle={'WELCOME TO Adaired Digital Media'}
             title={'The Driving Force Behind the Brands That Lead'}
@@ -77,8 +77,8 @@ const Banner = () => {
             description={
               "In a world where thousands of brands compete for a moment's attention, being seen isn’t enough. You want to be remembered, right?"
             }
-          />
-          {/* <Heading
+          /> */}
+          <Heading
             isH1={true}
             subTitle={`Gain Visibility That Converts`}
             title={`Result-Driven Digital Marketing Agency for Scalable Growth`}
@@ -86,7 +86,7 @@ const Banner = () => {
             description={
               'From Google searches to AI chats, we make sure your brand is visible to your customers wherever they look.'
             }
-          /> */}
+          />
           <div className="relative flex h-[55px] justify-between">
             {users?.map((img, index) => {
               const lastuser = users.length - 1 === index;
@@ -166,7 +166,13 @@ const Banner = () => {
               width={318}
               height={198}
               alt=""
-              className={`absolute left-[0rem] top-[9rem] h-[6rem] w-[8rem] transition-opacity transition-transform duration-700 ease-in-out md:left-[0rem] md:top-[21rem] md:h-[10rem] md:w-[14rem] lg:left-[-4rem] lg:top-[22.5rem] lg:h-[12.375rem] lg:w-[19.875rem]`}
+              className={`absolute left-[0rem] top-[9rem] h-[6rem] w-[8rem] transition-opacity transition-transform duration-700 ease-in-out md:left-[0rem] md:top-[21rem] md:h-[10rem] md:w-[14rem] lg:left-[-4rem] lg:top-[22.5rem] lg:h-[12.375rem] lg:w-[19.875rem] ${
+                active === 'img3'
+                  ? 'z-30 translate-x-[90%] translate-y-[-110%] scale-105 opacity-100 backdrop-blur-md'
+                  : active
+                    ? 'z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
+                    : 'z-10 translate-x-0 translate-y-0 scale-100 opacity-100'
+              }`}
             />
             <Image
               src={banner_img_2}
