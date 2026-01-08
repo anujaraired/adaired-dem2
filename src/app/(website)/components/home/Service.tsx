@@ -6,13 +6,15 @@ import Heading from '../../common/Heading';
 import { ServiceSectionData } from '@/@core/data/website/Homepage';
 import Image from 'next/image';
 import SaveAndCancel from '../../common/SaveAndCancel';
-import check from '../../../../../public/assets/icons/blue_check.png';
+import check from '../../../../../public/assets/icons/newStar.png';
 import { useRouter } from 'next/navigation';
 import { useScrollTabs } from '@/@core/hooks/useScrollTabs';
+import { MdArrowOutward } from 'react-icons/md';
 
 const Service = () => {
   const router = useRouter();
   const { subtitle, title, span, description, services } = ServiceSectionData;
+  const [hoveredTab, setHoveredTab] = useState<number | null>(null);
 
   const sectionRefs = useRef<(HTMLDivElement | null)[]>([]);
   const servicesWrapperRef = useRef<HTMLDivElement | null>(null);
@@ -68,7 +70,7 @@ const Service = () => {
   return (
     <div
       ref={servicesWrapperRef}
-      className="bg-[#F1F1F1] py-[3rem] lg:py-[8rem]"
+      className="bg-[#F5F5F599] py-[3rem] lg:py-[6rem]"
     >
       <MaxWidthWrapper>
         <Heading
@@ -80,7 +82,7 @@ const Service = () => {
           isInCenter
         />
 
-        <div className="grid grid-cols-1 gap-[1rem] pt-[3rem] lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-[1rem] pt-[3rem] lg:grid-cols-6">
           {/* MOBILE TABS */}
           {isMobile && showMobileTab && (
             <div className="fixed left-[1rem] right-[1rem] top-[5.5rem] z-50 bg-[#F1F1F1] py-2">
@@ -113,7 +115,7 @@ const Service = () => {
           )}
 
           {/* ---------------- LEFT TABS (DESKTOP) ---------------- */}
-          <div className="relative hidden lg:block">
+          {/* <div className="relative hidden lg:block">
             <div className="sticky top-[15rem]">
               {services?.map((service, idx) => {
                 const isFirst = idx === 0;
@@ -143,10 +145,63 @@ const Service = () => {
                 );
               })}
             </div>
+          </div> */}
+
+          <div className="relative col-span-2 hidden lg:block">
+            <div className="sticky top-[15rem] h-[37.5rem] rounded-xl bg-white p-[2rem]">
+              {services?.map((service, idx) => {
+                const isFirst = idx === 0;
+                const isLast = idx === services.length - 1;
+
+                return (
+                  <div
+                    key={idx}
+                    onClick={() => {
+                      setActiveTab(idx);
+                      sectionRefs.current[idx]?.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'center',
+                      });
+                    }}
+                  >
+                    {/* <h5
+                      className={`my-[1rem] cursor-pointer rounded-full border px-4 py-[1rem] text-[1.125rem] transition hover:border-[#FCA32A] hover:bg-white ${
+                        activeTab === idx
+                          ? 'border-[#FB9100] bg-white'
+                          : 'bg-[#F5F5F5]'
+                      }`}
+                    >
+                      {service.title}
+                    </h5> */}
+
+                    <h5
+                      onMouseEnter={() => setHoveredTab(idx)}
+                      onMouseLeave={() => setHoveredTab(null)}
+                      className={`my-[1rem] cursor-pointer rounded-full border px-[1.5rem] py-[1rem] transition-all duration-700 ease-out ${
+                        activeTab === idx || hoveredTab === idx
+                          ? 'w-[100%] border-[#FB9100] bg-[#FCA32A] text-[#FFFFFF]'
+                          : 'w-[80%] bg-[#F5F5F5]'
+                      } `}
+                    >
+                      <div className="flex items-center justify-between gap-3">
+                        <span className="text-[1.25rem]">{service.title}</span>
+
+                        {(activeTab === idx || hoveredTab === idx) && (
+                          <MdArrowOutward
+                            size={40}
+                            className="shrink-0 rounded-full bg-white p-1 text-[#FCA32A] transition-transform duration-700 ease-out"
+                          />
+                        )}
+                      </div>
+                    </h5>
+                  </div>
+                );
+              })}
+            </div>
           </div>
 
           {/* ---------------- RIGHT CONTENT ---------------- */}
-          <div className="col-span-3 space-y-[2rem]">
+          <div className="col-span-4 space-y-[2rem]">
             {services?.map((service, idx) => (
               <div
                 key={idx}
@@ -209,7 +264,7 @@ const Service = () => {
                             unoptimized
                             className="my-auto"
                           />
-                          <p className="my-auto text-[1.25rem] font-medium lg:pt-4">
+                          <p className="my-auto text-sm font-semibold text-[#000000] lg:pt-4">
                             {item}
                           </p>
                         </div>

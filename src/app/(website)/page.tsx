@@ -16,16 +16,21 @@ import Contact from './components/home/Contact';
 import Blogs from './components/home/Blogs';
 import Banner from './components/HereComponent/Banner';
 import FAQ from './components/home/FAQ';
+import Solutions from './components/home/Solutions';
+import Clients from './components/home/Clients';
 
 export default function HomePage() {
   return (
     <>
       <Banner />
-      <About />
+      <Certificate />
+      <Solutions />
       <Services />
       <Expect />
+      <Clients />
       <WhyChoose />
       <CaseStudy />
+      <About />
       <Testimonial />
       <Contact />
       <Blogs />

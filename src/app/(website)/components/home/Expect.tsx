@@ -17,8 +17,8 @@ const Expect = () => {
     delay: 350,
   });
   return (
-    <section className="bg-[#F5F5F580]">
-      <MaxWidthWrapper className="py-[2rem] lg:py-[8rem]">
+    <section className="1bg-[#F5F5F580]">
+      <MaxWidthWrapper className="py-[3rem] lg:py-[6rem]">
         <div className="">
           <Heading
             isDecVarticle={true}

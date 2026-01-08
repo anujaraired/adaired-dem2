@@ -68,7 +68,7 @@ const CaseStudy = () => {
   }, []);
   return (
     <section className="">
-      <MaxWidthWrapper className="py-[2rem] lg:py-[6rem]">
+      <MaxWidthWrapper className="py-[3rem] lg:py-[6rem]">
         <div className="">
           <Heading
             subTitle={subTitle}

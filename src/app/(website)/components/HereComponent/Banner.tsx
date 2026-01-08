@@ -166,7 +166,7 @@ const Banner = () => {
               width={318}
               height={198}
               alt=""
-              className={`absolute left-[0rem] top-[9rem] h-[6rem] w-[8rem] transition-opacity transition-transform duration-700 ease-in-out md:left-[0rem] md:top-[21rem] md:h-[10rem] md:w-[14rem] lg:left-[-4rem] lg:top-[22.5rem] lg:h-[12.375rem] lg:w-[19.875rem] ${
+              className={`absolute left-[0rem] top-[9rem] h-[6rem] w-[8rem] transition-opacity transition-transform duration-700 ease-in-out md:left-[0rem] md:top-[21rem] md:h-[10rem] md:w-[14rem] lg:left-[-4.6rem] lg:top-[22.5rem] lg:h-[12.375rem] lg:w-[19.875rem] ${
                 active === 'img3'
                   ? 'z-30 translate-x-[90%] translate-y-[-110%] scale-105 opacity-100 backdrop-blur-md'
                   : active
@@ -179,7 +179,7 @@ const Banner = () => {
               width={409}
               height={254}
               alt=""
-              className={`absolute right-0 top-[-3rem] h-[6.875rem] w-[10.563rem] transition-opacity transition-transform duration-700 ease-in-out md:top-[-5.5rem] md:h-[13rem] md:w-[20rem] lg:left-[24rem] lg:top-[-5rem] lg:h-[15.875rem] lg:w-[25.563rem] ${
+              className={`absolute right-0 top-[-3rem] h-[6.875rem] w-[10.563rem] transition-opacity transition-transform duration-700 ease-in-out md:top-[-5.5rem] md:h-[13rem] md:w-[20rem] lg:left-[25rem] lg:top-[-5rem] lg:h-[15.875rem] lg:w-[25.563rem] ${
                 active === 'img2'
                   ? 'z-30 translate-x-[-50%] translate-y-[80%] scale-105 bg-white/80 opacity-100 backdrop-blur-md'
                   : active

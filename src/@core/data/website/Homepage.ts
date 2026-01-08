@@ -13,6 +13,31 @@ import Digital_Creative from '../../../../public/assets/images/service/Paid Medi
 import content from '../../../../public/assets/images/service/Digital Creative & Logo Design.png';
 import seo from '../../../../public/assets/images/service/Search Engine Optimization.png';
 
+export const SolutionsSectionData = {
+  image: 'Static Website Images/about_main_anwqk5',
+  subTitle: 'Solutions',
+  title: 'Every Brand Has A Story, And We’re Here To Tell It Better!',
+  description:
+    'As a powerhouse digital agency, we craft bold ideas backed by data and fueled by creativity that attract attention, command authority, and convert consistently. If you want a partner that pushes limits and powers real growth, you’re in the right place.',
+  points: [
+    {
+      icon: goal,
+      title: 'Our Mission',
+      description:
+        'We work as your dedicated enterprise digital marketing agency, focused on outcomes, inspired by ideas, and committed to making your brand hard to ignore.',
+    },
+    {
+      icon: visible,
+      title: 'Our Vision',
+      description:
+        'We’re a team of expert strategists, and digital thinkers, a modern blend you’d expect from leading digital transformation agencies, who turn insights into ideas.',
+    },
+  ],
+  cursive:
+    'As a powerhouse digital agency, we craft bold ideas backed by data and fueled by creativity that attract attention, command authority, and convert consistently.',
+  btnText: 'See What’s Next',
+  btnHref: '/about',
+};
 export const AboutSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
   subTitle: 'ABOUT US',
@@ -38,6 +63,7 @@ export const AboutSectionData = {
   btnText: 'See What’s Next',
   btnHref: '/about',
 };
+
 
 export const ExpectSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
