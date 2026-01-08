@@ -4,7 +4,6 @@ import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 
 import { InfiniteMovingCards } from '../../@core/ui/aceternity-ui/infinite-moving-cards';
 import { AwardsSectionData } from '../../@core/data/website/Homepage';
-import HereComponent from './components/HereComponent';
 import About from './components/home/About';
 import Certificate from './components/home/Certificate';
 import Services from './components/home/Service';
