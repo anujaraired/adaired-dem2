@@ -6,6 +6,7 @@ import certificate_4 from '../../../../../public/assets/images/ai/ai_4.svg';
 import certificate_5 from '../../../../../public/assets/images/ai/ai_5.svg';
 import certificate_6 from '../../../../../public/assets/images/ai/ai_6.svg';
 import MaxWidthWrapper from '../MaxWidthWrapper';
+import Heading from '../../common/Heading';
 
 const Certificate = () => {
   const certificates = [
@@ -20,11 +21,22 @@ const Certificate = () => {
   // duplicate array for seamless loop
   const sliderItems = [...certificates, ...certificates];
 
-  return (
-    <section className={'mt-[9rem] bg-[#FFF8F0] md:mt-[5.5rem] lg:mt-0'}>
+  return ( 
+    <section className={'mt-[9rem] bg-[#F9F9F9] md:mt-[5.5rem] lg:mt-0 py-[3rem] lg:py-[6rem]'}>
       {/* viewport */}
+
       <MaxWidthWrapper>
-        <div className="w-full overflow-hidden">
+        <Heading
+          subTitle={'Expert Marketing Solutions'}
+          title={'360° Digital Marketing Services for Modern Business Needs'}
+          span={''}
+          description={
+            'Our success-driven digital marketing services integrate AI-enhanced SEO, advanced analytics, and conversion-focused strategies to strengthen brand'
+          }
+          isInCenter={true}
+          isBgWhite={true}
+        />
+        <div className="w-full overflow-hidden pt-[4rem]">
           {/* sliding track */}
           <div className="flex w-max animate-marquee gap-[7rem] md:bg-transparent md:py-0">
             {sliderItems.map((cert, idx) => (

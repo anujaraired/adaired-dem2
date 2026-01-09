@@ -105,7 +105,7 @@ const Banner = () => {
         priority
         className="pointer-events-none object-cover"
       />
-      <MaxWidthWrapper className="relative z-10 block justify-between px-[0.8rem] pb-[6rem] pt-[3rem] lg:flex lg:pt-[4.5rem]">
+      <MaxWidthWrapper className="relative z-10 block justify-between px-[0.8rem] pb-[6rem] pt-[3rem] lg:flex lg:pt-[5rem]">
         <div className="w-[100%] space-y-5 lg:w-[42%]">
           <Heading
             isH1={true}
