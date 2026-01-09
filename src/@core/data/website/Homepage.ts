@@ -10,8 +10,33 @@ import goal from '../../../../public/assets/icons/goal.png';
 import social_media_marketing from '../../../../public/assets/images/service/Social Media Management.png';
 import Web_Design from '../../../../public/assets/images/service/Web Design & Development.png';
 import Digital_Creative from '../../../../public/assets/images/service/Paid Media & Advertising.png';
-import content from '../../../../public/assets/images/service/Digital Creative & Logo Design.png';
-import seo from '../../../../public/assets/images/service/Search Engine Optimization.png';
+import content_img from '../../../../public/assets/images/service/Digital Creative & Logo Design.png';
+import seo2 from '../../../../public/assets/icons/service/seo_Img.png';
+
+//services
+import amazon from '../../../../public/assets/icons/service/amazon.png';
+import app_1 from '../../../../public/assets/icons/service/app_1.png';
+import app_2 from '../../../../public/assets/icons/service/app_2.png';
+import app_3 from '../../../../public/assets/icons/service/app_3.png';
+import app_4 from '../../../../public/assets/icons/service/app_4.png';
+
+import seo from '../../../../public/assets/icons/service/seo.png';
+import ai_seo from '../../../../public/assets/icons/service/ai_seo.png';
+import content from '../../../../public/assets/icons/service/content.png';
+import smm from '../../../../public/assets/icons/service/smm.png';
+
+import GBPSetup from '../../../../public/assets/icons/service/GBPSetup.png';
+import FakeGBPReporting from '../../../../public/assets/icons/service/FakeGBPReporting.png';
+import FakeGoogleReviewReporting from '../../../../public/assets/icons/service/FakeGoogleReviewReporting.png';
+import GBPManagement from '../../../../public/assets/icons/service/GBPManagement.png';
+import GoogleAds from '../../../../public/assets/icons/service/GoogleAds.png';
+import html from '../../../../public/assets/icons/service/html.png';
+import LinkBuilding from '../../../../public/assets/icons/service/LinkBuilding.png';
+import shoppyfy from '../../../../public/assets/icons/service/shoppyfy.png';
+import TikTokAds from '../../../../public/assets/icons/service/TikTokAds.png';
+import WhiteLabelFacebookAds from '../../../../public/assets/icons/service/WhiteLabelFacebookAds.png';
+import WhiteLabelSEO from '../../../../public/assets/icons/service/WhiteLabelSEO.png';
+import WhiteLabelSocialMedia from '../../../../public/assets/icons/service/WhiteLabelSocialMedia.png';
 
 export const SolutionsSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
@@ -63,7 +88,6 @@ export const AboutSectionData = {
   btnText: 'See What’s Next',
   btnHref: '/about',
 };
-
 
 export const ExpectSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
@@ -315,25 +339,34 @@ export const LogoSliderSectionData = {
 
 export const ServiceSectionData = {
   subtitle: 'WHAT WE DO',
-  title: 'Trusted by Clients for Professional, ',
+  title: 'Trusted by Clients for Professional,',
   span: 'Reliable, and Quality Solutions',
-  description:
-    "Adaired Digital Media believes that every solution should elevate your brand, connect with your target audience, and generate measurable growth. Here's how we accomplish it:",
+  description: `Adaired Digital Media believes that every solution should elevate your brand, connect with your target audience, and generate measurable growth. Here's how we accomplish it:`,
   services: [
     {
       title: 'Search Engine Optimization',
       description:
         'We assist you in getting your website discovered by the right people. Our SEO services combine strategy and practical changes to boost your visibility and traffic, the foundation of any strong lead generation digital marketing agency approach.',
       list: [
-        'Metatag Optimization',
-        'Setting up Google Tags',
-        'Optimizing the Schema',
-        'Optimizing the Website Layout',
-        'Analyzing and Fixing Broken Links',
-        'Penalty Revision and Recovery',
+        {
+          icon: seo,
+          label: 'Metatag Optimization',
+        },
+        {
+          icon: ai_seo,
+          label: 'Setting up Google Tags',
+        },
+        {
+          icon: content,
+          label: 'Optimizing the Schema',
+        },
+        {
+          icon: smm,
+          label: 'Optimizing the Website Layout',
+        },
       ],
       mainSvg: 'Search Engine Optimization_eyQDn',
-      img: seo,
+      img: seo2,
       accentColor: '#f89520',
       link: '/services/search-engine-optimization',
     },
@@ -343,12 +376,22 @@ export const ServiceSectionData = {
         'Your website is your digital home. We create websites that look great, work smoothly, and keep visitors coming back.',
       link: '/services/web-design-and-development-services',
       list: [
-        'Responsive and Mobile-Friendly Design',
-        'User Experience (UX) Optimization',
-        'Pages Load Quickly',
-        'Secure and Reliable Development',
-        'CMS and E-commerce Setup',
-        'Continuous Website Support',
+        {
+          icon: GBPSetup,
+          label: 'Responsive and Mobile-Friendly Design',
+        },
+        {
+          icon: GBPSetup,
+          label: 'User Experience (UX) Optimization',
+        },
+        {
+          icon: GBPSetup,
+          label: 'Pages Load Quickly',
+        },
+        {
+          icon: GBPSetup,
+          label: 'Secure and Reliable Development',
+        },
       ],
       mainSvg: 'Web Dev_JjQ6b',
       img: Web_Design,
@@ -360,11 +403,22 @@ export const ServiceSectionData = {
         'We convert social media from a chore to a growth engine. Our digital media specialist and specialist digital media team engage your audience, build community, and boost your brand presence.',
       link: '/services/strategic-social-media-management',
       list: [
-        'Social Media Content Strategy',
-        'Managing and engaging the audience',
-        'Hashtag & Trend Strategy',
-        'Paid & Organic Campaigns',
-        'Performance Monitoring and Analytics',
+        {
+          icon: GBPSetup,
+          label: 'Social Media Content Strategy',
+        },
+        {
+          icon: GBPSetup,
+          label: 'Managing and engaging the audience',
+        },
+        {
+          icon: GBPSetup,
+          label: 'Hashtag & Trend Strategy',
+        },
+        {
+          icon: GBPSetup,
+          label: 'Paid & Organic Campaigns',
+        },
       ],
       mainSvg: 'Social Media_tzOgg',
       img: social_media_marketing,
@@ -376,12 +430,22 @@ export const ServiceSectionData = {
         'Your brand deserves to appear at its best. As a full-scale digital media planning agency, we run paid campaigns that generate clicks, leads, and sales across major platforms.',
       link: '/services/digital-creative-and-logo-design',
       list: [
-        'Logo & Brand Identity Design',
-        'Social Media Graphics',
-        'Digital Ads & Banners',
-        'Infographics & Presentation Design',
-        'Style Guides & Brand Assets',
-        'Creative Consultation',
+        {
+          icon: GBPSetup,
+          label: 'Logo & Brand Identity Design',
+        },
+        {
+          icon: GBPSetup,
+          label: 'Social Media Graphics',
+        },
+        {
+          icon: GBPSetup,
+          label: 'Digital Ads & Banners',
+        },
+        {
+          icon: GBPSetup,
+          label: 'Infographics & Presentation Design',
+        },
       ],
       mainSvg: 'Logo Design_PpqcI',
       img: Web_Design,
@@ -393,12 +457,22 @@ export const ServiceSectionData = {
         'We make every ad dollar count. We run campaigns that generate clicks, leads, and sales across Google and social platforms.',
       link: '/services/paid-media-and-advertising',
       list: [
-        'Google Ads & PPC Campaigns',
-        'Social Media Advertising (Meta, LinkedIn, TikTok)',
-        'Display & Remarketing Ads',
-        'Audience Segmentation and Targeting',
-        'Ad Copy and Creative Design',
-        'Conversion Tracking & Optimization',
+        {
+          icon: GBPSetup,
+          label: 'Google Ads & PPC Campaigns',
+        },
+        {
+          icon: GBPSetup,
+          label: 'Social Media Advertising (Meta, LinkedIn, TikTok)',
+        },
+        {
+          icon: GBPSetup,
+          label: 'Display & Remarketing Ads',
+        },
+        {
+          icon: GBPSetup,
+          label: 'Audience Segmentation and Targeting',
+        },
       ],
       mainSvg: 'Pay Per Click_pdGDn',
       img: Digital_Creative,
@@ -409,16 +483,26 @@ export const ServiceSectionData = {
       description:
         'Content is more than just words; it is a means of connecting with, educating, and inspiring your target audience. We create content that builds trust and gets results.',
       list: [
-        'Blog & Article Writing',
-        'Website and Landing Page Content',
-        'Email Campaigns and Newsletters.',
-        'Video and Multimedia Scripts.',
-        'SEO-Friendly Content Strategy',
-        'Analytics for Content Performance.',
+        {
+          icon: GBPSetup,
+          label: 'Blog & Article Writing',
+        },
+        {
+          icon: GBPSetup,
+          label: 'Website and Landing Page Content',
+        },
+        {
+          icon: GBPSetup,
+          label: 'Email Campaigns and Newsletters.',
+        },
+        {
+          icon: GBPSetup,
+          label: 'Video and Multimedia Scripts.',
+        },
       ],
       link: '/services/compelling-content-marketing',
       mainSvg: 'Content Marketing_iPYl2',
-      img: content,
+      img: content_img,
       accentColor: '#24a486',
       lastPara: 'What You Can Expect',
     },

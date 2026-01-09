@@ -43,26 +43,43 @@ const Solutions = () => {
                 alt="About Image"
                 width={625}
                 height={470}
-                className="h-[14rem] w-[14rem] rounded-lg md:h-[34.625rem] md:w-[36.313rem] lg:h-[29.375rem] lg:w-[39.75rem]"
+                className="my-[2rem] h-[14rem] w-[14rem] rounded-lg md:h-[34.625rem] md:w-[36.313rem] lg:h-[25.375rem] lg:w-[39.063rem]"
               />
             </div>
+            {/* MASK – TOP RIGHT */}
+            <Image
+              src={Mask}
+              alt="Mask Image"
+              width={246}
+              height={136}
+              className="absolute right-[-3rem] top-[-2rem] -z-10 lg:right-0 lg:top-0"
+            />
+
+            {/* MASK – BOTTOM LEFT */}
+            <Image
+              src={Mask}
+              alt="Mask Image"
+              width={246}
+              height={136}
+              className="absolute bottom-[-1.6rem] left-[-3rem] -z-10 lg:bottom-0 lg:left-0"
+            />
           </div>
 
           {/* Content Section */}
-          <div className="flex-1 p-2 text-left lg:text-left">
+          <div className="my-auto flex-1 text-left lg:text-left">
             {/* Points Section */}
             <Heading
-              subTitle={subTitle}
-              title={"Lorem Ipsum has the industry's standard dummy text ever since the 1500s"}
+              subTitle={`Total Transparency. Zero "Black Box" Marketing`}
+              title={
+                'Most clients have no idea what their agency actually does all day. You get a PDF once a month and a bill.'
+              }
               span=""
-              description={description}
-              isPara2={true}
-              description2={` We've helped brands transform their digital presences, build loyal
-              audiences, and exceed their growth goals. When you work with us,
-              you are investing in outcomes rather than simply marketing.`}
+              description={
+                'You get 24/7 access to your campaign pulse. We combine advanced tracking tools with human insight to show you exactly how $1 of spend becomes $5 of revenue.'
+              }
             />
 
-            <div className="gap-5 hidden space-y-8 py-6 sm:flex-row">
+            <div className="hidden gap-5 space-y-8 py-6 sm:flex-row">
               {points.map((point, index) => (
                 <div
                   key={index}
@@ -91,7 +108,12 @@ const Solutions = () => {
                 </div>
               ))}
             </div>
-            <SaveAndCancel name={'Know More'} isIcon={true} />
+            <SaveAndCancel
+              name={'Get Your Free Marketing Audit'}
+              isIcon={true}
+              isFullWidth={true}
+              className="mt-[2rem] w-[20rem]"
+            />
           </div>
         </div>
       </MaxWidthWrapper>

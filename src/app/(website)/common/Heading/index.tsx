@@ -8,7 +8,7 @@ export interface IHeading {
   title: String;
   span: String;
   isH1?: boolean;
-  description: String;
+  description?: String;
   isInCenter?: boolean;
   isVarticle?: boolean;
   isBgWhite?: boolean;

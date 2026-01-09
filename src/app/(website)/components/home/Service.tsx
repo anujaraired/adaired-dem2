@@ -82,7 +82,7 @@ const Service = () => {
           isInCenter
         />
 
-        <div className="grid grid-cols-1 gap-[1rem] pt-[3rem] lg:grid-cols-6">
+        <div className="flex gap-[2rem] pt-[3rem]">
           {/* MOBILE TABS */}
           {isMobile && showMobileTab && (
             <div className="fixed left-[1rem] right-[1rem] top-[5.5rem] z-50 bg-[#F1F1F1] py-2">
@@ -147,8 +147,8 @@ const Service = () => {
             </div>
           </div> */}
 
-          <div className="relative col-span-2 hidden lg:block">
-            <div className="sticky top-[15rem] h-[37.5rem] rounded-xl bg-white p-[2rem]">
+          <div className="relative hidden w-[30%] lg:block">
+            <div className="sticky top-[15rem] h-[35rem] rounded-xl bg-white p-[2rem]">
               {services?.map((service, idx) => {
                 const isFirst = idx === 0;
                 const isLast = idx === services.length - 1;
@@ -164,36 +164,42 @@ const Service = () => {
                       });
                     }}
                   >
-                    {/* <h5
-                      className={`my-[1rem] cursor-pointer rounded-full border px-4 py-[1rem] text-[1.125rem] transition hover:border-[#FCA32A] hover:bg-white ${
-                        activeTab === idx
-                          ? 'border-[#FB9100] bg-white'
-                          : 'bg-[#F5F5F5]'
-                      }`}
-                    >
-                      {service.title}
-                    </h5> */}
-
-                    <h5
+                    <div
                       onMouseEnter={() => setHoveredTab(idx)}
                       onMouseLeave={() => setHoveredTab(null)}
-                      className={`my-[1rem] cursor-pointer rounded-full border px-[1.5rem] py-[1rem] transition-all duration-700 ease-out ${
-                        activeTab === idx || hoveredTab === idx
-                          ? 'w-[100%] border-[#FB9100] bg-[#FCA32A] text-[#FFFFFF]'
-                          : 'w-[80%] bg-[#F5F5F5]'
+                      className={`my-[1rem] flex h-[4rem] w-full cursor-pointer items-center rounded-full border px-[1.5rem] transition-all duration-300 ease-out hover:translate-y-[-2px] ${
+                        activeTab === idx
+                          ? 'bg-[#FCA32A] text-white'
+                          : 'bg-[#F5F5F5]'
+                      } ${
+                        hoveredTab === idx
+                          ? 'border-[#FCA32A] text-[#000000]'
+                          : 'bg-[#F5F5F5]'
                       } `}
                     >
-                      <div className="flex items-center justify-between gap-3">
-                        <span className="text-[1.25rem]">{service.title}</span>
+                      <div className="flex w-full items-center justify-between gap-3">
+                        <p
+                          className={`my-auto font-medium ${
+                            activeTab === idx
+                              ? 'text-[#ffffff]'
+                              : 'text-[#000000]'
+                          } ${
+                            hoveredTab === idx
+                              ? 'text-[#000000]'
+                              : 'text-[#000000]'
+                          }`}
+                        >
+                          {service.title}
+                        </p>
 
                         {(activeTab === idx || hoveredTab === idx) && (
                           <MdArrowOutward
-                            size={40}
-                            className="shrink-0 rounded-full bg-white p-1 text-[#FCA32A] transition-transform duration-700 ease-out"
+                            size={35}
+                            className="shrink-0 rounded-full bg-white p-2 text-[#FCA32A] transition-transform duration-700 ease-out"
                           />
                         )}
                       </div>
-                    </h5>
+                    </div>
                   </div>
                 );
               })}
@@ -201,37 +207,67 @@ const Service = () => {
           </div>
 
           {/* ---------------- RIGHT CONTENT ---------------- */}
-          <div className="col-span-4 space-y-[2rem]">
+          <div className="w-[70%] space-y-[2rem]">
             {services?.map((service, idx) => (
               <div
                 key={idx}
                 ref={(el) => {
                   sectionRefs.current[idx] = el;
                 }}
-                className="block justify-between rounded-xl bg-white p-8 lg:flex"
+                className="block gap-[2rem] rounded-xl border-[1px] border-[#00000033]/20 bg-white p-8"
               >
-                {/* LEFT CONTENT */}
-                <div className="w-full lg:w-[40%]">
-                  <div className="relative overflow-hidden rounded-xl">
-                    <div className="relative h-[180px] w-full overflow-hidden rounded-2xl md:h-[240px] lg:h-[300px]">
-                      <Image
-                        src={service.img}
-                        fill
-                        alt={service.title}
-                        className="object-cover"
-                        priority
-                      />
+                <div className="flex gap-2">
+                  {/* LEFT CONTENT */}
+                  <div className="w-full lg:w-[55%]">
+                    <div className="relative overflow-hidden rounded-xl">
+                      <div className="relative h-[180px] w-full overflow-hidden rounded-2xl md:h-[240px] lg:h-[20.25rem]">
+                        <Image
+                          src={service.img}
+                          fill
+                          alt={service.title}
+                          className="object-cover"
+                          priority
+                        />
+                      </div>
                     </div>
                   </div>
 
-                  <h4 className="my-2 text-center font-bold lg:my-4 lg:text-left">
+                  {/* RIGHT LIST */}
+                  <div className="w-full lg:w-[45%]">
+                    <div className="grid grid-cols-1 gap-2 md:grid-cols-2">
+                      {service?.list?.slice(0, 4)?.map((item, i, arr) => {
+                        return (
+                          <div
+                            key={i}
+                            className={`flex gap-3 rounded-[15px] bg-[#FFF6EB] p-5 md:block`}
+                          >
+                            <Image
+                              src={item?.icon}
+                              width={40}
+                              height={40}
+                              alt="check"
+                              unoptimized
+                              className="my-auto"
+                            />
+                            <p className="my-auto font-poppins font-semibold text-[#000000] lg:pt-[1.7rem]">
+                              {item?.label}
+                            </p>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                </div>
+                <div>
+                  <h2 className="my-2 text-center font-bold lg:my-4 lg:text-left">
                     {service.title}
-                  </h4>
+                  </h2>
 
                   <p className="mb-6 text-center lg:text-left">
-                    {service.description.length > 130
+                    {/* {service.description.length > 130
                       ? service.description.slice(0, 130) + '...'
-                      : service.description}
+                      : service.description} */}
+                    {service.description}
                   </p>
 
                   <SaveAndCancel
@@ -239,38 +275,6 @@ const Service = () => {
                     name="Learn More"
                     isIcon
                   />
-                </div>
-
-                {/* RIGHT LIST */}
-                <div className="w-full lg:w-[58%]">
-                  <div className="grid grid-cols-1 md:grid-cols-2">
-                    {service?.list?.map((item, i, arr) => {
-                      const isLast = i === arr.length - 1;
-                      const isSecondLast = i === arr.length - 2;
-
-                      return (
-                        <div
-                          key={i}
-                          className={`flex gap-3 p-5 md:block ${
-                            !(isLast || isSecondLast) &&
-                            'border-b border-black/10'
-                          }`}
-                        >
-                          <Image
-                            src={check}
-                            width={35}
-                            height={35}
-                            alt="check"
-                            unoptimized
-                            className="my-auto"
-                          />
-                          <p className="my-auto text-sm font-semibold text-[#000000] lg:pt-4">
-                            {item}
-                          </p>
-                        </div>
-                      );
-                    })}
-                  </div>
                 </div>
               </div>
             ))}

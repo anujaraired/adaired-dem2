@@ -71,12 +71,12 @@ const Clients = () => {
     <div className="bg-[#F9F9F9] py-[3rem] lg:py-[6rem]">
       <MaxWidthWrapper>
         <Heading
-          subTitle={'Client'}
-          title={'Our Happy Clients'}
+          subTitle={'Our Client'}
+          title={'A Decade Of Turning Strategies into Results'}
           span={''}
-          description={
-            'We proudly contribute to the success of the world’s leading brands.'
-          }
+          // description={
+          //   'We proudly contribute to the success of the world’s leading brands.'
+          // }
           isInCenter={true}
           isBgWhite={true}
         />

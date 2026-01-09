@@ -21,15 +21,19 @@ const Certificate = () => {
   // duplicate array for seamless loop
   const sliderItems = [...certificates, ...certificates];
 
-  return ( 
-    <section className={'mt-[9rem] bg-[#F9F9F9] md:mt-[5.5rem] lg:mt-0 py-[3rem] lg:py-[6rem]'}>
+  return (
+    <section
+      className={
+        'mt-[9rem] bg-[#F9F9F9] py-[3rem] md:mt-[5.5rem] lg:mt-0 lg:py-[6rem]'
+      }
+    >
       {/* viewport */}
 
       <MaxWidthWrapper>
         <Heading
           subTitle={'Expert Marketing Solutions'}
-          title={'360° Digital Marketing Services for Modern Business Needs'}
-          span={''}
+          title={'360° Digital Marketing Services for Modern'}
+          span={'Business Needs'}
           description={
             'Our success-driven digital marketing services integrate AI-enhanced SEO, advanced analytics, and conversion-focused strategies to strengthen brand'
           }
