@@ -1,10 +1,10 @@
 import Image from 'next/image';
-import certificate_1 from '../../../../../public/assets/images/certificate/certificate_1.svg';
-import certificate_2 from '../../../../../public/assets/images/certificate/certificate_2.svg';
-import certificate_3 from '../../../../../public/assets/images/certificate/certificate_3.svg';
-import certificate_4 from '../../../../../public/assets/images/certificate/certificate_4.svg';
-import certificate_5 from '../../../../../public/assets/images/certificate/certificate_5.svg';
-import certificate_6 from '../../../../../public/assets/images/certificate/certificate_6.svg';
+import certificate_1 from '../../../../../public/assets/images/ai/ai_1.svg';
+import certificate_2 from '../../../../../public/assets/images/ai/ai_2.svg';
+import certificate_3 from '../../../../../public/assets/images/ai/ai_3.svg';
+import certificate_4 from '../../../../../public/assets/images/ai/ai_4.svg';
+import certificate_5 from '../../../../../public/assets/images/ai/ai_5.svg';
+import certificate_6 from '../../../../../public/assets/images/ai/ai_6.svg';
 import MaxWidthWrapper from '../MaxWidthWrapper';
 
 const Certificate = () => {

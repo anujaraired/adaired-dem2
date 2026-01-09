@@ -25,16 +25,17 @@
   h3,
   h4,
   h5,
-  h6 {
+  h6,
+  span {
     @apply text-[#000000];
   }
 
   h1 {
-    @apply text-[1.8rem] font-bold leading-10 text-[#000000] md:text-[3rem] md:leading-[4.65rem] lg:text-[3.75rem];
+    @apply font-poppins text-[1.8rem] font-bold leading-10 text-[#000000] md:text-[3rem] md:leading-[4.65rem] lg:text-[3.75rem];
   }
   h2 {
     /* @apply text-3xl dark:text-gray-800 2xl:text-[26px] 4xl:text-3xl; */
-    @apply pt-[0.25rem] text-[1.6rem] font-semibold leading-tight md:text-[40px];
+    @apply pt-[0.25rem] font-poppins text-[1.6rem] font-semibold leading-tight md:text-[40px];
   }
 
   h3 {
@@ -54,7 +55,7 @@
   }
 
   p {
-    @apply font-montserrat text-xs font-normal leading-[26px] text-[#323232] md:text-xs;
+    @apply font-montserrat text-xs font-normal leading-[26px] text-[#000000] md:text-[18px];
   }
   span {
     @apply text-xxs md:text-xs;
