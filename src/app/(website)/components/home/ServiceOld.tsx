@@ -113,15 +113,15 @@ const Services = () => {
               </div>
 
               <p className="mt-6 animate-[contentReveal_0.6s_420ms_both]">
-                {services[activeTab]?.lastPara}
+                {/* {services[activeTab]?.lastPara} */}
               </p>
               <SaveAndCancel
                 isBgWhite={false}
                 isIcon={true}
-                handleClick={() =>
-                  services[activeTab]?.link &&
-                  router.push(services[activeTab].link)
-                }
+                // handleClick={() =>
+                //   services[activeTab]?.link &&
+                //   router.push(services[activeTab].link)
+                // }
                 name={'Know More'}
                 className="absolute bottom-16 animate-[contentReveal_0.7s_500ms_both]"
               />
