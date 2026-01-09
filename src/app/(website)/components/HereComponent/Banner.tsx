@@ -12,22 +12,17 @@ import SaveAndCancel from '../../common/SaveAndCancel';
 import banner_img_1 from '../../../../../public/assets/images/home/banner_img_1.png';
 import banner_img_2 from '../../../../../public/assets/images/home/banner_img_2.png';
 import banner_img_3 from '../../../../../public/assets/images/home/banner_img_3.png';
-import banner_img_4 from '../../../../../public/assets/images/home/banner_img_7.png';
-import banner_img_5 from '../../../../../public/assets/images/home/banner_img_8.png';
-import banner_img_6 from '../../../../../public/assets/images/home/banner_img_9.png';
 import hero_banner from '../../../../../public/assets/images/home/hero_banner-bg.png';
 import { useRouter } from 'next/navigation';
 import { FaUser } from 'react-icons/fa';
 import { FiArrowUpRight } from 'react-icons/fi';
 import { PiDotsThree } from 'react-icons/pi';
-import { color } from 'framer-motion';
 import google from '../../../../../public/assets/images/partner/google.svg';
 import upwork from '../../../../../public/assets/images/partner/upwork.svg';
 
 const Banner = () => {
   const router = useRouter();
   const users = [user, user_2, user_3, user_4, user_5];
-  const reviews = [MdStarRate, MdStarRate, MdStarRate, MdStarRate, MdStarRate];
   const griphData = [
     {
       icon: <FaUser size={10} />,
@@ -110,8 +105,8 @@ const Banner = () => {
         priority
         className="pointer-events-none object-cover"
       />
-      <MaxWidthWrapper className="relative z-10 block justify-between px-[0.8rem] pb-[6rem] pt-[3rem] lg:flex lg:pt-[6rem]">
-        <div className="w-[100%] space-y-4 lg:w-[42%]">
+      <MaxWidthWrapper className="relative z-10 block justify-between px-[0.8rem] pb-[6rem] pt-[3rem] lg:flex lg:pt-[4.5rem]">
+        <div className="w-[100%] space-y-5 lg:w-[42%]">
           <Heading
             isH1={true}
             subTitle={`Gain Visibility That Converts`}
@@ -135,8 +130,8 @@ const Banner = () => {
                 >
                   <Image
                     src={img}
-                    width={55}
-                    height={55}
+                    width={50}
+                    height={50}
                     alt="user"
                     className={`${lastuser && 'animate-zoomPulse'} rounded-full border-[1px] border-white`}
                   />
@@ -186,7 +181,7 @@ const Banner = () => {
             is2ndButton={true}
             isIcon={true}
             is2BgWhite={true}
-            className="lg:pt-[2rem]"
+            className="lg:pt-[1rem]"
             handleClick={() => router.push('/contact')}
             handleClick2={() =>
               router.push('/services/search-engine-optimization')

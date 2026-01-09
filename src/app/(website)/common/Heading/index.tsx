@@ -99,7 +99,7 @@ const Heading = ({
               </span>
               {/* <div className="mb-auto mt-3 h-0.5 w-24 bg-[#D7EBFF]"></div> */}
             </div>
-            <div className="mt-[0.8rem] md:mt-[8px] lg:mt-[1px]">
+            <div className="mt-[0.8rem] md:mt-[8px] lg:mt-[0.5rem]">
               {isH1 ? (
                 <h1>
                   {title} <br></br>
