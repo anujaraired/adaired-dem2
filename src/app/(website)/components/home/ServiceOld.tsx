@@ -107,7 +107,7 @@ const Services = () => {
                       alt="check"
                       className="my-auto"
                     />
-                    <p className="font-medium">{item}</p>
+                    <p className="font-medium">{item?.label}</p>
                   </div>
                 ))}
               </div>

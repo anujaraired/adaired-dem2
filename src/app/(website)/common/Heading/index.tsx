@@ -58,14 +58,14 @@ const Heading = ({
             <div className="mt-[1px] md:mt-[15px]">
               {isH1 ? (
                 <h1
-                  className={`${isBgWhite ? 'text-[#111111]' : 'text-[#FFFFFF]'} text-center`}
+                  className={`capitalize ${isBgWhite ? 'text-[#111111]' : 'text-[#FFFFFF]'} text-center`}
                 >
                   {title} <br></br>
                   {span}
                 </h1>
               ) : (
                 <h2
-                  className={`${isBgWhite ? 'text-[#111111]' : 'text-[#FFFFFF]'} text-center`}
+                  className={`capitalize ${isBgWhite ? 'text-[#111111]' : 'text-[#FFFFFF]'} text-center`}
                 >
                   {title} <br></br>
                   {span}
@@ -101,12 +101,12 @@ const Heading = ({
             </div>
             <div className="mt-[0.8rem] md:mt-[8px] lg:mt-[0.5rem]">
               {isH1 ? (
-                <h1>
+                <h1 className='capitalize'>
                   {title} <br></br>
                   {span}
                 </h1>
               ) : (
-                <h2 className="">
+                <h2 className="capitalize">
                   {title} <br></br>
                   {span}
                 </h2>
