@@ -225,7 +225,7 @@ const Service = () => {
                             <div
                               key={i}
                               onClick={() => setActiveCard(item.label)}
-                              className={`${activeCard !== item.label ? 'bg-[#F5F5F5]' : 'bg-[#FEE9CC]'} flex cursor-pointer gap-3 rounded-[15px] p-5 md:block`}
+                              className={`${activeCard !== item.label ? 'bg-[#F5F5F5]' : 'bg-[#FEE9CC]'} border-[0.71px] hover:border-[0.71px] hover:border-[#F28F17]/60 flex !cursor-pointer gap-3 rounded-[15px] p-5 md:block`}
                             >
                               <Image
                                 src={item?.icon}

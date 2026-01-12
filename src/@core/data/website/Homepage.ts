@@ -7,10 +7,8 @@ import Experienced from '../../../../public/assets/icons/Experienced_1.svg';
 import Dedicated from '../../../../public/assets/icons/Dedicated_1.svg';
 import customer from '../../../../public/assets/icons/customer.svg';
 import goal from '../../../../public/assets/icons/goal.png';
-import social_media_marketing from '../../../../public/assets/images/service/Social Media Management.png';
 import Web_Design from '../../../../public/assets/images/service/Web Design & Development.png';
 import Digital_Creative from '../../../../public/assets/images/service/Paid Media & Advertising.png';
-import content_img from '../../../../public/assets/images/service/Digital Creative & Logo Design.png';
 import seo2 from '../../../../public/assets/icons/service/seo_Img.png';
 
 //services images
@@ -39,9 +37,9 @@ import White_SEO_3 from '../../../../public/assets/images/service/White_SEO_3.pn
 import White_SEO_4 from '../../../../public/assets/images/service/White_SEO_4.png';
 
 import App_1 from '../../../../public/assets/images/service/App_1.png';
-import App_2 from '../../../../public/assets/images/service/App_2.png';
+import App_2 from '../../../../public/assets/images/service/App_4.png';
 import App_3 from '../../../../public/assets/images/service/App_3.png';
-import App_4 from '../../../../public/assets/images/service/App_4.png';
+import App_4 from '../../../../public/assets/images/service/App_2.png';
 //services icons
 import amazon from '../../../../public/assets/icons/service/amazon.png';
 import app_1 from '../../../../public/assets/icons/service/app_1.png';
@@ -221,33 +219,33 @@ export const WhyChooseSectionData = {
   title: 'Why Choose Adaired as Your',
   span: 'Digital Growth Partner?',
   description:
-    'Adaired combines expert-led digital strategies, dedicated account management, and real-time performance transparency to drive measurable growth.',
+    'Adaired combines expert-led digital strategies, dedicated account management, and real-time performance transparency to drive measurable growth. With an ROI-first mindset, we focus on scalable solutions that turn marketing investments into consistent, profitable results.',
   points: [
     {
       icon: Experienced,
       title: 'Experienced ',
       span: 'Digital Specialists',
       description:
-        "Our team includes skilled digital experts who understand what works in today's competitive environment. From strategy to execution.",
+        'Our team of certified SEO, Google Ads, and analytics professionals drives scalable brand growth using data-backed digital strategies.',
     },
     {
       icon: Dedicated,
       title: 'Dedicated ',
       span: 'Project Manager',
       description:
-        'Every client is assigned a single point of contact who understands your objectives, keeps everything on track, and ensures effective communication.',
+        'Each client works with one dedicated contact who understands goals, streamlines communication, and ensures smooth, timely project management.',
     },
     {
       icon: Transparent,
-      title: 'Transparent',
+      title: 'Transparent  Real-Time',
       span: 'Processes',
       description:
-        'We believe in honesty at every step. You always know what we’re doing, why we’re doing it, and how it benefits your brand.',
+        'Our ROI-first approach ensures every strategy, campaign, and investment delivers measurable value, sustainable growth, and profitable results.',
     },
     {
       icon: customer,
-      title: 'Customer',
-      span: 'First Approach',
+      title: 'ROI-First',
+      span: 'Approach',
       description:
         'Your success is our priority. We listen, we understand, and we tailor our solutions to your needs, not the other way around. ',
     },
@@ -398,7 +396,7 @@ export const LogoSliderSectionData = {
 
 export const ServiceSectionData = {
   subtitle: 'Expert Marketing Solutions',
-  title: '360° Digital Marketing Services for Modern Business Needs',
+  title: '360° Digital Marketing Services for Modern',
   span: 'Business Needs',
   description: `Our success-driven digital marketing services integrate AI-enhanced SEO, advanced analytics, and conversion-focused strategies to strengthen brand presence, improve search performance, and accelerate measurable business growth.`,
   services: [
