@@ -184,7 +184,7 @@ const Service = () => {
           </div>
 
           {/* ---------------- RIGHT CONTENT ---------------- */}
-          <div className="w-[70%] space-y-[2rem]">
+          <div className="w-[100%] space-y-[2rem] lg:w-[70%]">
             {services?.map((service, idx) => {
               const ActiveCardDetails = service?.list?.filter(
                 (item) => item.label === activeCard
@@ -201,9 +201,9 @@ const Service = () => {
                   }}
                   className="block gap-[2rem] rounded-xl border-[1px] border-[#00000033]/20 bg-white p-8"
                 >
-                  <div className="flex gap-2">
+                  <div className="gap-2 lg:flex">
                     {/* LEFT CONTENT */}
-                    <div className="w-full lg:w-[55%]">
+                    <div className="w-[100%] lg:w-[55%]">
                       <div className="relative overflow-hidden rounded-xl">
                         <div className="animate-slideUpFade relative h-[180px] w-full overflow-hidden rounded-2xl md:h-[240px] lg:h-[20.25rem]">
                           <Image
@@ -218,14 +218,14 @@ const Service = () => {
                     </div>
 
                     {/* RIGHT LIST */}
-                    <div className="w-full lg:w-[45%]">
-                      <div className="grid grid-cols-1 gap-2 md:grid-cols-2">
+                    <div className="w-[100%] lg:w-[45%]">
+                      <div className="grid grid-cols-1 gap-2 py-[1rem] md:grid-cols-2 lg:py-0">
                         {service?.list?.slice(0, 4)?.map((item, i, arr) => {
                           return (
                             <div
                               key={i}
                               onClick={() => setActiveCard(item.label)}
-                              className={`${activeCard !== item.label ? 'bg-[#F5F5F5]' : 'bg-[#FEE9CC]'} border-[0.71px] hover:border-[0.71px] hover:border-[#F28F17]/60 flex !cursor-pointer gap-3 rounded-[15px] p-5 md:block`}
+                              className={`${activeCard !== item.label ? 'bg-[#F5F5F5]' : 'bg-[#FEE9CC]'} flex !cursor-pointer gap-3 rounded-[15px] border-[0.71px] p-5 hover:border-[0.71px] hover:border-[#F28F17]/60 md:block`}
                             >
                               <Image
                                 src={item?.icon}
@@ -257,6 +257,7 @@ const Service = () => {
                       handleClick={() => router.push(service.link)}
                       name="Learn More"
                       isIcon
+                      
                     />
                   </div>
                 </div>
