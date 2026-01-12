@@ -24,7 +24,7 @@ import seo from '../../../../public/assets/icons/service/seo.png';
 import ai_seo from '../../../../public/assets/icons/service/ai_seo.png';
 import content from '../../../../public/assets/icons/service/content.png';
 import smm from '../../../../public/assets/icons/service/smm.png';
-
+import Insta_Ads from '../../../../public/assets/icons/service/Insta_Ads.png';
 import GBPSetup from '../../../../public/assets/icons/service/GBPSetup.png';
 import FakeGBPReporting from '../../../../public/assets/icons/service/FakeGBPReporting.png';
 import FakeGoogleReviewReporting from '../../../../public/assets/icons/service/FakeGoogleReviewReporting.png';
@@ -34,10 +34,12 @@ import html from '../../../../public/assets/icons/service/html.png';
 import LinkBuilding from '../../../../public/assets/icons/service/LinkBuilding.png';
 import shoppyfy from '../../../../public/assets/icons/service/shoppyfy.png';
 import TikTokAds from '../../../../public/assets/icons/service/TikTokAds.png';
+import LinkedInAds from '../../../../public/assets/icons/service/LinkedInAds.png';
+
 import WhiteLabelFacebookAds from '../../../../public/assets/icons/service/WhiteLabelFacebookAds.png';
 import WhiteLabelSEO from '../../../../public/assets/icons/service/WhiteLabelSEO.png';
 import WhiteLabelSocialMedia from '../../../../public/assets/icons/service/WhiteLabelSocialMedia.png';
-
+import wordpress from '../../../../public/assets/icons/service/wordpress.png';
 export const SolutionsSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
   subTitle: 'Solutions',
@@ -91,10 +93,9 @@ export const AboutSectionData = {
 
 export const ExpectSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
-  subTitle: 'What You Can Expect',
-  title:
-    'Proven Growth Across Industries Through Strategy, Creativity, and Measurable Results',
-  description: `Our clients, from startups to established brands, experience measurable increases in traffic, engagement, leads, and revenue. Every campaign, design, and post is intended to aid your growth.`,
+  subTitle: 'Advance. Innovate. Achieve.',
+  title: `A Journey Marked by Success, Creativity, and Progress`,
+  description: `Our journey in digital marketing is defined by creativity, measurable success, and continuous progress. From SEO and paid campaigns to social media and analytics, we craft strategies that drive engagement, amplify brand visibility, and deliver sustainable growth, turning every campaign into tangible results and long-term business impact.`,
   points: [
     {
       icon: 'Static Website Images/homepage_about2',
@@ -159,10 +160,10 @@ export const ExpectSectionData = {
 export const WhyChooseSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
   subTitle: 'WHY CHOOSE US',
-  title: 'Your brand deserves more than',
-  span: 'attention—strategy and creativity.',
+  title: 'Why Choose Adaired as Your',
+  span: 'Digital Growth Partner?',
   description:
-    'Choosing a digital partner is more than just selecting a service; it is selecting a team that understands your vision, elevates your ideas, and drives the growth your brand deserves.',
+    'Adaired combines expert-led digital strategies, dedicated account management, and real-time performance transparency to drive measurable growth.',
   points: [
     {
       icon: Experienced,
@@ -198,10 +199,10 @@ export const WhyChooseSectionData = {
 export const CaseStudySectionData = {
   image: 'Static Website Images/about_main_anwqk5',
   subTitle: 'CASE STUDIES',
-  title: 'We transform businesses into',
-  span: 'memorable brands.',
+  title: 'Real Success Stories Showcasing',
+  span: 'Our Impact, Innovation, and Client Achievements.',
   description:
-    'We combine strategy, creativity, and data to deliver digital solutions that drive measurable growth and long-term success. Every solution we build is designed to turn visibility into engagement and engagement into results.',
+    'Discover real success stories that highlight our impact, drive innovation, and celebrate client achievements. See how our solutions transform businesses, empower growth, and create measurable results across industries.',
   studies: [
     {
       image: 'Static Webstudy_3',
@@ -338,31 +339,31 @@ export const LogoSliderSectionData = {
 };
 
 export const ServiceSectionData = {
-  subtitle: 'WHAT WE DO',
-  title: 'Trusted by Clients for Professional,',
-  span: 'Reliable, and Quality Solutions',
-  description: `Adaired Digital Media believes that every solution should elevate your brand, connect with your target audience, and generate measurable growth. Here's how we accomplish it:`,
+  subtitle: 'Expert Marketing Solutions',
+  title: '360° Digital Marketing Services for Modern Business Needs',
+  span: 'Business Needs',
+  description: `Our success-driven digital marketing services integrate AI-enhanced SEO, advanced analytics, and conversion-focused strategies to strengthen brand presence, improve search performance, and accelerate measurable business growth.`,
   services: [
     {
-      title: 'Search Engine Optimization',
+      title: 'Digital Marketing',
       description:
-        'We assist you in getting your website discovered by the right people. Our SEO services combine strategy and practical changes to boost your visibility and traffic, the foundation of any strong lead generation digital marketing agency approach.',
+        'We use AI-driven insights, advanced SEO, and result-driven strategies to boost brand reach, improve search rankings, and drive conversions.',
       list: [
         {
           icon: seo,
-          label: 'Metatag Optimization',
+          label: 'Search Engine Optimization',
         },
         {
           icon: ai_seo,
-          label: 'Setting up Google Tags',
+          label: 'AI SEO',
         },
         {
           icon: content,
-          label: 'Optimizing the Schema',
+          label: 'Content Writing',
         },
         {
           icon: smm,
-          label: 'Optimizing the Website Layout',
+          label: 'Social Media Management',
         },
       ],
       mainSvg: 'Search Engine Optimization_eyQDn',
@@ -371,26 +372,26 @@ export const ServiceSectionData = {
       link: '/services/search-engine-optimization',
     },
     {
-      title: 'Web Design & Development',
+      title: 'Google Business Profile ',
       description:
-        'Your website is your digital home. We create websites that look great, work smoothly, and keep visitors coming back.',
+        'We optimize your Google Business Profile with local SEO, review management, and continuous updates to boost visibility, engagement, and growth.',
       link: '/services/web-design-and-development-services',
       list: [
         {
-          icon: GBPSetup,
-          label: 'Responsive and Mobile-Friendly Design',
+          icon: GBPManagement,
+          label: 'GBP Management',
         },
         {
           icon: GBPSetup,
-          label: 'User Experience (UX) Optimization',
+          label: 'GBP Setup',
         },
         {
-          icon: GBPSetup,
-          label: 'Pages Load Quickly',
+          icon: FakeGBPReporting,
+          label: 'Fake GBP Reporting',
         },
         {
-          icon: GBPSetup,
-          label: 'Secure and Reliable Development',
+          icon: FakeGoogleReviewReporting,
+          label: 'Fake Google Review Reporting',
         },
       ],
       mainSvg: 'Web Dev_JjQ6b',
@@ -398,80 +399,26 @@ export const ServiceSectionData = {
       accentColor: '#038eb0',
     },
     {
-      title: 'Social Media Management',
+      title: 'Paid Ads/Pay Per Click',
       description:
-        'We convert social media from a chore to a growth engine. Our digital media specialist and specialist digital media team engage your audience, build community, and boost your brand presence.',
-      link: '/services/strategic-social-media-management',
-      list: [
-        {
-          icon: GBPSetup,
-          label: 'Social Media Content Strategy',
-        },
-        {
-          icon: GBPSetup,
-          label: 'Managing and engaging the audience',
-        },
-        {
-          icon: GBPSetup,
-          label: 'Hashtag & Trend Strategy',
-        },
-        {
-          icon: GBPSetup,
-          label: 'Paid & Organic Campaigns',
-        },
-      ],
-      mainSvg: 'Social Media_tzOgg',
-      img: social_media_marketing,
-      accentColor: '#7fbe26',
-    },
-    {
-      title: 'Digital Creative & Logo Design',
-      description:
-        'Your brand deserves to appear at its best. As a full-scale digital media planning agency, we run paid campaigns that generate clicks, leads, and sales across major platforms.',
-      link: '/services/digital-creative-and-logo-design',
-      list: [
-        {
-          icon: GBPSetup,
-          label: 'Logo & Brand Identity Design',
-        },
-        {
-          icon: GBPSetup,
-          label: 'Social Media Graphics',
-        },
-        {
-          icon: GBPSetup,
-          label: 'Digital Ads & Banners',
-        },
-        {
-          icon: GBPSetup,
-          label: 'Infographics & Presentation Design',
-        },
-      ],
-      mainSvg: 'Logo Design_PpqcI',
-      img: Web_Design,
-      accentColor: '#5c34b1',
-    },
-    {
-      title: 'Paid Media  & Advertising',
-      description:
-        'We make every ad dollar count. We run campaigns that generate clicks, leads, and sales across Google and social platforms.',
+        'Maximize ROI with precision PPC campaigns, combining AI-driven targeting, analytics, and optimization to efficiently generate qualified leads.',
       link: '/services/paid-media-and-advertising',
       list: [
         {
-          icon: GBPSetup,
-          label: 'Google Ads & PPC Campaigns',
+          icon: GoogleAds,
+          label: 'Google Ads',
         },
         {
-          icon: GBPSetup,
-          label: 'Social Media Advertising (Meta, LinkedIn, TikTok)',
+          icon: Insta_Ads,
+          label: 'Meta (Fb/Insta) Ads',
         },
         {
-          icon: GBPSetup,
-          label: 'Display & Remarketing Ads',
+          icon: LinkedInAds,
+          label: 'LinkedIn Ads',
         },
         {
-          icon: GBPSetup,
-          label: 'Audience Segmentation and Targeting',
+          icon: TikTokAds,
+          label: 'TikTok Ads',
         },
       ],
       mainSvg: 'Pay Per Click_pdGDn',
@@ -479,33 +426,114 @@ export const ServiceSectionData = {
       accentColor: '#d71a1a',
     },
     {
-      title: 'Content Marketing',
+      title: 'Web Design & Development',
       description:
-        'Content is more than just words; it is a means of connecting with, educating, and inspiring your target audience. We create content that builds trust and gets results.',
+        'Responsive, intuitive, and high-performing websites that increase engagement, enhance usability, and deliver real, measurable results.',
+      link: '/services/digital-creative-and-logo-design',
       list: [
         {
-          icon: GBPSetup,
-          label: 'Blog & Article Writing',
+          icon: wordpress,
+          label: 'WordPress Development',
         },
         {
-          icon: GBPSetup,
-          label: 'Website and Landing Page Content',
+          icon: shoppyfy,
+          label: 'Shopify Development',
         },
         {
-          icon: GBPSetup,
-          label: 'Email Campaigns and Newsletters.',
+          icon: amazon,
+          label: 'eCommerce Web Development',
         },
         {
-          icon: GBPSetup,
-          label: 'Video and Multimedia Scripts.',
+          icon: html,
+          label: 'Custom Web Development',
         },
       ],
-      link: '/services/compelling-content-marketing',
-      mainSvg: 'Content Marketing_iPYl2',
-      img: content_img,
-      accentColor: '#24a486',
-      lastPara: 'What You Can Expect',
+      mainSvg: 'Logo Design_PpqcI',
+      img: Web_Design,
+      accentColor: '#5c34b1',
     },
+    {
+      title: 'White Label Services ',
+      description:
+        'Expand your offerings effortlessly with our White Label Services. We offer fully branded solutions, expert support, and seamless integration for business growth.',
+      link: '/services/digital-creative-and-logo-design',
+      list: [
+        {
+          icon: WhiteLabelSEO,
+          label: 'White Label SEO',
+        },
+        {
+          icon: WhiteLabelSocialMedia,
+          label: 'White Label Social Media',
+        },
+        {
+          icon: WhiteLabelFacebookAds,
+          label: 'White Label Facebook Ads',
+        },
+        {
+          icon: LinkBuilding,
+          label: 'White Label Link Building',
+        },
+      ],
+      mainSvg: 'Logo Design_PpqcI',
+      img: Web_Design,
+      accentColor: '#5c34b1',
+    },
+    {
+      title: 'Mobile App Development',
+      description:
+        'We help you create high-performing mobile apps. Our team manages design, development, and deployment, delivering apps that engage users and grow your business.',
+      list: [
+        {
+          icon: app_1,
+          label: 'IOS App Development',
+        },
+        {
+          icon: app_2,
+          label: 'Android App Development',
+        },
+        {
+          icon: app_3,
+          label: 'Cross-Platform',
+        },
+        {
+          icon: app_4,
+          label: 'Wearables',
+        },
+      ],
+      mainSvg: 'Logo Design_PpqcI',
+      img: Web_Design,
+      accentColor: '#5c34b1',
+    },
+
+    // {
+    //   title: 'Content Marketing',
+    //   description:
+    //     'Content is more than just words; it is a means of connecting with, educating, and inspiring your target audience. We create content that builds trust and gets results.',
+    //   list: [
+    //     {
+    //       icon: GBPSetup,
+    //       label: 'Blog & Article Writing',
+    //     },
+    //     {
+    //       icon: GBPSetup,
+    //       label: 'Website and Landing Page Content',
+    //     },
+    //     {
+    //       icon: GBPSetup,
+    //       label: 'Email Campaigns and Newsletters.',
+    //     },
+    //     {
+    //       icon: GBPSetup,
+    //       label: 'Video and Multimedia Scripts.',
+    //     },
+    //   ],
+    //   link: '/services/compelling-content-marketing',
+    //   mainSvg: 'Content Marketing_iPYl2',
+    //   img: content_img,
+    //   accentColor: '#24a486',
+    //   lastPara: 'What You Can Expect',
+    // },
   ],
 };
 
@@ -583,11 +611,11 @@ export const AwardsSectionData = [
 
 export const ContactSectionData = {
   image: 'Static Website Images/contact_us_image',
-  subTitle: 'READY TO GROW?',
-  title: 'Ready to Grow Your Brand and ',
-  span: 'Stay Ahead in the Digital World?',
+  subTitle: 'Contact Us',
+  title: 'Kickstart your business growth with',
+  span: 'guidance and proven solutions today',
   description:
-    'Stay ahead in the digital world with our latest tips and practical strategies. From marketing trends to SEO insights, our blog helps you grow smarter and faster.',
+    'Accelerate your business growth with expert guidance, practical solutions, and proven strategies that help you seize opportunities, overcome challenges, and achieve lasting success.',
   contactDetails: [
     {
       href: 'mailto:info@adaired.com',
@@ -618,11 +646,11 @@ export const ContactSectionData = {
 
 export const BlogSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
-  subTitle: 'BlOGS',
-  title: 'Latest From Our Blog',
-  span: 'Turns Businesses Into Brands',
+  subTitle: 'OUR BlOGS',
+  title: 'Stay Ahead With The Latest',
+  span: 'Market Insights',
   description:
-    'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity.',
+    'Discover fresh insights, tips, and stories on our blog. Stay updated with the latest trends, ideas, and inspiration. ',
   blogs: [
     {
       image: blog_1,
@@ -662,8 +690,8 @@ export const BlogSectionData = {
 export const FAQSSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
   subTitle: 'FAQS',
-  title: 'Got Questions? We’ve Got Answers.',
-  span: 'Turns Businesses Into Brands',
+  title: 'Questions You Have, Answers You Need',
+  span: 'Have questions? Our FAQ section provides clear, concise answers about our services to guide you effortlessly.',
   description:
     'Stay ahead of the digital curve with expert insights, practical strategies, and the latest trends designed to help your brand grow with confidence.',
   faqs: [
