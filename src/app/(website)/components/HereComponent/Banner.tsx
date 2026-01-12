@@ -170,7 +170,7 @@ const Banner = () => {
             />
           </div>
           <p className="hidden lg:block">
-            Scale your business, generate leads by 15% or more within your first
+            Generate leads by 15% or more within your first
             6 months with real-time data and expert insights. Our strategy
             ensures that your brand reaches the right people, produces
             measurable results, and effectively expands across digital channels.
