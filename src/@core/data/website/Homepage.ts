@@ -33,6 +33,15 @@ import web_2 from '../../../../public/assets/images/service/web_2.png';
 import web_3 from '../../../../public/assets/images/service/web_3.png';
 import web_4 from '../../../../public/assets/images/service/web_4.png';
 
+import White_SEO_1 from '../../../../public/assets/images/service/White_SEO_1.png';
+import White_SEO_2 from '../../../../public/assets/images/service/White_SEO_2.png';
+import White_SEO_3 from '../../../../public/assets/images/service/White_SEO_3.png';
+import White_SEO_4 from '../../../../public/assets/images/service/White_SEO_4.png';
+
+import App_1 from '../../../../public/assets/images/service/App_1.png';
+import App_2 from '../../../../public/assets/images/service/App_2.png';
+import App_3 from '../../../../public/assets/images/service/App_3.png';
+import App_4 from '../../../../public/assets/images/service/App_4.png';
 //services icons
 import amazon from '../../../../public/assets/icons/service/amazon.png';
 import app_1 from '../../../../public/assets/icons/service/app_1.png';
@@ -573,7 +582,7 @@ export const ServiceSectionData = {
       list: [
         {
           icon: WhiteLabelSEO,
-          image: seo2,
+          image: White_SEO_1,
           label: 'White Label SEO',
           title: 'White Label SEO',
           description: `We help you boost your agency’s offerings with White Label SEO from Adaired. We deliver expert SEO services under your brand, so you can expand without extra overhead. From keyword research to link building and reporting, we handle all the technical work while you keep full client ownership. Together, we help you scale your business, enhance results, and maintain your brand reputation effortlessly.`,
@@ -581,7 +590,7 @@ export const ServiceSectionData = {
         },
         {
           icon: WhiteLabelSocialMedia,
-          image: seo2,
+          image: White_SEO_2,
           label: 'White Label Social Media',
           title: 'White Label Social Media',
           description: `At Adaired, we help you expand your agency’s services with White Label Social Media services. We create, manage, and optimize social media campaigns under your brand, so you can deliver results without extra overhead. From content creation to scheduling and analytics, we handle the work while you retain full client ownership.`,
@@ -589,7 +598,7 @@ export const ServiceSectionData = {
         },
         {
           icon: WhiteLabelFacebookAds,
-          image: seo2,
+          image: White_SEO_3,
           label: 'White Label Facebook Ads',
           title: 'White Label Facebook Ads',
           description: `We help your agency scale with White Label Facebook Ads. We handle ad strategy, creation, targeting, and reporting under your brand, so you deliver results without extra overhead. You keep full client ownership while we drive performance, boost ROI, and protect your brand reputation.`,
@@ -597,7 +606,7 @@ export const ServiceSectionData = {
         },
         {
           icon: LinkBuilding,
-          image: seo2,
+          image: White_SEO_4,
           label: 'White Label Link Building',
           title: 'White Label Link Building',
           description: `We help your agency grow with White Label Link Building from Adaired. We handle outreach, content placement, and quality backlink acquisition under your brand, so you deliver results without extra overhead. You keep full client ownership while we boost domain authority, improve rankings, and protect your brand reputation.`,
@@ -617,6 +626,7 @@ export const ServiceSectionData = {
       list: [
         {
           icon: app_1,
+          image: App_1,
           label: 'IOS App Development',
           title: 'IOS App Development',
           description: `We specialize in iOS App Development, creating seamless, high-performing apps for iPhone and iPad. From design and coding to testing and deployment, we handle everything under your brand, helping you deliver quality apps while retaining full client ownership.`,
@@ -624,6 +634,7 @@ export const ServiceSectionData = {
         },
         {
           icon: app_2,
+          image: App_2,
           label: 'Android App Development',
           title: 'Android App Development',
           description: `At Adaired, we specialize in Android App Development, building high-performing, user-friendly apps for all Android devices. From design and coding to testing and deployment, we handle everything under your brand, helping you deliver apps while retaining full client ownership.`,
@@ -631,6 +642,7 @@ export const ServiceSectionData = {
         },
         {
           icon: app_3,
+          image: App_3,
           label: 'Cross-Platform',
           title: 'Cross-Platform',
           description: `At Adaired, we specialize in Cross-Platform App Development, creating apps that work flawlessly on both iOS and Android. From design and coding to testing and deployment, we handle the technical work under your brand, helping you deliver quality apps and scale your business effortlessly.`,
@@ -638,6 +650,7 @@ export const ServiceSectionData = {
         },
         {
           icon: app_4,
+          image: App_4,
           label: 'Wearables',
           title: 'Wearables',
           description: `We specialize in Wearable App Development at Adaired, creating apps for smartwatches, fitness trackers, and other wearable devices. From design to development and integration, we deliver seamless, high-performing apps under your brand, helping you enhance user engagement, provide real-time data, and expand your digital offerings effortlessly.`,

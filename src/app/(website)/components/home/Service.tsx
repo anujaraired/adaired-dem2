@@ -189,10 +189,10 @@ const Service = () => {
               const ActiveCardDetails = service?.list?.filter(
                 (item) => item.label === activeCard
               );
+              const isActive = activeTab === idx;
+              console.log(isActive, ' ');
               const { title, description, image } =
                 (ActiveCardDetails?.[0] as ServiceItem) ?? {};
-
-              console.log('ActiveCardDetails232', ActiveCardDetails);
               return (
                 <div
                   key={idx}
@@ -225,7 +225,7 @@ const Service = () => {
                             <div
                               key={i}
                               onClick={() => setActiveCard(item.label)}
-                              className={`flex cursor-pointer gap-3 rounded-[15px] bg-[#FFF6EB] p-5 md:block`}
+                              className={`${activeCard !== item.label ? 'bg-[#F5F5F5]' : 'bg-[#FEE9CC]'} flex cursor-pointer gap-3 rounded-[15px] p-5 md:block`}
                             >
                               <Image
                                 src={item?.icon}
