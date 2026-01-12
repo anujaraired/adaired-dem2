@@ -185,6 +185,16 @@ const config: Omit<Config, 'prefix' | 'presets' | 'content'> = {
           },
         },
       },
+      slideUpFade: {
+        '0%': {
+          opacity: '0',
+          transform: 'translateY(24px)',
+        },
+        '100%': {
+          opacity: '1',
+          transform: 'translateY(0)',
+        },
+      },
     },
     animation: {
       step1: 'stepBounce1 4s ease-in-out infinite',
@@ -198,6 +208,7 @@ const config: Omit<Config, 'prefix' | 'presets' | 'content'> = {
       bubble: 'bubble 90s ease-out infinite',
       contentReveal: 'contentReveal 0.6s cubic-bezier(0.22, 1, 0.36, 1) both',
       imageZoomIn: 'imageZoomIn 0.7s cubic-bezier(0.22, 1, 0.36, 1) both',
+      slideUpFade: 'slideUpFade 0.6s ease-out forwards',
     },
   },
   plugins: [

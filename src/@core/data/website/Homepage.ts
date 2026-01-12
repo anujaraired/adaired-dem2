@@ -13,13 +13,32 @@ import Digital_Creative from '../../../../public/assets/images/service/Paid Medi
 import content_img from '../../../../public/assets/images/service/Digital Creative & Logo Design.png';
 import seo2 from '../../../../public/assets/icons/service/seo_Img.png';
 
-//services
+//services images
+import SEO from '../../../../public/assets/images/service/SEO.png';
+import AI_SEO from '../../../../public/assets/images/service/SSM.png';
+import Content from '../../../../public/assets/images/service/Content.png';
+import SMM from '../../../../public/assets/images/service/AI_SEO.png';
+import GBP_1 from '../../../../public/assets/images/service/GBP_1.png';
+import GBP_2 from '../../../../public/assets/images/service/GBP_3.png';
+import GBP_3 from '../../../../public/assets/images/service/GBP_2.png';
+import GBP_4 from '../../../../public/assets/images/service/GBP_4.png';
+
+import Ad_1 from '../../../../public/assets/images/service/Ad_1.png';
+import Ad_2 from '../../../../public/assets/images/service/Ad_2.png';
+import Ad_3 from '../../../../public/assets/images/service/Ad_3.png';
+import Ad_4 from '../../../../public/assets/images/service/Ad_4.png';
+
+import web_1 from '../../../../public/assets/images/service/web_1.png';
+import web_2 from '../../../../public/assets/images/service/web_2.png';
+import web_3 from '../../../../public/assets/images/service/web_3.png';
+import web_4 from '../../../../public/assets/images/service/web_4.png';
+
+//services icons
 import amazon from '../../../../public/assets/icons/service/amazon.png';
 import app_1 from '../../../../public/assets/icons/service/app_1.png';
 import app_2 from '../../../../public/assets/icons/service/app_2.png';
 import app_3 from '../../../../public/assets/icons/service/app_3.png';
 import app_4 from '../../../../public/assets/icons/service/app_4.png';
-
 import seo from '../../../../public/assets/icons/service/seo.png';
 import ai_seo from '../../../../public/assets/icons/service/ai_seo.png';
 import content from '../../../../public/assets/icons/service/content.png';
@@ -381,7 +400,7 @@ export const ServiceSectionData = {
       list: [
         {
           icon: seo,
-          image: seo2,
+          image: SEO,
           label: 'Search Engine Optimization',
           title: 'Search Engine Optimization',
           description: `We provide Search Engine Optimization services that are aimed at increasing the presence online and driving meaningful engagement. We combine smart keyword targeting, technical optimization, and credible content to make your business achieve consistent rankings and sustainable organic growth.`,
@@ -389,7 +408,7 @@ export const ServiceSectionData = {
         },
         {
           icon: ai_seo,
-          image: seo2,
+          image: AI_SEO,
           label: 'AI SEO',
           title: 'AI SEO',
           description: `Our AI SEO solutions leverage artificial intelligence to analyze search behavior, optimize content, and improve rankings with precision. We use data-driven insights, automation, and predictive strategies to enhance visibility, target intent-driven keywords, and deliver measurable SEO performance.`,
@@ -397,7 +416,7 @@ export const ServiceSectionData = {
         },
         {
           icon: content,
-          image: seo2,
+          image: Content,
           label: 'Content Writing',
           title: 'Content Writing',
           description: `At Adaired, we craft strategic content designed to educate, engage, and convert audiences effectively. From blogs and web pages to compelling marketing copy, our content writing services enhance brand voice, boost search performance, build credibility, and support long-term digital growth through clear, consistent, and results-driven messaging.`,
@@ -405,7 +424,7 @@ export const ServiceSectionData = {
         },
         {
           icon: smm,
-          image: seo2,
+          image: SMM,
           label: 'Social Media Management',
           title: 'Social Media Management',
           description: `We offer strategic social media management services that build brand presence, engages audiences, and drives growth. From content creation and scheduling to community management and performance tracking, our services help brands connect authentically, increase visibility, and achieve consistent results across all major social platforms.`,
@@ -425,7 +444,7 @@ export const ServiceSectionData = {
       list: [
         {
           icon: GBPManagement,
-          image: seo2,
+          image: GBP_1,
           label: 'GBP Management',
           title: 'GBP Management',
           description: `We provide expert Google Business Profile management to improve local visibility and customer engagement. From profile optimization and regular updates to review management and performance insights, our GBP services help businesses rank higher in local searches, attract nearby customers, and build trust through a strong local presence.`,
@@ -433,7 +452,7 @@ export const ServiceSectionData = {
         },
         {
           icon: GBPSetup,
-          image: seo2,
+          image: GBP_2,
           label: 'GBP Setup',
           title: 'GBP Setup',
           description: `At Adaired, we offer a complete Google Business Profile setup to ensure your business is accurately listed and optimized from day one. From creating and verifying your profile to adding essential business details, categories, and visuals, our GBP setup service builds a strong foundation for improved local visibility and customer trust.`,
@@ -441,7 +460,7 @@ export const ServiceSectionData = {
         },
         {
           icon: FakeGBPReporting,
-          image: seo2,
+          image: GBP_3,
           label: 'Fake GBP Reporting',
           title: 'Fake GBP Reporting',
           description: `We provide professional fake Google Business Profile reporting to help protect your brand’s local presence. Our team identifies and reports fraudulent or spam listings, ensuring compliance with Google guidelines and reducing unfair competition, so your legitimate business can rank accurately and maintain trust in local search results.`,
@@ -449,7 +468,7 @@ export const ServiceSectionData = {
         },
         {
           icon: FakeGoogleReviewReporting,
-          image: seo2,
+          image: GBP_4,
           label: 'Fake Google Review Reporting',
           title: 'Fake Google Review Reporting',
           description: `Safeguard your business from fake Google reviews. We identify fraudulent or malicious reviews, collect evidence, and report them to Google through official channels. Our professional process helps restore trust, protect your online reputation, maintain credibility, and ensure your business profile accurately reflects genuine customer feedback.`,
@@ -468,7 +487,7 @@ export const ServiceSectionData = {
       list: [
         {
           icon: GoogleAds,
-          image: seo2,
+          image: Ad_1,
           label: 'Google Ads',
           title: 'Google Ads',
           description: `Maximize your online visibility and drive targeted traffic with our Google Ads management. We create, optimize, and monitor high-performing campaigns to increase leads, boost sales, and improve ROI. Our expert approach ensures your ads reach the right audience at the right time for measurable business growth.`,
@@ -476,7 +495,7 @@ export const ServiceSectionData = {
         },
         {
           icon: Insta_Ads,
-          image: seo2,
+          image: Ad_2,
           label: 'Meta (Fb/Insta) Ads',
           title: 'Meta (Fb/Insta) Ads',
           description: `Grow your brand with targeted Meta Ads on Facebook and Instagram. We design, manage, and optimize campaigns that reach the right audience, boost engagement, and drive conversions. Our data-driven strategies maximize ROI, increase visibility, and help your business connect with customers where they spend the most time online.`,
@@ -484,7 +503,7 @@ export const ServiceSectionData = {
         },
         {
           icon: LinkedInAds,
-          image: seo2,
+          image: Ad_3,
           label: 'LinkedIn Ads',
           title: 'LinkedIn Ads',
           description: `Reach the right professionals with targeted LinkedIn Ads. We create, manage, and optimize campaigns to generate leads, increase brand authority, and drive B2B growth. Our strategic approach ensures your ads engage decision-makers, maximize ROI, and strengthen your professional presence on the world’s leading business network.`,
@@ -492,7 +511,7 @@ export const ServiceSectionData = {
         },
         {
           icon: TikTokAds,
-          image: seo2,
+          image: Ad_4,
           label: 'TikTok Ads',
           title: 'TikTok Ads',
           description: `Capture attention and drive results with TikTok Ads. We create, manage, and optimize engaging campaigns that reach your target audience, boost brand awareness, and increase conversions. Our creative, data-driven approach ensures your content goes viral, maximizes ROI, and connects your business with a younger, trend-focused audience.`,
@@ -511,7 +530,7 @@ export const ServiceSectionData = {
       list: [
         {
           icon: wordpress,
-          image: seo2,
+          image: web_1,
           label: 'WordPress Development',
           title: 'WordPress Development',
           description: `Build a powerful, professional website with our WordPress Development services. We design, develop, and customize responsive sites tailored to your brand, ensuring fast performance, SEO optimization, and user-friendly navigation. From blogs to e-commerce, we deliver secure, scalable solutions that help your business grow online effectively.`,
@@ -519,7 +538,7 @@ export const ServiceSectionData = {
         },
         {
           icon: shoppyfy,
-          image: seo2,
+          image: web_2,
           label: 'Shopify Development',
           title: 'Shopify Development',
           description: `Launch and grow your online store with our Shopify Development services. We design, build, and customize responsive, secure, and user-friendly e-commerce websites. From product management to payment integration, our solutions drive sales, enhance customer experience, and help your business succeed in the competitive world of online retail.`,
@@ -527,7 +546,7 @@ export const ServiceSectionData = {
         },
         {
           icon: amazon,
-          image: seo2,
+          image: web_3,
           label: 'eCommerce Web Development',
           title: 'eCommerce Web Development',
           description: `Transform your online business with our eCommerce Web Development services. We create responsive, secure, and user-friendly websites tailored to your brand, optimized for performance and conversions. From product catalogs to payment gateways, our solutions drive sales, enhance customer experience, and help your business thrive in the digital marketplace.`,
@@ -535,7 +554,7 @@ export const ServiceSectionData = {
         },
         {
           icon: html,
-          image: seo2,
+          image: web_4,
           label: 'Custom Web Development',
           title: 'Custom Web Development',
           description: `Bring your vision to life with our Custom Web Development services. We design and build tailored websites that meet your unique business needs, ensuring responsive design, seamless functionality, and scalability. Our solutions enhance user experience, boost performance, and provide a strong digital presence to help your business grow online.`,

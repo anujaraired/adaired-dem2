@@ -205,7 +205,7 @@ const Service = () => {
                     {/* LEFT CONTENT */}
                     <div className="w-full lg:w-[55%]">
                       <div className="relative overflow-hidden rounded-xl">
-                        <div className="relative h-[180px] w-full overflow-hidden rounded-2xl md:h-[240px] lg:h-[20.25rem]">
+                        <div className="animate-slideUpFade relative h-[180px] w-full overflow-hidden rounded-2xl md:h-[240px] lg:h-[20.25rem]">
                           <Image
                             src={image ?? service.img}
                             fill
@@ -245,11 +245,11 @@ const Service = () => {
                     </div>
                   </div>
                   <div>
-                    <h2 className="my-2 animate-contentReveal text-center font-bold [animation-delay:0ms] lg:my-4 lg:text-left">
+                    <h2 className="animate-slideUpFade my-2 text-center font-bold [animation-delay:120ms] lg:my-4 lg:text-left">
                       {title ?? service.title}
                     </h2>
 
-                    <p className="mb-6 text-center lg:text-left">
+                    <p className="animate-slideUpFade mb-6 text-center [animation-delay:120ms] lg:text-left">
                       {description ?? service.description}
                     </p>
 
