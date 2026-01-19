@@ -1,5 +1,5 @@
 import { SolutionsSectionData } from '@/@core/data/website/Homepage';
-import React from 'react';
+import React, { useState } from 'react';
 import MaxWidthWrapper from '../MaxWidthWrapper';
 import Heading from '../../common/Heading';
 import Image from 'next/image';
@@ -13,8 +13,10 @@ import {
   useZoomOnView,
 } from '@/@core/hooks/useScrollAnimations';
 import SaveAndCancel from '../../common/SaveAndCancel';
+import GetQuoteModal from '../popup/GetQuoteModal';
 
 const Solutions = () => {
+  const [open, setOpen] = useState(false);
   const { subTitle, title, points, description, cursive } =
     SolutionsSectionData;
   const { ref: imageRef, className: imageClass } = useImageReveal({
@@ -29,8 +31,8 @@ const Solutions = () => {
 
   return (
     <section className="">
-      <MaxWidthWrapper className="pb-[8rem] pt-[3rem] lg:py-[6rem]">
-        <div className="flex flex-col-reverse gap-[3rem] lg:flex-row lg:justify-between lg:gap-[5.25rem]">
+      <MaxWidthWrapper className="pb-[8rem] pt-[3rem] lg:py-[4rem] xl:py-[6rem]">
+        <div className="flex flex-col-reverse lg:flex-row lg:justify-between lg:gap-[3rem] xl:gap-[5rem]">
           {/* Image Section */}
           <div className="relative mx-auto flex-1">
             {/* CENTER IMAGE */}
@@ -43,7 +45,7 @@ const Solutions = () => {
                 alt="About Image"
                 width={625}
                 height={470}
-                className="my-[2rem] h-[14rem] w-[14rem] rounded-lg md:h-[34.625rem] md:w-[36.313rem] lg:h-[25.375rem] lg:w-[39.063rem]"
+                className="my-[2rem] h-[14rem] w-[14rem] rounded-lg md:h-[34.625rem] md:w-[36.313rem] lg:h-[18rem] lg:w-[20rem] xl:h-[25.375rem] xl:w-[39.063rem] 1360:w-[25rem] 1400:w-[27rem] 1600:w-[32rem] 1680:h-[25.375rem] 1680:w-[34rem] 3xl:h-[25.375rem] 3xl:w-[39.063rem]"
               />
             </div>
             {/* MASK – TOP RIGHT */}
@@ -75,7 +77,7 @@ const Solutions = () => {
               }
               span=""
               description={
-                'You get 24/7 access to your campaign pulse. We combine advanced tracking tools with human insight to show you exactly how $1 of spend becomes $5 of revenue.'
+                'But with us, you get 24/7 access to your campaign pulse. We combine advanced tracking tools with human insight to show you exactly how $1 of spend becomes $5 of revenue.'
               }
             />
 
@@ -109,14 +111,17 @@ const Solutions = () => {
               ))}
             </div>
             <SaveAndCancel
-              name={'Get Your Free Marketing Audit'}
+              name={'Get Your Free Website Audit'}
               isIcon={true}
-              isFullWidth={true}
-              className="mt-[2rem] w-[20rem]"
+              buttonWidth={'w-[22rem] 1360:w-[18rem] 1400:w-[22rem]'}
+              handleClick={() => setOpen(!open)}
+              className="rem] mt-[2rem]"
             />
           </div>
         </div>
       </MaxWidthWrapper>
+
+      <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
     </section>
   );
 };

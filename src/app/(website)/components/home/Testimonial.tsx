@@ -1,20 +1,29 @@
+'use client';
 import { TestimonialSectionData } from '@/@core/data/website/Homepage';
 import { useEffect, useState } from 'react';
 import Heading from '../../common/Heading';
 import { MdOutlineStar } from 'react-icons/md';
 import Image from 'next/image';
-import google from '../../../../../public/assets/icons/goole.png';
+import google from '../../../../../public/assets/upwork_logo.png';
 import useIsMobile from '@/@core/hooks/useIsMobile';
 
+import img_1 from '../../../../../public/assets/testimonial/testimonial_1.png';
+import img_2 from '../../../../../public/assets/testimonial/testimonial_2.png';
+import img_3 from '../../../../../public/assets/testimonial/testimonial_3.png';
+import img_4 from '../../../../../public/assets/testimonial/testimonial_4.png';
+import img_5 from '../../../../../public/assets/testimonial/testimonial_5.png';
+import img_6 from '../../../../../public/assets/testimonial/testimonial_6.png';
+import useBreakpointReviewCharLimit from '@/@core/hooks/useBreakpointReviewCharLimit';
 const Testimonial = () => {
   const isMobile = useIsMobile();
+  const charLimit = useBreakpointReviewCharLimit();
   const { subTitle, title, description, testimonials } = TestimonialSectionData;
   const [isHover, setIsHover] = useState<number | null>(1);
   // const VISIBLE_CARDS = 3;
   const VISIBLE_CARDS = isMobile ? 1 : 3;
 
   const total = testimonials.length;
-
+  const testimonialData = [img_1, img_2, img_3, img_4, img_5, img_6];
   // clone first cards
   const slides = [...testimonials, ...testimonials.slice(0, VISIBLE_CARDS)];
 
@@ -22,7 +31,7 @@ const Testimonial = () => {
   const [enableTransition, setEnableTransition] = useState(true);
 
   return (
-    <section className="relative bg-gradient-to-b from-[#05121E] to-[#1A5A96] bg-cover bg-no-repeat py-[3rem] lg:py-[6rem]">
+    <section className="relative bg-gradient-to-b from-[#05121E] to-[#1A5A96] bg-cover bg-no-repeat py-[3rem] lg:py-[4rem] xl:py-[6rem]">
       <div className="relative z-20">
         <div className="flex w-[100%] justify-center">
           <Heading
@@ -49,48 +58,61 @@ const Testimonial = () => {
             >
               {slides.map((testimonial: any, idx: number) => (
                 <div
-                  className={`relative shrink-0 px-[1rem] ${
+                  className={`relative shrink-0 px-[rem] lg:px-[0.5rem] xl:px-[1rem] ${
                     isMobile ? 'basis-full' : 'basis-1/3'
                   }`}
                 >
-                  <div className="h-full min-h-[270px] transform-gpu rounded-2xl border-[5px] border-transparent bg-white p-[2.5rem] transition-all duration-300 ease-out will-change-transform hover:scale-[1.03] hover:border-[#1B5A96]">
-                    <p className="text-sm text-[#262626]">
-                      {testimonial.description}
-                    </p>
-
-                    <div className="flex justify-between pt-[2rem]">
-                      <div className="absolute bottom-10 left-10">
-                        <p className="text-sm font-medium">
-                          {testimonial.name}
-                        </p>
-                        <div className="flex gap-1">
-                          {Array.from({ length: 5 }).map((_, i) => (
-                            <MdOutlineStar
-                              key={i}
-                              size={16}
-                              className="text-[#FB9100]"
-                            />
-                          ))}
+                  <div
+                    onClick={() =>
+                      window.open(
+                        'https://www.upwork.com/agencies/1064740584575918080/',
+                        '_blank',
+                        'noopener,noreferrer'
+                      )
+                    }
+                    className="h-[23.5rem] transform-gpu cursor-pointer rounded-2xl border-[5px] border-transparent bg-white p-[2.5rem] transition-all duration-300 ease-out will-change-transform hover:scale-[1.03] hover:border-[#1B5A96] md:h-[17rem] lg:h-[25rem] lg:p-[1.5rem] xl:p-[2rem] 1360:h-[18rem] 1400:h-[18rem] 1440:h-[22rem] 1600:h-[20rem] 1710:h-[19rem] 3xl:h-[19rem]"
+                  >
+                    <div className="">
+                      <div className="flex justify-between pt-[1rem]">
+                        <div className="">
+                          <p className="text-sm font-medium text-[#108A00] lg:text-xs xl:text-sm 1360:text-xxs 1400:text-sm">
+                            {testimonial.name}
+                          </p>
+                          <div className="my-1 flex gap-1 lg:gap-0 xl:gap-1">
+                            <span className="my-auto flex">
+                              {Array.from({ length: 5 }).map((_, i) => (
+                                <MdOutlineStar
+                                  key={i}
+                                  size={16}
+                                  className="text-[#FB9100]"
+                                />
+                              ))}
+                            </span>
+                          </div>
+                        </div>
+                        <div className="relative h-[30px] w-[120px] flex-shrink-0">
+                          <Image
+                            src={google}
+                            alt="Google"
+                            fill
+                            unoptimized
+                            className="object-contain"
+                          />
                         </div>
                       </div>
-
-                      <div className="absolute bottom-10 right-10 h-[25px] w-[95px]">
-                        <Image
-                          src={google}
-                          width={95}
-                          height={25}
-                          alt="Google"
-                          unoptimized
-                        />
-                      </div>
                     </div>
+                    <p className="pt-[1rem] text-[#262626]">
+                      {testimonial.description?.length > charLimit
+                        ? testimonial.description.slice(0, charLimit) + '...'
+                        : testimonial.description}
+                    </p>
                   </div>
                 </div>
               ))}
             </div>
             {/* Pagination */}
             {total > VISIBLE_CARDS && (
-              <div className="mt-[4rem] flex justify-center gap-2">
+              <div className="mt-[1rem] flex justify-center gap-2 md:mt-[2rem] lg:mt-[2.5rem]">
                 {Array.from({ length: total }).map((_, i) => {
                   const activeIndex = index % total;
                   return (

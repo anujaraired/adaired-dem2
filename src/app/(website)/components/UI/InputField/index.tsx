@@ -5,27 +5,43 @@ export interface InputFieldProps {
   handleChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
   placeholder?: string;
   className?: string;
-  maxLength?:number
+  maxLength?: number;
+  error?: string;
+  required?: boolean;
 }
+export const star = {
+  value: '*',
+};
 const InputField = ({
   name,
   value,
   handleChange,
   placeholder,
   className,
-  maxLength
+  maxLength,
+  error,
+  required,
 }: InputFieldProps) => {
+  const dsp = false;
   return (
-    <input
-      type="text"
-      name={name}
-      value={value}
-      onChange={handleChange}
-      maxLength={maxLength}
-      className={`${className} w-full rounded-md border-none bg-[#F8F8F8] px-4 py-3 text-xs font-normal text-black outline-none placeholder:text-[#A3A3A3] focus:border-[#000000]`}
-      placeholder={placeholder}
-    />
+    <div className="relative">
+      <input
+        type="text"
+        name={name}
+        value={value}
+        onChange={handleChange}
+        maxLength={maxLength}
+        className={`${className} w-full rounded-[0.5rem] border-none bg-[#F8F8F8] px-4 py-3 text-xxs font-normal text-[#000000] outline-none placeholder:text-[#323232B2] focus:border-[#000000] xl:text-xs`}
+        placeholder={`${placeholder} ${required ? '*' : ''}`}
+      />
+      {error && (
+        <span className="absolute top-[3rem] left-4 w-[100%] text-[12px] text-red-500">
+          {error}
+        </span>
+      )}
+    </div>
   );
 };
 
 export default InputField;
+

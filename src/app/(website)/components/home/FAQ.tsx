@@ -14,7 +14,7 @@ const FAQ = () => {
   };
 
   return (
-    <div className="overflow-visible py-[3rem] lg:py-[6rem]">
+    <div className="overflow-visible py-[3rem] lg:py-[4rem] xl:py-[6rem]">
       <MaxWidthWrapper className="space-y-[3rem] overflow-visible">
         <div className="flex w-[100%] justify-center">
           <Heading
@@ -35,19 +35,17 @@ const FAQ = () => {
             return (
               <div
                 key={idx}
-                className="grid grid-cols-5 rounded-2xl border-[2px] border-[#000000]/20 p-[1rem] lg:p-[2rem]"
+                onClick={() => toggleFAQ(idx)}
+                className="grid cursor-pointer grid-cols-5 rounded-2xl border-[2px] border-[#000000]/20 p-[1rem] lg:p-[2rem]"
               >
                 {/* Content */}
                 <div className="col-span-4 space-y-4">
-                  <h5>{faq.title}</h5>
+                  <h3>{faq.title}</h3>
                   {isOpen && <p>{faq.description}</p>}
                 </div>
 
                 {/* Toggle Button */}
-                <div
-                  onClick={() => toggleFAQ(idx)}
-                  className="flex cursor-pointer justify-end"
-                >
+                <div className="flex cursor-pointer justify-end">
                   <span
                     className={`mb-auto w-fit rounded-full p-1 transition-all duration-300 ${
                       isOpen

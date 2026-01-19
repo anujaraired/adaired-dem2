@@ -18,7 +18,7 @@ const Expect = () => {
   });
   return (
     <section className="1bg-[#F5F5F580]">
-      <MaxWidthWrapper className="py-[3rem] lg:py-[6rem]">
+      <MaxWidthWrapper className="py-[3rem] lg:py-[4rem] xl:py-[6rem]">
         <div className="">
           <Heading
             isDecVarticle={true}
@@ -26,18 +26,13 @@ const Expect = () => {
             title={title}
             span=""
             description={description}
-            // isPara2={true}
-            // description2={` At Adaired Digital Media, we don’t just create strategies; we
-            //   deliver measurable impact. Our approach transforms ideas into
-            //   action and action into results that are important to your
-            //   business.`}
           />
         </div>
-        <div className="relative grid grid-cols-1 gap-[2rem] pt-7 lg:grid-cols-2">
+        <div className="relative grid grid-cols-1 gap-[1rem] pt-7 lg:grid-cols-2 xl:gap-[2rem]">
           {/* Content Section */}
           <div
             ref={ref}
-            className={`relative h-[20rem] w-full lg:h-[660px] ${className}`}
+            className={`relative h-[20rem] w-full lg:h-[34rem] xl:h-[660px] 1360:h-[550px] 1400:h-[550px] 1470:h-[600px] 1600:h-[575px] 1680:h-[550px] 3xl:h-[600px] ${className}`}
           >
             <Image
               src={expectImg}
@@ -51,33 +46,35 @@ const Expect = () => {
             <div className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-2">
               {records?.map((record, idx: any) => {
                 const isHovered = hover === idx;
-
                 return (
                   <div
                     key={idx}
                     onMouseEnter={() => setHover(idx)}
                     onMouseLeave={() => setHover(null)}
-                    className={`rounded-3xl border-[1px] border-[#00000026]/10 px-[2rem] py-[1.5rem] transition-all duration-300 ${
+                    className={`rounded-3xl border-[1px] border-[#00000026]/10 p-[1.8rem] transition-all duration-300 lg:p-[1rem] xl:px-[1.75rem] xl:py-[1.5rem] 1360:p-[1rem] 1400:p-[1rem] ${
                       isHovered
                         ? 'border-[0px] border-[#FFFFFF] bg-gradient-to-br from-[#FB9100] to-[#000000]'
                         : 'bg-white'
                     } `}
                   >
                     <div
-                      className={`text-left text-xl font-semibold transition-colors duration-300 lg:text-[50px] ${isHovered ? 'text-white' : 'text-[#FB9100]'} `}
+                      className={`text-left text-xl font-semibold transition-colors duration-300 3xl:text-[50px] ${isHovered ? 'text-white' : 'text-[#FB9100]'} `}
                     >
                       <CountUp end={record.number} />
                       {record.suffix}
+                      <span className="1360:text-[13px] 1400:text-[15px] 3xl:text-[20px]">
+                        {record.suffix2}
+                      </span>
                     </div>
 
-                    <h5
-                      className={`pb-[1rem] pt-[2.25rem] text-left transition-colors duration-300 ${isHovered && 'text-white'} `}
+                    <p
+                      className={`pt-[0.5rem] text-left font-bold transition-colors duration-300 xl:pb-[1rem] xl:pt-[2.25rem] ${isHovered && 'text-white'} `}
                     >
                       {record.name}
-                    </h5>
+                    </p>
 
                     <p
-                      className={`text-left transition-colors duration-300 ${isHovered && 'text-white'} `}
+                      className={`text-left transition-colors duration-300 1400:text-[14px] 1470:text-[18px] 1600:text-[18px] ${isHovered && 'text-white'} `}
                     >
                       {record.description}
                     </p>

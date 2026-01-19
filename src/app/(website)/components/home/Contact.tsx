@@ -4,10 +4,10 @@ import MaxWidthWrapper from '../MaxWidthWrapper';
 import Heading from '../../common/Heading';
 import Image from 'next/image';
 import InputField from '../UI/InputField';
-import MessageField from '../UI/MessageField';
+import MessageField from '../UI/MessageField/MessageField';
 import Button from '../../common/Button';
 import useImageAnimation from '@/@core/hooks/useImageAnimation';
-import reachout from '../../../../../public/assets/images/home/contact_us.png';
+import reachout from '../../../../../public/assets/700_650.png';
 import chat from '../../../../../public/assets/icons/chat.png';
 import SelectField from '../UI/SelectField';
 import ContactForm from '../forms/ContactForm';
@@ -23,7 +23,7 @@ const Contact = () => {
 
   return (
     <section className="">
-      <MaxWidthWrapper className="space-y-7 py-[3rem] lg:py-[6rem]">
+      <MaxWidthWrapper className="space-y-7 py-[3rem] lg:py-[4rem] xl:py-[6rem]">
         <div className="lg:px-[%]">
           <Heading
             subTitle={subTitle}
@@ -34,15 +34,12 @@ const Contact = () => {
             isBgWhite={true}
           />
         </div>
-        <div className="grid grid-cols-1 lg:gap-[4.5rem] lg:grid-cols-2">
-          <div
-            className={`relative h-full overflow-hidden ${className}`}
-            ref={ref}
-          >
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-[2rem] 1600:gap-[3rem] 3xl:gap-[4.5rem]">
+          <div className={`relative overflow-hidden ${className}`} ref={ref}>
             <Image
               src={reachout}
-              alt="About Image"
               fill
+              alt="About Image"
               className="rounded-3xl border-[#e3e3e3] object-cover p-1"
             />
           </div>

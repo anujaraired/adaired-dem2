@@ -42,9 +42,19 @@ const config: Omit<Config, 'prefix' | 'presets' | 'content'> = {
       'opt-md': '999px',
       lg: '1024px',
       xl: '1280px',
+      '1360': '1360px',
+      '1366': '1360px',
+      '1400': '1400px',
+      '1440': '1440px',
+      '1470': '1470px',
+      '1600': '1600px',
+      '1680': '1680px',
       '2xl': '1536px',
       '3xl': '1920px',
       '4xl': '2560px',
+      //safari fix
+      '1710': '1710px',
+      '1470 ': '1470px',
     },
     container: {
       center: true,
@@ -185,16 +195,6 @@ const config: Omit<Config, 'prefix' | 'presets' | 'content'> = {
           },
         },
       },
-      slideUpFade: {
-        '0%': {
-          opacity: '0',
-          transform: 'translateY(24px)',
-        },
-        '100%': {
-          opacity: '1',
-          transform: 'translateY(0)',
-        },
-      },
     },
     animation: {
       step1: 'stepBounce1 4s ease-in-out infinite',
@@ -208,7 +208,6 @@ const config: Omit<Config, 'prefix' | 'presets' | 'content'> = {
       bubble: 'bubble 90s ease-out infinite',
       contentReveal: 'contentReveal 0.6s cubic-bezier(0.22, 1, 0.36, 1) both',
       imageZoomIn: 'imageZoomIn 0.7s cubic-bezier(0.22, 1, 0.36, 1) both',
-      slideUpFade: 'slideUpFade 0.6s ease-out forwards',
     },
   },
   plugins: [

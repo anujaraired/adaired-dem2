@@ -77,7 +77,8 @@ const Service = () => {
   return (
     <div
       ref={servicesWrapperRef}
-      className="bg-[#F5F5F599] py-[3rem] lg:py-[6rem]"
+      className="bg-[#F5F5F599] py-[3rem] lg:py-[4rem] xl:py-[6rem]"
+      id="services"
     >
       <MaxWidthWrapper>
         <Heading
@@ -124,7 +125,7 @@ const Service = () => {
 
           {/* ---------------- LEFT TABS (DESKTOP) ---------------- */}
           <div className="relative hidden w-[30%] lg:block">
-            <div className="sticky top-[15rem] h-[35rem] rounded-xl bg-white p-[2rem]">
+            <div className="sticky top-[15rem] h-[33rem] rounded-xl bg-white p-[1rem] xl:h-[35rem] xl:p-[2rem]">
               {services?.map((service, idx) => {
                 const isFirst = idx === 0;
                 const isLast = idx === services.length - 1;
@@ -144,19 +145,19 @@ const Service = () => {
                     <div
                       onMouseEnter={() => setHoveredTab(idx)}
                       onMouseLeave={() => setHoveredTab(null)}
-                      className={`my-[1rem] flex h-[4rem] w-full cursor-pointer items-center rounded-full border px-[1.5rem] transition-all duration-300 ease-out hover:translate-y-[-2px] ${
+                      className={`my-[1rem] flex h-[4rem] w-full cursor-pointer items-center rounded-full border px-[1.5rem] transition-all duration-300 ease-out hover:translate-y-[-2px] 1360:h-[3.125rem] 1400:h-[4rem] ${
                         activeTab === idx
-                          ? 'bg-[#FCA32A] text-white'
+                          ? 'bg-[#FB9100] text-white'
                           : 'bg-[#F5F5F5]'
                       } ${
                         hoveredTab === idx
-                          ? 'border-[#FCA32A] text-[#000000]'
+                          ? 'border-[#FB9100] text-[#000000]'
                           : 'bg-[#F5F5F5]'
                       } `}
                     >
-                      <div className="flex w-full items-center justify-between gap-3">
-                        <p
-                          className={`my-auto font-medium ${
+                      <div className="flex w-full items-center justify-between gap-3 1360:gap-1">
+                        <h3
+                          className={`my-auto text-[18px] font-medium 1360:text-[12px] 1600:text-[16px] 3xl:text-[18px] ${
                             activeTab === idx
                               ? 'text-[#ffffff]'
                               : 'text-[#000000]'
@@ -167,12 +168,12 @@ const Service = () => {
                           }`}
                         >
                           {service.title}
-                        </p>
+                        </h3>
 
                         {(activeTab === idx || hoveredTab === idx) && (
                           <MdArrowOutward
                             size={35}
-                            className="shrink-0 rounded-full bg-white p-2 text-[#FCA32A] transition-transform duration-700 ease-out"
+                            className="shrink-0 rounded-full bg-white p-2 text-[#FB9100] transition-transform duration-700 ease-out"
                           />
                         )}
                       </div>
@@ -191,7 +192,7 @@ const Service = () => {
               );
               const isActive = activeTab === idx;
               console.log(isActive, ' ');
-              const { title, description, image } =
+              const { title, description, image, link } =
                 (ActiveCardDetails?.[0] as ServiceItem) ?? {};
               return (
                 <div
@@ -203,9 +204,9 @@ const Service = () => {
                 >
                   <div className="gap-2 lg:flex">
                     {/* LEFT CONTENT */}
-                    <div className="w-[100%] lg:w-[55%]">
+                    <div className="w-[100%] lg:w-[50%] xl:w-[55%]">
                       <div className="relative overflow-hidden rounded-xl">
-                        <div className="animate-slideUpFade relative h-[180px] w-full overflow-hidden rounded-2xl md:h-[240px] lg:h-[20.25rem]">
+                        <div className="animate-slideUpFade relative h-[180px] w-full overflow-hidden rounded-2xl md:h-[240px] lg:h-[16rem] xl:h-[20.25rem]">
                           <Image
                             src={image ?? service.img}
                             fill
@@ -218,14 +219,14 @@ const Service = () => {
                     </div>
 
                     {/* RIGHT LIST */}
-                    <div className="w-[100%] lg:w-[45%]">
+                    <div className="w-[100%] lg:w-[50%] xl:w-[45%]">
                       <div className="grid grid-cols-1 gap-2 py-[1rem] md:grid-cols-2 lg:py-0">
                         {service?.list?.slice(0, 4)?.map((item, i, arr) => {
                           return (
                             <div
                               key={i}
                               onClick={() => setActiveCard(item.label)}
-                              className={`${activeCard !== item.label ? 'bg-[#F5F5F5]' : 'bg-[#FEE9CC]'} flex !cursor-pointer gap-3 rounded-[15px] border-[0.71px] p-5 hover:border-[0.71px] hover:border-[#F28F17]/60 md:block`}
+                              className={`relative lg:h-[7.8rem] xl:h-[9.8rem] ${activeCard !== item.label ? 'bg-[#F5F5F5]' : 'bg-[#FEE9CC]'} flex !cursor-pointer gap-3 rounded-[15px] border-[0.71px] p-[1rem] hover:border-[0.71px] hover:border-[#F28F17]/60 md:block lg:p-[0.8rem] xl:p-5`}
                             >
                               <Image
                                 src={item?.icon}
@@ -233,9 +234,9 @@ const Service = () => {
                                 height={40}
                                 alt="check"
                                 unoptimized
-                                className="ani my-auto"
+                                className="ani my-auto lg:h-[30px] lg:w-[30px] xl:h-[40px] xl:w-[40px]"
                               />
-                              <p className="my-auto font-poppins font-semibold text-[#000000] lg:pt-[1.7rem]">
+                              <p className="absolute bottom-5 left-0 my-auto mx-2 font-poppins font-semibold text-[#000000] md:left-[4rem] md:pt-[1.7rem] lg:left-4 lg:pt-[1rem] lg:text-[11px] 1360:text-[13px] 1360:leading-[1.25rem] 1400:text-[16px] 1400:leading-[1.5rem] lg:font-medium lg:leading-[15px] xl:pt-[1.7rem] xl:text-xs xl:font-semibold xl:leading-[25px]">
                                 {item?.label}
                               </p>
                             </div>
@@ -254,10 +255,10 @@ const Service = () => {
                     </p>
 
                     <SaveAndCancel
-                      handleClick={() => router.push(service.link)}
-                      name="Learn More"
+                      handleClick={() => router.push(link ?? service.link)}
+                      name="See Service Details"
                       isIcon
-                      
+                      buttonWidth={'w-[17rem] 1360:w-[14rem] 1400:w-[17rem]'}
                     />
                   </div>
                 </div>

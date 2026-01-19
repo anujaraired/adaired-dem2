@@ -68,10 +68,10 @@ const Clients = () => {
     client_30,
   ];
   return (
-    <div className="bg-[#F9F9F9] py-[3rem] lg:py-[6rem]">
+    <div className="bg-[#F9F9F9] py-[3rem] lg:py-[4rem] xl:py-[6rem]">
       <MaxWidthWrapper>
         <Heading
-          subTitle={'Our Client'}
+          subTitle={'Our ClientS'}
           title={'A Decade Of Turning Strategies into Results'}
           span={''}
           // description={
@@ -91,7 +91,7 @@ const Clients = () => {
                 width={225}
                 height={90}
                 alt="client logo"
-                className="my-4 transform transition-transform duration-300 ease-out group-hover:scale-110"
+                className="my-0 transform transition-transform duration-300 ease-out group-hover:scale-110 md:my-4"
               />
             </div>
           ))}
