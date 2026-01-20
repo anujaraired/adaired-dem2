@@ -51,7 +51,7 @@ const CaseStudies = () => {
                   handleClick={() =>
                     router.push(`/case-studies/${caseStudy?.slug}`)
                   }
-                  buttonWidth="w-[16.5rem]"
+                  buttonWidth={"!w-[16.5rem]"}
                   className="absolute bottom-10 left-0"
                 />
               </div>
