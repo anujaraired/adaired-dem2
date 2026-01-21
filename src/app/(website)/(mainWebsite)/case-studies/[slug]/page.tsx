@@ -12,6 +12,7 @@ import { useParams, useRouter } from 'next/navigation';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import { LuCircleCheckBig } from 'react-icons/lu';
+import Heading from '@/app/(website)/common/Heading';
 
 interface CaseStudy {
   title: string;
@@ -34,27 +35,31 @@ const CaseStudies = () => {
   }, []);
 
   console.log(caseStudies, 'caseStudies>>>>>>>>>>>>>>>>>jds');
+  const { title, description, image } = caseStudies ?? {};
+  console.log(title, description, 'title, description');
   return (
     <>
-      <PageBanner title="Case Studies" />
+      <PageBanner subTitle={'SEO'} title="CASE STUDY" />
       <Suspense fallback={<p>Loading feed...</p>}>
         <MaxWidthWrapper className="py-[3rem] lg:py-[4rem] xl:py-[6rem]">
           <div>
-            <h2 className="mb-3 text-2xl font-bold leading-[3rem]">
-              {caseStudies?.title}
-            </h2>
-            <p>{caseStudies?.description}</p>
-            <div className="relative h-[20rem] w-full">
-              {caseStudies?.image && (
-                <div className="relative h-[20rem] w-full">
-                  <Image
-                    src={caseStudies.image}
-                    alt={caseStudies.title || 'case study image'}
-                    fill
-                    className="mt-2 object-contain"
-                  />
+            <Heading subTitle={'CASE '} title={title ?? ''} span={''} />
+            <div className='flex gap-2 justify-between'>
+              <div className="relative h-[20rem] w-full">
+                {image && (
+                  <div className="relative h-[20rem] w-full">
+                    <Image
+                      src={image}
+                      alt={title || 'case study image'}
+                      fill
+                      className="mt-2 object-contain"
+                    />
+                  </div>
+                )}
+                <div>
+                  <h2>dfd</h2>
                 </div>
-              )}
+              </div>
             </div>
             {caseStudies?.bodyData?.map((item: any, index: number) => (
               <div key={index} className="mt-6">
