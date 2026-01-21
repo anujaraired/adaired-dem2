@@ -12,4 +12,5 @@ const Banner = ({ subTitle, title }: any) => {
   );
 };
 
+//e
 export default Banner;
