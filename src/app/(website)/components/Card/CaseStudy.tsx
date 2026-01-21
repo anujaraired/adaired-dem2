@@ -15,6 +15,7 @@ const CaseStudy = ({
 }: any) => {
   const router = useRouter();
   const ss = '#FB9100';
+  console.log(link, 'linkdosad');
   return (
     <div
       className={`rounded-3xl bg-[#FFF4F3] p-[1.5rem]`}
@@ -40,7 +41,7 @@ const CaseStudy = ({
         <div className="flex justify-between gap-[7rem]">
           <h3 className="text-[#000000]">{title}</h3>
           <span
-            onClick={() => router.push('/contact')}
+            onClick={() => router.push(`/case-studies/${link}`)}
             className="mb-auto mt-1 inline-block cursor-pointer rounded-full bg-[#FFFFFF] p-3 font-bold text-[#000000] transition-transform duration-500 ease-in-out hover:rotate-[45deg] hover:bg-[#FB9100] hover:text-[#FFFFFF]"
           >
             <GoArrowUpRight size={25} className="" />

@@ -80,6 +80,7 @@ const CaseStudies = () => {
                   image={caseStudy?.image}
                   labels={['SEO', 'PPC']}
                   title={caseStudy?.title}
+                  link={caseStudy?.slug}
                   bgColor={
                     (index === 0 && '#FFF4F3') ||
                     (index === 1 && '#D7EBFF') ||
