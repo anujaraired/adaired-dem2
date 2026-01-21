@@ -13,6 +13,7 @@ import axios from 'axios';
 import Image from 'next/image';
 import SaveAndCancel from '../../common/SaveAndCancel';
 import { useRouter } from 'next/navigation';
+import Banner from '../../common/Banner/Banner';
 
 const CaseStudies = () => {
   const router = useRouter();
@@ -28,13 +29,14 @@ const CaseStudies = () => {
   }, []);
   return (
     <>
-      <PageBanner title="Case Studies" />
+      {/* <PageBanner title="Case Studies" /> */}
+      <Banner />
       <Suspense fallback={<p>Loading feed...</p>}>
-        <MaxWidthWrapper className='py-[3rem] lg:py-[4rem] xl:py-[6rem]'>
+        <MaxWidthWrapper className="py-[3rem] lg:py-[4rem] xl:py-[6rem]">
           {caseStudies.map((caseStudy: any, index) => (
             <div
               key={index}
-              className={`my-[2rem] flex flex-col gap-[4rem] rounded-[0.35rem] px-[4rem] py-[3rem] border-[0.71px] border-[#000000]/5 md:flex-row ${
+              className={`my-[2rem] flex flex-col gap-[4rem] rounded-[0.35rem] border-[0.71px] border-[#000000]/5 px-[4rem] py-[3rem] md:flex-row ${
                 index % 2 !== 0 ? 'md:flex-row-reverse' : ''
               }`}
             >
@@ -51,14 +53,16 @@ const CaseStudies = () => {
                   handleClick={() =>
                     router.push(`/case-studies/${caseStudy?.slug}`)
                   }
-                  buttonWidth={"!w-[16.5rem]"}
+                  buttonWidth={'!w-[16.5rem]'}
                   className="absolute bottom-10 left-0"
                 />
               </div>
 
               {/* RIGHT / IMAGE */}
               <div className="w-full md:w-1/2">
-                <h2 className="mb-3 text-2xl font-bold leading-[3rem]">{caseStudy.title}</h2>
+                <h2 className="mb-3 text-2xl font-bold leading-[3rem]">
+                  {caseStudy.title}
+                </h2>
                 <p>{caseStudy.description}</p>
                 <div className="relative h-[20rem] w-full">
                   <Image
