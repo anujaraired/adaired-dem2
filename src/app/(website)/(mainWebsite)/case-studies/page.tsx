@@ -14,6 +14,7 @@ import Image from 'next/image';
 import SaveAndCancel from '../../common/SaveAndCancel';
 import { useRouter } from 'next/navigation';
 import Banner from '../../common/Banner/Banner';
+import Heading from '../../common/Heading';
 
 //hello
 const CaseStudies = () => {
@@ -28,12 +29,32 @@ const CaseStudies = () => {
   useEffect(() => {
     getData();
   }, []);
+
+  const data = [
+    'All',
+    'SEO ( Search Engine Optimization )',
+    'PPC ( Pay-Per-Click )',
+    'Website Development',
+    'App Development',
+  ];
   return (
     <>
       {/* <PageBanner title="Case Studies" /> */}
-      <Banner />
+      <Banner subTitle={'LOREM IPSUM'} title={'CASE STUDY'} />
       <Suspense fallback={<p>Loading feed...</p>}>
         <MaxWidthWrapper className="py-[3rem] lg:py-[4rem] xl:py-[6rem]">
+          <div>
+            <Heading
+              subTitle={'CASES'}
+              title={`Digital Agency That`}
+              span={'Turns Businesses Into Brands'}
+            />
+          </div>
+          <div>
+            {data?.map((item) => {
+              return <div>df</div>;
+            })}
+          </div>
           {caseStudies.map((caseStudy: any, index) => (
             <div
               key={index}
