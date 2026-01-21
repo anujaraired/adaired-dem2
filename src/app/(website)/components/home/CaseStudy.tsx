@@ -79,7 +79,7 @@ const CaseStudy = () => {
           />
         </div>
         <div className="grid grid-cols-1 gap-7 pt-[3.5rem] md:grid-cols-2 lg:grid-cols-3">
-          {studies?.slice(0, 1)?.map((study, idx) => {
+          {studies?.map((study, idx) => {
             return (
               <div
                 key={idx}
