@@ -15,6 +15,10 @@ import { Separator } from '@core/ui/shadcn-ui/separator';
 import Link from 'next/link';
 import Pagination from '@core/ui/rizzui-ui/pagination';
 import Button from '../../common/Button';
+import { PiEyeBold } from 'react-icons/pi';
+import { useRouter } from 'next/navigation';
+import useBreakpointCharLimit from '@/@core/hooks/useBreakpointCharLimit';
+import { IoArrowForwardSharp } from 'react-icons/io5';
 
 // Type definitions
 interface Blog {
@@ -32,6 +36,8 @@ interface IProps {
 }
 
 const BlogWPagination: FC<IProps> = ({ data }) => {
+  const router = useRouter();
+  const charLimit = useBreakpointCharLimit();
   const [currentPage, setCurrentPage] = useState(1);
   const blogsPerPage = 6;
 
@@ -48,84 +54,65 @@ const BlogWPagination: FC<IProps> = ({ data }) => {
   }, [currentPage]);
 
   return (
-    <div className="space-y-8">
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-1 xl:gap-0">
-        {currentBlogs.map((blog) => (
-          <article key={blog._id} className="first:mt-10 xl:first:mt-0">
-            {/* Desktop Layout (xl and above) */}
-            <div className="mb-10 hidden rounded-lg border p-10 xl:flex">
-              <div className="w-[45%] shrink-0">
-                <Link href={`/blog/${blog.slug}`}>
-                  <Image
-                    src={blog.featuredImage}
-                    height={400}
-                    width={800}
-                    alt={blog.postTitle}
-                    sizes="(max-width: 1280px) 45vw, 360px"
-                    className="-ml-14 rounded-lg object-cover"
-                  />
-                </Link>
-              </div>
-              <div className="w-[55%] pl-6">
-                <div className="flex items-center justify-between text-sm text-gray-500">
-                  <span>{formatDate(new Date(blog.createdAt))}</span>
-                  <span>{`${calculateReadingTime(blog.postDescription)} min read`}</span>
-                </div>
-                <h4 className="mt-2">
-                  <Link href={`/blog/${blog.slug}`}>{blog.postTitle}</Link>
-                </h4>
-                <p className="mt-2 line-clamp-2 font text-gray-600">
-                  {blog.excerpt}
-                </p>
-                <Button
-                  name="Read Blog"
-                  className="mt-4 border-none bg-white text-black"
-                  href={`/blog/${blog.slug}`}
-                />
-              </div>
+    <div className="relative">
+      <div className="grid grid-cols-3 gap-[2rem]">
+        {currentBlogs.map((blog, idx) => (
+          <div
+            key={idx}
+            className="group relative my-[2.5rem] rounded-3xl bg-white shadow-[0_0_20px_rgba(0,0,0,0.14)] lg:my-[3rem]"
+          >
+            {/* IMAGE */}
+            <div className="relative h-[190px] w-full overflow-hidden rounded-2xl lg:h-[250px] xl:h-[350px]">
+              <Image
+                src={blog?.featuredImage}
+                fill
+                alt={blog.postTitle}
+                className="object-cover transition-transform duration-500 group-hover:scale-110"
+              />
+
+              {/* OVERLAY */}
+              <div className="absolute inset-0 bg-[#1A5A96]/10 transition-opacity duration-300 group-hover:bg-[#1A5A96]/60" />
+
+              {/* DATE */}
+              <p className="absolute left-4 top-4 rounded-full bg-white px-3 py-1 text-xxs xl:text-xs">
+                {'blog.label'}
+              </p>
+
+              {/* EYE ICON (SHOW ON HOVER) */}
+              <PiEyeBold
+                size={42}
+                onClick={() => router.push(`/blog/${blog.slug}`)}
+                className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 scale-90 cursor-pointer text-white opacity-0 transition-all duration-300 group-hover:scale-100 group-hover:opacity-100"
+              />
             </div>
 
-            {/* Mobile/Tablet Layout (below xl) */}
-            <Card className="xl:hidden">
-              <CardHeader className="p-4">
-                <Link href={`/blog/${blog.slug}`}>
-                  <Image
-                    src={blog.featuredImage}
-                    alt={blog.postTitle}
-                    height={400}
-                    width={800}
-                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                    className="rounded-t-lg object-cover"
-                  />
-                </Link>
-                <CardTitle className="mt-4 font text-xl">
-                  <Link href={`/blog/${blog.slug}`}>{blog.postTitle}</Link>
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="p-4 pt-0">
-                <p className="line-clamp-3 font text-gray-600">
-                  {blog.excerpt}
-                </p>
-              </CardContent>
-              <CardFooter className="flex justify-between p-4 pt-0">
-                <Button
-                  name="Read More"
-                  className="border-none bg-white text-black"
-                  href={`/blog/${blog.slug}`}
+            {/* CONTENT */}
+            <div className="absolute bottom-[-5rem] space-y-4 rounded-xl border-[0.71px] border-[#000000]/5 bg-white p-4 lg:mx-4 xl:bottom-[-4.5rem] xl:mx-8 xl:p-8">
+              <h3
+                onClick={() => router.push(`/blog/${blog.slug}`)}
+                className="cursor-pointer text-[#111] transition-colors duration-300 group-hover:text-[#F28F17] xl:text-[1.125rem]"
+              >
+                {blog.postTitle.length > charLimit
+                  ? blog.postTitle.slice(0, charLimit) + '...'
+                  : blog.postTitle}
+              </h3>
+
+              <p
+                onClick={() => router.push(`/blog/${blog.slug}`)}
+                className="flex cursor-pointer items-center gap-2 border-t border-black/20 pt-4 transition-colors duration-300 group-hover:text-[#F28F17]"
+              >
+                <IoArrowForwardSharp
+                  size={24}
+                  className="rounded-full bg-[#1A5A96] p-1 text-white"
                 />
-                <div className="flex items-center gap-4 text-sm text-gray-500">
-                  <span>{formatDate(new Date(blog.createdAt))}</span>
-                  <span>{`${calculateReadingTime(blog.postDescription)} min read`}</span>
-                </div>
-              </CardFooter>
-              <Separator className="mx-auto w-[90%]" />
-            </Card>
-          </article>
+                <span>View Blog Post</span>
+              </p>
+            </div>
+          </div>
         ))}
       </div>
-
       {data.length > blogsPerPage && (
-        <div className="flex justify-center">
+        <div className="absolute bottom-[-6.5rem] flex w-[100%] justify-center">
           <Pagination
             total={data.length}
             current={currentPage}
@@ -133,6 +120,7 @@ const BlogWPagination: FC<IProps> = ({ data }) => {
             pageSize={blogsPerPage}
             nextIcon="Next"
             prevIcon="Previous"
+            rounded='md'
           />
         </div>
       )}

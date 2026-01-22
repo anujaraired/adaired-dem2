@@ -5,8 +5,8 @@ import PopularPosts from '@web-components/PopularPosts';
 import BlogWPagination from '@web-components/BlogWithPagination';
 import type { Metadata } from 'next';
 import { BaseURL } from '@/baseUrl';
+import Heading from '../../common/Heading';
 
-// Server-safe excerpt function
 export const getExcerpt = (html: string, maxLength: number = 150): string => {
   const text = html.replace(/<[^>]+>/g, ' '); // Strip HTML tags
   return text.length > maxLength ? `${text.slice(0, maxLength)}...` : text;
@@ -21,19 +21,6 @@ export const metadata: Metadata = {
   },
 };
 
-// async function getBlogs() {
-//   const res = await fetch(
-//     `${process.env.NEXT_PUBLIC_BACKEND_API_URI}/blog/read?status=publish`
-//   );
-//   if (!res.ok) throw new Error(`Failed to fetch blogs: ${res.statusText}`);
-//   const data = await res.json();
-//   // Pre-compute excerpts on the server
-//   const blogsWithExcerpts = data.data.map((blog: any) => ({
-//     ...blog,
-//     excerpt: getExcerpt(blog.postDescription),
-//   }));
-//   return { ...data, data: blogsWithExcerpts };
-// }
 async function getBlogs() {
   try {
     const res = await fetch(`${BaseURL}/blog/read?status=publish`, {
@@ -67,19 +54,22 @@ const Blog = async () => {
 
   return (
     <>
-      <PageBanner title="Blog" />
+      <PageBanner subTitle={'Latest'} title="BLOGS" />
+      <MaxWidthWrapper className="pb-[6rem] pt-[3rem] lg:py-[4rem] lg:pb-[10rem] xl:pb-[12rem] xl:pt-[6rem]">
+        <div className="">
+          <Heading
+            subTitle={'BLOG'}
+            title={`Digital Agency That
+`}
+            span={'Turns Businesses Into Brands'}
+          />
+          <BlogWPagination data={data.data} />
 
-      <MaxWidthWrapper className="py-6 lg:py-12">
-        <div className="flex flex-col gap-10 xl:flex-row">
-          <div className="xl:w-[70%]">
-            <BlogWPagination data={data.data} />
-          </div>
-
-          <aside className="relative xl:w-[30%]">
+          {/* <aside className="relative xl:w-[30%]">
             <div className="sticky top-24">
               <PopularPosts initialData={data.data.slice(0, 5)} />
             </div>
-          </aside>
+          </aside> */}
         </div>
       </MaxWidthWrapper>
     </>

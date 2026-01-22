@@ -58,7 +58,7 @@ export default function TablePagination({
         defaultCurrent={1}
         showLessItems={true}
         prevIconClassName="py-0 text-gray-500 !leading-[26px]"
-        nextIconClassName="py-0 text-gray-500 !leading-[26px]"
+        nextIconClassName="py-0 text-gray-500 bg-yue !leading-[26px]"
         {...props}
       />
     </div>
