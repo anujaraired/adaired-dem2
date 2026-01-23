@@ -195,12 +195,12 @@ const Heading = ({
                 </div>
                 <div className="mt-[0.8rem] md:mt-[8px] lg:mt-[0.5rem]">
                   {isH1 ? (
-                    <h1 className="capitalize">
+                    <h1 className="text-center capitalize lg:text-left">
                       {title} <br></br>
                       {span}
                     </h1>
                   ) : (
-                    <h2 className="capitalize">
+                    <h2 className="text-center capitalize lg:text-left">
                       {title} <br></br>
                       {span}
                     </h2>
@@ -208,7 +208,7 @@ const Heading = ({
                 </div>
               </div>
               <div className={`${isDecVarticle && 'pt-[1rem]'}`}>
-                <p className="pt-4">{description}</p>
+                <p className="pt-4 text-center lg:text-left">{description}</p>
                 {isPara2 && <p className="py-4">{description2}</p>}
               </div>
             </div>
