@@ -93,7 +93,7 @@ const Service = () => {
         <div className="flex gap-[2rem] pt-[3rem]">
           {/* MOBILE TABS */}
           {isMobile && showMobileTab && (
-            <div className="fixed left-[1rem] right-[1rem] top-[5.5rem] z-50 bg-[#F1F1F1] py-2">
+            <div className="fixed left-[1rem] right-[1rem] top-[5.5rem] z-10 bg-[#F1F1F1] py-2">
               <div className="flex items-center justify-center gap-2 overflow-hidden px-3">
                 {getMobileTabs().map((tab) => {
                   const isActive = tab.position === 'active';
