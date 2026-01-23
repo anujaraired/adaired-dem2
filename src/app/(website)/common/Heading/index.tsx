@@ -179,7 +179,7 @@ const Heading = ({
             <div
               className={`${isDecVarticle && 'grid grid-cols-1 lg:grid-cols-2 lg:gap-[10rem]'}`}
             >
-              <div className="md:flex` block w-fit gap-3">
+              <div className="md:flex` block w-fit justify-center justify-items-center gap-3 md:justify-center md:justify-items-center lg:justify-start lg:justify-items-start">
                 <div className="flex w-fit gap-3 rounded-full border-[0.71px] border-[#000000]/20 px-[1rem] py-[0.25rem]">
                   <Image
                     src={star}

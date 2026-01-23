@@ -111,10 +111,10 @@ const Blogs = () => {
           {blogs?.map((blog, idx) => (
             <div
               key={idx}
-              className="group relative my-[2.5rem] rounded-3xl bg-white shadow-[0_0_20px_rgba(0,0,0,0.14)] lg:my-0"
+              className="group relative my-[3.5rem] rounded-3xl bg-white shadow-[0_0_20px_rgba(0,0,0,0.14)] lg:my-0"
             >
               {/* IMAGE */}
-              <div className="relative h-[190px] w-full overflow-hidden rounded-2xl lg:h-[250px] xl:h-[350px]">
+              <div className="relative h-[250px] w-full overflow-hidden rounded-2xl md:h-[400px] lg:h-[250px] xl:h-[350px]">
                 <Image
                   src={blog.image}
                   fill

@@ -43,27 +43,29 @@ const WhyChoose = () => {
                   className="relative"
                 >
                   <div
-                    className={`my-2 cursor-pointer rounded-3xl border-[1px] border-[#FB910040] bg-[#FFF8F0] p-[1rem] transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl md:my-0 md:h-[20rem] lg:mt-[-2.5rem] lg:h-[23rem] lg:p-[0.8rem] xl:h-[25rem] xl:p-[1.5rem]`}
+                    className={`my-2 cursor-pointer rounded-3xl border-[1px] border-[#FB910040] bg-[#FFF8F0] p-[2rem] transition-all duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl md:my-0 md:h-[20rem] lg:mt-[-2.5rem] lg:h-[23rem] lg:p-[0.8rem] xl:h-[25rem] xl:p-[1.5rem]`}
                   >
-                    <Image
-                      src={item.icon}
-                      width={70}
-                      height={70}
-                      alt="img"
-                      className="rounded-xl border-[1px] border-[#FB910040] bg-[#FEDAAA66] p-3.5 text-[#000000] lg:h-[55px] lg:w-[55px] xl:h-[70px] xl:w-[70px]"
-                    />
+                    <div className="flex justify-center lg:justify-start">
+                      <Image
+                        src={item.icon}
+                        width={70}
+                        height={70}
+                        alt="img"
+                        className="rounded-xl border-[1px] border-[#FB910040] bg-[#FEDAAA66] p-3.5 text-[#000000] lg:h-[55px] lg:w-[55px] xl:h-[70px] xl:w-[70px]"
+                      />
+                    </div>
                     <p
-                      className={`1360:text-[1.125rem] pt-[1.5rem] text-left font-montserrat text-[25px] font-semibold leading-[35px] text-[#111111] lg:text-[1.115rem] xl:pt-[2rem] xl:text-[25px]`}
+                      className={`pt-[1.5rem] text-center font-montserrat text-[25px] font-semibold leading-[35px] text-[#111111] lg:text-left lg:text-[1.115rem] xl:pt-[2rem] xl:text-[25px] 1360:text-[1.125rem]`}
                     >
                       {item?.title}
                     </p>
                     <p
-                      className={`1360:text-[1.125rem] 1360:leading-3 text-left font-montserrat text-[25px] font-semibold text-[#111111] md:leading-[28px] lg:text-[1.115rem] lg:leading-[25px] xl:text-[25px] xl:leading-[35px]`}
+                      className={`text-center font-montserrat text-[25px] font-semibold text-[#111111] md:leading-[28px] lg:text-left lg:text-[1.115rem] lg:leading-[25px] xl:text-[25px] xl:leading-[35px] 1360:text-[1.125rem] 1360:leading-3`}
                     >
                       {item?.span}
                     </p>
                     <p
-                      className={`pt-[0.8rem] text-left text-[#323232B2] xl:pt-[1.5rem]`}
+                      className={`pt-[0.8rem] text-center text-[#323232B2] lg:text-left xl:pt-[1.5rem]`}
                     >
                       {/* {item?.description.length > 140
                         ? item?.description.slice(0, 140) + '...'

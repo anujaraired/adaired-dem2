@@ -34,7 +34,7 @@ const Solutions = () => {
       <MaxWidthWrapper className="pb-[8rem] pt-[3rem] lg:py-[4rem] xl:py-[6rem]">
         <div className="flex flex-col-reverse lg:flex-row lg:justify-between lg:gap-[3rem] xl:gap-[5rem]">
           {/* Image Section */}
-          <div className="relative mx-auto mt-0 flex-1 md:mt-[6rem] lg:mt-0">
+          <div className="relative mx-auto mt-[6rem] flex-1 md:mt-[6rem] lg:mt-0">
             {/* CENTER IMAGE */}
             <div
               ref={imageRef}
@@ -45,7 +45,7 @@ const Solutions = () => {
                 alt="About Image"
                 width={625}
                 height={470}
-                className="my-[2rem] md:my-0 lg:my-[2rem] h-[14rem] w-[14rem] rounded-lg md:h-[28rem] md:w-[36.313rem] lg:h-[18rem] lg:w-[20rem] xl:h-[25.375rem] xl:w-[39.063rem] 1360:w-[25rem] 1400:w-[27rem] 1600:w-[32rem] 1680:h-[25.375rem] 1680:w-[34rem] 3xl:h-[25.375rem] 3xl:w-[39.063rem]"
+                className="my-[0rem] h-[14rem] w-[14rem] rounded-lg md:my-0 md:h-[28rem] md:w-[36.313rem] lg:my-[2rem] lg:h-[18rem] lg:w-[20rem] xl:h-[25.375rem] xl:w-[39.063rem] 1360:w-[25rem] 1400:w-[27rem] 1600:w-[32rem] 1680:h-[25.375rem] 1680:w-[34rem] 3xl:h-[25.375rem] 3xl:w-[39.063rem]"
               />
             </div>
             {/* MASK – TOP RIGHT */}
