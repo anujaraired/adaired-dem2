@@ -48,29 +48,30 @@ const CaseStudies = () => {
   return (
     <>
       {/* <PageBanner title="Case Studies" /> */}
-      <Banner subTitle={'LATEST'} title={'CASE STUDIES'} />
+      <PageBanner subTitle={'LATEST'} title={'CASE STUDIES'} />
       <Suspense fallback={<p>Loading feed...</p>}>
         <MaxWidthWrapper className="py-[3rem] lg:py-[4rem] xl:py-[6rem]">
           <div>
             <Heading
+              isVarticle={true}
+              breakIndex={3}
               subTitle={'CASE STUDIES'}
-              title={`Digital Agency That`}
-              span={'Turns Businesses Into Brands'}
+              title={`Digital Agency That Turns Businesses Into Brands`}
             />
           </div>
           <div className="mb-[4rem] mt-[1rem] flex gap-[1rem] rounded-full bg-[#EDF6FF]">
             {data?.map((item, idx) => (
-              <div
+              <p
                 key={idx}
                 onClick={() => setIsActiveTab(idx)}
-                className={`cursor-pointer rounded-full px-[3rem] py-[0.8rem] transition-all duration-300 ease-in-out ${
+                className={`my-auto cursor-pointer rounded-full px-[3rem] py-[0.8rem] transition-all duration-300 ease-in-out ${
                   isActiveTab === idx
                     ? 'scale-105 bg-[#1B5A96] text-white'
                     : 'hover:bg-[#1B5A96] hover:text-white'
                 }`}
               >
                 {item}
-              </div>
+              </p>
             ))}
           </div>
           <div className="grid grid-cols-3 gap-[2rem]">
@@ -79,7 +80,8 @@ const CaseStudies = () => {
                 <CaseStudy
                   image={caseStudy?.image}
                   labels={['SEO', 'PPC']}
-                  title={caseStudy?.title}
+                  title={caseStudy?.title ?? ''}
+                  breakIndex={3}
                   link={caseStudy?.slug}
                   bgColor={
                     (index === 0 && '#FFF4F3') ||

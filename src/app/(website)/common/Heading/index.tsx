@@ -6,7 +6,7 @@ import blue_star from '../../../../../public/assets/icons/blue_star.png';
 export interface IHeading {
   subTitle: String;
   title: String;
-  span: String;
+  span?: String;
   isH1?: boolean;
   description?: String;
   isInCenter?: boolean;
@@ -17,6 +17,7 @@ export interface IHeading {
   description2?: string;
   isPara2?: boolean;
   headingWidth?: string;
+  breakIndex?: number;
 }
 const Heading = ({
   subTitle,
@@ -32,7 +33,9 @@ const Heading = ({
   description2,
   isPara2,
   headingWidth,
+  breakIndex,
 }: IHeading) => {
+  const words = title.split(' ');
   return (
     <div className={className}>
       {isVarticle ? (
@@ -104,13 +107,13 @@ const Heading = ({
                 <div className={`mt-[-1rem] ${headingWidth}`}>
                   {isH1 ? (
                     <h1 className="capitalize">
-                      {title} <br></br>
-                      {span}
+                      {words.slice(0, breakIndex).join(' ')} <br />
+                      {words.slice(breakIndex).join(' ')}
                     </h1>
                   ) : (
                     <h2 className="capitalize">
-                      {title} <br></br>
-                      {span}
+                      {words.slice(0, breakIndex).join(' ')} <br />
+                      {words.slice(breakIndex).join(' ')}
                     </h2>
                   )}
                 </div>

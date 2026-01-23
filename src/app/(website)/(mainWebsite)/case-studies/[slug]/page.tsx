@@ -32,7 +32,6 @@ const CaseStudies = () => {
     label,
     span,
     description,
-    image,
     projectInfo,
     aboutTheproject,
     projectInformation,
@@ -49,7 +48,7 @@ const CaseStudies = () => {
     getData();
   }, []);
 
-  const { title } = caseStudies ?? {};
+  const { title, image } = caseStudies ?? {};
   return (
     <>
       <PageBanner subTitle={'SEO'} title="CASE STUDY" />
@@ -58,8 +57,9 @@ const CaseStudies = () => {
           <div>
             <Heading
               isVarticle={true}
+              breakIndex={3}
               subTitle={label}
-              title={heading}
+              title={heading ?? ''}
               headingWidth={''}
               span={span}
             />
