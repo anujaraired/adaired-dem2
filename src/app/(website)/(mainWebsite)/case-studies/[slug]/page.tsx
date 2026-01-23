@@ -28,7 +28,7 @@ interface CaseStudy {
 const CaseStudies = () => {
   const { slug } = useParams(); // ✅ SLUG HERE
   const {
-    Heading,
+    heading,
     label,
     description,
     image,
@@ -55,13 +55,11 @@ const CaseStudies = () => {
       <Suspense fallback={<p>Loading feed...</p>}>
         <MaxWidthWrapper className="py-[3rem] lg:py-[4rem] xl:py-[6rem]">
           <div>
-            {/* <Heading  /> */}
-            <div>
-              <span>Case</span>
-              <h2>
-                Digital Agency That <br></br> Turns Businesses Into Brands
-              </h2>
-            </div>
+            <Heading
+              subTitle={label}
+              title={heading}
+              span={'Turns Businesses Into Brands'}
+            />
             <div className="grid grid-cols-2 gap-[2rem] pt-[1.5rem]">
               {img && (
                 <div className="relative h-[30rem]">
