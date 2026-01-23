@@ -12,10 +12,15 @@ import Digital_Creative from '../../../../public/assets/images/service/Paid Medi
 import seo2 from '../../../../public/assets/icons/service/seo_Img.png';
 
 //services images
-import SEO from '../../../../public/assets/images/service/SEO.png';
-import AI_SEO from '../../../../public/assets/images/service/SSM.png';
-import Content from '../../../../public/assets/images/service/Content.png';
-import SMM from '../../../../public/assets/images/service/AI_SEO.png';
+// import SEO from '../../../../public/assets/images/service/SEO.png';
+// import AI_SEO from '../../../../public/assets/images/service/SSM.png';
+// import Content from '../../../../public/assets/images/service/Content.png';
+// import SMM from '../../../../public/assets/images/service/AI_SEO.png';
+import SEO from '../../../../public/assets/images/service/New/SEO.png';
+import AI_SEO from '../../../../public/assets/images/service/New/AI SEO.png';
+import Content from '../../../../public/assets/images/service/New/Content writing.png';
+import SMM from '../../../../public/assets/images/service/New/Social Media.png';
+
 import GBP_1 from '../../../../public/assets/images/service/GBP_1.png';
 import GBP_2 from '../../../../public/assets/images/service/GBP_3.png';
 import GBP_3 from '../../../../public/assets/images/service/GBP_2.png';
@@ -101,7 +106,8 @@ export interface ServiceSectionDataType {
 export const SolutionsSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
   subTitle: 'Total Transparency. Zero "Black Box" Marketing',
-  title: 'Most clients have no idea what their agency actually does all day. You get a PDF once a month and a bill.',
+  title:
+    'Most clients have no idea what their agency actually does all day. You get a PDF once a month and a bill.',
   description:
     'But with us, you get 24/7 access to your campaign pulse. We combine advanced tracking tools with human insight to show you exactly how $1 of spend becomes $5 of revenue.',
   points: [
