@@ -30,6 +30,7 @@ const CaseStudies = () => {
   const {
     heading,
     label,
+    span,
     description,
     image,
     projectInfo,
@@ -56,9 +57,11 @@ const CaseStudies = () => {
         <MaxWidthWrapper className="py-[3rem] lg:py-[4rem] xl:py-[6rem]">
           <div>
             <Heading
+              isVarticle={true}
               subTitle={label}
               title={heading}
-              span={'Turns Businesses Into Brands'}
+              headingWidth={''}
+              span={span}
             />
             <div className="grid grid-cols-2 gap-[2rem] pt-[1.5rem]">
               {img && (

@@ -4,8 +4,8 @@ import img3 from '../../../../../../public/assets/images/blogs/blog_01.png';
 
 export const data = {
   label: 'Case',
-  heading: `Digital Agency That
-Turns Businesses Into Brands`,
+  heading: `Digital Agency That`,
+  span:"Turns Businesses Into Brands",
   image: '',
   description: [
     {
