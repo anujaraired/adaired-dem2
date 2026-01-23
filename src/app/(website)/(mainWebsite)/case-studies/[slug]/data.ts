@@ -1,6 +1,6 @@
-import img from '../../../../../../public/assets/images/blogs/blog_01.png'
-import img2 from '../../../../../../public/assets/images/blogs/blog_01.png'
-import img3 from '../../../../../../public/assets/images/blogs/blog_01.png'
+import img from '../../../../../../public/assets/images/blogs/blog_01.png';
+import img2 from '../../../../../../public/assets/images/blogs/blog_01.png';
+import img3 from '../../../../../../public/assets/images/blogs/blog_01.png';
 
 export const data = {
   label: 'Case',
@@ -44,16 +44,36 @@ Turns Businesses Into Brands`,
         description:
           "'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out, connect with your audience, and grow with impact. We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out, connect with your audience, and grow with impact. We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out, connect with your audience.',",
         list: [
-          'We’re a digital agency that transforms businesses.',
-          'We’re a digital agency that transforms businesses into brands.',
-          'We’re a digital agency that transforms businesses.',
+          {
+            type: 'text',
+            name: "'We’re a digital agency that transforms businesses.',",
+          },
+          {
+            type: 'text',
+            name: 'We’re a digital agency that transforms businesses into brands.',
+          },
+          {
+            type: 'text',
+            name: 'We’re a digital agency that transforms businesses.',
+          },
         ],
       },
       {
         description:
           "'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out, connect with your audience, and grow with impact. We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out, connect with your audience, and grow with impact. We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out, connect with your audience.',",
         list: [
-          img,img3,img2
+          {
+            type: 'image',
+            image: img,
+          },
+          {
+            type: 'image',
+            image: img,
+          },
+          {
+            type: 'image',
+            image: img,
+          },
         ],
       },
     ],
@@ -103,14 +123,16 @@ Turns Businesses Into Brands`,
     ],
     details: [
       {
+        heading: 'We’re a digital agency',
         description:
           "'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out, connect with your audience, and grow with impact. We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out, connect with your audience, and grow with impact. We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out, connect with your audience.',",
-        image: '',
+        image: img,
       },
       {
+        heading: 'We’re a digital agency',
         description:
           "'We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out, connect with your audience, and grow with impact. We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out, connect with your audience, and grow with impact. We’re a digital agency that transforms businesses into brands. With the perfect blend of strategy and creativity, we help you stand out, connect with your audience.',",
-        image: '',
+        image: img2,
       },
     ],
   },

@@ -16,6 +16,7 @@ import Heading from '@/app/(website)/common/Heading';
 import img from '../../../../../../public/assets/images/blogs/blog_01.png';
 import { data } from './data';
 import { IoCheckmarkCircle } from 'react-icons/io5';
+import Certificate from '@/app/(website)/components/home/oldcertificate';
 
 interface CaseStudy {
   title: string;
@@ -26,8 +27,16 @@ interface CaseStudy {
 
 const CaseStudies = () => {
   const { slug } = useParams(); // ✅ SLUG HERE
-  const { Heading, label, description, image, projectInfo, aboutTheproject } =
-    data ?? {};
+  const {
+    Heading,
+    label,
+    description,
+    image,
+    projectInfo,
+    aboutTheproject,
+    projectInformation,
+    solutionDescription,
+  } = data ?? {};
   const [caseStudies, setCaseStudies] = useState<CaseStudy | null>(null);
   const getData = async () => {
     const res = await axios.get(
@@ -53,30 +62,42 @@ const CaseStudies = () => {
                 Digital Agency That <br></br> Turns Businesses Into Brands
               </h2>
             </div>
-            <div className="grid grid-cols-2 gap-[2rem]">
+            <div className="grid grid-cols-2 gap-[2rem] pt-[1.5rem]">
               {img && (
-                <div className="relative h-[20rem] w-full">
+                <div className="relative h-[30rem]">
                   <Image
                     src={img}
                     alt={'case study image'}
                     fill
-                    className="mt-2 object-contain"
+                    className="mt-2 rounded-[20px]"
                   />
                 </div>
               )}
               <div>
-                {description?.map((para) => {
+                {description?.map((para, idx) => {
+                  const isLastIndex = description.length - 1 === idx;
                   return (
-                    <div className="my-[1rem]">
-                      <h3 className="pb-3">{para?.name}</h3>
-                      <p className="">{para?.description}</p>
+                    <div className="my-[1rem] flex gap-3">
+                      {}
+                      <div
+                        className={`mt-1 h-6 w-1.5 ${isLastIndex ? 'hidden' : 'block'} bg-[#1B5A96]`}
+                      ></div>
+                      <div>
+                        <h3 className="">{para?.name}</h3>
+                        <p className={`${isLastIndex && 'font-bold'}`}>
+                          {isLastIndex
+                            ? `"${para?.description}"`
+                            : para?.description}
+                        </p>
+                      </div>
                     </div>
                   );
                 })}
               </div>
             </div>
-            <div>
-              <div className="flex gap-3">
+            <div className="py-[3rem]">
+              <h2>Project Info</h2>
+              <div className="flex gap-3 py-[1rem]">
                 {projectInfo?.labels?.map((item) => {
                   return (
                     <div className="flex gap-4">
@@ -90,10 +111,57 @@ const CaseStudies = () => {
                 })}
               </div>
               <div className="py-[1rem]">
-                {projectInfo?.details?.map((item) => {
+                {projectInfo?.details?.map((item, idx) => (
+                  <div key={idx} className="my-4 space-y-4">
+                    {/* Description */}
+                    <p>{item?.description}</p>
+
+                    {/* TEXT LIST (vertical) */}
+                    <div className="space-y-2 pt-[1rem]">
+                      {item?.list
+                        ?.filter((x: any) => x.type === 'text')
+                        .map((x: any, i: number) => (
+                          <div
+                            key={i}
+                            className="flex items-center gap-2 text-[#797979]"
+                          >
+                            <IoCheckmarkCircle
+                              fontSize={22}
+                              className="text-[#00BE29]"
+                            />
+                            <p>{x?.name}</p>
+                          </div>
+                        ))}
+                    </div>
+                    {/* IMAGE LIST (horizontal) */}
+                    <div className="grid grid-cols-3 gap-4 pt-[1rem]">
+                      {item?.list
+                        ?.filter((x: any) => x.type === 'image')
+                        .map((x: any, i: number) => (
+                          <Image
+                            key={i}
+                            src={x?.image}
+                            width={485}
+                            height={263}
+                            alt="img"
+                            className="rounded-[20px]"
+                          />
+                        ))}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+            <div className="py-[3rem]">
+              <h2>About the Project</h2>
+              <p className="flex">{aboutTheproject?.description}</p>
+              <div className="flex gap-[2rem] pt-[4rem]">
+                {aboutTheproject?.details?.map((item) => {
                   return (
-                    <div className="my-4 gap-4 space-y-4">
-                      <p className="flex">{item?.description}</p>
+                    <div className="relative rounded-[20px] bg-[#F8FBFF] px-[2rem] pb-[2rem] pt-[3rem]">
+                      <h3 className="absolute left-[2rem] top-[-1rem] rounded-full bg-[#1B5A96] px-[2rem] py-[0.25rem] text-[#FFFFFF]">
+                        {item?.label}
+                      </h3>
                       <div className="text-[#797979]">
                         {item?.list?.map((x) => {
                           return (
@@ -104,7 +172,7 @@ const CaseStudies = () => {
                                   className={'text-[#00BE29]'}
                                 />
                               </span>
-                              <p> {'difgjds'}</p>
+                              <p> {x}</p>
                             </div>
                           );
                         })}
@@ -114,50 +182,57 @@ const CaseStudies = () => {
                 })}
               </div>
             </div>
-            <div>
-              <div className="flex gap-3">
-                {projectInfo?.labels?.map((item) => {
+            <div className="py-[3rem]">
+              <h2 className="text-center">Project Informations</h2>
+              <div className="grid grid-cols-3 gap-[4rem] pt-[3rem]">
+                {projectInformation?.data?.map((item) => {
                   return (
-                    <div className="flex gap-4">
-                      <div className="my-auto h-5 w-0.5 bg-[#1B5A96]"></div>
-                      <p className="font-semibold text-[#000000]">
-                        {item?.lebel}
-                      </p>
-                      <p className="text-[#797979]">{item?.description}</p>
+                    <div className="bg-[">
+                      <span>
+                        <IoCheckmarkCircle
+                          size={55}
+                          className="text-[#000000]"
+                        />
+                      </span>
+                      <h3 className="boder-[#000000] border-b pb-4">
+                        {item?.label}
+                      </h3>
+                      <p className="pt-3">{item?.description}</p>
                     </div>
                   );
                 })}
               </div>
-              <div className="py-[1rem]">
-                <h2>About the Project</h2>
-                <p className="flex">{aboutTheproject?.description}</p>
-                <div className=" flex justify-between">
-                  {aboutTheproject?.details?.map((item) => {
-                    return (
-                      <div className="relative rounded-[20px] bg-[#F8FBFF] p-[2rem]">
-                        <h3 className='absolute top-[-1rem] left-[2rem] bg-[#1B5A96] text-[#FFFFFF] px-[2rem] py-[0.125rem] rounded-full'>{item?.label}</h3>
-                        <div className="text-[#797979]">
-                          {item?.list?.map((x) => {
-                            return (
-                              <div className="flex gap-2 py-1">
-                                <span className="my-auto">
-                                  <IoCheckmarkCircle
-                                    fontSize={22}
-                                    className={'text-[#00BE29]'}
-                                  />
-                                </span>
-                                <p> {x}</p>
-                              </div>
-                            );
-                          })}
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
-              </div>
             </div>
-            {caseStudies?.bodyData?.map((item: any, index: number) => (
+            <div className="py-[3rem]">
+              {projectInformation?.details?.map((item, index) => (
+                <div
+                  key={index}
+                  className={`flex items-center gap-[4rem] py-[3rem] ${
+                    index % 2 !== 0 ? 'flex-row-reverse' : ''
+                  }`}
+                >
+                  <div className="flex w-1/2 justify-center justify-items-center rounded-[20px] bg-[#F4F6F9] py-[2rem]">
+                    <Image
+                      src={item?.image}
+                      width={644}
+                      height={380}
+                      alt="project"
+                      className="rounded-[20px]"
+                    />
+                  </div>
+
+                  <div className="w-1/2 space-y-3 divide-y-2">
+                    <h3 className="">{item?.heading}</h3>
+                    <p className="pt-5">{item?.description}</p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div>
+              <h2>Solutions:</h2>
+              <p>{solutionDescription}</p>
+            </div>
+            {/* {caseStudies?.bodyData?.map((item: any, index: number) => (
               <div key={index} className="mt-6">
                 {item?.heading && (
                   <h2 className="mb-2 text-xl font-semibold">{item.heading}</h2>
@@ -177,7 +252,7 @@ const CaseStudies = () => {
                     );
                   })}
               </div>
-            ))}
+            ))} */}
           </div>
         </MaxWidthWrapper>
       </Suspense>
