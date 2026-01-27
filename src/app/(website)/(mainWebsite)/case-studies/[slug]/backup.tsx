@@ -127,8 +127,10 @@ const CaseStudies = () => {
               <div className="py-[1rem]">
                 {projectInfo?.details?.map((item, idx) => (
                   <div key={idx} className="my-4 space-y-4">
+                    {/* Description */}
                     <p>{item?.description}</p>
 
+                    {/* TEXT LIST (vertical) */}
                     <div className="space-y-2 pt-[1rem]">
                       {item?.list
                         ?.filter((x: any) => x.type === 'text')
@@ -145,6 +147,7 @@ const CaseStudies = () => {
                           </div>
                         ))}
                     </div>
+                    {/* IMAGE LIST (horizontal) */}
                     <div className="grid grid-cols-3 gap-4 pt-[1rem]">
                       {item?.list
                         ?.filter((x: any) => x.type === 'image')
