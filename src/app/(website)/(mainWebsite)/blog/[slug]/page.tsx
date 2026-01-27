@@ -24,18 +24,37 @@ function splitHtmlAtFirstH2(html: string) {
   };
 }
 
-function splitIntroByWords(html: string, limit = 100) {
-  const text = html
-    .replace(/<[^>]+>/g, ' ')
-    .replace(/\s+/g, ' ')
-    .trim();
+function splitIntroParagraphs(html: string, wordLimit = 120) {
+  const paragraphs: string[] = [];
 
-  const words = text.split(' ');
+  parse(html, {
+    replace(domNode) {
+      if (domNode instanceof Element && domNode.name === 'p') {
+        const text = domNode.children
+          .map((c: any) => c.data || '')
+          .join('')
+          .trim();
 
-  return {
-    top: words.slice(0, limit).join(' '),
-    bottom: words.slice(limit).join(' '),
-  };
+        if (text) paragraphs.push(text);
+      }
+    },
+  });
+
+  let wordCount = 0;
+  const top: string[] = [];
+  const bottom: string[] = [];
+
+  paragraphs.forEach((para) => {
+    const words = para.split(' ');
+    if (wordCount < wordLimit) {
+      top.push(para);
+      wordCount += words.length;
+    } else {
+      bottom.push(para);
+    }
+  });
+
+  return { top, bottom };
 }
 
 /* ------------------ DATA ------------------ */
@@ -67,12 +86,15 @@ const Blog = async ({ params }: BlogProps) => {
   const blog = data[0];
 
   const { introHtml, bodyHtml } = splitHtmlAtFirstH2(blog?.postDescription);
-  const { top, bottom } = splitIntroByWords(introHtml, 100);
+  const { top, bottom } = splitIntroParagraphs(introHtml, 100);
 
   const h2Total = (bodyHtml.match(/<h2>/g) || []).length;
   let currentH2Index = 0;
   let isLastH2Section = false;
-
+  const transformData = (str: Date) => {
+    const date = new Date(str);
+    return date.toLocaleDateString();
+  };
   return (
     <>
       <PageBanner title={blogData.bannerTitle} />
@@ -85,27 +107,43 @@ const Blog = async ({ params }: BlogProps) => {
           title={blog?.postTitle}
         />
 
-        {/* ----------- IMAGE + FIRST 100 WORDS ----------- */}
-        <div className="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2">
-          <div>
+        {/* ----------- IMAGE + FIRST 120 WORDS ----------- */}
+        <div className="mt-8 grid grid-cols-1 gap-[2rem] md:grid-cols-2">
+          <div className="relative">
             <Image
               src={blog?.featuredImage}
-              width={500}
-              height={500}
               alt="blog"
-              className="object-contain"
+              fill
+              className="rounded-[1rem] object-cover"
+              priority
             />
           </div>
-
           <div>
-            <p className="leading-7">{top}</p>
+            <div className="flex gap-2 py-4">
+              <div className="h-6 w-1 bg-[#1B5A96]"></div>
+              <p className="font-bold">
+                Date:{' '}
+                <span className="font-normal text-[#797979]">
+                  {transformData(blog?.createdAt)}
+                </span>
+              </p>
+            </div>
+            {top.map((para, i) => (
+              <p key={i} className="mb-4 leading-7">
+                {para}
+              </p>
+            ))}
           </div>
         </div>
 
-        {/* ----------- REMAINING INTRO TEXT ----------- */}
-        {bottom && (
+        {/* ----------- REMAINING INTRO PARAGRAPHS ----------- */}
+        {bottom.length > 0 && (
           <div className="mt-6">
-            <p className="leading-7">{bottom}</p>
+            {bottom.map((para, i) => (
+              <p key={i} className="mb-4 leading-7">
+                {para}
+              </p>
+            ))}
           </div>
         )}
 
