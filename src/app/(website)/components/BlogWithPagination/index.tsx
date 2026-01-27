@@ -31,6 +31,7 @@ interface Blog {
   createdAt: string;
 }
 
+
 interface IProps {
   data: Blog[];
 }

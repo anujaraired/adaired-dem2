@@ -1,14 +1,15 @@
-import Image from 'next/image';
+//
+
+import Image, { StaticImageData } from 'next/image';
 import React from 'react';
 import star from '../../../../../public/assets/icons/star.png';
-import blue_star from '../../../../../public/assets/icons/blue_star.png';
 
 export interface IHeading {
   subTitle: String;
   title: String;
   span?: String;
   isH1?: boolean;
-  description?: String;
+  description?: string;
   isInCenter?: boolean;
   isVarticle?: boolean;
   isBgWhite?: boolean;
@@ -19,13 +20,13 @@ export interface IHeading {
   headingWidth?: string;
   breakIndex?: number;
 }
+
 const Heading = ({
   subTitle,
   title,
   span,
   description,
   isInCenter,
-  isVarticle,
   isBgWhite,
   className,
   isH1,
@@ -34,6 +35,7 @@ const Heading = ({
   isPara2,
   headingWidth,
   breakIndex,
+  isVarticle,
 }: IHeading) => {
   const words = title.split(' ');
   return (
