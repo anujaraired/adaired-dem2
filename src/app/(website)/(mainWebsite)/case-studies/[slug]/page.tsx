@@ -42,7 +42,8 @@ const CaseStudies = () => {
     try {
       setLoading(true);
       const res = await axios.get(`${BaseURL}/case-study/read?slug=${slug}`);
-      setCaseStudiesData(res?.data?.data ?? null);
+      console.log(res?.data?.data,"res?.data?.data")
+      setCaseStudiesData(res?.data?.data);
     } catch (error) {
       console.error('Failed to fetch case study:', error);
     } finally {
@@ -105,21 +106,6 @@ const CaseStudies = () => {
           <div className="py-[3rem]">
             <h2>Project Info</h2>
             <div className="flex gap-3 py-[1rem]">
-              <div className="flex gap-4">
-                <div className="my-auto h-5 w-0.5 bg-[#1B5A96]"></div>
-                <p className="font-semibold text-[#000000]">{'Date'}</p>
-                <p className="text-[#797979]">{'createdAt'}</p>
-              </div>
-              <div className="flex gap-4">
-                <div className="my-auto h-5 w-0.5 bg-[#1B5A96]"></div>
-                <p className="font-semibold text-[#000000]">{'Client'}</p>
-                <p className="text-[#797979]">{'USA'}</p>
-              </div>
-              <div className="flex gap-4">
-                <div className="my-auto h-5 w-0.5 bg-[#1B5A96]"></div>
-                <p className="font-semibold text-[#000000]">{'Category'}</p>
-                <p className="text-[#797979]">{'category?.name'}</p>
-              </div>
               {projectInfo?.labels?.map((item) => {
                 return (
                   <div className="flex gap-4">
@@ -215,30 +201,6 @@ const CaseStudies = () => {
                   })}
                 </div>
               </div>
-              {/* {aboutTheproject?.details?.map((item) => {
-                  return (
-                    <div className="relative rounded-[20px] bg-[#F8FBFF] px-[2rem] pb-[2rem] pt-[3rem]">
-                      <h3 className="absolute left-[2rem] top-[-1rem] rounded-full bg-[#1B5A96] px-[2rem] py-[0.25rem] text-[#FFFFFF]">
-                        {item?.label}
-                      </h3>
-                      <div className="text-[#797979]">
-                        {challengesAndSolutions?.map((x) => {
-                          return (
-                            <div className="flex gap-2 py-1">
-                              <span className="my-auto">
-                                <IoCheckmarkCircle
-                                  fontSize={22}
-                                  className={'text-[#00BE29]'}
-                                />
-                              </span>
-                              <p> {x}</p>
-                            </div>
-                          );
-                        })}
-                      </div>
-                    </div>
-                  );
-                })} */}
             </div>
           </div>
           <div className="py-[3rem]">
@@ -273,22 +235,6 @@ const CaseStudies = () => {
                 <h3 className="boder-[#000000] border-b pb-4">{'Sulutions'}</h3>
                 <p className="pt-3">{`${caseStudiesData?.solutionsDescription?.slice(0, 90)}...`}</p>
               </div>
-              {/* {projectInformation?.data?.map((item) => {
-                  return (
-                    <div className="bg-[">
-                      <span>
-                        <IoCheckmarkCircle
-                          size={55}
-                          className="text-[#000000]"
-                        />
-                      </span>
-                      <h3 className="boder-[#000000] border-b pb-4">
-                        {item?.label}
-                      </h3>
-                      <p className="pt-3">{item?.description}</p>
-                    </div>
-                  );
-                })} */}
             </div>
           </div>
           <div className="py-[3rem]">
@@ -320,27 +266,6 @@ const CaseStudies = () => {
             <h2>Result:</h2>
             <p>{caseStudiesData?.resultFinalDescription}</p>
           </div>
-          {/* {caseStudies?.bodyData?.map((item: any, index: number) => (
-              <div key={index} className="mt-6">
-                {item?.heading && (
-                  <h2 className="mb-2 text-xl font-semibold">{item.heading}</h2>
-                )}
-
-                {item?.description && <p>{item.description}</p>}
-                {item?.lists &&
-                  item?.lists?.map((item: any) => {
-                    return (
-                      <div className="flex gap-2 space-y-3">
-                        <LuCircleCheckBig
-                          size={25}
-                          className="my-auto text-[#FB9100]"
-                        />
-                        <p className="my-auto">{item}</p>
-                      </div>
-                    );
-                  })}
-              </div>
-            ))} */}
         </MaxWidthWrapper>
       </Suspense>
     </>
