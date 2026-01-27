@@ -16,6 +16,9 @@ import { useRouter } from 'next/navigation';
 import Banner from '../../common/Banner/Banner';
 import Heading from '../../common/Heading';
 import CaseStudy from '../../../(website)/components/Card/CaseStudy';
+import CaseStudyImg from '../../../../../public/assets/images/case_staudy/case_study.webp';
+import CaseStudyImg_2 from '../../../../../public/assets/images/case_staudy/case_study_2.webp';
+import CaseStudyImg_3 from '../../../../../public/assets/images/case_staudy/case_study_3.webp';
 
 //hello
 const CaseStudies = () => {
@@ -23,14 +26,30 @@ const CaseStudies = () => {
   const router = useRouter();
   const [caseStudies, setCaseStudies] = useState([0]);
   const getData = async () => {
-    const res = await axios.get(
-      `https://backend-ts-wo0v.onrender.com/case-study/`
-    );
+    const res = await axios.get(`${BaseURL}/case-study/read`);
+    console.log(res?.data?.data, 'res>>>>>>>>>>>>>');
     setCaseStudies(res?.data?.data);
   };
   useEffect(() => {
     getData();
   }, []);
+  const ApiData = [
+    {
+      image: CaseStudyImg,
+      caseStudyName: 'Green Choice Carpet Cleaning',
+      slug: 'green-choice-carpet-cleaning',
+    },
+    {
+      image: CaseStudyImg_2,
+      caseStudyName: 'AMPT Calgary Electricians',
+      slug: 'ampt-calgary-electricians',
+    },
+    {
+      image: CaseStudyImg_3,
+      caseStudyName: 'Bayside Heating and Cooling',
+      slug: 'bayside-heating-and-cooling',
+    },
+  ];
 
   const data = [
     'All',
@@ -75,12 +94,12 @@ const CaseStudies = () => {
             ))}
           </div>
           <div className="grid grid-cols-3 gap-[2rem]">
-            {caseStudies.map((caseStudy: any, index) => (
+            {ApiData.map((caseStudy: any, index) => (
               <div>
                 <CaseStudy
                   image={caseStudy?.image}
                   labels={['SEO', 'PPC']}
-                  title={caseStudy?.title ?? ''}
+                  title={caseStudy?.caseStudyName ?? ''}
                   breakIndex={3}
                   link={caseStudy?.slug}
                   bgColor={
