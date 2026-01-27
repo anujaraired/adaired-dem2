@@ -8,7 +8,7 @@ import { useParams } from 'next/navigation';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Heading from '@/app/(website)/common/Heading';
 import { IoCheckmarkCircle } from 'react-icons/io5';
-import { BaseURL } from '@/baseUrl';
+import { Base2URL, BaseURL } from '@/baseUrl';
 import { data } from './data';
 import img from '../../../.../../../../../public/assets/images/case_staudy/case_study.webp';
 export interface CaseStudy {
@@ -41,8 +41,8 @@ const CaseStudies = () => {
   const getData = async () => {
     try {
       setLoading(true);
-      const res = await axios.get(`${BaseURL}/case-study/read?slug=${slug}`);
-      console.log(res?.data?.data,"res?.data?.data")
+      const res = await axios.get(`${Base2URL}/case-study/read?slug=${slug}`);
+      console.log(res?.data?.data, 'res?.data?.data');
       setCaseStudiesData(res?.data?.data);
     } catch (error) {
       console.error('Failed to fetch case study:', error);
