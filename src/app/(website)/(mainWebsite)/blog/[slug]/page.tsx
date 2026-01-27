@@ -91,9 +91,16 @@ const Blog = async ({ params }: BlogProps) => {
   const h2Total = (bodyHtml.match(/<h2>/g) || []).length;
   let currentH2Index = 0;
   let isLastH2Section = false;
-  const transformData = (str: Date) => {
+  const transformData = (str: any) => {
+    if (!str) return '';
+
     const date = new Date(str);
-    return date.toLocaleDateString();
+
+    return date.toLocaleDateString('en-US', {
+      month: 'short',
+      day: '2-digit',
+      year: 'numeric',
+    });
   };
   return (
     <>
