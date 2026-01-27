@@ -1,225 +1,116 @@
 import React from 'react';
 import MaxWidthWrapper from '@web-components/MaxWidthWrapper';
-import Image from 'next/image';
 import parse, { domToReact, Element, DOMNode } from 'html-react-parser';
 import PageBanner from '@web-components/PageBanner';
-import PopularPosts from '@web-components/PopularPosts';
 import type { Metadata } from 'next';
 import { parseStyleString } from '@core/utils/parseStyleString';
-import { formatDate } from '@core/utils/format-date';
-import Head from 'next/head';
 import { Base2URL } from '@/baseUrl';
+import Heading from '@/app/(website)/common/Heading';
+// import { blogContent } from '@/dataa/blogContent';
+import { blogData } from '@/dataa/blogData';
+import { list } from 'postcss';
+
+type BlogItem = {
+  name: string;
+  description: string;
+  list?: string[];
+  type?: 'icon' | 'bullet' | 'none';
+};
 
 async function getBlogs({ params }: { params: { slug: string } }) {
   const res = await fetch(`${Base2URL}/blog/read?slug=${params.slug}`);
-  const data = await res.json();
-  return data;
+  return res.json();
 }
-
-export async function generateMetadata({
-  params,
-}: {
-  params: { slug: string };
-}): Promise<Metadata> {
-  const { data } = await getBlogs({ params });
-  const blog = data[0];
-
-  return {
-    metadataBase: new URL(
-      process.env.NEXT_PUBLIC_SITE_URI || 'https://adaired.com'
-    ),
-    title: blog?.seo?.metaTitle || blog?.postTitle,
-    description: blog?.seo?.metaDescription,
-    keywords: blog?.seo?.keywords,
-    alternates: {
-      canonical: blog?.seo?.canonicalLink || `/blog/${params?.slug}`,
-    },
-    robots: blog?.seo?.robotsText ?? 'index, follow',
-    openGraph: {
-      title: blog?.seo?.openGraph?.title || blog?.seo?.metaTitle,
-      description:
-        blog?.seo?.openGraph?.description || blog?.seo?.metaDescription,
-      images: blog?.seo?.openGraph?.image || blog?.featuredImage,
-      url: blog?.seo?.openGraph?.url || `/blog/${params?.slug}`,
-      siteName: blog?.seo?.openGraph?.siteName || 'Adaired',
-      type: blog?.seo?.openGraph?.type || 'website',
-    },
-    twitter: {
-      card: blog?.seo?.twitterCard?.cardType || 'summary_large_image',
-      site: blog?.seo?.twitterCard?.site,
-      creator: blog?.seo?.twitterCard?.creator,
-      title: blog?.seo?.twitterCard?.title || blog?.seo?.metaTitle,
-      description:
-        blog?.seo?.twitterCard?.description || blog?.seo?.metaDescription,
-      images: blog?.seo?.twitterCard?.image || blog?.featuredImage,
-    },
-  };
-}
-
-// export async function generateStaticParams() {
-//   const res = await fetch(
-//     `${process.env.NEXT_PUBLIC_BACKEND_API_URI}/blog/read`
-//   ).then((res) => res.json());
-//   const blogs = res.data.data;
-//   return blogs.map((blog: any) => ({
-//     slug: blog.slug.toString(),
-//   }));
-// }
-//updated
-// export async function generateStaticParams() {
-//   try {
-//     const res = await fetch(
-//       `${process.env.NEXT_PUBLIC_BACKEND_API_URI}/blog/read`
-//     );
-
-//     if (!res.ok) {
-//       console.error(`HTTP error! Status: ${res.status}, ${await res.text()}`);
-//       throw new Error(`Failed to fetch blog slugs: ${res.statusText}`);
-//     }
-
-//     const data = await res.json();
-//     const blogs = data.data || [];
-//     return blogs.map((blog: any) => ({
-//       slug: blog.slug.toString(),
-//     }));
-//   } catch (error) {
-//     console.error('Error in generateStaticParams:', error);
-//     return [];
-//   }
-// }
 
 export async function generateStaticParams() {
-  try {
-    const res = await fetch(`${Base2URL}/blog/read`, {
-      cache: 'no-store',
-    });
+  const res = await fetch(`${Base2URL}/blog/read`, { cache: 'no-store' });
+  const data = await res.json();
 
-    if (!res.ok) {
-      console.error(`HTTP error! Status: ${res.status}, await res.text()`);
-      return [];
-    }
-
-    const data = await res.json();
-    const blogs = data?.data ?? [];
-
-    return blogs.map((blog: any) => ({
-      slug: String(blog.slug),
-    }));
-  } catch (error) {
-    console.error('Error in generateStaticParams:', error);
-    return [];
-  }
+  return (data?.data ?? []).map((blog: any) => ({
+    slug: String(blog.slug),
+  }));
 }
 
 interface BlogProps {
-  params: {
-    slug: string;
-  };
+  params: { slug: string };
 }
 
 const Blog = async ({ params }: BlogProps) => {
   const { data } = await getBlogs({ params });
   const blog = data[0];
-
-  const contentWithClass = parse(blog.postDescription, {
-    replace: (domNode) => {
-      if (domNode instanceof Element) {
-        const { tagName, attribs, children } = domNode;
-        const supportedTags = /^(h[1-6]|ol|ul|p|blockquote)$/;
-
-        if (supportedTags.test(tagName)) {
-          let additionalClasses = 'font-';
-
-          switch (tagName) {
-            case 'h1':
-            case 'h2':
-              additionalClasses += ' text-2xl md:text-3xl font-bold my-4';
-              break;
-            case 'h3':
-              additionalClasses += ' text-xl md:text-2xl font-semibold my-3';
-              break;
-            case 'ol':
-              additionalClasses += ' pl-6 my-2 list-decimal';
-              break;
-            case 'ul':
-              additionalClasses += ' pl-6 my-2 list-disc';
-              break;
-            case 'p':
-              additionalClasses += ' my-2';
-              break;
-            case 'blockquote':
-              additionalClasses += ' border-l-4 pl-4 my-2 italic';
-              break;
-          }
-
-          const { className, style, ...otherAttribs } = attribs;
-          const styleObject =
-            typeof style === 'string' ? parseStyleString(style) : style;
-
-          return React.createElement(
-            tagName,
-            {
-              ...otherAttribs,
-              className: `${className || ''} ${additionalClasses}`.trim(),
-              style: styleObject,
-            },
-            domToReact(children as DOMNode[])
-          );
-        }
-      }
-    },
-  });
-
+  const isArrow = false;
   return (
     <>
-      <Head>
-        {/* Only include tags not supported by generateMetadata */}
-        {blog?.seo?.schemaOrg && (
-          <script
-            type="application/ld+json"
-            dangerouslySetInnerHTML={{ __html: blog?.seo?.schemaOrg }}
-          />
-        )}
-        {blog?.seo?.headerScript && (
-          <script
-            dangerouslySetInnerHTML={{ __html: blog?.seo?.headerScript }}
-          />
-        )}
-      </Head>
-      <PageBanner title="Blog" />
-      <MaxWidthWrapper className="flex gap-10 py-6 lg:py-12">
-        <div className="w-full border p-6 lg:w-[70%] lg:p-10">
-          <div className="relative">
-            <Image
-              src={blog.featuredImage}
-              height={560}
-              width={1000}
-              alt={blog.postTitle}
-              priority
-            />
+      <PageBanner title={blogData.bannerTitle} />
+      <MaxWidthWrapper className="py-12 md:py-20">
+        <Heading
+          isVarticle={true}
+          subTitle={'BLOG'}
+          breakIndex={7}
+          title={`Your 2025 Local SEO Checklist: Let Your Business Outrank In The Local Market`}
+        />
+        <section className="w-full md:py-6">
+          <div className="flex w-full flex-col gap-8 md:gap-12 lg:flex-row">
+            <div className="w-full md:w-1/2">
+              <img
+                src={blogData.heroSection.image}
+                alt="Blog Image"
+                className="h-auto w-full max-w-full rounded object-contain"
+              />
+            </div>
+
+            <div className="flex w-full flex-col gap-4 md:w-1/2">
+              <div className="flex items-center gap-3">
+                <img src="/assets/rectangle.png" className="h-[22px] w-[2px]" />
+                <h1 className="font-poppins text-[20px] font-semibold">
+                  Date :
+                  <span className="ml-1 text-[20px] font-normal text-gray-500">
+                    {blogData.heroSection.date}
+                  </span>
+                </h1>
+              </div>
+
+              <p className="whitespace-pre-line">
+                {blogData.heroSection.introParagraph}
+              </p>
+            </div>
           </div>
-          <h1 className="py-4 font- text-2xl font-bold md:text-3xl lg:text-4xl">
-            {blog.postTitle}
-          </h1>
-          <p className="pb-2 font- text-gray-600">
-            {formatDate(blog.createdAt)}
-          </p>
-          <div className="prose max-w-none">{contentWithClass}</div>
+        </section>
+        <div>
+          {blogData.data.map((item: any, idx: any) => (
+            <div key={idx}>
+              <h2 className="mb-2 mt-4">{item.name}</h2>
+              <p className="">{item.description}</p>
+
+              {item.list && (
+                <div className="space-y-2">
+                  {item.list.map((x: any, listIdx: number) => (
+                    <div key={listIdx} className="space-y-2">
+                      <h3 className={``}>
+                        {x.type === 'icon' && (
+                          <img
+                            src="/assets/Vector.png"
+                            alt="icon"
+                            className="mb-1 inline-block h-4 w-4"
+                          />
+                        )}{' '}
+                        {x?.name}
+                      </h3>
+                      <p
+                        className={`${x.type === 'bullets' ? 'pl-6' : 'pl-7'}`}
+                      >
+                        {x.type === 'bullet' && <span className="">•</span>}{' '}
+                        {x?.description}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          ))}
         </div>
-        <aside className="hidden w-[30%] lg:block">
-          <div className="sticky top-24">
-            <PopularPosts />
-          </div>
-        </aside>
       </MaxWidthWrapper>
-      {blog?.seo?.bodyScript && (
-        <script dangerouslySetInnerHTML={{ __html: blog?.seo?.bodyScript }} />
-      )}
-      {blog?.seo?.footerScript && (
-        <script dangerouslySetInnerHTML={{ __html: blog?.seo?.footerScript }} />
-      )}
     </>
   );
 };
-
 export default Blog;
