@@ -1,68 +1,59 @@
 'use client';
 import PageBanner from '@web-components/PageBanner';
-import TestimonialSlider from '@web-components/TestimonialSlider';
-import BlogCards from '@web-components/BlogCard/BlogCards';
-import CaseStudyCards from '@web-components/CaseStudyCards';
 import { Suspense, useEffect, useState } from 'react';
-import type { Metadata } from 'next';
-import { Base3URL, BaseURL } from '@/baseUrl';
 import axios from 'axios';
 import Image from 'next/image';
 import { useParams, useRouter } from 'next/navigation';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
-import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
-import { LuCircleCheckBig } from 'react-icons/lu';
 import Heading from '@/app/(website)/common/Heading';
 import img from '../../../../../../public/assets/images/blogs/blog_01.png';
 import { data } from './data';
 import { IoCheckmarkCircle } from 'react-icons/io5';
-import Certificate from '@/app/(website)/components/home/oldcertificate';
-
-interface CaseStudy2 {
-  title: string;
-  description: string;
-  image: string;
-  bodyData: any[];
-}
+import { BaseURL } from '@/baseUrl';
 
 export interface CaseStudy {
   _id: string;
   slug: string;
+  createdAt?: string;
+  category?: any;
+  caseStudyName?: string;
   aboutProjectDescription?: string;
+  challengesAndSolutions?: string[];
   cardImage?: string;
   caseStudyDescription?: string;
   colorScheme?: string;
   subHeading?: string;
-  category?: any;
+  solutionsDescription?: string;
+  challengesDescription?: string;
+  resultFinalDescription?: string;
 }
 
 const CaseStudies = () => {
   const { slug } = useParams(); // ✅ SLUG HERE
-  const {
-    heading,
-    label,
-    span,
-    description,
-    projectInfo,
-    aboutTheproject,
-    projectInformation,
-    solutionDescription,
-  } = data ?? {};
+  const { label, span, description, projectInfo, projectInformation } =
+    data ?? {};
   const [caseStudiesData, setCaseStudiesData] = useState<CaseStudy | null>(
     null
   );
   const getData = async () => {
-    const res = await axios.get(
-      `https://adaired-backend.onrender.com/api/v2/case-study/read?slug=${slug}`
-    );
-    console.log(res, 'res>>>>>>>>>>>isdfsdf');
+    const res = await axios.get(`${BaseURL}/case-study/read?slug=${slug}`);
     setCaseStudiesData(res?.data?.data);
   };
   useEffect(() => {
     getData();
   }, []);
-  const { aboutProjectDescription } = caseStudiesData ?? {};
-  console.log(caseStudiesData?.aboutProjectDescription, 'caseStudiesData12');
+  const {
+    createdAt,
+    category,
+    caseStudyName,
+    caseStudyDescription,
+    aboutProjectDescription,
+    challengesAndSolutions,
+    solutionsDescription,
+    resultFinalDescription,
+    challengesDescription,
+  } = caseStudiesData ?? {};
+  console.log(caseStudyName, 'caseStudyName12');
   return (
     <>
       <PageBanner subTitle={'SEO'} title="CASE STUDY" />
@@ -73,7 +64,7 @@ const CaseStudies = () => {
               isVarticle={true}
               breakIndex={3}
               subTitle={label}
-              title={heading ?? ''}
+              title={caseStudyName ?? ''}
               headingWidth={''}
               span={span}
             />
@@ -112,7 +103,22 @@ const CaseStudies = () => {
             <div className="py-[3rem]">
               <h2>Project Info</h2>
               <div className="flex gap-3 py-[1rem]">
-                {projectInfo?.labels?.map((item) => {
+                <div className="flex gap-4">
+                  <div className="my-auto h-5 w-0.5 bg-[#1B5A96]"></div>
+                  <p className="font-semibold text-[#000000]">{'Date'}</p>
+                  <p className="text-[#797979]">{createdAt}</p>
+                </div>
+                <div className="flex gap-4">
+                  <div className="my-auto h-5 w-0.5 bg-[#1B5A96]"></div>
+                  <p className="font-semibold text-[#000000]">{'Client'}</p>
+                  <p className="text-[#797979]">{'USA'}</p>
+                </div>
+                <div className="flex gap-4">
+                  <div className="my-auto h-5 w-0.5 bg-[#1B5A96]"></div>
+                  <p className="font-semibold text-[#000000]">{'Category'}</p>
+                  <p className="text-[#797979]">{category?.name}</p>
+                </div>
+                {/* {projectInfo?.labels?.map((item) => {
                   return (
                     <div className="flex gap-4">
                       <div className="my-auto h-5 w-0.5 bg-[#1B5A96]"></div>
@@ -122,7 +128,7 @@ const CaseStudies = () => {
                       <p className="text-[#797979]">{item?.description}</p>
                     </div>
                   );
-                })}
+                })} */}
               </div>
               <div className="py-[1rem]">
                 {projectInfo?.details?.map((item, idx) => (
@@ -165,16 +171,56 @@ const CaseStudies = () => {
             </div>
             <div className="py-[3rem]">
               <h2>About the Project</h2>
-              <p className="flex">{aboutTheproject?.description}</p>
+              <p className="flex">{aboutProjectDescription}</p>
               <div className="flex gap-[2rem] pt-[4rem]">
-                {aboutTheproject?.details?.map((item) => {
+                <div className="relative rounded-[20px] bg-[#F8FBFF] px-[2rem] pb-[2rem] pt-[3rem]">
+                  <h3 className="absolute left-[2rem] top-[-1rem] rounded-full bg-[#1B5A96] px-[2rem] py-[0.25rem] text-[#FFFFFF]">
+                    Challanges
+                  </h3>
+                  <div className="text-[#797979]">
+                    {challengesAndSolutions?.map((x: any) => {
+                      return (
+                        <div className="flex gap-2 py-1">
+                          <span className="my-auto">
+                            <IoCheckmarkCircle
+                              fontSize={22}
+                              className={'text-[#00BE29]'}
+                            />
+                          </span>
+                          <p> {x?.title}</p>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+                <div className="relative rounded-[20px] bg-[#F8FBFF] px-[2rem] pb-[2rem] pt-[3rem]">
+                  <h3 className="absolute left-[2rem] top-[-1rem] rounded-full bg-[#1B5A96] px-[2rem] py-[0.25rem] text-[#FFFFFF]">
+                    Solutions
+                  </h3>
+                  <div className="text-[#797979]">
+                    {challengesAndSolutions?.map((x: any) => {
+                      return (
+                        <div className="flex gap-2 py-1">
+                          <span className="my-auto">
+                            <IoCheckmarkCircle
+                              fontSize={22}
+                              className={'text-[#00BE29]'}
+                            />
+                          </span>
+                          <p> {x?.title}</p>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+                {/* {aboutTheproject?.details?.map((item) => {
                   return (
                     <div className="relative rounded-[20px] bg-[#F8FBFF] px-[2rem] pb-[2rem] pt-[3rem]">
                       <h3 className="absolute left-[2rem] top-[-1rem] rounded-full bg-[#1B5A96] px-[2rem] py-[0.25rem] text-[#FFFFFF]">
                         {item?.label}
                       </h3>
                       <div className="text-[#797979]">
-                        {item?.list?.map((x) => {
+                        {challengesAndSolutions?.map((x) => {
                           return (
                             <div className="flex gap-2 py-1">
                               <span className="my-auto">
@@ -190,13 +236,44 @@ const CaseStudies = () => {
                       </div>
                     </div>
                   );
-                })}
+                })} */}
               </div>
             </div>
             <div className="py-[3rem]">
               <h2 className="text-center">Project Informations</h2>
               <div className="grid grid-cols-3 gap-[4rem] pt-[3rem]">
-                {projectInformation?.data?.map((item) => {
+                <div className="bg-[">
+                  <span>
+                    <IoCheckmarkCircle size={55} className="text-[#000000]" />
+                  </span>
+                  <h3 className="boder-[#000000] border-b pb-4">
+                    {'We’re a digital agency'}
+                  </h3>
+                  <p className="pt-3">
+                    {
+                      'We’re a digital agency that transforms businesses into brands.'
+                    }
+                  </p>
+                </div>
+                <div className="bg-[">
+                  <span>
+                    <IoCheckmarkCircle size={55} className="text-[#000000]" />
+                  </span>
+                  <h3 className="boder-[#000000] border-b pb-4">
+                    {'Challanges'}
+                  </h3>
+                  <p className="pt-3">{`${challengesDescription?.slice(0, 90)}...`}</p>
+                </div>
+                <div className="bg-[">
+                  <span>
+                    <IoCheckmarkCircle size={55} className="text-[#000000]" />
+                  </span>
+                  <h3 className="boder-[#000000] border-b pb-4">
+                    {'Sulutions'}
+                  </h3>
+                  <p className="pt-3">{`${solutionsDescription?.slice(0, 90)}...`}</p>
+                </div>
+                {/* {projectInformation?.data?.map((item) => {
                   return (
                     <div className="bg-[">
                       <span>
@@ -211,7 +288,7 @@ const CaseStudies = () => {
                       <p className="pt-3">{item?.description}</p>
                     </div>
                   );
-                })}
+                })} */}
               </div>
             </div>
             <div className="py-[3rem]">
@@ -240,8 +317,8 @@ const CaseStudies = () => {
               ))}
             </div>
             <div>
-              <h2>Solutions:</h2>
-              <p>{solutionDescription}</p>
+              <h2>Result:</h2>
+              <p>{resultFinalDescription}</p>
             </div>
             {/* {caseStudies?.bodyData?.map((item: any, index: number) => (
               <div key={index} className="mt-6">
