@@ -65,7 +65,7 @@ const CaseStudies = () => {
           <div>
             <Heading
               isVarticle={true}
-              breakIndex={3}
+              breakIndex={7}
               subTitle={label}
               title={caseStudiesData?.caseStudyName ?? ''}
               headingWidth={''}
@@ -73,7 +73,7 @@ const CaseStudies = () => {
             />
             <div className="grid grid-cols-2 gap-[2rem] pt-[1.5rem]">
               {img && (
-                <div className="relative h-[30rem]">
+                <div className="relative h-[25rem]">
                   <Image
                     src={img}
                     alt={'case study image'}
@@ -83,7 +83,8 @@ const CaseStudies = () => {
                 </div>
               )}
               <div>
-                {description?.map((para, idx) => {
+                {caseStudiesData?.caseStudyDescription}
+                {/* {description?.map((para, idx) => {
                   const isLastIndex = description.length - 1 === idx;
                   return (
                     <div className="my-[1rem] flex gap-3">
@@ -100,11 +101,11 @@ const CaseStudies = () => {
                       </div>
                     </div>
                   );
-                })}
+                })} */}
               </div>
             </div>
           </div>
-          <div className="py-[3rem]">
+          {/* <div className="py-[3rem]">
             <h2>Project Info</h2>
             <div className="flex gap-3 py-[1rem]">
               {projectInfo?.labels?.map((item) => {
@@ -157,7 +158,7 @@ const CaseStudies = () => {
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
           <div className="py-[3rem]">
             <h2>About the Project</h2>
             <p className="flex">{caseStudiesData?.aboutProjectDescription}</p>
@@ -182,7 +183,7 @@ const CaseStudies = () => {
                   })}
                 </div>
               </div>
-              <div className="relative rounded-[20px] bg-[#F8FBFF] px-[2rem] pb-[2rem] pt-[3rem]">
+              {/* <div className="relative rounded-[20px] bg-[#F8FBFF] px-[2rem] pb-[2rem] pt-[3rem]">
                 <h3 className="absolute left-[2rem] top-[-1rem] rounded-full bg-[#1B5A96] px-[2rem] py-[0.25rem] text-[#FFFFFF]">
                   Solutions
                 </h3>
@@ -201,10 +202,10 @@ const CaseStudies = () => {
                     );
                   })}
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
-          <div className="py-[3rem]">
+          {/* <div className="py-[3rem]">
             <h2 className="text-center">Project Informations</h2>
             <div className="grid grid-cols-3 gap-[4rem] pt-[3rem]">
               <div className="bg-[">
@@ -237,8 +238,8 @@ const CaseStudies = () => {
                 <p className="pt-3">{`${caseStudiesData?.solutionsDescription?.slice(0, 90)}...`}</p>
               </div>
             </div>
-          </div>
-          <div className="py-[3rem]">
+          </div> */}
+          {/* <div className="py-[3rem]">
             {projectInformation?.details?.map((item, index) => (
               <div
                 key={index}
@@ -262,7 +263,7 @@ const CaseStudies = () => {
                 </div>
               </div>
             ))}
-          </div>
+          </div> */}
           <div>
             <h2>Result:</h2>
             <p>{caseStudiesData?.resultFinalDescription}</p>

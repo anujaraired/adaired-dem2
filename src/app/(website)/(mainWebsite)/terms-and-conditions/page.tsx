@@ -172,9 +172,9 @@ const Terms: FC<IProps> = (props) => {
               </p>
               <p>
                 <strong> Phone:</strong>
-                <Link href="tel:+91-8907400008">
+                <Link href="tel:+91-8907300008">
                   {' '}
-                  <strong>+91-8907400008</strong>
+                  <strong>+91-8907300008</strong>
                 </Link>
               </p>
               <p>

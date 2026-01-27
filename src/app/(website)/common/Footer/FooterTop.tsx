@@ -21,8 +21,8 @@ const data = [
   {
     icon: call,
     name: 'Call Us',
-    description: '91-8907400008',
-    path: 'tel:+91-8907400008',
+    description: '91-8907300008',
+    path: 'tel:+91-8907300008',
   },
   {
     icon: mail,
