@@ -5,6 +5,7 @@ import PopularPosts from '@web-components/PopularPosts';
 import BlogWPagination from '@web-components/BlogWithPagination';
 import type { Metadata } from 'next';
 import { BaseURL } from '@/baseUrl';
+import Heading from '../../common/Heading';
 
 // Server-safe excerpt function
 export const getExcerpt = (html: string, maxLength: number = 150): string => {
@@ -70,6 +71,8 @@ const Blog = async () => {
       <PageBanner title="Blog" />
 
       <MaxWidthWrapper className="py-6 lg:py-12">
+
+      
         <div className="flex flex-col gap-10 xl:flex-row">
           <div className="xl:w-[70%]">
             <BlogWPagination data={data.data} />
