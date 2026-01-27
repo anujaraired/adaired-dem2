@@ -56,6 +56,7 @@ const CaseStudies = () => {
       getData();
     }
   }, [slug]);
+
   return (
     <>
       <PageBanner subTitle={'SEO'} title="CASE STUDY" />

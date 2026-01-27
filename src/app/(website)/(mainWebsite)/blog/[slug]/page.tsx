@@ -7,6 +7,7 @@ import { Base2URL } from '@/baseUrl';
 import { blogData } from '@/dataa/blogData';
 import arrowIcon from '../../../../../../public/assets/icons/arrowIcon.png';
 import Image from 'next/image';
+import { transformDate } from '@/@core/hooks/transformDate';
 
 /* ------------------ HELPERS ------------------ */
 
@@ -91,17 +92,7 @@ const Blog = async ({ params }: BlogProps) => {
   const h2Total = (bodyHtml.match(/<h2>/g) || []).length;
   let currentH2Index = 0;
   let isLastH2Section = false;
-  const transformData = (str: any) => {
-    if (!str) return '';
 
-    const date = new Date(str);
-
-    return date.toLocaleDateString('en-US', {
-      month: 'short',
-      day: '2-digit',
-      year: 'numeric',
-    });
-  };
   return (
     <>
       <PageBanner title={blogData.bannerTitle} />
@@ -131,7 +122,7 @@ const Blog = async ({ params }: BlogProps) => {
               <p className="font-bold">
                 Date:{' '}
                 <span className="font-normal text-[#797979]">
-                  {transformData(blog?.createdAt)}
+                  {transformDate(blog?.createdAt)}
                 </span>
               </p>
             </div>
