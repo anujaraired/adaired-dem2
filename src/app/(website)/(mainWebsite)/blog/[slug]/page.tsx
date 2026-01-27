@@ -9,6 +9,8 @@ import Heading from '@/app/(website)/common/Heading';
 // import { blogContent } from '@/dataa/blogContent';
 import { blogData } from '@/dataa/blogData';
 import { list } from 'postcss';
+// import { RxDotFilled } from "react-icons/rx";
+import { GoDotFill } from "react-icons/go";
 
 type BlogItem = {
   name: string;
@@ -50,7 +52,7 @@ const Blog = async ({ params }: BlogProps) => {
           title={`Your 2025 Local SEO Checklist: Let Your Business Outrank In The Local Market`}
         />
         <section className="w-full md:py-6">
-          <div className="flex w-full flex-col gap-8 md:gap-12 lg:flex-row">
+          <div className="flex w-full flex-col gap-8 md:gap-12 md:flex-row">
             <div className="w-full md:w-1/2">
               <img
                 src={blogData.heroSection.image}
@@ -80,7 +82,7 @@ const Blog = async ({ params }: BlogProps) => {
           {blogData.data.map((item: any, idx: any) => (
             <div key={idx}>
               <h2 className="mb-2 mt-4">{item.name}</h2>
-              <p className="">{item.description}</p>
+              <p className="mb-6">{item.description}</p>
 
               {item.list && (
                 <div className="space-y-2">
@@ -96,12 +98,11 @@ const Blog = async ({ params }: BlogProps) => {
                         )}{' '}
                         {x?.name}
                       </h3>
-                      <p
-                        className={`${x.type === 'bullets' ? 'pl-6' : 'pl-7'}`}
-                      >
-                        {x.type === 'bullet' && <span className="">•</span>}{' '}
+                      <p className={`flex items-center gap-2 ${x.type === "bullet" ? "pl-6 list-inside" : "pl-7"}`}>
+                        {x.type === "bullet" && <GoDotFill />}
                         {x?.description}
                       </p>
+
                     </div>
                   ))}
                 </div>
