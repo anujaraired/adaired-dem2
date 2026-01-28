@@ -10,23 +10,9 @@ import Mask from '../../../../../public/assets/images/home/Mask group.png';
 import check from '../../../../../public/assets/icons/blue_check.png';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
-import {
-  useImageReveal,
-  useZoomOnView,
-} from '@/@core/hooks/useScrollAnimations';
-
 const About = () => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
   const { subTitle, title, points, description, cursive } = AboutSectionData;
-  const { ref: imageRef, className: imageClass } = useImageReveal({
-    direction: 'left',
-    delay: 350,
-  });
-
-  const { ref: zoomRef, className: zoomClass } = useZoomOnView({
-    delay: 200,
-    once: true,
-  });
 
   return (
     <section className="">
@@ -41,7 +27,7 @@ const About = () => {
             <div
               // ref={imageRef}
               // className={`mt-0 flex items-center justify-center p-3 md:mt-0 lg:mt-[2rem] xl:mt-0 1400:mt-[2rem] 1440:mt-[2rem] 1600:mt-[2rem] 1710:mt-0 ${'imageClass'}`}
-              className={`mt-0 flex items-center justify-center p-3 transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} `}
+              className={`mt-0 flex items-center justify-center p-3 md:mt-0 lg:mt-[2rem] xl:mt-0 1400:mt-[2rem] 1440:mt-[2rem] 1600:mt-[2rem] 1710:mt-0 flex items-center justify-center p-3 transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} `}
             >
               <Image
                 src={img}

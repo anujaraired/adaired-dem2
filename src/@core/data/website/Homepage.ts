@@ -67,7 +67,9 @@ import shoppyfy from '../../../../public/assets/icons/service/shoppyfy.png';
 import TikTokAds from '../../../../public/assets/icons/service/TikTokAds.png';
 import LinkedInAds from '../../../../public/assets/icons/service/LinkedInAds.png';
 // import digital_marketing from '../../../../public/assets/images/service/digital_marketing.png';
-import digital_marketing from '../../../../public/assets/images/service/New/Digital Marketing.png';
+// import digital_marketing from '../../../../public/assets/images/service/New/Digital Marketing.png';
+import digital_marketing from '../../../../public/assets/images/service/New/SEO_NEW_IMG.svg';
+
 import google_business from '../../../../public/assets/images/service/google_business.png';
 import App_development from '../../../../public/assets/images/service/App_development.png';
 import WhiteLabelFacebookAds from '../../../../public/assets/icons/service/WhiteLabelFacebookAds.png';
