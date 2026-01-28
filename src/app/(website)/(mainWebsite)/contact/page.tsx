@@ -3,10 +3,12 @@ import PageBanner from '@web-components/PageBanner';
 import React from 'react';
 import { Icons } from '@web-components/Icons';
 import Link from 'next/link';
-import ContactPageForm from '@web-components/forms/ContactPageForm';
+import Image from 'next/image';
+import reachout from '../../../../../public/assets/700_650.png';
+// import ContactPageForm from '@web-components/forms/ContactPageForm';
 import type { Metadata } from 'next';
 import ContactForm from '../../components/forms/ContactForm';
-import Heading from '../../common/Heading';
+// import Heading from '../../common/Heading';
 
 export const metadata: Metadata = {
   title: 'Contact Adaired – Speak with Our Team Today!',
@@ -20,17 +22,79 @@ export const metadata: Metadata = {
 const Contact = () => {
   return (
     <>
-      <PageBanner title="Contact Us" />
+      {/* <PageBanner title="Contact Us" /> */}
+      <PageBanner subTitle={'CONTACT US'} title={'Get In Touch'} />
       <section className="py-12 lg:py-24">
+
+        {/* Cards */}
+        <div className="py-12">
+          <MaxWidthWrapper>
+            <div className="grid grid-cols-1 gap-20 md:grid-cols-3 md:gap-6">
+
+              <div className="relative rounded-xl bg-white p-6 pt-16 text-center border">
+                <div className="absolute -top-8 left-1/2 flex h-20 w-20 -translate-x-1/2 mb-16 items-center justify-center rounded-full bg-[#1b5b97]">
+                  <Icons.Map className="h-9 w-9 text-white" />
+                </div>
+                <Link
+                  href="https://maps.app.goo.gl/CEMtUbQd1246YQ3c7"
+                  className="font-semibold"
+                >
+                  <p> B-509, 5th Floor, Bestech Business Towers, Sector 66, SAS Nagar,
+                    Punjab 160066 </p>
+                </Link>
+              </div>
+
+              <div className="relative rounded-xl bg-white p-6 pt-16 text-center border">
+                <div className="absolute -top-8 left-1/2 flex h-20 w-20 -translate-x-1/2 items-center justify-center rounded-full bg-[#1b5b97]">
+                  <Icons.Phone className="h-9 w-9 text-white" />
+                </div>
+
+                <p>Need assistance? Call us at</p>
+
+                <Link href="tel:+91-8907200008" className="block font-semibold text-sky-600">
+                  +91-89072 00008
+                </Link>
+                <Link href="tel:+91-8907300008" className="block font-semibold text-sky-600">
+                  +91-89073 00008
+                </Link>
+              </div>
+
+              <div className="relative rounded-xl bg-white p-6 pt-16 text-center border">
+                <div className="absolute -top-8 left-1/2 flex h-20 w-20 -translate-x-1/2 items-center justify-center rounded-full bg-[#1b5b97]">
+                  <Icons.Mail className="h-9 w-9 text-white" />
+                </div>
+
+                <Link
+                  href="mailto:info@adaired.com?subject=Adaired Support&body=Hi Adaired Team,"
+                  className="block font-semibold"
+                >
+                  <span>General Inquiries - </span>{' '}
+                  <span className="text-sky-600">info@adaired.com</span>
+                </Link>
+                <Link href="mailto:hr@adaired.com" className="block font-semibold">
+                  <span>HR Department - </span>{' '}
+                  <span className="text-sky-600">hr@adaired.com</span>
+                </Link>
+              </div>
+
+            </div>
+          </MaxWidthWrapper>
+        </div>
+
+        {/* Image and Form */}
         <MaxWidthWrapper className="flex flex-col gap-20 lg:flex-row">
+          <div className="flex-1 lg:w-1/2">
+            {/* <ContactDetails /> */}
+            <ContactImage />
+          </div>
+
           <div className="flex-1 lg:w-1/2">
             <ContactForm />
           </div>
-          <div className="flex-1 lg:w-1/2">
-            <ContactDetails />
-          </div>
         </MaxWidthWrapper>
+
       </section>
+
       <section className="w-full">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3431.519824675396!2d76.73770197613055!3d30.67564718838826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fed5cb98c5777%3A0x8a21444801a080f9!2sAdAired%20Digital%20Media!5e0!3m2!1sen!2sin!4v1708674125637!5m2!1sen!2sin"
@@ -47,9 +111,11 @@ const Contact = () => {
 
 export default Contact;
 
-const ContactDetails = () => {
+// const ContactDetails = () => {
+const ContactImage = () => {
   return (
-    <div>
+      <div className="relative h-[360px] sm:h-[720px] lg:h-full w-full">
+
       {/* <div className="p-2 text-center md:text-left">
         <h5 className="relative inline font-nunito text-lg text-[#515151] sm:text-xl md:pl-20">
           <div className="absolute -left-1/2 top-1/2 h-px w-16 -translate-y-1/2 transform bg-[#A7A9AC] md:left-0"></div>
@@ -68,7 +134,15 @@ const ContactDetails = () => {
           objectives.
         </p>
       </div> */}
-      <Heading
+
+      <Image
+        src={reachout}
+        fill
+        alt="About Image"
+        className="rounded-3xl border-[#e3e3e3] object-cover p-1"
+      />
+
+      {/* <Heading
         subTitle={'Ready To Elevate?'}
         title={'Get In Touch'}
         span={''}
@@ -94,9 +168,11 @@ const ContactDetails = () => {
           <Icons.Phone className="h-12 w-12 flex-none rounded border p-2 text-[#1b5b97]" />
           <div>
             <p>Need assistance? Call us at</p>
-            {/* <Link href="tel:+1 (205) 273-6006" className="block font-semibold">
-              +1 (205) 273-6006
-            </Link> */}
+
+            // <Link href="tel:+1 (205) 273-6006" className="block font-semibold">
+              // +1 (205) 273-6006
+            // </Link>
+
             <Link href="tel:+91-8907200008" className="block font-semibold">
               +91-8907200008
             </Link>
@@ -122,7 +198,7 @@ const ContactDetails = () => {
             </Link>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
