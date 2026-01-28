@@ -246,7 +246,14 @@ const Service = () => {
                             <div
                               key={i}
                               onClick={() => setActiveCard(item.label)}
-                              className={`relative lg:h-[7.8rem] xl:h-[9.8rem] ${activeCard !== item.label ? 'bg-[#F5F5F5]' : 'bg-[#FEE9CC]'} flex !cursor-pointer gap-3 rounded-[15px] border-[0.71px] p-[1rem] hover:border-[0.71px] hover:border-[#F28F17]/60 md:block lg:p-[0.8rem] xl:p-5`}
+                              style={{
+                                transitionDelay: `${i * 280}ms`, // 👈 stagger delay
+                              }}
+                              className={`relative transition-all delay-300 duration-1000 lg:h-[7.8rem] xl:h-[9.8rem] ${
+                                isVisible
+                                  ? 'translate-y-0 opacity-100'
+                                  : 'translate-y-10 opacity-0'
+                              } ${activeCard !== item.label ? 'bg-[#F5F5F5]' : 'bg-[#FEE9CC]'} flex !cursor-pointer gap-3 rounded-[15px] border-[0.71px] p-[1rem] hover:border-[0.71px] hover:border-[#F28F17]/60 md:block lg:p-[0.8rem] xl:p-5`}
                             >
                               <Image
                                 src={item?.icon}
