@@ -22,8 +22,8 @@ import upwork from '../../../../../public/assets/images/partner/upwork.svg';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const Banner = () => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.25);
   const router = useRouter();
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
   const users = [user, user_2, user_3, user_4, user_5];
   const griphData = [
     {
@@ -117,27 +117,20 @@ const Banner = () => {
         priority
         className="pointer-events-none object-cover"
       />
-
       <MaxWidthWrapper className="relative z-10 block justify-between pt-[3rem] lg:flex lg:pb-[6rem] lg:pt-[5rem]">
         <div
-          className={`w-[100%] space-y-5 transition-all duration-1000 ease-out lg:w-[45%] xl:w-[42%]`}
+          className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[42%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
         >
-          <div
-            className={`transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
-          >
-            <Heading
-              isH1={true}
-              subTitle={`Gain Visibility That Converts`}
-              title={`Result-Driven Digital Marketing Agency for Scalable Growth`}
-              span={''}
-              description={
-                'From Google searches to AI chats, we make sure your brand is visible to your customers wherever they look.'
-              }
-            />
-          </div>
-          <div
-            className={`flex justify-center transition-all delay-150 duration-700 lg:justify-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
-          >
+          <Heading
+            isH1={true}
+            subTitle={`Gain Visibility That Converts`}
+            title={`Result-Driven Digital Marketing Agency for Scalable Growth`}
+            span={''}
+            description={
+              'From Google searches to AI chats, we make sure your brand is visible to your customers wherever they look.'
+            }
+          />
+          <div className="flex justify-center lg:justify-start">
             <div className="relative flex h-[55px] justify-between">
               {users?.map((img, index) => {
                 const lastuser = users.length - 1 === index;
@@ -177,9 +170,7 @@ const Banner = () => {
               </span>
             </div>
           </div>
-          <div
-            className={`flex justify-center gap-3 transition-all delay-300 duration-700 lg:justify-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
-          >
+          <div className="flex justify-center gap-3 lg:justify-start">
             <a
               href="https://www.google.com/partners/agency?id=7775339798"
               target="_blank"
@@ -211,39 +202,31 @@ const Banner = () => {
             </a>
           </div>
 
-          <p
-            className={`text-center transition-all delay-500 duration-700 lg:text-left ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
-          >
+          <p className="text-center lg:text-left">
             Generate leads by 15% or more within your first 6 months with
             real-time data and expert insights. Our strategy ensures that your
             brand reaches the right people, produces measurable results, and
             effectively expands across digital channels.
           </p>
-          <div
-            className={`transition-all delay-700 duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
-          >
-            <SaveAndCancel
-              name={'Get a Quote'}
-              button2Name={'Explore Services'}
-              is2ndButton={true}
-              isIcon={true}
-              is2BgWhite={true}
-              buttonWidth={
-                'w-[14rem] 1360:w-[12rem] 1400:w-[13rem] 1600:w-[14rem] 3xl:w-[15rem]'
-              }
-              className="lg:pt-[1rem]"
-              handleClick={() => router.push('/contact')}
-              handleClick2={scrollToServices}
-            />
-          </div>
+          <SaveAndCancel
+            name={'Get a Quote'}
+            button2Name={'Explore Services'}
+            is2ndButton={true}
+            isIcon={true}
+            is2BgWhite={true}
+            buttonWidth={
+              'w-[14rem] 1360:w-[12rem] 1400:w-[13rem] 1600:w-[14rem] 3xl:w-[15rem]'
+            }
+            className="lg:pt-[1rem]"
+            handleClick={() => router.push('/contact')}
+            handleClick2={scrollToServices}
+          />
         </div>
         <div
-          className={`relative mt-[5rem] w-[100%] pt-[20vh] ease-out md:pt-[50vh] lg:mt-0 lg:w-[50%] lg:pt-0`}
+          className={`relative mt-[5rem] w-[100%] pt-[20vh] transition-all delay-200 duration-1000 md:pt-[50vh] lg:mt-0 lg:w-[50%] lg:pt-0 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-16 opacity-0'} `}
         >
           <div className="space-y-4">
-            <div
-              className={`absolute bottom-[10%] mt-auto flex w-[100%] justify-center transition-all delay-200 duration-700 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-16 opacity-0'}`}
-            >
+            <div className="absolute bottom-[10%] mt-auto flex w-[100%] justify-center">
               <div className="relative flex justify-end">
                 <Image
                   src={banner_img_1}
