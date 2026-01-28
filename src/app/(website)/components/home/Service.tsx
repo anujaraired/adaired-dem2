@@ -20,7 +20,7 @@ export interface ServiceItem {
   image?: StaticImageData; // ✅ OPTIONAL (important)
 }
 const Service = () => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.1);
   const router = useRouter();
   const { subtitle, title, span, description, services } = ServiceSectionData;
   const [hoveredTab, setHoveredTab] = useState<number | null>(null);
