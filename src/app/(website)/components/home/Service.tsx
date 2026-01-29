@@ -19,6 +19,7 @@ export interface ServiceItem {
   link: string;
   image?: StaticImageData; // ✅ OPTIONAL (important)
 }
+//test
 const Service = () => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.1);
   const router = useRouter();
