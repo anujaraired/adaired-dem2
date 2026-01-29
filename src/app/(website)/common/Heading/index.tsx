@@ -101,19 +101,20 @@ const Heading = ({
                     alt=""
                     className="mb-auto"
                   />
-                  <span className="my-auto font-montserrat text-[10px] font-normal uppercase text-[#000000] xl:text-[14px]">
+                  <span className={`my-auto font-montserrat text-[10px] font-normal uppercase ${isBgWhite ? 'text-[#111111]' : 'text-white'} xl:text-[14px]`}
+                  >
                     {subTitle}
                   </span>
                 </div>
                 <div className="mb-auto mt-3 h-0.5 w-[8rem] bg-[#D7EBFF]"></div>
-                <div className={`mt-[-1rem] ${headingWidth}`}>
+                <div className={` mt-[-1rem] ${headingWidth}`}>
                   {isH1 ? (
-                    <h1 className="capitalize">
+                    <h1 className={`capitalize `}>
                       {words.slice(0, breakIndex).join(' ')} <br />
                       {words.slice(breakIndex).join(' ')}
                     </h1>
                   ) : (
-                    <h2 className="capitalize">
+                    <h2 className={`capitalize  ${isBgWhite ? 'text-[#111111]' : 'text-white'}`}>
                       {words.slice(0, breakIndex).join(' ')} <br />
                       {words.slice(breakIndex).join(' ')}
                     </h2>
@@ -190,19 +191,20 @@ const Heading = ({
                     alt=""
                     className="mb-auto"
                   />
-                  <span className="my-auto font-montserrat text-[10px] font-normal uppercase text-[#000000] xl:text-[14px]">
+                  <span className={`my-auto font-montserrat text-[10px] font-normal uppercase xl:text-[14px] ${isBgWhite ? "text-[#000000]":"text-[#FFFFFF]"}`}>
                     {subTitle}
                   </span>
                   {/* <div className="mb-auto mt-3 h-0.5 w-24 bg-[#D7EBFF]"></div> */}
                 </div>
+
                 <div className="mt-[0.8rem] md:mt-[8px] lg:mt-[0.5rem]">
                   {isH1 ? (
-                    <h1 className="text-center capitalize lg:text-left">
+                    <h1 className={`text-center capitalize lg:text-left ${isBgWhite ? "text-[#000000]":"text-[#FFFFFF]"}`}>
                       {title} <br></br>
                       {span}
                     </h1>
                   ) : (
-                    <h2 className="text-center capitalize lg:text-left">
+                    <h2 className={`text-center capitalize lg:text-left ${isBgWhite ? "text-[#000000]":"text-[#FFFFFF]"}`}>
                       {title} <br></br>
                       {span}
                     </h2>
