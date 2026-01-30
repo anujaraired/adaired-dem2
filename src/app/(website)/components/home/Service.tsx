@@ -139,7 +139,7 @@ const Service = () => {
                 : '-translate-x-16 opacity-0'
             }`}
           >
-            <div className="sticky top-[15rem] h-[33rem] rounded-xl bg-white p-[1rem] xl:h-[35rem] xl:p-[2rem]">
+            <div className="sticky top-[8rem] h-[53rem] rounded-xl bg-white p-[1rem] xl:h-[50rem] xl:p-[2rem]">
               {services?.map((service, idx) => {
                 const isFirst = idx === 0;
                 const isLast = idx === services.length - 1;
@@ -171,7 +171,7 @@ const Service = () => {
                     >
                       <div className="flex w-full items-center justify-between gap-3 1360:gap-1">
                         <h3
-                          className={`my-auto text-[18px] leading-[1.35rem] font-medium 1360:text-[18px] 1600:text-[18px] 3xl:text-[18px] ${
+                          className={`my-auto text-[18px] font-medium leading-[1.35rem] 1360:text-[18px] 1600:text-[18px] 3xl:text-[18px] ${
                             activeTab === idx
                               ? 'text-[#ffffff]'
                               : 'text-[#000000]'
@@ -231,7 +231,7 @@ const Service = () => {
                             src={image ?? service.img}
                             fill
                             alt={service.title}
-                            className="object-fill"
+                            className="object-cover"
                             priority
                           />
                         </div>
