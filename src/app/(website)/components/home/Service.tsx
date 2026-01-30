@@ -140,7 +140,7 @@ const Service = () => {
                 : '-translate-x-16 opacity-0'
             }`}
           >
-            <div className="sticky top-[15rem] h-[33rem] rounded-xl bg-white p-[1rem] xl:h-[35rem] xl:p-[2rem]">
+            <div className="sticky top-[8rem] h-[53rem] rounded-xl bg-white p-[1rem] xl:h-[50rem] xl:p-[2rem]">
               {services?.map((service, idx) => {
                 const isFirst = idx === 0;
                 const isLast = idx === services.length - 1;
