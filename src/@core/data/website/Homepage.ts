@@ -680,7 +680,7 @@ export const ServiceSectionData = {
       title: 'Content Writing & Marketing',
       description:
         'Maximize ROI with precision PPC campaigns, combining AI-driven targeting, analytics, and optimization to efficiently generate qualified leads.',
-      link: '/services/compelling-content-marketing',
+      link: '/expert-content-solutions',
       list: [
         {
           icon: Content_Marketing_Icon_1,
@@ -688,7 +688,7 @@ export const ServiceSectionData = {
           label: 'Article Writing',
           title: 'Article Writing',
           description: `Maximize your online visibility and drive targeted traffic with our Google Ads management. We create, optimize, and monitor high-performing campaigns to increase leads, boost sales, and improve ROI. Our expert approach ensures your ads reach the right audience at the right time for measurable business growth.`,
-          link: '/services/compelling-content-marketing',
+          link: '/expert-content-solutions',
         },
         {
           icon: Content_Marketing_Icon_2,
@@ -696,7 +696,7 @@ export const ServiceSectionData = {
           label: 'Blog Writing',
           title: 'Blog Writing',
           description: `Grow your brand with targeted Meta Ads on Facebook and Instagram. We design, manage, and optimize campaigns that reach the right audience, boost engagement, and drive conversions. Our data-driven strategies maximize ROI, increase visibility, and help your business connect with customers where they spend the most time online.`,
-          link: '/services/compelling-content-marketing',
+          link: '/expert-content-solutions',
         },
         {
           icon: Content_Marketing_Icon_3,
@@ -704,7 +704,7 @@ export const ServiceSectionData = {
           label: 'Website Content',
           title: 'Website Content',
           description: `Reach the right professionals with targeted LinkedIn Ads. We create, manage, and optimize campaigns to generate leads, increase brand authority, and drive B2B growth. Our strategic approach ensures your ads engage decision-makers, maximize ROI, and strengthen your professional presence on the world’s leading business network.`,
-          link: '/services/compelling-content-marketing',
+          link: '/expert-content-solutions',
         },
         {
           icon: Content_Marketing_Icon_4,
@@ -712,7 +712,7 @@ export const ServiceSectionData = {
           label: 'eCommerce Content',
           title: 'eCommerce Content',
           description: `Capture attention and drive results with TikTok Ads. We create, manage, and optimize engaging campaigns that reach your target audience, boost brand awareness, and increase conversions. Our creative, data-driven approach ensures your content goes viral, maximizes ROI, and connects your business with a younger, trend-focused audience.`,
-          link: '/services/compelling-content-marketing',
+          link: '/expert-content-solutions',
         },
       ],
       mainSvg: 'Pay Per Click_pdGDn',
