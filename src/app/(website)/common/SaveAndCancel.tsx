@@ -1,3 +1,4 @@
+"use client"
 import { Button } from '@headlessui/react';
 import React, { useState } from 'react';
 import { IoIosArrowRoundForward } from 'react-icons/io';

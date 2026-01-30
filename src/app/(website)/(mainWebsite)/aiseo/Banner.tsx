@@ -1,6 +1,5 @@
 'use client';
 import React, { useEffect, useState } from 'react';
-import Heading from '../../common/Heading';
 import MaxWidthWrapper from '../../components/MaxWidthWrapper';
 import user from '../../../../../public/assets/review/Ellipse 30.png';
 import user_2 from '../../../../../public/assets/review/Ellipse 31.png';
@@ -8,8 +7,6 @@ import user_3 from '../../../../../public/assets/review/Ellipse 32.png';
 import user_4 from '../../../../../public/assets/review/Ellipse 33.png';
 import user_5 from '../../../../../public/assets/review/Ellipse 34.png';
 import Image from 'next/image';
-import { MdStarRate } from 'react-icons/md';
-import SaveAndCancel from '../../common/SaveAndCancel';
 import banner_img_1 from '../../../../../public/assets/images/home/banner_img_1.png';
 import banner_img_2 from '../../../../../public/assets/images/home/banner_img_2.png';
 import banner_img_3 from '../../../../../public/assets/images/home/banner_img_3.png';
@@ -18,15 +15,14 @@ import { useRouter } from 'next/navigation';
 import { FaUser } from 'react-icons/fa';
 import { FiArrowUpRight } from 'react-icons/fi';
 import { PiDotsThree } from 'react-icons/pi';
-import google from '../../../../../public/assets/images/partner/google.svg';
-import upwork from '../../../../../public/assets/images/partner/upwork.svg';
+import google_rate from '../../../../../public/google_rate.svg';
+import google_review from '../../../../../public/image 54.png';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import WebAuditField from '../../components/UI/WebAuditField';
 
 const Banner = () => {
   const router = useRouter();
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
-  const users = [user, user_2, user_3, user_4, user_5];
   const griphData = [
     {
       icon: <FaUser size={10} />,
@@ -98,14 +94,7 @@ const Banner = () => {
     }, 5200); // total cycle time
 
     return () => clearInterval(interval);
-  }, []);
-  const scrollToServices = () => {
-    const section = document.getElementById('services');
-    section?.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start',
-    });
-  };
+  }, [])
 
   return (
     <div
@@ -119,7 +108,7 @@ const Banner = () => {
         priority
         className="pointer-events-none object-cover"
       />
-      <MaxWidthWrapper className="relative z-10 block justify-between pt-[3rem] lg:flex lg:pb-[6rem] lg:pt-[5rem]">
+      <MaxWidthWrapper className="relative z-10 block justify-between pt-[3rem] lg:flex lg:pb-[6rem] lg:pt-[9rem]">
         <div
           className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[45%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
         >
@@ -139,7 +128,7 @@ const Banner = () => {
                 Future-ready SEO solutions by Adaired, designed to outrank and
                 outgrow
               </p>
-              <p className="py-4 text-center lg:text-left">
+              <p className="py-7 text-center lg:text-left">
                 Our strategies are designed to help your business outrank
                 competitors, attract more traffic, and achieve sustainable
                 growth. Experience smarter SEO that not only ranks but
@@ -150,7 +139,9 @@ const Banner = () => {
               </h3>
             </div>
           </div>
-          <WebAuditField />
+          <div>
+            <WebAuditField className={'my-[2rem]'} />
+          </div>
           <div className="flex justify-center gap-3 lg:justify-start">
             <a
               href="https://www.google.com/partners/agency?id=7775339798"
@@ -158,15 +149,15 @@ const Banner = () => {
               rel="noopener noreferrer"
             >
               <Image
-                src={google}
-                width={208}
-                height={32}
+                src={google_rate}
+                width={135}
+                height={58}
                 alt="Upwork"
-                className="h-[2rem] w-[8rem] cursor-pointer lg:w-[10rem] xl:w-[13rem]"
+                className="cursor-pointer"
               />
             </a>
 
-            <span className="my-auto text-lg text-[#000000]/20">|</span>
+            <div className="my-auto w-0.5 h-[3.5rem] mx-2 bg-[#000000]/20"></div>
 
             <a
               href="https://www.upwork.com/agencies/1064740584575918080/"
@@ -174,34 +165,14 @@ const Banner = () => {
               rel="noopener noreferrer"
             >
               <Image
-                src={upwork}
-                width={130}
-                height={39}
+                src={google_review}
+                width={150}
+                height={67}
                 alt="Google Reviews"
-                className="h-[2rem] w-[7rem] cursor-pointer xl:h-[2.438rem] xl:w-[8.125rem]"
+                className="cursor-pointer"
               />
             </a>
           </div>
-
-          <p className="text-center lg:text-left">
-            Generate leads by 15% or more within your first 6 months with
-            real-time data and expert insights. Our strategy ensures that your
-            brand reaches the right people, produces measurable results, and
-            effectively expands across digital channels.
-          </p>
-          <SaveAndCancel
-            name={'Get a Quote'}
-            button2Name={'Explore Services'}
-            is2ndButton={true}
-            isIcon={true}
-            is2BgWhite={true}
-            buttonWidth={
-              'w-[14rem] 1360:w-[12rem] 1400:w-[13rem] 1600:w-[14rem] 3xl:w-[15rem]'
-            }
-            className="lg:pt-[1rem]"
-            handleClick={() => router.push('/contact')}
-            handleClick2={scrollToServices}
-          />
         </div>
         <div
           className={`relative mt-[5rem] w-[100%] pt-[20vh] transition-all delay-200 duration-1000 md:pt-[50vh] lg:mt-0 lg:w-[45%] lg:pt-0 xl:w-[45%] ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-16 opacity-0'} `}

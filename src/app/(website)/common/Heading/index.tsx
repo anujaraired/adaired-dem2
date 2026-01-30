@@ -197,12 +197,12 @@ const Heading = ({
                 </div>
                 <div className="mt-[0.8rem] md:mt-[8px] lg:mt-[0.5rem]">
                   {isH1 ? (
-                    <h1 className="text-center capitalize lg:text-left">
+                    <h1 className={`text-center capitalize lg:text-left ${isBgWhite ? "text-[#ffffff]":"text-[#000000]"}`}>
                       {title} <br></br>
                       {span}
                     </h1>
                   ) : (
-                    <h2 className="text-center capitalize lg:text-left">
+                    <h2 className={`text-center capitalize lg:text-left ${isBgWhite ? "text-[#ffffff]":"text-[#000000]"}`}>
                       {title} <br></br>
                       {span}
                     </h2>
