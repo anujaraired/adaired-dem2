@@ -499,7 +499,7 @@ export const ServiceSectionData = {
           label: 'Local SEO',
           title: 'Local SEO',
           description: `At Adaired, we craft strategic content designed to educate, engage, and convert audiences effectively. From blogs and web pages to compelling marketing copy, our content writing services enhance brand voice, boost search performance, build credibility, and support long-term digital growth through clear, consistent, and results-driven messaging.`,
-          link: '/services/compelling-content-marketing',
+          link: '/services/local-seo',
         },
         {
           icon: smm,
@@ -507,7 +507,7 @@ export const ServiceSectionData = {
           label: 'eCommerce SEO',
           title: 'eCommerce SEO',
           description: `We offer strategic social media management services that build brand presence, engages audiences, and drives growth. From content creation and scheduling to community management and performance tracking, our services help brands connect authentically, increase visibility, and achieve consistent results across all major social platforms.`,
-          link: '/services/strategic-social-media-management',
+          link: '/services/local-seo',
         },
       ],
       mainSvg: 'Search Engine Optimization_eyQDn',
@@ -542,7 +542,7 @@ export const ServiceSectionData = {
           label: 'Niche Edits',
           title: 'Niche Edits',
           description: `At Adaired, we craft strategic content designed to educate, engage, and convert audiences effectively. From blogs and web pages to compelling marketing copy, our content writing services enhance brand voice, boost search performance, build credibility, and support long-term digital growth through clear, consistent, and results-driven messaging.`,
-          link: '/services/compelling-content-marketing',
+          link: '/services/search-engine-optimization',
         },
         {
           icon: smm,
@@ -550,7 +550,7 @@ export const ServiceSectionData = {
           label: 'Press Releases',
           title: 'Press Releases',
           description: `We offer strategic social media management services that build brand presence, engages audiences, and drives growth. From content creation and scheduling to community management and performance tracking, our services help brands connect authentically, increase visibility, and achieve consistent results across all major social platforms.`,
-          link: '/services/strategic-social-media-management',
+          link: '/services/search-engine-optimization',
         },
       ],
       mainSvg: 'Search Engine Optimization_eyQDn',
@@ -648,7 +648,7 @@ export const ServiceSectionData = {
       title: 'Content Writing & Marketing',
       description:
         'Maximize ROI with precision PPC campaigns, combining AI-driven targeting, analytics, and optimization to efficiently generate qualified leads.',
-      link: '/services/paid-media-and-advertising',
+      link: '/services/compelling-content-marketing',
       list: [
         {
           icon: GoogleAds,
@@ -656,7 +656,7 @@ export const ServiceSectionData = {
           label: 'Article Writing',
           title: 'Article Writing',
           description: `Maximize your online visibility and drive targeted traffic with our Google Ads management. We create, optimize, and monitor high-performing campaigns to increase leads, boost sales, and improve ROI. Our expert approach ensures your ads reach the right audience at the right time for measurable business growth.`,
-          link: '/services/paid-media-and-advertising',
+          link: '/services/compelling-content-marketing',
         },
         {
           icon: TikTokAds,
@@ -664,7 +664,7 @@ export const ServiceSectionData = {
           label: 'Blog Writing',
           title: 'Blog Writing',
           description: `Grow your brand with targeted Meta Ads on Facebook and Instagram. We design, manage, and optimize campaigns that reach the right audience, boost engagement, and drive conversions. Our data-driven strategies maximize ROI, increase visibility, and help your business connect with customers where they spend the most time online.`,
-          link: '/services/paid-media-and-advertising',
+          link: '/services/compelling-content-marketing',
         },
         {
           icon: LinkedInAds,
@@ -672,7 +672,7 @@ export const ServiceSectionData = {
           label: 'Website Content',
           title: 'Website Content',
           description: `Reach the right professionals with targeted LinkedIn Ads. We create, manage, and optimize campaigns to generate leads, increase brand authority, and drive B2B growth. Our strategic approach ensures your ads engage decision-makers, maximize ROI, and strengthen your professional presence on the world’s leading business network.`,
-          link: '/services/paid-media-and-advertising',
+          link: '/services/compelling-content-marketing',
         },
         {
           icon: Insta_Ads,
@@ -680,7 +680,7 @@ export const ServiceSectionData = {
           label: 'eCommerce Content',
           title: 'eCommerce Content',
           description: `Capture attention and drive results with TikTok Ads. We create, manage, and optimize engaging campaigns that reach your target audience, boost brand awareness, and increase conversions. Our creative, data-driven approach ensures your content goes viral, maximizes ROI, and connects your business with a younger, trend-focused audience.`,
-          link: '/services/paid-media-and-advertising',
+          link: '/services/compelling-content-marketing',
         },
       ],
       mainSvg: 'Pay Per Click_pdGDn',
@@ -691,7 +691,7 @@ export const ServiceSectionData = {
       title: 'Social Media Marketing',
       description:
         'Maximize ROI with precision PPC campaigns, combining AI-driven targeting, analytics, and optimization to efficiently generate qualified leads.',
-      link: '/services/paid-media-and-advertising',
+      link: '/services/strategic-social-media-management',
       list: [
         {
           icon: GoogleAds,
@@ -699,7 +699,7 @@ export const ServiceSectionData = {
           label: 'Social Media Management',
           title: 'Social Media Management',
           description: `Maximize your online visibility and drive targeted traffic with our Google Ads management. We create, optimize, and monitor high-performing campaigns to increase leads, boost sales, and improve ROI. Our expert approach ensures your ads reach the right audience at the right time for measurable business growth.`,
-          link: '/services/paid-media-and-advertising',
+          link: '/services/strategic-social-media-management',
         },
         {
           icon: TikTokAds,
@@ -707,7 +707,7 @@ export const ServiceSectionData = {
           label: 'Social Media Marketing',
           title: 'Social Media Marketing',
           description: `Grow your brand with targeted Meta Ads on Facebook and Instagram. We design, manage, and optimize campaigns that reach the right audience, boost engagement, and drive conversions. Our data-driven strategies maximize ROI, increase visibility, and help your business connect with customers where they spend the most time online.`,
-          link: '/services/paid-media-and-advertising',
+          link: '/services/social-media-marketing',
         },
         // {
         //   icon: LinkedInAds,
