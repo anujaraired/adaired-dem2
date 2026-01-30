@@ -140,7 +140,7 @@ const Service = () => {
                 : '-translate-x-16 opacity-0'
             }`}
           >
-            <div className="sticky top-[8rem] h-[53rem] rounded-xl bg-white p-[1rem] xl:h-[50rem] xl:p-[2rem]">
+            <div className="sticky top-[12rem] h-[43rem] rounded-xl bg-[#FFFFFF] p-[1rem] xl:h-[42rem] xl:p-[2rem]">
               {services?.map((service, idx) => {
                 const isFirst = idx === 0;
                 const isLast = idx === services.length - 1;
@@ -160,7 +160,7 @@ const Service = () => {
                     <div
                       onMouseEnter={() => setHoveredTab(idx)}
                       onMouseLeave={() => setHoveredTab(null)}
-                      className={`my-[1rem] flex h-[4rem] w-full cursor-pointer items-center rounded-full border px-[1.5rem] transition-all duration-300 ease-out hover:translate-y-[-2px] 1360:h-[3.125rem] 1400:h-[4rem] ${
+                      className={`mb-[0.75rem] flex h-[3rem] w-full cursor-pointer items-center rounded-full border pl-[1.5rem] pr-[1rem] transition-all duration-300 ease-out hover:translate-y-[-2px] 1360:h-[3.125rem] 1400:h-[3.6rem] ${
                         activeTab === idx
                           ? 'bg-[#FB9100] text-white'
                           : 'bg-[#F5F5F5]'

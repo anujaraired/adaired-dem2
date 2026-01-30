@@ -8,7 +8,7 @@ import Dedicated from '../../../../public/assets/icons/Dedicated_1.svg';
 import customer from '../../../../public/assets/icons/customer.svg';
 import goal from '../../../../public/assets/icons/goal.png';
 import Web_Design from '../../../../public/assets/images/service/Web Design & Development.png';
-import Digital_Creative from '../../../../public/assets/images/service/Paid Media & Advertising.png';
+import Digital_Creative from '../../../../public/assets/images/service/New/PayPerClick.svg';
 import seo2 from '../../../../public/assets/icons/service/seo_Img.png';
 
 //services images
@@ -17,8 +17,8 @@ import seo2 from '../../../../public/assets/icons/service/seo_Img.png';
 // import Content from '../../../../public/assets/images/service/Content.png';
 // import SMM from '../../../../public/assets/images/service/AI_SEO.png';
 import SEO from '../../../../public/assets/images/service/New/SEO.png';
-import AI_SEO from '../../../../public/assets/images/service/New/AI SEO.png';
-import Content from '../../../../public/assets/images/service/New/Content writing.png';
+import AI_SEO from '../../../../public/assets/images/service/New/AISEO.svg';
+import Content from '../../../../public/assets/images/service/New/Contentwriting.svg';
 import SMM from '../../../../public/assets/images/service/New/Social Media.png';
 
 import GBP_1 from '../../../../public/assets/images/service/GBP_1.png';
@@ -26,7 +26,7 @@ import GBP_2 from '../../../../public/assets/images/service/GBP_3.png';
 import GBP_3 from '../../../../public/assets/images/service/GBP_2.png';
 import GBP_4 from '../../../../public/assets/images/service/GBP_4.png';
 
-import Ad_1 from '../../../../public/assets/images/service/Ad_1.png';
+import Ad_1 from '../../../../public/assets/images/service/New/GoogleAds.svg';
 import Ad_2 from '../../../../public/assets/images/service/Ad_2.png';
 import Ad_3 from '../../../../public/assets/images/service/Ad_3.png';
 import Ad_4 from '../../../../public/assets/images/service/Ad_4.png';
@@ -479,7 +479,7 @@ export const ServiceSectionData = {
       list: [
         {
           icon: seo,
-          image: SEO,
+          image: digital_marketing,
           label: 'SEO',
           title: 'SEO',
           description: `We provide Search Engine Optimization services that are aimed at increasing the presence online and driving meaningful engagement. We combine smart keyword targeting, technical optimization, and credible content to make your business achieve consistent rankings and sustainable organic growth.`,
@@ -687,7 +687,7 @@ export const ServiceSectionData = {
       img: Content,
       accentColor: '#d71a1a',
     },
-        {
+    {
       title: 'Social Media Marketing',
       description:
         'Maximize ROI with precision PPC campaigns, combining AI-driven targeting, analytics, and optimization to efficiently generate qualified leads.',
