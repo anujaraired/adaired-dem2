@@ -11,15 +11,42 @@ import Web_Design from '../../../../public/assets/images/service/Web Design & De
 import Digital_Creative from '../../../../public/assets/images/service/New/PayPerClick.svg';
 import seo2 from '../../../../public/assets/icons/service/seo_Img.png';
 
-//services images
-// import SEO from '../../../../public/assets/images/service/SEO.png';
-// import AI_SEO from '../../../../public/assets/images/service/SSM.png';
-// import Content from '../../../../public/assets/images/service/Content.png';
-// import SMM from '../../../../public/assets/images/service/AI_SEO.png';
-import SEO from '../../../../public/assets/images/service/New/SEO.png';
+//seo images & icons
+import SEO from '../../../../public/assets/images/service/New/SEO.svg';
 import AI_SEO from '../../../../public/assets/images/service/New/AISEO.svg';
-import Content from '../../../../public/assets/images/service/New/Contentwriting.svg';
+import LOCAL_SEO from '../../../../public/assets/images/service/New/Local SEO.svg';
+import E_Comerce_SEO from '../../../../public/assets/images/service/New/E commerce SEO (1).svg';
+import SEO_1 from '../../../../public/assets/icons/service/seo.png';
+import SEO_2 from '../../../../public/assets/icons/service/ai_seo.png';
+import SEO_3 from '../../../../public/assets/icons/service/local-seo.svg';
+import SEO_4 from '../../../../public/assets/icons/service/E commerce seo.svg';
+
+//linkbuilding images & icons
+import Link_Building from '../../../../public/assets/images/service/New/SEO.svg';
+import Link_Building_2 from '../../../../public/assets/images/service/New/SEO.svg';
+import Link_Building_3 from '../../../../public/assets/images/service/New/SEO.svg';
+import Link_Building_4 from '../../../../public/assets/images/service/New/SEO.svg';
+import Link_Building_Icon_1 from '../../../../public/assets/icons/service/high authority links.svg';
+import Link_Building_Icon_2 from '../../../../public/assets/icons/service/Guest post.svg';
+import Link_Building_Icon_3 from '../../../../public/assets/icons/service/Niche edits.svg';
+import Link_Building_Icon_4 from '../../../../public/assets/icons/service/press-release 1.svg';
+
+//linkbuilding images & icons
+import Content_Marketing from '../../../../public/assets/images/service/New/SEO_NEW_IMG.svg';
+import Content_Marketing_2 from '../../../../public/assets/images/service/New/AISEO.svg';
+import Content_Marketing_Icon_1 from '../../../../public/assets/icons/service/e_comerse.svg';
+import Content_Marketing_Icon_2 from '../../../../public/assets/icons/service/blogwriting.svg';
+import Content_Marketing_Icon_3 from '../../../../public/assets/icons/service/website content.svg';
+import Content_Marketing_Icon_4 from '../../../../public/assets/icons/service/e commerce content.svg';
+
+//SSM images & icons
 import SMM from '../../../../public/assets/images/service/New/Social Media.png';
+import SMM_1 from '../../../../public/assets/images/service/New/Social Media.png';
+import SMM_2 from '../../../../public/assets/images/service/New/Social Media.png';
+import SMM_Icon_1 from '../../../../public/assets/icons/service/social-media-management.svg';
+import SMM_Icon_2 from '../../../../public/assets/icons/service/Social_Media_Marketing.svg';
+import SMM_Icon_3 from '../../../../public/assets/icons/service/Niche edits.svg';
+import SMM_Icon_4 from '../../../../public/assets/icons/service/press-release 1.svg';
 
 import GBP_1 from '../../../../public/assets/images/service/GBP_1.png';
 import GBP_2 from '../../../../public/assets/images/service/GBP_3.png';
@@ -27,9 +54,16 @@ import GBP_3 from '../../../../public/assets/images/service/GBP_2.png';
 import GBP_4 from '../../../../public/assets/images/service/GBP_4.png';
 
 import Ad_1 from '../../../../public/assets/images/service/New/GoogleAds.svg';
-import Ad_2 from '../../../../public/assets/images/service/Ad_2.png';
+import Ad_2 from '../../../../public/assets/images/service/New/Meta Ads.svg';
 import Ad_3 from '../../../../public/assets/images/service/Ad_3.png';
 import Ad_4 from '../../../../public/assets/images/service/Ad_4.png';
+
+//Content Writing & Marketing
+import Content from '../../../../public/assets/images/service/New/Contentwriting.svg';
+import content_marketing_1 from '../../../../public/assets/images/service/New/Contentwriting.svg';
+import content_marketing_2 from '../../../../public/assets/images/service/New/Contentwriting.svg';
+import content_marketing_3 from '../../../../public/assets/images/service/New/Contentwriting.svg';
+import content_marketing_4 from '../../../../public/assets/images/service/New/Contentwriting.svg';
 
 import web_1 from '../../../../public/assets/images/service/web_1.png';
 import web_2 from '../../../../public/assets/images/service/web_2.png';
@@ -52,7 +86,6 @@ import app_2 from '../../../../public/assets/icons/service/app_2.png';
 import app_3 from '../../../../public/assets/icons/service/app_3.png';
 import app_4 from '../../../../public/assets/icons/service/app_4.png';
 import seo from '../../../../public/assets/icons/service/seo.png';
-import ai_seo from '../../../../public/assets/icons/service/ai_seo.png';
 import content from '../../../../public/assets/icons/service/content.png';
 import smm from '../../../../public/assets/icons/service/smm.png';
 import Insta_Ads from '../../../../public/assets/icons/service/Insta_Ads.png';
@@ -68,7 +101,6 @@ import TikTokAds from '../../../../public/assets/icons/service/TikTokAds.png';
 import LinkedInAds from '../../../../public/assets/icons/service/LinkedInAds.png';
 // import digital_marketing from '../../../../public/assets/images/service/digital_marketing.png';
 // import digital_marketing from '../../../../public/assets/images/service/New/Digital Marketing.png';
-import digital_marketing from '../../../../public/assets/images/service/New/SEO_NEW_IMG.svg';
 
 import google_business from '../../../../public/assets/images/service/google_business.png';
 import App_development from '../../../../public/assets/images/service/App_development.png';
@@ -478,15 +510,15 @@ export const ServiceSectionData = {
         'We use AI-driven insights, advanced SEO, and result-driven strategies to boost brand reach, improve search rankings, and drive conversions.',
       list: [
         {
-          icon: seo,
-          image: digital_marketing,
+          icon: SEO_1,
+          image: SEO,
           label: 'SEO',
           title: 'SEO',
           description: `We provide Search Engine Optimization services that are aimed at increasing the presence online and driving meaningful engagement. We combine smart keyword targeting, technical optimization, and credible content to make your business achieve consistent rankings and sustainable organic growth.`,
           link: '/services/search-engine-optimization',
         },
         {
-          icon: ai_seo,
+          icon: SEO_2,
           image: AI_SEO,
           label: 'AI SEO',
           title: 'AI SEO',
@@ -494,16 +526,16 @@ export const ServiceSectionData = {
           link: '/services/search-engine-optimization',
         },
         {
-          icon: content,
-          image: Content,
+          icon: SEO_3,
+          image: LOCAL_SEO,
           label: 'Local SEO',
           title: 'Local SEO',
           description: `At Adaired, we craft strategic content designed to educate, engage, and convert audiences effectively. From blogs and web pages to compelling marketing copy, our content writing services enhance brand voice, boost search performance, build credibility, and support long-term digital growth through clear, consistent, and results-driven messaging.`,
           link: '/services/local-seo',
         },
         {
-          icon: smm,
-          image: SMM,
+          icon: SEO_4,
+          image: E_Comerce_SEO,
           label: 'eCommerce SEO',
           title: 'eCommerce SEO',
           description: `We offer strategic social media management services that build brand presence, engages audiences, and drives growth. From content creation and scheduling to community management and performance tracking, our services help brands connect authentically, increase visibility, and achieve consistent results across all major social platforms.`,
@@ -511,7 +543,7 @@ export const ServiceSectionData = {
         },
       ],
       mainSvg: 'Search Engine Optimization_eyQDn',
-      img: digital_marketing,
+      img: SEO,
       accentColor: '#f89520',
       link: '/services/search-engine-optimization',
     },
@@ -521,32 +553,32 @@ export const ServiceSectionData = {
         'We use AI-driven insights, advanced SEO, and result-driven strategies to boost brand reach, improve search rankings, and drive conversions.',
       list: [
         {
-          icon: seo,
-          image: SEO,
+          icon: Link_Building_Icon_1,
+          image: Link_Building,
           label: 'High Authority Links',
           title: 'High Authority Links',
           description: `We provide Search Engine Optimization services that are aimed at increasing the presence online and driving meaningful engagement. We combine smart keyword targeting, technical optimization, and credible content to make your business achieve consistent rankings and sustainable organic growth.`,
           link: '/services/search-engine-optimization',
         },
         {
-          icon: ai_seo,
-          image: AI_SEO,
+          icon: Link_Building_Icon_2,
+          image: Link_Building_2,
           label: 'Guest Posts',
           title: 'Guest Posts',
           description: `Our AI SEO solutions leverage artificial intelligence to analyze search behavior, optimize content, and improve rankings with precision. We use data-driven insights, automation, and predictive strategies to enhance visibility, target intent-driven keywords, and deliver measurable SEO performance.`,
           link: '/services/search-engine-optimization',
         },
         {
-          icon: content,
-          image: Content,
+          icon: Link_Building_Icon_3,
+          image: Link_Building_3,
           label: 'Niche Edits',
           title: 'Niche Edits',
           description: `At Adaired, we craft strategic content designed to educate, engage, and convert audiences effectively. From blogs and web pages to compelling marketing copy, our content writing services enhance brand voice, boost search performance, build credibility, and support long-term digital growth through clear, consistent, and results-driven messaging.`,
           link: '/services/search-engine-optimization',
         },
         {
-          icon: smm,
-          image: SMM,
+          icon: Link_Building_Icon_4,
+          image: Link_Building_4,
           label: 'Press Releases',
           title: 'Press Releases',
           description: `We offer strategic social media management services that build brand presence, engages audiences, and drives growth. From content creation and scheduling to community management and performance tracking, our services help brands connect authentically, increase visibility, and achieve consistent results across all major social platforms.`,
@@ -554,7 +586,7 @@ export const ServiceSectionData = {
         },
       ],
       mainSvg: 'Search Engine Optimization_eyQDn',
-      img: digital_marketing,
+      img: SEO,
       accentColor: '#f89520',
       link: '/services/search-engine-optimization',
     },
@@ -651,32 +683,32 @@ export const ServiceSectionData = {
       link: '/services/compelling-content-marketing',
       list: [
         {
-          icon: GoogleAds,
-          image: Ad_1,
+          icon: Content_Marketing_Icon_1,
+          image: content_marketing_1,
           label: 'Article Writing',
           title: 'Article Writing',
           description: `Maximize your online visibility and drive targeted traffic with our Google Ads management. We create, optimize, and monitor high-performing campaigns to increase leads, boost sales, and improve ROI. Our expert approach ensures your ads reach the right audience at the right time for measurable business growth.`,
           link: '/services/compelling-content-marketing',
         },
         {
-          icon: TikTokAds,
-          image: Ad_2,
+          icon: Content_Marketing_Icon_2,
+          image: content_marketing_2,
           label: 'Blog Writing',
           title: 'Blog Writing',
           description: `Grow your brand with targeted Meta Ads on Facebook and Instagram. We design, manage, and optimize campaigns that reach the right audience, boost engagement, and drive conversions. Our data-driven strategies maximize ROI, increase visibility, and help your business connect with customers where they spend the most time online.`,
           link: '/services/compelling-content-marketing',
         },
         {
-          icon: LinkedInAds,
-          image: Ad_3,
+          icon: Content_Marketing_Icon_3,
+          image: content_marketing_3,
           label: 'Website Content',
           title: 'Website Content',
           description: `Reach the right professionals with targeted LinkedIn Ads. We create, manage, and optimize campaigns to generate leads, increase brand authority, and drive B2B growth. Our strategic approach ensures your ads engage decision-makers, maximize ROI, and strengthen your professional presence on the world’s leading business network.`,
           link: '/services/compelling-content-marketing',
         },
         {
-          icon: Insta_Ads,
-          image: Ad_4,
+          icon: Content_Marketing_Icon_4,
+          image: content_marketing_4,
           label: 'eCommerce Content',
           title: 'eCommerce Content',
           description: `Capture attention and drive results with TikTok Ads. We create, manage, and optimize engaging campaigns that reach your target audience, boost brand awareness, and increase conversions. Our creative, data-driven approach ensures your content goes viral, maximizes ROI, and connects your business with a younger, trend-focused audience.`,
@@ -694,16 +726,16 @@ export const ServiceSectionData = {
       link: '/services/strategic-social-media-management',
       list: [
         {
-          icon: GoogleAds,
-          image: Ad_1,
+          icon: SMM_Icon_1,
+          image: SMM_1,
           label: 'Social Media Management',
           title: 'Social Media Management',
           description: `Maximize your online visibility and drive targeted traffic with our Google Ads management. We create, optimize, and monitor high-performing campaigns to increase leads, boost sales, and improve ROI. Our expert approach ensures your ads reach the right audience at the right time for measurable business growth.`,
           link: '/services/strategic-social-media-management',
         },
         {
-          icon: TikTokAds,
-          image: Ad_2,
+          icon: SMM_Icon_2,
+          image: SMM_2,
           label: 'Social Media Marketing',
           title: 'Social Media Marketing',
           description: `Grow your brand with targeted Meta Ads on Facebook and Instagram. We design, manage, and optimize campaigns that reach the right audience, boost engagement, and drive conversions. Our data-driven strategies maximize ROI, increase visibility, and help your business connect with customers where they spend the most time online.`,
