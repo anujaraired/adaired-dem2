@@ -1,24 +1,19 @@
 'use client';
 import React, { useEffect, useState } from 'react';
-import MaxWidthWrapper from '../../components/MaxWidthWrapper';
-import user from '../../../../../public/assets/review/Ellipse 30.png';
-import user_2 from '../../../../../public/assets/review/Ellipse 31.png';
-import user_3 from '../../../../../public/assets/review/Ellipse 32.png';
-import user_4 from '../../../../../public/assets/review/Ellipse 33.png';
-import user_5 from '../../../../../public/assets/review/Ellipse 34.png';
+import MaxWidthWrapper from '../../../components/MaxWidthWrapper';
 import Image from 'next/image';
-import banner_img_1 from '../../../../../public/assets/images/home/banner_img_1.png';
-import banner_img_2 from '../../../../../public/assets/images/home/banner_img_2.png';
-import banner_img_3 from '../../../../../public/assets/images/home/banner_img_3.png';
-import hero_banner from '../../../../../public/assets/images/home/hero_banner-bg.png';
+import banner_img_1 from '../../../../../../public/assets/images/home/banner_img_1.png';
+import banner_img_2 from '../../../../../../public/assets/images/home/banner_img_2.png';
+import banner_img_3 from '../../../../../../public/assets/images/home/banner_img_3.png';
+import hero_banner from '../../../../../../public/assets/images/home/hero_banner-bg.png';
 import { useRouter } from 'next/navigation';
 import { FaUser } from 'react-icons/fa';
 import { FiArrowUpRight } from 'react-icons/fi';
 import { PiDotsThree } from 'react-icons/pi';
-import google_rate from '../../../../../public/google_rate.svg';
-import google_review from '../../../../../public/image 54.png';
+import google_rate from '../../../../../../public/google_rate.svg';
+import google_review from '../../../../../../public/image 54.png';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
-import WebAuditField from '../../components/UI/WebAuditField';
+import WebAuditField from '../../../components/UI/WebAuditField';
 
 const Banner = () => {
   const router = useRouter();
@@ -94,7 +89,7 @@ const Banner = () => {
     }, 5200); // total cycle time
 
     return () => clearInterval(interval);
-  }, [])
+  }, []);
 
   return (
     <div
@@ -157,7 +152,7 @@ const Banner = () => {
               />
             </a>
 
-            <div className="my-auto w-0.5 h-[3.5rem] mx-2 bg-[#000000]/20"></div>
+            <div className="mx-2 my-auto h-[3.5rem] w-0.5 bg-[#000000]/20"></div>
 
             <a
               href="https://www.upwork.com/agencies/1064740584575918080/"

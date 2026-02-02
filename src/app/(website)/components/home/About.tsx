@@ -9,6 +9,7 @@ import about_graph from '../../../../../public/assets/images/home/about_graph.pn
 import Mask from '../../../../../public/assets/images/home/Mask group.png';
 import check from '../../../../../public/assets/icons/blue_check.png';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
+import { tree } from 'next/dist/build/templates/app-page';
 
 const About = () => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
@@ -27,12 +28,12 @@ const About = () => {
             <div
               // ref={imageRef}
               // className={`mt-0 flex items-center justify-center p-3 md:mt-0 lg:mt-[2rem] xl:mt-0 1400:mt-[2rem] 1440:mt-[2rem] 1600:mt-[2rem] 1710:mt-0 ${'imageClass'}`}
-              className={`mt-0 flex items-center justify-center p-3 md:mt-0 lg:mt-[2rem] xl:mt-0 1400:mt-[2rem] 1440:mt-[2rem] 1600:mt-[2rem] 1710:mt-0 flex items-center justify-center p-3 transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} `}
+              className={`mt-0 flex items-center justify-center p-3 transition-all duration-1000 md:mt-0 lg:mt-[2rem] xl:mt-0 1400:mt-[2rem] 1440:mt-[2rem] 1600:mt-[2rem] 1710:mt-0 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} `}
             >
               <Image
                 src={img}
                 alt="About Image"
-                className="block h-[14rem] w-[14rem] rounded-lg md:h-[34.625rem] md:w-[36.313rem] lg:h-[20.625rem] lg:w-[20.313rem] xl:h-[34.625rem] xl:w-[36.313rem] 1360:mt-[2rem] 1360:h-[20rem] 1360:w-[22rem] 1400:mt-[2rem] 1400:hidden 1400:h-[23rem] 1400:w-[23rem] 1470:hidden 1470:w-[25rem] 1600:mt-[2rem] 1600:hidden 1600:h-[37rem] 1600:w-[30rem] 1680:mt-[2rem] 1680:hidden 1680:h-[37rem] 1680:w-[31.5rem] 1710:block 1710:w-[32rem] 3xl:h-[38rem] 3xl:w-[36.313rem]"
+                className="block h-[14rem] w-[14rem] rounded-lg md:h-[34.625rem] md:w-[36.313rem] lg:h-[20.625rem] lg:w-[20.313rem] xl:h-[34.625rem] xl:w-[36.313rem] 1360:mt-[2rem] 1360:h-[20rem] 1360:w-[22rem] 1400:mt-[2rem] 1400:hidden 1400:h-[23rem] 1400:w-[23rem] 1470:hidden 1470:w-[25rem] 1600:mt-[2rem] 1600:hidden 1600:h-[37rem] 1600:w-[30rem] 1680:mt-[2rem] 1680:hidden 1680:h-[37rem] 1680:w-[31.5rem] 1710:block 1710:h-[37.5rem] 1710:w-[32rem] 3xl:h-[38rem] 3xl:w-[36.313rem]"
               />
               <Image
                 src={img_700}
@@ -92,6 +93,7 @@ const About = () => {
           >
             {/* Points Section */}
             <Heading
+              isLabel={true}
               subTitle={subTitle}
               title={title}
               span=""

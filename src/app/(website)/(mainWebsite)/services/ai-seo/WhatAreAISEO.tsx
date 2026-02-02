@@ -3,7 +3,7 @@ import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import React from 'react';
 import { AISEO } from './data';
 import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
-import what_are_ai_seo from '../../../../public/assets/images/what_are_ai_seo.png';
+import what_are_ai_seo from '../../../../../../public/assets/images/what_are_ai_seo.png';
 import Image from 'next/image';
 const WhatAreAISEO = () => {
   const { whatareaiseo } = AISEO;

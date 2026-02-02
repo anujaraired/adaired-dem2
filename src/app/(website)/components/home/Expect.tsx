@@ -18,6 +18,7 @@ const Expect = () => {
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
         >
           <Heading
+            isLabel={true}
             isDecVarticle={true}
             subTitle={subTitle}
             title={title}
@@ -30,7 +31,7 @@ const Expect = () => {
           {/* Content Section */}
           <div
             ref={ref}
-            className={`relative h-[20rem] w-full lg:h-[34rem] xl:h-[660px] 1360:h-[550px] 1400:h-[550px] 1470:h-[600px] 1600:h-[575px] 1680:h-[550px] 3xl:h-[600px] ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
+            className={`w-[25rem relative h-[20rem] 1360:h-[550px] 1400:h-[550px] 1400:w-[35rem] 1470:h-[600px] 1600:h-[575px] 1600:w-[40rem] 1680:h-[550px] 1710:w-[43rem] 3xl:h-[600px] 3xl:w-[48rem] ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
           >
             <Image
               src={expectImg}
