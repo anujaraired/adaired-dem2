@@ -6,6 +6,14 @@ import meke_derefent from '../../../../../../public/assets/aiseo/make_deferent.p
 import meke_derefent_2 from '../../../../../../public/assets/aiseo/make_deferent_1.png';
 import meke_derefent_3 from '../../../../../../public/assets/aiseo/make_deferent_2.png';
 import meke_derefent_4 from '../../../../../../public/assets/aiseo/make_deferent_3.png';
+
+import step from '../../../../../../public/assets/aiseo/process/Group 1000005845.svg';
+import step_2 from '../../../../../../public/assets/aiseo/process/Group 1000005846.svg';
+import step_3 from '../../../../../../public/assets/aiseo/process/Group 1000005847.svg';
+import step_4 from '../../../../../../public/assets/aiseo/process/Group 1000005848.svg';
+import step_5 from '../../../../../../public/assets/aiseo/process/Group 1000005849.svg';
+import step_6 from '../../../../../../public/assets/aiseo/process/Group 1000005850.svg';
+
 export const AISEO = {
   keyStats: {
     heading: 'Key Stats Related to AI SEO',
@@ -208,6 +216,54 @@ export const AISEO = {
         description: [
           'Adaired believes in honest communication. We provide simple, easy-to-follow reports that reveal what is working and what is not.  ',
           `With AI-powered tracking and clear insights, you always know how SEO is impacting your business and where your growth is coming from.`,
+        ],
+      },
+    ],
+  },
+  ourProcess: {
+    subtitle: 'Our Process',
+    title: 'Our Comprehensive AI Process to Make Your Brand Stand Out',
+    span: '',
+    description: `Our success-driven digital marketing services integrate AI-enhanced SEO, advanced analytics, and conversion-focused strategies to strengthen brand presence, improve search performance, and accelerate measurable business growth.`,
+    services: [
+      {
+        icon: step,
+        title: 'STEP 1: GEO Discovery & Audit',
+        description: [
+          `We examine how AI models perceive your brand, including search appearances, indexing, and content structure, to create a comprehensive AI search presence overview.  `,
+          `This audit identifies opportunities, gaps, and actionable insights to help your brand become more discoverable, trustworthy, and authoritative on multiple AI-powered search platforms.`,
+        ],
+      },
+      {
+        icon: step_2,
+        title: 'STEP 2: GEO Discovery & Audit',
+        description: [
+          `We examine how AI models perceive your brand, including search appearances, indexing, and content structure, to create a comprehensive AI search presence overview.  `,
+          `This audit identifies opportunities, gaps, and actionable insights to help your brand become more discoverable, trustworthy, and authoritative on multiple AI-powered search platforms.`,
+        ],
+      },
+      {
+        icon: step_3,
+        title: 'STEP 3: GEO Discovery & Audit',
+        description: [
+          `We examine how AI models perceive your brand, including search appearances, indexing, and content structure, to create a comprehensive AI search presence overview.  `,
+          `This audit identifies opportunities, gaps, and actionable insights to help your brand become more discoverable, trustworthy, and authoritative on multiple AI-powered search platforms.`,
+        ],
+      },
+      {
+        icon: step_4,
+        title: 'STEP 4: GEO Discovery & Audit',
+        description: [
+          `We examine how AI models perceive your brand, including search appearances, indexing, and content structure, to create a comprehensive AI search presence overview.  `,
+          `This audit identifies opportunities, gaps, and actionable insights to help your brand become more discoverable, trustworthy, and authoritative on multiple AI-powered search platforms.`,
+        ],
+      },
+      {
+        icon: step_5,
+        title: 'STEP 5: GEO Discovery & Audit',
+        description: [
+          `We examine how AI models perceive your brand, including search appearances, indexing, and content structure, to create a comprehensive AI search presence overview.  `,
+          `This audit identifies opportunities, gaps, and actionable insights to help your brand become more discoverable, trustworthy, and authoritative on multiple AI-powered search platforms.`,
         ],
       },
     ],
