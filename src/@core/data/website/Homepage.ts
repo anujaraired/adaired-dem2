@@ -523,7 +523,7 @@ export const ServiceSectionData = {
           label: 'AI SEO',
           title: 'AI SEO',
           description: `Our AI SEO solutions leverage artificial intelligence to analyze search behavior, optimize content, and improve rankings with precision. We use data-driven insights, automation, and predictive strategies to enhance visibility, target intent-driven keywords, and deliver measurable SEO performance.`,
-          link: '/services/search-engine-optimization',
+          link: '/services/ai-seo',
         },
         {
           icon: SEO_3,
