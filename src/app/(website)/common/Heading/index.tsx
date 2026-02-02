@@ -191,7 +191,7 @@ const Heading = ({
                     alt=""
                     className="mb-auto"
                   />
-                  <span className={`my-auto font-montserrat text-[10px] font-normal uppercase xl:text-[14px] ${isBgWhite ? "text-[#000000]":"text-[#FFFFFF]"}`}>
+                  <span className={`my-auto font-montserrat text-[10px] font-normal uppercase xl:text-[14px] ${isBgWhite ? "text-[#000000]" : "text-[#FFFFFF]"}`}>
                     {subTitle}
                   </span>
                   {/* <div className="mb-auto mt-3 h-0.5 w-24 bg-[#D7EBFF]"></div> */}
@@ -199,17 +199,24 @@ const Heading = ({
 
                 <div className="mt-[0.8rem] md:mt-[8px] lg:mt-[0.5rem]">
                   {isH1 ? (
-                    <h1 className={`text-center capitalize lg:text-left ${isBgWhite ? "text-[#000000]":"text-[#FFFFFF]"}`}>
-                      {title} <br></br>
+                    <h1
+                      className={`text-center capitalize lg:text-left ${isBgWhite ? "text-[#000000]" : "text-[#FFFFFF]"
+                        }`}
+                    >
+                      {title} <br />
                       {span}
                     </h1>
                   ) : (
-                    <h2 className={`text-center capitalize lg:text-left ${isBgWhite ? "text-[#000000]":"text-[#FFFFFF]"}`}>
-                      {title} <br></br>
+                    <h2
+                      className={`text-center capitalize lg:text-left ${isBgWhite ? "text-[#000000]" : "text-[#FFFFFF]"
+                        }`}
+                    >
+                      {title} <br />
                       {span}
                     </h2>
                   )}
                 </div>
+
               </div>
               <div className={`${isDecVarticle && 'pt-[1rem]'}`}>
                 <p className="pt-4 text-center lg:text-left">{description}</p>

@@ -1,0 +1,265 @@
+'use client';
+import React, { useEffect, useState } from 'react';
+import MaxWidthWrapper from '../../components/MaxWidthWrapper';
+import user from '../../../../../public/assets/review/Ellipse 30.png';
+import user_2 from '../../../../../public/assets/review/Ellipse 31.png';
+import user_3 from '../../../../../public/assets/review/Ellipse 32.png';
+import user_4 from '../../../../../public/assets/review/Ellipse 33.png';
+import user_5 from '../../../../../public/assets/review/Ellipse 34.png';
+import Image from 'next/image';
+import banner_img_1 from '../../../../../public/assets/images/home/banner_img_1.png';
+import banner_img_2 from '../../../../../public/assets/images/home/banner_img_2.png';
+import banner_img_3 from '../../../../../public/assets/images/home/banner_img_3.png';
+import hero_banner from '../../../../../public/assets/images/home/hero_banner-bg.png';
+import { useRouter } from 'next/navigation';
+import { FaUser } from 'react-icons/fa';
+import { FiArrowUpRight } from 'react-icons/fi';
+import { PiDotsThree } from 'react-icons/pi';
+import google_rate from '../../../../../public/google_rate.svg';
+import google_review from '../../../../../public/image 54.png';
+import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
+import WebAuditField from '../../components/UI/WebAuditField';
+
+const Banner = () => {
+  const router = useRouter();
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+  const griphData = [
+    {
+      icon: <FaUser size={10} />,
+      id: 0,
+      lebal: 'Monthly Users',
+      number: '23.6K',
+      griphNumber: `10`,
+      griph: <FiArrowUpRight size={10} />,
+      color: '#FF5A65',
+    },
+    {
+      id: 1,
+      icon: <FaUser size={10} />,
+      lebal: 'Monthly Users',
+      number: '23.6K',
+      griphNumber: `102`,
+      griph: <FiArrowUpRight size={10} />,
+      color: '#14CA74',
+    },
+    ,
+    {
+      id: 2,
+      icon: <FaUser size={10} />,
+      lebal: 'New Users',
+      number: '10.6K',
+      griphNumber: `102`,
+      griph: <FiArrowUpRight size={10} />,
+      color: '#14CA74',
+    },
+    {
+      id: 3,
+      icon: <FaUser size={10} />,
+      lebal: 'Subscribes',
+      number: '21.6K',
+      griphNumber: `102`,
+      griph: <FiArrowUpRight size={10} />,
+      color: '#14CA74',
+    },
+  ];
+
+  const [active, setActive] = useState<null | 'img3' | 'img2' | 'img1'>(null);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      // 1️⃣ IMG 3
+      setActive('img2');
+
+      setTimeout(() => {
+        setActive(null);
+
+        // 2️⃣ IMG 2
+        setTimeout(() => {
+          setActive('img3');
+
+          setTimeout(() => {
+            setActive(null);
+
+            // 3️⃣ IMG 1
+            setTimeout(() => {
+              setActive('img1');
+
+              setTimeout(() => {
+                setActive(null);
+              }, 2000); // img1 stay
+            }, 400);
+          }, 2000); // img2 stay
+        }, 400);
+      }, 2000); // img3 stay
+    }, 5200); // total cycle time
+
+    return () => clearInterval(interval);
+  }, [])
+
+  return (
+    <div
+      ref={ref}
+      className="animate-pulse relative h-[114vh] w-full pt-[10vh] md:h-[140vh] lg:h-[100vh] 1366:h-[135vh] 1400:h-[115vh] 1470:h-[100vh] 1600:h-[118vh] 1680:h-[100vh] 1710:h-[85vh] 3xl:h-[100vh]"
+    >
+      <Image
+        src={hero_banner}
+        fill
+        alt="hero bg"
+        priority
+        className="pointer-events-none object-cover"
+      />
+      <MaxWidthWrapper className="relative z-10 block justify-between pt-[3rem] lg:flex lg:pb-[6rem] lg:pt-[9rem]">
+        <div
+          className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[45%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
+        >
+          <div className={`'grid lg:gap-[10rem]'} grid-cols-1 lg:grid-cols-2`}>
+            <div className="md:flex` block w-fit justify-center justify-items-center gap-3 md:justify-center md:justify-items-center lg:justify-start lg:justify-items-start">
+              <div className="mt-[0.8rem] md:mt-[8px] lg:mt-[0.5rem]">
+                <h1 className="text-center capitalize lg:text-left">
+                  Where AI Meets
+                </h1>
+                <h1 className="text-center capitalize text-[#FB9100] lg:text-left">
+                  High-Performance SEO
+                </h1>
+              </div>
+            </div>
+            <div className={`$ 'pt-[1rem]'}`}>
+              <p className="pt-4 text-center font-montserrat font-bold lg:text-left">
+                Future-ready SEO solutions by Adaired, designed to outrank and
+                outgrow
+              </p>
+              <p className="py-7 text-center lg:text-left">
+                Our strategies are designed to help your business outrank
+                competitors, attract more traffic, and achieve sustainable
+                growth. Experience smarter SEO that not only ranks but
+                accelerates your success.
+              </p>
+              <h3 className="text-[22px] font-[600] leading-[32px]">
+                Ready to Build Topical Authority and Maximize Discoverability?
+              </h3>
+            </div>
+          </div>
+          <div>
+            <WebAuditField className={'my-[2rem]'} />
+          </div>
+          <div className="flex justify-center gap-3 lg:justify-start">
+            <a
+              href="https://www.google.com/partners/agency?id=7775339798"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src={google_rate}
+                width={135}
+                height={58}
+                alt="Upwork"
+                className="cursor-pointer"
+              />
+            </a>
+
+            <div className="my-auto w-0.5 h-[3.5rem] mx-2 bg-[#000000]/20"></div>
+
+            <a
+              href="https://www.upwork.com/agencies/1064740584575918080/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src={google_review}
+                width={150}
+                height={67}
+                alt="Google Reviews"
+                className="cursor-pointer"
+              />
+            </a>
+          </div>
+        </div>
+        <div
+          className={`relative mt-[5rem] w-[100%] pt-[20vh] transition-all delay-200 duration-1000 md:pt-[50vh] lg:mt-0 lg:w-[45%] lg:pt-0 xl:w-[45%] ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-16 opacity-0'} `}
+        >
+          <div className="space-y-4">
+            <div className="absolute bottom-[10%] mt-auto flex w-[100%] justify-center">
+              <div className="relative flex justify-end">
+                <Image
+                  src={banner_img_1}
+                  width={599}
+                  height={483}
+                  alt=""
+                  className={`h-[10rem] w-[15rem] transition-opacity transition-transform duration-700 ease-in-out md:h-[20rem] md:w-[32rem] lg:h-[18rem] lg:w-[24rem] xl:h-[30.188rem] xl:w-[37.438rem] 1366:h-[23rem] 1366:w-[28rem] 1400:h-[25rem] 1400:w-[30rem] 1600:h-[26rem] 1600:w-[32rem] 1680:w-[35rem] 3xl:h-[30.188rem] 3xl:w-[37.438rem] ${
+                    active === 'img1'
+                      ? 'z-40 opacity-100'
+                      : active
+                        ? 'opacity-40'
+                        : 'opacity-100'
+                  } `}
+                />
+                <div className="absolute right-0 top-[103%] hidden w-[100%] grid-cols-4 gap-2 md:grid">
+                  {griphData?.map((item, idx) => {
+                    return (
+                      <div
+                        className={`h-[3.125rem] ${idx == 1 && 'animate-step1'} ${idx == 2 && 'animate-step2'} ${idx == 3 && 'animate-step3'} ${idx == 4 && 'animate-step4'} rounded-[0.25rem] border-[1px] border-[#000000]/20 bg-[#FFFFFF]/80 px-[0.5rem] pb-2`}
+                      >
+                        <div className="flex justify-between">
+                          <div className="my-auto flex gap-1">
+                            <span className="my-auto">{item?.icon}</span>
+                            <p className="mb-auto text-[6px] xl:text-[8px]">
+                              {item?.lebal}
+                            </p>
+                          </div>
+                          <PiDotsThree size={12} />
+                        </div>
+                        <div className="-mt-1 flex h-fit w-[100%] gap-2">
+                          <p className="my-auto text-[10px] font-bold xl:text-[12px]">
+                            {item?.number}
+                          </p>
+                          <div
+                            className={`my-auto flex h-[16px] w-fit gap-1 rounded-[0.25rem] border-[0.49px] bg-[#000000]/10 px-[0.5rem] opacity-40 ${item?.griphNumber == '10' ? 'border-[#FF5A65];20 text-[#FF5A65]' : 'border-[#14CA74]/20 text-[#14CA74]'}`}
+                          >
+                            <p
+                              className={`mt-[-0.25rem] text-[6px] font-semibold xl:text-[8px] ${item?.griphNumber == '10' ? 'text-[#FF5A65]' : 'text-[#14CA74]'}`}
+                            >
+                              {item?.griphNumber}
+                            </p>
+                            <span className="my-auto">{item?.griph}</span>
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+            <Image
+              src={banner_img_3}
+              width={302}
+              height={186}
+              alt=""
+              className={`absolute bottom-0 left-[0rem] h-[6rem] w-[8rem] transition-opacity transition-transform duration-700 ease-in-out md:bottom-[-1rem] md:left-[0rem] md:h-[10rem] md:w-[14rem] lg:bottom-0 xl:bottom-[0rem] xl:h-[11.625rem] xl:w-[18.875rem] 1366:h-[8rem] 1366:w-[14rem] 1400:h-[9rem] 1400:w-[16rem] 3xl:h-[11.625rem] 3xl:w-[18.875rem] ${
+                active === 'img3'
+                  ? 'z-30 translate-x-[100%] translate-y-[-50%] scale-105 opacity-100 backdrop-blur-md md:translate-x-[105%] md:translate-y-[-80%] lg:translate-x-[50%] lg:translate-y-[-80%] xl:translate-x-[80%] xl:translate-y-[-110%] 1366:translate-y-[-150%] 1400:translate-x-[70%] 1400:translate-y-[-130%] 1600:translate-x-[80%] 1680:translate-x-[90%] 3xl:translate-x-[85%] 3xl:translate-y-[-120%]'
+                  : active
+                    ? 'z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
+                    : 'z-10 translate-x-0 translate-y-0 scale-100 opacity-100'
+              }`}
+            />
+            <Image
+              src={banner_img_2}
+              width={388}
+              height={244}
+              alt=""
+              className={`absolute right-0 top-[-4rem] h-[6.875rem] w-[10.563rem] transition-opacity transition-transform duration-700 ease-in-out md:top-[2rem] md:h-[13rem] md:w-[20rem] lg:top-[30%] lg:h-[10.25rem] lg:w-[15.25rem] xl:top-[0rem] xl:h-[15.25rem] xl:w-[24.25rem] 1366:top-[8rem] 1366:h-[10rem] 1366:w-[18rem] 1400:top-[5rem] 1400:h-[12rem] 1400:w-[20rem] 1680:top-[1.5rem] 3xl:h-[15.25rem] 3xl:w-[24.25rem] ${
+                active === 'img2'
+                  ? 'z-30 translate-x-[-50%] translate-y-[50%] scale-105 bg-white/80 opacity-100 backdrop-blur-md md:translate-x-[-60%] md:translate-y-[75%] lg:translate-x-[-45%] lg:translate-y-[80%] xl:translate-x-[-50%] xl:translate-y-[100%] 1400:translate-x-[-40%] 1600:translate-x-[-50%] 1680:translate-x-[-60%] 1680:translate-y-[110%] 3xl:translate-x-[-49%] 3xl:translate-y-[90%]'
+                  : active
+                    ? 'z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
+                    : 'z-10 translate-x-0 translate-y-0 scale-100 opacity-100'
+              }`}
+            />
+          </div>
+        </div>
+      </MaxWidthWrapper>
+    </div>
+  );
+};
+
+export default Banner;

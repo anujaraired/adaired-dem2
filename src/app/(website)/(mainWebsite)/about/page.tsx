@@ -282,14 +282,14 @@ export default function page() {
             <div className="grid grid-cols-1 md:grid-cols-[1fr_100px_1fr] gap-6 p-6 md:p-20 min-h-[1157px] md:min-h-[1157px] mx-auto">
               <div className="grid grid-rows-5">
                 <div className="w-full text-[48px] flex items-center justify-end">2020</div>
-                <div className="w-full bg-[#12385DA8] hover:bg-[#ffffff] p-10 rounded-xl">
-                  <h3 className="text-white group-hover:text-black">{d.section6.timeline[0].title}</h3>
-                  <p className="text-white group-hover:text-black mt-2">{d.section6.timeline[0].desc}</p>
+                <div className="group bg-[#12385DA8] hover:bg-white p-10 rounded-xl transition-colors">
+                  <h3 className="text-white group-hover:text-[#F28F17] transition-colors">{d.section6.timeline[0].title}</h3>
+                  <p className="text-white group-hover:text-black transition-colors mt-2">{d.section6.timeline[0].desc}</p>
                 </div>
                 <div className="w-full text-[48px] flex items-center justify-end">2022</div>
-                <div className="w-full bg-[#12385DA8] hover:bg-[#ffffff] p-10 rounded-xl">
-                  <h3 className="text-white">{d.section6.timeline[2].title}</h3>
-                  <p className="text-white mt-2">{d.section6.timeline[2].desc}</p>
+                <div className="group bg-[#12385DA8] hover:bg-white p-10 rounded-xl transition-colors">
+                  <h3 className="text-white group-hover:text-[#F28F17] transition-colors">{d.section6.timeline[2].title}</h3>
+                  <p className="text-white group-hover:text-black transition-colors mt-2">{d.section6.timeline[2].desc}</p>
                 </div>
                 <div className="w-full text-[48px] flex items-center justify-end">2024</div>
               </div>
@@ -305,19 +305,19 @@ export default function page() {
               </div>
 
               <div className="grid grid-rows-5">
-                <div className="w-full bg-[#12385DA8] hover:bg-[#FFFFFF] p-10 rounded-xl">
-                  <h3 className='text-white '>{d.section6.timeline[1].title}</h3>
-                  <p className="text-white mt-2">{d.section6.timeline[1].desc}</p>
+                <div className="group bg-[#12385DA8] hover:bg-white p-10 rounded-xl transition-colors">
+                  <h3 className='text-white group-hover:text-[#F28F17] transition-colors '>{d.section6.timeline[1].title}</h3>
+                  <p className="text-white group-hover:text-black transition-colors mt-2">{d.section6.timeline[1].desc}</p>
                 </div>
                 <div className="w-full text-[48px] flex items-center justify-start">2021</div>
-                <div className="w-full bg-[#12385DA8] hover:bg-[#ffffff] p-10 rounded-xl">
-                  <h3 className="text-white">{d.section6.timeline[3].title}</h3>
-                  <p className="text-white mt-2">{d.section6.timeline[3].desc}</p>
+                <div className="group bg-[#12385DA8] hover:bg-white p-10 rounded-xl transition-colors">
+                  <h3 className="text-white group-hover:text-[#F28F17] transition-colors">{d.section6.timeline[3].title}</h3>
+                  <p className="text-white group-hover:text-black transition-colors mt-2">{d.section6.timeline[3].desc}</p>
                 </div>
                 <div className="w-full text-[48px] flex items-center justify-start">2023</div>
-                <div className="w-full bg-[#12385DA8] hover:bg-[#ffffff] p-10 rounded-xl">
-                  <h3 className="text-white">{d.section6.timeline[4].title}</h3>
-                  <p className="text-white mt-2">{d.section6.timeline[4].desc}</p>
+                <div className="group bg-[#12385DA8] hover:bg-white p-10 rounded-xl transition-colors">
+                  <h3 className="text-white group-hover:text-[#F28F17] transition-colors">{d.section6.timeline[4].title}</h3>
+                  <p className="text-white group-hover:text-black transition-colors mt-2">{d.section6.timeline[4].desc}</p>
                 </div>
               </div>
 
