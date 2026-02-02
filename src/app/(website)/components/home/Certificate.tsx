@@ -36,9 +36,9 @@ const Certificate = () => {
         >
           <Heading
             isLabel={true}
+            breakIndex={5}
             subTitle={'AI Growth Catalyst'}
-            title={'Propelling Businesses into the Spotlight'}
-            span={'through Intelligent AI'}
+            title={'Propelling Businesses into the Spotlight through Intelligent AI'}
             description={
               'Ensuring businesses gain visibility in AI responses, increasing brand mentions, trustworthiness, and discoverability across modern large language models.'
             }

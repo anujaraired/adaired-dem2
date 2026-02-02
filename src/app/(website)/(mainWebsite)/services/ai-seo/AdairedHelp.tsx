@@ -14,6 +14,7 @@ const AdairedHelp = () => {
     <div className="py-[3rem] lg:py-[6rem]">
       <MaxWidthWrapper>
         <Heading
+          breakIndex={9}
           isBgWhite={true}
           isInCenter={true}
           title={adairedHelp?.heading}

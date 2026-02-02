@@ -25,9 +25,9 @@ const LeadingTools = () => {
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
         >
           <Heading
-            breakIndex={7}
-            title={'Industry Leaders That Rely On Us To Achieve AI Success'}
-            description="The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision."
+            breakIndex={6}
+            title={'Powered By Leading Tools For Maximum Performance and Efficiency '}
+            description="Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently."
             isInCenter={true}
             isBgWhite={true}
           />

@@ -12,6 +12,8 @@ import IndustryLeaders from './IndustryLeaders';
 import Stopstruggling from './Stopstruggling';
 import LeadingTools from './LeadingTools';
 import WhatMakesAdaired from './WhatMakesAdaired';
+import OurProcess from './OurProcess';
+import AISEOSolutions from './AISEOSolutions';
 
 const page = () => {
   return (
@@ -25,8 +27,10 @@ const page = () => {
       <NotSeeingResults />
       <AdairedHelp />
       <IndustryLeaders />
+      <AISEOSolutions />
       <Stopstruggling />
       <LeadingTools />
+      <OurProcess />
       <WhatMakesAdaired />
       <FAQ />
     </div>

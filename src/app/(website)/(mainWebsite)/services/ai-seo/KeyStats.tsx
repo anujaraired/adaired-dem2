@@ -11,6 +11,7 @@ const KeyStats = () => {
     <div className="py-[6rem]">
       <MaxWidthWrapper>
         <Heading
+          breakIndex={6}
           isBgWhite={true}
           isInCenter={true}
           subTitle={''}

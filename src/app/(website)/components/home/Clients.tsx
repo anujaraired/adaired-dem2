@@ -76,10 +76,10 @@ const Clients = () => {
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
         >
           <Heading
+            breakIndex={7}
             isLabel={true}
             subTitle={'Our ClientS'}
             title={'A Decade Of Turning Strategies into Results'}
-            span={''}
             isInCenter={true}
             isBgWhite={true}
           />

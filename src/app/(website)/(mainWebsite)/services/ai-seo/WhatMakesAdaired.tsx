@@ -8,9 +8,14 @@ const WhatMakesAdaired = () => {
   const { whatMkeDeferent } = AISEO;
   AISEO;
   return (
-    <div>
+    <div className="py-[3rem] lg:py-[6rem]">
       <MaxWidthWrapper>
-        <Heading title={whatMkeDeferent?.heading} />
+        <Heading
+          breakIndex={5}
+          isInCenter={true}
+          isBgWhite={true}
+          title={whatMkeDeferent?.heading}
+        />
         <div className="pt-[3rem]">
           {whatMkeDeferent?.list?.map((item, idx: number) => {
             const isOrange = idx % 2 === 0;
