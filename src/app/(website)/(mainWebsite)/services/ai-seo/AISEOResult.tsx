@@ -19,6 +19,7 @@ const AISEOResult = () => {
     <div className="py-[3rem] lg:py-[6rem]">
       <MaxWidthWrapper>
         <Heading
+          breakIndex={13}
           isBgWhite={true}
           isInCenter={true}
           title={aiseoResult?.heading}
@@ -57,13 +58,8 @@ const AISEOResult = () => {
                 >
                   {/* TITLE */}
                   <div className="flex gap-3">
-                    <Image
-                      src={groth}
-                      width={32}
-                      height={32}
-                      alt="rocket"
-                    />
-                    <p className="font-bold my-auto">{item?.name}</p>
+                    <Image src={groth} width={32} height={32} alt="rocket" />
+                    <p className="my-auto font-bold">{item?.name}</p>
                   </div>
 
                   {/* DESCRIPTION (ONLY ACTIVE) */}

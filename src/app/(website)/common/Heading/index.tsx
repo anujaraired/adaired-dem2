@@ -160,15 +160,15 @@ const Heading = ({
                     <h1
                       className={`capitalize ${isBgWhite ? 'text-[#111111]' : 'text-[#FFFFFF]'} text-center`}
                     >
-                      {title} <br></br>
-                      {span}
+                      {words.slice(0, breakIndex).join(' ')} <br />
+                      {words.slice(breakIndex).join(' ')}
                     </h1>
                   ) : (
                     <h2
                       className={`capitalize ${isBgWhite ? 'text-[#111111]' : 'text-[#FFFFFF]'} text-center`}
                     >
-                      {title} <br></br>
-                      {span}
+                      {words.slice(0, breakIndex).join(' ')} <br />
+                      {words.slice(breakIndex).join(' ')}
                     </h2>
                   )}
                 </div>
