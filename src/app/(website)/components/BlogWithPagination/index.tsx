@@ -19,6 +19,7 @@ import { PiEyeBold } from 'react-icons/pi';
 import { useRouter } from 'next/navigation';
 import useBreakpointCharLimit from '@/@core/hooks/useBreakpointCharLimit';
 import { IoArrowForwardSharp } from 'react-icons/io5';
+import { transformDate } from '@/@core/hooks/transformDate';
 
 // Type definitions
 interface Blog {
@@ -30,7 +31,6 @@ interface Blog {
   excerpt: string;
   createdAt: string;
 }
-
 
 interface IProps {
   data: Blog[];
@@ -53,6 +53,7 @@ const BlogWPagination: FC<IProps> = ({ data }) => {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [currentPage]);
+  
 
   return (
     <div className="relative">
@@ -76,7 +77,7 @@ const BlogWPagination: FC<IProps> = ({ data }) => {
 
               {/* DATE */}
               <p className="absolute left-4 top-4 rounded-full bg-white px-3 py-1 text-xxs xl:text-xs">
-                {'blog.label'}
+                {transformDate(blog?.createdAt)}
               </p>
 
               {/* EYE ICON (SHOW ON HOVER) */}
@@ -121,7 +122,7 @@ const BlogWPagination: FC<IProps> = ({ data }) => {
             pageSize={blogsPerPage}
             nextIcon="Next"
             prevIcon="Previous"
-            rounded='md'
+            rounded="md"
           />
         </div>
       )}
