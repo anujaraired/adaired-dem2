@@ -3,47 +3,37 @@ import React from 'react';
 import MaxWidthWrapper from '../MaxWidthWrapper';
 import Heading from '../../common/Heading';
 import Image from 'next/image';
-import Button from '../../common/Button';
 import img from '../../../../../public/assets/images/home/aboutus.png';
 import img_700 from '../../../../../public/assets/710_480.png';
-import img_730 from '../../../../../public/assets/aboutus_730_680_.png';
 import about_graph from '../../../../../public/assets/images/home/about_graph.png';
 import Mask from '../../../../../public/assets/images/home/Mask group.png';
 import check from '../../../../../public/assets/icons/blue_check.png';
-
-import { PiSealCheckBold } from 'react-icons/pi';
-import {
-  useImageReveal,
-  useZoomOnView,
-} from '@/@core/hooks/useScrollAnimations';
+import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
+import { tree } from 'next/dist/build/templates/app-page';
 
 const About = () => {
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
   const { subTitle, title, points, description, cursive } = AboutSectionData;
-  const { ref: imageRef, className: imageClass } = useImageReveal({
-    direction: 'left',
-    delay: 350,
-  });
-
-  const { ref: zoomRef, className: zoomClass } = useZoomOnView({
-    delay: 200,
-    once: true,
-  });
 
   return (
     <section className="">
       <MaxWidthWrapper className="pb-[8rem] pt-[3rem] lg:py-[4rem] xl:py-[6rem]">
-        <div className="flex flex-col-reverse gap-[3rem] lg:flex-row lg:justify-between lg:gap-[3rem] 1400:gap-[1rem] 1680:gap-[2rem] 3xl:gap-[5.25rem]">
+        <div
+          ref={ref}
+          className="flex flex-col-reverse gap-[3rem] lg:flex-row lg:justify-between lg:gap-[3rem] 1400:gap-[1rem] 1680:gap-[2rem] 3xl:gap-[5.25rem]"
+        >
           {/* Image Section */}
           <div className="relative mx-auto flex-1">
             {/* CENTER IMAGE */}
             <div
-              ref={imageRef}
-              className={`mt-0 flex items-center justify-center p-3 md:mt-0 lg:mt-[2rem] xl:mt-0 1400:mt-[2rem] 1440:mt-[2rem] 1600:mt-[2rem] 1710:mt-0 ${'imageClass'}`}
+              // ref={imageRef}
+              // className={`mt-0 flex items-center justify-center p-3 md:mt-0 lg:mt-[2rem] xl:mt-0 1400:mt-[2rem] 1440:mt-[2rem] 1600:mt-[2rem] 1710:mt-0 ${'imageClass'}`}
+              className={`mt-0 flex items-center justify-center p-3 transition-all duration-1000 md:mt-0 lg:mt-[2rem] xl:mt-0 1400:mt-[2rem] 1440:mt-[2rem] 1600:mt-[2rem] 1710:mt-0 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} `}
             >
               <Image
                 src={img}
                 alt="About Image"
-                className="block h-[14rem] w-[14rem] rounded-lg md:h-[34.625rem] md:w-[36.313rem] lg:h-[20.625rem] lg:w-[20.313rem] xl:h-[34.625rem] xl:w-[36.313rem] 1360:mt-[2rem] 1360:h-[20rem] 1360:w-[22rem] 1400:mt-[2rem] 1400:hidden 1400:h-[23rem] 1400:w-[23rem] 1470:hidden 1470:w-[25rem] 1600:mt-[2rem] 1600:hidden 1600:h-[37rem] 1600:w-[30rem] 1680:mt-[2rem] 1680:hidden 1680:h-[37rem] 1680:w-[31.5rem] 1710:block 1710:w-[32rem] 3xl:h-[38rem] 3xl:w-[36.313rem]"
+                className="block h-[14rem] w-[14rem] rounded-lg md:h-[34.625rem] md:w-[36.313rem] lg:h-[20.625rem] lg:w-[20.313rem] xl:h-[34.625rem] xl:w-[36.313rem] 1360:mt-[2rem] 1360:h-[20rem] 1360:w-[22rem] 1400:mt-[2rem] 1400:hidden 1400:h-[23rem] 1400:w-[23rem] 1470:hidden 1470:w-[25rem] 1600:mt-[2rem] 1600:hidden 1600:h-[37rem] 1600:w-[30rem] 1680:mt-[2rem] 1680:hidden 1680:h-[37rem] 1680:w-[31.5rem] 1710:block 1710:h-[37.5rem] 1710:w-[32rem] 3xl:h-[38rem] 3xl:w-[36.313rem]"
               />
               <Image
                 src={img_700}
@@ -83,7 +73,9 @@ const About = () => {
             />
 
             {/* ABOUT GRAPH – BOTTOM RIGHT */}
-            <div ref={zoomRef} className={`${zoomClass}`}>
+            <div
+              className={`transition-all delay-300 duration-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'} `}
+            >
               <Image
                 src={about_graph}
                 alt="Graph Image"
@@ -96,9 +88,12 @@ const About = () => {
           </div>
 
           {/* Content Section */}
-          <div className="flex-1 p-2 text-left lg:text-left">
+          <div
+            className={`flex-1 p-2 text-left transition-all delay-200 duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'} `}
+          >
             {/* Points Section */}
             <Heading
+              isLabel={true}
               subTitle={subTitle}
               title={title}
               span=""
@@ -113,7 +108,8 @@ const About = () => {
               {points.map((point, index) => (
                 <div
                   key={index}
-                  className="flex flex-col items-center gap-4 lg:flex-row lg:items-start"
+                  className={`flex flex-col items-center gap-4 transition-all duration-700 lg:flex-row lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} `}
+                  style={{ transitionDelay: `${index * 120}ms` }}
                 >
                   {/* ICON */}
                   <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl bg-[#FEE9CC99]">

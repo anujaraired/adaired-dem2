@@ -6,8 +6,7 @@ import Heading from '../../common/Heading';
 import Image from 'next/image';
 import leftImg from '../../../../../public/assets/banner_left_gridiant.png';
 import rightImg from '../../../../../public/assets/banner_right_gridiant.png';
-import contactUsHand from '../../../../../public/assets/contact_us_hand.png';
-
+//test
 const PageBanner = ({ subTitle, title }: any) => {
   const pathname = usePathname();
 

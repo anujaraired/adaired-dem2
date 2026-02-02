@@ -1,3 +1,4 @@
+'use client';
 import { Button } from '@headlessui/react';
 import React, { useState } from 'react';
 import { IoIosArrowRoundForward } from 'react-icons/io';
@@ -42,7 +43,7 @@ const SaveAndCancel = ({
           isBgWhite
             ? isHover
               ? 'border border-[#FB9100] bg-[#FB9100] text-white'
-              : 'border border-[#111111] bg-white text-[#111111]'
+              : 'border border-[#FFFFFF] bg-white text-[#111111]'
             : isHover
               ? 'bg-[#D17900] text-white'
               : 'bg-[#FB9100] text-white'
