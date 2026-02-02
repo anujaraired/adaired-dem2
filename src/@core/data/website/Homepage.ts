@@ -263,8 +263,8 @@ export const ExpectSectionData = {
 export const WhyChooseSectionData = {
   image: 'Static Website Images/about_main_anwqk5',
   subTitle: 'WHY CHOOSE US',
-  title: 'Why Choose Adaired as Your',
-  span: 'Digital Growth Partner?',
+  title: 'Why Choose Adaired as Your Digital Growth Partner?',
+  span: '',
   description:
     'Adaired combines expert-led digital strategies, dedicated account management, and real-time performance transparency to drive measurable growth. With an ROI-first mindset, we focus on scalable solutions that turn marketing investments into consistent, profitable results.',
   points: [
@@ -457,8 +457,8 @@ export const LogoSliderSectionData = {
 
 export const ServiceSectionData = {
   subtitle: 'Expert Marketing Solutions',
-  title: '360° Digital Marketing Services for Modern',
-  span: 'Business Needs',
+  title: '360° Digital Marketing Services for Modern Business Needs',
+  span: '',
   description: `Our success-driven digital marketing services integrate AI-enhanced SEO, advanced analytics, and conversion-focused strategies to strengthen brand presence, improve search performance, and accelerate measurable business growth.`,
   services: [
     {
@@ -926,8 +926,8 @@ export const AwardsSectionData = [
 export const ContactSectionData = {
   image: 'Static Website Images/contact_us_image',
   subTitle: 'Contact Us',
-  title: 'Power your business growth with',
-  span: 'trusted strategies that work',
+  title: 'Power your business growth with trusted strategies that work',
+  span: '',
   description:
     'Accelerate your business growth with expert guidance, practical solutions, and proven strategies that help you seize opportunities, overcome challenges, and achieve lasting success.',
   contactDetails: [

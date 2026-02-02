@@ -90,9 +90,10 @@ const Service = () => {
           }`}
         >
           <Heading
+            breakIndex={6}
+            isLabel={true}
             subTitle={subtitle}
             title={title}
-            span={span}
             isBgWhite
             description={description}
             isInCenter

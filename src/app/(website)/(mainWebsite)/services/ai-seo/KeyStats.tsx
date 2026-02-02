@@ -2,7 +2,7 @@ import Heading from '@/app/(website)/common/Heading';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import React from 'react';
 import { AISEO } from './data';
-import groth from '../../../../public/assets/icons/growth 2.png';
+import groth from './../../../../../../public/assets/icons/growth 2.png';
 import Image from 'next/image';
 AISEO;
 const KeyStats = () => {
@@ -11,6 +11,7 @@ const KeyStats = () => {
     <div className="py-[6rem]">
       <MaxWidthWrapper>
         <Heading
+          breakIndex={6}
           isBgWhite={true}
           isInCenter={true}
           subTitle={''}

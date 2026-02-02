@@ -24,6 +24,8 @@ const Blogs = () => {
           className={`flex justify-center transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
         >
           <Heading
+            breakIndex={5}
+            isLabel={true}
             subTitle={subTitle}
             title={title}
             span={span}

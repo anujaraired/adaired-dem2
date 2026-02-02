@@ -35,9 +35,10 @@ const Certificate = () => {
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'} `}
         >
           <Heading
+            isLabel={true}
+            breakIndex={5}
             subTitle={'AI Growth Catalyst'}
-            title={'Propelling Businesses into the Spotlight'}
-            span={'through Intelligent AI'}
+            title={'Propelling Businesses into the Spotlight through Intelligent AI'}
             description={
               'Ensuring businesses gain visibility in AI responses, increasing brand mentions, trustworthiness, and discoverability across modern large language models.'
             }
