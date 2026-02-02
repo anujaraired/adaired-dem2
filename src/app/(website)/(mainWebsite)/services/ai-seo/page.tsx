@@ -14,6 +14,7 @@ import LeadingTools from './LeadingTools';
 import WhatMakesAdaired from './WhatMakesAdaired';
 import OurProcess from './OurProcess';
 import AISEOSolutions from './AISEOSolutions';
+import DominateAI from './DominateAI';
 
 const page = () => {
   return (
@@ -32,6 +33,7 @@ const page = () => {
       <LeadingTools />
       <OurProcess />
       <WhatMakesAdaired />
+      <DominateAI/>
       <FAQ />
     </div>
   );
