@@ -1,4 +1,4 @@
-import MaxWidthWrapper from "../../components/MaxWidthWrapper";
+import MaxWidthWrapper from "../../../components/MaxWidthWrapper";
 import background from "../../../../../public/assets/AISEO/background.png"
 // import { StaticImageData } from "next/image";
 import Image from "next/image";
