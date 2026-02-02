@@ -188,40 +188,6 @@ const Banner = () => {
                         : 'opacity-100'
                   } `}
                 />
-                <div className="absolute right-0 top-[103%] hidden w-[100%] grid-cols-4 gap-2 md:grid">
-                  {griphData?.map((item, idx) => {
-                    return (
-                      <div
-                        className={`h-[3.125rem] ${idx == 1 && 'animate-step1'} ${idx == 2 && 'animate-step2'} ${idx == 3 && 'animate-step3'} ${idx == 4 && 'animate-step4'} rounded-[0.25rem] border-[1px] border-[#000000]/20 bg-[#FFFFFF]/80 px-[0.5rem] pb-2`}
-                      >
-                        <div className="flex justify-between">
-                          <div className="my-auto flex gap-1">
-                            <span className="my-auto">{item?.icon}</span>
-                            <p className="mb-auto text-[6px] xl:text-[8px]">
-                              {item?.lebal}
-                            </p>
-                          </div>
-                          <PiDotsThree size={12} />
-                        </div>
-                        <div className="-mt-1 flex h-fit w-[100%] gap-2">
-                          <p className="my-auto text-[10px] font-bold xl:text-[12px]">
-                            {item?.number}
-                          </p>
-                          <div
-                            className={`my-auto flex h-[16px] w-fit gap-1 rounded-[0.25rem] border-[0.49px] bg-[#000000]/10 px-[0.5rem] opacity-40 ${item?.griphNumber == '10' ? 'border-[#FF5A65];20 text-[#FF5A65]' : 'border-[#14CA74]/20 text-[#14CA74]'}`}
-                          >
-                            <p
-                              className={`mt-[-0.25rem] text-[6px] font-semibold xl:text-[8px] ${item?.griphNumber == '10' ? 'text-[#FF5A65]' : 'text-[#14CA74]'}`}
-                            >
-                              {item?.griphNumber}
-                            </p>
-                            <span className="my-auto">{item?.griph}</span>
-                          </div>
-                        </div>
-                      </div>
-                    );
-                  })}
-                </div>
               </div>
             </div>
             <Image
