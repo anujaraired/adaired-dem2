@@ -90,6 +90,7 @@ const Service = () => {
           }`}
         >
           <Heading
+            isLabel={true}
             subTitle={subtitle}
             title={title}
             span={span}

@@ -89,7 +89,7 @@ const Banner = () => {
     }, 5200); // total cycle time
 
     return () => clearInterval(interval);
-  }, [])
+  }, []);
 
   return (
     <div
@@ -152,7 +152,7 @@ const Banner = () => {
               />
             </a>
 
-            <div className="my-auto w-0.5 h-[3.5rem] mx-2 bg-[#000000]/20"></div>
+            <div className="mx-2 my-auto h-[3.5rem] w-0.5 bg-[#000000]/20"></div>
 
             <a
               href="https://www.upwork.com/agencies/1064740584575918080/"

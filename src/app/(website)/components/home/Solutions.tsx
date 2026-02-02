@@ -75,6 +75,7 @@ const Solutions = () => {
           >
             {/* Points Section */}
             <Heading
+              isLabel={true}
               subTitle={subTitle}
               title={title}
               span=""
