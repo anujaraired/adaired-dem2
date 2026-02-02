@@ -12,6 +12,7 @@ import IndustryLeaders from './IndustryLeaders';
 import Stopstruggling from './Stopstruggling';
 import LeadingTools from './LeadingTools';
 import WhatMakesAdaired from './WhatMakesAdaired';
+import OurProcess from './OurProcess';
 
 const page = () => {
   return (
@@ -27,6 +28,7 @@ const page = () => {
       <IndustryLeaders />
       <Stopstruggling />
       <LeadingTools />
+      <OurProcess />
       <WhatMakesAdaired />
       <FAQ />
     </div>
