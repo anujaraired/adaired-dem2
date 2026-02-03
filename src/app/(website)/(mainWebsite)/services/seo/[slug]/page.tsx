@@ -67,7 +67,7 @@ const page = () => {
       )}
       <DominateAI getplan={serviceData?.getplan} />
       {serviceData.faqData && <FAQ faqs={serviceData.faqData} />}
-      <ReadyToStart/>
+      <ReadyToStart />
     </div>
   );
 };

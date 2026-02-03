@@ -5,11 +5,15 @@ import { SERVICES_DATA } from './data';
 import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import what_are_ai_seo from '../../../../../../../public/assets/images/what_are_ai_seo.png';
 import Image from 'next/image';
+
 const WhatAreAISEO = ({ whatareaiseo }: any) => {
   return (
-    <div className="bg-[#000000] py-[3rem] lg:py-[6rem]">
-      <MaxWidthWrapper className="grid grid-cols-1 gap-[5rem] lg:grid-cols-2">
-        <div className="my-auto">
+    // <div className="bg-[#000000] py-[3rem] lg:py-[6rem]">
+    <div className="bg-[#000000] py-12">
+      {/* <MaxWidthWrapper className="grid grid-cols-1 gap-[5rem] lg:grid-cols-2"> */}
+      <MaxWidthWrapper className="grid grid-cols-1 gap-[3rem] md:gap-[5rem] lg:gap-[5rem] lg:grid-cols-2">
+        {/* <div className="my-auto"> */}
+        <div className="order-2 my-auto flex flex-col items-center sm:items-center md:items-center lg:items-start">
           <Heading
             isBgWhite={true}
             subTitle={''}
@@ -18,7 +22,8 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
           <div>
             {whatareaiseo?.data?.map((item: any) => {
               return (
-                <p className="py-3 text-[#FFFFFF]">{item?.desctioption}</p>
+                // <p className="py-3 text-[#FFFFFF]">{item?.desctioption}</p>
+                <p className="py-3 text-[#FFFFFF] text-center sm:text-left md:text-center lg:text-left">{item?.desctioption}</p>
               );
             })}
           </div>
@@ -29,7 +34,8 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
             className="mt-[1rem] w-[19rem]"
           />
         </div>
-        <div className="flex justify-end justify-items-end">
+        {/* <div className="flex justify-end justify-items-end"> */}
+        <div className="order-1 flex justify-center justify-items-center sm:justify-center md:justify-center lg:justify-end">
           <Image
             src={what_are_ai_seo}
             width={602}

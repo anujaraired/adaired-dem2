@@ -46,8 +46,10 @@ const Banner = ({ banner }: any) => {
         <div
           className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[45%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
         >
-          <div className={`'grid lg:gap-[10rem]'} grid-cols-1 lg:grid-cols-2`}>
-            <div className="md:flex` block w-fit justify-center justify-items-center gap-3 md:justify-center md:justify-items-center lg:justify-start lg:justify-items-start">
+          {/* <div className={`'grid lg:gap-[10rem]'} grid-cols-1 lg:grid-cols-2`}> */}
+          <div className={`'grid lg:gap-[10rem]'} grid-cols-1 lg:grid-cols-2 flex justify-center flex-col items-center sm:items-center md:items-center lg:items-start`}>
+            {/* <div className="md:flex` block w-fit justify-center justify-items-center gap-3 md:justify-center md:justify-items-center lg:justify-start lg:justify-items-start"> */}
+            <div className="md:flex` block w-fit justify-center justify-items-center gap-3 md:justify-start md:justify-items-center lg:justify-start lg:justify-items-start">
               <div className="mt-[0.8rem] md:mt-[8px] lg:mt-[0.5rem]">
                 <h1 className="text-center capitalize lg:text-left">
                   {banner?.heading}
@@ -66,7 +68,8 @@ const Banner = ({ banner }: any) => {
 
               <p className="py-7 text-center lg:text-left">{banner?.desc}</p>
               {banner?.subheading && (
-                <h3 className="text-[22px] font-[600] leading-[32px]">
+                // <h3 className="text-[22px] font-[600] leading-[32px]">
+                <h3 className="text-[22px] font-[600] leading-[32px] text-center sm:text-center md:text-center lg:text-left">
                   {banner?.subheading}
                 </h3>
               )}
@@ -116,13 +119,12 @@ const Banner = ({ banner }: any) => {
                 src={banner_img_1}
                 fill
                 alt=""
-                className={`transition-opacity transition-transform duration-700 ease-in-out ${
-                  active === 'img1'
+                className={`transition-opacity transition-transform duration-700 ease-in-out ${active === 'img1'
                     ? 'z-40 opacity-100'
                     : active
                       ? 'opacity-40'
                       : 'opacity-100'
-                } `}
+                  } `}
               />
             </div>
             <Image
@@ -130,11 +132,10 @@ const Banner = ({ banner }: any) => {
               width={302}
               height={186}
               alt=""
-              className={`absolute h-[10rem] w-[16rem] transition-all duration-700 ease-in-out ${
-                isActive('img4')
+              className={`absolute h-[10rem] w-[16rem] transition-all duration-700 ease-in-out ${isActive('img4')
                   ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 -translate-y-1/2 scale-105 opacity-100'
                   : 'left-0 top-[25%] z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
-              } `}
+                } `}
             />
 
             <Image
@@ -142,22 +143,20 @@ const Banner = ({ banner }: any) => {
               width={302}
               height={186}
               alt=""
-              className={`absolute bottom-0 right-[25%] h-[10rem] w-[16rem] transition-all duration-700 ease-in-out ${
-                isActive('img3')
+              className={`absolute bottom-0 right-[25%] h-[10rem] w-[16rem] transition-all duration-700 ease-in-out ${isActive('img3')
                   ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 -translate-y-1/2 scale-105 opacity-100'
                   : 'z-10 opacity-40'
-              } `}
+                } `}
             />
             <Image
               src={banner_img_2}
               width={388}
               height={244}
               alt=""
-              className={`absolute right-0 top-0 h-[10rem] w-[16rem] transition-all duration-700 ease-in-out ${
-                isActive('img2')
+              className={`absolute right-0 top-0 h-[10rem] w-[16rem] transition-all duration-700 ease-in-out ${isActive('img2')
                   ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 -translate-y-1/2 scale-105 opacity-100'
                   : 'z-10 opacity-40'
-              } `}
+                } `}
             />
           </div>
         </div>

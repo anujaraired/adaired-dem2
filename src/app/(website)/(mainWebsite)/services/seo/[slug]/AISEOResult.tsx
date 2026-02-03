@@ -9,7 +9,7 @@ import groth from '../../../../../../../public/assets/icons/adwords-campaign.svg
 
 import { BsGraphUpArrow } from 'react-icons/bs';
 
-const AISEOResult = ({aiseoResult}:any) => {
+const AISEOResult = ({ aiseoResult }: any) => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const activeItem = aiseoResult?.list?.[activeIndex];
@@ -24,28 +24,39 @@ const AISEOResult = ({aiseoResult}:any) => {
           className="mx-auto"
         />
 
-        <div className="flex justify-between pt-[3rem]">
+        {/* <div className="flex justify-between pt-[3rem]"> */}
+        <div className="mt-12 flex flex-col gap-8 lg:flex-row lg:justify-between">
           {/* LEFT IMAGE */}
-          <div className="relative w-[42%] rounded-[20px]">
+          {/* <div className="relative w-[42%] rounded-[20px]"> */}
+          <div className="relative h-[260px] w-full rounded-2xl sm:h-[320px] lg:h-[420px] lg:w-[42%]">
             <Image
               src={activeItem?.img}
               fill
-              className="rounded-[20px] object-fill"
+              // className="rounded-[20px] object-fill"
+              className="rounded-2xl object-cover"
               alt={activeItem?.name}
               priority
             />
-            <Image
+            {/* <Image
               src={rocket}
               width={115}
               height={123}
               alt="rocket"
               className="absolute left-[-1rem] top-[-1rem]"
+            /> */}
+            <Image
+              src={rocket}
+              width={80}
+              height={90}
+              alt="rocket"
+              className="absolute -left-3 -top-3 sm:w-[95px] lg:w-[115px]"
             />
           </div>
 
           {/* RIGHT TABS */}
-          <div className="flex w-[55%] flex-col gap-[1rem]">
-            {aiseoResult?.list?.map((item:any, index:number) => {
+          {/* <div className="flex w-[55%] flex-col gap-[1rem]"> */}
+          <div className="flex w-full flex-col gap-4 lg:w-[55%]">
+            {aiseoResult?.list?.map((item: any, index: number) => {
               const isActive = index === activeIndex;
 
               return (
@@ -57,14 +68,26 @@ const AISEOResult = ({aiseoResult}:any) => {
                   {/* TITLE */}
                   <div className="flex gap-3">
                     <Image src={groth} width={32} height={32} alt="rocket" />
-                    <p className="my-auto font-bold">{item?.name}</p>
+                    {/* <p className="my-auto font-bold"> */}
+                    <p className="font-semibold text-sm sm:text-base">
+                      {item?.name}
+                    </p>
                   </div>
 
                   {/* DESCRIPTION (ONLY ACTIVE) */}
-                  {isActive && (
+                  {/* {isActive && (
                     <div className="pt-2">
-                      {item?.description?.map((desc:any, i:number) => (
+                      {item?.description?.map((desc: any, i: number) => (
                         <p key={i} className="my-2">
+                          {desc}
+                        </p>
+                      ))}
+                    </div>
+                  )} */}
+                  {isActive && (
+                    <div className="pt-3 text-sm sm:text-base">
+                      {item?.description?.map((desc: any, i: number) => (
+                        <p key={i} className="my-2 text-gray-700">
                           {desc}
                         </p>
                       ))}

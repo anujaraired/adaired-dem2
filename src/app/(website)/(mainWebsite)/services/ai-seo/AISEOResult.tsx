@@ -116,7 +116,7 @@ const AISEOResult = () => {
 
         {/* <div className="flex justify-between pt-[3rem]"> */}
         <div className="mt-12 flex flex-col gap-8 lg:flex-row lg:justify-between">
-          
+
           {/* LEFT IMAGE */}
           {/* <div className="relative w-[42%] rounded-[20px]"> */}
           <div className="relative h-[260px] w-full rounded-2xl sm:h-[320px] lg:h-[420px] lg:w-[42%]">
