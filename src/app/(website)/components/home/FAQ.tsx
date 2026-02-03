@@ -8,8 +8,6 @@ import { GrFormSubtract } from 'react-icons/gr';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const FAQ = ({ faqs }: any) => {
-  console.log(faqs, 'faqs>>>>');
-
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.25);
   const [openIndex, setOpenIndex] = useState<number | null>(0);
   const { subTitle, title, description } = FAQSSectionData;
