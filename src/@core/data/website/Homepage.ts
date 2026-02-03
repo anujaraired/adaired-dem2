@@ -515,7 +515,7 @@ export const ServiceSectionData = {
           label: 'SEO',
           title: 'SEO',
           description: `We provide Search Engine Optimization services that are aimed at increasing the presence online and driving meaningful engagement. We combine smart keyword targeting, technical optimization, and credible content to make your business achieve consistent rankings and sustainable organic growth.`,
-          link: '/services/search-engine-optimization',
+          link: '/services/seo/search-engine-optimization',
         },
         {
           icon: SEO_2,
@@ -523,7 +523,7 @@ export const ServiceSectionData = {
           label: 'AI SEO',
           title: 'AI SEO',
           description: `Our AI SEO solutions leverage artificial intelligence to analyze search behavior, optimize content, and improve rankings with precision. We use data-driven insights, automation, and predictive strategies to enhance visibility, target intent-driven keywords, and deliver measurable SEO performance.`,
-          link: '/services/ai-seo',
+          link: '/services/seo/ai-search-engine-optimization',
         },
         {
           icon: SEO_3,
