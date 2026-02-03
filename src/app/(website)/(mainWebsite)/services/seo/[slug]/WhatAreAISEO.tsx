@@ -7,7 +7,7 @@ import what_are_ai_seo from '../../../../../../../public/assets/images/what_are_
 import Image from 'next/image';
 const WhatAreAISEO = ({ whatareaiseo }: any) => {
   return (
-    <div className="bg-[#000000]">
+    <div className="bg-[#000000] py-[3rem] lg:py-[6rem]">
       <MaxWidthWrapper className="grid grid-cols-1 gap-[5rem] lg:grid-cols-2">
         <div className="my-auto">
           <Heading

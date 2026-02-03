@@ -5,7 +5,7 @@ import React from 'react';
 import NotSeeingResultsBg from '../../../../../../../public/assets/aiseo/stop-struggle.png';
 import Image from 'next/image';
 
-const Stopstruggling = () => {
+const Stopstruggling = ({ stopStruggling }: any) => {
   return (
     <div
       className="flex items-center justify-center bg-cover bg-center bg-no-repeat py-[3rem] lg:py-[6rem]"
@@ -16,9 +16,7 @@ const Stopstruggling = () => {
       <MaxWidthWrapper className="flex justify-center">
         <div className="mx-auto w-fit text-center">
           <h2 className="mx-auto w-[70%] text-[35px] font-semibold text-[#FFFFFF]">
-            Stop struggling with low traffic and poor visibility. Let Adaired’s
-            AI-powered SEO audit uncover the gaps, optimize your site, and help
-            your business outrank competitors.
+            {stopStruggling?.title}
           </h2>
 
           <SaveAndCancel
