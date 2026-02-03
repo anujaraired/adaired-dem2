@@ -12,8 +12,8 @@ const WebAuditField = ({ className }: any) => {
 
       <SaveAndCancel
         isIcon={true}
-        name="Get Your Free AI Visibility Audit"
-        className="absolute right-2 top-1.5 h-11 w-[50%] text-[16px]"
+        name="Get Start"
+        className="absolute right-2 top-1 h-12 w-[25%] text-[16px]"
       />
     </div>
   );

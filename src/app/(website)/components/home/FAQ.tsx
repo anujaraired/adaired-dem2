@@ -6,10 +6,13 @@ import { FAQSSectionData } from '@/@core/data/website/Homepage';
 import { MdAdd } from 'react-icons/md';
 import { GrFormSubtract } from 'react-icons/gr';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
-const FAQ = () => {
+
+const FAQ = ({ faqs }: any) => {
+  console.log(faqs, 'faqs>>>>');
+
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.25);
   const [openIndex, setOpenIndex] = useState<number | null>(0);
-  const { subTitle, title, description, faqs } = FAQSSectionData;
+  const { subTitle, title, description } = FAQSSectionData;
 
   const toggleFAQ = (idx: number) => {
     setOpenIndex(openIndex === idx ? null : idx);
@@ -28,7 +31,7 @@ const FAQ = () => {
             breakIndex={6}
             isLabel={true}
             subTitle={subTitle}
-            title={title}
+            title={faqs?.title}
             span=""
             description={description}
             isBgWhite
@@ -38,43 +41,44 @@ const FAQ = () => {
         </div>
 
         <div className="space-y-6 px-4 md:px-12 lg:px-[22%]">
-          {faqs?.map((faq, idx) => {
-            const isOpen = openIndex === idx;
+          {faqs?.list?.length > 0 &&
+            faqs?.list?.map((faq: any, idx: number) => {
+              const isOpen = openIndex === idx;
 
-            return (
-              <div
-                key={idx}
-                onClick={() => toggleFAQ(idx)}
-                className={`grid cursor-pointer grid-cols-5 rounded-2xl border-[2px] border-[#000000]/20 p-[1rem] transition-all duration-700 lg:p-[2rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} `}
-                style={{
-                  transitionDelay: `${idx * 120}ms`,
-                }}
-              >
-                {/* Content */}
-                <div className="col-span-4 space-y-4">
-                  <h3>{faq.title}</h3>
-                  {isOpen && <p>{faq.description}</p>}
-                </div>
+              return (
+                <div
+                  key={idx}
+                  onClick={() => toggleFAQ(idx)}
+                  className={`grid cursor-pointer grid-cols-5 rounded-2xl border-[2px] border-[#000000]/20 p-[1rem] transition-all duration-700 lg:p-[2rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} `}
+                  style={{
+                    transitionDelay: `${idx * 120}ms`,
+                  }}
+                >
+                  {/* Content */}
+                  <div className="col-span-4 space-y-4">
+                    <h3>{faq.title}</h3>
+                    {isOpen && <p>{faq.description}</p>}
+                  </div>
 
-                {/* Toggle Button */}
-                <div className="flex cursor-pointer justify-end">
-                  <span
-                    className={`mb-auto w-fit rounded-full p-1 transition-all duration-300 ${
-                      isOpen
-                        ? 'bg-[#FB9100] text-white'
-                        : 'border-[1px] border-black'
-                    } `}
-                  >
-                    {isOpen ? (
-                      <GrFormSubtract size={28} />
-                    ) : (
-                      <MdAdd size={28} />
-                    )}
-                  </span>
+                  {/* Toggle Button */}
+                  <div className="flex cursor-pointer justify-end">
+                    <span
+                      className={`mb-auto w-fit rounded-full p-1 transition-all duration-300 ${
+                        isOpen
+                          ? 'bg-[#FB9100] text-white'
+                          : 'border-[1px] border-black'
+                      } `}
+                    >
+                      {isOpen ? (
+                        <GrFormSubtract size={28} />
+                      ) : (
+                        <MdAdd size={28} />
+                      )}
+                    </span>
+                  </div>
                 </div>
-              </div>
-            );
-          })}
+              );
+            })}
         </div>
       </MaxWidthWrapper>
     </div>

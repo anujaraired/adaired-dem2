@@ -15,8 +15,10 @@ import WhatMakesAdaired from './WhatMakesAdaired';
 import OurProcess from './OurProcess';
 import AISEOSolutions from './AISEOSolutions';
 import DominateAI from './DominateAI';
+import { AISEO } from './data';
 
 const page = () => {
+  const {faqData } = AISEO;
   return (
     <div>
       <Banner />
@@ -33,8 +35,8 @@ const page = () => {
       <LeadingTools />
       <OurProcess />
       <WhatMakesAdaired />
-      <DominateAI/>
-      <FAQ />
+      <DominateAI />
+      <FAQ faqs={faqData} />
     </div>
   );
 };

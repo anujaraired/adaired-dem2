@@ -52,7 +52,7 @@ export const AISEO = {
     ],
   },
   whatareaiseo: {
-    heading: 'Key Stats Related to AI SEO',
+    heading: 'What Are AI SEO Services?',
     data: [
       {
         desctioption: `AI SEO, also known as generative search optimization services focus on optimizing your website content to appear in AI search results. It helps your website become discoverable, extractable, and trusted across AI-powered search experiences.`,
@@ -70,10 +70,24 @@ export const AISEO = {
     ],
     list: [
       {
+        name: 'Smarter Keyword Targeting',
+        description: [
+          `AI-powered SEO goes beyond basic keyword research by analyzing search intent, competition, and user behavior at scale. It identifies high-value, conversion-driven keywords your audience is actively searching for, including long-tail and emerging opportunities. `,
+          `This ensures your website ranks for terms that generate meaningful traffic, qualified leads, and real business growth.`,
+        ],
+      },
+      {
         name: 'Faster SEO Results',
         description: [
           `AI automates time-intensive SEO processes such as audits, content optimization, and performance tracking. Processing data in real time, it enables faster decision-making and quicker implementation of improvements. `,
           `This reduces the waiting period typically associated with traditional SEO, helping businesses see ranking, traffic, and engagement gains sooner.`,
+        ],
+      },
+      {
+        name: 'Data-Driven Content Optimization',
+        description: [
+          `AI analyzes top-ranking pages across search engines to understand exactly what performs best. It provides precise recommendations on content structure, keyword placement, internal linking, readability, and topical depth.`,
+          `This ensures every piece of content is optimized to align with search engine algorithms and user intent, increasing visibility and engagement.`,
         ],
       },
       {
@@ -84,10 +98,18 @@ export const AISEO = {
         ],
       },
       {
-        name: 'Faster SEO Results',
+        name: 'Scalable SEO Without Extra Costs',
         description: [
-          `AI automates time-intensive SEO processes such as audits, content optimization, and performance tracking. Processing data in real time, it enables faster decision-making and quicker implementation of improvements. `,
-          `This reduces the waiting period typically associated with traditional SEO, helping businesses see ranking, traffic, and engagement gains sooner.`,
+          `AI SEO services enable businesses to optimize hundreds or thousands of pages efficiently without increasing operational overhead. From technical fixes to content enhancements, AI handles large-scale SEO tasks quickly and accurately. `,
+          `This scalability allows growing businesses to expand their digital presence while maintaining consistent optimization and cost efficiency.`,
+        ],
+      },
+      {
+        name: 'Higher ROI Through Predictive Insights',
+        description: [
+          `AI uses predictive analytics to identify future ranking opportunities, content gaps, and user behavior trends. By focusing SEO efforts on strategies with the highest potential return, businesses reduce wasted spend and improve performance.`,
+          `The result is a more efficient SEO investment that delivers sustained traffic, leads, and measurable ROI.
+`,
         ],
       },
     ],
@@ -100,32 +122,32 @@ export const AISEO = {
         img: aiseoresult,
         name: 'Your Website Gets Traffic, but Not the Right Traffic',
         description: [
-          'Many businesses rank for keywords but still don’t get leads or sales. AI search engines focus on user intent, not just rankings. ',
-          `When your content does not provide a clear answer to what users want, AI will push it down, creating low-quality traffic that does not convert.`,
+          'Many businesses rank for keywords but still don’t get leads or sales. AI search engines focus on user intent, not just rankings. When your content does not provide a clear answer to what users want, AI will push it down, creating low-quality traffic that does not convert. ',
+          ``,
         ],
       },
       {
-        img: aiseoresult_2,
-        name: 'Your Website Gets Traffic, but Not the Right Traffic',
+        img: aiseoresult,
+        name: 'Rankings Drop Without Any Warning',
         description: [
-          'Many businesses rank for keywords but still don’t get leads or sales. AI search engines focus on user intent, not just rankings. ',
-          `When your content does not provide a clear answer to what users want, AI will push it down, creating low-quality traffic that does not convert.`,
+          'AI-powered algorithms change often, and many businesses don’t see it coming. A single update may even take your site off the list. You’re likely to go unnoticed, lose visibility, traffic, and revenue overnight.',
+          ` `,
         ],
       },
       {
-        img: aiseoresult_3,
-        name: 'Your Website Gets Traffic, but Not the Right Traffic',
+        img: aiseoresult,
+        name: 'Your Content Doesn’t Stand Out Anymore',
         description: [
-          'Many businesses rank for keywords but still don’t get leads or sales. AI search engines focus on user intent, not just rankings. ',
-          `When your content does not provide a clear answer to what users want, AI will push it down, creating low-quality traffic that does not convert.`,
+          'AI favors useful, clear, and original content. If your pages look like everyone else’s, no one pays attention to them. Generic Blogs, keyword repetition, and thin pages are difficult to rank and hence compete with the smarter content strategies used by brands.',
+          ``,
         ],
       },
       {
-        img: aiseoresult_4,
-        name: 'Your Website Gets Traffic, but Not the Right Traffic',
+        img: aiseoresult,
+        name: 'You’re Making SEO Decisions Without Real Data',
         description: [
-          'Many businesses rank for keywords but still don’t get leads or sales. AI search engines focus on user intent, not just rankings. ',
-          `When your content does not provide a clear answer to what users want, AI will push it down, creating low-quality traffic that does not convert.`,
+          'Most companies are dependent on guesswork or past reports. It is difficult to discover what works and what does not without insights provided by AI. This leads to wasted effort, slow growth, and missed opportunities while competitors move ahead faster.',
+          ``,
         ],
       },
     ],
@@ -159,10 +181,26 @@ export const AISEO = {
       },
       {
         img: aiseoresult_4,
-        name: 'Your Website Gets Traffic, but Not the Right Traffic',
+        name: 'AI-Driven Content Strategy Focused on Topical Authority',
         description: [
-          'Many businesses rank for keywords but still don’t get leads or sales. AI search engines focus on user intent, not just rankings. ',
-          `When your content does not provide a clear answer to what users want, AI will push it down, creating low-quality traffic that does not convert.`,
+          'Adaired does not focus only on content optimization but creates a topical authority with the help of AI. We detect content gaps, cluster opportunities, and semantic links throughout your niche.',
+          `This approach helps search engines recognize your brand as an industry expert, improve your ranking on a variety of keywords, and make this search better than a content win of a short-term nature.`,
+        ],
+      },
+      {
+        img: aiseoresult_3,
+        name: 'Intelligent Technical SEO for Maximum Performance',
+        description: [
+          `Adaired is an AI-powered tool that reveals and prioritizes technical SEO problems that directly influence the rankings. From site speed and crawlability to indexing and Core Web Vitals, we fix what matters most first.`,
+          `We ensure your website loads fast, remains accessible, and is optimized both by users and search algorithms.`,
+        ],
+      },
+      {
+        img: aiseoresult_4,
+        name: 'Continuous AI Monitoring and Data-Driven Optimization',
+        description: [
+          'SEO is never static. Adaired relies on AI-based monitoring to monitor rankings, traffic modifications, and algorithm adjustments in real-time. ',
+          `This allows us to continuously refine strategies, take advantage of new opportunities, making your brand competitive, strong, and constantly increasing in the search results.`,
         ],
       },
     ],
@@ -228,7 +266,7 @@ export const AISEO = {
     services: [
       {
         icon: step,
-        title: 'STEP 1: GEO Discovery & Audit',
+        title: 'GEO Discovery & Audit',
         description: [
           `We examine how AI models perceive your brand, including search appearances, indexing, and content structure, to create a comprehensive AI search presence overview.  `,
           `This audit identifies opportunities, gaps, and actionable insights to help your brand become more discoverable, trustworthy, and authoritative on multiple AI-powered search platforms.`,
@@ -236,35 +274,132 @@ export const AISEO = {
       },
       {
         icon: step_2,
-        title: 'STEP 2: GEO Discovery & Audit',
+        title: 'Multiplatform Strategy',
         description: [
-          `We examine how AI models perceive your brand, including search appearances, indexing, and content structure, to create a comprehensive AI search presence overview.  `,
-          `This audit identifies opportunities, gaps, and actionable insights to help your brand become more discoverable, trustworthy, and authoritative on multiple AI-powered search platforms.`,
+          `We create a custom strategy that targets the most relevant AI platforms, including Gemini, Perplexity, ChatGPT, and more. `,
+          `By aligning content, keywords, and technical SEO with platform-specific requirements, we increase AI visibility, drive engagement, and make your brand discoverable where high-intent users look.`,
         ],
       },
       {
         icon: step_3,
-        title: 'STEP 3: GEO Discovery & Audit',
+        title: 'GEO and SEO Implementation',
         description: [
-          `We examine how AI models perceive your brand, including search appearances, indexing, and content structure, to create a comprehensive AI search presence overview.  `,
-          `This audit identifies opportunities, gaps, and actionable insights to help your brand become more discoverable, trustworthy, and authoritative on multiple AI-powered search platforms.`,
+          `Our team implements precise GEO-targeted SEO strategies to improve your visibility, rankings, and engagement across search and AI-driven platforms.`,
+          `We handle everything, from optimizing your site for local and global searches to maintaining authority and ongoing performance—delivering quick wins and long-term growth without burdening your team.`,
         ],
       },
       {
         icon: step_4,
-        title: 'STEP 4: GEO Discovery & Audit',
+        title: 'GEO Content Optimization',
         description: [
-          `We examine how AI models perceive your brand, including search appearances, indexing, and content structure, to create a comprehensive AI search presence overview.  `,
-          `This audit identifies opportunities, gaps, and actionable insights to help your brand become more discoverable, trustworthy, and authoritative on multiple AI-powered search platforms.`,
+          `To improve rankings on LLM-powered platforms, we employ AI-focused keywords, structured data, and technical optimization methods. `,
+          `By making your company easier to find online, we improve discoverability, relevance, and engagement, ensuring that AI search engines recognize your content as authoritative, useful, and highly relevant to user queries.`,
         ],
       },
       {
         icon: step_5,
-        title: 'STEP 5: GEO Discovery & Audit',
+        title: 'Implementation and Monitoring',
         description: [
-          `We examine how AI models perceive your brand, including search appearances, indexing, and content structure, to create a comprehensive AI search presence overview.  `,
-          `This audit identifies opportunities, gaps, and actionable insights to help your brand become more discoverable, trustworthy, and authoritative on multiple AI-powered search platforms.`,
+          `We constantly monitor AI visibility, analyze search analytics, and track competitors to make recommendations. `,
+          `This ongoing oversight ensures that your content is discoverable, competitive, and authoritative, allowing your brand to respond quickly to AI search trends while still remaining a trusted source for users.`,
         ],
+      },
+      {
+        icon: step_5,
+        title: 'Reporting and Ongoing Refinement',
+        description: [
+          `We provide monthly reports detailing AI visibility improvements, identifying new growth opportunities, and guiding ongoing SEO and GEO strategy refinements.`,
+          `We ensure your brand's sustainable growth, increased discoverability, and authoritative positioning across AI-driven search platforms by constantly analyzing performance and adjusting tactics.`,
+        ],
+      },
+    ],
+  },
+  faqData: {
+    subtitle: 'FAQ',
+    title: 'Frequently Asked Questions and Their Answers',
+    description: `Our success-driven digital marketing services integrate AI-enhanced SEO, advanced analytics, and conversion-focused strategies to strengthen brand presence, improve search performance, and accelerate measurable business growth.`,
+    list: [
+      {
+        title: 'Why is Generative AI SEO important for my business?',
+        description:
+          'AI is changing how people locate and learn. Generative AI search engines are becoming more popular, and businesses must adapt to appear in these AI-powered results. Generative AI SEO makes your brand more visible and trustworthy in AI systems, giving you a competitive advantage.',
+        bgColor: '#FFF4F3',
+        rating: 5,
+      },
+      {
+        title: 'How long does it take to see results from AI SEO?',
+        description:
+          'AI SEO is a long-term approach. You may see an increase in visibility and engagement within 3-6 months, with more significant results over time as AI algorithms evolve and these systems come to trust and reference your content.',
+        bgColor: '#D7EBFF',
+        rating: 5,
+      },
+      {
+        title: 'Do I need to change the way I create content for AI SEO?',
+        description: `Yes, AI SEO necessitates a change in how you create content. Instead of focusing solely on keywords, you'll need to create content that matches user intent, is contextually relevant, and can be easily understood by AI engines. This may entail optimizing your content structure, implementing entity recognition, and incorporating AI-friendly data markup.`,
+        bgColor: '#E1F2E2',
+        rating: 5,
+      },
+      {
+        title: 'Can Generative AI SEO benefit any business?',
+        description:
+          'Absolutely! Our generative AI SEO services can help your small or large business rank in AI-powered search results. Businesses must remain competitive as search engines and customer behavior evolve alongside artificial intelligence (AI).',
+        bgColor: '#D7EBFF',
+        rating: 5,
+      },
+      {
+        title: 'How can Adaired Digital Media help with Generative AI SEO?',
+        description:
+          'We specialize in AI-first SEO strategies that match your content to the latest Generative AI search engines. We optimize your site for AI algorithms, create content with user intent in mind, and constantly refine your strategy using AI-powered insights to keep you ahead of the competition.',
+        bgColor: '#E1F2E2',
+        rating: 5,
+      },
+
+      {
+        title: 'What is the difference between SEO and AEO?',
+        description: `SEO (Search Engine Optimization) focuses on ranking webpages in traditional search results like Google’s blue links. The AEO (Answer Engine Optimization) focuses on optimizing the content and allowing it to be chosen as a direct answer by the AI-driven engines like ChatGPT, Google SGE, Gemini, and voice assistants.
+ In short: SEO ranks pages, AEO delivers answers.
+`,
+        bgColor: '#E1F2E2',
+        rating: 5,
+      },
+
+      {
+        title: 'How does AEO impact voice search rankings?',
+        description:
+          'The voice search is based on concise, structured, and authoritative answers. You can make your content look like it was spoken to by the user with AEO, where your content will be optimized to feature in conversational search, featured snippets, schema markup, and natural language patterns to increase the chance of your site being selected by voice assistants.',
+        bgColor: '#E1F2E2',
+        rating: 5,
+      },
+      {
+        title: 'What is the time to profitability of AI SEO services?',
+        description:
+          'The first positive change, including the increased clarity of the content and the visibility of AI, can become evident in several weeks. Tangible increase in impressions, traffic and quality of leads is usually achieved in 2-4 months, based on competition, depth of content, and implementation.',
+        bgColor: '#E1F2E2',
+        rating: 5,
+      },
+
+      {
+        title: 'Is it possible to incorporate AEO into my current SEO plan?',
+        description:
+          'Absolutely. AEO does not supersede SEO; it complements it. The foundation of your existing SEO workings is supported by AEO, which is enhanced by modifying the content to suit AI-oriented search, featured answers, and conversational searches.',
+        bgColor: '#E1F2E2',
+        rating: 5,
+      },
+      {
+        title:
+          'Do you think collaboration with your AEO company will enhance my presence in AI tools such as ChatGPT or Gemini?',
+        description:
+          'Yes. Although it is impossible to ensure being placed within AI tools, AEO best practices have a strong probability of your content being mentioned, summarized, or referenced by AI tools, such as ChatGPT, Gemini, Perplexity, and Google AI Overviews.',
+        bgColor: '#E1F2E2',
+        rating: 5,
+      },
+      {
+        title:
+          'I am already working on SEO, so why do I need SEO with AI as well?',
+        description:
+          'Conventional SEO cannot be used any longer. AI-based search engines make intent, context, and direct answer a priority over keywords. AI-based SEO makes your content optimized to search as it works today, and not five years ago.',
+        bgColor: '#E1F2E2',
+        rating: 5,
       },
     ],
   },

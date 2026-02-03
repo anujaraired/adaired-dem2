@@ -1008,7 +1008,7 @@ export const FAQSSectionData = {
   span: 'Have questions? Our FAQ section provides clear, concise answers about our services to guide you effortlessly.',
   description:
     'Stay ahead of the digital curve with expert insights, practical strategies, and the latest trends designed to help your brand grow with confidence.',
-  faqs: [
+  list: [
     {
       image: blog_1,
       title: 'What services does Adaired provide?',
