@@ -2,7 +2,7 @@ import Heading from '@/app/(website)/common/Heading';
 import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import React from 'react';
-import NotSeeingResultsBg from '../../../../../../public/assets/NotSeeingResultsBg.png';
+import NotSeeingResultsBg from '../../../../../../public/assets/aiseo/stop-struggle.png';
 import NotSeeingResult from '../../../../../../public/assets/aiseo/NotSeeingResults.png';
 import Image from 'next/image';
 
@@ -23,10 +23,10 @@ const Stopstruggling = () => {
           </h2>
 
           <SaveAndCancel
-            name="Get Your Free AI SEO Audit"
+            name="Start Your AI SEO Journey Now"
             isBgWhite={true}
             isIcon={true}
-            className="mx-auto mt-[2rem] w-[20rem]"
+            className="mx-auto mt-[2rem] w-[23rem]"
           />
         </div>
       </MaxWidthWrapper>
