@@ -19,7 +19,6 @@ const DominateAI = () => {
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${background.src})` }}
       />
-<<<<<<< HEAD
       <div className="absolute left-0 top-36 -translate-y-1/2">
         <Image
           className=""
@@ -38,8 +37,6 @@ const DominateAI = () => {
           height={411}
         />
       </div>
-=======
->>>>>>> origin/dev
       <MaxWidthWrapper className="relative z-10">
         <div className="space-y-5 py-24 text-center">
           <h1 className="text-white">{AISEO.DominateAIContent.title}</h1>

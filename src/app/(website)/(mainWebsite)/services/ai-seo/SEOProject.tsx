@@ -23,21 +23,21 @@ const SEOProject = () => {
                                 name="Get Your Free Marketing Audit"
                                 isIcon={true}
                                 isBgWhite={true}
-                                className="w-[22rem]"
+                                className="w-[18rem] sm:w-[22rem] md:w-[22rem] lg:w-[22rem]"
                             />
                         </div>
                     </div>
                 </MaxWidthWrapper>
             </section>
 
-            <section className='relative h-[10vh] -mt-32 z-10'>
-                <div className='absolute inset-0'>
+            <section className='relative h-[13vh] -mt-32 z-10'>
+                <div className='absolute inset-0 overflow-hidden'>
                     <Image
                         src="/assets/footer_img.png"
                         alt="Footer background"
                         fill
                         priority
-                        className="object-cover shadow-inner"
+                        className="object-cover"
                     />
                 </div>
             </section>

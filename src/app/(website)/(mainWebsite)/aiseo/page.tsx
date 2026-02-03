@@ -5,7 +5,7 @@ import WhatAreAISEO from '../services/ai-seo/WhatAreAISEO';
 import NeedOfAISEO from '../services/ai-seo/NeedOfAISEO';
 import FAQ from '../../components/home/FAQ';
 import DominateAI from './DominateAI';
-import { AISEO } from '../services/ai-seo/data';
+// import { AISEO } from '../services/ai-seo/data';
 import AISEOSolutions from '../services/ai-seo/AISEOSolutions';
 import SEOProject from '../services/ai-seo/SEOProject';
 
