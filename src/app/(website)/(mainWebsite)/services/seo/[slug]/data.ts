@@ -6,7 +6,7 @@ import meke_derefent from '../../../../../../../public/assets/aiseo/make_deferen
 import meke_derefent_2 from '../../../../../../../public/assets/aiseo/make_deferent_1.png';
 import meke_derefent_3 from '../../../../../../../public/assets/aiseo/make_deferent_2.png';
 import meke_derefent_4 from '../../../../../../../public/assets/aiseo/make_deferent_3.png';
-import step from '../../../../../../../public/assets/aiseo/process/Group 1000005845.svg';
+import step from '../../../../../../../public/assets/aiseo/process/Group 1000005845 (1).svg';
 import step_2 from '../../../../../../../public/assets/aiseo/process/Group 1000005846.svg';
 import step_3 from '../../../../../../../public/assets/aiseo/process/Group 1000005847.svg';
 import step_4 from '../../../../../../../public/assets/aiseo/process/Group 1000005848.svg';
