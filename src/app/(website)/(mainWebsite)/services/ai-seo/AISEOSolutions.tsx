@@ -1,10 +1,12 @@
-import React from 'react';
-import { MdOutlineArrowOutward } from 'react-icons/md';
+'use client';
+import React, { useState } from 'react';
 import { cards } from '@/app/(website)/(mainWebsite)/services/ai-seo/Card';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Heading from '@/app/(website)/common/Heading';
+import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 
 const AISEOSolutions = () => {
+  const [isHover, setIsHover] = useState(false);
   return (
     <section className="py-[3rem] lg:py-[6rem]">
       <MaxWidthWrapper>
@@ -35,13 +37,12 @@ const AISEOSolutions = () => {
                   </div>
 
                   <div className="mb-8 mt-auto px-10">
-                    <a
-                      href={card.linkHref}
-                      className="flex w-full items-center gap-2 sm:text-[0.7rem] md:text-[0.8rem] lg:text-[0.9rem]"
-                    >
-                      <span>{card.linkText}</span>
-                      <MdOutlineArrowOutward />
-                    </a>
+                    <SaveAndCancel
+                      name={card.linkText}
+                      isIcon={true}
+                      isBgWhite={true}
+                      className="w-full"
+                    />
                   </div>
                 </div>
               </div>

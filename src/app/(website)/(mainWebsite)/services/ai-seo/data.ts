@@ -268,4 +268,13 @@ export const AISEO = {
       },
     ],
   },
+  DominateAIContent: {
+    title: `Dominate AI Search Today`,
+    heading:`Get a custom plan to optimize for AI-driven results: structured data, semantic content, answer-ready copy, and technical SEO—ensuring your brand appears in AI summaries and citations.`, 
+  }, 
+
+  SEOProject: {
+    title: `Ready to Start Your SEO Project Today?`,
+    description: `Boost your online visibility, attract targeted traffic, and grow your \n business with our expert SEO strategies.`,
+  }
 };

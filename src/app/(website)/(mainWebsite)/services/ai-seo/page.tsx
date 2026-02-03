@@ -15,6 +15,7 @@ import WhatMakesAdaired from './WhatMakesAdaired';
 import OurProcess from './OurProcess';
 import AISEOSolutions from './AISEOSolutions';
 import DominateAI from './DominateAI';
+import SEOProject from './SEOProject';
 
 const page = () => {
   return (
