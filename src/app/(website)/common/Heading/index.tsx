@@ -37,7 +37,9 @@ const Heading = ({
   isVarticle,
   isLabel,
 }: IHeading) => {
-  const words = title.split(' ');
+  const safeTitle = title ?? '';
+  const words = safeTitle.split(' ');
+
   return (
     <div className={className}>
       {isVarticle ? (
@@ -101,20 +103,23 @@ const Heading = ({
                     alt=""
                     className="mb-auto"
                   />
-                  <span className={`my-auto font-montserrat text-[10px] font-normal uppercase ${isBgWhite ? 'text-[#111111]' : 'text-white'} xl:text-[14px]`}
+                  <span
+                    className={`my-auto font-montserrat text-[10px] font-normal uppercase ${isBgWhite ? 'text-[#111111]' : 'text-white'} xl:text-[14px]`}
                   >
                     {subTitle}
                   </span>
                 </div>
                 <div className="mb-auto mt-3 h-0.5 w-[8rem] bg-[#D7EBFF]"></div>
-                <div className={` mt-[-1rem] ${headingWidth}`}>
+                <div className={`mt-[-1rem] ${headingWidth}`}>
                   {isH1 ? (
-                    <h1 className={`capitalize `}>
+                    <h1 className={`capitalize`}>
                       {words.slice(0, breakIndex).join(' ')} <br />
                       {words.slice(breakIndex).join(' ')}
                     </h1>
                   ) : (
-                    <h2 className={`capitalize  ${isBgWhite ? 'text-[#111111]' : 'text-white'}`}>
+                    <h2
+                      className={`capitalize ${isBgWhite ? 'text-[#111111]' : 'text-white'}`}
+                    >
                       {words.slice(0, breakIndex).join(' ')} <br />
                       {words.slice(breakIndex).join(' ')}
                     </h2>
@@ -217,7 +222,6 @@ const Heading = ({
                     </h2>
                   )}
                 </div>
-
               </div>
               <div className={`${isDecVarticle && 'pt-[1rem]'}`}>
                 <p
