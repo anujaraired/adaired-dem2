@@ -6,7 +6,8 @@ import Heading from '../../common/Heading';
 import Image from 'next/image';
 import leftImg from '../../../../../public/assets/banner_left_gridiant.png';
 import rightImg from '../../../../../public/assets/banner_right_gridiant.png';
-//test
+import contactUsHand from '../../../../../public/assets/contact_us_hand.png'
+
 const PageBanner = ({ subTitle, title }: any) => {
   const pathname = usePathname();
 
@@ -15,33 +16,81 @@ const PageBanner = ({ subTitle, title }: any) => {
     pathname?.startsWith('/blog/') && pathname !== '/blog';
 
   return (
-    <div className="relative flex h-40 w-full flex-col justify-center overflow-hidden pt-[5rem] md:h-48 lg:h-[25rem]">
+    <div className="relative flex h-[14rem] w-full flex-col justify-center overflow-hidden pt-[6rem] md:h-64 lg:h-[25rem]">
       {/* Left Image */}
       <div className="absolute inset-y-0 left-0 w-1/2">
-        <Image src={leftImg} fill className="object-contain" priority alt="" />
+        <Image src={leftImg} fill priority alt="" />
       </div>
 
       {/* Right Image */}
       <div className="absolute inset-y-0 right-0 w-1/2">
-        <Image src={rightImg} fill className="object-contain" priority alt="" />
+        <Image src={rightImg} fill priority alt="" />
       </div>
 
       <MaxWidthWrapper>
-        <Heading isBgWhite={true} subTitle={subTitle} title={title} span={''} />
+        <div className='flex items-end'>
+          <Heading subTitle={subTitle} title={title} span={''} />
+          <Image
+            src={contactUsHand}
+            alt="icon"
+            className="h-[152px] w-[152px] absolute left-[460px] top-1/2"
+          />
+        </div>
       </MaxWidthWrapper>
-
-      {/* <MaxWidthWrapper className="relative">
-        <Heading subTitle={subTitle} title={title} span={''} />
-
-        <Image
-          src={contactUsHand}
-          alt="icon"
-          className="absolute left-[400px] top-1/2 -translate-y-1/2 h-[152px] w-[152px]"
-        />
-      </MaxWidthWrapper> */}
 
     </div>
   );
 };
 
 export default PageBanner;
+
+
+
+
+// 'use client';
+
+// import { usePathname } from 'next/navigation';
+// import MaxWidthWrapper from '@web-components/MaxWidthWrapper';
+// import Heading from '../../common/Heading';
+// import Image from 'next/image';
+// import leftImg from '../../../../../public/assets/banner_left_gridiant.png';
+// import rightImg from '../../../../../public/assets/banner_right_gridiant.png';
+// //test
+// const PageBanner = ({ subTitle, title }: any) => {
+//   const pathname = usePathname();
+
+//   // Check if the URL starts with '/blog/' and has something after it
+//   const isBlogDetailPage =
+//     pathname?.startsWith('/blog/') && pathname !== '/blog';
+
+//   return (
+//     <div className="relative flex h-40 w-full flex-col justify-center overflow-hidden pt-[5rem] md:h-48 lg:h-[25rem]">
+//       {/* Left Image */}
+//       <div className="absolute inset-y-0 left-0 w-1/2">
+//         <Image src={leftImg} fill className="object-contain" priority alt="" />
+//       </div>
+
+//       {/* Right Image */}
+//       <div className="absolute inset-y-0 right-0 w-1/2">
+//         <Image src={rightImg} fill className="object-contain" priority alt="" />
+//       </div>
+
+//       <MaxWidthWrapper>
+//         <Heading isBgWhite={true} subTitle={subTitle} title={title} span={''} />
+//       </MaxWidthWrapper>
+
+//       {/* <MaxWidthWrapper className="relative">
+//         <Heading subTitle={subTitle} title={title} span={''} />
+
+//         <Image
+//           src={contactUsHand}
+//           alt="icon"
+//           className="absolute left-[400px] top-1/2 -translate-y-1/2 h-[152px] w-[152px]"
+//         />
+//       </MaxWidthWrapper> */}
+
+//     </div>
+//   );
+// };
+
+// export default PageBanner;

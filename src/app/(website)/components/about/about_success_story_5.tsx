@@ -144,7 +144,7 @@ const AboutSuccessStory = () => {
             </p>
 
             <p className="mt-6 sm:mt-8 text-sm sm:text-base max-w-3xl font-semibold">
-              <span className="text-[#1B5A96]">
+              <span className="text-[#1B5A96] text-sm">
                 {d.section1.quote.blue}
               </span>
               {d.section1.quote.normal}

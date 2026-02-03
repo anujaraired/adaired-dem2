@@ -179,6 +179,7 @@ const Heading = ({
             <div
               className={`${isDecVarticle && 'grid grid-cols-1 lg:grid-cols-2 lg:gap-[10rem]'}`}
             >
+              {/* This will work when the heading is not left nor center */}
               <div className="md:flex` block w-fit justify-center justify-items-start gap-3 md:justify-center md:justify-items-start lg:justify-start lg:justify-items-start">
                 {/* <div className="flex w-fit gap-3 rounded-full border-[0.71px] border-[#000000]/20 px-[1rem] py-[0.25rem]"> */}
                 <div className="flex w-fit gap-3 py-[0.25rem]">
@@ -201,7 +202,7 @@ const Heading = ({
                       {span}
                     </h1>
                   ) : (
-                    <h2 className={`text-center capitalize lg:text-left ${isBgWhite ? "text-[#000000]":"text-[#000000]"}`}>
+                    <h2 className={`text-left capitalize lg:text-left ${isBgWhite ? "text-[#000000]":"text-[#000000]"}`}>
                       {title} <br></br>
                       {span}
                     </h2>
