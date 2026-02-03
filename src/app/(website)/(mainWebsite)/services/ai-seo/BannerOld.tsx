@@ -7,17 +7,51 @@ import banner_img_2 from '../../../../../../public/assets/images/home/banner_img
 import banner_img_3 from '../../../../../../public/assets/images/home/banner_img_3.png';
 import banner_img_4 from '../../../../../../public/assets/images/home/banner_img_3.png';
 import hero_banner from '../../../../../../public/assets/images/home/hero_banner-bg.png';
+import { useRouter } from 'next/navigation';
+import { FaUser } from 'react-icons/fa';
+import { FiArrowUpRight } from 'react-icons/fi';
 import google_rate from '../../../../../../public/google_rate.svg';
 import google_review from '../../../../../../public/image 54.png';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import WebAuditField from '../../../components/UI/WebAuditField';
 
-const Banner = () => {
+const BannerOld = () => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
   const images = ['img1', 'img2', 'img3', 'img4'] as const;
   const [activeIndex, setActiveIndex] = useState(0);
 
   const [active, setActive] = useState<null | 'img3' | 'img2' | 'img1'>(null);
+
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     // 1️⃣ IMG 3
+  //     setActive('img2');
+
+  //     setTimeout(() => {
+  //       setActive(null);
+
+  //       // 2️⃣ IMG 2
+  //       setTimeout(() => {
+  //         setActive('img3');
+
+  //         setTimeout(() => {
+  //           setActive(null);
+
+  //           // 3️⃣ IMG 1
+  //           setTimeout(() => {
+  //             setActive('img1');
+
+  //             setTimeout(() => {
+  //               setActive(null);
+  //             }, 2000); // img1 stay
+  //           }, 400);
+  //         }, 2000); // img2 stay
+  //       }, 400);
+  //     }, 2000); // img3 stay
+  //   }, 5200); // total cycle time
+
+  //   return () => clearInterval(interval);
+  // }, []);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -126,18 +160,44 @@ const Banner = () => {
                 } `}
               />
             </div>
+            {/* <Image
+              src={banner_img_4}
+              width={302}
+              height={186}
+              alt=""
+              className={`absolute left-[0rem] top-[25%] h-[10rem] w-[16rem] transition-opacity transition-transform duration-700 ease-in-out ${
+                active === 'img3'
+                  ? '-translate-y-1/2] left-1/2 top-1/2 z-30 -translate-x-1/2 scale-105 opacity-100 backdrop-blur-md'
+                  : active
+                    ? 'z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
+                    : 'z-10 translate-x-0 translate-y-0 scale-100 opacity-100'
+              }`}
+            /> */}
             <Image
               src={banner_img_4}
               width={302}
               height={186}
               alt=""
-              className={`absolute h-[10rem] w-[16rem] transition-all duration-700 ease-in-out ${
+              className={`absolute left-0 top-[25%] h-[10rem] w-[16rem] transition-all duration-700 ease-in-out ${
                 isActive('img4')
-                  ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 -translate-y-1/2 scale-105 opacity-100'
-                  : 'left-0 top-[25%] z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
+                  ? '-translate-y-1/2] left-1/2 top-1/2 z-30 -translate-x-1/2 scale-105 opacity-100 backdrop-blur-md'
+                  : 'z-10 opacity-40'
               } `}
             />
 
+            {/* <Image
+              src={banner_img_3}
+              width={302}
+              height={186}
+              alt=""
+              className={`absolute bottom-0 right-[25%] h-[10rem] w-[16rem] transition-opacity transition-transform duration-700 ease-in-out ${
+                active === 'img3'
+                  ? 'left-1/2 top-1/2 z-30 -translate-x-1/2 -translate-y-1/2 scale-105 opacity-100 backdrop-blur-md'
+                  : active
+                    ? 'z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
+                    : 'z-10 translate-x-0 translate-y-0 scale-100 opacity-100'
+              }`}
+            /> */}
             <Image
               src={banner_img_3}
               width={302}
@@ -149,6 +209,20 @@ const Banner = () => {
                   : 'z-10 opacity-40'
               } `}
             />
+
+            {/* <Image
+              src={banner_img_2}
+              width={388}
+              height={244}
+              alt=""
+              className={`absolute right-0 top-0 h-[10rem] w-[16rem] transition-opacity transition-transform duration-700 ease-in-out ${
+                active === 'img2'
+                  ? 'left-1/2 top-1/2 z-30 -translate-x-1/2 -translate-y-1/2 scale-105 bg-white/80 opacity-100 backdrop-blur-md'
+                  : active
+                    ? 'z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
+                    : 'z-10 translate-x-0 translate-y-0 scale-100 opacity-100'
+              }`}
+            /> */}
             <Image
               src={banner_img_2}
               width={388}
@@ -167,4 +241,4 @@ const Banner = () => {
   );
 };
 
-export default Banner;
+export default BannerOld;

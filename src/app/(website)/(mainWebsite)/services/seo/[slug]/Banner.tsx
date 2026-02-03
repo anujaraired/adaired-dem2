@@ -1,16 +1,16 @@
 'use client';
 import React, { useEffect, useState } from 'react';
-import MaxWidthWrapper from '../../../components/MaxWidthWrapper';
+import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Image from 'next/image';
-import banner_img_1 from '../../../../../../public/assets/images/home/banner_img_1.png';
-import banner_img_2 from '../../../../../../public/assets/images/home/banner_img_2.png';
-import banner_img_3 from '../../../../../../public/assets/images/home/banner_img_3.png';
-import banner_img_4 from '../../../../../../public/assets/images/home/banner_img_3.png';
-import hero_banner from '../../../../../../public/assets/images/home/hero_banner-bg.png';
-import google_rate from '../../../../../../public/google_rate.svg';
-import google_review from '../../../../../../public/image 54.png';
+import banner_img_1 from '../../../../../../../public/assets/images/home/banner_img_1.png';
+import banner_img_2 from '../../../../../../../public/assets/images/home/banner_img_2.png';
+import banner_img_3 from '../../../../../../../public/assets/images/home/banner_img_3.png';
+import banner_img_4 from '../../../../../../../public/assets/images/home/banner_img_3.png';
+import hero_banner from '../../../../../../../public/assets/images/home/hero_banner-bg.png';
+import google_rate from '../../../../../../../public/google_rate.svg';
+import google_review from '../../../../../../../public/image 54.png';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
-import WebAuditField from '../../../components/UI/WebAuditField';
+import WebAuditField from '@/app/(website)/components/UI/WebAuditField';
 
 const Banner = () => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);

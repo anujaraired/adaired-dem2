@@ -2,8 +2,7 @@ import Heading from '@/app/(website)/common/Heading';
 import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import React from 'react';
-import NotSeeingResultsBg from '../../../../../../public/assets/aiseo/stop-struggle.png';
-import NotSeeingResult from '../../../../../../public/assets/aiseo/NotSeeingResults.png';
+import NotSeeingResultsBg from '../../../../../../../public/assets/aiseo/stop-struggle.png';
 import Image from 'next/image';
 
 const Stopstruggling = () => {
