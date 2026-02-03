@@ -131,12 +131,13 @@ const Banner = () => {
               width={302}
               height={186}
               alt=""
-              className={`absolute left-0 top-[25%] h-[10rem] w-[16rem] transition-all duration-700 ease-in-out ${
+              className={`absolute h-[10rem] w-[16rem] transition-all duration-700 ease-in-out ${
                 isActive('img4')
-                  ? '-translate-y-1/2] left-1/2 top-1/2 z-30 -translate-x-1/2 scale-105 opacity-100 backdrop-blur-md'
-                  : 'z-10 opacity-40'
+                  ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 -translate-y-1/2 scale-105 opacity-100'
+                  : 'left-0 top-[25%] z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
               } `}
             />
+
             <Image
               src={banner_img_3}
               width={302}
