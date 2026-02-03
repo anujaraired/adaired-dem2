@@ -14,7 +14,7 @@ import Rec from '@/assets/About.png';
 import Aboutrec from '@/assets/Aboutrec.png';
 import Image from 'next/image';
 import { aboutData } from '@/dataa/aboutData';
-
+//test
 export const metadata: Metadata = {
   title: 'Unveiling Adaired: Our History, Team, and Vision | Learn About Us',
   description:
