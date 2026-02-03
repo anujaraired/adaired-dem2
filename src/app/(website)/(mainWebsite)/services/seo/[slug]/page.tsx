@@ -19,6 +19,7 @@ import DominateAI from './DominateAI';
 import { SERVICES_DATA } from './data';
 import { useParams } from 'next/navigation';
 import NotFound from '@/app/not-found';
+import ReadyToStart from './ReadyToStart';
 export type ServiceSlug = keyof typeof SERVICES_DATA;
 
 const page = () => {
@@ -66,6 +67,7 @@ const page = () => {
       )}
       <DominateAI getplan={serviceData?.getplan} />
       {serviceData.faqData && <FAQ faqs={serviceData.faqData} />}
+      <ReadyToStart/>
     </div>
   );
 };
