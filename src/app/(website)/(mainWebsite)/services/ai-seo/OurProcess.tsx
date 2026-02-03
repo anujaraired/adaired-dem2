@@ -126,7 +126,7 @@ const OurProcess = () => {
             />
 
             {/* CIRCLE WRAPPER */}
-            <div className="relative mt-[5rem] flex h-[520px] w-[520px] items-center justify-center bg-green-500">
+            <div className="relative mt-[5rem] flex h-[520px] w-[520px] items-center justify-center">
               {/* OUTER RING */}
               <div className="absolute inset-0 rounded-full border border-[#00000033]" />
 
