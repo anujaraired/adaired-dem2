@@ -90,7 +90,7 @@ const AboutLaptop = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 w-full">
 
             {/* LEFT CONTENT */}
-            <div className="flex items-center text-center lg:text-left sm:text-left z-10">
+            <div className="flex items-center justify-center md:justify-start lg:justify-start text-center lg:text-left sm:text-left z-10">
               <Heading
                 subTitle={d.section4.heading.subTitle}
                 breakIndex={d.section4.heading.breakIndex}

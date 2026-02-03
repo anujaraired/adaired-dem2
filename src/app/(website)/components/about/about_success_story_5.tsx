@@ -130,7 +130,7 @@ const AboutSuccessStory = () => {
           </div>
 
           {/* CONTENT */}
-          <div className="w-full text-left md:text-left">
+          <div className="w-full flex flex-col items-center justify-center md:items-start lg:items-start text-left md:text-left">
             <Heading
               isBgWhite
               isVarticle={false}
@@ -139,11 +139,11 @@ const AboutSuccessStory = () => {
               title={d.section5.heading.title}
             />
 
-            <p className="mt-4 text-sm sm:text-base text-gray-700 leading-relaxed">
+            <p className="mt-4 text-center md:text-left lg:text-left text-sm sm:text-base text-gray-700 leading-relaxed">
               {d.section5.text}
             </p>
 
-            <p className="mt-6 sm:mt-8 text-sm sm:text-base max-w-3xl font-semibold">
+            <p className="mt-6 sm:mt-8 text-center md:text-left lg-text-left text-sm sm:text-base max-w-3xl font-semibold">
               <span className="text-[#1B5A96] text-sm">
                 {d.section1.quote.blue}
               </span>

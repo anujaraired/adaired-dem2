@@ -123,7 +123,7 @@ const AboutImageSlider = () => {
                         <div className="bg-[#D7EBFF] w-full h-[1px] lg:w-[1px] lg:h-[130px] flex-shrink-0" />
 
                         {/* SLIDER */}
-                        <div className="overflow-hidden flex-1">
+                        <div className="overflow-hidden flex-1 py-2">
                             <div className="flex items-center w-max animate-marquee">
                                 {sliderItems.map((cert, idx) => (
                                     <div key={idx} className="flex-shrink-0">
@@ -139,7 +139,6 @@ const AboutImageSlider = () => {
                                 ))}
                             </div>
                         </div>
-
                     </div>
                 </div>
             </MaxWidthWrapper>

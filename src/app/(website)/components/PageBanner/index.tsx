@@ -6,7 +6,7 @@ import Heading from '../../common/Heading';
 import Image from 'next/image';
 import leftImg from '../../../../../public/assets/banner_left_gridiant.png';
 import rightImg from '../../../../../public/assets/banner_right_gridiant.png';
-import contactUsHand from '../../../../../public/assets/contact_us_hand.png'
+// import contactUsHand from '../../../../../public/assets/contact_us_hand.png'
 
 const PageBanner = ({ subTitle, title }: any) => {
   const pathname = usePathname();
@@ -28,13 +28,13 @@ const PageBanner = ({ subTitle, title }: any) => {
       </div>
 
       <MaxWidthWrapper>
-        <div className='flex items-end'>
+        <div className='flex items-end justify-center md:justify-start lg:justify-start'>
           <Heading subTitle={subTitle} title={title} span={''} />
-          <Image
+          {/* <Image
             src={contactUsHand}
             alt="icon"
             className="h-[152px] w-[152px] absolute left-[460px] top-1/2"
-          />
+          /> */}
         </div>
       </MaxWidthWrapper>
 
