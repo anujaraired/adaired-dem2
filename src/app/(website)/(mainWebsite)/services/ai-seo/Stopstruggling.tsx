@@ -16,7 +16,7 @@ const Stopstruggling = () => {
     >
       <MaxWidthWrapper className="flex justify-center">
         <div className="mx-auto w-fit text-center">
-          <h2 className="mx-auto w-[70%] text-[35px] font-semibold text-[#FFFFFF]">
+          <h2 className="mx-auto w-[70%] text-[24px] sm:text-[35px] md:text-[35px] lg:text-[35px] leading-tight font-semibold text-[#FFFFFF]">
             Stop struggling with low traffic and poor visibility. Let Adaired’s
             AI-powered SEO audit uncover the gaps, optimize your site, and help
             your business outrank competitors.
@@ -26,7 +26,7 @@ const Stopstruggling = () => {
             name="Start Your AI SEO Journey Now"
             isBgWhite={true}
             isIcon={true}
-            className="mx-auto mt-[2rem] w-[23rem]"
+            className="mx-auto mt-[2rem] w-[18rem] sm:w-[23rem] md:w-[23rem] lg:w-[23rem]"
           />
         </div>
       </MaxWidthWrapper>

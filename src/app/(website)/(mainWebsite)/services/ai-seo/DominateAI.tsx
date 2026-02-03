@@ -17,7 +17,7 @@ const DominateAI = () => {
         style={{ backgroundImage: `url(${background.src})` }}
       />
       <MaxWidthWrapper className="relative z-10">
-        <div className="space-y-5 py-24 text-center">
+        <div className="space-y-5 py-24 text-center px-2">
           <h1 className="text-white">Dominate AI Search Today</h1>
           <h3 className="text-white">
             Get a custom plan to optimize for AI-driven results: structured

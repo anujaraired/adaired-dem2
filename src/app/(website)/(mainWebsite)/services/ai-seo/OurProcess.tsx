@@ -17,7 +17,6 @@ export interface ServiceItem {
   link: string;
   image?: StaticImageData; // ✅ OPTIONAL (important)
 }
-//test
 
 const OurProcess = () => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.1);
@@ -79,7 +78,7 @@ const OurProcess = () => {
   return (
     <div
       ref={ref}
-      className="bg-[#F5F5F599] py-[3rem] lg:py-[4rem] xl:py-[6rem]"
+      className="bg-[#F5F5F599] px-2 py-[3rem] lg:py-[4rem] xl:py-[6rem]"
       id="services"
     >
       <MaxWidthWrapper>
@@ -127,7 +126,7 @@ const OurProcess = () => {
             />
 
             {/* CIRCLE WRAPPER */}
-            <div className="relative mt-[5rem] flex h-[520px] w-[520px] items-center justify-center">
+            <div className="relative mt-[5rem] flex h-[520px] w-[520px] items-center justify-center bg-green-500">
               {/* OUTER RING */}
               <div className="absolute inset-0 rounded-full border border-[#00000033]" />
 

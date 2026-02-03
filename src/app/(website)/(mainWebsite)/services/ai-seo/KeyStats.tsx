@@ -17,20 +17,20 @@ const KeyStats = () => {
           subTitle={''}
           title={keyStats?.heading}
         />
-        <div className="grid grid-cols-3 gap-[1rem]">
+        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-[1rem]">
           {keyStats?.list?.slice(0, 3).map((item) => {
             return (
-              <div className="rounded-[1rem] bg-[#F9F9F9] p-[2rem]">
+              <div className="rounded-[1rem] bg-[#F9F9F9] p-[2rem] flex flex-col items-center text-center md:text-left lg:text-left">
                 <Image src={groth} width={50} height={50} alt="img" />
                 <p className="pt-[2rem]">{item?.desctioption}</p>
               </div>
             );
           })}
         </div>
-        <div className="mt-[1rem] grid grid-cols-2 gap-[1rem]">
+        <div className="mt-[1rem] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-[1rem]">
           {keyStats?.list?.slice(4, 6).map((item) => {
             return (
-              <div className="rounded-[1rem] bg-[#F9F9F9] p-[2rem]">
+              <div className="rounded-[1rem] bg-[#F9F9F9] p-[2rem] flex flex-col items-center text-center md:text-left lg:text-left">
                 <Image src={groth} width={50} height={50} alt="img" />
                 <p className="pt-[2rem]">{item?.desctioption}</p>
               </div>

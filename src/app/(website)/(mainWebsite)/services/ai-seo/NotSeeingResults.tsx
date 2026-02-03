@@ -15,7 +15,7 @@ const NotSeeingResults = () => {
       }}
     >
       <MaxWidthWrapper className="grid w-full grid-cols-1 gap-[2rem] p-3 lg:grid-cols-2">
-        <div className='my-auto'>
+        <div className='my-auto flex flex-col items-center sm:items-center md:items-center lg:items-start'>
           <Heading
             isBgWhite={true}
             isH1={true}
@@ -30,7 +30,7 @@ const NotSeeingResults = () => {
           />
         </div>
 
-        <div className="pt-2 flex justify-end justify-items-end">
+        <div className="pt-2 flex justify-center justify-items-end">
           <Image src={NotSeeingResult} alt="imh" />
         </div>
       </MaxWidthWrapper>

@@ -21,9 +21,9 @@ const AdairedHelp = () => {
           className="mx-auto"
         />
 
-        <div className="flex justify-between pt-[3rem]">
+        <div className="flex flex-col sm:flex-row md:flex-col lg:flex-row gap-[2rem] justify-between pt-[3rem]">
           {/* LEFT IMAGE */}
-          <div className="relative h-[35rem] w-[40%] rounded-[20px]">
+          <div className="relative h-[24rem] sm:h-[35rem] md:h-[35rem] lg:h-[35rem] w-full sm:w-[40%] md:w-full rounded-[20px]">
             <Image
               src={adairedHelpImg}
               fill
@@ -34,7 +34,7 @@ const AdairedHelp = () => {
           </div>
 
           {/* RIGHT TABS */}
-          <div className="flex w-[55%] flex-col gap-[1rem]">
+          <div className="grid w-full sm:w-[55%] md:w-full gap-[1rem]">
             {adairedHelp?.list?.map((item, index) => {
               return (
                 <div

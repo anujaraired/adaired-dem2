@@ -13,7 +13,7 @@ const WebAuditField = ({ className }: any) => {
       <SaveAndCancel
         isIcon={true}
         name="Get Start"
-        className="absolute right-2 top-1 h-12 w-[25%] text-[16px]"
+        className="absolute right-2 top-1 h-12 w-[36%] md:[w-25%] lg:w-[25%] text-[16px]"
       />
     </div>
   );

@@ -46,8 +46,8 @@ const Banner = () => {
         <div
           className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[45%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
         >
-          <div className={`'grid lg:gap-[10rem]'} grid-cols-1 lg:grid-cols-2`}>
-            <div className="md:flex` block w-fit justify-center justify-items-center gap-3 md:justify-center md:justify-items-center lg:justify-start lg:justify-items-start">
+          <div className={`'grid lg:gap-[10rem]'} grid-cols-1 lg:grid-cols-2 flex justify-center flex-col items-center sm:items-center md:items-center lg:items-start`}>
+            <div className="md:flex` block w-fit justify-center justify-items-center gap-3 md:justify-start md:justify-items-center lg:justify-start lg:justify-items-start">
               <div className="mt-[0.8rem] md:mt-[8px] lg:mt-[0.5rem]">
                 <h1 className="text-center capitalize lg:text-left">
                   Where AI Meets
@@ -68,7 +68,7 @@ const Banner = () => {
                 growth. Experience smarter SEO that not only ranks but
                 accelerates your success.
               </p>
-              <h3 className="text-[22px] font-[600] leading-[32px]">
+              <h3 className="text-[22px] font-[600] leading-[32px] text-center sm:text-center md:text-center lg:text-left">
                 Ready to Build Topical Authority and Maximize Discoverability?
               </h3>
             </div>

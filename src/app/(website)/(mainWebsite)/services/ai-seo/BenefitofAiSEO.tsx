@@ -7,12 +7,12 @@ const BenefitofAiSEO = () => {
   return (
     <div className="bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0]/70 to-[#FFF8F0]/30 py-[3rem] lg:py-[6rem]">
       <MaxWidthWrapper>
-        <div className="flex justify-between">
+        <div className="flex flex-col">
           <Heading
             title={benefitofAiSeo?.heading}
-            className="w-[100%] lg:w-[35%]"
+            className="w-[100%] lg:w-[35%] flex items-center justify-center"
           />
-          <div className="w-[100%] lg:w-[60%]">
+          <div className="w-[100%] lg:w-[60%] text-center sm:text-center md:text-center lg:text-left">
             {benefitofAiSeo?.description?.map((item, idx: number) => {
               return (
                 <p key={idx} className="py-2">
