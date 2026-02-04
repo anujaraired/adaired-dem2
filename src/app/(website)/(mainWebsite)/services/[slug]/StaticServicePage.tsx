@@ -48,7 +48,9 @@ const StaticServicePage = ({ serviceData }: any) => {
       {serviceData.serviceResult?.isVisible && (
         <AISEOResult aiseoResult={serviceData.serviceResult} />
       )}
-      <NotSeeingResults />
+      {serviceData?.notSeeingResult?.isVisible && (
+        <NotSeeingResults notSeeingResult={serviceData?.notSeeingResult} />
+      )}
       {serviceData.adairedHelp?.isVisible && (
         <AdairedHelp adairedHelp={serviceData.adairedHelp} />
       )}
@@ -58,7 +60,9 @@ const StaticServicePage = ({ serviceData }: any) => {
         <Stopstruggling stopStruggling={serviceData?.stopStruggling} />
       )}
 
-      <LeadingTools />
+      {serviceData?.leadingTools?.isVisible && (
+        <LeadingTools leadingTools={serviceData?.leadingTools} />
+      )}
       {serviceData.ourProcess && (
         <OurProcess ourProcess={serviceData.ourProcess} />
       )}

@@ -7,14 +7,14 @@ import NotSeeingResult from '../../../../../../public/assets/aiseo/NotSeeingResu
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
-const NotSeeingResults = () => {
+const NotSeeingResults = ({ notSeeingResult }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
 
   return (
     <div
       className="flex items-center bg-cover bg-center bg-no-repeat"
       style={{
-        backgroundImage: `url(${NotSeeingResultsBg.src})`,
+        backgroundImage: `url(${notSeeingResult?.bgImage.src})`,
       }}
     >
       <MaxWidthWrapper className="grid w-full grid-cols-1 gap-[2rem] p-3 lg:grid-cols-2">
@@ -24,11 +24,11 @@ const NotSeeingResults = () => {
           <Heading
             isBgWhite={true}
             isH1={true}
-            title="Not Seeing Results?"
-            description="Let AI Reveal What’s Holding You Back."
+            title={notSeeingResult?.heading}
+            description={notSeeingResult?.description}
           />
           <SaveAndCancel
-            name="Get Your Free AI SEO Audit"
+            name={notSeeingResult?.buttonName}
             isBgWhite={true}
             isIcon={true}
             className="w-[20rem] pt-[2rem]"

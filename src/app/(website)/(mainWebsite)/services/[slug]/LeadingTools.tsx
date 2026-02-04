@@ -14,22 +14,36 @@ import client_7 from '../../../../../../public/assets/LeadingTools/Group 1000005
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
-const LeadingTools = () => {
+const LeadingTools = ({ leadingTools }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.25);
-  const data = [client_1, client_2, client_3, client_4, client_5, client_6,client_7];
+  const data = [
+    client_1,
+    client_2,
+    client_3,
+    client_4,
+    client_5,
+    client_6,
+    client_7,
+  ];
 
   return (
-    <div ref={ref} className="py-[3rem] lg:py-[4rem] xl:py-[6rem]">
+    <div
+      ref={ref}
+      className="py-[3rem] lg:py-[4rem] xl:py-[6rem]"
+      style={{
+        backgroundImage: `url(${leadingTools?.bgImage.src})`,
+      }}
+    >
       <MaxWidthWrapper>
         <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
         >
           <Heading
             breakIndex={6}
-            title={'Powered By Leading Tools For Maximum Performance and Efficiency '}
-            description="Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently."
+            title={leadingTools?.heading}
+            description={leadingTools?.description}
             isInCenter={true}
-            isBgWhite={true}
+            isBgWhite={!leadingTools?.bgImage && true}
           />
         </div>
 
@@ -37,7 +51,7 @@ const LeadingTools = () => {
           {data?.map((client, idx) => (
             <div
               key={idx}
-              className={`group border-[1px] rounded-[20px] border-[#000000]/5 flex items-center justify-center overflow-hidden transition-all duration-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'} `}
+              className={`group flex items-center justify-center overflow-hidden rounded-[20px] border-[1px] border-[#000000]/5 transition-all duration-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'} `}
               style={{
                 transitionDelay: `${idx * 60}ms`,
               }}

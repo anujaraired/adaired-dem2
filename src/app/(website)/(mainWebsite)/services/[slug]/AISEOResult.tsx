@@ -16,7 +16,9 @@ const AISEOResult = ({ aiseoResult }: any) => {
     activeIndex !== null ? aiseoResult?.list?.[activeIndex] : null;
 
   return (
-    <div className="py-[3rem] lg:py-[6rem]">
+    <div
+      className={`py-[3rem] lg:py-[6rem] ${aiseoResult?.isBgColor ? 'bg-[#FFF8F0]' : 'bg-[#FFFFFF]'}`}
+    >
       <MaxWidthWrapper>
         <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
@@ -37,6 +39,7 @@ const AISEOResult = ({ aiseoResult }: any) => {
             className={`relative h-[480px] w-[42%] rounded-[20px] transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
           >
             <>
+            
               <Image
                 src={image}
                 fill
@@ -64,9 +67,9 @@ const AISEOResult = ({ aiseoResult }: any) => {
                   key={index}
                   onClick={() => setActiveIndex(isActive ? null : index)}
                   onMouseEnter={() => setActiveIndex(index)}
-                  className={`cursor-pointer rounded-[20px] border p-[1.5rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${
+                  className={`cursor-pointer rounded-[20px] border p-[1.5rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${aiseoResult?.isBgColor ? 'bg-[#FFFFFF]' : 'bg-[#F3F3F3]'} ${
                     isActive
-                      ? 'border-[#FB9100]/20 bg-[#FFF8F0]'
+                      ? 'border-[#FB9100]/20 bg-[#F3F3F3]'
                       : 'border-[#00000014] bg-[#F3F3F3]'
                   }`}
                   style={{

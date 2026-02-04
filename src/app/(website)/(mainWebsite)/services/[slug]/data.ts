@@ -11,6 +11,9 @@ import step_2 from '../../../../../../public/assets/aiseo/process/Group 10000058
 import step_3 from '../../../../../../public/assets/aiseo/process/Group 1000005847.svg';
 import step_4 from '../../../../../../public/assets/aiseo/process/Group 1000005848.svg';
 import step_5 from '../../../../../../public/assets/aiseo/process/Group 1000005849.svg';
+import NotSeeingResultsBg from '../../../../../../public/assets/NotSeeingResultsBg.png';
+import NotSeeingResultsBg2 from '../../../../../../public/assets/NotSeeingResultsBg2.png';
+import leadingTools from '../../../../../../public/assets/leadingTools.png';
 
 export const SERVICES_DATA = {
   'search-engine-optimization': {
@@ -284,9 +287,15 @@ export const SERVICES_DATA = {
       ],
     },
     serviceResult: {
-      isVisible: false,
+      isVisible: true,
       heading:
         'Struggling to Rank in AI SEO Results? Here’s What You Need to Know',
+      bgImage: '',
+      description: [
+        'Adaired, a leading SEO agency, puts your business at the forefront of technology with the help of proven SEO strategies. We help your business stay visible, no matter how the search changes.',
+        `With the help of our data-driven insights, strategic approach, and commitment to performance, we help your business emerge as a premier seo company.`,
+      ],
+      isBgColor: true,
       list: [
         {
           img: aiseoresult,
@@ -322,56 +331,54 @@ export const SERVICES_DATA = {
         },
       ],
     },
+    notSeeingResult: {
+      isVisible: true,
+      heading: 'Every day you wait is a lost lead.',
+      description: 'Start SEO that converts now.',
+      buttonName: 'Book a Free Consultation',
+      bgImage: NotSeeingResultsBg2,
+    },
+    leadingTools: {
+      isVisible: true,
+      heading: 'Powered By Leading Brands From All Around The World',
+      description:
+        'We have worked with some of the leading brands to turn visitors into leads and paying customers. ',
+      bgImage: leadingTools,
+    },
     adairedHelp: {
-      isVisible: false,
-      heading: 'How Can Adaired Help You With AI SEO Services?',
+      isVisible: true,
+      heading:
+        'List of comprehensive SEO Services that Drive Revenue and Traffic',
       list: [
         {
-          img: aiseoresult,
-          name: 'AI-Led SEO Strategies Tailored to Your Business Goals',
+          name: 'AI SEO',
           description: [
-            'Adaired designs AI-powered SEO strategies that work exactly in line with your business goals. By analyzing industry trends, competitor actions, and search results of users, ',
-            `we develop tailor-made roadmaps to achieve sustainable rankings, qualified traffic, ensuring your SEO efforts contribute directly to revenue, not just visibility.`,
+            `Our AI SEO services leverage artificial intelligence to enhance search engine optimization strategies with precision and efficiency. 
+            By analyzing large datasets, we identify keyword opportunities, optimize content, enhance technical performance, and predict user behavior. 
+            We do this to help our clients to adapt quickly to algorithm updates, scale SEO efforts, and achieve higher rankings with smarter, data-driven decisions.`,
           ],
         },
         {
-          img: aiseoresult_2,
-          name: 'Predictive Keyword Research That Stays Ahead of Trends',
+          name: 'Local SEO',
           description: [
-            'Our artificial intelligence-based keyword intelligence transcends normal research. Adaired identifies emerging search trends, high-intent keywords, and future-need keywords before they get competitive. ',
-            `This is a visionary strategy that will enable your brand to rank higher, capture traffic earlier, and have a sustained advantage in a constantly changing search environment.`,
+            `Our Local SEO helps businesses connect with customers in their immediate geographic area. 
+            It focuses on optimizing Google Business Profiles, local keywords, map listings, reviews, and citations to improve visibility in local search results. 
+            Our effective local SEO drives foot traffic, phone inquiries, and leads, making it essential for service-based and location-focused businesses. `,
           ],
         },
         {
-          img: aiseoresult_3,
-          name: 'Search Intent Optimization for Higher Conversions',
+          name: 'National SEO',
           description: [
-            `Adaired uses AI to decode the user's intent in each search query. We optimize content and pages to align with the informational, navigational, and transactional intents. This enhances interaction, `,
-            `minimizes bounces and maximizes conversions- to assist your site in capturing visitors with better chances of taking constructive action.`,
+            `Our National SEO services are designed for businesses targeting audiences across an entire country. 
+            It involves competitive keyword targeting, authoritative content creation, strong backlink profiles, and optimized website architecture. 
+            This approach builds brand authority, increases nationwide search visibility, and delivers consistent organic traffic in highly competitive markets and industries.`,
           ],
         },
         {
-          img: aiseoresult_4,
-          name: 'AI-Driven Content Strategy Focused on Topical Authority',
+          name: 'E-commerce SEO',
           description: [
-            'Adaired does not focus only on content optimization but creates a topical authority with the help of AI. We detect content gaps, cluster opportunities, and semantic links throughout your niche.',
-            `This approach helps search engines recognize your brand as an industry expert, improve your ranking on a variety of keywords, and make this search better than a content win of a short-term nature.`,
-          ],
-        },
-        {
-          img: aiseoresult_3,
-          name: 'Intelligent Technical SEO for Maximum Performance',
-          description: [
-            `Adaired is an AI-powered tool that reveals and prioritizes technical SEO problems that directly influence the rankings. From site speed and crawlability to indexing and Core Web Vitals, we fix what matters most first.`,
-            `We ensure your website loads fast, remains accessible, and is optimized both by users and search algorithms.`,
-          ],
-        },
-        {
-          img: aiseoresult_4,
-          name: 'Continuous AI Monitoring and Data-Driven Optimization',
-          description: [
-            'SEO is never static. Adaired relies on AI-based monitoring to monitor rankings, traffic modifications, and algorithm adjustments in real-time. ',
-            `This allows us to continuously refine strategies, take advantage of new opportunities, making your brand competitive, strong, and constantly increasing in the search results.`,
+            `E-commerce SEO improves the visibility of online stores in search engines to drive qualified traffic and sales. It optimizes product pages, category structures, site speed, and user experience. 
+            We deploy a strong e-commerce SEO strategy that increases conversions, enhances discoverability, and supports long-term growth by reducing reliance on paid advertising. `,
           ],
         },
       ],
@@ -636,6 +643,9 @@ export const SERVICES_DATA = {
       isVisible: true,
       heading:
         'Struggling to Rank in AI SEO Results? Here’s What You Need to Know',
+      description: null,
+      isBgColor: false,
+
       list: [
         {
           img: aiseoresult,
@@ -670,6 +680,21 @@ export const SERVICES_DATA = {
           ],
         },
       ],
+    },
+    notSeeingResult: {
+      isVisible: true,
+      heading: 'Not Seeing Results? ',
+      description: 'Let AI Reveal What’s Holding You Back.',
+      buttonName: 'Get Your Free AI SEO Audit',
+      bgImage: NotSeeingResultsBg,
+    },
+    leadingTools: {
+      isVisible: true,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
     },
     adairedHelp: {
       isVisible: true,
