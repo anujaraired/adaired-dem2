@@ -20,9 +20,11 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
 
             return (
               <div
-                className={`my-[2rem] flex justify-between rounded-[20px] p-[2rem] ${isOrange ? 'bg-[#FB9100]/5' : 'bg-[#F9F9F9]'}`}
+                // className={`my-[2rem] flex justify-between rounded-[20px] p-[2rem] ${isOrange ? 'bg-[#FB9100]/5' : 'bg-[#F9F9F9]'}`}
+                className={`my-[2rem] flex flex-col md:flex-col lg:flex-row justify-between rounded-[20px] p-[2rem] ${isOrange ? 'bg-[#FB9100]/5' : 'bg-[#F9F9F9]'}`}
               >
-                <div className="my-auto w-[100%] lg:w-[50%]">
+                {/* <div className="my-auto w-[100%] lg:w-[50%]"> */}
+                <div className="my-auto w-[100%] lg:w-[50%] text-center sm:text-left md:text-center lg:text-left">
                   <h3>{item?.name}</h3>
                   <div className="pt-[1rem]">
                     {item?.description?.map((desc: any) => {
@@ -30,7 +32,8 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
                     })}
                   </div>
                 </div>
-                <div className="flex w-[100%] justify-end justify-items-end lg:w-[40%]">
+                {/* <div className="flex w-[100%] justify-end justify-items-end lg:w-[40%]"> */}
+                <div className="flex w-[100%] justify-center justify-items-end md:justify-items-end lg:w-[40%]">
                   <Image src={item?.img} alt="if" />
                 </div>
               </div>

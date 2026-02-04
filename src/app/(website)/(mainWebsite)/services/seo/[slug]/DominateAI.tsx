@@ -18,7 +18,8 @@ const DominateAI = ({ getplan }: any) => {
         style={{ backgroundImage: `url(${background.src})` }}
       />
       <MaxWidthWrapper className="relative z-10">
-        <div className="space-y-5 py-24 text-center">
+        {/* <div className="space-y-5 py-24 text-center"> */}
+        <div className="space-y-5 py-24 text-center px-2">
           <Heading
             isLabel={true}
             breakIndex={5}

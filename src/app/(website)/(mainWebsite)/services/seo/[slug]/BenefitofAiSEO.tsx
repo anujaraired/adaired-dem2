@@ -1,6 +1,7 @@
 import Heading from '@/app/(website)/common/Heading';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import React from 'react';
+
 const BenefitofAiSEO = ({ benefitofAiSeo }: any) => {
   return (
     <div className="bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0]/70 to-[#FFF8F0]/30 py-[3rem] lg:py-[6rem]">
@@ -12,7 +13,8 @@ const BenefitofAiSEO = ({ benefitofAiSeo }: any) => {
             // className="w-[100%] lg:w-[35%]"
             className="w-[100%] lg:w-[35%] flex items-center justify-center"
           />
-          <div className="w-[100%] lg:w-[60%]">
+          {/* <div className="w-[100%] lg:w-[60%]"> */}
+          <div className="w-[100%] lg:w-[60%] text-center sm:text-center md:text-center lg:text-left">
             {benefitofAiSeo?.description?.map((item: any, idx: number) => {
               return (
                 <p key={idx} className="py-2">

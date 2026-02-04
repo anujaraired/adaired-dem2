@@ -18,42 +18,46 @@ const AdairedHelp = ({ adairedHelp }: any) => {
         />
 
         {/* IMPORTANT: relative wrapper */}
-        <div className="relative flex items-start gap-[3rem] pt-[3rem]">
+        {/* <div className="relative flex items-start gap-[3rem] pt-[3rem]"> */}
+        <div className="relative flex flex-col lg:flex-row items-start gap-[3rem] pt-[3rem]">
           {/* LEFT IMAGE – STICKY */}
-          <div className="sticky top-[16rem] w-[40%]">
-            <div className="relative h-[35rem] rounded-[20px]">
-              <Image
-                src={adairedHelpImg}
-                fill
-                className="rounded-[20px] object-cover"
-                alt="adairedHelp"
-                priority
-              />
+          {/* <div className="sticky top-[16rem] w-[40%]"> */}
+          <div className="lg:sticky top-[16rem] w-full lg:w-[40%]">
+            {/* <div className="relative h-[35rem] rounded-[20px]"> */}
+              <div className="relative h-[22rem] md:h-[35rem] lg:h-[35rem] rounded-[20px]">
+                <Image
+                  src={adairedHelpImg}
+                  fill
+                  className="rounded-[20px] object-cover"
+                  alt="adairedHelp"
+                  priority
+                />
+              </div>
+            </div>
+
+            {/* RIGHT CONTENT – SCROLLS */}
+            {/* <div className="flex w-[55%] flex-col gap-[1rem]"> */}
+            <div className="flex w-full lg:w-[55%] flex-col gap-[1rem]">
+              {adairedHelp?.list?.map((item: any, index: number) => (
+                <div
+                  key={index}
+                  className="rounded-[20px] border border-[#FB9100]/25 bg-[#FFF8F0] p-[1.5rem]"
+                >
+                  <Image src={chat} width={32} height={32} alt="icon" />
+
+                  <p className="pt-[1.5rem] font-bold">{item?.name}</p>
+
+                  <div className="pt-2">
+                    {item?.description?.map((desc: string, i: number) => (
+                      <p key={i} className="my-2">
+                        {desc}
+                      </p>
+                    ))}
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
-
-          {/* RIGHT CONTENT – SCROLLS */}
-          <div className="flex w-[55%] flex-col gap-[1rem]">
-            {adairedHelp?.list?.map((item: any, index: number) => (
-              <div
-                key={index}
-                className="rounded-[20px] border border-[#FB9100]/25 bg-[#FFF8F0] p-[1.5rem]"
-              >
-                <Image src={chat} width={32} height={32} alt="icon" />
-
-                <p className="pt-[1.5rem] font-bold">{item?.name}</p>
-
-                <div className="pt-2">
-                  {item?.description?.map((desc: string, i: number) => (
-                    <p key={i} className="my-2">
-                      {desc}
-                    </p>
-                  ))}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
       </MaxWidthWrapper>
     </div>
   );

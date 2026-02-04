@@ -26,11 +26,16 @@ const OurProcess = ({ ourProcess }: any) => {
     >
       <MaxWidthWrapper>
         {/* ❗ IMPORTANT: relative + NO overflow */}
-        <div ref={wrapperRef} className="relative flex gap-[3rem]">
+        {/* <div ref={wrapperRef} className="relative flex gap-[3rem]"> */}
+        <div ref={wrapperRef} className="relative flex flex-col md:flex-col lg:flex-row gap-[3rem]">
+
           {/* ================= LEFT (STICKY) ================= */}
-          <div className="hidden w-[40%] lg:block">
+          {/* <div className="hidden w-[40%] lg:block"> */}
+          <div className="w-[40%] lg:block">
             {/* Sticky wrapper */}
-            <div className="sticky top-[8rem]">
+            {/* <div className="sticky top-[8rem]"> */}
+            <div className="lg:sticky lg:top-[8rem] flex flex-col justify-center items-center sm:justify-center sm:items-center md:justify-center md:items-center lg:items-start lg:justify-start">
+
               <Heading
                 isLabel
                 subTitle={ourProcess?.subtitle}
@@ -38,24 +43,39 @@ const OurProcess = ({ ourProcess }: any) => {
               />
 
               {/* CIRCLE */}
-              <div className="relative mt-[4rem] flex h-[520px] w-[520px] items-center justify-center">
+              {/* <div className="relative mt-[4rem] flex h-[520px] w-[520px] items-center justify-center"> */}
+              <div className="relative mt-[2rem] lg:mt-[4rem] flex h-[280px] w-[280px] sm:h-[380px] sm:w-[380px] lg:h-[520px] lg:w-[520px] items-center justify-center">
+
                 <div className="absolute inset-0 rounded-full border border-[#00000033]" />
 
-                <div
-                  className={`absolute inset-[70px] flex flex-col items-center justify-center rounded-full transition-all ${
-                    activeTab === ourProcess.services.length - 1
+                {/* <div
+                  className={`absolute inset-[70px] flex flex-col items-center justify-center rounded-full transition-all ${activeTab === ourProcess.services.length - 1
                       ? 'bg-[#FB9100] text-white'
                       : 'bg-[#FFF4E8]'
-                  }`}
+                    }`}
+                > */}
+                <div
+                  className={`absolute inset-[40px] sm:inset-[55px] lg:inset-[70px] flex flex-col items-center justify-center rounded-full transition-all ${activeTab === ourProcess.services.length - 1
+                      ? 'bg-[#FB9100] text-white'
+                      : 'bg-[#FFF4E8]'
+                    }`}
                 >
+
                   <p
                     className={`text-sm tracking-widest ${activeTab === ourProcess.services.length - 1 ? 'text-[#FFFFFF]' : 'text-[#000000]'}`}
                   >
                     STEP
                   </p>
-                  <h2
+                  {/* <h2
                     className={`text-[80px] font-bold ${activeTab === ourProcess.services.length - 1 ? 'text-[#FFFFFF]' : 'text-[#000000]'}`}
+                  > */}
+                  <h2
+                    className={`text-[40px] sm:text-[60px] lg:text-[80px] font-bold ${activeTab === ourProcess.services.length - 1
+                        ? 'text-[#FFFFFF]'
+                        : 'text-[#000000]'
+                      }`}
                   >
+
                     {String(activeTab + 1).padStart(2, '0')}
                   </h2>
                 </div>
@@ -85,13 +105,19 @@ const OurProcess = ({ ourProcess }: any) => {
                         `,
                       }}
                     >
-                      <div
-                        className={`flex h-[60px] w-[60px] items-center justify-center rounded-full border ${
-                          activeTab === idx
+                      {/* <div
+                        className={`flex h-[60px] w-[60px] items-center justify-center rounded-full border ${activeTab === idx
                             ? 'border-[#FB9100] bg-[#FB9100]'
                             : 'border-[#00000033] bg-white'
-                        }`}
+                          }`}
+                      > */}
+                      <div
+                        className={`flex h-[44px] w-[44px] sm:h-[52px] sm:w-[52px] lg:h-[60px] lg:w-[60px] items-center justify-center rounded-full border ${activeTab === idx
+                            ? 'border-[#FB9100] bg-[#FB9100]'
+                            : 'border-[#00000033] bg-white'
+                          }`}
                       >
+
                         <Image
                           src={service.icon}
                           alt={service.title}
@@ -109,6 +135,7 @@ const OurProcess = ({ ourProcess }: any) => {
             </div>
           </div>
 
+
           {/* ================= RIGHT (SCROLL CONTENT) ================= */}
           <div className="w-full space-y-[4rem] lg:w-[55%]">
             {ourProcess.services.map((service: any, idx: number) => (
@@ -117,20 +144,18 @@ const OurProcess = ({ ourProcess }: any) => {
                 ref={(el) => {
                   sectionRefs.current[idx] = el;
                 }}
-                className={`border-b pb-[4rem] transition-opacity ${
-                  activeTab === idx ? 'opacity-100' : 'opacity-40'
-                }`}
+                className={`border-b pb-[4rem] transition-opacity ${activeTab === idx ? 'opacity-100' : 'opacity-40'
+                  }`}
               >
                 <h3
-                  className={`mb-3 font-semibold uppercase ${
-                    activeTab === idx ? 'text-[#FB9100]' : 'text-[#999]'
-                  }`}
+                  className={`mb-3 font-semibold uppercase text-center sm:text-center md:text-start lg:text-start ${activeTab === idx ? 'text-[#FB9100]' : 'text-[#999]'
+                    }`}
                 >
                   Step {idx + 1}: {service.title}
                 </h3>
 
                 {service.description.map((desc: string, i: number) => (
-                  <p key={i} className="my-3 text-[#333]">
+                  <p key={i} className="my-3 text-[#333] text-center sm:text-center md:text-start lg:text-start">
                     {desc}
                   </p>
                 ))}

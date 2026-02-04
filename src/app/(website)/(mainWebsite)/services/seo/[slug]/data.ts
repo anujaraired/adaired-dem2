@@ -70,13 +70,13 @@ export const SERVICES_DATA = {
     },
     needofservice: {
       isVisible: false,
-      heading: 'What is the Need Of AI SEO Services?',
+      heading: 'What is the Need Of AI SEO Services ?',
       data: [
         {
           desctioption: `The rise of artificial intelligence-powered search tools and large language models has caused the searches to deliver more dynamic, multimodal responses without requiring users click through to websites. This has increased the need for businesses to evolve alongside these LLM and Google AI advancements in order to stay relevant and visible.`,
         },
         {
-          desctioption: ` To help you keep pace with the changing market trends, Adaired offers you fully managed generative engine optimization services to enhance your AI visibility in generative search, generate more traffic, and elevate your online presence. `,
+          desctioption: `To help you keep pace with the changing market trends, Adaired offers you fully managed generative engine optimization services to enhance your AI visibility in generative search, generate more traffic, and elevate your online presence. `,
         },
       ],
     },
@@ -575,7 +575,7 @@ export const SERVICES_DATA = {
           desctioption: `The rise of artificial intelligence-powered search tools and large language models has caused the searches to deliver more dynamic, multimodal responses without requiring users click through to websites. This has increased the need for businesses to evolve alongside these LLM and Google AI advancements in order to stay relevant and visible.`,
         },
         {
-          desctioption: ` To help you keep pace with the changing market trends, Adaired offers you fully managed generative engine optimization services to enhance your AI visibility in generative search, generate more traffic, and elevate your online presence. `,
+          desctioption: `To help you keep pace with the changing market trends, Adaired offers you fully managed generative engine optimization services to enhance your AI visibility in generative search, generate more traffic, and elevate your online presence. `,
         },
       ],
     },
