@@ -555,6 +555,40 @@ export const SERVICES_DATA = {
         },
       ],
     },
+    importantBusiness: {
+      isVisible: true,
+      heading: 'Why is SEO Important to Your Business?',
+      list: [
+        {
+          icon: "/assets/aiseo/SEOCard1.png",
+          heading: 'Increases Online Visibility',
+          description: [
+            `SEO helps businesses in enhancing their visibility in the search engines by ranking higher on the keywords that are relevant. A site that ranks on the first page of a search engine would be more visible to users actively looking for related products or services. This increased exposure translates to a larger audience for businesses and competitiveness on the internet. `,
+          ],
+        },
+        {
+          icon: "/assets/aiseo/SEOCard2.png",
+          heading: 'Attracts Targeted Traffic',
+          description: [
+            `SEO  focuses on optimizing content in terms of particular search results that satisfy user intent. This attracts visitors who are actually interested in the business services, rather than random traffic. Targeted visitors are more likely to engage with the website, browse, spend time exploring pages, and take meaningful actions such as inquiries or purchases.`,
+          ],
+        },
+        {
+          icon: "/assets/aiseo/SEOCrad3.png",
+          heading: 'Builds Credibility and Trust',
+          description: [
+            `Search engines tend to rank websites with valuable, relevant, and reliable content. When a business is always ranked as one of the leading search results, consumers tend to view it as reliable and well-authoritative. SEO also enhances the quality of websites, usability, and accuracy of the content, all of which contribute to building long-term trust with users.`,
+          ],
+        },
+        {
+          icon: "/assets/aiseo/SEOCard4.png",
+          heading: 'Supports Long-Term Growth',
+          description: [
+            `Unlike paid advertising, SEO delivers ongoing results over time. When a website is optimized correctly, it can continue to attract organic traffic without continuous ad spending. This makes SEO a cost-effective strategy that enables gradual expansion, enhances online recognition, and helps businesses adapt to changing digital trends. `,
+          ],
+        },
+      ]
+    },
     whatareservice: {
       isVisible: true,
       heading: 'What Are AI SEO Services?',

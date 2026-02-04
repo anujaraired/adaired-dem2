@@ -21,6 +21,7 @@ import { SERVICES_DATA } from './data';
 import { useParams } from 'next/navigation';
 import NotFound from '@/app/not-found';
 import ReadyToStart from './ReadyToStart';
+import ImpBusiness from './ImpToBusiness'
 export type ServiceSlug = keyof typeof SERVICES_DATA;
 
 const page = () => {
@@ -38,6 +39,11 @@ const page = () => {
       )}
 
       <KeyStatsSEO/>
+
+      {serviceData.importantBusiness?.isVisible && (
+        <ImpBusiness importantBusiness={serviceData.importantBusiness} />
+      )}
+      
       {serviceData.whatareservice?.isVisible && (
         <WhatAreAISEO whatareaiseo={serviceData.whatareservice} />
       )}
@@ -48,6 +54,7 @@ const page = () => {
       {serviceData.benefitofAiSeo?.isVisible && (
         <BenefitofAiSEO benefitofAiSeo={serviceData.benefitofAiSeo} />
       )}
+
       {serviceData.serviceResult?.isVisible && (
         <AISEOResult aiseoResult={serviceData.serviceResult} />
       )}

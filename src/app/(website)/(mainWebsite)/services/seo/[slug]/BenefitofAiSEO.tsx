@@ -20,7 +20,8 @@ const BenefitofAiSEO = ({ benefitofAiSeo }: any) => {
             })}
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-[1rem] pt-[3rem] lg:grid-cols-3">
+
+        <div className="grid grid-cols-1 gap-[1rem] pt-[3rem] lg:grid-cols-3 bg-red-500">
           {benefitofAiSeo?.list?.slice(0, 3)?.map((item: any, idx: number) => {
             return (
               <div
@@ -40,6 +41,7 @@ const BenefitofAiSEO = ({ benefitofAiSeo }: any) => {
             );
           })}
         </div>
+        
       </MaxWidthWrapper>
     </div>
   );
