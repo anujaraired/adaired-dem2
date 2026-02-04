@@ -92,9 +92,9 @@ export const routes: {
 
   websiteNav: [
     {
-      label: 'White Label (For Agencies)',
-      value: 'White Label (For Agencies)',
-      href: '/services/on-page-and-off-page-optimization',
+      label: 'About Us',
+      value: 'about',
+      href: '/about',
     },
     {
       label: 'Services',
@@ -289,6 +289,11 @@ export const routes: {
       ],
     },
     {
+      label: 'White Label',
+      value: 'White Label',
+      href: '/services/on-page-and-off-page-optimization',
+    },
+    {
       label: 'Resources',
       value: 'resources',
       href: '#',
@@ -298,11 +303,7 @@ export const routes: {
         { name: 'Blog', href: '/blog' },
       ],
     },
-    {
-      label: 'About Us',
-      value: 'about',
-      href: '/about',
-    },
+
     {
       label: 'Contact Us',
       value: 'contact',
