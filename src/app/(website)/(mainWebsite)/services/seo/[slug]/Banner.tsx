@@ -12,7 +12,7 @@ import google_review from '../../../../../../../public/image 54.png';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import WebAuditField from '@/app/(website)/components/UI/WebAuditField';
 
-const Banner = () => {
+const Banner = ({ banner }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
   const images = ['img1', 'img2', 'img3', 'img4'] as const;
   const [activeIndex, setActiveIndex] = useState(0);
@@ -50,27 +50,26 @@ const Banner = () => {
             <div className="md:flex` block w-fit justify-center justify-items-center gap-3 md:justify-center md:justify-items-center lg:justify-start lg:justify-items-start">
               <div className="mt-[0.8rem] md:mt-[8px] lg:mt-[0.5rem]">
                 <h1 className="text-center capitalize lg:text-left">
-                  Where AI Meets
+                  {banner?.heading}
                 </h1>
                 <h1 className="text-center capitalize text-[#FB9100] lg:text-left">
-                  High-Performance SEO
+                  {banner?.label}
                 </h1>
               </div>
             </div>
             <div className={`$ 'pt-[1rem]'}`}>
-              <p className="pt-4 text-center font-montserrat font-bold lg:text-left">
-                Future-ready SEO solutions by Adaired, designed to outrank and
-                outgrow
-              </p>
-              <p className="py-7 text-center lg:text-left">
-                Our strategies are designed to help your business outrank
-                competitors, attract more traffic, and achieve sustainable
-                growth. Experience smarter SEO that not only ranks but
-                accelerates your success.
-              </p>
-              <h3 className="text-[22px] font-[600] leading-[32px]">
-                Ready to Build Topical Authority and Maximize Discoverability?
-              </h3>
+              {banner?.span && (
+                <p className="pt-4 text-center font-montserrat font-bold lg:text-left">
+                  {banner?.span}
+                </p>
+              )}
+
+              <p className="py-7 text-center lg:text-left">{banner?.desc}</p>
+              {banner?.subheading && (
+                <h3 className="text-[22px] font-[600] leading-[32px]">
+                  {banner?.subheading}
+                </h3>
+              )}
             </div>
           </div>
           <div>

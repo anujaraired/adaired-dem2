@@ -19,6 +19,7 @@ import DominateAI from './DominateAI';
 import { SERVICES_DATA } from './data';
 import { useParams } from 'next/navigation';
 import NotFound from '@/app/not-found';
+import ReadyToStart from './ReadyToStart';
 export type ServiceSlug = keyof typeof SERVICES_DATA;
 
 const page = () => {
@@ -28,37 +29,45 @@ const page = () => {
   if (!serviceData) {
     return <NotFound />;
   }
-
   return (
     <div>
-      <Banner />
-      {serviceData.keyStats?.isVisible && <KeyStats keyStats={serviceData.keyStats} />}
-      {serviceData.whatareaiseo && (
-        <WhatAreAISEO whatareaiseo={serviceData.whatareaiseo} />
+      <Banner banner={serviceData?.banner} />
+      {serviceData.keyStats?.isVisible && (
+        <KeyStats keyStats={serviceData.keyStats} />
       )}
-      <NeedOfAISEO />
-      {serviceData.benefitofAiSeo && (
+      {serviceData.whatareservice?.isVisible && (
+        <WhatAreAISEO whatareaiseo={serviceData.whatareservice} />
+      )}
+      {serviceData?.needofservice?.isVisible && (
+        <NeedOfAISEO needOfService={serviceData?.needofservice} />
+      )}
+
+      {serviceData.benefitofAiSeo?.isVisible && (
         <BenefitofAiSEO benefitofAiSeo={serviceData.benefitofAiSeo} />
       )}
-      {serviceData.aiseoResult && (
-        <AISEOResult aiseoResult={serviceData.aiseoResult} />
+      {serviceData.serviceResult?.isVisible && (
+        <AISEOResult aiseoResult={serviceData.serviceResult} />
       )}
       <NotSeeingResults />
-      {serviceData.adairedHelp && (
+      {serviceData.adairedHelp?.isVisible && (
         <AdairedHelp adairedHelp={serviceData.adairedHelp} />
       )}
       <IndustryLeaders />
       <AISEOSolutions />
-      <Stopstruggling />
+      {serviceData?.stopStruggling?.isVisible && (
+        <Stopstruggling stopStruggling={serviceData?.stopStruggling} />
+      )}
+
       <LeadingTools />
       {serviceData.ourProcess && (
         <OurProcess ourProcess={serviceData.ourProcess} />
       )}
-      {serviceData.whatMkeDeferent && (
-        <WhatMakesAdaired whatMkeDefere={serviceData.whatMkeDeferent} />
-      )}{' '}
-      <DominateAI />
+      {serviceData?.whatMkeDeferent?.isVisible && (
+        <WhatMakesAdaired whatMkeDeferent={serviceData?.whatMkeDeferent} />
+      )}
+      <DominateAI getplan={serviceData?.getplan} />
       {serviceData.faqData && <FAQ faqs={serviceData.faqData} />}
+      <ReadyToStart/>
     </div>
   );
 };

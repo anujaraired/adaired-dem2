@@ -186,6 +186,7 @@ const Header = () => {
 
             <div className="my-auto hidden gap-2 lg:flex">
               <SaveAndCancel
+                isBorder={true}
                 handleClick={() => router.push('/contact')}
                 isBgWhite={true}
                 buttonWidth={'!w-[12rem]'}

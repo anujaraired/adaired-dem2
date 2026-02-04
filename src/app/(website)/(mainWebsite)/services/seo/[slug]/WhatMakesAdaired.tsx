@@ -4,7 +4,7 @@ import React from 'react';
 import { SERVICES_DATA } from './data';
 import Image from 'next/image';
 
-const WhatMakesAdaired = ({whatMkeDeferent}:any) => {
+const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
   return (
     <div className="py-[3rem] lg:py-[6rem]">
       <MaxWidthWrapper>
@@ -15,7 +15,7 @@ const WhatMakesAdaired = ({whatMkeDeferent}:any) => {
           title={whatMkeDeferent?.heading}
         />
         <div className="pt-[3rem]">
-          {whatMkeDeferent?.list?.map((item:any, idx: number) => {
+          {whatMkeDeferent?.list?.map((item: any, idx: number) => {
             const isOrange = idx % 2 === 0;
 
             return (
@@ -25,7 +25,7 @@ const WhatMakesAdaired = ({whatMkeDeferent}:any) => {
                 <div className="my-auto w-[100%] lg:w-[50%]">
                   <h3>{item?.name}</h3>
                   <div className="pt-[1rem]">
-                    {item?.description?.map((desc:any) => {
+                    {item?.description?.map((desc: any) => {
                       return <p className="my-[1rem]">{desc}</p>;
                     })}
                   </div>
