@@ -8,7 +8,7 @@ import { useScrollTabs } from '@/@core/hooks/useScrollTabs';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const OurProcess = ({ ourProcess }: any) => {
-  const { ref } = useInViewOnce<HTMLDivElement>(0.1);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const sectionRefs = useRef<(HTMLDivElement | null)[]>([]);
   const wrapperRef = useRef<HTMLDivElement | null>(null);
 
@@ -28,7 +28,9 @@ const OurProcess = ({ ourProcess }: any) => {
         {/* ❗ IMPORTANT: relative + NO overflow */}
         <div ref={wrapperRef} className="relative flex gap-[3rem]">
           {/* ================= LEFT (STICKY) ================= */}
-          <div className="hidden w-[40%] lg:block">
+          <div
+            className={`hidden w-[40%] transition-all duration-1000 lg:block ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+          >
             {/* Sticky wrapper */}
             <div className="sticky top-[8rem]">
               <Heading
@@ -117,9 +119,10 @@ const OurProcess = ({ ourProcess }: any) => {
                 ref={(el) => {
                   sectionRefs.current[idx] = el;
                 }}
-                className={`border-b pb-[4rem] transition-opacity ${
-                  activeTab === idx ? 'opacity-100' : 'opacity-40'
-                }`}
+                className={`transform border-b pb-[4rem] transition-all duration-700 ${isVisible ? 'translate-y-0' : 'translate-y-10'} ${isVisible ? (activeTab === idx ? 'opacity-100' : 'opacity-40') : 'opacity-0'} `}
+                style={{
+                  transitionDelay: `${idx * 280}ms`, // 👈 stagger here
+                }}
               >
                 <h3
                   className={`mb-3 font-semibold uppercase ${

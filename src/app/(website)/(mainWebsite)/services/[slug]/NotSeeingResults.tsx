@@ -5,8 +5,11 @@ import React from 'react';
 import NotSeeingResultsBg from '../../../../../../public/assets/NotSeeingResultsBg.png';
 import NotSeeingResult from '../../../../../../public/assets/aiseo/NotSeeingResults.png';
 import Image from 'next/image';
+import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const NotSeeingResults = () => {
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+
   return (
     <div
       className="flex items-center bg-cover bg-center bg-no-repeat"
@@ -15,7 +18,9 @@ const NotSeeingResults = () => {
       }}
     >
       <MaxWidthWrapper className="grid w-full grid-cols-1 gap-[2rem] p-3 lg:grid-cols-2">
-        <div className='my-auto'>
+        <div
+          className={`my-auto transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+        >
           <Heading
             isBgWhite={true}
             isH1={true}
@@ -30,7 +35,10 @@ const NotSeeingResults = () => {
           />
         </div>
 
-        <div className="pt-2 flex justify-end justify-items-end">
+        <div
+          ref={ref}
+          className={`flex justify-end justify-items-end pt-2 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
+        >
           <Image src={NotSeeingResult} alt="imh" />
         </div>
       </MaxWidthWrapper>

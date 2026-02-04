@@ -3,24 +3,33 @@ import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import React from 'react';
 import { SERVICES_DATA } from './data';
 import Image from 'next/image';
+import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
+
   return (
-    <div className="py-[3rem] lg:py-[6rem]">
+    <div ref={ref} className="py-[3rem] lg:py-[6rem]">
       <MaxWidthWrapper>
-        <Heading
-          breakIndex={5}
-          isInCenter={true}
-          isBgWhite={true}
-          title={whatMkeDeferent?.heading}
-        />
+        <div
+          className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+        >
+          <Heading
+            breakIndex={5}
+            isInCenter={true}
+            isBgWhite={true}
+            title={whatMkeDeferent?.heading}
+          />
+        </div>
         <div className="pt-[3rem]">
           {whatMkeDeferent?.list?.map((item: any, idx: number) => {
             const isOrange = idx % 2 === 0;
-
             return (
               <div
-                className={`my-[2rem] flex justify-between rounded-[20px] p-[2rem] ${isOrange ? 'bg-[#FB9100]/5' : 'bg-[#F9F9F9]'}`}
+                style={{
+                  transitionDelay: `${idx * 120}ms`,
+                }}
+                className={`my-[2rem] flex justify-between rounded-[20px] p-[2rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${isOrange ? 'bg-[#FB9100]/5' : 'bg-[#F9F9F9]'}`}
               >
                 <div className="my-auto w-[100%] lg:w-[50%]">
                   <h3>{item?.name}</h3>

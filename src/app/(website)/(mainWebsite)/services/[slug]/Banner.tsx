@@ -11,8 +11,11 @@ import google_rate from '../../../../../../public/google_rate.svg';
 import google_review from '../../../../../../public/image 54.png';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import WebAuditField from '@/app/(website)/components/UI/WebAuditField';
+import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
+import { useRouter } from 'next/navigation';
 
 const Banner = ({ banner }: any) => {
+  const router = useRouter();
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
   const images = ['img1', 'img2', 'img3', 'img4'] as const;
   const [activeIndex, setActiveIndex] = useState(0);
@@ -72,10 +75,13 @@ const Banner = ({ banner }: any) => {
               )}
             </div>
           </div>
-          <div>
-            <WebAuditField className={'my-[2rem]'} />
-          </div>
-          <div className="flex justify-center gap-3 lg:justify-start">
+          <SaveAndCancel
+            name={'Get A Quote'}
+            isIcon={true}
+            handleClick={() => router.push('/contact')}
+            className="w-[14rem]"
+          />
+          <div className="flex justify-center gap-3 pt-[2rem] lg:justify-start">
             <a
               href="https://www.google.com/partners/agency?id=7775339798"
               target="_blank"

@@ -513,7 +513,7 @@ export const SERVICES_DATA = {
     banner: {
       heading: 'Where AI Meets',
       label: 'High-Performance SEO',
-      span: `Where AI Meets, subheading: 'High-Performance SEO',`,
+      span: `Future-ready SEO solutions by Adaired, designed to outrank and outgrow`,
       desc: 'Our strategies are designed to help your business outrank competitors, attract more traffic, and achieve sustainable growth. Experience smarter SEO that not only ranks but accelerates your success.',
       subheading:
         'Ready to Build Topical Authority and Maximize Discoverability?',

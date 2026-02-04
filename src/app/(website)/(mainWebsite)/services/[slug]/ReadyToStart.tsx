@@ -5,15 +5,19 @@ import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import Image from 'next/image';
 import { IoIosArrowRoundForward } from 'react-icons/io';
 import { useState } from 'react';
+import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const ReadyToStart = ({ handleClick }: any) => {
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const [isHover, setIsHover] = useState(false);
 
   return (
     <>
-      <section className="relative z-20">
+      <section ref={ref} className="relative z-20">
         <MaxWidthWrapper>
-          <div className="rounded-3xl bg-[#FB9100] py-[3rem] lg:py-[6rem]">
+          <div
+            className={`rounded-3xl bg-[#FB9100] py-[3rem] transition-all duration-1000 lg:py-[6rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+          >
             <Heading
               breakIndex={5}
               isH1={true}
