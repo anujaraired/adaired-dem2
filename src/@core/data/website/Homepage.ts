@@ -472,7 +472,7 @@ export const ServiceSectionData = {
           label: 'SEO',
           title: 'SEO',
           description: `We provide Search Engine Optimization services that are aimed at increasing the presence online and driving meaningful engagement. We combine smart keyword targeting, technical optimization, and credible content to make your business achieve consistent rankings and sustainable organic growth.`,
-          link: '/services/seo/search-engine-optimization',
+          link: '/services/search-engine-optimization',
         },
         {
           icon: SEO_2,
@@ -508,7 +508,7 @@ export const ServiceSectionData = {
       title: 'AI SEO',
       description:
         'Expand your offerings effortlessly with our White Label Services. We offer fully branded solutions, expert support, and seamless integration for business growth.',
-      link: '/services/search-engine-optimization',
+      link: '/services/ai-search-engine-optimization',
       list: [
         {
           icon: WhiteLabelSEO,
@@ -516,7 +516,7 @@ export const ServiceSectionData = {
           label: 'AI SEO',
           title: 'AI SEO',
           description: `We help you boost your agency’s offerings with White Label SEO from Adaired. We deliver expert SEO services under your brand, so you can expand without extra overhead. From keyword research to link building and reporting, we handle all the technical work while you keep full client ownership. Together, we help you scale your business, enhance results, and maintain your brand reputation effortlessly.`,
-          link: '/services/search-engine-optimization',
+          link: '/services/ai-search-engine-optimization',
         },
         {
           icon: WhiteLabelSocialMedia,
@@ -524,7 +524,7 @@ export const ServiceSectionData = {
           label: 'LLM SEO/LLMO',
           title: 'LLM SEO/LLMO',
           description: `At Adaired, we help you expand your agency’s services with White Label Social Media services. We create, manage, and optimize social media campaigns under your brand, so you can deliver results without extra overhead. From content creation to scheduling and analytics, we handle the work while you retain full client ownership.`,
-          link: '/services/search-engine-optimization',
+          link: '/services/ai-search-engine-optimization',
         },
         {
           icon: WhiteLabelFacebookAds,
@@ -532,7 +532,7 @@ export const ServiceSectionData = {
           label: 'GEO',
           title: 'GEO',
           description: `We help your agency scale with White Label Facebook Ads. We handle ad strategy, creation, targeting, and reporting under your brand, so you deliver results without extra overhead. You keep full client ownership while we drive performance, boost ROI, and protect your brand reputation.`,
-          link: '/services/search-engine-optimization',
+          link: '/services/ai-search-engine-optimization',
         },
         {
           icon: LinkBuilding,
@@ -540,7 +540,7 @@ export const ServiceSectionData = {
           label: 'AEO',
           title: 'AEO',
           description: `We help your agency grow with White Label Link Building from Adaired. We handle outreach, content placement, and quality backlink acquisition under your brand, so you deliver results without extra overhead. You keep full client ownership while we boost domain authority, improve rankings, and protect your brand reputation.`,
-          link: '/services/search-engine-optimization',
+          link: '/services/ai-search-engine-optimization',
         },
       ],
       mainSvg: 'Logo Design_PpqcI',
