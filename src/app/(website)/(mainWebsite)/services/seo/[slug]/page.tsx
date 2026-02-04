@@ -2,6 +2,7 @@
 import React from 'react';
 import Banner from './Banner';
 import KeyStats from './KeyStats';
+import { KeyStatsSEO } from './KeyStatsSEO'
 import WhatAreAISEO from './WhatAreAISEO';
 import NeedOfAISEO from './NeedOfAISEO';
 import FAQ from '@/app/(website)/components/home/FAQ';
@@ -35,6 +36,8 @@ const page = () => {
       {serviceData.keyStats?.isVisible && (
         <KeyStats keyStats={serviceData.keyStats} />
       )}
+
+      <KeyStatsSEO/>
       {serviceData.whatareservice?.isVisible && (
         <WhatAreAISEO whatareaiseo={serviceData.whatareservice} />
       )}
