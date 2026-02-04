@@ -42,11 +42,11 @@ const BenefitofAiSEO = ({ benefitofAiSeo }: any) => {
                 <h3 className="pb-[1rem] pt-[2rem] text-[#FB9100]">
                   {item?.name}
                 </h3>
-                <p className="">
+                <div className="">
                   {item?.description?.map((item: any) => {
                     return <p className="py-2">{item}</p>;
                   })}
-                </p>
+                </div>
               </div>
             );
           })}
