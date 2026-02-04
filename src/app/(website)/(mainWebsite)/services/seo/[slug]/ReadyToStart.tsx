@@ -1,9 +1,14 @@
+'use client';
 import Heading from '@/app/(website)/common/Heading';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import Image from 'next/image';
+import { IoIosArrowRoundForward } from 'react-icons/io';
+import { useState } from 'react';
 
-const ReadyToStart = () => {
+const ReadyToStart = ({ handleClick }: any) => {
+  const [isHover, setIsHover] = useState(false);
+
   return (
     <>
       <section className="relative z-20">
@@ -21,12 +26,18 @@ const ReadyToStart = () => {
               className="whitespace-pre-line"
             />
             <div className="flex justify-center py-[2rem]">
-              <SaveAndCancel
-                name="Get Your Free Marketing Audit"
-                isIcon={true}
-                isBgWhite={true}
-                className="w-[18rem] sm:w-[22rem] md:w-[22rem] lg:w-[22rem]"
-              />
+              <button
+                onMouseEnter={() => setIsHover(true)}
+                onMouseLeave={() => setIsHover(false)}
+                onClick={handleClick}
+                className={`font-Outfi flex w-fit cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-[60px] bg-[#FFFFFF] px-[2rem] py-[0.75rem] text-xxs font-normal transition-all duration-300 ease-out active:scale-95 xl:text-xs 1366:text-[14px] 1400:text-[18px] 1470:text-[18px] 1600:text-[18px] 1680:text-[18px]`}
+              >
+                {'Get Your Free Marketing Audit'}
+                <IoIosArrowRoundForward
+                  size={25}
+                  className={`${isHover ? 'rotate-[360deg] transition-all duration-300 ease-out active:scale-95' : 'rotate-[310deg]'}`}
+                />
+              </button>
             </div>
           </div>
         </MaxWidthWrapper>
