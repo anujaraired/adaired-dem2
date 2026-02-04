@@ -79,9 +79,9 @@ const StaticServicePage = ({ serviceData }: any) => {
       {serviceData?.whatMkeDeferent?.isVisible && (
         <WhatMakesAdaired whatMkeDeferent={serviceData?.whatMkeDeferent} />
       )}
-      {/* {serviceData?.leadingToolsForPerformence?.isVisible && (
+      {serviceData?.leadingToolsForPerformence?.isVisible && (
         <LeadingTools leadingTools={serviceData?.leadingToolsForPerformence} />
-      )} */}
+      )}
       <DominateAI getplan={serviceData?.getplan} />
       {serviceData.faqData && <FAQ faqs={serviceData.faqData} />}
       <ReadyToStart />
