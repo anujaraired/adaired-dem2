@@ -30,6 +30,7 @@ export const SERVICES_DATA = {
     keyStats: {
       isVisible: true,
       heading: 'Key Stats Related to SEO Services ',
+      isCard: true,
       list: [
         {
           icon: '',
@@ -539,6 +540,7 @@ export const SERVICES_DATA = {
     keyStats: {
       isVisible: true,
       heading: 'Key Stats Related to AI SEO',
+      isCard: false,
       list: [
         {
           icon: '',
