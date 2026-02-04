@@ -14,6 +14,8 @@ import step_5 from '../../../../../../public/assets/aiseo/process/Group 10000058
 import NotSeeingResultsBg from '../../../../../../public/assets/NotSeeingResultsBg.png';
 import NotSeeingResultsBg2 from '../../../../../../public/assets/NotSeeingResultsBg2.png';
 import leadingTools from '../../../../../../public/assets/leadingTools.png';
+import what_are_ai_seo from '../../../../../../public/assets/images/what_are_ai_seo.png';
+import what_are_ai_seo2 from '../../../../../../public/assets/what_are_ai_seo2.png';
 
 export const SERVICES_DATA = {
   'search-engine-optimization': {
@@ -58,7 +60,10 @@ export const SERVICES_DATA = {
     },
     whatareservice: {
       isVisible: true,
+      img: what_are_ai_seo2,
       heading: 'What Are SEO Services?',
+      bgColor: '#FFFFFF',
+      isBgWhite: false,
       data: [
         {
           desctioption: `Search Engine Optimization services focus on improving a website’s visibility in search engine results pages (SERPs). It is aimed at ensuring that websites appear higher in relevant searches, which will enable people to find accurate and useful information online.`,
@@ -234,9 +239,10 @@ export const SERVICES_DATA = {
     },
     ourProcess: {
       isVisible: true,
-      heading: 'Our Proven SEO Process That SEO Drives Both Traffic & Revenue',
+      title: 'Our Proven SEO Process That SEO Drives Both Traffic & Revenue',
       services: [
         {
+          icon: step,
           name: 'Website Analysis and Audit',
           description: [
             `We begin the SEO process with a thorough website analysis and audit. This includes reviewing site structure, technical performance, content quality, and existing search rankings. 
@@ -246,6 +252,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
+          icon: step_2,
           name: 'Keyword Research and Strategy Planning',
           description: [
             `In keyword research, we determine the keywords your target audience is searching for to find products, services, or information. This step analyzes search volume, competition, and user intent. 
@@ -254,6 +261,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
+          icon: step_3,
           name: 'On-Page and Technical Optimization',
           description: [
             `Under on-page and technical SEO improvements, we make your website more accessible and understandable for search engines. 
@@ -262,6 +270,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
+          icon: step_4,
           name: 'Content Enhancement and Creation',
           description: [
             `Optimizing and creating content is a core part of the SEO process. We improve existing pages to better match target keywords, while new content is being created to fill gaps. 
@@ -270,6 +279,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
+          icon: step_5,
           name: 'Link Building and Authority Growth',
           description: [
             `Building high-quality backlinks strengthens a website’s authority and trustworthiness in the eyes of search engines. 
@@ -278,6 +288,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
+          icon: step_3,
           name: 'Monitoring, Reporting, and Optimization',
           description: [
             `SEO is an ongoing process that requires continuous monitoring and refinement. Performance metrics, including traffic, rankings, and user behavior, are regularly tracked and analyzed. 
@@ -564,7 +575,10 @@ export const SERVICES_DATA = {
     },
     whatareservice: {
       isVisible: true,
+      img: what_are_ai_seo,
       heading: 'What Are AI SEO Services?',
+      bgColor: '#FFFCF8',
+      isBgWhite: true,
       data: [
         {
           desctioption: `AI SEO, also known as generative search optimization services focus on optimizing your website content to appear in AI search results. It helps your website become discoverable, extractable, and trusted across AI-powered search experiences.`,

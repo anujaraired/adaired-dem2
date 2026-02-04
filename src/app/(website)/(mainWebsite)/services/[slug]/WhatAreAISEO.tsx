@@ -10,36 +10,45 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
 
   return (
-    <div className="bg-[#000000] py-[3rem] lg:py-[6rem]">
-      <MaxWidthWrapper className="grid grid-cols-1 gap-[5rem] lg:grid-cols-2">
+    <div
+      className={`${whatareaiseo?.isBgWhite ? 'bg-[#000000]' : 'bg-[#FFFCF8]'} py-[3rem] lg:py-[6rem]`}
+    >
+      <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2">
         <div
           className={`my-auto transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
         >
           <Heading
-            isBgWhite={true}
             subTitle={''}
             title={whatareaiseo?.heading}
+            isBgWhite={whatareaiseo?.isBgWhite && true}
           />
           <div>
             {whatareaiseo?.data?.map((item: any) => {
               return (
-                <p className="py-3 text-[#FFFFFF]">{item?.desctioption}</p>
+                <p
+                  className={`py-3 ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'} `}
+                >
+                  {item?.desctioption}
+                </p>
               );
             })}
           </div>
-          <SaveAndCancel
-            name={'Lorem Ipsum is simply'}
-            isIcon={true}
-            isBgWhite={true}
-            className="mt-[1rem] w-[19rem]"
-          />
+
+          {whatareaiseo?.isBgWhite && (
+            <SaveAndCancel
+              name={'Get A Quote'}
+              isIcon={true}
+              isBgWhite={true}
+              className="mt-[1rem] w-[19rem]"
+            />
+          )}
         </div>
         <div
           ref={ref}
           className={`flex justify-end justify-items-end transition-all duration-1000 ${isVisible ? 'translate-x-16 opacity-100' : '-translate-x-0 opacity-0'}`}
         >
           <Image
-            src={what_are_ai_seo}
+            src={whatareaiseo?.img}
             width={602}
             height={50}
             className=""

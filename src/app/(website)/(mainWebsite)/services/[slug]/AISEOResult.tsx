@@ -23,13 +23,20 @@ const AISEOResult = ({ aiseoResult }: any) => {
         <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
         >
-          <Heading
-            breakIndex={13}
-            isBgWhite
-            isInCenter
-            title={aiseoResult?.heading}
-            className="mx-auto"
-          />
+          <div className="flex gap-10">
+            <div
+              className={`${aiseoResult?.description?.length > 0 ? 'w-[42%] pr-[10%]' : 'flex w-[100%] justify-center justify-items-center'}`}
+            >
+              <Heading title={aiseoResult?.heading} />
+            </div>
+            <div
+              className={`${aiseoResult?.description?.length > 0 ? 'w-[55%]' : 'w-[0%]'}`}
+            >
+              {aiseoResult?.description?.map((item: any) => {
+                return <p className="my-3">{item}</p>;
+              })}
+            </div>
+          </div>
         </div>
 
         <div className="flex justify-between gap-8 pt-[3rem]">

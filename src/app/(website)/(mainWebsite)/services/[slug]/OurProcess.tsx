@@ -35,7 +35,7 @@ const OurProcess = ({ ourProcess }: any) => {
             <div className="sticky top-[8rem]">
               <Heading
                 isLabel
-                subTitle={ourProcess?.subtitle}
+                subTitle={'Our Process'}
                 title={ourProcess?.title}
               />
 
