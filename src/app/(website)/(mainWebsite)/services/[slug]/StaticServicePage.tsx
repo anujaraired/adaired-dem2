@@ -59,13 +59,18 @@ const StaticServicePage = ({ serviceData }: any) => {
       {serviceData.adairedHelp?.isVisible && (
         <AdairedHelp adairedHelp={serviceData.adairedHelp} />
       )}
-      <IndustryLeaders />
+      {serviceData?.industryLeaders?.isVisible ? (
+        <IndustryLeaders />
+      ) : (
+        <LeadingTools leadingTools={serviceData?.leadingTools} />
+      )}
+
       <AISEOSolutions />
       {serviceData?.stopStruggling?.isVisible && (
         <Stopstruggling stopStruggling={serviceData?.stopStruggling} />
       )}
 
-      {serviceData?.leadingTools?.isVisible && (
+      {serviceData?.needofservice?.isVisible && (
         <LeadingTools leadingTools={serviceData?.leadingTools} />
       )}
       {serviceData.ourProcess && (
@@ -74,6 +79,9 @@ const StaticServicePage = ({ serviceData }: any) => {
       {serviceData?.whatMkeDeferent?.isVisible && (
         <WhatMakesAdaired whatMkeDeferent={serviceData?.whatMkeDeferent} />
       )}
+      {/* {serviceData?.leadingToolsForPerformence?.isVisible && (
+        <LeadingTools leadingTools={serviceData?.leadingToolsForPerformence} />
+      )} */}
       <DominateAI getplan={serviceData?.getplan} />
       {serviceData.faqData && <FAQ faqs={serviceData.faqData} />}
       <ReadyToStart />

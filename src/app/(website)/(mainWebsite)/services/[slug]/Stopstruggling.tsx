@@ -14,7 +14,7 @@ const Stopstruggling = ({ stopStruggling }: any) => {
       ref={ref}
       className="flex items-center justify-center bg-cover bg-center bg-no-repeat py-[3rem] lg:py-[6rem]"
       style={{
-        backgroundImage: `url(${NotSeeingResultsBg.src})`,
+        backgroundImage: `url(${stopStruggling?.bgImg?.src})`,
       }}
     >
       <MaxWidthWrapper className="flex justify-center">

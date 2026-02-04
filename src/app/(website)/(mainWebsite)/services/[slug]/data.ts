@@ -20,6 +20,8 @@ import importantIcon_1 from '../../../../../../public/assets/aiseo/importantIcon
 import importantIcon_2 from '../../../../../../public/assets/aiseo/importantIcon_2.svg';
 import importantIcon_3 from '../../../../../../public/assets/aiseo/importantIcon_3.svg';
 import importantIcon_4 from '../../../../../../public/assets/aiseo/importantIcon_4.svg';
+import stop_struggle from '../../../../../../public/assets/aiseo/stop-struggle.png';
+import stop_struggle2 from '../../../../../../public/assets/aiseo/stop_struggle2.png';
 
 export const SERVICES_DATA = {
   'search-engine-optimization': {
@@ -393,12 +395,27 @@ export const SERVICES_DATA = {
       buttonName: 'Book a Free Consultation',
       bgImage: NotSeeingResultsBg2,
     },
+    industryLeaders: {
+      isVisible: false,
+      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      description:
+        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      bgImage: leadingTools,
+    },
     leadingTools: {
       isVisible: true,
       heading: 'Powered By Leading Brands From All Around The World',
       description:
         'We have worked with some of the leading brands to turn visitors into leads and paying customers. ',
       bgImage: leadingTools,
+    },
+    leadingToolsForPerformence: {
+      isVisible: true,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
     },
     adairedHelp: {
       isVisible: true,
@@ -516,10 +533,11 @@ export const SERVICES_DATA = {
       desctioption: `We have worked with some of the leading brands to turn visitors into leads and paying customers.`,
     },
     stopStruggling: {
-      isVisible: false,
+      isVisible: true,
       subtitle: '',
-      title: '',
-      description: ``,
+      title: 'Claim Your Free Audit Before Competitors Do!',
+      description: `Spot problems, improve rankings, and get more traffic at no cost.`,
+      bgImg: stop_struggle2,
     },
     getplan: {
       isVisible: true,
@@ -752,6 +770,21 @@ export const SERVICES_DATA = {
       buttonName: 'Get Your Free AI SEO Audit',
       bgImage: NotSeeingResultsBg,
     },
+    industryLeaders: {
+      isVisible: true,
+      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      description:
+        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      bgImage: leadingTools,
+    },
+    leadingToolsForPerformence: {
+      isVisible: false,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
     leadingTools: {
       isVisible: true,
       heading:
@@ -931,6 +964,7 @@ export const SERVICES_DATA = {
       title:
         'Stop struggling with low traffic and poor visibility. Let Adaired’s AI-powered SEO audit uncover the gaps, optimize your site, and help your business outrank competitors.',
       description: ``,
+      bgImg: stop_struggle,
     },
     getplan: {
       isVisible: true,
