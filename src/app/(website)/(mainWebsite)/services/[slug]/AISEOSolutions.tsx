@@ -1,6 +1,6 @@
 import React from 'react';
 import { MdOutlineArrowOutward } from 'react-icons/md';
-import { cards } from '@/app/(website)/(mainWebsite)/services/ai-seo/Card';
+import { cards } from './Card';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Heading from '@/app/(website)/common/Heading';
 

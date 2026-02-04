@@ -1,9 +1,7 @@
 import Heading from '@/app/(website)/common/Heading';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import React from 'react';
-import { AISEO } from './data';
-const BenefitofAiSEO = () => {
-  const { benefitofAiSeo } = AISEO;
+const BenefitofAiSEO = ({ benefitofAiSeo }: any) => {
   return (
     <div className="bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0]/70 to-[#FFF8F0]/30 py-[3rem] lg:py-[6rem]">
       <MaxWidthWrapper>
@@ -13,7 +11,7 @@ const BenefitofAiSEO = () => {
             className="w-[100%] lg:w-[35%]"
           />
           <div className="w-[100%] lg:w-[60%]">
-            {benefitofAiSeo?.description?.map((item, idx: number) => {
+            {benefitofAiSeo?.description?.map((item: any, idx: number) => {
               return (
                 <p key={idx} className="py-2">
                   {item}
@@ -23,7 +21,7 @@ const BenefitofAiSEO = () => {
           </div>
         </div>
         <div className="grid grid-cols-1 gap-[1rem] pt-[3rem] lg:grid-cols-3">
-          {benefitofAiSeo?.list?.map((item, idx: number) => {
+          {benefitofAiSeo?.list?.slice(0, 3)?.map((item: any, idx: number) => {
             return (
               <div
                 key={idx}
@@ -34,7 +32,7 @@ const BenefitofAiSEO = () => {
                   {item?.name}
                 </h3>
                 <p className="">
-                  {item?.description?.map((item) => {
+                  {item?.description?.map((item: any) => {
                     return <p className="py-2">{item}</p>;
                   })}
                 </p>

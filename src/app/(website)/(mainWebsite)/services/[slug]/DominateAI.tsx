@@ -1,15 +1,16 @@
-import MaxWidthWrapper from '../../../components/MaxWidthWrapper';
+import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import background from '../../../../../../public/assets/aiseo/DominateAI.png';
 // import { StaticImageData } from "next/image";
 import Image from 'next/image';
 import { MdOutlineArrowOutward } from 'react-icons/md';
 import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
+import Heading from '@/app/(website)/common/Heading';
 
 export type page = {
   image: string;
 };
 
-const DominateAI = () => {
+const DominateAI = ({ getplan }: any) => {
   return (
     <section className="relative py-[3rem] lg:py-[6rem]">
       <div
@@ -18,14 +19,15 @@ const DominateAI = () => {
       />
       <MaxWidthWrapper className="relative z-10">
         <div className="space-y-5 py-24 text-center">
-          <h1 className="text-white">Dominate AI Search Today</h1>
-          <h3 className="text-white">
-            Get a custom plan to optimize for AI-driven results: structured
-            data,
-            <br /> semantic content, answer-ready copy, and technical
-            SEO—ensuring your <br /> brand appears in AI summaries and
-            citations.
-          </h3>
+          <Heading
+            isLabel={true}
+            breakIndex={5}
+            isH1={true}
+            subTitle={getplan?.subtitle}
+            title={getplan?.title}
+            description={getplan?.description}
+            isInCenter={true}
+          />
           <div className="flex justify-center justify-items-center">
             <SaveAndCancel
               name="Get Your AI SEO Plan"

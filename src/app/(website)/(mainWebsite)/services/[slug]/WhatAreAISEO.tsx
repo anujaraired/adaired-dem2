@@ -1,14 +1,13 @@
 import Heading from '@/app/(website)/common/Heading';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import React from 'react';
-import { AISEO } from './data';
+import { SERVICES_DATA } from './data';
 import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import what_are_ai_seo from '../../../../../../public/assets/images/what_are_ai_seo.png';
 import Image from 'next/image';
-const WhatAreAISEO = () => {
-  const { whatareaiseo } = AISEO;
+const WhatAreAISEO = ({ whatareaiseo }: any) => {
   return (
-    <div className="bg-[#000000]">
+    <div className="bg-[#000000] py-[3rem] lg:py-[6rem]">
       <MaxWidthWrapper className="grid grid-cols-1 gap-[5rem] lg:grid-cols-2">
         <div className="my-auto">
           <Heading
@@ -17,7 +16,7 @@ const WhatAreAISEO = () => {
             title={whatareaiseo?.heading}
           />
           <div>
-            {whatareaiseo?.data?.map((item) => {
+            {whatareaiseo?.data?.map((item: any) => {
               return (
                 <p className="py-3 text-[#FFFFFF]">{item?.desctioption}</p>
               );
