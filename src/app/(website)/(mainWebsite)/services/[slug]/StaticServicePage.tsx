@@ -20,6 +20,7 @@ import { SERVICES_DATA } from './data';
 import { useParams } from 'next/navigation';
 import NotFound from '@/app/not-found';
 import ReadyToStart from './ReadyToStart';
+import ImportantToBussiness from './ImportantToBussiness';
 export type ServiceSlug = keyof typeof SERVICES_DATA;
 
 const StaticServicePage = ({ serviceData }: any) => {
@@ -41,7 +42,11 @@ const StaticServicePage = ({ serviceData }: any) => {
       {serviceData?.needofservice?.isVisible && (
         <NeedOfAISEO needOfService={serviceData?.needofservice} />
       )}
-
+      {serviceData?.importantToBussiness?.isVisible && (
+        <ImportantToBussiness
+          importantToBussiness={serviceData?.importantToBussiness}
+        />
+      )}
       {serviceData.benefitofAiSeo?.isVisible && (
         <BenefitofAiSEO benefitofAiSeo={serviceData.benefitofAiSeo} />
       )}

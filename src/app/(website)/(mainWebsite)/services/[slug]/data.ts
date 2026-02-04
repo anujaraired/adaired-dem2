@@ -16,6 +16,10 @@ import NotSeeingResultsBg2 from '../../../../../../public/assets/NotSeeingResult
 import leadingTools from '../../../../../../public/assets/leadingTools.png';
 import what_are_ai_seo from '../../../../../../public/assets/images/what_are_ai_seo.png';
 import what_are_ai_seo2 from '../../../../../../public/assets/what_are_ai_seo2.png';
+import importantIcon_1 from '../../../../../../public/assets/aiseo/importantIcon_1.svg';
+import importantIcon_2 from '../../../../../../public/assets/aiseo/importantIcon_2.svg';
+import importantIcon_3 from '../../../../../../public/assets/aiseo/importantIcon_3.svg';
+import importantIcon_4 from '../../../../../../public/assets/aiseo/importantIcon_4.svg';
 
 export const SERVICES_DATA = {
   'search-engine-optimization': {
@@ -77,6 +81,45 @@ export const SERVICES_DATA = {
         },
       ],
     },
+    importantToBussiness: {
+      isVisible: true,
+      heading: 'Why is SEO Important to Your Business?',
+      data: [
+        {
+          icon: importantIcon_1,
+          name: 'Increases Online Visibility',
+          description: [
+            `SEO helps businesses in enhancing their visibility in the search engines by ranking higher on the keywords that are relevant.`,
+            `A site that ranks on the first page of a search engine would be more visible to users actively looking for related products or services. 
+            This increased exposure translates to a larger audience for businesses and competitiveness on the internet.`,
+          ],
+        },
+        {
+          icon: importantIcon_2,
+          name: 'Attracts Targeted Traffic',
+          description: [
+            `SEO  focuses on optimizing content in terms of particular search results that satisfy user intent. This attracts visitors who are actually interested in the business services, rather than random traffic. `,
+            `Targeted visitors are more likely to engage with the website, browse, spend time exploring pages, and take meaningful actions such as inquiries or purchases. `,
+          ],
+        },
+        {
+          icon: importantIcon_3,
+          name: 'Builds Credibility and Trust',
+          description: [
+            `Search engines tend to rank websites with valuable, relevant, and reliable content. When a business is always ranked as one of the leading search results, consumers tend to view it as reliable and well-authoritative. `,
+            `SEO also enhances the quality of websites, usability, and accuracy of the content, all of which contribute to building long-term trust with users.`,
+          ],
+        },
+        {
+          icon: importantIcon_4,
+          name: 'Supports Long-Term Growth',
+          description: [
+            `Unlike paid advertising, SEO delivers ongoing results over time. When a website is optimized correctly, it can continue to attract organic traffic without continuous ad spending. `,
+            `This makes SEO a cost-effective strategy that enables gradual expansion, enhances online recognition, and helps businesses adapt to changing digital trends.`,
+          ],
+        },
+      ],
+    },
     needofservice: {
       isVisible: false,
       heading: 'What is the Need Of AI SEO Services?',
@@ -90,7 +133,7 @@ export const SERVICES_DATA = {
       ],
     },
     benefitofAiSeo: {
-      isVisible: true,
+      isVisible: false,
       heading: 'Why is SEO Important to Your Business?',
       list: [
         {
@@ -589,6 +632,11 @@ export const SERVICES_DATA = {
           desctioption: `AI SEO combines the best practices of SEO  along with generative AI to ensure your content is discovered and ranked favourably. `,
         },
       ],
+    },
+    importantToBussiness: {
+      isVisible: false,
+      heading: 'Why is SEO Important to Your Business?',
+      data: [],
     },
     needofservice: {
       isVisible: true,
