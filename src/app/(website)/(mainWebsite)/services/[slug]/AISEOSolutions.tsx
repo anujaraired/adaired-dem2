@@ -4,6 +4,8 @@ import { cards } from './Card';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Heading from '@/app/(website)/common/Heading';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
+import Image from 'next/image';
+import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 
 const AISEOSolutions = () => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
@@ -21,7 +23,7 @@ const AISEOSolutions = () => {
             isInCenter={true}
             isBgWhite={true}
           />
-          <div className="grid grid-cols-1 gap-6 pt-[3rem] md:grid-cols-2 lg:grid-cols-3">
+          <div className="grid grid-cols-1 gap-8 pt-[3rem] md:grid-cols-2 lg:grid-cols-3">
             {cards.map((card, index) => (
               <div
                 key={index}
@@ -30,37 +32,54 @@ const AISEOSolutions = () => {
                   transitionDelay: `${index * 280}ms`, // 👈 stagger here
                 }}
               >
-                <div className="flex h-full flex-col px-1">
-                  <div className="px-10 pt-10">
-                    <div className="flex h-[60px] w-[60px] items-center justify-center rounded-xl border-2 border-[#D5D3EB] bg-white">
-                      <img src={card.icon} alt="" width={35} height={35} />
+                <div className="p-[2rem] flex h-full flex-col gap-10 rounded-xl">
+                  <div className='w-full flex items-center justify-center lg:items-start lg:justify-start'>
+                    {/* <div className=' relative bg-white p-4 w-[10%] flex items-center rounded-xl border-2 border-[#D5D3EB] h-[35px]'>
+                      <Image
+                        src={card.icon}
+                        alt=""
+                        fill
+                        className='object-contain'
+                      />
+                    </div> */}
+
+                    <div className="bg-white flex items-center justify-center rounded-xl border-2 border-[#D5D3EB] p-2">
+                      <div className='relative w-[25px] h-[25px] lg:w-[35px] lg:h-[35px]'>
+                        <Image
+                          src={card.icon}
+                          alt=""
+                          fill
+                          className="object-contain"
+                        />
+                      </div>
+                    </div>
+
+                  </div>
+                  <div className='space-y-3 flex flex-col h-full'>
+                    <h3 className="">{card.title}</h3>
+
+                    <div className="">
+                      <p className="whitespace-pre-line leading-relaxed">
+                        {card.description}
+                      </p>
                     </div>
                   </div>
-
-                  <h3 className="mb-5 ml-10 pt-8">{card.title}</h3>
-
-                  <div className="mb-10">
-                    <p className="whitespace-pre-line px-10 leading-relaxed">
-                      {card.description}
-                    </p>
+                  <div className="mt-auto flex items-center justify-center">
+                    <SaveAndCancel
+                      name="Get Your Free AI SEO Audit"
+                      isBgWhite={true}
+                      isIcon={true}
+                      className="w-[20rem] pt-[2rem]"
+                    />
                   </div>
 
-                  <div className="mb-8 mt-auto px-10">
-                    <a
-                      href={card.linkHref}
-                      className="flex w-full items-center gap-2 sm:text-[0.7rem] md:text-[0.8rem] lg:text-[0.9rem]"
-                    >
-                      <span>{card.linkText}</span>
-                      <MdOutlineArrowOutward />
-                    </a>
-                  </div>
                 </div>
               </div>
             ))}
           </div>
         </div>
       </MaxWidthWrapper>
-    </section>
+    </section >
   );
 };
 

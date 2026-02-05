@@ -19,9 +19,10 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
             isInCenter={true}
             isBgWhite={true}
             title={whatMkeDeferent?.heading}
+            className=''
           />
         </div>
-        <div className="pt-[3rem]">
+        <div className="pt-[rem]">
           {whatMkeDeferent?.list?.map((item: any, idx: number) => {
             const isOrange = idx % 2 === 0;
             return (
