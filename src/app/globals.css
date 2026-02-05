@@ -39,7 +39,7 @@
   }
 
   h3 {
-    @apply font-poppins font-semibold leading-7 lg:leading-9 text-[#000000] text-[18px] md:text-[22px] md:leading-[32px];
+    @apply text-center lg:text-left font-poppins font-semibold leading-7 lg:leading-9 text-[#000000] text-[18px] md:text-[22px] md:leading-[32px];
   }
 
   h4 {
@@ -55,7 +55,7 @@
   }
 
   p {
-    @apply font-montserrat text-[14px] font-normal leading-[26px] text-[#000000] xl:text-[18px] 1366:text-[14px] 1400:text-[18px] 1470:text-[18px] 1600:text-[18px] 1680:text-[18px] 3xl:text-[18px];
+    @apply text-center lg:text-left font-montserrat text-[14px] font-normal leading-[26px] text-[#000000] xl:text-[18px] 1366:text-[14px] 1400:text-[18px] 1470:text-[18px] 1600:text-[18px] 1680:text-[18px] 3xl:text-[18px];
   }
 
   span {
