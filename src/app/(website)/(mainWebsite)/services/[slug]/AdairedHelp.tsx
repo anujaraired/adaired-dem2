@@ -25,12 +25,12 @@ const AdairedHelp = ({ adairedHelp }: any) => {
         </div>
 
         {/* IMPORTANT: relative wrapper */}
-        <div className="relative flex items-start gap-[3rem] pt-[3rem]">
+        <div className="relative flex flex-col lg:flex-row items-start gap-[3rem] pt-[3rem]">
           {/* LEFT IMAGE – STICKY */}
-          <div className="sticky top-[16rem] w-[40%]">
+          <div className="lg:sticky top-[16rem] w-full lg:w-[40%]">
             <div
               ref={ref}
-              className={`relative h-[35rem] rounded-[20px] transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
+              className={`relative h-[22rem] md:h-[35rem] lg:h-[35rem] rounded-[20px] transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
             >
               <Image
                 src={adairedHelpImg}
@@ -43,7 +43,7 @@ const AdairedHelp = ({ adairedHelp }: any) => {
           </div>
 
           {/* RIGHT CONTENT – SCROLLS */}
-          <div className="flex w-[55%] flex-col gap-[1rem]">
+          <div className="flex w-full lg:w-[55%] flex-col gap-[1rem]">
             {adairedHelp?.list?.map((item: any, index: number) => (
               <div
                 key={index}
@@ -52,7 +52,9 @@ const AdairedHelp = ({ adairedHelp }: any) => {
                   transitionDelay: `${index * 280}ms`, // 👈 stagger here
                 }}
               >
+                <div className='flex justify-center lg:justify-start'>
                 <Image src={chat} width={32} height={32} alt="icon" />
+                </div>
 
                 <p className="pt-[1.5rem] font-bold">{item?.name}</p>
 
