@@ -19,7 +19,7 @@ const NotSeeingResults = ({ notSeeingResult }: any) => {
     >
       <MaxWidthWrapper className="grid w-full grid-cols-1 gap-[2rem] p-3 lg:grid-cols-2">
         <div
-          className={`my-auto transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+          className={`order-2 lg:order-1 my-auto transition-all duration-1000 flex flex-col items-center lg:items-start ${isVisible ? 'translate-x-0 opacity-100' : 'translate-y-12 opacity-0'}`}
         >
           <Heading
             isBgWhite={true}
@@ -37,7 +37,7 @@ const NotSeeingResults = ({ notSeeingResult }: any) => {
 
         <div
           ref={ref}
-          className={`flex justify-end justify-items-end pt-2 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
+          className={`oredr-1 lg:order-2 flex justify-center justify-items-center lg:justify-end lg:justify-items-end pt-2 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
         >
           <Image src={NotSeeingResult} alt="imh" />
         </div>
