@@ -11,7 +11,7 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
   return (
     <div ref={ref} className="py-[3rem] lg:py-[6rem]">
       <MaxWidthWrapper>
-        <div
+        {/* <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
         >
           <Heading
@@ -20,6 +20,25 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
             isBgWhite={true}
             title={whatMkeDeferent?.heading}
           />
+        </div> */}
+
+        <div
+          className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+        >
+          <div className="flex gap-10">
+            <div
+              className={`${whatMkeDeferent?.description?.length > 0 ? 'w-[50%] pr-[5%]' : 'flex w-[100%] justify-center justify-items-center'}`}
+            >
+              <Heading title={whatMkeDeferent?.heading} />
+            </div>
+            <div
+              className={`${whatMkeDeferent?.description?.length > 0 ? 'w-[50%]' : 'w-[0%]'}`}
+            >
+              {whatMkeDeferent?.description?.map((item: any) => {
+                return <p className="my-3">{item}</p>;
+              })}
+            </div>
+          </div>
         </div>
         <div className="pt-[3rem]">
           {whatMkeDeferent?.list?.map((item: any, idx: number) => {

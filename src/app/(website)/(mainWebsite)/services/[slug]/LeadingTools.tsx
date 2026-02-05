@@ -51,17 +51,18 @@ const LeadingTools = ({ leadingTools }: any) => {
           {data?.map((client, idx) => (
             <div
               key={idx}
-              className={`group flex items-center justify-center overflow-hidden rounded-[20px] border-[1px] border-[#000000]/5 transition-all duration-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'} `}
+              className={`group flex h-[6rem] items-center justify-center overflow-hidden rounded-[20px] border-[1px] border-[#000000]/5 transition-all duration-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'} `}
               style={{
                 transitionDelay: `${idx * 60}ms`,
               }}
             >
               <Image
                 src={client}
-                width={242}
-                height={12}
+                // width={242}
+                // height={12}
+                fill
                 alt="client logo"
-                className="my-0 transform transition-transform duration-300 ease-out group-hover:scale-110 md:my-4"
+                className="transform transition-transform duration-300 ease-out group-hover:scale-110"
               />
             </div>
           ))}
