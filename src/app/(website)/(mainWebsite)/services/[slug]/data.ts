@@ -465,64 +465,64 @@ export const SERVICES_DATA = {
           img: meke_derefent,
           name: 'Customized SEO Strategies',
           description: [
-            `Adaired develops customized search engine optimization plans according to your business objectives, target market, and competition in the industry. We do not apply templates and standardized checklists. 
-            All the campaigns will be carefully strategized based on extensive keyword research, competitor analysis, and search intent to provide organic growth in the long term.`,
+            `Adaired develops customized search engine optimization plans according to your business objectives, target market, and competition in the industry. We do not apply templates and standardized checklists.`, 
+            `All the campaigns will be carefully strategized based on extensive keyword research, competitor analysis, and search intent to provide organic growth in the long term.`,
           ],
         },
         {
           img: meke_derefent_2,
           name: 'Data-Driven Decision Making',
           description: [
-            `Our SEO services are guided by real data, not assumptions. We make use of advanced analytics, performance measurement, and search intelligence to optimize campaigns on a continuous basis. 
-            This guarantees that all the changes enhance rankings, organic flow, and possible conversion, and get the most out of your SEO investment.`,
+            `Our SEO services are guided by real data, not assumptions. We make use of advanced analytics, performance measurement, and search intelligence to optimize campaigns on a continuous basis.`, 
+            `This guarantees that all the changes enhance rankings, organic flow, and possible conversion, and get the most out of your SEO investment.`,
           ],
         },
         {
           img: meke_derefent_3,
           name: 'Focus on Revenue, Not Just Rankings',
           description: [
-            `Higher rankings alone don’t grow businesses. Adaired focuses on the SEO strategies, which will provide qualified traffic, leads, and sales. 
-            We help businesses maximize search visibility to the user intent and conversion to help them generate measurable revenue and sustain business growth.`,
+            `Higher rankings alone don’t grow businesses. Adaired focuses on the SEO strategies, which will provide qualified traffic, leads, and sales.`, 
+            `We help businesses maximize search visibility to the user intent and conversion to help them generate measurable revenue and sustain business growth.`,
           ],
         },
         {
           img: meke_derefent_4,
           name: 'Complete SEO Expertise Under One Roof',
           description: [
-            `From technical SEO and on-page optimization to content creation, link building, and local optimization, Adaired covers every SEO pillar. 
-            This integrated approach enhances the authority of the websites, better user experience, and provides a steady stream of improvements in the ranking of the sites in various search platforms.`,
+            `From technical SEO and on-page optimization to content creation, link building, and local optimization, Adaired covers every SEO pillar.`, 
+            `This integrated approach enhances the authority of the websites, better user experience, and provides a steady stream of improvements in the ranking of the sites in various search platforms.`,
           ],
         },
         {
           img: meke_derefent,
           name: 'Transparent Reporting & Communication',
           description: [
-            `We believe in full transparency. Adaired offers effective, understandable SEO reports with the focus on progress, results, and future actions. 
-            Clients always know how their website is performing, the strategies they are using, and how their SEO investment is delivering real value.`,
+            `We believe in full transparency. Adaired offers effective, understandable SEO reports with the focus on progress, results, and future actions.`, 
+            `Clients always know how their website is performing, the strategies they are using, and how their SEO investment is delivering real value.`,
           ],
         },
         {
           img: meke_derefent,
           name: 'White-Hat, Google-Compliant SEO',
           description: [
-            `Adaired follows ethical, white-hat SEO practices aligned with Google’s guidelines. We avoid risky shortcuts and spam methods that lead to penalties. 
-            Instead, we create long-lasting SEO platforms that safeguard rankings, enhance credibility, and secure long-term online presence.`,
+            `Adaired follows ethical, white-hat SEO practices aligned with Google’s guidelines. We avoid risky shortcuts and spam methods that lead to penalties.`, 
+            `Instead, we create long-lasting SEO platforms that safeguard rankings, enhance credibility, and secure long-term online presence.`,
           ],
         },
         {
           img: meke_derefent,
           name: 'Continuous Optimization & Algorithm Readiness',
           description: [
-            `Search algorithms are constantly evolving, and so are our strategies.  Adaired constantly monitors updates, user actions, and performance patterns to optimize the campaigns. 
-            This is a proactive measure that ensures that your site remains competitive, compliant, and visible even when search engine algorithms keep changing.`,
+            `Search algorithms are constantly evolving, and so are our strategies.  Adaired constantly monitors updates, user actions, and performance patterns to optimize the campaigns.`, 
+            `This is a proactive measure that ensures that your site remains competitive, compliant, and visible even when search engine algorithms keep changing.`,
           ],
         },
         {
           img: meke_derefent,
           name: 'Client-Centric Partnership Approach',
           description: [
-            `We do not provide just SEO; we build partnerships. Adaired works closely with its clients to understand challenges, create strategies, and adapt with the business. 
-            Our dedicated support, active communication with our clients, and a result-oriented approach make us stand out among the traditional SEO agencies.`,
+            `We do not provide just SEO; we build partnerships. Adaired works closely with its clients to understand challenges, create strategies, and adapt with the business.`, 
+            `Our dedicated support, active communication with our clients, and a result-oriented approach make us stand out among the traditional SEO agencies.`,
           ],
         },
       ],
