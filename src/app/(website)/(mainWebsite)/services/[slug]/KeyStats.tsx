@@ -49,7 +49,7 @@ const KeyStats = ({ keyStats }: any) => {
               {keyStats?.list?.slice(4, 6).map((item: any, idx: number) => {
                 return (
                   <div
-                    className={`rounded-[1rem] bg-[#F9F9F9] p-[2rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} `}
+                    className={`rounded-[1rem] bg-[#F9F9F9] p-[2rem] transition-all duration-700 flex flex-col items-center lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} `}
                     style={{
                       transitionDelay: `${idx * 280}ms`, // 👈 stagger here
                     }}
