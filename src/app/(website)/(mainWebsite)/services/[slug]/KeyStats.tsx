@@ -29,12 +29,12 @@ const KeyStats = ({ keyStats }: any) => {
         {!keyStats?.isCard ? (
           <div>
             <div
-              className={`${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} grid grid-cols-3 gap-[1rem]`}
+              className={`${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} grid grid-cols-1 lg:grid-cols-3 gap-[1rem]`}
             >
               {keyStats?.list?.slice(0, 3).map((item: any, idx: number) => {
                 return (
                   <div
-                    className={`rounded-[1rem] bg-[#F9F9F9] p-[2rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                    className={`rounded-[1rem] bg-[#F9F9F9] p-[2rem] transition-all duration-700 flex flex-col items-center lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
                     style={{
                       transitionDelay: `${idx * 280}ms`, // 👈 stagger here
                     }}
@@ -45,7 +45,7 @@ const KeyStats = ({ keyStats }: any) => {
                 );
               })}
             </div>
-            <div className="mt-[1rem] grid grid-cols-2 gap-[1rem]">
+            <div className="mt-[1rem] grid grid-cols-1 lg:grid-cols-2 gap-[1rem]">
               {keyStats?.list?.slice(4, 6).map((item: any, idx: number) => {
                 return (
                   <div
