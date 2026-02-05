@@ -1,0 +1,126 @@
+'use client';
+import Heading from '@/app/(website)/common/Heading';
+import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
+import React, { useState } from 'react';
+import Image from 'next/image';
+import rocket from '../../../../../../public/assets/icons/rocket.svg';
+import groth from '../../../../../../public/assets/icons/adwords-campaign.svg';
+import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md';
+import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
+import image from '../../../../../../public/assets/aiseo/AISEORESULT.png';
+const AISEOResult = ({ aiseoResult }: any) => {
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+  const [activeIndex, setActiveIndex] = useState<number | null>(0);
+
+  const activeItem =
+    activeIndex !== null ? aiseoResult?.list?.[activeIndex] : null;
+
+  return (
+    <div
+      className={`py-[3rem] lg:py-[6rem] ${aiseoResult?.isBgColor ? 'bg-[#FFF8F0]' : 'bg-[#FFFFFF]'}`}
+    >
+      <MaxWidthWrapper>
+        <div
+          className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+        >
+          <div className="flex gap-10">
+            <div
+              className={`${aiseoResult?.description?.length > 0 ? 'w-[42%] pr-[10%]' : 'flex w-[100%] justify-center justify-items-center'}`}
+            >
+              <Heading title={aiseoResult?.heading} />
+            </div>
+            <div
+              className={`${aiseoResult?.description?.length > 0 ? 'w-[55%]' : 'w-[0%]'}`}
+            >
+              {aiseoResult?.description?.map((item: any) => {
+                return <p className="my-3">{item}</p>;
+              })}
+            </div>
+          </div>
+        </div>
+
+        <div className="flex justify-between gap-8 pt-[3rem]">
+          {/* LEFT IMAGE */}
+          <div
+            ref={ref}
+            className={`relative h-[480px] w-[42%] rounded-[20px] transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
+          >
+            <>
+              <Image
+                src={image}
+                fill
+                className="rounded-[20px] object-cover"
+                alt={'image'}
+                priority
+              />
+              <Image
+                src={rocket}
+                width={115}
+                height={123}
+                alt="rocket"
+                className="absolute left-[-1rem] top-[-1rem]"
+              />
+            </>
+          </div>
+
+          {/* RIGHT ACCORDION */}
+          <div className="flex w-[55%] flex-col gap-4">
+            {aiseoResult?.list?.map((item: any, index: number) => {
+              const isActive = index === activeIndex;
+
+              return (
+                <div
+                  key={index}
+                  onClick={() => setActiveIndex(isActive ? null : index)}
+                  onMouseEnter={() => setActiveIndex(index)}
+                  className={`cursor-pointer rounded-[20px] border p-[1.5rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${aiseoResult?.isBgColor ? 'bg-[#FFFFFF]' : 'bg-[#F3F3F3]'} ${
+                    isActive
+                      ? 'border-[#FB9100]/20 bg-[#F3F3F3]'
+                      : 'border-[#00000014] bg-[#F3F3F3]'
+                  }`}
+                  style={{
+                    transitionDelay: `${index * 280}ms`, // 👈 stagger here
+                  }}
+                >
+                  {/* HEADER */}
+                  <div className="flex items-center justify-between">
+                    <div className="flex gap-3">
+                      <Image src={groth} width={32} height={32} alt="icon" />
+                      <p className="font-bold">{item?.name}</p>
+                    </div>
+
+                    {/* ARROW */}
+                    {isActive ? (
+                      <MdKeyboardArrowUp size={26} className="text-[#FB9100]" />
+                    ) : (
+                      <MdKeyboardArrowDown size={26} className="text-[#999]" />
+                    )}
+                  </div>
+
+                  {/* BODY */}
+                  <div
+                    className={`ease-in-ou grid overflow-hidden transition-[grid-template-rows,opacity,margin] duration-700 ${
+                      isActive
+                        ? 'mt-3 grid-rows-[1fr] opacity-100'
+                        : 'grid-rows-[0fr] opacity-0'
+                    }`}
+                  >
+                    <div className="overflow-hidden">
+                      {item?.description?.map((desc: string, i: number) => (
+                        <p key={i} className="my-2 text-[#333]">
+                          {desc}
+                        </p>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      </MaxWidthWrapper>
+    </div>
+  );
+};
+
+export default AISEOResult;

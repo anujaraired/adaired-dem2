@@ -1,5 +1,5 @@
 import Heading from '@/app/(website)/common/Heading';
-import { AISEO } from './data';
+// import { AISEO } from './data';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import Image from 'next/image';
@@ -10,14 +10,14 @@ const SEOProject = () => {
             <section className='relative z-20'>
                 <MaxWidthWrapper>
                     <div className='bg-[#FB9100] rounded-3xl py-6'>
-                        <Heading
+                        {/* <Heading
                             breakIndex={5}
-                            title={AISEO.SEOProject.title}
-                            description={AISEO.SEOProject.description}
+                            // title={AISEO.SEOProject.title}
+                            // description={AISEO.SEOProject.description}
                             isInCenter={true}
                             isBgWhite={false}
                             className='whitespace-pre-line'
-                        />
+                        /> */}
                         <div className='flex justify-center py-[2rem]'>
                             <SaveAndCancel
                                 name="Get Your Free Marketing Audit"

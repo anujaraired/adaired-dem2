@@ -1,16 +1,20 @@
-'use client';
-import React, { useState } from 'react';
-import { cards } from '@/app/(website)/(mainWebsite)/services/ai-seo/Card';
+import React from 'react';
+import { MdOutlineArrowOutward } from 'react-icons/md';
+import { cards } from './Card';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Heading from '@/app/(website)/common/Heading';
+import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 
 const AISEOSolutions = () => {
-  const [isHover, setIsHover] = useState(false);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+
   return (
-    <section className="py-[3rem] lg:py-[6rem]">
+    <section ref={ref} className="py-[3rem] lg:py-[6rem]">
       <MaxWidthWrapper>
-        <div>
+        <div
+          className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+        >
           <Heading
             breakIndex={7}
             title={`AI SEO Solutions That Make Your Website Trusted by AI and Humans`}
@@ -20,7 +24,13 @@ const AISEOSolutions = () => {
           />
           <div className="grid grid-cols-1 gap-6 pt-[3rem] md:grid-cols-2 lg:grid-cols-3">
             {cards.map((card, index) => (
-              <div key={index} className="rounded-2xl border bg-[#F3F3F3]">
+              <div
+                key={index}
+                className={`rounded-2xl border bg-[#F3F3F3] transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                style={{
+                  transitionDelay: `${index * 280}ms`, // 👈 stagger here
+                }}
+              >
                 <div className="flex h-full flex-col px-1">
                   <div className="px-10 pt-10">
                     <div className="flex h-[60px] w-[60px] items-center justify-center rounded-xl border-2 border-[#D5D3EB] bg-white">

@@ -27,7 +27,7 @@ const PageBanner = ({ subTitle, title }: any) => {
       </div>
 
       <MaxWidthWrapper>
-        <Heading isBgWhite={true} subTitle={subTitle} title={title} span={''} />
+        <Heading subTitle={subTitle} title={title} span={''} />
       </MaxWidthWrapper>
 
       {/* <MaxWidthWrapper className="relative">
@@ -39,7 +39,6 @@ const PageBanner = ({ subTitle, title }: any) => {
           className="absolute left-[400px] top-1/2 -translate-y-1/2 h-[152px] w-[152px]"
         />
       </MaxWidthWrapper> */}
-
     </div>
   );
 };
