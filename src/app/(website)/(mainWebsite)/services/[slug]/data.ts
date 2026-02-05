@@ -458,8 +458,9 @@ export const SERVICES_DATA = {
     whatMkeDeferent: {
       isVisible: true,
       heading: 'What Makes Adaired Different From Our Competitors?',
-      desctioption: `At Adaired, we have a clear plan for building your search engine optimization strategy. 
-      Starting with understanding your goals clearly to analyzing where you are losing search visibility, we do all the legwork to help your business uncover quick wins. `,
+      description: [
+        `At Adaired, we have a clear plan for building your search engine optimization strategy. Starting with understanding your goals clearly to analyzing where you are losing search visibility, we do all the legwork to help your business uncover quick wins.`,
+      ],
       list: [
         {
           img: meke_derefent,
@@ -850,6 +851,7 @@ export const SERVICES_DATA = {
     whatMkeDeferent: {
       isVisible: true,
       heading: 'What Makes Adaired Different From Our Competitors?',
+      description: [],
       list: [
         {
           img: meke_derefent,
