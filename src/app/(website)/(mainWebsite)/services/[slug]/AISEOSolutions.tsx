@@ -1,13 +1,11 @@
 import React from 'react';
-import { MdOutlineArrowOutward } from 'react-icons/md';
-import { cards } from './Card';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Heading from '@/app/(website)/common/Heading';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import Image from 'next/image';
 import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 
-const AISEOSolutions = () => {
+const AISEOSolutions = ({whatsInclude}:any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
 
   return (
@@ -18,13 +16,13 @@ const AISEOSolutions = () => {
         >
           <Heading
             breakIndex={7}
-            title={`AI SEO Solutions That Make Your Website Trusted by AI and Humans`}
-            description="At Adaired, we use AI SEO services to enhance search results, increase organic traffic, and generate high-intent traffic through data-driven optimization. "
+            title={whatsInclude?.heading}
+            description=" "
             isInCenter={true}
             isBgWhite={true}
           />
           <div className="grid grid-cols-1 gap-8 pt-[3rem] md:grid-cols-2 lg:grid-cols-3">
-            {cards.map((card, index) => (
+            {whatsInclude?.list?.map((list:any, index:any) => (
               <div
                 key={index}
                 className={`rounded-2xl border bg-[#F3F3F3] transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
@@ -34,19 +32,11 @@ const AISEOSolutions = () => {
               >
                 <div className="p-[2rem] flex h-full flex-col gap-10 rounded-xl">
                   <div className='w-full flex items-center justify-center lg:items-start lg:justify-start'>
-                    {/* <div className=' relative bg-white p-4 w-[10%] flex items-center rounded-xl border-2 border-[#D5D3EB] h-[35px]'>
-                      <Image
-                        src={card.icon}
-                        alt=""
-                        fill
-                        className='object-contain'
-                      />
-                    </div> */}
 
                     <div className="bg-white flex items-center justify-center rounded-xl border-2 border-[#D5D3EB] p-2">
                       <div className='relative w-[25px] h-[25px] lg:w-[35px] lg:h-[35px]'>
                         <Image
-                          src={card.icon}
+                          src={list.icon}
                           alt=""
                           fill
                           className="object-contain"
@@ -56,11 +46,11 @@ const AISEOSolutions = () => {
 
                   </div>
                   <div className='space-y-3 flex flex-col h-full'>
-                    <h3 className="">{card.title}</h3>
+                    <h3 className="">{list.title}</h3>
 
                     <div className="">
                       <p className="whitespace-pre-line leading-relaxed">
-                        {card.description}
+                        {list.description}
                       </p>
                     </div>
                   </div>

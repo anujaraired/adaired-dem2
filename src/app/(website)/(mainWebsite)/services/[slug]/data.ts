@@ -65,6 +65,66 @@ export const SERVICES_DATA = {
         },
       ],
     },
+    whatsInclude: {
+      isVisible: true,
+      heading: 'What’s Included in Our SEO Services',
+      description: "",
+      list: [
+        {
+          icon: "/assets/AISEO/Card1.png",
+          title: "Keyword Research and Analysis",
+          description: [
+            `We provide ChatGPT SEO solutions made to be AI discoverable. We ensure your content appears as a reliable, cited, and recommended source in the search results produced by the AI.`,
+            `Our effective SEO strategy consists of proper keyword research to match the content of the websites with what the users are actively searching for. `
+          ],
+        },
+
+        {
+          icon: "/assets/AISEO/Card2.png",
+          title: "On-Page SEO Optimization",
+          description: [
+            `Our focus on On-page SEO optimization is to improve search visibility. This involves optimization of page names, meta descriptions, headings, URLs, internal links, and content structure. `,
+            `On-page optimization helps search engines to understand the relevance of the pages while enhancing readability and user experience, making the content easy to access, arranged and in accordance with the targeted keywords. `
+          ],
+        },
+
+        {
+          icon: "/assets/AISEO/Card3.png",
+          title: "Technical SEO Improvements",
+          description: [
+            `In Technical SEO, we address the backend elements of a website that affect search engine crawling and indexing. This involves site speed improvement, mobile friendliness, HTTPS configuration, XML sitemaps, and crawl errors remedies. `,
+            `Technical optimization ensures search engines can efficiently access and understand the site effectively, and this is what is necessary to maintain the same ranking level. `
+          ],
+        },
+
+        {
+          icon: "/assets/AISEO/Card4.png",
+          title: "Content Optimization and Development.",
+          description: [
+            `In content optimization, we improve existing content and create new, relevant content based on SEO insights.  This is done to ensure that the content is informative, keyword-compatible, user and search engine friendly. `,
+            `High-quality content supports better engagement, increased page views, and stronger relevance signals, helping websites perform more effectively in search results. `
+          ],
+        },
+
+        {
+          icon: "/assets/AISEO/Card5.png",
+          title: "Link Building and Authority Development",
+          description:[
+            `In link building, we focus on earning high-quality backlinks from relevant and trustworthy websites. These links are indicators of credibility and authority to search engines. `,
+            `Ethical link-building practices help strengthen a website’s domain authority over time,  improving its ability to rank competitively while maintaining compliance with search engine guidelines. `
+          ],
+        },
+
+        {
+          icon: "/assets/AISEO/Card6.png",
+          title: "SEO Monitoring and Reporting",
+          description: [
+            `We track keyword rankings, organic traffic, user behavior, and technical performance in SEO monitoring. Regular reporting gives an idea of what works and where it should be improved. `,
+            `The ongoing analysis helps refine SEO strategies, keeping up with the changes in the algorithms, and ensuring long-term effectiveness through data-driven optimization efforts. `
+          ],
+        }
+      ]
+    },
     whatareservice: {
       isVisible: true,
       img: what_are_ai_seo2,
@@ -466,7 +526,7 @@ export const SERVICES_DATA = {
           img: meke_derefent,
           name: 'Customized SEO Strategies',
           description: [
-            `Adaired develops customized search engine optimization plans according to your business objectives, target market, and competition in the industry. We do not apply templates and standardized checklists.`, 
+            `Adaired develops customized search engine optimization plans according to your business objectives, target market, and competition in the industry. We do not apply templates and standardized checklists.`,
             `All the campaigns will be carefully strategized based on extensive keyword research, competitor analysis, and search intent to provide organic growth in the long term.`,
           ],
         },
@@ -474,7 +534,7 @@ export const SERVICES_DATA = {
           img: meke_derefent_2,
           name: 'Data-Driven Decision Making',
           description: [
-            `Our SEO services are guided by real data, not assumptions. We make use of advanced analytics, performance measurement, and search intelligence to optimize campaigns on a continuous basis.`, 
+            `Our SEO services are guided by real data, not assumptions. We make use of advanced analytics, performance measurement, and search intelligence to optimize campaigns on a continuous basis.`,
             `This guarantees that all the changes enhance rankings, organic flow, and possible conversion, and get the most out of your SEO investment.`,
           ],
         },
@@ -482,7 +542,7 @@ export const SERVICES_DATA = {
           img: meke_derefent_3,
           name: 'Focus on Revenue, Not Just Rankings',
           description: [
-            `Higher rankings alone don’t grow businesses. Adaired focuses on the SEO strategies, which will provide qualified traffic, leads, and sales.`, 
+            `Higher rankings alone don’t grow businesses. Adaired focuses on the SEO strategies, which will provide qualified traffic, leads, and sales.`,
             `We help businesses maximize search visibility to the user intent and conversion to help them generate measurable revenue and sustain business growth.`,
           ],
         },
@@ -490,7 +550,7 @@ export const SERVICES_DATA = {
           img: meke_derefent_4,
           name: 'Complete SEO Expertise Under One Roof',
           description: [
-            `From technical SEO and on-page optimization to content creation, link building, and local optimization, Adaired covers every SEO pillar.`, 
+            `From technical SEO and on-page optimization to content creation, link building, and local optimization, Adaired covers every SEO pillar.`,
             `This integrated approach enhances the authority of the websites, better user experience, and provides a steady stream of improvements in the ranking of the sites in various search platforms.`,
           ],
         },
@@ -498,7 +558,7 @@ export const SERVICES_DATA = {
           img: meke_derefent,
           name: 'Transparent Reporting & Communication',
           description: [
-            `We believe in full transparency. Adaired offers effective, understandable SEO reports with the focus on progress, results, and future actions.`, 
+            `We believe in full transparency. Adaired offers effective, understandable SEO reports with the focus on progress, results, and future actions.`,
             `Clients always know how their website is performing, the strategies they are using, and how their SEO investment is delivering real value.`,
           ],
         },
@@ -506,7 +566,7 @@ export const SERVICES_DATA = {
           img: meke_derefent,
           name: 'White-Hat, Google-Compliant SEO',
           description: [
-            `Adaired follows ethical, white-hat SEO practices aligned with Google’s guidelines. We avoid risky shortcuts and spam methods that lead to penalties.`, 
+            `Adaired follows ethical, white-hat SEO practices aligned with Google’s guidelines. We avoid risky shortcuts and spam methods that lead to penalties.`,
             `Instead, we create long-lasting SEO platforms that safeguard rankings, enhance credibility, and secure long-term online presence.`,
           ],
         },
@@ -514,7 +574,7 @@ export const SERVICES_DATA = {
           img: meke_derefent,
           name: 'Continuous Optimization & Algorithm Readiness',
           description: [
-            `Search algorithms are constantly evolving, and so are our strategies.  Adaired constantly monitors updates, user actions, and performance patterns to optimize the campaigns.`, 
+            `Search algorithms are constantly evolving, and so are our strategies.  Adaired constantly monitors updates, user actions, and performance patterns to optimize the campaigns.`,
             `This is a proactive measure that ensures that your site remains competitive, compliant, and visible even when search engine algorithms keep changing.`,
           ],
         },
@@ -522,7 +582,7 @@ export const SERVICES_DATA = {
           img: meke_derefent,
           name: 'Client-Centric Partnership Approach',
           description: [
-            `We do not provide just SEO; we build partnerships. Adaired works closely with its clients to understand challenges, create strategies, and adapt with the business.`, 
+            `We do not provide just SEO; we build partnerships. Adaired works closely with its clients to understand challenges, create strategies, and adapt with the business.`,
             `Our dedicated support, active communication with our clients, and a result-oriented approach make us stand out among the traditional SEO agencies.`,
           ],
         },
@@ -598,6 +658,66 @@ export const SERVICES_DATA = {
       desc: 'Our strategies are designed to help your business outrank competitors, attract more traffic, and achieve sustainable growth. Experience smarter SEO that not only ranks but accelerates your success.',
       subheading:
         'Ready to Build Topical Authority and Maximize Discoverability?',
+    },
+    whatsInclude: {
+      isVisible: true,
+      heading: 'What Are SEO Services?',
+      description: "des",
+      list: [
+        {
+          icon: "/assets/AISEO/Chatgpt.png",
+          title: "ChatGPT SEO",
+          description: `We provide ChatGPT SEO solutions made to be AI discoverable. We ensure your content appears as a reliable, cited, and recommended source in the search results produced by the AI.\n
+        Our strategy ensures cross-industry visibility, drives high-intent user engagement, and positions your content high in the AI search.`,
+          linkText: "Get Your Free AI SEO Audit",
+          linkHref: "#",
+        },
+
+        {
+          icon: "/assets/AISEO/Perplexity.png",
+          title: "Perplexity AI SEO",
+          description: `Our Perplexity AI SEO service integrates the basics of SEO with answer-engine formatting to optimize your content for recognition, trust, and visibility with AI search engines. \n
+        Through the combination of structured responses and content accessible to the AI, we enhance authority, engagement, and discoverability. This helps your brand appear in high-intent searches in the AI-based search results.`,
+          linkText: "Get Your Free AI SEO Audit",
+          linkHref: "#",
+        },
+
+        {
+          icon: "/assets/AISEO/Gemini.png",
+          title: "Gemini AI SEO",
+          description: `Our Gemini AI SEO services combine traditional SEO best practices with AI-first page structuring to make your content easily discoverable, cited, and trusted in Google's AI-powered Gemini search results. \n
+        We ensure that your pages stand out as authoritative answers, boosting visibility, credibility, and user engagement in an increasingly AI-powered search landscape.`,
+          linkText: "Get Your Free AI SEO Audit",
+          linkHref: "#",
+        },
+
+        {
+          icon: "/assets/AISEO/Grok.png",
+          title: "Grok AI SEO",
+          description: `Our Grok AI SEO helps to increase AI visibility, ensuring that insights are clear, authoritative, and easily discovered by Grok.   \n
+        With the help of our strategies, your brand gains citation, trust, and recognition, gaining authority in your industry and maximizing content to provide answers using AI, high-intent traffic, and meaningful engagement.`,
+          linkText: "Get Your Free AI SEO Audit",
+          linkHref: "#",
+        },
+
+        {
+          icon: "/assets/AISEO/AEO.png",
+          title: "Answer Engine Optimization",
+          description: `Being one of the leaders in Answer Engine Optimization, Adaired integrates search engine AI with SEO best practices to ensure your site is answerable on ChatGPT, Gemini, and Perplexity. \n
+        We optimize content structure and relevance so that your pages gain recognition, credibility, and are continually surfaced by the AI-based search engines.`,
+          linkText: "Get Your Free AI SEO Audit",
+          linkHref: "#",
+        },
+
+        {
+          icon: "/assets/AISEO/GEO.png",
+          title: "Generative Engine Optimization",
+          description: `Our Generative Engine Optimization services combine the basics of SEO with answer-based structuring, so that your content is easily found, cited, and surfaced by Gemini, Claude, and other AI engines. \n
+        We position your brand as an authoritative source, boosting your visibility, trust, and engagement on AI-driven search engines, and optimize content to high-intent user search queries.`,
+          linkText: "Get Your Free AI SEO Audit",
+          linkHref: "#",
+        }
+      ]
     },
     keyStats: {
       isVisible: true,

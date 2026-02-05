@@ -37,10 +37,17 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
                   transitionDelay: `${idx * 280}ms`, // 👈 stagger here
                 }}
               >
-                <div className="flex justify-between">
-                  <Image src={item?.icon} width={60} height={60} alt="img" />
-                  <h1 className='text-[#F1F1F1] text-[4rem]' >0{idx + 1}</h1>
+                <div className="relative flex items-center justify-between">
+
+                  <div className="absolute left-1/2 -translate-x-1/2 lg:static lg:translate-x-0">
+                    <Image src={item?.icon} width={60} height={60} alt="img" />
+                  </div>
+
+                  <div className="ml-auto">
+                    <h1 className="text-[#F1F1F1] text-[4rem]">0{idx + 1}</h1>
+                  </div>
                 </div>
+
                 <h3 className="mb-[0.5rem] mt-[2rem]">{item?.name}</h3>
                 <div className="">
                   {item?.description?.map((dec: any) => {

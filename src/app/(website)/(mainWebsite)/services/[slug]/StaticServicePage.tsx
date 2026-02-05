@@ -64,8 +64,8 @@ const StaticServicePage = ({ serviceData }: any) => {
       ) : (
         <LeadingTools leadingTools={serviceData?.leadingTools} />
       )}
+      {serviceData?.whatsInclude?.isVisible && <AISEOSolutions whatsInclude={serviceData?.whatsInclude} />}
 
-      <AISEOSolutions />
       {serviceData?.stopStruggling?.isVisible && (
         <Stopstruggling stopStruggling={serviceData?.stopStruggling} />
       )}

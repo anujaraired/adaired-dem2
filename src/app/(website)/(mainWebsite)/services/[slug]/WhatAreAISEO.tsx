@@ -13,14 +13,15 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
     <div
       className={`${whatareaiseo?.isBgWhite ? 'bg-[#000000]' : 'bg-[#FFFCF8]'} py-[3rem] lg:py-[6rem]`}
     >
-      <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2">
+      <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2 justify-items-center lg:justify-items-end">
         <div
-          className={`my-auto transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+          className={`order-2 lg:order-1 my-auto transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
         >
           <Heading
             subTitle={''}
             title={whatareaiseo?.heading}
             isBgWhite={whatareaiseo?.isBgWhite && true}
+            className='flex items-center justify-center lg:items-start lg:justify-start'
           />
           <div>
             {whatareaiseo?.data?.map((item: any) => {
@@ -45,7 +46,7 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
         </div>
         <div
           ref={ref}
-          className={`flex justify-end justify-items-end transition-all duration-1000 ${isVisible ? 'translate-x-16 opacity-100' : '-translate-x-0 opacity-0'}`}
+          className={`order-1 lg:order-2 flex justify-end justify-items-end transition-all duration-1000 ${isVisible ? 'translate-x-0 lg:translate-x-16 opacity-100' : '-translate-x-0 opacity-0'}`}
         >
           <Image
             src={whatareaiseo?.img}
