@@ -21,7 +21,7 @@ const Stopstruggling = ({ stopStruggling }: any) => {
         <div
           className={`mx-auto w-fit text-center transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
         >
-          <h2 className="mx-auto w-[70%] text-[35px] font-semibold text-[#FFFFFF]">
+          <h2 className="mx-auto w-[70%] text-center text-[22px] md:text-[28px] lg:text-[35px] font-semibold text-[#FFFFFF]">
             {stopStruggling?.title}
           </h2>
 
@@ -29,7 +29,7 @@ const Stopstruggling = ({ stopStruggling }: any) => {
             name="Start Your AI SEO Journey Now"
             isBgWhite={true}
             isIcon={true}
-            className="mx-auto mt-[2rem] w-[23rem]"
+            className="mx-auto mt-[2rem] w-[18rem] lg:w-[23rem]"
           />
         </div>
       </MaxWidthWrapper>
