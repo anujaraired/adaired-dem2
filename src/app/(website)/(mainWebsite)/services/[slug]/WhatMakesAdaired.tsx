@@ -23,9 +23,9 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
         </div> */}
 
         <div
-          className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+          className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
         >
-          <div className="flex gap-10">
+          <div className="flex justify-center">
             <div
               className={`${whatMkeDeferent?.description?.length > 0 ? 'w-[50%] pr-[5%]' : 'flex w-[100%] justify-center justify-items-center'}`}
             >
