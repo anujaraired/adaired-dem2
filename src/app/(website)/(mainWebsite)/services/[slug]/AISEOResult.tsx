@@ -25,7 +25,7 @@ const AISEOResult = ({ aiseoResult }: any) => {
         >
           <div>
             <div
-              className={`${aiseoResult?.description?.length > 0 ? 'w-[42%] pr-[10%]' : 'flex w-[100%] justify-center items-center'}`}
+              className={`${aiseoResult?.description?.length > 0 ? 'w-[42%] pr-[10%]' : 'flex w-[100%] items-center justify-center'}`}
             >
               <Heading title={aiseoResult?.heading} />
             </div>
@@ -39,7 +39,7 @@ const AISEOResult = ({ aiseoResult }: any) => {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row justify-between gap-8 pt-[3rem]">
+        <div className="flex flex-col justify-between gap-8 pt-[3rem] lg:flex-row">
           {/* LEFT IMAGE */}
 
           {/* <div
@@ -64,11 +64,13 @@ const AISEOResult = ({ aiseoResult }: any) => {
             </>
           </div> */}
 
-
           <div
             ref={ref}
-            className={`relative h-[480px] w-full lg:w-[42%] rounded-[20px] transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'
-              }`}
+            className={`relative h-[480px] w-full rounded-[20px] transition-all duration-1000 lg:w-[42%] ${
+              isVisible
+                ? 'translate-x-0 opacity-100'
+                : '-translate-x-16 opacity-0'
+            }`}
           >
             {/* Main image */}
             <Image
@@ -80,10 +82,7 @@ const AISEOResult = ({ aiseoResult }: any) => {
             />
 
             {/* Rocket wrapper */}
-            <div className="absolute left-[-1rem] top-[-1rem] 
-                  w-[70px] h-[75px] 
-                  sm:w-[90px] sm:h-[95px] 
-                  lg:w-[115px] lg:h-[123px]">
+            <div className="absolute left-[-1rem] top-[-1rem] h-[75px] w-[70px] sm:h-[95px] sm:w-[90px] lg:h-[123px] lg:w-[115px]">
               <Image
                 src={rocket}
                 fill
@@ -93,9 +92,8 @@ const AISEOResult = ({ aiseoResult }: any) => {
             </div>
           </div>
 
-
           {/* RIGHT ACCORDION */}
-          <div className="flex w-full lg:w-[55%] flex-col gap-4">
+          <div className="flex w-full flex-col gap-4 lg:w-[55%]">
             {aiseoResult?.list?.map((item: any, index: number) => {
               const isActive = index === activeIndex;
 
@@ -104,35 +102,43 @@ const AISEOResult = ({ aiseoResult }: any) => {
                   key={index}
                   onClick={() => setActiveIndex(isActive ? null : index)}
                   onMouseEnter={() => setActiveIndex(index)}
-                  className={`cursor-pointer rounded-[20px] border p-[1.5rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${aiseoResult?.isBgColor ? 'bg-[#FFFFFF]' : 'bg-[#F3F3F3]'} ${isActive
+                  className={`cursor-pointer rounded-[20px] border p-[1.5rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${aiseoResult?.isBgColor ? 'bg-[#FFFFFF]' : 'bg-[#F3F3F3]'} ${
+                    isActive
                       ? 'border-[#FB9100]/20 bg-[#F3F3F3]'
                       : 'border-[#00000014] bg-[#F3F3F3]'
-                    }`}
+                  }`}
                   style={{
                     transitionDelay: `${index * 280}ms`, // 👈 stagger here
                   }}
                 >
                   {/* HEADER */}
                   <div className="flex flex-col items-center lg:flex-row lg:items-start lg:justify-between">
-                    <div className="flex flex-col lg:flex-row items-center gap-3">
+                    <div className="flex flex-col items-center gap-3 lg:flex-row">
                       <Image src={groth} width={32} height={32} alt="icon" />
                       <p className="font-bold">{item?.name}</p>
                     </div>
 
                     {/* ARROW */}
                     {isActive ? (
-                      <MdKeyboardArrowUp size={26} className="text-[#FB9100]" />
+                      <MdKeyboardArrowUp
+                        size={26}
+                        className="hidden text-[#FB9100] lg:block"
+                      />
                     ) : (
-                      <MdKeyboardArrowDown size={26} className="text-[#999]" />
+                      <MdKeyboardArrowDown
+                        size={26}
+                        className="hidden text-[#999] lg:block"
+                      />
                     )}
                   </div>
 
                   {/* BODY */}
                   <div
-                    className={`ease-in-ou grid overflow-hidden transition-[grid-template-rows,opacity,margin] duration-700 ${isActive
+                    className={`ease-in-ou grid overflow-hidden transition-[grid-template-rows,opacity,margin] duration-700 ${
+                      isActive
                         ? 'mt-3 grid-rows-[1fr] opacity-100'
                         : 'grid-rows-[0fr] opacity-0'
-                      }`}
+                    }`}
                   >
                     <div className="overflow-hidden">
                       {item?.description?.map((desc: string, i: number) => (
