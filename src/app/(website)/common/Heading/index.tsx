@@ -189,7 +189,7 @@ const Heading = ({
             </div>
           ) : (
             <div
-              className={`${isDecVarticle && 'grid grid-cols-1 lg:grid-cols-2 lg:gap-[10rem]'}`}
+              className={`${isDecVarticle && 'grid !bg-blue-200 p-2 grid-cols-1 lg:grid-cols-2 lg:gap-[10rem]'}`}
             >
               <div className="md:flex` block w-fit justify-center justify-items-center gap-3 md:justify-center md:justify-items-center lg:justify-start lg:justify-items-start">
                 {isLabel && (
@@ -202,7 +202,7 @@ const Heading = ({
                       className="mb-auto"
                     />
                     <span className="my-auto font-montserrat text-[10px] font-normal uppercase text-[#000000] xl:text-[14px]">
-                      {subTitle}
+                      {"subTitle"}
                     </span>
                     {/* <div className="mb-auto mt-3 h-0.5 w-24 bg-[#D7EBFF]"></div> */}
                   </div>

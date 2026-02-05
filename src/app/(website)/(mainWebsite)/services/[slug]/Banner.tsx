@@ -36,7 +36,7 @@ const Banner = ({ banner }: any) => {
   return (
     <div
       ref={ref}
-      className="animate-pulse relative h-[114vh] w-full pt-[10vh] md:h-[140vh] lg:h-[100vh] 1366:h-[135vh] 1400:h-[115vh] 1470:h-[100vh] 1600:h-[118vh] 1680:h-[100vh] 1710:h-[85vh] 3xl:h-[100vh]"
+      className="animate-pulse relative h-[114vh] w-full pt-[10vh] md:h-[110vh] lg:h-[100vh] 1366:h-[135vh] 1400:h-[115vh] 1470:h-[100vh] 1600:h-[118vh] 1680:h-[100vh] 1710:h-[85vh] 3xl:h-[100vh]"
     >
       <Image
         src={hero_banner}
@@ -50,8 +50,8 @@ const Banner = ({ banner }: any) => {
           className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[45%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
         >
           <div className={`'grid lg:gap-[10rem]'} grid-cols-1 lg:grid-cols-2`}>
-            <div className="md:flex` block w-fit justify-center justify-items-center gap-3 md:justify-center md:justify-items-center lg:justify-start lg:justify-items-start">
-              <div className="mt-[0.8rem] md:mt-[8px] lg:mt-[0.5rem]">
+            <div className="md:flex` block justify-center justify-items-center gap-3 lg:justify-start lg:justify-items-start">
+              <div className="mt-[0.8rem] !w-[100%] md:mt-[8px] lg:mt-[0.5rem]">
                 <h1 className="text-center capitalize lg:text-left">
                   {banner?.heading}
                 </h1>
@@ -75,12 +75,14 @@ const Banner = ({ banner }: any) => {
               )}
             </div>
           </div>
-          <SaveAndCancel
-            name={'Get A Quote'}
-            isIcon={true}
-            handleClick={() => router.push('/contact')}
-            className="w-[14rem]"
-          />
+          <div className="flex justify-center lg:justify-start">
+            <SaveAndCancel
+              name={'Get A Quote'}
+              isIcon={true}
+              handleClick={() => router.push('/contact')}
+              className="w-[18rem] lg:w-[14rem]"
+            />
+          </div>
           <div className="flex justify-center gap-3 pt-[2rem] lg:justify-start">
             <a
               href="https://www.google.com/partners/agency?id=7775339798"
@@ -114,7 +116,7 @@ const Banner = ({ banner }: any) => {
           </div>
         </div>
         <div
-          className={`relative mt-[5rem] w-[100%] pt-[20vh] transition-all delay-200 duration-1000 md:pt-[50vh] lg:mt-0 lg:w-[45%] lg:pt-0 xl:w-[45%] ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-16 opacity-0'} `}
+          className={`relative mt-[5rem] w-[100%] pt-[0vh] transition-all delay-200 duration-1000 md:pt-[20vh] lg:mt-0 lg:w-[45%] lg:pt-0 xl:w-[45%] ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-16 opacity-0'} `}
         >
           <div className="relative h-full">
             <div className="absolute left-1/2 top-1/2 h-[25rem] w-[35rem] -translate-x-1/2 -translate-y-1/2">
