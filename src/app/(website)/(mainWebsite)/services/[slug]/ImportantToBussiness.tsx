@@ -27,7 +27,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
         </div>
 
         <div
-          className={`${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} grid-cols-1 grid-cols-2 gap-[1rem] lg:grid`}
+          className={`${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} grid-cols-1 lg:grid-cols-2 gap-[1rem] lg:grid`}
         >
           {importantToBussiness?.data?.map((item: any, idx: number) => {
             return (
