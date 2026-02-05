@@ -189,7 +189,7 @@ const Heading = ({
             </div>
           ) : (
             <div
-              className={`${isDecVarticle && 'grid grid-cols-1 !bg-blue-200 p-2 lg:grid-cols-2 lg:gap-[10rem]'}`}
+              className={`${isDecVarticle && 'grid grid-cols-1 lg:grid-cols-2 lg:gap-[10rem]'}`}
             >
               <div className="md:flex` block w-fit justify-center justify-items-center gap-3 md:justify-center md:justify-items-center lg:justify-start lg:justify-items-start">
                 {isLabel && (
