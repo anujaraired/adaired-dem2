@@ -51,7 +51,7 @@ const LeadingTools = ({ leadingTools }: any) => {
           {data?.map((client, idx) => (
             <div
               key={idx}
-              className={`group flex h-[6rem] items-center justify-center overflow-hidden rounded-[20px] border-[1px] border-[#000000]/5 bg-yellow-100 transition-all duration-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'} `}
+              className={`group flex h-[6rem] items-center justify-center overflow-hidden rounded-[20px] border-[1px] border-[#000000]/5 transition-all duration-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'} `}
               style={{
                 transitionDelay: `${idx * 60}ms`,
               }}
