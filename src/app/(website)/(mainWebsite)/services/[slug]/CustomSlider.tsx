@@ -19,7 +19,7 @@ export default function CustomSlider({ data }: any) {
           data?.map((item: any, idx: number) => (
             <SwiperSlide key={item.id} className="w-[100%] lg:!w-[40%]">
               <div
-                className={`h-[26rem] rounded-[20px] border-[1px] border-[#FB9100]/25 bg-[#FFFFFF] p-[2rem] transition-all duration-1000`}
+                className={`flex flex-col items-center lg:items-start h-[26rem] rounded-[20px] border-[1px] border-[#FB9100]/25 bg-[#FFFFFF] p-[2rem] transition-all duration-1000`}
               >
                 <h2 className="w-fit rounded-[20px] bg-[#FB9100]/20 p-2 px-6 text-[#FB9100]">{`0${idx + 1}`}</h2>
                 <h3 className="pb-[1rem] pt-[2rem] text-[#FB9100]">

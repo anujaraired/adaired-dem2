@@ -13,7 +13,7 @@ const BenefitofAiSEO = ({ benefitofAiSeo }: any) => {
     >
       <MaxWidthWrapper>
         <div
-          className={`flex justify-between transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+          className={`flex flex-col lg:flex-row lg:justify-between transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
         >
           <Heading
             title={benefitofAiSeo?.heading}
