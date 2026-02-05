@@ -23,14 +23,14 @@ const AISEOResult = ({ aiseoResult }: any) => {
         <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
         >
-          <div>
+          <div className="block gap-8 lg:flex">
             <div
-              className={`${aiseoResult?.description?.length > 0 ? 'w-[42%] pr-[10%]' : 'flex w-[100%] items-center justify-center'}`}
+              className={`${aiseoResult?.description?.length > 0 ? 'w-[100%] pr-[10%] lg:w-[42%]' : 'flex w-[100%] items-center justify-center'}`}
             >
               <Heading title={aiseoResult?.heading} />
             </div>
             <div
-              className={`${aiseoResult?.description?.length > 0 ? 'w-[55%]' : 'w-[0%]'}`}
+              className={`${aiseoResult?.description?.length > 0 ? 'w-[100%] lg:w-[55%]' : 'w-[0%]'}`}
             >
               {aiseoResult?.description?.map((item: any) => {
                 return <p className="my-3">{item}</p>;

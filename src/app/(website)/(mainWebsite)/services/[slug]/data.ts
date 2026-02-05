@@ -346,7 +346,7 @@ export const SERVICES_DATA = {
     serviceResult: {
       isVisible: true,
       heading:
-        'Struggling to Rank in AI SEO Results? Here’s What You Need to Know',
+        'Why Partner With Adaired Digital Media to Hire SEO Services?',
       bgImage: '',
       description: [
         'Adaired, a leading SEO agency, puts your business at the forefront of technology with the help of proven SEO strategies. We help your business stay visible, no matter how the search changes.',
