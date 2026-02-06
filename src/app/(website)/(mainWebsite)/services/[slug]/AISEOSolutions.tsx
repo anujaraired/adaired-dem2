@@ -26,7 +26,7 @@ const AISEOSolutions = ({ whatIncluded }: any) => {
             {whatIncluded?.list?.map((card: any, index: number) => (
               <div
                 key={index}
-                className={`h-[34rem] relative rounded-2xl border bg-[#F3F3F3] p-[2.5rem] transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                className={`h-full flex flex-col gap-3 rounded-2xl border bg-[#F3F3F3] p-[2.5rem] transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
                 style={{
                   transitionDelay: `${index * 280}ms`, // 👈 stagger here
                 }}
@@ -43,7 +43,7 @@ const AISEOSolutions = ({ whatIncluded }: any) => {
 
                 <a
                   href={card.linkHref}
-                  className="flex absolute bottom-[2.5rem] w-full items-center gap-2 sm:text-[0.7rem] md:text-[0.8rem] lg:text-[0.9rem]"
+                  className="mt-auto flex items-center justify-center lg:justify-start gap-2 sm:text-[0.7rem] md:text-[0.8rem] lg:text-[0.9rem]"
                 >
                   <span>{'Get Your Free AI SEO Audit'}</span>
                   <MdOutlineArrowOutward />
