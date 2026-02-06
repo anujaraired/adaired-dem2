@@ -193,7 +193,7 @@ const Banner = ({ banner }: any) => {
                   width={302}
                   height={186}
                   alt=""
-                  className={`absolute h-[10rem] w-[16rem] transition-all duration-700 ease-in-out 1400:top-[15%] ${
+                  className={`absolute h-[10rem] w-[16rem] transition-all duration-700 ease-in-out 1400:top-[25%] ${
                     isActive('img4')
                       ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 -translate-y-1/2 scale-105 opacity-100 1400:translate-y-[20%] 3xl:1400:translate-y-[50%]'
                       : 'left-0 top-[25%] z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
@@ -205,7 +205,7 @@ const Banner = ({ banner }: any) => {
                   width={302}
                   height={186}
                   alt=""
-                  className={`absolute bottom-0 right-[25%] h-[10rem] w-[16rem] transition-all duration-700 ease-in-out 1400:bottom-[20%] 1400:right-[20%] 3xl:bottom-0 3xl:right-[15%] ${
+                  className={`absolute bottom-0 right-[25%] h-[10rem] w-[16rem] transition-all duration-700 ease-in-out 1400:bottom-[5%] 1400:right-[15%] 3xl:bottom-0 3xl:right-[15%] ${
                     isActive('img3')
                       ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 -translate-y-1/2 scale-105 opacity-100 1400:translate-x-[-50%] 1400:translate-y-[-50%] 3xl:translate-y-[-50%]'
                       : 'z-10 opacity-40'
@@ -216,9 +216,9 @@ const Banner = ({ banner }: any) => {
                   width={388}
                   height={244}
                   alt=""
-                  className={`absolute right-0 top-0 h-[10rem] w-[16rem] transition-all duration-700 ease-in-out 1400:top-[15%] 3xl:right-0 3xl:top-0 ${
+                  className={`absolute right-0 top-0 h-[10rem] w-[16rem] transition-all duration-700 ease-in-out 1400:top-[5%] 3xl:right-0 3xl:top-0 ${
                     isActive('img2')
-                      ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 -translate-y-1/2 scale-105 opacity-100 1400:translate-x-[-50%] 1400:translate-y-[88%] 3xl:translate-y-[100%]'
+                      ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 -translate-y-1/2 scale-105 opacity-100 1400:translate-x-[-50%] 1400:translate-y-[80%] 3xl:translate-y-[100%]'
                       : 'z-10 opacity-40'
                   } `}
                 />
