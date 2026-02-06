@@ -28,11 +28,19 @@ import ai_tool_3 from '../../../../../../public/assets/aitools/Group 1000005571.
 import ai_tool_4 from '../../../../../../public/assets/aitools/Group 1000005578.svg';
 import ai_tool_5 from '../../../../../../public/assets/aitools/Group 1000005587.svg';
 import ai_tool_6 from '../../../../../../public/assets/aitools/Group 1000005766.svg';
+
+import seo_tool_1 from '../../../../../../public/assets/icons/seotools/Group 1000005990.svg';
+import seo_tool_2 from '../../../../../../public/assets/icons/seotools/Group 1000005991.svg';
+import seo_tool_3 from '../../../../../../public/assets/icons/seotools/Group 1000006000.svg';
+import seo_tool_4 from '../../../../../../public/assets/icons/seotools/Group 1000006001.svg';
+import seo_tool_5 from '../../../../../../public/assets/icons/seotools/Group 1000006002.svg';
+import seo_tool_6 from '../../../../../../public/assets/icons/seotools/Group 1000006003.svg';
+
 import NotSeeingResult from '../../../../../../public/assets/aiseo/NotSeeingResults.png';
 import Everydayyouwait from '../../../../../../public/assets/aiseo/Everydayyouwait.png';
 import keyStatsImg from '../../../../../../public/assets/images/SEO-keyword-ranking-software 1.png';
 import keyStatsImg2 from '../../../../../../public/assets/keyStatsImg.png';
-
+import WhatIsAuthorityLinkBuilding from '../../../../../../public/assets/images/WhatIsAuthorityLinkBuilding.png';
 export const SERVICES_DATA = {
   'search-engine-optimization': {
     banner: {
@@ -84,6 +92,7 @@ export const SERVICES_DATA = {
       heading: 'What Are SEO Services?',
       bgColor: '#FFFFFF',
       isBgWhite: false,
+      button: 'Get Started',
       data: [
         {
           desctioption: `Search Engine Optimization services focus on improving a website’s visibility in search engine results pages (SERPs). It is aimed at ensuring that websites appear higher in relevant searches, which will enable people to find accurate and useful information online.`,
@@ -248,7 +257,7 @@ export const SERVICES_DATA = {
       heading: 'What’s Included in Our SEO Services',
       list: [
         {
-          icon: ai_tool_1,
+          icon: seo_tool_1,
           title: 'Keyword Research and Analysis',
           description: [
             `We start the process by conducting a comprehensive keyword research. It helps determine the search terms that users input in search engines when looking for related information, products, or services. `,
@@ -256,7 +265,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: ai_tool_1,
+          icon: seo_tool_2,
           title: 'On-Page SEO Optimization',
           description: [
             `Our focus on On-page SEO optimization is to improve search visibility. This involves optimization of page names, meta descriptions, headings, URLs, internal links, and content structure.`,
@@ -265,7 +274,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: ai_tool_1,
+          icon: seo_tool_3,
           title: 'Technical SEO Improvements',
           description: [
             `In Technical SEO, we address the backend elements of a website that affect search engine crawling and indexing. This involves site speed improvement, mobile friendliness, HTTPS configuration, XML sitemaps, and crawl errors remedies.`,
@@ -273,7 +282,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: ai_tool_1,
+          icon: seo_tool_4,
           title: 'Content Optimization and Development',
           description: [
             `In content optimization, we improve existing content and create new, relevant content based on SEO insights. This is done to ensure that the content is informative, keyword-compatible, user and search engine friendly.`,
@@ -281,7 +290,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: ai_tool_1,
+          icon: seo_tool_5,
           title: 'Link Building and Authority Development',
           description: [
             `In link building, we focus on earning high-quality backlinks from relevant and trustworthy websites. These links are indicators of credibility and authority to search engines.`,
@@ -289,7 +298,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: ai_tool_1,
+          icon: seo_tool_6,
           title: 'SEO Monitoring and Reporting',
           description: [
             `We track keyword rankings, organic traffic, user behavior, and technical performance in SEO monitoring. Regular reporting gives an idea of what works and where it should be improved. `,
@@ -720,6 +729,7 @@ export const SERVICES_DATA = {
       heading: 'What Are AI SEO Services?',
       bgColor: '#FFFCF8',
       isBgWhite: true,
+      button: 'Get Started',
       data: [
         {
           desctioption: `AI SEO, also known as generative search optimization services focus on optimizing your website content to appear in AI search results. It helps your website become discoverable, extractable, and trusted across AI-powered search experiences.`,
@@ -1252,18 +1262,19 @@ brand appears in AI summaries and citations.`,
     },
     whatareservice: {
       isVisible: true,
-      img: what_are_ai_seo,
-      heading: 'What Are AI SEO Services?',
+      img: WhatIsAuthorityLinkBuilding,
+      heading: 'What Is Authority Link Building?',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [
         {
-          desctioption: `AI SEO, also known as generative search optimization services focus on optimizing your website content to appear in AI search results. It helps your website become discoverable, extractable, and trusted across AI-powered search experiences.`,
+          desctioption: `Authority link building is a strategic SEO process focused on earning high-quality backlinks from trusted, relevant, and authoritative websites.  Authority links, unlike low-value links, come from credible sources, including industry publications, long-established blogs, and websites with high domain authority.`,
         },
         {
-          desctioption: `AI SEO combines the best practices of SEO  along with generative AI to ensure your content is discovered and ranked favourably. `,
+          desctioption: `These connections serve as strong trust signals to search engines and enhance your website's credibility, ranking, and long-term organic performance.`,
         },
       ],
+      button: 'Start Building Today',
     },
     importantToBussiness: {
       isVisible: false,
@@ -1272,13 +1283,14 @@ brand appears in AI summaries and citations.`,
     },
     needofservice: {
       isVisible: true,
-      heading: 'What is the Need Of AI SEO Services?',
+      isBgCornerImg: true,
+      heading: 'Why Authority Link Building Matters For Your Business?',
       data: [
         {
-          desctioption: `The rise of artificial intelligence-powered search tools and large language models has caused the searches to deliver more dynamic, multimodal responses without requiring users click through to websites. This has increased the need for businesses to evolve alongside these LLM and Google AI advancements in order to stay relevant and visible.`,
+          desctioption: `For businesses aiming to grow sustainably online, authority link building is essential. Search engines prioritize websites that demonstrate trust and expertise, and authoritative backlinks play a critical role in this evaluation. `,
         },
         {
-          desctioption: ` To help you keep pace with the changing market trends, Adaired offers you fully managed generative engine optimization services to enhance your AI visibility in generative search, generate more traffic, and elevate your online presence. `,
+          desctioption: ` Through enhancing the authority of your website, you are in a better position to be ranked better, gain steady traffic, enhance brand recognition that is useful in making your business shine in competitive markets, and turn the visibility into revenue.`,
         },
       ],
     },
