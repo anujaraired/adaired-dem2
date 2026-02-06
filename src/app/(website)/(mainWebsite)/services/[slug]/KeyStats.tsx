@@ -1,6 +1,6 @@
 import Heading from '@/app/(website)/common/Heading';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
-import React from 'react';
+import React, { useState } from 'react';
 import groth from '../../../../../../public/assets/icons/growth 2.png';
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
@@ -9,6 +9,7 @@ import keyStatsImg from '../../../../../../public/assets/keyStatsImg.png';
 import rocket from '../../../../../../public/assets/icons/rocket.svg';
 
 const KeyStats = ({ keyStats }: any) => {
+  const [activetab, setActiveTab] = useState(0);
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
 
   return (
@@ -25,16 +26,15 @@ const KeyStats = ({ keyStats }: any) => {
             title={keyStats?.heading}
           />
         </div>
-
-        {!keyStats?.isCard ? (
+        {keyStats?.code === '01' && (
           <div>
             <div
-              className={`${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} grid grid-cols-1 lg:grid-cols-3 gap-[1rem]`}
+              className={`${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} grid grid-cols-1 gap-[1rem] lg:grid-cols-3`}
             >
               {keyStats?.list?.slice(0, 3).map((item: any, idx: number) => {
                 return (
                   <div
-                    className={`rounded-[1rem] bg-[#F9F9F9] p-[2rem] transition-all duration-700 flex flex-col items-center lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                    className={`flex flex-col items-center rounded-[1rem] bg-[#F9F9F9] p-[2rem] transition-all duration-700 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
                     style={{
                       transitionDelay: `${idx * 280}ms`, // 👈 stagger here
                     }}
@@ -45,11 +45,11 @@ const KeyStats = ({ keyStats }: any) => {
                 );
               })}
             </div>
-            <div className="mt-[1rem] grid grid-cols-1 lg:grid-cols-2 gap-[1rem]">
+            <div className="mt-[1rem] grid grid-cols-1 gap-[1rem] lg:grid-cols-2">
               {keyStats?.list?.slice(4, 6).map((item: any, idx: number) => {
                 return (
                   <div
-                    className={`rounded-[1rem] bg-[#F9F9F9] p-[2rem] transition-all duration-700 flex flex-col items-center lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} `}
+                    className={`flex flex-col items-center rounded-[1rem] bg-[#F9F9F9] p-[2rem] transition-all duration-700 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} `}
                     style={{
                       transitionDelay: `${idx * 280}ms`, // 👈 stagger here
                     }}
@@ -61,7 +61,8 @@ const KeyStats = ({ keyStats }: any) => {
               })}
             </div>
           </div>
-        ) : (
+        )}
+        {keyStats?.code === '02' && (
           <div className="grid grid-cols-1 items-start justify-items-center gap-8 pt-[3rem] md:grid-cols-[45%_50%] lg:gap-16">
             <div className="relative h-[450px] w-full md:h-[600px] lg:h-[700px]">
               <Image
@@ -103,6 +104,45 @@ const KeyStats = ({ keyStats }: any) => {
                   </div>
                 </div>
               ))}
+            </div>
+          </div>
+        )}
+        {keyStats?.code === '03' && (
+          <div className="grid grid-cols-1 gap-[5rem] lg:grid-cols-2">
+            <div className="mt-7 rounded-[20px]">
+              {keyStats?.list?.map((item: any, index: any) => (
+                <div
+                  key={index}
+                  onClick={() => setActiveTab(index)}
+                  className={`flex cursor-pointer flex-col p-[2rem] ${activetab === index ? 'border-r-[0.5rem] border-[#FB9100] bg-[#FB9100]/20 p-[2rem]' : 'bg-[#FFF8ED]'}`}
+                >
+                  <div className="flex items-center gap-8 lg:gap-16">
+                    <h2>{`0${index + 1}`}</h2>
+
+                    <p className={`${activetab === index && 'font-semibold'}`}>
+                      {item.desctioption}
+                    </p>
+                  </div>
+                </div>
+              ))}
+            </div>
+            <div className="relative rounded-[20px] bg-[#FFF8ED]">
+              <Image
+                src={keyStats?.img}
+                alt="img"
+                fill
+                className="object-contain"
+              />
+
+              {keyStats?.code === '02' && (
+                <Image
+                  src={rocket}
+                  width={115}
+                  height={123}
+                  alt="rocket"
+                  className="left-[0.5 rem] absolute top-[-1rem]"
+                />
+              )}
             </div>
           </div>
         )}

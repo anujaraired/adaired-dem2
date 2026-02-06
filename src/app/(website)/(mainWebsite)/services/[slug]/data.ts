@@ -30,6 +30,9 @@ import ai_tool_5 from '../../../../../../public/assets/aitools/Group 1000005587.
 import ai_tool_6 from '../../../../../../public/assets/aitools/Group 1000005766.svg';
 import NotSeeingResult from '../../../../../../public/assets/aiseo/NotSeeingResults.png';
 import Everydayyouwait from '../../../../../../public/assets/aiseo/Everydayyouwait.png';
+import keyStatsImg from '../../../../../../public/assets/images/SEO-keyword-ranking-software 1.png';
+import keyStatsImg2 from '../../../../../../public/assets/keyStatsImg.png';
+
 export const SERVICES_DATA = {
   'search-engine-optimization': {
     banner: {
@@ -43,8 +46,10 @@ export const SERVICES_DATA = {
     },
     keyStats: {
       isVisible: true,
+      code: '02',
       heading: 'Key Stats Related to SEO Services ',
       isCard: true,
+      img: keyStatsImg2,
       list: [
         {
           icon: '',
@@ -597,6 +602,65 @@ export const SERVICES_DATA = {
           bgColor: '#E1F2E2',
           rating: 5,
         },
+
+        {
+          title: 'What is local SEO, and should I have it?',
+          description:
+            'Local SEO is the process of optimizing your online presence so your business shows up in local search results, especially when people search for services “near me” or in a specific city or area.',
+          bgColor: '#D7EBFF',
+          rating: 5,
+        },
+        {
+          title: 'What is your key search engine optimization process?',
+          description:
+            'Our thorough research will include searching on a deep level in terms of volume of search, competition, intent of user, and also relevance to your business. We aim to achieve the objective of having keywords that generate qualified traffic and not just traffic.',
+          bgColor: '#E1F2E2',
+          rating: 5,
+        },
+
+        {
+          title: 'Will SEO assist my site to receive more leads and sales?',
+          description:
+            'Yes. SEO also draws in users in the process of actively seeking your services and therefore has a higher chance of converting. SEO can be used to convert visitors into leads and customers, optimize content, landing pages, and user experience.',
+          bgColor: '#D7EBFF',
+          rating: 5,
+        },
+        {
+          title: 'Is SEO a one-time service?',
+          description:
+            'No. SEO involves constant optimization, monitoring, and updates in order to remain competitive. Competitors are never satisfied with their algorithms, and search engines are constantly changing their methods to remain up to date.',
+          bgColor: '#E1F2E2',
+          rating: 5,
+        },
+        {
+          title: 'Is SEO effective with small companies?',
+          description:
+            'Absolutely. SEO is particularly helpful to small businesses since it enables them to compete with larger businesses by finding niche keywords, local search, and high-intent clientele that do not command huge advertising funds.',
+          bgColor: '#E1F2E2',
+          rating: 5,
+        },
+
+        {
+          title: 'What is your measure of SEO success?',
+          description: 'To measure SEO success, we follow such metrics as:',
+          list: [
+            'Organic traffic growth',
+            'Keyword rankings',
+            'Conversion rates',
+            'Click-through rates (CTR)',
+            'Bounce rate and engagement',
+            'Organic search leads or sales made.',
+          ],
+          bgColor: '#E1F2E2',
+          rating: 5,
+        },
+        {
+          title: 'Does my site qualify as SEO friendly?',
+          description:
+            'It can qualify as SEO-friendly, but that depends on a few key things. “SEO-friendly” isn’t a yes/no label; it’s about how well your site follows best practices that help search engines understand and rank it.',
+          bgColor: '#E1F2E2',
+          rating: 5,
+        },
       ],
     },
   },
@@ -612,8 +676,10 @@ export const SERVICES_DATA = {
     },
     keyStats: {
       isVisible: true,
+      code: '01',
       heading: 'Key Stats Related to AI SEO',
       isCard: false,
+      img: '',
       list: [
         {
           icon: '',
@@ -1153,39 +1219,34 @@ brand appears in AI summaries and citations.`,
     },
     keyStats: {
       isVisible: true,
+      code: '03',
       heading: 'Key Stats Related to AI SEO',
       isCard: false,
+      img: keyStatsImg,
       list: [
         {
           icon: '',
           desctioption:
-            'The global AI content marketing industry is expected to grow from 2.4 billion in 2023 at a CAGR of 25.68% to reach $17.6 billion by 2033. ',
+            'Estimates suggest that 47% of link builders spend approximately more than £600 on link building per month.',
+        },
+        {
+          icon: '',
+          desctioption: '65% of users still click on traditional links ',
         },
         {
           icon: '',
           desctioption:
-            '60% of searches now happen through an AI overview without requiring users to click through to other websites.',
+            'Guest Posting has seen a significant increase in interest since July 2025',
         },
         {
           icon: '',
           desctioption:
-            'With the introduction of AI searches, the organic web traffic is reduced by 15% to 25%. ',
+            'The average cost of a high-quality guest post is $692-$957',
         },
         {
           icon: '',
           desctioption:
-            'The global AI content marketing industry is expected to grow from 2.4 billion in 2023 at a CAGR of 25.68% to reach $17.6 billion by 2033. ',
-        },
-        {
-          icon: '',
-          desctioption:
-            '58% of informational search queries trigger AI overviews as the top search results.',
-        },
-
-        {
-          icon: '',
-          desctioption:
-            'ChatGPT has become the fastest-growing AI search engine. It has approximately 10 million monthly mobile app downloads since its launch in November 2022.',
+            '66% of business owners aim to improve their ability to select the best backlink tactics',
         },
       ],
     },
