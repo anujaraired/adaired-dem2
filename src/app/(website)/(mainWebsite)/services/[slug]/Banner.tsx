@@ -36,7 +36,7 @@ const Banner = ({ banner }: any) => {
   return (
     <div
       ref={ref}
-      className="animate-pulse relative h-[114vh] w-full pt-[10vh] md:h-[110vh] lg:h-[100vh] 1366:h-[135vh] 1400:h-[115vh] 1470:h-[100vh] 1600:h-[118vh] 1680:h-[100vh] 1710:h-[85vh] 3xl:h-[100vh]"
+      className="animate-pulse relative h-[100vh] w-full pt-[10vh] md:h-[110vh] lg:h-[100vh] 1366:h-[135vh] 1400:h-[86vh] 1470:h-[85vh] 1600:h-[80vh] 1680:h-[100vh] 1710:h-[72vh] 3xl:h-[80vh]"
     >
       <Image
         src={hero_banner}
