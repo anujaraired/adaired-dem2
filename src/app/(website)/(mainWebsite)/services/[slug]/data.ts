@@ -42,6 +42,14 @@ import adairedHelp_4 from '../../../../../../public/assets/adairedHelp/Group 100
 import adairedHelp_5 from '../../../../../../public/assets/adairedHelp/Group 1000006028.png'
 import adairedHelp_6 from '../../../../../../public/assets/adairedHelp/Group 1000006029.png'
 
+import adairedHelp_7 from '../../../../../../public/assets/adairedHelp/Group 1000006065.png'
+import adairedHelp_8 from '../../../../../../public/assets/adairedHelp/Group 1000006045.png'
+import adairedHelp_9 from '../../../../../../public/assets/adairedHelp/Group 1000006049.png'
+import adairedHelp_10 from '../../../../../../public/assets/adairedHelp/Group 1000006048.png'
+import adairedHelp_11 from '../../../../../../public/assets/adairedHelp/Group 1000006053.png'
+import adairedHelp_12 from '../../../../../../public/assets/adairedHelp/Group 1000006048.png'
+import adairedHelp_13 from '../../../../../../public/assets/adairedHelp/Group 1000006053.png'
+
 import NotSeeingResult from '../../../../../../public/assets/aiseo/NotSeeingResults.png';
 import Everydayyouwait from '../../../../../../public/assets/aiseo/Everydayyouwait.png';
 import keyStatsImg from '../../../../../../public/assets/images/SEO-keyword-ranking-software 1.png';
@@ -493,7 +501,7 @@ export const SERVICES_DATA = {
       ],
       list: [
         {
-          img: meke_derefent,
+          img: adairedHelp_4,
           name: 'Customized SEO Strategies',
           description: [
             `Adaired develops customized search engine optimization plans according to your business objectives, target market, and competition in the industry. We do not apply templates and standardized checklists.`,
@@ -501,7 +509,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: meke_derefent_2,
+          img: adairedHelp_7,
           name: 'Data-Driven Decision Making',
           description: [
             `Our SEO services are guided by real data, not assumptions. We make use of advanced analytics, performance measurement, and search intelligence to optimize campaigns on a continuous basis.`,
@@ -509,7 +517,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: meke_derefent_3,
+          img: adairedHelp_8,
           name: 'Focus on Revenue, Not Just Rankings',
           description: [
             `Higher rankings alone don’t grow businesses. Adaired focuses on the SEO strategies, which will provide qualified traffic, leads, and sales.`,
@@ -517,7 +525,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: meke_derefent_4,
+          img: adairedHelp_5,
           name: 'Complete SEO Expertise Under One Roof',
           description: [
             `From technical SEO and on-page optimization to content creation, link building, and local optimization, Adaired covers every SEO pillar.`,
@@ -525,7 +533,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: meke_derefent,
+          img: adairedHelp_10,
           name: 'Transparent Reporting & Communication',
           description: [
             `We believe in full transparency. Adaired offers effective, understandable SEO reports with the focus on progress, results, and future actions.`,
@@ -533,7 +541,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: meke_derefent,
+          img: adairedHelp_9,
           name: 'White-Hat, Google-Compliant SEO',
           description: [
             `Adaired follows ethical, white-hat SEO practices aligned with Google’s guidelines. We avoid risky shortcuts and spam methods that lead to penalties.`,
@@ -541,7 +549,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: meke_derefent,
+          img: adairedHelp_6,
           name: 'Continuous Optimization & Algorithm Readiness',
           description: [
             `Search algorithms are constantly evolving, and so are our strategies.  Adaired constantly monitors updates, user actions, and performance patterns to optimize the campaigns.`,
@@ -549,7 +557,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: meke_derefent,
+          img: adairedHelp_11,
           name: 'Client-Centric Partnership Approach',
           description: [
             `We do not provide just SEO; we build partnerships. Adaired works closely with its clients to understand challenges, create strategies, and adapt with the business.`,
@@ -949,7 +957,7 @@ export const SERVICES_DATA = {
       description: [],
       list: [
         {
-          img: adairedHelp_1,
+          img: adairedHelp_4,
           name: 'AI-First SEO Built For Modern Search',
           description: [
             `Adaired pursues an AI-first strategy of SEO, which is how today's search engines operate. The search trends, user intent, and the ranking changes are analysed and processed by our AI tools in real time. `,
@@ -957,7 +965,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_2,
+          img: adairedHelp_5,
           name: 'SEO Focused on Real Business Growth',
           description: [
             'We don’t focus only on rankings. SEO at Adaired is meant to deliver actual performance, increased traffic, improved leads, and increased conversions. ',
@@ -973,7 +981,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_4,
+          img: adairedHelp_2,
           name: 'Content That Works for AI and People',
           description: [
             'We create our content in a way that meets the demands of search engines and actual users. AI helps us to interpret search intent and frame content properly, whereas our professionals make sure that it remains straightforward, practical, and comprehensible. ',
@@ -981,7 +989,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_5,
+          img: adairedHelp_1,
           name: 'Proactive SEO That Stays Ahead of Changes',
           description: [
             `The search engines change constantly, and Adaired stays ahead of them. Our AI tracks performance changes, updates, and competitor activities in real time.`,
