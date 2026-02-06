@@ -35,20 +35,23 @@ import seo_tool_3 from '../../../../../../public/assets/icons/seotools/Group 100
 import seo_tool_4 from '../../../../../../public/assets/icons/seotools/Group 1000006001.svg';
 import seo_tool_5 from '../../../../../../public/assets/icons/seotools/Group 1000006002.svg';
 import seo_tool_6 from '../../../../../../public/assets/icons/seotools/Group 1000006003.svg';
-import adairedHelp_1 from '../../../../../../public/assets/adairedHelp/Group 1000006012.png'
-import adairedHelp_2 from '../../../../../../public/assets/adairedHelp/Group 1000006013.png'
-import adairedHelp_3 from '../../../../../../public/assets/adairedHelp/Group 1000006014.png'
-import adairedHelp_4 from '../../../../../../public/assets/adairedHelp/Group 1000006027.png'
-import adairedHelp_5 from '../../../../../../public/assets/adairedHelp/Group 1000006028.png'
-import adairedHelp_6 from '../../../../../../public/assets/adairedHelp/Group 1000006029.png'
+import adairedHelp_1 from '../../../../../../public/assets/adairedHelp/Group 1000006012.png';
+import adairedHelp_2 from '../../../../../../public/assets/adairedHelp/Group 1000006013.png';
+import adairedHelp_3 from '../../../../../../public/assets/adairedHelp/Group 1000006014.png';
+import adairedHelp_4 from '../../../../../../public/assets/adairedHelp/Group 1000006027.png';
+import adairedHelp_5 from '../../../../../../public/assets/adairedHelp/Group 1000006028.png';
+import adairedHelp_6 from '../../../../../../public/assets/adairedHelp/Group 1000006029.png';
 
-import adairedHelp_7 from '../../../../../../public/assets/adairedHelp/Group 1000006065.png'
-import adairedHelp_8 from '../../../../../../public/assets/adairedHelp/Group 1000006045.png'
-import adairedHelp_9 from '../../../../../../public/assets/adairedHelp/Group 1000006049.png'
-import adairedHelp_10 from '../../../../../../public/assets/adairedHelp/Group 1000006048.png'
-import adairedHelp_11 from '../../../../../../public/assets/adairedHelp/Group 1000006053.png'
-import adairedHelp_12 from '../../../../../../public/assets/adairedHelp/Group 1000006048.png'
-import adairedHelp_13 from '../../../../../../public/assets/adairedHelp/Group 1000006053.png'
+import adairedHelp_7 from '../../../../../../public/assets/adairedHelp/Group 1000006065.png';
+import adairedHelp_8 from '../../../../../../public/assets/adairedHelp/Group 1000006045.png';
+import adairedHelp_9 from '../../../../../../public/assets/adairedHelp/Group 1000006049.png';
+import adairedHelp_10 from '../../../../../../public/assets/adairedHelp/Group 1000006048.png';
+import adairedHelp_11 from '../../../../../../public/assets/adairedHelp/Group 1000006053.png';
+import adairedHelp_12 from '../../../../../../public/assets/adairedHelp/White-Hat.png';
+import adairedHelp_13 from '../../../../../../public/assets/adairedHelp/Transparent Reporting.png';
+import adairedHelp_14 from '../../../../../../public/assets/adairedHelp/Continuous Optimization.png';
+import adairedHelp_15 from '../../../../../../public/assets/adairedHelp/Complete SEO.png';
+import adairedHelp_16 from '../../../../../../public/assets/adairedHelp/Client-Centric.png';
 
 import NotSeeingResult from '../../../../../../public/assets/aiseo/NotSeeingResults.png';
 import Everydayyouwait from '../../../../../../public/assets/aiseo/Everydayyouwait.png';
@@ -525,7 +528,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_5,
+          img: adairedHelp_15,
           name: 'Complete SEO Expertise Under One Roof',
           description: [
             `From technical SEO and on-page optimization to content creation, link building, and local optimization, Adaired covers every SEO pillar.`,
@@ -533,7 +536,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_10,
+          img: adairedHelp_13,
           name: 'Transparent Reporting & Communication',
           description: [
             `We believe in full transparency. Adaired offers effective, understandable SEO reports with the focus on progress, results, and future actions.`,
@@ -541,7 +544,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_9,
+          img: adairedHelp_12,
           name: 'White-Hat, Google-Compliant SEO',
           description: [
             `Adaired follows ethical, white-hat SEO practices aligned with Google’s guidelines. We avoid risky shortcuts and spam methods that lead to penalties.`,
@@ -549,7 +552,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_6,
+          img: adairedHelp_14,
           name: 'Continuous Optimization & Algorithm Readiness',
           description: [
             `Search algorithms are constantly evolving, and so are our strategies.  Adaired constantly monitors updates, user actions, and performance patterns to optimize the campaigns.`,
@@ -557,7 +560,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_11,
+          img: adairedHelp_16,
           name: 'Client-Centric Partnership Approach',
           description: [
             `We do not provide just SEO; we build partnerships. Adaired works closely with its clients to understand challenges, create strategies, and adapt with the business.`,
