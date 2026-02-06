@@ -35,6 +35,12 @@ import seo_tool_3 from '../../../../../../public/assets/icons/seotools/Group 100
 import seo_tool_4 from '../../../../../../public/assets/icons/seotools/Group 1000006001.svg';
 import seo_tool_5 from '../../../../../../public/assets/icons/seotools/Group 1000006002.svg';
 import seo_tool_6 from '../../../../../../public/assets/icons/seotools/Group 1000006003.svg';
+import adairedHelp_1 from '../../../../../../public/assets/adairedHelp/Group 1000006012.png'
+import adairedHelp_2 from '../../../../../../public/assets/adairedHelp/Group 1000006013.png'
+import adairedHelp_3 from '../../../../../../public/assets/adairedHelp/Group 1000006014.png'
+import adairedHelp_4 from '../../../../../../public/assets/adairedHelp/Group 1000006027.png'
+import adairedHelp_5 from '../../../../../../public/assets/adairedHelp/Group 1000006028.png'
+import adairedHelp_6 from '../../../../../../public/assets/adairedHelp/Group 1000006029.png'
 
 import NotSeeingResult from '../../../../../../public/assets/aiseo/NotSeeingResults.png';
 import Everydayyouwait from '../../../../../../public/assets/aiseo/Everydayyouwait.png';
@@ -567,6 +573,7 @@ export const SERVICES_DATA = {
     getplan: {
       isVisible: true,
       subtitle: 'Boost Traffic Today',
+      isLabel: true,
       title:
         'Get more visitors, attract the right audience, and increase your revenue.',
       description: `Our proven SEO strategies put your website in front of people who are ready to buy.`,
@@ -942,7 +949,7 @@ export const SERVICES_DATA = {
       description: [],
       list: [
         {
-          img: meke_derefent,
+          img: adairedHelp_1,
           name: 'AI-First SEO Built For Modern Search',
           description: [
             `Adaired pursues an AI-first strategy of SEO, which is how today's search engines operate. The search trends, user intent, and the ranking changes are analysed and processed by our AI tools in real time. `,
@@ -950,7 +957,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: meke_derefent_2,
+          img: adairedHelp_2,
           name: 'SEO Focused on Real Business Growth',
           description: [
             'We don’t focus only on rankings. SEO at Adaired is meant to deliver actual performance, increased traffic, improved leads, and increased conversions. ',
@@ -958,7 +965,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: meke_derefent_3,
+          img: adairedHelp_3,
           name: 'Custom SEO Strategies, No Templates',
           description: [
             `Adaired never uses one-size-fits-all SEO plans. We develop tailor-made plans that suit your industry, your target market, competition, and objectives. `,
@@ -966,7 +973,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: meke_derefent_4,
+          img: adairedHelp_4,
           name: 'Content That Works for AI and People',
           description: [
             'We create our content in a way that meets the demands of search engines and actual users. AI helps us to interpret search intent and frame content properly, whereas our professionals make sure that it remains straightforward, practical, and comprehensible. ',
@@ -974,7 +981,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: meke_derefent_4,
+          img: adairedHelp_5,
           name: 'Proactive SEO That Stays Ahead of Changes',
           description: [
             `The search engines change constantly, and Adaired stays ahead of them. Our AI tracks performance changes, updates, and competitor activities in real time.`,
@@ -982,7 +989,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: meke_derefent_4,
+          img: adairedHelp_6,
           name: 'Clear Reporting and Complete Transparency',
           description: [
             'Adaired believes in honest communication. We provide simple, easy-to-follow reports that reveal what is working and what is not.  ',
@@ -1120,6 +1127,7 @@ export const SERVICES_DATA = {
     },
     getplan: {
       isVisible: true,
+      isLabel: false,
       subtitle: 'Boost Traffic Today',
       title: 'Dominate AI Search Today',
       description: `Get a custom plan to optimize for AI-driven results: structured data,
@@ -1595,6 +1603,7 @@ brand appears in AI summaries and citations.`,
     },
     getplan: {
       isVisible: true,
+      isLabel: false,
       subtitle: 'Boost Traffic Today',
       title: 'Dominate AI Search Today',
       description: `Get a custom plan to optimize for AI-driven results: structured data,

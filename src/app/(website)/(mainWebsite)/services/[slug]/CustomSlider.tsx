@@ -1,39 +1,76 @@
 'use client';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
 
 export default function CustomSlider({ data }: any) {
-  console.log(data, 'dataidsfdsf');
   return (
-    <div className="mx-auto w-[100%] overflow-hidden py-12">
+    <div className="mx-auto w-full py-12">
+      {/* Swiper */}
       <Swiper
+        modules={[Autoplay, Pagination]}
         loop
         centeredSlides
         slidesPerView="auto"
         spaceBetween={24}
         slidesOffsetBefore={240}
         slidesOffsetAfter={240}
+        autoplay={{
+          delay: 3000,
+          disableOnInteraction: false,
+        }}
+        pagination={{
+          el: '#custom-pagination',
+          clickable: true,
+          renderBullet: (index, className) => {
+            return `
+              <span
+                class="${className}"
+                style="
+                  width:8px;
+                  height:8px;
+                  background:#FB9100;
+                  opacity:0.3;
+                  margin:0 6px;
+                  border-radius:50%;
+                  display:inline-block;
+                "
+              ></span>
+            `;
+          },
+        }}
       >
-        {data?.length > 0 &&
-          data?.map((item: any, idx: number) => (
-            <SwiperSlide key={item.id} className="w-[100%] lg:!w-[40%]">
-              <div
-                className={`h-[26rem] rounded-[20px] border-[1px] border-[#FB9100]/25 bg-[#FFFFFF] p-[2rem] transition-all duration-1000`}
-              >
-                <h2 className="w-fit rounded-[20px] bg-[#FB9100]/20 p-2 px-6 text-[#FB9100]">{`0${idx + 1}`}</h2>
-                <h3 className="pb-[1rem] pt-[2rem] text-[#FB9100]">
-                  {item?.name}
-                </h3>
-                <div className="">
-                  {item?.description?.map((item: any) => {
-                    return <p className="py-2">{item}</p>;
-                  })}
-                </div>
+        {data?.map((item: any, idx: number) => (
+          <SwiperSlide key={item.id} className="w-full lg:!w-[40%]">
+            <div className="h-[26rem] rounded-[20px] border border-[#FB9100]/25 bg-white p-8">
+              <h2 className="w-fit rounded-[20px] bg-[#FB9100]/20 px-6 py-2 text-[#FB9100]">
+                {`0${idx + 1}`}
+              </h2>
+
+              <h3 className="pb-4 pt-8 text-[#FB9100]">{item?.name}</h3>
+
+              <div>
+                {item?.description?.map((desc: string, i: number) => (
+                  <p key={i} className="py-2">
+                    {desc}
+                  </p>
+                ))}
               </div>
-            </SwiperSlide>
-          ))}
+            </div>
+          </SwiperSlide>
+        ))}
       </Swiper>
+
+      {/* ✅ Pagination OUTSIDE cards */}
+      <div
+        id="custom-pagination"
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+          marginTop: '24px',
+        }}
+      />
     </div>
   );
 }

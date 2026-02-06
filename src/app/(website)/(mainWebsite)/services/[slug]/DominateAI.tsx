@@ -1,4 +1,4 @@
-"use client"
+'use client';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import background from '../../../../../../public/assets/aiseo/DominateAI.png';
 // import { StaticImageData } from "next/image";
@@ -19,17 +19,23 @@ const DominateAI = ({ getplan }: any) => {
   const [open, setOpen] = useState(false);
 
   return (
-    <section ref={ref} className="relative py-[3rem] lg:py-[6rem]">
+    <section
+      ref={ref}
+      className="relative flex h-[30rem] items-center py-[3rem]"
+    >
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: `url(${background.src})` }}
       />
-      <MaxWidthWrapper className="relative z-10">
+
+      <MaxWidthWrapper className="relative z-10 w-full">
         <div
-          className={`space-y-5 py-24 text-center transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+          className={`space-y-5 text-center transition-all duration-1000 ${
+            isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
+          }`}
         >
           <Heading
-            isLabel={true}
+            isLabel={getplan?.isLabel && true}
             breakIndex={5}
             isH1={true}
             subTitle={getplan?.subtitle}
@@ -37,17 +43,19 @@ const DominateAI = ({ getplan }: any) => {
             description={getplan?.description}
             isInCenter={true}
           />
-          <div className="flex justify-center justify-items-center">
+
+          <div className="flex justify-center">
             <SaveAndCancel
               name="Get Your AI SEO Plan"
               isIcon={true}
               isBgWhite={true}
-              handleClick={()=>setOpen(!open)}
+              handleClick={() => setOpen(!open)}
               className="flex w-[17rem]"
             />
           </div>
         </div>
       </MaxWidthWrapper>
+
       <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
     </section>
   );

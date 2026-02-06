@@ -2,10 +2,15 @@
 import React, { useEffect, useState } from 'react';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Image from 'next/image';
-import banner_img_1 from '../../../../../../public/assets/images/home/banner_img_1.png';
-import banner_img_2 from '../../../../../../public/assets/images/home/banner_img_2.png';
-import banner_img_3 from '../../../../../../public/assets/images/home/banner_img_3.png';
-import banner_img_4 from '../../../../../../public/assets/images/home/banner_img_3.png';
+// import banner_img_1 from '../../../../../../public/assets/images/home/banner_img_1.png';
+// import banner_img_2 from '../../../../../../public/assets/images/home/banner_img_2.png';
+// import banner_img_3 from '../../../../../../public/assets/images/home/banner_img_3.png';
+// import banner_img_4 from '../../../../../../public/assets/images/home/banner_img_3.png';
+import banner_img_4 from '../../../../../../public/assets/bannerImg/Group 1000006024.svg';
+import banner_img_2 from '../../../../../../public/assets/bannerImg/Group 1000006023.svg';
+import banner_img_3 from '../../../../../../public/assets/bannerImg/Group 1000006022.svg';
+import banner_img_1 from '../../../../../../public/assets/bannerImg/Group 1000006025.svg';
+
 import hero_banner from '../../../../../../public/assets/images/home/hero_banner-bg.png';
 import google_rate from '../../../../../../public/google_rate.svg';
 import google_review from '../../../../../../public/image 54.png';
@@ -169,7 +174,7 @@ const Banner = ({ banner }: any) => {
               className={`relative mt-[5rem] w-[100%] pt-[0vh] transition-all delay-200 duration-1000 md:pt-[20vh] lg:mt-0 lg:w-[45%] lg:pt-0 xl:w-[45%] ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-16 opacity-0'} `}
             >
               <div className="relative h-full">
-                <div className="absolute left-1/2 top-1/2 h-[25rem] w-[35rem] -translate-x-1/2 -translate-y-1/2">
+                <div className="absolute left-1/2 top-1/2 h-[25rem] w-[35rem] -translate-x-1/2 -translate-y-1/2 1400:h-[18rem] 1400:w-[28rem] 3xl:h-[25rem] 3xl:w-[35rem]">
                   <Image
                     src={banner_img_1}
                     fill
@@ -188,9 +193,9 @@ const Banner = ({ banner }: any) => {
                   width={302}
                   height={186}
                   alt=""
-                  className={`absolute h-[10rem] w-[16rem] transition-all duration-700 ease-in-out ${
+                  className={`absolute h-[10rem] w-[16rem] transition-all duration-700 ease-in-out 1400:top-[15%] ${
                     isActive('img4')
-                      ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 -translate-y-1/2 scale-105 opacity-100'
+                      ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 -translate-y-1/2 scale-105 opacity-100 1400:translate-y-[20%] 3xl:1400:translate-y-[50%]'
                       : 'left-0 top-[25%] z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
                   } `}
                 />
@@ -200,9 +205,9 @@ const Banner = ({ banner }: any) => {
                   width={302}
                   height={186}
                   alt=""
-                  className={`absolute bottom-0 right-[25%] h-[10rem] w-[16rem] transition-all duration-700 ease-in-out ${
+                  className={`absolute bottom-0 right-[25%] h-[10rem] w-[16rem] transition-all duration-700 ease-in-out 1400:bottom-[20%] 1400:right-[20%] 3xl:bottom-0 3xl:right-[15%] ${
                     isActive('img3')
-                      ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 -translate-y-1/2 scale-105 opacity-100'
+                      ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 -translate-y-1/2 scale-105 opacity-100 1400:translate-x-[-50%] 1400:translate-y-[-50%] 3xl:translate-y-[-50%]'
                       : 'z-10 opacity-40'
                   } `}
                 />
@@ -211,9 +216,9 @@ const Banner = ({ banner }: any) => {
                   width={388}
                   height={244}
                   alt=""
-                  className={`absolute right-0 top-0 h-[10rem] w-[16rem] transition-all duration-700 ease-in-out ${
+                  className={`absolute right-0 top-0 h-[10rem] w-[16rem] transition-all duration-700 ease-in-out 1400:top-[15%] 3xl:right-0 3xl:top-0 ${
                     isActive('img2')
-                      ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 -translate-y-1/2 scale-105 opacity-100'
+                      ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 -translate-y-1/2 scale-105 opacity-100 1400:translate-x-[-50%] 1400:translate-y-[88%] 3xl:translate-y-[100%]'
                       : 'z-10 opacity-40'
                   } `}
                 />
@@ -227,3 +232,4 @@ const Banner = ({ banner }: any) => {
 };
 
 export default Banner;
+// left-1/2 top-1/2 z-40 -translate-x-1/2 -translate-y-1/2 scale-105 opacity-100
