@@ -23,14 +23,14 @@ const AISEOResult = ({ aiseoResult }: any) => {
         <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
         >
-          <div className="flex gap-10">
+          <div className="block gap-8 lg:flex">
             <div
-              className={`${aiseoResult?.description?.length > 0 ? 'w-[42%] pr-[10%]' : 'flex w-[100%] justify-center justify-items-center'}`}
+              className={`${aiseoResult?.description?.length > 0 ? 'w-[100%] pr-[10%] lg:w-[42%]' : 'flex w-[100%] items-center justify-center'}`}
             >
               <Heading title={aiseoResult?.heading} />
             </div>
             <div
-              className={`${aiseoResult?.description?.length > 0 ? 'w-[55%]' : 'w-[0%]'}`}
+              className={`${aiseoResult?.description?.length > 0 ? 'w-[100%] lg:w-[55%]' : 'w-[0%]'}`}
             >
               {aiseoResult?.description?.map((item: any) => {
                 return <p className="my-3">{item}</p>;
@@ -39,11 +39,12 @@ const AISEOResult = ({ aiseoResult }: any) => {
           </div>
         </div>
 
-        <div className="flex justify-between gap-8 pt-[3rem]">
+        <div className="flex flex-col justify-between gap-8 pt-[3rem] lg:flex-row">
           {/* LEFT IMAGE */}
-          <div
+
+          {/* <div
             ref={ref}
-            className={`relative h-[480px] w-[42%] rounded-[20px] transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
+            className={`relative h-[480px] w-full lg:w-[42%] rounded-[20px] transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
           >
             <>
               <Image
@@ -61,10 +62,38 @@ const AISEOResult = ({ aiseoResult }: any) => {
                 className="absolute left-[-1rem] top-[-1rem]"
               />
             </>
+          </div> */}
+
+          <div
+            ref={ref}
+            className={`relative h-[480px] w-full rounded-[20px] transition-all duration-1000 lg:w-[42%] ${
+              isVisible
+                ? 'translate-x-0 opacity-100'
+                : '-translate-x-16 opacity-0'
+            }`}
+          >
+            {/* Main image */}
+            <Image
+              src={image}
+              fill
+              className="rounded-[20px] object-cover"
+              alt="image"
+              priority
+            />
+
+            {/* Rocket wrapper */}
+            <div className="absolute left-[-1rem] top-[-1rem] h-[75px] w-[70px] sm:h-[95px] sm:w-[90px] lg:h-[123px] lg:w-[115px]">
+              <Image
+                src={rocket}
+                fill
+                alt="rocket"
+                className="object-contain"
+              />
+            </div>
           </div>
 
           {/* RIGHT ACCORDION */}
-          <div className="flex w-[55%] flex-col gap-4">
+          <div className="flex w-full flex-col gap-4 lg:w-[55%]">
             {aiseoResult?.list?.map((item: any, index: number) => {
               const isActive = index === activeIndex;
 
@@ -83,17 +112,23 @@ const AISEOResult = ({ aiseoResult }: any) => {
                   }}
                 >
                   {/* HEADER */}
-                  <div className="flex items-center justify-between">
-                    <div className="flex gap-3">
+                  <div className="flex flex-col items-center lg:flex-row lg:items-start lg:justify-between">
+                    <div className="flex flex-col items-center gap-3 lg:flex-row">
                       <Image src={groth} width={32} height={32} alt="icon" />
                       <p className="font-bold">{item?.name}</p>
                     </div>
 
                     {/* ARROW */}
                     {isActive ? (
-                      <MdKeyboardArrowUp size={26} className="text-[#FB9100]" />
+                      <MdKeyboardArrowUp
+                        size={26}
+                        className="hidden text-[#FB9100] lg:block"
+                      />
                     ) : (
-                      <MdKeyboardArrowDown size={26} className="text-[#999]" />
+                      <MdKeyboardArrowDown
+                        size={26}
+                        className="hidden text-[#999] lg:block"
+                      />
                     )}
                   </div>
 

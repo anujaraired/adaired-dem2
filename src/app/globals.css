@@ -35,11 +35,11 @@
 
   h2 {
     /* @apply text-3xl dark:text-gray-800 2xl:text-[26px] 4xl:text-3xl; */
-    @apply pt-[0.25rem] font-poppins text-[1.6rem] font-semibold leading-[2rem] text-[#000000] md:text-[2.25rem] md:leading-[2.75rem] lg:text-[1.8rem] lg:leading-[2.5rem] xl:text-[2.188rem] xl:leading-[3.125rem] 1360:text-[2rem] 1360:leading-[2.6rem] 2xl:leading-[1.6] 3xl:text-[2.188rem];
+    @apply pt-[0.25rem] text-center lg:text-left font-poppins text-[1.6rem] font-semibold leading-[2rem] text-[#000000] md:text-[2.25rem] md:leading-[2.75rem] lg:text-[1.8rem] lg:leading-[2.5rem] xl:text-[2.188rem] xl:leading-[3.125rem] 1360:text-[2rem] 1360:leading-[2.6rem] 2xl:leading-[1.6] 3xl:text-[2.188rem];
   }
 
   h3 {
-    @apply text-center font-poppins text-[18px] font-semibold leading-7 text-[#000000] md:text-[22px] md:leading-[32px] lg:text-left lg:leading-9;
+    @apply text-center lg:text-left font-poppins font-semibold leading-7 lg:leading-9 text-[#000000] text-[18px] md:text-[22px] md:leading-[32px];
   }
 
   h4 {

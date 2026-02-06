@@ -48,7 +48,7 @@ const IndustryLeaders = () => {
           <Heading
             breakIndex={7}
             title={'Industry Leaders That Rely On Us To Achieve AI Success'}
-            description="The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision."
+            description=""
             isInCenter={true}
           />
         </div>

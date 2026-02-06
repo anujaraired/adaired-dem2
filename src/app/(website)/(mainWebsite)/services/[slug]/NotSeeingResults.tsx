@@ -39,7 +39,7 @@ const NotSeeingResults = ({ notSeeingResult }: any) => {
           ref={ref}
           className={`flex justify-end justify-items-end pt-2 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
         >
-          <Image src={NotSeeingResult} alt="imh" />
+          <Image src={notSeeingResult?.img} alt="imh" />
         </div>
       </MaxWidthWrapper>
     </div>

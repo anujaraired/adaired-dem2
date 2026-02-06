@@ -6,6 +6,7 @@ import { FAQSSectionData } from '@/@core/data/website/Homepage';
 import { MdAdd } from 'react-icons/md';
 import { GrFormSubtract } from 'react-icons/gr';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
+import { TbPointFilled } from 'react-icons/tb';
 
 const FAQ = ({ faqs }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.25);
@@ -42,7 +43,7 @@ const FAQ = ({ faqs }: any) => {
           {faqs?.list?.length > 0 &&
             faqs?.list?.map((faq: any, idx: number) => {
               const isOpen = openIndex === idx;
-
+              console.log(faq?.list, 'faq>>>>>>>');
               return (
                 <div
                   key={idx}
@@ -55,7 +56,22 @@ const FAQ = ({ faqs }: any) => {
                   {/* Content */}
                   <div className="col-span-4 space-y-4">
                     <h3>{faq.title}</h3>
-                    {isOpen && <p>{faq.description}</p>}
+                    {isOpen && (
+                      <div>
+                        <p>{faq.description}</p>
+                        <div className="p-[1rem]">
+                          {faq?.list?.map((item: any) => {
+                            console.log(item, 'item1212');
+                            return (
+                              <span className="flex gap-2 text-[#000000]">
+                                <TbPointFilled className="my-auto" />
+                                <p>{item}</p>
+                              </span>
+                            );
+                          })}
+                        </div>
+                      </div>
+                    )}
                   </div>
 
                   {/* Toggle Button */}
