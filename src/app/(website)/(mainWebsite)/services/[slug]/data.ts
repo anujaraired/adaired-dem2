@@ -50,7 +50,7 @@ import adairedHelp_11 from '../../../../../../public/assets/adairedHelp/Group 10
 import adairedHelp_12 from '../../../../../../public/assets/adairedHelp/White-Hat.png';
 import adairedHelp_13 from '../../../../../../public/assets/adairedHelp/Transparent Reporting.png';
 import adairedHelp_14 from '../../../../../../public/assets/adairedHelp/Continuous Optimization.png';
-import adairedHelp_15 from '../../../../../../public/assets/adairedHelp/Complete SEO.png';
+import adairedHelp_15 from '../../../../../../public/assets/adairedHelp/Complete SEO Expertise.png';
 import adairedHelp_16 from '../../../../../../public/assets/adairedHelp/Client-Centric.png';
 
 import NotSeeingResult from '../../../../../../public/assets/aiseo/NotSeeingResults.png';
