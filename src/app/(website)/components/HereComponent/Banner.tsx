@@ -108,7 +108,7 @@ const Banner = () => {
   return (
     <div
       ref={ref}
-      className="animate-pulse relative h-[114vh] w-full pt-[10vh] md:h-[140vh] lg:h-[100vh] 1366:h-[135vh] 1400:h-[115vh] 1470:h-[100vh] 1600:h-[118vh] 1680:h-[100vh] 1710:h-[85vh] 3xl:h-[100vh]"
+      className="animate-pulse relative h-[114vh] w-full pt-[10vh] md:h-[140vh] lg:h-[100vh] 1366:h-[135vh] 1400:h-[115vh] 1470:h-[100vh] 1600:h-[118vh] 1680:h-[100vh] 1710:h-[95vh] 3xl:h-[100vh]"
     >
       <Image
         src={hero_banner}
@@ -202,7 +202,7 @@ const Banner = () => {
             </a>
           </div>
 
-          <p className="text-center lg:text-left">
+          <p className="text-justify lg:text-left">
             Generate leads by 15% or more within your first 6 months with
             real-time data and expert insights. Our strategy ensures that your
             brand reaches the right people, produces measurable results, and

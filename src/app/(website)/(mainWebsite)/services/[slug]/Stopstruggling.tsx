@@ -1,13 +1,16 @@
+'use client';
 import Heading from '@/app/(website)/common/Heading';
 import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
-import React from 'react';
+import React, { useState } from 'react';
 import NotSeeingResultsBg from '../../../../../../public/assets/aiseo/stop-struggle.png';
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
+import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 
 const Stopstruggling = ({ stopStruggling }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+  const [open, setOpen] = useState(false);
 
   return (
     <div
@@ -29,10 +32,12 @@ const Stopstruggling = ({ stopStruggling }: any) => {
             name="Start Your AI SEO Journey Now"
             isBgWhite={true}
             isIcon={true}
+            handleClick={() => setOpen(!open)}
             className="mx-auto mt-[2rem] w-[23rem]"
           />
         </div>
       </MaxWidthWrapper>
+      <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
     </div>
   );
 };

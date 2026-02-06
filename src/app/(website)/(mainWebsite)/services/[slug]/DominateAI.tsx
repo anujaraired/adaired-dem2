@@ -1,3 +1,4 @@
+"use client"
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import background from '../../../../../../public/assets/aiseo/DominateAI.png';
 // import { StaticImageData } from "next/image";
@@ -6,6 +7,8 @@ import { MdOutlineArrowOutward } from 'react-icons/md';
 import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import Heading from '@/app/(website)/common/Heading';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
+import { useState } from 'react';
+import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 
 export type page = {
   image: string;
@@ -13,6 +16,7 @@ export type page = {
 
 const DominateAI = ({ getplan }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
+  const [open, setOpen] = useState(false);
 
   return (
     <section ref={ref} className="relative py-[3rem] lg:py-[6rem]">
@@ -38,11 +42,13 @@ const DominateAI = ({ getplan }: any) => {
               name="Get Your AI SEO Plan"
               isIcon={true}
               isBgWhite={true}
+              handleClick={()=>setOpen(!open)}
               className="flex w-[17rem]"
             />
           </div>
         </div>
       </MaxWidthWrapper>
+      <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
     </section>
   );
 };

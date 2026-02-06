@@ -1,13 +1,16 @@
+'use client';
 import Heading from '@/app/(website)/common/Heading';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
-import React from 'react';
+import React, { useState } from 'react';
 import { SERVICES_DATA } from './data';
 import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import what_are_ai_seo from '../../../../../../public/assets/images/what_are_ai_seo.png';
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
+import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 const WhatAreAISEO = ({ whatareaiseo }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+  const [open, setOpen] = useState(false);
 
   return (
     <div
@@ -39,6 +42,7 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
               name={whatareaiseo?.button}
               isIcon={true}
               isBgWhite={true}
+              handleClick={() => setOpen(!open)}
               className="mt-[1rem] w-[19rem]"
             />
           )}
@@ -56,6 +60,7 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
           />
         </div>
       </MaxWidthWrapper>
+      <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
     </div>
   );
 };

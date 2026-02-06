@@ -72,7 +72,7 @@ const WhyChoose = () => {
                       {item?.span}
                     </p>
                     <p
-                      className={`pt-[0.8rem] text-center text-[#323232B2] lg:text-left xl:pt-[1.5rem]`}
+                      className={`pt-[0.8rem] text-justify text-[#323232B2] lg:text-left xl:pt-[1.5rem]`}
                     >
                       {/* {item?.description.length > 140
                         ? item?.description.slice(0, 140) + '...'

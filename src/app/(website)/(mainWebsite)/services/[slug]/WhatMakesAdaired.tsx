@@ -63,24 +63,25 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
               //   </div>
               // </div>
 
-
-
               <div
                 style={{ transitionDelay: `${idx * 120}ms` }}
-                className={`my-[2rem] grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-0 rounded-[20px] p-[2rem] transition-all duration-700 ${isVisible ? "translate-y-0 opacity-100" : "translate-y-10 opacity-0"
-                  } ${isOrange ? "bg-[#FB9100]/5" : "bg-[#F9F9F9]"}`}
+                className={`my-[2rem] grid grid-cols-1 gap-6 rounded-[20px] p-[2rem] transition-all duration-700 lg:grid-cols-2 lg:gap-0 ${
+                  isVisible
+                    ? 'translate-y-0 opacity-100'
+                    : 'translate-y-10 opacity-0'
+                } ${isOrange ? 'bg-[#FB9100]/5' : 'bg-[#F9F9F9]'}`}
               >
                 {/* IMAGE */}
-                <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
+                <div className="order-1 flex justify-center lg:order-2 lg:justify-end">
                   <Image
                     src={item?.img}
                     alt={item?.name}
-                    className="w-full lg:w-auto h-auto"
+                    className="h-auto w-full lg:w-auto"
                   />
                 </div>
 
                 {/* TEXT */}
-                <div className="order-2 flex flex-col justify-center items-center lg:items-start lg:order-1 w-full">
+                <div className="order-2 flex w-full flex-col items-center justify-center lg:order-1 lg:items-start">
                   <h3>{item?.name}</h3>
                   <div className="pt-[1rem]">
                     {item?.description?.map((desc: any, i: number) => (

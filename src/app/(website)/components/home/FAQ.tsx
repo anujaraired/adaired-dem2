@@ -43,18 +43,17 @@ const FAQ = ({ faqs }: any) => {
           {faqs?.list?.length > 0 &&
             faqs?.list?.map((faq: any, idx: number) => {
               const isOpen = openIndex === idx;
-              console.log(faq?.list, 'faq>>>>>>>');
               return (
                 <div
                   key={idx}
                   onClick={() => toggleFAQ(idx)}
-                  className={`grid cursor-pointer grid-cols-5 rounded-2xl border-[2px] border-[#000000]/20 p-[1rem] transition-all duration-700 lg:p-[2rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} `}
+                  className={`flex cursor-pointer rounded-2xl border-[2px] border-[#000000]/20 p-[1rem] transition-all duration-700 lg:p-[2rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} `}
                   style={{
                     transitionDelay: `${idx * 120}ms`,
                   }}
                 >
                   {/* Content */}
-                  <div className="col-span-4 space-y-4">
+                  <div className="w-[90%] space-y-4">
                     <h3>{faq.title}</h3>
                     {isOpen && (
                       <div>
@@ -75,7 +74,7 @@ const FAQ = ({ faqs }: any) => {
                   </div>
 
                   {/* Toggle Button */}
-                  <div className="flex cursor-pointer justify-end">
+                  <div className="flex w-[10%] cursor-pointer justify-end">
                     <span
                       className={`mb-auto w-fit rounded-full p-1 transition-all duration-300 ${
                         isOpen

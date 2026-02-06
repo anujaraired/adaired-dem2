@@ -1,14 +1,17 @@
+'use client';
 import Heading from '@/app/(website)/common/Heading';
 import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
-import React from 'react';
+import React, { useState } from 'react';
 import NotSeeingResultsBg from '../../../../../../public/assets/NotSeeingResultsBg.png';
 import NotSeeingResult from '../../../../../../public/assets/aiseo/NotSeeingResults.png';
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
+import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 
 const NotSeeingResults = ({ notSeeingResult }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+  const [open, setOpen] = useState(false);
 
   return (
     <div
@@ -31,6 +34,7 @@ const NotSeeingResults = ({ notSeeingResult }: any) => {
             name={notSeeingResult?.buttonName}
             isBgWhite={true}
             isIcon={true}
+            handleClick={() => setOpen(!open)}
             className="w-[20rem] pt-[2rem]"
           />
         </div>
@@ -41,6 +45,7 @@ const NotSeeingResults = ({ notSeeingResult }: any) => {
         >
           <Image src={notSeeingResult?.img} alt="imh" />
         </div>
+        <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
       </MaxWidthWrapper>
     </div>
   );

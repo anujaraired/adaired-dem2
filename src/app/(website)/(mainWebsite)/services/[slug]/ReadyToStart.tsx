@@ -6,10 +6,12 @@ import Image from 'next/image';
 import { IoIosArrowRoundForward } from 'react-icons/io';
 import { useState } from 'react';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
+import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 
 const ReadyToStart = ({ handleClick }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const [isHover, setIsHover] = useState(false);
+  const [open, setOpen] = useState(false);
 
   return (
     <>
@@ -33,7 +35,7 @@ const ReadyToStart = ({ handleClick }: any) => {
               <button
                 onMouseEnter={() => setIsHover(true)}
                 onMouseLeave={() => setIsHover(false)}
-                onClick={handleClick}
+                onClick={() => setOpen(!open)}
                 className={`font-Outfi flex w-fit cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-[60px] bg-[#FFFFFF] px-[2rem] py-[0.75rem] text-xxs font-normal transition-all duration-300 ease-out active:scale-95 xl:text-xs 1366:text-[14px] 1400:text-[18px] 1470:text-[18px] 1600:text-[18px] 1680:text-[18px]`}
               >
                 {'Get Your Free Marketing Audit'}
@@ -58,6 +60,7 @@ const ReadyToStart = ({ handleClick }: any) => {
           />
         </div>
       </section>
+      <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
     </>
   );
 };

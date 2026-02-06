@@ -227,7 +227,7 @@ const Heading = ({
               </div>
               <div className={`${isDecVarticle && 'pt-[1rem]'}`}>
                 <p
-                  className={`${isBgWhite ? 'text-[#FFFFFF]' : ''} pt-4 text-center lg:text-left`}
+                  className={`${isBgWhite ? 'text-[#FFFFFF]' : ''} pt-4 text-justify lg:text-left`}
                 >
                   {description}
                 </p>

@@ -265,7 +265,7 @@ const Service = () => {
                                 unoptimized
                                 className="ani my-auto lg:h-[30px] lg:w-[30px] xl:h-[40px] xl:w-[40px]"
                               />
-                              <p className="absolute bottom-5 left-[4rem] mx-2 my-auto font-poppins font-semibold text-[#000000] md:left-[4rem] md:pt-[1.7rem] lg:left-4 lg:pt-[1rem] lg:text-[11px] lg:font-medium lg:leading-[15px] xl:pt-[1.7rem] xl:text-xs xl:font-semibold xl:leading-[25px] 1360:text-[13px] 1360:leading-[1.25rem] 1400:text-[16px] 1400:leading-[1.5rem]">
+                              <p className="absolute bottom-5 left-[4rem] mx-2 my-auto text-left font-poppins font-semibold text-[#000000] md:left-[4rem] md:pt-[1.7rem] lg:left-4 lg:pt-[1rem] lg:text-[11px] lg:font-medium lg:leading-[15px] xl:pt-[1.7rem] xl:text-xs xl:font-semibold xl:leading-[25px] 1360:text-[13px] 1360:leading-[1.25rem] 1400:text-[16px] 1400:leading-[1.5rem]">
                                 {item?.label}
                               </p>
                             </div>
@@ -279,7 +279,7 @@ const Service = () => {
                       {title ?? service.title}
                     </h2>
 
-                    <p className="animate-slideUpFade mb-6 text-center [animation-delay:120ms] lg:text-left">
+                    <p className="animate-slideUpFade mb-6 text-justify [animation-delay:120ms] lg:text-justify">
                       {description ?? service.description}
                     </p>
 
