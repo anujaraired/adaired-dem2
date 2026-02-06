@@ -22,6 +22,12 @@ import importantIcon_3 from '../../../../../../public/assets/aiseo/importantIcon
 import importantIcon_4 from '../../../../../../public/assets/aiseo/importantIcon_4.svg';
 import stop_struggle from '../../../../../../public/assets/aiseo/stop-struggle.png';
 import stop_struggle2 from '../../../../../../public/assets/aiseo/stop_struggle2.png';
+import ai_tool_1 from '../../../../../../public/assets/aitools/Group 1000005558.svg';
+import ai_tool_2 from '../../../../../../public/assets/aitools/Group 1000005566.svg';
+import ai_tool_3 from '../../../../../../public/assets/aitools/Group 1000005571.svg';
+import ai_tool_4 from '../../../../../../public/assets/aitools/Group 1000005578.svg';
+import ai_tool_5 from '../../../../../../public/assets/aitools/Group 1000005587.svg';
+import ai_tool_6 from '../../../../../../public/assets/aitools/Group 1000005766.svg';
 
 export const SERVICES_DATA = {
   'search-engine-optimization': {
@@ -236,61 +242,62 @@ export const SERVICES_DATA = {
       heading: 'What’s Included in Our SEO Services',
       list: [
         {
-          name: 'Keyword Research and Analysis',
+          icon: ai_tool_1,
+          title: 'Keyword Research and Analysis',
           description: [
-            `We start the process by conducting a comprehensive keyword research. It helps determine the search terms that users input in search engines when looking for related information, products, or services. 
-            Our effective SEO strategy consists of proper keyword research to match the content of the websites with what the users are actively searching for.`,
+            `We start the process by conducting a comprehensive keyword research. It helps determine the search terms that users input in search engines when looking for related information, products, or services. `, `Our effective SEO strategy consists of proper keyword research to match the content of the websites with what the users are actively searching for.`,
           ],
         },
         {
-          name: 'On-Page SEO Optimization',
+          icon: ai_tool_1,
+          title: 'On-Page SEO Optimization',
           description: [
-            `Our focus on On-page SEO optimization is to improve search visibility. 
-            This involves optimization of page names, meta descriptions, headings, URLs, internal links, and content structure. 
+            `Our focus on On-page SEO optimization is to improve search visibility. This involves optimization of page names, meta descriptions, headings, URLs, internal links, and content structure.`,            `
             On-page optimization helps search engines to understand the relevance of the pages while enhancing readability and user experience, making the content easy to access, arranged and in accordance with the targeted keywords. `,
           ],
         },
         {
-          name: 'Technical SEO Improvements',
+          icon: ai_tool_1,
+          title: 'Technical SEO Improvements',
           description: [
-            `In Technical SEO, we address the backend elements of a website that affect search engine crawling and indexing. 
-            This involves site speed improvement, mobile friendliness, HTTPS configuration, XML sitemaps, and crawl errors remedies. 
-            Technical optimization ensures search engines can efficiently access and understand the site effectively, and this is what is necessary to maintain the same ranking level.`,
+            `In Technical SEO, we address the backend elements of a website that affect search engine crawling and indexing. This involves site speed improvement, mobile friendliness, HTTPS configuration, XML sitemaps, and crawl errors remedies.`,
+            `Technical optimization ensures search engines can efficiently access and understand the site effectively, and this is what is necessary to maintain the same ranking level.`,
           ],
         },
         {
-          name: 'Content Optimization and Development',
+          icon: ai_tool_1,
+          title: 'Content Optimization and Development',
           description: [
-            `In content optimization, we improve existing content and create new, relevant content based on SEO insights. 
-            This is done to ensure that the content is informative, keyword-compatible, user and search engine friendly. 
-            High-quality content supports better engagement, increased page views, and stronger relevance signals, helping websites perform more effectively in search results. `,
+            `In content optimization, we improve existing content and create new, relevant content based on SEO insights. This is done to ensure that the content is informative, keyword-compatible, user and search engine friendly.`,
+            `High-quality content supports better engagement, increased page views, and stronger relevance signals, helping websites perform more effectively in search results.`,
           ],
         },
         {
-          name: 'Link Building and Authority Development',
+          icon: ai_tool_1,
+          title: 'Link Building and Authority Development',
           description: [
-            `In link building, we focus on earning high-quality backlinks from relevant and trustworthy websites. 
-            These links are indicators of credibility and authority to search engines. 
-            Ethical link-building practices help strengthen a website’s domain authority over time,  improving its ability to rank competitively while maintaining compliance with search engine guidelines.
- `,
+            `In link building, we focus on earning high-quality backlinks from relevant and trustworthy websites. These links are indicators of credibility and authority to search engines.`,
+            ` Ethical link-building practices help strengthen a website’s domain authority over time,  improving its ability to rank competitively while maintaining compliance with search engine guidelines.`,
           ],
         },
         {
-          name: 'SEO Monitoring and Reporting',
+          icon: ai_tool_1,
+          title: 'SEO Monitoring and Reporting',
           description: [
-            `We track keyword rankings, organic traffic, user behavior, and technical performance in SEO monitoring. Regular reporting gives an idea of what works and where it should be improved. 
-            The ongoing analysis helps refine SEO strategies, keeping up with the changes in the algorithms, and ensuring long-term effectiveness through data-driven optimization efforts. `,
+            `We track keyword rankings, organic traffic, user behavior, and technical performance in SEO monitoring. Regular reporting gives an idea of what works and where it should be improved. `,
+            `The ongoing analysis helps refine SEO strategies, keeping up with the changes in the algorithms, and ensuring long-term effectiveness through data-driven optimization efforts. `,
           ],
         },
       ],
     },
+
     ourProcess: {
       isVisible: true,
       title: 'Our Proven SEO Process That SEO Drives Both Traffic & Revenue',
       services: [
         {
           icon: step,
-          name: 'Website Analysis and Audit',
+          title: 'Website Analysis and Audit',
           description: [
             `We begin the SEO process with a thorough website analysis and audit. This includes reviewing site structure, technical performance, content quality, and existing search rankings. 
             The identification of the strengths, weaknesses, and opportunities is a clear roadmap to optimization. 
@@ -300,7 +307,7 @@ export const SERVICES_DATA = {
         },
         {
           icon: step_2,
-          name: 'Keyword Research and Strategy Planning',
+          title: 'Keyword Research and Strategy Planning',
           description: [
             `In keyword research, we determine the keywords your target audience is searching for to find products, services, or information. This step analyzes search volume, competition, and user intent. 
             After identifying the relevant keywords, a structured SEO strategy is developed, mapping each keyword to appropriate pages. 
@@ -309,7 +316,7 @@ export const SERVICES_DATA = {
         },
         {
           icon: step_3,
-          name: 'On-Page and Technical Optimization',
+          title: 'On-Page and Technical Optimization',
           description: [
             `Under on-page and technical SEO improvements, we make your website more accessible and understandable for search engines. 
             This involves optimization of meta tags, headings, URLs, internal links, page speed, mobile usability, and site indexing. 
@@ -318,7 +325,7 @@ export const SERVICES_DATA = {
         },
         {
           icon: step_4,
-          name: 'Content Enhancement and Creation',
+          title: 'Content Enhancement and Creation',
           description: [
             `Optimizing and creating content is a core part of the SEO process. We improve existing pages to better match target keywords, while new content is being created to fill gaps. 
             High-quality content addresses user intent, provides value, and encourages engagement. 
@@ -327,7 +334,7 @@ export const SERVICES_DATA = {
         },
         {
           icon: step_5,
-          name: 'Link Building and Authority Growth',
+          title: 'Link Building and Authority Growth',
           description: [
             `Building high-quality backlinks strengthens a website’s authority and trustworthiness in the eyes of search engines. 
             This process focuses on acquiring links from relevant and reputable websites through ethical methods. 
@@ -336,7 +343,7 @@ export const SERVICES_DATA = {
         },
         {
           icon: step_3,
-          name: 'Monitoring, Reporting, and Optimization',
+          title: 'Monitoring, Reporting, and Optimization',
           description: [
             `SEO is an ongoing process that requires continuous monitoring and refinement. Performance metrics, including traffic, rankings, and user behavior, are regularly tracked and analyzed. 
             The constant monitoring enables our strategy to adjust to the changes of the search engines and the appearance of trends, which will guarantee the stable growth and exploitation of the search visibility in the long term.`,
@@ -356,36 +363,35 @@ export const SERVICES_DATA = {
       list: [
         {
           img: aiseoresult,
-          name: 'Your Website Gets Traffic, but Not the Right Traffic',
+          name: 'Tailored SEO Strategies',
           description: [
-            'Many businesses rank for keywords but still don’t get leads or sales. AI search engines focus on user intent, not just rankings. When your content does not provide a clear answer to what users want, AI will push it down, creating low-quality traffic that does not convert. ',
-            ``,
+            `At Adaired, we offer tailored SEO strategies that match your business goals and objectives. With the help of our comprehensive approach, we uncover valuable insights to enhance your website's performance and drive strategic growth for your business. 
+`
           ],
         },
         {
           img: aiseoresult,
-          name: 'Rankings Drop Without Any Warning',
+          name: 'Transparent Reporting',
           description: [
-            'AI-powered algorithms change often, and many businesses don’t see it coming. A single update may even take your site off the list. You’re likely to go unnoticed, lose visibility, traffic, and revenue overnight.',
-            ` `,
+            `We believe in building long-term relationships with our clients. This is why we use advanced digital marketing tools such as Ahrefs, Yoast, BuzzSumo, Hootsuite, and more to create result-driven strategies, track real-time results, and drive long-term revenue for our clients. Our search engine optimization strategy services are built on a structured, analytical approach that strengthens visibility, improves relevance, and supports long-term growth. `
           ],
         },
         {
           img: aiseoresult,
-          name: 'Your Content Doesn’t Stand Out Anymore',
+          name: 'Sustainable White-Hat Practices',
           description: [
-            'AI favors useful, clear, and original content. If your pages look like everyone else’s, no one pays attention to them. Generic Blogs, keyword repetition, and thin pages are difficult to rank and hence compete with the smarter content strategies used by brands.',
-            ``,
+           `Delivering quality work to our clients has become our USP over the years. We work with a laser-sharp focus to generate organic traffic, conversions, and improve technical site health. Our approach to search engine optimization is deep-rooted in advanced keyword research, SEO audits, market gap analysis, and data-driven strategies to meet your goals.  We address all the aspects of search engine optimization, right from on-page optimization to link building, ensuring that your digital presence is robust and sustainable. 
+`
           ],
         },
-        {
-          img: aiseoresult,
-          name: 'You’re Making SEO Decisions Without Real Data',
-          description: [
-            'Most companies are dependent on guesswork or past reports. It is difficult to discover what works and what does not without insights provided by AI. This leads to wasted effort, slow growth, and missed opportunities while competitors move ahead faster.',
-            ``,
-          ],
-        },
+        // {
+        //   img: aiseoresult,
+        //   name: 'You’re Making SEO Decisions Without Real Data',
+        //   description: [
+        //     'Most companies are dependent on guesswork or past reports. It is difficult to discover what works and what does not without insights provided by AI. This leads to wasted effort, slow growth, and missed opportunities while competitors move ahead faster.',
+        //     ``,
+        //   ],
+        // },
       ],
     },
     notSeeingResult: {
@@ -901,6 +907,68 @@ export const SERVICES_DATA = {
             'Adaired believes in honest communication. We provide simple, easy-to-follow reports that reveal what is working and what is not.  ',
             `With AI-powered tracking and clear insights, you always know how SEO is impacting your business and where your growth is coming from.`,
           ],
+        },
+      ],
+    },
+    whatIncluded: {
+      isVisible: true,
+      heading:
+        'AI SEO Solutions That Make Your Website Trusted by AI and Humans',
+      description:
+        'At Adaired, we use AI SEO services to enhance search results, increase organic traffic, and generate high-intent traffic through data-driven optimization. ',
+      list: [
+        {
+          icon: ai_tool_1,
+          title: 'ChatGPT SEO',
+          description: `We provide ChatGPT SEO solutions made to be AI discoverable. We ensure your content appears as a reliable, cited, and recommended source in the search results produced by the AI.\n
+        Our strategy ensures cross-industry visibility, drives high-intent user engagement, and positions your content high in the AI search.`,
+          linkText: 'Get Your Free AI SEO Audit',
+          linkHref: '#',
+        },
+
+        {
+          icon: ai_tool_2,
+          title: 'Perplexity AI SEO',
+          description: `Our Perplexity AI SEO service integrates the basics of SEO with answer-engine formatting to optimize your content for recognition, trust, and visibility with AI search engines. \n
+        Through the combination of structured responses and content accessible to the AI, we enhance authority, engagement, and discoverability. This helps your brand appear in high-intent searches in the AI-based search results.`,
+          linkText: 'Get Your Free AI SEO Audit',
+          linkHref: '#',
+        },
+
+        {
+          icon: ai_tool_3,
+          title: 'Gemini AI SEO',
+          description: `Our Gemini AI SEO services combine traditional SEO best practices with AI-first page structuring to make your content easily discoverable, cited, and trusted in Google's AI-powered Gemini search results. \n
+        We ensure that your pages stand out as authoritative answers, boosting visibility, credibility, and user engagement in an increasingly AI-powered search landscape.`,
+          linkText: 'Get Your Free AI SEO Audit',
+          linkHref: '#',
+        },
+
+        {
+          icon: ai_tool_4,
+          title: 'Grok AI SEO',
+          description: `Our Grok AI SEO helps to increase AI visibility, ensuring that insights are clear, authoritative, and easily discovered by Grok.   \n
+        With the help of our strategies, your brand gains citation, trust, and recognition, gaining authority in your industry and maximizing content to provide answers using AI, high-intent traffic, and meaningful engagement.`,
+          linkText: 'Get Your Free AI SEO Audit',
+          linkHref: '#',
+        },
+
+        {
+          icon: ai_tool_5,
+          title: 'Answer Engine Optimization',
+          description: `Being one of the leaders in Answer Engine Optimization, Adaired integrates search engine AI with SEO best practices to ensure your site is answerable on ChatGPT, Gemini, and Perplexity. \n
+        We optimize content structure and relevance so that your pages gain recognition, credibility, and are continually surfaced by the AI-based search engines.`,
+          linkText: 'Get Your Free AI SEO Audit',
+          linkHref: '#',
+        },
+
+        {
+          icon: ai_tool_6,
+          title: 'Generative Engine Optimization',
+          description: `Our Generative Engine Optimization services combine the basics of SEO with answer-based structuring, so that your content is easily found, cited, and surfaced by Gemini, Claude, and other AI engines. \n
+        We position your brand as an authoritative source, boosting your visibility, trust, and engagement on AI-driven search engines, and optimize content to high-intent user search queries.`,
+          linkText: 'Get Your Free AI SEO Audit',
+          linkHref: '#',
         },
       ],
     },

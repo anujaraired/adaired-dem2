@@ -21,7 +21,7 @@ const Stopstruggling = ({ stopStruggling }: any) => {
         <div
           className={`mx-auto w-fit text-center transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
         >
-          <h2 className="mx-auto w-[70%] text-[35px] font-semibold text-[#FFFFFF]">
+          <h2 className="mx-auto w-[70%] text-center text-[35px] font-semibold text-[#FFFFFF]">
             {stopStruggling?.title}
           </h2>
 

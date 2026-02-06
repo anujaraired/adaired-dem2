@@ -36,7 +36,7 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
 
           {whatareaiseo?.isBgWhite && (
             <SaveAndCancel
-              name={'Get A Quote'}
+              name={'Get Started'}
               isIcon={true}
               isBgWhite={true}
               className="mt-[1rem] w-[19rem]"
