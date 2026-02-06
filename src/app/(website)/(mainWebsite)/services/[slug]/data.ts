@@ -28,7 +28,8 @@ import ai_tool_3 from '../../../../../../public/assets/aitools/Group 1000005571.
 import ai_tool_4 from '../../../../../../public/assets/aitools/Group 1000005578.svg';
 import ai_tool_5 from '../../../../../../public/assets/aitools/Group 1000005587.svg';
 import ai_tool_6 from '../../../../../../public/assets/aitools/Group 1000005766.svg';
-
+import NotSeeingResult from '../../../../../../public/assets/aiseo/NotSeeingResults.png';
+import Everydayyouwait from '../../../../../../public/assets/aiseo/Everydayyouwait.png';
 export const SERVICES_DATA = {
   'search-engine-optimization': {
     banner: {
@@ -245,14 +246,16 @@ export const SERVICES_DATA = {
           icon: ai_tool_1,
           title: 'Keyword Research and Analysis',
           description: [
-            `We start the process by conducting a comprehensive keyword research. It helps determine the search terms that users input in search engines when looking for related information, products, or services. `, `Our effective SEO strategy consists of proper keyword research to match the content of the websites with what the users are actively searching for.`,
+            `We start the process by conducting a comprehensive keyword research. It helps determine the search terms that users input in search engines when looking for related information, products, or services. `,
+            `Our effective SEO strategy consists of proper keyword research to match the content of the websites with what the users are actively searching for.`,
           ],
         },
         {
           icon: ai_tool_1,
           title: 'On-Page SEO Optimization',
           description: [
-            `Our focus on On-page SEO optimization is to improve search visibility. This involves optimization of page names, meta descriptions, headings, URLs, internal links, and content structure.`,            `
+            `Our focus on On-page SEO optimization is to improve search visibility. This involves optimization of page names, meta descriptions, headings, URLs, internal links, and content structure.`,
+            `
             On-page optimization helps search engines to understand the relevance of the pages while enhancing readability and user experience, making the content easy to access, arranged and in accordance with the targeted keywords. `,
           ],
         },
@@ -366,22 +369,22 @@ export const SERVICES_DATA = {
           name: 'Tailored SEO Strategies',
           description: [
             `At Adaired, we offer tailored SEO strategies that match your business goals and objectives. With the help of our comprehensive approach, we uncover valuable insights to enhance your website's performance and drive strategic growth for your business. 
-`
+`,
           ],
         },
         {
           img: aiseoresult,
           name: 'Transparent Reporting',
           description: [
-            `We believe in building long-term relationships with our clients. This is why we use advanced digital marketing tools such as Ahrefs, Yoast, BuzzSumo, Hootsuite, and more to create result-driven strategies, track real-time results, and drive long-term revenue for our clients. Our search engine optimization strategy services are built on a structured, analytical approach that strengthens visibility, improves relevance, and supports long-term growth. `
+            `We believe in building long-term relationships with our clients. This is why we use advanced digital marketing tools such as Ahrefs, Yoast, BuzzSumo, Hootsuite, and more to create result-driven strategies, track real-time results, and drive long-term revenue for our clients. Our search engine optimization strategy services are built on a structured, analytical approach that strengthens visibility, improves relevance, and supports long-term growth. `,
           ],
         },
         {
           img: aiseoresult,
           name: 'Sustainable White-Hat Practices',
           description: [
-           `Delivering quality work to our clients has become our USP over the years. We work with a laser-sharp focus to generate organic traffic, conversions, and improve technical site health. Our approach to search engine optimization is deep-rooted in advanced keyword research, SEO audits, market gap analysis, and data-driven strategies to meet your goals.  We address all the aspects of search engine optimization, right from on-page optimization to link building, ensuring that your digital presence is robust and sustainable. 
-`
+            `Delivering quality work to our clients has become our USP over the years. We work with a laser-sharp focus to generate organic traffic, conversions, and improve technical site health. Our approach to search engine optimization is deep-rooted in advanced keyword research, SEO audits, market gap analysis, and data-driven strategies to meet your goals.  We address all the aspects of search engine optimization, right from on-page optimization to link building, ensuring that your digital presence is robust and sustainable. 
+`,
           ],
         },
         // {
@@ -399,7 +402,8 @@ export const SERVICES_DATA = {
       heading: 'Every day you wait is a lost lead.',
       description: 'Start SEO that converts now.',
       buttonName: 'Book a Free Consultation',
-      bgImage: NotSeeingResultsBg2,
+      img: Everydayyouwait,
+      bgImage: stop_struggle2,
     },
     industryLeaders: {
       isVisible: false,
@@ -776,6 +780,7 @@ export const SERVICES_DATA = {
       heading: 'Not Seeing Results? ',
       description: 'Let AI Reveal What’s Holding You Back.',
       buttonName: 'Get Your Free AI SEO Audit',
+      img: NotSeeingResult,
       bgImage: NotSeeingResultsBg,
     },
     industryLeaders: {
