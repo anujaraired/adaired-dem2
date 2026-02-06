@@ -15,7 +15,7 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
     >
       <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2">
         <div
-          className={`order-2 lg:order-1 my-auto transition-all duration-1000 flex flex-col items-center lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+          className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
         >
           <Heading
             subTitle={''}
@@ -36,7 +36,7 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
 
           {whatareaiseo?.isBgWhite && (
             <SaveAndCancel
-              name={'Get Started'}
+              name={whatareaiseo?.button}
               isIcon={true}
               isBgWhite={true}
               className="mt-[1rem] w-[19rem]"
@@ -45,7 +45,7 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
         </div>
         <div
           ref={ref}
-          className={`order-1 lg:order-2 flex justify-center justify-items-center lg:justify-end lg:justify-items-end transition-all duration-1000 ${isVisible ? 'translate-x-0 lg:translate-x-16 opacity-100' : '-translate-x-0 opacity-0'}`}
+          className={`order-1 flex justify-center justify-items-center transition-all duration-1000 lg:order-2 lg:justify-end lg:justify-items-end ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
         >
           <Image
             src={whatareaiseo?.img}

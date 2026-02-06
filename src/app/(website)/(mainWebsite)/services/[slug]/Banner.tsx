@@ -34,10 +34,7 @@ const Banner = ({ banner }: any) => {
     images[activeIndex] === name;
   const isCenter = true;
   return (
-    <div
-      ref={ref}
-      className="animate-pulse relative h-[114vh] w-full pt-[10vh] md:h-[110vh] lg:h-[100vh] 1366:h-[135vh] 1400:h-[115vh] 1470:h-[100vh] 1600:h-[118vh] 1680:h-[100vh] 1710:h-[85vh] 3xl:h-[100vh]"
-    >
+    <div ref={ref} className="animate-pulse relative w-full pt-[10vh]">
       <Image
         src={hero_banner}
         fill
@@ -47,7 +44,7 @@ const Banner = ({ banner }: any) => {
       />
       <MaxWidthWrapper>
         {banner?.isCenter ? (
-          <div className="relative z-10 block justify-center pt-[3rem] lg:flex lg:pb-[6rem] lg:pt-[9rem]">
+          <div className="relative z-10 block justify-center lg:flex 1400:py-[9rem] 3xl:py-[14rem]">
             <div
               className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[60%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
             >
