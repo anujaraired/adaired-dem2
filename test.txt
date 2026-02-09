@@ -1,1 +1,662 @@
 "// test" 
+
+
+
+
+
+'use client';
+import React from 'react';
+import Banner from './Banner';
+import KeyStats from './KeyStats';
+import WhatAreAISEO from './WhatAreAISEO';
+import NeedOfAISEO from './NeedOfAISEO';
+import FAQ from '@/app/(website)/components/home/FAQ';
+import BenefitofAiSEO from './BenefitofAiSEO';
+import AISEOResult from './AISEOResult';
+import NotSeeingResults from './NotSeeingResults';
+import AdairedHelp from './AdairedHelp';
+import IndustryLeaders from './IndustryLeaders';
+import Stopstruggling from './Stopstruggling';
+import LeadingTools from './LeadingTools';
+import WhatMakesAdaired from './WhatMakesAdaired';
+import OurProcess from './OurProcess';
+import AISEOSolutions from './AISEOSolutions';
+import DominateAI from './DominateAI';
+import { SERVICES_DATA } from './data';
+import { useParams } from 'next/navigation';
+import NotFound from '@/app/not-found';
+import ReadyToStart from './ReadyToStart';
+import ImportantToBussiness from './ImportantToBussiness';
+import AreYouTired from './AreYouTired';
+import BuildLinks from './BuildLinks';
+export type ServiceSlug = keyof typeof SERVICES_DATA;
+
+const StaticServicePage = ({ serviceData }: any) => {
+  const params = useParams();
+  const slug = params.slug as ServiceSlug;
+  //   const serviceData = SERVICES_DATA?.[slug];
+  //   if (!serviceData) {
+  //     return <NotFound />;
+  //   }
+  return (
+    <div>
+      <Banner banner={serviceData?.banner} />
+      {serviceData.keyStats?.isVisible && (
+        <KeyStats keyStats={serviceData.keyStats} />
+      )}
+
+      <AreYouTired/>
+      
+      {serviceData.whatareservice?.isVisible && (
+        <WhatAreAISEO whatareaiseo={serviceData.whatareservice} />
+      )}
+      {serviceData?.needofservice?.isVisible && (
+        <NeedOfAISEO needOfService={serviceData?.needofservice} />
+      )}
+      {serviceData?.stopStruggling?.isVisible && (
+        <Stopstruggling stopStruggling={serviceData?.stopStruggling} />
+      )}
+      
+      {serviceData?.importantToBussiness?.isVisible && (
+        <ImportantToBussiness
+          importantToBussiness={serviceData?.importantToBussiness}
+        />
+      )}
+      
+      {serviceData.serviceResult?.isVisible && (
+        <AISEOResult aiseoResult={serviceData.serviceResult} />
+      )}
+      {serviceData?.notSeeingResult?.isVisible && (
+        <NotSeeingResults notSeeingResult={serviceData?.notSeeingResult} />
+      )}
+      
+
+      {serviceData.adairedHelp?.isVisible && (
+        <AdairedHelp adairedHelp={serviceData.adairedHelp} />
+      )}
+
+      {serviceData.buildlinks?.isVisible && (
+        <BuildLinks buildlinks={serviceData.buildlinks} />
+      )}
+      
+      {serviceData.benefitofAiSeo?.isVisible && (
+        <BenefitofAiSEO benefitofAiSeo={serviceData.benefitofAiSeo} />
+      )}
+      {serviceData?.industryLeaders?.isVisible ? (
+        <IndustryLeaders />
+      ) : (
+        <LeadingTools leadingTools={serviceData?.leadingTools} />
+      )}
+
+      {serviceData?.whatIncluded?.isVisible && (
+        <AISEOSolutions whatIncluded={serviceData?.whatIncluded} />
+      )}
+
+      {serviceData?.needofservice?.isVisible && (
+        <LeadingTools leadingTools={serviceData?.leadingTools} />
+      )}
+      {serviceData.ourProcess && (
+        <OurProcess ourProcess={serviceData.ourProcess} />
+      )}
+      {serviceData?.whatMkeDeferent?.isVisible && (
+        <WhatMakesAdaired whatMkeDeferent={serviceData?.whatMkeDeferent} />
+      )}
+      {serviceData?.leadingToolsForPerformence?.isVisible && (
+        <LeadingTools leadingTools={serviceData?.leadingToolsForPerformence} />
+      )}
+      <DominateAI getplan={serviceData?.getplan} />
+      {serviceData.faqData && <FAQ faqs={serviceData.faqData} />}
+      <ReadyToStart />
+    </div>
+  );
+};
+
+export default StaticServicePage;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'link-building': {
+    banner: {
+      isCenter: true,
+      heading: 'Grow Your Website ',
+      label: 'Traffic with high-quality links',
+      span: ``,
+      desc: 'Our strategies are designed to help your business outrank competitors, attract more traffic, and achieve sustainable growth. Experience smarter SEO that not only ranks but accelerates your success.',
+      subheading:
+        'Ready to Build Topical Authority and Maximize Discoverability?',
+    },
+    keyStats: {
+      isVisible: true,
+      code: '03',
+      heading: 'Key Stats Related to AI SEO',
+      isCard: false,
+      img: keyStatsImg,
+      list: [
+        {
+          icon: '',
+          desctioption:
+            'Estimates suggest that 47% of link builders spend approximately more than £600 on link building per month.',
+        },
+        {
+          icon: '',
+          desctioption: '65% of users still click on traditional links ',
+        },
+        {
+          icon: '',
+          desctioption:
+            'Guest Posting has seen a significant increase in interest since July 2025',
+        },
+        {
+          icon: '',
+          desctioption:
+            'The average cost of a high-quality guest post is $692-$957',
+        },
+        {
+          icon: '',
+          desctioption:
+            '66% of business owners aim to improve their ability to select the best backlink tactics',
+        },
+      ],
+    },
+    whatareservice: {
+      isVisible: true,
+      img: WhatIsAuthorityLinkBuilding,
+      heading: 'What Is Authority Link Building?',
+      bgColor: '#FFFCF8',
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `Authority link building is a strategic SEO process focused on earning high-quality backlinks from trusted, relevant, and authoritative websites.  Authority links, unlike low-value links, come from credible sources, including industry publications, long-established blogs, and websites with high domain authority.`,
+        },
+        {
+          desctioption: `These connections serve as strong trust signals to search engines and enhance your website's credibility, ranking, and long-term organic performance.`,
+        },
+      ],
+      button: 'Start Building Today',
+    },
+
+
+    importantToBussiness: {
+      isVisible: false,
+      heading: 'Why is SEO Important to Your Business?',
+      data: [],
+    },
+
+
+    needofservice: {
+      isVisible: true,
+      isBgCornerImg: true,
+      heading: 'Why Authority Link Building Matters For Your Business?',
+      data: [
+        {
+          desctioption: `For businesses aiming to grow sustainably online, authority link building is essential. Search engines prioritize websites that demonstrate trust and expertise, and authoritative backlinks play a critical role in this evaluation. `,
+        },
+        {
+          desctioption: `Through enhancing the authority of your website, you are in a better position to be ranked better, gain steady traffic, enhance brand recognition that is useful in making your business shine in competitive markets, and turn the visibility into revenue.`,
+        },
+      ],
+    },
+
+
+    // NEW
+    benefitofAiSeo: {
+      isVisible: true,
+      heading: 'How Adaired Helps You With Authority Link Building Services',
+      description: [``],
+      list: [
+        {
+          name: 'Strategic Link Building Based on Your Business Goals',
+          description: [
+            `Adaired begins your authority link-building campaigns by knowing your business goals, your target market, and even your competitors. 
+            This strategic approach ensures backlinks are built for relevance, authority, and impact.`,
+            `By aligning the acquisition of links with your own SEO and growth objectives, we can help push you towards meaningful rankings, traffic, and long-term digital success.`,
+          ],
+        },
+        {
+          name: 'High-Authority, Niche-Relevant Link Placements',
+          description: [
+            `We focus exclusively on acquiring backlinks from high-authority websites that are relevant to your industry. Adaired takes time to evaluate the domain strength, traffic quality, and editorial standards before outreach.`,
+            `This ensures every link adds real SEO value, enhances your domain authority, and adds your brand to trustworthy sites that your audience already spends time on.`,
+          ],
+        },
+        {
+          name: 'White-Hat and Google-Compliant Practices',
+          description: [
+            `Adaired follows strictly ethical, white-hat link-building practices that align with Google’s guidelines. We do not create spammy networks and risky strategies that can hurt your rankings.`,
+            `Rather, our team establishes connections in a natural way by creating content-based outreach, partnerships, and authentic placement, safeguarding your site and delivering sustainable SEO growth.`,
+          ],
+        },
+        {
+          name: 'Data-Driven Outreach and Relationship Building',
+          description: [
+            `Our authority link-building services are powered by data and genuine relationships. Adaired applies the latest SEO tools that would recognize the link opportunities and personalized outreach to get placements.`,
+            `Through developing long term relationships with publishers and editors, we always secure quality backlinks that are hard to replicate by the competition.`,
+          ],
+        },
+        {
+          name: 'Transparent Reporting and Measurable Results',
+          description: [
+            `Adaired believes in complete transparency. You get in-depth reports on the links acquired, domain statistics, use of anchor words, and performance change.`,
+            `This will easily enable you to monitor progress and ROI. Through our reporting, you will never fail to understand the role played by authority link building in the rankings, traffic, and the general growth of the business.`,
+          ],
+        },
+        {
+          name: 'Scalable Solutions for Businesses of All Sizes',
+          description: [
+            `Adaired provides scalable authority link-building services that meet your demands.`,
+            `Our custom plans have the ability to keep up with your business's changes so that you can grow the link acquisition safely and effectively without sacrificing quality, relevancy, and long-term search engine optimization power.`,
+          ],
+        },
+      ],
+    },
+
+
+
+    // NEW
+    whatIncluded: {
+      isVisible: true,
+      heading:
+        'Link Building Services That We Offer At Adaired',
+      description: ``,
+      list: [
+        {
+          icon: ai_tool_1,
+          title: 'Citation Building',
+          description: `Adaired’s citation-building service helps businesses establish consistent and accurate listings across trusted online directories. 
+            We make sure your business name, address, and phone number are consistent, which increases your local search visibility and credibility. 
+            Powerful citations will boost the ranking of maps, increase brand awareness, and assist your customers in locating your business easily.`,
+          linkText: 'Get Your Free AI SEO Audit',
+          linkHref: '#',
+        },
+
+        {
+          icon: ai_tool_2,
+          title: 'Guest Posts',
+          description: `We ensure quality placements on niche-specific blogs and publications with our guest posting. All the posts are value-based and have natural backlinks that enhance your domain authority. 
+            Our attention is on the authentic outreach and editorial quality, which assist your brand in becoming visible, getting referral traffic, and achieving a sustainable change in SEO.`,
+          linkText: 'Get Your Free AI SEO Audit',
+          linkHref: '#',
+        },
+
+        {
+          icon: ai_tool_3,
+          title: 'Press Releases',
+          description: `Adaired creates and distributes SEO-optimized press releases that amplify the news of your brand in the authoritative media. The service contributes to the creation of backlinks, spreading brand awareness, and creating targeted attention. 
+            We professionally write our press releases to achieve credibility, reach, and measurable impact on your online presence.`,
+          linkHref: '#',
+        },
+
+        {
+          icon: ai_tool_4,
+          title: 'Niche Edits',
+          description: `Our niche edit business establishes contextual backlinks on existing, old content on related sites. These links are natural and authoritative, and they convey good SEO value to your site. 
+            Niche edits achieve better ranking and long-term link equity because they can be used to promote the existing page with its existing traffic and trust.`,
+          linkHref: '#',
+        },
+
+        {
+          icon: ai_tool_5,
+          title: 'Articles',
+          description: `Our article link building services involve creating, publishing and promoting high-quality content on relevant websites to earn backlinks, increase domain authority and boost search engine rankings. All these techniques serve as 'votes of confidence', signalling to search engines that your content is valuable, which increases page authority and rankings.  
+            Consistent, high-quality links establish your website as a trusted, authoritative source in your niche.`,
+          linkHref: '#',
+        },
+      ],
+    },
+
+
+    serviceResult: {
+      isVisible: false,
+      heading:
+        'Struggling to Rank in AI SEO Results? Here’s What You Need to Know',
+      description: null,
+      isBgColor: false,
+
+      list: [
+        {
+          img: aiseoresult,
+          name: 'Your Website Gets Traffic, but Not the Right Traffic',
+          description: [
+            'Many businesses rank for keywords but still don’t get leads or sales. AI search engines focus on user intent, not just rankings. When your content does not provide a clear answer to what users want, AI will push it down, creating low-quality traffic that does not convert. ',
+            ``,
+          ],
+        },
+        {
+          img: aiseoresult,
+          name: 'Rankings Drop Without Any Warning',
+          description: [
+            'AI-powered algorithms change often, and many businesses don’t see it coming. A single update may even take your site off the list. You’re likely to go unnoticed, lose visibility, traffic, and revenue overnight.',
+            ` `,
+          ],
+        },
+        {
+          img: aiseoresult,
+          name: 'Your Content Doesn’t Stand Out Anymore',
+          description: [
+            'AI favors useful, clear, and original content. If your pages look like everyone else’s, no one pays attention to them. Generic Blogs, keyword repetition, and thin pages are difficult to rank and hence compete with the smarter content strategies used by brands.',
+            ``,
+          ],
+        },
+        {
+          img: aiseoresult,
+          name: 'You’re Making SEO Decisions Without Real Data',
+          description: [
+            'Most companies are dependent on guesswork or past reports. It is difficult to discover what works and what does not without insights provided by AI. This leads to wasted effort, slow growth, and missed opportunities while competitors move ahead faster.',
+            ``,
+          ],
+        },
+      ],
+    },
+
+
+    notSeeingResult: {
+      isVisible: false,
+      heading: 'Not Seeing Results? ',
+      description: 'Let AI Reveal What’s Holding You Back.',
+      buttonName: 'Get Your Free AI SEO Audit',
+      bgImage: NotSeeingResultsBg,
+    },
+
+
+    industryLeaders: {
+      isVisible: false,
+      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      description:
+        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      bgImage: leadingTools,
+    },
+
+
+    leadingToolsForPerformence: {
+      isVisible: true,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+    leadingTools: {
+      isVisible: true,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+
+
+
+    // NEW
+    adairedHelp: {
+      isVisible: true,
+      heading: 'Benefits of Authority Link Building Services',
+      list: [
+        {
+          img: aiseoresult,
+          name: 'Improved Search Engine Rankings',
+          description: [
+            `Link-building services assist your site in receiving links from high-domain and reliable sources. Search engines interpret these links as recommendations, significantly boosting your ranking potential.`,
+            `The higher the authority signals, the higher the chances your pages will rank competitive keywords, resulting in increased visibility and organic growth that continues to grow over time.`,
+          ],
+        },
+        {
+          img: aiseoresult_2,
+          name: 'Increased Organic Traffic',
+          description: [
+            `The excellent quality of the backlinks is not only beneficial to the ranking, but they also lead to the referral traffic of the relevant audiences. Authority link-building services place your brand on platforms your potential customers already trust.`,
+            `This leads to regular, high-intent traffic who are more inclined to consume your content, browse your products and services, and become good leads.`,
+          ],
+        },
+        {
+          img: aiseoresult_3,
+          name: 'Enhanced Brand Credibility and Trust',
+          description: [
+            `Being featured on authoritative websites strengthens your brand’s reputation. Trust is established naturally when users perceive your business as being related to esteemed publications or leaders in the industry.`,
+            `Authority Link building services are useful in making your brand an expert in your business niche, and customers feel more comfortable using your service or products over competitors.`,
+          ],
+        },
+        {
+          img: aiseoresult_4,
+          name: 'Long-Term SEO Value',
+          description: [
+            `Unlike paid ads or short-term tactics, authority backlinks deliver long-lasting SEO benefits. When acquired, these links do not short-livedly benefit your site in terms of authority and rankings.`,
+            `The professional link-building services make sure that the links are posted in a proper manner, which is ethical and strategically done. This leads to sustained growth and ensures that the site is not subject to algorithm penalties.`,
+          ],
+        },
+        {
+          img: aiseoresult_3,
+          name: 'Competitive Advantage in Your Industry',
+          description: [
+            `Authority link building gives your business an edge in the competitive markets.  While competitors rely on basic SEO, high-quality backlinks strengthen your domain faster and more effectively.`,
+            `Using the professional service of link building, your site will receive greater authority signals, which will enable you to rank better than your rivals in a search engine and gain a larger market share.`,
+          ],
+        },
+        {
+          img: aiseoresult_4,
+          name: 'Better ROI Than Traditional Marketing',
+          description: [
+            `Authority link-building services offer a higher return on investment compared to many traditional marketing channels. Instead of short-lived exposure, backlinks generate ongoing traffic, brand visibility, and SEO value.`,
+            `With a strategic approach like Adaired’s, each link contributes to measurable growth, making link building a cost-effective digital marketing investment.`,
+          ],
+        },
+      ],
+    },
+
+
+
+    // NEW    
+    buildlinks: {
+      isVisible: true,
+      img: WhatIsAuthorityLinkBuilding,
+      heading: 'Build Links That Work for Your Business in 2026 and Beyond',
+      bgColor: '#FFFCF8',
+      isBgWhite: true,
+      data: [],
+      button: 'Get a Free Audit',
+    },
+
+    
+
+    // NEW
+    whatMkeDeferent: {
+      isVisible: true,
+      heading: 'What Makes Adaired Different From Our Competitors?',
+      description: [],
+      list: [
+        {
+          img: meke_derefent,
+          name: 'Links That Build Real Authority',
+          description: [
+            `Adaired focuses on authoritative and niche-specific backlinks rather than pursuing high quantities. Every link is evaluated for domain strength, traffic quality, relevance, and editorial.`,
+            `This quality-first approach ensures the long-term  SEO value, protects your website from penalties, and generates sustainable growth in your ranking, as opposed to short-lived spikes.`,
+          ],
+        },
+        {
+          img: meke_derefent_2,
+          name: '100% White-Hat & Safe',
+          description: [
+            `Our web building policies align well with the Google Webmaster Policy. We do not use PBNs, link farms, or automation.`,
+            `Our efforts are instead centered on real outreach, editorial placements, and relationship-based link acquisition, keeping your site secure as you gain trust, authority, and search engine credibility in the long term.`,
+          ],
+        },
+        {
+          img: meke_derefent_3,
+          name: 'Niche-Relevant Placements',
+          description: [
+            `Unlike generic providers, Adaired builds links within your exact industry and content ecosystem. All the backlinks are contextually situated on the appropriate pages, which naturally align with your brand.`,
+            `This relevance enhances the authority, the quality of referral traffic, and signals stronger trust to search engines.`,
+          ],
+        },
+        {
+          img: meke_derefent_4,
+          name: 'Clear Reporting, Real Results',
+          description: [
+            `We believe in complete transparency. Adaired offers reports that display live links, use of anchor texts, domain measures, traffic, and placement URLs.`,
+            `You always know where your links are placed, why they matter, and how they contribute to your SEO goals.`,
+          ],
+        },
+        {
+          img: meke_derefent_4,
+          name: 'Fully Customized Strategies',
+          description: [
+            `No two businesses are the same, and neither are our link-building campaigns.  Adaired develops unique strategies relevant to your interests, competition, industry, and existing backlink profile.`,
+            `This personalized strategy ensures effective acquisition of links that will serve your stage of growth, whether you’re scaling or stabilizing rankings.`,
+          ],
+        },
+        {
+          img: meke_derefent_4,
+          name: 'SEO-Led Link Building',
+          description: [
+            `We identify that backlinks are aligned with the intent of the keywords, site architecture, and the overall performance of the search engine optimization.`,
+            `This integrated approach ensures every link contributes to stronger rankings, improved authority, and measurable business impact.Adaired’s link building is guided by experienced SEO strategists, not just outreach specialists.`,
+          ],
+        },
+      ],
+    },
+
+
+
+
+    // NEW
+    ourProcess: {
+      isVisible: true,
+      subtitle: 'Our Process',
+      title: 'Our Strategic Link Building Process Focused On Building Lasting Authority',
+      span: '',
+      description: ``,
+      services: [
+        {
+          icon: step,
+          title: 'Website & Competitor Analysis',
+          description: [
+            `We start with the review of your current backlink profile, domain authority, and performance in terms of keywords. 
+            Adaired also researches your best competition in order to uncover gaps in links and high-value opportunities.`,
+            `This evidence-based methodology assists us in forming a robust platform for a link-building plan that provides quantifiable and competitive outcomes.`,
+          ],
+        },
+        {
+          icon: step_2,
+          title: 'Strategy & Goal Alignment',
+          description: [
+            `Looking at what we have learned in our analysis, we develop a tailor-made authority link-building strategy that is in tandem with your business objectives.`,
+            `Be it rankings or traffic, brand visibility, we establish the type of links, target pages, and anchor text strategy so that we can have long-term and seamless growth in SEO.`,
+          ],
+        },
+        {
+          icon: step_3,
+          title: 'Prospecting High-Authority Websites',
+          description: [
+            `Highly authoritative, niche-relevant sites are identified and qualified by our team on the basis of rigid criteria like the domain strength, organic traffic, and editorial quality.`,
+            `Adaired ensures each prospect meets our quality standards, guaranteeing that every backlink adds real value and strengthens your website’s overall authority.`,
+          ],
+        },
+        {
+          icon: step_4,
+          title: 'Content Creation & Outreach',
+          description: [
+            `We produce premium and value-oriented content targeting every placement opportunity. Through targeted targeting, we reach out to editors, bloggers, and publishers to earn natural placements of links with them.`,
+            `This moral strategy will establish good relations and will make sure that your links will be arranged in the context of meaningful and interesting information.`,
+          ],
+        },
+        {
+          icon: step_5,
+          title: 'Placement and Quality Assurance',
+          description: [
+            `When connections have been established, Adaired conducts extensive quality inspections to ensure that everything is in the right place, is relevant, and has been indexed.`,
+            `We verify anchor text usage, do-follow attributes, and that the content is relevant to the backlink, and that every backlink is used according to an SEO best practice and will have a positive impact on your ranking.`,
+          ],
+        },
+        {
+          icon: step_5,
+          title: 'Reporting, Optimization & Scaling.',
+          description: [
+            `You will get clear reports of purchased links, metrics, and performance influence. Adaired constantly measures performance, optimizes strategy, and expands link-building activities according to the best results.`,
+            `This continuous optimization guarantees long term growth and the highest ROI in your authority link-building campaign.`,
+          ],
+        },
+      ],
+    },
+
+
+
+
+    // NEW
+    stopStruggling: {
+      isVisible: true,
+      subtitle: '',
+      title:
+        'Maximize Your Online Presence With The Best Link Building Services',
+      description: ``,
+      bgImg: stop_struggle,
+    },
+
+
+
+    // NEW
+    getplan: {
+      isVisible: true,
+      isLabel: false,
+      subtitle: 'Boost Traffic Today',
+      title: 'Stop Guessing Start Acting ',
+      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+
+
+
+    // NEW
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      title: 'Frequently Asked Questions on Authority Link Building Services',
+      description: ``,
+      list: [
+        {
+          title: 'Why is link building important?',
+          description:
+            'High-quality link building is a process of acquiring hyperlinks from other sources/websites to your website. It helps in improving your search rankings, driving referral traffic and building domain authority. ',
+        },
+        {
+          title: `What is Adaired's approach towards link building?`,
+          description:
+            'At Adaired, we provide our clients with ethical and high-quality links to authoritative websites that are relevant to their niche/industry.',
+        },
+        {
+          title: 'How do you measure the success of link-building services?',
+          description: `We measure the success of our link-building services through improved search rankings, domain authority, referral traffic, and quality of backlinks attained. `,
+        },
+        {
+          title: 'Will link building help my business in ranking my website faster?',
+          description:
+            'Definitely! High-quality link building promotes the authority of your business and increases your chances of getting higher search engine rankings. ',
+        },
+        {
+          title: 'How long will it take to see the results of link building?',
+          description:
+            `Results from link building vary depending on the niche of your business, competition, and the quality of the backlinks acquired. It can take several weeks to several months to see the results.
+            Although it is difficult to predict exact rankings, ethical link-building strategies will surely bring you long-term benefits.`,
+        },
+        {
+          title: `What is special about Adaired's link-building services?`,
+          description:
+            'At Adaired, we combine ethical link-building with data-driven strategies and high-authority placements to provide our clients with measurable results.',
+        },
+      ],
+    },
+  },
