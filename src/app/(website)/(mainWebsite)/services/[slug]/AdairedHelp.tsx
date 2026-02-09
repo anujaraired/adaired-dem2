@@ -3,7 +3,7 @@ import Heading from '@/app/(website)/common/Heading';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Image from 'next/image';
 import adairedHelpImg from '../../../../../../public/assets/aiseo/adairedHelp.png';
-import chat from '../../../../../../public/assets/icons/chat.svg';
+// import chat from '../../../../../../public/assets/icons/chat.svg';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const AdairedHelp = ({ adairedHelp }: any) => {
@@ -33,7 +33,7 @@ const AdairedHelp = ({ adairedHelp }: any) => {
               className={`relative h-[22rem] md:h-[28rem] lg:h-[35rem] rounded-[20px] transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
             >
               <Image
-                src={adairedHelpImg}
+                src={adairedHelp?.img}
                 fill
                 className="rounded-[20px] object-cover"
                 alt="adairedHelp"
@@ -52,7 +52,7 @@ const AdairedHelp = ({ adairedHelp }: any) => {
                   transitionDelay: `${index * 280}ms`, // 👈 stagger here
                 }}
               >
-                <Image src={chat} width={32} height={32} alt="icon" />
+                <Image src={item?.img} width={32} height={32} alt="icon" />
 
                 <p className="pt-[1.5rem] font-bold">{item?.name}</p>
 

@@ -32,7 +32,7 @@ const FAQ = ({ faqs }: any) => {
             subTitle={subTitle}
             title={faqs?.title}
             span=""
-            description={description}
+            description=""
             isBgWhite
             isInCenter
             className="w-[100%] lg:w-[90%]"

@@ -8,29 +8,28 @@ import what_are_ai_seo from '../../../../../../public/assets/images/what_are_ai_
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
-const WhatAreAISEO = ({ whatareaiseo }: any) => {
+const BuildLinks = ({ buildlinks }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
   const [open, setOpen] = useState(false);
 
   return (
     <div
-      className={`${whatareaiseo?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8] py-[3rem] lg:py-[6rem]'}`}
+      className={`${buildlinks?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8]'}`}
     >
       <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2">
         <div
           className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
         >
-          <Heading
-            className="flex justify-center lg:justify-start"
+          <Heading className='flex justify-center lg:justify-start'
             subTitle={''}
-            title={whatareaiseo?.heading}
-            isBgWhite={whatareaiseo?.isBgWhite && true}
+            title={buildlinks?.heading}
+            isBgWhite={buildlinks?.isBgWhite && true}
           />
           <div>
-            {whatareaiseo?.data?.map((item: any) => {
+            {buildlinks?.data?.map((item: any) => {
               return (
                 <p
-                  className={`py-3 ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'} `}
+                  className={`py-3 ${buildlinks?.isBgWhite && 'text-[#FFFFFF]'} `}
                 >
                   {item?.desctioption}
                 </p>
@@ -38,9 +37,9 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
             })}
           </div>
 
-          {whatareaiseo?.isBgWhite && (
+          {buildlinks?.isBgWhite && (
             <SaveAndCancel
-              name={whatareaiseo?.button}
+              name={buildlinks?.button}
               isIcon={true}
               isBgWhite={true}
               handleClick={() => setOpen(!open)}
@@ -54,7 +53,7 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
           className={`order-1 flex justify-center justify-items-center transition-all duration-1000 lg:order-2 lg:justify-end lg:justify-items-end ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
         >
           <Image
-            src={whatareaiseo?.img}
+            src={buildlinks?.img}
             width={602}
             height={50}
             className=""
@@ -67,4 +66,4 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
   );
 };
 
-export default WhatAreAISEO;
+export default BuildLinks;

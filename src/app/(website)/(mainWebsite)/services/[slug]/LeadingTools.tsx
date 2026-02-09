@@ -29,7 +29,11 @@ const LeadingTools = ({ leadingTools }: any) => {
   return (
     <div
       ref={ref}
-      className="pb-[3rem] pt-0 lg:pb-[4rem] xl:pb-[6rem] bg-cover bg-center bg-no-repeat"
+      className={` ${
+        leadingTools?.isGapTop
+          ? 'pb-[3rem] lg:pb-[6rem]'
+          : 'py-[3rem] lg:py-[6rem]'
+      } `}
       style={{
         backgroundImage: `url(${leadingTools?.bgImage.src})`,
       }}
