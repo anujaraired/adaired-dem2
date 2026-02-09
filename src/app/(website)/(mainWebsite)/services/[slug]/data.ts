@@ -49,6 +49,9 @@ import adairedHelp_icon_4 from '../../../../../../public/assets/adairedHelp/help
 import adairedHelp_icon_5 from '../../../../../../public/assets/adairedHelp/help_icon_5.svg';
 import adairedHelp_icon_6 from '../../../../../../public/assets/adairedHelp/help_icon_6.svg';
 import adairedHelp_icon_7 from '../../../../../../public/assets/adairedHelp/help_icon_7.svg';
+import adairedHelp_icon_8 from '../../../../../../public/assets/adairedHelp/help_icon_8.svg';
+import adairedHelp_icon_9 from '../../../../../../public/assets/adairedHelp/help_icon_9.svg';
+import adairedHelp_icon_10 from '../../../../../../public/assets/adairedHelp/help_icon_10.svg';
 
 import StrugglingImgSEO from '../../../../../../public/assets/images/Struggling.png';
 import StrugglingImgAISEO from '../../../../../../public/assets/aiseo/AISEORESULT.png';
@@ -457,7 +460,7 @@ export const SERVICES_DATA = {
       bgImage: leadingToolsImg,
     },
     leadingToolsForPerformence: {
-      isGapTop:true,
+      isGapTop: true,
       isVisible: true,
       heading:
         'Powered By Leading Tools For Maximum Performance and Efficiency',
@@ -963,7 +966,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_icon_7,
+          img: adairedHelp_icon_8,
           name: 'AI-Driven Content Strategy Focused on Topical Authority',
           description: [
             'Adaired does not focus only on content optimization but creates a topical authority with the help of AI. We detect content gaps, cluster opportunities, and semantic links throughout your niche.',
@@ -971,7 +974,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_icon_7,
+          img: adairedHelp_icon_9,
           name: 'Intelligent Technical SEO for Maximum Performance',
           description: [
             `Adaired is an AI-powered tool that reveals and prioritizes technical SEO problems that directly influence the rankings. From site speed and crawlability to indexing and Core Web Vitals, we fix what matters most first.`,
@@ -979,7 +982,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_icon_7,
+          img: adairedHelp_icon_10,
           name: 'Continuous AI Monitoring and Data-Driven Optimization',
           description: [
             'SEO is never static. Adaired relies on AI-based monitoring to monitor rankings, traffic modifications, and algorithm adjustments in real-time. ',
