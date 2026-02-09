@@ -13,7 +13,7 @@ import step_4 from '../../../../../../public/assets/aiseo/process/Group 10000058
 import step_5 from '../../../../../../public/assets/aiseo/process/Group 1000005849.svg';
 import NotSeeingResultsBg from '../../../../../../public/assets/NotSeeingResultsBg.png';
 import NotSeeingResultsBg2 from '../../../../../../public/assets/NotSeeingResultsBg2.png';
-import leadingTools from '../../../../../../public/assets/leadingTools.png';
+import leadingToolsImg from '../../../../../../public/assets/leadingTools.png';
 import what_are_ai_seo from '../../../../../../public/assets/images/what_are_ai_seo.png';
 import what_are_ai_seo2 from '../../../../../../public/assets/what_are_ai_seo2.png';
 import importantIcon_1 from '../../../../../../public/assets/aiseo/importantIcon_1.svg';
@@ -35,20 +35,62 @@ import seo_tool_3 from '../../../../../../public/assets/icons/seotools/Group 100
 import seo_tool_4 from '../../../../../../public/assets/icons/seotools/Group 1000006001.svg';
 import seo_tool_5 from '../../../../../../public/assets/icons/seotools/Group 1000006002.svg';
 import seo_tool_6 from '../../../../../../public/assets/icons/seotools/Group 1000006003.svg';
-import adairedHelp_1 from '../../../../../../public/assets/adairedHelp/Group 1000006012.png'
-import adairedHelp_2 from '../../../../../../public/assets/adairedHelp/Group 1000006013.png'
-import adairedHelp_3 from '../../../../../../public/assets/adairedHelp/Group 1000006014.png'
-import adairedHelp_4 from '../../../../../../public/assets/adairedHelp/Group 1000006027.png'
-import adairedHelp_5 from '../../../../../../public/assets/adairedHelp/Group 1000006028.png'
-import adairedHelp_6 from '../../../../../../public/assets/adairedHelp/Group 1000006029.png'
+import adairedHelp_1 from '../../../../../../public/assets/adairedHelp/Group 1000006012.png';
+import adairedHelp_2 from '../../../../../../public/assets/adairedHelp/Group 1000006013.png';
+import adairedHelp_3 from '../../../../../../public/assets/adairedHelp/Group 1000006014.png';
+import adairedHelp_4 from '../../../../../../public/assets/adairedHelp/Group 1000006027.png';
+import adairedHelp_5 from '../../../../../../public/assets/adairedHelp/Group 1000006028.png';
+import adairedHelp_6 from '../../../../../../public/assets/adairedHelp/Group 1000006029.png';
 
 import NotSeeingResult from '../../../../../../public/assets/aiseo/NotSeeingResults.png';
 import Everydayyouwait from '../../../../../../public/assets/aiseo/Everydayyouwait.png';
 import keyStatsImg from '../../../../../../public/assets/images/SEO-keyword-ranking-software 1.png';
 import keyStatsImg2 from '../../../../../../public/assets/keyStatsImg.png';
 import WhatIsAuthorityLinkBuilding from '../../../../../../public/assets/images/WhatIsAuthorityLinkBuilding.png';
+export type SectionKey =
+  | 'banner'
+  | 'keyStats'
+  | 'areYouTired'
+  | 'whatareservice'
+  | 'needofservice'
+  | 'importantToBussiness'
+  | 'benefitofAiSeo'
+  | 'serviceResult'
+  | 'notSeeingResult'
+  | 'adairedHelp'
+  | 'industryOrLeadingTools'
+  | 'leadingTools'
+  | 'whatIncluded'
+  | 'ourProcess'
+  | 'stopStruggling'
+  | 'whatMkeDeferent'
+  | 'leadingToolsForPerformence'
+  | 'getplan'
+  | 'faqData'
+  | 'readyToStart';
+
 export const SERVICES_DATA = {
   'search-engine-optimization': {
+    sectionsOrder: [
+      'banner',
+      'keyStats',
+      'whatareservice',
+      'importantToBussiness',
+      'serviceResult',
+      'notSeeingResult',
+      'benefitofAiSeo',
+      'adairedHelp',
+      'industryOrLeadingTools',
+      'leadingTools',
+      'whatIncluded',
+      'stopStruggling',
+      'ourProcess',
+      'whatMkeDeferent',
+      'leadingToolsForPerformence',
+      'getplan',
+      'faqData',
+      'readyToStart',
+    ] satisfies SectionKey[],
     banner: {
       isCenter: false,
       isVisible: true,
@@ -220,44 +262,6 @@ export const SERVICES_DATA = {
         },
       ],
     },
-    compSeoServices: {
-      isVisible: true,
-      heading:
-        'List of comprehensive SEO Services that Drive Revenue and Traffic',
-      list: [
-        {
-          name: 'AI SEO',
-          description: [
-            `Our AI SEO services leverage artificial intelligence to enhance search engine optimization strategies with precision and efficiency. 
-            By analyzing large datasets, we identify keyword opportunities, optimize content, enhance technical performance, and predict user behavior. 
-            We do this to help our clients to adapt quickly to algorithm updates, scale SEO efforts, and achieve higher rankings with smarter, data-driven decisions.`,
-          ],
-        },
-        {
-          name: 'Local SEO',
-          description: [
-            `Our Local SEO helps businesses connect with customers in their immediate geographic area. 
-            It focuses on optimizing Google Business Profiles, local keywords, map listings, reviews, and citations to improve visibility in local search results. 
-            Our effective local SEO drives foot traffic, phone inquiries, and leads, making it essential for service-based and location-focused businesses. `,
-          ],
-        },
-        {
-          name: 'National SEO',
-          description: [
-            `Our National SEO services are designed for businesses targeting audiences across an entire country. 
-            It involves competitive keyword targeting, authoritative content creation, strong backlink profiles, and optimized website architecture. 
-            This approach builds brand authority, increases nationwide search visibility, and delivers consistent organic traffic in highly competitive markets and industries.`,
-          ],
-        },
-        {
-          name: 'E-commerce SEO',
-          description: [
-            `E-commerce SEO improves the visibility of online stores in search engines to drive qualified traffic and sales. It optimizes product pages, category structures, site speed, and user experience. 
-            We deploy a strong e-commerce SEO strategy that increases conversions, enhances discoverability, and supports long-term growth by reducing reliance on paid advertising. `,
-          ],
-        },
-      ],
-    },
     whatIncluded: {
       isVisible: true,
       heading: 'What’s Included in Our SEO Services',
@@ -312,7 +316,6 @@ export const SERVICES_DATA = {
         },
       ],
     },
-
     ourProcess: {
       isVisible: true,
       title: 'Our Proven SEO Process That SEO Drives Both Traffic & Revenue',
@@ -429,14 +432,14 @@ export const SERVICES_DATA = {
       heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
       description:
         'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
-      bgImage: leadingTools,
+      bgImage: leadingToolsImg,
     },
     leadingTools: {
       isVisible: true,
       heading: 'Powered By Leading Brands From All Around The World',
       description:
         'We have worked with some of the leading brands to turn visitors into leads and paying customers. ',
-      bgImage: leadingTools,
+      bgImage: leadingToolsImg,
     },
     leadingToolsForPerformence: {
       isVisible: true,
@@ -680,8 +683,28 @@ export const SERVICES_DATA = {
     },
   },
   'ai-search-engine-optimization': {
+    sectionsOrder: [
+      'banner',
+      'keyStats',
+      'whatareservice',
+      'needofservice',
+      'benefitofAiSeo',
+      'serviceResult',
+      'notSeeingResult',
+      'adairedHelp',
+      'industryOrLeadingTools',
+      'whatIncluded',
+      'stopStruggling',
+      'leadingTools',
+      'ourProcess',
+      'whatMkeDeferent',
+      'getplan',
+      'faqData',
+      'readyToStart',
+    ] satisfies SectionKey[],
     banner: {
       isCenter: false,
+      isVisible: true,
       heading: 'Where AI Meets',
       label: 'High-Performance SEO',
       span: `Future-ready SEO solutions by Adaired, designed to outrank and outgrow`,
@@ -870,7 +893,7 @@ export const SERVICES_DATA = {
       heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
       description:
         'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
-      bgImage: leadingTools,
+      bgImage: leadingToolsImg,
     },
     leadingToolsForPerformence: {
       isVisible: false,
@@ -1225,8 +1248,24 @@ brand appears in AI summaries and citations.`,
     },
   },
   'link-building': {
+    sectionsOrder: [
+      'banner',
+      'keyStats',
+      'areYouTired',
+      'whatareservice',
+      'serviceResult',
+      'adairedHelp',
+      'benefitofAiSeo',
+      'whatIncluded',
+      'ourProcess',
+      'whatMkeDeferent',
+      'getplan',
+      'faqData',
+      'readyToStart',
+    ] satisfies SectionKey[],
     banner: {
       isCenter: true,
+      isVisible: true,
       heading: 'Grow Your Website ',
       label: 'Traffic with high-quality links',
       span: ``,
@@ -1302,8 +1341,6 @@ brand appears in AI summaries and citations.`,
       ],
     },
 
-
-
     // NEW
     benefitofAiSeo: {
       isVisible: true,
@@ -1356,13 +1393,10 @@ brand appears in AI summaries and citations.`,
       ],
     },
 
-
-
     // NEW
     whatIncluded: {
       isVisible: true,
-      heading:
-        'Link Building Services That We Offer At Adaired',
+      heading: 'Link Building Services That We Offer At Adaired',
       description: ``,
       list: [
         {
@@ -1463,7 +1497,7 @@ brand appears in AI summaries and citations.`,
       heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
       description:
         'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
-      bgImage: leadingTools,
+      bgImage: leadingToolsImg,
     },
     leadingToolsForPerformence: {
       isVisible: false,
@@ -1481,8 +1515,6 @@ brand appears in AI summaries and citations.`,
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
     },
-
-
 
     // NEW
     adairedHelp: {
@@ -1539,9 +1571,6 @@ brand appears in AI summaries and citations.`,
         },
       ],
     },
-
-
-
 
     // NEW
     whatMkeDeferent: {
@@ -1600,14 +1629,12 @@ brand appears in AI summaries and citations.`,
       ],
     },
 
-
-
-
     // NEW
     ourProcess: {
       isVisible: true,
       subtitle: 'Our Process',
-      title: 'Our Strategic Link Building Process Focused On Building Lasting Authority',
+      title:
+        'Our Strategic Link Building Process Focused On Building Lasting Authority',
       span: '',
       description: ``,
       services: [
@@ -1663,9 +1690,6 @@ brand appears in AI summaries and citations.`,
       ],
     },
 
-
-
-
     // NEW
     stopStruggling: {
       isVisible: true,
@@ -1682,8 +1706,6 @@ brand appears in AI summaries and citations.`,
       title: 'Dominate AI Search Today',
       description: `Get a custom plan to optimize for AI-driven results: structured data, semantic content, answer-ready copy, and technical SEO—ensuring your brand appears in AI summaries and citations.`,
     },
-
-
 
     // NEW
     faqData: {
@@ -1707,14 +1729,14 @@ brand appears in AI summaries and citations.`,
           description: `We measure the success of our link-building services through improved search rankings, domain authority, referral traffic, and quality of backlinks attained. `,
         },
         {
-          title: 'Will link building help my business in ranking my website faster?',
+          title:
+            'Will link building help my business in ranking my website faster?',
           description:
             'Definitely! High-quality link building promotes the authority of your business and increases your chances of getting higher search engine rankings. ',
         },
         {
           title: 'How long will it take to see the results of link building?',
-          description:
-            `Results from link building vary depending on the niche of your business, competition, and the quality of the backlinks acquired. It can take several weeks to several months to see the results.
+          description: `Results from link building vary depending on the niche of your business, competition, and the quality of the backlinks acquired. It can take several weeks to several months to see the results.
             Although it is difficult to predict exact rankings, ethical link-building strategies will surely bring you long-term benefits.`,
         },
         {
