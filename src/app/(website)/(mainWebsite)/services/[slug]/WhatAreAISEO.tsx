@@ -24,6 +24,7 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
             className="flex justify-center lg:justify-start"
             subTitle={''}
             title={whatareaiseo?.heading}
+            span={whatareaiseo?.span}
             isBgWhite={whatareaiseo?.isBgWhite && true}
           />
           <div>

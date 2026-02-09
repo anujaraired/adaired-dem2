@@ -22,7 +22,10 @@ const BuildLinks = ({ buildlinks }: any) => {
         >
           <Heading className='flex justify-center lg:justify-start'
             subTitle={''}
+            breakIndex={5}
+            isH1={true}
             title={buildlinks?.heading}
+            span={buildlinks?.span}
             isBgWhite={buildlinks?.isBgWhite && true}
           />
           <div>
@@ -50,12 +53,12 @@ const BuildLinks = ({ buildlinks }: any) => {
 
         <div
           ref={ref}
-          className={`order-1 flex justify-center justify-items-center transition-all duration-1000 lg:order-2 lg:justify-end lg:justify-items-end ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
+          className={`order-1 flex justify-center justify-items-center transition-all duration-1000 p-10 lg:order-2 lg:justify-end lg:justify-items-end ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
         >
           <Image
             src={buildlinks?.img}
-            width={602}
-            height={50}
+            width={479}
+            height={399}
             className=""
             alt=""
           />
