@@ -58,10 +58,10 @@ const Banner = ({ banner }: any) => {
               >
                 <div className="md:flex` block justify-center justify-items-center gap-3 lg:justify-start lg:justify-items-start">
                   <div className="mt-[0.8rem] !w-[100%] md:mt-[8px] lg:mt-[0.5rem]">
-                    <h1 className="text-center capitalize">
+                    <h1 className="text-center capitalize text-[#FB9108]">
                       {banner?.heading}
                     </h1>
-                    <h1 className="text-center capitalize text-[#FB9100]">
+                    <h1 className="text-center capitalize">
                       {banner?.label}
                     </h1>
                   </div>

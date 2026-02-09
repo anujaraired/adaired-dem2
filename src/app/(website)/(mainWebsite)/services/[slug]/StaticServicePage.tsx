@@ -12,6 +12,7 @@ import BenefitofAiSEO from './BenefitofAiSEO';
 import AISEOResult from './AISEOResult';
 import NotSeeingResults from './NotSeeingResults';
 import AdairedHelp from './AdairedHelp';
+import BuildLinks from './BuildLinks';
 import IndustryLeaders from './IndustryLeaders';
 import Stopstruggling from './Stopstruggling';
 import LeadingTools from './LeadingTools';
@@ -25,6 +26,7 @@ import AreYouTired from './AreYouTired';
 import FAQ from '@/app/(website)/components/home/FAQ';
 
 import { SERVICES_DATA } from './data';
+import WhatMissing from './WhatMissing';
 
 export type ServiceSlug = keyof typeof SERVICES_DATA;
 
@@ -39,10 +41,12 @@ export type SectionKey =
   | 'serviceResult'
   | 'notSeeingResult'
   | 'adairedHelp'
+  | 'buildlinks'
   | 'leadingTools'
   | 'industryOrLeadingTools'
   | 'whatIncluded'
   | 'ourProcess'
+  | 'whatMissing'
   | 'stopStruggling'
   | 'whatMkeDeferent'
   | 'leadingToolsForPerformence'
@@ -87,6 +91,11 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
       <BenefitofAiSEO benefitofAiSeo={serviceData.benefitofAiSeo} />
     ) : null,
 
+  buildlinks: (serviceData) =>
+    serviceData.buildlinks?.isVisible ? (
+      <BuildLinks buildlinks={serviceData.buildlinks} />
+    ) : null,
+
   serviceResult: (serviceData) =>
     serviceData.serviceResult?.isVisible ? (
       <AISEOResult aiseoResult={serviceData.serviceResult} />
@@ -120,6 +129,11 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
   ourProcess: (serviceData) =>
     serviceData.ourProcess?.isVisible ? (
       <OurProcess ourProcess={serviceData.ourProcess} />
+    ) : null,
+
+  whatMissing: (serviceData) =>
+    serviceData.whatMissing?.isVisible ? (
+      <WhatMissing whatMissing={serviceData.whatMissing} />
     ) : null,
 
   stopStruggling: (serviceData) =>

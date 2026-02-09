@@ -3,7 +3,7 @@ import React from 'react';
 import img from '../../../../../../public/assets/images/needofaiseo.png';
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
-import imgCorner from '../../../../../../public/assets/images/home/solutions.png';
+import imgCorner from '../../../../../../public/assets/images/authLinkBuilding.png';
 import Mask from '../../../../../../public/assets/images/home/Mask group.png';
 
 const NeedOfAISEO = ({ needOfService }: any) => {
