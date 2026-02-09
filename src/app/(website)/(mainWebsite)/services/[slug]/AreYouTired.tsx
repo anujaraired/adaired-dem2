@@ -16,7 +16,7 @@ const areYouTired = SERVICES_DATA.linkBuilding.areYouTired;
 
 const AreYouTired = () => {
     return (
-        <div className="bg-[#FAFAFA] py-16 md:py-24 lg:py-[10rem]">
+        <div className="bg-[#FAFAFA] py-[3rem] lg:py-[6rem]">
             <MaxWidthWrapper>
                 <Heading
                     breakIndex={8}
@@ -55,14 +55,27 @@ const AreYouTired = () => {
 
                         {/* IMAGE CARD */}
                         <div className="w-full lg:w-auto flex justify-center order-1 lg:order-2">
-                            <div className="bg-[#F3F3F3] rounded-[30px] px-6 py-6 sm:px-10 sm:py-8 lg:px-[5rem] lg:py-[3rem]">
-                                <div className="rounded-[20px] overflow-hidden">
+                            {/* <div className="bg-[#F3F3F3] rounded-[30px] px-4 py-3 sm:px-10 sm:py-8 lg:px-[3rem] lg:py-[1rem]">
+                                <div className={`relative ${index === 0 ? 'w-[540px] h-[450px]' : 'w-[619px] h-[517px]'
+                                    }`}>
                                     <Image
                                         src={images[index]}
-                                        width={550}
-                                        height={550}
+                                        fill
                                         alt="are-you-tired"
-                                        className="block w-full h-auto max-w-[550px]"
+                                        className="object-contain"
+                                    />
+                                </div>
+                            </div> */}
+
+                            <div className="bg-[#F3F3F3] rounded-[30px] px-4 py-3 sm:px-10 sm:py-8 lg:px-[3rem] lg:py-[3rem]">
+                                <div
+                                    className="relative flex items-center justify-center w-[280px] h-[220px] sm:w-[420px] sm:h-[350px] lg:w-[723px] lg:h-[554px]"
+                                >
+                                    <Image
+                                        src={images[index]}
+                                        fill
+                                        alt="are-you-tired"
+                                        className="object-contain"
                                     />
                                 </div>
                             </div>
