@@ -42,6 +42,20 @@ import adairedHelp_4 from '../../../../../../public/assets/adairedHelp/Group 100
 import adairedHelp_5 from '../../../../../../public/assets/adairedHelp/Group 1000006028.png';
 import adairedHelp_6 from '../../../../../../public/assets/adairedHelp/Group 1000006029.png';
 
+import adairedHelp_icon_1 from '../../../../../../public/assets/adairedHelp/help_icon_1.svg';
+import adairedHelp_icon_2 from '../../../../../../public/assets/adairedHelp/help_icon_2.svg';
+import adairedHelp_icon_3 from '../../../../../../public/assets/adairedHelp/help_icon_3.svg';
+import adairedHelp_icon_4 from '../../../../../../public/assets/adairedHelp/help_icon_4.svg';
+import adairedHelp_icon_5 from '../../../../../../public/assets/adairedHelp/help_icon_5.svg';
+import adairedHelp_icon_6 from '../../../../../../public/assets/adairedHelp/help_icon_6.svg';
+import adairedHelp_icon_7 from '../../../../../../public/assets/adairedHelp/help_icon_7.svg';
+
+import StrugglingImgSEO from '../../../../../../public/assets/images/Struggling.png';
+import StrugglingImgAISEO from '../../../../../../public/assets/aiseo/AISEORESULT.png';
+
+import adaairedHelpSEO from '../../../../../../public/assets/images/adaairedHelp.png';
+import adairedHelpAISEO from '../../../../../../public/assets/aiseo/adairedHelp.png';
+
 import NotSeeingResult from '../../../../../../public/assets/aiseo/NotSeeingResults.png';
 import Everydayyouwait from '../../../../../../public/assets/aiseo/Everydayyouwait.png';
 import keyStatsImg from '../../../../../../public/assets/images/SEO-keyword-ranking-software 1.png';
@@ -267,7 +281,7 @@ export const SERVICES_DATA = {
       heading: 'What’s Included in Our SEO Services',
       list: [
         {
-          icon: seo_tool_1,
+          icon: seo_tool_3,
           title: 'Keyword Research and Analysis',
           description: [
             `We start the process by conducting a comprehensive keyword research. It helps determine the search terms that users input in search engines when looking for related information, products, or services.`,
@@ -275,7 +289,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: seo_tool_2,
+          icon: seo_tool_1,
           title: 'On-Page SEO Optimization',
           description: [
             `Our focus on On-page SEO optimization is to improve search visibility. This involves optimization of page names, meta descriptions, headings, URLs, internal links, and content structure.`,
@@ -283,7 +297,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: seo_tool_3,
+          icon: seo_tool_2,
           title: 'Technical SEO Improvements',
           description: [
             `In Technical SEO, we address the backend elements of a website that affect search engine crawling and indexing. This involves site speed improvement, mobile friendliness, HTTPS configuration, XML sitemaps, and crawl errors remedies.`,
@@ -380,6 +394,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       heading: 'Why Partner With Adaired Digital Media to Hire SEO Services?',
       bgImage: '',
+      img: StrugglingImgSEO,
       description: [
         'Adaired, a leading SEO agency, puts your business at the forefront of technology with the help of proven SEO strategies. We help your business stay visible, no matter how the search changes.',
         `With the help of our data-driven insights, strategic approach, and commitment to performance, we help your business emerge as a premier seo company.`,
@@ -451,10 +466,12 @@ export const SERVICES_DATA = {
     },
     adairedHelp: {
       isVisible: true,
+      img: adaairedHelpSEO,
       heading:
         'List of comprehensive SEO Services that Drive Revenue and Traffic',
       list: [
         {
+          img: adairedHelp_icon_1,
           name: 'AI SEO',
           description: [
             `Our AI SEO services leverage artificial intelligence to enhance search engine optimization strategies with precision and efficiency. 
@@ -463,6 +480,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
+          img: adairedHelp_icon_2,
           name: 'Local SEO',
           description: [
             `Our Local SEO helps businesses connect with customers in their immediate geographic area. 
@@ -471,6 +489,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
+          img: adairedHelp_icon_3,
           name: 'National SEO',
           description: [
             `Our National SEO services are designed for businesses targeting audiences across an entire country. 
@@ -479,6 +498,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
+          img: adairedHelp_icon_4,
           name: 'E-commerce SEO',
           description: [
             `E-commerce SEO improves the visibility of online stores in search engines to drive qualified traffic and sales. It optimizes product pages, category structures, site speed, and user experience. 
@@ -570,6 +590,7 @@ export const SERVICES_DATA = {
       subtitle: '',
       title: 'Claim Your Free Audit Before Competitors Do!',
       description: `Spot problems, improve rankings, and get more traffic at no cost.`,
+      button: 'Get Your Free Website Audit!',
       bgImg: stop_struggle2,
     },
     getplan: {
@@ -781,7 +802,7 @@ export const SERVICES_DATA = {
           desctioption: `The rise of artificial intelligence-powered search tools and large language models has caused the searches to deliver more dynamic, multimodal responses without requiring users click through to websites. This has increased the need for businesses to evolve alongside these LLM and Google AI advancements in order to stay relevant and visible.`,
         },
         {
-          desctioption: ` To help you keep pace with the changing market trends, Adaired offers you fully managed generative engine optimization services to enhance your AI visibility in generative search, generate more traffic, and elevate your online presence. `,
+          desctioption: `To help you keep pace with the changing market trends, Adaired offers you fully managed generative engine optimization services to enhance your AI visibility in generative search, generate more traffic, and elevate your online presence. `,
         },
       ],
     },
@@ -844,7 +865,7 @@ export const SERVICES_DATA = {
         'Struggling to Rank in AI SEO Results? Here’s What You Need to Know',
       description: null,
       isBgColor: false,
-
+      img: StrugglingImgAISEO,
       list: [
         {
           img: aiseoresult,
@@ -913,10 +934,11 @@ export const SERVICES_DATA = {
     },
     adairedHelp: {
       isVisible: true,
+      img: adairedHelpAISEO,
       heading: 'How Can Adaired Help You With AI SEO Services?',
       list: [
         {
-          img: aiseoresult,
+          img: adairedHelp_icon_5,
           name: 'AI-Led SEO Strategies Tailored to Your Business Goals',
           description: [
             'Adaired designs AI-powered SEO strategies that work exactly in line with your business goals. By analyzing industry trends, competitor actions, and search results of users, ',
@@ -924,7 +946,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: aiseoresult_2,
+          img: adairedHelp_icon_6,
           name: 'Predictive Keyword Research That Stays Ahead of Trends',
           description: [
             'Our artificial intelligence-based keyword intelligence transcends normal research. Adaired identifies emerging search trends, high-intent keywords, and future-need keywords before they get competitive. ',
@@ -932,7 +954,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: aiseoresult_3,
+          img: adairedHelp_icon_7,
           name: 'Search Intent Optimization for Higher Conversions',
           description: [
             `Adaired uses AI to decode the user's intent in each search query. We optimize content and pages to align with the informational, navigational, and transactional intents. This enhances interaction, `,
@@ -940,7 +962,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: aiseoresult_4,
+          img: adairedHelp_icon_7,
           name: 'AI-Driven Content Strategy Focused on Topical Authority',
           description: [
             'Adaired does not focus only on content optimization but creates a topical authority with the help of AI. We detect content gaps, cluster opportunities, and semantic links throughout your niche.',
@@ -948,7 +970,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: aiseoresult_3,
+          img: adairedHelp_icon_7,
           name: 'Intelligent Technical SEO for Maximum Performance',
           description: [
             `Adaired is an AI-powered tool that reveals and prioritizes technical SEO problems that directly influence the rankings. From site speed and crawlability to indexing and Core Web Vitals, we fix what matters most first.`,
@@ -956,7 +978,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: aiseoresult_4,
+          img: adairedHelp_icon_7,
           name: 'Continuous AI Monitoring and Data-Driven Optimization',
           description: [
             'SEO is never static. Adaired relies on AI-based monitoring to monitor rankings, traffic modifications, and algorithm adjustments in real-time. ',
@@ -1449,7 +1471,7 @@ brand appears in AI summaries and citations.`,
         'Struggling to Rank in AI SEO Results? Here’s What You Need to Know',
       description: null,
       isBgColor: false,
-
+      img: '',
       list: [
         {
           img: aiseoresult,

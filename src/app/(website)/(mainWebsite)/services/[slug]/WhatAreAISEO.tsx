@@ -14,13 +14,14 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
 
   return (
     <div
-      className={`${whatareaiseo?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8]'}`}
+      className={`${whatareaiseo?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8] py-[3rem] lg:py-[6rem]'}`}
     >
       <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2">
         <div
           className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
         >
-          <Heading className='flex justify-center lg:justify-start'
+          <Heading
+            className="flex justify-center lg:justify-start"
             subTitle={''}
             title={whatareaiseo?.heading}
             isBgWhite={whatareaiseo?.isBgWhite && true}
