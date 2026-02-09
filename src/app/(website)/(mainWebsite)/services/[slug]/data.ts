@@ -54,18 +54,28 @@ import benefits_4 from '../../../../../../public/assets/images/benefits_4.png';
 import benefits_5 from '../../../../../../public/assets/images/benefits_5.png';
 import benefits_6 from '../../../../../../public/assets/images/benefits_6.png';
 
+import adairedDiff_1 from '../../../../../../public/assets/images/adairedDiff_1.png';
+import adairedDiff_2 from '../../../../../../public/assets/images/abc.png';
+import adairedDiff_3 from '../../../../../../public/assets/images/adairedDiff_3.png';
+import adairedDiff_4 from '../../../../../../public/assets/images/adairedDiff_4.png';
+import adairedDiff_5 from '../../../../../../public/assets/images/adairedDiff_5.png';
+import adairedDiff_6 from '../../../../../../public/assets/images/adairedDiff_6.png';
+
 import linkServices_1 from '../../../../../../public/assets/images/linkServices_1.png';
 import linkServices_3 from '../../../../../../public/assets/images/linkServices_3.png';
 import linkServices_5 from '../../../../../../public/assets/images/linkServices_5.png';
 
+import LinkBuilding from '../../../../../../public/assets/images/linkBuilding.png';
 
+import adairedHelpImg from '../../../../../../public/assets/aiseo/adairedHelp.png';
+import adairedHelpImgLink from '../../../../../../public/assets/images/benefits_main.png';
 
 import NotSeeingResult from '../../../../../../public/assets/aiseo/NotSeeingResults.png';
 import Everydayyouwait from '../../../../../../public/assets/aiseo/Everydayyouwait.png';
 import keyStatsImg from '../../../../../../public/assets/images/SEO-keyword-ranking-software 1.png';
 import keyStatsImg2 from '../../../../../../public/assets/keyStatsImg.png';
 import WhatIsAuthorityLinkBuilding from '../../../../../../public/assets/images/WhatIsAuthorityLinkBuilding.png';
-import LinkBuilding from '../../../../../../public/assets/images/linkBuilding.png';
+
 export type SectionKey =
   | 'banner'
   | 'keyStats'
@@ -474,6 +484,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       heading:
         'List of comprehensive SEO Services that Drive Revenue and Traffic',
+      mainImage: adairedHelpImg,
       list: [
         {
           name: 'AI SEO',
@@ -936,6 +947,7 @@ export const SERVICES_DATA = {
     adairedHelp: {
       isVisible: true,
       heading: 'How Can Adaired Help You With AI SEO Services?',
+      mainImage: adairedHelpImg,
       list: [
         {
           img: aiseoresult,
@@ -1556,6 +1568,7 @@ brand appears in AI summaries and citations.`,
     adairedHelp: {
       isVisible: true,
       heading: 'Benefits of Authority Link Building Services',
+      mainImage: adairedHelpImgLink,
       list: [
         {
           img: benefits_1,
@@ -1628,7 +1641,7 @@ brand appears in AI summaries and citations.`,
       description: [],
       list: [
         {
-          img: meke_derefent_2,
+          img: adairedDiff_1,
           name: 'Links That Build Real Authority',
           description: [
             `Adaired focuses on authoritative and niche-specific backlinks rather than pursuing high quantities. Every link is evaluated for domain strength, traffic quality, relevance, and editorial.`,
@@ -1636,7 +1649,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: meke_derefent,
+          img: adairedDiff_2,
           name: '100% White-Hat & Safe',
           description: [
             `Our web building policies align well with the Google Webmaster Policy. We do not use PBNs, link farms, or automation.`,
@@ -1644,7 +1657,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: meke_derefent_4,
+          img: adairedDiff_3,
           name: 'Niche-Relevant Placements',
           description: [
             `Unlike generic providers, Adaired builds links within your exact industry and content ecosystem. All the backlinks are contextually situated on the appropriate pages, which naturally align with your brand.`,
@@ -1652,7 +1665,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: meke_derefent_3,
+          img: adairedDiff_4,
           name: 'Clear Reporting, Real Results',
           description: [
             `We believe in complete transparency. Adaired offers reports that display live links, use of anchor texts, domain measures, traffic, and placement URLs.`,
@@ -1660,7 +1673,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: meke_derefent,
+          img: adairedDiff_5,
           name: 'Fully Customized Strategies',
           description: [
             `No two businesses are the same, and neither are our link-building campaigns.  Adaired develops unique strategies relevant to your interests, competition, industry, and existing backlink profile.`,
@@ -1668,7 +1681,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: meke_derefent_3,
+          img: adairedDiff_6,
           name: 'SEO-Led Link Building',
           description: [
             `We identify that backlinks are aligned with the intent of the keywords, site architecture, and the overall performance of the search engine optimization.`,
@@ -1749,7 +1762,7 @@ brand appears in AI summaries and citations.`,
           icon: missing_1,
           title: 'Lack Of Search Engine Trust',
           description: [
-            `Your company could have a well-designed website, useful content, and good products or services, yet you might still fail to rank in search results. The other missing is usually authority.`, 
+            `Your company could have a well-designed website, useful content, and good products or services, yet you might still fail to rank in search results. The other missing is usually authority.`,
             `Lack of high-quality backlinks from reputable websites means search engines are reluctant to rank your business higher than competitors, narrowing your visibility and growth prospects online.`,
           ],
         },
@@ -1765,7 +1778,7 @@ brand appears in AI summaries and citations.`,
           icon: missing_3,
           title: 'How Authority Link Building Solves the Problem',
           description: [
-            `Authority link building strengthens your website’s credibility by earning backlinks from reputable, relevant sources.`, 
+            `Authority link building strengthens your website’s credibility by earning backlinks from reputable, relevant sources.`,
             `These links act as trust signals for search engines, which enhance rankings and increase organic traffic. Over time, your business would become more visible, have qualified leads, and have a long-term online authority that is supportive of long term success.`,
           ],
         },
@@ -1787,7 +1800,7 @@ brand appears in AI summaries and citations.`,
 
     // NEW
     getplan: {
-      isVisible: true,
+      isVisible: false,
       isLabel: false,
       subtitle: '',
       bgImage: stop_struggle2,

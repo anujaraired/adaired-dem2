@@ -33,7 +33,7 @@ const AdairedHelp = ({ adairedHelp }: any) => {
               className={`relative h-[22rem] md:h-[28rem] lg:h-[35rem] rounded-[20px] transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
             >
               <Image
-                src={adairedHelpImg}
+                src={adairedHelp?.mainImage}
                 fill
                 className="rounded-[20px] object-cover"
                 alt="adairedHelp"
