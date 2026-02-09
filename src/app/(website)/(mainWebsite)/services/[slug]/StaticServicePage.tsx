@@ -21,6 +21,7 @@ import { useParams } from 'next/navigation';
 import NotFound from '@/app/not-found';
 import ReadyToStart from './ReadyToStart';
 import ImportantToBussiness from './ImportantToBussiness';
+import AreYouTired from './AreYouTired';
 export type ServiceSlug = keyof typeof SERVICES_DATA;
 
 const StaticServicePage = ({ serviceData }: any) => {
@@ -36,6 +37,9 @@ const StaticServicePage = ({ serviceData }: any) => {
       {serviceData.keyStats?.isVisible && (
         <KeyStats keyStats={serviceData.keyStats} />
       )}
+
+      <AreYouTired/>
+      
       {serviceData.whatareservice?.isVisible && (
         <WhatAreAISEO whatareaiseo={serviceData.whatareservice} />
       )}
