@@ -457,9 +457,10 @@ export const SERVICES_DATA = {
       bgImage: leadingToolsImg,
     },
     leadingToolsForPerformence: {
+      isGapTop:true,
       isVisible: true,
       heading:
-        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+        'Powered By Leading Tools For Maximum Performance and Efficiency',
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',

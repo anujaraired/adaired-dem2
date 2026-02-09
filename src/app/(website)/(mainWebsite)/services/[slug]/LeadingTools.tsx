@@ -29,9 +29,8 @@ const LeadingTools = ({ leadingTools }: any) => {
   return (
     <div
       ref={ref}
-      className={`${
-        leadingTools?.heading ==
-        `Powered By Leading Brands From All Around The World`
+      className={` ${
+        leadingTools?.isGapTop
           ? 'pb-[3rem] lg:pb-[6rem]'
           : 'py-[3rem] lg:py-[6rem]'
       } `}
