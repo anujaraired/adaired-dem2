@@ -15,7 +15,7 @@ const NotSeeingResults = ({ notSeeingResult }: any) => {
 
   return (
     <div
-      className="flex items-center bg-cover bg-center bg-no-repeat"
+      className="flex items-center bg-cover bg-center bg-no-repeat bg-blue-950"
       style={{
         backgroundImage: `url(${notSeeingResult?.bgImage.src})`,
       }}

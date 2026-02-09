@@ -1283,8 +1283,10 @@ brand appears in AI summaries and citations.`,
       ],
       button: 'Start Building Today',
     },
+
+    
     importantToBussiness: {
-      isVisible: false,
+      isVisible: true,
       heading: 'Why is SEO Important to Your Business?',
       data: [],
     },
@@ -1301,7 +1303,6 @@ brand appears in AI summaries and citations.`,
         },
       ],
     },
-
 
 
     // NEW
@@ -1410,7 +1411,7 @@ brand appears in AI summaries and citations.`,
       ],
     },
     serviceResult: {
-      isVisible: false,
+      isVisible: true,
       heading:
         'Struggling to Rank in AI SEO Results? Here’s What You Need to Know',
       description: null,
@@ -1452,21 +1453,21 @@ brand appears in AI summaries and citations.`,
       ],
     },
     notSeeingResult: {
-      isVisible: false,
+      isVisible: true,
       heading: 'Not Seeing Results? ',
       description: 'Let AI Reveal What’s Holding You Back.',
       buttonName: 'Get Your Free AI SEO Audit',
       bgImage: NotSeeingResultsBg,
     },
     industryLeaders: {
-      isVisible: false,
+      isVisible: true,
       heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
       description:
         'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
       bgImage: leadingTools,
     },
     leadingToolsForPerformence: {
-      isVisible: false,
+      isVisible: true,
       heading:
         'Powered By Leading Tools For Maximum Performance and Efficiency ',
       description:
@@ -1474,7 +1475,7 @@ brand appears in AI summaries and citations.`,
       bgImage: '',
     },
     leadingTools: {
-      isVisible: false,
+      isVisible: true,
       heading:
         'Powered By Leading Tools For Maximum Performance and Efficiency ',
       description:
@@ -1675,6 +1676,8 @@ brand appears in AI summaries and citations.`,
       description: ``,
       bgImg: stop_struggle,
     },
+
+
     getplan: {
       isVisible: true,
       isLabel: false,
