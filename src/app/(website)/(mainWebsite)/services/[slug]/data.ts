@@ -1333,7 +1333,7 @@ brand appears in AI summaries and citations.`,
     keyStats: {
       isVisible: true,
       code: '03',
-      heading: 'Key Stats Related to AI SEO',
+      heading: 'Key Stats on Authority Link Building ',
       isCard: false,
       img: keyStatsImg,
       list: [
@@ -1366,7 +1366,8 @@ brand appears in AI summaries and citations.`,
     whatareservice: {
       isVisible: true,
       img: WhatIsAuthorityLinkBuilding,
-      heading: 'What Is Authority Link Building?',
+      heading: 'What Is Authority ',
+      span: 'Link Building?',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [

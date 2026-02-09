@@ -219,8 +219,11 @@ const Heading = ({
                     <h2
                       className={`text-center capitalize lg:text-left ${isBgWhite ? 'text-[#ffffff]' : 'text-[#000000]'}`}
                     >
-                      {title} <br></br>
-                      {span}
+                      {title}{' '}
+                      <span className="pt-[0.25rem] text-center font-poppins text-[1.6rem] font-semibold leading-[2rem] text-[#FBD04F] md:text-[2.25rem] md:leading-[2.75rem] lg:text-left lg:text-[1.8rem] lg:leading-[2.5rem] xl:text-[2.188rem] xl:leading-[3.125rem] 1360:text-[2rem] 1360:leading-[2.6rem] 2xl:leading-[1.6] 3xl:text-[2.188rem]">
+                        {span}
+                      </span>{' '}
+                      <br></br>
                     </h2>
                   )}
                 </div>
