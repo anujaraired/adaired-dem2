@@ -146,10 +146,10 @@ export const SERVICES_DATA = {
           desctioption: `Search Engine Optimization services focus on improving a website’s visibility in search engine results pages (SERPs). It is aimed at ensuring that websites appear higher in relevant searches, which will enable people to find accurate and useful information online.`,
         },
         {
-          desctioption: ` SEO Services typically include a combination of keyword research, on-page optimization, technical optimization, content optimization, and link building. These services help search engines in understanding a website’s content, structure, and relevance to the search by a user. By aligning a website with search engine guidelines, SEO enhances user experience and search performance. `,
+          desctioption: `SEO Services typically include a combination of keyword research, on-page optimization, technical optimization, content optimization, and link building. These services help search engines in understanding a website’s content, structure, and relevance to the search by a user. By aligning a website with search engine guidelines, SEO enhances user experience and search performance. `,
         },
         {
-          desctioption: ` Unlike paid advertising, SEO targets organic traffic, meaning visitors arrive through unpaid search results. This approach supports long-term growth by establishing authority, trust, and consistency in the long run. SEO Services are used by businesses, firms, and individuals who would like to expand their online presence, enhance the usability of their websites, and reach the right target markets through search engines.  `,
+          desctioption: `Unlike paid advertising, SEO targets organic traffic, meaning visitors arrive through unpaid search results. This approach supports long-term growth by establishing authority, trust, and consistency in the long run. SEO Services are used by businesses, firms, and individuals who would like to expand their online presence, enhance the usability of their websites, and reach the right target markets through search engines.  `,
         },
       ],
     },

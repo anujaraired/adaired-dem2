@@ -29,7 +29,7 @@ const LeadingTools = ({ leadingTools }: any) => {
   return (
     <div
       ref={ref}
-      className="py-[3rem] lg:py-[4rem] xl:py-[6rem]"
+      className="pb-[3rem] pt-0 lg:pb-[4rem] xl:pb-[6rem] bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage: `url(${leadingTools?.bgImage.src})`,
       }}
