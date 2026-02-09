@@ -113,7 +113,7 @@ export type SectionKey =
   | 'readyToStart';
 
 export const SERVICES_DATA = {
-  'search-engine-optimization': {
+  'seo-company-india': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -733,7 +733,7 @@ export const SERVICES_DATA = {
       ],
     },
   },
-  'ai-search-engine-optimization': {
+  'ai-seo-company-india': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -1300,7 +1300,7 @@ brand appears in AI summaries and citations.`,
       ],
     },
   },
-  'link-building': {
+  'link-building-services-india': {
     sectionsOrder: [
       'banner',
       'keyStats',
