@@ -22,7 +22,10 @@ const BuildLinks = ({ buildlinks }: any) => {
         >
           <Heading className='flex justify-center lg:justify-start'
             subTitle={''}
+            breakIndex={5}
+            isH1={true}
             title={buildlinks?.heading}
+            span={buildlinks?.span}
             isBgWhite={buildlinks?.isBgWhite && true}
           />
           <div>
