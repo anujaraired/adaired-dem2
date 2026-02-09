@@ -27,7 +27,7 @@ const NeedOfAISEO = ({ needOfService }: any) => {
                   alt="About Image"
                   width={625}
                   height={470}
-                  className="my-[0rem] h-[14rem] w-[14rem] rounded-lg md:my-0 md:h-[28rem] md:w-[36.313rem] lg:my-[2rem] lg:h-[18rem] lg:w-[20rem] xl:h-[25.375rem] xl:w-[39.063rem] 1360:w-[25rem] 1400:w-[27rem] 1600:w-[32rem] 1680:h-[25.375rem] 1680:w-[34rem] 3xl:h-[25.375rem] 3xl:w-[39.063rem]"
+                  className="my-[0rem] h-[14rem] w-[14rem] m-[3rem] rounded-lg md:my-0 md:h-[28rem] md:w-[36.313rem] lg:my-[2rem] lg:h-[18rem] lg:w-[20rem] xl:h-[25.375rem] xl:w-[39.063rem] 1360:w-[25rem] 1400:w-[27rem] 1600:w-[32rem] 1680:h-[25.375rem] 1680:w-[34rem] 3xl:h-[25.375rem] 3xl:w-[39.063rem]"
                 />
               </div>
               {/* MASK – TOP RIGHT */}

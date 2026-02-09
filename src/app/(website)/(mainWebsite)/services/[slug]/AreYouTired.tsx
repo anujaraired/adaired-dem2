@@ -55,21 +55,9 @@ const AreYouTired = () => {
 
                         {/* IMAGE CARD */}
                         <div className="w-full lg:w-auto flex justify-center order-1 lg:order-2">
-                            {/* <div className="bg-[#F3F3F3] rounded-[30px] px-4 py-3 sm:px-10 sm:py-8 lg:px-[3rem] lg:py-[1rem]">
-                                <div className={`relative ${index === 0 ? 'w-[540px] h-[450px]' : 'w-[619px] h-[517px]'
-                                    }`}>
-                                    <Image
-                                        src={images[index]}
-                                        fill
-                                        alt="are-you-tired"
-                                        className="object-contain"
-                                    />
-                                </div>
-                            </div> */}
-
                             <div className="bg-[#F3F3F3] rounded-[30px] px-4 py-3 sm:px-10 sm:py-8 lg:px-[3rem] lg:py-[3rem]">
                                 <div
-                                    className="relative flex items-center justify-center w-[280px] h-[220px] sm:w-[420px] sm:h-[350px] lg:w-[723px] lg:h-[554px]"
+                                    className="relative flex items-center justify-center w-[280px] h-[220px] sm:w-[380px] sm:h-[310px] lg:w-[600px] lg:h-[435px]"
                                 >
                                     <Image
                                         src={images[index]}
