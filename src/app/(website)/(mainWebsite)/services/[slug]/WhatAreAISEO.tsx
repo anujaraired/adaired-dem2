@@ -20,7 +20,7 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
         <div
           className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
         >
-          <Heading
+          <Heading className='flex justify-center lg:justify-start'
             subTitle={''}
             title={whatareaiseo?.heading}
             isBgWhite={whatareaiseo?.isBgWhite && true}
@@ -47,6 +47,7 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
             />
           )}
         </div>
+
         <div
           ref={ref}
           className={`order-1 flex justify-center justify-items-center transition-all duration-1000 lg:order-2 lg:justify-end lg:justify-items-end ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
