@@ -612,7 +612,7 @@ export const SERVICES_DATA = {
       subtitle: '',
       title: 'Claim Your Free Audit Before Competitors Do!',
       description: `Spot problems, improve rankings, and get more traffic at no cost.`,
-      btnName: 'Get Your Free Website Audit!',
+      button: 'Get Your Free Website Audit!',
       bgImg: stop_struggle2,
     },
     getplan: {
@@ -1189,7 +1189,7 @@ export const SERVICES_DATA = {
       title:
         'Stop struggling with low traffic and poor visibility. Let Adaired’s AI-powered SEO audit uncover the gaps, optimize your site, and help your business outrank competitors.',
       description: ``,
-      btnName: 'Start Your AI SEO Journey Now',
+      button: 'Start Your AI SEO Journey Now',
       bgImg: stop_struggle,
     },
     getplan: {
@@ -1793,7 +1793,7 @@ brand appears in AI summaries and citations.`,
       subtitle: '',
       title:
         'Maximize Your Online Presence With The Best Link Building Services',
-      btnName: 'Get Started Now',
+      button: 'Get Started Now',
       description: ``,
       bgImg: stop_struggle,
     },
