@@ -108,12 +108,12 @@ const KeyStats = ({ keyStats }: any) => {
           </div>
         )}
         {keyStats?.code === '03' && (
-          <div className="relative grid grid-cols-1 gap-[5rem] lg:grid-cols-2">
+          <div className="relative grid grid-cols-1 gap-[6rem] lg:grid-cols-2">
             <div className="mt-7 rounded-[20px]">
               {keyStats?.list?.map((item: any, index: any) => (
                 <div
                   key={index}
-                  className="group flex cursor-pointer flex-col bg-[#FFF8ED] p-[2rem] transition-all duration-300 ease-in-out hover:border-r-[0.5rem] hover:border-[#FB9100] hover:bg-[#FB9100]/20"
+                  className="group flex cursor-pointer flex-col w-[770px] bg-[#FFF8ED] p-[2rem] transition-all duration-300 ease-in-out hover:border-r-[0.5rem] hover:border-[#FB9100] hover:bg-[#FB9100]/20"
                 >
                   <div className="flex items-center gap-8 lg:gap-16 lg:text-left">
                     <h2 className="transition-all duration-300 ease-in-out">
