@@ -35,12 +35,20 @@ import seo_tool_3 from '../../../../../../public/assets/icons/seotools/Group 100
 import seo_tool_4 from '../../../../../../public/assets/icons/seotools/Group 1000006001.svg';
 import seo_tool_5 from '../../../../../../public/assets/icons/seotools/Group 1000006002.svg';
 import seo_tool_6 from '../../../../../../public/assets/icons/seotools/Group 1000006003.svg';
+
 import adairedHelp_1 from '../../../../../../public/assets/adairedHelp/Group 1000006012.png';
 import adairedHelp_2 from '../../../../../../public/assets/adairedHelp/Group 1000006013.png';
 import adairedHelp_3 from '../../../../../../public/assets/adairedHelp/Group 1000006014.png';
 import adairedHelp_4 from '../../../../../../public/assets/adairedHelp/Group 1000006027.png';
 import adairedHelp_5 from '../../../../../../public/assets/adairedHelp/Group 1000006028.png';
 import adairedHelp_6 from '../../../../../../public/assets/adairedHelp/Group 1000006029.png';
+import adairedHelp_7 from '../../../../../../public/assets/adairedHelp/Group 1000006065.png';
+import adairedHelp_8 from '../../../../../../public/assets/adairedHelp/Group 1000006045.png';
+import adairedHelp_12 from '../../../../../../public/assets/adairedHelp/White-Hat.png';
+import adairedHelp_13 from '../../../../../../public/assets/adairedHelp/Transparent Reporting.png';
+import adairedHelp_14 from '../../../../../../public/assets/adairedHelp/Continuous Optimization.png';
+import adairedHelp_15 from '../../../../../../public/assets/adairedHelp/Complete SEO Expertise.png';
+import adairedHelp_16 from '../../../../../../public/assets/adairedHelp/Client-Centric.png';
 
 import adairedHelp_icon_1 from '../../../../../../public/assets/adairedHelp/help_icon_1.svg';
 import adairedHelp_icon_2 from '../../../../../../public/assets/adairedHelp/help_icon_2.svg';
@@ -70,16 +78,27 @@ import benefits_4 from '../../../../../../public/assets/images/benefits_4.png';
 import benefits_5 from '../../../../../../public/assets/images/benefits_5.png';
 import benefits_6 from '../../../../../../public/assets/images/benefits_6.png';
 
+import adairedDiff_1 from '../../../../../../public/assets/images/adairedDiff_1.png';
+import adairedDiff_2 from '../../../../../../public/assets/images/abc.png';
+import adairedDiff_3 from '../../../../../../public/assets/images/adairedDiff_3.png';
+import adairedDiff_4 from '../../../../../../public/assets/images/adairedDiff_4.png';
+import adairedDiff_5 from '../../../../../../public/assets/images/adairedDiff_5.png';
+import adairedDiff_6 from '../../../../../../public/assets/images/adairedDiff_6.png';
+
 import linkServices_1 from '../../../../../../public/assets/images/linkServices_1.png';
 import linkServices_3 from '../../../../../../public/assets/images/linkServices_3.png';
 import linkServices_5 from '../../../../../../public/assets/images/linkServices_5.png';
+
+import LinkBuilding from '../../../../../../public/assets/images/linkBuilding.png';
+import adairedHelpImg from '../../../../../../public/assets/aiseo/adairedHelp.png';
+import adairedHelpImgLink from '../../../../../../public/assets/images/benefits_main.png';
 
 import NotSeeingResult from '../../../../../../public/assets/aiseo/NotSeeingResults.png';
 import Everydayyouwait from '../../../../../../public/assets/aiseo/Everydayyouwait.png';
 import keyStatsImg from '../../../../../../public/assets/images/SEO-keyword-ranking-software 1.png';
 import keyStatsImg2 from '../../../../../../public/assets/keyStatsImg.png';
 import WhatIsAuthorityLinkBuilding from '../../../../../../public/assets/images/WhatIsAuthorityLinkBuilding.png';
-import LinkBuilding from '../../../../../../public/assets/images/linkBuilding.png';
+
 export type SectionKey =
   | 'banner'
   | 'keyStats'
@@ -105,7 +124,7 @@ export type SectionKey =
   | 'readyToStart';
 
 export const SERVICES_DATA = {
-  'search-engine-optimization': {
+  'seo-company-india': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -491,6 +510,7 @@ export const SERVICES_DATA = {
       img: adaairedHelpSEO,
       heading:
         'List of comprehensive SEO Services that Drive Revenue and Traffic',
+      mainImage: adairedHelpImg,
       list: [
         {
           img: adairedHelp_icon_1,
@@ -537,7 +557,7 @@ export const SERVICES_DATA = {
       ],
       list: [
         {
-          img: meke_derefent,
+          img: adairedHelp_4,
           name: 'Customized SEO Strategies',
           description: [
             `Adaired develops customized search engine optimization plans according to your business objectives, target market, and competition in the industry. We do not apply templates and standardized checklists.`,
@@ -545,7 +565,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: meke_derefent_2,
+          img: adairedHelp_7,
           name: 'Data-Driven Decision Making',
           description: [
             `Our SEO services are guided by real data, not assumptions. We make use of advanced analytics, performance measurement, and search intelligence to optimize campaigns on a continuous basis.`,
@@ -553,7 +573,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: meke_derefent_3,
+          img: adairedHelp_8,
           name: 'Focus on Revenue, Not Just Rankings',
           description: [
             `Higher rankings alone don’t grow businesses. Adaired focuses on the SEO strategies, which will provide qualified traffic, leads, and sales.`,
@@ -561,7 +581,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: meke_derefent_4,
+          img: adairedHelp_15,
           name: 'Complete SEO Expertise Under One Roof',
           description: [
             `From technical SEO and on-page optimization to content creation, link building, and local optimization, Adaired covers every SEO pillar.`,
@@ -569,7 +589,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: meke_derefent,
+          img: adairedHelp_13,
           name: 'Transparent Reporting & Communication',
           description: [
             `We believe in full transparency. Adaired offers effective, understandable SEO reports with the focus on progress, results, and future actions.`,
@@ -577,7 +597,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: meke_derefent,
+          img: adairedHelp_12,
           name: 'White-Hat, Google-Compliant SEO',
           description: [
             `Adaired follows ethical, white-hat SEO practices aligned with Google’s guidelines. We avoid risky shortcuts and spam methods that lead to penalties.`,
@@ -585,7 +605,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: meke_derefent,
+          img: adairedHelp_14,
           name: 'Continuous Optimization & Algorithm Readiness',
           description: [
             `Search algorithms are constantly evolving, and so are our strategies.  Adaired constantly monitors updates, user actions, and performance patterns to optimize the campaigns.`,
@@ -593,7 +613,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: meke_derefent,
+          img: adairedHelp_16,
           name: 'Client-Centric Partnership Approach',
           description: [
             `We do not provide just SEO; we build partnerships. Adaired works closely with its clients to understand challenges, create strategies, and adapt with the business.`,
@@ -725,7 +745,7 @@ export const SERVICES_DATA = {
       ],
     },
   },
-  'ai-search-engine-optimization': {
+  'ai-seo-company-india': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -958,6 +978,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       img: adairedHelpAISEO,
       heading: 'How Can Adaired Help You With AI SEO Services?',
+      mainImage: adairedHelpImg,
       list: [
         {
           img: adairedHelp_icon_5,
@@ -1015,7 +1036,7 @@ export const SERVICES_DATA = {
       description: [],
       list: [
         {
-          img: adairedHelp_1,
+          img: adairedHelp_4,
           name: 'AI-First SEO Built For Modern Search',
           description: [
             `Adaired pursues an AI-first strategy of SEO, which is how today's search engines operate. The search trends, user intent, and the ranking changes are analysed and processed by our AI tools in real time. `,
@@ -1023,7 +1044,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_2,
+          img: adairedHelp_5,
           name: 'SEO Focused on Real Business Growth',
           description: [
             'We don’t focus only on rankings. SEO at Adaired is meant to deliver actual performance, increased traffic, improved leads, and increased conversions. ',
@@ -1039,7 +1060,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_4,
+          img: adairedHelp_2,
           name: 'Content That Works for AI and People',
           description: [
             'We create our content in a way that meets the demands of search engines and actual users. AI helps us to interpret search intent and frame content properly, whereas our professionals make sure that it remains straightforward, practical, and comprehensible. ',
@@ -1047,7 +1068,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_5,
+          img: adairedHelp_1,
           name: 'Proactive SEO That Stays Ahead of Changes',
           description: [
             `The search engines change constantly, and Adaired stays ahead of them. Our AI tracks performance changes, updates, and competitor activities in real time.`,
@@ -1292,7 +1313,7 @@ brand appears in AI summaries and citations.`,
       ],
     },
   },
-  'link-building': {
+  'link-building-services-india': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -1325,7 +1346,7 @@ brand appears in AI summaries and citations.`,
     keyStats: {
       isVisible: true,
       code: '03',
-      heading: 'Key Stats Related to AI SEO',
+      heading: 'Key Stats on Authority Link Building ',
       isCard: false,
       img: keyStatsImg,
       list: [
@@ -1358,7 +1379,8 @@ brand appears in AI summaries and citations.`,
     whatareservice: {
       isVisible: true,
       img: WhatIsAuthorityLinkBuilding,
-      heading: 'What Is Authority Link Building?',
+      heading: 'What Is Authority ',
+      span: 'Link Building?',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [
@@ -1573,6 +1595,7 @@ brand appears in AI summaries and citations.`,
     adairedHelp: {
       isVisible: true,
       heading: 'Benefits of Authority Link Building Services',
+      img: adairedHelpImgLink,
       list: [
         {
           img: benefits_1,
@@ -1629,7 +1652,8 @@ brand appears in AI summaries and citations.`,
     buildlinks: {
       isVisible: true,
       img: LinkBuilding,
-      heading: 'Build Links That Work for Your Business in 2026 and Beyond',
+      heading: 'Build Links That Work for Your Business in',
+      span:"2026 and Beyond",
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [],
@@ -1643,7 +1667,7 @@ brand appears in AI summaries and citations.`,
       description: [],
       list: [
         {
-          img: meke_derefent_2,
+          img: adairedDiff_1,
           name: 'Links That Build Real Authority',
           description: [
             `Adaired focuses on authoritative and niche-specific backlinks rather than pursuing high quantities. Every link is evaluated for domain strength, traffic quality, relevance, and editorial.`,
@@ -1651,7 +1675,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: meke_derefent,
+          img: adairedDiff_2,
           name: '100% White-Hat & Safe',
           description: [
             `Our web building policies align well with the Google Webmaster Policy. We do not use PBNs, link farms, or automation.`,
@@ -1659,7 +1683,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: meke_derefent_4,
+          img: adairedDiff_3,
           name: 'Niche-Relevant Placements',
           description: [
             `Unlike generic providers, Adaired builds links within your exact industry and content ecosystem. All the backlinks are contextually situated on the appropriate pages, which naturally align with your brand.`,
@@ -1667,7 +1691,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: meke_derefent_3,
+          img: adairedDiff_4,
           name: 'Clear Reporting, Real Results',
           description: [
             `We believe in complete transparency. Adaired offers reports that display live links, use of anchor texts, domain measures, traffic, and placement URLs.`,
@@ -1675,7 +1699,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: meke_derefent,
+          img: adairedDiff_5,
           name: 'Fully Customized Strategies',
           description: [
             `No two businesses are the same, and neither are our link-building campaigns.  Adaired develops unique strategies relevant to your interests, competition, industry, and existing backlink profile.`,
@@ -1683,7 +1707,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: meke_derefent_3,
+          img: adairedDiff_6,
           name: 'SEO-Led Link Building',
           description: [
             `We identify that backlinks are aligned with the intent of the keywords, site architecture, and the overall performance of the search engine optimization.`,
@@ -1800,7 +1824,7 @@ brand appears in AI summaries and citations.`,
 
     // NEW
     getplan: {
-      isVisible: true,
+      isVisible: false,
       isLabel: false,
       subtitle: '',
       bgImage: stop_struggle2,

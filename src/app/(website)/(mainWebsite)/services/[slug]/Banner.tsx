@@ -63,9 +63,7 @@ const Banner = ({ banner }: any) => {
                     <h1 className="text-center capitalize text-[#FB9108]">
                       {banner?.heading}
                     </h1>
-                    <h1 className="text-center capitalize">
-                      {banner?.label}
-                    </h1>
+                    <h1 className="text-center capitalize">{banner?.label}</h1>
                   </div>
                 </div>
                 <div className={`$ 'pt-[1rem]'}`}>

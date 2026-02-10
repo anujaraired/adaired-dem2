@@ -151,7 +151,10 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
       <LeadingTools leadingTools={serviceData.leadingToolsForPerformence} />
     ) : null,
 
-  getplan: (serviceData) => <DominateAI getplan={serviceData.getplan} />,
+  getplan: (serviceData) =>
+    serviceData.getplan?.isVisible ? (
+      <DominateAI getplan={serviceData.getplan} />
+    ) : null,
 
   faqData: (serviceData) =>
     serviceData.faqData?.isVisible ? <FAQ faqs={serviceData.faqData} /> : null,
