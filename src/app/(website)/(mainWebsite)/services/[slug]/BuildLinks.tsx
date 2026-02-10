@@ -26,6 +26,7 @@ const BuildLinks = ({ buildlinks }: any) => {
             isH1={true}
             title={buildlinks?.heading}
             span={buildlinks?.span}
+            description={buildlinks?.description}
             isBgWhite={buildlinks?.isBgWhite && true}
           />
           <div>
