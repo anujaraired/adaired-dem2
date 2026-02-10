@@ -86,7 +86,9 @@ import adairedDiff_5 from '../../../../../../public/assets/images/adairedDiff_5.
 import adairedDiff_6 from '../../../../../../public/assets/images/adairedDiff_6.png';
 
 import linkServices_1 from '../../../../../../public/assets/images/linkServices_1.png';
+import linkServices_2 from '../../../../../../public/assets/images/linkServices_2.png';
 import linkServices_3 from '../../../../../../public/assets/images/linkServices_3.png';
+import linkServices_4 from '../../../../../../public/assets/images/linkServices_4.png';
 import linkServices_5 from '../../../../../../public/assets/images/linkServices_5.png';
 
 import LinkBuilding from '../../../../../../public/assets/images/linkBuilding.png';
@@ -1483,7 +1485,7 @@ brand appears in AI summaries and citations.`,
         },
 
         {
-          icon: linkServices_1,
+          icon: linkServices_2,
           title: 'Guest Posts',
           description: `We ensure quality placements on niche-specific blogs and publications with our guest posting. All the posts are value-based and have natural backlinks that enhance your domain authority. 
             Our attention is on the authentic outreach and editorial quality, which assist your brand in becoming visible, getting referral traffic, and achieving a sustainable change in SEO.`,
@@ -1500,7 +1502,7 @@ brand appears in AI summaries and citations.`,
         },
 
         {
-          icon: linkServices_3,
+          icon: linkServices_4,
           title: 'Niche Edits',
           description: `Our niche edit business establishes contextual backlinks on existing, old content on related sites. These links are natural and authoritative, and they convey good SEO value to your site. 
             Niche edits achieve better ranking and long-term link equity because they can be used to promote the existing page with its existing traffic and trust.`,

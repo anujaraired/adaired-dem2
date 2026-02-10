@@ -5,6 +5,7 @@ import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Heading from '@/app/(website)/common/Heading';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import Image from 'next/image';
+import FutureProof from './FutureProof';
 
 const AISEOSolutions = ({ whatIncluded }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
@@ -50,6 +51,7 @@ const AISEOSolutions = ({ whatIncluded }: any) => {
                 </a>
               </div>
             ))}
+            <FutureProof />
           </div>
         </div>
       </MaxWidthWrapper>

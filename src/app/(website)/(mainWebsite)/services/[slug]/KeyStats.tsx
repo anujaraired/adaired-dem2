@@ -108,14 +108,22 @@ const KeyStats = ({ keyStats }: any) => {
           </div>
         )}
         {keyStats?.code === '03' && (
-          <div className="relative grid grid-cols-1 gap-[6rem] lg:grid-cols-2">
+          <div className="relative grid grid-cols-1 gap-8 lg:gap-[6rem] lg:grid-cols-2">
             <div className="mt-7 rounded-[20px]">
               {keyStats?.list?.map((item: any, index: any) => (
                 <div
                   key={index}
-                  className="group flex cursor-pointer flex-col w-[49rem] bg-[#FFF8ED] p-[2rem] transition-all duration-300 ease-in-out hover:border-r-[0.5rem] hover:border-[#FB9100] hover:bg-[#FB9100]/20"
+
+                  className="group flex cursor-pointer flex-col lg:w-[49rem] bg-[#FFF8ED] p-4 lg:p-[2rem] transition-all duration-300 ease-in-out hover:border-r-[0.5rem] lg:hover:border-[#FB9100] lg:hover:bg-[#FB9100]/20"
                 >
-                  <div className="flex items-center gap-8 lg:gap-16 lg:text-left">
+                  {/* <div className="flex items-center gap-8 lg:gap-16 lg:text-left"> */}
+                  <div
+                    className={`flex items-start gap-8 lg:items-center lg:gap-16 lg:text-left transition-all duration-700 ease-in-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                    style={{
+                      transitionDelay: `${index * 280}ms`, // 👈 stagger here
+                    }}
+                  >
+
                     <h2 className="transition-all duration-300 ease-in-out">
                       {`0${index + 1}`}
                     </h2>
