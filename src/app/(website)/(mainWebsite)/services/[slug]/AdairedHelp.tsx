@@ -33,7 +33,7 @@ const AdairedHelp = ({ adairedHelp }: any) => {
               className={`relative h-[22rem] md:h-[28rem] lg:h-[35rem] rounded-[20px] transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
             >
               <Image
-                src={adairedHelp?.mainImage}
+                src={adairedHelp?.img}
                 fill
                 className="rounded-[20px] object-cover"
                 alt="adairedHelp"
@@ -52,7 +52,7 @@ const AdairedHelp = ({ adairedHelp }: any) => {
                   transitionDelay: `${index * 280}ms`, // 👈 stagger here
                 }}
               >
-                <Image src={item.img} width={32} height={32} alt="icon" />
+                <Image src={item?.img} width={32} height={32} alt="icon" />
 
                 <p className="pt-[1.5rem] font-bold">{item?.name}</p>
 
