@@ -12,12 +12,12 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import { tree } from 'next/dist/build/templates/app-page';
 
 const About = () => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const { subTitle, title, points, description, cursive } = AboutSectionData;
 
   return (
     <section className="">
-      <MaxWidthWrapper className="pb-[8rem] pt-[3rem] lg:py-[4rem] xl:py-[6rem]">
+      <MaxWidthWrapper className="pb-[8rem] pt-[3rem] lg:pb-[4rem]">
         <div
           ref={ref}
           className="flex flex-col-reverse gap-[3rem] lg:flex-row lg:justify-between lg:gap-[3rem] 1400:gap-[1rem] 1680:gap-[2rem] 3xl:gap-[5.25rem]"

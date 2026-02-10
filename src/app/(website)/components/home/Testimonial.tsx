@@ -18,12 +18,12 @@ const Testimonial = () => {
   const slides = [...testimonials, ...testimonials.slice(0, VISIBLE_CARDS)];
   const [index, setIndex] = useState(0);
   const [enableTransition, setEnableTransition] = useState(true);
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.25);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
   return (
     <section
       ref={ref}
-      className="relative bg-gradient-to-b from-[#05121E] to-[#1A5A96] bg-cover bg-no-repeat py-[3rem] lg:py-[4rem] xl:py-[6rem]"
+      className="relative bg-gradient-to-b from-[#05121E] to-[#1A5A96] bg-cover bg-no-repeat py-[3rem] lg:py-[4rem]"
     >
       <div className="relative z-20">
         <div

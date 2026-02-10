@@ -10,7 +10,7 @@ import { TbPointFilled } from 'react-icons/tb';
 import SaveAndCancel from '../../common/SaveAndCancel';
 
 const FAQ = ({ faqs }: any) => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.25);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
   const [openIndex, setOpenIndex] = useState<number | null>(0);
   const [visibleCount, setVisibleCount] = useState(5);
@@ -29,10 +29,7 @@ const FAQ = ({ faqs }: any) => {
   };
 
   return (
-    <div
-      ref={ref}
-      className="overflow-visible py-[3rem] lg:py-[4rem] xl:py-[6rem]"
-    >
+    <div ref={ref} className="overflow-visible py-[3rem] lg:py-[4rem]">
       <MaxWidthWrapper className="space-y-[3rem] overflow-visible">
         {/* Heading */}
         <div
@@ -46,7 +43,7 @@ const FAQ = ({ faqs }: any) => {
             subTitle={subTitle}
             title={faqs?.title}
             span=""
-            description=""
+            description={faqs?.description}
             isBgWhite
             isInCenter
             className="w-full lg:w-[90%]"

@@ -132,7 +132,7 @@ export const routes: {
 
         {
           name: 'Search Engine Optimization (SEO)',
-          href: '/services/search-engine-optimization',
+          href: '/services/seo-company-india',
           subItems: [
             {
               name: 'Technical SEO Analysis',

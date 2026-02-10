@@ -14,7 +14,7 @@ import SaveAndCancel from '../../common/SaveAndCancel';
 import GetQuoteModal from '../popup/GetQuoteModal';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 const Solutions = () => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
   const [open, setOpen] = useState(false);
   const { subTitle, title, points, description, cursive } =
@@ -31,7 +31,7 @@ const Solutions = () => {
 
   return (
     <section className="">
-      <MaxWidthWrapper className="pb-[8rem] pt-[3rem] lg:py-[4rem] xl:py-[6rem]">
+      <MaxWidthWrapper className="pb-[8rem] pt-[3rem] lg:py-[4rem]">
         <div
           ref={ref}
           className="flex flex-col-reverse lg:flex-row lg:justify-between lg:gap-[3rem] xl:gap-[5rem]"

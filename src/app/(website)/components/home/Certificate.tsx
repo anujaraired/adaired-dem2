@@ -10,7 +10,7 @@
   import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
   const Certificate = () => {
-    const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+    const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
     const certificates = [
       certificate_1,
       certificate_2,
@@ -26,7 +26,7 @@
     return (
       <section
         ref={ref}
-        className={'bg-[#F9F9F9] py-[3rem] lg:py-[4rem] xl:py-[6rem]'}
+        className={'bg-[#F9F9F9] py-[3rem] lg:pt-[4rem] lg:pb-[3rem]'}
       >
         {/* viewport */}
 

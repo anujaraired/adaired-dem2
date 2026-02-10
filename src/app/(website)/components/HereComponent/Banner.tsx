@@ -23,7 +23,7 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const Banner = () => {
   const router = useRouter();
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const users = [user, user_2, user_3, user_4, user_5];
   const griphData = [
     {
@@ -117,7 +117,7 @@ const Banner = () => {
         priority
         className="pointer-events-none object-fill"
       />
-      <MaxWidthWrapper className="relative z-10 block items-center justify-between py-[3rem] lg:flex lg:py-[6rem]">
+      <MaxWidthWrapper className="relative z-10 block items-center justify-between py-[3rem] lg:flex lg:py-[4rem]">
         <div
           className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[42%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
         >
