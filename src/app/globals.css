@@ -98,7 +98,7 @@
 
   p {
     @apply text-justify font-montserrat font-normal text-[#000000];
-    font-size: clamp(0.875rem, 1.1vw, 1.125rem);
+    font-size: clamp(1.875rem, 1.125vw, 2.125rem);
     line-height: clamp(1.125rem, 1.3vw, 3.5rem);
   }
 
