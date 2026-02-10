@@ -18,8 +18,32 @@ const ReadyToStart = ({ handleClick }: any) => {
       <section ref={ref} className="relative z-20">
         <MaxWidthWrapper>
           <div
-            className={`rounded-3xl bg-[#FB9100] py-[3rem] transition-all duration-1000 lg:py-[6rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+            className={`relative rounded-3xl bg-[#FB9100] py-[3rem] transition-all duration-1000 lg:py-[6rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
           >
+            {/* <img
+              src="/assets/aiseo/ReadyToStart1.png"
+              alt=""
+              className="absolute left-0 top-0 w-[176px] md:w-[246px] lg:w-[576px] lg:h-[374px]"
+            />
+
+            <img
+              src="/assets/aiseo/ReadyToStart2.png"
+              alt=""
+              className="absolute bottom-0 right-0 w-[176px] md:w-[246px] lg:w-[576px] lg:h-[374px]"
+            /> */}
+
+            <img
+              src="/assets/aiseo/ReadyToStart1.png"
+              alt=""
+              className="absolute left-0 top-0 w-[150px] h-[91px] sm:w-[186px] sm:h-[112px] md:w-[246px] md:h-[143px] lg:w-[576px] lg:h-[334px]"
+            />
+
+            <img
+              src="/assets/aiseo/ReadyToStart2.png"
+              alt=""
+              className="absolute bottom-0 right-0 w-[150px] h-[91px] sm:w-[186px] sm:h-[112px] md:w-[246px] md:h-[143px] lg:w-[576px] lg:h-[334px]"
+            />
+
             <Heading
               breakIndex={5}
               isH1={true}
