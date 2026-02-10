@@ -113,7 +113,7 @@ const KeyStats = ({ keyStats }: any) => {
               {keyStats?.list?.map((item: any, index: any) => (
                 <div
                   key={index}
-                  className="group flex cursor-pointer flex-col w-[770px] bg-[#FFF8ED] p-[2rem] transition-all duration-300 ease-in-out hover:border-r-[0.5rem] hover:border-[#FB9100] hover:bg-[#FB9100]/20"
+                  className="group flex cursor-pointer flex-col w-[49rem] bg-[#FFF8ED] p-[2rem] transition-all duration-300 ease-in-out hover:border-r-[0.5rem] hover:border-[#FB9100] hover:bg-[#FB9100]/20"
                 >
                   <div className="flex items-center gap-8 lg:gap-16 lg:text-left">
                     <h2 className="transition-all duration-300 ease-in-out">
@@ -128,12 +128,12 @@ const KeyStats = ({ keyStats }: any) => {
               ))}
             </div>
 
-            <div className="relative rounded-[20px] bg-[#FFF8ED]">
+            <div className="group relative rounded-[20px] bg-[#FFF8ED]">
               <Image
                 src={keyStats?.img}
                 alt="img"
                 fill
-                className="object-contain"
+                className="object-contain transition-transform duration-300 ease-out group-hover:scale-110"
               />
 
               {keyStats?.code === '02' && (
