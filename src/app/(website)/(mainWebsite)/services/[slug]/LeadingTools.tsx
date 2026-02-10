@@ -29,7 +29,7 @@ const LeadingTools = ({ leadingTools }: any) => {
   return (
     <div
       ref={ref}
-      className={` ${
+      className={`bg-cover ${
         leadingTools?.isGapTop
           ? 'pb-[3rem] lg:pb-[6rem]'
           : 'py-[3rem] lg:py-[6rem]'
