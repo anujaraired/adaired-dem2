@@ -108,16 +108,16 @@ const Banner = () => {
   return (
     <div
       ref={ref}
-      className="animate-pulse relative h-[100vh] w-full pt-[10vh] md:h-[115vh] lg:h-fit"
+      className="animate-pulse relative h-[114vh] w-full pt-[10vh] md:h-[140vh] lg:h-[100vh] 1366:h-[135vh] 1400:h-[115vh] 1470:h-[100vh] 1600:h-[118vh] 1680:h-[100vh] 1710:h-[95vh] 3xl:h-[100vh]"
     >
       <Image
         src={hero_banner}
         fill
         alt="hero bg"
         priority
-        className="pointer-events-none object-fill"
+        className="pointer-events-none object-cover"
       />
-      <MaxWidthWrapper className="relative z-10 block items-center justify-between py-[3rem] lg:flex lg:py-[6rem]">
+      <MaxWidthWrapper className="relative z-10 block justify-between pt-[3rem] lg:flex lg:pb-[6rem] lg:pt-[5rem]">
         <div
           className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[42%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
         >
@@ -223,10 +223,10 @@ const Banner = () => {
           />
         </div>
         <div
-          className={`relative mt-[5rem] w-[100%] pt-[20vh] transition-all delay-200 duration-1000 md:pt-[50vh] lg:mt-0 lg:w-[50%] lg:pt-0 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-16 opacity-0'}`}
+          className={`relative mt-[5rem] w-[100%] pt-[20vh] transition-all delay-200 duration-1000 md:pt-[50vh] lg:mt-0 lg:w-[50%] lg:pt-0 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-16 opacity-0'} `}
         >
-          <div className="my-auto h-full space-y-4">
-            <div className="flex w-[100%] justify-center">
+          <div className="space-y-4">
+            <div className="absolute bottom-[10%] mt-auto flex w-[100%] justify-center">
               <div className="relative flex justify-end">
                 <Image
                   src={banner_img_1}
@@ -282,7 +282,7 @@ const Banner = () => {
               width={302}
               height={186}
               alt=""
-              className={`absolute bottom-[-15%] left-[0rem] h-[6rem] w-[8rem] transition-opacity transition-transform duration-700 ease-in-out md:left-[0rem] md:h-[10rem] md:w-[14rem] xl:h-[11.625rem] xl:w-[18.875rem] 1366:h-[8rem] 1366:w-[14rem] 1400:h-[9rem] 1400:w-[16rem] 3xl:h-[11.625rem] 3xl:w-[18.875rem] ${
+              className={`absolute bottom-0 left-[0rem] h-[6rem] w-[8rem] transition-opacity transition-transform duration-700 ease-in-out md:bottom-[-1rem] md:left-[0rem] md:h-[10rem] md:w-[14rem] lg:bottom-0 xl:bottom-[0rem] xl:h-[11.625rem] xl:w-[18.875rem] 1366:h-[8rem] 1366:w-[14rem] 1400:h-[9rem] 1400:w-[16rem] 3xl:h-[11.625rem] 3xl:w-[18.875rem] ${
                 active === 'img3'
                   ? 'z-30 translate-x-[100%] translate-y-[-50%] scale-105 opacity-100 backdrop-blur-md md:translate-x-[105%] md:translate-y-[-80%] lg:translate-x-[50%] lg:translate-y-[-80%] xl:translate-x-[80%] xl:translate-y-[-110%] 1366:translate-y-[-150%] 1400:translate-x-[70%] 1400:translate-y-[-130%] 1600:translate-x-[80%] 1680:translate-x-[90%] 3xl:translate-x-[85%] 3xl:translate-y-[-120%]'
                   : active
@@ -295,9 +295,9 @@ const Banner = () => {
               width={388}
               height={244}
               alt=""
-              className={`absolute right-0 top-[-20%] h-[6.875rem] w-[10.563rem] transition-opacity transition-transform duration-700 ease-in-out md:h-[13rem] md:w-[20rem] lg:h-[10.25rem] lg:w-[15.25rem] xl:h-[15.25rem] xl:w-[24.25rem] 1366:h-[10rem] 1366:w-[18rem] 1400:h-[12rem] 1400:w-[20rem] 3xl:h-[15.25rem] 3xl:w-[24.25rem] ${
+              className={`absolute right-0 top-[-4rem] h-[6.875rem] w-[10.563rem] transition-opacity transition-transform duration-700 ease-in-out md:top-[2rem] md:h-[13rem] md:w-[20rem] lg:top-[30%] lg:h-[10.25rem] lg:w-[15.25rem] xl:top-[0rem] xl:h-[15.25rem] xl:w-[24.25rem] 1366:top-[8rem] 1366:h-[10rem] 1366:w-[18rem] 1400:top-[5rem] 1400:h-[12rem] 1400:w-[20rem] 1680:top-[1.5rem] 3xl:h-[15.25rem] 3xl:w-[24.25rem] ${
                 active === 'img2'
-                  ? 'z-30 translate-x-[-50%] translate-y-[50%] scale-105 bg-white/80 opacity-100 backdrop-blur-md md:translate-x-[-60%] md:translate-y-[75%] lg:translate-x-[-45%] lg:translate-y-[80%] xl:translate-x-[-50%] xl:translate-y-[100%] 1400:translate-x-[-40%] 1470:translate-x-[-45%] 1600:translate-x-[-50%] 1680:translate-x-[-60%] 1680:translate-y-[100%] 3xl:translate-x-[-49%] 3xl:translate-y-[90%]'
+                  ? 'z-30 translate-x-[-50%] translate-y-[50%] scale-105 bg-white/80 opacity-100 backdrop-blur-md md:translate-x-[-60%] md:translate-y-[75%] lg:translate-x-[-45%] lg:translate-y-[80%] xl:translate-x-[-50%] xl:translate-y-[100%] 1400:translate-x-[-40%] 1600:translate-x-[-50%] 1680:translate-x-[-60%] 1680:translate-y-[110%] 3xl:translate-x-[-49%] 3xl:translate-y-[90%]'
                   : active
                     ? 'z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
                     : 'z-10 translate-x-0 translate-y-0 scale-100 opacity-100'
