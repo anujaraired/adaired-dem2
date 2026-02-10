@@ -33,7 +33,7 @@ const Stopstruggling = ({ stopStruggling }: any) => {
             isBgWhite={true}
             isIcon={true}
             handleClick={() => setOpen(!open)}
-            className="mx-auto mt-[2rem] w-[23rem]"
+            className="mx-auto mt-[2rem] lg:w-[23rem] w-[19rem]"
           />
         </div>
       </MaxWidthWrapper>
