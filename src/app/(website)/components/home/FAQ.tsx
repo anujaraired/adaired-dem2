@@ -114,7 +114,7 @@ const FAQ = ({ faqs }: any) => {
             <div className="flex justify-center">
               <SaveAndCancel
                 name={
-                  faqs?.list?.length > visibleCount ? 'Seen More' : 'See Less'
+                  faqs?.list?.length > visibleCount ? 'See More' : 'See Less'
                 }
                 isBgWhite={false}
                 isIcon
