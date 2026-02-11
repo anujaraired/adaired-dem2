@@ -210,7 +210,7 @@ const WebFooter = () => {
               <h3 className="font relative text-md font-semibold tracking-wide text-white after:absolute after:bottom-[-5px] after:left-0 after:h-0.5 after:w-16 after:bg-[#FB9100] after:content-[''] lg:text-md">
                 Subscribe
               </h3>
-              <p className="font mt-6 text-xs text-white">
+              <p className="mt-6 text-left text-white">
                 Share your email address to subscribe to Adaired&apos;s
                 newsletter.
               </p>
