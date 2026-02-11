@@ -10,7 +10,7 @@ const AdairedHelp = ({ adairedHelp }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
   return (
-    <div className="py-[3rem] lg:py-[6rem]">
+    <div className="py-[3rem] lg:py-[4rem]">
       <MaxWidthWrapper>
         <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
@@ -54,7 +54,7 @@ const AdairedHelp = ({ adairedHelp }: any) => {
               >
                 <Image src={item?.img} width={32} height={32} alt="icon" />
 
-                <p className="pt-[1.5rem] font-bold">{item?.name}</p>
+                <p className="pt-[1.5rem] font-bold text-center lg:text-left">{item?.name}</p>
 
                 <div className="pt-2">
                   {item?.description?.map((desc: string, i: number) => (

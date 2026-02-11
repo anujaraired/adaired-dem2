@@ -26,7 +26,7 @@ const AISEOSolutions = ({ whatIncluded }: any) => {
             {whatIncluded?.list?.map((card: any, index: number) => (
               <div
                 key={index}
-                className={`relative h-[38rem] lg:h-[43rem] rounded-2xl border bg-[#F3F3F3] p-[2.5rem] transition-all duration-1000 1400:h-[46rem] 1440:h-[44rem] 1470:h-[43rem] 1600:h-[42rem] 1710:h-[40rem] 3xl:h-[36rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                className={`relative h-[46rem] lg:h-[43rem] rounded-2xl border bg-[#F3F3F3] p-[2.5rem] transition-all duration-1000 1400:h-[46rem] 1440:h-[54rem] 1470:h-[52rem] 1600:h-[48rem] 1710:h-[44rem] 3xl:h-[43rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
                 style={{
                   transitionDelay: `${index * 280}ms`, // 👈 stagger here
                 }}
@@ -38,7 +38,7 @@ const AISEOSolutions = ({ whatIncluded }: any) => {
 
                   <h3 className="py-[2rem]">{card.title}</h3>
 
-                  <p className="whitespace-pre-line leading-relaxed">
+                  <p className="leading-relaxed">
                     {card.description}
                   </p>
 

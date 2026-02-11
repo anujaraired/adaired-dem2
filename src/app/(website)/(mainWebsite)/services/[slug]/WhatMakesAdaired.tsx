@@ -25,20 +25,23 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
         <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
         >
-          <div className="flex flex-col items-center gap-10 lg:flex-row">
+          <div className="flex flex-col items-center justify-center lg:flex-row">
             <div
-              className={`${whatMkeDeferent?.description?.length > 0 ? 'lg:w-[50%] w-full pr-[0%]' : 'flex w-[100%] justify-center justify-items-center'}`}
+              className={`${whatMkeDeferent?.description?.length > 0 ? 'lg:w-[50%] w-full pr-[0%]' : 'flex w-[100%] justify-center justify-items-center'} lg:pr-[6rem] pr-0`}
             >
               <Heading breakIndex={5} title={whatMkeDeferent?.heading} />
             </div>
+
             <div
               className={`${whatMkeDeferent?.description?.length > 0 ? 'lg:w-[50%] w-full' : 'w-[0%]'}`}
             >
               {whatMkeDeferent?.description?.map((item: any) => {
-                return <p className="my-3">{item}</p>;
+                return <p className="my-3 lg:ml-[10rem] ml-0">{item}</p>;
               })}
             </div>
+
           </div>
+
         </div>
         <div className="pt-[3rem]">
           {whatMkeDeferent?.list?.map((item: any, idx: number) => {

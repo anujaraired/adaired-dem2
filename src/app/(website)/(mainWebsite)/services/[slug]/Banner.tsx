@@ -88,7 +88,7 @@ const Banner = ({ banner }: any) => {
               </div>
               <div className="!mt-[4rem] flex justify-center">
                 <SaveAndCancel
-                  name={'Start Building Today'}
+                  name={banner?.button}
                   isIcon={true}
                   handleClick={() => router.push('/contact')}
                   className="w-[18rem] lg:w-[18rem]"
@@ -133,10 +133,11 @@ const Banner = ({ banner }: any) => {
               </div>
               <div className="flex justify-center lg:justify-start">
                 <SaveAndCancel
-                  name={'Get A Quote'}
+                  name={banner?.button}
                   isIcon={true}
                   handleClick={() => router.push('/contact')}
-                  className="w-[18rem] lg:w-[14rem]"
+                  // className="w-[18rem] lg:w-[14rem]"
+                  className={`w-[${banner?.width}] lg:w-[${banner?.widthLg}]`}
                 />
               </div>
               <div className="flex justify-center gap-3 pt-[2rem] lg:justify-start">
