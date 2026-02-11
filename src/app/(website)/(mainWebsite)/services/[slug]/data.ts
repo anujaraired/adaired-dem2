@@ -1396,7 +1396,7 @@ brand appears in AI summaries and citations.`,
     whatareservice: {
       isVisible: true,
       img: WhatIsAuthorityLinkBuilding,
-      heading: 'What Is Authority ',
+      heading: 'What Is Authority',
       span: 'Link Building?',
       bgColor: '#FFFCF8',
       isBgWhite: true,

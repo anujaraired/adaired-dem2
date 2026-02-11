@@ -9,8 +9,9 @@ import keyStatsImg from '../../../../../../public/assets/keyStatsImg.png';
 import rocket from '../../../../../../public/assets/icons/rocket.svg';
 
 const KeyStats = ({ keyStats }: any) => {
-  const [activetab, setActiveTab] = useState(null);
+  const [activeTab, setActiveTab] = useState(0);
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+
 
   return (
     <div ref={ref} className="py-[6rem]">
@@ -113,27 +114,35 @@ const KeyStats = ({ keyStats }: any) => {
               {keyStats?.list?.map((item: any, index: any) => (
                 <div
                   key={index}
-
-                  className="group flex cursor-pointer flex-col lg:w-[49rem] bg-[#FFF8ED] p-4 lg:p-[2rem] transition-all duration-300 ease-in-out hover:border-r-[0.5rem] lg:hover:border-[#FB9100] lg:hover:bg-[#FB9100]/20"
+                  onMouseEnter={() => setActiveTab(index)}
+                  onMouseLeave={() => setActiveTab(0)}
+                  className={`group flex cursor-pointer flex-col lg:w-[49rem] p-4 lg:p-[2rem] transition-all duration-300 ease-in-out
+                  ${activeTab === index
+                      ? 'bg-[#FB9100]/20 border-r-[0.5rem] border-[#FB9100]'
+                      : 'bg-[#FFF8ED]'
+                    }`}
                 >
-                  {/* <div className="flex items-center gap-8 lg:gap-16 lg:text-left"> */}
                   <div
-                    className={`flex items-start gap-8 lg:items-center lg:gap-16 lg:text-left transition-all duration-700 ease-in-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                    className={`flex items-start gap-8 lg:items-center lg:gap-16 lg:text-left transition-all duration-700 ease-in-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
+                      }`}
                     style={{
-                      transitionDelay: `${index * 280}ms`, // 👈 stagger here
+                      transitionDelay: `${index * 280}ms`,
                     }}
                   >
-
                     <h2 className="transition-all duration-300 ease-in-out">
                       {`0${index + 1}`}
                     </h2>
 
-                    <p className="transition-all duration-300 ease-in-out group-hover:font-semibold lg:text-left">
+                    <p
+                      className={`transition-all duration-300 ease-in-out lg:text-left ${activeTab === index ? 'font-semibold' : ''
+                        }`}
+                    >
                       {item.desctioption}
                     </p>
                   </div>
                 </div>
-              ))}
+              ))
+              }
             </div>
 
             <div className="group relative rounded-[20px] bg-[#FFF8ED]">
