@@ -20,6 +20,7 @@ import { PiDotsThree } from 'react-icons/pi';
 import google from '../../../../../public/assets/images/partner/google.svg';
 import upwork from '../../../../../public/assets/images/partner/upwork.svg';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
+import star from '../../../../../public/assets/icons/star.png';
 
 const Banner = () => {
   const router = useRouter();
@@ -121,6 +122,18 @@ const Banner = () => {
         <div
           className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[42%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
         >
+          <div className="flex w-fit gap-3 rounded-full border-[0.71px] border-[#000000]/20 px-[1rem] py-[0.25rem]">
+            <Image
+              src={star}
+              width={18}
+              height={17}
+              alt=""
+              className="mb-auto"
+            />
+            <span className="my-auto uppercase text-[#000000]">
+              Gain Visibility That Converts
+            </span>
+          </div>
           <h1>Result-Driven Digital Marketing Agency for Scalable Growth</h1>
           <p>
             From Google searches to AI chats, we make sure your brand is visible
@@ -424,7 +437,7 @@ const Banner = () => {
               width={302}
               height={186}
               alt=""
-              className={`absolute bottom-[-16%] left-[0rem] aspect-[302/186] w-[clamp(8rem,14vw,18.875rem)] transition-opacity transition-transform duration-700 ease-in-out ${
+              className={`absolute bottom-[-15%] left-[0rem] aspect-[302/186] w-[clamp(8rem,14vw,18.875rem)] transition-opacity transition-transform duration-700 ease-in-out ${
                 active === 'img3'
                   ? 'z-30 translate-x-[100%] translate-y-[-150%] scale-105 opacity-100 backdrop-blur-md'
                   : active
