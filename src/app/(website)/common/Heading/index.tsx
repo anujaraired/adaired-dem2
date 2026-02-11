@@ -75,15 +75,29 @@ const Heading = ({
                     <h1
                       className={`capitalize ${isBgWhite ? 'text-[#111111]' : 'text-[#FFFFFF]'} text-center`}
                     >
-                      {title} <br></br>
-                      {span}
+                      {breakIndex !== undefined ? (
+                        <>
+                          {words.slice(0, breakIndex).join(' ')}
+                          <br className="hidden lg:block" />
+                          {words.slice(breakIndex).join(' ')}
+                        </>
+                      ) : (
+                        words.join(' ')
+                      )}
                     </h1>
                   ) : (
                     <h2
                       className={`capitalize ${isBgWhite ? 'text-[#111111]' : 'text-[#FFFFFF]'} text-center`}
                     >
-                      {title} <br></br>
-                      {span}
+                      {breakIndex !== undefined ? (
+                        <>
+                          {words.slice(0, breakIndex).join(' ')}
+                          <br className="hidden lg:block" />
+                          {words.slice(breakIndex).join(' ')}
+                        </>
+                      ) : (
+                        words.join(' ')
+                      )}
                     </h2>
                   )}
                 </div>
@@ -168,15 +182,29 @@ const Heading = ({
                     <h1
                       className={`capitalize ${isBgWhite ? 'text-[#111111]' : 'text-[#FFFFFF]'} text-center`}
                     >
-                      {words.slice(0, breakIndex).join(' ')} <br />
-                      {words.slice(breakIndex).join(' ')}
+                      {breakIndex !== undefined ? (
+                        <>
+                          {words.slice(0, breakIndex).join(' ')}
+                          <br className="hidden lg:block" />
+                          {words.slice(breakIndex).join(' ')}
+                        </>
+                      ) : (
+                        words.join(' ')
+                      )}
                     </h1>
                   ) : (
                     <h2
                       className={`capitalize ${isBgWhite ? 'text-[#111111]' : 'text-[#FFFFFF]'} text-center`}
                     >
-                      {words.slice(0, breakIndex).join(' ')} <br />
-                      {words.slice(breakIndex).join(' ')}
+                      {breakIndex !== undefined ? (
+                        <>
+                          {words.slice(0, breakIndex).join(' ')}
+                          <br className="hidden lg:block" />
+                          {words.slice(breakIndex).join(' ')}
+                        </>
+                      ) : (
+                        words.join(' ')
+                      )}
                     </h2>
                   )}
                 </div>
@@ -206,7 +234,6 @@ const Heading = ({
                     <span className="my-auto uppercase text-[#000000]">
                       {subTitle}
                     </span>
-                    {/* <div className="mb-auto mt-3 h-0.5 w-24 bg-[#D7EBFF]"></div> */}
                   </div>
                 )}
                 <div className="mt-[0.8rem] md:mt-[8px] lg:mt-[0.5rem]">
@@ -214,7 +241,16 @@ const Heading = ({
                     <h1
                       className={`text-center capitalize lg:text-left ${isBgWhite ? 'text-[#ffffff]' : 'text-[#000000]'}`}
                     >
-                      {title}
+                      {breakIndex !== undefined ? (
+                        <>
+                          {words.slice(0, breakIndex).join(' ')}
+                          <br className="hidden lg:block" />
+                          {words.slice(breakIndex).join(' ')}
+                        </>
+                      ) : (
+                        words.join(' ')
+                      )}
+
                       <span
                         className={`pl-3 font-poppins text-[1.8rem] font-bold leading-10 ${spanColor} md:text-[2.5rem] md:leading-[3rem] lg:text-[2.125rem] lg:leading-[2.8rem] xl:text-[3.75rem] xl:leading-[4.65rem] 1366:text-[2.7rem] 1366:leading-[3.75rem] 1400:text-[2.75rem] 1400:leading-[3.75rem] 1600:text-[3rem] 1600:leading-[4rem] 1680:text-[3rem] 1680:leading-[3.75rem] 3xl:text-[3.75rem] 3xl:leading-[4.65rem]`}
                       >
@@ -225,7 +261,16 @@ const Heading = ({
                     <h2
                       className={`text-center capitalize lg:text-left ${isBgWhite ? 'text-[#ffffff]' : 'text-[#000000]'}`}
                     >
-                      {title}
+                      {breakIndex !== undefined ? (
+                        <>
+                          {words.slice(0, breakIndex).join(' ')}
+                          <br className="hidden lg:block" />
+                          {words.slice(breakIndex).join(' ')}
+                        </>
+                      ) : (
+                        words.join(' ')
+                      )}
+
                       <span
                         className={`pl-3 pt-[0.25rem] text-center font-poppins text-[1.6rem] font-semibold leading-[2rem] ${spanColor} md:text-[2.25rem] md:leading-[2.75rem] lg:text-left lg:text-[1.8rem] lg:leading-[2.5rem] xl:text-[2.188rem] xl:leading-[3.125rem] 1360:text-[2rem] 1360:leading-[2.6rem] 2xl:leading-[1.6] 3xl:text-[2.188rem]`}
                       >

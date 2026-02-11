@@ -16,16 +16,17 @@ const Expect = () => {
     <section className="1bg-[#F5F5F580]">
       <MaxWidthWrapper className="py-[3rem] lg:py-[4rem]">
         <div
-          className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+          className={`grid grid-cols-1 gap-[1rem] pt-7 transition-all duration-1000 lg:grid-cols-2 lg:gap-[2rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
         >
           <Heading
             isLabel={true}
-            isDecVarticle={true}
             subTitle={subTitle}
             title={title}
             span=""
-            description={description}
+            breakIndex={5}
+            description={''}
           />
+          <p>{description}</p>
         </div>
 
         <div className="relative grid grid-cols-1 gap-[1rem] pt-7 lg:grid-cols-2 xl:gap-[2rem]">
