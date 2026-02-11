@@ -181,7 +181,7 @@ const Heading = ({
                   )}
                 </div>
               </div>
-              <div className="px-0 lg:px-[20%]">
+              <div className="px-0 lg:px-[15%]">
                 <p
                   className={`${isBgWhite ? 'text-[#000000]' : 'text-[#FFFFFF]'} py-4 text-center w-[80%] mx-auto`}
                 >
