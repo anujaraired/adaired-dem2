@@ -16,7 +16,7 @@ const Expect = () => {
     <section className="1bg-[#F5F5F580]">
       <MaxWidthWrapper className="py-[3rem] lg:py-[4rem]">
         <div
-          className={`grid grid-cols-1 gap-[1rem] pt-7 transition-all duration-1000 lg:grid-cols-2 lg:gap-[2rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+          className={`grid grid-cols-1 gap-[1rem] transition-all duration-1000 lg:grid-cols-2 lg:gap-[2rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
         >
           <div className="flex justify-center lg:justify-start">
             <Heading

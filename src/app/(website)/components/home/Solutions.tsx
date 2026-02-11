@@ -89,7 +89,7 @@ const Solutions = () => {
             <SaveAndCancel
               name={'Get Your Free Website Audit'}
               isIcon={true}
-              buttonWidth={'w-[22rem] 1360:w-[18rem] 1400:w-[22rem]'}
+              buttonWidth={'!w-[20rem]'}
               handleClick={() => setOpen(!open)}
               className="rem] mt-[2rem]"
             />
