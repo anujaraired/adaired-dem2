@@ -60,7 +60,7 @@ const WebFooter = () => {
                   priority
                 />
               </Link>
-              <p className="mt-6 font-poppins text-xs font-normal text-[#FFFFFF]">
+              <p className="mt-6 text-left text-[#FFFFFF]">
                 AdAired Digital Media is a digital marketing company located in
                 Mohali. We are a team of marketing and design experts who are
                 committed to your online growth.{' '}

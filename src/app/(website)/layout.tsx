@@ -4,6 +4,7 @@ import { ReactLenis } from '@core/utils/lenis';
 import whatsApp from '../../../public/assets/icons/whatsapp.png';
 import Image from 'next/image';
 import Link from 'next/link';
+
 export default function DefaulWebsitetLayout({
   children,
 }: {
