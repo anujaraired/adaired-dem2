@@ -40,7 +40,7 @@ const Solutions = () => {
           <div className="relative mx-auto mt-[6rem] flex-1 md:mt-[6rem] lg:mt-0">
             {/* CENTER IMAGE */}
             <div
-              className={`mx-[2.65rem] my-[2.65rem] flex items-center justify-center transition-all duration-1000 ${
+              className={`mx-[0.65rem] my-[0.65rem] flex items-center justify-center transition-all duration-1000 lg:mx-[2.65rem] lg:my-[2.65rem] ${
                 isVisible
                   ? 'translate-x-0 opacity-100'
                   : '-translate-x-16 opacity-0'
@@ -51,7 +51,7 @@ const Solutions = () => {
                 alt="About Image"
                 width={625}
                 height={470}
-                className="my-[0rem] aspect-[625/470] w-[clamp(14rem,35vw,39.063rem)] rounded-lg transition-opacity transition-transform"
+                className="[clamp(16rem,40vw,42.063rem)] my-[0rem] aspect-[625/470] rounded-lg transition-opacity transition-transform lg:w-[clamp(14rem,35vw,39.063rem)]"
               />
             </div>
 

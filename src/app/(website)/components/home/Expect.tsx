@@ -18,14 +18,16 @@ const Expect = () => {
         <div
           className={`grid grid-cols-1 gap-[1rem] pt-7 transition-all duration-1000 lg:grid-cols-2 lg:gap-[2rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
         >
-          <Heading
-            isLabel={true}
-            subTitle={subTitle}
-            title={title}
-            span=""
-            breakIndex={5}
-            description={''}
-          />
+          <div className="flex justify-center lg:justify-start">
+            <Heading
+              isLabel={true}
+              subTitle={subTitle}
+              title={title}
+              span=""
+              breakIndex={5}
+              description={''}
+            />
+          </div>
           <p>{description}</p>
         </div>
 
@@ -72,7 +74,7 @@ const Expect = () => {
                     </div>
 
                     <p
-                      className={`pt-[0.5rem] text-left font-bold transition-colors duration-300 xl:pb-[1rem] xl:pt-[1.25rem] ${isHovered && 'text-white'} `}
+                      className={`py-[0.5rem] text-left font-bold transition-colors duration-300 xl:pb-[1rem] xl:pt-[1.25rem] ${isHovered && 'text-white'} `}
                     >
                       {record.name}
                     </p>

@@ -97,7 +97,7 @@
   }
 
   p {
-    @apply text-justify font-montserrat font-medium text-[#000000];
+    @apply text-center md:text-justify font-montserrat font-medium text-[#000000];
     font-size: clamp(0.875rem, 1.1vw, 1.125rem);
     line-height: clamp(1.125rem, 1.813vw, 1.813rem);
   }

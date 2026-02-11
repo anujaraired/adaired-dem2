@@ -265,7 +265,7 @@ const Service = () => {
                                 unoptimized
                                 className="ani my-auto lg:h-[30px] lg:w-[30px] xl:h-[40px] xl:w-[40px]"
                               />
-                              <p className="absolute bottom-4 left-4 right-4 text-left font-poppins font-semibold">
+                              <p className="absolute bottom-4 left-16 right-4 text-left font-poppins font-semibold lg:left-4">
                                 {item?.label}
                               </p>
                             </div>

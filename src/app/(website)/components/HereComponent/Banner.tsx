@@ -122,7 +122,7 @@ const Banner = () => {
         <div
           className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[42%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
         >
-          <div className="flex w-fit gap-3 rounded-full border-[0.71px] border-[#000000]/20 px-[1rem] py-[0.25rem]">
+          <div className="mx-auto flex w-fit gap-3 rounded-full border-[0.71px] border-[#000000]/20 px-[1rem] py-[0.25rem] lg:mx-0 lg:mr-auto">
             <Image
               src={star}
               width={18}
@@ -134,8 +134,10 @@ const Banner = () => {
               Gain Visibility That Converts
             </span>
           </div>
-          <h1>Result-Driven Digital Marketing Agency for Scalable Growth</h1>
-          <p>
+          <h1 className="text-center lg:text-left">
+            Result-Driven Digital Marketing Agency for Scalable Growth
+          </h1>
+          <p className="text-center lg:text-left">
             From Google searches to AI chats, we make sure your brand is visible
             to your customers wherever they look.
           </p>
@@ -315,7 +317,7 @@ const Banner = () => {
           </div>
         </div> */}
         <div
-          className={`relative mt-[5rem] w-[100%] pt-[20vh] transition-all delay-200 duration-1000 md:pt-[50vh] lg:mt-0 lg:w-[50%] lg:pt-0 ${
+          className={`relative mt-[5rem] w-[100%] transition-all delay-200 duration-1000 lg:mt-0 lg:w-[50%] lg:pt-0 ${
             isVisible ? 'translate-x-0 opacity-100' : 'translate-x-16 opacity-0'
           }`}
         >
@@ -327,7 +329,7 @@ const Banner = () => {
                   width={599}
                   height={483}
                   alt=""
-                  className={`aspect-[599/483] w-[clamp(15rem,32vw,37.438rem)] max-w-full transition-opacity transition-transform duration-700 ease-in-out ${
+                  className={`aspect-[599/483] w-[clamp(12rem,70vw,20rem)] max-w-full transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(14rem,55vw,28rem)] lg:w-[clamp(15rem,32vw,37.438rem)] ${
                     active === 'img1'
                       ? 'z-40 opacity-100'
                       : active
@@ -437,7 +439,7 @@ const Banner = () => {
               width={302}
               height={186}
               alt=""
-              className={`absolute bottom-[-15%] left-[0rem] aspect-[302/186] w-[clamp(8rem,14vw,18.875rem)] transition-opacity transition-transform duration-700 ease-in-out ${
+              className={`absolute bottom-[-15%] left-[0rem] aspect-[302/186] w-[clamp(7rem,55vw,10rem)] transition-opacity transition-transform duration-700 ease-in-out md:bottom-[-20%] md:w-[clamp(8rem,28vw,14rem)] lg:bottom-[-15%] lg:w-[clamp(8rem,14vw,18.875rem)] ${
                 active === 'img3'
                   ? 'z-30 translate-x-[100%] translate-y-[-150%] scale-105 opacity-100 backdrop-blur-md'
                   : active
@@ -452,7 +454,7 @@ const Banner = () => {
               width={388}
               height={244}
               alt=""
-              className={`absolute right-0 top-[-20%] aspect-[388/244] w-[clamp(10rem,18vw,24.25rem)] transition-opacity transition-transform duration-700 ease-in-out ${
+              className={`absolute right-0 top-[-20%] aspect-[388/244] w-[clamp(8rem,65vw,14rem)] transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(10rem,35vw,20rem)] lg:w-[clamp(10rem,18vw,24.25rem)] ${
                 active === 'img2'
                   ? 'z-30 translate-x-[-65%] translate-y-[100%] scale-105 bg-white/80 opacity-100 backdrop-blur-md'
                   : active

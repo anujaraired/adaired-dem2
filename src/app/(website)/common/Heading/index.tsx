@@ -78,7 +78,7 @@ const Heading = ({
                       {breakIndex !== undefined ? (
                         <>
                           {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden lg:block" />
+                          <br className="hidden md:block" />
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -92,7 +92,7 @@ const Heading = ({
                       {breakIndex !== undefined ? (
                         <>
                           {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden lg:block" />
+                          <br className="hidden md:block" />
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -131,15 +131,29 @@ const Heading = ({
                 <div className={`mt-[-1rem] ${headingWidth}`}>
                   {isH1 ? (
                     <h1 className={`capitalize`}>
-                      {words.slice(0, breakIndex).join(' ')} <br />
-                      {words.slice(breakIndex).join(' ')}
+                      {breakIndex !== undefined ? (
+                        <>
+                          {words.slice(0, breakIndex).join(' ')}
+                          <br className="hidden md:block" />
+                          {words.slice(breakIndex).join(' ')}
+                        </>
+                      ) : (
+                        words.join(' ')
+                      )}
                     </h1>
                   ) : (
                     <h2
                       className={`capitalize ${isBgWhite ? 'text-[#111111]' : 'text-white'}`}
                     >
-                      {words.slice(0, breakIndex).join(' ')} <br />
-                      {words.slice(breakIndex).join(' ')}
+                      {breakIndex !== undefined ? (
+                        <>
+                          {words.slice(0, breakIndex).join(' ')}
+                          <br className="hidden md:block" />
+                          {words.slice(breakIndex).join(' ')}
+                        </>
+                      ) : (
+                        words.join(' ')
+                      )}
                     </h2>
                   )}
                 </div>
@@ -185,7 +199,7 @@ const Heading = ({
                       {breakIndex !== undefined ? (
                         <>
                           {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden lg:block" />
+                          <br className="hidden md:block" />
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -199,7 +213,7 @@ const Heading = ({
                       {breakIndex !== undefined ? (
                         <>
                           {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden lg:block" />
+                          <br className="hidden md:block" />
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -244,7 +258,7 @@ const Heading = ({
                       {breakIndex !== undefined ? (
                         <>
                           {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden lg:block" />
+                          <br className="hidden md:block" />
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -264,7 +278,7 @@ const Heading = ({
                       {breakIndex !== undefined ? (
                         <>
                           {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden lg:block" />
+                          <br className="hidden md:block" />
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (

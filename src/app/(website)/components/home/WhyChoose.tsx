@@ -66,7 +66,7 @@ const WhyChoose = () => {
                       <br></br>
                       {item?.span}
                     </h3>
-                    <p className={`text-justify text-[#323232B2] lg:text-left`}>
+                    <p className={`text-center text-[#323232B2] lg:text-left`}>
                       {/* {item?.description.length > 140
                         ? item?.description.slice(0, 140) + '...'
                         : item?.description} */}
