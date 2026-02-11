@@ -63,7 +63,7 @@ const KeyStats = ({ keyStats }: any) => {
           </div>
         )}
         {keyStats?.code === '02' && (
-          <div className="grid grid-cols-1 items-start justify-items-center gap-8 pt-[3rem] md:grid-cols-[45%_50%] lg:gap-16">
+          <div className="grid grid-cols-1 items-start justify-items-center gap-5 pt-[3rem] md:grid-cols-[45%_50%] lg:gap-16">
             <div className="relative h-[450px] w-full md:h-[600px] lg:h-[700px]">
               <Image
                 src={keyStatsImg}
@@ -93,7 +93,7 @@ const KeyStats = ({ keyStats }: any) => {
                     />
                   )}
 
-                  <div className="flex items-center gap-8 py-4 lg:gap-16">
+                  <div className="flex items-center flex-col lg:flex-row md:flex-row gap-8 py-4 lg:gap-16">
                     <div className="mx-2.5 flex w-[50px] justify-center">
                       <span className="text-4xl font-normal text-[#FB9100] md:text-4xl">
                         {String(index + 1).padStart(2, '0')}

@@ -12,7 +12,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
 
   return (
-    <div ref={ref} className="py-[6rem]">
+    <div ref={ref} className="lg:py-[6rem] py-[3rem]">
       <MaxWidthWrapper>
         <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
