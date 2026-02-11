@@ -109,7 +109,7 @@ const Banner = () => {
   return (
     <div
       ref={ref}
-      className="relative min-h-screen w-full overflow-hidden pt-[10vh]"
+      className="relative mx-auto min-h-screen w-full overflow-hidden pt-[10vh]"
     >
       <Image
         src={hero_banner}
@@ -441,7 +441,7 @@ const Banner = () => {
               alt=""
               className={`absolute bottom-[-15%] left-[0rem] aspect-[302/186] w-[clamp(7rem,55vw,10rem)] transition-opacity transition-transform duration-700 ease-in-out md:bottom-[-20%] md:w-[clamp(8rem,28vw,14rem)] lg:bottom-[-15%] lg:w-[clamp(8rem,14vw,18.875rem)] ${
                 active === 'img3'
-                  ? 'z-30 translate-x-[100%] translate-y-[-150%] scale-105 opacity-100 backdrop-blur-md'
+                  ? 'z-30 translate-x-[60%] translate-y-[-100%] scale-105 opacity-100 backdrop-blur-md md:translate-x-[100%] md:translate-y-[-150%]'
                   : active
                     ? 'z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
                     : 'z-10 translate-x-0 translate-y-0 scale-100 opacity-100'
@@ -454,9 +454,9 @@ const Banner = () => {
               width={388}
               height={244}
               alt=""
-              className={`absolute right-0 top-[-20%] aspect-[388/244] w-[clamp(8rem,65vw,14rem)] transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(10rem,35vw,20rem)] lg:w-[clamp(10rem,18vw,24.25rem)] ${
+              className={`absolute right-0 top-[-20%] aspect-[388/244] w-[clamp(7rem,55vw,10rem)] transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(10rem,35vw,20rem)] lg:w-[clamp(10rem,18vw,24.25rem)] ${
                 active === 'img2'
-                  ? 'z-30 translate-x-[-65%] translate-y-[100%] scale-105 bg-white/80 opacity-100 backdrop-blur-md'
+                  ? 'z-30 translate-x-[-60%] translate-y-[100%] scale-105 bg-white/80 opacity-100 backdrop-blur-md md:translate-x-[-65%] md:translate-y-[100%]'
                   : active
                     ? 'z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
                     : 'z-10 translate-x-0 translate-y-0 scale-100 opacity-100'

@@ -31,7 +31,7 @@ const Expect = () => {
           <p>{description}</p>
         </div>
 
-        <div className="relative grid grid-cols-1 gap-[1rem] pt-7 lg:grid-cols-2 xl:gap-[2rem]">
+        <div className="relative grid grid-cols-1 gap-[1rem] pt-2 md:pt-7 lg:grid-cols-2 xl:gap-[2rem]">
           {/* Content Section */}
           <div
             ref={ref}

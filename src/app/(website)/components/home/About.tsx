@@ -17,7 +17,7 @@ const About = () => {
 
   return (
     <section className="">
-      <MaxWidthWrapper className="py-[3rem] lg:py-[4rem]">
+      <MaxWidthWrapper className="pb-[3rem] lg:py-[4rem]">
         <div
           ref={ref}
           className="flex flex-col-reverse gap-[3rem] lg:flex-row lg:justify-between lg:gap-[3rem] 1400:gap-[1rem] 1680:gap-[2rem] 3xl:gap-[5.25rem]"

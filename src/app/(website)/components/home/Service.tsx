@@ -100,7 +100,7 @@ const Service = () => {
           />
         </div>
 
-        <div className="flex gap-[2rem] pt-[3rem]">
+        <div className="flex gap-[2rem] pt-[1rem] lg:pt-[3rem]">
           {/* MOBILE TABS */}
           {isMobile && showMobileTab && (
             <div className="fixed left-[1rem] right-[1rem] top-[5.5rem] z-10 bg-[#F1F1F1] py-2">

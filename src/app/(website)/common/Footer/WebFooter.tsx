@@ -292,7 +292,7 @@ const WebFooter = () => {
           </div> */}
         </MaxWidthWrapper>
       </footer>
-      <MaxWidthWrapper>
+      {/* <MaxWidthWrapper>
         <div className="flex flex-col-reverse items-center justify-center bg-white py-1 text-center text-black md:flex-row md:justify-center">
           <div className="font text-xxs">
             Copyright © {new Date().getFullYear()} - AdAired Digital Media
@@ -303,7 +303,7 @@ const WebFooter = () => {
             <Link href="/privacy-policy">Privacy Policy</Link>
           </div>
         </div>
-      </MaxWidthWrapper>
+      </MaxWidthWrapper> */}
     </>
   );
 };
