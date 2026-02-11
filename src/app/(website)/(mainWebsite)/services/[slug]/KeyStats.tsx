@@ -12,7 +12,6 @@ const KeyStats = ({ keyStats }: any) => {
   const [activeTab, setActiveTab] = useState(0);
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
 
-
   return (
     <div ref={ref} className="py-[6rem]">
       <MaxWidthWrapper>
@@ -145,13 +144,26 @@ const KeyStats = ({ keyStats }: any) => {
               }
             </div>
 
-            <div className="group relative rounded-[20px] bg-[#FFF8ED]">
-              <Image
-                src={keyStats?.img}
-                alt="img"
-                fill
-                className="object-contain transition-transform duration-300 ease-out group-hover:scale-110"
-              />
+            <div className="group relative rounded-[20px] flex justify-center items-center bg-[#FFF8ED]">
+              <div
+                className={`flex justify-center items-center w-[100%] transition-all delay-200 duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-0 lg:translate-x-16 opacity-0'}`}
+              >
+                {/* <Image
+                  src={keyStats?.img}
+                  alt="img"
+                  fill
+                  className="object-contain transition-transform duration-300 ease-out group-hover:scale-110"
+                /> */}
+
+                <Image
+                  src={keyStats?.img}
+                  width={599}
+                  height={483}
+                  alt="img"
+                  className={`h-[10rem] w-[15rem] transition-opacity transition-transform duration-700 ease-in-out md:h-[20rem] md:w-[32rem] lg:h-[18rem] lg:w-[24rem] xl:h-[30.188rem] xl:w-[37.438rem] 1366:h-[23rem] 1366:w-[28rem] 1400:h-[25rem] 1400:w-[30rem] 1600:h-[26rem] 1600:w-[32rem] 1680:w-[35rem] 3xl:h-[30.188rem] 3xl:w-[37.438rem] `}
+                />
+              </div>
+
 
               {keyStats?.code === '02' && (
                 <Image
