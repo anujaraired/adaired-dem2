@@ -32,11 +32,12 @@ const Stopstruggling = ({ stopStruggling }: any) => {
             {stopStruggling?.description}
           </p>
 
-          <div className="flex justify-center mt-[2rem]">
+          <div className="mt-[2rem] flex justify-center">
             <SaveAndCancel
               name={stopStruggling?.button}
               isBgWhite={true}
               isIcon={true}
+              isHoverBgBlue={stopStruggling?.isHoverBgBlue && true}
               handleClick={() => setOpen(!open)}
               buttonWidth="!w-[21rem]"
             />

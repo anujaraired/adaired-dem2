@@ -32,7 +32,7 @@ const LeadingTools = ({ leadingTools }: any) => {
       className={`bg-cover ${
         leadingTools?.isGapTop
           ? 'pb-[3rem] lg:pb-[4rem]'
-          : 'py-[3rem] lg:py-[4rem]'
+          : 'pb-[3rem] pt-[2rem] lg:pb-[4rem] lg:pt-[2.5rem]'
       } `}
       style={{
         backgroundImage: `url(${leadingTools?.bgImage.src})`,
