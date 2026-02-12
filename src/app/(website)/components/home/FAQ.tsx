@@ -10,7 +10,7 @@ import { TbPointFilled } from 'react-icons/tb';
 import SaveAndCancel from '../../common/SaveAndCancel';
 
 const FAQ = ({ faqs }: any) => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.25);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
   const [openIndex, setOpenIndex] = useState<number | null>(0);
   const [visibleCount, setVisibleCount] = useState(5);
@@ -29,11 +29,8 @@ const FAQ = ({ faqs }: any) => {
   };
 
   return (
-    <div
-      ref={ref}
-      className="overflow-visible py-[3rem] lg:py-[4rem] xl:py-[6rem]"
-    >
-      <MaxWidthWrapper className="space-y-[3rem] overflow-visible">
+    <div ref={ref} className="overflow-visible py-[3rem] lg:py-[4rem]">
+      <MaxWidthWrapper className="space-y-[1rem] overflow-visible">
         {/* Heading */}
         <div
           className={`flex w-full justify-center transition-all duration-1000 ${
@@ -46,7 +43,7 @@ const FAQ = ({ faqs }: any) => {
             subTitle={subTitle}
             title={faqs?.title}
             span=""
-            description=""
+            description={faqs?.description}
             isBgWhite
             isInCenter
             className="w-full lg:w-[90%]"
@@ -62,7 +59,7 @@ const FAQ = ({ faqs }: any) => {
               <div
                 key={idx}
                 onClick={() => toggleFAQ(idx)}
-                className={`flex cursor-pointer rounded-2xl border-[2px] border-black/20 p-4 transition-all duration-700 lg:p-8 ${
+                className={`flex cursor-pointer rounded-2xl border-[2px] border-black/20 p-4 transition-all duration-700 lg:px-6 lg:py-4 ${
                   isVisible
                     ? 'translate-y-0 opacity-100'
                     : 'translate-y-10 opacity-0'
@@ -110,7 +107,7 @@ const FAQ = ({ faqs }: any) => {
           })}
 
           {/* Load More Button */}
-          {faqs?.list?.length > 6 && (
+          {faqs?.list?.length > 5 && (
             <div className="flex justify-center">
               <SaveAndCancel
                 name={

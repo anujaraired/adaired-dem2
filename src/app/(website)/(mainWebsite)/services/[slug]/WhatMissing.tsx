@@ -7,10 +7,10 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import Image from 'next/image';
 
 const WhatMissing = ({ whatMissing }: any) => {
-    const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+    const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
     return (
-        <section ref={ref} className="py-[3rem] lg:py-[6rem]">
+        <section ref={ref} className="py-[3rem] lg:py-[4rem]">
             <MaxWidthWrapper>
                 <div
                     className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
@@ -26,9 +26,12 @@ const WhatMissing = ({ whatMissing }: any) => {
                         {whatMissing?.list?.map((card: any, index: number) => (
                             <div
                                 key={index}
-                                className={`relative h-[36rem] rounded-2xl border border-[#F3F3F3] p-[2.5rem] transition-all duration-1000 1400:h-[46rem] 1440:h-[44rem] 1470:h-[43rem] 1600:h-[42rem] 1710:h-[40rem] 3xl:h-[36rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                                className={`relative h-[36rem] rounded-2xl border border-[#F3F3F3] p-[2.5rem] transition-all duration-1000  hover:duration-300 ease-in-out hover:-translate-y-2 hover:shadow-xl 1400:h-[46rem] 1440:h-[44rem] 1470:h-[43rem] 1600:h-[42rem] 1710:h-[40rem] 3xl:h-[36rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                                // style={{
+                                //     transitionDelay: `${index * 280}ms`, // 👈 stagger here
+                                // }}
                                 style={{
-                                    transitionDelay: `${index * 280}ms`, // 👈 stagger here
+                                    transitionDelay: isVisible ? '0ms' : `${index * 280}ms`,
                                 }}
                             >
                                 <div className="flex items-center justify-center mb-10 lg:justify-start lg:justify-items-start">

@@ -9,7 +9,7 @@ import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 const BuildLinks = ({ buildlinks }: any) => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const [open, setOpen] = useState(false);
 
   return (
@@ -20,20 +20,21 @@ const BuildLinks = ({ buildlinks }: any) => {
         <div
           className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
         >
-          <Heading className='flex justify-center lg:justify-start'
+          <Heading className='flex justify-center items-center lg:justify-center'
             subTitle={''}
             breakIndex={5}
             isH1={true}
             title={buildlinks?.heading}
             span={buildlinks?.span}
-            description={buildlinks?.description}
+            spanColor="text-[#FBD04F]"
             isBgWhite={buildlinks?.isBgWhite && true}
           />
-          <div>
+
+          <div className=''>
             {buildlinks?.data?.map((item: any) => {
               return (
                 <p
-                  className={`py-3 ${buildlinks?.isBgWhite && 'text-[#FFFFFF]'} `}
+                  className={`py-5 ${buildlinks?.isBgWhite && 'text-[#FFFFFF]'} `}
                 >
                   {item?.desctioption}
                 </p>
@@ -54,16 +55,27 @@ const BuildLinks = ({ buildlinks }: any) => {
 
         <div
           ref={ref}
-          className={`order-1 flex justify-center justify-items-center transition-all duration-1000 p-10 lg:order-2 lg:justify-end lg:justify-items-end ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
+          className={`group relative order-1 flex justify-center justify-items-center transition-all duration-1000 p-10 lg:order-2 lg:justify-end lg:justify-items-end overflow-hidden ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
         >
-          <Image
-            src={buildlinks?.img}
-            width={479}
-            height={399}
-            className=""
-            alt=""
-          />
+          {buildlinks?.code === '02' ? (
+            <Image
+              src={buildlinks?.img}
+              width={479}
+              height={399}
+              className="transition-transform duration-300 ease-out group-hover:scale-110"
+              alt=""
+            />
+          ) : (
+            <Image
+              src={buildlinks?.img}
+              width={479}
+              height={399}
+              className="transition-transform duration-300 ease-out group-hover:scale-110"
+              alt=""
+            />
+          )}
         </div>
+
       </MaxWidthWrapper>
       <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
     </div>

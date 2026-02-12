@@ -35,7 +35,7 @@ import client_30 from '../../../../../public/assets/images/client/client_30.png'
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 const Clients = () => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.25);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
   const data = [
     client_1,
@@ -70,7 +70,7 @@ const Clients = () => {
     client_30,
   ];
   return (
-    <div ref={ref} className="bg-[#F9F9F9] py-[3rem] lg:py-[4rem] xl:py-[6rem]">
+    <div ref={ref} className="bg-[#F9F9F9] py-[3rem] lg:py-[4rem]">
       <MaxWidthWrapper>
         <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
@@ -85,11 +85,11 @@ const Clients = () => {
           />
         </div>
 
-        <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6">
           {data?.map((client, idx) => (
             <div
               key={idx}
-              className={`group flex items-center justify-center overflow-hidden transition-all duration-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'} `}
+              className={`group mx-[1rem] flex items-center justify-center overflow-hidden transition-all duration-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'} `}
               style={{
                 transitionDelay: `${idx * 60}ms`,
               }}
@@ -99,7 +99,7 @@ const Clients = () => {
                 width={225}
                 height={90}
                 alt="client logo"
-                className="my-0 transform transition-transform duration-300 ease-out group-hover:scale-110 md:my-4"
+                className="my-4 transform transition-transform duration-300 ease-out group-hover:scale-110 md:my-4"
               />
             </div>
           ))}

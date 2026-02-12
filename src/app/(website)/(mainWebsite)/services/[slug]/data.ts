@@ -101,7 +101,9 @@ import WhatMkeAd5 from '../../../../../../public/assets/images/WhatMkeAd5.png';
 import WhatMkeAd6 from '../../../../../../public/assets/images/WhatMkeAd6.png';
 
 import linkServices_1 from '../../../../../../public/assets/images/linkServices_1.png';
+import linkServices_2 from '../../../../../../public/assets/images/linkServices_2.png';
 import linkServices_3 from '../../../../../../public/assets/images/linkServices_3.png';
+import linkServices_4 from '../../../../../../public/assets/images/linkServices_4.png';
 import linkServices_5 from '../../../../../../public/assets/images/linkServices_5.png';
 
 import WhatIncluded1 from '../../../../../../public/assets/images/WhatIncluded1.png';
@@ -215,6 +217,7 @@ export const SERVICES_DATA = {
     },
     whatareservice: {
       isVisible: true,
+      code: '01',
       img: what_are_ai_seo2,
       heading: 'What Are SEO Services?',
       bgColor: '#FFFFFF',
@@ -343,6 +346,7 @@ export const SERVICES_DATA = {
     },
     whatIncluded: {
       isVisible: true,
+      code: '01',
       heading: 'What’s Included in Our SEO Services',
       list: [
         {
@@ -845,6 +849,7 @@ export const SERVICES_DATA = {
     },
     whatareservice: {
       isVisible: true,
+      code: '01',
       img: what_are_ai_seo,
       heading: 'What Are AI SEO Services?',
       bgColor: '#FFFCF8',
@@ -1119,6 +1124,7 @@ export const SERVICES_DATA = {
     },
     whatIncluded: {
       isVisible: true,
+      code: '01',
       heading:
         'AI SEO Solutions That Make Your Website Trusted by AI and Humans',
       description:
@@ -1411,6 +1417,7 @@ brand appears in AI summaries and citations.`,
     },
     whatareservice: {
       isVisible: true,
+      code: '01',
       img: WhatIsAuthorityLinkBuilding,
       heading: 'What Is Authority ',
       span: 'Link Building?',
@@ -1502,6 +1509,7 @@ brand appears in AI summaries and citations.`,
     // NEW
     whatIncluded: {
       isVisible: true,
+      code: '01', 
       heading: 'Link Building Services That We Offer At Adaired',
       description: ``,
       list: [
@@ -1516,7 +1524,7 @@ brand appears in AI summaries and citations.`,
         },
 
         {
-          icon: linkServices_1,
+          icon: linkServices_2,
           title: 'Guest Posts',
           description: `We ensure quality placements on niche-specific blogs and publications with our guest posting. All the posts are value-based and have natural backlinks that enhance your domain authority. 
             Our attention is on the authentic outreach and editorial quality, which assist your brand in becoming visible, getting referral traffic, and achieving a sustainable change in SEO.`,
@@ -1533,7 +1541,7 @@ brand appears in AI summaries and citations.`,
         },
 
         {
-          icon: linkServices_3,
+          icon: linkServices_4,
           title: 'Niche Edits',
           description: `Our niche edit business establishes contextual backlinks on existing, old content on related sites. These links are natural and authoritative, and they convey good SEO value to your site. 
             Niche edits achieve better ranking and long-term link equity because they can be used to promote the existing page with its existing traffic and trust.`,
@@ -1684,6 +1692,7 @@ brand appears in AI summaries and citations.`,
     // NEW
     buildlinks: {
       isVisible: true,
+      code: '01',
       img: LinkBuilding,
       heading: 'Build Links That Work for Your Business in',
       span: '2026 and Beyond',
@@ -1965,6 +1974,7 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
+      code: '02',
       img: WhatAreService,
       heading: 'What Are Website Design and Development Services?',
       span: '',
@@ -2005,7 +2015,7 @@ brand appears in AI summaries and citations.`,
 
     benefitofAiSeo: {
       isVisible: true,
-      bgColor: '#FAFAFA',
+      bgColor: "bg-[#FAFAFA]",
       textColor: '#000000',
       textBg: '#EEEEEE',
       borderColor: '#00000014',
@@ -2054,6 +2064,7 @@ brand appears in AI summaries and citations.`,
 
     whatIncluded: {
       isVisible: true,
+      code: '02',
       heading: 'List Of Website Design and Development Services We Offer',
       description: ``,
       list: [
@@ -2232,13 +2243,18 @@ brand appears in AI summaries and citations.`,
 
     buildlinks: {
       isVisible: true,
+      code: '02',
       img: BeautifulDesign,
       heading: 'Beautiful Design Meets Smart Development.',
       // span: '2026 and Beyond',
-      description: 'We build websites that captivate users and convert clicks into customers',
+      description: ``,
       bgColor: '#FFFCF8',
       isBgWhite: true,
-      data: [],
+      data: [
+        {
+        desctioption: `We build websites that captivate users and convert clicks into customers`
+        },
+      ],
       button: 'Start Your Website Project',
     },
 

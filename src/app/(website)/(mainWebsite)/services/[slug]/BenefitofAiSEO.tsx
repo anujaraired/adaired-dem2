@@ -4,7 +4,7 @@ import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import React from 'react';
 import CustomSlider from './CustomSlider';
 const BenefitofAiSEO = ({ benefitofAiSeo }: any) => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
   return (
     <div

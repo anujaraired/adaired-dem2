@@ -13,7 +13,7 @@ const KeyStats = ({ keyStats }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
 
   return (
-    <div ref={ref} className="py-[6rem]">
+    <div ref={ref} className="py-[3rem] lg:py-[4rem]">
       <MaxWidthWrapper>
         <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
@@ -93,7 +93,7 @@ const KeyStats = ({ keyStats }: any) => {
                     />
                   )}
 
-                  <div className="flex items-center flex-col lg:flex-row md:flex-row gap-8 py-4 lg:gap-16">
+                  <div className="flex flex-col items-center gap-8 py-4 md:flex-row lg:flex-row lg:gap-16">
                     <div className="mx-2.5 flex w-[50px] justify-center">
                       <span className="text-4xl font-normal text-[#FB9100] md:text-4xl">
                         {String(index + 1).padStart(2, '0')}
@@ -108,14 +108,21 @@ const KeyStats = ({ keyStats }: any) => {
           </div>
         )}
         {keyStats?.code === '03' && (
-          <div className="relative grid grid-cols-1 gap-[6rem] lg:grid-cols-2">
+          <div className="relative grid grid-cols-1 gap-8 lg:gap-[6rem] lg:grid-cols-2">
             <div className="mt-7 rounded-[20px]">
               {keyStats?.list?.map((item: any, index: any) => (
                 <div
                   key={index}
-                  className="group flex cursor-pointer flex-col w-[770px] bg-[#FFF8ED] p-[2rem] transition-all duration-300 ease-in-out hover:border-r-[0.5rem] hover:border-[#FB9100] hover:bg-[#FB9100]/20"
+                  className="group flex w-[770px] cursor-pointer flex-col bg-[#FFF8ED] p-[2rem] transition-all duration-300 ease-in-out hover:border-r-[0.5rem] hover:border-[#FB9100] hover:bg-[#FB9100]/20"
                 >
-                  <div className="flex items-center gap-8 lg:gap-16 lg:text-left">
+                  {/* <div className="flex items-center gap-8 lg:gap-16 lg:text-left"> */}
+                  <div
+                    className={`flex items-start gap-8 lg:items-center lg:gap-16 lg:text-left transition-all duration-700 ease-in-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                    style={{
+                      transitionDelay: `${index * 280}ms`, // 👈 stagger here
+                    }}
+                  >
+
                     <h2 className="transition-all duration-300 ease-in-out">
                       {`0${index + 1}`}
                     </h2>
@@ -128,12 +135,12 @@ const KeyStats = ({ keyStats }: any) => {
               ))}
             </div>
 
-            <div className="relative rounded-[20px] bg-[#FFF8ED]">
+            <div className="group relative rounded-[20px] bg-[#FFF8ED]">
               <Image
                 src={keyStats?.img}
                 alt="img"
                 fill
-                className="object-contain"
+                className="object-contain transition-transform duration-300 ease-out group-hover:scale-110"
               />
 
               {keyStats?.code === '02' && (
@@ -167,7 +174,7 @@ const KeyStats = ({ keyStats }: any) => {
                   {`0${idx + 1}`}
                 </h2>
 
-                <h3 className="pt-14">
+                <h3 className="pt-10">
                   {item?.description}
                 </h3>
               </div>

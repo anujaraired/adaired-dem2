@@ -18,12 +18,12 @@ const Testimonial = () => {
   const slides = [...testimonials, ...testimonials.slice(0, VISIBLE_CARDS)];
   const [index, setIndex] = useState(0);
   const [enableTransition, setEnableTransition] = useState(true);
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.25);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
   return (
     <section
       ref={ref}
-      className="relative bg-gradient-to-b from-[#05121E] to-[#1A5A96] bg-cover bg-no-repeat py-[3rem] lg:py-[4rem] xl:py-[6rem]"
+      className="relative bg-gradient-to-b from-[#05121E] to-[#1A5A96] bg-cover bg-no-repeat py-[3rem] lg:py-[4rem]"
     >
       <div className="relative z-20">
         <div
@@ -70,12 +70,12 @@ const Testimonial = () => {
                         'noopener,noreferrer'
                       )
                     }
-                    className="h-[23.5rem] transform-gpu cursor-pointer rounded-2xl border-[5px] border-transparent bg-white p-[2.5rem] transition-all duration-300 ease-out will-change-transform hover:scale-[1.03] hover:border-[#1B5A96] md:h-[17rem] lg:h-[25rem] lg:p-[1.5rem] xl:p-[2rem] 1360:h-[18rem] 1400:h-[18rem] 1440:h-[22rem] 1600:h-[20rem] 1710:h-[19rem] 3xl:h-[19rem]"
+                    className="h-[18.5rem] transform-gpu cursor-pointer rounded-2xl border-[5px] border-transparent bg-white p-[2.5rem] transition-all duration-300 ease-out will-change-transform hover:scale-[1.03] hover:border-[#1B5A96] md:h-[14rem] lg:h-[25rem] lg:p-[1.5rem] xl:p-[2rem] 1360:h-[18rem] 1400:h-[18rem] 1440:h-[22rem] 1600:h-[20rem] 1710:h-[19rem] 3xl:h-[19rem]"
                   >
                     <div className="">
                       <div className="flex justify-between pt-[1rem]">
                         <div className="">
-                          <p className="text-sm font-medium text-[#108A00] lg:text-xs xl:text-sm 1360:text-xxs 1400:text-sm">
+                          <p className="text-left font-semibold text-[#108A00]">
                             {testimonial.name}
                           </p>
                           <div className="my-1 flex gap-1 lg:gap-0 xl:gap-1">
@@ -101,7 +101,7 @@ const Testimonial = () => {
                         </div>
                       </div>
                     </div>
-                    <p className="pt-[1rem] text-[#262626]">
+                    <p className="pt-[1rem] text-left text-[#262626]">
                       {testimonial.description?.length > charLimit
                         ? testimonial.description.slice(0, charLimit) + '...'
                         : testimonial.description}
