@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.1);
 
   return (
     <div ref={ref} className="py-[3rem] lg:py-[4rem]">
@@ -27,23 +27,21 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
         >
           <div className="flex flex-col items-center justify-center lg:flex-row">
             <div
-              className={`${whatMkeDeferent?.description?.length > 0 ? 'lg:w-[50%] w-full pr-[0%]' : 'flex w-[100%] justify-center justify-items-center'} lg:pr-[6rem] pr-0`}
+              className={`${whatMkeDeferent?.description?.length > 0 ? 'w-full pr-[0%] lg:w-[50%]' : 'flex w-[100%] justify-center justify-items-center'} pr-0 lg:pr-[6rem]`}
             >
               <Heading breakIndex={5} title={whatMkeDeferent?.heading} />
             </div>
 
             <div
-              className={`${whatMkeDeferent?.description?.length > 0 ? 'lg:w-[50%] w-full' : 'w-[0%]'}`}
+              className={`${whatMkeDeferent?.description?.length > 0 ? 'w-full lg:w-[50%]' : 'w-[0%]'}`}
             >
               {whatMkeDeferent?.description?.map((item: any) => {
-                return <p className="my-3 lg:ml-[10rem] ml-0">{item}</p>;
+                return <p className="my-3 ml-0 lg:ml-[10rem]">{item}</p>;
               })}
             </div>
-
           </div>
-
         </div>
-        <div className="pt-[3rem]">
+        <div className="pt-[1rem]">
           {whatMkeDeferent?.list?.map((item: any, idx: number) => {
             const isOrange = idx % 2 === 0;
             return (
@@ -62,7 +60,7 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
                   </div>
                 </div>
                 <div className="order-1 flex w-[100%] justify-center justify-items-center lg:order-2 lg:w-[40%] lg:justify-end lg:justify-items-end">
-                  <Image src={item?.img} alt="if" className=''/>
+                  <Image src={item?.img} alt="if" className="" />
                 </div>
               </div>
 

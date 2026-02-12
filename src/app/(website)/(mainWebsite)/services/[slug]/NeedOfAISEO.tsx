@@ -12,10 +12,7 @@ const NeedOfAISEO = ({ needOfService }: any) => {
   return (
     <div className="py-[3rem] lg:py-[4rem]">
       <MaxWidthWrapper>
-        <div
-          ref={ref}
-          className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2"
-        >
+        <div ref={ref} className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2">
           {needOfService?.isBgCornerImg ? (
             <div className="relative mx-auto mt-[6rem] flex-1 md:mt-[6rem] lg:mt-0">
               {/* CENTER IMAGE */}
@@ -66,7 +63,11 @@ const NeedOfAISEO = ({ needOfService }: any) => {
           >
             <h2>{needOfService?.heading}</h2>
             {needOfService?.data?.map((desc: any) => {
-              return <p className="pt-[1rem] text-center lg:text-justify">{desc?.desctioption}</p>;
+              return (
+                <p className="pt-[1rem] text-center lg:text-justify">
+                  {desc?.desctioption}
+                </p>
+              );
             })}
           </div>
         </div>

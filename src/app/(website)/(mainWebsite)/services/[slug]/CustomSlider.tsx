@@ -7,7 +7,7 @@ import BenefitofAiSEO from './BenefitofAiSEO';
 
 export default function CustomSlider({ data, colors }: any) {
   return (
-    <div className="mx-auto w-full py-12">
+    <div className="mx-auto w-full pt-[1rem] lg:py-[4rem]">
       {/* Swiper */}
       <Swiper
         modules={[Autoplay, Pagination]}
