@@ -24,7 +24,7 @@ const Stopstruggling = ({ stopStruggling }: any) => {
         <div
           className={`mx-auto w-fit text-center transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
         >
-          <h2 className="mx-auto w-[70%] text-center text-[35px] font-semibold text-[#FFFFFF]">
+          <h2 className="mx-auto w-[70%] text-center text-[28px] lg:text-[40px] xlg:text-[60px] font-semibold text-[#FFFFFF]">
             {stopStruggling?.title}
           </h2>
 
@@ -35,7 +35,7 @@ const Stopstruggling = ({ stopStruggling }: any) => {
             isBgWhite={true}
             isIcon={true}
             handleClick={() => setOpen(!open)}
-            className="mx-auto mt-[2rem] lg:w-[23rem] w-[19rem]"
+            className="mx-auto mt-[2rem] lg:w-[18rem] w-[14rem]"
           />
         </div>
       </MaxWidthWrapper>

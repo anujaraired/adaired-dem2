@@ -1396,7 +1396,7 @@ brand appears in AI summaries and citations.`,
     whatareservice: {
       isVisible: true,
       img: WhatIsAuthorityLinkBuilding,
-      heading: 'What Is Authority ',
+      heading: 'What Is Authority',
       span: 'Link Building?',
       bgColor: '#FFFCF8',
       isBgWhite: true,
@@ -1492,9 +1492,8 @@ brand appears in AI summaries and citations.`,
         {
           icon: linkServices_1,
           title: 'Citation Building',
-          description: `Adaired’s citation-building service helps businesses establish consistent and accurate listings across trusted online directories. 
-            We make sure your business name, address, and phone number are consistent, which increases your local search visibility and credibility. 
-            Powerful citations will boost the ranking of maps, increase brand awareness, and assist your customers in locating your business easily.`,
+          description: [`Adaired’s citation-building service helps businesses establish consistent and accurate listings across trusted online directories. We make sure your business name, address, and phone number are consistent, which increases your local search visibility and credibility.`, 
+            `Powerful citations will boost the ranking of maps, increase brand awareness, and assist your customers in locating your business easily.`],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
         },
@@ -1502,8 +1501,8 @@ brand appears in AI summaries and citations.`,
         {
           icon: linkServices_2,
           title: 'Guest Posts',
-          description: `We ensure quality placements on niche-specific blogs and publications with our guest posting. All the posts are value-based and have natural backlinks that enhance your domain authority. 
-            Our attention is on the authentic outreach and editorial quality, which assist your brand in becoming visible, getting referral traffic, and achieving a sustainable change in SEO.`,
+          description: [`We ensure quality placements on niche-specific blogs and publications with our guest posting. All the posts are value-based and have natural backlinks that enhance your domain authority.`, 
+            `Our attention is on the authentic outreach and editorial quality, which assist your brand in becoming visible, getting referral traffic, and achieving a sustainable change in SEO.`],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
         },
@@ -1511,24 +1510,24 @@ brand appears in AI summaries and citations.`,
         {
           icon: linkServices_3,
           title: 'Press Releases',
-          description: `Adaired creates and distributes SEO-optimized press releases that amplify the news of your brand in the authoritative media. The service contributes to the creation of backlinks, spreading brand awareness, and creating targeted attention. 
-            We professionally write our press releases to achieve credibility, reach, and measurable impact on your online presence.`,
+          description: [`Adaired creates and distributes SEO-optimized press releases that amplify the news of your brand in the authoritative media. The service contributes to the creation of backlinks, spreading brand awareness, and creating targeted attention.`, 
+            `We professionally write our press releases to achieve credibility, reach, and measurable impact on your online presence.`],
           linkHref: '#',
         },
 
         {
           icon: linkServices_4,
           title: 'Niche Edits',
-          description: `Our niche edit business establishes contextual backlinks on existing, old content on related sites. These links are natural and authoritative, and they convey good SEO value to your site. 
-            Niche edits achieve better ranking and long-term link equity because they can be used to promote the existing page with its existing traffic and trust.`,
+          description: [`Our niche edit business establishes contextual backlinks on existing, old content on related sites. These links are natural and authoritative, and they convey good SEO value to your site.`, 
+            `Niche edits achieve better ranking and long-term link equity because they can be used to promote the existing page with its existing traffic and trust.`],
           linkHref: '#',
         },
 
         {
           icon: linkServices_5,
           title: 'Articles',
-          description: `Our article link building services involve creating, publishing and promoting high-quality content on relevant websites to earn backlinks, increase domain authority and boost search engine rankings. All these techniques serve as 'votes of confidence', signalling to search engines that your content is valuable, which increases page authority and rankings.  
-            Consistent, high-quality links establish your website as a trusted, authoritative source in your niche.`,
+          description: [`Our article link building services involve creating, publishing and promoting high-quality content on relevant websites to earn backlinks, increase domain authority and boost search engine rankings. All these techniques serve as 'votes of confidence', signalling to search engines that your content is valuable, which increases page authority and rankings.`,  
+            `Consistent, high-quality links establish your website as a trusted, authoritative source in your niche.`],
           linkHref: '#',
         },
       ],

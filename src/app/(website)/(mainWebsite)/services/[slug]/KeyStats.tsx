@@ -9,7 +9,7 @@ import keyStatsImg from '../../../../../../public/assets/keyStatsImg.png';
 import rocket from '../../../../../../public/assets/icons/rocket.svg';
 
 const KeyStats = ({ keyStats }: any) => {
-  const [activetab, setActiveTab] = useState(null);
+  const [activeTab, setActiveTab] = useState(0);
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
 
   return (
@@ -113,35 +113,57 @@ const KeyStats = ({ keyStats }: any) => {
               {keyStats?.list?.map((item: any, index: any) => (
                 <div
                   key={index}
-                  className="group flex w-[770px] cursor-pointer flex-col bg-[#FFF8ED] p-[2rem] transition-all duration-300 ease-in-out hover:border-r-[0.5rem] hover:border-[#FB9100] hover:bg-[#FB9100]/20"
+                  onMouseEnter={() => setActiveTab(index)}
+                  onMouseLeave={() => setActiveTab(0)}
+                  className={`group flex cursor-pointer flex-col lg:w-[49rem] p-4 lg:p-[2rem] transition-all duration-300 ease-in-out
+                  ${activeTab === index
+                      ? 'bg-[#FB9100]/20 border-r-[0.5rem] border-[#FB9100]'
+                      : 'bg-[#FFF8ED]'
+                    }`}
                 >
-                  {/* <div className="flex items-center gap-8 lg:gap-16 lg:text-left"> */}
                   <div
-                    className={`flex items-start gap-8 lg:items-center lg:gap-16 lg:text-left transition-all duration-700 ease-in-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                    className={`flex items-start gap-8 lg:items-center lg:gap-16 lg:text-left transition-all duration-700 ease-in-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
+                      }`}
                     style={{
-                      transitionDelay: `${index * 280}ms`, // 👈 stagger here
+                      transitionDelay: `${index * 280}ms`,
                     }}
                   >
-
                     <h2 className="transition-all duration-300 ease-in-out">
                       {`0${index + 1}`}
                     </h2>
 
-                    <p className="transition-all duration-300 ease-in-out group-hover:font-semibold lg:text-left">
+                    <p
+                      className={`transition-all duration-300 ease-in-out lg:text-left ${activeTab === index ? 'font-semibold' : ''
+                        }`}
+                    >
                       {item.desctioption}
                     </p>
                   </div>
                 </div>
-              ))}
+              ))
+              }
             </div>
 
-            <div className="group relative rounded-[20px] bg-[#FFF8ED]">
-              <Image
-                src={keyStats?.img}
-                alt="img"
-                fill
-                className="object-contain transition-transform duration-300 ease-out group-hover:scale-110"
-              />
+            <div className="group relative rounded-[20px] flex justify-center items-center bg-[#FFF8ED]">
+              <div
+                className={`flex justify-center items-center w-[100%] transition-all delay-200 duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-0 lg:translate-x-16 opacity-0'}`}
+              >
+                {/* <Image
+                  src={keyStats?.img}
+                  alt="img"
+                  fill
+                  className="object-contain transition-transform duration-300 ease-out group-hover:scale-110"
+                /> */}
+
+                <Image
+                  src={keyStats?.img}
+                  width={599}
+                  height={483}
+                  alt="img"
+                  className={`h-[10rem] w-[15rem] transition-opacity transition-transform duration-700 ease-in-out md:h-[20rem] md:w-[32rem] lg:h-[18rem] lg:w-[24rem] xl:h-[30.188rem] xl:w-[37.438rem] 1366:h-[23rem] 1366:w-[28rem] 1400:h-[25rem] 1400:w-[30rem] 1600:h-[26rem] 1600:w-[32rem] 1680:w-[35rem] 3xl:h-[30.188rem] 3xl:w-[37.438rem] `}
+                />
+              </div>
+
 
               {keyStats?.code === '02' && (
                 <Image
