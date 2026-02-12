@@ -235,7 +235,7 @@ const Banner = ({ banner }: any) => {
               </div>
             )}
             {banner?.code === '03' && (
-              <div className="relative z-10 block justify-between pt-[3rem] lg:flex lg:pb-[6rem] lg:pt-[9rem]">
+              <div className="relative z-10 block justify-between pt-[3rem] lg:flex">
                 <div
                   className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[45%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
                 >
@@ -323,28 +323,16 @@ const Banner = ({ banner }: any) => {
                       <div className="relative flex justify-end">
                         <Image
                           src={banner_img_1}
-                          width={599}
-                          height={483}
+                          width={563}
+                          height={388}
                           alt=""
-                          className={`aspect-[599/483] w-[clamp(12rem,70vw,20rem)] max-w-full transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(14rem,55vw,28rem)] lg:w-[clamp(15rem,32vw,37.438rem)] ${
+                          className={`aspect-[563/388] w-[clamp(18rem,35vw,35.5rem)] transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(18rem,55vw,55.5rem)] lg:w-[clamp(18rem,35vw,35.5rem)] ${
                             active === 'img1'
                               ? 'z-40 opacity-100'
                               : active
                                 ? 'opacity-40'
                                 : 'opacity-100'
                           }`}
-                        />
-                        <Image
-                          src={banner_img_1}
-                          fill
-                          alt=""
-                          className={`transition-opacity transition-transform duration-700 ease-in-out ${
-                            active === 'img1'
-                              ? 'z-40 opacity-100'
-                              : active
-                                ? 'opacity-40'
-                                : 'opacity-100'
-                          } `}
                         />
                       </div>
                     </div>
@@ -353,11 +341,11 @@ const Banner = ({ banner }: any) => {
                       width={302}
                       height={186}
                       alt=""
-                      className={`absolute top-[-5rem] h-[8rem] w-[12rem] transition-all duration-700 ease-in-out md:top-[-8rem] md:h-[10rem] md:w-[16rem] 1400:top-[25%] 3xl:top-[15%] ${
+                      className={`absolute left-[5%] top-[10%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(8rem,23vw,23.75rem)] lg:w-[clamp(8rem,13vw,13.75rem)] ${
                         isActive('img4')
-                          ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 translate-y-[20%] scale-105 opacity-100 md:translate-y-[40%] 1400:translate-y-[20%] 3xl:1400:translate-y-[50%]'
-                          : 'left-0 top-[25%] z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
-                      } `}
+                          ? 'left-1/2 top-1/2 z-40 translate-x-[105%] translate-y-[40%] scale-105 opacity-100'
+                          : 'z-10 translate-x-0 translate-y-0 scale-100'
+                      }`}
                     />
 
                     <Image
@@ -365,29 +353,29 @@ const Banner = ({ banner }: any) => {
                       width={302}
                       height={186}
                       alt=""
-                      className={`absolute bottom-[-10rem] right-[15%] h-[8rem] w-[12rem] transition-all duration-700 ease-in-out md:bottom-[-16rem] md:h-[10rem] md:w-[16rem] 1400:bottom-[5%] 1400:right-[20%] 3xl:bottom-0 3xl:right-[15%] ${
+                      className={`absolute bottom-[-15%] right-[20%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:bottom-[-10%] md:right-[20%] md:w-[clamp(8rem,23vw,23.75rem)] lg:bottom-[5] lg:right-[20%] lg:w-[clamp(8rem,13vw,13.75rem)] ${
                         isActive('img3')
-                          ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 -translate-y-1/2 scale-105 opacity-100 1400:translate-x-[-50%] 1400:translate-y-[-50%] 3xl:translate-y-[-50%]'
-                          : 'z-10 opacity-40'
-                      } `}
+                          ? 'left-1/2 top-1/2 z-40 -translate-x-[50%] -translate-y-[65%] scale-105 opacity-100 md:-translate-y-[65%] lg:-translate-y-[95%]'
+                          : 'z-10'
+                      }`}
                     />
                     <Image
                       src={banner_img_2}
-                      width={388}
-                      height={244}
+                      width={302}
+                      height={186}
                       alt=""
-                      className={`absolute right-0 top-[-10rem] h-[8rem] w-[12rem] transition-all duration-700 ease-in-out md:top-[-16rem] md:h-[10rem] md:w-[16rem] 1400:top-[5%] 3xl:right-0 3xl:top-0 ${
+                      className={`absolute right-[5%] top-[-15%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(8rem,23vw,23.75rem)] lg:w-[clamp(8rem,13vw,13.75rem)] ${
                         isActive('img2')
-                          ? 'left-1/2 top-1/2 z-40 -translate-x-1/2 translate-y-[80%] scale-105 opacity-100 md:translate-y-[100%] 1400:translate-x-[-50%] 1400:translate-y-[80%] 3xl:translate-y-[100%]'
-                          : 'z-10 opacity-40'
-                      } `}
+                          ? 'left-1/2 top-1/2 z-40 -translate-x-[50%] translate-y-[115%] scale-105'
+                          : 'z-10 translate-x-0 translate-y-0 scale-100'
+                      }`}
                     />
                   </div>
                 </div>
               </div>
             )}
             {banner?.code === '04' && (
-              <div className="relative z-10 block justify-between pt-[3rem] lg:flex lg:pb-[6rem] lg:pt-[9rem]">
+              <div className="relative z-10 block justify-between pt-[3rem] lg:flex">
                 <div
                   className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[45%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
                 >
