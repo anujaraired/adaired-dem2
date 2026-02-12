@@ -1112,8 +1112,8 @@ export const SERVICES_DATA = {
         {
           icon: ai_tool_1,
           title: 'ChatGPT SEO',
-          description: `We provide ChatGPT SEO solutions made to be AI discoverable. We ensure your content appears as a reliable, cited, and recommended source in the search results produced by the AI.\n
-        Our strategy ensures cross-industry visibility, drives high-intent user engagement, and positions your content high in the AI search.`,
+          description: [`We provide ChatGPT SEO solutions made to be AI discoverable. We ensure your content appears as a reliable, cited, and recommended source in the search results produced by the AI.`,
+            `Our strategy ensures cross-industry visibility, drives high-intent user engagement, and positions your content high in the AI search.`],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
         },
@@ -1121,8 +1121,8 @@ export const SERVICES_DATA = {
         {
           icon: ai_tool_2,
           title: 'Perplexity AI SEO',
-          description: `Our Perplexity AI SEO service integrates the basics of SEO with answer-engine formatting to optimize your content for recognition, trust, and visibility with AI search engines. \n
-        Through the combination of structured responses and content accessible to the AI, we enhance authority, engagement, and discoverability. This helps your brand appear in high-intent searches in the AI-based search results.`,
+          description: [`Our Perplexity AI SEO service integrates the basics of SEO with answer-engine formatting to optimize your content for recognition, trust, and visibility with AI search engines.`,
+            `Through the combination of structured responses and content accessible to the AI, we enhance authority, engagement, and discoverability. This helps your brand appear in high-intent searches in the AI-based search results.`],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
         },
@@ -1130,8 +1130,8 @@ export const SERVICES_DATA = {
         {
           icon: ai_tool_3,
           title: 'Gemini AI SEO',
-          description: `Our Gemini AI SEO services combine traditional SEO best practices with AI-first page structuring to make your content easily discoverable, cited, and trusted in Google's AI-powered Gemini search results. \n
-        We ensure that your pages stand out as authoritative answers, boosting visibility, credibility, and user engagement in an increasingly AI-powered search landscape.`,
+          description: [`Our Gemini AI SEO services combine traditional SEO best practices with AI-first page structuring to make your content easily discoverable, cited, and trusted in Google's AI-powered Gemini search results.`,
+            `We ensure that your pages stand out as authoritative answers, boosting visibility, credibility, and user engagement in an increasingly AI-powered search landscape.`],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
         },
@@ -1139,8 +1139,8 @@ export const SERVICES_DATA = {
         {
           icon: ai_tool_4,
           title: 'Grok AI SEO',
-          description: `Our Grok AI SEO helps to increase AI visibility, ensuring that insights are clear, authoritative, and easily discovered by Grok.   \n
-        With the help of our strategies, your brand gains citation, trust, and recognition, gaining authority in your industry and maximizing content to provide answers using AI, high-intent traffic, and meaningful engagement.`,
+          description: [`Our Grok AI SEO helps to increase AI visibility, ensuring that insights are clear, authoritative, and easily discovered by Grok.`,
+            `With the help of our strategies, your brand gains citation, trust, and recognition, gaining authority in your industry and maximizing content to provide answers using AI, high-intent traffic, and meaningful engagement.`],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
         },
@@ -1148,8 +1148,8 @@ export const SERVICES_DATA = {
         {
           icon: ai_tool_5,
           title: 'Answer Engine Optimization',
-          description: `Being one of the leaders in Answer Engine Optimization, Adaired integrates search engine AI with SEO best practices to ensure your site is answerable on ChatGPT, Gemini, and Perplexity. \n
-        We optimize content structure and relevance so that your pages gain recognition, credibility, and are continually surfaced by the AI-based search engines.`,
+          description: [`Being one of the leaders in Answer Engine Optimization, Adaired integrates search engine AI with SEO best practices to ensure your site is answerable on ChatGPT, Gemini, and Perplexity.`,
+            `We optimize content structure and relevance so that your pages gain recognition, credibility, and are continually surfaced by the AI-based search engines.`],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
         },
@@ -1157,8 +1157,8 @@ export const SERVICES_DATA = {
         {
           icon: ai_tool_6,
           title: 'Generative Engine Optimization',
-          description: `Our Generative Engine Optimization services combine the basics of SEO with answer-based structuring, so that your content is easily found, cited, and surfaced by Gemini, Claude, and other AI engines. \n
-        We position your brand as an authoritative source, boosting your visibility, trust, and engagement on AI-driven search engines, and optimize content to high-intent user search queries.`,
+          description: [`Our Generative Engine Optimization services combine the basics of SEO with answer-based structuring, so that your content is easily found, cited, and surfaced by Gemini, Claude, and other AI engines.`,
+            `We position your brand as an authoritative source, boosting your visibility, trust, and engagement on AI-driven search engines, and optimize content to high-intent user search queries.`],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
         },
@@ -1492,7 +1492,7 @@ brand appears in AI summaries and citations.`,
         {
           icon: linkServices_1,
           title: 'Citation Building',
-          description: [`Adaired’s citation-building service helps businesses establish consistent and accurate listings across trusted online directories. We make sure your business name, address, and phone number are consistent, which increases your local search visibility and credibility.`, 
+          description: [`Adaired’s citation-building service helps businesses establish consistent and accurate listings across trusted online directories. We make sure your business name, address, and phone number are consistent, which increases your local search visibility and credibility.`,
             `Powerful citations will boost the ranking of maps, increase brand awareness, and assist your customers in locating your business easily.`],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
@@ -1501,7 +1501,7 @@ brand appears in AI summaries and citations.`,
         {
           icon: linkServices_2,
           title: 'Guest Posts',
-          description: [`We ensure quality placements on niche-specific blogs and publications with our guest posting. All the posts are value-based and have natural backlinks that enhance your domain authority.`, 
+          description: [`We ensure quality placements on niche-specific blogs and publications with our guest posting. All the posts are value-based and have natural backlinks that enhance your domain authority.`,
             `Our attention is on the authentic outreach and editorial quality, which assist your brand in becoming visible, getting referral traffic, and achieving a sustainable change in SEO.`],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
@@ -1510,7 +1510,7 @@ brand appears in AI summaries and citations.`,
         {
           icon: linkServices_3,
           title: 'Press Releases',
-          description: [`Adaired creates and distributes SEO-optimized press releases that amplify the news of your brand in the authoritative media. The service contributes to the creation of backlinks, spreading brand awareness, and creating targeted attention.`, 
+          description: [`Adaired creates and distributes SEO-optimized press releases that amplify the news of your brand in the authoritative media. The service contributes to the creation of backlinks, spreading brand awareness, and creating targeted attention.`,
             `We professionally write our press releases to achieve credibility, reach, and measurable impact on your online presence.`],
           linkHref: '#',
         },
@@ -1518,7 +1518,7 @@ brand appears in AI summaries and citations.`,
         {
           icon: linkServices_4,
           title: 'Niche Edits',
-          description: [`Our niche edit business establishes contextual backlinks on existing, old content on related sites. These links are natural and authoritative, and they convey good SEO value to your site.`, 
+          description: [`Our niche edit business establishes contextual backlinks on existing, old content on related sites. These links are natural and authoritative, and they convey good SEO value to your site.`,
             `Niche edits achieve better ranking and long-term link equity because they can be used to promote the existing page with its existing traffic and trust.`],
           linkHref: '#',
         },
@@ -1526,7 +1526,7 @@ brand appears in AI summaries and citations.`,
         {
           icon: linkServices_5,
           title: 'Articles',
-          description: [`Our article link building services involve creating, publishing and promoting high-quality content on relevant websites to earn backlinks, increase domain authority and boost search engine rankings. All these techniques serve as 'votes of confidence', signalling to search engines that your content is valuable, which increases page authority and rankings.`,  
+          description: [`Our article link building services involve creating, publishing and promoting high-quality content on relevant websites to earn backlinks, increase domain authority and boost search engine rankings. All these techniques serve as 'votes of confidence', signalling to search engines that your content is valuable, which increases page authority and rankings.`,
             `Consistent, high-quality links establish your website as a trusted, authoritative source in your niche.`],
           linkHref: '#',
         },
@@ -2187,7 +2187,7 @@ brand appears in AI summaries and citations.`,
           img: AdairedHelp5,
           name: 'SEO-Optimized Development for Better Visibility',
           description: [
-            `A great website should also be easy to find. Adaired combines the best practices of SEO with the design and development.`, 
+            `A great website should also be easy to find. Adaired combines the best practices of SEO with the design and development.`,
             `Our clean code structure, quick load times, optimized layouts and content readiness, can both make your website rank higher and bring quality organic traffic to your site.`,
           ],
         },
@@ -2195,7 +2195,7 @@ brand appears in AI summaries and citations.`,
           img: AdairedHelp6,
           name: 'Ongoing Support and Continuous Improvement',
           description: [
-            `Our partnership doesn’t end at launch. Adaired offers continuous support, updates and performance enhancements to make your site up to date and efficient.`, 
+            `Our partnership doesn’t end at launch. Adaired offers continuous support, updates and performance enhancements to make your site up to date and efficient.`,
             `Whether it’s enhancements, troubleshooting, or feature upgrades, we work alongside you to ensure your website evolves with changing market trends and business needs.`,
           ],
         },
