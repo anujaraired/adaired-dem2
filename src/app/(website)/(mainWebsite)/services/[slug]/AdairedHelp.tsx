@@ -25,12 +25,12 @@ const AdairedHelp = ({ adairedHelp }: any) => {
         </div>
 
         {/* IMPORTANT: relative wrapper */}
-        <div className="relative flex flex-col lg:flex-row items-start gap-[3rem] pt-[3rem]">
+        <div className="relative flex flex-col lg:flex-row items-start gap-[5rem] pt-[3rem]">
           {/* LEFT IMAGE – STICKY */}
           <div className="lg:sticky top-[16rem] w-full lg:w-[40%]">
             <div
               ref={ref}
-              className={`group relative h-[22rem] md:h-[28rem] lg:h-[35rem] rounded-[20px] transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
+              className={`group relative w-full h-[22rem] sm:h-[26rem] md:h-[31rem] lg:h-[35rem] rounded-[20px] transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
             >
               <Image
                 src={adairedHelp?.img}
@@ -52,13 +52,14 @@ const AdairedHelp = ({ adairedHelp }: any) => {
                   transitionDelay: `${index * 280}ms`, // 👈 stagger here
                 }}
               >
-                <Image src={item?.img} width={32} height={32} alt="icon" />
+                <Image src={item?.img} width={40} height={40} alt="icon" />
 
-                <p className="pt-[1.5rem] font-bold text-center lg:text-left">{item?.name}</p>
+                {/* <p className="pt-[1.5rem] font-bold">{item?.name}</p> */}
+                <h3 className="pt-[1.5rem]">{item?.name}</h3>
 
                 <div className="pt-2">
                   {item?.description?.map((desc: string, i: number) => (
-                    <p key={i} className="my-2">
+                    <p key={i} className="my-3">
                       {desc}
                     </p>
                   ))}

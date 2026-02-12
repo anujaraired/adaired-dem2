@@ -4,7 +4,6 @@ import { ReactLenis } from '@core/utils/lenis';
 import whatsApp from '../../../public/assets/icons/whatsapp.png';
 import Image from 'next/image';
 import Link from 'next/link';
-
 export default function DefaulWebsitetLayout({
   children,
 }: {
@@ -17,7 +16,7 @@ export default function DefaulWebsitetLayout({
           <ReactLenis root>{children}</ReactLenis>
         </WebsiteLayout>
         <div className="fixed bottom-2 left-3 cursor-pointer">
-          <Link href="https://wa.me/8907300008" target="_blank">
+          <Link href="https://wa.me/918907300008" target="_blank">
             <Image
               src={whatsApp}
               width={55}

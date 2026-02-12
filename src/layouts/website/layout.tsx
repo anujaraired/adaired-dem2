@@ -26,8 +26,8 @@ export default function WebsiteLayout({
     <div className="relative flex min-h-dvh flex-col">
       {/* <Navbar /> */}
       <div
-        className={`fixed left-0 z-40 w-full transform transition-all duration-500 ease-out ${
-          scrolled ? 'translate-y-0 scale-100' : 'translate-y-4 scale-[0.98]'
+        className={`fixed left-0 z-50 w-full transition-all duration-500 ease-out ${
+          scrolled ? 'top-0' : 'top-4'
         }`}
       >
         <Header />

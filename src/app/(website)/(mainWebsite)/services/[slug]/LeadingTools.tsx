@@ -51,7 +51,7 @@ const LeadingTools = ({ leadingTools }: any) => {
           />
         </div>
 
-        <div className="grid grid-cols-2 gap-4 pt-[3rem] sm:grid-cols-3 lg:grid-cols-7">
+        <div className="grid grid-cols-2 gap-4 pt-[1rem] sm:grid-cols-3 lg:grid-cols-7">
           {data?.map((client, idx) => (
             <div
               key={idx}

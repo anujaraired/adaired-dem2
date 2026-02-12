@@ -36,7 +36,7 @@ import seo_tool_4 from '../../../../../../public/assets/icons/seotools/Group 100
 import seo_tool_5 from '../../../../../../public/assets/icons/seotools/Group 1000006002.svg';
 import seo_tool_6 from '../../../../../../public/assets/icons/seotools/Group 1000006003.svg';
 
-import HowAdairedHelp from '../../../../../../public/assets/WebDevelopment/HowAdairedHelp.png'
+import HowAdairedHelp from '../../../../../../public/assets/WebDevelopment/HowAdairedHelp.png';
 import adairedHelp_1 from '../../../../../../public/assets/adairedHelp/Group 1000006012.png';
 import adairedHelp_2 from '../../../../../../public/assets/adairedHelp/Group 1000006013.png';
 import adairedHelp_3 from '../../../../../../public/assets/adairedHelp/Group 1000006014.png';
@@ -121,7 +121,7 @@ import Everydayyouwait from '../../../../../../public/assets/aiseo/Everydayyouwa
 import keyStatsImg from '../../../../../../public/assets/images/SEO-keyword-ranking-software 1.png';
 import keyStatsImg2 from '../../../../../../public/assets/keyStatsImg.png';
 import WhatIsAuthorityLinkBuilding from '../../../../../../public/assets/images/WhatIsAuthorityLinkBuilding.png';
-import WhatAreService from '../../../../../../public/assets/images/WhatAreService.png'
+import WhatAreService from '../../../../../../public/assets/images/WhatAreService.png';
 
 export type SectionKey =
   | 'banner'
@@ -170,6 +170,7 @@ export const SERVICES_DATA = {
       'readyToStart',
     ] satisfies SectionKey[],
     banner: {
+      code: '02',
       isCenter: false,
       isVisible: true,
       heading: 'Increase Your',
@@ -795,6 +796,7 @@ export const SERVICES_DATA = {
       'readyToStart',
     ] satisfies SectionKey[],
     banner: {
+      code: '03',
       isCenter: false,
       isVisible: true,
       heading: 'Where AI Meets',
@@ -883,7 +885,8 @@ export const SERVICES_DATA = {
     },
     benefitofAiSeo: {
       isVisible: true,
-      bgColor: 'bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0]/70 to-[#FFF8F0]/30',
+      bgColor:
+        'bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0]/70 to-[#FFF8F0]/30',
       textColor: '#FB9100',
       textBg: '#FFE6C380',
       borderColor: '#FB910040',
@@ -1133,8 +1136,10 @@ export const SERVICES_DATA = {
         {
           icon: ai_tool_1,
           title: 'ChatGPT SEO',
-          description: [`We provide ChatGPT SEO solutions made to be AI discoverable. We ensure your content appears as a reliable, cited, and recommended source in the search results produced by the AI.`,
-          `Our strategy ensures cross-industry visibility, drives high-intent user engagement, and positions your content high in the AI search.`],
+          description: [
+            `We provide ChatGPT SEO solutions made to be AI discoverable. We ensure your content appears as a reliable, cited, and recommended source in the search results produced by the AI.`,
+            `Our strategy ensures cross-industry visibility, drives high-intent user engagement, and positions your content high in the AI search.`,
+          ],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
         },
@@ -1380,7 +1385,7 @@ brand appears in AI summaries and citations.`,
       desc: 'Our strategies are designed to help your business outrank competitors, attract more traffic, and achieve sustainable growth. Experience smarter SEO that not only ranks but accelerates your success.',
       subheading:
         'Ready to Build Topical Authority and Maximize Discoverability?',
-        button: 'Start Building Today',
+      button: 'Start Building Today',
     },
     keyStats: {
       isVisible: true,
@@ -1419,7 +1424,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       code: '01',
       img: WhatIsAuthorityLinkBuilding,
-      heading: 'What Is Authority ',
+      heading: 'What Is Authority',
       span: 'Link Building?',
       bgColor: '#FFFCF8',
       isBgWhite: true,
@@ -1516,9 +1521,10 @@ brand appears in AI summaries and citations.`,
         {
           icon: linkServices_1,
           title: 'Citation Building',
-          description: `Adaired’s citation-building service helps businesses establish consistent and accurate listings across trusted online directories. 
-            We make sure your business name, address, and phone number are consistent, which increases your local search visibility and credibility. 
-            Powerful citations will boost the ranking of maps, increase brand awareness, and assist your customers in locating your business easily.`,
+          description: [
+            `Adaired’s citation-building service helps businesses establish consistent and accurate listings across trusted online directories. We make sure your business name, address, and phone number are consistent, which increases your local search visibility and credibility.`,
+            `Powerful citations will boost the ranking of maps, increase brand awareness, and assist your customers in locating your business easily.`,
+          ],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
         },
@@ -1526,8 +1532,10 @@ brand appears in AI summaries and citations.`,
         {
           icon: linkServices_2,
           title: 'Guest Posts',
-          description: `We ensure quality placements on niche-specific blogs and publications with our guest posting. All the posts are value-based and have natural backlinks that enhance your domain authority. 
-            Our attention is on the authentic outreach and editorial quality, which assist your brand in becoming visible, getting referral traffic, and achieving a sustainable change in SEO.`,
+          description: [
+            `We ensure quality placements on niche-specific blogs and publications with our guest posting. All the posts are value-based and have natural backlinks that enhance your domain authority.`,
+            `Our attention is on the authentic outreach and editorial quality, which assist your brand in becoming visible, getting referral traffic, and achieving a sustainable change in SEO.`,
+          ],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
         },
@@ -1535,24 +1543,30 @@ brand appears in AI summaries and citations.`,
         {
           icon: linkServices_3,
           title: 'Press Releases',
-          description: `Adaired creates and distributes SEO-optimized press releases that amplify the news of your brand in the authoritative media. The service contributes to the creation of backlinks, spreading brand awareness, and creating targeted attention. 
-            We professionally write our press releases to achieve credibility, reach, and measurable impact on your online presence.`,
+          description: [
+            `Adaired creates and distributes SEO-optimized press releases that amplify the news of your brand in the authoritative media. The service contributes to the creation of backlinks, spreading brand awareness, and creating targeted attention.`,
+            `We professionally write our press releases to achieve credibility, reach, and measurable impact on your online presence.`,
+          ],
           linkHref: '#',
         },
 
         {
           icon: linkServices_4,
           title: 'Niche Edits',
-          description: `Our niche edit business establishes contextual backlinks on existing, old content on related sites. These links are natural and authoritative, and they convey good SEO value to your site. 
-            Niche edits achieve better ranking and long-term link equity because they can be used to promote the existing page with its existing traffic and trust.`,
+          description: [
+            `Our niche edit business establishes contextual backlinks on existing, old content on related sites. These links are natural and authoritative, and they convey good SEO value to your site.`,
+            `Niche edits achieve better ranking and long-term link equity because they can be used to promote the existing page with its existing traffic and trust.`,
+          ],
           linkHref: '#',
         },
 
         {
           icon: linkServices_5,
           title: 'Articles',
-          description: `Our article link building services involve creating, publishing and promoting high-quality content on relevant websites to earn backlinks, increase domain authority and boost search engine rankings. All these techniques serve as 'votes of confidence', signalling to search engines that your content is valuable, which increases page authority and rankings.  
-            Consistent, high-quality links establish your website as a trusted, authoritative source in your niche.`,
+          description: [
+            `Our article link building services involve creating, publishing and promoting high-quality content on relevant websites to earn backlinks, increase domain authority and boost search engine rankings. All these techniques serve as 'votes of confidence', signalling to search engines that your content is valuable, which increases page authority and rankings.`,
+            `Consistent, high-quality links establish your website as a trusted, authoritative source in your niche.`,
+          ],
           linkHref: '#',
         },
       ],
@@ -1931,6 +1945,7 @@ brand appears in AI summaries and citations.`,
       'readyToStart',
     ] satisfies SectionKey[],
     banner: {
+      code: '04',
       isCenter: false,
       isVisible: true,
       heading: 'Design That Builds Trust.',
@@ -2071,8 +2086,9 @@ brand appears in AI summaries and citations.`,
         {
           icon: WhatIncluded1,
           title: 'WordPress Development',
-          description: [`At Adaired, we provide powerful WordPress development services that are expected to take your digital presence to the next level. Our team breaks creative and technical limits to design and develop robust, high-performance, and SEO-optimized WordPress solutions.`, 
-          `From custom WordPress theme development and plugin customization to speed optimization, SEO implementation, and seamless third-party integrations, we deliver the end-to-end WordPress solutions to match the requirements of your business.`            
+          description: [
+            `At Adaired, we provide powerful WordPress development services that are expected to take your digital presence to the next level. Our team breaks creative and technical limits to design and develop robust, high-performance, and SEO-optimized WordPress solutions.`,
+            `From custom WordPress theme development and plugin customization to speed optimization, SEO implementation, and seamless third-party integrations, we deliver the end-to-end WordPress solutions to match the requirements of your business.`,
           ],
           linkText: 'Get Your Free Website Audit',
           linkHref: '#',
@@ -2081,7 +2097,9 @@ brand appears in AI summaries and citations.`,
         {
           icon: WhatIncluded2,
           title: 'Shopify Development',
-          description: [`Our online store development services can assist you in achieving the maximum for your online store, starting with consultation and design, development, deployment, and migration.`, `Being a successful Shopify development service partner, we provide high-performing, scalable, and tailored solutions that help shops perform better, increase their security, and build positive shopping experiences. You can count on us to increase your eCommerce business in a measurably meaningful way, whether you are opening another store or refining an already existing one.`            
+          description: [
+            `Our online store development services can assist you in achieving the maximum for your online store, starting with consultation and design, development, deployment, and migration.`,
+            `Being a successful Shopify development service partner, we provide high-performing, scalable, and tailored solutions that help shops perform better, increase their security, and build positive shopping experiences. You can count on us to increase your eCommerce business in a measurably meaningful way, whether you are opening another store or refining an already existing one.`,
           ],
           linkText: 'Get Your Free Website Audit',
           linkHref: '#',
@@ -2090,8 +2108,10 @@ brand appears in AI summaries and citations.`,
         {
           icon: WhatIncluded3,
           title: 'eCommerce Development',
-          description: [`Our 360 eCommerce solutions are all-inclusive and applicable to businesses of any size and sector. Our website development experts create eCommerce online websites that are intuitive, user-friendly, and designed to align with your brand name and profitability.`, `We develop custom experiences using recent technologies and the best practices in the industry and enhance customer engagement, conversion, and business expansion.`
-          ],          
+          description: [
+            `Our 360 eCommerce solutions are all-inclusive and applicable to businesses of any size and sector. Our website development experts create eCommerce online websites that are intuitive, user-friendly, and designed to align with your brand name and profitability.`,
+            `We develop custom experiences using recent technologies and the best practices in the industry and enhance customer engagement, conversion, and business expansion.`,
+          ],
           linkText: 'Get Your Free Website Audit',
           linkHref: '#',
         },
@@ -2099,7 +2119,9 @@ brand appears in AI summaries and citations.`,
         {
           icon: WhatIncluded4,
           title: 'Custom Web Development',
-          description: [`Our dedicated professionals offer web development services designed to be flexible, secure, and scalable with the development of your business. We develop feature-rich, high-performance websites to suit your specific needs, achieve maximum functionality, smooth user interfaces, and achieve scalability in the future.`, `All solutions that we develop are designed to help your business achieve its goals and bring long-term value.`           
+          description: [
+            `Our dedicated professionals offer web development services designed to be flexible, secure, and scalable with the development of your business. We develop feature-rich, high-performance websites to suit your specific needs, achieve maximum functionality, smooth user interfaces, and achieve scalability in the future.`,
+            `All solutions that we develop are designed to help your business achieve its goals and bring long-term value.`,
           ],
           linkText: 'Get Your Free Website Audit',
           linkHref: '#',
@@ -2202,7 +2224,8 @@ brand appears in AI summaries and citations.`,
           name: 'User-Centered and Conversion-Focused Approach',
           description: [
             `At Adaired, we prioritize user experience in every project. Our designs are user-friendly and intuitive and engagement friendly. 
-            With the knowledge of user behavior and customer journeys,`, `we create websites that take the user through their preferred path to the action they intend to take, be it to make a purchase, send an inquiry, or reserve a service.`,
+            With the knowledge of user behavior and customer journeys,`,
+            `we create websites that take the user through their preferred path to the action they intend to take, be it to make a purchase, send an inquiry, or reserve a service.`,
           ],
         },
         {
@@ -2226,7 +2249,7 @@ brand appears in AI summaries and citations.`,
           img: AdairedHelp5,
           name: 'SEO-Optimized Development for Better Visibility',
           description: [
-            `A great website should also be easy to find. Adaired combines the best practices of SEO with the design and development.`, 
+            `A great website should also be easy to find. Adaired combines the best practices of SEO with the design and development.`,
             `Our clean code structure, quick load times, optimized layouts and content readiness, can both make your website rank higher and bring quality organic traffic to your site.`,
           ],
         },
@@ -2234,7 +2257,7 @@ brand appears in AI summaries and citations.`,
           img: AdairedHelp6,
           name: 'Ongoing Support and Continuous Improvement',
           description: [
-            `Our partnership doesn’t end at launch. Adaired offers continuous support, updates and performance enhancements to make your site up to date and efficient.`, 
+            `Our partnership doesn’t end at launch. Adaired offers continuous support, updates and performance enhancements to make your site up to date and efficient.`,
             `Whether it’s enhancements, troubleshooting, or feature upgrades, we work alongside you to ensure your website evolves with changing market trends and business needs.`,
           ],
         },
@@ -2247,7 +2270,8 @@ brand appears in AI summaries and citations.`,
       img: BeautifulDesign,
       heading: 'Beautiful Design Meets Smart Development.',
       // span: '2026 and Beyond',
-      description: ``,
+      description:
+        'We build websites that captivate users and convert clicks into customers',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [
@@ -2260,8 +2284,10 @@ brand appears in AI summaries and citations.`,
 
     whatMkeDeferent: {
       isVisible: true,
-      heading: 'What Makes Adaired Stand Out As The Best Website Design & Development Service Provider?',
-      description: ['At Adaired, we help businesses create attractive and functional website to help them reach their potential customers worldwide, enhancing turnover, driving next-level growths and making you stand out from the crowd. '
+      heading:
+        'What Makes Adaired Stand Out As The Best Website Design & Development Service Provider?',
+      description: [
+        'At Adaired, we help businesses create attractive and functional website to help them reach their potential customers worldwide, enhancing turnover, driving next-level growths and making you stand out from the crowd. ',
       ],
       list: [
         {
@@ -2384,8 +2410,7 @@ brand appears in AI summaries and citations.`,
     stopStruggling: {
       isVisible: true,
       subtitle: '',
-      title:
-        'Every Successful Website Starts with a Clear Strategy.',
+      title: 'Every Successful Website Starts with a Clear Strategy.',
       button: 'Schedule a Strategy Call',
       description: `Schedule a strategy call and let’s build a digital presence aligned with your business goals.`,
       bgImg: stop_struggle2,

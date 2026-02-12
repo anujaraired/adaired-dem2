@@ -32,7 +32,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
           {importantToBussiness?.data?.map((item: any, idx: number) => {
             return (
               <div
-                className={`rounded-[1rem] bg-[#F9F9F9] p-[2rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                className={`my-[1.5rem] rounded-[1rem] bg-[#F9F9F9] p-[2rem] transition-all duration-700 lg:my-0 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
                 style={{
                   transitionDelay: `${idx * 280}ms`, // 👈 stagger here
                 }}
