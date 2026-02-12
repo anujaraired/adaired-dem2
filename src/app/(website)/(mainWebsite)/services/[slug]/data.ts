@@ -1455,6 +1455,11 @@ brand appears in AI summaries and citations.`,
     // NEW
     benefitofAiSeo: {
       isVisible: true,
+      bgColor:
+        'bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0]/70 to-[#FFF8F0]/30',
+      textColor: '#FB9100',
+      textBg: '#FFE6C380',
+      borderColor: '#FB910040',
       heading: 'How Adaired Helps You With Authority Link Building Services',
       description: [``],
       list: [
