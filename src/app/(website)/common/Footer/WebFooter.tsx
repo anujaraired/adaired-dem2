@@ -60,7 +60,7 @@ const WebFooter = () => {
                   priority
                 />
               </Link>
-              <p className="mt-6 font-poppins text-xs font-normal text-[#FFFFFF]">
+              <p className="mt-6 text-left text-[#FFFFFF]">
                 AdAired Digital Media is a digital marketing company located in
                 Mohali. We are a team of marketing and design experts who are
                 committed to your online growth.{' '}
@@ -292,7 +292,7 @@ const WebFooter = () => {
           </div> */}
         </MaxWidthWrapper>
       </footer>
-      <MaxWidthWrapper>
+      {/* <MaxWidthWrapper>
         <div className="flex flex-col-reverse items-center justify-center bg-white py-1 text-center text-black md:flex-row md:justify-center">
           <div className="font text-xxs">
             Copyright © {new Date().getFullYear()} - AdAired Digital Media
@@ -303,7 +303,7 @@ const WebFooter = () => {
             <Link href="/privacy-policy">Privacy Policy</Link>
           </div>
         </div>
-      </MaxWidthWrapper>
+      </MaxWidthWrapper> */}
     </>
   );
 };

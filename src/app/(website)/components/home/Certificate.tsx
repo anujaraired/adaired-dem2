@@ -10,7 +10,7 @@
   import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
   const Certificate = () => {
-    const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+    const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
     const certificates = [
       certificate_1,
       certificate_2,
@@ -26,7 +26,7 @@
     return (
       <section
         ref={ref}
-        className={'bg-[#F9F9F9] py-[3rem] lg:py-[4rem] xl:py-[6rem]'}
+        className={'bg-[#F9F9F9] py-[3rem] lg:pt-[4rem] lg:pb-[3rem]'}
       >
         {/* viewport */}
 
@@ -48,7 +48,7 @@
           </div>
 
           <div
-            className={`w-full overflow-hidden pt-[4rem] transition-all delay-200 duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'} `}
+            className={`w-full overflow-hidden pt-[1.5rem] transition-all delay-200 duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'} `}
           >
             {/* sliding track */}
             <div className="flex w-max animate-marquee gap-[7rem] md:bg-transparent md:py-0">

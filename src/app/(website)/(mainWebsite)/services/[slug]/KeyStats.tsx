@@ -13,7 +13,7 @@ const KeyStats = ({ keyStats }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
 
   return (
-    <div ref={ref} className="py-[6rem]">
+    <div ref={ref} className="py-[3rem] lg:py-[4rem]">
       <MaxWidthWrapper>
         <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
@@ -93,7 +93,7 @@ const KeyStats = ({ keyStats }: any) => {
                     />
                   )}
 
-                  <div className="flex items-center flex-col lg:flex-row md:flex-row gap-8 py-4 lg:gap-16">
+                  <div className="flex flex-col items-center gap-8 py-4 md:flex-row lg:flex-row lg:gap-16">
                     <div className="mx-2.5 flex w-[50px] justify-center">
                       <span className="text-4xl font-normal text-[#FB9100] md:text-4xl">
                         {String(index + 1).padStart(2, '0')}
@@ -120,6 +120,7 @@ const KeyStats = ({ keyStats }: any) => {
                       ? 'bg-[#FB9100]/20 border-r-[0.5rem] border-[#FB9100]'
                       : 'bg-[#FFF8ED]'
                     }`}
+                  // className="group flex w-[770px] cursor-pointer flex-col bg-[#FFF8ED] p-[2rem] transition-all duration-300 ease-in-out hover:border-r-[0.5rem] hover:border-[#FB9100] hover:bg-[#FB9100]/20"
                 >
                   <div
                     className={`flex items-start gap-8 lg:items-center lg:gap-16 lg:text-left transition-all duration-700 ease-in-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'

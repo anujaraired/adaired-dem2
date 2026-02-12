@@ -42,7 +42,6 @@ const Banner = ({ banner }: any) => {
       ref={ref}
       className="animate-pulse relative h-[100vh] w-full pt-[10vh] md:h-[115vh] lg:h-fit"
     >
-      
       <Image
         src={hero_banner}
         fill

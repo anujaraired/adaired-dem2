@@ -132,7 +132,7 @@ export const routes: {
 
         {
           name: 'Search Engine Optimization (SEO)',
-          href: '/services/search-engine-optimization',
+          href: '/services/seo-company-india',
           subItems: [
             {
               name: 'Technical SEO Analysis',
@@ -250,39 +250,39 @@ export const routes: {
 
         {
           name: 'Content Marketing',
-          href: '/services/compelling-content-marketing',
+          href: '/expert-content-solutions',
           subItems: [
             {
               name: 'Content Audit',
-              href: '/services/compelling-content-marketing',
+              href: '/expert-content-solutions',
             },
             {
               name: 'Blogs & Articles',
-              href: '/services/compelling-content-marketing',
+              href: '/expert-content-solutions',
             },
             {
               name: 'Social Media Posts',
-              href: '/services/compelling-content-marketing',
+              href: '/expert-content-solutions',
             },
             {
               name: 'Infographics',
-              href: '/services/compelling-content-marketing',
+              href: '/expert-content-solutions',
             },
             {
               name: 'Email Marketing Draft',
-              href: '/services/compelling-content-marketing',
+              href: '/expert-content-solutions',
             },
             {
               name: 'Website Copies',
-              href: '/services/compelling-content-marketing',
+              href: '/expert-content-solutions',
             },
             {
               name: 'Guest Posting',
-              href: '/services/compelling-content-marketing',
+              href: '/expert-content-solutions',
             },
             {
               name: 'Google Business Profile Posts',
-              href: '/services/compelling-content-marketing',
+              href: '/expert-content-solutions',
             },
           ],
         },
