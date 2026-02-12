@@ -13,7 +13,7 @@ import google_review from '../../../../../../public/image 54.png';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import { useRouter } from 'next/navigation';
-
+import web_development_banner_img from '../../../../../../public/assets/web_development_banner_img.png';
 const Banner = ({ banner }: any) => {
   const router = useRouter();
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
@@ -45,9 +45,9 @@ const Banner = ({ banner }: any) => {
         priority
         className="pointer-events-none object-fill lg:object-cover"
       />
-      <MaxWidthWrapper className="py-[6rem]">
+      <MaxWidthWrapper className="">
         {banner?.isCenter ? (
-          <div className="relative z-10 block justify-center lg:flex 1400:py-[9rem] 3xl:py-[14rem]">
+          <div className="relative z-10 block justify-center pb-[6rem] pt-[9rem] lg:flex">
             <div
               className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[60%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
             >
@@ -94,7 +94,7 @@ const Banner = ({ banner }: any) => {
         ) : (
           <div>
             {banner?.code === '02' && (
-              <div className="relative z-10 block justify-between pt-[3rem] lg:flex">
+              <div className="relative z-10 block justify-between pb-[6rem] pt-[9rem] lg:flex">
                 <div
                   className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[45%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
                 >
@@ -170,7 +170,7 @@ const Banner = ({ banner }: any) => {
                   </div>
                 </div>
                 <div
-                  className={`relative mt-[5rem] w-[100%] transition-all delay-200 duration-1000 lg:mt-0 lg:w-[50%] lg:pt-0 ${
+                  className={`relative my-auto mt-[4rem] w-[100%] transition-all delay-200 duration-1000 lg:w-[50%] lg:pt-0 ${
                     isVisible
                       ? 'translate-x-0 opacity-100'
                       : 'translate-x-16 opacity-0'
@@ -234,7 +234,7 @@ const Banner = ({ banner }: any) => {
               </div>
             )}
             {banner?.code === '03' && (
-              <div className="relative z-10 block justify-between pt-[3rem] lg:flex">
+              <div className="relative z-10 block justify-between pb-[6rem] pt-[9rem] lg:flex">
                 <div
                   className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[45%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
                 >
@@ -311,7 +311,7 @@ const Banner = ({ banner }: any) => {
                 </div>
 
                 <div
-                  className={`relative mt-[5rem] w-[100%] transition-all delay-200 duration-1000 lg:mt-0 lg:w-[50%] lg:pt-0 ${
+                  className={`relative my-auto w-[100%] transition-all delay-200 duration-1000 lg:mt-0 lg:w-[50%] ${
                     isVisible
                       ? 'translate-x-0 opacity-100'
                       : 'translate-x-16 opacity-0'
@@ -409,20 +409,20 @@ const Banner = ({ banner }: any) => {
               </div>
             )}
             {banner?.code === '04' && (
-              <div className="relative z-10 block justify-between pt-[3rem] lg:flex">
+              <div className="relative z-10 block justify-between pb-[0rem] pt-[9rem] lg:flex lg:pb-0 lg:pt-0">
                 <div
-                  className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[45%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
+                  className={`my-auto w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[45%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
                 >
                   <div
                     className={`'grid lg:gap-[10rem]'} grid-cols-1 lg:grid-cols-2`}
                   >
                     <div className="md:flex` block justify-center justify-items-center gap-3 lg:justify-start lg:justify-items-start">
                       <div className="mt-[0.8rem] !w-[100%] md:mt-[8px] lg:mt-[0.5rem]">
-                        <h1 className="text-center capitalize lg:text-left">
-                          {banner?.heading}
-                        </h1>
                         <h1 className="text-center capitalize text-[#FB9100] lg:text-left">
-                          {banner?.label}
+                          {banner?.heading}{' '}
+                          <span className="font-poppins text-[clamp(1.8rem,3vw,3.75rem)] font-bold capitalize leading-[clamp(2.5rem,3.65vw,4.65rem)] text-[#000000]">
+                            {banner?.label}
+                          </span>
                         </h1>
                       </div>
                     </div>
@@ -448,44 +448,20 @@ const Banner = ({ banner }: any) => {
                       name={banner?.button}
                       isIcon={true}
                       handleClick={() => router.push('/contact')}
-                      // className="w-[18rem] lg:w-[14rem]"
-                      className={`w-[${banner?.width}] lg:w-[${banner?.widthLg}]`}
+                      buttonWidth="!w-[18rem]"
                     />
                   </div>
-                  <div className="flex justify-center gap-3 pt-[2rem] lg:justify-start">
-                    <a
-                      href="https://www.google.com/partners/agency?id=7775339798"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src={google_rate}
-                        width={135}
-                        height={58}
-                        alt="Upwork"
-                        className="cursor-pointer"
-                      />
-                    </a>
-
-                    <div className="mx-2 my-auto h-[3.5rem] w-0.5 bg-[#000000]/20"></div>
-
-                    <a
-                      href="https://www.upwork.com/agencies/1064740584575918080/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Image
-                        src={google_review}
-                        width={150}
-                        height={67}
-                        alt="Google Reviews"
-                        className="cursor-pointer"
-                      />
-                    </a>
-                  </div>
                 </div>
-
-                <div
+                <div className="pb-[6rem] pt-[9rem]">
+                  <Image
+                    src={web_development_banner_img}
+                    width={800}
+                    height={600}
+                    alt="Web Development Banner"
+                    className=""
+                  />
+                </div>
+                {/* <div
                   className={`relative mt-[5rem] w-[100%] transition-all delay-200 duration-1000 lg:mt-0 lg:w-[50%] lg:pt-0 ${
                     isVisible
                       ? 'translate-x-0 opacity-100'
@@ -557,7 +533,7 @@ const Banner = ({ banner }: any) => {
                       } `}
                     />
                   </div>
-                </div>
+                </div> */}
               </div>
             )}
           </div>
