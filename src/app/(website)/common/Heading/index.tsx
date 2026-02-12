@@ -168,7 +168,7 @@ const Heading = ({
       ) : (
         <div>
           {isInCenter ? (
-            <div className="">
+            <div className=" ">
               <div className="md:flex` w- block gap-3">
                 {isLabel && (
                   <div className="flex justify-center">
@@ -191,7 +191,7 @@ const Heading = ({
                     </div>
                   </div>
                 )}
-                <div className="mt-[1px] md:mt-[15px]">
+                <div className="">
                   {isH1 ? (
                     <h1
                       className={`capitalize ${isBgWhite ? 'text-[#111111]' : 'text-[#FFFFFF]'} text-center`}

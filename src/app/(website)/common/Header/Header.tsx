@@ -214,10 +214,10 @@ const Header = () => {
       </MaxWidthWrapper>
 
       {show && (
-        <div className="fixed inset-0 z-[999] lg:hidden">
+        <div className="fixed inset-0 z-[40] lg:hidden">
           {/* OVERLAY */}
           <div
-            className="absolute inset-0 bg-black/60"
+            className="absolute inset-0 w-[40rem] h-[40rem] bg-black/60"
             onClick={() => {
               setShow(false);
               setLevel(0);
