@@ -36,16 +36,17 @@ const Banner = ({ banner }: any) => {
   return (
     <div
       ref={ref}
-      className="animate-pulse relative h-[100vh] w-full pt-[10vh] md:h-[115vh] lg:h-fit"
+      // className="animate-pulse relative h-[100vh] w-full pt-[10vh] md:h-[115vh] lg:h-fit"
+      className="relative mx-auto w-full overflow-hidden pt-[5vh] lg:pt-[10vh]"
     >
       <Image
         src={hero_banner}
         fill
         alt="hero bg"
         priority
-        className="pointer-events-none object-cover"
+        className="pointer-events-none object-fill lg:object-cover"
       />
-      <MaxWidthWrapper>
+      <MaxWidthWrapper className="py-[6rem]">
         {banner?.isCenter ? (
           <div className="relative z-10 block justify-center lg:flex 1400:py-[9rem] 3xl:py-[14rem]">
             <div
@@ -94,7 +95,7 @@ const Banner = ({ banner }: any) => {
         ) : (
           <div>
             {banner?.code === '02' && (
-              <div className="relative z-10 block justify-between pt-[3rem] lg:flex lg:pb-[6rem] lg:pt-[9rem]">
+              <div className="relative z-10 block justify-between pt-[3rem] lg:flex">
                 <div
                   className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[45%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
                 >
@@ -185,7 +186,7 @@ const Banner = ({ banner }: any) => {
                           width={563}
                           height={388}
                           alt=""
-                          className={`aspect-[563/388] w-[clamp(18rem,45vw,35.5rem)] transition-opacity transition-transform duration-700 ease-in-out ${
+                          className={`aspect-[563/388] w-[clamp(18rem,35vw,35.5rem)] transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(18rem,55vw,55.5rem)] lg:w-[clamp(18rem,35vw,35.5rem)] ${
                             active === 'img1'
                               ? 'z-40 opacity-100'
                               : active
@@ -200,7 +201,7 @@ const Banner = ({ banner }: any) => {
                       width={302}
                       height={186}
                       alt=""
-                      className={`absolute left-[5%] top-[10%] aspect-[220/143] w-[clamp(8rem,28vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out ${
+                      className={`absolute left-[5%] top-[10%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(8rem,23vw,23.75rem)] lg:w-[clamp(8rem,13vw,13.75rem)] ${
                         isActive('img4')
                           ? 'left-1/2 top-1/2 z-40 translate-x-[105%] translate-y-[40%] scale-105 opacity-100'
                           : 'z-10 translate-x-0 translate-y-0 scale-100'
@@ -212,9 +213,9 @@ const Banner = ({ banner }: any) => {
                       width={302}
                       height={186}
                       alt=""
-                      className={`absolute bottom-[5] right-[20%] aspect-[220/143] w-[clamp(8rem,28vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out ${
+                      className={`absolute bottom-[-15%] right-[20%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:bottom-[-10%] md:right-[20%] md:w-[clamp(8rem,23vw,23.75rem)] lg:bottom-[5] lg:right-[20%] lg:w-[clamp(8rem,13vw,13.75rem)] ${
                         isActive('img3')
-                          ? 'left-1/2 top-1/2 z-40 -translate-x-[50%] -translate-y-[95%] scale-105 opacity-100'
+                          ? 'left-1/2 top-1/2 z-40 -translate-x-[50%] -translate-y-[65%] scale-105 opacity-100 md:-translate-y-[65%] lg:-translate-y-[95%]'
                           : 'z-10'
                       }`}
                     />
@@ -223,7 +224,7 @@ const Banner = ({ banner }: any) => {
                       width={302}
                       height={186}
                       alt=""
-                      className={`absolute right-[5%] top-[-15%] aspect-[220/143] w-[clamp(8rem,28vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out ${
+                      className={`absolute right-[5%] top-[-15%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(8rem,23vw,23.75rem)] lg:w-[clamp(8rem,13vw,13.75rem)] ${
                         isActive('img2')
                           ? 'left-1/2 top-1/2 z-40 -translate-x-[50%] translate-y-[115%] scale-105'
                           : 'z-10 translate-x-0 translate-y-0 scale-100'

@@ -63,15 +63,9 @@ const KeyStats = ({ keyStats }: any) => {
           </div>
         )}
         {keyStats?.code === '02' && (
-          <div className="grid grid-cols-1 items-start justify-items-center gap-5 pt-[3rem] md:grid-cols-[45%_50%] lg:gap-16">
-            <div className="relative h-[450px] w-full md:h-[600px] lg:h-[700px]">
-              <Image
-                src={keyStatsImg}
-                alt="img"
-                fill
-                className="object-contain"
-              />
-
+          <div className="grid grid-cols-1 items-stretch gap-5 pt-[3rem] lg:grid-cols-[45%_50%] lg:gap-[6rem]">
+            <div className="relative aspect-[4/3] lg:aspect-auto md:h-full md:w-full">
+              <Image src={keyStatsImg} alt="img" fill className="object-fill" />
               <Image
                 src={rocket}
                 width={115}
@@ -80,7 +74,6 @@ const KeyStats = ({ keyStats }: any) => {
                 className="left-[0.5 rem] absolute top-[-1rem]"
               />
             </div>
-
             <div className="mt-7 space-y-4">
               {keyStats?.list?.map((item: any, index: any) => (
                 <div key={index} className="flex flex-col">
@@ -108,22 +101,25 @@ const KeyStats = ({ keyStats }: any) => {
           </div>
         )}
         {keyStats?.code === '03' && (
-          <div className="relative grid grid-cols-1 gap-8 lg:gap-[6rem] lg:grid-cols-2">
+          <div className="relative grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-[6rem]">
             <div className="mt-7 rounded-[20px]">
               {keyStats?.list?.map((item: any, index: any) => (
                 <div
                   key={index}
                   onMouseEnter={() => setActiveTab(index)}
                   onMouseLeave={() => setActiveTab(0)}
-                  className={`group flex cursor-pointer flex-col lg:w-[49rem] p-4 lg:p-[2rem] transition-all duration-300 ease-in-out
-                  ${activeTab === index
-                      ? 'bg-[#FB9100]/20 border-r-[0.5rem] border-[#FB9100]'
+                  className={`group flex cursor-pointer flex-col p-4 transition-all duration-300 ease-in-out lg:w-[49rem] lg:p-[2rem] ${
+                    activeTab === index
+                      ? 'border-r-[0.5rem] border-[#FB9100] bg-[#FB9100]/20'
                       : 'bg-[#FFF8ED]'
-                    }`}
+                  }`}
                 >
                   <div
-                    className={`flex items-start gap-8 lg:items-center lg:gap-16 lg:text-left transition-all duration-700 ease-in-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
-                      }`}
+                    className={`flex items-start gap-8 transition-all duration-700 ease-in-out lg:items-center lg:gap-16 lg:text-left ${
+                      isVisible
+                        ? 'translate-y-0 opacity-100'
+                        : 'translate-y-10 opacity-0'
+                    }`}
                     style={{
                       transitionDelay: `${index * 280}ms`,
                     }}
@@ -133,20 +129,20 @@ const KeyStats = ({ keyStats }: any) => {
                     </h2>
 
                     <p
-                      className={`transition-all duration-300 ease-in-out lg:text-left ${activeTab === index ? 'font-semibold' : ''
-                        }`}
+                      className={`transition-all duration-300 ease-in-out lg:text-left ${
+                        activeTab === index ? 'font-semibold' : ''
+                      }`}
                     >
                       {item.desctioption}
                     </p>
                   </div>
                 </div>
-              ))
-              }
+              ))}
             </div>
 
-            <div className="group relative rounded-[20px] flex justify-center items-center bg-[#FFF8ED]">
+            <div className="group relative flex items-center justify-center rounded-[20px] bg-[#FFF8ED]">
               <div
-                className={`flex justify-center items-center w-[100%] transition-all delay-200 duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-0 lg:translate-x-16 opacity-0'}`}
+                className={`flex w-[100%] items-center justify-center transition-all delay-200 duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-0 opacity-0 lg:translate-x-16'}`}
               >
                 {/* <Image
                   src={keyStats?.img}
@@ -160,10 +156,9 @@ const KeyStats = ({ keyStats }: any) => {
                   width={599}
                   height={483}
                   alt="img"
-                  className={`h-[10rem] w-[15rem] transition-opacity transition-transform duration-700 ease-in-out md:h-[20rem] md:w-[32rem] lg:h-[18rem] lg:w-[24rem] xl:h-[30.188rem] xl:w-[37.438rem] 1366:h-[23rem] 1366:w-[28rem] 1400:h-[25rem] 1400:w-[30rem] 1600:h-[26rem] 1600:w-[32rem] 1680:w-[35rem] 3xl:h-[30.188rem] 3xl:w-[37.438rem] `}
+                  className={`h-[10rem] w-[15rem] transition-opacity transition-transform duration-700 ease-in-out md:h-[20rem] md:w-[32rem] lg:h-[18rem] lg:w-[24rem] xl:h-[30.188rem] xl:w-[37.438rem] 1366:h-[23rem] 1366:w-[28rem] 1400:h-[25rem] 1400:w-[30rem] 1600:h-[26rem] 1600:w-[32rem] 1680:w-[35rem] 3xl:h-[30.188rem] 3xl:w-[37.438rem]`}
                 />
               </div>
-
 
               {keyStats?.code === '02' && (
                 <Image
@@ -174,15 +169,17 @@ const KeyStats = ({ keyStats }: any) => {
                   className="left-[0.5 rem] absolute top-[-1rem]"
                 />
               )}
-
             </div>
           </div>
         )}
 
         {keyStats?.code === '04' && (
           <div
-            className={`grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 transition-all duration-700 py-[3rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
-              }`}
+            className={`grid grid-cols-1 gap-4 py-[3rem] transition-all duration-700 sm:grid-cols-2 lg:grid-cols-4 ${
+              isVisible
+                ? 'translate-y-0 opacity-100'
+                : 'translate-y-10 opacity-0'
+            }`}
           >
             {keyStats?.list?.map((item: any, idx: number) => (
               <div
@@ -192,13 +189,11 @@ const KeyStats = ({ keyStats }: any) => {
                   transitionDelay: `${idx * 200}ms`,
                 }}
               >
-                <h2 className="w-fit mx-auto lg:mx-0 px-3 py-1 text-[#FB9100] font-normal F28F17 rounded-xl border border-[#F28F17]/10 bg-[#FFEACD]">
+                <h2 className="F28F17 mx-auto w-fit rounded-xl border border-[#F28F17]/10 bg-[#FFEACD] px-3 py-1 font-normal text-[#FB9100] lg:mx-0">
                   {`0${idx + 1}`}
                 </h2>
 
-                <h3 className="pt-14">
-                  {item?.description}
-                </h3>
+                <h3 className="pt-14">{item?.description}</h3>
               </div>
             ))}
           </div>
