@@ -174,7 +174,33 @@ const KeyStats = ({ keyStats }: any) => {
                   className="left-[0.5 rem] absolute top-[-1rem]"
                 />
               )}
+
             </div>
+          </div>
+        )}
+
+        {keyStats?.code === '04' && (
+          <div
+            className={`grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 transition-all duration-700 py-[3rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
+              }`}
+          >
+            {keyStats?.list?.map((item: any, idx: number) => (
+              <div
+                key={idx}
+                className="flex flex-col items-center rounded-[1rem] border border-[#F28F17]/20 p-5 text-center transition-all duration-700 lg:items-start lg:text-left"
+                style={{
+                  transitionDelay: `${idx * 200}ms`,
+                }}
+              >
+                <h2 className="w-fit mx-auto lg:mx-0 px-3 py-1 text-[#FB9100] font-normal F28F17 rounded-xl border border-[#F28F17]/10 bg-[#FFEACD]">
+                  {`0${idx + 1}`}
+                </h2>
+
+                <h3 className="pt-14">
+                  {item?.description}
+                </h3>
+              </div>
+            ))}
           </div>
         )}
       </MaxWidthWrapper>
