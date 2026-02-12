@@ -91,42 +91,6 @@ const AISEOSolutions = ({ whatIncluded }: any) => {
               ))}
             </div>
           )}
-          <div className="grid grid-cols-1 gap-6 pt-[1rem] lg:grid-cols-3">
-            {whatIncluded?.list?.map((card: any, index: number) => (
-              <div
-                key={index}
-                className={`relative rounded-2xl border bg-[#F3F3F3] px-[2rem] pb-[4rem] pt-[2rem] transition-all duration-1000 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:duration-300 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
-                style={{
-                  transitionDelay: isVisible ? '0ms' : `${index * 280}ms`,
-                }}
-              >
-                <div className="">
-                  <div className="flex items-center justify-center lg:justify-start lg:justify-items-start">
-                    <Image src={card.icon} alt="" width={60} height={60} />
-                  </div>
-
-                  <h3 className="py-[1.5rem]">{card.title}</h3>
-
-                  <div className="space-y-4">
-                    {card.description?.map((desc: string, index: number) => (
-                      <p key={index} className="leading-relaxed">
-                        {desc}
-                      </p>
-                    ))}
-                  </div>
-
-                  <a
-                    href={card.linkHref}
-                    className="absolute bottom-[2rem] flex w-full items-center justify-center gap-2 lg:justify-start"
-                  >
-                    <span>{'Get Your Free AI SEO Audit'}</span>
-                    <MdOutlineArrowOutward />
-                  </a>
-                </div>
-              </div>
-            ))}
-            {whatIncluded?.isFetureProofVisible && <FutureProof />}
-          </div>
         </div>
       </MaxWidthWrapper>
     </section>

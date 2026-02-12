@@ -1706,7 +1706,7 @@ brand appears in AI summaries and citations.`,
     // NEW
     buildlinks: {
       isVisible: true,
-      code: '01',
+      isCode01: false,
       img: LinkBuilding,
       heading: 'Build Links That Work for Your Business in',
       span: '2026 and Beyond',
@@ -2266,7 +2266,7 @@ brand appears in AI summaries and citations.`,
 
     buildlinks: {
       isVisible: true,
-      code: '02',
+      isCode01: true,
       img: BeautifulDesign,
       heading: 'Beautiful Design Meets Smart Development.',
       // span: '2026 and Beyond',
