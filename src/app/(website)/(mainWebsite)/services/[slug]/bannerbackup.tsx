@@ -14,7 +14,7 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import { useRouter } from 'next/navigation';
 
-const Banner = ({ banner }: any) => {
+const bannerbackup = ({ banner }: any) => {
   const router = useRouter();
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
   const images = ['img1', 'img2', 'img3', 'img4'] as const;
@@ -36,6 +36,7 @@ const Banner = ({ banner }: any) => {
   return (
     <div
       ref={ref}
+      // className="animate-pulse relative h-[100vh] w-full pt-[10vh] md:h-[115vh] lg:h-fit"
       className="relative mx-auto w-full overflow-hidden pt-[5vh] lg:pt-[10vh]"
     >
       <Image
@@ -169,6 +170,7 @@ const Banner = ({ banner }: any) => {
                     </a>
                   </div>
                 </div>
+
                 <div
                   className={`relative mt-[5rem] w-[100%] transition-all delay-200 duration-1000 lg:mt-0 lg:w-[50%] lg:pt-0 ${
                     isVisible
@@ -192,43 +194,42 @@ const Banner = ({ banner }: any) => {
                                 : 'opacity-100'
                           }`}
                         />
-
-                        <Image
-                          src={banner_img_4}
-                          width={302}
-                          height={186}
-                          alt=""
-                          className={`absolute left-[-10%] top-[15%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(8rem,23vw,23.75rem)] lg:w-[clamp(8rem,13vw,13.75rem)] ${
-                            isActive('img4')
-                              ? 'left-1/2 top-1/2 z-40 translate-x-[105%] translate-y-[40%] scale-105 opacity-100'
-                              : 'z-10 translate-x-0 translate-y-0 scale-100'
-                          }`}
-                        />
-
-                        <Image
-                          src={banner_img_3}
-                          width={302}
-                          height={186}
-                          alt=""
-                          className={`absolute bottom-[-15%] right-[10%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:bottom-[-10%] md:right-[10%] md:w-[clamp(8rem,23vw,23.75rem)] lg:bottom-[-14%] lg:right-[10%] lg:w-[clamp(8rem,13vw,13.75rem)] ${
-                            isActive('img3')
-                              ? 'left-1/2 top-1/2 z-40 -translate-x-[50%] -translate-y-[50%] scale-105 opacity-100 md:-translate-y-[65%] lg:-translate-y-[50%]'
-                              : 'z-10'
-                          }`}
-                        />
-                        <Image
-                          src={banner_img_2}
-                          width={302}
-                          height={186}
-                          alt=""
-                          className={`absolute right-[-10%] top-[-15%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:top-[-15%] md:w-[clamp(8rem,23vw,23.75rem)] lg:top-[-12%] lg:w-[clamp(8rem,13vw,13.75rem)] ${
-                            isActive('img2')
-                              ? 'left-1/2 top-1/2 z-40 -translate-x-[50%] translate-y-[115%] scale-105'
-                              : 'z-10 translate-x-0 translate-y-0 scale-100'
-                          }`}
-                        />
                       </div>
                     </div>
+                    <Image
+                      src={banner_img_4}
+                      width={302}
+                      height={186}
+                      alt=""
+                      className={`absolute left-[5%] top-[10%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(8rem,23vw,23.75rem)] lg:w-[clamp(8rem,13vw,13.75rem)] ${
+                        isActive('img4')
+                          ? 'left-1/2 top-1/2 z-40 translate-x-[105%] translate-y-[40%] scale-105 opacity-100'
+                          : 'z-10 translate-x-0 translate-y-0 scale-100'
+                      }`}
+                    />
+
+                    <Image
+                      src={banner_img_3}
+                      width={302}
+                      height={186}
+                      alt=""
+                      className={`absolute bottom-[-15%] right-[20%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:bottom-[-10%] md:right-[20%] md:w-[clamp(8rem,23vw,23.75rem)] lg:bottom-[5] lg:right-[20%] lg:w-[clamp(8rem,13vw,13.75rem)] ${
+                        isActive('img3')
+                          ? 'left-1/2 top-1/2 z-40 -translate-x-[50%] -translate-y-[65%] scale-105 opacity-100 md:-translate-y-[65%] lg:-translate-y-[95%]'
+                          : 'z-10'
+                      }`}
+                    />
+                    <Image
+                      src={banner_img_2}
+                      width={302}
+                      height={186}
+                      alt=""
+                      className={`absolute right-[5%] top-[-15%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(8rem,23vw,23.75rem)] lg:w-[clamp(8rem,13vw,13.75rem)] ${
+                        isActive('img2')
+                          ? 'left-1/2 top-1/2 z-40 -translate-x-[50%] translate-y-[115%] scale-105'
+                          : 'z-10 translate-x-0 translate-y-0 scale-100'
+                      }`}
+                    />
                   </div>
                 </div>
               </div>
@@ -567,4 +568,4 @@ const Banner = ({ banner }: any) => {
   );
 };
 
-export default Banner;
+export default bannerbackup;
