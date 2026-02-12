@@ -49,7 +49,7 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
               isIcon={true}
               isBgWhite={true}
               handleClick={() => setOpen(!open)}
-              className="my-[2rem] w-[19rem]"
+              className="my-[2rem] w-[16rem]"
             />
           )}
         </div>

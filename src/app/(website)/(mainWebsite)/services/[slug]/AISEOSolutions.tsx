@@ -61,7 +61,7 @@ const AISEOSolutions = ({ whatIncluded }: any) => {
               {whatIncluded?.list?.map((card: any, index: number) => (
                 <div
                   key={index}
-                  className={`relative h-[49rem] lg:h-[43rem] rounded-2xl border bg-[#F3F3F3] p-[2.5rem] transition-all duration-1000 1400:h-[46rem] 1440:h-[38rem] 1470:h-[35rem] 1600:h-[36rem] 1710:h-[37rem] 3xl:h-[35rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                  className={`relative h-[51rem] lg:h-[43rem] rounded-2xl border bg-[#F3F3F3] p-[2.5rem] transition-all duration-1000 1400:h-[38rem] 1440:h-[38rem] 1470:h-[37rem] 1600:h-[36rem] 1710:h-[37rem] 3xl:h-[35rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
                   style={{
                     transitionDelay: `${index * 280}ms`, // 👈 stagger here
                   }}

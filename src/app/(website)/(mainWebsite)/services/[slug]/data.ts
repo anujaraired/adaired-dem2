@@ -2422,7 +2422,7 @@ brand appears in AI summaries and citations.`,
       subtitle: '',
       title: 'Every Successful Website Starts with a Clear Strategy.',
       button: 'Schedule a Strategy Call',
-      description: `Schedule a strategy call and let’s build a digital presence aligned with your business goals.`,
+      description: `Schedule a strategy call and let’s build a digital presence aligned\n with your business goals.`,
       bgImg: stop_struggle2,
     },
 
