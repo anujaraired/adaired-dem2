@@ -14,7 +14,7 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
 
   return (
     <div
-      className={`${whatareaiseo?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8] py-[3rem] lg:py-[4rem]'}`}
+      className={`${whatareaiseo?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8] py-[3rem] lg:py-[4rem]'} h-[800px] lg:h-[550px] flex items-center mb-0 lg:mb-[4rem]`}
     >
       <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2">
         <div
@@ -57,8 +57,8 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
         >
           <Image
             src={whatareaiseo?.img}
-            width={602}
-            height={50}
+            width={902}
+            height={500}
             className="transition-transform duration-300 ease-out group-hover:scale-110"
             alt=""
           />

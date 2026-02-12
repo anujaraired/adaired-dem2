@@ -14,7 +14,7 @@ const BuildLinks = ({ buildlinks }: any) => {
 
   return (
     <div
-      className={`${buildlinks?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8]'}`}
+      className={`${buildlinks?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8]'} py-[3rem] lg:py-[4rem]`}
     >
       <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2">
         <div

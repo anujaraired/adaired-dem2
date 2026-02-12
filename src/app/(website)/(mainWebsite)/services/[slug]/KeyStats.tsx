@@ -109,7 +109,7 @@ const KeyStats = ({ keyStats }: any) => {
         )}
         {keyStats?.code === '03' && (
           <div className="relative grid grid-cols-1 gap-8 lg:gap-[6rem] lg:grid-cols-2">
-            <div className="mt-7 rounded-[20px]">
+            <div className="order-2 lg:order-1 mt-7 rounded-[20px]">
               {keyStats?.list?.map((item: any, index: any) => (
                 <div
                   key={index}
@@ -120,7 +120,6 @@ const KeyStats = ({ keyStats }: any) => {
                       ? 'bg-[#FB9100]/20 border-r-[0.5rem] border-[#FB9100]'
                       : 'bg-[#FFF8ED]'
                     }`}
-                  // className="group flex w-[770px] cursor-pointer flex-col bg-[#FFF8ED] p-[2rem] transition-all duration-300 ease-in-out hover:border-r-[0.5rem] hover:border-[#FB9100] hover:bg-[#FB9100]/20"
                 >
                   <div
                     className={`flex items-start gap-8 lg:items-center lg:gap-16 lg:text-left transition-all duration-700 ease-in-out ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
@@ -145,7 +144,7 @@ const KeyStats = ({ keyStats }: any) => {
               }
             </div>
 
-            <div className="group relative rounded-[20px] flex justify-center items-center bg-[#FFF8ED]">
+            <div className="order-1 lg:order-2 group relative rounded-[20px] flex justify-center items-center bg-[#FFF8ED]">
               <div
                 className={`flex justify-center items-center w-[100%] transition-all delay-200 duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-0 lg:translate-x-16 opacity-0'}`}
               >
@@ -161,7 +160,7 @@ const KeyStats = ({ keyStats }: any) => {
                   width={599}
                   height={483}
                   alt="img"
-                  className={`h-[10rem] w-[15rem] transition-opacity transition-transform duration-700 ease-in-out md:h-[20rem] md:w-[32rem] lg:h-[18rem] lg:w-[24rem] xl:h-[30.188rem] xl:w-[37.438rem] 1366:h-[23rem] 1366:w-[28rem] 1400:h-[25rem] 1400:w-[30rem] 1600:h-[26rem] 1600:w-[32rem] 1680:w-[35rem] 3xl:h-[30.188rem] 3xl:w-[37.438rem] `}
+                  className={`group-hover:scale-110 h-[10rem] w-[15rem] transition-opacity transition-transform duration-700 ease-in-out md:h-[20rem] md:w-[32rem] lg:h-[18rem] lg:w-[24rem] xl:h-[30.188rem] xl:w-[37.438rem] 1366:h-[23rem] 1366:w-[28rem] 1400:h-[25rem] 1400:w-[30rem] 1600:h-[26rem] 1600:w-[32rem] 1680:w-[35rem] 3xl:h-[30.188rem] 3xl:w-[37.438rem] `}
                 />
               </div>
 

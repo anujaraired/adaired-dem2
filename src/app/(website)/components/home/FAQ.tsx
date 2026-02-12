@@ -59,7 +59,7 @@ const FAQ = ({ faqs }: any) => {
               <div
                 key={idx}
                 onClick={() => toggleFAQ(idx)}
-                className={`flex cursor-pointer rounded-2xl border-[2px] border-black/20 p-4 transition-all duration-700 lg:px-6 lg:py-4 ${
+                className={`flex gap-4 cursor-pointer rounded-2xl border-[2px] border-black/20 p-4 transition-all duration-700 lg:px-6 lg:py-4 ${
                   isVisible
                     ? 'translate-y-0 opacity-100'
                     : 'translate-y-10 opacity-0'
@@ -107,7 +107,7 @@ const FAQ = ({ faqs }: any) => {
           })}
 
           {/* Load More Button */}
-          {faqs?.list?.length > 6 && (
+          {faqs?.list?.length > 5 && (
             <div className="flex justify-center">
               <SaveAndCancel
                 name={
