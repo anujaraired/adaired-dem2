@@ -42,8 +42,11 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
           </div>
         </div>
         <div className="pt-[1rem]">
-          {whatMkeDeferent?.list?.map((item: any, idx: number) => {
-            const isOrange = idx % 2 === 0;
+          {/* {whatMkeDeferent?.list?.map((item: any, idx: number) => {
+            const isOrange = idx % 2 === 0; */}
+
+          {whatMkeDeferent?.list?.map((item: any, idx: any) => {
+            const isOrange = whatMkeDeferent?.reverseColor ? idx % 2 !== 0 : idx % 2 === 0;
             return (
               <div
                 style={{

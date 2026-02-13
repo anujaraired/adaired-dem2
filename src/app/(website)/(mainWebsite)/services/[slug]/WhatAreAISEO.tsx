@@ -62,7 +62,7 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
             src={whatareaiseo?.img}
             width={602}
             height={50}
-            className={`transition-transform duration-300 ease-out group-hover:scale-110 ${isCode01 ? "absolute bottom-0" : ""}`}
+            className={`transition-transform duration-300 ease-out group-hover:scale-110 ${isCode01 ? "lg:absolute lg:bottom-0 pt-[4rem] lg:pt-0" : ""}`}
             alt=""
           />
         </div>

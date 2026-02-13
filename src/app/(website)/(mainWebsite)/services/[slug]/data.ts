@@ -581,6 +581,7 @@ export const SERVICES_DATA = {
     },
     whatMkeDeferent: {
       isVisible: true,
+      reverseColor: false,
       heading: 'What Makes Adaired Different From Our Competitors?',
       description: [
         `At Adaired, we have a clear plan for building your search engine optimization strategy. Starting with understanding your goals clearly to analyzing where you are losing search visibility, we do all the legwork to help your business uncover quick wins.`,
@@ -1073,6 +1074,7 @@ export const SERVICES_DATA = {
     },
     whatMkeDeferent: {
       isVisible: true,
+      reverseColor: false,
       heading: 'What Makes Adaired Different From Our Competitors?',
       description: [],
       list: [
@@ -1731,6 +1733,7 @@ brand appears in AI summaries and citations.`,
     // NEW
     whatMkeDeferent: {
       isVisible: true,
+      reverseColor: false,
       heading: 'What Makes Adaired Different From Our Competitors?',
       description: [],
       list: [
@@ -2296,6 +2299,7 @@ brand appears in AI summaries and citations.`,
 
     whatMkeDeferent: {
       isVisible: true,
+      reverseColor: true,
       heading:
         'What Makes Adaired Stand Out As The Best Website Design & Development Service Provider?',
       description: [
