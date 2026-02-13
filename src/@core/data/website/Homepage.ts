@@ -727,7 +727,7 @@ export const ServiceSectionData = {
       title: 'Web Design & Development',
       description:
         'Responsive, intuitive, and high-performing websites that increase engagement, enhance usability, and deliver real, measurable results.',
-      link: '/services/web-design-and-development-services',
+      link: '/services/web-design-development-company',
       list: [
         {
           icon: wordpress,
@@ -751,7 +751,7 @@ export const ServiceSectionData = {
           label: 'eCommerce Web Development',
           title: 'eCommerce Web Development',
           description: `Transform your online business with our eCommerce Web Development services. We create responsive, secure, and user-friendly websites tailored to your brand, optimized for performance and conversions. From product catalogs to payment gateways, our solutions drive sales, enhance customer experience, and help your business thrive in the digital marketplace.`,
-          link: '/services/web-design-and-development-services',
+          link: '/services/web-design-development-company',
         },
         {
           icon: html,
@@ -759,7 +759,7 @@ export const ServiceSectionData = {
           label: 'Custom Web Development',
           title: 'Custom Web Development',
           description: `Bring your vision to life with our Custom Web Development services. We design and build tailored websites that meet your unique business needs, ensuring responsive design, seamless functionality, and scalability. Our solutions enhance user experience, boost performance, and provide a strong digital presence to help your business grow online.`,
-          link: '/services/web-design-and-development-services',
+          link: '/services/web-design-development-company',
         },
       ],
       mainSvg: 'Logo Design_PpqcI',
@@ -768,7 +768,7 @@ export const ServiceSectionData = {
     },
     {
       title: 'Mobile App Development',
-      link: '/services/web-design-and-development-services',
+      link: '/services/web-design-development-company',
       description:
         'We help you create high-performing mobile apps. Our team manages design, development, and deployment, delivering apps that engage users and grow your business.',
       list: [
@@ -778,7 +778,7 @@ export const ServiceSectionData = {
           label: 'iOS Development',
           title: 'iOS Development',
           description: `We specialize in iOS App Development, creating seamless, high-performing apps for iPhone and iPad. From design and coding to testing and deployment, we handle everything under your brand, helping you deliver quality apps while retaining full client ownership.`,
-          link: '/services/web-design-and-development-services',
+          link: '/services/web-design-development-company',
         },
         {
           icon: app_2,
@@ -786,7 +786,7 @@ export const ServiceSectionData = {
           label: 'Android App Development',
           title: 'Android App Development',
           description: `At Adaired, we specialize in Android App Development, building high-performing, user-friendly apps for all Android devices. From design and coding to testing and deployment, we handle everything under your brand, helping you deliver apps while retaining full client ownership.`,
-          link: '/services/web-design-and-development-services',
+          link: '/services/web-design-development-company',
         },
         {
           icon: app_3,
@@ -794,7 +794,7 @@ export const ServiceSectionData = {
           label: 'Cross-Platform',
           title: 'Cross-Platform',
           description: `At Adaired, we specialize in Cross-Platform App Development, creating apps that work flawlessly on both iOS and Android. From design and coding to testing and deployment, we handle the technical work under your brand, helping you deliver quality apps and scale your business effortlessly.`,
-          link: '/services/web-design-and-development-services',
+          link: '/services/web-design-development-company',
         },
         {
           icon: app_4,
@@ -802,7 +802,7 @@ export const ServiceSectionData = {
           label: 'Wearables',
           title: 'Wearables',
           description: `We specialize in Wearable App Development at Adaired, creating apps for smartwatches, fitness trackers, and other wearable devices. From design to development and integration, we deliver seamless, high-performing apps under your brand, helping you enhance user engagement, provide real-time data, and expand your digital offerings effortlessly.`,
-          link: '/services/web-design-and-development-services',
+          link: '/services/web-design-development-company',
         },
       ],
       mainSvg: 'Logo Design_PpqcI',
