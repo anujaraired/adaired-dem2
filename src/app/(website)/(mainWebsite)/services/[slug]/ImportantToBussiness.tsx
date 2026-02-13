@@ -7,6 +7,7 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import DottedLine from '../../../../../../public/assets/Line 28.png';
 import keyStatsImg from '../../../../../../public/assets/keyStatsImg.png';
 import rocket from '../../../../../../public/assets/icons/rocket.svg';
+import { MdOutlineArrowOutward } from 'react-icons/md';
 
 const ImportantToBussiness = ({ importantToBussiness }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
@@ -32,7 +33,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
           {importantToBussiness?.data?.map((item: any, idx: number) => {
             return (
               <div
-                className={`my-[1.5rem] rounded-[1rem] bg-[#F9F9F9] p-[2rem] transition-all duration-700 lg:my-0 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                className={`relative my-[1.5rem] rounded-[1rem] bg-[#F9F9F9] p-[2rem] transition-all duration-700 lg:my-0 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
                 style={{
                   transitionDelay: `${idx * 280}ms`, // 👈 stagger here
                 }}
@@ -58,6 +59,17 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
                     return <p className="py-3">{dec}</p>;
                   })}
                 </div>
+
+                {importantToBussiness?.buttonName && (
+                  <a
+                    href=""
+                    className="absolute text-[#FB9100] bottom-[2rem] left-[0rem] flex w-full items-center justify-center gap-2 lg:left-[2rem] lg:justify-start"
+                  >
+                    <span>{importantToBussiness.buttonName}</span>
+                    <MdOutlineArrowOutward />
+                  </a>
+                )}
+
               </div>
             );
           })}

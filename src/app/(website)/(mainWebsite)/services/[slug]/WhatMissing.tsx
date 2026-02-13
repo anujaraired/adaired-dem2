@@ -18,10 +18,19 @@ const WhatMissing = ({ whatMissing }: any) => {
                     <Heading
                         breakIndex={7}
                         title={whatMissing?.heading}
-                        description={whatMissing?.description}
                         isInCenter={true}
                         isBgWhite={true}
                     />
+                    <div className=''>
+                        {whatMissing?.description?.map((item: any, idx: number) => {
+                            return (
+                                <p key={idx} className="py-2">
+                                    {item}
+                                </p>
+                            );
+                        })}
+                    </div>
+
                     <div className="grid grid-cols-1 gap-6 pt-[3rem] lg:grid-cols-3">
                         {whatMissing?.list?.map((card: any, index: number) => (
                             <div

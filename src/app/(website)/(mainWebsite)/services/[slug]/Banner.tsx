@@ -455,6 +455,7 @@ const Banner = ({ banner }: any) => {
                 <div className="pb-[6rem] pt-[9rem]">
                   <Image
                     src={web_development_banner_img}
+                    // src={banner?.bgImg}
                     width={800}
                     height={600}
                     alt="Web Development Banner"
