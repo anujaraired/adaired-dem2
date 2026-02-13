@@ -64,7 +64,7 @@ const KeyStats = ({ keyStats }: any) => {
         )}
         {keyStats?.code === '02' && (
           <div className="grid grid-cols-1 items-stretch gap-5 pt-[3rem] lg:grid-cols-[45%_50%] lg:gap-[6rem]">
-            <div className="relative aspect-[4/3] lg:aspect-auto md:h-full md:w-full">
+            <div className="relative aspect-[4/3] md:h-full md:w-full lg:aspect-auto">
               <Image src={keyStatsImg} alt="img" fill className="object-fill" />
               <Image
                 src={rocket}
@@ -101,8 +101,8 @@ const KeyStats = ({ keyStats }: any) => {
           </div>
         )}
         {keyStats?.code === '03' && (
-          <div className="relative grid grid-cols-1 gap-8 lg:gap-[6rem] lg:grid-cols-2">
-            <div className="order-2 lg:order-1 mt-7 rounded-[20px]">
+          <div className="relative grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-[6rem]">
+            <div className="order-2 mt-7 rounded-[20px] lg:order-1">
               {keyStats?.list?.map((item: any, index: any) => (
                 <div
                   key={index}
@@ -140,7 +140,7 @@ const KeyStats = ({ keyStats }: any) => {
               ))}
             </div>
 
-            <div className="order-1 lg:order-2 group relative rounded-[20px] flex justify-center items-center bg-[#FFF8ED]">
+            <div className="group relative order-1 flex items-center justify-center rounded-[20px] bg-[#FFF8ED] lg:order-2">
               <div
                 className={`flex w-[100%] items-center justify-center transition-all delay-200 duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-0 opacity-0 lg:translate-x-16'}`}
               >
@@ -156,7 +156,7 @@ const KeyStats = ({ keyStats }: any) => {
                   width={599}
                   height={483}
                   alt="img"
-                  className={`group-hover:scale-110 h-[10rem] w-[15rem] transition-opacity transition-transform duration-700 ease-in-out md:h-[20rem] md:w-[32rem] lg:h-[18rem] lg:w-[24rem] xl:h-[30.188rem] xl:w-[37.438rem] 1366:h-[23rem] 1366:w-[28rem] 1400:h-[25rem] 1400:w-[30rem] 1600:h-[26rem] 1600:w-[32rem] 1680:w-[35rem] 3xl:h-[30.188rem] 3xl:w-[37.438rem] `}
+                  className={`h-[10rem] w-[15rem] transition-opacity transition-transform duration-700 ease-in-out group-hover:scale-110 md:h-[20rem] md:w-[32rem] lg:h-[18rem] lg:w-[24rem] xl:h-[30.188rem] xl:w-[37.438rem] 1366:h-[23rem] 1366:w-[28rem] 1400:h-[25rem] 1400:w-[30rem] 1600:h-[26rem] 1600:w-[32rem] 1680:w-[35rem] 3xl:h-[30.188rem] 3xl:w-[37.438rem]`}
                 />
               </div>
 
@@ -172,10 +172,9 @@ const KeyStats = ({ keyStats }: any) => {
             </div>
           </div>
         )}
-
         {keyStats?.code === '04' && (
           <div
-            className={`grid grid-cols-1 gap-4 py-[3rem] transition-all duration-700 sm:grid-cols-2 lg:grid-cols-4 ${
+            className={`grid grid-cols-1 gap-4 pt-[1rem] transition-all duration-700 md:grid-cols-2 lg:grid-cols-4 ${
               isVisible
                 ? 'translate-y-0 opacity-100'
                 : 'translate-y-10 opacity-0'
@@ -193,9 +192,7 @@ const KeyStats = ({ keyStats }: any) => {
                   {`0${idx + 1}`}
                 </h2>
 
-                <h3 className="pt-10">
-                  {item?.description}
-                </h3>
+                <h3 className="pt-10">{item?.description}</h3>
               </div>
             ))}
           </div>
