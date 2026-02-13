@@ -180,7 +180,7 @@ const KeyStats = ({ keyStats }: any) => {
             {keyStats?.list?.map((item: any, idx: number) => (
               <div
                 key={idx}
-                className="flex flex-col items-center rounded-[1rem] border border-[#F28F17]/20 p-5 text-center overflow-hidden lg:items-start lg:text-left transition-all duration-700 transition-transform hover:duration-400 hover:shadow-xl hover:-translate-y-4 hover:bg-gradient-to-br from-[#ebf8ff] via-[#FFFFFF] to-[#FEEDD6]"
+                className="flex flex-col items-center rounded-[1rem] border border-[#F28F17]/20 p-5 text-center overflow-hidden lg:items-start lg:text-left transition-all duration-700 transition-transform hover:duration-400 hover:shadow-xl hover:-translate-y-4 hover:bg-gradient-to-br from-[#ebf8ff] via-[#FFFFFF] to-[#fffaf0]"
 
                 // style={{ transitionDelay: `${idx * 200}ms` }}
                 style={{
