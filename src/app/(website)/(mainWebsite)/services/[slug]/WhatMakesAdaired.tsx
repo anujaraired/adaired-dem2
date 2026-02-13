@@ -44,12 +44,16 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
         <div className="pt-[1rem]">
           {whatMkeDeferent?.list?.map((item: any, idx: number) => {
             const isOrange = idx % 2 === 0;
+            const shouldUseOrange =
+              whatMkeDeferent?.isVariant === '02' ? !isOrange : isOrange;
             return (
               <div
                 style={{
                   transitionDelay: `${idx * 120}ms`,
                 }}
-                className={`mt-[2rem] flex flex-col justify-between gap-10 rounded-[20px] p-[2rem] transition-all duration-700 lg:flex-row lg:gap-0 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${isOrange ? 'bg-[#FB9100]/5' : 'bg-[#F9F9F9]'}`}
+                className={`mt-[2rem] flex flex-col justify-between gap-10 rounded-[20px] p-[2rem] transition-all duration-700 lg:flex-row lg:gap-0 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${
+                  shouldUseOrange ? 'bg-[#FB9100]/5' : 'bg-[#F9F9F9]'
+                }`}
               >
                 <div className="order-2 my-auto w-[100%] lg:order-1 lg:w-[50%]">
                   <h3>{item?.name}</h3>

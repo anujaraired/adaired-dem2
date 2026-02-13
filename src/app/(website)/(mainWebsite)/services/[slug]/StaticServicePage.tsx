@@ -1,18 +1,17 @@
 'use client';
 
 import React from 'react';
-import { useParams } from 'next/navigation';
 import NotFound from '@/app/not-found';
 
 import Banner from './Banner';
 import KeyStats from './KeyStats';
-import WhatAreAISEO from './WhatAreAISEO';
-import NeedOfAISEO from './NeedOfAISEO';
+import WhatAreService from './WhatAreService';
+import NeedOfAdaired from './NeedOfAdaired';
 import BenefitofAiSEO from './BenefitofAiSEO';
-import AISEOResult from './AISEOResult';
+import AdairedServiceResult from './AdairedServiceResult';
 import NotSeeingResults from './NotSeeingResults';
 import AdairedHelp from './AdairedHelp';
-import BuildLinks from './BuildLinks';
+import BookAConsultation from './BookAConsultation';
 import IndustryLeaders from './IndustryLeaders';
 import Stopstruggling from './Stopstruggling';
 import LeadingTools from './LeadingTools';
@@ -71,12 +70,12 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
 
   whatareservice: (serviceData) =>
     serviceData.whatareservice?.isVisible ? (
-      <WhatAreAISEO whatareaiseo={serviceData.whatareservice} />
+      <WhatAreService whatareaiseo={serviceData.whatareservice} />
     ) : null,
 
   needofservice: (serviceData) =>
     serviceData.needofservice?.isVisible ? (
-      <NeedOfAISEO needOfService={serviceData.needofservice} />
+      <NeedOfAdaired needOfService={serviceData.needofservice} />
     ) : null,
 
   importantToBussiness: (serviceData) =>
@@ -93,12 +92,12 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
 
   buildlinks: (serviceData) =>
     serviceData.buildlinks?.isVisible ? (
-      <BuildLinks buildlinks={serviceData.buildlinks} />
+      <BookAConsultation buildlinks={serviceData.buildlinks} />
     ) : null,
 
   serviceResult: (serviceData) =>
     serviceData.serviceResult?.isVisible ? (
-      <AISEOResult aiseoResult={serviceData.serviceResult} />
+      <AdairedServiceResult aiseoResult={serviceData.serviceResult} />
     ) : null,
 
   notSeeingResult: (serviceData) =>
@@ -113,8 +112,6 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
 
   industryOrLeadingTools: (serviceData) =>
     serviceData.industryLeaders?.isVisible ? <IndustryLeaders /> : null,
-
-  // <LeadingTools leadingTools={serviceData.leadingTools} />
 
   leadingTools: (serviceData) =>
     serviceData.leadingTools?.isVisible ? (

@@ -6,7 +6,7 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import imgCorner from '../../../../../../public/assets/images/authLinkBuilding.png';
 import Mask from '../../../../../../public/assets/images/home/Mask group.png';
 
-const NeedOfAISEO = ({ needOfService }: any) => {
+const NeedOfAdaired = ({ needOfService }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
 
   return (
@@ -76,4 +76,4 @@ const NeedOfAISEO = ({ needOfService }: any) => {
   );
 };
 
-export default NeedOfAISEO;
+export default NeedOfAdaired;

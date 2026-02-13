@@ -120,8 +120,8 @@ import NotSeeingResult from '../../../../../../public/assets/aiseo/NotSeeingResu
 import Everydayyouwait from '../../../../../../public/assets/aiseo/Everydayyouwait.png';
 import keyStatsImg from '../../../../../../public/assets/images/SEO-keyword-ranking-software 1.png';
 import keyStatsImg2 from '../../../../../../public/assets/keyStatsImg.png';
-import WhatIsAuthorityLinkBuilding from '../../../../../../public/assets/images/WhatIsAuthorityLinkBuilding.png';
-import WhatAreService from '../../../../../../public/assets/images/WhatAreService.png';
+import WhatIsAuthorityLinkBuilding from '../../../../../../public/assets/images/link_builng_img.png';
+import WhatAreService from '../../../../../../public/assets/images/Development_Services.png';
 
 import webDevelopmentBannerBg from '../../../../../../public/assets/web_development_banner_img.png';
 
@@ -233,7 +233,7 @@ export const SERVICES_DATA = {
     },
     whatareservice: {
       isVisible: true,
-      code: '01',
+      isVariant: '01',
       img: what_are_ai_seo2,
       heading: 'What Are SEO Services?',
       bgColor: '#FFFFFF',
@@ -362,7 +362,7 @@ export const SERVICES_DATA = {
     },
     whatIncluded: {
       isVisible: true,
-      code: '01',
+      isVariant: '01',
       heading: 'What’s Included in Our SEO Services',
       list: [
         {
@@ -596,6 +596,7 @@ export const SERVICES_DATA = {
     },
     whatMkeDeferent: {
       isVisible: true,
+      variant: '01',
       heading: 'What Makes Adaired Different From Our Competitors?',
       description: [
         `At Adaired, we have a clear plan for building your search engine optimization strategy. Starting with understanding your goals clearly to analyzing where you are losing search visibility, we do all the legwork to help your business uncover quick wins.`,
@@ -866,7 +867,7 @@ export const SERVICES_DATA = {
     },
     whatareservice: {
       isVisible: true,
-      code: '01',
+      isVariant: '01',
       img: what_are_ai_seo,
       heading: 'What Are AI SEO Services?',
       bgColor: '#FFFCF8',
@@ -1088,6 +1089,7 @@ export const SERVICES_DATA = {
     },
     whatMkeDeferent: {
       isVisible: true,
+      isVariant: '01',
       heading: 'What Makes Adaired Different From Our Competitors?',
       description: [],
       list: [
@@ -1143,7 +1145,7 @@ export const SERVICES_DATA = {
     },
     whatIncluded: {
       isVisible: true,
-      code: '01',
+      isVariant: '01',
       heading:
         'AI SEO Solutions That Make Your Website Trusted by AI and Humans',
       description:
@@ -1449,7 +1451,7 @@ brand appears in AI summaries and citations.`,
     },
     whatareservice: {
       isVisible: true,
-      code: '01',
+      isVariant: '03',
       img: WhatIsAuthorityLinkBuilding,
       heading: 'What Is Authority',
       span: 'Link Building?',
@@ -1546,8 +1548,9 @@ brand appears in AI summaries and citations.`,
     // NEW
     whatIncluded: {
       isVisible: true,
-      code: '01',
+      isVariant: '01',
       heading: 'Link Building Services That We Offer At Adaired',
+      isFetureProofVisible: true,
       description: ``,
       list: [
         {
@@ -1739,6 +1742,7 @@ brand appears in AI summaries and citations.`,
     buildlinks: {
       isVisible: true,
       isCode01: false,
+      isVariant: '01',
       img: LinkBuilding,
       heading: 'Build Links That Work for Your Business in',
       span: '2026 and Beyond',
@@ -1751,6 +1755,7 @@ brand appears in AI summaries and citations.`,
     // NEW
     whatMkeDeferent: {
       isVisible: true,
+      isVariant: '01',
       heading: 'What Makes Adaired Different From Our Competitors?',
       description: [],
       list: [
@@ -2022,7 +2027,7 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      code: '02',
+      isVariant: '02',
       img: WhatAreService,
       heading: 'What Are Website Design and Development Services?',
       span: '',
@@ -2112,7 +2117,7 @@ brand appears in AI summaries and citations.`,
 
     whatIncluded: {
       isVisible: true,
-      code: '02',
+      isVariant: '02',
       heading: 'List Of Website Design and Development Services We Offer',
       description: ``,
       list: [
@@ -2300,6 +2305,7 @@ brand appears in AI summaries and citations.`,
     buildlinks: {
       isVisible: true,
       isCode01: true,
+      isVariant: '02',
       img: BeautifulDesign,
       heading: 'Beautiful Design Meets Smart Development.',
       // span: '2026 and Beyond',
@@ -2317,6 +2323,7 @@ brand appears in AI summaries and citations.`,
 
     whatMkeDeferent: {
       isVisible: true,
+      isVariant: '02',
       heading:
         'What Makes Adaired Stand Out As The Best Website Design & Development Service Provider?',
       description: [
@@ -2589,7 +2596,7 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      code: '02',
+      isVariant: '01',
       img: LocalWhatService,
       heading: 'What Is Local SEO?',
       span: '',
@@ -2813,7 +2820,7 @@ brand appears in AI summaries and citations.`,
 
     whatIncluded: {
       isVisible: false,
-      code: '02',
+      isVariant: '02',
       heading: 'List Of Website Design and Development Services We Offer',
       description: ``,
       list: [
@@ -2954,6 +2961,7 @@ brand appears in AI summaries and citations.`,
     buildlinks: {
       isVisible: false,
       isCode01: true,
+      isVariant: '01',
       img: BeautifulDesign,
       heading: 'Beautiful Design Meets Smart Development.',
       // span: '2026 and Beyond',
