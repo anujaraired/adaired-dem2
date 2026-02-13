@@ -3,8 +3,10 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Pagination } from 'swiper/modules';
 import 'swiper/css';
+import { useState } from 'react';
 
 export default function CustomSlider({ data, colors }: any) {
+  const [activeIndex, setActiveIndex] = useState(0);
   return (
     <div className="mx-auto w-full pt-[1rem]">
       {/* Swiper */}
@@ -20,6 +22,7 @@ export default function CustomSlider({ data, colors }: any) {
           delay: 3000,
           disableOnInteraction: false,
         }}
+        onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
         pagination={{
           el: '#custom-pagination',
           clickable: true,
@@ -42,9 +45,9 @@ export default function CustomSlider({ data, colors }: any) {
         }}
       >
         {data?.map((item: any, idx: number) => (
-          <SwiperSlide key={item.id} className="w-full lg:!w-[40%]">
+          <SwiperSlide key={item.id} className="w-full lg:!w-[30%]">
             <div
-              className={`h-[26rem] rounded-[20px] bg-white p-8`}
+              className={`h-[31rem] rounded-[20px] bg-white p-8`}
               style={{
                 border: `1px solid ${colors?.borderColor}`,
               }}
@@ -82,14 +85,25 @@ export default function CustomSlider({ data, colors }: any) {
       </Swiper>
 
       {/* ✅ Pagination OUTSIDE cards */}
-      <div
+      {/* <div
         id="custom-pagination"
         style={{
           display: 'flex',
           justifyContent: 'center',
           marginTop: '24px',
         }}
-      />
+      /> */}
+
+      <div className="flex justify-center gap-3 mt-6">
+        {data?.map((item: any, index: number) => (
+          <div
+            key={index}
+            className={`w-2 h-2 rounded-full ${activeIndex === index ? 'bg-[#F28F17]' : 'bg-[#FFEACD]'
+              }`}
+          />
+        ))}
+      </div>
+
     </div>
   );
 }
