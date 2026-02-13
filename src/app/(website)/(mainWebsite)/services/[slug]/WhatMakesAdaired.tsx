@@ -29,7 +29,8 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
             <div
               className={`${whatMkeDeferent?.description?.length > 0 ? 'w-full pr-[0%] lg:w-[50%]' : 'flex w-[100%] justify-center justify-items-center'} pr-0 lg:pr-[6rem]`}
             >
-              <Heading breakIndex={5} title={whatMkeDeferent?.heading} />
+              {/* <Heading breakIndex={5} title={whatMkeDeferent?.heading} /> */}
+              <h2>{whatMkeDeferent?.heading}</h2>
             </div>
 
             <div
