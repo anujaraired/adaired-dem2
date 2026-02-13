@@ -554,7 +554,7 @@ export const ServiceSectionData = {
       title: 'Local SEO',
       description:
         'We optimize Google Business Profiles, local keywords, citations, and reviews to improve map pack rankings, increase local visibility, and drive consistent engagement from nearby searchers.',
-      link: '/services/local-seo',
+      link: '/services/local-seo-company-india',
       list: [
         {
           icon: GBPManagement,
@@ -562,7 +562,7 @@ export const ServiceSectionData = {
           label: 'Local Organic SEO',
           title: 'Local Organic SEO',
           description: `We help businesses dominate local search through a strategic mix of Google Business Profile optimization, localized content, review management, and technical SEO. Our local-first approach drives higher map visibility, increased foot traffic, and more qualified calls and inquiries from nearby customers.`,
-          link: '/services/local-seo',
+          link: '/services/local-seo-company-india',
         },
         {
           icon: GBPSetup,
@@ -571,7 +571,7 @@ export const ServiceSectionData = {
           title: 'Citation Building',
           description: `We build and maintain consistent business citations across relevant local, industry, and geo-specific directories. By standardizing business information and eliminating inconsistencies, we help search engines verify legitimacy, improve map pack visibility, and drive more qualified local traffic.
 `,
-          link: '/services/local-seo',
+          link: '/services/local-seo-company-india',
         },
         {
           icon: FakeGBPReporting,
@@ -579,7 +579,7 @@ export const ServiceSectionData = {
           label: 'Local Link Building',
           title: 'Local Link Building',
           description: `We build authentic local backlinks that signal relevance and trust to search engines. By earning links from local organizations, blogs, news sites, and industry resources, we help businesses improve map pack visibility, outrank nearby competitors, and establish a strong local digital footprint.`,
-          link: '/services/local-seo',
+          link: '/services/local-seo-company-india',
         },
         // {
         //   icon: FakeGoogleReviewReporting,

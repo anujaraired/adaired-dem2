@@ -8,7 +8,8 @@ import groth from '../../../../../../public/assets/icons/adwords-campaign.svg';
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import image from '../../../../../../public/assets/aiseo/AISEORESULT.png';
-const AISEOResult = ({ aiseoResult }: any) => {
+
+const AdairedServiceResult = ({ aiseoResult }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const [activeIndex, setActiveIndex] = useState<number | null>(0);
 
@@ -131,4 +132,4 @@ const AISEOResult = ({ aiseoResult }: any) => {
   );
 };
 
-export default AISEOResult;
+export default AdairedServiceResult;

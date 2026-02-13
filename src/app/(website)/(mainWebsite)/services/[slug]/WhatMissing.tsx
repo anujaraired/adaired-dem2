@@ -34,11 +34,24 @@ const WhatMissing = ({ whatMissing }: any) => {
                                     transitionDelay: isVisible ? '0ms' : `${index * 280}ms`,
                                 }}
                             >
-                                <div className="flex items-center justify-center mb-10 lg:justify-start lg:justify-items-start">
+                                {/* <div className="flex items-center justify-center mb-10 lg:justify-start lg:justify-items-start">
                                     <div className='bg-black px-8 py-4 rounded-[36px]'>
                                         <Image src={card.icon} alt="" width={35} height={35} />
                                     </div>
+                                </div> */}
+
+                                <div className="flex items-center justify-center mb-6 sm:mb-8 lg:mb-10 lg:justify-start">
+                                    <div className="bg-black px-5 py-3 sm:px-6 sm:py-3 lg:px-8 lg:py-4 rounded-[24px] sm:rounded-[30px] lg:rounded-[36px]">
+                                        <Image
+                                            src={card.icon}
+                                            alt="icons"
+                                            width={28}
+                                            height={28}
+                                            className="sm:w-[30px] sm:h-[30px] lg:w-[35px] lg:h-[35px]"
+                                        />
+                                    </div>
                                 </div>
+
 
                                 <h3 className="py-[1rem]">{card.title}</h3>
                                 <div className="space-y-4">
