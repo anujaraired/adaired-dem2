@@ -478,6 +478,7 @@ export const SERVICES_DATA = {
     },
     serviceResult: {
       isVisible: true,
+      isVariant: '01',
       heading: 'Why Partner With Adaired Digital Media to Hire SEO Services?',
       bgImage: '',
       img: StrugglingImgSEO,
@@ -961,6 +962,7 @@ export const SERVICES_DATA = {
     },
     serviceResult: {
       isVisible: true,
+      isVariant: '01',
       heading:
         'Struggling to Rank in AI SEO Results? Here’s What You Need to Know',
       description: null,
@@ -1611,6 +1613,7 @@ brand appears in AI summaries and citations.`,
     },
 
     serviceResult: {
+      isVariant: '01',
       isVisible: false,
       heading:
         'Struggling to Rank in AI SEO Results? Here’s What You Need to Know',
@@ -2173,6 +2176,7 @@ brand appears in AI summaries and citations.`,
 
     serviceResult: {
       isVisible: false,
+      isVariant: '01',
       heading:
         'Struggling to Rank in AI SEO Results? Here’s What You Need to Know',
       description: null,
@@ -2538,6 +2542,7 @@ brand appears in AI summaries and citations.`,
       'needofservice',
       'notSeeingResult',
       'importantToBussiness',
+      "leadingTools",
       'whatIncluded',
       'ourProcess',
       'whatMkeDeferent',
@@ -2601,7 +2606,7 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '01',
+      isVariant: '04',
       img: LocalWhatService,
       heading: 'What Is Local SEO?',
       span: '',
@@ -2638,6 +2643,7 @@ brand appears in AI summaries and citations.`,
 
     serviceResult: {
       isVisible: true,
+      isVariant: '02',
       heading: 'Why Is Local SEO Important for Your Business?',
       description: [
         `Local search optimization is necessary when the company is aimed at local consumers. It assists you attract ready-to-convert traffic, gain local visibility and stay ahead of competitors.`,
@@ -2768,6 +2774,7 @@ brand appears in AI summaries and citations.`,
             This involves proper business information, description with keywords, service types, photographs, and frequent updating.`,
             `An optimally-crafted profile will make your business visible as a leading local search and will result in more calls, visits, and customer inquiries by the neighboring users.`,
           ],
+          button: 'Get Your Free Local SEO Audit',
         },
         {
           icon: importantIcon_1,
@@ -2777,6 +2784,7 @@ brand appears in AI summaries and citations.`,
             We examine the trends of search, competition and user intent to develop a narrowly focused keyword strategy.`,
             `This will also guarantee that your business is appearing in the most important searches and this will bring in qualified local traffic and that will have a higher percentage of conversion.`,
           ],
+          button: 'Get Your Free Local SEO Audit',
         },
         {
           icon: importantIcon_1,
@@ -2787,6 +2795,7 @@ brand appears in AI summaries and citations.`,
             `Our on-page local optimization will make the search engines have clear knowledge of where the business is taking place and this will help to rank better, 
             user experience and local appearance within the search results.`,
           ],
+          button: 'Get Your Free Local SEO Audit',
         },
         {
           icon: importantIcon_1,
@@ -2796,6 +2805,7 @@ brand appears in AI summaries and citations.`,
             Regular citations enhance the competence of the search engines and your local authority.`,
             `This ensures your business ranks for searches that matter most, bringing qualified local traffic that is more likely to convert.`,
           ],
+          button: 'Get Your Free Local SEO Audit',
         },
         {
           icon: importantIcon_1,
@@ -2806,6 +2816,7 @@ brand appears in AI summaries and citations.`,
             `Having a good review profile instills trust, credibility, and motivates potential customers to use your business instead of the other 
             businesses in the area as well as boosting the overall local search performance.`,
           ],
+          button: 'Get Your Free Local SEO Audit',
         },
         {
           icon: importantIcon_1,
@@ -2815,6 +2826,7 @@ brand appears in AI summaries and citations.`,
             Such links will build the authority of your site and send an indication of trust to the search engines.`,
             `Through establishing a good rapport with people in the area, we will assist in promoting the ranking, referral traffic, and the general representation of your business in your locality.`,
           ],
+          button: 'Get Your Free Local SEO Audit',
         },
         {
           icon: importantIcon_1,
@@ -2824,6 +2836,7 @@ brand appears in AI summaries and citations.`,
             Inconsistent business information may damage local ranking and customer confidence.`,
             `Our NAP consistency service ensures  accuracy everywhere helping search engines verify your business legitimacy and improving your chances of appearing prominently in local search results.`,
           ],
+          button: 'Get Your Free Local SEO Audit',
         },
         {
           icon: importantIcon_1,
@@ -2833,6 +2846,7 @@ brand appears in AI summaries and citations.`,
             This entails rankings, traffic, visibility, and conversions.`,
             `Our SEO reports make you see what works, what needs to be improved, and how your local presence is expanding so that you can quantify real ROI on your Local SEO investment.`,
           ],
+          button: 'Get Your Free Local SEO Audit',
         },
       ],
     },
@@ -2913,7 +2927,7 @@ brand appears in AI summaries and citations.`,
     whatMkeDeferent: {
       isVisible: true,
       heading: 'Why Choose Adaired for Your Local Search Engine Optimization ?',
-      description: [``],
+      description: [],
       list: [
         {
           img: whatMkLocal,
@@ -3121,7 +3135,7 @@ brand appears in AI summaries and citations.`,
     },
 
     industryLeaders: {
-      isVisible: false,
+      isVisible: true,
       heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
       description:
         'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
@@ -3138,7 +3152,7 @@ brand appears in AI summaries and citations.`,
     },
 
     leadingTools: {
-      isVisible: false,
+      isVisible: true,
       heading:
         'Powered By Leading Tools For Maximum Performance and Efficiency ',
       description:
@@ -3348,6 +3362,7 @@ brand appears in AI summaries and citations.`,
 
     serviceResult: {
       isVisible: true,
+      isVariant: '01',
       heading: 'Why Is Local SEO Important for Your Business?',
       description: [
         `Local search optimization is necessary when the company is aimed at local consumers. It assists you attract ready-to-convert traffic, gain local visibility and stay ahead of competitors.`,
