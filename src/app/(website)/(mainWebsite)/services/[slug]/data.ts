@@ -1137,8 +1137,10 @@ export const SERVICES_DATA = {
         {
           icon: ai_tool_1,
           title: 'ChatGPT SEO',
-          description: [`We provide ChatGPT SEO solutions made to be AI discoverable. We ensure your content appears as a reliable, cited, and recommended source in the search results produced by the AI.`,
-            `Our strategy ensures cross-industry visibility, drives high-intent user engagement, and positions your content high in the AI search.`],
+          description: [
+            `We provide ChatGPT SEO solutions made to be AI discoverable. We ensure your content appears as a reliable, cited, and recommended source in the search results produced by the AI.`,
+            `Our strategy ensures cross-industry visibility, drives high-intent user engagement, and positions your content high in the AI search.`,
+          ],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
         },
@@ -1529,7 +1531,7 @@ brand appears in AI summaries and citations.`,
     // NEW
     whatIncluded: {
       isVisible: true,
-      code: '01', 
+      code: '01',
       heading: 'Link Building Services That We Offer At Adaired',
       description: ``,
       list: [
@@ -2045,7 +2047,7 @@ brand appears in AI summaries and citations.`,
 
     benefitofAiSeo: {
       isVisible: true,
-      bgColor: "bg-[#FAFAFA]",
+      bgColor: 'bg-[#FAFAFA]',
       textColor: '#000000',
       textBg: '#EEEEEE',
       borderColor: '#00000014',
@@ -2291,7 +2293,559 @@ brand appears in AI summaries and citations.`,
       isBgWhite: true,
       data: [
         {
-        desctioption: `We build websites that captivate users and convert clicks into customers`
+          desctioption: `We build websites that captivate users and convert clicks into customers`,
+        },
+      ],
+      button: 'Start Your Website Project',
+    },
+
+    whatMkeDeferent: {
+      isVisible: true,
+      heading:
+        'What Makes Adaired Stand Out As The Best Website Design & Development Service Provider?',
+      description: [
+        'At Adaired, we help businesses create attractive and functional website to help them reach their potential customers worldwide, enhancing turnover, driving next-level growths and making you stand out from the crowd. ',
+      ],
+      list: [
+        {
+          img: WhatMkeAd,
+          name: 'Professional experience and expertise',
+          description: [
+            `At Adaired, our professionals clearly convey that you are investing in years of knowledge and experience. Our highly skilled designers and developers are skilled in the latest designs and follow the best practices. They will help you create websites that are user-friendly, visually appealing and fully-functional. `,
+            `They understand the nuances of user behaviour, actions and customer needs effectively and draft solutions that can make your business future-ready. `,
+          ],
+        },
+        {
+          img: WhatMkeAd2,
+          name: 'User-centric design and SEO',
+          description: [
+            `The studies suggest that half of the internet users make an opinion about a business based on how its website look and 57% of users will not suggest a business to others after a bad experience. `,
+            `At Adaired, we invest in user research, search engine optimization and good design to ensure your website is discoverable and easy to use. `,
+          ],
+        },
+        {
+          img: WhatMkeAd3,
+          name: 'Commitment to time and quality',
+          description: [
+            `Through years, we have built a reputation on delivering quality work to our clients. Since there are a number of steps involved in the website creation, we create timelines for different aspects of the project to complete it on time. `,
+            `Whether you need a simple business website or a complex e-commerce platform, we are capable of developing tailored solutions that can scale with your business. `,
+          ],
+        },
+        {
+          img: WhatMkeAd4,
+          name: 'Quick Turnaround Time',
+          description: [
+            `With efficient project management and a dedicated workforce, we ensure that the projects are completed faster without compromising quality. `,
+            `We offer our clients round-the-clock support, maintenance and updates to keep your website secure and up-to-date. Companies from all around the world trust us for reliable, innovative and growth-oriented digital solutions. `,
+          ],
+        },
+        {
+          img: WhatMkeAd5,
+          name: 'Highly skilled team members',
+          description: [
+            `At Adaired, we have a team of highly skilled, knowledgeable and experienced professionals including developers, designers, and digital marketers. Our website design team brings skills and creativity to build websites that excel in functionality, performance and aesthetics.`,
+            `Everything right from UX to backend coding, everything is handled expertly, delivering a seamless and engaging online experience. `,
+          ],
+        },
+        {
+          img: WhatMkeAd6,
+          name: 'Proven Track Record of Success',
+          description: [
+            `Adaired has a proven track record of delivering results to our clients. Our portfolio spans multiple industries, demonstrating our ability to adapt and innovate with time. `,
+            `Our problem solving attitude combined with technological knowledge help us transform our clients digital presence into powerful growth engines. `,
+          ],
+        },
+      ],
+    },
+
+    ourProcess: {
+      isVisible: true,
+      subtitle: 'Our Process',
+      title: 'The Web Design and Development Process That We Follow At Adaired',
+      span: '',
+      description: ``,
+      services: [
+        {
+          icon: step,
+          title: 'Discovery & Requirement Analysis',
+          description: [
+            `We start with knowing your business objectives, target market, industry landscape and technical needs. 
+            This step will enable us to base our strategy on your vision coupled with the realization of possible opportunities to improve user experience and performance.`,
+          ],
+        },
+        {
+          icon: step_2,
+          title: 'Planning & Strategy',
+          description: [
+            `We design an elaborate project roadmap based on the knowledge acquired during discovery. 
+            This involves the definition of site architecture, technology stack, schedules, and other milestones that are important to maintain a smooth process and effective communication throughout the project life cycle.`,
+          ],
+        },
+        {
+          icon: step_3,
+          title: 'UI/UX Design',
+          description: [
+            `Our designers create user-friendly, aesthetically pleasing, and intuitive user interfaces that can reflect your brand identity. 
+            Our focus is on usability, accessibility and responsive design to create a smooth experience on all devices.`,
+          ],
+        },
+        {
+          icon: step_4,
+          title: 'Development & Integration',
+          description: [
+            `Using modern technologies and best coding practices, our developers bring the designs to life. 
+            We develop websites that are fast, secure and scalable and we combine third-party applications, API, and content management systems when necessary.`,
+          ],
+        },
+        {
+          icon: step_5,
+          title: 'Quality Assurance & Testing',
+          description: [
+            `We do intensive testing before launch so ensure the flawless performance. 
+            This includes functionality testing, cross-browser and device compatibility checks, performance optimization, and security validation.`,
+          ],
+        },
+        {
+          icon: step_5,
+          title: 'Deployment & Launch',
+          description: [
+            `After all the approval is given, we put your site into live environment and ensure that there is minimal downtime. 
+            Our team will make the integration as seamless as possible and will closely consider the performance to address any last-minute challenges.`,
+          ],
+        },
+        {
+          icon: step_5,
+          title: 'Maintenance & Continuous Support',
+          description: [
+            `The relationship does not stop with the launch. 
+            We provide ongoing maintenance, updates, performance optimization and technical support to ensure that your website is secure, scalable and compliant to the changing business requirements.`,
+          ],
+        },
+      ],
+    },
+
+    stopStruggling: {
+      isVisible: true,
+      subtitle: '',
+      title: 'Every Successful Website Starts with a Clear Strategy.',
+      button: 'Schedule a Strategy Call',
+      description: `Schedule a strategy call and let’s build a digital presence aligned\n with your business goals.`,
+      bgImg: stop_struggle2,
+    },
+
+    getplan: {
+      isVisible: false,
+      isLabel: false,
+      subtitle: '',
+      bgImage: stop_struggle2,
+      title: 'Stop Guessing Start Acting ',
+      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      title: 'Frequently Asked Questions on Authority Link Building Services',
+      description: ``,
+      list: [
+        {
+          title: 'How long does it take to design and develop a website?',
+          description: `The timeline depends on the size, complexity, and features of your website. An average business website can be created in 3-5 weeks and more complex web applications can require 8-12 weeks or longer. 
+            We provide a clear timeline after understanding your requirements.`,
+        },
+        {
+          title: 'How much does a website design and development project cost?',
+          description: `The expenses of websites differ depending on the complexity of the design, functionality, integrations, and the platform used. 
+            Our prices are flexible and we also have custom quotes so that you do not pay more than what your business requires.`,
+        },
+        {
+          title: 'Will my website be mobile-friendly and responsive?',
+          description: `Yes. Our websites are all responsive and tablet/mobile device friendly so that the user has a seamless user experience in all sizes of screens.`,
+        },
+        {
+          title: 'Can you redesign my existing website?',
+          description: `Absolutely. 
+            We also do site redesign and revamp of websites to make it more beautiful, fast, easy to use, and optimized without destroying brand name or the content that you already have.`,
+        },
+        {
+          title: 'Do you build SEO-friendly websites?',
+          description: `Yes. We follow the best SEO practices during the design and development process such as clean code, fast loading speed, mobile optimization, structure and on-page SEO fundamentals to help improve search engine visibility.`,
+        },
+        {
+          title: 'Which platforms and technologies do you work with?',
+          description: `We work with leading platforms such as like WordPress, Shopify, and custom tech stacks. 
+            Depending on your business objectives and scalability requirements and budget, our team will choose the most appropriate technology.`,
+        },
+        {
+          title: 'Will I be able to manage and update my website myself?',
+          description: `Yes. Our content management systems are user friendly and enable you to update text, images, products and pages with ease. Training or documentation is also possible with us.`,
+        },
+        {
+          title: 'Do you offer eCommerce website development?',
+          description: `Yes. Our services include the design and development of secure and scaled eCommerce websites with the features like product management, payment gateway integration, inventory tracking and easy checkout experiences.`,
+        },
+        {
+          title: 'What if I need changes during the development process?',
+          description: `We follow a collaborative approach and welcome feedback at every stage. 
+            Our development services accommodate reasonable changes that will make the end product just as you desire.`,
+        },
+        {
+          title: 'Do you provide website maintenance and support after launch?',
+          description:
+            'Yes. We offer ongoing maintenance, performance optimization, and security updates, and technical support to ensure the smooth running of your website and keep it up to date.',
+        },
+      ],
+    },
+  },
+  'local-seo-company-india': {
+    sectionsOrder: [
+      'banner',
+      'keyStats',
+      'whatareservice',
+      'benefitofAiSeo',
+      'adairedHelp',
+      'buildlinks',
+      'serviceResult',
+      'whatIncluded',
+      'ourProcess',
+      'whatMkeDeferent',
+      'stopStruggling',
+      'faqData',
+      'readyToStart',
+    ] satisfies SectionKey[],
+    banner: {
+      code: '04',
+      isCenter: false,
+      isVisible: true,
+      heading: 'Design That Builds Trust.',
+      label: 'Experiences That Convert.',
+      desc: 'With billions of websites competing for attention, your brand has seconds to stand out. At Adaired, we design and develop visually compelling websites that build trust, capture attention, and drive results.',
+      button: 'Book a consultation today',
+      subheading: '',
+      width: '20rem',
+      widthLg: '30rem',
+    },
+
+    keyStats: {
+      isVisible: true,
+      code: '04',
+      heading: 'Did You Know?',
+      isCard: false,
+      // img: keyStatsImg,
+      list: [
+        {
+          description: [
+            `87% of customers want a personalized shopping experience`,
+          ],
+        },
+        {
+          description: [
+            `48% of people believe that a website's design determines a business's credibility`,
+          ],
+        },
+        {
+          description: [
+            `75% of Internet users prefer a mobile-friendly website`,
+          ],
+        },
+        {
+          description: [
+            `42% of customers say they will leave a website that functions poorly`,
+          ],
+        },
+      ],
+    },
+
+    whatareservice: {
+      isVisible: true,
+      code: '02',
+      img: WhatAreService,
+      heading: 'What Are Website Design and Development Services?',
+      span: '',
+      bgColor: '#FFFCF8',
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `Website design and development is the process of creating, building, and maintaining a visually appealing, functional, and user-friendly website. 
+          It deals with all that a user can see and interact with, including layout, color schemes, typography, user navigation and overall user experience.`,
+        },
+        {
+          desctioption: `Professional website design and development services help businesses translate their brand identity into a compelling digital presence. 
+          The goal is not just to look good, but to deliver a seamless experience that engages users, communicates value, and supports business objectives.`,
+        },
+      ],
+      button: 'Start Building Today',
+    },
+
+    importantToBussiness: {
+      isVisible: true,
+      heading: 'Why is SEO Important to Your Business?',
+      data: [],
+    },
+
+    needofservice: {
+      isVisible: true,
+      isBgCornerImg: true,
+      heading: 'Why Authority Link Building Matters For Your Business?',
+      data: [
+        {
+          desctioption: `For businesses aiming to grow sustainably online, authority link building is essential. Search engines prioritize websites that demonstrate trust and expertise, and authoritative backlinks play a critical role in this evaluation. `,
+        },
+        {
+          desctioption: `Through enhancing the authority of your website, you are in a better position to be ranked better, gain steady traffic, enhance brand recognition that is useful in making your business shine in competitive markets, and turn the visibility into revenue.`,
+        },
+      ],
+    },
+
+    benefitofAiSeo: {
+      isVisible: true,
+      bgColor: 'bg-[#FAFAFA]',
+      textColor: '#000000',
+      textBg: '#EEEEEE',
+      borderColor: '#00000014',
+      heading: 'Benefits of Website Design and Development Services',
+      description: [
+        `A business’s success is closely tied to the quality of its website. A professional web site can determine whether a visitor becomes a loyal customer or leaves for a competitor. Here are the key benefits:`,
+      ],
+      list: [
+        {
+          name: 'Creates a Strong First Impression',
+          description: [
+            `The potential customers often get in touch with you through your site. The first impression that a properly developed site leaves is positive and credible. 
+            The use of professional images, well-designed layouts, and navigation facilitate the development of trust within seconds after a visitor visits your site.`,
+          ],
+        },
+        {
+          name: 'Enhances User Experience',
+          description: [
+            `Effective website design is rooted in user experience. A visitor will find it easier to do business with a site that has easy navigation, attractive design, and is responsive to all devices. 
+            A well-organized site will ensure the users have an easy time navigating their way to heighten satisfaction and interest.`,
+          ],
+        },
+        {
+          name: 'Builds Trust and Credibility',
+          description: [
+            `Good website design is associated with the credibility and professionalism of a business. 
+            Features such as fast loading speeds, secure connections, consistent performance, and clear messaging reassure users that the company is reliable, established, and customer-focused.`,
+          ],
+        },
+        {
+          name: 'Improves Conversion Rates and ROI',
+          description: [
+            `A well-planned website is your effective conversion tool. 
+            An efficient design, simple calls to action, and information-driven design components motivate the visitor to make a substantial move like purchasing a product, joining a mailing list, or leaving an enquiry which will lead to an increase in the profit margin.`,
+          ],
+        },
+        {
+          name: 'Helps You Stand Out in a Competitive Market',
+          description: [
+            `The world of the Internet is very busy nowadays, so a generic site is not sufficient. 
+            A tailored site featuring unique images, effective branding, and engagement is useful to businesses to stand out, enhance their online presence, and create an impression.`,
+          ],
+        },
+      ],
+    },
+
+    whatIncluded: {
+      isVisible: true,
+      code: '02',
+      heading: 'List Of Website Design and Development Services We Offer',
+      description: ``,
+      list: [
+        {
+          icon: WhatIncluded1,
+          title: 'WordPress Development',
+          description: [
+            `At Adaired, we provide powerful WordPress development services that are expected to take your digital presence to the next level. Our team breaks creative and technical limits to design and develop robust, high-performance, and SEO-optimized WordPress solutions.`,
+            `From custom WordPress theme development and plugin customization to speed optimization, SEO implementation, and seamless third-party integrations, we deliver the end-to-end WordPress solutions to match the requirements of your business.`,
+          ],
+          linkText: 'Get Your Free Website Audit',
+          linkHref: '#',
+        },
+
+        {
+          icon: WhatIncluded2,
+          title: 'Shopify Development',
+          description: [
+            `Our online store development services can assist you in achieving the maximum for your online store, starting with consultation and design, development, deployment, and migration.`,
+            `Being a successful Shopify development service partner, we provide high-performing, scalable, and tailored solutions that help shops perform better, increase their security, and build positive shopping experiences. You can count on us to increase your eCommerce business in a measurably meaningful way, whether you are opening another store or refining an already existing one.`,
+          ],
+          linkText: 'Get Your Free Website Audit',
+          linkHref: '#',
+        },
+
+        {
+          icon: WhatIncluded3,
+          title: 'eCommerce Development',
+          description: [
+            `Our 360 eCommerce solutions are all-inclusive and applicable to businesses of any size and sector. Our website development experts create eCommerce online websites that are intuitive, user-friendly, and designed to align with your brand name and profitability.`,
+            `We develop custom experiences using recent technologies and the best practices in the industry and enhance customer engagement, conversion, and business expansion.`,
+          ],
+          linkText: 'Get Your Free Website Audit',
+          linkHref: '#',
+        },
+
+        {
+          icon: WhatIncluded4,
+          title: 'Custom Web Development',
+          description: [
+            `Our dedicated professionals offer web development services designed to be flexible, secure, and scalable with the development of your business. We develop feature-rich, high-performance websites to suit your specific needs, achieve maximum functionality, smooth user interfaces, and achieve scalability in the future.`,
+            `All solutions that we develop are designed to help your business achieve its goals and bring long-term value.`,
+          ],
+          linkText: 'Get Your Free Website Audit',
+          linkHref: '#',
+        },
+      ],
+    },
+
+    serviceResult: {
+      isVisible: false,
+      heading:
+        'Struggling to Rank in AI SEO Results? Here’s What You Need to Know',
+      description: null,
+      isBgColor: false,
+      img: '',
+      list: [
+        {
+          img: aiseoresult,
+          name: 'Your Website Gets Traffic, but Not the Right Traffic',
+          description: [
+            'Many businesses rank for keywords but still don’t get leads or sales. AI search engines focus on user intent, not just rankings. When your content does not provide a clear answer to what users want, AI will push it down, creating low-quality traffic that does not convert. ',
+            ``,
+          ],
+        },
+        {
+          img: aiseoresult,
+          name: 'Rankings Drop Without Any Warning',
+          description: [
+            'AI-powered algorithms change often, and many businesses don’t see it coming. A single update may even take your site off the list. You’re likely to go unnoticed, lose visibility, traffic, and revenue overnight.',
+            ` `,
+          ],
+        },
+        {
+          img: aiseoresult,
+          name: 'Your Content Doesn’t Stand Out Anymore',
+          description: [
+            'AI favors useful, clear, and original content. If your pages look like everyone else’s, no one pays attention to them. Generic Blogs, keyword repetition, and thin pages are difficult to rank and hence compete with the smarter content strategies used by brands.',
+            ``,
+          ],
+        },
+        {
+          img: aiseoresult,
+          name: 'You’re Making SEO Decisions Without Real Data',
+          description: [
+            'Most companies are dependent on guesswork or past reports. It is difficult to discover what works and what does not without insights provided by AI. This leads to wasted effort, slow growth, and missed opportunities while competitors move ahead faster.',
+            ``,
+          ],
+        },
+      ],
+    },
+
+    notSeeingResult: {
+      isVisible: true,
+      heading: 'Not Seeing Results? ',
+      description: 'Let AI Reveal What’s Holding You Back.',
+      buttonName: 'Get Your Free AI SEO Audit',
+      bgImage: NotSeeingResultsBg,
+    },
+    industryLeaders: {
+      isVisible: true,
+      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      description:
+        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      bgImage: leadingToolsImg,
+    },
+    leadingToolsForPerformence: {
+      isVisible: true,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+    leadingTools: {
+      isVisible: true,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+
+    // Updated
+    adairedHelp: {
+      isVisible: true,
+      heading:
+        'How Adaired Can Help You With Professional Website Design and Development Services?',
+      img: HowAdairedHelp,
+      list: [
+        {
+          img: AdairedHelp1,
+          name: 'Custom Design Aligned With Your Brand',
+          description: [
+            `The website designs that Adaired builds are completely personalized which can be considered to be an expression of your brand identity, personality and objectives.
+            We do not make a one-size-fits-all template, but create visually appealing layouts, colour scheme and interfaces that can communicate your brand in a straightforward way.`,
+            `This will make your site unique and provide your visitors with a consistent and memorable brand experience.`,
+          ],
+        },
+        {
+          img: AdairedHelp2,
+          name: 'User-Centered and Conversion-Focused Approach',
+          description: [
+            `At Adaired, we prioritize user experience in every project. Our designs are user-friendly and intuitive and engagement friendly. 
+            With the knowledge of user behavior and customer journeys,`,
+            `we create websites that take the user through their preferred path to the action they intend to take, be it to make a purchase, send an inquiry, or reserve a service.`,
+          ],
+        },
+        {
+          img: AdairedHelp3,
+          name: 'Responsive and Mobile-First Development',
+          description: [
+            `With users accessing websites across multiple devices, Adaired ensures your website performs flawlessly everywhere. 
+            We stick to a mobile first strategy, which delivers responsive designs that can be easily adapted to smartphones, tablets and desktops.`,
+            `This will enhance the usability, improve interaction, and make sure that your business will never miss a chance because of the inefficiency of the device compatibility.`,
+          ],
+        },
+        {
+          img: AdairedHelp4,
+          name: 'Performance, Security, and Scalability',
+          description: [
+            `Adaired creates fast, secure websites that are designed to expand your business. We have a long-term performance orientation in terms of optimized loading speeds, secure hosting, and clean, scalable code.`,
+            `Our development practices ensure that your site is stable, secure and can handle more traffic as well as future growth.`,
+          ],
+        },
+        {
+          img: AdairedHelp5,
+          name: 'SEO-Optimized Development for Better Visibility',
+          description: [
+            `A great website should also be easy to find. Adaired combines the best practices of SEO with the design and development.`,
+            `Our clean code structure, quick load times, optimized layouts and content readiness, can both make your website rank higher and bring quality organic traffic to your site.`,
+          ],
+        },
+        {
+          img: AdairedHelp6,
+          name: 'Ongoing Support and Continuous Improvement',
+          description: [
+            `Our partnership doesn’t end at launch. Adaired offers continuous support, updates and performance enhancements to make your site up to date and efficient.`,
+            `Whether it’s enhancements, troubleshooting, or feature upgrades, we work alongside you to ensure your website evolves with changing market trends and business needs.`,
+          ],
+        },
+      ],
+    },
+
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      img: BeautifulDesign,
+      heading: 'Beautiful Design Meets Smart Development.',
+      // span: '2026 and Beyond',
+      description:
+        'We build websites that captivate users and convert clicks into customers',
+      bgColor: '#FFFCF8',
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `We build websites that captivate users and convert clicks into customers`,
         },
       ],
       button: 'Start Your Website Project',
