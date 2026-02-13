@@ -53,7 +53,7 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
 
         <div
           ref={ref}
-          className={`group order-1 flex justify-center items-center transition-all duration-1000 lg:order-2 lg:justify-end lg:items-start overflow-hidden ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
+          className={`group order-1 flex justify-center items-center transition-all duration-1000 lg:order-2 lg:justify-end lg:items-start  ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
         >
           <Image
             src={whatareaiseo?.img}

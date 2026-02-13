@@ -1133,10 +1133,8 @@ export const SERVICES_DATA = {
         {
           icon: ai_tool_1,
           title: 'ChatGPT SEO',
-          description: [
-            `We provide ChatGPT SEO solutions made to be AI discoverable. We ensure your content appears as a reliable, cited, and recommended source in the search results produced by the AI.`,
-            `Our strategy ensures cross-industry visibility, drives high-intent user engagement, and positions your content high in the AI search.`,
-          ],
+          description: [`We provide ChatGPT SEO solutions made to be AI discoverable. We ensure your content appears as a reliable, cited, and recommended source in the search results produced by the AI.`,
+            `Our strategy ensures cross-industry visibility, drives high-intent user engagement, and positions your content high in the AI search.`],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
         },
@@ -1469,6 +1467,11 @@ brand appears in AI summaries and citations.`,
     // NEW
     benefitofAiSeo: {
       isVisible: true,
+      bgColor:
+        'bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0]/70 to-[#FFF8F0]/30',
+      textColor: '#FB9100',
+      textBg: '#FFE6C380',
+      borderColor: '#FB910040',
       heading: 'How Adaired Helps You With Authority Link Building Services',
       description: [``],
       list: [
