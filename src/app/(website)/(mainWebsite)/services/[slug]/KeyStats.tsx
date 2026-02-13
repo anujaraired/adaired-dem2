@@ -193,7 +193,9 @@ const KeyStats = ({ keyStats }: any) => {
                   {`0${idx + 1}`}
                 </h2>
 
-                <h3 className="pt-14">{item?.description}</h3>
+                <h3 className="pt-10">
+                  {item?.description}
+                </h3>
               </div>
             ))}
           </div>

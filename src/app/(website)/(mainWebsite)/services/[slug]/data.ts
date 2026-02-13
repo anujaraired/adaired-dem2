@@ -218,6 +218,7 @@ export const SERVICES_DATA = {
     },
     whatareservice: {
       isVisible: true,
+      code: '01',
       img: what_are_ai_seo2,
       heading: 'What Are SEO Services?',
       bgColor: '#FFFFFF',
@@ -346,6 +347,7 @@ export const SERVICES_DATA = {
     },
     whatIncluded: {
       isVisible: true,
+      code: '01',
       heading: 'What’s Included in Our SEO Services',
       list: [
         {
@@ -849,6 +851,7 @@ export const SERVICES_DATA = {
     },
     whatareservice: {
       isVisible: true,
+      code: '01',
       img: what_are_ai_seo,
       heading: 'What Are AI SEO Services?',
       bgColor: '#FFFCF8',
@@ -1125,6 +1128,7 @@ export const SERVICES_DATA = {
     },
     whatIncluded: {
       isVisible: true,
+      code: '01',
       heading:
         'AI SEO Solutions That Make Your Website Trusted by AI and Humans',
       description:
@@ -1428,6 +1432,7 @@ brand appears in AI summaries and citations.`,
     },
     whatareservice: {
       isVisible: true,
+      code: '01',
       img: WhatIsAuthorityLinkBuilding,
       heading: 'What Is Authority',
       span: 'Link Building?',
@@ -1524,7 +1529,7 @@ brand appears in AI summaries and citations.`,
     // NEW
     whatIncluded: {
       isVisible: true,
-      isFetureProofVisible: true,
+      code: '01', 
       heading: 'Link Building Services That We Offer At Adaired',
       description: ``,
       list: [
@@ -1716,6 +1721,7 @@ brand appears in AI summaries and citations.`,
     // NEW
     buildlinks: {
       isVisible: true,
+      isCode01: false,
       img: LinkBuilding,
       heading: 'Build Links That Work for Your Business in',
       span: '2026 and Beyond',
@@ -1998,6 +2004,7 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
+      code: '02',
       img: WhatAreService,
       heading: 'What Are Website Design and Development Services?',
       span: '',
@@ -2038,7 +2045,7 @@ brand appears in AI summaries and citations.`,
 
     benefitofAiSeo: {
       isVisible: true,
-      bgColor: '#FAFAFA',
+      bgColor: "bg-[#FAFAFA]",
       textColor: '#000000',
       textBg: '#EEEEEE',
       borderColor: '#00000014',
@@ -2087,6 +2094,7 @@ brand appears in AI summaries and citations.`,
 
     whatIncluded: {
       isVisible: true,
+      code: '02',
       heading: 'List Of Website Design and Development Services We Offer',
       description: ``,
       list: [
@@ -2273,6 +2281,7 @@ brand appears in AI summaries and citations.`,
 
     buildlinks: {
       isVisible: true,
+      isCode01: true,
       img: BeautifulDesign,
       heading: 'Beautiful Design Meets Smart Development.',
       // span: '2026 and Beyond',
@@ -2280,7 +2289,11 @@ brand appears in AI summaries and citations.`,
         'We build websites that captivate users and convert clicks into customers',
       bgColor: '#FFFCF8',
       isBgWhite: true,
-      data: [],
+      data: [
+        {
+        desctioption: `We build websites that captivate users and convert clicks into customers`
+        },
+      ],
       button: 'Start Your Website Project',
     },
 
@@ -2414,7 +2427,7 @@ brand appears in AI summaries and citations.`,
       subtitle: '',
       title: 'Every Successful Website Starts with a Clear Strategy.',
       button: 'Schedule a Strategy Call',
-      description: `Schedule a strategy call and let’s build a digital presence aligned with your business goals.`,
+      description: `Schedule a strategy call and let’s build a digital presence aligned\n with your business goals.`,
       bgImg: stop_struggle2,
     },
 

@@ -47,14 +47,14 @@ const BuildLinks = ({ buildlinks }: any) => {
               isIcon={true}
               isBgWhite={true}
               handleClick={() => setOpen(!open)}
-              className="my-[2rem] w-[19rem]"
+              className="mt-[1rem] w-[18rem]"
             />
           )}
         </div>
 
         <div
           ref={ref}
-          className={`group order-1 flex justify-center justify-items-center transition-all duration-1000 p-10 lg:order-2 lg:justify-end lg:justify-items-end ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
+          className={`group order-1 flex justify-center justify-items-center transition-all duration-1000 p-10 lg:order-2 lg:justify-end lg:justify-items-end ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'} ${buildlinks?.isCode02 ? 'items-end' : 'items-center'}`}
         >
           <Image
             src={buildlinks?.img}

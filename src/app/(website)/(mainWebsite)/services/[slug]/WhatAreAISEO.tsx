@@ -12,13 +12,16 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const [open, setOpen] = useState(false);
 
+
+  const isCode01 = whatareaiseo?.code === "02";
+
   return (
     <div
       className={`${whatareaiseo?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8] py-[3rem] lg:py-[4rem]'}`}
     >
       <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2">
         <div
-          className={`order-2 flex flex-col items-center justify-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+          className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} ${isCode01 ? "py-6 lg:py-10" : "p-0"}`}
         >
           <Heading
             className="flex justify-center lg:justify-start"
@@ -46,7 +49,7 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
               isIcon={true}
               isBgWhite={true}
               handleClick={() => setOpen(!open)}
-              className="my-[2rem] w-[19rem]"
+              className="my-[2rem] w-[16rem]"
             />
           )}
         </div>
@@ -59,7 +62,7 @@ const WhatAreAISEO = ({ whatareaiseo }: any) => {
             src={whatareaiseo?.img}
             width={602}
             height={50}
-            className="transition-transform duration-300 ease-out group-hover:scale-110"
+            className={`transition-transform duration-300 ease-out group-hover:scale-110 ${isCode01 ? "absolute bottom-0" : ""}`}
             alt=""
           />
         </div>
