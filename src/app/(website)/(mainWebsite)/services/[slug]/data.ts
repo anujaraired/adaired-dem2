@@ -985,6 +985,7 @@ export const SERVICES_DATA = {
     },
     notSeeingResult: {
       isVisible: true,
+      isBgOrange: true,
       heading: 'Not Seeing Results? ',
       description: 'Let AI Reveal What’s Holding You Back.',
       buttonName: 'Get Your Free AI SEO Audit',
@@ -1265,6 +1266,7 @@ export const SERVICES_DATA = {
       description: ``,
       button: 'Start Your AI SEO Journey Now',
       bgImg: stop_struggle,
+      isHoverBgBlue: true,
     },
     getplan: {
       isVisible: true,
