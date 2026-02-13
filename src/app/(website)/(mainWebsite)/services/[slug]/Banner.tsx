@@ -448,7 +448,7 @@ const Banner = ({ banner }: any) => {
                       name={banner?.button}
                       isIcon={true}
                       handleClick={() => router.push('/contact')}
-                      buttonWidth="!w-[18rem]"
+                      buttonWidth="!w-[20rem]"
                     />
                   </div>
                 </div>

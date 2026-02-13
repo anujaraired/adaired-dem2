@@ -11,7 +11,7 @@ import BenefitofAiSEO from './BenefitofAiSEO';
 import AdairedServiceResult from './AdairedServiceResult';
 import NotSeeingResults from './NotSeeingResults';
 import AdairedHelp from './AdairedHelp';
-import BuildLinks from './BuildLinks';
+import BookAConsultation from './BookAConsultation';
 import IndustryLeaders from './IndustryLeaders';
 import Stopstruggling from './Stopstruggling';
 import LeadingTools from './LeadingTools';
@@ -92,7 +92,7 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
 
   buildlinks: (serviceData) =>
     serviceData.buildlinks?.isVisible ? (
-      <BuildLinks buildlinks={serviceData.buildlinks} />
+      <BookAConsultation buildlinks={serviceData.buildlinks} />
     ) : null,
 
   serviceResult: (serviceData) =>
