@@ -18,7 +18,7 @@ const FutureProof = () => {
           Future-Proof Your
         </p>
 
-        <h1 className="text-white text-[clamp(1.8rem,2.688vw,2.688rem)] leading-[clamp(2.5rem,2.688vw,3.65rem)]">
+        <h1 className="text-white text-[clamp(1.8rem,2.688vw,2.688rem)] leading-[clamp(2.5rem,2.688vw,3.65rem)] text-center lg:text-left">
           Business With <br />
           Smart{' '}
           <span className="text-[#00A3FF] font-bold text-[clamp(1.8rem,2.688vw,2.688rem)]">
@@ -32,7 +32,7 @@ const FutureProof = () => {
           brand.
         </p>
 
-        <div className="absolute bottom-[4rem]">
+        <div className="absolute bottom-[4rem] flex justify-center">
           <SaveAndCancel
             name="Talk To an Expert!"
             isIcon={true}
