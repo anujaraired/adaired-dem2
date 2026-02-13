@@ -18,7 +18,7 @@ import Stopstruggling from './Stopstruggling';
 import LeadingTools from './LeadingTools';
 import WhatMakesAdaired from './WhatMakesAdaired';
 import OurProcess from './OurProcess';
-import AISEOSolutions from './AISEOSolutions';
+import WhatIncluded from './WhatIncluded';
 import DominateAI from './DominateAI';
 import ReadyToStart from './ReadyToStart';
 import ImportantToBussiness from './ImportantToBussiness';
@@ -123,7 +123,7 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
 
   whatIncluded: (serviceData) =>
     serviceData.whatIncluded?.isVisible ? (
-      <AISEOSolutions whatIncluded={serviceData.whatIncluded} />
+      <WhatIncluded whatIncluded={serviceData.whatIncluded} />
     ) : null,
 
   ourProcess: (serviceData) =>

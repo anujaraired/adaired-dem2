@@ -6,7 +6,7 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import Image from 'next/image';
 import FutureProof from './FutureProof';
 
-const AISEOSolutions = ({ whatIncluded }: any) => {
+const WhatIncluded = ({ whatIncluded }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
   return (
@@ -48,7 +48,7 @@ const AISEOSolutions = ({ whatIncluded }: any) => {
 
                   <a
                     href={card.linkHref}
-                    className="absolute bottom-[2rem] flex w-full items-center justify-center gap-2 lg:justify-start"
+                    className="absolute bottom-[2rem] left-[0rem] flex w-full items-center justify-center gap-2 lg:left-[2rem] lg:justify-start"
                   >
                     <span>{'Get Your Free AI SEO Audit'}</span>
                     <MdOutlineArrowOutward />
@@ -64,4 +64,4 @@ const AISEOSolutions = ({ whatIncluded }: any) => {
   );
 };
 
-export default AISEOSolutions;
+export default WhatIncluded;
