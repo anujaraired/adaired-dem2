@@ -1919,6 +1919,7 @@ brand appears in AI summaries and citations.`,
     // NEW
     stopStruggling: {
       isVisible: true,
+      isHoverBgBlue: true,
       subtitle: '',
       title:
         'Maximize Your Online Presence With The Best Link Building Services',
@@ -3619,8 +3620,7 @@ brand appears in AI summaries and citations.`,
     adairedHelp: {
       isVisible: true,
       img: adaairedHelpSEO,
-      heading:
-        'Benefits of Partnering With a White Label Social Media Agency',
+      heading: 'Benefits of Partnering With a White Label Social Media Agency',
       description: `Here’s how a structured white label social media partnership with Adaired supports long-term agency growth:`,
       mainImage: adairedHelpImg,
       list: [
@@ -3704,9 +3704,11 @@ brand appears in AI summaries and citations.`,
     whatMkeDeferent: {
       isVisible: true,
       heading: 'Why Choose Adaired as Your White Label Social Media Partner?',
-      description: [`Selecting the right white label social media agency directly impacts your client satisfaction, service quality, and long-term growth. 
+      description: [
+        `Selecting the right white label social media agency directly impacts your client satisfaction, service quality, and long-term growth. 
       When you entrust fulfillment to a partner, reliability, expertise, and alignment with your brand become critical.`,
-        `Agencies choose Adaired because we focus on strengthening your business from behind the scenes, not competing with it.`],
+        `Agencies choose Adaired because we focus on strengthening your business from behind the scenes, not competing with it.`,
+      ],
       list: [
         {
           img: whatMkLocal,
@@ -3761,29 +3763,24 @@ brand appears in AI summaries and citations.`,
       list: [
         {
           title: 'What is white label social media management?',
-          description:
-            `White label social media management allows agencies to offer professional social media marketing services under their own brand while fulfillment is handled by a specialized external partner.
+          description: `White label social media management allows agencies to offer professional social media marketing services under their own brand while fulfillment is handled by a specialized external partner.
             This model helps agencies scale without hiring internal teams.`,
         },
         {
           title: 'Can I brand the reports as my own?',
-          description:
-            `Yes. Our white label social media management services support fully branded reporting. Your logo, agency name, and presentation style remain consistent across client-facing documents.`,
+          description: `Yes. Our white label social media management services support fully branded reporting. Your logo, agency name, and presentation style remain consistent across client-facing documents.`,
         },
         {
           title: 'Do you work directly with my clients?',
-          description:
-            `No. We operate strictly behind the scenes. Communication flows through your agency, ensuring you maintain full ownership of the client relationship.`,
+          description: `No. We operate strictly behind the scenes. Communication flows through your agency, ensuring you maintain full ownership of the client relationship.`,
         },
         {
           title: 'Can I set my own pricing?',
-          description:
-            `Absolutely. As a white label social media reseller, we let you control your pricing structure and profit margins. We provide fulfillment; you manage positioning and revenue strategy.`,
+          description: `Absolutely. As a white label social media reseller, we let you control your pricing structure and profit margins. We provide fulfillment; you manage positioning and revenue strategy.`,
         },
         {
           title: 'How quickly can we get started?',
-          description:
-            `After onboarding and alignment on goals, campaigns can typically be structured and launched within a short timeframe, depending on scope and platform requirements.`,
+          description: `After onboarding and alignment on goals, campaigns can typically be structured and launched within a short timeframe, depending on scope and platform requirements.`,
         },
       ],
     },
