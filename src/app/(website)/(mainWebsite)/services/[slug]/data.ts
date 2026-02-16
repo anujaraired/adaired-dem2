@@ -144,6 +144,7 @@ export type SectionKey =
   | 'areYouTired'
   | 'whatareservice'
   | 'needofservice'
+  | 'needofservice2'
   | 'importantToBussiness'
   | 'benefitofAiSeo'
   | 'serviceResult'
@@ -1482,7 +1483,7 @@ brand appears in AI summaries and citations.`,
     needofservice: {
       isVisible: true,
       isBgCornerImg: true,
-      isVariant: '02',
+      isVariant: '01',
       heading: 'Why Authority Link Building Matters For Your Business?',
       data: [
         {
@@ -2540,7 +2541,7 @@ brand appears in AI summaries and citations.`,
       'serviceResult',
       'needofservice',
       'whatMissing',
-      'needofservice',
+      'needofservice2',
       'notSeeingResult',
       'importantToBussiness',
       'leadingTools',
@@ -2702,6 +2703,7 @@ brand appears in AI summaries and citations.`,
 
     needofservice: {
       isVisible: true,
+      isVariant: '02',
       isBgCornerImg: true,
       heading: 'Why “Near Me” Searches Are More Important Than Ever',
       data: [
@@ -2716,14 +2718,12 @@ brand appears in AI summaries and citations.`,
 
     needofservice2: {
       isVisible: true,
+      isVariant: '03',
       isBgCornerImg: true,
       heading: 'Why These Factors Matter',
       data: [
         {
           desctioption: `The aim of Google is to provide the best local search results, not the closest search results. Successful local SEO requires optimizing all three ranking factors to improve visibility, credibility, and long-term growth.`,
-        },
-        {
-          desctioption: `Adaired aims at strengthening relevance, location signal optimization, and building prominence  to make businesses appear higher in the local search results and find more qualified customers.`,
         },
       ],
     },

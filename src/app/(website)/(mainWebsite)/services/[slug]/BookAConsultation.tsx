@@ -48,7 +48,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
                   isIcon={true}
                   isBgWhite={true}
                   handleClick={() => setOpen(!open)}
-                  className="mt-[1rem] w-[18rem]"
+                  className="mt-[1rem]"
                 />
               )}
             </div>
@@ -71,7 +71,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
       )}
       {buildlinks?.isVariant === '02' && (
         <div
-          className={`bg-yellow-200 ${buildlinks?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8]'}`}
+          className={`${buildlinks?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8]'}`}
         >
           <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] py-[3rem] lg:grid-cols-2 lg:py-0">
             <div

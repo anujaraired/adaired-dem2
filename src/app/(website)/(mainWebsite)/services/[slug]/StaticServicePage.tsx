@@ -35,6 +35,7 @@ export type SectionKey =
   | 'areYouTired'
   | 'whatareservice'
   | 'needofservice'
+  | 'needofservice2'
   | 'importantToBussiness'
   | 'benefitofAiSeo'
   | 'serviceResult'
@@ -76,6 +77,11 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
   needofservice: (serviceData) =>
     serviceData.needofservice?.isVisible ? (
       <NeedOfAdaired needOfService={serviceData.needofservice} />
+    ) : null,
+
+  needofservice2: (serviceData) =>
+    serviceData.needofservice2?.isVisible ? (
+      <NeedOfAdaired needOfService={serviceData.needofservice2} />
     ) : null,
 
   importantToBussiness: (serviceData) =>
