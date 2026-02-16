@@ -145,6 +145,7 @@ import whiteWhatIs from '../../../../../../public/assets/whitelabel/whiteWhatIs.
 import whiteStruggleBg from '../../../../../../public/assets/whitelabel/whiteStruggleBg.png';
 import whiteBannerBg from '../../../../../../public/assets/whitelabel/whiteBannerBg.png';
 import whiteAdairedHelpImg from '../../../../../../public/assets/whitelabel/whiteAdairedHelpImg.png';
+import whiteBookConsultationBg from '../../../../../../public/assets/whitelabel/whiteBookConsultationBg.png';
 
 import whiteImpIcon_1 from '../../../../../../public/assets/whitelabel/whiteImpIcon_1.png';
 import whiteImpIcon_2 from '../../../../../../public/assets/whitelabel/whiteImpIcon_2.png';
@@ -3284,7 +3285,6 @@ brand appears in AI summaries and citations.`,
       'keyStats',
       'whatareservice',
       'benefitofAiSeo',
-      'buildlinks',
       'serviceResult',
       'needofservice',
       'whatMissing',
@@ -3296,6 +3296,7 @@ brand appears in AI summaries and citations.`,
       'ourProcess',
       'adairedHelp',
       'whatMkeDeferent',
+      'buildlinks',
       'faqData',
       'readyToStart',
     ] satisfies SectionKey[],
@@ -3354,7 +3355,7 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '01',
+      isVariant: '04',
       img: whiteWhatIs,
       heading: 'What is White Label Social Media Management?',
       span: '',
@@ -3528,6 +3529,7 @@ brand appears in AI summaries and citations.`,
             `We develop customized social media marketing strategies based on your client’s industry, audience behavior, and business goals.`,
             `Every campaign begins with research-driven planning to ensure consistent brand positioning and long-term growth.`,
           ],
+          button: 'Request a Consultation',
         },
         {
           icon: whiteImpIcon_2,
@@ -3536,6 +3538,7 @@ brand appears in AI summaries and citations.`,
             `Our team creates high-quality, branded graphics, captions, and content calendars designed to engage audiences and strengthen brand visibility.`,
             `All creatives align with your client’s voice while maintaining platform best practices.`,
           ],
+          button: 'Request a Consultation',
         },
         {
           icon: whiteImpIcon_3,
@@ -3544,6 +3547,7 @@ brand appears in AI summaries and citations.`,
             `We manage posting schedules across platforms to maintain consistency and maximize engagement.`,
             `Through structured publishing workflows, your clients benefit from a strong and active online presence.`,
           ],
+          button: 'Request a Consultation',
         },
         {
           icon: whiteImpIcon_4,
@@ -3551,6 +3555,7 @@ brand appears in AI summaries and citations.`,
           description: [
             `Engagement is key to social media success. We monitor comments, messages, and interactions to foster meaningful audience relationships while maintaining your client’s brand tone.`,
           ],
+          button: 'Request a Consultation',
         },
         {
           icon: whiteImpIcon_5,
@@ -3558,6 +3563,7 @@ brand appears in AI summaries and citations.`,
           description: [
             `Using advanced white label social media management services, we track performance metrics, identify trends, and refine strategies to continuously improve campaign results.`,
           ],
+          button: 'Request a Consultation',
         },
         {
           icon: whiteImpIcon_6,
@@ -3566,6 +3572,7 @@ brand appears in AI summaries and citations.`,
             `We provide detailed, easy-to-understand reports customized with your agency’s branding.`,
             `These reports highlight growth, engagement, and campaign impact, reinforcing your authority with clients.`,
           ],
+          button: 'Request a Consultation',
         },
       ],
     },
@@ -3766,6 +3773,33 @@ brand appears in AI summaries and citations.`,
       ],
     },
 
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '01',
+      bgImg: whiteBookConsultationBg,
+      img: whiteBookConsultationBg,
+      heading: 'Ready to Expand Your Agency?',
+      description: ``,
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `White label social media management offers a structured and scalable way to grow your agency without increasing operational complexity.`,
+        },
+        {
+          desctioption: `By partnering with Adaired, you gain access to experienced social media marketers, reliable fulfillment systems, and a scalable white label social media platform, all operating discreetly under your brand.`,
+        },
+        {
+          desctioption: `You remain the strategic lead. We power the execution behind the scenes.`,
+        },
+        {
+          desctioption: `If you’re ready to strengthen your service offerings and build predictable recurring revenue through white label social media services, now is the time to take the next step.`,
+        },
+      ],
+      button: 'Request a Consultation',
+    },
+
+
     faqData: {
       isVisible: true,
       subtitle: 'FAQ',
@@ -3926,25 +3960,6 @@ brand appears in AI summaries and citations.`,
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
-    },
-
-    buildlinks: {
-      isVisible: false,
-      isCode01: true,
-      isVariant: '01',
-      img: BeautifulDesign,
-      heading: 'Beautiful Design Meets Smart Development.',
-      // span: '2026 and Beyond',
-      description:
-        'We build websites that captivate users and convert clicks into customers',
-      bgColor: '#FFFCF8',
-      isBgWhite: true,
-      data: [
-        {
-          desctioption: `We build websites that captivate users and convert clicks into customers`,
-        },
-      ],
-      button: 'Start Your Website Project',
     },
 
     getplan: {

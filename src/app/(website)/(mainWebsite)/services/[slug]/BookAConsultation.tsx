@@ -13,9 +13,25 @@ const BookAConsultation = ({ buildlinks }: any) => {
   return (
     <div>
       {buildlinks?.isVariant === '01' && (
+        // <div
+        //   className={`${buildlinks?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8]'} py-[3rem] lg:py-[2rem]`}
+        // >
         <div
-          className={`${buildlinks?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8]'} py-[3rem] lg:py-[2rem]`}
+          className={`py-[3rem] lg:py-[2rem] ${buildlinks?.bgImg
+            ? ''
+            : buildlinks?.isBgWhite
+              ? 'bg-gradient-to-b from-black to-[#051C40]'
+              : 'bg-[#FFFCF8]'
+            }`}
+          style={
+            buildlinks?.bgImg
+              ? {
+                backgroundImage: `url(${buildlinks.bgImg?.src})`,
+              }
+              : {}
+          }
         >
+
           <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2">
             <div
               className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}

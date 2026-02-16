@@ -20,6 +20,7 @@ const AdairedHelp = ({ adairedHelp }: any) => {
             isBgWhite
             isInCenter
             title={adairedHelp?.heading}
+            description={adairedHelp?.description}
             className="mx-auto"
           />
         </div>

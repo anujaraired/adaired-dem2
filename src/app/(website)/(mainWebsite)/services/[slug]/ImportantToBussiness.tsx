@@ -24,6 +24,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
             isInCenter={true}
             subTitle={''}
             title={importantToBussiness?.heading}
+            description= {importantToBussiness?.description}
           />
         </div>
 
