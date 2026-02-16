@@ -52,7 +52,21 @@ const AdairedHelp = ({ adairedHelp }: any) => {
                   transitionDelay: `${index * 280}ms`, // 👈 stagger here
                 }}
               >
-                <Image src={item?.img} width={40} height={40} alt="icon" />
+                {/* <Image src={item?.img} width={40} height={40} alt="icon" /> */}
+                {item?.img ? (
+                  <Image
+                    src={item.img}
+                    width={40}
+                    height={40}
+                    alt="icon"
+                  />
+                ) : (
+                  <div className="text-[#FB9100] font-semibold text-[50px]">
+                    {String(index + 1).padStart(2, '0')}
+                  </div>
+
+                )}
+
 
                 {/* <p className="pt-[1.5rem] font-bold">{item?.name}</p> */}
                 <h3 className="pt-[1.5rem]">{item?.name}</h3>

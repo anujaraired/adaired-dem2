@@ -133,14 +133,25 @@ import whatMkLocal3 from '../../../../../../public/assets/localseo/whatMkLocal3.
 import whatMkLocal4 from '../../../../../../public/assets/localseo/whatMkLocal4.png';
 import whatMkLocal5 from '../../../../../../public/assets/localseo/whatMkLocal5.png';
 
+// Local SEO Images
 import localBannerBg from '../../../../../../public/assets/localseo/localBannerBg.png';
 import LocalWhatService from '../../../../../../public/assets/localseo/localWhatService.png';
 import LocalNotSee from '../../../../../../public/assets/localseo/localNotSee.png';
 import LocalNotSeeBg from '../../../../../../public/assets/localseo/localNotSeeBg.png';
 
+// White Label Page Images
 import whiteKeyStats from '../../../../../../public/assets/whitelabel/whiteKeyStats.png';
 import whiteWhatIs from '../../../../../../public/assets/whitelabel/whiteWhatIs.png';
 import whiteStruggleBg from '../../../../../../public/assets/whitelabel/whiteStruggleBg.png';
+import whiteBannerBg from '../../../../../../public/assets/whitelabel/whiteBannerBg.png';
+import whiteAdairedHelpImg from '../../../../../../public/assets/whitelabel/whiteAdairedHelpImg.png';
+
+import whiteImpIcon_1 from '../../../../../../public/assets/whitelabel/whiteImpIcon_1.png';
+import whiteImpIcon_2 from '../../../../../../public/assets/whitelabel/whiteImpIcon_2.png';
+import whiteImpIcon_3 from '../../../../../../public/assets/whitelabel/whiteImpIcon_3.png';
+import whiteImpIcon_4 from '../../../../../../public/assets/whitelabel/whiteImpIcon_4.png';
+import whiteImpIcon_5 from '../../../../../../public/assets/whitelabel/whiteImpIcon_5.png';
+import whiteImpIcon_6 from '../../../../../../public/assets/whitelabel/whiteImpIcon_6.png';
 
 export type SectionKey =
   | 'banner'
@@ -3274,7 +3285,7 @@ brand appears in AI summaries and citations.`,
       subheading: 'We work behind the scenes. Your brand gets the credit.',
       width: '20rem',
       widthLg: '30rem',
-      bgImg: webDevelopmentBannerBg,
+      bgImg: whiteBannerBg,
     },
 
     keyStats: {
@@ -3482,7 +3493,7 @@ brand appears in AI summaries and citations.`,
       buttonName: 'Request a Consultation',
       data: [
         {
-          icon: importantIcon_1,
+          icon: whiteImpIcon_1,
           name: 'Social Media Strategy',
           description: [
             `We develop customized social media marketing strategies based on your client’s industry, audience behavior, and business goals.`,
@@ -3490,7 +3501,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: importantIcon_1,
+          icon: whiteImpIcon_2,
           name: 'Content Creation',
           description: [
             `Our team creates high-quality, branded graphics, captions, and content calendars designed to engage audiences and strengthen brand visibility.`,
@@ -3498,7 +3509,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: importantIcon_1,
+          icon: whiteImpIcon_3,
           name: 'Scheduling & Publishing',
           description: [
             `We manage posting schedules across platforms to maintain consistency and maximize engagement.`,
@@ -3506,21 +3517,21 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: importantIcon_1,
+          icon: whiteImpIcon_4,
           name: 'Community Management',
           description: [
             `Engagement is key to social media success. We monitor comments, messages, and interactions to foster meaningful audience relationships while maintaining your client’s brand tone.`,
           ],
         },
         {
-          icon: importantIcon_1,
+          icon: whiteImpIcon_5,
           name: 'Performance Tracking & Optimization',
           description: [
             `Using advanced white label social media management services, we track performance metrics, identify trends, and refine strategies to continuously improve campaign results.`,
           ],
         },
         {
-          icon: importantIcon_1,
+          icon: whiteImpIcon_6,
           name: 'Branded Reporting',
           description: [
             `We provide detailed, easy-to-understand reports customized with your agency’s branding.`,
@@ -3589,14 +3600,16 @@ brand appears in AI summaries and citations.`,
 
     adairedHelp: {
       isVisible: true,
-      img: adaairedHelpSEO,
+      img: whiteAdairedHelpImg,
       heading:
         'Benefits of Partnering With a White Label Social Media Agency',
-      description: `Here’s how a structured white label social media partnership with Adaired supports long-term agency growth:`,
+      description: [
+        `Here’s how a structured white label social media partnership with Adaired supports long-term agency growth:`,
+      ],
       mainImage: adairedHelpImg,
       list: [
         {
-          img: adairedHelp_icon_1,
+          img: '',
           name: 'Scalable Service Expansion',
           description: [
             `Adding social media marketing to your offerings typically requires hiring strategists, designers, copywriters, and ad specialists.`,
@@ -3605,7 +3618,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: adairedHelp_icon_1,
+          img: '',
           name: 'Increased Recurring Revenue',
           description: [
             `Social media management services naturally operate on monthly retainers, making them ideal for predictable recurring income.`,
@@ -3614,7 +3627,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: adairedHelp_icon_1,
+          img: '',
           name: 'Reduced Operational Overhead',
           description: [
             `Recruitment, onboarding, training, and payroll can significantly impact margins. A white label social media reseller model eliminates these costs while still delivering expert-level execution.`,
@@ -3622,7 +3635,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: adairedHelp_icon_1,
+          img: '',
           name: 'Faster Time to Market',
           description: [
             `Building an internal social media department takes time. With white label social media management services already in place, agencies can begin offering solutions almost immediately.`,
@@ -3630,7 +3643,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: adairedHelp_icon_1,
+          img: '',
           name: 'Access to Specialized Expertise',
           description: [
             `Social media platforms constantly evolve, from algorithm updates to new ad formats and content trends. Partnering with Adaired, a white label social media marketing agency, gives your clients access to experienced professionals who stay current with industry changes.`,
@@ -3638,7 +3651,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: adairedHelp_icon_1,
+          img: '',
           name: 'Improved Client Retention',
           description: [
             `Clients often prefer working with agencies that offer complete digital marketing solutions under one roof. By integrating white label social media marketing into your services, you reduce the likelihood of clients seeking other providers.`,
@@ -3646,7 +3659,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: adairedHelp_icon_1,
+          img: '',
           name: 'Brand Control & Ownership',
           description: [
             `With white label social media management, your agency remains the primary point of contact. All communication, reporting, and branding stay aligned with your identity.`,
@@ -3654,7 +3667,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: adairedHelp_icon_1,
+          img: '',
           name: 'Operational Simplicity',
           description: [
             `Managing multiple clients across platforms can quickly become overwhelming. A structured white label social media platform and fulfillment system simplifies processes, maintains consistency, and ensures quality control.`,
@@ -3662,7 +3675,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: adairedHelp_icon_1,
+          img: '',
           name: 'Profit Margin Flexibility',
           description: [
             `As a white label social media reseller, we offer you control over pricing.`,
