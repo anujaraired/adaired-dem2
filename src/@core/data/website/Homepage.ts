@@ -810,7 +810,7 @@ export const ServiceSectionData = {
       accentColor: '#5c34b1',
     },
     {
-      title: 'Content Writing & Marketing',
+      title: 'Content Marketing',
       description:
         'From blogs and website copy to landing pages and thought leadership, we create content that supports SEO, builds authority, and drives consistent organic growth.',
       link: '/expert-content-solutions',
