@@ -1,6 +1,6 @@
 import Heading from '@/app/(website)/common/Heading';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import groth from '../../../../../../public/assets/icons/growth 2.png';
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
@@ -18,38 +18,21 @@ const KeyStats = ({ keyStats }: any) => {
   const [visibleCards, setVisibleCards] = useState(3);
   const [index, setIndex] = useState(0);
 
-  // useEffect(() => {
-  //   const updateVisibleCards = () => {
-  //     if (window.innerWidth >= 1024) {
-  //       setVisibleCards(3); // laptop
-  //     } else if (window.innerWidth >= 768) {
-  //       setVisibleCards(2); // tablet
-  //     } else {
-  //       setVisibleCards(1); // mobile
-  //     }
-  //   };
-
-  //   updateVisibleCards();
-  //   window.addEventListener('resize', updateVisibleCards);
-  //   return () => window.removeEventListener('resize', updateVisibleCards);
-  // }, []);
-  const trackRef = useRef<HTMLDivElement>(null);
-  const [cardWidth, setCardWidth] = useState(0);
-
   useEffect(() => {
-    const updateWidth = () => {
-      if (trackRef.current) {
-        const firstCard = trackRef.current.children[0] as HTMLElement;
-        if (firstCard) {
-          setCardWidth(firstCard.offsetWidth);
-        }
+    const updateVisibleCards = () => {
+      if (window.innerWidth >= 1024) {
+        setVisibleCards(3); // laptop
+      } else if (window.innerWidth >= 768) {
+        setVisibleCards(2); // tablet
+      } else {
+        setVisibleCards(1); // mobile
       }
     };
 
-    updateWidth();
-    window.addEventListener('resize', updateWidth);
-    return () => window.removeEventListener('resize', updateWidth);
-  }, [visibleCards]);
+    updateVisibleCards();
+    window.addEventListener('resize', updateVisibleCards);
+    return () => window.removeEventListener('resize', updateVisibleCards);
+  }, []);
 
   const totalItems = keyStats?.list?.length || 0;
   const maxIndex = totalItems - visibleCards;
