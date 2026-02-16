@@ -146,6 +146,7 @@ import whiteStruggleBg from '../../../../../../public/assets/whitelabel/whiteStr
 import whiteBannerBg from '../../../../../../public/assets/whitelabel/whiteBannerBg.png';
 import whiteAdairedHelpImg from '../../../../../../public/assets/whitelabel/whiteAdairedHelpImg.png';
 import whiteBookConsultationBg from '../../../../../../public/assets/whitelabel/whiteBookConsultationBg.png';
+import whiteBuildLinkImg from '../../../../../../public/assets/whitelabel/whiteBuildLinkImg.png';
 
 import whiteImpIcon_1 from '../../../../../../public/assets/whitelabel/whiteImpIcon_1.png';
 import whiteImpIcon_2 from '../../../../../../public/assets/whitelabel/whiteImpIcon_2.png';
@@ -153,6 +154,12 @@ import whiteImpIcon_3 from '../../../../../../public/assets/whitelabel/whiteImpI
 import whiteImpIcon_4 from '../../../../../../public/assets/whitelabel/whiteImpIcon_4.png';
 import whiteImpIcon_5 from '../../../../../../public/assets/whitelabel/whiteImpIcon_5.png';
 import whiteImpIcon_6 from '../../../../../../public/assets/whitelabel/whiteImpIcon_6.png';
+
+import whatMkWhite_1 from '../../../../../../public/assets/whitelabel/whatMkWhite_1.png';
+import whatMkWhite_2 from '../../../../../../public/assets/whitelabel/whatMkWhite_2.png';
+import whatMkWhite_3 from '../../../../../../public/assets/whitelabel/whatMkWhite_3.png';
+import whatMkWhite_4 from '../../../../../../public/assets/whitelabel/whatMkWhite_4.png';
+import whatMkWhite_5 from '../../../../../../public/assets/whitelabel/whatMkWhite_5.png';
 
 export type SectionKey =
   | 'banner'
@@ -3302,12 +3309,12 @@ brand appears in AI summaries and citations.`,
     ] satisfies SectionKey[],
 
     banner: {
-      code: '04',
+      code: '06',
       isCenter: false,
       isVisible: true,
-      heading: '',
+      heading: 'for Modern Agencies',
       subtitle: 'Industry-Leading White Label',
-      label: 'Social Media Management for Modern Agencies',
+      label: 'Social Media Management',
       desc: `Deliver expert social media marketing services under your brand without hiring a full in-house team. 
           With Adaired Digital Media, you get fully managed social media solutions that expand your service lineup without increasing overhead. 
           From content creation to campaign management, our team drives measurable growth for your clients, all under your brand.`,
@@ -3320,7 +3327,7 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: true,
-      code: '03',
+      code: '06',
       img: whiteKeyStats,
       heading: 'Must-Know Facts About White Label Social Media',
       isCard: false,
@@ -3355,10 +3362,10 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '04',
+      isVariant: '05',
       img: whiteWhatIs,
-      heading: 'What is White Label Social Media Management?',
-      span: '',
+      heading: 'What is White Label',
+      span: 'Social Media Management?',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [
@@ -3396,130 +3403,13 @@ brand appears in AI summaries and citations.`,
       button: '',
     },
 
-    serviceResult: {
-      isVisible: false,
-      heading: 'Why Is Local SEO Important for Your Business?',
-      description: [
-        `Local search optimization is necessary when the company is aimed at local consumers. It assists you attract ready-to-convert traffic, gain local visibility and stay ahead of competitors.`,
-      ],
-      isBgColor: false,
-      img: StrugglingImgAISEO,
-      list: [
-        {
-          img: aiseoresult,
-          name: 'Drives High-Intent Local Traffic',
-          description: [
-            `Local SEO makes your company reach the customers, who actively search your services in your area. 
-            These are users who already have intent to purchase, visit, or contact you and hence they are much more valuable than normal traffic. 
-            Your presence in the local searches and in the ‘near me’ searches exposes you to people who are willing to act immediately. `,
-          ],
-        },
-        {
-          img: aiseoresult,
-          name: 'Increases Calls, Visits, and Bookings',
-          description: [
-            `The higher your business is on the local search results, the more customers can easily call, visit, or book your services. 
-            Optimized local listings, accurate business information, and high map visibility will minimize the frustration in the purchasing process, 
-            bring internet searches to the real world and this will have a direct impact on your revenues.`,
-          ],
-        },
-        {
-          img: aiseoresult,
-          name: 'Builds Trust and Credibility',
-          description: [
-            `Placing your brand at the first position in local search engine will instantly make your brand credible. 
-            Customers naturally trust businesses with positive reviews, and those that have correct local listing. 
-            Local SEO will enable your online reputation, make your brand seem trustworthy, and helps customers feel confident choosing you over lesser-known competitors.`,
-          ],
-        },
-        {
-          img: aiseoresult,
-          name: 'Outranks Local Competitors',
-          description: [
-            `The local SEO will make your business visible in a crowded marketplace because it will put you ahead of your competitors in your city. 
-            By targeting location-specific keywords and optimizing your local presence, you capture customer attention first often before they even consider other options, 
-            hence giving you a powerful competitive advantage in your local market.`,
-          ],
-        },
-        {
-          img: aiseoresult,
-          name: 'Delivers Long-Term, Cost-Effective Growth',
-          description: [
-            `Unlike paid advertising, Local SEO delivers sustainable results over time without constant ad spend. 
-            Once your local rankings improve, your business has new qualified leads coming into it automatically. 
-            This would make Local SEO an affordable marketing investment that will contribute to the local market to keep growing steadily, maintain high visibility, and achieve long-term success.`,
-          ],
-        },
-      ],
-    },
-
-    needofservice: {
-      isVisible: false,
-      isBgCornerImg: true,
-      heading: 'Why “Near Me” Searches Are More Important Than Ever',
-      data: [
-        {
-          desctioption: `“Near me” searches are no longer based on distance alone.  Although proximity remains key, Google has introduced the use of several signals before local results can be shown.`,
-        },
-        {
-          desctioption: `When the user is searching the service in the area, Google considers how well a business matches the search, and the reputation and reliability that the business holds online.`,
-        },
-      ],
-    },
-
-    whatMissing: {
-      isVisible: false,
-      heading: 'What Are Local SEO Ranking Factors?',
-      description: [
-        `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
-        Google now relies on three primary ranking factors to determine local visibility: Relevance, Distance, and Prominence.`,
-        `Together these factors assist Google in presenting the most accurate, trustworthy, and helpful local businesses to its users during their search.`,
-      ],
-      list: [
-        {
-          icon: missing_1,
-          title: 'Relevance',
-          description: [
-            `Relevance takes into consideration the similarity of your business with what the user wants to search. 
-            Google considers your business details, web content, service descriptions, categories and keywords to find out whether your business fits in the intention of the user.`,
-            `Clear, accurate, and well-optimized content improves relevance and increases the likelihood of appearing for the right local searches.`,
-          ],
-        },
-        {
-          icon: missing_2,
-          title: 'Distance',
-          description: [
-            `Distance measures how close your business is to the searcher or to the location specified in the search. 
-            You cannot control the location of the user, but you can make sure that your address, service areas and location information is correct and showing the same points on the web.`,
-            `Good relevance and high profile may enable the businesses to appear high even when the business is not the nearest.`,
-          ],
-        },
-        {
-          icon: missing_3,
-          title: 'Prominence',
-          description: [
-            `Prominence reflects how well-known and trusted your business is online. 
-            Google evaluates the signals including customer reviews, rating, local citation, and back links, mention of the brand and general online presence.`,
-            `Companies that enjoy a high degree of authority and good reputation are more likely to feature on top search results in the local search engine.`,
-          ],
-        },
-      ],
-    },
-
-    notSeeingResult: {
-      isVisible: false,
-      heading: `Still unsure about investing in local SEO? You shouldn’t be.`,
-      description: '',
-      buttonName: 'Book a call with a local SEO expert!',
-      img: LocalNotSee,
-      bgImage: LocalNotSeeBg,
-    },
-
     importantToBussiness: {
       isVisible: true,
       heading: 'Our White Label Social Media Services',
-      description: `Adaired delivers fully managed white label social media management services that help agencies expand their offerings without building an in-house team. 
-      Each service is structured to deliver measurable growth while keeping your brand front and center.`,
+      description: [
+        `Adaired delivers fully managed white label social media management services that help agencies expand their offerings without building an in-house team. 
+      Each service is structured to deliver measurable growth while keeping your brand front and center.`
+      ],
       buttonName: 'Request a Consultation',
       data: [
         {
@@ -3729,7 +3619,7 @@ brand appears in AI summaries and citations.`,
         `Agencies choose Adaired because we focus on strengthening your business from behind the scenes, not competing with it.`],
       list: [
         {
-          img: whatMkLocal,
+          img: whatMkWhite_1,
           name: '1. Dedicated Social Media Specialists',
           description: [
             `Our team consists of experienced strategists, content creators, ad managers, and account coordinators who specialize in white label social media management.`,
@@ -3737,7 +3627,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkLocal1,
+          img: whatMkWhite_2,
           name: '2. Data-Driven Campaign Execution',
           description: [
             `Every social media marketing initiative we manage is guided by analytics, performance tracking, and ongoing optimization.`,
@@ -3745,7 +3635,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkLocal2,
+          img: whatMkWhite_3,
           name: '3. Structured Communication & Collaboration',
           description: [
             `Successful white label social media services depend on clear coordination.`,
@@ -3753,7 +3643,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkLocal3,
+          img: whatMkWhite_4,
           name: '4. Focus on Measurable Growth',
           description: [
             `Vanity metrics do not define success. 
@@ -3761,7 +3651,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkLocal4,
+          img: whatMkWhite_5,
           name: '5. Brand Integrity & Confidentiality',
           description: [
             `As your white label social media reseller partner, we operate discreetly. 
@@ -3776,9 +3666,9 @@ brand appears in AI summaries and citations.`,
     buildlinks: {
       isVisible: true,
       isCode01: true,
-      isVariant: '01',
+      isVariant: '03',
       bgImg: whiteBookConsultationBg,
-      img: whiteBookConsultationBg,
+      img: whiteBuildLinkImg,
       heading: 'Ready to Expand Your Agency?',
       description: ``,
       isBgWhite: true,
@@ -3798,7 +3688,6 @@ brand appears in AI summaries and citations.`,
       ],
       button: 'Request a Consultation',
     },
-
 
     faqData: {
       isVisible: true,
@@ -3831,6 +3720,77 @@ brand appears in AI summaries and citations.`,
           title: 'How quickly can we get started?',
           description:
             `After onboarding and alignment on goals, campaigns can typically be structured and launched within a short timeframe, depending on scope and platform requirements.`,
+        },
+      ],
+    },
+
+    needofservice: {
+      isVisible: false,
+      isBgCornerImg: true,
+      heading: 'Why “Near Me” Searches Are More Important Than Ever',
+      data: [
+        {
+          desctioption: `“Near me” searches are no longer based on distance alone.  Although proximity remains key, Google has introduced the use of several signals before local results can be shown.`,
+        },
+        {
+          desctioption: `When the user is searching the service in the area, Google considers how well a business matches the search, and the reputation and reliability that the business holds online.`,
+        },
+      ],
+    },
+
+    serviceResult: {
+      isVisible: false,
+      heading: 'Why Is Local SEO Important for Your Business?',
+      description: [
+        `Local search optimization is necessary when the company is aimed at local consumers. It assists you attract ready-to-convert traffic, gain local visibility and stay ahead of competitors.`,
+      ],
+      isBgColor: false,
+      img: StrugglingImgAISEO,
+      list: [
+        {
+          img: aiseoresult,
+          name: 'Drives High-Intent Local Traffic',
+          description: [
+            `Local SEO makes your company reach the customers, who actively search your services in your area. 
+            These are users who already have intent to purchase, visit, or contact you and hence they are much more valuable than normal traffic. 
+            Your presence in the local searches and in the ‘near me’ searches exposes you to people who are willing to act immediately. `,
+          ],
+        },
+        {
+          img: aiseoresult,
+          name: 'Increases Calls, Visits, and Bookings',
+          description: [
+            `The higher your business is on the local search results, the more customers can easily call, visit, or book your services. 
+            Optimized local listings, accurate business information, and high map visibility will minimize the frustration in the purchasing process, 
+            bring internet searches to the real world and this will have a direct impact on your revenues.`,
+          ],
+        },
+        {
+          img: aiseoresult,
+          name: 'Builds Trust and Credibility',
+          description: [
+            `Placing your brand at the first position in local search engine will instantly make your brand credible. 
+            Customers naturally trust businesses with positive reviews, and those that have correct local listing. 
+            Local SEO will enable your online reputation, make your brand seem trustworthy, and helps customers feel confident choosing you over lesser-known competitors.`,
+          ],
+        },
+        {
+          img: aiseoresult,
+          name: 'Outranks Local Competitors',
+          description: [
+            `The local SEO will make your business visible in a crowded marketplace because it will put you ahead of your competitors in your city. 
+            By targeting location-specific keywords and optimizing your local presence, you capture customer attention first often before they even consider other options, 
+            hence giving you a powerful competitive advantage in your local market.`,
+          ],
+        },
+        {
+          img: aiseoresult,
+          name: 'Delivers Long-Term, Cost-Effective Growth',
+          description: [
+            `Unlike paid advertising, Local SEO delivers sustainable results over time without constant ad spend. 
+            Once your local rankings improve, your business has new qualified leads coming into it automatically. 
+            This would make Local SEO an affordable marketing investment that will contribute to the local market to keep growing steadily, maintain high visibility, and achieve long-term success.`,
+          ],
         },
       ],
     },
@@ -3879,6 +3839,45 @@ brand appears in AI summaries and citations.`,
           description: [
             `The world of the Internet is very busy nowadays, so a generic site is not sufficient. 
             A tailored site featuring unique images, effective branding, and engagement is useful to businesses to stand out, enhance their online presence, and create an impression.`,
+          ],
+        },
+      ],
+    },
+
+    whatMissing: {
+      isVisible: false,
+      heading: 'What Are Local SEO Ranking Factors?',
+      description: [
+        `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
+        Google now relies on three primary ranking factors to determine local visibility: Relevance, Distance, and Prominence.`,
+        `Together these factors assist Google in presenting the most accurate, trustworthy, and helpful local businesses to its users during their search.`,
+      ],
+      list: [
+        {
+          icon: missing_1,
+          title: 'Relevance',
+          description: [
+            `Relevance takes into consideration the similarity of your business with what the user wants to search. 
+            Google considers your business details, web content, service descriptions, categories and keywords to find out whether your business fits in the intention of the user.`,
+            `Clear, accurate, and well-optimized content improves relevance and increases the likelihood of appearing for the right local searches.`,
+          ],
+        },
+        {
+          icon: missing_2,
+          title: 'Distance',
+          description: [
+            `Distance measures how close your business is to the searcher or to the location specified in the search. 
+            You cannot control the location of the user, but you can make sure that your address, service areas and location information is correct and showing the same points on the web.`,
+            `Good relevance and high profile may enable the businesses to appear high even when the business is not the nearest.`,
+          ],
+        },
+        {
+          icon: missing_3,
+          title: 'Prominence',
+          description: [
+            `Prominence reflects how well-known and trusted your business is online. 
+            Google evaluates the signals including customer reviews, rating, local citation, and back links, mention of the brand and general online presence.`,
+            `Companies that enjoy a high degree of authority and good reputation are more likely to feature on top search results in the local search engine.`,
           ],
         },
       ],
@@ -3951,6 +3950,15 @@ brand appears in AI summaries and citations.`,
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
+    },
+
+    notSeeingResult: {
+      isVisible: false,
+      heading: `Still unsure about investing in local SEO? You shouldn’t be.`,
+      description: '',
+      buttonName: 'Book a call with a local SEO expert!',
+      img: LocalNotSee,
+      bgImage: LocalNotSeeBg,
     },
 
     leadingTools: {

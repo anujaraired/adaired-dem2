@@ -513,6 +513,76 @@ const Banner = ({ banner }: any) => {
                 </div>
               </div>
             )}
+            {banner?.code === '06' && (
+              <div className="relative z-10 block justify-between pb-[0rem] pt-[9rem] lg:flex lg:pb-0 lg:pt-0">
+                <div
+                  className={`my-auto w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[45%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
+                >
+                  <div
+                    className={`'grid lg:gap-[10rem]'} grid-cols-1 lg:grid-cols-2`}
+                  >
+                    <div className="md:flex` block justify-center justify-items-center gap-3 lg:justify-start lg:justify-items-start">
+                      <div className="mt-[0.8rem] !w-[100%] md:mt-[8px] lg:mt-[0.5rem]">
+                        {banner?.subtitle && (
+                          <div className="mx-auto flex w-fit gap-3 rounded-full border-[0.71px] border-[#000000]/20 px-[1rem] py-[0.25rem] lg:mx-0 lg:mr-auto">
+                            <Image
+                              src={star}
+                              width={18}
+                              height={17}
+                              alt="star icon"
+                              className="mb-auto"
+                            />
+                            <span className="my-auto uppercase text-[#000000]">
+                              {banner.subtitle}
+                            </span>
+                          </div>
+                        )}
+
+                        <h1 className="text-center capitalize lg:text-left">
+                          <span className="font-poppins text-[clamp(1.8rem,3vw,3.75rem)] font-light capitalize leading-[clamp(2.5rem,3.65vw,4.65rem)] text-[#000000]">
+                            {banner?.label}{' '}
+                          </span>
+                          {banner?.heading}
+                        </h1>
+                      </div>
+                    </div>
+                    <div className={`$ 'pt-[1rem]'}`}>
+                      {banner?.span && (
+                        <p className="pt-4 text-center font-montserrat font-bold lg:text-left">
+                          {banner?.span}
+                        </p>
+                      )}
+
+                      <p className="py-7 text-center lg:text-left">
+                        {banner?.desc}
+                      </p>
+                      {banner?.subheading && (
+                        <h3 className="text-[22px] font-[600] leading-[32px]">
+                          {banner?.subheading}
+                        </h3>
+                      )}
+                    </div>
+                  </div>
+                  <div className="flex justify-center lg:justify-start">
+                    <SaveAndCancel
+                      name={banner?.button}
+                      isIcon={true}
+                      handleClick={() => router.push('/contact')}
+                      buttonWidth="!w-[20rem]"
+                    />
+                  </div>
+                </div>
+                <div className="pb-[6rem] pt-[9rem]">
+                  <Image
+                    src={banner?.bgImg}
+                    width={676}
+                    height={676}
+                    alt="Web Development Banner"
+                    className=""
+                  />
+                </div>
+              </div>
+            )}
           </div>
         )}
       </MaxWidthWrapper>
