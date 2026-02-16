@@ -1,16 +1,70 @@
 import Heading from '@/app/(website)/common/Heading';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
-import React, { useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import groth from '../../../../../../public/assets/icons/growth 2.png';
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import DottedLine from '../../../../../../public/assets/Line 28.png';
 import keyStatsImg from '../../../../../../public/assets/keyStatsImg.png';
 import rocket from '../../../../../../public/assets/icons/rocket.svg';
+import { IoArrowForwardCircleOutline } from 'react-icons/io5';
+import ranking from '../../../../../../public/assets/icons/rankings.svg';
+import ranking2 from '../../../../../../public/assets/icons/rankings2.svg';
 
 const KeyStats = ({ keyStats }: any) => {
   const [activeTab, setActiveTab] = useState(0);
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+  const [isActive, setIsActive] = useState<number | null>(null);
+  const [visibleCards, setVisibleCards] = useState(3);
+  const [index, setIndex] = useState(0);
+
+  // useEffect(() => {
+  //   const updateVisibleCards = () => {
+  //     if (window.innerWidth >= 1024) {
+  //       setVisibleCards(3); // laptop
+  //     } else if (window.innerWidth >= 768) {
+  //       setVisibleCards(2); // tablet
+  //     } else {
+  //       setVisibleCards(1); // mobile
+  //     }
+  //   };
+
+  //   updateVisibleCards();
+  //   window.addEventListener('resize', updateVisibleCards);
+  //   return () => window.removeEventListener('resize', updateVisibleCards);
+  // }, []);
+  const trackRef = useRef<HTMLDivElement>(null);
+  const [cardWidth, setCardWidth] = useState(0);
+
+  useEffect(() => {
+    const updateWidth = () => {
+      if (trackRef.current) {
+        const firstCard = trackRef.current.children[0] as HTMLElement;
+        if (firstCard) {
+          setCardWidth(firstCard.offsetWidth);
+        }
+      }
+    };
+
+    updateWidth();
+    window.addEventListener('resize', updateWidth);
+    return () => window.removeEventListener('resize', updateWidth);
+  }, [visibleCards]);
+
+  const totalItems = keyStats?.list?.length || 0;
+  const maxIndex = totalItems - visibleCards;
+
+  const handleNext = () => {
+    if (index < maxIndex) {
+      setIndex((prev) => prev + 1);
+    }
+  };
+
+  const handlePrev = () => {
+    if (index > 0) {
+      setIndex((prev) => prev - 1);
+    }
+  };
 
   return (
     <div ref={ref} className="py-[3rem] lg:py-[4rem]">
@@ -231,7 +285,7 @@ const KeyStats = ({ keyStats }: any) => {
         {keyStats?.code === '05' && (
           <div>
             <div
-              className={`w-full transition-all duration-1000 lg:w-fit ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+              className={`flex w-full justify-between transition-all duration-1000 lg:w-full ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
             >
               <Heading
                 breakIndex={6}
@@ -240,23 +294,59 @@ const KeyStats = ({ keyStats }: any) => {
                 subTitle={''}
                 title={keyStats?.heading}
               />
+              <div className="flex">
+                <IoArrowForwardCircleOutline
+                  size={30}
+                  onClick={handlePrev}
+                  className={`rotate-180 cursor-pointer ${
+                    index === 0 ? 'cursor-not-allowed opacity-40' : ''
+                  }`}
+                />
+                <IoArrowForwardCircleOutline
+                  size={30}
+                  onClick={handleNext}
+                  className={`cursor-pointer ${
+                    index >= maxIndex ? 'cursor-not-allowed opacity-40' : ''
+                  }`}
+                />
+              </div>
             </div>
-            <div
-              className={`${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} grid grid-cols-1 gap-[1rem] lg:grid-cols-3`}
-            >
-              {keyStats?.list?.slice(0, 3).map((item: any, idx: number) => {
-                return (
+            <div className="overflow-hidden">
+              <div
+                className="flex gap-[1rem] transition-transform duration-500 ease-in-out"
+                style={{
+                  transform: `translateX(-${index * (100 / visibleCards)}%)`,
+                }}
+              >
+                {keyStats?.list?.map((item: any, idx: number) => (
                   <div
-                    className={`flex flex-col items-center rounded-[1rem] bg-[#F9F9F9] p-[2rem] transition-all duration-700 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                    key={idx}
+                    // style={{ minWidth: `${100 / visibleCards}%` }}
                     style={{
-                      transitionDelay: `${idx * 280}ms`, // 👈 stagger here
+                      minWidth: `calc(${100 / visibleCards}% - ${
+                        visibleCards === 1 ? 0 : '0.67rem'
+                      })`,
                     }}
+                    onMouseEnter={() => setIsActive(idx)}
+                    onMouseLeave={() => setIsActive(null)}
+                    className={`flex flex-col items-center rounded-[1rem] p-[2rem] transition-all duration-300 ease-in-out lg:items-start ${isActive === idx ? 'rounded-[1rem] bg-[#FB9100]' : 'bg-[#F9F9F9]'}`}
                   >
-                    <Image src={groth} width={50} height={50} alt="img" />
-                    <p className="pt-[2rem]">{item?.desctioption}</p>
+                    <Image
+                      src={isActive === idx ? ranking : ranking2}
+                      width={50}
+                      height={50}
+                      alt="img"
+                    />
+                    <p
+                      className={`pt-[2rem] transition-colors duration-300 ${
+                        isActive === idx ? 'text-white' : 'text-black'
+                      }`}
+                    >
+                      {item?.desctioption}
+                    </p>
                   </div>
-                );
-              })}
+                ))}
+              </div>
             </div>
           </div>
         )}
