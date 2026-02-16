@@ -13,32 +13,28 @@ const WhatMissing = ({ whatMissing }: any) => {
     <section ref={ref} className="py-[3rem] lg:py-[4rem]">
       <MaxWidthWrapper>
         <div className={``}>
-          {/* <Heading
-            breakIndex={7}
-            title={whatMissing?.heading}
-            isInCenter={true}
-            isBgWhite={true}
-          />
-          <div className="">
-            {whatMissing?.description?.map((item: any, idx: number) => {
-              return (
-                <p key={idx} className="py-2">
-                  {item}
-                </p>
-              );
-            })}
-          </div> */}
           <div
-            className={`flex flex-col items-center justify-between transition-all duration-1000 lg:flex-row ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+            className={`block transition-all duration-1000 lg:flex lg:flex-row ${
+              whatMissing?.description?.length > 0
+                ? ''
+                : 'items-center justify-center'
+            } ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
           >
-            <Heading
-              title={whatMissing?.heading}
-              className="w-[100%] lg:w-[35%]"
-            />
-            <div className="w-[100%] lg:w-[60%]">
+            <div
+              className={`${whatMissing?.description?.length > 0 ? '' : 'flex w-[100%] justify-center lg:w-[50%]'} pr-0 lg:pr-[6rem]`}
+            >
+              <h2
+                className={`${whatMissing?.description?.length > 0 ? 'text-center lg:text-left' : 'text-center'}`}
+              >
+                {whatMissing?.heading}
+              </h2>
+            </div>
+            <div
+              className={`${whatMissing?.description?.length > 0 ? 'w-full lg:w-[50%]' : 'w-[0%]'}`}
+            >
               {whatMissing?.description?.map((item: any, idx: number) => {
                 return (
-                  <p key={idx} className="py-2">
+                  <p key={idx} className="py-2 text-center lg:text-left">
                     {item}
                   </p>
                 );

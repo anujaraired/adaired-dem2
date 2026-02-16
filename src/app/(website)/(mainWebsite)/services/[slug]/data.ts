@@ -1482,6 +1482,7 @@ brand appears in AI summaries and citations.`,
     needofservice: {
       isVisible: true,
       isBgCornerImg: true,
+      isVariant: '02',
       heading: 'Why Authority Link Building Matters For Your Business?',
       data: [
         {
@@ -2542,7 +2543,7 @@ brand appears in AI summaries and citations.`,
       'needofservice',
       'notSeeingResult',
       'importantToBussiness',
-      "leadingTools",
+      'leadingTools',
       'whatIncluded',
       'ourProcess',
       'whatMkeDeferent',
@@ -2709,6 +2710,20 @@ brand appears in AI summaries and citations.`,
         },
         {
           desctioption: `When the user is searching the service in the area, Google considers how well a business matches the search, and the reputation and reliability that the business holds online.`,
+        },
+      ],
+    },
+
+    needofservice2: {
+      isVisible: true,
+      isBgCornerImg: true,
+      heading: 'Why These Factors Matter',
+      data: [
+        {
+          desctioption: `The aim of Google is to provide the best local search results, not the closest search results. Successful local SEO requires optimizing all three ranking factors to improve visibility, credibility, and long-term growth.`,
+        },
+        {
+          desctioption: `Adaired aims at strengthening relevance, location signal optimization, and building prominence  to make businesses appear higher in the local search results and find more qualified customers.`,
         },
       ],
     },
