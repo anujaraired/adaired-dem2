@@ -2000,7 +2000,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       heading: 'Design That Builds Trust.',
       label: 'Experiences That Convert.',
-      desc: 'With billions of websites competing for attention, your brand has seconds to stand out. At Adaired, we design and develop visually compelling websites that build trust, capture attention, and drive results.',
+      desc: 'With billions of websites competing for attention, your brand has seconds to stand out. At Adaired Digital Media, we design and develop visually compelling websites that build trust, capture attention, and drive results.',
       button: 'Book a consultation today',
       subheading: '',
       width: '20rem',
@@ -2108,7 +2108,7 @@ brand appears in AI summaries and citations.`,
         {
           name: 'Builds Trust and Credibility',
           description: [
-            `Good website design is associated with the credibility and professionalism of a business. 
+            `A Good website design is associated with the credibility and professionalism of a business. 
             Features such as fast loading speeds, secure connections, consistent performance, and clear messaging reassure users that the company is reliable, established, and customer-focused.`,
           ],
         },
@@ -2267,9 +2267,9 @@ brand appears in AI summaries and citations.`,
           img: AdairedHelp1,
           name: 'Custom Design Aligned With Your Brand',
           description: [
-            `The website designs that Adaired builds are completely personalized which can be considered to be an expression of your brand identity, personality and objectives.
-            We do not make a one-size-fits-all template, but create visually appealing layouts, colour scheme and interfaces that can communicate your brand in a straightforward way.`,
-            `This will make your site unique and provide your visitors with a consistent and memorable brand experience.`,
+            `The website designs that Adaired builds are completely personalized, which can be considered to be an expression of your brand identity, personality, and objectives.`,
+            `We do not make a one-size-fits-all template but create visually appealing layouts, color schemes, and interfaces that can communicate your brand in a straightforward way.`,
+            `This will make your site unique and provide your visitors with a consistent and memorable brand experience. And this is what separates us as a web design and development company.`,
           ],
         },
         {
@@ -2294,8 +2294,8 @@ brand appears in AI summaries and citations.`,
           img: AdairedHelp4,
           name: 'Performance, Security, and Scalability',
           description: [
-            `Adaired creates fast, secure websites that are designed to expand your business. We have a long-term performance orientation in terms of optimized loading speeds, secure hosting, and clean, scalable code.`,
-            `Our development practices ensure that your site is stable, secure and can handle more traffic as well as future growth.`,
+            `Being the top web development company, we create fast, secure websites that are designed to expand your business. We have a long-term performance orientation in terms of optimized loading speeds, secure hosting, and clean, scalable code.`,
+            `Our development practices ensure that your site is stable and secure and can handle more traffic as well as future growth.`,
           ],
         },
         {
@@ -2349,8 +2349,9 @@ brand appears in AI summaries and citations.`,
           img: WhatMkeAd,
           name: 'Professional experience and expertise',
           description: [
-            `At Adaired, our professionals clearly convey that you are investing in years of knowledge and experience. Our highly skilled designers and developers are skilled in the latest designs and follow the best practices. They will help you create websites that are user-friendly, visually appealing and fully-functional. `,
-            `They understand the nuances of user behaviour, actions and customer needs effectively and draft solutions that can make your business future-ready. `,
+            `Our professionals clearly convey that you are investing in years of knowledge and experience. We adapt to the latest designs and follow the best practices to help you create websites that are user-friendly, visually appealing, and fully functional.`,
+            `Plus, we understand the nuances of user behavior, actions, and customer needs effectively and draft solutions that can make your business future-ready. 
+`,
           ],
         },
         {
@@ -2465,7 +2466,7 @@ brand appears in AI summaries and citations.`,
     stopStruggling: {
       isVisible: true,
       subtitle: '',
-      title: 'Every Successful Website Starts with a Clear Strategy.',
+      title: 'Every Successful Website Starts with A Clear Strategy.',
       button: 'Schedule a Strategy Call',
       description: `Schedule a strategy call and let’s build a digital presence aligned\n with your business goals.`,
       bgImg: stop_struggle2,
