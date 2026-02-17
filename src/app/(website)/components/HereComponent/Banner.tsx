@@ -114,14 +114,14 @@ const Banner = () => {
   return (
     <div
       ref={ref}
-      className="relative mx-auto min-h-screen w-full overflow-hidden pt-[10vh]"
+      className="relative mx-auto w-full overflow-hidden pt-[5vh] lg:pt-[10vh]"
     >
       <Image
         src={hero_banner}
         fill
         alt="hero bg"
         priority
-        className="pointer-events-none object-cover"
+        className="pointer-events-none object-fill lg:object-cover"
       />
       <MaxWidthWrapper className="relative z-10 block items-center justify-between py-[3rem] lg:flex lg:py-[4rem]">
         <div

@@ -160,14 +160,14 @@ const KeyStats = ({ keyStats }: any) => {
             className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
           >
             <Heading
-              breakIndex={6}
+              // breakIndex={6}
               isBgWhite={true}
               isInCenter={true}
               subTitle={''}
               title={keyStats?.heading}
             />
 
-            <div className="relative grid grid-cols-1 gap-[1rem] lg:grid-cols-2 lg:gap-[6rem]">
+            <div className="relative grid grid-cols-1 gap-[1rem] lg:grid-cols-2 lg:gap-[4rem]">
               <div className="rounded-[20px]">
                 {keyStats?.list?.map((item: any, index: any) => (
                   <div
