@@ -1,3 +1,4 @@
+"use client";
 import { SolutionsSectionData } from '@/@core/data/website/Homepage';
 import React, { useState } from 'react';
 import MaxWidthWrapper from '../MaxWidthWrapper';

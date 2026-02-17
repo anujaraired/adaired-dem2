@@ -1,3 +1,5 @@
+import type { Metadata } from 'next';
+
 export const dynamic = 'force-dynamic';
 import axios from 'axios';
 import Link from 'next/link';
@@ -18,17 +20,25 @@ import {
   SurferSEOSectionDetails,
 } from '@core/data/website/Landingpage';
 import { FAQSection } from '@web-components/eComFaqSection';
-import { EcomPageForm } from '../components/forms/EcomForm';
+import { EcomPageForm } from '@/app/(website)/components/forms/EcomForm';
 import CldImage from '@web-components/CloudinaryImageComponent';
 import { ProductSection } from '@web-components/ContentProducts';
 import { BaseURL } from '@/baseUrl';
 
+export const metadata: Metadata = {
+  title: 'Content Marketing Services & Solutions for Business Growth',
+  description:
+    'Drive traffic, build authority, and generate leads with Adaired’s content marketing services. We create SEO blogs, website content, and strategic campaigns designed to grow your business.',
+  alternates: {
+    canonical: '/expert-content-solutions',
+  },
+};
+
 async function getProducts() {
   try {
-    const res = await fetch(
-      `${BaseURL}/product/read-product?status=active`,
-      { cache: 'no-store' }
-    );
+    const res = await fetch(`${BaseURL}/product/read-product?status=active`, {
+      cache: 'no-store',
+    });
 
     if (!res.ok) {
       console.error('Failed to fetch products:', res.status);
@@ -66,7 +76,7 @@ const HeroSection = () => {
     <div
       id="heroSection"
       className={cn(
-        `relative flex items-end justify-center overflow-hidden bg-[#F39019] opt-md:bg-[#FFF9F1] pt-[4rem] lg:pt-[8rem]`
+        `relative flex items-end justify-center overflow-hidden bg-[#F39019] pt-[4rem] opt-md:bg-[#FFF9F1] lg:pt-[8rem]`
       )}
     >
       <div
@@ -103,7 +113,7 @@ const HeroSection = () => {
             >
               {HeroSectionDetails.title}
             </h1>
-            <p className={cn(`pt-[15px] font text-base`)}>
+            <p className={cn(`font pt-[15px] text-base`)}>
               {HeroSectionDetails.description}
             </p>
             <div
@@ -197,11 +207,7 @@ const StandOutSection = () => {
           >
             {StandOutSectionDetails.title}
           </h2>
-          <div
-            className={cn(
-              `space-y-[13px] font text-base text-[#424242]`
-            )}
-          >
+          <div className={cn(`font space-y-[13px] text-base text-[#424242]`)}>
             {parse(StandOutSectionDetails.description)}
           </div>
           <div className="flex flex-col space-y-[18px]">
@@ -232,7 +238,7 @@ const ApproachSection = () => {
         >
           {ApproachSectionDetails.title}
         </h2>
-        <p className={cn(`pt-[10px] font text-base text-[#424242]`)}>
+        <p className={cn(`font pt-[10px] text-base text-[#424242]`)}>
           {ApproachSectionDetails.description}
         </p>
       </>
@@ -357,7 +363,7 @@ const ContactUsSection = () => {
               />
               <p
                 className={cn(
-                  `m-auto max-w-[430px] pb-[20px] font text-base text-[#424242]`
+                  `font m-auto max-w-[430px] pb-[20px] text-base text-[#424242]`
                 )}
               >
                 Ready to Elevate Your Content? Let’s amplify your brand and

@@ -16,9 +16,9 @@ import Image from 'next/image';
 import { aboutData } from '@/dataa/aboutData';
 //test
 export const metadata: Metadata = {
-  title: 'Unveiling Adaired: Our History, Team, and Vision | Learn About Us',
+  title: 'Leading Digital Marketing Agency in India - Adaired Digital',
   description:
-    "Get to know Adaired better! Know our history, the people who make it happen, and the goals we aspire to. Experience Adaired's dedication to innovation.",
+    "Adaired Digital Media is a results-driven digital marketing agency offering SEO, PPC, social media, and web marketing services to grow your business.",
   alternates: {
     canonical: 'https://www.adaired.com/about',
   },

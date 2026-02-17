@@ -1,3 +1,4 @@
+"use client";
 import React, { useEffect, useState } from 'react';
 import Heading from '../../common/Heading';
 import MaxWidthWrapper from '../MaxWidthWrapper';

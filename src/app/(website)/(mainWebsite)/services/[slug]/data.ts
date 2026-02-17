@@ -236,6 +236,14 @@ export const SERVICES_DATA = {
       'faqData',
       'readyToStart',
     ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/seo-company-india',
+      },
+    },
     banner: {
       code: '02',
       isCenter: false,
@@ -867,6 +875,14 @@ export const SERVICES_DATA = {
       'faqData',
       'readyToStart',
     ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'AI SEO Comapany India | Best AI SEO Services',
+      description:
+        'Stay visible in AI search results with Adaired’s AI-powered SEO services. We optimize content for ChatGPT, Gemini, and modern search engines to boost traffic, rankings, and conversions.',
+      alternates: {
+        canonical: '/ai-seo-company-india',
+      },
+    },
     banner: {
       code: '03',
       isCenter: false,
@@ -958,6 +974,8 @@ export const SERVICES_DATA = {
     },
     benefitofAiSeo: {
       isVisible: true,
+      activeDot: '#F28F17',
+      inactiveDot: '#FFEACD',
       bgColor:
         'bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0]/70 to-[#FFF8F0]/30',
       textColor: '#FB9100',
@@ -1463,6 +1481,14 @@ brand appears in AI summaries and citations.`,
       'faqData',
       'readyToStart',
     ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/seo-company-india',
+      },
+    },
     banner: {
       isCenter: true,
       isVisible: true,
@@ -1551,6 +1577,8 @@ brand appears in AI summaries and citations.`,
     // NEW
     benefitofAiSeo: {
       isVisible: true,
+      activeDot: '#F28F17',
+      inactiveDot: '#FFEACD',
       bgColor:
         'bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0]/70 to-[#FFF8F0]/30',
       textColor: '#FB9100',
@@ -2043,6 +2071,14 @@ brand appears in AI summaries and citations.`,
       'faqData',
       'readyToStart',
     ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/seo-company-india',
+      },
+    },
     banner: {
       code: '04',
       isCenter: false,
@@ -2131,6 +2167,8 @@ brand appears in AI summaries and citations.`,
 
     benefitofAiSeo: {
       isVisible: true,
+      activeDot: '#000000',
+      inactiveDot: '#9DA0A3',
       bgColor: 'bg-[#FAFAFA]',
       textColor: '#000000',
       textBg: '#EEEEEE',
@@ -2609,6 +2647,14 @@ brand appears in AI summaries and citations.`,
       'faqData',
       'readyToStart',
     ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/seo-company-india',
+      },
+    },
 
     banner: {
       code: '05',
@@ -3341,7 +3387,14 @@ brand appears in AI summaries and citations.`,
       'faqData',
       'readyToStart',
     ] satisfies SectionKey[],
-
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/seo-company-india',
+      },
+    },
     banner: {
       code: '06',
       isCenter: false,
