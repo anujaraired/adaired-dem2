@@ -225,10 +225,11 @@ const KeyStats = ({ keyStats }: any) => {
               />
             </div>
             <div
-              className={`grid grid-cols-1 gap-4 pt-[1rem] transition-all duration-700 md:grid-cols-2 lg:grid-cols-4 ${isVisible
-                ? 'translate-y-0 opacity-100'
-                : 'translate-y-10 opacity-0'
-                }`}
+              className={`grid grid-cols-1 gap-4 pt-[1rem] transition-all duration-700 md:grid-cols-2 lg:grid-cols-4 ${
+                isVisible
+                  ? 'translate-y-0 opacity-100'
+                  : 'translate-y-10 opacity-0'
+              }`}
             >
               {keyStats?.list?.map((item: any, idx: number) => (
                 <div
@@ -333,16 +334,18 @@ const KeyStats = ({ keyStats }: any) => {
                     key={index}
                     onMouseEnter={() => setActiveTab(index)}
                     onMouseLeave={() => setActiveTab(0)}
-                    className={`group flex cursor-pointer flex-col p-4 transition-all duration-300 ease-in-out lg:w-[49rem] lg:p-[2rem] ${activeTab === index
-                      ? 'border-r-[0.5rem] border-[#FB9100] bg-[#FB9100]/10'
-                      : 'bg-[#F5F5F5]'
-                      }`}
+                    className={`group flex cursor-pointer flex-col p-4 transition-all duration-300 ease-in-out lg:w-[49rem] lg:p-[2rem] ${
+                      activeTab === index
+                        ? 'border-r-[0.5rem] border-[#FB9100] bg-[#FB9100]/10'
+                        : 'bg-[#F5F5F5]'
+                    }`}
                   >
                     <div
-                      className={`flex items-start gap-8 transition-all duration-700 ease-in-out lg:items-center lg:gap-16 lg:text-left ${isVisible
-                        ? 'translate-y-0 opacity-100'
-                        : 'translate-y-10 opacity-0'
-                        }`}
+                      className={`flex items-start gap-8 transition-all duration-700 ease-in-out lg:items-center lg:gap-16 lg:text-left ${
+                        isVisible
+                          ? 'translate-y-0 opacity-100'
+                          : 'translate-y-10 opacity-0'
+                      }`}
                       style={{
                         transitionDelay: `${index * 280}ms`,
                       }}
@@ -352,8 +355,9 @@ const KeyStats = ({ keyStats }: any) => {
                       </h2>
 
                       <p
-                        className={`transition-all duration-300 ease-in-out lg:text-left ${activeTab === index ? 'font-semibold' : ''
-                          }`}
+                        className={`transition-all duration-300 ease-in-out lg:text-left ${
+                          activeTab === index ? 'font-semibold' : ''
+                        }`}
                       >
                         {item.desctioption}
                       </p>

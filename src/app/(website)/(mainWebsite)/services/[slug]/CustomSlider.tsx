@@ -180,7 +180,7 @@ export default function CustomSlider({ data, colors }: any) {
         {data?.map((item: any, idx: number) => (
           <SwiperSlide key={item.id}>
             <div
-              className="h-[30rem] rounded-[20px] bg-white p-8"
+              className={`h-[31rem] rounded-[20px] bg-white p-8`}
               style={{
                 border: `1px solid ${colors?.borderColor}`,
               }}
