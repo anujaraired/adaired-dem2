@@ -3,10 +3,10 @@ import MaxWidthWrapper from '../MaxWidthWrapper';
 import Heading from '../../common/Heading';
 import Image from 'next/image';
 import CountUp from '../CountUp';
-import useImageAnimation from '@/@core/hooks/useImageAnimation';
 import expectImg from '../../../../../public/assets/images/home/expect.png';
 import { useState } from 'react';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
+import teamImg from '../../../../../public/assets/team/Refine.jpg';
 
 const Expect = () => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
