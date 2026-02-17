@@ -4087,7 +4087,14 @@ brand appears in AI summaries and citations.`,
       'leadingTools',
       'getplan',
     ] satisfies SectionKey[],
-
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/seo-company-india',
+      },
+    },
     banner: {
       code: '07',
       isCenter: false,
