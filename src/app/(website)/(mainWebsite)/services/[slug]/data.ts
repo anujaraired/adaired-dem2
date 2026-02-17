@@ -139,7 +139,7 @@ import LocalWhatService from '../../../../../../public/assets/localseo/localWhat
 import LocalNotSee from '../../../../../../public/assets/localseo/localNotSee.png';
 import LocalNotSeeBg from '../../../../../../public/assets/localseo/localNotSeeBg.png';
 
-// White Label Page Images
+// White Label Social Media Page Images
 import whiteKeyStats from '../../../../../../public/assets/whitelabel/whiteKeyStats.png';
 import whiteWhatIs from '../../../../../../public/assets/whitelabel/whiteWhatIs.png';
 import whiteStruggleBg from '../../../../../../public/assets/whitelabel/whiteStruggleBg.png';
@@ -161,6 +161,32 @@ import whatMkWhite_3 from '../../../../../../public/assets/whitelabel/whatMkWhit
 import whatMkWhite_4 from '../../../../../../public/assets/whitelabel/whatMkWhite_4.png';
 import whatMkWhite_5 from '../../../../../../public/assets/whitelabel/whatMkWhite_5.png';
 
+// White Seo Page Images
+import whiteSeoBannerBg from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoBannerBg.png';
+import whiteSeoKeyStatsImg from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoKeyStatsImg.png';
+import whiteSeoWhatIs from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoWhatIs.png';
+import whiteSeoBuildLinkImg from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoBuildLinkImg.png';
+import WhiteSeoServiceResultImg from '../../../../../../public/assets/whitelabel/whiteLabelSeo/WhiteSeoServiceResultImg.png';
+
+import whatMkWhiteSeo_1 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_1.png';
+import whatMkWhiteSeo_2 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_2.png';
+import whatMkWhiteSeo_3 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_3.png';
+import whatMkWhiteSeo_4 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_4.png';
+import whatMkWhiteSeo_5 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_5.png';
+import whatMkWhiteSeo_6 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_6.png';
+
+import whiteSeoResult_1 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoResult_1.png';
+import whiteSeoResult_2 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoResult_2.png';
+import whiteSeoResult_3 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoResult_3.png';
+import whiteSeoResult_4 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoResult_4.png';
+
+import whiteSeoImpIcon_1 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoImpIcon_1.png';
+import whiteSeoImpIcon_2 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoImpIcon_2.png';
+import whiteSeoImpIcon_3 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoImpIcon_3.png';
+import whiteSeoImpIcon_4 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoImpIcon_4.png';
+import whiteSeoImpIcon_5 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoImpIcon_5.png';
+import { Description } from '@headlessui/react';
+
 export type SectionKey =
   | 'banner'
   | 'keyStats'
@@ -168,6 +194,7 @@ export type SectionKey =
   | 'whatareservice'
   | 'needofservice'
   | 'needofservice2'
+  | 'dataInTable'
   | 'importantToBussiness'
   | 'benefitofAiSeo'
   | 'serviceResult'
@@ -3288,7 +3315,7 @@ brand appears in AI summaries and citations.`,
       description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
     },
   },
-  'white-label-agency-india': {
+  'social-media-outsourcing-india': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -3973,6 +4000,842 @@ brand appears in AI summaries and citations.`,
       bgImage: stop_struggle2,
       title: 'Stop Guessing Start Acting ',
       description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+  },
+  'seo-outsourcing-india': {
+    sectionsOrder: [
+      'banner',
+      'keyStats',
+      'whatareservice',
+      'needofservice2',
+      'dataInTable',
+      'importantToBussiness',
+      'serviceResult',
+      'whatMkeDeferent',
+      'buildlinks',
+      'faqData',
+      'readyToStart',
+      'stopStruggling',
+      'ourProcess',
+      'adairedHelp',
+      'needofservice',
+      'benefitofAiSeo',
+      'whatMissing',
+      'whatIncluded',
+      'leadingToolsForPerformence',
+      'notSeeingResult',
+      'leadingTools',
+      'getplan',
+    ] satisfies SectionKey[],
+
+    banner: {
+      code: '06',
+      isCenter: false,
+      isVisible: true,
+      heading: 'Partner for Digital Agencies',
+      subtitle: '',
+      label: 'Trusted White Label SEO',
+      desc: `Maximize your client base with us working behind the scenes, and you’ll be offering full-fledged SEO services under your brand name.`,
+      button: 'Talk to Us!',
+      subheading: 'All set to deliver real SEO results to your clients without building an in-house team?',
+      width: '20rem',
+      widthLg: '30rem',
+      bgImg: whiteSeoBannerBg,
+    },
+
+    keyStats: {
+      isVisible: true,
+      code: '06',
+      img: whiteSeoKeyStatsImg,
+      heading: 'White Label SEO Insights',
+      isCard: false,
+      list: [
+        {
+          desctioption: [
+            `37% of small businesses do not handle SEO internally; instead, they completely outsource it to agencies or freelancers.`,
+          ],
+        },
+        {
+          desctioption: [
+            `Of businesses with fewer than ten workers, only one out of four accurately measures SEO ROI.`,
+          ],
+        },
+        {
+          desctioption: [
+            `SEO is the primary source of online leads for almost half of small business owners, surpassing both paid advertisements and social media.`,
+          ],
+        },
+        {
+          desctioption: [
+            `Of mid-sized businesses (those with 50–250 employees), about 38% do not have an internal SEO team and instead rely on outside SEO assistance.`,
+          ],
+        },
+        {
+          desctioption: [
+            `In larger businesses, more than 80% use hybrid SEO setups that combine internal teams with outside partners.`,
+          ],
+        },
+      ],
+    },
+
+    whatareservice: {
+      isVisible: true,
+      isVariant: '01',
+      img: whiteSeoWhatIs,
+      heading: 'What Is White',
+      span: 'Label SEO?',
+      bgColor: '#FFFCF8',
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `White label SEO is an outsourcing model in which a third-party provider offers SEO services to clients under another company's brand. 
+          In this configuration, the agency maintains complete control over the client relationship while the SEO work is completed quietly in the background.`,
+        },
+        {
+          desctioption: `White-label SEO is commonly used by agencies to expand their service offerings without the need to build or manage an in-house SEO team. 
+          The end client only interacts with the agency, receives branded reports, and is completely unaware of the external fulfillment partner.`,
+        },
+        {
+          desctioption: `Adaired Digital Media's white-label SEO is designed to assist agencies as an extension of their internal operations. 
+          We handle SEO execution, reporting, and ongoing optimization, while you keep full control of branding, communication, and client relationships.`,
+        },
+      ],
+      button: '',
+    },
+
+    needofservice2: {
+      isVisible: true,
+      isVariant: '03',
+      isBgCornerImg: true,
+      heading: 'How White Label SEO Works for Agencies',
+      data: [
+        {
+          desctioption: `White label SEO seeks to separate client ownership and service delivery. 
+          The agency remains the primary point of contact, but SEO fulfillment is handled externally.`,
+        },
+        {
+          desctioption: `Client acquisition, onboarding, and relationship management are handled entirely by the agency. 
+          The client receives SEO services directly from the agency they hired.`,
+        },
+        {
+          desctioption: `At Adaired, as a leading white-label SEO company, we do SEO execution, including research, optimization, 
+          and ongoing maintenance, which takes place quietly in the background. 
+          This allows agencies to provide SEO services without expanding their internal teams or infrastructure.`,
+        },
+        {
+          desctioption: `Furthermore, we ensure that all reporting, documentation, and performance updates are delivered using the agency's branding. 
+          Communication follows the agency's processes, ensuring continuity and brand integrity.`,
+        },
+      ],
+    },
+
+    dataInTable: {
+      isVisible: true,
+      isVariant: '01',
+      heading: 'White Label SEO vs In-House SEO Teams',
+      description: 'The comparison below demonstrates the operational differences between white-label SEO and in-house SEO teams.',
+      data: [
+        {
+          desctioption: `Aspect`,
+          list: [
+            {
+              description: [`Cost Structure`],
+            },
+            {
+              description: [`Hiring Requirements`],
+            },
+            {
+              description: [`Training & Upskilling`],
+            },
+            {
+              description: [`Scalability`],
+            },
+            {
+              description: [`Execution Speed`],
+            },
+            {
+              description: [`Operational Overhead`],
+            },
+            {
+              description: [`Tooling & Software`],
+            },
+            {
+              description: [`Client Communication`],
+            },
+            {
+              description: [`Brand Control`],
+            },
+            {
+              description: [`Best Suited For`],
+            },
+          ],
+        },
+        {
+          desctioption: `White Label SEO (e.g., Adaired)`,
+          list: [
+            {
+              description: [`Variable costs are aligned with active clients and workload`],
+            },
+            {
+              description: [`No internal hiring required`],
+            },
+            {
+              description: [`Managed by the provider`],
+            },
+            {
+              description: [`Easily scalable up or down based on demand`],
+            },
+            {
+              description: [`Structured processes allow faster onboarding and delivery`],
+            },
+            {
+              description: [`Minimal internal management`],
+            },
+            {
+              description: [`Included as part of the service`],
+            },
+            {
+              description: [`Remains with the agency; reporting is white-labeled`],
+            },
+            {
+              description: [`Full agency branding and ownership`],
+            },
+            {
+              description: [`Agencies seeking flexibility and scale`],
+            },
+          ],
+        },
+        {
+          desctioption: `In-House SEO Team`,
+          list: [
+            {
+              description: [`Fixed costs, including salaries, benefits, tools, and overhead`],
+            },
+            {
+              description: [`Requires recruiting SEO specialists and support staff`],
+            },
+            {
+              description: [`Ongoing training is needed to keep pace with SEO changes`],
+            },
+            {
+              description: [`Limited by team size and hiring capacity`],
+            },
+            {
+              description: [`Ramp-up time required for new hires or expanded workloads`],
+            },
+            {
+              description: [`High management and administrative overhead`],
+            },
+            {
+              description: [`Separate subscriptions and tool management are required`],
+            },
+            {
+              description: [`Managed directly by the internal team`],
+            },
+            {
+              description: [`Full agency branding and ownership`],
+            },
+            {
+              description: [`Agencies investing in long-term internal capacity`],
+            },
+          ],
+        },
+      ],
+    },
+
+    importantToBussiness: {
+      isVisible: true,
+      heading: 'What Will Our White Label SEO Services Cover?',
+      description: [
+        `Being a white-label SEO services agency, we are intended to help agencies throughout the SEO lifecycle while remaining brand neutral.`
+      ],
+      buttonName: 'Request a Consultation',
+      data: [
+        {
+          icon: whiteSeoImpIcon_1,
+          name: 'SEO Audits',
+          description: [
+            `Every successful SEO campaign starts with clarity. 
+            Before making changes, we take a deep dive into your client’s website to understand what’s holding it back and where 
+            the biggest opportunities lie.`,
+            `Our audits cover technical health, on-page elements, keyword positioning, content quality, internal linking, 
+            competitor benchmarking, and more. We identify crawl errors, broken links, duplicate content issues, 
+            slow-loading pages, missing metadata, and structural weaknesses that may affect search visibility.`,
+            `But we don’t just list problems; we provide prioritized action plans. 
+            This makes it easier for your agency to present strategy and next steps clearly to your clients.`,
+          ],
+          button: 'Request a Consultation',
+        },
+        {
+          icon: whiteSeoImpIcon_2,
+          name: 'Ongoing SEO Management',
+          description: [
+            `SEO is not a one-time setup. Search engines evolve, competitors improve, algorithms update, and user behavior changes. 
+            That’s why ongoing SEO management is critical for long-term growth.`,
+            `We continuously monitor performance, refine keyword strategies, optimize pages, improve content relevance, 
+            and adjust tactics based on real-time data. 
+            Our team ensures your clients don’t just gain rankings temporarily; they maintain and improve them consistently.`,
+            `This ongoing optimization helps increase organic traffic, improve engagement metrics, and drive sustainable growth month after month.`,
+          ],
+          button: 'Request a Consultation',
+        },
+        {
+          icon: whiteSeoImpIcon_3,
+          name: 'Technical SEO',
+          description: [
+            `Even the best content won’t rank if the technical foundation is weak. 
+            Technical SEO is the backbone of every successful campaign, and we treat it that way.`,
+            `We analyze website architecture, URL structure, crawlability, indexing status, XML sitemaps, 
+            robots.txt files, site speed, mobile responsiveness, structured data, and overall site performance. 
+            We ensure search engines can easily crawl and understand the website.`,
+            `By strengthening the technical base, we remove invisible barriers that may be limiting rankings and unlock the full potential of your client’s website.`,
+          ],
+          button: 'Request a Consultation',
+        },
+        {
+          icon: whiteSeoImpIcon_2,
+          name: 'Content Optimization',
+          description: [
+            `Content is more than just keywords placed on a page. It needs to match search intent, answer user questions clearly, and provide real value.`,
+            `We conduct in-depth keyword research and cluster keywords strategically to build topical authority. 
+            We optimize existing pages by improving headings, metadata, internal links, structure, and readability. 
+            When needed, we recommend new content ideas based on gaps and opportunities.`,
+            `Our focus is always on creating content that ranks and converts, not just content that fills space.`
+          ],
+          button: 'Request a Consultation',
+        },
+        {
+          icon: whiteSeoImpIcon_4,
+          name: 'Link Building',
+          description: [
+            `Search engines trust websites that other authoritative websites trust. That’s where strategic link building comes in.`,
+            `We focus on acquiring relevant, high-quality backlinks from credible sources within the industry. 
+            Our approach avoids spammy tactics and focuses on long-term authority development. 
+            We prioritize contextual placements, niche relevance, and natural anchor strategies.`,
+            `This structured backlink acquisition strengthens domain authority and improves ranking potential in a sustainable way.`,
+          ],
+          button: 'Request a Consultation',
+        },
+        {
+          icon: whiteSeoImpIcon_5,
+          name: 'Rank Tracking and Reporting',
+          description: [
+            `Transparency is key in any client relationship. That’s why we provide clear, easy-to-understand, white-labeled reports that reflect your agency branding.`,
+            `We track keyword movements, organic traffic growth, backlink performance, technical improvements, and overall campaign progress. 
+            Our reports help you confidently show results to your clients while reinforcing your expertise.`,
+            `You stay in control of communication, and your clients see measurable progress backed by data.progress, and you stay in control of the relationship.`,
+          ],
+          button: 'Request a Consultation',
+        },
+      ],
+    },
+
+    serviceResult: {
+      isVisible: true,
+      heading: 'Common White Label SEO Use Cases',
+      isVariant: '01',
+      description: [
+        `Outsourcing SEO services is used across different types of agencies and service providers, 
+        primarily as a way to support ongoing search optimization without expanding internal teams. 
+        The following use cases reflect common operational scenarios:`,
+      ],
+      isBgColor: false,
+      img: WhiteSeoServiceResultImg,
+      list: [
+        {
+          img: whiteSeoResult_1,
+          name: 'Web Design Agencies Adding SEO Retainers',
+          description: [
+            `Web design agencies often introduce SEO as a recurring service after a website launch. 
+            White label SEO allows these agencies to offer ongoing optimization, monitoring, and reporting without building a dedicated SEO department.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_2,
+          name: 'PPC Agencies Expanding into Organic Search',
+          description: [
+            `Paid media agencies frequently complement pay-per-click services with organic search offerings. 
+            White label SEO enables PPC-focused teams to support long-term visibility and traffic growth alongside paid campaigns.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_3,
+          name: 'Consultants Supporting Long-Term SEO Clients',
+          description: [
+            `Independent consultants and marketing advisors may use white-label SEO to fulfill execution-heavy tasks while remaining focused on strategy and client management. 
+            This model supports continuity for clients requiring ongoing optimization.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_4,
+          name: 'Multi-Location or Franchise SEO Support',
+          description: [
+            `Businesses operating across multiple locations often require scalable and standardized SEO execution. 
+            White label SEO supports consistent optimization, reporting, and performance tracking across regions while maintaining centralized brand control.`,
+          ],
+        },
+      ],
+    },
+
+    whatMkeDeferent: {
+      isVisible: true,
+      heading: 'How White Label SEO Works at Adaired',
+      description: [
+        `At Adaired, our white-label SEO process is designed to let agencies retain full client ownership while we handle execution behind the scenes.`,
+      ],
+      list: [
+        {
+          img: whatMkWhiteSeo_1,
+          name: 'You Acquire and Manage the Client',
+          description: [
+            `You handle sales, onboarding, and all client communication under your brand. 
+            From the client’s perspective, SEO services are delivered directly by your agency.`,
+          ],
+        },
+        {
+          img: whatMkWhiteSeo_2,
+          name: 'Campaign Onboarding and Scope Alignment',
+          description: [
+            `Once a project is approved, you share campaign details, goals, and access requirements with us. 
+            We align on scope, timelines, and reporting expectations before execution begins.`,
+          ],
+        },
+        {
+          img: whatMkWhiteSeo_3,
+          name: 'SEO Execution by Our Team',
+          description: [
+            `Our team handles the complete SEO workload in the background. 
+            This includes technical SEO, on-page optimization, content optimization, off-page SEO, local SEO, and ongoing performance improvements based on the defined strategy.`,
+          ],
+        },
+        {
+          img: whatMkWhiteSeo_4,
+          name: 'Dedicated SEO Manager for Scaled Accounts',
+          description: [
+            `We assign a dedicated SEO manager to oversee execution, coordinate workflows, and serve as a single point of contact. 
+            Your manager oversees execution across accounts, coordinates tasks internally, and acts as your single point of contact.`,
+          ],
+        },
+        {
+          img: whatMkWhiteSeo_5,
+          name: 'White-Labeled Reporting and Deliverables',
+          description: [
+            `We prepare all reports, dashboards, and updates with your branding. Every deliverable is client-ready and aligned with your reporting cadence.`,
+          ],
+        },
+        {
+          img: whatMkWhiteSeo_6,
+          name: 'You Deliver Results Under Your Brand',
+          description: [
+            `You share insights, rankings, and performance updates with your clients. 
+            We remain fully behind the scenes and never communicate directly with your clients.`,
+          ],
+        },
+      ],
+    },
+
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '03',
+      bgImg: whiteBookConsultationBg,
+      img: whiteSeoBuildLinkImg,
+      heading: 'Ready to Offer SEO Without Building an In-House Team?',
+      description: ``,
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `If you’re exploring white-label SEO for your agency, we’re ready to walk you through the process, scope, and next steps.`,
+        },
+        {
+          desctioption: `Talk to our team to understand how our reseller SEO services model fits into your current services and workflows.`,
+        },
+      ],
+      button: 'Get a Quote!',
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      title: 'Frequently Asked Questions',
+      description: ``,
+      list: [
+        {
+          title: 'What is white-label SEO?',
+          description: `White-label SEO is a fulfillment model in which one company provides SEO services, which are then resold by another under their own brand. 
+          The agency owns the client relationship, while SEO execution happens in the background.`,
+        },
+        {
+          title: 'Are reports and dashboards white-labeled?',
+          description: `Yes. All reports, dashboards, and deliverables are designed with the agency's branding and are client-ready.`,
+        },
+        {
+          title: 'How long does it take to see results from SEO?',
+          description: `SEO is a long-term undertaking. 
+          Initial gains may be visible within a few months, but long-term results are often delayed due to competition, industry, and site conditions.`,
+        },
+        {
+          title: 'How do we balance SEO work with your deadlines?',
+          description: `During onboarding, we ensure that our execution timelines correspond to your delivery schedules. 
+          Tasks, milestones, and reporting cycles are designed to fit into your existing client workflows rather than forcing a separate process.`,
+        },
+        {
+          title: 'What parts of SEO do you handle vs what we manage?',
+          description: `At the top outsourcing SEO agency, Adaired Digital Media, we handle SEO execution, including audits, technical fixes, optimization, and reporting. 
+          You manage client communication, approvals, and strategic positioning under your brand.`,
+        },
+        {
+          title: 'Can we standardize SEO deliverables for all of our clients?',
+          description: `Yes. We help standardize deliverables, reporting formats, and workflows so that your SEO services are consistent across clients, industries, and locations.`,
+        },
+        {
+          title: 'How does quality remain consistent across multiple SEO campaigns?',
+          description: `We maintain consistency and quality across all active SEO projects by implementing defined workflows, internal checks, and centralized campaign management.`,
+        },
+        {
+          title: 'Can we scale SEO delivery quickly if our client base grows?',
+          description: `Yes. Our white-label SEO model is built to scale alongside your agency. We adjust execution capacity as your number of active campaigns increases.`,
+        },
+      ],
+    },
+
+    leadingTools: {
+      isVisible: false,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+
+    getplan: {
+      isVisible: false,
+      isLabel: false,
+      subtitle: '',
+      bgImage: stop_struggle2,
+      title: 'Stop Guessing Start Acting ',
+      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+
+    stopStruggling: {
+      isVisible: false,
+      subtitle: '',
+      title: '',
+      description: `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
+      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
+      button: '',
+      bgImg: whiteStruggleBg,
+      isHoverBgBlue: true,
+    },
+
+    ourProcess: {
+      isVisible: false,
+      subtitle: 'Our Process',
+      title: 'How Our White Label Social Media Management Works',
+      span: '',
+      description: `A structured process ensures consistency and measurable results. Our white label social media management approach includes:`,
+      services: [
+        {
+          icon: step,
+          title: 'Discovery & Onboarding',
+          description: [
+            `We align with your agency’s goals, branding, and client expectations.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'Strategy Development',
+          description: [
+            `Our team builds a tailored social media marketing strategy for each client, aligned with their industry and audience.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'Content Creation & Approval',
+          description: [
+            `We develop branded content and campaigns that reflect your client’s voice and positioning.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'Publishing & Engagement',
+          description: [
+            `Content is scheduled and monitored across platforms, ensuring consistent brand presence.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'Reporting & Optimization',
+          description: [
+            `With our white label social media management approach, you get detailed performance insights branded under your name.`,
+            `This streamlined process allows agencies to deliver reliable results without operational strain.`,
+          ],
+        },
+      ],
+    },
+
+    adairedHelp: {
+      isVisible: false,
+      img: adaairedHelpSEO,
+      heading: 'Benefits of Partnering With a White Label Social Media Agency',
+      description: `Here’s how a structured white label social media partnership with Adaired supports long-term agency growth:`,
+      mainImage: adairedHelpImg,
+      list: [
+        {
+          img: '',
+          name: 'Scalable Service Expansion',
+          description: [
+            `Adding social media marketing to your offerings typically requires hiring strategists, designers, copywriters, and ad specialists.`,
+            `A white label social media management model removes that barrier. 
+            You can immediately expand your service lineup and confidently pitch comprehensive social media marketing solutions to both new and existing clients, without building a full in-house team.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Increased Recurring Revenue',
+          description: [
+            `Social media management services naturally operate on monthly retainers, making them ideal for predictable recurring income.`,
+            `With our white label social media services, agencies can introduce steady revenue streams that improve cash flow and business stability. 
+            This recurring structure also makes revenue forecasting more reliable and sustainable over time.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Reduced Operational Overhead',
+          description: [
+            `Recruitment, onboarding, training, and payroll can significantly impact margins. A white label social media reseller model eliminates these costs while still delivering expert-level execution.`,
+            `Instead of investing in internal infrastructure, agencies can allocate resources toward business development, client acquisition, and strategic growth.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Faster Time to Market',
+          description: [
+            `Building an internal social media department takes time. With white label social media management services already in place, agencies can begin offering solutions almost immediately.`,
+            `This allows you to respond quickly to client demands and capitalize on growth opportunities without delay.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Access to Specialized Expertise',
+          description: [
+            `Social media platforms constantly evolve, from algorithm updates to new ad formats and content trends. Partnering with Adaired, a white label social media marketing agency, gives your clients access to experienced professionals who stay current with industry changes.`,
+            `This ensures campaigns are not only active but strategically aligned with best practices and performance data.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Improved Client Retention',
+          description: [
+            `Clients often prefer working with agencies that offer complete digital marketing solutions under one roof. By integrating white label social media marketing into your services, you reduce the likelihood of clients seeking other providers.`,
+            `A broader service portfolio strengthens long-term relationships and increases overall client lifetime value.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Brand Control & Ownership',
+          description: [
+            `With white label social media management, your agency remains the primary point of contact. All communication, reporting, and branding stay aligned with your identity.`,
+            `We operate behind the scenes, ensuring your brand receives full visibility and recognition for the results delivered.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Operational Simplicity',
+          description: [
+            `Managing multiple clients across platforms can quickly become overwhelming. A structured white label social media platform and fulfillment system simplifies processes, maintains consistency, and ensures quality control.`,
+            `This operational clarity allows agencies to grow without sacrificing service standards.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Profit Margin Flexibility',
+          description: [
+            `As a white label social media reseller, we offer you control over pricing.`,
+            `This flexibility allows you to set margins that align with your business model while delivering competitive social media marketing services to clients.`,
+          ],
+        },
+      ],
+    },
+
+    needofservice: {
+      isVisible: false,
+      isBgCornerImg: true,
+      heading: 'Why “Near Me” Searches Are More Important Than Ever',
+      data: [
+        {
+          desctioption: `“Near me” searches are no longer based on distance alone.  Although proximity remains key, Google has introduced the use of several signals before local results can be shown.`,
+        },
+        {
+          desctioption: `When the user is searching the service in the area, Google considers how well a business matches the search, and the reputation and reliability that the business holds online.`,
+        },
+      ],
+    },
+
+    benefitofAiSeo: {
+      isVisible: false,
+      bgColor: 'bg-[#FAFAFA]',
+      textColor: '#000000',
+      textBg: '#EEEEEE',
+      borderColor: '#00000014',
+      heading: 'Benefits of Website Design and Development Services',
+      description: [
+        `A business’s success is closely tied to the quality of its website. A professional web site can determine whether a visitor becomes a loyal customer or leaves for a competitor. Here are the key benefits:`,
+      ],
+      list: [
+        {
+          name: 'Creates a Strong First Impression',
+          description: [
+            `The potential customers often get in touch with you through your site. The first impression that a properly developed site leaves is positive and credible. 
+            The use of professional images, well-designed layouts, and navigation facilitate the development of trust within seconds after a visitor visits your site.`,
+          ],
+        },
+        {
+          name: 'Enhances User Experience',
+          description: [
+            `Effective website design is rooted in user experience. A visitor will find it easier to do business with a site that has easy navigation, attractive design, and is responsive to all devices. 
+            A well-organized site will ensure the users have an easy time navigating their way to heighten satisfaction and interest.`,
+          ],
+        },
+        {
+          name: 'Builds Trust and Credibility',
+          description: [
+            `Good website design is associated with the credibility and professionalism of a business. 
+            Features such as fast loading speeds, secure connections, consistent performance, and clear messaging reassure users that the company is reliable, established, and customer-focused.`,
+          ],
+        },
+        {
+          name: 'Improves Conversion Rates and ROI',
+          description: [
+            `A well-planned website is your effective conversion tool. 
+            An efficient design, simple calls to action, and information-driven design components motivate the visitor to make a substantial move like purchasing a product, joining a mailing list, or leaving an enquiry which will lead to an increase in the profit margin.`,
+          ],
+        },
+        {
+          name: 'Helps You Stand Out in a Competitive Market',
+          description: [
+            `The world of the Internet is very busy nowadays, so a generic site is not sufficient. 
+            A tailored site featuring unique images, effective branding, and engagement is useful to businesses to stand out, enhance their online presence, and create an impression.`,
+          ],
+        },
+      ],
+    },
+
+    whatMissing: {
+      isVisible: false,
+      heading: 'What Are Local SEO Ranking Factors?',
+      description: [
+        `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
+        Google now relies on three primary ranking factors to determine local visibility: Relevance, Distance, and Prominence.`,
+        `Together these factors assist Google in presenting the most accurate, trustworthy, and helpful local businesses to its users during their search.`,
+      ],
+      list: [
+        {
+          icon: missing_1,
+          title: 'Relevance',
+          description: [
+            `Relevance takes into consideration the similarity of your business with what the user wants to search. 
+            Google considers your business details, web content, service descriptions, categories and keywords to find out whether your business fits in the intention of the user.`,
+            `Clear, accurate, and well-optimized content improves relevance and increases the likelihood of appearing for the right local searches.`,
+          ],
+        },
+        {
+          icon: missing_2,
+          title: 'Distance',
+          description: [
+            `Distance measures how close your business is to the searcher or to the location specified in the search. 
+            You cannot control the location of the user, but you can make sure that your address, service areas and location information is correct and showing the same points on the web.`,
+            `Good relevance and high profile may enable the businesses to appear high even when the business is not the nearest.`,
+          ],
+        },
+        {
+          icon: missing_3,
+          title: 'Prominence',
+          description: [
+            `Prominence reflects how well-known and trusted your business is online. 
+            Google evaluates the signals including customer reviews, rating, local citation, and back links, mention of the brand and general online presence.`,
+            `Companies that enjoy a high degree of authority and good reputation are more likely to feature on top search results in the local search engine.`,
+          ],
+        },
+      ],
+    },
+
+    whatIncluded: {
+      isVisible: false,
+      isVariant: '02',
+      heading: 'List Of Website Design and Development Services We Offer',
+      description: ``,
+      list: [
+        {
+          icon: WhatIncluded1,
+          title: 'WordPress Development',
+          description: [
+            `At Adaired, we provide powerful WordPress development services that are expected to take your digital presence to the next level. Our team breaks creative and technical limits to design and develop robust, high-performance, and SEO-optimized WordPress solutions.`,
+            `From custom WordPress theme development and plugin customization to speed optimization, SEO implementation, and seamless third-party integrations, we deliver the end-to-end WordPress solutions to match the requirements of your business.`,
+          ],
+          linkText: 'Get Your Free Website Audit',
+          linkHref: '#',
+        },
+
+        {
+          icon: WhatIncluded2,
+          title: 'Shopify Development',
+          description: [
+            `Our online store development services can assist you in achieving the maximum for your online store, starting with consultation and design, development, deployment, and migration.`,
+            `Being a successful Shopify development service partner, we provide high-performing, scalable, and tailored solutions that help shops perform better, increase their security, and build positive shopping experiences. You can count on us to increase your eCommerce business in a measurably meaningful way, whether you are opening another store or refining an already existing one.`,
+          ],
+          linkText: 'Get Your Free Website Audit',
+          linkHref: '#',
+        },
+
+        {
+          icon: WhatIncluded3,
+          title: 'eCommerce Development',
+          description: [
+            `Our 360 eCommerce solutions are all-inclusive and applicable to businesses of any size and sector. Our website development experts create eCommerce online websites that are intuitive, user-friendly, and designed to align with your brand name and profitability.`,
+            `We develop custom experiences using recent technologies and the best practices in the industry and enhance customer engagement, conversion, and business expansion.`,
+          ],
+          linkText: 'Get Your Free Website Audit',
+          linkHref: '#',
+        },
+
+        {
+          icon: WhatIncluded4,
+          title: 'Custom Web Development',
+          description: [
+            `Our dedicated professionals offer web development services designed to be flexible, secure, and scalable with the development of your business. We develop feature-rich, high-performance websites to suit your specific needs, achieve maximum functionality, smooth user interfaces, and achieve scalability in the future.`,
+            `All solutions that we develop are designed to help your business achieve its goals and bring long-term value.`,
+          ],
+          linkText: 'Get Your Free Website Audit',
+          linkHref: '#',
+        },
+      ],
+    },
+
+    industryLeaders: {
+      isVisible: false,
+      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      description:
+        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      bgImage: leadingToolsImg,
+    },
+
+    leadingToolsForPerformence: {
+      isVisible: false,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+
+    notSeeingResult: {
+      isVisible: false,
+      heading: `Still unsure about investing in local SEO? You shouldn’t be.`,
+      description: '',
+      buttonName: 'Book a call with a local SEO expert!',
+      img: LocalNotSee,
+      bgImage: LocalNotSeeBg,
     },
   },
 };

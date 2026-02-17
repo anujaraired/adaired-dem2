@@ -7,6 +7,7 @@ import Banner from './Banner';
 import KeyStats from './KeyStats';
 import WhatAreService from './WhatAreService';
 import NeedOfAdaired from './NeedOfAdaired';
+import DataInTable from './DataInTable';
 import BenefitofAiSEO from './BenefitofAiSEO';
 import AdairedServiceResult from './AdairedServiceResult';
 import NotSeeingResults from './NotSeeingResults';
@@ -36,6 +37,7 @@ export type SectionKey =
   | 'whatareservice'
   | 'needofservice'
   | 'needofservice2'
+  | 'dataInTable'
   | 'importantToBussiness'
   | 'benefitofAiSeo'
   | 'serviceResult'
@@ -82,6 +84,11 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
   needofservice2: (serviceData) =>
     serviceData.needofservice2?.isVisible ? (
       <NeedOfAdaired needOfService={serviceData.needofservice2} />
+    ) : null,
+
+  dataInTable: (serviceData) =>
+    serviceData.dataInTable?.isVisible ? (
+      <DataInTable dataInTable={serviceData.dataInTable} />
     ) : null,
 
   importantToBussiness: (serviceData) =>
