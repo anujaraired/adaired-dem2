@@ -22,14 +22,20 @@ const Stopstruggling = ({ stopStruggling }: any) => {
     >
       <MaxWidthWrapper className="flex justify-center">
         <div
-          className={`mx-auto w-fit text-center transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+          className={`mx-auto w-[100%] text-center transition-all duration-1000 lg:w-[70%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
         >
           <h2 className="mx-auto w-[100%] text-center font-semibold text-[#FFFFFF] lg:w-[70%]">
             {stopStruggling?.title}
           </h2>
 
-          <p className="text-center text-[#FFFFFF] whitespace-pre-line">
-            {stopStruggling?.description}
+          <p className="whitespace-pre-line text-center text-[#FFFFFF]">
+            {stopStruggling?.description?.map((item: any, idx: number) => {
+              return (
+                <p key={idx} className="py-[1rem] text-center text-[#FFFFFF]">
+                  {item}
+                </p>
+              );
+            })}
           </p>
 
           {stopStruggling?.button && (
@@ -44,7 +50,6 @@ const Stopstruggling = ({ stopStruggling }: any) => {
               />
             </div>
           )}
-
         </div>
       </MaxWidthWrapper>
       <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />

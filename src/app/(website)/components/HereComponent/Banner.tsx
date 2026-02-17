@@ -9,9 +9,12 @@ import user_5 from '../../../../../public/assets/review/Ellipse 34.png';
 import Image from 'next/image';
 import { MdStarRate } from 'react-icons/md';
 import SaveAndCancel from '../../common/SaveAndCancel';
-import banner_img_1 from '../../../../../public/assets/images/home/banner_img_1.png';
-import banner_img_2 from '../../../../../public/assets/images/home/banner_img_2.png';
-import banner_img_3 from '../../../../../public/assets/images/home/banner_img_3.png';
+// import banner_img_1 from '../../../../../public/assets/images/home/banner_img_1.png';
+// import banner_img_2 from '../../../../../public/assets/images/home/banner_img_2.png';
+// import banner_img_3 from '../../../../../public/assets/images/home/banner_img_3.png';
+import banner_img_1 from '../../../../../public/assets/graph/Graph 1.svg';
+import banner_img_2 from '../../../../../public/assets/graph/Graph 2.svg';
+import banner_img_3 from '../../../../../public/assets/graph/Graph 3.svg';
 import hero_banner from '../../../../../public/assets/images/home/hero_banner-bg.png';
 import { useRouter } from 'next/navigation';
 import { FaUser } from 'react-icons/fa';
@@ -111,14 +114,14 @@ const Banner = () => {
   return (
     <div
       ref={ref}
-      className="relative mx-auto min-h-screen w-full overflow-hidden pt-[10vh]"
+      className="relative mx-auto w-full overflow-hidden pt-[5vh] lg:pt-[10vh]"
     >
       <Image
         src={hero_banner}
         fill
         alt="hero bg"
         priority
-        className="pointer-events-none object-cover"
+        className="pointer-events-none object-fill lg:object-cover"
       />
       <MaxWidthWrapper className="relative z-10 block items-center justify-between py-[3rem] lg:flex lg:py-[4rem]">
         <div

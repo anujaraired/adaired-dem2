@@ -171,10 +171,11 @@ const Banner = ({ banner }: any) => {
                   </div>
                 </div>
                 <div
-                  className={`relative my-auto mt-[4rem] w-[100%] transition-all delay-200 duration-1000 lg:w-[50%] lg:pt-0 ${isVisible
-                    ? 'translate-x-0 opacity-100'
-                    : 'translate-x-16 opacity-0'
-                    }`}
+                  className={`relative my-auto mt-[4rem] w-[100%] transition-all delay-200 duration-1000 lg:w-[50%] lg:pt-0 ${
+                    isVisible
+                      ? 'translate-x-0 opacity-100'
+                      : 'translate-x-16 opacity-0'
+                  }`}
                 >
                   <div className="my-auto h-full space-y-4">
                     <div className="flex w-[100%] justify-center">
@@ -184,12 +185,13 @@ const Banner = ({ banner }: any) => {
                           width={563}
                           height={388}
                           alt=""
-                          className={`aspect-[563/388] w-[clamp(18rem,35vw,35.5rem)] transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(18rem,55vw,55.5rem)] lg:w-[clamp(18rem,35vw,35.5rem)] ${active === 'img1'
-                            ? 'z-40 opacity-100'
-                            : active
-                              ? 'opacity-40'
-                              : 'opacity-100'
-                            }`}
+                          className={`aspect-[563/388] w-[clamp(18rem,35vw,35.5rem)] transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(18rem,55vw,55.5rem)] lg:w-[clamp(18rem,35vw,35.5rem)] ${
+                            active === 'img1'
+                              ? 'z-40 opacity-100'
+                              : active
+                                ? 'opacity-40'
+                                : 'opacity-100'
+                          }`}
                         />
 
                         <Image
@@ -197,10 +199,11 @@ const Banner = ({ banner }: any) => {
                           width={302}
                           height={186}
                           alt=""
-                          className={`absolute left-[-10%] top-[15%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(8rem,23vw,23.75rem)] lg:w-[clamp(8rem,13vw,13.75rem)] ${isActive('img4')
-                            ? 'left-1/2 top-1/2 z-40 translate-x-[105%] translate-y-[40%] scale-105 opacity-100'
-                            : 'z-10 translate-x-0 translate-y-0 scale-100'
-                            }`}
+                          className={`absolute left-[-10%] top-[15%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(8rem,23vw,23.75rem)] lg:w-[clamp(8rem,13vw,13.75rem)] ${
+                            isActive('img4')
+                              ? 'left-1/2 top-1/2 z-40 translate-x-[105%] translate-y-[40%] scale-105 opacity-100'
+                              : 'z-10 translate-x-0 translate-y-0 scale-100'
+                          }`}
                         />
 
                         <Image
@@ -208,20 +211,22 @@ const Banner = ({ banner }: any) => {
                           width={302}
                           height={186}
                           alt=""
-                          className={`absolute bottom-[-15%] right-[10%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:bottom-[-10%] md:right-[10%] md:w-[clamp(8rem,23vw,23.75rem)] lg:bottom-[-14%] lg:right-[10%] lg:w-[clamp(8rem,13vw,13.75rem)] ${isActive('img3')
-                            ? 'left-1/2 top-1/2 z-40 -translate-x-[50%] -translate-y-[50%] scale-105 opacity-100 md:-translate-y-[65%] lg:-translate-y-[50%]'
-                            : 'z-10'
-                            }`}
+                          className={`absolute bottom-[-15%] right-[10%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:bottom-[-10%] md:right-[10%] md:w-[clamp(8rem,23vw,23.75rem)] lg:bottom-[-14%] lg:right-[10%] lg:w-[clamp(8rem,13vw,13.75rem)] ${
+                            isActive('img3')
+                              ? 'left-1/2 top-1/2 z-40 -translate-x-[50%] -translate-y-[50%] scale-105 opacity-100 md:-translate-y-[65%] lg:-translate-y-[50%]'
+                              : 'z-10'
+                          }`}
                         />
                         <Image
                           src={banner_img_2}
                           width={302}
                           height={186}
                           alt=""
-                          className={`absolute right-[-10%] top-[-15%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:top-[-15%] md:w-[clamp(8rem,23vw,23.75rem)] lg:top-[-12%] lg:w-[clamp(8rem,13vw,13.75rem)] ${isActive('img2')
-                            ? 'left-1/2 top-1/2 z-40 -translate-x-[50%] translate-y-[115%] scale-105'
-                            : 'z-10 translate-x-0 translate-y-0 scale-100'
-                            }`}
+                          className={`absolute right-[-10%] top-[-15%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:top-[-15%] md:w-[clamp(8rem,23vw,23.75rem)] lg:top-[-12%] lg:w-[clamp(8rem,13vw,13.75rem)] ${
+                            isActive('img2')
+                              ? 'left-1/2 top-1/2 z-40 -translate-x-[50%] translate-y-[115%] scale-105'
+                              : 'z-10 translate-x-0 translate-y-0 scale-100'
+                          }`}
                         />
                       </div>
                     </div>
@@ -307,10 +312,11 @@ const Banner = ({ banner }: any) => {
                 </div>
 
                 <div
-                  className={`relative my-auto w-[100%] transition-all delay-200 duration-1000 lg:mt-0 lg:w-[50%] ${isVisible
-                    ? 'translate-x-0 opacity-100'
-                    : 'translate-x-16 opacity-0'
-                    }`}
+                  className={`relative my-auto w-[100%] transition-all delay-200 duration-1000 lg:mt-0 lg:w-[50%] ${
+                    isVisible
+                      ? 'translate-x-0 opacity-100'
+                      : 'translate-x-16 opacity-0'
+                  }`}
                 >
                   <div className="my-auto h-full space-y-4">
                     <div className="flex w-[100%] justify-center">
@@ -320,12 +326,13 @@ const Banner = ({ banner }: any) => {
                           width={563}
                           height={388}
                           alt=""
-                          className={`aspect-[563/388] w-[clamp(18rem,35vw,35.5rem)] transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(18rem,55vw,55.5rem)] lg:w-[clamp(18rem,35vw,35.5rem)] ${active === 'img1'
-                            ? 'z-40 opacity-100'
-                            : active
-                              ? 'opacity-40'
-                              : 'opacity-100'
-                            }`}
+                          className={`aspect-[563/388] w-[clamp(18rem,35vw,35.5rem)] transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(18rem,55vw,55.5rem)] lg:w-[clamp(18rem,35vw,35.5rem)] ${
+                            active === 'img1'
+                              ? 'z-40 opacity-100'
+                              : active
+                                ? 'opacity-40'
+                                : 'opacity-100'
+                          }`}
                         />
 
                         <Image
@@ -333,10 +340,11 @@ const Banner = ({ banner }: any) => {
                           width={302}
                           height={186}
                           alt=""
-                          className={`absolute left-[-10%] top-[15%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(8rem,23vw,23.75rem)] lg:w-[clamp(8rem,13vw,13.75rem)] ${isActive('img4')
-                            ? 'left-1/2 top-1/2 z-40 translate-x-[105%] translate-y-[40%] scale-105 opacity-100'
-                            : 'z-10 translate-x-0 translate-y-0 scale-100'
-                            }`}
+                          className={`absolute left-[-10%] top-[15%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:w-[clamp(8rem,23vw,23.75rem)] lg:w-[clamp(8rem,13vw,13.75rem)] ${
+                            isActive('img4')
+                              ? 'left-1/2 top-1/2 z-40 translate-x-[105%] translate-y-[40%] scale-105 opacity-100'
+                              : 'z-10 translate-x-0 translate-y-0 scale-100'
+                          }`}
                         />
 
                         <Image
@@ -344,20 +352,22 @@ const Banner = ({ banner }: any) => {
                           width={302}
                           height={186}
                           alt=""
-                          className={`absolute bottom-[-15%] right-[10%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:bottom-[-10%] md:right-[10%] md:w-[clamp(8rem,23vw,23.75rem)] lg:bottom-[-14%] lg:right-[10%] lg:w-[clamp(8rem,13vw,13.75rem)] ${isActive('img3')
-                            ? 'left-1/2 top-1/2 z-40 -translate-x-[50%] -translate-y-[50%] scale-105 opacity-100 md:-translate-y-[65%] lg:-translate-y-[50%]'
-                            : 'z-10'
-                            }`}
+                          className={`absolute bottom-[-15%] right-[10%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:bottom-[-10%] md:right-[10%] md:w-[clamp(8rem,23vw,23.75rem)] lg:bottom-[-14%] lg:right-[10%] lg:w-[clamp(8rem,13vw,13.75rem)] ${
+                            isActive('img3')
+                              ? 'left-1/2 top-1/2 z-40 -translate-x-[50%] -translate-y-[50%] scale-105 opacity-100 md:-translate-y-[65%] lg:-translate-y-[50%]'
+                              : 'z-10'
+                          }`}
                         />
                         <Image
                           src={banner_img_2}
                           width={302}
                           height={186}
                           alt=""
-                          className={`absolute right-[-10%] top-[-15%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:top-[-15%] md:w-[clamp(8rem,23vw,23.75rem)] lg:top-[-12%] lg:w-[clamp(8rem,13vw,13.75rem)] ${isActive('img2')
-                            ? 'left-1/2 top-1/2 z-40 -translate-x-[50%] translate-y-[115%] scale-105'
-                            : 'z-10 translate-x-0 translate-y-0 scale-100'
-                            }`}
+                          className={`absolute right-[-10%] top-[-15%] aspect-[220/143] w-[clamp(8rem,13vw,13.75rem)] transition-opacity transition-transform duration-700 ease-in-out md:top-[-15%] md:w-[clamp(8rem,23vw,23.75rem)] lg:top-[-12%] lg:w-[clamp(8rem,13vw,13.75rem)] ${
+                            isActive('img2')
+                              ? 'left-1/2 top-1/2 z-40 -translate-x-[50%] translate-y-[115%] scale-105'
+                              : 'z-10 translate-x-0 translate-y-0 scale-100'
+                          }`}
                         />
                       </div>
                     </div>
@@ -516,7 +526,7 @@ const Banner = ({ banner }: any) => {
             {banner?.code === '06' && (
               <div className="relative z-10 block justify-between pb-[0rem] pt-[9rem] lg:flex lg:pb-0 lg:pt-0">
                 <div
-                  className={`my-auto w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[45%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
+                  className={`my-auto w-[100%] space-y-5 transition-all duration-1000 lg:w-[55%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
                 >
                   <div
                     className={`'grid lg:gap-[10rem]'} grid-cols-1 lg:grid-cols-2`}
@@ -572,7 +582,7 @@ const Banner = ({ banner }: any) => {
                     />
                   </div>
                 </div>
-                <div className="pb-[6rem] pt-[9rem]">
+                <div className="py-[3rem]">
                   <Image
                     src={banner?.bgImg}
                     width={676}
