@@ -228,12 +228,12 @@ const Service = () => {
                     {/* LEFT CONTENT */}
                     <div className="relative w-[100%] lg:w-[50%] xl:w-[55%]">
                       <div className="overflow-hidden rounded-xl">
-                        <div className="animate-slideUpFade overflow-hidden rounded-2xl">
+                        <div className="animate-slideUpFade h-[18rem] overflow-hidden rounded-2xl">
                           <Image
                             src={image ?? service.img}
                             fill
                             alt={service.title}
-                            className="rounded-[20px] object-cover cursor-pointer"
+                            className="cursor-pointer rounded-[20px] object-cover"
                             priority
                             onClick={() => router.push(link ?? service.link)}
                           />
@@ -276,7 +276,10 @@ const Service = () => {
                     </div>
                   </div>
                   <div>
-                    <h2 onClick={() => router.push(link ?? service.link)} className="animate-slideUpFade w-fit my-2 text-center font-bold [animation-delay:120ms] lg:my-4 lg:text-left hover:text-[#FB9100] cursor-pointer">
+                    <h2
+                      onClick={() => router.push(link ?? service.link)}
+                      className="animate-slideUpFade my-2 w-fit cursor-pointer text-center font-bold [animation-delay:120ms] hover:text-[#FB9100] lg:my-4 lg:text-left"
+                    >
                       {title ?? service.title}
                     </h2>
 
