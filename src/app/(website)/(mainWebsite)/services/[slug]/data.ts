@@ -4097,7 +4097,8 @@ brand appears in AI summaries and citations.`,
       label: 'Trusted White Label SEO',
       desc: `Maximize your client base with us working behind the scenes, and you’ll be offering full-fledged SEO services under your brand name.`,
       button: 'Talk to Us!',
-      subheading: 'All set to deliver real SEO results to your clients without building an in-house team?',
+      subheading:
+        'All set to deliver real SEO results to your clients without building an in-house team?',
       width: '20rem',
       widthLg: '30rem',
       bgImg: whiteSeoBannerBg,
@@ -4110,24 +4111,16 @@ brand appears in AI summaries and citations.`,
       isCard: false,
       list: [
         {
-          description: [
-            `SEO audits & strategy`,
-          ],
+          description: [`SEO audits & strategy`],
         },
         {
-          description: [
-            `Ongoing optimization`,
-          ],
+          description: [`Ongoing optimization`],
         },
         {
-          description: [
-            `100% brand-safe delivery`,
-          ],
+          description: [`100% brand-safe delivery`],
         },
         {
-          description: [
-            `Rank tracking & white-label reporting`,
-          ],
+          description: [`Rank tracking & white-label reporting`],
         },
       ],
     },
@@ -4222,7 +4215,8 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '01',
       heading: 'White Label SEO vs In-House SEO Teams',
-      description: 'The comparison below demonstrates the operational differences between white-label SEO and in-house SEO teams.',
+      description:
+        'The comparison below demonstrates the operational differences between white-label SEO and in-house SEO teams.',
       data: [
         {
           desctioption: `Aspect`,
@@ -4263,7 +4257,9 @@ brand appears in AI summaries and citations.`,
           desctioption: `White Label SEO (e.g., Adaired)`,
           list: [
             {
-              description: [`Variable costs are aligned with active clients and workload`],
+              description: [
+                `Variable costs are aligned with active clients and workload`,
+              ],
             },
             {
               description: [`No internal hiring required`],
@@ -4275,7 +4271,9 @@ brand appears in AI summaries and citations.`,
               description: [`Easily scalable up or down based on demand`],
             },
             {
-              description: [`Structured processes allow faster onboarding and delivery`],
+              description: [
+                `Structured processes allow faster onboarding and delivery`,
+              ],
             },
             {
               description: [`Minimal internal management`],
@@ -4284,7 +4282,9 @@ brand appears in AI summaries and citations.`,
               description: [`Included as part of the service`],
             },
             {
-              description: [`Remains with the agency; reporting is white-labeled`],
+              description: [
+                `Remains with the agency; reporting is white-labeled`,
+              ],
             },
             {
               description: [`Full agency branding and ownership`],
@@ -4298,25 +4298,35 @@ brand appears in AI summaries and citations.`,
           desctioption: `In-House SEO Team`,
           list: [
             {
-              description: [`Fixed costs, including salaries, benefits, tools, and overhead`],
+              description: [
+                `Fixed costs, including salaries, benefits, tools, and overhead`,
+              ],
             },
             {
-              description: [`Requires recruiting SEO specialists and support staff`],
+              description: [
+                `Requires recruiting SEO specialists and support staff`,
+              ],
             },
             {
-              description: [`Ongoing training is needed to keep pace with SEO changes`],
+              description: [
+                `Ongoing training is needed to keep pace with SEO changes`,
+              ],
             },
             {
               description: [`Limited by team size and hiring capacity`],
             },
             {
-              description: [`Ramp-up time required for new hires or expanded workloads`],
+              description: [
+                `Ramp-up time required for new hires or expanded workloads`,
+              ],
             },
             {
               description: [`High management and administrative overhead`],
             },
             {
-              description: [`Separate subscriptions and tool management are required`],
+              description: [
+                `Separate subscriptions and tool management are required`,
+              ],
             },
             {
               description: [`Managed directly by the internal team`],
@@ -4325,7 +4335,9 @@ brand appears in AI summaries and citations.`,
               description: [`Full agency branding and ownership`],
             },
             {
-              description: [`Agencies investing in long-term internal capacity`],
+              description: [
+                `Agencies investing in long-term internal capacity`,
+              ],
             },
           ],
         },
@@ -4336,7 +4348,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       heading: 'What Will Our White Label SEO Services Cover?',
       description: [
-        `Being a white-label SEO services agency, we are intended to help agencies throughout the SEO lifecycle while remaining brand neutral.`
+        `Being a white-label SEO services agency, we are intended to help agencies throughout the SEO lifecycle while remaining brand neutral.`,
       ],
       buttonName: 'Request a Consultation',
       data: [
@@ -4389,7 +4401,7 @@ brand appears in AI summaries and citations.`,
             `We conduct in-depth keyword research and cluster keywords strategically to build topical authority. 
             We optimize existing pages by improving headings, metadata, internal links, structure, and readability. 
             When needed, we recommend new content ideas based on gaps and opportunities.`,
-            `Our focus is always on creating content that ranks and converts, not just content that fills space.`
+            `Our focus is always on creating content that ranks and converts, not just content that fills space.`,
           ],
           button: 'Request a Consultation',
         },
@@ -4579,7 +4591,8 @@ brand appears in AI summaries and citations.`,
           description: `Yes. We help standardize deliverables, reporting formats, and workflows so that your SEO services are consistent across clients, industries, and locations.`,
         },
         {
-          title: 'How does quality remain consistent across multiple SEO campaigns?',
+          title:
+            'How does quality remain consistent across multiple SEO campaigns?',
           description: `We maintain consistency and quality across all active SEO projects by implementing defined workflows, internal checks, and centralized campaign management.`,
         },
         {
