@@ -703,7 +703,9 @@ export const SERVICES_DATA = {
       isVisible: true,
       subtitle: '',
       title: 'Claim Your Free Audit Before Competitors Do!',
-      description: `Spot problems, improve rankings, and get more traffic at no cost.`,
+      description: [
+        `Spot problems, improve rankings, and get more traffic at no cost.`,
+      ],
       button: 'Get Your Free Website Audit!',
       bgImg: stop_struggle2,
     },
@@ -1310,7 +1312,7 @@ export const SERVICES_DATA = {
       subtitle: '',
       title:
         'Stop struggling with low traffic and poor visibility. Let Adaired’s AI-powered SEO audit uncover the gaps, optimize your site, and help your business outrank competitors.',
-      description: ``,
+      description: [],
       button: 'Start Your AI SEO Journey Now',
       bgImg: stop_struggle,
       isHoverBgBlue: true,
@@ -1947,7 +1949,7 @@ brand appears in AI summaries and citations.`,
       title:
         'Maximize Your Online Presence With The Best Link Building Services',
       button: 'Get Started Now',
-      description: ``,
+      description: [],
       bgImg: stop_struggle,
     },
 
@@ -2493,7 +2495,9 @@ brand appears in AI summaries and citations.`,
       subtitle: '',
       title: 'Every Successful Website Starts with A Clear Strategy.',
       button: 'Schedule a Strategy Call',
-      description: `Schedule a strategy call and let’s build a digital presence aligned\n with your business goals.`,
+      description: [
+        `Schedule a strategy call and let’s build a digital presence aligned\n with your business goals.`,
+      ],
       bgImg: stop_struggle2,
     },
 
@@ -3035,7 +3039,7 @@ brand appears in AI summaries and citations.`,
       title: `If You’re Not Ranking Locally, You’re Losing Business`,
       // span: 'You’re Losing Business',
       button: 'Rank Higher on Local Search',
-      description: ``,
+      description: [],
       bgImg: stop_struggle3,
     },
 
@@ -3335,7 +3339,7 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: true,
-      code: '06',
+      code: '03',
       img: whiteKeyStats,
       heading: 'Must-Know Facts About White Label Social Media',
       isCard: false,
@@ -3416,7 +3420,7 @@ brand appears in AI summaries and citations.`,
       heading: 'Our White Label Social Media Services',
       description: [
         `Adaired delivers fully managed white label social media management services that help agencies expand their offerings without building an in-house team. 
-      Each service is structured to deliver measurable growth while keeping your brand front and center.`
+      Each service is structured to deliver measurable growth while keeping your brand front and center.`,
       ],
       buttonName: 'Request a Consultation',
       data: [
@@ -3479,8 +3483,10 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       subtitle: '',
       title: '',
-      description: `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
-      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
+      description: [
+        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.`,
+        'By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.',
+      ],
       button: '',
       bgImg: whiteStruggleBg,
       isHoverBgBlue: true,

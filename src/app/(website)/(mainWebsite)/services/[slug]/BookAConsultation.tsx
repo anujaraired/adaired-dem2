@@ -18,21 +18,21 @@ const BookAConsultation = ({ buildlinks }: any) => {
         //   className={`${buildlinks?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8]'} py-[3rem] lg:py-[2rem]`}
         // >
         <div
-          className={`py-[3rem] lg:py-[2rem] ${buildlinks?.bgImg
-            ? ''
-            : buildlinks?.isBgWhite
-              ? 'bg-gradient-to-b from-black to-[#051C40]'
-              : 'bg-[#FFFCF8]'
-            }`}
+          className={`py-[3rem] lg:py-[2rem] ${
+            buildlinks?.bgImg
+              ? ''
+              : buildlinks?.isBgWhite
+                ? 'bg-gradient-to-b from-black to-[#051C40]'
+                : 'bg-[#FFFCF8]'
+          }`}
           style={
             buildlinks?.bgImg
               ? {
-                backgroundImage: `url(${buildlinks.bgImg?.src})`,
-              }
+                  backgroundImage: `url(${buildlinks.bgImg?.src})`,
+                }
               : {}
           }
         >
-
           <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2">
             <div
               className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
@@ -145,35 +145,18 @@ const BookAConsultation = ({ buildlinks }: any) => {
       )}
       {buildlinks?.isVariant === '03' && (
         <div
-          className={`py-[3rem] lg:py-[2rem] ${buildlinks?.bgImg
-            ? ''
-            : buildlinks?.isBgWhite
-              ? 'bg-gradient-to-b from-black to-[#051C40]'
-              : 'bg-[#FFFCF8]'
-            }`}
-          style={
-            buildlinks?.bgImg
-              ? {
-                backgroundImage: `url(${buildlinks.bgImg?.src})`,
-              }
-              : {}
-          }
+          className={`py-[3rem] lg:py-[4rem]`}
+          style={{
+            backgroundImage: `url(${buildlinks?.bgImg?.src})`,
+          }}
         >
-
           <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2">
             <div
               className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
-              <Heading
-                className="flex justify-center lg:justify-start"
-                subTitle={''}
-                breakIndex={5}
-                isH1={true}
-                title={buildlinks?.heading}
-                span={buildlinks?.span}
-                spanColor="text-[#FBD04F]"
-                isBgWhite={buildlinks?.isBgWhite && true}
-              />
+              <h1 className="text-center text-[2rem] font-bold text-[#FFFFFF] lg:text-left">
+                {buildlinks?.heading}
+              </h1>
               <div>
                 {buildlinks?.data?.map((item: any) => {
                   return (
@@ -203,10 +186,11 @@ const BookAConsultation = ({ buildlinks }: any) => {
             >
               <div className="relative mx-auto mt-[6rem] flex-1 md:mt-[6rem] lg:mt-0">
                 <div
-                  className={`mx-[1rem] my-[1rem] flex items-center justify-center transition-all duration-1000 md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem] ${isVisible
-                    ? 'translate-x-0 opacity-100'
-                    : '-translate-x-16 opacity-0'
-                    }`}
+                  className={`mx-[1rem] my-[1rem] flex items-center justify-center transition-all duration-1000 md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem] ${
+                    isVisible
+                      ? 'translate-x-0 opacity-100'
+                      : '-translate-x-16 opacity-0'
+                  }`}
                 >
                   <Image
                     src={buildlinks?.img}
@@ -236,7 +220,6 @@ const BookAConsultation = ({ buildlinks }: any) => {
                 />
               </div>
             </div>
-
           </MaxWidthWrapper>
           <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
         </div>
