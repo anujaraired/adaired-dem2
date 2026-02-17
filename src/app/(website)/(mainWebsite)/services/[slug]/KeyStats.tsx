@@ -187,9 +187,8 @@ const KeyStats = ({ keyStats }: any) => {
                       </h2>
 
                       <p
-                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${
-                          activeTab === index ? 'font-semibold' : ''
-                        }`}
+                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${activeTab === index ? 'font-semibold' : ''
+                          }`}
                       >
                         {item.desctioption}
                       </p>
@@ -234,9 +233,13 @@ const KeyStats = ({ keyStats }: any) => {
               {keyStats?.list?.map((item: any, idx: number) => (
                 <div
                   key={idx}
-                  className="flex flex-col items-center rounded-[1rem] border border-[#F28F17]/20 p-5 text-center transition-all duration-700 lg:items-start lg:text-left"
+                  // className="flex flex-col items-center rounded-[1rem] border border-[#F28F17]/20 p-5 text-center transition-all duration-700 lg:items-start lg:text-left"
+                  // style={{
+                  //   transitionDelay: `${idx * 200}ms`,
+
+                  className="flex flex-col items-center rounded-[1rem] border border-[#F28F17]/20 p-5 text-center overflow-hidden lg:items-start lg:text-left transition-all duration-700 transition-transform hover:duration-400 hover:shadow-xl hover:-translate-y-4 hover:bg-gradient-to-br from-[#ebf8ff] via-[#FFFFFF] to-[#fffaf0]"
                   style={{
-                    transitionDelay: `${idx * 200}ms`,
+                    transitionDelay: isVisible ? '0ms' : `${idx * 280}ms`,
                   }}
                 >
                   <h2 className="F28F17 mx-auto w-fit rounded-xl border border-[#F28F17]/10 bg-[#FFEACD] px-3 py-1 font-normal text-[#FB9100] lg:mx-0">
@@ -265,16 +268,14 @@ const KeyStats = ({ keyStats }: any) => {
                 <IoArrowForwardCircleOutline
                   size={30}
                   onClick={handlePrev}
-                  className={`rotate-180 cursor-pointer ${
-                    index === 0 ? 'cursor-not-allowed opacity-40' : ''
-                  }`}
+                  className={`rotate-180 cursor-pointer ${index === 0 ? 'cursor-not-allowed opacity-40' : ''
+                    }`}
                 />
                 <IoArrowForwardCircleOutline
                   size={30}
                   onClick={handleNext}
-                  className={`cursor-pointer ${
-                    index >= maxIndex ? 'cursor-not-allowed opacity-40' : ''
-                  }`}
+                  className={`cursor-pointer ${index >= maxIndex ? 'cursor-not-allowed opacity-40' : ''
+                    }`}
                 />
               </div>
             </div>
@@ -290,9 +291,8 @@ const KeyStats = ({ keyStats }: any) => {
                     key={idx}
                     // style={{ minWidth: `${100 / visibleCards}%` }}
                     style={{
-                      minWidth: `calc(${100 / visibleCards}% - ${
-                        visibleCards === 1 ? 0 : '0.67rem'
-                      })`,
+                      minWidth: `calc(${100 / visibleCards}% - ${visibleCards === 1 ? 0 : '0.67rem'
+                        })`,
                     }}
                     onMouseEnter={() => setIsActive(idx)}
                     onMouseLeave={() => setIsActive(null)}
@@ -305,9 +305,8 @@ const KeyStats = ({ keyStats }: any) => {
                       alt="img"
                     />
                     <p
-                      className={`pt-[2rem] transition-colors duration-300 ${
-                        isActive === idx ? 'text-white' : 'text-black'
-                      }`}
+                      className={`pt-[2rem] transition-colors duration-300 ${isActive === idx ? 'text-white' : 'text-black'
+                        }`}
                     >
                       {item?.desctioption}
                     </p>
