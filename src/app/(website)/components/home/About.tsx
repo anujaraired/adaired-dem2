@@ -1,3 +1,4 @@
+"use client";
 import { AboutSectionData } from '@/@core/data/website/Homepage';
 import React from 'react';
 import MaxWidthWrapper from '../MaxWidthWrapper';
