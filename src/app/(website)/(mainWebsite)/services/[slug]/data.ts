@@ -930,6 +930,8 @@ export const SERVICES_DATA = {
     },
     benefitofAiSeo: {
       isVisible: true,
+      activeDot: '#F28F17',
+      inactiveDot: '#FFEACD',
       bgColor:
         'bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0]/70 to-[#FFF8F0]/30',
       textColor: '#FB9100',
@@ -1523,6 +1525,8 @@ brand appears in AI summaries and citations.`,
     // NEW
     benefitofAiSeo: {
       isVisible: true,
+      activeDot: '#F28F17',
+      inactiveDot: '#FFEACD',
       bgColor:
         'bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0]/70 to-[#FFF8F0]/30',
       textColor: '#FB9100',
@@ -2103,6 +2107,8 @@ brand appears in AI summaries and citations.`,
 
     benefitofAiSeo: {
       isVisible: true,
+      activeDot: '#000000',
+      inactiveDot: '#9DA0A3',
       bgColor: 'bg-[#FAFAFA]',
       textColor: '#000000',
       textBg: '#EEEEEE',
