@@ -4,6 +4,7 @@ import React from 'react';
 import NotFound from '@/app/not-found';
 
 import Banner from './Banner';
+import GetsCredit from './GetsCredit';
 import KeyStats from './KeyStats';
 import WhatAreService from './WhatAreService';
 import NeedOfAdaired from './NeedOfAdaired';
@@ -32,6 +33,7 @@ export type ServiceSlug = keyof typeof SERVICES_DATA;
 
 export type SectionKey =
   | 'banner'
+  | 'getsCredit'
   | 'keyStats'
   | 'areYouTired'
   | 'whatareservice'
@@ -62,6 +64,11 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
   banner: (serviceData) =>
     serviceData.banner?.isVisible ? (
       <Banner banner={serviceData.banner} />
+    ) : null,
+
+  getsCredit: (serviceData) =>
+    serviceData.getsCredit?.isVisible ? (
+      <GetsCredit getsCredit={serviceData.getsCredit} />
     ) : null,
 
   keyStats: (serviceData) =>

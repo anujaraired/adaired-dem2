@@ -11,7 +11,7 @@ const DataInTable = ({ dataInTable }: any) => {
     const [open, setOpen] = useState(false);
 
     return (
-        <section ref={ref} className="py-[3rem] lg:py-[4rem]">
+        <section ref={ref} className="py-[3rem] lg:py-[4rem] bg-[#FAFAFA]">
             <MaxWidthWrapper>
                 <div
                     className={`transition-all duration-1000 ${isVisible

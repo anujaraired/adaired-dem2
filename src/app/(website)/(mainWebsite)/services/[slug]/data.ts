@@ -189,6 +189,7 @@ import { Description } from '@headlessui/react';
 
 export type SectionKey =
   | 'banner'
+  | 'getsCredit'
   | 'keyStats'
   | 'areYouTired'
   | 'whatareservice'
@@ -4011,6 +4012,7 @@ brand appears in AI summaries and citations.`,
   'seo-outsourcing-india': {
     sectionsOrder: [
       'banner',
+      'getsCredit',
       'keyStats',
       'whatareservice',
       'needofservice2',
@@ -4035,7 +4037,7 @@ brand appears in AI summaries and citations.`,
     ] satisfies SectionKey[],
 
     banner: {
-      code: '06',
+      code: '07',
       isCenter: false,
       isVisible: true,
       heading: 'Partner for Digital Agencies',
@@ -4047,6 +4049,35 @@ brand appears in AI summaries and citations.`,
       width: '20rem',
       widthLg: '30rem',
       bgImg: whiteSeoBannerBg,
+    },
+
+    getsCredit: {
+      isVisible: true,
+      code: '01',
+      heading: 'You Sell. We Execute. Your Brand Gets the Credit.',
+      isCard: false,
+      list: [
+        {
+          description: [
+            `SEO audits & strategy`,
+          ],
+        },
+        {
+          description: [
+            `Ongoing optimization`,
+          ],
+        },
+        {
+          description: [
+            `100% brand-safe delivery`,
+          ],
+        },
+        {
+          description: [
+            `Rank tracking & white-label reporting`,
+          ],
+        },
+      ],
     },
 
     keyStats: {
@@ -4086,7 +4117,7 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '01',
+      isVariant: '06',
       img: whiteSeoWhatIs,
       heading: 'What Is White',
       span: 'Label SEO?',
@@ -4339,13 +4370,13 @@ brand appears in AI summaries and citations.`,
     serviceResult: {
       isVisible: true,
       heading: 'Common White Label SEO Use Cases',
-      isVariant: '01',
+      isVariant: '03',
       description: [
         `Outsourcing SEO services is used across different types of agencies and service providers, 
         primarily as a way to support ongoing search optimization without expanding internal teams. 
         The following use cases reflect common operational scenarios:`,
       ],
-      isBgColor: false,
+      isBgColor: true,
       img: WhiteSeoServiceResultImg,
       list: [
         {
@@ -4385,6 +4416,7 @@ brand appears in AI summaries and citations.`,
 
     whatMkeDeferent: {
       isVisible: true,
+      isVariant: '02',
       heading: 'How White Label SEO Works at Adaired',
       description: [
         `At Adaired, our white-label SEO process is designed to let agencies retain full client ownership while we handle execution behind the scenes.`,

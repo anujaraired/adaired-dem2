@@ -159,7 +159,7 @@ const NeedOfAdaired = ({ needOfService }: any) => {
         {needOfService?.isVariant === '03' && (
           <div
             ref={ref}
-            className="grid grid-cols-1 gap-[2rem] pb-[3rem] lg:grid-cols-2 lg:pb-[4rem]"
+            className="grid grid-cols-1 gap-[2rem] pb-[3rem] lg:grid-cols-2 lg:pb-[4rem] py-[3rem] lg:py-[4rem]"
           >
             {needOfService?.isBgCornerImg ? (
               <div className="relative mx-auto mt-[3rem] flex-1 md:mt-[3rem] lg:mt-0">
