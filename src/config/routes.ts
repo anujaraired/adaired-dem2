@@ -291,7 +291,13 @@ export const routes: {
     {
       label: 'White Label',
       value: 'White Label',
-      href: '/services/on-page-and-off-page-optimization',
+      href: '/services/white-label-agency-india',
+      subItems: [
+        { name: 'White Label SEO', href: '#' },
+        { name: 'White Label Social Media', href: '#' },
+        { name: 'White Label Paid Ads', href: '#' },
+        { name: 'White Label Link Building', href: '#' },
+      ],
     },
     {
       label: 'Resources',

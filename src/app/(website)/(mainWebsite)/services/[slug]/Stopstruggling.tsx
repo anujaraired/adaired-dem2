@@ -32,16 +32,19 @@ const Stopstruggling = ({ stopStruggling }: any) => {
             {stopStruggling?.description}
           </p>
 
-          <div className="mt-[2rem] flex justify-center">
-            <SaveAndCancel
-              name={stopStruggling?.button}
-              isBgWhite={true}
-              isIcon={true}
-              isHoverBgBlue={stopStruggling?.isHoverBgBlue && true}
-              handleClick={() => setOpen(!open)}
-              buttonWidth="!w-[19rem]"
-            />
-          </div>
+          {stopStruggling?.button && (
+            <div className="mt-[2rem] flex justify-center">
+              <SaveAndCancel
+                name={stopStruggling?.button}
+                isBgWhite={true}
+                isIcon={true}
+                isHoverBgBlue={stopStruggling?.isHoverBgBlue && true}
+                handleClick={() => setOpen(!open)}
+                buttonWidth="!w-[19rem]"
+              />
+            </div>
+          )}
+
         </div>
       </MaxWidthWrapper>
       <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />

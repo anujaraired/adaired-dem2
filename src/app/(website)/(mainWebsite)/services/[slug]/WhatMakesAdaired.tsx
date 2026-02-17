@@ -11,25 +11,18 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
   return (
     <div ref={ref} className="py-[1.5rem] lg:py-[4rem]">
       <MaxWidthWrapper>
-        {/* <div
-          className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
-        >
-          <Heading
-            breakIndex={5}
-            isInCenter={true}
-            isBgWhite={true}
-            title={whatMkeDeferent?.heading}
-          />
-        </div> */}
-
         <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
         >
           <div className="flex flex-col items-center justify-center lg:flex-row">
             <div
-              className={`${whatMkeDeferent?.description?.length > 0 ? 'w-full pr-[0%] lg:w-[50%]' : 'flex w-[100%] justify-center justify-items-center'} pr-0 lg:pr-[6rem]`}
+              className={`${whatMkeDeferent?.description?.length > 0 ? 'w-full pr-[0%] lg:w-[50%]' : 'flex w-[100%] justify-center justify-items-center lg:w-[50%]'} pr-0 lg:pr-[6rem]`}
             >
-              <Heading breakIndex={5} title={whatMkeDeferent?.heading} />
+              <h2
+                className={`${whatMkeDeferent?.description?.length ? '' : 'text-center'}`}
+              >
+                {whatMkeDeferent?.heading}
+              </h2>
             </div>
 
             <div

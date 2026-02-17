@@ -1,33 +1,70 @@
 import Heading from '@/app/(website)/common/Heading';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import groth from '../../../../../../public/assets/icons/growth 2.png';
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import DottedLine from '../../../../../../public/assets/Line 28.png';
 import keyStatsImg from '../../../../../../public/assets/keyStatsImg.png';
 import rocket from '../../../../../../public/assets/icons/rocket.svg';
+import { IoArrowForwardCircleOutline } from 'react-icons/io5';
+import ranking from '../../../../../../public/assets/icons/rankings.svg';
+import ranking2 from '../../../../../../public/assets/icons/rankings2.svg';
 
 const KeyStats = ({ keyStats }: any) => {
   const [activeTab, setActiveTab] = useState(0);
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
+  const [isActive, setIsActive] = useState<number | null>(null);
+  const [visibleCards, setVisibleCards] = useState(3);
+  const [index, setIndex] = useState(0);
+
+  useEffect(() => {
+    const updateVisibleCards = () => {
+      if (window.innerWidth >= 1024) {
+        setVisibleCards(3); // laptop
+      } else if (window.innerWidth >= 768) {
+        setVisibleCards(2); // tablet
+      } else {
+        setVisibleCards(1); // mobile
+      }
+    };
+
+    updateVisibleCards();
+    window.addEventListener('resize', updateVisibleCards);
+    return () => window.removeEventListener('resize', updateVisibleCards);
+  }, []);
+
+  const totalItems = keyStats?.list?.length || 0;
+  const maxIndex = totalItems - visibleCards;
+
+  const handleNext = () => {
+    if (index < maxIndex) {
+      setIndex((prev) => prev + 1);
+    }
+  };
+
+  const handlePrev = () => {
+    if (index > 0) {
+      setIndex((prev) => prev - 1);
+    }
+  };
 
   return (
     <div ref={ref} className="py-[3rem] lg:py-[4rem]">
       <MaxWidthWrapper>
-        <div
-          className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
-        >
-          <Heading
-            breakIndex={6}
-            isBgWhite={true}
-            isInCenter={true}
-            subTitle={''}
-            title={keyStats?.heading}
-          />
-        </div>
         {keyStats?.code === '01' && (
           <div>
+            <div
+              className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+            >
+              <Heading
+                breakIndex={6}
+                isBgWhite={true}
+                isInCenter={true}
+                subTitle={''}
+                title={keyStats?.heading}
+              />
+            </div>
             <div
               className={`${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} grid grid-cols-1 gap-[1rem] lg:grid-cols-3`}
             >
@@ -63,101 +100,24 @@ const KeyStats = ({ keyStats }: any) => {
           </div>
         )}
         {keyStats?.code === '02' && (
-          <div className="grid grid-cols-1 items-stretch gap-5 pt-[3rem] lg:grid-cols-[45%_50%] lg:gap-[6rem]">
-            <div className="relative aspect-[4/3] md:h-full md:w-full lg:aspect-auto">
-              <Image src={keyStatsImg} alt="img" fill className="object-fill" />
-              <Image
-                src={rocket}
-                width={115}
-                height={123}
-                alt="rocket"
-                className="left-[0.5 rem] absolute top-[-1rem]"
-              />
-            </div>
-            <div className="mt-7 space-y-4">
-              {keyStats?.list?.map((item: any, index: any) => (
-                <div key={index} className="flex flex-col">
-                  {index !== 0 && (
-                    <Image
-                      src={DottedLine}
-                      width={891}
-                      height={0}
-                      alt="dotted-line"
-                    />
-                  )}
-
-                  <div className="flex flex-col items-center gap-8 py-4 md:flex-row lg:flex-row lg:gap-16">
-                    <div className="mx-2.5 flex w-[50px] justify-center">
-                      <span className="text-4xl font-normal text-[#FB9100] md:text-4xl">
-                        {String(index + 1).padStart(2, '0')}
-                      </span>
-                    </div>
-
-                    <p className="text-sm md:text-base">{item.desctioption}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        )}
-        {keyStats?.code === '03' && (
-          <div className="relative grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-[6rem]">
-            <div className="order-2 mt-7 rounded-[20px] lg:order-1">
-              {keyStats?.list?.map((item: any, index: any) => (
-                <div
-                  key={index}
-                  onMouseEnter={() => setActiveTab(index)}
-                  onMouseLeave={() => setActiveTab(0)}
-                  className={`group flex cursor-pointer flex-col p-4 transition-all duration-300 ease-in-out lg:w-[49rem] lg:p-[2rem] ${activeTab === index
-                    ? 'border-r-[0.5rem] border-[#FB9100] bg-[#FB9100]/20'
-                    : 'bg-[#FFF8ED]'
-                    }`}
-                >
-                  <div
-                    className={`flex items-start gap-8 transition-all duration-700 ease-in-out lg:items-center lg:gap-16 lg:text-left ${isVisible
-                      ? 'translate-y-0 opacity-100'
-                      : 'translate-y-10 opacity-0'
-                      }`}
-                    style={{
-                      transitionDelay: `${index * 280}ms`,
-                    }}
-                  >
-                    <h2 className="transition-all duration-300 ease-in-out">
-                      {`0${index + 1}`}
-                    </h2>
-
-                    <p
-                      className={`transition-all duration-300 ease-in-out lg:text-left ${activeTab === index ? 'font-semibold' : ''
-                        }`}
-                    >
-                      {item.desctioption}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
-
-            <div className="group relative order-1 flex items-center justify-center rounded-[20px] bg-[#FFF8ED] lg:order-2">
-              <div
-                className={`flex w-[100%] items-center justify-center transition-all delay-200 duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-0 opacity-0 lg:translate-x-16'}`}
-              >
-                {/* <Image
-                  src={keyStats?.img}
+          <div
+            className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+          >
+            <Heading
+              breakIndex={6}
+              isBgWhite={true}
+              isInCenter={true}
+              subTitle={''}
+              title={keyStats?.heading}
+            />
+            <div className="grid grid-cols-1 items-stretch gap-5 pt-[3rem] lg:grid-cols-[45%_50%] lg:gap-[6rem]">
+              <div className="relative aspect-[4/3] md:h-full md:w-full lg:aspect-auto">
+                <Image
+                  src={keyStatsImg}
                   alt="img"
                   fill
-                  className="object-contain transition-transform duration-300 ease-out group-hover:scale-110"
-                /> */}
-
-                <Image
-                  src={keyStats?.img}
-                  width={599}
-                  height={483}
-                  alt="img"
-                  className={`h-[10rem] w-[15rem] transition-opacity transition-transform duration-700 ease-in-out group-hover:scale-110 md:h-[20rem] md:w-[32rem] lg:h-[18rem] lg:w-[24rem] xl:h-[30.188rem] xl:w-[37.438rem] 1366:h-[23rem] 1366:w-[28rem] 1400:h-[25rem] 1400:w-[30rem] 1600:h-[26rem] 1600:w-[32rem] 1680:w-[35rem] 3xl:h-[30.188rem] 3xl:w-[37.438rem]`}
+                  className="object-fill"
                 />
-              </div>
-
-              {keyStats?.code === '02' && (
                 <Image
                   src={rocket}
                   width={115}
@@ -165,35 +125,279 @@ const KeyStats = ({ keyStats }: any) => {
                   alt="rocket"
                   className="left-[0.5 rem] absolute top-[-1rem]"
                 />
-              )}
+              </div>
+              <div className="mt-7 space-y-4">
+                {keyStats?.list?.map((item: any, index: any) => (
+                  <div key={index} className="flex flex-col">
+                    {index !== 0 && (
+                      <Image
+                        src={DottedLine}
+                        width={891}
+                        height={0}
+                        alt="dotted-line"
+                      />
+                    )}
+
+                    <div className="flex flex-col items-center gap-8 py-4 md:flex-row lg:flex-row lg:gap-16">
+                      <div className="mx-2.5 flex w-[50px] justify-center">
+                        <span className="text-4xl font-normal text-[#FB9100] md:text-4xl">
+                          {String(index + 1).padStart(2, '0')}
+                        </span>
+                      </div>
+
+                      <p className="text-sm md:text-base">
+                        {item.desctioption}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        )}
+        {keyStats?.code === '03' && (
+          <div
+            className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+          >
+            <Heading
+              breakIndex={6}
+              isBgWhite={true}
+              isInCenter={true}
+              subTitle={''}
+              title={keyStats?.heading}
+            />
+
+            <div className="relative grid grid-cols-1 gap-[1rem] lg:grid-cols-2 lg:gap-[6rem]">
+              <div className="rounded-[20px]">
+                {keyStats?.list?.map((item: any, index: any) => (
+                  <div
+                    key={index}
+                    onMouseEnter={() => setActiveTab(index)}
+                    onMouseLeave={() => setActiveTab(0)}
+                    className={`relative flex w-[100%] flex-col px-[2rem] py-[2rem] transition-all duration-300 ease-in-out ${activeTab === index ? 'bg-[#FB9100]/20 text-white' : 'bg-[#FB9100]/10 text-black'}`}
+                  >
+                    <div
+                      className={`flex items-start gap-8 transition-all duration-700 ease-in-out lg:items-center lg:gap-16 lg:text-left`}
+                      style={{
+                        transitionDelay: `${index * 280}ms`,
+                      }}
+                    >
+                      <h2 className="transition-all duration-300 ease-in-out">
+                        {`0${index + 1}`}
+                      </h2>
+
+                      <p
+                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${
+                          activeTab === index ? 'font-semibold' : ''
+                        }`}
+                      >
+                        {item.desctioption}
+                      </p>
+                    </div>
+                    {activeTab === index && (
+                      <div className="absolute right-0 top-0 h-full w-2 rounded-r-[1rem] bg-[#FB9100]"></div>
+                    )}
+                  </div>
+                ))}
+              </div>
+
+              <div className="relative flex items-center justify-center rounded-[20px] bg-[#FFF8ED]">
+                <Image
+                  src={keyStats?.img}
+                  fill
+                  alt="img"
+                  className={`object-fill transition-opacity transition-transform duration-700 ease-in-out group-hover:scale-110`}
+                />
+              </div>
             </div>
           </div>
         )}
         {keyStats?.code === '04' && (
-          <div
-            className={`grid grid-cols-1 gap-4 pt-[1rem] transition-all duration-700 md:grid-cols-2 lg:grid-cols-4 ${
-              isVisible
-                ? 'translate-y-0 opacity-100'
-                : 'translate-y-10 opacity-0'
-            }`}
-          >
-            {keyStats?.list?.map((item: any, idx: number) => (
-              <div
-                key={idx}
-                className="flex flex-col items-center rounded-[1rem] border border-[#F28F17]/20 p-5 text-center overflow-hidden lg:items-start lg:text-left transition-all duration-700 transition-transform hover:duration-400 hover:shadow-xl hover:-translate-y-4 hover:bg-gradient-to-br from-[#ebf8ff] via-[#FFFFFF] to-[#fffaf0]"
+          <div>
+            <div
+              className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+            >
+              <Heading
+                breakIndex={6}
+                isBgWhite={true}
+                isInCenter={true}
+                subTitle={''}
+                title={keyStats?.heading}
+              />
+            </div>
+            <div
+              className={`grid grid-cols-1 gap-4 pt-[1rem] transition-all duration-700 md:grid-cols-2 lg:grid-cols-4 ${
+                isVisible
+                  ? 'translate-y-0 opacity-100'
+                  : 'translate-y-10 opacity-0'
+              }`}
+            >
+              {keyStats?.list?.map((item: any, idx: number) => (
+                <div
+                  key={idx}
+                  className="flex flex-col items-center rounded-[1rem] border border-[#F28F17]/20 p-5 text-center transition-all duration-700 lg:items-start lg:text-left"
+                  style={{
+                    transitionDelay: `${idx * 200}ms`,
+                  }}
+                >
+                  <h2 className="F28F17 mx-auto w-fit rounded-xl border border-[#F28F17]/10 bg-[#FFEACD] px-3 py-1 font-normal text-[#FB9100] lg:mx-0">
+                    {`0${idx + 1}`}
+                  </h2>
 
-                // style={{ transitionDelay: `${idx * 200}ms` }}
+                  <h3 className="pt-10">{item?.description}</h3>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
+        {keyStats?.code === '05' && (
+          <div>
+            <div
+              className={`flex w-full justify-between transition-all duration-1000 lg:w-full ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+            >
+              <Heading
+                breakIndex={6}
+                isBgWhite={true}
+                isInCenter={true}
+                subTitle={''}
+                title={keyStats?.heading}
+              />
+              <div className="flex">
+                <IoArrowForwardCircleOutline
+                  size={30}
+                  onClick={handlePrev}
+                  className={`rotate-180 cursor-pointer ${
+                    index === 0 ? 'cursor-not-allowed opacity-40' : ''
+                  }`}
+                />
+                <IoArrowForwardCircleOutline
+                  size={30}
+                  onClick={handleNext}
+                  className={`cursor-pointer ${
+                    index >= maxIndex ? 'cursor-not-allowed opacity-40' : ''
+                  }`}
+                />
+              </div>
+            </div>
+            <div className="overflow-hidden">
+              <div
+                className="flex gap-[1rem] transition-transform duration-500 ease-in-out"
                 style={{
-                  transitionDelay: isVisible ? '0ms' : `${idx * 280}ms`,
+                  transform: `translateX(-${index * (100 / visibleCards)}%)`,
                 }}
               >
-                <h2 className="F28F17 mx-auto w-fit rounded-xl border border-[#F28F17]/10 bg-[#FFEACD] px-3 py-1 font-normal text-[#FB9100] lg:mx-0">
-                  {`0${idx + 1}`}
-                </h2>
-
-                <h3 className="pt-10">{item?.description}</h3>
+                {keyStats?.list?.map((item: any, idx: number) => (
+                  <div
+                    key={idx}
+                    // style={{ minWidth: `${100 / visibleCards}%` }}
+                    style={{
+                      minWidth: `calc(${100 / visibleCards}% - ${
+                        visibleCards === 1 ? 0 : '0.67rem'
+                      })`,
+                    }}
+                    onMouseEnter={() => setIsActive(idx)}
+                    onMouseLeave={() => setIsActive(null)}
+                    className={`flex flex-col items-center rounded-[1rem] p-[2rem] transition-all duration-300 ease-in-out lg:items-start ${isActive === idx ? 'rounded-[1rem] bg-[#FB9100]' : 'bg-[#F9F9F9]'}`}
+                  >
+                    <Image
+                      src={isActive === idx ? ranking : ranking2}
+                      width={50}
+                      height={50}
+                      alt="img"
+                    />
+                    <p
+                      className={`pt-[2rem] transition-colors duration-300 ${
+                        isActive === idx ? 'text-white' : 'text-black'
+                      }`}
+                    >
+                      {item?.desctioption}
+                    </p>
+                  </div>
+                ))}
               </div>
-            ))}
+            </div>
+          </div>
+        )}
+        {keyStats?.code === '06' && (
+          <div
+            className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+          >
+            <Heading
+              isBgWhite={true}
+              isInCenter={true}
+              subTitle={''}
+              title={keyStats?.heading}
+            />
+            <div className="relative grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-[6rem]">
+              <div className="order-2 mt-7 rounded-[20px] lg:order-1">
+                {keyStats?.list?.map((item: any, index: any) => (
+                  <div
+                    key={index}
+                    onMouseEnter={() => setActiveTab(index)}
+                    onMouseLeave={() => setActiveTab(0)}
+                    className={`group flex cursor-pointer flex-col p-4 transition-all duration-300 ease-in-out lg:w-[49rem] lg:p-[2rem] ${
+                      activeTab === index
+                        ? 'border-r-[0.5rem] border-[#FB9100] bg-[#FB9100]/10'
+                        : 'bg-[#F5F5F5]'
+                    }`}
+                  >
+                    <div
+                      className={`flex items-start gap-8 transition-all duration-700 ease-in-out lg:items-center lg:gap-16 lg:text-left ${
+                        isVisible
+                          ? 'translate-y-0 opacity-100'
+                          : 'translate-y-10 opacity-0'
+                      }`}
+                      style={{
+                        transitionDelay: `${index * 280}ms`,
+                      }}
+                    >
+                      <h2 className="transition-all duration-300 ease-in-out">
+                        {`0${index + 1}`}
+                      </h2>
+
+                      <p
+                        className={`transition-all duration-300 ease-in-out lg:text-left ${
+                          activeTab === index ? 'font-semibold' : ''
+                        }`}
+                      >
+                        {item.desctioption}
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+              <div className="group relative order-1 flex items-center justify-center rounded-[20px] lg:order-2">
+                <div
+                  className={`flex w-[100%] items-center justify-center transition-all delay-200 duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-0 opacity-0 lg:translate-x-16'}`}
+                >
+                  {/* <Image
+                  src={keyStats?.img}
+                  alt="img"
+                  fill
+                  className="object-contain transition-transform duration-300 ease-out group-hover:scale-110"
+                /> */}
+
+                  <Image
+                    src={keyStats?.img}
+                    width={750}
+                    height={742}
+                    alt="img"
+                    className={`h-[10rem] w-[15rem] transition-opacity transition-transform duration-700 ease-in-out group-hover:scale-110 md:h-[20rem] md:w-[32rem] lg:h-[18rem] lg:w-[24rem] xl:h-[30.188rem] xl:w-[37.438rem] 1366:h-[23rem] 1366:w-[28rem] 1400:h-[25rem] 1400:w-[30rem] 1600:h-[26rem] 1600:w-[32rem] 1680:w-[35rem] 3xl:h-[30.188rem] 3xl:w-[37.438rem]`}
+                  />
+                </div>
+
+                {keyStats?.code === '02' && (
+                  <Image
+                    src={rocket}
+                    width={115}
+                    height={123}
+                    alt="rocket"
+                    className="left-[0.5 rem] absolute top-[-1rem]"
+                  />
+                )}
+              </div>
+            </div>
           </div>
         )}
       </MaxWidthWrapper>

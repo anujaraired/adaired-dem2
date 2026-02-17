@@ -69,15 +69,18 @@ const Header = () => {
                     {/* MEGA MENU */}
                     {menu.subItems && (
                       <div
-                        className={`absolute left-0 right-0 top-[80%] z-50 transition-all duration-300 ease-out ${
+                        className={`absolute left-0 right-0 top-[76%] z-50 transition-all duration-300 ease-out ${
                           isHover
                             ? 'pointer-events-auto translate-y-0 opacity-100'
                             : 'pointer-events-none -translate-y-3 opacity-0'
                         } `}
                       >
                         {/* ===================== RESOURCES MENU ===================== */}
-                        {menu.label === 'Resources' ? (
-                          <div className="mx-auto ml-[48%] w-fit rounded-xl bg-white p-4 shadow-lg">
+                        {menu.label === 'Resources' ||
+                        menu.label === 'White Label' ? (
+                          <div
+                            className={`${menu.label === 'White Label' ? 'ml-[39%]' : 'ml-[52%]'} mx-auto w-fit rounded-xl bg-white p-4 shadow-lg`}
+                          >
                             <ul className="space-y-2">
                               {menu.subItems.map((item, i) => (
                                 <li key={i}>
@@ -217,7 +220,7 @@ const Header = () => {
         <div className="fixed inset-0 z-[40] lg:hidden">
           {/* OVERLAY */}
           <div
-            className="absolute inset-0 w-[40rem] h-[40rem] bg-black/60"
+            className="absolute inset-0 h-[40rem] w-[40rem] bg-black/60"
             onClick={() => {
               setShow(false);
               setLevel(0);

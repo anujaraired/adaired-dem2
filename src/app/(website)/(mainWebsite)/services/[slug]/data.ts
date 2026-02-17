@@ -123,12 +123,51 @@ import keyStatsImg2 from '../../../../../../public/assets/keyStatsImg.png';
 import WhatIsAuthorityLinkBuilding from '../../../../../../public/assets/images/link_builng_img.png';
 import WhatAreService from '../../../../../../public/assets/images/Development_Services.png';
 
+import webDevelopmentBannerBg from '../../../../../../public/assets/web_development_banner_img.png';
+
+import stop_struggle3 from '../../../../../../public/assets/localseo/stop_struggle3.png';
+import whatMkLocal from '../../../../../../public/assets/localseo/whatMkLocal.png';
+import whatMkLocal1 from '../../../../../../public/assets/localseo/whatMkLocal1.png';
+import whatMkLocal2 from '../../../../../../public/assets/localseo/whatMkLocal2.png';
+import whatMkLocal3 from '../../../../../../public/assets/localseo/whatMkLocal3.png';
+import whatMkLocal4 from '../../../../../../public/assets/localseo/whatMkLocal4.png';
+import whatMkLocal5 from '../../../../../../public/assets/localseo/whatMkLocal5.png';
+
+// Local SEO Images
+import localBannerBg from '../../../../../../public/assets/localseo/localBannerBg.png';
+import LocalWhatService from '../../../../../../public/assets/localseo/localWhatService.png';
+import LocalNotSee from '../../../../../../public/assets/localseo/localNotSee.png';
+import LocalNotSeeBg from '../../../../../../public/assets/localseo/localNotSeeBg.png';
+
+// White Label Page Images
+import whiteKeyStats from '../../../../../../public/assets/whitelabel/whiteKeyStats.png';
+import whiteWhatIs from '../../../../../../public/assets/whitelabel/whiteWhatIs.png';
+import whiteStruggleBg from '../../../../../../public/assets/whitelabel/whiteStruggleBg.png';
+import whiteBannerBg from '../../../../../../public/assets/whitelabel/whiteBannerBg.png';
+import whiteAdairedHelpImg from '../../../../../../public/assets/whitelabel/whiteAdairedHelpImg.png';
+import whiteBookConsultationBg from '../../../../../../public/assets/whitelabel/whiteBookConsultationBg.png';
+import whiteBuildLinkImg from '../../../../../../public/assets/whitelabel/whiteBuildLinkImg.png';
+
+import whiteImpIcon_1 from '../../../../../../public/assets/whitelabel/whiteImpIcon_1.png';
+import whiteImpIcon_2 from '../../../../../../public/assets/whitelabel/whiteImpIcon_2.png';
+import whiteImpIcon_3 from '../../../../../../public/assets/whitelabel/whiteImpIcon_3.png';
+import whiteImpIcon_4 from '../../../../../../public/assets/whitelabel/whiteImpIcon_4.png';
+import whiteImpIcon_5 from '../../../../../../public/assets/whitelabel/whiteImpIcon_5.png';
+import whiteImpIcon_6 from '../../../../../../public/assets/whitelabel/whiteImpIcon_6.png';
+
+import whatMkWhite_1 from '../../../../../../public/assets/whitelabel/whatMkWhite_1.png';
+import whatMkWhite_2 from '../../../../../../public/assets/whitelabel/whatMkWhite_2.png';
+import whatMkWhite_3 from '../../../../../../public/assets/whitelabel/whatMkWhite_3.png';
+import whatMkWhite_4 from '../../../../../../public/assets/whitelabel/whatMkWhite_4.png';
+import whatMkWhite_5 from '../../../../../../public/assets/whitelabel/whatMkWhite_5.png';
+
 export type SectionKey =
   | 'banner'
   | 'keyStats'
   | 'areYouTired'
   | 'whatareservice'
   | 'needofservice'
+  | 'needofservice2'
   | 'importantToBussiness'
   | 'benefitofAiSeo'
   | 'serviceResult'
@@ -239,6 +278,7 @@ export const SERVICES_DATA = {
     importantToBussiness: {
       isVisible: true,
       heading: 'Why is SEO Important to Your Business?',
+      buttonName: '',
       data: [
         {
           icon: importantIcon_1,
@@ -462,6 +502,7 @@ export const SERVICES_DATA = {
     },
     serviceResult: {
       isVisible: true,
+      isVariant: '01',
       heading: 'Why Partner With Adaired Digital Media to Hire SEO Services?',
       bgImage: '',
       img: StrugglingImgSEO,
@@ -870,6 +911,7 @@ export const SERVICES_DATA = {
     importantToBussiness: {
       isVisible: false,
       heading: 'Why is SEO Important to Your Business?',
+      buttonName: '',
       data: [],
     },
     needofservice: {
@@ -944,6 +986,7 @@ export const SERVICES_DATA = {
     },
     serviceResult: {
       isVisible: true,
+      isVariant: '01',
       heading:
         'Struggling to Rank in AI SEO Results? Here’s What You Need to Know',
       description: null,
@@ -1456,12 +1499,14 @@ brand appears in AI summaries and citations.`,
     importantToBussiness: {
       isVisible: true,
       heading: 'Why is SEO Important to Your Business?',
+      buttonName: '',
       data: [],
     },
 
     needofservice: {
       isVisible: true,
       isBgCornerImg: true,
+      isVariant: '01',
       heading: 'Why Authority Link Building Matters For Your Business?',
       data: [
         {
@@ -1593,6 +1638,7 @@ brand appears in AI summaries and citations.`,
     },
 
     serviceResult: {
+      isVariant: '01',
       isVisible: false,
       heading:
         'Struggling to Rank in AI SEO Results? Here’s What You Need to Know',
@@ -1892,6 +1938,7 @@ brand appears in AI summaries and citations.`,
     // NEW
     stopStruggling: {
       isVisible: true,
+      isHoverBgBlue: true,
       subtitle: '',
       title:
         'Maximize Your Online Presence With The Best Link Building Services',
@@ -1972,11 +2019,12 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       heading: 'Design That Builds Trust.',
       label: 'Experiences That Convert.',
-      desc: 'With billions of websites competing for attention, your brand has seconds to stand out. At Adaired, we design and develop visually compelling websites that build trust, capture attention, and drive results.',
+      desc: 'With billions of websites competing for attention, your brand has seconds to stand out. At Adaired Digital Media, we design and develop visually compelling websites that build trust, capture attention, and drive results.',
       button: 'Book a consultation today',
       subheading: '',
       width: '20rem',
       widthLg: '30rem',
+      bgImg: webDevelopmentBannerBg,
     },
 
     keyStats: {
@@ -2033,6 +2081,7 @@ brand appears in AI summaries and citations.`,
     importantToBussiness: {
       isVisible: true,
       heading: 'Why is SEO Important to Your Business?',
+      buttonName: '',
       data: [],
     },
 
@@ -2078,7 +2127,7 @@ brand appears in AI summaries and citations.`,
         {
           name: 'Builds Trust and Credibility',
           description: [
-            `Good website design is associated with the credibility and professionalism of a business. 
+            `A Good website design is associated with the credibility and professionalism of a business. 
             Features such as fast loading speeds, secure connections, consistent performance, and clear messaging reassure users that the company is reliable, established, and customer-focused.`,
           ],
         },
@@ -2153,6 +2202,7 @@ brand appears in AI summaries and citations.`,
 
     serviceResult: {
       isVisible: false,
+      isVariant: '01',
       heading:
         'Struggling to Rank in AI SEO Results? Here’s What You Need to Know',
       description: null,
@@ -2236,9 +2286,9 @@ brand appears in AI summaries and citations.`,
           img: AdairedHelp1,
           name: 'Custom Design Aligned With Your Brand',
           description: [
-            `The website designs that Adaired builds are completely personalized which can be considered to be an expression of your brand identity, personality and objectives.
-            We do not make a one-size-fits-all template, but create visually appealing layouts, colour scheme and interfaces that can communicate your brand in a straightforward way.`,
-            `This will make your site unique and provide your visitors with a consistent and memorable brand experience.`,
+            `The website designs that Adaired builds are completely personalized, which can be considered to be an expression of your brand identity, personality, and objectives.`,
+            `We do not make a one-size-fits-all template but create visually appealing layouts, color schemes, and interfaces that can communicate your brand in a straightforward way.`,
+            `This will make your site unique and provide your visitors with a consistent and memorable brand experience. And this is what separates us as a web design and development company.`,
           ],
         },
         {
@@ -2263,8 +2313,8 @@ brand appears in AI summaries and citations.`,
           img: AdairedHelp4,
           name: 'Performance, Security, and Scalability',
           description: [
-            `Adaired creates fast, secure websites that are designed to expand your business. We have a long-term performance orientation in terms of optimized loading speeds, secure hosting, and clean, scalable code.`,
-            `Our development practices ensure that your site is stable, secure and can handle more traffic as well as future growth.`,
+            `Being the top web development company, we create fast, secure websites that are designed to expand your business. We have a long-term performance orientation in terms of optimized loading speeds, secure hosting, and clean, scalable code.`,
+            `Our development practices ensure that your site is stable and secure and can handle more traffic as well as future growth.`,
           ],
         },
         {
@@ -2318,8 +2368,9 @@ brand appears in AI summaries and citations.`,
           img: WhatMkeAd,
           name: 'Professional experience and expertise',
           description: [
-            `At Adaired, our professionals clearly convey that you are investing in years of knowledge and experience. Our highly skilled designers and developers are skilled in the latest designs and follow the best practices. They will help you create websites that are user-friendly, visually appealing and fully-functional. `,
-            `They understand the nuances of user behaviour, actions and customer needs effectively and draft solutions that can make your business future-ready. `,
+            `Our professionals clearly convey that you are investing in years of knowledge and experience. We adapt to the latest designs and follow the best practices to help you create websites that are user-friendly, visually appealing, and fully functional.`,
+            `Plus, we understand the nuances of user behavior, actions, and customer needs effectively and draft solutions that can make your business future-ready. 
+`,
           ],
         },
         {
@@ -2434,7 +2485,7 @@ brand appears in AI summaries and citations.`,
     stopStruggling: {
       isVisible: true,
       subtitle: '',
-      title: 'Every Successful Website Starts with a Clear Strategy.',
+      title: 'Every Successful Website Starts with A Clear Strategy.',
       button: 'Schedule a Strategy Call',
       description: `Schedule a strategy call and let’s build a digital presence aligned\n with your business goals.`,
       bgImg: stop_struggle2,
@@ -2513,6 +2564,12 @@ brand appears in AI summaries and citations.`,
       'adairedHelp',
       'buildlinks',
       'serviceResult',
+      'needofservice',
+      'whatMissing',
+      'needofservice2',
+      'notSeeingResult',
+      'importantToBussiness',
+      'leadingTools',
       'whatIncluded',
       'ourProcess',
       'whatMkeDeferent',
@@ -2520,44 +2577,55 @@ brand appears in AI summaries and citations.`,
       'faqData',
       'readyToStart',
     ] satisfies SectionKey[],
+
     banner: {
-      code: '04',
+      code: '05',
       isCenter: false,
       isVisible: true,
-      heading: 'Design That Builds Trust.',
-      label: 'Experiences That Convert.',
-      desc: 'With billions of websites competing for attention, your brand has seconds to stand out. At Adaired, we design and develop visually compelling websites that build trust, capture attention, and drive results.',
-      button: 'Book a consultation today',
+      heading: '',
+      label: 'Helping You Rank #1 In Your Area',
+      desc: 'Get discovered by the customers who are searching for your business right now',
+      button: 'Book a Strategy Call',
       subheading: '',
       width: '20rem',
       widthLg: '30rem',
+      bgImg: localBannerBg,
     },
 
     keyStats: {
       isVisible: true,
-      code: '04',
-      heading: 'Did You Know?',
+      code: '05',
+      heading: 'Must-Know Local SEO Statistics',
       isCard: false,
-      // img: keyStatsImg,
       list: [
         {
-          description: [
-            `87% of customers want a personalized shopping experience`,
+          desctioption: [
+            `Ranking on Google is not enough today. Customers expect hyper-local real-time relevance when they search.`,
           ],
         },
         {
-          description: [
-            `48% of people believe that a website's design determines a business's credibility`,
+          desctioption: [
+            `Studies suggest that over 78% of local searches result in an offline purchase or inquiry within 24 hours.`,
           ],
         },
         {
-          description: [
-            `75% of Internet users prefer a mobile-friendly website`,
+          desctioption: [
+            `78% of people will not consider a business with a rating lower than 4 stars`,
           ],
         },
         {
-          description: [
-            `42% of customers say they will leave a website that functions poorly`,
+          desctioption: [
+            `62% of people would avoid a business if they found incorrect information about it online`,
+          ],
+        },
+        {
+          desctioption: [
+            `1.5 billion users search for 'near me' searches every month`,
+          ],
+        },
+        {
+          desctioption: [
+            `76% of consumers use voice search for local business information weekly`,
           ],
         },
       ],
@@ -2565,47 +2633,448 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '01',
-      img: WhatAreService,
-      heading: 'What Are Website Design and Development Services?',
+      isVariant: '04',
+      img: LocalWhatService,
+      heading: 'What Is Local SEO?',
       span: '',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [
         {
-          desctioption: `Website design and development is the process of creating, building, and maintaining a visually appealing, functional, and user-friendly website. 
-          It deals with all that a user can see and interact with, including layout, color schemes, typography, user navigation and overall user experience.`,
+          desctioption: `Local SEO refers to the process of maximizing your online presence to increase visibility in local search results within a specific geographical area. 
+          In contrast to the traditional SEO, which aims at national or global ranking, the local SEO is aimed at location-based searches, for example, best digital agency near me or plumber in [city name].`,
         },
         {
-          desctioption: `Professional website design and development services help businesses translate their brand identity into a compelling digital presence. 
-          The goal is not just to look good, but to deliver a seamless experience that engages users, communicates value, and supports business objectives.`,
+          desctioption: `Local SEO ensures your business appears where it matters most:`,
+          list: [
+            {
+              description: [`Google Maps`],
+            },
+            {
+              description: [`Local search results`],
+            },
+            {
+              description: [`"Near me" queries`],
+            },
+            {
+              description: [`Local business directories`],
+            },
+          ],
+        },
+        {
+          desctioption: `The Local SEO will make your business visible in your local area, reach customers living in the neighborhood, get more calls, visits and requests from people who are ready to purchase.`,
         },
       ],
-      button: 'Start Building Today',
+      button: '',
     },
 
-    importantToBussiness: {
+    serviceResult: {
       isVisible: true,
-      heading: 'Why is SEO Important to Your Business?',
-      data: [],
+      isVariant: '02',
+      heading: 'Why Is Local SEO Important for Your Business?',
+      description: [
+        `Local search optimization is necessary when the company is aimed at local consumers. It assists you attract ready-to-convert traffic, gain local visibility and stay ahead of competitors.`,
+      ],
+      isBgColor: false,
+      img: StrugglingImgAISEO,
+      list: [
+        {
+          img: aiseoresult,
+          name: 'Drives High-Intent Local Traffic',
+          description: [
+            `Local SEO makes your company reach the customers, who actively search your services in your area. 
+            These are users who already have intent to purchase, visit, or contact you and hence they are much more valuable than normal traffic. 
+            Your presence in the local searches and in the ‘near me’ searches exposes you to people who are willing to act immediately. `,
+          ],
+        },
+        {
+          img: aiseoresult,
+          name: 'Increases Calls, Visits, and Bookings',
+          description: [
+            `The higher your business is on the local search results, the more customers can easily call, visit, or book your services. 
+            Optimized local listings, accurate business information, and high map visibility will minimize the frustration in the purchasing process, 
+            bring internet searches to the real world and this will have a direct impact on your revenues.`,
+          ],
+        },
+        {
+          img: aiseoresult,
+          name: 'Builds Trust and Credibility',
+          description: [
+            `Placing your brand at the first position in local search engine will instantly make your brand credible. 
+            Customers naturally trust businesses with positive reviews, and those that have correct local listing. 
+            Local SEO will enable your online reputation, make your brand seem trustworthy, and helps customers feel confident choosing you over lesser-known competitors.`,
+          ],
+        },
+        {
+          img: aiseoresult,
+          name: 'Outranks Local Competitors',
+          description: [
+            `The local SEO will make your business visible in a crowded marketplace because it will put you ahead of your competitors in your city. 
+            By targeting location-specific keywords and optimizing your local presence, you capture customer attention first often before they even consider other options, 
+            hence giving you a powerful competitive advantage in your local market.`,
+          ],
+        },
+        {
+          img: aiseoresult,
+          name: 'Delivers Long-Term, Cost-Effective Growth',
+          description: [
+            `Unlike paid advertising, Local SEO delivers sustainable results over time without constant ad spend. 
+            Once your local rankings improve, your business has new qualified leads coming into it automatically. 
+            This would make Local SEO an affordable marketing investment that will contribute to the local market to keep growing steadily, maintain high visibility, and achieve long-term success.`,
+          ],
+        },
+      ],
     },
 
     needofservice: {
       isVisible: true,
+      isVariant: '02',
       isBgCornerImg: true,
-      heading: 'Why Authority Link Building Matters For Your Business?',
+      heading: 'Why “Near Me” Searches Are More Important Than Ever',
       data: [
         {
-          desctioption: `For businesses aiming to grow sustainably online, authority link building is essential. Search engines prioritize websites that demonstrate trust and expertise, and authoritative backlinks play a critical role in this evaluation. `,
+          desctioption: `“Near me” searches are no longer based on distance alone.  Although proximity remains key, Google has introduced the use of several signals before local results can be shown.`,
         },
         {
-          desctioption: `Through enhancing the authority of your website, you are in a better position to be ranked better, gain steady traffic, enhance brand recognition that is useful in making your business shine in competitive markets, and turn the visibility into revenue.`,
+          desctioption: `When the user is searching the service in the area, Google considers how well a business matches the search, and the reputation and reliability that the business holds online.`,
+        },
+      ],
+    },
+
+    needofservice2: {
+      isVisible: true,
+      isVariant: '03',
+      isBgCornerImg: true,
+      heading: 'Why These Factors Matter',
+      data: [
+        {
+          desctioption: `The aim of Google is to provide the best local search results, not the closest search results. Successful local SEO requires optimizing all three ranking factors to improve visibility, credibility, and long-term growth.`,
+        },
+      ],
+    },
+
+    whatMissing: {
+      isVisible: true,
+      heading: 'What Are Local SEO Ranking Factors?',
+      description: [
+        `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
+        Google now relies on three primary ranking factors to determine local visibility: Relevance, Distance, and Prominence.`,
+        `Together these factors assist Google in presenting the most accurate, trustworthy, and helpful local businesses to its users during their search.`,
+      ],
+      list: [
+        {
+          icon: missing_1,
+          title: 'Relevance',
+          description: [
+            `Relevance takes into consideration the similarity of your business with what the user wants to search. 
+            Google considers your business details, web content, service descriptions, categories and keywords to find out whether your business fits in the intention of the user.`,
+            `Clear, accurate, and well-optimized content improves relevance and increases the likelihood of appearing for the right local searches.`,
+          ],
+        },
+        {
+          icon: missing_2,
+          title: 'Distance',
+          description: [
+            `Distance measures how close your business is to the searcher or to the location specified in the search. 
+            You cannot control the location of the user, but you can make sure that your address, service areas and location information is correct and showing the same points on the web.`,
+            `Good relevance and high profile may enable the businesses to appear high even when the business is not the nearest.`,
+          ],
+        },
+        {
+          icon: missing_3,
+          title: 'Prominence',
+          description: [
+            `Prominence reflects how well-known and trusted your business is online. 
+            Google evaluates the signals including customer reviews, rating, local citation, and back links, mention of the brand and general online presence.`,
+            `Companies that enjoy a high degree of authority and good reputation are more likely to feature on top search results in the local search engine.`,
+          ],
+        },
+      ],
+    },
+
+    notSeeingResult: {
+      isVisible: true,
+      heading: `Still unsure about investing in local SEO? You shouldn’t be.`,
+      description: '',
+      buttonName: 'Book a call with a local SEO expert!',
+      img: LocalNotSee,
+      bgImage: LocalNotSeeBg,
+    },
+
+    importantToBussiness: {
+      isVisible: true,
+      heading: 'Local SEO Services Designed to Grow Your Business',
+      buttonName: 'Get Your Free Local SEO Audit',
+      data: [
+        {
+          icon: importantIcon_1,
+          name: 'Google Business Profile Optimization',
+          description: [
+            `Our local seo company fully optimizes your Google Business Profile to improve visibility in Google Maps and local search results. 
+            This involves proper business information, description with keywords, service types, photographs, and frequent updating.`,
+            `An optimally-crafted profile will make your business visible as a leading local search and will result in more calls, visits, and customer inquiries by the neighboring users.`,
+          ],
+          button: 'Get Your Free Local SEO Audit',
+        },
+        {
+          icon: importantIcon_1,
+          name: 'Local Keyword Research & Strategy',
+          description: [
+            `Our local keyword research focuses on identifying high-intent, location-specific search terms that your customers are actually performing. 
+            We examine the trends of search, competition and user intent to develop a narrowly focused keyword strategy.`,
+            `This will also guarantee that your business is appearing in the most important searches and this will bring in qualified local traffic and that will have a higher percentage of conversion.`,
+          ],
+          button: 'Get Your Free Local SEO Audit',
+        },
+        {
+          icon: importantIcon_1,
+          name: 'On-Page Local SEO Optimization',
+          description: [
+            `We optimize the content of your website, meta tags, headings, URLs, and internal structure so that it can be relevant in the local search. 
+            This involves optimization of location pages and incorporation of geo specific keywords in a natural manner.`,
+            `Our on-page local optimization will make the search engines have clear knowledge of where the business is taking place and this will help to rank better, 
+            user experience and local appearance within the search results.`,
+          ],
+          button: 'Get Your Free Local SEO Audit',
+        },
+        {
+          icon: importantIcon_1,
+          name: 'Local Citations & Directory Management',
+          description: [
+            `We develop, maximize and control your business listings in reputable local directories and sites. 
+            Regular citations enhance the competence of the search engines and your local authority.`,
+            `This ensures your business ranks for searches that matter most, bringing qualified local traffic that is more likely to convert.`,
+          ],
+          button: 'Get Your Free Local SEO Audit',
+        },
+        {
+          icon: importantIcon_1,
+          name: 'Review & Reputation Management',
+          description: [
+            `Local search rankings and purchasing decisions have a significant contribution of customer reviews. 
+            We assist in creating additional positive reviews and feedback management, as well as responding in a strategic manner.`,
+            `Having a good review profile instills trust, credibility, and motivates potential customers to use your business instead of the other 
+            businesses in the area as well as boosting the overall local search performance.`,
+          ],
+          button: 'Get Your Free Local SEO Audit',
+        },
+        {
+          icon: importantIcon_1,
+          name: 'Local Link Building',
+          description: [
+            `Our local link-building strategies emphasise on acquiring quality backlinks in reputable local websites, blogs and directories. 
+            Such links will build the authority of your site and send an indication of trust to the search engines.`,
+            `Through establishing a good rapport with people in the area, we will assist in promoting the ranking, referral traffic, and the general representation of your business in your locality.`,
+          ],
+          button: 'Get Your Free Local SEO Audit',
+        },
+        {
+          icon: importantIcon_1,
+          name: 'NAP Consistency & Audit',
+          description: [
+            `We audit and update your Name, Address and Phone Number (NAP) across all online platforms. 
+            Inconsistent business information may damage local ranking and customer confidence.`,
+            `Our NAP consistency service ensures  accuracy everywhere helping search engines verify your business legitimacy and improving your chances of appearing prominently in local search results.`,
+          ],
+          button: 'Get Your Free Local SEO Audit',
+        },
+        {
+          icon: importantIcon_1,
+          name: 'Local SEO Reporting & Performance Tracking',
+          description: [
+            `We offer clear and simplified reports that monitor your local presence. 
+            This entails rankings, traffic, visibility, and conversions.`,
+            `Our SEO reports make you see what works, what needs to be improved, and how your local presence is expanding so that you can quantify real ROI on your Local SEO investment.`,
+          ],
+          button: 'Get Your Free Local SEO Audit',
+        },
+      ],
+    },
+
+    ourProcess: {
+      isVisible: true,
+      subtitle: 'Our Process',
+      title: 'Our Performance-Focused Local SEO Strategy',
+      span: '',
+      description: ``,
+      services: [
+        {
+          icon: step,
+          title: 'Local SEO Audit & Market Analysis',
+          description: [
+            `Our first step is to do a comprehensive Local SEO audit to review your site, Google Business profile, citations, reviews, and competitors. 
+            This helps us identify gaps, opportunities, and ranking obstacles.`,
+            `By getting to know your local market and competition we establish a solid base of a targeted approach to your business objectives and destinations.`,
+          ],
+        },
+        {
+          icon: step_2,
+          title: 'Local SEO Strategy Development',
+          description: [
+            `Using the insights of the audit, we create a data-driven Local SEO strategy that targets your industry, location, and customer behavior. 
+            This involves keyword focus, content organization, listing management plus link-building priorities.`,
+            `We will have a strategic plan so that all optimization activities can rely on search intent and bring maximum local search results.`,
+          ],
+        },
+        {
+          icon: step_3,
+          title: 'Website & On-Page Local Optimization',
+          description: [
+            `We configure your site to be more locally relevant by enhancing meta tags, content, headings, internal links and location specific pages. 
+            We do the integration of geo-targeted keywords in a natural way so that it does not harm the ranking and user experience.`,
+            `This is to assist the search engines to get a clear picture of your areas of operation and enhance interaction of local visitors.`,
+          ],
+        },
+        {
+          icon: step_4,
+          title: 'Google Business Profile & Listings Optimization',
+          description: [
+            `We also optimize your Google Business Profile and local listings to increase your visibility on Google maps and on local search results. 
+            This includes accurate business information, services, images, categories, and regular updates.`,
+            `These regularized, streamline listings will enhance ranking, more trust, and calls, visits, and inquiries by local clients.`,
+          ],
+        },
+        {
+          icon: step_5,
+          title: 'Local Citations, Reviews & Authority Building',
+          description: [
+            `We empower your local authority through the creation of correct citations, review management and local backlinks. 
+            Good reviews enhance trust, whereas citations and links are the indication of credibility to search engines.`,
+            `This is a combination that will make your business to be ranked higher, outperform competitors, and  establish a strong presence within your local community.`,
+          ],
+        },
+        {
+          icon: step_5,
+          title: 'Monitoring, Reporting & Continuous Optimization',
+          description: [
+            `Local search optimization is a process. We continuously monitor rankings, traffic and conversions and optimize strategies based on performance data. 
+            In-depth reports will keep you updated on progress and ROI.`,
+            `With continued optimization, you can have the assurance that your business 
+            remains visible to the audience, is able to adjust to changes in the algorithm, and keeps expanding locally.`,
+          ],
+        },
+        {
+          icon: step_5,
+          title: 'Maintenance & Continuous Support',
+          description: [
+            `The relationship does not stop with the launch.`,
+            `We provide ongoing maintenance, updates, performance optimization and technical support to ensure that your website is secure, scalable and compliant to the changing business requirements.`,
+          ],
+        },
+      ],
+    },
+
+    whatMkeDeferent: {
+      isVisible: true,
+      heading: 'Why Choose Adaired for Your Local Search Engine Optimization ?',
+      description: [],
+      list: [
+        {
+          img: whatMkLocal,
+          name: '1. Proven Local SEO Strategies That Drive Real Foot Traffic',
+          description: [
+            `At Adaired, we don’t chase vanity metrics but we focus on what matters: visibility that converts. 
+            We aim to position your business in front of high-intent customers who are located within your area of operation.`,
+            `From Google Business Profile optimization to local keyword targeting, we help you bring more calls, visits and bookings regularly.`,
+          ],
+        },
+        {
+          img: whatMkLocal1,
+          name: '2. Deep Understanding of Local Search Algorithms',
+          description: [
+            `Local SEO isn’t the same as traditional SEO, and we treat it that way. Adaired focuses on local ranking factors like proximity, relevance, and prominence.`,
+            `We stay ahead of algorithm updates and local search indexes and can have your business higher up the Maps, local pack and geo-specific search results listing.`,
+          ],
+        },
+        {
+          img: whatMkLocal2,
+          name: '3. Customized Solutions for Every Local Business',
+          description: [
+            `No two local businesses are the same and neither are our strategies. 
+            Adaired develops a customized local search strategy, based on your business sector, competitors, and objectives, whether you are a single-location shop or a multi-location brand.`,
+            `We offer tailor-made strategies that guarantee high returns instead of one-size-fits-all tactics.`,
+          ],
+        },
+        {
+          img: whatMkLocal3,
+          name: '4. End-to-End Local SEO Services Under One Roof',
+          description: [
+            `Adaired does it all, starting with local keyword research and citation building and going through to review management and on-page optimization.`,
+            `You don’t need multiple vendors, we provide a complete local SEO ecosystem that enhances your online presence, creates credibility along with better rankings across all relevant local search platforms.`,
+          ],
+        },
+        {
+          img: whatMkLocal4,
+          name: '5. Transparent Reporting and Measurable Results',
+          description: [
+            `We believe trust is built on transparency. Adaired provides clear, easy-to-understand reports which present the performance of your campaigns on local search engine optimization.`,
+            `You’ll see real metrics like local rankings, traffic growth, calls, and conversions so you always know exactly how your investment is paying off.`,
+          ],
+        },
+        {
+          img: whatMkLocal5,
+          name: '6. Dedicated Local SEO Experts Who Care About Growth',
+          description: [
+            `When you work with Adaired, you’re not just hiring an agency, you’re gaining a growth partner. 
+            Our local search engine experts are involved in performance monitoring and continuous optimization and proactively suggest improvements.`,
+            `We’re invested in your long-term success, not short-term wins.`,
+          ],
+        },
+      ],
+    },
+
+    stopStruggling: {
+      isVisible: true,
+      subtitle: '',
+      title: `If You’re Not Ranking Locally, You’re Losing Business`,
+      // span: 'You’re Losing Business',
+      button: 'Rank Higher on Local Search',
+      description: ``,
+      bgImg: stop_struggle3,
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      title: 'Questions You Have, Answers You Need',
+      description: `Have questions? Our FAQ section provides clear, concise answers about our services to guide you effortlessly.`,
+      list: [
+        {
+          title: 'What is local SEO and why is it important?',
+          description: `Local SEO refers to the practice of ensuring that your online presence is able to capture customers on local searches. 
+          This is essential to businesses that target a particular geographical location since it is the way to make you visible in Google Maps, local packs, 
+          and location-based search engines where buying intent is highest.`,
+        },
+        {
+          title: 'How long does it take to see results from local SEO?',
+          description: `Depending on the competition, the location and your existing presence online, the local SEO outcomes usually begin to appear in 2-3 months. 
+          However, stronger and more stable rankings usually build over 4–6 months with consistent optimization and authority-building efforts.`,
+        },
+        {
+          title: 'Does Google Business Profile optimization really matter?',
+          description: `Yes ! Google Business Profile is one of the most important local ranking factors. 
+          An optimized and proactively managed profile enhances Google Map visibility and trust and motivates more customers in the area to drive calls, directions, and visits to the site.`,
+        },
+        {
+          title: 'Can local SEO help small businesses compete with big brands?',
+          description: `Absolutely. Local SEO levels the playing field as it does not emphasize on brand size but relevant proximity. 
+          With the appropriate tactic, small and medium-size companies will be able to exceed bigger businesses in the local search and generate highly targeted local traffic.`,
+        },
+        {
+          title: 'Is local SEO a one-time service or ongoing?',
+          description: `Local SEO is an ongoing process. Search algorithms change, competitors evolve, and customer behavior shifts. 
+          Continuous optimization include review management, content updates, and citation monitoring to keep and enhance local rankings in the long run.`,
+        },
+        {
+          title: 'How does Adaired measure local SEO success?',
+          description: `To measure success, we use meaningful parameters such as local keyword ranking, Google Maps visibility, web traffic, calls, form submissions and in store visits. 
+          Our goal is not just higher rankings but measurable business growth.`,
         },
       ],
     },
 
     benefitofAiSeo: {
-      isVisible: true,
+      isVisible: false,
       bgColor: 'bg-[#FAFAFA]',
       textColor: '#000000',
       textBg: '#EEEEEE',
@@ -2654,8 +3123,8 @@ brand appears in AI summaries and citations.`,
     },
 
     whatIncluded: {
-      isVisible: true,
-      isVariant: '01',
+      isVisible: false,
+      isVariant: '02',
       heading: 'List Of Website Design and Development Services We Offer',
       description: ``,
       list: [
@@ -2705,56 +3174,6 @@ brand appears in AI summaries and citations.`,
       ],
     },
 
-    serviceResult: {
-      isVisible: false,
-      heading:
-        'Struggling to Rank in AI SEO Results? Here’s What You Need to Know',
-      description: null,
-      isBgColor: false,
-      img: '',
-      list: [
-        {
-          img: aiseoresult,
-          name: 'Your Website Gets Traffic, but Not the Right Traffic',
-          description: [
-            'Many businesses rank for keywords but still don’t get leads or sales. AI search engines focus on user intent, not just rankings. When your content does not provide a clear answer to what users want, AI will push it down, creating low-quality traffic that does not convert. ',
-            ``,
-          ],
-        },
-        {
-          img: aiseoresult,
-          name: 'Rankings Drop Without Any Warning',
-          description: [
-            'AI-powered algorithms change often, and many businesses don’t see it coming. A single update may even take your site off the list. You’re likely to go unnoticed, lose visibility, traffic, and revenue overnight.',
-            ` `,
-          ],
-        },
-        {
-          img: aiseoresult,
-          name: 'Your Content Doesn’t Stand Out Anymore',
-          description: [
-            'AI favors useful, clear, and original content. If your pages look like everyone else’s, no one pays attention to them. Generic Blogs, keyword repetition, and thin pages are difficult to rank and hence compete with the smarter content strategies used by brands.',
-            ``,
-          ],
-        },
-        {
-          img: aiseoresult,
-          name: 'You’re Making SEO Decisions Without Real Data',
-          description: [
-            'Most companies are dependent on guesswork or past reports. It is difficult to discover what works and what does not without insights provided by AI. This leads to wasted effort, slow growth, and missed opportunities while competitors move ahead faster.',
-            ``,
-          ],
-        },
-      ],
-    },
-
-    notSeeingResult: {
-      isVisible: true,
-      heading: 'Not Seeing Results? ',
-      description: 'Let AI Reveal What’s Holding You Back.',
-      buttonName: 'Get Your Free AI SEO Audit',
-      bgImage: NotSeeingResultsBg,
-    },
     industryLeaders: {
       isVisible: true,
       heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
@@ -2762,14 +3181,16 @@ brand appears in AI summaries and citations.`,
         'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
       bgImage: leadingToolsImg,
     },
+
     leadingToolsForPerformence: {
-      isVisible: true,
+      isVisible: false,
       heading:
         'Powered By Leading Tools For Maximum Performance and Efficiency ',
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
     },
+
     leadingTools: {
       isVisible: true,
       heading:
@@ -2779,9 +3200,8 @@ brand appears in AI summaries and citations.`,
       bgImage: '',
     },
 
-    // Updated
     adairedHelp: {
-      isVisible: true,
+      isVisible: false,
       heading:
         'How Adaired Can Help You With Professional Website Design and Development Services?',
       img: HowAdairedHelp,
@@ -2841,7 +3261,7 @@ brand appears in AI summaries and citations.`,
     },
 
     buildlinks: {
-      isVisible: true,
+      isVisible: false,
       isCode01: true,
       isVariant: '01',
       img: BeautifulDesign,
@@ -2859,127 +3279,192 @@ brand appears in AI summaries and citations.`,
       button: 'Start Your Website Project',
     },
 
-    whatMkeDeferent: {
+    getplan: {
+      isVisible: false,
+      isLabel: false,
+      subtitle: '',
+      bgImage: stop_struggle2,
+      title: 'Stop Guessing Start Acting ',
+      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+  },
+  'white-label-agency-india': {
+    sectionsOrder: [
+      'banner',
+      'keyStats',
+      'whatareservice',
+      'benefitofAiSeo',
+      'serviceResult',
+      'needofservice',
+      'whatMissing',
+      'needofservice',
+      'notSeeingResult',
+      'importantToBussiness',
+      'whatIncluded',
+      'stopStruggling',
+      'ourProcess',
+      'adairedHelp',
+      'whatMkeDeferent',
+      'buildlinks',
+      'faqData',
+      'readyToStart',
+    ] satisfies SectionKey[],
+
+    banner: {
+      code: '06',
+      isCenter: false,
       isVisible: true,
-      heading:
-        'What Makes Adaired Stand Out As The Best Website Design & Development Service Provider?',
-      description: [
-        'At Adaired, we help businesses create attractive and functional website to help them reach their potential customers worldwide, enhancing turnover, driving next-level growths and making you stand out from the crowd. ',
-      ],
+      heading: 'for Modern Agencies',
+      subtitle: 'Industry-Leading White Label',
+      label: 'Social Media Management',
+      desc: `Deliver expert social media marketing services under your brand without hiring a full in-house team. 
+          With Adaired Digital Media, you get fully managed social media solutions that expand your service lineup without increasing overhead. 
+          From content creation to campaign management, our team drives measurable growth for your clients, all under your brand.`,
+      button: 'Request a Consultation',
+      subheading: 'We work behind the scenes. Your brand gets the credit.',
+      width: '20rem',
+      widthLg: '30rem',
+      bgImg: whiteBannerBg,
+    },
+
+    keyStats: {
+      isVisible: true,
+      code: '06',
+      img: whiteKeyStats,
+      heading: 'Must-Know Facts About White Label Social Media',
+      isCard: false,
       list: [
         {
-          img: WhatMkeAd,
-          name: 'Professional experience and expertise',
-          description: [
-            `At Adaired, our professionals clearly convey that you are investing in years of knowledge and experience. Our highly skilled designers and developers are skilled in the latest designs and follow the best practices. They will help you create websites that are user-friendly, visually appealing and fully-functional. `,
-            `They understand the nuances of user behaviour, actions and customer needs effectively and draft solutions that can make your business future-ready. `,
+          desctioption: [
+            `As of October 2025, 5.7 billion people, over two-thirds of the global population, use social media, with projections reaching 6.6 billion by 2030.`,
           ],
         },
         {
-          img: WhatMkeAd2,
-          name: 'User-centric design and SEO',
-          description: [
-            `The studies suggest that half of the internet users make an opinion about a business based on how its website look and 57% of users will not suggest a business to others after a bad experience. `,
-            `At Adaired, we invest in user research, search engine optimization and good design to ensure your website is discoverable and easy to use. `,
+          desctioption: [
+            `In 2025, 54% of consumers researched products on social media before purchasing, making it a key driver of buying decisions.`,
           ],
         },
         {
-          img: WhatMkeAd3,
-          name: 'Commitment to time and quality',
-          description: [
-            `Through years, we have built a reputation on delivering quality work to our clients. Since there are a number of steps involved in the website creation, we create timelines for different aspects of the project to complete it on time. `,
-            `Whether you need a simple business website or a complex e-commerce platform, we are capable of developing tailored solutions that can scale with your business. `,
+          desctioption: [
+            `Around 80% of consumers say social media influences their purchase decisions, showing its strong role in driving buying behavior.`,
           ],
         },
         {
-          img: WhatMkeAd4,
-          name: 'Quick Turnaround Time',
-          description: [
-            `With efficient project management and a dedicated workforce, we ensure that the projects are completed faster without compromising quality. `,
-            `We offer our clients round-the-clock support, maintenance and updates to keep your website secure and up-to-date. Companies from all around the world trust us for reliable, innovative and growth-oriented digital solutions. `,
+          desctioption: [
+            `Social media marketing delivers a strong return on investment, $1 for every $2 spent, equivalent to an average ROI of 100%`,
           ],
         },
         {
-          img: WhatMkeAd5,
-          name: 'Highly skilled team members',
-          description: [
-            `At Adaired, we have a team of highly skilled, knowledgeable and experienced professionals including developers, designers, and digital marketers. Our website design team brings skills and creativity to build websites that excel in functionality, performance and aesthetics.`,
-            `Everything right from UX to backend coding, everything is handled expertly, delivering a seamless and engaging online experience. `,
-          ],
-        },
-        {
-          img: WhatMkeAd6,
-          name: 'Proven Track Record of Success',
-          description: [
-            `Adaired has a proven track record of delivering results to our clients. Our portfolio spans multiple industries, demonstrating our ability to adapt and innovate with time. `,
-            `Our problem solving attitude combined with technological knowledge help us transform our clients digital presence into powerful growth engines. `,
+          desctioption: [
+            `About 75% of marketers say social media is effective for building brand awareness, especially among younger audiences`,
           ],
         },
       ],
     },
 
-    ourProcess: {
+    whatareservice: {
       isVisible: true,
-      subtitle: 'Our Process',
-      title: 'The Web Design and Development Process That We Follow At Adaired',
-      span: '',
-      description: ``,
-      services: [
+      isVariant: '05',
+      img: whiteWhatIs,
+      heading: 'What is White Label',
+      span: 'Social Media Management?',
+      bgColor: '#FFFCF8',
+      isBgWhite: true,
+      data: [
         {
-          icon: step,
-          title: 'Discovery & Requirement Analysis',
-          description: [
-            `We start with knowing your business objectives, target market, industry landscape and technical needs. 
-            This step will enable us to base our strategy on your vision coupled with the realization of possible opportunities to improve user experience and performance.`,
+          desctioption: `White-label social media management allows agencies to offer professional social media marketing services under their own brand without handling the fulfillment internally.`,
+        },
+        {
+          desctioption: `Instead of hiring designers, strategists, content creators, and ad specialists in-house, you partner with Adaired as your white-label social media agency to deliver the work on your behalf. 
+          Your clients see your branding, your communication, and your reports, while our expert team executes the strategy behind the scenes.`,
+        },
+        {
+          desctioption: `This model helps agencies:`,
+          list: [
+            {
+              description: [`Expand service offerings quickly`],
+            },
+            {
+              description: [`Increase recurring revenue`],
+            },
+            {
+              description: [`Improve client retention`],
+            },
+            {
+              description: [`Scale without operational stress`],
+            },
+            {
+              description: [`Maintain full brand ownership`],
+            },
           ],
         },
         {
-          icon: step_2,
-          title: 'Planning & Strategy',
+          desctioption: `Whether you're a digital marketing agency, SEO company, web design company, or consultant, our white-label social media services let you grow faster without increasing fixed costs.`,
+        },
+      ],
+      button: '',
+    },
+
+    importantToBussiness: {
+      isVisible: true,
+      heading: 'Our White Label Social Media Services',
+      description: [
+        `Adaired delivers fully managed white label social media management services that help agencies expand their offerings without building an in-house team. 
+      Each service is structured to deliver measurable growth while keeping your brand front and center.`
+      ],
+      buttonName: 'Request a Consultation',
+      data: [
+        {
+          icon: whiteImpIcon_1,
+          name: 'Social Media Strategy',
           description: [
-            `We design an elaborate project roadmap based on the knowledge acquired during discovery. 
-            This involves the definition of site architecture, technology stack, schedules, and other milestones that are important to maintain a smooth process and effective communication throughout the project life cycle.`,
+            `We develop customized social media marketing strategies based on your client’s industry, audience behavior, and business goals.`,
+            `Every campaign begins with research-driven planning to ensure consistent brand positioning and long-term growth.`,
           ],
+          button: 'Request a Consultation',
         },
         {
-          icon: step_3,
-          title: 'UI/UX Design',
+          icon: whiteImpIcon_2,
+          name: 'Content Creation',
           description: [
-            `Our designers create user-friendly, aesthetically pleasing, and intuitive user interfaces that can reflect your brand identity. 
-            Our focus is on usability, accessibility and responsive design to create a smooth experience on all devices.`,
+            `Our team creates high-quality, branded graphics, captions, and content calendars designed to engage audiences and strengthen brand visibility.`,
+            `All creatives align with your client’s voice while maintaining platform best practices.`,
           ],
+          button: 'Request a Consultation',
         },
         {
-          icon: step_4,
-          title: 'Development & Integration',
+          icon: whiteImpIcon_3,
+          name: 'Scheduling & Publishing',
           description: [
-            `Using modern technologies and best coding practices, our developers bring the designs to life. 
-            We develop websites that are fast, secure and scalable and we combine third-party applications, API, and content management systems when necessary.`,
+            `We manage posting schedules across platforms to maintain consistency and maximize engagement.`,
+            `Through structured publishing workflows, your clients benefit from a strong and active online presence.`,
           ],
+          button: 'Request a Consultation',
         },
         {
-          icon: step_5,
-          title: 'Quality Assurance & Testing',
+          icon: whiteImpIcon_4,
+          name: 'Community Management',
           description: [
-            `We do intensive testing before launch so ensure the flawless performance. 
-            This includes functionality testing, cross-browser and device compatibility checks, performance optimization, and security validation.`,
+            `Engagement is key to social media success. We monitor comments, messages, and interactions to foster meaningful audience relationships while maintaining your client’s brand tone.`,
           ],
+          button: 'Request a Consultation',
         },
         {
-          icon: step_5,
-          title: 'Deployment & Launch',
+          icon: whiteImpIcon_5,
+          name: 'Performance Tracking & Optimization',
           description: [
-            `After all the approval is given, we put your site into live environment and ensure that there is minimal downtime. 
-            Our team will make the integration as seamless as possible and will closely consider the performance to address any last-minute challenges.`,
+            `Using advanced white label social media management services, we track performance metrics, identify trends, and refine strategies to continuously improve campaign results.`,
           ],
+          button: 'Request a Consultation',
         },
         {
-          icon: step_5,
-          title: 'Maintenance & Continuous Support',
+          icon: whiteImpIcon_6,
+          name: 'Branded Reporting',
           description: [
-            `The relationship does not stop with the launch. 
-            We provide ongoing maintenance, updates, performance optimization and technical support to ensure that your website is secure, scalable and compliant to the changing business requirements.`,
+            `We provide detailed, easy-to-understand reports customized with your agency’s branding.`,
+            `These reports highlight growth, engagement, and campaign impact, reinforcing your authority with clients.`,
           ],
+          button: 'Request a Consultation',
         },
       ],
     },
@@ -2987,10 +3472,498 @@ brand appears in AI summaries and citations.`,
     stopStruggling: {
       isVisible: true,
       subtitle: '',
-      title: 'Every Successful Website Starts with a Clear Strategy.',
-      button: 'Schedule a Strategy Call',
-      description: `Schedule a strategy call and let’s build a digital presence aligned\n with your business goals.`,
-      bgImg: stop_struggle2,
+      title: '',
+      description: `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
+      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
+      button: '',
+      bgImg: whiteStruggleBg,
+      isHoverBgBlue: true,
+    },
+
+    ourProcess: {
+      isVisible: true,
+      subtitle: 'Our Process',
+      title: 'How Our White Label Social Media Management Works',
+      span: '',
+      description: `A structured process ensures consistency and measurable results. Our white label social media management approach includes:`,
+      services: [
+        {
+          icon: step,
+          title: 'Discovery & Onboarding',
+          description: [
+            `We align with your agency’s goals, branding, and client expectations.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'Strategy Development',
+          description: [
+            `Our team builds a tailored social media marketing strategy for each client, aligned with their industry and audience.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'Content Creation & Approval',
+          description: [
+            `We develop branded content and campaigns that reflect your client’s voice and positioning.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'Publishing & Engagement',
+          description: [
+            `Content is scheduled and monitored across platforms, ensuring consistent brand presence.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'Reporting & Optimization',
+          description: [
+            `With our white label social media management approach, you get detailed performance insights branded under your name.`,
+            `This streamlined process allows agencies to deliver reliable results without operational strain.`,
+          ],
+        },
+      ],
+    },
+
+    adairedHelp: {
+      isVisible: true,
+      img: adaairedHelpSEO,
+      heading: 'Benefits of Partnering With a White Label Social Media Agency',
+      description: `Here’s how a structured white label social media partnership with Adaired supports long-term agency growth:`,
+      mainImage: adairedHelpImg,
+      list: [
+        {
+          img: '',
+          name: 'Scalable Service Expansion',
+          description: [
+            `Adding social media marketing to your offerings typically requires hiring strategists, designers, copywriters, and ad specialists.`,
+            `A white label social media management model removes that barrier. 
+            You can immediately expand your service lineup and confidently pitch comprehensive social media marketing solutions to both new and existing clients, without building a full in-house team.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Increased Recurring Revenue',
+          description: [
+            `Social media management services naturally operate on monthly retainers, making them ideal for predictable recurring income.`,
+            `With our white label social media services, agencies can introduce steady revenue streams that improve cash flow and business stability. 
+            This recurring structure also makes revenue forecasting more reliable and sustainable over time.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Reduced Operational Overhead',
+          description: [
+            `Recruitment, onboarding, training, and payroll can significantly impact margins. A white label social media reseller model eliminates these costs while still delivering expert-level execution.`,
+            `Instead of investing in internal infrastructure, agencies can allocate resources toward business development, client acquisition, and strategic growth.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Faster Time to Market',
+          description: [
+            `Building an internal social media department takes time. With white label social media management services already in place, agencies can begin offering solutions almost immediately.`,
+            `This allows you to respond quickly to client demands and capitalize on growth opportunities without delay.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Access to Specialized Expertise',
+          description: [
+            `Social media platforms constantly evolve, from algorithm updates to new ad formats and content trends. Partnering with Adaired, a white label social media marketing agency, gives your clients access to experienced professionals who stay current with industry changes.`,
+            `This ensures campaigns are not only active but strategically aligned with best practices and performance data.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Improved Client Retention',
+          description: [
+            `Clients often prefer working with agencies that offer complete digital marketing solutions under one roof. By integrating white label social media marketing into your services, you reduce the likelihood of clients seeking other providers.`,
+            `A broader service portfolio strengthens long-term relationships and increases overall client lifetime value.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Brand Control & Ownership',
+          description: [
+            `With white label social media management, your agency remains the primary point of contact. All communication, reporting, and branding stay aligned with your identity.`,
+            `We operate behind the scenes, ensuring your brand receives full visibility and recognition for the results delivered.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Operational Simplicity',
+          description: [
+            `Managing multiple clients across platforms can quickly become overwhelming. A structured white label social media platform and fulfillment system simplifies processes, maintains consistency, and ensures quality control.`,
+            `This operational clarity allows agencies to grow without sacrificing service standards.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Profit Margin Flexibility',
+          description: [
+            `As a white label social media reseller, we offer you control over pricing.`,
+            `This flexibility allows you to set margins that align with your business model while delivering competitive social media marketing services to clients.`,
+          ],
+        },
+      ],
+    },
+
+    whatMkeDeferent: {
+      isVisible: true,
+      heading: 'Why Choose Adaired as Your White Label Social Media Partner?',
+      description: [
+        `Selecting the right white label social media agency directly impacts your client satisfaction, service quality, and long-term growth. 
+      When you entrust fulfillment to a partner, reliability, expertise, and alignment with your brand become critical.`,
+        `Agencies choose Adaired because we focus on strengthening your business from behind the scenes, not competing with it.`,
+      ],
+      list: [
+        {
+          img: whatMkWhite_1,
+          name: '1. Dedicated Social Media Specialists',
+          description: [
+            `Our team consists of experienced strategists, content creators, ad managers, and account coordinators who specialize in white label social media management.`,
+            `Each campaign is handled with structured planning and platform-specific expertise to ensure consistent execution across industries.`,
+          ],
+        },
+        {
+          img: whatMkWhite_2,
+          name: '2. Data-Driven Campaign Execution',
+          description: [
+            `Every social media marketing initiative we manage is guided by analytics, performance tracking, and ongoing optimization.`,
+            `Rather than relying on assumptions, we use measurable insights to refine content, targeting, and engagement strategies, ensuring sustainable growth for your clients.`,
+          ],
+        },
+        {
+          img: whatMkWhite_3,
+          name: '3. Structured Communication & Collaboration',
+          description: [
+            `Successful white label social media services depend on clear coordination.`,
+            `Adaired maintains organized workflows, transparent updates, and reliable turnaround times so your agency can confidently manage client relationships without operational friction.`,
+          ],
+        },
+        {
+          img: whatMkWhite_4,
+          name: '4. Focus on Measurable Growth',
+          description: [
+            `Vanity metrics do not define success. 
+            Our white label social media marketing approach emphasizes engagement quality, lead generation potential, brand positioning, and conversion-focused strategies, aligned with your clients’ business objectives.`,
+          ],
+        },
+        {
+          img: whatMkWhite_5,
+          name: '5. Brand Integrity & Confidentiality',
+          description: [
+            `As your white label social media reseller partner, we operate discreetly. 
+            Your brand remains the face of every deliverable, report, and strategic recommendation. Confidentiality and brand consistency are foundational to how we work.
+            Our goal is not to replace your agency but to empower it.`,
+            `By combining strategic execution, reliable systems, and experienced professionals, Adaired enables agencies to deliver high-quality white label social media management at scale without sacrificing control or credibility.`,
+          ],
+        },
+      ],
+    },
+
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '03',
+      bgImg: whiteBookConsultationBg,
+      img: whiteBuildLinkImg,
+      heading: 'Ready to Expand Your Agency?',
+      description: ``,
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `White label social media management offers a structured and scalable way to grow your agency without increasing operational complexity.`,
+        },
+        {
+          desctioption: `By partnering with Adaired, you gain access to experienced social media marketers, reliable fulfillment systems, and a scalable white label social media platform, all operating discreetly under your brand.`,
+        },
+        {
+          desctioption: `You remain the strategic lead. We power the execution behind the scenes.`,
+        },
+        {
+          desctioption: `If you’re ready to strengthen your service offerings and build predictable recurring revenue through white label social media services, now is the time to take the next step.`,
+        },
+      ],
+      button: 'Request a Consultation',
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      title: 'Frequently Asked Questions',
+      description: ``,
+      list: [
+        {
+          title: 'What is white label social media management?',
+          description: `White label social media management allows agencies to offer professional social media marketing services under their own brand while fulfillment is handled by a specialized external partner.
+            This model helps agencies scale without hiring internal teams.`,
+        },
+        {
+          title: 'Can I brand the reports as my own?',
+          description: `Yes. Our white label social media management services support fully branded reporting. Your logo, agency name, and presentation style remain consistent across client-facing documents.`,
+        },
+        {
+          title: 'Do you work directly with my clients?',
+          description: `No. We operate strictly behind the scenes. Communication flows through your agency, ensuring you maintain full ownership of the client relationship.`,
+        },
+        {
+          title: 'Can I set my own pricing?',
+          description: `Absolutely. As a white label social media reseller, we let you control your pricing structure and profit margins. We provide fulfillment; you manage positioning and revenue strategy.`,
+        },
+        {
+          title: 'How quickly can we get started?',
+          description: `After onboarding and alignment on goals, campaigns can typically be structured and launched within a short timeframe, depending on scope and platform requirements.`,
+        },
+      ],
+    },
+
+    needofservice: {
+      isVisible: false,
+      isBgCornerImg: true,
+      heading: 'Why “Near Me” Searches Are More Important Than Ever',
+      data: [
+        {
+          desctioption: `“Near me” searches are no longer based on distance alone.  Although proximity remains key, Google has introduced the use of several signals before local results can be shown.`,
+        },
+        {
+          desctioption: `When the user is searching the service in the area, Google considers how well a business matches the search, and the reputation and reliability that the business holds online.`,
+        },
+      ],
+    },
+
+    serviceResult: {
+      isVisible: false,
+      heading: 'Why Is Local SEO Important for Your Business?',
+      description: [
+        `Local search optimization is necessary when the company is aimed at local consumers. It assists you attract ready-to-convert traffic, gain local visibility and stay ahead of competitors.`,
+      ],
+      isBgColor: false,
+      img: StrugglingImgAISEO,
+      list: [
+        {
+          img: aiseoresult,
+          name: 'Drives High-Intent Local Traffic',
+          description: [
+            `Local SEO makes your company reach the customers, who actively search your services in your area. 
+            These are users who already have intent to purchase, visit, or contact you and hence they are much more valuable than normal traffic. 
+            Your presence in the local searches and in the ‘near me’ searches exposes you to people who are willing to act immediately. `,
+          ],
+        },
+        {
+          img: aiseoresult,
+          name: 'Increases Calls, Visits, and Bookings',
+          description: [
+            `The higher your business is on the local search results, the more customers can easily call, visit, or book your services. 
+            Optimized local listings, accurate business information, and high map visibility will minimize the frustration in the purchasing process, 
+            bring internet searches to the real world and this will have a direct impact on your revenues.`,
+          ],
+        },
+        {
+          img: aiseoresult,
+          name: 'Builds Trust and Credibility',
+          description: [
+            `Placing your brand at the first position in local search engine will instantly make your brand credible. 
+            Customers naturally trust businesses with positive reviews, and those that have correct local listing. 
+            Local SEO will enable your online reputation, make your brand seem trustworthy, and helps customers feel confident choosing you over lesser-known competitors.`,
+          ],
+        },
+        {
+          img: aiseoresult,
+          name: 'Outranks Local Competitors',
+          description: [
+            `The local SEO will make your business visible in a crowded marketplace because it will put you ahead of your competitors in your city. 
+            By targeting location-specific keywords and optimizing your local presence, you capture customer attention first often before they even consider other options, 
+            hence giving you a powerful competitive advantage in your local market.`,
+          ],
+        },
+        {
+          img: aiseoresult,
+          name: 'Delivers Long-Term, Cost-Effective Growth',
+          description: [
+            `Unlike paid advertising, Local SEO delivers sustainable results over time without constant ad spend. 
+            Once your local rankings improve, your business has new qualified leads coming into it automatically. 
+            This would make Local SEO an affordable marketing investment that will contribute to the local market to keep growing steadily, maintain high visibility, and achieve long-term success.`,
+          ],
+        },
+      ],
+    },
+
+    benefitofAiSeo: {
+      isVisible: false,
+      bgColor: 'bg-[#FAFAFA]',
+      textColor: '#000000',
+      textBg: '#EEEEEE',
+      borderColor: '#00000014',
+      heading: 'Benefits of Website Design and Development Services',
+      description: [
+        `A business’s success is closely tied to the quality of its website. A professional web site can determine whether a visitor becomes a loyal customer or leaves for a competitor. Here are the key benefits:`,
+      ],
+      list: [
+        {
+          name: 'Creates a Strong First Impression',
+          description: [
+            `The potential customers often get in touch with you through your site. The first impression that a properly developed site leaves is positive and credible. 
+            The use of professional images, well-designed layouts, and navigation facilitate the development of trust within seconds after a visitor visits your site.`,
+          ],
+        },
+        {
+          name: 'Enhances User Experience',
+          description: [
+            `Effective website design is rooted in user experience. A visitor will find it easier to do business with a site that has easy navigation, attractive design, and is responsive to all devices. 
+            A well-organized site will ensure the users have an easy time navigating their way to heighten satisfaction and interest.`,
+          ],
+        },
+        {
+          name: 'Builds Trust and Credibility',
+          description: [
+            `Good website design is associated with the credibility and professionalism of a business. 
+            Features such as fast loading speeds, secure connections, consistent performance, and clear messaging reassure users that the company is reliable, established, and customer-focused.`,
+          ],
+        },
+        {
+          name: 'Improves Conversion Rates and ROI',
+          description: [
+            `A well-planned website is your effective conversion tool. 
+            An efficient design, simple calls to action, and information-driven design components motivate the visitor to make a substantial move like purchasing a product, joining a mailing list, or leaving an enquiry which will lead to an increase in the profit margin.`,
+          ],
+        },
+        {
+          name: 'Helps You Stand Out in a Competitive Market',
+          description: [
+            `The world of the Internet is very busy nowadays, so a generic site is not sufficient. 
+            A tailored site featuring unique images, effective branding, and engagement is useful to businesses to stand out, enhance their online presence, and create an impression.`,
+          ],
+        },
+      ],
+    },
+
+    whatMissing: {
+      isVisible: false,
+      heading: 'What Are Local SEO Ranking Factors?',
+      description: [
+        `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
+        Google now relies on three primary ranking factors to determine local visibility: Relevance, Distance, and Prominence.`,
+        `Together these factors assist Google in presenting the most accurate, trustworthy, and helpful local businesses to its users during their search.`,
+      ],
+      list: [
+        {
+          icon: missing_1,
+          title: 'Relevance',
+          description: [
+            `Relevance takes into consideration the similarity of your business with what the user wants to search. 
+            Google considers your business details, web content, service descriptions, categories and keywords to find out whether your business fits in the intention of the user.`,
+            `Clear, accurate, and well-optimized content improves relevance and increases the likelihood of appearing for the right local searches.`,
+          ],
+        },
+        {
+          icon: missing_2,
+          title: 'Distance',
+          description: [
+            `Distance measures how close your business is to the searcher or to the location specified in the search. 
+            You cannot control the location of the user, but you can make sure that your address, service areas and location information is correct and showing the same points on the web.`,
+            `Good relevance and high profile may enable the businesses to appear high even when the business is not the nearest.`,
+          ],
+        },
+        {
+          icon: missing_3,
+          title: 'Prominence',
+          description: [
+            `Prominence reflects how well-known and trusted your business is online. 
+            Google evaluates the signals including customer reviews, rating, local citation, and back links, mention of the brand and general online presence.`,
+            `Companies that enjoy a high degree of authority and good reputation are more likely to feature on top search results in the local search engine.`,
+          ],
+        },
+      ],
+    },
+
+    whatIncluded: {
+      isVisible: false,
+      isVariant: '02',
+      heading: 'List Of Website Design and Development Services We Offer',
+      description: ``,
+      list: [
+        {
+          icon: WhatIncluded1,
+          title: 'WordPress Development',
+          description: [
+            `At Adaired, we provide powerful WordPress development services that are expected to take your digital presence to the next level. Our team breaks creative and technical limits to design and develop robust, high-performance, and SEO-optimized WordPress solutions.`,
+            `From custom WordPress theme development and plugin customization to speed optimization, SEO implementation, and seamless third-party integrations, we deliver the end-to-end WordPress solutions to match the requirements of your business.`,
+          ],
+          linkText: 'Get Your Free Website Audit',
+          linkHref: '#',
+        },
+
+        {
+          icon: WhatIncluded2,
+          title: 'Shopify Development',
+          description: [
+            `Our online store development services can assist you in achieving the maximum for your online store, starting with consultation and design, development, deployment, and migration.`,
+            `Being a successful Shopify development service partner, we provide high-performing, scalable, and tailored solutions that help shops perform better, increase their security, and build positive shopping experiences. You can count on us to increase your eCommerce business in a measurably meaningful way, whether you are opening another store or refining an already existing one.`,
+          ],
+          linkText: 'Get Your Free Website Audit',
+          linkHref: '#',
+        },
+
+        {
+          icon: WhatIncluded3,
+          title: 'eCommerce Development',
+          description: [
+            `Our 360 eCommerce solutions are all-inclusive and applicable to businesses of any size and sector. Our website development experts create eCommerce online websites that are intuitive, user-friendly, and designed to align with your brand name and profitability.`,
+            `We develop custom experiences using recent technologies and the best practices in the industry and enhance customer engagement, conversion, and business expansion.`,
+          ],
+          linkText: 'Get Your Free Website Audit',
+          linkHref: '#',
+        },
+
+        {
+          icon: WhatIncluded4,
+          title: 'Custom Web Development',
+          description: [
+            `Our dedicated professionals offer web development services designed to be flexible, secure, and scalable with the development of your business. We develop feature-rich, high-performance websites to suit your specific needs, achieve maximum functionality, smooth user interfaces, and achieve scalability in the future.`,
+            `All solutions that we develop are designed to help your business achieve its goals and bring long-term value.`,
+          ],
+          linkText: 'Get Your Free Website Audit',
+          linkHref: '#',
+        },
+      ],
+    },
+
+    industryLeaders: {
+      isVisible: false,
+      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      description:
+        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      bgImage: leadingToolsImg,
+    },
+
+    leadingToolsForPerformence: {
+      isVisible: false,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+
+    notSeeingResult: {
+      isVisible: false,
+      heading: `Still unsure about investing in local SEO? You shouldn’t be.`,
+      description: '',
+      buttonName: 'Book a call with a local SEO expert!',
+      img: LocalNotSee,
+      bgImage: LocalNotSeeBg,
+    },
+
+    leadingTools: {
+      isVisible: false,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
     },
 
     getplan: {
@@ -3000,61 +3973,6 @@ brand appears in AI summaries and citations.`,
       bgImage: stop_struggle2,
       title: 'Stop Guessing Start Acting ',
       description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
-    },
-
-    faqData: {
-      isVisible: true,
-      subtitle: 'FAQ',
-      title: 'Frequently Asked Questions on Authority Link Building Services',
-      description: ``,
-      list: [
-        {
-          title: 'How long does it take to design and develop a website?',
-          description: `The timeline depends on the size, complexity, and features of your website. An average business website can be created in 3-5 weeks and more complex web applications can require 8-12 weeks or longer. 
-            We provide a clear timeline after understanding your requirements.`,
-        },
-        {
-          title: 'How much does a website design and development project cost?',
-          description: `The expenses of websites differ depending on the complexity of the design, functionality, integrations, and the platform used. 
-            Our prices are flexible and we also have custom quotes so that you do not pay more than what your business requires.`,
-        },
-        {
-          title: 'Will my website be mobile-friendly and responsive?',
-          description: `Yes. Our websites are all responsive and tablet/mobile device friendly so that the user has a seamless user experience in all sizes of screens.`,
-        },
-        {
-          title: 'Can you redesign my existing website?',
-          description: `Absolutely. 
-            We also do site redesign and revamp of websites to make it more beautiful, fast, easy to use, and optimized without destroying brand name or the content that you already have.`,
-        },
-        {
-          title: 'Do you build SEO-friendly websites?',
-          description: `Yes. We follow the best SEO practices during the design and development process such as clean code, fast loading speed, mobile optimization, structure and on-page SEO fundamentals to help improve search engine visibility.`,
-        },
-        {
-          title: 'Which platforms and technologies do you work with?',
-          description: `We work with leading platforms such as like WordPress, Shopify, and custom tech stacks. 
-            Depending on your business objectives and scalability requirements and budget, our team will choose the most appropriate technology.`,
-        },
-        {
-          title: 'Will I be able to manage and update my website myself?',
-          description: `Yes. Our content management systems are user friendly and enable you to update text, images, products and pages with ease. Training or documentation is also possible with us.`,
-        },
-        {
-          title: 'Do you offer eCommerce website development?',
-          description: `Yes. Our services include the design and development of secure and scaled eCommerce websites with the features like product management, payment gateway integration, inventory tracking and easy checkout experiences.`,
-        },
-        {
-          title: 'What if I need changes during the development process?',
-          description: `We follow a collaborative approach and welcome feedback at every stage. 
-            Our development services accommodate reasonable changes that will make the end product just as you desire.`,
-        },
-        {
-          title: 'Do you provide website maintenance and support after launch?',
-          description:
-            'Yes. We offer ongoing maintenance, performance optimization, and security updates, and technical support to ensure the smooth running of your website and keep it up to date.',
-        },
-      ],
     },
   },
 };
