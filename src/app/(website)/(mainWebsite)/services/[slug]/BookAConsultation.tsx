@@ -6,7 +6,7 @@ import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
-import Mask from '../../../../../../public/assets/whitelabel/MaskDots.png';
+import Mask from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/MaskDots.png';
 
 const BookAConsultation = ({ buildlinks }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
@@ -18,18 +18,17 @@ const BookAConsultation = ({ buildlinks }: any) => {
         //   className={`${buildlinks?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8]'} py-[3rem] lg:py-[2rem]`}
         // >
         <div
-          className={`py-[3rem] lg:py-[2rem] ${
-            buildlinks?.bgImg
+          className={`py-[3rem] lg:py-[2rem] ${buildlinks?.bgImg
               ? ''
               : buildlinks?.isBgWhite
                 ? 'bg-gradient-to-b from-black to-[#051C40]'
                 : 'bg-[#FFFCF8]'
-          }`}
+            }`}
           style={
             buildlinks?.bgImg
               ? {
-                  backgroundImage: `url(${buildlinks.bgImg?.src})`,
-                }
+                backgroundImage: `url(${buildlinks.bgImg?.src})`,
+              }
               : {}
           }
         >
@@ -110,7 +109,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
                     <p
                       className={`py-3 ${buildlinks?.isBgWhite && 'text-[#FFFFFF]'} `}
                     >
-                      {item?.desctioption}
+                      {item?.description}
                     </p>
                   );
                 })}
@@ -148,7 +147,11 @@ const BookAConsultation = ({ buildlinks }: any) => {
           className={`py-[3rem] lg:py-[4rem]`}
           style={{
             backgroundImage: `url(${buildlinks?.bgImg?.src})`,
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
           }}
+
         >
           <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2">
             <div
@@ -184,13 +187,12 @@ const BookAConsultation = ({ buildlinks }: any) => {
               ref={ref}
               className={`group order-1 flex justify-center justify-items-center p-10 transition-all duration-1000 lg:order-2 lg:justify-end lg:justify-items-end ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'} ${buildlinks?.isCode02 ? 'items-end' : 'items-center'}`}
             >
-              <div className="relative mx-auto mt-[6rem] flex-1 md:mt-[6rem] lg:mt-0">
+              <div className="relative mx-auto flex-1">
                 <div
-                  className={`mx-[1rem] my-[1rem] flex items-center justify-center transition-all duration-1000 md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem] ${
-                    isVisible
+                  className={`mx-[1rem] my-[1rem] flex items-center justify-center transition-all duration-1000 md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem] ${isVisible
                       ? 'translate-x-0 opacity-100'
                       : '-translate-x-16 opacity-0'
-                  }`}
+                    }`}
                 >
                   <Image
                     src={buildlinks?.img}

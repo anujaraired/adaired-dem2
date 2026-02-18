@@ -208,7 +208,7 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
                       <div className="flex flex-col items-center lg:flex-row lg:items-start lg:justify-between">
                         <div className="flex flex-col items-center gap-3 lg:flex-row">
                           <Image
-                            src={groth2}
+                            src={item?.img}
                             width={32}
                             height={32}
                             alt="icon"

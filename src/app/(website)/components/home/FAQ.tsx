@@ -8,6 +8,7 @@ import { GrFormSubtract } from 'react-icons/gr';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import { TbPointFilled } from 'react-icons/tb';
 import SaveAndCancel from '../../common/SaveAndCancel';
+import SimpleButton from '../../common/SimpleButton/page';
 
 const FAQ = ({ faqs }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
@@ -109,7 +110,7 @@ const FAQ = ({ faqs }: any) => {
           {/* Load More Button */}
           {faqs?.list?.length > 5 && (
             <div className="flex justify-center">
-              <SaveAndCancel
+              <SimpleButton
                 name={
                   faqs?.list?.length > visibleCount ? 'See More' : 'See Less'
                 }
