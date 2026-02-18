@@ -384,37 +384,8 @@ export const SERVICES_DATA = {
     },
     benefitofAiSeo: {
       isVisible: false,
-      heading: 'Why is SEO Important to Your Business?',
+      heading: '',
       list: [
-        {
-          name: 'Increases Online Visibility',
-          description: [
-            `SEO helps businesses in enhancing their visibility in the search engines by ranking higher on the keywords that are relevant. 
-            A site that ranks on the first page of a search engine would be more visible to users actively looking for related products or services. 
-            This increased exposure translates to a larger audience for businesses and competitiveness on the internet.`,
-          ],
-        },
-        {
-          name: 'Attracts Targeted Traffic',
-          description: [
-            `SEO  focuses on optimizing content in terms of particular search results that satisfy user intent. This attracts visitors who are actually interested in the business services, rather than random traffic. 
-            Targeted visitors are more likely to engage with the website, browse, spend time exploring pages, and take meaningful actions such as inquiries or purchases. `,
-          ],
-        },
-        {
-          name: 'Builds Credibility and Trust',
-          description: [
-            `Search engines tend to rank websites with valuable, relevant, and reliable content. When a business is always ranked as one of the leading search results, consumers tend to view it as reliable and well-authoritative. 
-            SEO also enhances the quality of websites, usability, and accuracy of the content, all of which contribute to building long-term trust with users.`,
-          ],
-        },
-        {
-          name: 'Supports Long-Term Growth',
-          description: [
-            `Unlike paid advertising, SEO delivers ongoing results over time. When a website is optimized correctly, it can continue to attract organic traffic without continuous ad spending. 
-            This makes SEO a cost-effective strategy that enables gradual expansion, enhances online recognition, and helps businesses adapt to changing digital trends. `,
-          ],
-        },
       ],
     },
     whyAdaired: {
@@ -974,7 +945,7 @@ export const SERVICES_DATA = {
     },
     importantToBussiness: {
       isVisible: false,
-      heading: 'Why is SEO Important to Your Business?',
+      heading: '',
       buttonName: '',
       data: [],
     },
@@ -1572,7 +1543,7 @@ brand appears in AI summaries and citations.`,
 
     importantToBussiness: {
       isVisible: true,
-      heading: 'Why is SEO Important to Your Business?',
+      heading: '',
       buttonName: '',
       data: [],
     },
@@ -2164,7 +2135,7 @@ brand appears in AI summaries and citations.`,
 
     importantToBussiness: {
       isVisible: true,
-      heading: 'Why is SEO Important to Your Business?',
+      heading: '',
       buttonName: '',
       data: [],
     },
@@ -4982,13 +4953,21 @@ brand appears in AI summaries and citations.`,
       'leadingTools',
       'getplan',
     ] satisfies SectionKey[],
-
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/seo-company-india',
+      },
+    },
     banner: {
       code: '08',
       isCenter: false,
       isVisible: true,
       heading: 'Built for Growing Agencies',
-      subheading: 'No in-house hiring. No brand dilution. Just reliable execution when demand grows.',
+      subheading:
+        'No in-house hiring. No brand dilution. Just reliable execution when demand grows.',
       subtitle: '',
       label: 'White-Label Services',
       desc: [
@@ -5664,7 +5643,7 @@ brand appears in AI summaries and citations.`,
       ],
     },
 
-     getsCredit: {
+    getsCredit: {
       isVisible: false,
       code: '01',
       heading: 'You Sell. We Execute. Your Brand Gets the Credit.',
