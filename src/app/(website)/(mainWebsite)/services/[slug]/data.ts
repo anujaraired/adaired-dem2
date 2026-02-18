@@ -354,11 +354,10 @@ export const SERVICES_DATA = {
     needofservice: {
       isVisible: false,
       heading: '',
-      data: [
-      ],
+      data: [],
     },
     benefitofAiSeo: {
-      isVisible: true,
+      isVisible: false,
       heading: 'Why is SEO Important to Your Business?',
       list: [
         {
@@ -584,10 +583,9 @@ export const SERVICES_DATA = {
       bgImage: stop_struggle2,
     },
     industryLeaders: {
-      isVisible: true,
+      isVisible: false,
       heading: '',
-      description:
-        '',
+      description: '',
       bgImage: leadingToolsImg,
     },
     leadingTools: {
@@ -725,12 +723,12 @@ export const SERVICES_DATA = {
       ],
     },
     projectLogos: {
-      isVisible: false,
+      isVisible: true,
       heading: 'Powered By Leading Brands From All Around The World',
       desctioption: `We have worked with some of the leading brands to turn visitors into leads and paying customers.`,
     },
     stopStruggling: {
-      isVisible: false,
+      isVisible: true,
       subtitle: '',
       title: 'Claim Your Free Audit Before Competitors Do!',
       description: [
@@ -740,7 +738,7 @@ export const SERVICES_DATA = {
       bgImg: stop_struggle2,
     },
     getplan: {
-      isVisible: false,
+      isVisible: true,
       subtitle: 'Boost Traffic Today',
       isLabel: true,
       title:
@@ -748,7 +746,7 @@ export const SERVICES_DATA = {
       description: `Our proven SEO strategies put your website in front of people who are ready to buy.`,
     },
     faqData: {
-      isVisible: false,
+      isVisible: true,
       subtitle: 'FAQ',
       title: 'Frequently Asked Questions and Their Answers',
       description: ``,
@@ -3337,8 +3335,7 @@ brand appears in AI summaries and citations.`,
       isVariant: '01',
       img: BeautifulDesign,
       heading: '',
-      description:
-        '',
+      description: '',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [
