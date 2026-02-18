@@ -376,6 +376,118 @@ const KeyStats = ({ keyStats }: any) => {
             </div>
           </div>
         )}
+        {keyStats?.code === '07' && (
+          <div
+            className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+          >
+            <Heading
+              // breakIndex={6}
+              isBgWhite={true}
+              isInCenter={true}
+              subTitle={''}
+              title={keyStats?.heading}
+            />
+
+            <div className="relative grid grid-cols-1 gap-[1rem] lg:grid-cols-2 lg:gap-[4rem]">
+              <div className="rounded-[20px]">
+                {keyStats?.list?.map((item: any, index: any) => (
+                  <div
+                    key={index}
+                    onMouseEnter={() => setActiveTab(index)}
+                    onMouseLeave={() => setActiveTab(0)}
+                    className={`relative flex w-[100%] flex-col px-[2rem] py-[2rem] transition-all duration-300 ease-in-out ${activeTab === index ? 'bg-[#FDE0BA]/50 text-white' : 'bg-[#F5F5F5]/50 text-black'}`}
+                  >
+                    <div
+                      className={`flex items-start gap-8 transition-all duration-700 ease-in-out lg:items-center lg:gap-16 lg:text-left`}
+                      style={{
+                        transitionDelay: `${index * 280}ms`,
+                      }}
+                    >
+                      <h2 className="transition-all duration-300 ease-in-out">
+                        {`0${index + 1}`}
+                      </h2>
+
+                      <p
+                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${activeTab === index ? 'font-semibold' : ''
+                          }`}
+                      >
+                        {item.desctioption}
+                      </p>
+                    </div>
+                    {activeTab === index && (
+                      <div className="absolute right-0 top-0 h-full w-2 rounded-r-[1rem] bg-[#FB9100]"></div>
+                    )}
+                  </div>
+                ))}
+              </div>
+
+              <div className="relative flex items-center justify-center rounded-[20px] bg-[#FFD79F]/30">
+                <Image
+                  src={keyStats?.img}
+                  fill
+                  alt="img"
+                  className={`object-fill transition-opacity transition-transform duration-700 ease-in-out group-hover:scale-110`}
+                />
+              </div>
+            </div>
+          </div>
+        )}
+        {keyStats?.code === '08' && (
+          <div
+            className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+          >
+            <Heading
+              // breakIndex={6}
+              isBgWhite={true}
+              isInCenter={true}
+              subTitle={''}
+              title={keyStats?.heading}
+            />
+
+            <div className="relative grid grid-cols-1 gap-[1rem] lg:grid-cols-2 lg:gap-[4rem]">
+              <div className="rounded-[20px]">
+                {keyStats?.list?.map((item: any, index: any) => (
+                  <div
+                    key={index}
+                    onMouseEnter={() => setActiveTab(index)}
+                    onMouseLeave={() => setActiveTab(0)}
+                    className={`relative flex w-[100%] flex-col px-[2rem] py-[2rem] transition-all duration-300 ease-in-out ${activeTab === index ? 'bg-[#FB9100]/10 text-white' : 'bg-[#F5F5F5] text-black'}`}
+                  >
+                    <div
+                      className={`flex items-start gap-8 transition-all duration-700 ease-in-out lg:items-center lg:gap-16 lg:text-left`}
+                      style={{
+                        transitionDelay: `${index * 280}ms`,
+                      }}
+                    >
+                      <h2 className="transition-all duration-300 ease-in-out">
+                        {`0${index + 1}`}
+                      </h2>
+
+                      <p
+                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${activeTab === index ? 'font-semibold' : ''
+                          }`}
+                      >
+                        {item.desctioption}
+                      </p>
+                    </div>
+                    {activeTab === index && (
+                      <div className="absolute right-0 top-0 h-full w-2 rounded-r-[1rem] bg-[#FB9100]"></div>
+                    )}
+                  </div>
+                ))}
+              </div>
+
+              <div className="relative flex items-center justify-center rounded-[20px]">
+                <Image
+                  src={keyStats?.img}
+                  fill
+                  alt="img"
+                  className={`object-fill transition-opacity transition-transform duration-700 ease-in-out group-hover:scale-110`}
+                />
+              </div>
+            </div>
+          </div>
+        )}
       </MaxWidthWrapper>
     </div>
   );
