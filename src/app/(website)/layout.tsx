@@ -40,8 +40,7 @@ export default function DefaulWebsitetLayout({
     <ReactLenis
       root
       options={{
-        smooth: true,
-        lerp: 0.08,
+        lerp: 0.08, // controls smoothness
       }}
     >
       <div className="relative">
@@ -64,4 +63,5 @@ export default function DefaulWebsitetLayout({
     </ReactLenis>
   );
 }
+
 
