@@ -398,7 +398,7 @@ const KeyStats = ({ keyStats }: any) => {
                     className={`relative flex w-[100%] flex-col px-[2rem] py-[2rem] transition-all duration-300 ease-in-out ${activeTab === index ? 'bg-[#FDE0BA]/50 text-white' : 'bg-[#F5F5F5]/50 text-black'}`}
                   >
                     <div
-                      className={`flex items-start gap-8 transition-all duration-700 ease-in-out lg:items-center lg:gap-16 lg:text-left`}
+                      className={`flex w-full lg:w-[95%] items-start gap-8 transition-all duration-700 ease-in-out lg:items-center lg:gap-16 lg:text-left`}
                       style={{
                         transitionDelay: `${index * 280}ms`,
                       }}
