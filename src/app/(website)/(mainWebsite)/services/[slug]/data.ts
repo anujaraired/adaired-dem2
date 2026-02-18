@@ -67,6 +67,7 @@ import StrugglingImgAISEO from '../../../../../../public/assets/aiseo/AISEORESUL
 
 import adaairedHelpSEO from '../../../../../../public/assets/images/adaairedHelp.png';
 import adairedHelpAISEO from '../../../../../../public/assets/aiseo/adairedHelp.png';
+import AdairedHelpSocial from '../../../../../../public/assets/images/AdairedHelpSocial.png';
 import missing_1 from '../../../../../../public/assets/images/missing_1.png';
 import missing_2 from '../../../../../../public/assets/images/missing_2.png';
 import missing_3 from '../../../../../../public/assets/images/missing_3.png';
@@ -321,6 +322,32 @@ export const SERVICES_DATA = {
         },
       ],
     },
+
+    areYouTired: {
+      isVisible: false,
+      isVariant: '01',
+      heading: 'Are you tired of link building that hurts more than it helps?',
+      data: [
+        {
+          desctioption: ``,
+          list: [
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+          ]
+        },
+      ],
+    },
+
     whatareservice: {
       isVisible: true,
       isVariant: '01',
@@ -342,6 +369,8 @@ export const SERVICES_DATA = {
       ],
     },
     importantToBussiness: {
+      isVariant: '01',
+      breakIndex: 4,
       isVisible: true,
       heading: 'Why is SEO Important to Your Business?',
       buttonName: '',
@@ -388,37 +417,8 @@ export const SERVICES_DATA = {
     },
     benefitofAiSeo: {
       isVisible: false,
-      heading: 'Why is SEO Important to Your Business?',
+      heading: '',
       list: [
-        {
-          name: 'Increases Online Visibility',
-          description: [
-            `SEO helps businesses in enhancing their visibility in the search engines by ranking higher on the keywords that are relevant. 
-            A site that ranks on the first page of a search engine would be more visible to users actively looking for related products or services. 
-            This increased exposure translates to a larger audience for businesses and competitiveness on the internet.`,
-          ],
-        },
-        {
-          name: 'Attracts Targeted Traffic',
-          description: [
-            `SEO  focuses on optimizing content in terms of particular search results that satisfy user intent. This attracts visitors who are actually interested in the business services, rather than random traffic. 
-            Targeted visitors are more likely to engage with the website, browse, spend time exploring pages, and take meaningful actions such as inquiries or purchases. `,
-          ],
-        },
-        {
-          name: 'Builds Credibility and Trust',
-          description: [
-            `Search engines tend to rank websites with valuable, relevant, and reliable content. When a business is always ranked as one of the leading search results, consumers tend to view it as reliable and well-authoritative. 
-            SEO also enhances the quality of websites, usability, and accuracy of the content, all of which contribute to building long-term trust with users.`,
-          ],
-        },
-        {
-          name: 'Supports Long-Term Growth',
-          description: [
-            `Unlike paid advertising, SEO delivers ongoing results over time. When a website is optimized correctly, it can continue to attract organic traffic without continuous ad spending. 
-            This makes SEO a cost-effective strategy that enables gradual expansion, enhances online recognition, and helps businesses adapt to changing digital trends. `,
-          ],
-        },
       ],
     },
     whyAdaired: {
@@ -959,6 +959,32 @@ export const SERVICES_DATA = {
         },
       ],
     },
+
+    areYouTired: {
+      isVisible: false,
+      isVariant: '01',
+      heading: 'Are you tired of link building that hurts more than it helps?',
+      data: [
+        {
+          desctioption: ``,
+          list: [
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+          ]
+        },
+      ],
+    },
+
     whatareservice: {
       isVisible: true,
       isVariant: '01',
@@ -977,8 +1003,10 @@ export const SERVICES_DATA = {
       ],
     },
     importantToBussiness: {
+      isVariant: '01',
+      breakIndex: 4,
       isVisible: false,
-      heading: 'Why is SEO Important to Your Business?',
+      heading: '',
       buttonName: '',
       data: [],
     },
@@ -1555,6 +1583,49 @@ brand appears in AI summaries and citations.`,
         },
       ],
     },
+
+    areYouTired: {
+      isVisible: true,
+      isVariant: '01',
+      heading: 'Are you tired of link building that hurts more than it helps?',
+      data: [
+        {
+          desctioption: `If you have experienced:-`,
+          list: [
+            {
+              description: `Low-quality outsourced links`,
+            },
+            {
+              description: `Spammy guest posts farms`,
+            },
+            {
+              description: `Zero ranking Fake Editorial`,
+            },
+            {
+              description: `PBNs that get penalized`,
+            },
+          ]
+        },
+        {
+          desctioption: `Adaired is here to help you get:-`,
+          list: [
+            {
+              description: `Real editorial placement on real websites `,
+            },
+            {
+              description: `100% white-hat & Google Safe`,
+            },
+            {
+              description: `Relevant high-quality backlinks that suit your niche`,
+            },
+            {
+              description: `Fully Transparent tracking & Reporting `,
+            },
+          ]
+        },
+      ],
+    },
+
     whatareservice: {
       isVisible: true,
       isVariant: '03',
@@ -1576,8 +1647,9 @@ brand appears in AI summaries and citations.`,
 
     importantToBussiness: {
       isVisible: true,
-      heading: 'Why is SEO Important to Your Business?',
+      heading: '',
       buttonName: '',
+      breakIndex: 4,
       data: [],
     },
 
@@ -2145,6 +2217,31 @@ brand appears in AI summaries and citations.`,
       ],
     },
 
+    areYouTired: {
+      isVisible: false,
+      isVariant: '01',
+      heading: 'Are you tired of link building that hurts more than it helps?',
+      data: [
+        {
+          desctioption: ``,
+          list: [
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+          ]
+        },
+      ],
+    },
+
     whatareservice: {
       isVisible: true,
       isVariant: '02',
@@ -2168,8 +2265,9 @@ brand appears in AI summaries and citations.`,
 
     importantToBussiness: {
       isVisible: true,
-      heading: 'Why is SEO Important to Your Business?',
+      heading: '',
       buttonName: '',
+      breakIndex: 4,
       data: [],
     },
 
@@ -2730,6 +2828,31 @@ brand appears in AI summaries and citations.`,
       ],
     },
 
+    areYouTired: {
+      isVisible: false,
+      isVariant: '01',
+      heading: 'Are you tired of link building that hurts more than it helps?',
+      data: [
+        {
+          desctioption: ``,
+          list: [
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+          ]
+        },
+      ],
+    },
+
     whatareservice: {
       isVisible: true,
       isVariant: '04',
@@ -2907,6 +3030,8 @@ brand appears in AI summaries and citations.`,
     },
 
     importantToBussiness: {
+      isVariant: '01',
+      breakIndex: 4,
       isVisible: true,
       heading: 'Local SEO Services Designed to Grow Your Business',
       buttonName: 'Get Your Free Local SEO Audit',
@@ -3403,6 +3528,7 @@ brand appears in AI summaries and citations.`,
       'needofservice',
       'notSeeingResult',
       'importantToBussiness',
+      'areYouTired',
       'whatIncluded',
       'stopStruggling',
       'ourProcess',
@@ -3516,6 +3642,8 @@ brand appears in AI summaries and citations.`,
     },
 
     importantToBussiness: {
+      breakIndex: 4,
+      isVariant: '02',
       isVisible: true,
       heading: 'Our White Label Social Media Services',
       description: [
@@ -3575,6 +3703,38 @@ brand appears in AI summaries and citations.`,
             `These reports highlight growth, engagement, and campaign impact, reinforcing your authority with clients.`,
           ],
           button: 'Request a Consultation',
+        },
+      ],
+    },
+
+    areYouTired: {
+      isVisible: true,
+      isVariant: '02',
+      heading: 'Who Our White Label Social Media Solutions Are For',
+      description: 'Our white label social media marketing solutions are built specifically for\n  agencies and consultants looking to scale.',
+      data: [
+        {
+          desctioption: `We commonly partner with:`,
+          list: [
+            {
+              description: `Digital marketing agencies`,
+            },
+            {
+              description: `SEO agencies`,
+            },
+            {
+              description: `Web design and development firms`,
+            },
+            {
+              description: `PPC and performance marketing agencies`,
+            },
+            {
+              description: `Branding and creative agencies`,
+            },
+            {
+              description: `Marketing consultants`,
+            },
+          ]
         },
       ],
     },
@@ -3640,7 +3800,7 @@ brand appears in AI summaries and citations.`,
 
     adairedHelp: {
       isVisible: true,
-      img: adaairedHelpSEO,
+      img: AdairedHelpSocial,
       heading: 'Benefits of Partnering With a White Label Social Media Agency',
       description: `Here’s how a structured white label social media partnership with Adaired supports long-term agency growth:`,
       mainImage: adairedHelpImg,
@@ -3649,9 +3809,9 @@ brand appears in AI summaries and citations.`,
           img: '',
           name: 'Scalable Service Expansion',
           description: [
-            `Adding social media marketing to your offerings typically requires hiring strategists, designers, copywriters, and ad specialists.`,
-            `A white label social media management model removes that barrier. 
-            You can immediately expand your service lineup and confidently pitch comprehensive social media marketing solutions to both new and existing clients, without building a full in-house team.`,
+            `Adding social media marketing to your offerings typically requires hiring strategists, designers, copywriters, and ad specialists.
+            A white label social media management model removes that barrier.`,
+            `You can immediately expand your service lineup and confidently pitch comprehensive social media marketing solutions to both new and existing clients, without building a full in-house team.`,
           ],
         },
         {
@@ -4092,6 +4252,7 @@ brand appears in AI summaries and citations.`,
       'banner',
       'getsCredit',
       'keyStats',
+      'areYouTired',
       'whatareservice',
       'needofservice',
       'dataInTable',
@@ -4379,6 +4540,8 @@ brand appears in AI summaries and citations.`,
     },
 
     importantToBussiness: {
+      isVariant: '01',
+      breakIndex: 4,
       isVisible: true,
       heading: 'What Will Our White Label SEO Services Cover?',
       description: [
@@ -4711,6 +4874,31 @@ brand appears in AI summaries and citations.`,
       ],
     },
 
+    areYouTired: {
+      isVisible: false,
+      isVariant: '01',
+      heading: 'Are you tired of link building that hurts more than it helps?',
+      data: [
+        {
+          desctioption: ``,
+          list: [
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+          ]
+        },
+      ],
+    },
+
     adairedHelp: {
       isVisible: false,
       img: adaairedHelpSEO,
@@ -4986,13 +5174,21 @@ brand appears in AI summaries and citations.`,
       'leadingTools',
       'getplan',
     ] satisfies SectionKey[],
-
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/seo-company-india',
+      },
+    },
     banner: {
       code: '08',
       isCenter: false,
       isVisible: true,
       heading: 'Built for Growing Agencies',
-      subheading: 'No in-house hiring. No brand dilution. Just reliable execution when demand grows.',
+      subheading:
+        'No in-house hiring. No brand dilution. Just reliable execution when demand grows.',
       subtitle: '',
       label: 'White-Label Services',
       desc: [

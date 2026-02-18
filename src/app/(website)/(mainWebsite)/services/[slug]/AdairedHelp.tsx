@@ -7,7 +7,7 @@ import adairedHelpImg from '../../../../../../public/assets/aiseo/adairedHelp.pn
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const AdairedHelp = ({ adairedHelp }: any) => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.1);
 
   return (
     <div className="py-[3rem] lg:py-[4rem]">
