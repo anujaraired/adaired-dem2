@@ -110,7 +110,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
                     <p
                       className={`py-3 ${buildlinks?.isBgWhite && 'text-[#FFFFFF]'} `}
                     >
-                      {item?.desctioption}
+                      {item?.description}
                     </p>
                   );
                 })}
