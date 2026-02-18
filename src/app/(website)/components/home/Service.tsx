@@ -252,7 +252,7 @@ const Service = () => {
                               style={{
                                 transitionDelay: `${i * 280}ms`, // 👈 stagger delay
                               }}
-                              className={`relative transition-all delay-300 duration-1000 lg:h-[7.8rem] xl:h-[9rem] ${
+                              className={`relative transition-opacity transition-transform duration-700 lg:h-[7.8rem] xl:h-[9rem] ${
                                 isVisible
                                   ? 'translate-y-0 opacity-100'
                                   : 'translate-y-10 opacity-0'
@@ -289,6 +289,8 @@ const Service = () => {
 
                     <div className="flex justify-center md:justify-start">
                       <SaveAndCancel
+                        isBgWhite={true}
+                        isBorder={true}
                         handleClick={() => router.push(link ?? service.link)}
                         name="See Service Details"
                         isIcon
