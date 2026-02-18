@@ -122,7 +122,7 @@ const NeedOfAdaired = ({ needOfService }: any) => {
                   }`}
                 >
                   <Image
-                    src={imgCorner}
+                    src={needOfService?.img}
                     alt="About Image"
                     width={625}
                     height={470}
@@ -174,7 +174,7 @@ const NeedOfAdaired = ({ needOfService }: any) => {
                   }`}
                 >
                   <Image
-                    src={imgCorner}
+                    src={needOfService?.img}
                     alt="About Image"
                     width={625}
                     height={470}
