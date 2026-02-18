@@ -67,6 +67,7 @@ import StrugglingImgAISEO from '../../../../../../public/assets/aiseo/AISEORESUL
 
 import adaairedHelpSEO from '../../../../../../public/assets/images/adaairedHelp.png';
 import adairedHelpAISEO from '../../../../../../public/assets/aiseo/adairedHelp.png';
+import AdairedHelpSocial from '../../../../../../public/assets/images/AdairedHelpSocial.png';
 import missing_1 from '../../../../../../public/assets/images/missing_1.png';
 import missing_2 from '../../../../../../public/assets/images/missing_2.png';
 import missing_3 from '../../../../../../public/assets/images/missing_3.png';
@@ -338,6 +339,7 @@ export const SERVICES_DATA = {
       ],
     },
     importantToBussiness: {
+      isVariant: '01',
       isVisible: true,
       heading: 'Why is SEO Important to Your Business?',
       buttonName: '',
@@ -1007,6 +1009,7 @@ export const SERVICES_DATA = {
       ],
     },
     importantToBussiness: {
+      isVariant: '01',
       isVisible: false,
       heading: 'Why is SEO Important to Your Business?',
       buttonName: '',
@@ -3025,6 +3028,7 @@ brand appears in AI summaries and citations.`,
     },
 
     importantToBussiness: {
+      isVariant: '01',
       isVisible: true,
       heading: 'Local SEO Services Designed to Grow Your Business',
       buttonName: 'Get Your Free Local SEO Audit',
@@ -3637,6 +3641,7 @@ brand appears in AI summaries and citations.`,
     },
 
     importantToBussiness: {
+      isVariant: '02',
       isVisible: true,
       heading: 'Our White Label Social Media Services',
       description: [
@@ -3704,7 +3709,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '02',
       heading: 'Who Our White Label Social Media Solutions Are For',
-      description: 'Our white label social media marketing solutions are built specifically for agencies and consultants looking to scale.',
+      description: 'Our white label social media marketing solutions are built specifically for\n  agencies and consultants looking to scale.',
       data: [
         {
           desctioption: `We commonly partner with:`,
@@ -3793,7 +3798,7 @@ brand appears in AI summaries and citations.`,
 
     adairedHelp: {
       isVisible: true,
-      img: adaairedHelpSEO,
+      img: AdairedHelpSocial,
       heading: 'Benefits of Partnering With a White Label Social Media Agency',
       description: `Here’s how a structured white label social media partnership with Adaired supports long-term agency growth:`,
       mainImage: adairedHelpImg,
@@ -3802,9 +3807,9 @@ brand appears in AI summaries and citations.`,
           img: '',
           name: 'Scalable Service Expansion',
           description: [
-            `Adding social media marketing to your offerings typically requires hiring strategists, designers, copywriters, and ad specialists.`,
-            `A white label social media management model removes that barrier. 
-            You can immediately expand your service lineup and confidently pitch comprehensive social media marketing solutions to both new and existing clients, without building a full in-house team.`,
+            `Adding social media marketing to your offerings typically requires hiring strategists, designers, copywriters, and ad specialists.
+            A white label social media management model removes that barrier.`,
+            `You can immediately expand your service lineup and confidently pitch comprehensive social media marketing solutions to both new and existing clients, without building a full in-house team.`,
           ],
         },
         {
@@ -4524,6 +4529,7 @@ brand appears in AI summaries and citations.`,
     },
 
     importantToBussiness: {
+      isVariant: '01',
       isVisible: true,
       heading: 'What Will Our White Label SEO Services Cover?',
       description: [
