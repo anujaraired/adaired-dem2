@@ -379,15 +379,8 @@ export const SERVICES_DATA = {
     },
     needofservice: {
       isVisible: false,
-      heading: 'What is the Need Of AI SEO Services?',
-      data: [
-        {
-          desctioption: `The rise of artificial intelligence-powered search tools and large language models has caused the searches to deliver more dynamic, multimodal responses without requiring users click through to websites. This has increased the need for businesses to evolve alongside these LLM and Google AI advancements in order to stay relevant and visible.`,
-        },
-        {
-          desctioption: ` To help you keep pace with the changing market trends, Adaired offers you fully managed generative engine optimization services to enhance your AI visibility in generative search, generate more traffic, and elevate your online presence. `,
-        },
-      ],
+      heading: '',
+      data: [],
     },
     benefitofAiSeo: {
       isVisible: false,
@@ -617,9 +610,8 @@ export const SERVICES_DATA = {
     },
     industryLeaders: {
       isVisible: false,
-      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
-      description:
-        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      heading: '',
+      description: '',
       bgImage: leadingToolsImg,
     },
     leadingTools: {
@@ -2436,14 +2428,13 @@ brand appears in AI summaries and citations.`,
       isVariant: '02',
       img: BeautifulDesign,
       heading: 'Beautiful Design Meets Smart Development.',
-      // span: '2026 and Beyond',
       description:
         'We build websites that captivate users and convert clicks into customers',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [
         {
-          desctioption: `We build websites that captivate users and convert clicks into customers`,
+          description: `We build websites that captivate users and convert clicks into customers`,
         },
       ],
       button: 'Start Your Website Project',
@@ -3375,18 +3366,16 @@ brand appears in AI summaries and citations.`,
       isCode01: true,
       isVariant: '01',
       img: BeautifulDesign,
-      heading: 'Beautiful Design Meets Smart Development.',
-      // span: '2026 and Beyond',
-      description:
-        'We build websites that captivate users and convert clicks into customers',
+      heading: '',
+      description: '',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [
         {
-          desctioption: `We build websites that captivate users and convert clicks into customers`,
+          desctioption: ``,
         },
       ],
-      button: 'Start Your Website Project',
+      button: '',
     },
 
     getplan: {
@@ -4119,7 +4108,14 @@ brand appears in AI summaries and citations.`,
       'leadingTools',
       'getplan',
     ] satisfies SectionKey[],
-
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/seo-company-india',
+      },
+    },
     banner: {
       code: '07',
       isCenter: false,
