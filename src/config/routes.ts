@@ -103,7 +103,7 @@ export const routes: {
       subItems: [
         {
           name: 'Web Design & Development',
-          href: '/services/web-design-and-development-services',
+          href: '/services/web-design-development-company',
           subItems: [
             {
               name: 'WordPress Development',
@@ -293,8 +293,8 @@ export const routes: {
       value: 'White Label',
       href: '/services/white-label-agency-india',
       subItems: [
-        { name: 'White Label SEO', href: '#' },
-        { name: 'White Label Social Media', href: '#' },
+        { name: 'White Label SEO', href: '/services/seo-outsourcing-india' },
+        { name: 'White Label Social Media', href: '/services/social-media-outsourcing-india' },
         { name: 'White Label Paid Ads', href: '#' },
         { name: 'White Label Link Building', href: '#' },
       ],

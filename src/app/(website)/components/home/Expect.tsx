@@ -1,3 +1,4 @@
+"use client";
 import { ExpectSectionData } from '@/@core/data/website/Homepage';
 import MaxWidthWrapper from '../MaxWidthWrapper';
 import Heading from '../../common/Heading';
