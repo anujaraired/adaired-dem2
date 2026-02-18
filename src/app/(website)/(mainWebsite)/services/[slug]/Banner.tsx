@@ -712,13 +712,14 @@ const Banner = ({ banner }: any) => {
                       {/* <p className="py-7 text-center lg:text-left">
                         {banner?.desc}
                       </p> */}
-                      <div className="py-7 text-center lg:text-left">
+
+                      
                         {banner?.desc?.map((item: any, index: number) => (
-                          <p key={index} className="mb-4">
+                          <p key={index} className="pt-7 text-center lg:text-left">
                             {item}
                           </p>
                         ))}
-                      </div>
+                     
 
 
                     </div>
