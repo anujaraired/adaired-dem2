@@ -2410,14 +2410,13 @@ brand appears in AI summaries and citations.`,
       isVariant: '02',
       img: BeautifulDesign,
       heading: 'Beautiful Design Meets Smart Development.',
-      // span: '2026 and Beyond',
       description:
         'We build websites that captivate users and convert clicks into customers',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [
         {
-          desctioption: `We build websites that captivate users and convert clicks into customers`,
+          description: `We build websites that captivate users and convert clicks into customers`,
         },
       ],
       button: 'Start Your Website Project',
@@ -3343,18 +3342,17 @@ brand appears in AI summaries and citations.`,
       isCode01: true,
       isVariant: '01',
       img: BeautifulDesign,
-      heading: 'Beautiful Design Meets Smart Development.',
-      // span: '2026 and Beyond',
+      heading: '',
       description:
-        'We build websites that captivate users and convert clicks into customers',
+        '',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [
         {
-          desctioption: `We build websites that captivate users and convert clicks into customers`,
+          desctioption: ``,
         },
       ],
-      button: 'Start Your Website Project',
+      button: '',
     },
 
     getplan: {

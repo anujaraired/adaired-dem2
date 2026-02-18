@@ -270,11 +270,7 @@ const Heading = ({
                         words.join(' ')
                       )}
 
-                      <span
-                        className={`leading-[clamp(2.5rem, 3.65vw, 4.65rem)] pl-2 text-[clamp(1.8rem,3vw,3.75rem)] font-bold ${spanColor}`}
-                      >
-                        {span}
-                      </span>
+                      <span className={`${spanColor}`}>{span}</span>
                     </h1>
                   ) : (
                     <h2
