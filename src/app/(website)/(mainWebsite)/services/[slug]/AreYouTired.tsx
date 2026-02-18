@@ -81,7 +81,7 @@ const AreYouTired = ({ areYouTired }: any) => {
             )}
 
             {areYouTired?.isVariant === '02' && (
-                <div className='relative py-[3rem] lg:py-[6rem]'>
+                <div className='relative py-[3rem] lg:pt-[4rem] lg:pb-0'>
                     <MaxWidthWrapper className='grid grid-cols-1 lg:grid-cols-2 gap-[2rem]'>
                         <div className=''>
                             {areYouTired.data.map((item: IareYouTiredType, index: number) => (
