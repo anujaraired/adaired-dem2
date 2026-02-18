@@ -5215,7 +5215,8 @@ brand appears in AI summaries and citations.`,
 
     adairedHelp: {
       isVisible: true,
-      img: whiteServicesAdairedHelpImg,
+      img: whiteServicesAdairedHelpImg, 
+      bgColor: '#FFF8F080',
       heading: `Work with Adaired's Agency-First White-Label Model`,
       description: [
         `Our white-label model is designed to reduce execution pressure while providing agencies with 

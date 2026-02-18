@@ -10,7 +10,7 @@ const AdairedHelp = ({ adairedHelp }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
 
   return (
-    <div className="py-[3rem] lg:py-[4rem]">
+    <div className="py-[3rem] lg:py-[4rem]" style={{ backgroundColor: adairedHelp?.bgColor }}>
       <MaxWidthWrapper>
         <div
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
