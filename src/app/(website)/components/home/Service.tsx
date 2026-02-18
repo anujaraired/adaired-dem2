@@ -278,7 +278,7 @@ const Service = () => {
                   <div>
                     <h2
                       onClick={() => router.push(link ?? service.link)}
-                      className="animate-slideUpFade my-2 w-fit cursor-pointer text-center font-bold [animation-delay:120ms] hover:text-[#FB9100] lg:my-4 lg:text-left"
+                      className="animate-slideUpFade my-2 w-full cursor-pointer text-center font-bold [animation-delay:120ms] hover:text-[#FB9100] lg:my-4 lg:w-fit lg:text-left"
                     >
                       {title ?? service.title}
                     </h2>

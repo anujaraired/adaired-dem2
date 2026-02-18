@@ -15,7 +15,7 @@ export default function DefaulWebsitetLayout({
         <WebsiteLayout>
           <ReactLenis root>{children}</ReactLenis>
         </WebsiteLayout>
-        <div className="fixed bottom-2 left-3 cursor-pointer">
+        <div className="fixed z-40 bottom-2 left-3 cursor-pointer">
           <Link href="https://wa.me/918907300008" target="_blank">
             <Image
               src={whatsApp}
