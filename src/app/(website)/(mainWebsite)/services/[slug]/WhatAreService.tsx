@@ -401,7 +401,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
         >
           <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2 py-[3rem] lg:py-[4rem]">
             <div
-              className={`order-1 my-auto flex flex-col items-center transition-all duration-1000 lg:order-2 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+              className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
               <Heading
                 className="flex justify-center lg:justify-start"
@@ -436,7 +436,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
 
             <div
               ref={ref}
-              className={`group order-2 flex items-center justify-center transition-all duration-1000 lg:order-1 lg:items-start lg:justify-start ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
+              className={`group order-1 flex items-center justify-center transition-all duration-1000 lg:items-start lg:justify-start ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
             >
               <Image src={whatareaiseo?.img} width={602} height={50} alt="" />
             </div>

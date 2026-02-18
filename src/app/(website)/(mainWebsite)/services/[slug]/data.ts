@@ -4988,7 +4988,7 @@ brand appears in AI summaries and citations.`,
     ] satisfies SectionKey[],
 
     banner: {
-      code: '07',
+      code: '08',
       isCenter: false,
       isVisible: true,
       heading: 'Built for Growing Agencies',
