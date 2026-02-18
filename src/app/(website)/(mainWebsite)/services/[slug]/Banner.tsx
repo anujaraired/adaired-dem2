@@ -505,8 +505,8 @@ const Banner = ({ banner }: any) => {
                 <div className="flex justify-center pt-[3rem] lg:justify-end lg:pt-0">
                   <Image
                     src={banner?.bgImg}
-                    width={500}
-                    height={500}
+                    width={784}
+                    height={654}
                     alt="Web Development Banner"
                     className=""
                   />

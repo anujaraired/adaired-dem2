@@ -138,6 +138,23 @@ import localBannerBg from '../../../../../../public/assets/localseo/localBannerB
 import LocalWhatService from '../../../../../../public/assets/localseo/localWhatService.png';
 import LocalNotSee from '../../../../../../public/assets/localseo/localNotSee.png';
 import LocalNotSeeBg from '../../../../../../public/assets/localseo/localNotSeeBg.png';
+import localServiceResultImg from '../../../../../../public/assets/localseo/localServiceResultImg.png';
+import needServiceImg from '../../../../../../public/assets/localseo/needServiceImg.png';
+import needServiceFactorsImg from '../../../../../../public/assets/localseo/needServiceFactorsImg.png';
+import localServiceResultIcon from '../../../../../../public/assets/localseo/localServiceResultIcon.png';
+
+import localMissing_1 from '../../../../../../public/assets/localseo/localMissing_1.png';
+import localMissing_2 from '../../../../../../public/assets/localseo/localMissing_2.png';
+import localMissing_3 from '../../../../../../public/assets/localseo/localMissing_3.png';
+
+import localImpIcon_1 from '../../../../../../public/assets/localseo/localImpIcon_1.png';
+import localImpIcon_2 from '../../../../../../public/assets/localseo/localImpIcon_2.png';
+import localImpIcon_3 from '../../../../../../public/assets/localseo/localImpIcon_3.png';
+import localImpIcon_4 from '../../../../../../public/assets/localseo/localImpIcon_4.png';
+import localImpIcon_5 from '../../../../../../public/assets/localseo/localImpIcon_5.png';
+import localImpIcon_6 from '../../../../../../public/assets/localseo/localImpIcon_6.png';
+import localImpIcon_7 from '../../../../../../public/assets/localseo/localImpIcon_7.png';
+import localImpIcon_8 from '../../../../../../public/assets/localseo/localImpIcon_8.png';
 
 // White Label Social Media Page Images
 import whiteKeyStats from '../../../../../../public/assets/whitelabel/whiteKeyStats.png';
@@ -2754,10 +2771,10 @@ brand appears in AI summaries and citations.`,
         `Local search optimization is necessary when the company is aimed at local consumers. It assists you attract ready-to-convert traffic, gain local visibility and stay ahead of competitors.`,
       ],
       isBgColor: false,
-      img: StrugglingImgAISEO,
+      img: localServiceResultImg,
       list: [
         {
-          img: aiseoresult,
+          img: localServiceResultIcon,
           name: 'Drives High-Intent Local Traffic',
           description: [
             `Local SEO makes your company reach the customers, who actively search your services in your area. 
@@ -2766,7 +2783,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: aiseoresult,
+          img: localServiceResultIcon,
           name: 'Increases Calls, Visits, and Bookings',
           description: [
             `The higher your business is on the local search results, the more customers can easily call, visit, or book your services. 
@@ -2775,7 +2792,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: aiseoresult,
+          img: localServiceResultIcon,
           name: 'Builds Trust and Credibility',
           description: [
             `Placing your brand at the first position in local search engine will instantly make your brand credible. 
@@ -2784,7 +2801,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: aiseoresult,
+          img: localServiceResultIcon,
           name: 'Outranks Local Competitors',
           description: [
             `The local SEO will make your business visible in a crowded marketplace because it will put you ahead of your competitors in your city. 
@@ -2793,7 +2810,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: aiseoresult,
+          img: localServiceResultIcon,
           name: 'Delivers Long-Term, Cost-Effective Growth',
           description: [
             `Unlike paid advertising, Local SEO delivers sustainable results over time without constant ad spend. 
@@ -2808,6 +2825,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '02',
       isBgCornerImg: true,
+      img: needServiceImg,
       heading: 'Why “Near Me” Searches Are More Important Than Ever',
       data: [
         {
@@ -2823,10 +2841,15 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '03',
       isBgCornerImg: true,
+      img: needServiceFactorsImg,
       heading: 'Why These Factors Matter',
       data: [
         {
-          desctioption: `The aim of Google is to provide the best local search results, not the closest search results. Successful local SEO requires optimizing all three ranking factors to improve visibility, credibility, and long-term growth.`,
+          desctioption: `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
+          Google now relies on three primary ranking factors to determine local visibility: Relevance, Distance, and Prominence.`,
+        },
+        {
+          desctioption: `Together these factors assist Google in presenting the most accurate, trustworthy, and helpful local businesses to its users during their search.`,
         },
       ],
     },
@@ -2841,7 +2864,7 @@ brand appears in AI summaries and citations.`,
       ],
       list: [
         {
-          icon: missing_1,
+          icon: localMissing_1,
           title: 'Relevance',
           description: [
             `Relevance takes into consideration the similarity of your business with what the user wants to search. 
@@ -2850,7 +2873,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: missing_2,
+          icon: localMissing_2,
           title: 'Distance',
           description: [
             `Distance measures how close your business is to the searcher or to the location specified in the search. 
@@ -2859,7 +2882,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: missing_3,
+          icon: localMissing_3,
           title: 'Prominence',
           description: [
             `Prominence reflects how well-known and trusted your business is online. 
@@ -2885,7 +2908,7 @@ brand appears in AI summaries and citations.`,
       buttonName: 'Get Your Free Local SEO Audit',
       data: [
         {
-          icon: importantIcon_1,
+          icon: localImpIcon_1,
           name: 'Google Business Profile Optimization',
           description: [
             `Our local seo company fully optimizes your Google Business Profile to improve visibility in Google Maps and local search results. 
@@ -2895,7 +2918,7 @@ brand appears in AI summaries and citations.`,
           button: 'Get Your Free Local SEO Audit',
         },
         {
-          icon: importantIcon_1,
+          icon: localImpIcon_2,
           name: 'Local Keyword Research & Strategy',
           description: [
             `Our local keyword research focuses on identifying high-intent, location-specific search terms that your customers are actually performing. 
@@ -2905,7 +2928,7 @@ brand appears in AI summaries and citations.`,
           button: 'Get Your Free Local SEO Audit',
         },
         {
-          icon: importantIcon_1,
+          icon: localImpIcon_3,
           name: 'On-Page Local SEO Optimization',
           description: [
             `We optimize the content of your website, meta tags, headings, URLs, and internal structure so that it can be relevant in the local search. 
@@ -2916,7 +2939,7 @@ brand appears in AI summaries and citations.`,
           button: 'Get Your Free Local SEO Audit',
         },
         {
-          icon: importantIcon_1,
+          icon: localImpIcon_4,
           name: 'Local Citations & Directory Management',
           description: [
             `We develop, maximize and control your business listings in reputable local directories and sites. 
@@ -2926,7 +2949,7 @@ brand appears in AI summaries and citations.`,
           button: 'Get Your Free Local SEO Audit',
         },
         {
-          icon: importantIcon_1,
+          icon: localImpIcon_5,
           name: 'Review & Reputation Management',
           description: [
             `Local search rankings and purchasing decisions have a significant contribution of customer reviews. 
@@ -2937,7 +2960,7 @@ brand appears in AI summaries and citations.`,
           button: 'Get Your Free Local SEO Audit',
         },
         {
-          icon: importantIcon_1,
+          icon: localImpIcon_6,
           name: 'Local Link Building',
           description: [
             `Our local link-building strategies emphasise on acquiring quality backlinks in reputable local websites, blogs and directories. 
@@ -2947,7 +2970,7 @@ brand appears in AI summaries and citations.`,
           button: 'Get Your Free Local SEO Audit',
         },
         {
-          icon: importantIcon_1,
+          icon: localImpIcon_7,
           name: 'NAP Consistency & Audit',
           description: [
             `We audit and update your Name, Address and Phone Number (NAP) across all online platforms. 
@@ -2957,7 +2980,7 @@ brand appears in AI summaries and citations.`,
           button: 'Get Your Free Local SEO Audit',
         },
         {
-          icon: importantIcon_1,
+          icon: localImpIcon_8,
           name: 'Local SEO Reporting & Performance Tracking',
           description: [
             `We offer clear and simplified reports that monitor your local presence. 
