@@ -76,7 +76,11 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
       <KeyStats keyStats={serviceData.keyStats} />
     ) : null,
 
-  areYouTired: () => <AreYouTired />,
+  areYouTired: (serviceData) =>
+    serviceData.areYouTired?.isVisible ? (
+      <AreYouTired areYouTired={serviceData.areYouTired} />
+    ) : null,
+
 
   whatareservice: (serviceData) =>
     serviceData.whatareservice?.isVisible ? (

@@ -291,6 +291,32 @@ export const SERVICES_DATA = {
         },
       ],
     },
+
+    areYouTired: {
+      isVisible: false,
+      isVariant: '01',
+      heading: 'Are you tired of link building that hurts more than it helps?',
+      data: [
+        {
+          desctioption: ``,
+          list: [
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+          ]
+        },
+      ],
+    },
+
     whatareservice: {
       isVisible: true,
       isVariant: '01',
@@ -937,6 +963,32 @@ export const SERVICES_DATA = {
         },
       ],
     },
+
+    areYouTired: {
+      isVisible: false,
+      isVariant: '01',
+      heading: 'Are you tired of link building that hurts more than it helps?',
+      data: [
+        {
+          desctioption: ``,
+          list: [
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+          ]
+        },
+      ],
+    },
+
     whatareservice: {
       isVisible: true,
       isVariant: '01',
@@ -1533,6 +1585,49 @@ brand appears in AI summaries and citations.`,
         },
       ],
     },
+
+    areYouTired: {
+      isVisible: true,
+      isVariant: '01',
+      heading: 'Are you tired of link building that hurts more than it helps?',
+      data: [
+        {
+          desctioption: `If you have experienced:-`,
+          list: [
+            {
+              description: `Low-quality outsourced links`,
+            },
+            {
+              description: `Spammy guest posts farms`,
+            },
+            {
+              description: `Zero ranking Fake Editorial`,
+            },
+            {
+              description: `PBNs that get penalized`,
+            },
+          ]
+        },
+        {
+          desctioption: `Adaired is here to help you get:-`,
+          list: [
+            {
+              description: `Real editorial placement on real websites `,
+            },
+            {
+              description: `100% white-hat & Google Safe`,
+            },
+            {
+              description: `Relevant high-quality backlinks that suit your niche`,
+            },
+            {
+              description: `Fully Transparent tracking & Reporting `,
+            },
+          ]
+        },
+      ],
+    },
+
     whatareservice: {
       isVisible: true,
       isVariant: '03',
@@ -2123,6 +2218,31 @@ brand appears in AI summaries and citations.`,
       ],
     },
 
+    areYouTired: {
+      isVisible: false,
+      isVariant: '01',
+      heading: 'Are you tired of link building that hurts more than it helps?',
+      data: [
+        {
+          desctioption: ``,
+          list: [
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+          ]
+        },
+      ],
+    },
+
     whatareservice: {
       isVisible: true,
       isVariant: '02',
@@ -2705,6 +2825,31 @@ brand appears in AI summaries and citations.`,
           desctioption: [
             `76% of consumers use voice search for local business information weekly`,
           ],
+        },
+      ],
+    },
+
+    areYouTired: {
+      isVisible: false,
+      isVariant: '01',
+      heading: 'Are you tired of link building that hurts more than it helps?',
+      data: [
+        {
+          desctioption: ``,
+          list: [
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+          ]
         },
       ],
     },
@@ -3378,6 +3523,7 @@ brand appears in AI summaries and citations.`,
       'needofservice',
       'notSeeingResult',
       'importantToBussiness',
+      'areYouTired',
       'whatIncluded',
       'stopStruggling',
       'ourProcess',
@@ -3550,6 +3696,38 @@ brand appears in AI summaries and citations.`,
             `These reports highlight growth, engagement, and campaign impact, reinforcing your authority with clients.`,
           ],
           button: 'Request a Consultation',
+        },
+      ],
+    },
+
+    areYouTired: {
+      isVisible: true,
+      isVariant: '02',
+      heading: 'Who Our White Label Social Media Solutions Are For',
+      description: 'Our white label social media marketing solutions are built specifically for agencies and consultants looking to scale.',
+      data: [
+        {
+          desctioption: `We commonly partner with:`,
+          list: [
+            {
+              description: `Digital marketing agencies`,
+            },
+            {
+              description: `SEO agencies`,
+            },
+            {
+              description: `Web design and development firms`,
+            },
+            {
+              description: `PPC and performance marketing agencies`,
+            },
+            {
+              description: `Branding and creative agencies`,
+            },
+            {
+              description: `Marketing consultants`,
+            },
+          ]
         },
       ],
     },
@@ -4067,6 +4245,7 @@ brand appears in AI summaries and citations.`,
       'banner',
       'getsCredit',
       'keyStats',
+      'areYouTired',
       'whatareservice',
       'needofservice',
       'dataInTable',
@@ -4673,6 +4852,31 @@ brand appears in AI summaries and citations.`,
             `With our white label social media management approach, you get detailed performance insights branded under your name.`,
             `This streamlined process allows agencies to deliver reliable results without operational strain.`,
           ],
+        },
+      ],
+    },
+
+    areYouTired: {
+      isVisible: false,
+      isVariant: '01',
+      heading: 'Are you tired of link building that hurts more than it helps?',
+      data: [
+        {
+          desctioption: ``,
+          list: [
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+          ]
         },
       ],
     },
