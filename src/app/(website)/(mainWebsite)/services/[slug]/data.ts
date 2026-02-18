@@ -353,18 +353,12 @@ export const SERVICES_DATA = {
     },
     needofservice: {
       isVisible: false,
-      heading: 'What is the Need Of AI SEO Services?',
+      heading: '',
       data: [
-        {
-          desctioption: `The rise of artificial intelligence-powered search tools and large language models has caused the searches to deliver more dynamic, multimodal responses without requiring users click through to websites. This has increased the need for businesses to evolve alongside these LLM and Google AI advancements in order to stay relevant and visible.`,
-        },
-        {
-          desctioption: ` To help you keep pace with the changing market trends, Adaired offers you fully managed generative engine optimization services to enhance your AI visibility in generative search, generate more traffic, and elevate your online presence. `,
-        },
       ],
     },
     benefitofAiSeo: {
-      isVisible: false,
+      isVisible: true,
       heading: 'Why is SEO Important to Your Business?',
       list: [
         {
@@ -590,10 +584,10 @@ export const SERVICES_DATA = {
       bgImage: stop_struggle2,
     },
     industryLeaders: {
-      isVisible: false,
-      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      isVisible: true,
+      heading: '',
       description:
-        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+        '',
       bgImage: leadingToolsImg,
     },
     leadingTools: {
@@ -731,12 +725,12 @@ export const SERVICES_DATA = {
       ],
     },
     projectLogos: {
-      isVisible: true,
+      isVisible: false,
       heading: 'Powered By Leading Brands From All Around The World',
       desctioption: `We have worked with some of the leading brands to turn visitors into leads and paying customers.`,
     },
     stopStruggling: {
-      isVisible: true,
+      isVisible: false,
       subtitle: '',
       title: 'Claim Your Free Audit Before Competitors Do!',
       description: [
@@ -746,7 +740,7 @@ export const SERVICES_DATA = {
       bgImg: stop_struggle2,
     },
     getplan: {
-      isVisible: true,
+      isVisible: false,
       subtitle: 'Boost Traffic Today',
       isLabel: true,
       title:
@@ -754,7 +748,7 @@ export const SERVICES_DATA = {
       description: `Our proven SEO strategies put your website in front of people who are ready to buy.`,
     },
     faqData: {
-      isVisible: true,
+      isVisible: false,
       subtitle: 'FAQ',
       title: 'Frequently Asked Questions and Their Answers',
       description: ``,
