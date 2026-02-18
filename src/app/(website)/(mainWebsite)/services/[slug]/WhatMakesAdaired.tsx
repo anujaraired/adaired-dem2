@@ -98,4 +98,5 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
   );
 };
 
+
 export default WhatMakesAdaired;

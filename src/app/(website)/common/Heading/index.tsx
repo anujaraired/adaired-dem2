@@ -304,7 +304,7 @@ const Heading = ({
                   )}
                 </div>
               </div>
-              <div className={`${isDecVarticle && 'pt-[1rem]'}`}>
+              <div className={`${isDecVarticle && 'pt-[0rem]'}`}>
                 <p
                   className={`${isBgWhite ? 'text-[#FFFFFF]' : ''} pt-4 text-center lg:text-left`}
                 >
