@@ -22,28 +22,27 @@ const MeetTheFounderSection = ({
   if (!MeetTheFounder?.isVisible) return null;
 
   return (
-    
+
     <section className="relative overflow-hidden bg-gradient-to-b from-[#000000] to-[#051C40] py-[5rem] lg:py-[7rem]">
-        
-    <h2 className="uppercase bg-gradient-to-b from-[#6067F8] to-[#041633] 
-bg-clip-text text-transparent 
-leading-none lwh-[1] mb-[2rem]
-text-[4rem] lg:text-[9rem] text-center w-full mx-0">
-  {MeetTheFounder?.heading}
-</h2>
+
+      <div className='mx-8'>
+        <img src={MeetTheFounder?.heading} alt="Meet The Founder" />
+      </div>
+      
+      
 
 
 
       <MaxWidthWrapper className="relative z-10 grid grid-cols-1 items-center gap-[4rem] lg:grid-cols-2">
 
         {/* LEFT IMAGE */}
-        <div className="flex justify-center lg:justify-start">
+        <div className="flex justify-center lg:justify-start mt-8">
           <div className="relative w-[280px] sm:w-[350px] lg:w-[420px]">
             <Image
               src={MeetTheFounder?.image}
               alt={MeetTheFounder?.Title}
-              width={500}
-              height={600}
+              width={735}
+              height={647}
               priority
               className="rounded-2xl object-cover shadow-2xl"
             />
@@ -54,7 +53,7 @@ text-[4rem] lg:text-[9rem] text-center w-full mx-0">
         <div className="text-white">
 
           {/* Founder Name */}
-          <h3 className="text-4xl font-semibold italic tracking-wide lg:text-5xl">
+          <h3 className="text-white text-4xl font-semibold italic tracking-wide lg:text-5xl">
             {MeetTheFounder?.Title},
           </h3>
 
@@ -69,16 +68,14 @@ text-[4rem] lg:text-[9rem] text-center w-full mx-0">
           </blockquote>
 
           {/* Bold Intro */}
-          <p className="mt-8 font-semibold text-white">
+          <h4 className="mt-8 font-semibold text-white">
             {MeetTheFounder?.descriptionHeading}
-          </p>
+          </h4>
 
-          {/* Paragraphs */}
-          <div className="mt-4 space-y-4 leading-relaxed text-gray-300">
-            {MeetTheFounder?.description?.map((item, index) => (
-              <p key={index}>{item}</p>
-            ))}
-          </div>
+        
+            <p className='text-white '>{MeetTheFounder?.description}</p>
+             
+          
         </div>
       </MaxWidthWrapper>
     </section>
