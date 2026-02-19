@@ -27,8 +27,10 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
             <Heading
               breakIndex={whatMkeDeferent?.breakIndex}
               title={whatMkeDeferent?.heading}
-              isInCenter={true}
-              isBgWhite={!whatMkeDeferent?.bgColor && true}
+              isInCenter={whatMkeDeferent?.isInCenter}
+              description={whatMkeDeferent?.description}
+              isDecVarticle={!whatMkeDeferent?.isInCenter}
+              isBgWhite={whatMkeDeferent?.bgColor && true}
             />
             {/* <div
               className={`${whatMkeDeferent?.description?.length > 0 ? 'w-full lg:w-[50%]' : 'w-[0%]'}`}

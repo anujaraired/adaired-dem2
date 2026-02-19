@@ -2056,6 +2056,9 @@ brand appears in AI summaries and citations.`,
     // NEW
     whatMissing: {
       isVisible: true,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
       heading:
         'What Your Business Could Be Missing And How Link Building Can Help?',
       list: [
@@ -2982,6 +2985,8 @@ brand appears in AI summaries and citations.`,
 
     whatMissing: {
       isVisible: true,
+      breakIndex: 5,
+      bgColor: '#FAFAFA',
       heading: 'What Are Local SEO Ranking Factors?',
       description: [
         `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
@@ -3021,8 +3026,8 @@ brand appears in AI summaries and citations.`,
 
     notSeeingResult: {
       isVisible: true,
-      heading: `Still unsure about investing in local SEO? You shouldn’t be.`,
-      description: '',
+      heading: `Still unsure about investing in local SEO?`,
+      description: 'You shouldn’t be.',
       buttonName: 'Book a call with a local SEO expert!',
       img: LocalNotSee,
       bgImage: LocalNotSeeBg,
@@ -3195,8 +3200,9 @@ brand appears in AI summaries and citations.`,
 
     whatMkeDeferent: {
       isVisible: true,
-      breakIndex:5,
-      bgColor:"",
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
       heading: 'Why Choose Adaired for Your Local Search Engine Optimization ?',
       description: [],
       list: [
@@ -3257,8 +3263,8 @@ brand appears in AI summaries and citations.`,
     stopStruggling: {
       isVisible: true,
       subtitle: '',
-      title: `If You’re Not Ranking Locally, You’re Losing Business`,
-      // span: 'You’re Losing Business',
+      span: `If You’re Not Ranking Locally,`,
+      title: 'You’re Losing Business',
       button: 'Rank Higher on Local Search',
       description: [],
       bgImg: stop_struggle3,
@@ -3886,6 +3892,7 @@ brand appears in AI summaries and citations.`,
 
     whatMkeDeferent: {
       isVisible: true,
+      isInCenter: false,
       heading: 'Why Choose Adaired as Your White Label Social Media Partner?',
       description: [
         `Selecting the right white label social media agency directly impacts your client satisfaction, service quality, and long-term growth. 
@@ -4116,6 +4123,9 @@ brand appears in AI summaries and citations.`,
 
     whatMissing: {
       isVisible: false,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
       heading: 'What Are Local SEO Ranking Factors?',
       description: [
         `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
@@ -4224,9 +4234,9 @@ brand appears in AI summaries and citations.`,
 
     notSeeingResult: {
       isVisible: false,
-      heading: `Still unsure about investing in local SEO? You shouldn’t be.`,
+      heading: ``,
       description: '',
-      buttonName: 'Book a call with a local SEO expert!',
+      buttonName: '',
       img: LocalNotSee,
       bgImage: LocalNotSeeBg,
     },
@@ -4680,7 +4690,9 @@ brand appears in AI summaries and citations.`,
     whatMkeDeferent: {
       isVisible: true,
       isVariant: '02',
+      isInCenter: true,
       heading: 'How White Label SEO Works at Adaired',
+      bgColor: true,
       description: [
         `At Adaired, our white-label SEO process is designed to let agencies retain full client ownership while we handle execution behind the scenes.`,
       ],
@@ -5036,6 +5048,9 @@ brand appears in AI summaries and citations.`,
 
     whatMissing: {
       isVisible: false,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
       heading: 'What Are Local SEO Ranking Factors?',
       description: [
         `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
@@ -5144,9 +5159,9 @@ brand appears in AI summaries and citations.`,
 
     notSeeingResult: {
       isVisible: false,
-      heading: `Still unsure about investing in local SEO? You shouldn’t be.`,
+      heading: ``,
       description: '',
-      buttonName: 'Book a call with a local SEO expert!',
+      buttonName: '',
       img: LocalNotSee,
       bgImage: LocalNotSeeBg,
     },
@@ -6121,9 +6136,9 @@ brand appears in AI summaries and citations.`,
 
     notSeeingResult: {
       isVisible: false,
-      heading: `Still unsure about investing in local SEO? You shouldn’t be.`,
+      heading: ``,
       description: '',
-      buttonName: 'Book a call with a local SEO expert!',
+      buttonName: '',
       img: LocalNotSee,
       bgImage: LocalNotSeeBg,
     },
