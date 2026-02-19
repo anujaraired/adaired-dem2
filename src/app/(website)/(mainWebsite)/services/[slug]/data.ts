@@ -343,7 +343,7 @@ export const SERVICES_DATA = {
             {
               description: ``,
             },
-          ]
+          ],
         },
       ],
     },
@@ -418,8 +418,7 @@ export const SERVICES_DATA = {
     benefitofAiSeo: {
       isVisible: false,
       heading: '',
-      list: [
-      ],
+      list: [],
     },
     whyAdaired: {
       isVisible: true,
@@ -980,7 +979,7 @@ export const SERVICES_DATA = {
             {
               description: ``,
             },
-          ]
+          ],
         },
       ],
     },
@@ -1604,7 +1603,7 @@ brand appears in AI summaries and citations.`,
             {
               description: `PBNs that get penalized`,
             },
-          ]
+          ],
         },
         {
           desctioption: `Adaired is here to help you get:-`,
@@ -1621,7 +1620,7 @@ brand appears in AI summaries and citations.`,
             {
               description: `Fully Transparent tracking & Reporting `,
             },
-          ]
+          ],
         },
       ],
     },
@@ -2237,7 +2236,7 @@ brand appears in AI summaries and citations.`,
             {
               description: ``,
             },
-          ]
+          ],
         },
       ],
     },
@@ -2848,7 +2847,7 @@ brand appears in AI summaries and citations.`,
             {
               description: ``,
             },
-          ]
+          ],
         },
       ],
     },
@@ -3711,7 +3710,8 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '02',
       heading: 'Who Our White Label Social Media Solutions Are For',
-      description: 'Our white label social media marketing solutions are built specifically for\n  agencies and consultants looking to scale.',
+      description:
+        'Our white label social media marketing solutions are built specifically for\n  agencies and consultants looking to scale.',
       data: [
         {
           desctioption: `We commonly partner with:`,
@@ -3734,7 +3734,7 @@ brand appears in AI summaries and citations.`,
             {
               description: `Marketing consultants`,
             },
-          ]
+          ],
         },
       ],
     },
@@ -4894,7 +4894,7 @@ brand appears in AI summaries and citations.`,
             {
               description: ``,
             },
-          ]
+          ],
         },
       ],
     },
@@ -5332,11 +5332,13 @@ brand appears in AI summaries and citations.`,
 
     whatIncluded: {
       isVisible: true,
-      isVariant: '01',
+      isVariant: '03',
+      breakIndex: 3,
       heading: 'White-Label Services We Provide',
-      description: `Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels. 
-      These services are delivered under your brand and are integrated into your agency's workflows, 
-      making it easier to provide consistent execution while reducing internal complexity.`,
+      description: [
+        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
+        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
+      ],
       list: [
         {
           icon: whiteServicesIncluded_1,
@@ -5412,6 +5414,8 @@ brand appears in AI summaries and citations.`,
     adairedHelp: {
       isVisible: true,
       img: whiteServicesAdairedHelpImg,
+      isInCenter: false,
+      bgColor: '#FFFCF8',
       heading: `Work with Adaired's Agency-First White-Label Model`,
       description: [
         `Our white-label model is designed to reduce execution pressure while providing agencies with 
@@ -5425,7 +5429,7 @@ brand appears in AI summaries and citations.`,
           name: 'White Label Reporting',
           description: [
             `Reporting is essential for effective client communication. 
-            Adaired provides white-label reports that can be delivered directly to clients or integrated into your current reporting formats.`, 
+            Adaired provides white-label reports that can be delivered directly to clients or integrated into your current reporting formats.`,
             `Metrics, insights, and progress updates are intended to promote transparency without revealing third-party involvement. 
             This enables agencies to consistently present results while reducing internal reporting effort.`,
           ],
@@ -5434,7 +5438,7 @@ brand appears in AI summaries and citations.`,
           img: '',
           name: 'Dedicated Account Management',
           description: [
-            `Each agency partnership has a dedicated point of contact who is in charge of managing delivery, timelines, and cross-service coordination.`, 
+            `Each agency partnership has a dedicated point of contact who is in charge of managing delivery, timelines, and cross-service coordination.`,
             `This eliminates the uncertainty that is often associated with freelancers or distributed vendors while also ensuring clear accountability. 
             Agencies benefit from having a single, consistent communication channel, eliminating the need to manage daily execution tasks.`,
           ],
@@ -5444,7 +5448,7 @@ brand appears in AI summaries and citations.`,
           name: 'On-Time Delivery and Structured Timelines',
           description: [
             `Missed deadlines directly impact client trust. 
-            Adaired follows defined delivery schedules and internal checkpoints to ensure work is completed within agreed timelines.`, 
+            Adaired follows defined delivery schedules and internal checkpoints to ensure work is completed within agreed timelines.`,
             `Service execution is planned in advance, reducing last-minute delays and reactive management. 
             This structured approach helps agencies maintain reliable delivery standards as service demand increases.`,
           ],
@@ -5454,7 +5458,7 @@ brand appears in AI summaries and citations.`,
           name: 'Affordable Pricing Compared to Other Models',
           description: [
             `Hiring and maintaining in-house teams involves fixed costs, training time, and long-term commitments. 
-            Adaired’s white-label services offer a cost-efficient alternative, allowing agencies to access specialized execution without carrying internal overhead.`, 
+            Adaired’s white-label services offer a cost-efficient alternative, allowing agencies to access specialized execution without carrying internal overhead.`,
             `Our pricing model is designed to remain competitive while supporting sustainable agency margins.`,
           ],
         },
@@ -5463,7 +5467,7 @@ brand appears in AI summaries and citations.`,
           name: 'Brand Protection and Confidentiality ',
           description: [
             `Brand integrity is critical in white-label partnerships. 
-            Adaired operates under strict confidentiality protocols to ensure your agency remains the sole visible service provider.`, 
+            Adaired operates under strict confidentiality protocols to ensure your agency remains the sole visible service provider.`,
             `No branding, outreach, or communication is conducted in our name unless explicitly agreed upon. 
             Client data, account access, and reporting remain under your control at all times.`,
           ],
@@ -5473,7 +5477,7 @@ brand appears in AI summaries and citations.`,
           name: 'Consistency at Scale',
           description: [
             `As agencies grow, maintaining consistent quality across accounts becomes increasingly difficult. 
-            Adaired’s delivery processes are structured to support scale without sacrificing execution standards.`, 
+            Adaired’s delivery processes are structured to support scale without sacrificing execution standards.`,
             `Internal quality checks, standardized workflows, and defined service benchmarks help maintain consistency as volume increases. 
             This allows agencies to grow service capacity without introducing delivery instability.`,
           ],
@@ -5483,7 +5487,7 @@ brand appears in AI summaries and citations.`,
           name: 'Predictable Resource Planning',
           description: [
             `Hiring in-house teams requires long-term commitments, training cycles, and fixed costs. 
-            Adaired’s white-label model offers flexible capacity that adjusts with demand.`, 
+            Adaired’s white-label model offers flexible capacity that adjusts with demand.`,
             `Agencies can expand or reduce service delivery without internal restructuring or staffing risk. 
             This predictability supports healthier margins and more accurate forecasting.`,
           ],
@@ -5493,7 +5497,7 @@ brand appears in AI summaries and citations.`,
           name: 'Long-Term Partnership Focus',
           description: [
             `Adaired works with agencies looking for sustained growth rather than short-term fulfillment. 
-            Our processes are designed to support ongoing client relationships, recurring service models, and long-term delivery stability.`, 
+            Our processes are designed to support ongoing client relationships, recurring service models, and long-term delivery stability.`,
             `This partnership approach allows agencies to focus on growth, strategy, and client retention while fulfillment remains dependable.`,
           ],
         },
@@ -5506,7 +5510,8 @@ brand appears in AI summaries and citations.`,
       isVariant: '03',
       bgImg: whiteBookConsultationBg,
       img: whiteServicesBuildLinkImg,
-      heading: 'Ready to Expand Your Digital Service Empire?',
+      label: 'Ready to Expand Your',
+      heading: 'Digital Service Empire?',
       description: ``,
       isBgWhite: true,
       data: [
