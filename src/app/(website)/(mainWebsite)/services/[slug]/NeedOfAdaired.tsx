@@ -223,6 +223,7 @@ const NeedOfAdaired = ({ needOfService }: any) => {
                   Factors Matter
                 </span>{' '}
               </h2>
+
               {needOfService?.data?.map((desc: any) => {
                 return (
                   <p className="pt-[1rem] text-center lg:text-justify">
@@ -230,6 +231,7 @@ const NeedOfAdaired = ({ needOfService }: any) => {
                   </p>
                 );
               })}
+              
             </div>
           </div>
         )}
