@@ -9,12 +9,12 @@ import howItStartedImg_1 from '../../../../../public/assets/images/about/howItSt
 import howItStartedImg_2 from '../../../../../public/assets/images/about/howItStartedImg_2.png';
 import howItStartedImg_3 from '../../../../../public/assets/images/about/howItStartedImg_3.png';
 
-import SEOManager from '../../../../../public/assets/icons/service/SEOManager.png';
-import HRManager from '../../../../../public/assets/icons/service/HRManager.png';
-import ORMManager from '../../../../../public/assets/icons/service/ORMManager.png';
-import WebDevelopmentManager from '../../../../../public/assets/icons/service/WebDevelopmentManager.png';
-import SalesManager from '../../../../../public/assets/icons/service/SalesManager.png';
-import Linkedin from '../../../../../public/assets/icons/service/Linkedin.png';
+import SEOManager from '../../../../../public/assets/images/about/SEOManager.png';
+import HRManager from '../../../../../public/assets/images/about/HRManager.png';
+import ORMManager from '../../../../../public/assets/images/about/ORMManager.png';
+import WebDevelopmentManager from '../../../../../public/assets/images/about/WebDevelopmentManager.png';
+import SalesManager from '../../../../../public/assets/images/about/SalesManager.png';
+import Linkedin from '../../../../../public/assets/images/about/Linkedin.png';
 
 export const ABOUT_DATA = {
     banner: {
