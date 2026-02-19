@@ -187,8 +187,9 @@ const KeyStats = ({ keyStats }: any) => {
                       </h2>
 
                       <p
-                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${activeTab === index ? 'font-semibold' : ''
-                          }`}
+                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${
+                          activeTab === index ? 'font-semibold' : ''
+                        }`}
                       >
                         {item.desctioption}
                       </p>
@@ -238,7 +239,7 @@ const KeyStats = ({ keyStats }: any) => {
                   // style={{
                   //   transitionDelay: `${idx * 200}ms`,
 
-                  className="flex flex-col items-center rounded-[1rem] border border-[#F28F17]/20 p-5 text-center overflow-hidden lg:items-start lg:text-left transition-all duration-700 transition-transform hover:duration-400 hover:shadow-xl hover:-translate-y-4 hover:bg-gradient-to-br from-[#ebf8ff] via-[#FFFFFF] to-[#fffaf0]"
+                  className="hover:duration-400 flex flex-col items-center overflow-hidden rounded-[1rem] border border-[#F28F17]/20 from-[#ebf8ff] via-[#FFFFFF] to-[#fffaf0] p-5 text-center transition-all transition-transform duration-700 hover:-translate-y-4 hover:bg-gradient-to-br hover:shadow-xl lg:items-start lg:text-left"
                   style={{
                     transitionDelay: isVisible ? '0ms' : `${idx * 280}ms`,
                   }}
@@ -269,14 +270,16 @@ const KeyStats = ({ keyStats }: any) => {
                 <IoArrowForwardCircleOutline
                   size={30}
                   onClick={handlePrev}
-                  className={`rotate-180 cursor-pointer ${index === 0 ? 'cursor-not-allowed opacity-40' : ''
-                    }`}
+                  className={`rotate-180 cursor-pointer ${
+                    index === 0 ? 'cursor-not-allowed opacity-40' : ''
+                  }`}
                 />
                 <IoArrowForwardCircleOutline
                   size={30}
                   onClick={handleNext}
-                  className={`cursor-pointer ${index >= maxIndex ? 'cursor-not-allowed opacity-40' : ''
-                    }`}
+                  className={`cursor-pointer ${
+                    index >= maxIndex ? 'cursor-not-allowed opacity-40' : ''
+                  }`}
                 />
               </div>
             </div>
@@ -292,8 +295,9 @@ const KeyStats = ({ keyStats }: any) => {
                     key={idx}
                     // style={{ minWidth: `${100 / visibleCards}%` }}
                     style={{
-                      minWidth: `calc(${100 / visibleCards}% - ${visibleCards === 1 ? 0 : '0.67rem'
-                        })`,
+                      minWidth: `calc(${100 / visibleCards}% - ${
+                        visibleCards === 1 ? 0 : '0.67rem'
+                      })`,
                     }}
                     onMouseEnter={() => setIsActive(idx)}
                     onMouseLeave={() => setIsActive(null)}
@@ -306,8 +310,9 @@ const KeyStats = ({ keyStats }: any) => {
                       alt="img"
                     />
                     <p
-                      className={`pt-[2rem] transition-colors duration-300 ${isActive === idx ? 'text-white' : 'text-black'
-                        }`}
+                      className={`pt-[2rem] transition-colors duration-300 ${
+                        isActive === idx ? 'text-white' : 'text-black'
+                      }`}
                     >
                       {item?.desctioption}
                     </p>
@@ -344,9 +349,11 @@ const KeyStats = ({ keyStats }: any) => {
                         transitionDelay: `${index * 280}ms`,
                       }}
                     >
-                      <h2 className={`transition-all duration-300 ease-in-out ${
+                      <h2
+                        className={`transition-all duration-300 ease-in-out ${
                           activeTab === index ? 'text-white' : ''
-                        }`}>
+                        }`}
+                      >
                         {`0${index + 1}`}
                       </h2>
 
@@ -398,7 +405,7 @@ const KeyStats = ({ keyStats }: any) => {
                     className={`relative flex w-[100%] flex-col px-[2rem] py-[2rem] transition-all duration-300 ease-in-out ${activeTab === index ? 'bg-[#FDE0BA]/50 text-white' : 'bg-[#F5F5F5]/50 text-black'}`}
                   >
                     <div
-                      className={`flex w-full lg:w-[95%] items-start gap-8 transition-all duration-700 ease-in-out lg:items-center lg:gap-16 lg:text-left`}
+                      className={`flex w-full items-start gap-8 transition-all duration-700 ease-in-out lg:w-[95%] lg:items-center lg:gap-16 lg:text-left`}
                       style={{
                         transitionDelay: `${index * 280}ms`,
                       }}
@@ -408,8 +415,9 @@ const KeyStats = ({ keyStats }: any) => {
                       </h2>
 
                       <p
-                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${activeTab === index ? 'font-semibold' : ''
-                          }`}
+                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${
+                          activeTab === index ? 'font-semibold' : ''
+                        }`}
                       >
                         {item.desctioption}
                       </p>
@@ -421,12 +429,13 @@ const KeyStats = ({ keyStats }: any) => {
                 ))}
               </div>
 
-              <div className="relative flex items-center justify-center rounded-[20px] bg-[#FFD79F]/30">
+              <div className="relative flex h-full items-center justify-center rounded-[20px] bg-[#FFD79F]/30">
                 <Image
                   src={keyStats?.img}
-                  fill
+                  width={740}
+                  height={617}
                   alt="img"
-                  className={`object-fill transition-opacity transition-transform duration-700 ease-in-out group-hover:scale-110`}
+                  className="aspect-[740/617] w-[clamp(18rem,38.563vw,46.25rem)] transition-transform duration-700 ease-in-out group-hover:scale-110"
                 />
               </div>
             </div>
@@ -464,8 +473,9 @@ const KeyStats = ({ keyStats }: any) => {
                       </h2>
 
                       <p
-                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${activeTab === index ? 'font-semibold' : ''
-                          }`}
+                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${
+                          activeTab === index ? 'font-semibold' : ''
+                        }`}
                       >
                         {item.desctioption}
                       </p>

@@ -10,7 +10,7 @@ import rocket from '../../../../../../public/assets/icons/rocket.svg';
 import { MdOutlineArrowOutward } from 'react-icons/md';
 
 const ImportantToBussiness = ({ importantToBussiness }: any) => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0);
   // const words = importantToBussiness?.heading?.split(' ') || [];
 
   return (
