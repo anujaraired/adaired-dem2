@@ -5,31 +5,35 @@ import React from 'react';
 import Banner from '../services/[slug]/Banner';
 import KeyStats from '../services/[slug]/KeyStats';
 import ReadyToStart from '../services/[slug]/ReadyToStart';
+import PeopleBehindWork from './PeopleBehindWork';
 
 import { ABOUT_DATA } from './aboutData';
 
 type SectionKey =
   | 'banner'
   | 'keyStats'
-  | 'readyToStart';
+  | 'readyToStart'
+  | 'peopleBehindWork';
 
 type SectionRenderer = (data: typeof ABOUT_DATA) => JSX.Element | null;
 
 const sectionRenderer: Record<SectionKey, SectionRenderer> = {
-  banner: (data) =>
-    data.banner?.isVisible ? (
-      <Banner banner={data.banner} />
-    ) : null,
+  banner: (data) => data.banner?.isVisible ? (
+    <Banner banner={data.banner} />
+  ) : null,
 
-  keyStats: (data) =>
-    data.keyStats?.isVisible ? (
-      <KeyStats keyStats={data.keyStats} />
-    ) : null,
+  keyStats: (data) => data.keyStats?.isVisible ? (
+    <KeyStats keyStats={data.keyStats} />
+  ) : null,
 
-  readyToStart: (data) =>
-    data.readyToStart?.isVisible ? (
-      <ReadyToStart />
-    ) : null,
+  peopleBehindWork: (data) => data.peopleBehindWork?.isVisible ? (
+    <PeopleBehindWork peopleBehindWork={data.peopleBehindWork} />
+  ) : null,
+
+  readyToStart: (data) => data.readyToStart?.isVisible ? (
+    <ReadyToStart />
+  ) : null,
+
 };
 
 const About = () => {
@@ -40,6 +44,7 @@ const About = () => {
           {sectionRenderer[key](ABOUT_DATA)}
         </React.Fragment>
       ))}
+
     </>
   );
 };
