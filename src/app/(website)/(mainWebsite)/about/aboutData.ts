@@ -1,3 +1,10 @@
+import test from "node:test";
+import GrowingBrands from "../services/[slug]/GrowingBrands";
+
+import MeetTheFounder from "./MeetTheFounder";
+import { Title } from "rizzui";
+import { Quote } from "lucide-react";
+
 export const ABOUT_DATA = {
     banner: {
         isCenter: true,
@@ -41,6 +48,31 @@ export const ABOUT_DATA = {
                 ],
             },
         ],
+    },
+
+    MeetTheFounder: {
+        isVisible: true,
+        heading: '',
+        Title: 'Dheeraj Swami',
+        designation: 'Founder & CEO',
+        image: '/assets/images/about/Rectangle 10109.png',
+        Quote:
+    "Digital marketing isn’t about being everywhere; it’s about being effective where it matters most.",
+  descriptionHeading:
+    'Dheeraj is a visionary digital growth leader who believes marketing should empower businesses, not overwhelm them.',
+  description: [
+    `He founded Adaired Digital Media in 2017 with one clear objective: to build a digital marketing agency that prioritizes measurable growth over marketing noise. With extensive experience in performance marketing and lead generation, he saw firsthand how brands were overwhelmed by complexity but underwhelmed by results`,
+    `His strategy is based on data-driven insights, ongoing optimization, and complete transparency. That’s why at Adaired, we create every campaign to generate qualified leads and measurable business growth.`
+  ]
+},
+
+
+    growingBrands: { 
+        isVisible: true,
+    },
+
+    testimonial: {
+        isVisible: true,
     },
 
     readyToStart: {

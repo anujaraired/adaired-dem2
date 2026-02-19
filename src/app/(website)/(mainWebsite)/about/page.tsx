@@ -5,13 +5,23 @@ import React from 'react';
 import Banner from '../services/[slug]/Banner';
 import KeyStats from '../services/[slug]/KeyStats';
 import ReadyToStart from '../services/[slug]/ReadyToStart';
+import GrowingBrands from '../services/[slug]/GrowingBrands';
+import Testimonial from '../../components/home/Testimonial';
 
 import { ABOUT_DATA } from './aboutData';
+import { data } from '../case-studies/[slug]/data';
+import MeetTheFounder from './MeetTheFounder';
+import MeetTheFounderSection from './MeetTheFounder';
+
+
 
 type SectionKey =
   | 'banner'
   | 'keyStats'
-  | 'readyToStart';
+  | 'readyToStart'
+  | 'meetTheFounderSection'
+  | 'growingBrands'
+  | 'testimonial';
 
 type SectionRenderer = (data: typeof ABOUT_DATA) => JSX.Element | null;
 
@@ -24,6 +34,22 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
   keyStats: (data) =>
     data.keyStats?.isVisible ? (
       <KeyStats keyStats={data.keyStats} />
+    ) : null,
+
+    meetTheFounderSection: (data) => { 
+      return data.MeetTheFounder?.isVisible ? (
+        <MeetTheFounderSection MeetTheFounder={data.MeetTheFounder} />
+      ) : null;
+    },
+
+    growingBrands: (data) =>
+      data.growingBrands?.isVisible ?(
+        <GrowingBrands />
+      ) : null,
+
+  testimonial: (data) =>
+    data.testimonial?.isVisible ? (
+      <Testimonial />
     ) : null,
 
   readyToStart: (data) =>
