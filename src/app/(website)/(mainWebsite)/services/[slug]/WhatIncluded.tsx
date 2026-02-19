@@ -9,7 +9,7 @@ import FutureProof from './FutureProof';
 import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 
 const WhatIncluded = ({ whatIncluded }: any) => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0);
   const [open, setOpen] = useState(false);
 
   return (
@@ -133,7 +133,7 @@ const WhatIncluded = ({ whatIncluded }: any) => {
               </div>
             )}
             {whatIncluded?.isVariant === '03' && (
-              <div>
+              <div className=''>
                 <Heading
                   breakIndex={whatIncluded?.breakIndex}
                   title={whatIncluded?.heading}

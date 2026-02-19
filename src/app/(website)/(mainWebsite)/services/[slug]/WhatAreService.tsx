@@ -273,7 +273,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
               />
             </div>
             <div
-              className={`w-[70%] my-auto flex flex-col items-center transition-all duration-1000 lg:items-start`}
+              className={`my-auto flex w-[70%] flex-col items-center transition-all duration-1000 lg:items-start`}
             >
               <Heading
                 className="flex justify-center lg:justify-start"
@@ -350,7 +350,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
         <div
           className={`${whatareaiseo?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8] py-[3rem] lg:py-[4rem]'}`}
         >
-          <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2 py-[3rem] lg:py-[4rem]">
+          <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] py-[3rem] lg:grid-cols-2 lg:py-[4rem]">
             <div
               className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
@@ -399,9 +399,9 @@ const WhatAreService = ({ whatareaiseo }: any) => {
         <div
           className={`${whatareaiseo?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8] py-[3rem] lg:py-[4rem]'}`}
         >
-          <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2 py-[3rem] lg:py-[4rem]">
+          <MaxWidthWrapper className="grid grid-cols-1 gap-[0rem] py-[3rem] lg:grid-cols-2 lg:py-[4rem]">
             <div
-              className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+              className={`order-2 my-auto flex flex-col items-center pt-[1rem] transition-all duration-1000 lg:items-start lg:pt-0 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
               <Heading
                 className="flex justify-center lg:justify-start"
@@ -412,10 +412,11 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 isBgWhite={whatareaiseo?.isBgWhite && true}
               />
               <div className="">
-                {whatareaiseo?.data?.map((item: any) => {
+                {whatareaiseo?.data?.map((item: any, index: number) => {
+                  const isLast = index === whatareaiseo.data.length - 1;
                   return (
                     <p
-                      className={`py-2 text-center lg:text-justify ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'} `}
+                      className={`py-2 text-center lg:text-justify ${isLast && 'font-semibold'} ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'} `}
                     >
                       {item?.desctioption}
                     </p>
@@ -436,9 +437,15 @@ const WhatAreService = ({ whatareaiseo }: any) => {
 
             <div
               ref={ref}
-              className={`group order-1 flex items-center justify-center transition-all duration-1000 lg:items-start lg:justify-start ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
+              className={`group order-1 my-auto flex items-center justify-center transition-all duration-1000 lg:items-start lg:justify-start ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
             >
-              <Image src={whatareaiseo?.img} width={602} height={50} alt="" />
+              <Image
+                src={whatareaiseo?.img}
+                width={881}
+                height={581}
+                alt=""
+                className="ml-0 aspect-[881/581] w-[clamp(18rem,55vw,55.063rem)] lg:ml-[-20%]"
+              />
             </div>
           </MaxWidthWrapper>
           <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
