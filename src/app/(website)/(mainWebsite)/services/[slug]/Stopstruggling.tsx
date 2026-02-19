@@ -26,25 +26,23 @@ const Stopstruggling = ({ stopStruggling }: any) => {
         {stopStruggling?.isCenter ? (
 
           <div
-            className={`mx-auto w-[100%] text-center transition-all duration-1000 lg:w-[70%] ${isVisible
-              ? 'translate-y-0 opacity-100'
-              : 'translate-y-12 opacity-0'
-              }`}
+            className={`mx-auto w-[100%] text-center transition-all duration-1000 lg:w-[70%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
           >
-
-            <h2 className="mx-auto w-[100%] text-center font-semibold text-[#FFFFFF] lg:w-[70%]">
-              {stopStruggling?.title}
+            <h2
+              className={`mx-auto w-[100%] text-center font-normal text-[#FFFFFF] lg:w-[70%] ${stopStruggling?.span && 'font-normal'}`}
+            >
+              {stopStruggling?.span}
             </h2>
 
-            {/* <p className="whitespace-pre-line text-center text-[#FFFFFF]">
-              {stopStruggling?.description?.map((item: any, idx: number) => {
-                return (
-                  <p key={idx} className="py-[1rem] text-center text-[#FFFFFF]">
-                    {item}
-                  </p>
-                );
-              })}
-            </p> */}
+            {stopStruggling?.span ? (
+              <h1 className="mx-auto w-[100%] text-center text-[#FFFFFF] ">
+                {stopStruggling?.title}
+              </h1>
+            ) : (
+              <h2 className="mx-auto w-[100%] text-center text-[#FFFFFF] ">
+                {stopStruggling?.title}
+              </h2>
+            )}
 
             <div className="text-center space-y-4">
               {stopStruggling?.description?.map(
@@ -104,6 +102,7 @@ const Stopstruggling = ({ stopStruggling }: any) => {
                     isBorder={true}
                     isHoverBgBlue={stopStruggling?.isHoverBgBlue && true}
                     handleClick={() => setOpen(true)}
+                    buttonWidth='!w-[10rem]'
                   />
                 </div>
               )}
