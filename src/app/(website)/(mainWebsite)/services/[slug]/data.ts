@@ -4334,9 +4334,11 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: true,
-      code: '06',
+      code: '07',
       img: whiteSeoKeyStatsImg,
       heading: 'White Label SEO Insights',
+      bgColor:"#000000",
+      isTextWhite:true,
       isCard: false,
       list: [
         {
@@ -4642,6 +4644,9 @@ brand appears in AI summaries and citations.`,
 
     serviceResult: {
       isVisible: true,
+      breakIndex: 3,
+      bgColor: '#FFF8F0',
+      isInCenter: false,
       heading: 'Common White Label SEO Use Cases',
       isVariant: '03',
       description: [
@@ -5223,6 +5228,7 @@ brand appears in AI summaries and citations.`,
       code: '07',
       img: whiteServicesKeyStatsImg,
       heading: 'Why Choose White-Label Delivery',
+      bgColor:"#FB9100",
       isCard: false,
       list: [
         {
@@ -5932,6 +5938,9 @@ brand appears in AI summaries and citations.`,
 
     serviceResult: {
       isVisible: false,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
       heading: 'Common White Label SEO Use Cases',
       isVariant: '03',
       description: [

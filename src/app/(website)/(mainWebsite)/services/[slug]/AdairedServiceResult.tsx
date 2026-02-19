@@ -47,10 +47,11 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
             <div className="flex flex-col justify-between gap-[6rem] pt-[3rem] lg:flex-row">
               <div
                 ref={ref}
-                className={`relative h-[480px] w-full rounded-[20px] transition-all duration-1000 lg:w-[42%] ${isVisible
+                className={`relative h-[480px] w-full rounded-[20px] transition-all duration-1000 lg:w-[42%] ${
+                  isVisible
                     ? 'translate-x-0 opacity-100'
                     : '-translate-x-16 opacity-0'
-                  }`}
+                }`}
               >
                 {/* Main image */}
                 <Image
@@ -84,10 +85,11 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
                       key={index}
                       onClick={() => setActiveIndex(isActive ? null : index)}
                       onMouseEnter={() => setActiveIndex(index)}
-                      className={`cursor-pointer rounded-[20px] border p-[1.5rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${aiseoResult?.isBgColor ? 'bg-[#FFFFFF]' : 'bg-[#F3F3F3]'} ${isActive
+                      className={`cursor-pointer rounded-[20px] border p-[1.5rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${aiseoResult?.isBgColor ? 'bg-[#FFFFFF]' : 'bg-[#F3F3F3]'} ${
+                        isActive
                           ? 'border-[#FB9100]/20 bg-[#F3F3F3]'
                           : 'border-[#00000014] bg-[#F3F3F3]'
-                        }`}
+                      }`}
                       style={{
                         transitionDelay: `${index * 280}ms`, // 👈 stagger here
                       }}
@@ -121,10 +123,11 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
 
                       {/* BODY */}
                       <div
-                        className={`ease-in-ou grid overflow-hidden transition-[grid-template-rows,opacity,margin] duration-700 ${isActive
+                        className={`ease-in-ou grid overflow-hidden transition-[grid-template-rows,opacity,margin] duration-700 ${
+                          isActive
                             ? 'mt-3 grid-rows-[1fr] opacity-100'
                             : 'grid-rows-[0fr] opacity-0'
-                          }`}
+                        }`}
                       >
                         <div className="overflow-hidden">
                           {item?.description?.map((desc: string, i: number) => (
@@ -159,10 +162,11 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
             <div className="flex flex-col justify-between gap-[6rem] pt-[3rem] lg:flex-row">
               <div
                 ref={ref}
-                className={`relative h-[600px] w-full rounded-[20px] transition-all duration-1000 lg:w-[42%] ${isVisible
+                className={`relative h-[600px] w-full rounded-[20px] transition-all duration-1000 lg:w-[42%] ${
+                  isVisible
                     ? 'translate-x-0 opacity-100'
                     : '-translate-x-16 opacity-0'
-                  }`}
+                }`}
               >
                 {/* Main image */}
                 <Image
@@ -196,10 +200,11 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
                       key={index}
                       onClick={() => setActiveIndex(isActive ? null : index)}
                       onMouseEnter={() => setActiveIndex(index)}
-                      className={`cursor-pointer rounded-[20px] border p-[1.5rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${aiseoResult?.isBgColor ? 'bg-[#FFFFFF]' : 'bg-[#F3F3F3]'} ${isActive
+                      className={`cursor-pointer rounded-[20px] border p-[1.5rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${aiseoResult?.isBgColor ? 'bg-[#FFFFFF]' : 'bg-[#F3F3F3]'} ${
+                        isActive
                           ? 'border-[#FB9100]/20 bg-[#FFFFFF]'
                           : 'border-[#00000014] bg-[#FFFFFF]'
-                        }`}
+                      }`}
                       style={{
                         transitionDelay: `${index * 280}ms`, // 👈 stagger here
                       }}
@@ -232,10 +237,11 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
 
                       {/* BODY */}
                       <div
-                        className={`ease-in-ou grid overflow-hidden transition-[grid-template-rows,opacity,margin] duration-700 ${isActive
+                        className={`ease-in-ou grid overflow-hidden transition-[grid-template-rows,opacity,margin] duration-700 ${
+                          isActive
                             ? 'mt-3 grid-rows-[1fr] opacity-100'
                             : 'grid-rows-[0fr] opacity-0'
-                          }`}
+                        }`}
                       >
                         <div className="overflow-hidden">
                           {item?.description?.map((desc: string, i: number) => (
@@ -261,29 +267,24 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
             <div
               className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
-              <div className="justify-between lg:flex">
-                <div
-                  className={`${aiseoResult?.description?.length > 0 ? 'w-[100%] pr-[10%] lg:w-[36%]' : 'flex w-[100%] items-center justify-center'}`}
-                >
-                  <Heading title={aiseoResult?.heading} />
-                </div>
-                <div
-                  className={`${aiseoResult?.description?.length > 0 ? 'w-[100%] lg:w-[41%]' : 'w-[0%]'}`}
-                >
-                  {aiseoResult?.description?.map((item: any) => {
-                    return <p className="my-3">{item}</p>;
-                  })}
-                </div>
-              </div>
+              <Heading
+                breakIndex={aiseoResult?.breakIndex}
+                title={aiseoResult?.heading}
+                isInCenter={aiseoResult?.isInCenter}
+                description={aiseoResult?.description}
+                isDecVarticle={!aiseoResult?.isInCenter}
+                isBgWhite={!aiseoResult?.bgColor && true}
+              />
             </div>
 
             <div className="flex flex-col justify-between gap-[6rem] pt-[3rem] lg:flex-row">
               <div
                 ref={ref}
-                className={`relative h-[480px] w-full rounded-[20px] transition-all duration-1000 lg:w-[48%] ${isVisible
+                className={`relative h-[480px] w-full rounded-[20px] transition-all duration-1000 lg:w-[48%] ${
+                  isVisible
                     ? 'translate-x-0 opacity-100'
                     : '-translate-x-16 opacity-0'
-                  }`}
+                }`}
               >
                 {/* Main image */}
                 <Image
@@ -305,10 +306,11 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
                       key={index}
                       onClick={() => setActiveIndex(isActive ? null : index)}
                       onMouseEnter={() => setActiveIndex(index)}
-                      className={`cursor-pointer rounded-[20px] border border-[#FB9100]/30  p-[1.5rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${aiseoResult?.isBgColor ? 'bg-[#FFFFFF]' : 'bg-[#F3F3F3]'} ${isActive
+                      className={`cursor-pointer rounded-[20px] border border-[#FB9100]/30 p-[1.5rem] transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${aiseoResult?.isBgColor ? 'bg-[#FFFFFF]' : 'bg-[#F3F3F3]'} ${
+                        isActive
                           ? 'border-[#FB9100]/20 bg-[#F3F3F3]'
                           : 'border-[#00000014] bg-[#F3F3F3]'
-                        }`}
+                      }`}
                       style={{
                         transitionDelay: `${index * 280}ms`, // 👈 stagger here
                       }}
@@ -342,10 +344,11 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
 
                       {/* BODY */}
                       <div
-                        className={`ease-in-ou grid overflow-hidden transition-[grid-template-rows,opacity,margin] duration-700 ${isActive
+                        className={`ease-in-ou grid overflow-hidden transition-[grid-template-rows,opacity,margin] duration-700 ${
+                          isActive
                             ? 'mt-3 grid-rows-[1fr] opacity-100'
                             : 'grid-rows-[0fr] opacity-0'
-                          }`}
+                        }`}
                       >
                         <div className="overflow-hidden">
                           {item?.description?.map((desc: string, i: number) => (

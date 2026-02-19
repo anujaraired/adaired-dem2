@@ -66,7 +66,7 @@ const KeyStats = ({ keyStats }: any) => {
   };
 
   return (
-    <div ref={ref} className="py-[3rem] lg:py-[4rem]">
+    <div ref={ref} className={`py-[3rem] lg:py-[4rem]`}>
       <MaxWidthWrapper>
         {keyStats?.code === '01' && (
           <div>
@@ -404,7 +404,6 @@ const KeyStats = ({ keyStats }: any) => {
             className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
           >
             <Heading
-              // breakIndex={6}
               isBgWhite={true}
               isInCenter={true}
               subTitle={''}
@@ -418,7 +417,17 @@ const KeyStats = ({ keyStats }: any) => {
                     key={index}
                     onMouseEnter={() => setActiveTab(index)}
                     onMouseLeave={() => setActiveTab(0)}
-                    className={`relative flex w-[100%] flex-col px-[2rem] py-[2rem] transition-all duration-300 ease-in-out ${activeTab === index ? 'bg-[#FDE0BA]/50 text-white' : 'bg-[#F5F5F5]/50 text-black'}`}
+                    className={`relative flex w-full flex-col px-[2rem] py-[2rem] transition-all duration-300 ease-in-out`}
+                    style={{
+                      backgroundColor:
+                        activeTab === index
+                          ? keyStats?.bgColor
+                            ? `${keyStats.bgColor}66` // 10% opacity
+                            : '#FFFFFF1A'
+                          : keyStats?.bgColor
+                            ? `${keyStats.bgColor}1A` // 40% opacity
+                            : '#FFFFFF66',
+                    }}
                   >
                     <div
                       className={`flex w-full items-start gap-8 transition-all duration-700 ease-in-out lg:w-[95%] lg:items-center lg:gap-16 lg:text-left`}
@@ -426,26 +435,42 @@ const KeyStats = ({ keyStats }: any) => {
                         transitionDelay: `${index * 280}ms`,
                       }}
                     >
-                      <h2 className="transition-all duration-300 ease-in-out">
+                      <h2
+                        className={`transition-all duration-300 ease-in-out ${
+                          keyStats?.isTextWhite && activeTab === index
+                            ? 'text-[#FFFFFF]'
+                            : ''
+                        }`}
+                      >
                         {`0${index + 1}`}
                       </h2>
 
                       <p
                         className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${
-                          activeTab === index ? 'font-semibold' : ''
-                        }`}
+                          keyStats?.isTextWhite && activeTab === index
+                            ? 'text-[#FFFFFF]'
+                            : ''
+                        } ${activeTab === index ? 'font-semibold' : ''}`}
                       >
                         {item.desctioption}
                       </p>
                     </div>
                     {activeTab === index && (
-                      <div className="absolute right-0 top-0 h-full w-2 rounded-r-[1rem] bg-[#FB9100]"></div>
+                      <div
+                        className={`absolute right-0 top-0 h-full w-2 rounded-r-[1rem] bg-[${keyStats?.bgColor || '#FFFFFF'}]`}
+                      ></div>
                     )}
                   </div>
                 ))}
               </div>
 
-              <div className="relative flex h-full items-center justify-center rounded-[20px] bg-[#FFD79F]/30">
+              <div
+                className={`relative flex h-full items-center justify-center rounded-[10px] ${
+                  keyStats?.bgColor
+                    ? `bg-[${keyStats.bgColor}]/10`
+                    : 'bg-[#FFFFFF]'
+                }`}
+              >
                 <Image
                   src={keyStats?.img}
                   width={740}
