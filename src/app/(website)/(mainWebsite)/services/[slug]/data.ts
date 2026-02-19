@@ -270,7 +270,7 @@ export const SERVICES_DATA = {
     metaDetails: {
       title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
       description:
-        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+        'Top-rated SEO company in India delivering higher rankings, organic traffic, and real growth for businesses in the USA, UK, UAE, Canada and Australia.',
       alternates: {
         canonical: '/seo-company-india',
       },
@@ -370,7 +370,7 @@ export const SERVICES_DATA = {
     },
     importantToBussiness: {
       isVariant: '01',
-      breakIndex: 4,
+      breakIndex: 6,
       isVisible: true,
       heading: 'Why is SEO Important to Your Business?',
       buttonName: '',
@@ -758,6 +758,7 @@ export const SERVICES_DATA = {
     },
     stopStruggling: {
       isVisible: true,
+      isCenter: true,
       subtitle: '',
       title: 'Claim Your Free Audit Before Competitors Do!',
       description: [
@@ -899,7 +900,7 @@ export const SERVICES_DATA = {
     metaDetails: {
       title: 'AI SEO Comapany India | Best AI SEO Services',
       description:
-        'Stay visible in AI search results with Adaired’s AI-powered SEO services. We optimize content for ChatGPT, Gemini, and modern search engines to boost traffic, rankings, and conversions.',
+        'LLM-driven AI SEO services in India for ChatGPT, Gemini & Google AI Overviews to enhance search visibility, rankings, and long-term organic performance.',
       alternates: {
         canonical: '/ai-seo-company-india',
       },
@@ -1402,6 +1403,7 @@ export const SERVICES_DATA = {
     },
     stopStruggling: {
       isVisible: true,
+      isCenter: true,
       subtitle: '',
       title:
         'Stop struggling with low traffic and poor visibility. Let Adaired’s AI-powered SEO audit uncover the gaps, optimize your site, and help your business outrank competitors.',
@@ -2056,6 +2058,9 @@ brand appears in AI summaries and citations.`,
     // NEW
     whatMissing: {
       isVisible: true,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
       heading:
         'What Your Business Could Be Missing And How Link Building Can Help?',
       list: [
@@ -2089,6 +2094,7 @@ brand appears in AI summaries and citations.`,
     // NEW
     stopStruggling: {
       isVisible: true,
+      isCenter: true,
       isHoverBgBlue: true,
       subtitle: '',
       title:
@@ -2670,6 +2676,7 @@ brand appears in AI summaries and citations.`,
 
     stopStruggling: {
       isVisible: true,
+      isCenter: true,
       subtitle: '',
       title: 'Every Successful Website Starts with A Clear Strategy.',
       button: 'Schedule a Strategy Call',
@@ -2982,6 +2989,8 @@ brand appears in AI summaries and citations.`,
 
     whatMissing: {
       isVisible: true,
+      breakIndex: 5,
+      bgColor: '#FAFAFA',
       heading: 'What Are Local SEO Ranking Factors?',
       description: [
         `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
@@ -3021,8 +3030,8 @@ brand appears in AI summaries and citations.`,
 
     notSeeingResult: {
       isVisible: true,
-      heading: `Still unsure about investing in local SEO? You shouldn’t be.`,
-      description: '',
+      heading: `Still unsure about investing in local SEO?`,
+      description: 'You shouldn’t be.',
       buttonName: 'Book a call with a local SEO expert!',
       img: LocalNotSee,
       bgImage: LocalNotSeeBg,
@@ -3030,7 +3039,7 @@ brand appears in AI summaries and citations.`,
 
     importantToBussiness: {
       isVariant: '01',
-      breakIndex: 4,
+      breakIndex: 6,
       isVisible: true,
       heading: 'Local SEO Services Designed to Grow Your Business',
       buttonName: 'Get Your Free Local SEO Audit',
@@ -3195,6 +3204,9 @@ brand appears in AI summaries and citations.`,
 
     whatMkeDeferent: {
       isVisible: true,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
       heading: 'Why Choose Adaired for Your Local Search Engine Optimization ?',
       description: [],
       list: [
@@ -3254,9 +3266,10 @@ brand appears in AI summaries and citations.`,
 
     stopStruggling: {
       isVisible: true,
+      isCenter: true,
       subtitle: '',
-      title: `If You’re Not Ranking Locally, You’re Losing Business`,
-      // span: 'You’re Losing Business',
+      span: `If You’re Not Ranking Locally,`,
+      title: 'You’re Losing Business',
       button: 'Rank Higher on Local Search',
       description: [],
       bgImg: stop_struggle3,
@@ -3741,6 +3754,7 @@ brand appears in AI summaries and citations.`,
 
     stopStruggling: {
       isVisible: true,
+      isCenter: true,
       subtitle: '',
       title: '',
       description: [
@@ -3884,6 +3898,7 @@ brand appears in AI summaries and citations.`,
 
     whatMkeDeferent: {
       isVisible: true,
+      isInCenter: false,
       heading: 'Why Choose Adaired as Your White Label Social Media Partner?',
       description: [
         `Selecting the right white label social media agency directly impacts your client satisfaction, service quality, and long-term growth. 
@@ -4114,6 +4129,9 @@ brand appears in AI summaries and citations.`,
 
     whatMissing: {
       isVisible: false,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
       heading: 'What Are Local SEO Ranking Factors?',
       description: [
         `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
@@ -4222,9 +4240,9 @@ brand appears in AI summaries and citations.`,
 
     notSeeingResult: {
       isVisible: false,
-      heading: `Still unsure about investing in local SEO? You shouldn’t be.`,
+      heading: ``,
       description: '',
-      buttonName: 'Book a call with a local SEO expert!',
+      buttonName: '',
       img: LocalNotSee,
       bgImage: LocalNotSeeBg,
     },
@@ -4322,9 +4340,11 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: true,
-      code: '06',
+      code: '07',
       img: whiteSeoKeyStatsImg,
       heading: 'White Label SEO Insights',
+      bgColor:"#000000",
+      isTextWhite:true,
       isCard: false,
       list: [
         {
@@ -4541,7 +4561,7 @@ brand appears in AI summaries and citations.`,
 
     importantToBussiness: {
       isVariant: '01',
-      breakIndex: 4,
+      breakIndex: 8,
       isVisible: true,
       heading: 'What Will Our White Label SEO Services Cover?',
       description: [
@@ -4630,6 +4650,9 @@ brand appears in AI summaries and citations.`,
 
     serviceResult: {
       isVisible: true,
+      breakIndex: 3,
+      bgColor: '#FFF8F0',
+      isInCenter: false,
       heading: 'Common White Label SEO Use Cases',
       isVariant: '03',
       description: [
@@ -4678,7 +4701,9 @@ brand appears in AI summaries and citations.`,
     whatMkeDeferent: {
       isVisible: true,
       isVariant: '02',
+      isInCenter: true,
       heading: 'How White Label SEO Works at Adaired',
+      bgColor: true,
       description: [
         `At Adaired, our white-label SEO process is designed to let agencies retain full client ownership while we handle execution behind the scenes.`,
       ],
@@ -4819,6 +4844,7 @@ brand appears in AI summaries and citations.`,
 
     stopStruggling: {
       isVisible: false,
+      isCenter: true,
       subtitle: '',
       title: '',
       description: `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
@@ -5034,6 +5060,9 @@ brand appears in AI summaries and citations.`,
 
     whatMissing: {
       isVisible: false,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
       heading: 'What Are Local SEO Ranking Factors?',
       description: [
         `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
@@ -5142,9 +5171,9 @@ brand appears in AI summaries and citations.`,
 
     notSeeingResult: {
       isVisible: false,
-      heading: `Still unsure about investing in local SEO? You shouldn’t be.`,
+      heading: ``,
       description: '',
-      buttonName: 'Book a call with a local SEO expert!',
+      buttonName: '',
       img: LocalNotSee,
       bgImage: LocalNotSeeBg,
     },
@@ -5206,6 +5235,7 @@ brand appears in AI summaries and citations.`,
       code: '07',
       img: whiteServicesKeyStatsImg,
       heading: 'Why Choose White-Label Delivery',
+      bgColor:"#FB9100",
       isCard: false,
       list: [
         {
@@ -5828,6 +5858,7 @@ brand appears in AI summaries and citations.`,
 
     importantToBussiness: {
       isVisible: false,
+      breakIndex: 5,
       heading: 'What Will Our White Label SEO Services Cover?',
       description: [
         `Being a white-label SEO services agency, we are intended to help agencies throughout the SEO lifecycle while remaining brand neutral.`,
@@ -5915,6 +5946,9 @@ brand appears in AI summaries and citations.`,
 
     serviceResult: {
       isVisible: false,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
       heading: 'Common White Label SEO Use Cases',
       isVariant: '03',
       description: [
@@ -6001,6 +6035,7 @@ brand appears in AI summaries and citations.`,
 
     stopStruggling: {
       isVisible: false,
+      isCenter: true,
       subtitle: '',
       title: '',
       description: [
@@ -6119,9 +6154,9 @@ brand appears in AI summaries and citations.`,
 
     notSeeingResult: {
       isVisible: false,
-      heading: `Still unsure about investing in local SEO? You shouldn’t be.`,
+      heading: ``,
       description: '',
-      buttonName: 'Book a call with a local SEO expert!',
+      buttonName: '',
       img: LocalNotSee,
       bgImage: LocalNotSeeBg,
     },

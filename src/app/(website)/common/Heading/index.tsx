@@ -22,6 +22,7 @@ export interface IHeading {
   breakIndex?: number;
   isLabel?: boolean;
   spanBreakIndex?: number;
+  isCapitalize?: boolean;
 }
 
 const Heading = ({
@@ -42,6 +43,7 @@ const Heading = ({
   spanBreakIndex,
   isVarticle,
   isLabel,
+  isCapitalize,
 }: IHeading) => {
   const safeTitle = title ?? '';
   const safeSpan = span ?? '';
@@ -240,7 +242,7 @@ const Heading = ({
             <div
               className={`${isDecVarticle && 'grid grid-cols-1 lg:grid-cols-2 lg:gap-[10rem]'}`}
             >
-              <div className="md:flex` block w-fit justify-center justify-items-center gap-3 md:justify-center md:justify-items-center lg:justify-start lg:justify-items-start">
+              <div className="md:flex` block w-full justify-center justify-items-center gap-3 md:justify-center md:justify-items-center lg:w-fit lg:justify-start lg:justify-items-start">
                 {isLabel && (
                   <div className="flex w-fit gap-3 rounded-full border-[0.71px] border-[#000000]/20 px-[1rem] py-[0.25rem]">
                     <Image
@@ -258,7 +260,7 @@ const Heading = ({
                 <div className="mt-[0.8rem] md:mt-[8px] lg:mt-[0.5rem]">
                   {isH1 ? (
                     <h1
-                      className={`text-center capitalize lg:text-left ${isBgWhite ? 'text-[#ffffff]' : 'text-[#000000]'}`}
+                      className={`text-center ${isCapitalize && 'capitalize'} lg:text-left ${isBgWhite ? 'text-[#ffffff]' : 'text-[#000000]'}`}
                     >
                       {breakIndex !== undefined ? (
                         <>

@@ -125,13 +125,13 @@ const AreYouTired = ({ areYouTired }: any) => {
                                 />
                             </div> */}
 
-                            <div className="flex justify-center">
+                            <div className="group flex justify-center">
                                 <Image
                                     src={SocialMediaSolutions}
                                     width={600}
                                     height={500}
                                     alt="are-you-tired"
-                                    className="w-full h-auto object-contain"
+                                    className="w-full h-auto object-contain transition-transform duration-300 ease-out group-hover:scale-110"
                                 />
                             </div>
 
