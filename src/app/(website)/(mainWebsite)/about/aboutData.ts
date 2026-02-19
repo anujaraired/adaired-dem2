@@ -1,19 +1,89 @@
+import aboutBannerImg from '../../../../../public/assets/images/about/aboutBannerImg.png';
+
+import localServiceResultImg from '../../../../../public/assets/localseo/localServiceResultImg.png';
+import localServiceResultIcon from '../../../../../public/assets/localseo/localServiceResultIcon.png';
+
+import howItStartedImg_1 from '../../../../../public/assets/images/about/howItStartedImg_1.png';
+import howItStartedImg_2 from '../../../../../public/assets/images/about/howItStartedImg_2.png';
+import howItStartedImg_3 from '../../../../../public/assets/images/about/howItStartedImg_3.png';
+
 export const ABOUT_DATA = {
     banner: {
-        isCenter: true,
+        code: '09',
         isVisible: true,
         heading: 'We Turn Digital Marketing',
         label: 'Into Predictable Growth',
-        span: ``,
-        desc: '',
-        subheading: `Performance-focused strategies, real data, and measurable ROI  - No Guesswork!`,
+        subheading: `Performance-focused strategies, real data, and measurable ROI - No Guesswork!`,
         button: 'Book a Strategy Call',
+        Img: aboutBannerImg,
+        records: [
+            {
+                number: 150,
+                suffix: '+ ',
+                suffix1: '',
+                name: 'Brands Served',
+            },
+            {
+                number: 3,
+                suffix: 'M+ ',
+                suffix1: '',
+                name: 'Leads Generated',
+            },
+            {
+                number: 30,
+                suffix: 'M',
+                suffix1: '$',
+                name: 'In Ad Spend Managed',
+            },
+            {
+                number: 264,
+                suffix: '%',
+                suffix1: '',
+                name: 'Average ROI Increase',
+            },
+        ],
+    },
+
+    serviceResult: {
+        isVisible: true,
+        isVariant: '02',
+        heading: '',
+        description: [
+            ``,
+        ],
+        isBgColor: false,
+        img: localServiceResultImg,
+        list: [
+            {
+                img: localServiceResultIcon,
+                name: 'Our Vision',
+                description: [
+                    `To make digital growth simpler, smarter, and accessible for brands everywhere.`,
+                    `We envision a digital world where marketing is driven by clarity, technology, and measurable outcomes, not confusion or guesswork. 
+                    Our vision is to help brands confidently navigate digital transformation and turn innovation into sustainable growth.`,
+                ],
+            },
+            {
+                img: localServiceResultIcon,
+                name: 'Our Mission',
+                description: [
+                    ``,
+                ],
+            },
+            {
+                img: localServiceResultIcon,
+                name: 'Our Mission',
+                description: [
+                    ``,
+                ],
+            },
+        ],
     },
 
     keyStats: {
         isVisible: true,
-        code: '04',
-        heading: 'Did You Know?',
+        code: '09',
+        heading: 'The Pillars: What We Actually Stand For',
         isCard: false,
         list: [
             {
@@ -41,6 +111,59 @@ export const ABOUT_DATA = {
                 ],
             },
         ],
+    },
+
+    howItStarted: {
+        isVisible: true,
+        heading: 'How It All Started',
+        timeline: [
+            {
+                img: howItStartedImg_1,
+                title: "Our Story",
+                desc: [
+                    `Adaired Digital Media was founded in 2017 with a simple belief: digital marketing should be transparent, honest, and based on results, not empty promises.`,
+                    `What began as a focused effort to help brands cut through the digital complexity has grown into a performance-driven digital agency trusted by growth-oriented companies.`,
+                    `Initially, we saw brands invest heavily in digital marketing without knowing what worked, what didn't, and why. Campaigns appeared promising on paper but failed to produce meaningful business results. `,
+                    `That gap between effort and impact became the foundation for Adaired Digital Media's current existence.`,
+                ]
+            },
+            {
+                img: howItStartedImg_2,
+                title: "The Problem We Set Out to Solve",
+                desc: [
+                    `The digital marketing industry is crowded with noise, jargon, and one-size-fits-all solutions. `,
+                    `Too often, brands are left with perplexing reports, unclear ROI, and strategies that do not align with actual business objectives.`,
+                    `We set out to address this issue by reintroducing clarity, accountability, and performance into digital marketing. 
+                    Instead of chasing trends and metrics, we prioritize growth, conversions, and long-term value. `,
+                    `Our approach is based on transparency, data-driven decision-making, and strategies tailored to each brand's unique challenges and opportunities.`,
+                ]
+            },
+            {
+                img: howItStartedImg_3,
+                title: "The Way We Deliver Results",
+                desc: [
+                    `As a lead generation-focused digital marketing agency, we put strategy and performance first. 
+                    Every engagement begins with a thorough understanding of our clients' business objectives, target audience, and competitive environment.`,
+                    `From there, we develop data-driven digital strategies that can scale and adapt as markets change.`,
+                    `Continuous optimization, real-time insights, and clear performance tracking serve as the foundation for execution. `,
+                    `We are constantly testing and refining our strategies to ensure that every digital effort yields measurable growth, while also keeping clients updated through open communication and reports.`,
+                ]
+            },
+        ],
+    },
+
+    seeDifference: {
+        isVisible: true,
+        image: 'Static Website Images/about_main_anwqk5',
+        subTitle: '',
+        title:
+            'We’re Not a Typical Digital Agency: You’ll See the Difference!',
+        description: `We are problem solvers, data thinkers, and growth partners who believe that great digital marketing requires collaboration, curiosity, and continuous improvement. 
+        Rather than working in silos, we work as a cohesive team dedicated to providing value, clarity, and measurable results to our clients.`,
+        cursive:
+            'As a powerhouse digital agency, we craft bold ideas backed by data and fueled by creativity that attract attention, command authority, and convert consistently.',
+        btnText: 'See What’s Next',
+        btnHref: '/about',
     },
 
     readyToStart: {
