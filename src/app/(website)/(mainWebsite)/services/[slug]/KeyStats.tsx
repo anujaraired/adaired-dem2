@@ -18,19 +18,35 @@ const KeyStats = ({ keyStats }: any) => {
   const [visibleCards, setVisibleCards] = useState(3);
   const [index, setIndex] = useState(0);
 
+  // useEffect(() => {
+  //   const updateVisibleCards = () => {
+  //     if (window.innerWidth >= 1024) {
+  //       setVisibleCards(3); // laptop
+  //     } else if (window.innerWidth >= 768) {
+  //       setVisibleCards(2); // tablet
+  //     } else {
+  //       setVisibleCards(1); // mobile
+  //     }
+  //   };
+
+  //   updateVisibleCards();
+  //   window.addEventListener('resize', updateVisibleCards);
+  //   return () => window.removeEventListener('resize', updateVisibleCards);
+  // }, []);
   useEffect(() => {
     const updateVisibleCards = () => {
-      if (window.innerWidth >= 1024) {
-        setVisibleCards(3); // laptop
-      } else if (window.innerWidth >= 768) {
-        setVisibleCards(2); // tablet
+      if (window.innerWidth < 640) {
+        setVisibleCards(1); // sm
+      } else if (window.innerWidth < 1024) {
+        setVisibleCards(2); // md
       } else {
-        setVisibleCards(1); // mobile
+        setVisibleCards(3); // lg
       }
     };
 
     updateVisibleCards();
     window.addEventListener('resize', updateVisibleCards);
+
     return () => window.removeEventListener('resize', updateVisibleCards);
   }, []);
 
@@ -294,14 +310,14 @@ const KeyStats = ({ keyStats }: any) => {
                   <div
                     key={idx}
                     // style={{ minWidth: `${100 / visibleCards}%` }}
-                    style={{
-                      minWidth: `calc(${100 / visibleCards}% - ${
-                        visibleCards === 1 ? 0 : '0.67rem'
-                      })`,
-                    }}
+                    // style={{
+                    //   minWidth: `calc(${100 / visibleCards}% - ${
+                    //     visibleCards === 1 ? 0 : '0.67rem'
+                    //   })`,
+                    // }}
                     onMouseEnter={() => setIsActive(idx)}
                     onMouseLeave={() => setIsActive(null)}
-                    className={`flex flex-col items-center rounded-[1rem] p-[2rem] transition-all duration-300 ease-in-out lg:items-start ${isActive === idx ? 'rounded-[1rem] bg-[#FB9100]' : 'bg-[#F9F9F9]'}`}
+                    className={`flex min-w-full flex-col items-center rounded-[1rem] p-[2rem] transition-all duration-300 ease-in-out sm:min-w-[50%] lg:min-w-[33.33%] lg:items-start ${isActive === idx ? 'rounded-[1rem] bg-[#FB9100]' : 'bg-[#F9F9F9]'}`}
                   >
                     <Image
                       src={isActive === idx ? ranking : ranking2}

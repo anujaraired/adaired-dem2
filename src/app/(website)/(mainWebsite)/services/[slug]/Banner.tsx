@@ -480,9 +480,9 @@ const Banner = ({ banner }: any) => {
               </div>
             )}
             {banner?.code === '05' && (
-              <div className="relative z-10 block justify-between py-[6em] lg:flex">
+              <div className="relative z-10 block justify-between pb-[3em] pt-[5em] lg:flex lg:py-[4em]">
                 <div
-                  className={`my-auto w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[45%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
+                  className={`my-auto w-[100%] space-y-5 transition-all duration-1000 lg:w-[50%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
                 >
                   <div
                     className={`'grid lg:gap-[10rem]'} grid-cols-1 lg:grid-cols-2`}
@@ -518,7 +518,7 @@ const Banner = ({ banner }: any) => {
                     width={784}
                     height={654}
                     alt="Web Development Banner"
-                    className=""
+                    className="aspect-[784/654] w-[clamp(18rem,38.49vw,49rem)] md:w-[clamp(30rem,38.49vw,49rem)] lg:w-[clamp(18rem,38.49vw,49rem)]"
                   />
                 </div>
               </div>
@@ -725,7 +725,7 @@ const Banner = ({ banner }: any) => {
                       ))}
                     </div>
                   </div>
-                  <div className="flex pt-[2rem] justify-center lg:justify-start">
+                  <div className="flex justify-center pt-[2rem] lg:justify-start">
                     <SaveAndCancel
                       name={banner?.button}
                       isIcon={true}
@@ -733,7 +733,7 @@ const Banner = ({ banner }: any) => {
                     />
                   </div>
                 </div>
-                <div className="pb-[4rem] lg:pb-[6rem] w-[100%] lg:w-[45%] pt-[4rem] lg:pt-[9rem] flex justify-end justify-items-end">
+                <div className="flex w-[100%] justify-end justify-items-end pb-[4rem] pt-[4rem] lg:w-[45%] lg:pb-[6rem] lg:pt-[9rem]">
                   <Image
                     src={banner?.bgImg}
                     width={768}
