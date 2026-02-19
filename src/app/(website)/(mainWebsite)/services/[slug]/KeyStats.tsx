@@ -242,11 +242,10 @@ const KeyStats = ({ keyStats }: any) => {
               />
             </div>
             <div
-              className={`grid grid-cols-1 gap-4 pt-[1rem] transition-all duration-700 md:grid-cols-2 lg:grid-cols-4 ${
-                isVisible
+              className={`grid grid-cols-1 gap-4 pt-[1rem] transition-all duration-700 md:grid-cols-2 lg:grid-cols-4 ${isVisible
                   ? 'translate-y-0 opacity-100'
                   : 'translate-y-10 opacity-0'
-              }`}
+                }`}
             >
               {keyStats?.list?.map((item: any, idx: number) => (
                 <div
@@ -374,9 +373,8 @@ const KeyStats = ({ keyStats }: any) => {
                       </h2>
 
                       <p
-                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${
-                          activeTab === index ? 'font-semibold text-white' : ''
-                        }`}
+                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${activeTab === index ? 'font-semibold text-white' : ''
+                          }`}
                       >
                         {item.desctioption}
                       </p>
@@ -538,6 +536,41 @@ const KeyStats = ({ keyStats }: any) => {
                   className={`object-fill transition-opacity transition-transform duration-700 ease-in-out group-hover:scale-110`}
                 />
               </div>
+            </div>
+          </div>
+        )}
+        {keyStats?.code === '09' && (
+          <div>
+            <div
+              className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+            >
+              <Heading
+                isBgWhite={true}
+                isInCenter={true}
+                title={keyStats?.heading}
+              />
+            </div>
+            <div
+              className={`grid grid-cols-1 gap-4 pt-[1rem] transition-all duration-700 md:grid-cols-2 lg:grid-cols-4 ${isVisible
+                  ? 'translate-y-0 opacity-100'
+                  : 'translate-y-10 opacity-0'
+                }`}
+            >
+              {keyStats?.list?.map((item: any, idx: number) => (
+                <div
+                  key={idx}
+                  className="flex flex-col items-center rounded-[1rem] border border-[#F28F17]/20 p-5 text-center overflow-hidden lg:items-start lg:text-left transition-all duration-700 transition-transform hover:duration-400 hover:shadow-xl hover:-translate-y-4 hover:bg-gradient-to-br from-[#ebf8ff] via-[#FFFFFF] to-[#fffaf0]"
+                  style={{
+                    transitionDelay: isVisible ? '0ms' : `${idx * 280}ms`,
+                  }}
+                >
+                  <h2 className="F28F17 mx-auto w-fit rounded-xl border border-[#F28F17]/10 bg-[#FFEACD] px-3 py-1 font-normal text-[#FB9100] lg:mx-0">
+                    {`0${idx + 1}`}
+                  </h2>
+                  <p className="pt-16 font-bold">{item?.title}</p>
+                  <p className="pt-6">{item?.description}</p>
+                </div>
+              ))}
             </div>
           </div>
         )}
