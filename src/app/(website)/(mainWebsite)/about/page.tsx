@@ -10,7 +10,6 @@ import Testimonial from '../../components/home/Testimonial';
 
 import { ABOUT_DATA } from './aboutData';
 import { data } from '../case-studies/[slug]/data';
-import MeetTheFounder from './MeetTheFounder';
 import MeetTheFounderSection from './MeetTheFounder';
 
 
@@ -36,11 +35,10 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
       <KeyStats keyStats={data.keyStats} />
     ) : null,
 
-    meetTheFounderSection: (data) => { 
-      return data.MeetTheFounder?.isVisible ? (
+    meetTheFounderSection: (data) =>
+      data.MeetTheFounder?.isVisible ? (
         <MeetTheFounderSection MeetTheFounder={data.MeetTheFounder} />
-      ) : null;
-    },
+      ) : null,
 
     growingBrands: (data) =>
       data.growingBrands?.isVisible ?(
