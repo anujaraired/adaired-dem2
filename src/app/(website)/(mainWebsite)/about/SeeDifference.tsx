@@ -65,20 +65,11 @@ const SeeDifference = ({ seeDifference }: any) => {
                 >
                     {/* Points Section */}
                     <Heading
-                        isLabel={true}
+
                         subTitle={seeDifference?.subTitle}
                         title={seeDifference?.title}
                         description={seeDifference?.description}
                     />
-                    <div className="flex justify-center lg:justify-start">
-                        <SaveAndCancel
-                            name={'Get Your Free Website Audit'}
-                            isIcon={true}
-                            buttonWidth={'!w-[20rem]'}
-                            handleClick={() => setOpen(!open)}
-                            className="rem] mt-[2rem]"
-                        />
-                    </div>
                 </div>
             </div>
         </MaxWidthWrapper>

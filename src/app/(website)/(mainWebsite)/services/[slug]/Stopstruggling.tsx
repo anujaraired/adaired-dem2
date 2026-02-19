@@ -8,6 +8,7 @@ import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 
+
 const Stopstruggling = ({ stopStruggling }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const [open, setOpen] = useState(false);
@@ -20,37 +21,96 @@ const Stopstruggling = ({ stopStruggling }: any) => {
         backgroundImage: `url(${stopStruggling?.bgImg?.src})`,
       }}
     >
+
       <MaxWidthWrapper className="flex justify-center">
-        <div
-          className={`mx-auto w-[100%] text-center transition-all duration-1000 lg:w-[70%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
-        >
-          <h2 className="mx-auto w-[100%] text-center font-semibold text-[#FFFFFF] lg:w-[70%]">
-            {stopStruggling?.title}
-          </h2>
+        {stopStruggling?.isCenter ? (
 
-          <p className="whitespace-pre-line text-center text-[#FFFFFF]">
-            {stopStruggling?.description?.map((item: any, idx: number) => {
-              return (
-                <p key={idx} className="py-[1rem] text-center text-[#FFFFFF]">
-                  {item}
-                </p>
-              );
-            })}
-          </p>
+          <div
+            className={`mx-auto w-[100%] text-center transition-all duration-1000 lg:w-[70%] ${isVisible
+              ? 'translate-y-0 opacity-100'
+              : 'translate-y-12 opacity-0'
+              }`}
+          >
 
-          {stopStruggling?.button && (
-            <div className="mt-[2rem] flex justify-center">
-              <SaveAndCancel
-                name={stopStruggling?.button}
-                isBgWhite={true}
-                isIcon={true}
-                isHoverBgBlue={stopStruggling?.isHoverBgBlue && true}
-                handleClick={() => setOpen(!open)}
-                buttonWidth="!w-[19rem]"
-              />
+            <h2 className="mx-auto w-[100%] text-center font-semibold text-[#FFFFFF] lg:w-[70%]">
+              {stopStruggling?.title}
+            </h2>
+
+            {/* <p className="whitespace-pre-line text-center text-[#FFFFFF]">
+              {stopStruggling?.description?.map((item: any, idx: number) => {
+                return (
+                  <p key={idx} className="py-[1rem] text-center text-[#FFFFFF]">
+                    {item}
+                  </p>
+                );
+              })}
+            </p> */}
+
+            <div className="text-center space-y-4">
+              {stopStruggling?.description?.map(
+                (item: any, idx: number) => (
+                  <p key={idx} className="text-white text-center">
+                    {item}
+                  </p>
+                )
+              )}
             </div>
-          )}
-        </div>
+
+            {stopStruggling?.button && (
+              <div className="mt-[2rem] flex justify-center">
+                <SaveAndCancel
+                  name={stopStruggling?.button}
+                  isBgWhite={true}
+                  isIcon={true}
+                  isHoverBgBlue={stopStruggling?.isHoverBgBlue && true}
+                  handleClick={() => setOpen(!open)}
+                  buttonWidth="!w-[19rem]"
+                />
+              </div>
+            )}
+
+          </div>
+
+        ) : (
+          <div
+            className={`grid gap-10 transition-all duration-1000 lg:grid-cols-2 ${isVisible
+              ? 'translate-y-0 opacity-100'
+              : 'translate-y-12 opacity-0'
+              }`}
+          >
+            <div>
+              <h2 className="font-semibold text-white">
+                {stopStruggling?.title}
+              </h2>
+            </div>
+
+            <div>
+              <div className="space-y-4">
+                {stopStruggling?.description?.map(
+                  (item: any, idx: number) => (
+                    <p key={idx} className="text-white">
+                      {item}
+                    </p>
+                  )
+                )}
+              </div>
+
+              {stopStruggling?.button && (
+                <div className="mt-14">
+                  <SaveAndCancel
+                    name={stopStruggling?.button}
+                    isBgWhite={true}
+                    isIcon={true}
+                    isBorder={true}
+                    isHoverBgBlue={stopStruggling?.isHoverBgBlue && true}
+                    handleClick={() => setOpen(true)}
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
       </MaxWidthWrapper>
       <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
     </div>

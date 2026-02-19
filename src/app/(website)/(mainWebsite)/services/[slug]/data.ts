@@ -758,6 +758,7 @@ export const SERVICES_DATA = {
     },
     stopStruggling: {
       isVisible: true,
+      isCenter: true,
       subtitle: '',
       title: 'Claim Your Free Audit Before Competitors Do!',
       description: [
@@ -1402,6 +1403,7 @@ export const SERVICES_DATA = {
     },
     stopStruggling: {
       isVisible: true,
+      isCenter: true,
       subtitle: '',
       title:
         'Stop struggling with low traffic and poor visibility. Let Adaired’s AI-powered SEO audit uncover the gaps, optimize your site, and help your business outrank competitors.',
@@ -2089,6 +2091,7 @@ brand appears in AI summaries and citations.`,
     // NEW
     stopStruggling: {
       isVisible: true,
+      isCenter: true,
       isHoverBgBlue: true,
       subtitle: '',
       title:
@@ -2670,6 +2673,7 @@ brand appears in AI summaries and citations.`,
 
     stopStruggling: {
       isVisible: true,
+      isCenter: true,
       subtitle: '',
       title: 'Every Successful Website Starts with A Clear Strategy.',
       button: 'Schedule a Strategy Call',
@@ -3254,6 +3258,7 @@ brand appears in AI summaries and citations.`,
 
     stopStruggling: {
       isVisible: true,
+      isCenter: true,
       subtitle: '',
       title: `If You’re Not Ranking Locally, You’re Losing Business`,
       // span: 'You’re Losing Business',
@@ -3741,6 +3746,7 @@ brand appears in AI summaries and citations.`,
 
     stopStruggling: {
       isVisible: true,
+      isCenter: true,
       subtitle: '',
       title: '',
       description: [
@@ -4819,6 +4825,7 @@ brand appears in AI summaries and citations.`,
 
     stopStruggling: {
       isVisible: false,
+      isCenter: true,
       subtitle: '',
       title: '',
       description: `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
@@ -6001,6 +6008,7 @@ brand appears in AI summaries and citations.`,
 
     stopStruggling: {
       isVisible: false,
+      isCenter: true,
       subtitle: '',
       title: '',
       description: [

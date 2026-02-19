@@ -1,5 +1,7 @@
 import aboutBannerImg from '../../../../../public/assets/images/about/aboutBannerImg.png';
 
+import aboutStruggleBg from '../../../../../public/assets/images/about/aboutStruggleBg.png';
+
 import localServiceResultImg from '../../../../../public/assets/localseo/localServiceResultImg.png';
 import localServiceResultIcon from '../../../../../public/assets/localseo/localServiceResultIcon.png';
 
@@ -42,6 +44,21 @@ export const ABOUT_DATA = {
                 name: 'Average ROI Increase',
             },
         ],
+    },
+
+    stopStruggling: {
+        isVisible: true,
+        isCenter: false,
+        title: 'Adaired Digital Media is a modern digital marketing agency',
+        description: [
+            `Over the years, we've earned the trust of brands as a true growth partner rather than just a service provider. 
+            We do not promise quick fixes or overnight success; rather, we focus on long-term growth strategies that provide real value.`,
+            `that values performance, innovation, and results. 
+            We help brands turn digital opportunities into measurable results through data-driven strategy and execution, backed up by a team of digitally savvy marketing specialists.`,
+        ],
+        button: 'Get a Free Growth Audit',
+        bgImg: aboutStruggleBg,
+        isHoverBgBlue: true,
     },
 
     serviceResult: {

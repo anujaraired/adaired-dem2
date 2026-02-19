@@ -3,6 +3,7 @@
 import React from 'react';
 
 import Banner from '../services/[slug]/Banner';
+import Stopstruggling from '../services/[slug]/Stopstruggling';
 import AdairedServiceResult from '../services/[slug]/AdairedServiceResult';
 import KeyStats from '../services/[slug]/KeyStats';
 import HowItStarted from './HowItStarted';
@@ -13,6 +14,7 @@ import { ABOUT_DATA } from './aboutData';
 
 type SectionKey =
   | 'banner'
+  | 'stopStruggling'
   | 'serviceResult'
   | 'keyStats'
   | 'howItStarted'
@@ -25,6 +27,11 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
   banner: (data) =>
     data.banner?.isVisible ? (
       <Banner banner={data.banner} />
+    ) : null,
+
+  stopStruggling: (data) =>
+    data.stopStruggling?.isVisible ? (
+      <Stopstruggling stopStruggling={data.stopStruggling} />
     ) : null,
 
   serviceResult: (data) =>
