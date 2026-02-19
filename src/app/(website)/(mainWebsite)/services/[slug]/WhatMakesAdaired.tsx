@@ -15,7 +15,7 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
           className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
         >
           <div className="flex flex-col items-center justify-center lg:flex-row">
-            <div
+            {/* <div
               className={`${whatMkeDeferent?.description?.length > 0 ? 'w-full pr-[0%] lg:w-[50%]' : 'flex w-[100%] justify-center justify-items-center lg:w-[50%]'} pr-0 lg:pr-[6rem]`}
             >
               <h2
@@ -23,15 +23,20 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
               >
                 {whatMkeDeferent?.heading}
               </h2>
-            </div>
-
-            <div
+            </div> */}
+            <Heading
+              breakIndex={whatMkeDeferent?.breakIndex}
+              title={whatMkeDeferent?.heading}
+              isInCenter={true}
+              isBgWhite={!whatMkeDeferent?.bgColor && true}
+            />
+            {/* <div
               className={`${whatMkeDeferent?.description?.length > 0 ? 'w-full lg:w-[50%]' : 'w-[0%]'}`}
             >
               {whatMkeDeferent?.description?.map((item: any) => {
                 return <p className="my-3 ml-0 lg:ml-[10rem]">{item}</p>;
               })}
-            </div>
+            </div> */}
           </div>
         </div>
         <div className="pt-[1rem]">
@@ -97,6 +102,5 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
     </div>
   );
 };
-
 
 export default WhatMakesAdaired;

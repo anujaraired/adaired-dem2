@@ -3195,6 +3195,8 @@ brand appears in AI summaries and citations.`,
 
     whatMkeDeferent: {
       isVisible: true,
+      breakIndex:5,
+      bgColor:"",
       heading: 'Why Choose Adaired for Your Local Search Engine Optimization ?',
       description: [],
       list: [
