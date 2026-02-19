@@ -370,7 +370,7 @@ export const SERVICES_DATA = {
     },
     importantToBussiness: {
       isVariant: '01',
-      breakIndex: 4,
+      breakIndex: 6,
       isVisible: true,
       heading: 'Why is SEO Important to Your Business?',
       buttonName: '',
@@ -3039,7 +3039,7 @@ brand appears in AI summaries and citations.`,
 
     importantToBussiness: {
       isVariant: '01',
-      breakIndex: 4,
+      breakIndex: 6,
       isVisible: true,
       heading: 'Local SEO Services Designed to Grow Your Business',
       buttonName: 'Get Your Free Local SEO Audit',
@@ -4561,7 +4561,7 @@ brand appears in AI summaries and citations.`,
 
     importantToBussiness: {
       isVariant: '01',
-      breakIndex: 4,
+      breakIndex: 8,
       isVisible: true,
       heading: 'What Will Our White Label SEO Services Cover?',
       description: [
@@ -5858,6 +5858,7 @@ brand appears in AI summaries and citations.`,
 
     importantToBussiness: {
       isVisible: false,
+      breakIndex: 5,
       heading: 'What Will Our White Label SEO Services Cover?',
       description: [
         `Being a white-label SEO services agency, we are intended to help agencies throughout the SEO lifecycle while remaining brand neutral.`,

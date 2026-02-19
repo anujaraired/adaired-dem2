@@ -9,6 +9,7 @@ import KeyStats from '../services/[slug]/KeyStats';
 import HowItStarted from './HowItStarted';
 import SeeDifference from './SeeDifference';
 import ReadyToStart from '../services/[slug]/ReadyToStart';
+import PeopleBehindWork from './PeopleBehindWork';
 
 import { ABOUT_DATA } from './aboutData';
 
@@ -19,15 +20,15 @@ type SectionKey =
   | 'keyStats'
   | 'howItStarted'
   | 'seeDifference'
+  | 'peopleBehindWork'
   | 'readyToStart';
 
 type SectionRenderer = (data: typeof ABOUT_DATA) => JSX.Element | null;
 
 const sectionRenderer: Record<SectionKey, SectionRenderer> = {
-  banner: (data) =>
-    data.banner?.isVisible ? (
-      <Banner banner={data.banner} />
-    ) : null,
+  banner: (data) => data.banner?.isVisible ? (
+    <Banner banner={data.banner} />
+  ) : null,
 
   stopStruggling: (data) =>
     data.stopStruggling?.isVisible ? (
@@ -54,10 +55,16 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
       <SeeDifference seeDifference={data.seeDifference} />
     ) : null,
 
+  peopleBehindWork: (data) =>
+    data.peopleBehindWork?.isVisible ? (
+      <PeopleBehindWork peopleBehindWork={data.peopleBehindWork} />
+    ) : null,
+
   readyToStart: (data) =>
     data.readyToStart?.isVisible ? (
       <ReadyToStart />
     ) : null,
+
 };
 
 const About = () => {
@@ -68,6 +75,7 @@ const About = () => {
           {sectionRenderer[key](ABOUT_DATA)}
         </React.Fragment>
       ))}
+
     </>
   );
 };
