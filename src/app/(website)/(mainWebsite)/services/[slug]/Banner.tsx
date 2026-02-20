@@ -51,7 +51,7 @@ const Banner = ({ banner }: any) => {
         fill
         alt="hero bg"
         priority
-        className="pointer-events-none object-fill lg:object-cover"
+        className="pointer-events-none object-fill lg:object-fill"
       />
       <MaxWidthWrapper className="">
         {banner?.isCenter ? (
