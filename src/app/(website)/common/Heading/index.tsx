@@ -309,11 +309,23 @@ const Heading = ({
                 </div>
               </div>
               <div className={`${isDecVarticle && 'pt-[0rem]'}`}>
-                <p
-                  className={`${isBgWhite ? 'text-[#FFFFFF]' : ''} pt-4 text-center lg:text-left`}
-                >
-                  {description}
-                </p>
+                {Array.isArray(description)? (
+                  description.map((item: string, index: number) => (
+                    <p
+                      key={index}
+                      className={`${isBgWhite ? 'text-[#FFFFFF]' : ''} pt-4 text-center lg:text-left`}
+                    >
+                      {item}
+                    </p>
+                  ))
+                ) : (
+                  <p
+                    className={`${isBgWhite ? 'text-[#FFFFFF]' : ''} pt-4 text-center lg:text-left`}
+                  >
+                    {description}
+                  </p>
+                )}
+                {isPara2 && <p className="py-4">{description2}</p>}
               </div>
             </div>
           )}

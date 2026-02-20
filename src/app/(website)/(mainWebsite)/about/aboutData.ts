@@ -301,7 +301,8 @@ export const ABOUT_DATA = {
             },
             {
                 img: IndustriesWorkWithImg_2,
-                btn: [`B2B Companies & Professional Services Firms`],
+                // btn: [`B2B Companies & Professional Services Firms`],
+                btn: [`B2B Companies`],
             },
             {
                 img: IndustriesWorkWithImg_3,
