@@ -10,7 +10,7 @@ import GrowthPartnerCard from "./GrowthPartnerCard";
 
 const PeopleBehindWork = ({ peopleBehindWork }: any) => {
     const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.1);
-     const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(false);
 
     return (
         <div
@@ -52,7 +52,7 @@ const PeopleBehindWork = ({ peopleBehindWork }: any) => {
                     {peopleBehindWork?.images?.slice(0, 6).map((card: any, index: number) => (
                         <div
                             key={index}
-                            className={`relative rounded-2xl overflow-hidden bg-[#FFFFFF] flex items-center justify-center mx-1 my-1 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:duration-300 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
+                            className={`relative rounded-3xl overflow-hidden bg-[#FFFFFF] flex items-center justify-center mx-1 my-1 transition-all duration-700 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:duration-300 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
                                 }`}
                         >
                             <Image
@@ -70,7 +70,7 @@ const PeopleBehindWork = ({ peopleBehindWork }: any) => {
                                     <div className="relative w-10 h-10 sm:w-12 sm:h-12 lg:w-[61px] lg:h-[61px]">
                                         <Image
                                             src={card?.icon}
-                                           
+
                                             alt=""
                                             className=''
                                         // width={61}

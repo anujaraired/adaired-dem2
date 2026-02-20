@@ -51,6 +51,7 @@ const GrowthPartnerCard = ({ handleClick }: any) => {
                         buttonWidth=""
                         isBgWhite={true}
                         isBorder={true}
+                        isHoverBgBlue={true}
                         handleClick={handleClick}
                     />
                 </div>
