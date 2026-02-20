@@ -86,7 +86,7 @@ const Stopstruggling = ({ stopStruggling }: any) => {
               </div>
 
               {stopStruggling?.button && (
-                <div className="mt-14">
+                <div className="mt-14 flex w-full justify-center lg:justify-start">
                   <SaveAndCancel
                     name={stopStruggling?.button}
                     isBgWhite={true}

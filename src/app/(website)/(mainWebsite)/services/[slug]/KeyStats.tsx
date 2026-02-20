@@ -1,3 +1,4 @@
+"use client"
 import Heading from '@/app/(website)/common/Heading';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import React, { useEffect, useState } from 'react';
