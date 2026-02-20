@@ -227,6 +227,10 @@ import whiteServicesIncluded_4 from '../../../../../../public/assets/whitelabel/
 import whiteServicesIncluded_5 from '../../../../../../public/assets/whitelabel/whiteLabelServices/whiteServicesIncluded_5.png';
 import whiteServicesIncluded_6 from '../../../../../../public/assets/whitelabel/whiteLabelServices/whiteServicesIncluded_6.png';
 
+//PPC Images
+import PPC_Banner from '../../../../../../public/assets/images/PPCimg/PPC_Banner.png'
+import WhatIsPPC from '../../../../../../public/assets/images/PPCimg/WhatIsPPC.png';
+
 export type SectionKey =
   | 'banner'
   | 'getsCredit'
@@ -6235,19 +6239,18 @@ brand appears in AI summaries and citations.`,
       code: '08',
       isCenter: false,
       isVisible: true,
-      heading: 'Built for Growing Agencies',
-      subheading:
-        'No in-house hiring. No brand dilution. Just reliable execution when demand grows.',
+      heading: 'Scalable PPC Campaigns',
+      // subheading:
+      //   'No in-house hiring. No brand dilution. Just reliable execution when demand grows.',
       subtitle: '',
-      label: 'White-Label Services',
+      label: 'Own the Top Spot with',
       desc: [
-        `Scaling a digital agency is exciting, until delivery eats your time and margins.`,
-        `Adaired Digital Media works behind the scenes as your reseller SEO partner, delivering results-driven SEO and digital marketing while you keep full brand ownership.`,
+        `Drive high-intent traffic, generate qualified leads, and maximize ROI with data-driven PPC management. We build, optimize, and scale paid search campaigns that turn clicks into real revenue.`,
       ],
-      button: 'Start a Conversation!',
+      button: 'Request a Campaign Audit',
       width: '20rem',
       widthLg: '30rem',
-      bgImg: whiteServicesBannerBg,
+      bgImg: PPC_Banner,
     },
 
     keyStats: {
@@ -6290,25 +6293,20 @@ brand appears in AI summaries and citations.`,
     whatareservice: {
       isVisible: true,
       isVariant: '07',
-      img: whiteServicesWhatIs,
-      heading: 'Know More About',
-      span: 'White Label Services',
+      img: WhatIsPPC,
+      heading: 'What is Pay Per',
+      span: 'Click Advertising?',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [
         {
-          desctioption: `White-label services allow agencies to offer specialized digital solutions without building or managing internal delivery teams. 
-          The work is executed by a partner but delivered to clients entirely under your brand. For agencies, this model removes the operational burden of hiring, training, 
-          and managing specialists, while keeping pricing, communication, and client relationships fully in your control.`,
+          desctioption: `PPC advertising is a digital marketing strategy where businesses pay a fee each time someone clicks on their ad. Instead of waiting to earn traffic organically, PPC allows you to place your business directly in front of people who are actively searching for your products or services.
+`,
         },
         {
-          desctioption: `Built for agencies that want to offer specialized digital solutions without carrying the full operational load. 
-          In practice, this means your agency handles strategy, communication, and pricing, while delivery is managed externally and presented under your brand. 
-          At Adaired Digital Media, our white-label approach is designed for agencies that want predictable delivery without exposing third-party involvement.`,
-        },
-        {
-          desctioption: `We focus on execution; you focus on client growth and retention!`,
-        },
+          desctioption: `The most common form of PPC appears on search engines through platforms like Google Ads and Microsoft Advertising. When a user searches for a specific keyword (for example, “emergency plumber near me” or “buy running shoes online”), sponsored ads appear at the top of the search results. If the user clicks on your ad, you pay for that click.`,
+        }
+
       ],
       button: '',
     },
@@ -6316,66 +6314,195 @@ brand appears in AI summaries and citations.`,
     ourProcess: {
       isVisible: true,
       subtitle: 'Our Process',
-      title: 'How Adaired’s White-Label Model Works',
-      span: '',
-      description: `Our approach is designed to integrate smoothly into agency workflows.`,
+      title: 'How Pay-Per-Click Advertising Works',
+      span: 'Here’s a detailed breakdown of how the entire system works:',
+      description: `PPC advertising operates through a real-time auction system that determines which ads appear in search results, in what position, and at what cost. Unlike traditional advertising, where you pay for exposure, PPC ensures you only pay when a user actively engages with your ad.`,
       services: [
         {
           icon: step,
-          title: 'Discovery, Alignment & Service Mapping',
+          title: 'Strategic Keyword Research',
           description: [
-            `The engagement starts with a structured discovery phase where we learn about your agency's service offerings, 
-            client profiles, delivery expectations, and internal processes. 
-            We describe the digital services that you intend to provide, such as SEO, paid media, content, social media, or a combination of the above.`,
-            `This alignment ensures that our delivery model fits seamlessly into your existing operations, 
-            allowing you to expand services without changing the way your agency operates or communicates with clients.`,
+            `Every successful PPC campaign starts with precision targeting.`,
+            `We identify high-intent keywords that your ideal customers are actively searching for. Our focus is not just traffic; it’s profitable traffic. We analyze:`,
+            {
+              list: [
+                {
+                  des: `Commercial and transactional search terms`,
+                },
+                {
+                  des: `Competitor bidding strategies`,
+                },
+                ,
+                {
+                  des: `Cost-per-click trends`,
+                },
+                {
+                  des: `Conversion intent signals`,
+                },
+                {
+                  des: `Long-tail opportunities`,
+                },
+              ],
+            },
+            `This ensures your ads appear when customers are ready to take action.`,
           ],
         },
         {
           icon: step,
-          title: 'Workflow Integration and Account Setup',
+          title: 'Smart Campaign Structure & Targeting',
           description: [
-            `Once service requirements have been defined, we create execution workflows, access protocols, reporting structures, and delivery timelines. 
-            To ensure consistency across accounts, each service is configured to meet predefined benchmarks.`,
-            `This phase is focused on creating repeatable processes that will enable your agency to consistently deliver multiple 
-            digital services without relying on fragmented resources or ad hoc execution.`,
+            `We build tightly organized campaigns to maximize relevance and performance. Our setup includes:`,
+            
+            {
+              list: [
+                {
+                  des: `Strategic campaign segmentation`,
+                },
+                {
+                  des: `Themed ad groups for keyword alignment`,
+                },
+                {
+                  des: `Location-based targeting`,
+                },
+                {
+                  des: `Device optimization`,
+                },
+                {
+                  des: `Audience layering and remarketing`,
+                }
+              ],
+            },
+            `This structure improves efficiency, reduces wasted spending, and increases conversion potential.`,
           ],
         },
         {
           icon: step,
-          title: 'White-Labeled Service Execution',
+          title: 'High-Converting Ad Creation',
           description: [
-            `Our team is in charge of providing agreed-upon digital services across channels, including campaign management, optimization, content creation, and ongoing maintenance. 
-            All work is delivered without Adaired branding and to your agency's standards.`,
-            `We strictly operate as a fulfillment partner, ensuring that your clients receive consistent service under your brand identity.`,
+            `Our team crafts compelling ad copy that matches search intent and drives clicks. Each ad is designed with:`,
+            {
+              list: [
+                {
+                  des: `Attention-grabbing headlines`,
+                },
+                {
+                  des: `Benefit-driven descriptions`,
+                },
+                {
+                  des: `Clear calls-to-action`,
+                },
+                {
+                  des: `Strategic use of ad extensions`,
+                }
+              ],
+            },
+            `We ensure your ads stand out while staying highly relevant to the search query.`,
           ],
         },
         {
           icon: step,
-          title: 'Performance Tracking & Reporting',
+          title: 'Smart Bidding & Budget Control',
           description: [
-            `We provide structured reporting dashboards and performance summaries customized to your agency’s branding. With a focus on user-friendly interfaces, 
-            we allow easy navigation and real-time updates, ensuring that you can make informed decisions based on the most current data available.`,
-            `Every metric is tracked against agreed KPIs, ensuring transparency, accountability, and measurable growth.`,
+            `At Adaired Digital Media, we implement bidding strategies aligned with your business goals, whether that’s lead generation, ecommerce sales, or scaling revenue.`,
+            `We optimize for:`,
+            {
+              list: [
+                {
+                  des: `Lower cost per click`,
+                },
+                {
+                  des: `Improved conversion rates`,
+                },
+                {
+                  des: `Stronger return on ad spend (ROAS)`,
+                },
+                {
+                  des: `Efficient budget allocation`,
+                }
+              ],
+            },
+            `We continuously monitor performance to ensure every dollar is working toward growth.`,
           ],
         },
         {
           icon: step,
-          title: 'Communication and Delivery Management',
+          title: 'Ad Auction & Quality Optimization',
           description: [
-            `To ensure clarity and efficiency, you collaborate with a single point of contact who oversees service delivery. 
-            This central coordination closes communication gaps and ensures that timelines, priorities, and quality standards are consistently met.`,
-            `You stay informed and in control without being pulled into day-to-day operations.`,
+            `Every time a search is performed, platforms like Google Ads run an instant auction to determine which ads appear. We improve your ad position by optimizing:`,
+            {
+              list: [
+                {
+                  des: `Keyword relevance`,
+                },
+                {
+                  des: `Expected click-through rate`,
+                },
+                {
+                  des: `Ad copy alignment`,
+                },
+                {
+                  des: `Landing page experience`,
+                }
+              ],
+            },
+            `This allows us to outrank competitors, often without needing the highest bid.`,
           ],
         },
         {
           icon: step,
-          title: 'Continuous Optimization & Scaling',
+          title: 'Landing Page Performance',
           description: [
-            `As campaigns mature, we refine strategies based on performance data. 
-            By leveraging these insights, we identify successful tactics and areas needing improvement, 
-            allowing us to optimize our approach for maximum effectiveness and efficiency.`,
-            `Whether you’re onboarding new clients or expanding service lines, our processes are built to scale alongside your agency, without adding internal complexity.`,
+            `Clicks alone don’t generate revenue; conversions do. As a pay per click company, we ensure your landing pages are optimized for:`,
+            {
+              list: [
+                {
+                  des: `Message match with ads`,
+                },
+                {
+                  des: `Fast load speed`,
+                },
+                {
+                  des: `Mobile responsiveness`,
+                },
+                {
+                  des: `Clear calls-to-action`,
+                },
+                {
+                  des: `Conversion tracking accuracy`,
+                }
+              ],
+            },
+            `This step is critical in turning traffic into leads and sales.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'Continuous Monitoring & Optimization',
+          description: [
+            `PPC success requires ongoing refinement. At Adaired Digital Media, we:`,
+            {
+              list: [
+                {
+                  des: `Analyze conversion data`,
+                },
+                {
+                  des: `Test new ad variations`,
+                },
+                {
+                  des: `Add negative keywords`,
+                },
+                {
+                  des: `Adjust bids strategically`,
+                },
+                {
+                  des: `Scale winning campaigns`,
+                },
+                {
+                  des: `Improve underperforming areas`,
+                },
+              ],
+            },
+            `Our goal is consistent improvement and scalable growth`,
           ],
         },
       ],
