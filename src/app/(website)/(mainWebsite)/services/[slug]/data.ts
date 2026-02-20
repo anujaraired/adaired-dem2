@@ -4564,9 +4564,9 @@ brand appears in AI summaries and citations.`,
 
     importantToBussiness: {
       isVariant: '01',
-      breakIndex: 8,
+      breakIndex: 6,
       isVisible: true,
-      heading: 'What Will Our White Label SEO Services Cover?',
+      heading: 'What Will Our White Label SEO   Services Cover?',
       description: [
         `Being a white-label SEO services agency, we are intended to help agencies throughout the SEO lifecycle while remaining brand neutral.`,
       ],
