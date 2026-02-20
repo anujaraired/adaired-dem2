@@ -1,3 +1,4 @@
+
 import aboutBannerImg from '../../../../../public/assets/images/about/aboutBannerImg.png';
 
 import aboutStruggleBg from '../../../../../public/assets/images/about/aboutStruggleBg.png';
@@ -15,6 +16,22 @@ import ORMManager from '../../../../../public/assets/images/about/ORMManager.png
 import WebDevelopmentManager from '../../../../../public/assets/images/about/WebDevelopmentManager.png';
 import SalesManager from '../../../../../public/assets/images/about/SalesManager.png';
 import Linkedin from '../../../../../public/assets/images/about/Linkedin.png';
+
+import IndustriesWorkWithBg from '../../../../../public/assets/images/about/IndustriesWorkWithBg.png';
+
+import IndustriesWorkWithImg_1 from '../../../../../public/assets/images/about/IndustriesWorkWithImg_1.png';
+import IndustriesWorkWithImg_2 from '../../../../../public/assets/images/about/IndustriesWorkWithImg_2.png';
+import IndustriesWorkWithImg_3 from '../../../../../public/assets/images/about/IndustriesWorkWithImg_3.png';
+import IndustriesWorkWithImg_4 from '../../../../../public/assets/images/about/IndustriesWorkWithImg_2.png';
+import IndustriesWorkWithImg_5 from '../../../../../public/assets/images/about/IndustriesWorkWithImg_1.png';
+import IndustriesWorkWithImg_6 from '../../../../../public/assets/images/about/IndustriesWorkWithImg_2.png';
+import IndustriesWorkWithImg_7 from '../../../../../public/assets/images/about/IndustriesWorkWithImg_3.png';
+import IndustriesWorkWithImg_8 from '../../../../../public/assets/images/about/IndustriesWorkWithImg_2.png';
+import IndustriesWorkWithImg_9 from '../../../../../public/assets/images/about/IndustriesWorkWithImg_1.png';
+import IndustriesWorkWithImg_10 from '../../../../../public/assets/images/about/IndustriesWorkWithImg_2.png';
+import IndustriesWorkWithImg_11 from '../../../../../public/assets/images/about/IndustriesWorkWithImg_3.png';
+import IndustriesWorkWithImg_12 from '../../../../../public/assets/images/about/IndustriesWorkWithImg_2.png';
+
 
 export const ABOUT_DATA = {
     banner: {
@@ -58,10 +75,11 @@ export const ABOUT_DATA = {
         isCenter: false,
         title: 'Adaired Digital Media is a modern digital marketing agency',
         description: [
+            `Adaired Digital Media is a modern digital marketing agency that values performance, innovation, and results. 
+            We help brands turn digital opportunities into measurable results through data-driven strategy and execution, 
+            backed up by a team of digitally savvy marketing specialists.`,
             `Over the years, we've earned the trust of brands as a true growth partner rather than just a service provider. 
             We do not promise quick fixes or overnight success; rather, we focus on long-term growth strategies that provide real value.`,
-            `that values performance, innovation, and results. 
-            We help brands turn digital opportunities into measurable results through data-driven strategy and execution, backed up by a team of digitally savvy marketing specialists.`,
         ],
         button: 'Get a Free Growth Audit',
         bgImg: aboutStruggleBg,
@@ -91,14 +109,18 @@ export const ABOUT_DATA = {
                 img: localServiceResultIcon,
                 name: 'Our Mission',
                 description: [
-                    ``,
+                    `To help brands grow digitally through tech-savvy strategy and performance-led execution.`,
+                    `Our mission is to create scalable digital marketing systems that turn traffic into customers, generate real business value, and adapt to changing markets. 
+                    We prioritize data, performance, and transparency to ensure that every digital effort is effective.`,
                 ],
             },
             {
                 img: localServiceResultIcon,
-                name: 'Our Mission',
+                name: 'Our Values',
                 description: [
-                    ``,
+                    `To do honest, effective work that allows our clients to grow in confidence.`,
+                    `We are more concerned with outcomes than with buzzwords. If it doesn't drive growth, conversions, or value, it won't be considered. 
+                    In addition, we remain committed to providing value that has a direct impact on our clients' growth.`,
                 ],
             },
         ],
@@ -135,6 +157,33 @@ export const ABOUT_DATA = {
                 ],
             },
         ],
+    },
+
+    MeetTheFounder: {
+        isVisible: true,
+        heading: '/assets/images/about/Meet The Founder.png',
+        Title: 'Dheeraj Swami',
+        designation: 'Founder & CEO',
+        image: '/assets/images/about/Rectangle 10109.png',
+        Quote:
+            "Digital marketing isn’t about being everywhere; it’s about being effective where it matters most.",
+        descriptionHeading:
+            'Dheeraj is a visionary digital growth leader who believes marketing should empower businesses, not overwhelm them.',
+        description: [
+            `He founded Adaired Digital Media in 2017 with one clear objective: to build a digital marketing agency that prioritizes measurable growth over marketing noise. 
+            With extensive experience in performance marketing and lead generation, he saw firsthand how brands were overwhelmed by complexity but underwhelmed by results. `,
+            `His strategy is based on data-driven insights, ongoing optimization, and complete transparency. 
+            That’s why at Adaired, we create every campaign to generate qualified leads and measurable business growth.`
+        ]
+    },
+
+
+    growingBrands: {
+        isVisible: true,
+    },
+
+    testimonial: {
+        isVisible: true,
     },
 
     howItStarted: {
@@ -225,6 +274,71 @@ export const ABOUT_DATA = {
                 title: 'Sahil Khanna',
                 desc: 'Sales Team manger',
                 icon: Linkedin,
+            },
+        ],
+    },
+
+    industriesWeWorkWith: {
+        isVisible: true,
+        code: '01',
+        heading: 'Industries We Work With',
+        description: [
+            `Every industry has a different definition of growth, and your marketing plan should reflect this.
+            With an extensive understanding of market dynamics, consumer expectations, and competitive challenges, 
+            we collaborate with companies in a variety of industries. `,
+            `By combining performance-driven execution with industry knowledge, we create digital ecosystems 
+            that have a measurable financial impact in addition to drawing attention.`
+        ],
+        isCard: false,
+        bgImg: IndustriesWorkWithBg,
+        list: [
+            {
+                img: IndustriesWorkWithImg_1,
+                btn: [`E-commerce & Retail`],
+            },
+            {
+                img: IndustriesWorkWithImg_2,
+                btn: [`B2B Companies & Professional Services Firms`],
+            },
+            {
+                img: IndustriesWorkWithImg_3,
+                btn: [`Real Estate & Infrastructure`],
+            },
+            {
+                img: IndustriesWorkWithImg_4,
+                btn: [`Healthcare & Wellness`],
+            },
+            {
+                img: IndustriesWorkWithImg_5,
+                btn: [`Education & EdTech`],
+            },
+            {
+                img: IndustriesWorkWithImg_6,
+                btn: [`Finance & FinTech`],
+            },
+            {
+                img: IndustriesWorkWithImg_7,
+                btn: [`Startups & Growing Businesses`],
+            },
+            {
+                img: IndustriesWorkWithImg_8,
+                btn: [`Manufacturing & Industrial`],
+            },
+            {
+                img: IndustriesWorkWithImg_9,
+                btn: [`Technology & SaaS Companies`],
+            },
+            {
+                img: IndustriesWorkWithImg_10,
+                btn: [`Logistics & Supply Chain`],
+            },
+            {
+                img: IndustriesWorkWithImg_11,
+                btn: [`Automotive & Mobility`],
+            },
+            {
+                img: IndustriesWorkWithImg_12,
+                btn: [`Travel & Hospitality`],
             },
         ],
     },

@@ -263,17 +263,19 @@ const WhatAreService = ({ whatareaiseo }: any) => {
         <div
           className={`${whatareaiseo?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8]'}`}
         >
-          <MaxWidthWrapper className="flex gap-[8rem] py-[3rem] lg:py-[4rem]">
-            <div className="relative w-[30%]">
+          <MaxWidthWrapper className="block gap-[8rem] py-[3rem] lg:flex lg:py-[4rem]">
+            <div className="relative my-auto h-fit w-full lg:w-[30%]">
               <Image
                 src={whatareaiseo?.img}
                 alt=""
-                fill
-                className="object-fill"
+                // fill
+                width={608}
+                height={662}
+                className=""
               />
             </div>
             <div
-              className={`my-auto flex w-[70%] flex-col items-center transition-all duration-1000 lg:items-start`}
+              className={`my-auto mt-[3rem] flex w-full flex-col items-center transition-all duration-1000 lg:mt-0 lg:w-[70%] lg:items-start`}
             >
               <Heading
                 className="flex justify-center lg:justify-start"

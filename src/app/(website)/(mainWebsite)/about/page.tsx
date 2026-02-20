@@ -6,21 +6,31 @@ import Banner from '../services/[slug]/Banner';
 import Stopstruggling from '../services/[slug]/Stopstruggling';
 import AdairedServiceResult from '../services/[slug]/AdairedServiceResult';
 import KeyStats from '../services/[slug]/KeyStats';
+import MeetTheFounderSection from './MeetTheFounder';
 import HowItStarted from './HowItStarted';
 import PeopleBehindWork from './PeopleBehindWork';
+import IndustriesWeWorkWith from './IndustriesWeWorkWith';
 import SeeDifference from './SeeDifference';
+import GrowingBrands from './GrowingBrands';
+import Testimonial from '../../components/home/Testimonial';
 import ReadyToStart from '../services/[slug]/ReadyToStart';
 
 import { ABOUT_DATA } from './aboutData';
+
+
 
 type SectionKey =
   | 'banner'
   | 'stopStruggling'
   | 'serviceResult'
   | 'keyStats'
+  | 'meetTheFounderSection'
   | 'howItStarted'
   | 'peopleBehindWork'
+  | 'industriesWeWorkWith'
   | 'seeDifference'
+  | 'growingBrands'
+  | 'testimonial'
   | 'readyToStart';
 
 type SectionRenderer = (data: typeof ABOUT_DATA) => JSX.Element | null;
@@ -45,6 +55,11 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
       <KeyStats keyStats={data.keyStats} />
     ) : null,
 
+  meetTheFounderSection: (data) =>
+    data.MeetTheFounder?.isVisible ? (
+      <MeetTheFounderSection MeetTheFounder={data.MeetTheFounder} />
+    ) : null,
+
   howItStarted: (data) =>
     data.howItStarted?.isVisible ? (
       <HowItStarted howItStarted={data.howItStarted} />
@@ -55,9 +70,24 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
       <PeopleBehindWork peopleBehindWork={data.peopleBehindWork} />
     ) : null,
 
+  industriesWeWorkWith: (data) =>
+    data.industriesWeWorkWith?.isVisible ? (
+      <IndustriesWeWorkWith industriesWeWorkWith={data.industriesWeWorkWith} />
+    ) : null,
+
   seeDifference: (data) =>
     data.seeDifference?.isVisible ? (
       <SeeDifference seeDifference={data.seeDifference} />
+    ) : null,
+
+  growingBrands: (data) =>
+    data.growingBrands?.isVisible ? (
+      <GrowingBrands />
+    ) : null,
+
+  testimonial: (data) =>
+    data.testimonial?.isVisible ? (
+      <Testimonial />
     ) : null,
 
   readyToStart: (data) =>
@@ -81,6 +111,20 @@ const About = () => {
 };
 
 export default About;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

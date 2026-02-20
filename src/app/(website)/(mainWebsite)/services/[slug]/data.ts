@@ -900,7 +900,7 @@ export const SERVICES_DATA = {
     metaDetails: {
       title: 'AI SEO Comapany India | Best AI SEO Services',
       description:
-        'LLM-driven AI SEO services in India for ChatGPT, Gemini & Google AI Overviews to enhance search visibility, rankings, and long-term organic performance.',
+        'LLM-driven AI SEO services in India for ChatGPT, Gemini and Google AI Overviews to enhance search visibility, rankings, and long-term organic performance.',
       alternates: {
         canonical: '/ai-seo-company-india',
       },
@@ -3577,9 +3577,11 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: true,
-      code: '08',
+      code: '07',
       img: whiteKeyStats,
       heading: 'Must-Know Facts About White Label Social Media',
+      bgColor: '#FB9100',
+      isImgBg: false,
       isCard: false,
       list: [
         {
@@ -4343,8 +4345,9 @@ brand appears in AI summaries and citations.`,
       code: '07',
       img: whiteSeoKeyStatsImg,
       heading: 'White Label SEO Insights',
-      bgColor:"#000000",
-      isTextWhite:true,
+      bgColor: '#000000',
+      isImgBg: true,
+      isTextWhite: true,
       isCard: false,
       list: [
         {
@@ -5235,7 +5238,8 @@ brand appears in AI summaries and citations.`,
       code: '07',
       img: whiteServicesKeyStatsImg,
       heading: 'Why Choose White-Label Delivery',
-      bgColor:"#FB9100",
+      bgColor: '#FB9100',
+      isImgBg: true,
       isCard: false,
       list: [
         {

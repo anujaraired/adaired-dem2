@@ -464,9 +464,11 @@ const KeyStats = ({ keyStats }: any) => {
 
               <div
                 className={`relative flex h-full items-center justify-center rounded-[10px] ${
-                  keyStats?.bgColor
-                    ? `bg-[${keyStats.bgColor}]/10`
-                    : 'bg-[#FFFFFF]'
+                  keyStats?.isImgBg
+                    ? keyStats?.bgColor
+                      ? `bg-[${keyStats.bgColor}]/10`
+                      : 'bg-[#FFFFFF]/10'
+                    : ''
                 }`}
               >
                 <Image
