@@ -553,7 +553,7 @@ const KeyStats = ({ keyStats }: any) => {
               />
             </div>
             <div
-              className={`grid grid-cols-1 gap-4 pt-[1rem] transition-all duration-700 md:grid-cols-2 lg:grid-cols-4 ${
+              className={`grid grid-cols-1 gap-4 pt-[2rem] transition-all duration-700 md:grid-cols-2 lg:grid-cols-4 ${
                 isVisible
                   ? 'translate-y-0 opacity-100'
                   : 'translate-y-10 opacity-0'

@@ -73,6 +73,7 @@ export const ABOUT_DATA = {
     stopStruggling: {
         isVisible: true,
         isCenter: false,
+        breakIndex:5,
         title: 'Adaired Digital Media is a modern digital marketing agency',
         description: [
             `Adaired Digital Media is a modern digital marketing agency that values performance, innovation, and results. 

@@ -92,7 +92,7 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
 
   readyToStart: (data) =>
     data.readyToStart?.isVisible ? (
-      <ReadyToStart />
+      <ReadyToStart className="pt-[6rem]" />
     ) : null,
 
 };

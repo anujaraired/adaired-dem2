@@ -15,8 +15,8 @@ import client_9 from '../../../../../public/assets/IndustryLeaders/Group 1000005
 import client_10 from '../../../../../public/assets/IndustryLeaders/Group 1000005076.png';
 import client_11 from '../../../../../public/assets/IndustryLeaders/Group 1000005077.png';
 import client_12 from '../../../../../public/assets/IndustryLeaders/Group 1000005078.png';
-import client_13 from '../../../../../public/assets/IndustryLeaders/Group 1000006799.png'; 
-import client_14 from '../../../../../public/assets/IndustryLeaders/Group 1000006800.png'  
+import client_13 from '../../../../../public/assets/IndustryLeaders/Group 1000005063.png';
+import client_14 from '../../../../../public/assets/IndustryLeaders/Group 1000005069.png';
 
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
@@ -38,7 +38,7 @@ const GrowingBrands = () => {
     client_11,
     client_12,
     client_13,
-    client_14
+    client_14,
   ];
 
   const half = Math.ceil(data.length / 2);
@@ -51,12 +51,13 @@ const GrowingBrands = () => {
   return (
     <div
       ref={ref}
-      className="py-[2rem] sm:py-[3rem] lg:py-[4rem] overflow-hidden"
+      className="overflow-hidden py-[2rem] bg-[#F5F5F5] sm:py-[3rem] lg:py-[4rem]"
     >
       <MaxWidthWrapper>
         <div
-          className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
-            }`}
+          className={`transition-all duration-1000 ${
+            isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
+          }`}
         >
           <Heading
             isBgWhite={true}
@@ -67,12 +68,13 @@ const GrowingBrands = () => {
         </div>
 
         <div className="relative mt-4 sm:mt-6">
-          <div className="flex w-max gap-2 sm:gap-3 lg:gap-4 animate-marquee">
+          <div className="flex w-max animate-marquee gap-2 sm:gap-3 lg:gap-[2rem]">
             {row1Duplicated.map((client, idx) => (
               <div
                 key={`r1-${idx}`}
-                className={`group relative flex-shrink-0 transition-all duration-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'
-                  }`}
+                className={`group relative flex-shrink-0 transition-all duration-700 ${
+                  isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'
+                }`}
                 style={{ transitionDelay: `${idx * 60}ms` }}
               >
                 <Image
@@ -80,20 +82,21 @@ const GrowingBrands = () => {
                   alt="client logo"
                   width={225}
                   height={90}
-                  className="w-full h-full object-contain transform transition-transform duration-300 ease-out group-hover:scale-110 my-0 md:my-4"
+                  className="my-0 h-full w-full transform object-contain transition-transform duration-300 ease-out group-hover:scale-110 md:my-4"
                 />
               </div>
-            ))} 
+            ))}
           </div>
         </div>
 
-        <div className="relative mt-4 sm:mt-6">
-          <div className="flex w-max gap-2 sm:gap-3 lg:gap-4 animate-marquee [animation-direction:reverse]">
+        <div className="relative">
+          <div className="flex w-max animate-marquee gap-2 [animation-direction:reverse] sm:gap-3 lg:gap-[2rem]">
             {row2Duplicated.map((client, idx) => (
               <div
                 key={`r2-${idx}`}
-                className={`group relative flex-shrink-0 transition-all duration-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'
-                  }`}
+                className={`group relative flex-shrink-0 transition-all duration-700 ${
+                  isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'
+                }`}
                 style={{ transitionDelay: `${idx * 60}ms` }}
               >
                 <Image
@@ -101,7 +104,7 @@ const GrowingBrands = () => {
                   alt="client logo"
                   width={225}
                   height={90}
-                  className="w-full h-full object-contain transform transition-transform duration-300 ease-out group-hover:scale-110 my-0 md:my-4"
+                  className="my-0 h-full w-full transform object-contain transition-transform duration-300 ease-out group-hover:scale-110 md:my-4"
                 />
               </div>
             ))}

@@ -8,7 +8,6 @@ import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 
-
 const Stopstruggling = ({ stopStruggling }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const [open, setOpen] = useState(false);
@@ -21,10 +20,8 @@ const Stopstruggling = ({ stopStruggling }: any) => {
         backgroundImage: `url(${stopStruggling?.bgImg?.src})`,
       }}
     >
-
       <MaxWidthWrapper className="flex justify-center">
         {stopStruggling?.isCenter ? (
-
           <div
             className={`mx-auto w-[100%] text-center transition-all duration-1000 lg:w-[70%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
           >
@@ -35,23 +32,21 @@ const Stopstruggling = ({ stopStruggling }: any) => {
             </h2>
 
             {stopStruggling?.span ? (
-              <h1 className="mx-auto w-[100%] text-center text-[#FFFFFF] ">
+              <h1 className="mx-auto w-[100%] text-center text-[#FFFFFF]">
                 {stopStruggling?.title}
               </h1>
             ) : (
-              <h2 className="mx-auto w-[100%] text-center text-[#FFFFFF] ">
+              <h2 className="mx-auto w-[100%] text-center text-[#FFFFFF]">
                 {stopStruggling?.title}
               </h2>
             )}
 
-            <div className="text-center space-y-4">
-              {stopStruggling?.description?.map(
-                (item: any, idx: number) => (
-                  <p key={idx} className="text-white text-center">
-                    {item}
-                  </p>
-                )
-              )}
+            <div className="space-y-4 text-center">
+              {stopStruggling?.description?.map((item: any, idx: number) => (
+                <p key={idx} className="text-center text-white">
+                  {item}
+                </p>
+              ))}
             </div>
 
             {stopStruggling?.button && (
@@ -62,19 +57,18 @@ const Stopstruggling = ({ stopStruggling }: any) => {
                   isIcon={true}
                   isHoverBgBlue={stopStruggling?.isHoverBgBlue && true}
                   handleClick={() => setOpen(!open)}
-                  buttonWidth="!w-[19rem]"
+                  buttonWidth=""
                 />
               </div>
             )}
-
           </div>
-
         ) : (
           <div
-            className={`grid gap-10 transition-all duration-1000 lg:grid-cols-2 ${isVisible
-              ? 'translate-y-0 opacity-100'
-              : 'translate-y-12 opacity-0'
-              }`}
+            className={`grid gap-10 transition-all duration-1000 lg:grid-cols-2 ${
+              isVisible
+                ? 'translate-y-0 opacity-100'
+                : 'translate-y-12 opacity-0'
+            }`}
           >
             <div>
               <h2 className="font-semibold text-white">
@@ -84,13 +78,11 @@ const Stopstruggling = ({ stopStruggling }: any) => {
 
             <div>
               <div className="space-y-4">
-                {stopStruggling?.description?.map(
-                  (item: any, idx: number) => (
-                    <p key={idx} className="text-white">
-                      {item}
-                    </p>
-                  )
-                )}
+                {stopStruggling?.description?.map((item: any, idx: number) => (
+                  <p key={idx} className="text-white">
+                    {item}
+                  </p>
+                ))}
               </div>
 
               {stopStruggling?.button && (
@@ -102,14 +94,13 @@ const Stopstruggling = ({ stopStruggling }: any) => {
                     isBorder={true}
                     isHoverBgBlue={stopStruggling?.isHoverBgBlue && true}
                     handleClick={() => setOpen(true)}
-                    buttonWidth='!w-[10rem]'
+                    className="w-fit"
                   />
                 </div>
               )}
             </div>
           </div>
         )}
-
       </MaxWidthWrapper>
       <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
     </div>
