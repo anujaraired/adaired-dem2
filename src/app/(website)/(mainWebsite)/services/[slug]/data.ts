@@ -6165,7 +6165,7 @@ brand appears in AI summaries and citations.`,
       bgImage: LocalNotSeeBg,
     },
   },
-  'pay-per-click-service-india': {
+  'paid-media-and-advertising': {
     sectionsOrder: [
       'banner',
       'keyStats',
