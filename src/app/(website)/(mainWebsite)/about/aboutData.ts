@@ -162,7 +162,7 @@ export const ABOUT_DATA = {
     MeetTheFounder: {
         isVisible: true,
         heading: '/assets/images/about/Meet The Founder.png',
-        Title: 'Dheeraj Swami',
+        Name: '/assets/images/about/Dheeraj Swami,.png',
         designation: 'Founder & CEO',
         image: '/assets/images/about/Rectangle 10109.png',
         Quote:
@@ -243,7 +243,11 @@ export const ABOUT_DATA = {
         isVisible: true,
         breakIndex: 3,
         heading: 'The People Behind the Work',
-        description: `Behind every strategy and result is a team of digital media specialists who are deeply concerned with performance and outcomes. \n At Adaired Digital Media, our team combines expertise in strategy, media, technology, content, and analytics to help brands grow smarter, faster.\n As an enterprise digital marketing agency, we build scalable systems that integrate marketing, automation, and analytics.`,
+        description: [
+            `Behind every strategy and result is a team of digital media specialists who are deeply concerned with performance and outcomes.`,
+            `At Adaired Digital Media, our team combines expertise in strategy, media, technology, content, and analytics to help brands grow smarter, faster.`,
+            `As an enterprise digital marketing agency, we build scalable systems that integrate marketing, automation, and analytics.`,
+        ],
         images: [
             {
                 img: SEOManager,
@@ -298,7 +302,8 @@ export const ABOUT_DATA = {
             },
             {
                 img: IndustriesWorkWithImg_2,
-                btn: [`B2B Companies & Professional Services Firms`],
+                // btn: [`B2B Companies & Professional Services Firms`],
+                btn: [`B2B Companies`],
             },
             {
                 img: IndustriesWorkWithImg_3,

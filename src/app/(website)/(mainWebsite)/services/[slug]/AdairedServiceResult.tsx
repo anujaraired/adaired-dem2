@@ -98,8 +98,8 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
                       <div className="flex flex-col items-center lg:flex-row lg:items-start lg:justify-between">
                         <div className="flex flex-col items-center gap-3 lg:flex-row">
                           <Image
-                            src={groth}
-                            // src={item?.img}
+                            // src={groth}
+                            src={item?.img ?? groth}
                             width={32}
                             height={32}
                             alt="icon"
@@ -146,7 +146,7 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
         </div>
       )}
       {aiseoResult?.isVariant === '02' && (
-        <div className={`bg-[#FFF8F0] py-[3rem] lg:py-[4rem]`}>
+        <div className={`bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0] py-[3rem] lg:py-[4rem]`}>
           <MaxWidthWrapper>
             <div
               className={`mx-auto transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
@@ -319,8 +319,8 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
                       <div className="flex flex-col items-center lg:flex-row lg:items-start lg:justify-between">
                         <div className="flex flex-col items-center gap-3 lg:flex-row">
                           <Image
-                            src={groth}
-                            // src={item?.img}
+                            // src={groth}
+                            src={item?.img ?? groth}
                             width={32}
                             height={32}
                             alt="icon"

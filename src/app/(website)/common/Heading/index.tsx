@@ -230,13 +230,15 @@ const Heading = ({
                   )}
                 </div>
               </div>
-              <div className="px-0 lg:px-[15%]">
-                <p
-                  className={`${isBgWhite ? 'text-[#000000]' : 'text-[#FFFFFF]'} mx-auto w-[80%] py-4 text-center`}
-                >
-                  {description}
-                </p>
-              </div>
+              {description && (
+                <div className="px-0 lg:px-[15%]">
+                  <p
+                    className={`${isBgWhite ? 'text-[#000000]' : 'text-[#FFFFFF]'} mx-auto w-[80%] py-4 text-center`}
+                  >
+                    {description}
+                  </p>
+                </div>
+              )}
             </div>
           ) : (
             <div
@@ -307,11 +309,22 @@ const Heading = ({
                 </div>
               </div>
               <div className={`${isDecVarticle && 'pt-[0rem]'}`}>
-                <p
-                  className={`${isBgWhite ? 'text-[#FFFFFF]' : ''} pt-4 text-center lg:text-left`}
-                >
-                  {description}
-                </p>
+                {Array.isArray(description)? (
+                  description.map((item: string, index: number) => (
+                    <p
+                      key={index}
+                      className={`${isBgWhite ? 'text-[#FFFFFF]' : ''} pt-4 text-center lg:text-left`}
+                    >
+                      {item}
+                    </p>
+                  ))
+                ) : (
+                  <p
+                    className={`${isBgWhite ? 'text-[#FFFFFF]' : ''} pt-4 text-center lg:text-left`}
+                  >
+                    {description}
+                  </p>
+                )}
                 {isPara2 && <p className="py-4">{description2}</p>}
               </div>
             </div>
