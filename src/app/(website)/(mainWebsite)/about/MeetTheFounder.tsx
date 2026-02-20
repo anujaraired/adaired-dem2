@@ -7,7 +7,7 @@ interface MeetTheFounderProps {
   MeetTheFounder: {
     isVisible: boolean;
     heading: string;
-    Title: string;
+    Name: string;
     designation: string;
     image: string;
     Quote: string;
@@ -22,61 +22,57 @@ const MeetTheFounderSection = ({
   if (!MeetTheFounder?.isVisible) return null;
 
   return (
+    <section className="overflow-hidden bg-gradient-to-b from-[#000000] to-[#051C40] py-[3rem] lg:py-[5rem]">
 
-    <section className="relative overflow-hidden bg-gradient-to-b from-[#000000] to-[#051C40] py-[5rem] lg:py-[7rem]">
-
-      <div className='mx-8'>
-        <img src={MeetTheFounder?.heading} alt="Meet The Founder" />
+      <div className="justify-center ">
+        <img src={MeetTheFounder?.heading} alt="Meet The Founder" className="w-[95%] mx-auto" />
       </div>
-      
-      
 
+      <MaxWidthWrapper className="pt-[7rem] z-10 grid grid-cols-1 items-center gap-[4rem] lg:grid-cols-2 justify-center">
 
-
-      <MaxWidthWrapper className="relative z-10 grid grid-cols-1 items-center gap-[4rem] lg:grid-cols-2">
-
-        {/* LEFT IMAGE */}
-        <div className="flex justify-center lg:justify-start mt-8">
-          <div className="relative w-[280px] sm:w-[350px] lg:w-[420px]">
+        <div className="flex justify-center  lg:justify-start ">
+          <div className="relative my-auto aspect-[735/647] w-[clamp(14rem,65vw,45.063rem)] overflow-hidden rounded-2xl shadow-2xl">
             <Image
               src={MeetTheFounder?.image}
-              alt={MeetTheFounder?.Title}
+              alt="Founder's Image"
               width={735}
               height={647}
+
               priority
-              className="rounded-2xl object-cover shadow-2xl"
+              className="rounded-2xl object-cover shadow-2xl w-full h-auto"
             />
           </div>
         </div>
 
-        {/* RIGHT CONTENT */}
-        <div className="text-white">
+        <div className="justify-center lg:justify-start">
 
-          {/* Founder Name */}
-          <h3 className="text-white text-4xl font-semibold italic tracking-wide lg:text-5xl">
-            {MeetTheFounder?.Title},
-          </h3>
+          <div className='flex justify-center lg:justify-start'>
+            <img
+              src={MeetTheFounder?.Name}
+              className='w-[530px] h-auto object-contain'
+              alt="Founder's Name"
+            />
+           
+          </div>
 
-          {/* Designation */}
-          <p className="mt-2 text-lg text-gray-300">
+          <p className="text-white text-base lg:text-start sm:text-lg md:text-center">
             {MeetTheFounder?.designation}
           </p>
 
-          {/* Quote */}
-          <blockquote className="mt-6 border-l-4 border-[#FBD04F] pl-4 text-lg italic text-gray-200">
+          <p className="font-montserrat mt-6 sm:mt-6 text-base sm:text-lg italic text-white">
             "{MeetTheFounder?.Quote}"
-          </blockquote>
+          </p>
 
-          {/* Bold Intro */}
-          <h4 className="mt-8 font-semibold text-white">
+          <p className="mt-6 sm:mt-10 text-[16px] sm:text-[18px] lg:text-[20px] text-white font-montserrat font-extrabold">
             {MeetTheFounder?.descriptionHeading}
-          </h4>
+          </p>
 
-        
-            <p className='text-white '>{MeetTheFounder?.description}</p>
-             
-          
+          {MeetTheFounder?.description.map((desc, index) => (
+            <p key={index} className="text-white font-montserrat font-semibold text-[14px] sm:text-[16px] lg:text-[18px] leading-relaxed mt-6 sm:mt-8 lg:mt-10 text-justify">{desc}</p>
+          ))}
+
         </div>
+
       </MaxWidthWrapper>
     </section>
   );
