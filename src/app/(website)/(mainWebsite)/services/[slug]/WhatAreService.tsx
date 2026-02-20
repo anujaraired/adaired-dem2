@@ -46,7 +46,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 })}
               </div>
 
-              {whatareaiseo?.isBgWhite?.button && (
+              {whatareaiseo?.button && (
                 <SaveAndCancel
                   name={whatareaiseo?.button}
                   isIcon={true}
@@ -59,7 +59,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
 
             <div
               ref={ref}
-              className={`group order-1 flex items-center justify-center transition-all duration-1000 lg:order-2 lg:items-start lg:justify-end ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
+              className={`group order-1 flex items-center justify-center transition-all duration-1000 lg:order-2 lg:items-center lg:justify-center ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
             >
               <Image src={whatareaiseo?.img} width={602} height={50} alt="" />
             </div>

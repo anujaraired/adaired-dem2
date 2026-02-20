@@ -1,4 +1,4 @@
-"use client";
+'use client';
 import React, { useEffect, useState } from 'react';
 import Heading from '../../common/Heading';
 import MaxWidthWrapper from '../MaxWidthWrapper';
@@ -124,7 +124,7 @@ const Banner = () => {
         priority
         className="pointer-events-none object-fill lg:object-cover"
       />
-      <MaxWidthWrapper className="relative z-10 block items-center justify-between py-[3rem] lg:flex lg:py-[4rem]">
+      <MaxWidthWrapper className="relative z-10 block items-center justify-between py-[6rem] lg:flex lg:py-[4rem]">
         <div
           className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[42%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
         >

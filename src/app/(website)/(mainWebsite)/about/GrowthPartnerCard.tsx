@@ -7,13 +7,13 @@ import Image from 'next/image';
 const GrowthPartnerCard = ({ handleClick }: any) => {
     //test
     return (
-        <div className="relative min-h-[350px] rounded-2xl transition-all duration-700 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:duration-300">
+        <div className="relative min-h-[350px] rounded-3xl transition-all duration-700 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:duration-300">
             <Image
                 src={Growth_Partner_Card}
                 fill
                 alt="hero bg"
                 priority
-                className="pointer-events-none rounded-2xl object-fill lg:object-cover"
+                className="pointer-events-none rounded-3xl object-fill lg:object-cover"
             />
             {/* <div className="absolute top-[2rem] left-[2rem] right-[2rem] lg:top-[4rem] h-full">
 
@@ -51,6 +51,7 @@ const GrowthPartnerCard = ({ handleClick }: any) => {
                         buttonWidth=""
                         isBgWhite={true}
                         isBorder={true}
+                        isHoverBgBlue={true}
                         handleClick={handleClick}
                     />
                 </div>
