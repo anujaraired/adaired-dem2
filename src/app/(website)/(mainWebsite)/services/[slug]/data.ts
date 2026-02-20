@@ -370,7 +370,8 @@ export const SERVICES_DATA = {
     },
     importantToBussiness: {
       isVariant: '01',
-      breakIndex: 6,
+      breakIndex: 7,
+      borderColor: 'border-[#323232]/10',
       isVisible: true,
       heading: 'Why is SEO Important to Your Business?',
       buttonName: '',
@@ -771,6 +772,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       subtitle: 'Boost Traffic Today',
       isLabel: true,
+      button: 'Get Your AI SEO Plan',
       title:
         'Get more visitors, attract the right audience, and increase your revenue.',
       description: `Our proven SEO strategies put your website in front of people who are ready to buy.`,
@@ -1012,6 +1014,7 @@ export const SERVICES_DATA = {
     },
     needofservice: {
       isVisible: true,
+      isVariant: '01',
       heading: 'What is the Need Of AI SEO Services?',
       data: [
         {
@@ -1415,6 +1418,7 @@ export const SERVICES_DATA = {
     getplan: {
       isVisible: true,
       isLabel: false,
+      button: 'Get Your AI SEO Plan',
       subtitle: 'Boost Traffic Today',
       title: 'Dominate AI Search Today',
       description: `Get a custom plan to optimize for AI-driven results: structured data,
@@ -3657,6 +3661,9 @@ brand appears in AI summaries and citations.`,
 
     importantToBussiness: {
       breakIndex: 4,
+      bgImage: 'bg-gradient-to-b from-[#F5F5F5] via-[#f8f8f8] to-[#fbfbfb]',
+      cardBg: '',
+      cardBorder: '',
       isVariant: '02',
       isVisible: true,
       heading: 'Our White Label Social Media Services',
@@ -4563,8 +4570,11 @@ brand appears in AI summaries and citations.`,
     },
 
     importantToBussiness: {
-      isVariant: '01',
-      breakIndex: 8,
+      isVariant: '02',
+      breakIndex: 6,
+      bgImage: 'bg-[#FFFFFF]',
+      cardBg: '',
+      cardBorder: '',
       isVisible: true,
       heading: 'What Will Our White Label SEO Services Cover?',
       description: [

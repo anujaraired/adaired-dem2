@@ -46,7 +46,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 })}
               </div>
 
-              {whatareaiseo?.isBgWhite?.button && (
+              {whatareaiseo?.button && (
                 <SaveAndCancel
                   name={whatareaiseo?.button}
                   isIcon={true}

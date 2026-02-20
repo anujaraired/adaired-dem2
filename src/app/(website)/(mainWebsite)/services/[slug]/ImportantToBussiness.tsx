@@ -62,7 +62,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
               {importantToBussiness?.data?.map((item: any, idx: number) => {
                 return (
                   <div
-                    className={`relative my-[1rem] rounded-[1rem] bg-[#F9F9F9] p-[2rem] px-[2rem] ${item?.button ? 'pb-[4rem]' : 'pb-[2rem]'} pt-[2rem] transition-all duration-700 lg:my-0 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                    className={`relative my-[1rem] rounded-[1rem] bg-[#F9F9F9] p-[2rem] px-[2rem] border ${item?.importantToBussiness?.borderColor} ${item?.button ? 'pb-[4rem]' : 'pb-[2rem]'} pt-[2rem] transition-all duration-700 lg:my-0 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
                     style={{
                       transitionDelay: `${idx * 280}ms`, // 👈 stagger here
                     }}
@@ -109,7 +109,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
       {importantToBussiness?.isVariant === '02' && (
         <div
           ref={ref}
-          className="bg-gradient-to-b from-[#F5F5F5] via-[#f8f8f8] to-[#fbfbfb] pb-[3rem] pt-[2rem] lg:pb-[5rem] lg:pt-[6rem]"
+          className={`${importantToBussiness?.bgImage} pb-[3rem] pt-[2rem] lg:pb-[5rem] lg:pt-[6rem]`}
         >
           <MaxWidthWrapper className="flex justify-center">
             <div
