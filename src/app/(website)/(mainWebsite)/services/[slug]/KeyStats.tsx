@@ -87,7 +87,7 @@ const KeyStats = ({ keyStats }: any) => {
               {keyStats?.list?.slice(0, 3).map((item: any, idx: number) => {
                 return (
                   <div
-                    className={`flex flex-col items-center rounded-[1rem] bg-[#F9F9F9] p-[2rem] transition-all duration-700 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                    className={`flex flex-col items-center rounded-[1rem] bg-[#F9F9F9] border border-[#323232]/10 p-[2rem] transition-all duration-700 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
                     style={{
                       transitionDelay: `${idx * 280}ms`, // 👈 stagger here
                     }}
@@ -102,7 +102,7 @@ const KeyStats = ({ keyStats }: any) => {
               {keyStats?.list?.slice(4, 6).map((item: any, idx: number) => {
                 return (
                   <div
-                    className={`flex flex-col items-center rounded-[1rem] bg-[#F9F9F9] p-[2rem] transition-all duration-700 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} `}
+                    className={`flex flex-col items-center rounded-[1rem] bg-[#F9F9F9] border border-[#323232]/10 p-[2rem] transition-all duration-700 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} `}
                     style={{
                       transitionDelay: `${idx * 280}ms`, // 👈 stagger here
                     }}
@@ -316,7 +316,7 @@ const KeyStats = ({ keyStats }: any) => {
                     // }}
                     onMouseEnter={() => setIsActive(idx)}
                     onMouseLeave={() => setIsActive(null)}
-                    className={`flex min-w-full flex-col items-center rounded-[1rem] p-[2rem] transition-all duration-300 ease-in-out sm:min-w-[50%] lg:min-w-[33.33%] lg:items-start ${isActive === idx ? 'rounded-[1rem] bg-[#FB9100]' : 'bg-[#F9F9F9]'}`}
+                    className={`flex min-w-full flex-col items-center rounded-[1rem] border border-[#323232]/10 p-[2rem] transition-all duration-300 ease-in-out sm:min-w-[50%] lg:min-w-[33.33%] lg:items-start ${isActive === idx ? 'rounded-[1rem] bg-[#FB9100]' : 'bg-[#F9F9F9]'}`}
                   >
                     <Image
                       src={isActive === idx ? ranking : ranking2}

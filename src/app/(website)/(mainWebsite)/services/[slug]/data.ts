@@ -51,6 +51,10 @@ import adairedHelp_14 from '../../../../../../public/assets/adairedHelp/Continuo
 import adairedHelp_15 from '../../../../../../public/assets/adairedHelp/Complete SEO Expertise.png';
 import adairedHelp_16 from '../../../../../../public/assets/adairedHelp/Client-Centric.png';
 
+import seo_resultIcon_1 from '../../../../../../public/assets/seo/strategy (2) 1.svg';
+import seo_resultIcon_2 from '../../../../../../public/assets/seo/Group 1000005912 (1).svg';
+import seo_resultIcon_3 from '../../../../../../public/assets/seo/Group 1000005915.svg';
+
 import adairedHelp_icon_1 from '../../../../../../public/assets/adairedHelp/help_icon_1.svg';
 import adairedHelp_icon_2 from '../../../../../../public/assets/adairedHelp/help_icon_2.svg';
 import adairedHelp_icon_3 from '../../../../../../public/assets/adairedHelp/help_icon_3.svg';
@@ -197,6 +201,11 @@ import whiteSeoResult_1 from '../../../../../../public/assets/whitelabel/whiteLa
 import whiteSeoResult_2 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoResult_2.png';
 import whiteSeoResult_3 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoResult_3.png';
 import whiteSeoResult_4 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoResult_4.png';
+
+import whiteSeoResult_Icon_1 from '../../../../../../public/assets/white_label_SEO/Group 1000006517.svg';
+import whiteSeoResult_Icon_2 from '../../../../../../public/assets/white_label_SEO/Group 1000005912.svg';
+import whiteSeoResult_Icon_3 from '../../../../../../public/assets/white_label_SEO/Group 1000006524.svg';
+import whiteSeoResult_Icon_4 from '../../../../../../public/assets/white_label_SEO/Group 1000006522.svg';
 
 import whiteSeoImpIcon_1 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoImpIcon_1.png';
 import whiteSeoImpIcon_2 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoImpIcon_2.png';
@@ -355,7 +364,7 @@ export const SERVICES_DATA = {
       heading: 'What Are SEO Services?',
       bgColor: '#FFFFFF',
       isBgWhite: false,
-      button: 'Get Started',
+      button: '',
       data: [
         {
           desctioption: `Search Engine Optimization services focus on improving a website’s visibility in search engine results pages (SERPs). It is aimed at ensuring that websites appear higher in relevant searches, which will enable people to find accurate and useful information online.`,
@@ -370,8 +379,11 @@ export const SERVICES_DATA = {
     },
     importantToBussiness: {
       isVariant: '01',
-      breakIndex: 6,
+      breakIndex: 7,
+      borderColor: 'border-[#323232]/10',
       isVisible: true,
+      isInCenter: true,
+      cardColor: '#F9F9F9',
       heading: 'Why is SEO Important to Your Business?',
       buttonName: '',
       data: [
@@ -447,6 +459,8 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '01',
       heading: 'What’s Included in Our SEO Services',
+      button: 'Get Your Free SEO Audit',
+
       list: [
         {
           icon: seo_tool_3,
@@ -571,7 +585,7 @@ export const SERVICES_DATA = {
       isBgColor: true,
       list: [
         {
-          img: aiseoresult,
+          img: seo_resultIcon_1,
           name: 'Tailored SEO Strategies',
           description: [
             `At Adaired, we offer tailored SEO strategies that match your business goals and objectives. With the help of our comprehensive approach, we uncover valuable insights to enhance your website's performance and drive strategic growth for your business. 
@@ -579,14 +593,14 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: aiseoresult,
+          img: seo_resultIcon_2,
           name: 'Transparent Reporting',
           description: [
             `We believe in building long-term relationships with our clients. This is why we use advanced digital marketing tools such as Ahrefs, Yoast, BuzzSumo, Hootsuite, and more to create result-driven strategies, track real-time results, and drive long-term revenue for our clients. Our search engine optimization strategy services are built on a structured, analytical approach that strengthens visibility, improves relevance, and supports long-term growth. `,
           ],
         },
         {
-          img: aiseoresult,
+          img: seo_resultIcon_3,
           name: 'Sustainable White-Hat Practices',
           description: [
             `Delivering quality work to our clients has become our USP over the years. We work with a laser-sharp focus to generate organic traffic, conversions, and improve technical site health. Our approach to search engine optimization is deep-rooted in advanced keyword research, SEO audits, market gap analysis, and data-driven strategies to meet your goals.  We address all the aspects of search engine optimization, right from on-page optimization to link building, ensuring that your digital presence is robust and sustainable. 
@@ -635,7 +649,9 @@ export const SERVICES_DATA = {
     },
     adairedHelp: {
       isVisible: true,
+      breakIndex: 6,
       img: adaairedHelpSEO,
+      isInCenter: true,
       heading:
         'List of comprehensive SEO Services that Drive Revenue and Traffic',
       mainImage: adairedHelpImg,
@@ -680,6 +696,7 @@ export const SERVICES_DATA = {
     whatMkeDeferent: {
       isVisible: true,
       variant: '01',
+      breakIndex: 4,
       heading: 'What Makes Adaired Different From Our Competitors?',
       description: [
         `At Adaired, we have a clear plan for building your search engine optimization strategy. Starting with understanding your goals clearly to analyzing where you are losing search visibility, we do all the legwork to help your business uncover quick wins.`,
@@ -760,6 +777,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       isCenter: true,
       subtitle: '',
+      breakIndex: 5,
       title: 'Claim Your Free Audit Before Competitors Do!',
       description: [
         `Spot problems, improve rankings, and get more traffic at no cost.`,
@@ -771,6 +789,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       subtitle: 'Boost Traffic Today',
       isLabel: true,
+      button: 'Get Your AI SEO Plan',
       title:
         'Get more visitors, attract the right audience, and increase your revenue.',
       description: `Our proven SEO strategies put your website in front of people who are ready to buy.`,
@@ -778,8 +797,8 @@ export const SERVICES_DATA = {
     faqData: {
       isVisible: true,
       subtitle: 'FAQ',
-      title: 'Frequently Asked Questions and Their Answers',
-      description: ``,
+      title: 'Questions You Have, Answers You Need',
+      description: `Have questions? Our FAQ section provides clear, concise answers about our services to guide you effortlessly.`,
       list: [
         {
           title: 'What are the services you provide in SEO?',
@@ -1012,6 +1031,7 @@ export const SERVICES_DATA = {
     },
     needofservice: {
       isVisible: true,
+      isVariant: '01',
       heading: 'What is the Need Of AI SEO Services?',
       data: [
         {
@@ -1092,7 +1112,6 @@ export const SERVICES_DATA = {
       img: StrugglingImgAISEO,
       list: [
         {
-          img: aiseoresult,
           name: 'Your Website Gets Traffic, but Not the Right Traffic',
           description: [
             'Many businesses rank for keywords but still don’t get leads or sales. AI search engines focus on user intent, not just rankings. When your content does not provide a clear answer to what users want, AI will push it down, creating low-quality traffic that does not convert. ',
@@ -1100,7 +1119,6 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: aiseoresult,
           name: 'Rankings Drop Without Any Warning',
           description: [
             'AI-powered algorithms change often, and many businesses don’t see it coming. A single update may even take your site off the list. You’re likely to go unnoticed, lose visibility, traffic, and revenue overnight.',
@@ -1108,7 +1126,6 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: aiseoresult,
           name: 'Your Content Doesn’t Stand Out Anymore',
           description: [
             'AI favors useful, clear, and original content. If your pages look like everyone else’s, no one pays attention to them. Generic Blogs, keyword repetition, and thin pages are difficult to rank and hence compete with the smarter content strategies used by brands.',
@@ -1116,7 +1133,6 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: aiseoresult,
           name: 'You’re Making SEO Decisions Without Real Data',
           description: [
             'Most companies are dependent on guesswork or past reports. It is difficult to discover what works and what does not without insights provided by AI. This leads to wasted effort, slow growth, and missed opportunities while competitors move ahead faster.',
@@ -1160,6 +1176,7 @@ export const SERVICES_DATA = {
     adairedHelp: {
       isVisible: true,
       img: adairedHelpAISEO,
+      isInCenter: true,
       heading: 'How Can Adaired Help You With AI SEO Services?',
       mainImage: adairedHelpImg,
       list: [
@@ -1216,6 +1233,9 @@ export const SERVICES_DATA = {
     whatMkeDeferent: {
       isVisible: true,
       isVariant: '01',
+      breakIndex: 4,
+      isInCenter: true,
+      bgColor: '#FFFFFF',
       heading: 'What Makes Adaired Different From Our Competitors?',
       description: [],
       list: [
@@ -1272,6 +1292,8 @@ export const SERVICES_DATA = {
     whatIncluded: {
       isVisible: true,
       isVariant: '01',
+      breakIndex: 7,
+      button: 'Get Your Free AI SEO Audit',
       heading:
         'AI SEO Solutions That Make Your Website Trusted by AI and Humans',
       description:
@@ -1415,6 +1437,7 @@ export const SERVICES_DATA = {
     getplan: {
       isVisible: true,
       isLabel: false,
+      button: 'Get Your AI SEO Plan',
       subtitle: 'Boost Traffic Today',
       title: 'Dominate AI Search Today',
       description: `Get a custom plan to optimize for AI-driven results: structured data,
@@ -3039,8 +3062,10 @@ brand appears in AI summaries and citations.`,
 
     importantToBussiness: {
       isVariant: '01',
-      breakIndex: 6,
+      // breakIndex: 6,
       isVisible: true,
+      cardColor: '#F9F9F9',
+      isInCenter: true,
       heading: 'Local SEO Services Designed to Grow Your Business',
       buttonName: 'Get Your Free Local SEO Audit',
       data: [
@@ -3657,7 +3682,11 @@ brand appears in AI summaries and citations.`,
 
     importantToBussiness: {
       breakIndex: 4,
-      isVariant: '02',
+      // bgImage: 'bg-gradient-to-b from-[#F5F5F5] via-[#f8f8f8] to-[#fbfbfb]',
+      cardBg: '',
+      cardBorder: '',
+      isVariant: '01',
+      bgColor: '#F5F5F5',
       isVisible: true,
       heading: 'Our White Label Social Media Services',
       description: [
@@ -3900,6 +3929,7 @@ brand appears in AI summaries and citations.`,
 
     whatMkeDeferent: {
       isVisible: true,
+      breakIndex: 5,
       isInCenter: false,
       heading: 'Why Choose Adaired as Your White Label Social Media Partner?',
       description: [
@@ -4566,6 +4596,9 @@ brand appears in AI summaries and citations.`,
       isVariant: '01',
       breakIndex: 6,
       isVisible: true,
+      bgColor: '',
+      cardColor: '',
+      borderColor: '#FB9100',
       heading: 'What Will Our White Label SEO   Services Cover?',
       description: [
         `Being a white-label SEO services agency, we are intended to help agencies throughout the SEO lifecycle while remaining brand neutral.`,
@@ -4667,7 +4700,7 @@ brand appears in AI summaries and citations.`,
       img: WhiteSeoServiceResultImg,
       list: [
         {
-          img: whiteSeoResult_1,
+          img: whiteSeoResult_Icon_1,
           name: 'Web Design Agencies Adding SEO Retainers',
           description: [
             `Web design agencies often introduce SEO as a recurring service after a website launch. 
@@ -4675,7 +4708,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteSeoResult_2,
+          img: whiteSeoResult_Icon_2,
           name: 'PPC Agencies Expanding into Organic Search',
           description: [
             `Paid media agencies frequently complement pay-per-click services with organic search offerings. 
@@ -4683,7 +4716,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteSeoResult_3,
+          img: whiteSeoResult_Icon_3,
           name: 'Consultants Supporting Long-Term SEO Clients',
           description: [
             `Independent consultants and marketing advisors may use white-label SEO to fulfill execution-heavy tasks while remaining focused on strategy and client management. 
@@ -4691,7 +4724,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteSeoResult_4,
+          img: whiteSeoResult_Icon_4,
           name: 'Multi-Location or Franchise SEO Support',
           description: [
             `Businesses operating across multiple locations often require scalable and standardized SEO execution. 

@@ -146,7 +146,7 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
         </div>
       )}
       {aiseoResult?.isVariant === '02' && (
-        <div className={`bg-[#FFF8F0] py-[3rem] lg:py-[4rem]`}>
+        <div className={`bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0] py-[3rem] lg:py-[4rem]`}>
           <MaxWidthWrapper>
             <div
               className={`mx-auto transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
