@@ -73,20 +73,20 @@ const IndustriesWeWorkWith = ({ industriesWeWorkWith }: any) => {
                             <IoArrowForwardCircleOutline
                                 size={50}
                                 onClick={handlePrev}
-                                className={`rotate-180 cursor-pointer text-white ${index === 0 ? 'cursor-not-allowed opacity-40' : ''}`}
+                                className={`rotate-180 cursor-pointer text-white hover:text-[#FB9100] ${index === 0 ? 'cursor-not-allowed opacity-40' : ''}`}
                             />
                             <IoArrowForwardCircleOutline
                                 size={50}
                                 onClick={handleNext}
-                                className={`cursor-pointer text-white ${index >= maxIndex ? 'cursor-not-allowed opacity-40' : ''}`}
+                                className={`cursor-pointer text-white hover:text-[#FB9100] ${index >= maxIndex ? 'cursor-not-allowed opacity-40' : ''}`}
                             />
                         </div>
 
                         <div className="overflow-hidden">
                             <div
-                                className="flex gap-[2rem] lg:gap-0 transition-transform duration-500 ease-in-out"
+                                className="flex gap-[2.5rem] transition-transform duration-500 ease-in-out last:pr-[2rem]"
                                 style={{
-                                    transform: `translateX(-${index * (100 / visibleCards)}%)`,
+                                    transform: `translateX(-${index * (80 / visibleCards)}%)`,
                                 }}
                             >
                                 {industriesWeWorkWith?.list?.map((item: any, idx: number) => (
@@ -94,7 +94,7 @@ const IndustriesWeWorkWith = ({ industriesWeWorkWith }: any) => {
                                         key={idx}
                                         onMouseEnter={() => setIsActive(idx)}
                                         onMouseLeave={() => setIsActive(null)}
-                                        className={`flex flex-col justify-center items-center min-w-full transition-all duration-300 ease-in-out sm:min-w-[50%] lg:min-w-[33.33%]`}
+                                        className={`flex flex-col justify-center items-center min-w-full transition-all duration-300 ease-in-out sm:min-w-[50%] lg:min-w-[25%]`}
                                     >
 
                                         <div className="relative inline-block">
