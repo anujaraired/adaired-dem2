@@ -8,7 +8,7 @@ import { ReCaptchaProvider } from 'next-recaptcha-v3';
 import GlobalDrawer from '@/app/shared/drawer-views/container';
 import GlobalModal from '@/app/shared/modal-views/container';
 
-import { Poppins, Outfit, Montserrat } from 'next/font/google';
+import { Poppins, Outfit, Montserrat, Mr_Dafoe } from 'next/font/google';
 
 export const poppins = Poppins({
   subsets: ['latin'],
@@ -28,6 +28,13 @@ export const montserrat = Montserrat({
   subsets: ['latin'],
   weight: ['300', '400', '500', '600', '700'],
   variable: '--font-montserrat',
+  display: 'swap',
+});
+
+export const mrDafoe = Mr_Dafoe({
+  subsets: ['latin'],
+  weight: ['400'],
+  variable: '--font-mr-dafoe',
   display: 'swap',
 });
 
@@ -176,6 +183,7 @@ export default async function RootLayout({
           dm.variable,
           baby.variable,
           poppins.variable,
+          mrDafoe.variable,
           outfit.variable, // ✅ add this
           montserrat.variable, // ✅ add this
           'antialiased'

@@ -162,7 +162,7 @@ export const ABOUT_DATA = {
     MeetTheFounder: {
         isVisible: true,
         heading: '/assets/images/about/Meet The Founder.png',
-        Title: 'Dheeraj Swami',
+        Name: '/assets/images/about/Dheeraj Swami,.png',
         designation: 'Founder & CEO',
         image: '/assets/images/about/Rectangle 10109.png',
         Quote:
