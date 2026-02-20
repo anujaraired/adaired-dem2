@@ -6254,7 +6254,7 @@ brand appears in AI summaries and citations.`,
     },
 
     keyStats: {
-      isVisible: true,
+      isVisible: false,
       code: '07',
       img: whiteServicesKeyStatsImg,
       heading: 'Why Choose White-Label Delivery',
