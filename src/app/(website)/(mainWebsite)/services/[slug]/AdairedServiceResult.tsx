@@ -98,8 +98,8 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
                       <div className="flex flex-col items-center lg:flex-row lg:items-start lg:justify-between">
                         <div className="flex flex-col items-center gap-3 lg:flex-row">
                           <Image
-                            src={groth}
-                            // src={item?.img}
+                            // src={groth}
+                            src={item?.img ?? groth}
                             width={32}
                             height={32}
                             alt="icon"
@@ -319,8 +319,8 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
                       <div className="flex flex-col items-center lg:flex-row lg:items-start lg:justify-between">
                         <div className="flex flex-col items-center gap-3 lg:flex-row">
                           <Image
-                            src={groth}
-                            // src={item?.img}
+                            // src={groth}
+                            src={item?.img ?? groth}
                             width={32}
                             height={32}
                             alt="icon"

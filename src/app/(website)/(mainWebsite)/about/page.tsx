@@ -9,6 +9,7 @@ import KeyStats from '../services/[slug]/KeyStats';
 import MeetTheFounderSection from './MeetTheFounder';
 import HowItStarted from './HowItStarted';
 import PeopleBehindWork from './PeopleBehindWork';
+import IndustriesWeWorkWith from './IndustriesWeWorkWith';
 import SeeDifference from './SeeDifference';
 import GrowingBrands from './GrowingBrands';
 import Testimonial from '../../components/home/Testimonial';
@@ -26,6 +27,7 @@ type SectionKey =
   | 'meetTheFounderSection'
   | 'howItStarted'
   | 'peopleBehindWork'
+  | 'industriesWeWorkWith'
   | 'seeDifference'
   | 'growingBrands'
   | 'testimonial'
@@ -66,6 +68,11 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
   peopleBehindWork: (data) =>
     data.peopleBehindWork?.isVisible ? (
       <PeopleBehindWork peopleBehindWork={data.peopleBehindWork} />
+    ) : null,
+
+  industriesWeWorkWith: (data) =>
+    data.industriesWeWorkWith?.isVisible ? (
+      <IndustriesWeWorkWith industriesWeWorkWith={data.industriesWeWorkWith} />
     ) : null,
 
   seeDifference: (data) =>
