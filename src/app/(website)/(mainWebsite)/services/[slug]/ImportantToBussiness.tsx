@@ -1,19 +1,14 @@
 import Heading from '@/app/(website)/common/Heading';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import React, { useState } from 'react';
-import groth from '../../../../../../public/assets/icons/growth 2.png';
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
-import DottedLine from '../../../../../../public/assets/Line 28.png';
-import keyStatsImg from '../../../../../../public/assets/keyStatsImg.png';
-import rocket from '../../../../../../public/assets/icons/rocket.svg';
 import { MdOutlineArrowOutward } from 'react-icons/md';
 import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 
 const ImportantToBussiness = ({ importantToBussiness }: any) => {
   const [open, setOpen] = useState(false);
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0);
-  // const words = importantToBussiness?.heading?.split(' ') || [];
 
   return (
     <div>
@@ -26,34 +21,13 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
             <div
               className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
             >
-              <div className="flex flex-col justify-center lg:flex-row">
-                <div
-                  className={`${importantToBussiness?.description?.length > 0 ? 'w-full pr-[0%] lg:w-[50%]' : 'flex w-[100%] justify-center justify-items-center lg:w-[50%]'} pr-0 lg:pr-[6rem]`}
-                >
-                  <h2
-                    className={`${importantToBussiness?.description?.length ? '' : 'text-center'}`}
-                  >
-                    {importantToBussiness?.heading}
-                  </h2>
-
-                  {/* <h2
-                className={`${importantToBussiness?.description?.length ? '' : 'text-center'
-                  }`}
-              >
-                {words.slice(0, 4).join(' ')}
-                <br className="hidden md:block" />
-                {words.slice(4).join(' ')}
-              </h2> */}
-                </div>
-
-                <div
-                  className={`${importantToBussiness?.description?.length > 0 ? 'w-full lg:w-[50%]' : 'w-[0%] bg-blue-100'}`}
-                >
-                  {importantToBussiness?.description?.map((item: any) => {
-                    return <p className="my-3 ml-0 lg:ml-[10rem]">{item}</p>;
-                  })}
-                </div>
-              </div>
+              <Heading
+                isDecVarticle
+                title={importantToBussiness?.heading}
+                description={importantToBussiness?.description}
+                breakIndex={importantToBussiness?.breakIndex}
+                className="mx-auto pb-[4rem] lg:mx-0"
+              />
             </div>
 
             <div
@@ -115,33 +89,6 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
             <div
               className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
             >
-              {/* <div className="flex flex-col justify-center lg:flex-row">
-                <div
-                  className={`${importantToBussiness?.description?.length > 0 ? 'w-full pr-[0%] lg:w-[50%]' : 'flex w-[100%] justify-center justify-items-center lg:w-[50%]'} pr-0 lg:pr-[6rem]`}
-                >
-                  <h2
-                    className={`${importantToBussiness?.description?.length ? '' : 'text-center'}`}
-                  >
-                    {importantToBussiness?.heading}
-                  </h2> */}
-
-              {/* <h2
-                        className={`${importantToBussiness?.description?.length ? '' : 'text-center'}`}
-                      >
-                         {words.slice(0, 4).join(' ')}
-                          <br className="hidden md:block" />
-                          {words.slice(4).join(' ')}
-                      </h2> */}
-              {/* </div>
-
-                <div
-                  className={`${importantToBussiness?.description?.length > 0 ? 'w-full lg:w-[50%]' : 'w-[0%] bg-blue-100'}`}
-                >
-                  {importantToBussiness?.description?.map((item: any) => {
-                    return <p className="my-3 ml-0 lg:ml-[10rem]">{item}</p>;
-                  })}
-                </div>
-              </div> */}
               <div className="">
                 <Heading
                   isDecVarticle
