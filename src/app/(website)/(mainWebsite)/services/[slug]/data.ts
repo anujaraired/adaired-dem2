@@ -3460,12 +3460,21 @@ brand appears in AI summaries and citations.`,
 
     leadingTools: {
       isVisible: true,
-      heading:
-        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      heading: 'Local Businesses That Choose Us',
       description:
-        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
-      bgImage: '',
+        'From small businesses to multi-location brands, clients trust usto boost local rankings, manage online reputation, and drive consistent local leads that fuel long-term growth ',
+      bgImage: leadingToolsImg,
+
     },
+
+    // leadingTools: {
+    //   isVisible: true,
+    //   heading:
+    //     'Powered By Leading Tools For Maximum Performance and Efficiency ',
+    //   description:
+    //     'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+    //   bgImage: '',
+    // },
 
     adairedHelp: {
       isVisible: false,
