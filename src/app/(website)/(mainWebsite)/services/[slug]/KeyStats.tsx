@@ -82,7 +82,7 @@ const KeyStats = ({ keyStats }: any) => {
               />
             </div>
             <div
-              className={`${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} grid grid-cols-1 gap-[1rem] lg:grid-cols-3`}
+              className={`pt-[2rem] ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'} grid grid-cols-1 gap-[1rem] lg:grid-cols-3`}
             >
               {keyStats?.list?.slice(0, 3).map((item: any, idx: number) => {
                 return (
@@ -408,7 +408,7 @@ const KeyStats = ({ keyStats }: any) => {
               title={keyStats?.heading}
             />
 
-            <div className="relative grid grid-cols-1 gap-[1rem] lg:grid-cols-2 lg:gap-[4rem]">
+            <div className="relative pt-[2rem] grid grid-cols-1 gap-[1rem] lg:grid-cols-2 lg:gap-[4rem]">
               <div className="rounded-[20px]">
                 {keyStats?.list?.map((item: any, index: any) => (
                   <div
