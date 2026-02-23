@@ -4696,6 +4696,7 @@ brand appears in AI summaries and citations.`,
     dataInTable: {
       isVisible: true,
       isInCenter: true,
+      isBgWhite: true,
       isVariant: '01',
       heading: 'White Label SEO vs In-House SEO Teams',
       description:
@@ -7891,6 +7892,7 @@ brand appears in AI summaries and citations.`,
     dataInTable: {
       isVisible: true,
       isInCenter: false,
+      isBgWhite: false,
       isVariant: '01',
       heading: 'White-Label PPC Agency vs In-house PPC Team: What Should You Do?',
       description:
