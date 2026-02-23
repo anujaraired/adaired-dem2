@@ -9,8 +9,11 @@ import { useRouter } from 'next/navigation';
 
 import CountUp from '../../components/CountUp';
 import { ABOUT_DATA } from './aboutData';
+import GetQuoteModal from '../../components/popup/GetQuoteModal';
 
 const AboutBanner = ({ banner }: any) => {
+  const [open, setOpen] = useState(false);
+
   const router = useRouter();
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
   const images = ['img1', 'img2', 'img3', 'img4'] as const;
@@ -75,7 +78,7 @@ const AboutBanner = ({ banner }: any) => {
                   <SaveAndCancel
                     name={banner?.button}
                     isIcon={true}
-                    handleClick={() => router.push('/contact')}
+                    handleClick={() => setOpen(!open)}
                     className="w-[18rem] lg:w-[18rem]"
                   />
                 </div>
@@ -133,6 +136,7 @@ const AboutBanner = ({ banner }: any) => {
           </div>
         </div>
       </MaxWidthWrapper>
+      <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
     </div>
   );
 };
