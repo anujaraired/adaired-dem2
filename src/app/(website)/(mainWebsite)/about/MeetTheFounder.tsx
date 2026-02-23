@@ -3,23 +3,7 @@
 import Image from 'next/image';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 
-interface MeetTheFounderProps {
-  MeetTheFounder: {
-    isVisible: boolean;
-    heading: string;
-    Name: string;
-    designation: string;
-    image: string;
-    Quote: string;
-    descriptionHeading: string;
-    description: string[];
-  };
-}
-
-const MeetTheFounderSection = ({
-  MeetTheFounder,
-}: MeetTheFounderProps) => {
-  if (!MeetTheFounder?.isVisible) return null;
+const MeetTheFounderSection = ({MeetTheFounder}:any) => {
 
   return (
     <section className="overflow-hidden bg-gradient-to-b from-[#000000] to-[#051C40] py-[3rem] lg:py-[5rem]">
@@ -67,7 +51,7 @@ const MeetTheFounderSection = ({
             {MeetTheFounder?.descriptionHeading}
           </p>
 
-          {MeetTheFounder?.description.map((desc, index) => (
+          {MeetTheFounder?.description.map((desc:any, index:number) => (
             <p key={index} className="text-white font-montserrat font-semibold text-[14px] sm:text-[16px] lg:text-[18px] leading-relaxed mt-6 sm:mt-8 lg:mt-10 text-justify">{desc}</p>
           ))}
 

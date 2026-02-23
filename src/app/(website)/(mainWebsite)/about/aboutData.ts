@@ -73,6 +73,7 @@ export const ABOUT_DATA = {
     stopStruggling: {
         isVisible: true,
         isCenter: false,
+        breakIndex:5,
         title: 'Adaired Digital Media is a modern digital marketing agency',
         description: [
             `Adaired Digital Media is a modern digital marketing agency that values performance, innovation, and results. 
@@ -170,10 +171,9 @@ export const ABOUT_DATA = {
         descriptionHeading:
             'Dheeraj is a visionary digital growth leader who believes marketing should empower businesses, not overwhelm them.',
         description: [
-            `He founded Adaired Digital Media in 2017 with one clear objective: to build a digital marketing agency that prioritizes measurable growth over marketing noise. 
-            With extensive experience in performance marketing and lead generation, he saw firsthand how brands were overwhelmed by complexity but underwhelmed by results. `,
-            `His strategy is based on data-driven insights, ongoing optimization, and complete transparency. 
-            That’s why at Adaired, we create every campaign to generate qualified leads and measurable business growth.`
+            `He founded Adaired Digital Media in 2017 with one clear objective: to build a digital marketing agency that prioritizes measurable growth over marketing noise. With extensive experience in performance marketing and lead generation, he saw firsthand how brands were overwhelmed by complexity but underwhelmed by results.`,
+
+            `His strategy is based on data-driven insights, ongoing optimization, and complete transparency. That’s why at Adaired, we create every campaign to generate qualified leads and measurable business growth.`
         ]
     },
 
