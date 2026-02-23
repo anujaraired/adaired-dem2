@@ -43,19 +43,21 @@ const GrowthPartnerCard = ({ handleClick }: any) => {
                     </span>
                     Phase As <br /> a True Digital <br /> Growth <br /> Partner!
                 </h1>
-
-                <div className="mt-8 lg:mt-12 mb-6 flex justify-center lg:justify-start">
-                    <SaveAndCancel
-                        name="Talk to a Growth Strategist"
-                        isIcon={true}
-                        buttonWidth=""
-                        isBgWhite={true}
-                        isBorder={true}
-                        isHoverBgBlue={true}
-                        handleClick={handleClick}
-                    />
-                </div>
             </div>
+
+            {/* <div className="absolute lg:bottom-20 md:bottom-5 bottom-1 px-4 lg:px-8 pb-8 lg:pb-2 w-full flex justify-center lg:justify-start"> */}
+            <div className="absolute bottom-1 lg:bottom-16 px-4 lg:px-8 pb-8 lg:pb-2 w-full flex justify-center lg:justify-start">
+                <SaveAndCancel
+                    name="Talk to a Growth Strategist"
+                    isIcon={true}
+                    buttonWidth=""
+                    isBgWhite={true}
+                    isBorder={true}
+                    isHoverBgBlue={true}
+                    handleClick={handleClick}
+                />
+            </div>
+
 
         </div>
     );
