@@ -238,6 +238,22 @@ import PPC_Banner from '../../../../../../public/assets/images/PPCimg/PPC_Banner
 import WhatIsPPC from '../../../../../../public/assets/images/PPCimg/WhatIsPPC.png';
 import ppcServicesBuildLinkImg from '../../../../../../public/assets/images/PPCimg/ppcServicesBuildLinkImg.png';
 
+// White Label Paid Ads Images
+import whitePaidAdsBannerBg from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsBannerBg.png';
+import whiteWhatIsImg from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whiteWhatIsImg.png';
+import whitePaidAdsBuildLinkImg from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsBuildLinkImg.png';
+
+import whitePaidAdsMissing_1 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsMissing_1.png';
+import whitePaidAdsMissing_2 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsMissing_2.png';
+import whitePaidAdsMissing_3 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsMissing_3.png';
+
+import whitePaidAdsImpIcon_1 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_1.png';
+import whitePaidAdsImpIcon_2 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_2.png';
+import whitePaidAdsImpIcon_3 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_3.png';
+import whitePaidAdsImpIcon_4 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_4.png';
+import whitePaidAdsImpIcon_5 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_5.png';
+import whitePaidAdsImpIcon_6 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_6.png';
+
 export type SectionKey =
   | 'banner'
   | 'getsCredit'
@@ -6416,6 +6432,7 @@ brand appears in AI summaries and citations.`,
 
     whatMissing: {
       isVisible: false,
+      bgColor: true,
       heading: 'What Are Local SEO Ranking Factors?',
       description: [
         `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
@@ -7707,6 +7724,8 @@ brand appears in AI summaries and citations.`,
 
     whatMissing: {
       isVisible: false,
+      bgColor: true,
+      isInCenter: true,
       heading: 'What Are Local SEO Ranking Factors?',
       description: [
         `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
@@ -7804,82 +7823,73 @@ brand appears in AI summaries and citations.`,
       },
     },
     banner: {
-      code: '08',
+      code: '07',
       isCenter: false,
       isVisible: true,
-      heading: 'Scalable PPC Campaigns',
+      heading: 'White Label PPC Services',
       subheading: '',
       subtitle: '',
-      label: 'Own the Top Spot with',
+      label: 'Accelerate Agency Growth with',
       desc: [
-        `Drive high-intent traffic, generate qualified leads, and maximize ROI with data-driven PPC management. We build, optimize, and scale paid search campaigns that turn clicks into real revenue.`,
+        `Stop turning down PPC clients. Launch high-performance white-label paid ads services without expanding your internal team.`,
+        `At Adaired Digital Media, we deliver high-performing Google Ads and paid media campaigns under your brand, so you can focus on sales and client relationships and grow faster.`,
       ],
-      button: 'Request a Campaign Audit',
+      button: 'Become a White Label Reseller',
       width: '20rem',
       widthLg: '30rem',
-      bgImg: PPC_Banner,
+      bgImg: whitePaidAdsBannerBg,
     },
 
     whatareservice: {
       isVisible: true,
-      isVariant: '01',
-      img: WhatIsPPC,
-      heading: 'What is Pay Per',
-      span: 'Click Advertising?',
+      isVariant: '09',
+      img: whiteWhatIsImg,
+      heading: 'What Is White',
+      span: 'Label PPC?',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [
         {
-          desctioption: `PPC advertising is a digital marketing strategy where businesses pay a fee each time someone clicks on their ad. 
-          Instead of waiting to earn traffic organically, 
-          PPC allows you to place your business directly in front of people who are actively searching for your products or services.`,
+          desctioption: `White-label PPC is a partnership model that allows digital marketing agencies to offer professional paid advertising 
+          services under their own brand, without managing the campaigns in-house.`,
         },
         {
-          desctioption: `The most common form of PPC appears on search engines through platforms like Google Ads and Microsoft Advertising.`
+          desctioption: `In a white-label setup, a specialized PPC management company handles the strategy, campaign setup, optimization, tracking, and reporting behind the scenes. 
+          Your agency maintains full ownership of the client relationship, branding, and pricing.`
         },
-        {
-          desctioption: `When a user searches for a specific keyword (for example, “emergency plumber near me” or “buy running shoes online”), 
-          sponsored ads appear at the top of the search results. If the user clicks on your ad, you pay for that click.`,
-        }
-
       ],
       button: '',
     },
 
     whatMissing: {
       isVisible: true,
-      heading: 'What Are Local SEO Ranking Factors?',
+      bgColor: false,
+      isInCenter: true,
+      heading: 'How Does White Label PPC Work?',
       description: [
-        `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
-        Google now relies on three primary ranking factors to determine local visibility: Relevance, Distance, and Prominence.`,
-        `Together these factors assist Google in presenting the most accurate, trustworthy, and helpful local businesses to its users during their search.`,
+        `The process is simple and scalable:`,
       ],
       list: [
         {
-          icon: missing_1,
-          title: 'Relevance',
+          icon: whitePaidAdsMissing_1,
+          title: 'You Acquire the Client',
           description: [
-            `Relevance takes into consideration the similarity of your business with what the user wants to search. 
-            Google considers your business details, web content, service descriptions, categories and keywords to find out whether your business fits in the intention of the user.`,
-            `Clear, accurate, and well-optimized content improves relevance and increases the likelihood of appearing for the right local searches.`,
+            `Your agency sells PPC services as part of your marketing solutions and manages communication with the client.`,
           ],
         },
         {
-          icon: missing_2,
-          title: 'Distance',
+          icon: whitePaidAdsMissing_2,
+          title: 'We Build & Manage the Campaigns',
           description: [
-            `Distance measures how close your business is to the searcher or to the location specified in the search. 
-            You cannot control the location of the user, but you can make sure that your address, service areas and location information is correct and showing the same points on the web.`,
-            `Good relevance and high profile may enable the businesses to appear high even when the business is not the nearest.`,
+            `Our PPC experts handle keyword research, competitor analysis, campaign structure, ad copy creation, conversion tracking, bid optimization, 
+            and ongoing performance management.`,
           ],
         },
         {
-          icon: missing_3,
-          title: 'Prominence',
+          icon: whitePaidAdsMissing_3,
+          title: 'You Deliver Results Under Your Brand',
           description: [
-            `Prominence reflects how well-known and trusted your business is online. 
-            Google evaluates the signals including customer reviews, rating, local citation, and back links, mention of the brand and general online presence.`,
-            `Companies that enjoy a high degree of authority and good reputation are more likely to feature on top search results in the local search engine.`,
+            `We provide detailed performance reports and insights, fully aligned with your branding. Your client sees results, and your agency gets the credit.`,
           ],
         },
       ],
@@ -8015,252 +8025,181 @@ brand appears in AI summaries and citations.`,
     importantToBussiness: {
       isVisible: true,
       breakIndex: 5,
-      isVariant: '01',
-      heading: 'Our Pay Per Click Advertising Services',
+      isVariant: '03',
+      heading: 'Our White Label PPC Management Services',
       description: [
-        `At Adaired, we design multi-channel PPC strategies tailored to your business goals, audience behavior, and sales cycle. 
-        From search intent to remarketing and ecommerce campaigns, we build paid advertising systems that drive measurable growth.`,
+        `At Adaired Digital Media, we provide comprehensive white-label PPC Management Services designed to help agencies deliver high-performance paid advertising under their own brand. 
+        From search engines to social media and eCommerce marketplaces, we manage every campaign with precision, strategy, and ROI focus.`,
       ],
-      buttonName: 'Request a Consultation',
+      buttonName: 'Become a White Label Reseller',
       data: [
         {
-          icon: whiteSeoImpIcon_1,
-          name: 'Search Ads',
+          icon: whitePaidAdsImpIcon_1,
+          name: 'White Label Google Ads Management',
           description: [
-            `Search advertising is one of the most powerful forms of paid marketing services. 
-            These ads appear at the top of search results when potential customers actively look for products or services like yours.`,
+            `Google Ads remains the most powerful pay-per-click advertising platform, offering unmatched reach and advanced targeting capabilities.`,
             {
-              desctioption: `Search ads are ideal for:`,
+              desctioption: `As your white-label PPC partner, we manage:`,
               list: [
                 {
-                  des: [`Businesses targeting high-intent buyers`],
+                  des: [`Search Campaigns`],
                 },
                 {
-                  des: [`Short sales cycles`],
+                  des: [`Shopping Ads`],
                 },
                 {
-                  des: [`Lead generation campaigns`],
+                  des: [`Display Campaigns`],
                 },
                 {
-                  des: [`Promotional pushes`],
+                  des: [`Performance Max Campaigns`],
+                },
+                {
+                  des: [`YouTube Ads`],
                 },
               ],
             },
-            `We build search campaigns on platforms like Google Ads that focus on capturing demand at the exact moment customers are 
-            ready to act, delivering qualified, conversion-ready traffic.`,
+            `We craft data-driven strategies to maximize ad spend, improve conversion rates, and drive measurable ROI, all under your agency’s branding.`,
           ],
-          button: 'Request a Campaign Audit',
+          button: 'Become a White Label Reseller',
+          btnColor: '#2E8ADD',
         },
         {
-          icon: whiteSeoImpIcon_1,
-          name: 'Display Ads',
+          icon: whitePaidAdsImpIcon_2,
+          name: 'White Label Microsoft (Bing) Ads',
           description: [
-            `Display ads appear across Google’s partner websites and apps, targeting users based on interests, browsing behavior, and online activity.`,
+            `Microsoft Ads (formerly Bing Ads) provides access to a highly engaged audience, often at a lower cost-per-click.`,
             {
-              desctioption: `Display advertising is ideal for:`,
+              desctioption: `Our white-label advertising services include:`,
               list: [
                 {
-                  des: [`Brand awareness campaigns`],
+                  des: [`Search Campaign Optimization`],
                 },
                 {
-                  des: [`Long sales cycles`],
+                  des: [`Shopping Campaign Management`],
                 },
                 {
-                  des: [`Luxury or niche markets`],
+                  des: [`Audience Targeting & Bid Strategy`],
                 },
                 {
-                  des: [`Audience retargeting`],
+                  des: [`Conversion Tracking & Reporting`],
                 },
               ],
             },
-            `Our team uses visually compelling creatives, strategic audience targeting, and placement optimization to capture attention and nurture prospects through the buying journey.`,
+            `We help your agency expand reach and increase lead generation while maintaining efficient ad spend.`,
           ],
-          button: 'Request a Campaign Audit',
+          button: 'Become a White Label Reseller',
+          btnColor: '#008599',
         },
         {
-          icon: whiteSeoImpIcon_1,
-          name: 'Social Media Ads',
+          icon: whitePaidAdsImpIcon_3,
+          name: 'White Label Facebook & Instagram Ads',
           description: [
-            `Social media PPC is one of the fastest-growing advertising channels. 
-            These ads appear across major social platforms and are targeted based on user interests, behaviors, demographics, and engagement patterns.`,
+            `Social media advertising plays a critical role in brand awareness and lead generation.`,
             {
-              desctioption: `Social advertising works best for:`,
+              desctioption: `We manage:`,
               list: [
                 {
-                  des: [`Brands with active social presence`],
+                  des: [`Carousel Ads`],
                 },
                 {
-                  des: [`Highly targeted audience segments`],
+                  des: [`Video Ads`],
                 },
                 {
-                  des: [`Product launches`],
+                  des: [`Dynamic Product Ads`],
                 },
                 {
-                  des: [`Ecommerce campaigns`],
+                  des: [`Lead Generation Ads`],
+                },
+                {
+                  des: [`Story & Feed Ads`],
                 },
               ],
             },
-            `Adaired Digital Media creates high-converting social campaigns designed to drive engagement, traffic, and sales while maintaining cost efficiency.`,
+            `Our team creates high-converting creative strategies and audience targeting frameworks to drive qualified leads and maximize ROI, fully white-labeled under your agency.`,
           ],
-          button: 'Request a Campaign Audit',
+          button: 'Become a White Label Reseller',
+          btnColor: '#FE2181',
         },
         {
-          icon: whiteSeoImpIcon_1,
-          name: 'Remarketing Ads',
+          icon: whitePaidAdsImpIcon_4,
+          name: 'White Label Twitter (X) Ads',
           description: [
-            `Remarketing is one of the most effective ways to increase conversions and improve ROI. These ads target users who have already visited your website but didn’t convert.`,
+            `Twitter Ads allow brands to engage audiences in real time through targeted messaging.`,
             {
-              desctioption: `By re-engaging warm audiences, remarketing:`,
+              desctioption: `We manage:`,
               list: [
                 {
-                  des: [`Increases brand recall`],
+                  des: [`Promoted Posts`],
                 },
                 {
-                  des: [`Improves conversion rates`],
+                  des: [`Follower Campaigns`],
                 },
                 {
-                  des: [`Lowers cost per acquisition`],
+                  des: [`Trend Promotions`],
                 },
                 {
-                  des: [`Maximizes existing traffic value`],
+                  des: [`Lead Generation Campaigns`],
                 },
               ],
             },
-            `Because competition is lower and audiences are highly targeted, remarketing campaigns often deliver strong returns at a reduced cost.`,
+            `Our strategies focus on increasing brand awareness and driving measurable conversions through optimized PPC execution.`,
           ],
-          button: 'Request a Campaign Audit',
+          button: 'Become a White Label Reseller',
+          btnColor: '#000000',
         },
         {
-          icon: whiteSeoImpIcon_1,
-          name: 'Shopping Ads',
+          icon: whitePaidAdsImpIcon_5,
+          name: 'White Label Pinterest Ads',
           description: [
-            `For ecommerce businesses, Shopping ads provide powerful visibility.`,
+            `Pinterest offers access to users actively searching for inspiration and purchase ideas.`,
             {
-              desctioption: `These ads appear directly in search results with:`,
+              desctioption: `Our white label paid ads services include:`,
               list: [
                 {
-                  des: [`Product images`],
+                  des: [`Promoted Pins`],
                 },
                 {
-                  des: [`Pricing`],
+                  des: [`Video Ads`],
                 },
                 {
-                  des: [`Store name`],
+                  des: [`Traffic Campaigns`],
                 },
                 {
-                  des: [`Reviews`],
+                  des: [`Conversion Campaigns`],
                 },
               ],
             },
-            `They allow potential buyers to compare products before clicking, meaning traffic is often more qualified.`,
-            `We optimize product feeds, bidding strategies, and campaign structure within Google Ads to ensure maximum visibility and a stronger return on ad spend.`,
+            `We create visually compelling campaigns that drive engagement, website traffic, and revenue growth.`,
           ],
-          button: 'Request a Campaign Audit',
+          button: 'Become a White Label Reseller',
+          btnColor: '#FF1D25',
         },
         {
-          icon: whiteSeoImpIcon_1,
-          name: 'In-Stream Ads',
+          icon: whitePaidAdsImpIcon_6,
+          name: 'White Label Amazon Ads',
           description: [
-            `These ads appear before, during, or after video content across platforms like YouTube.`,
+            `For eCommerce-focused agencies, Amazon Ads provide direct access to high-intent shoppers.`,
             {
-              desctioption: `These campaigns are ideal for:`,
+              desctioption: `We manage:`,
               list: [
                 {
-                  des: [`Brand storytelling`],
+                  des: [`Sponsored Products`],
                 },
                 {
-                  des: [`Product demonstrations`],
+                  des: [`Sponsored Brands`],
                 },
                 {
-                  des: [`Audience engagement`],
+                  des: [`Sponsored Display Ads`],
                 },
                 {
-                  des: [`Remarketing strategies`],
+                  des: [`Marketplace Optimization`],
                 },
               ],
             },
-            `Video advertising allows your brand to connect with users in a more memorable and engaging way. 
-            Being the leading paid search advertising agency, our team ensures precise targeting and optimized placements for maximum impact.`,
+            `Our goal is to increase visibility, drive product sales, and improve Return on Ad Spend (ROAS).`,
           ],
-          button: 'Request a Campaign Audit',
-        },
-        {
-          icon: whiteSeoImpIcon_1,
-          name: 'Gmail Sponsored Promotions',
-          description: [
-            `Gmail ads allow businesses to reach users directly inside their inbox.`,
-            {
-              desctioption: `These ads are effective for:`,
-              list: [
-                {
-                  des: [`B2B campaigns`],
-                },
-                {
-                  des: [`Promotional offers`],
-                },
-                {
-                  des: [`Lead generation`],
-                },
-                {
-                  des: [`Re-engagement campaigns`],
-                },
-              ],
-            },
-            `We structure Gmail campaigns with advanced targeting, compelling creatives, and conversion tracking to generate high-quality clicks and inquiries.`,
-          ],
-          button: 'Request a Campaign Audit',
-        },
-        {
-          icon: whiteSeoImpIcon_1,
-          name: 'Local Services Ads',
-          description: [
-            `Local Services Ads operate on a pay-per-lead model rather than pay-per-click.`,
-            {
-              desctioption: `This model is ideal for service-based businesses such as:`,
-              list: [
-                {
-                  des: [`HVAC companies`],
-                },
-                {
-                  des: [`Electricians`],
-                },
-                {
-                  des: [`Plumbers`],
-                },
-                {
-                  des: [`Locksmiths`],
-                },
-              ],
-            },
-            `You only pay when a verified lead contacts your business, making it a highly efficient advertising option for local providers.`,
-          ],
-          button: 'Request a Campaign Audit',
-        },
-        {
-          icon: whiteSeoImpIcon_1,
-          name: 'Amazon PPC Ads',
-          description: [
-            `For ecommerce brands selling on Amazon, Amazon PPC campaigns increase product visibility within the platform.`,
-            {
-              desctioption: `These ads help:`,
-              list: [
-                {
-                  des: [`Improve product rankings`],
-                },
-                {
-                  des: [`Increase brand awareness`],
-                },
-                {
-                  des: [`Drive more sales`],
-                },
-                {
-                  des: [`Maximize marketplace exposure`],
-                },
-              ],
-            },
-            `Our team builds structured Amazon campaigns designed to increase profitability while controlling advertising costs.`,
-          ],
-          button: 'Request a Campaign Audit',
+          button: 'Become a White Label Reseller',
+          btnColor: '#FF9900',
         },
       ],
     },
@@ -8402,24 +8341,26 @@ brand appears in AI summaries and citations.`,
       isCode01: true,
       isVariant: '03',
       bgImg: whiteBookConsultationBg,
-      img: ppcServicesBuildLinkImg,
-      label: 'Build a PPC Campaign',
-      heading: 'That Drives Results',
+      img: whitePaidAdsBuildLinkImg,
+      label: 'Ready to Scale Your',
+      heading: 'Agency Without Hiring In-House?',
       description: ``,
       isBgWhite: true,
       data: [
         {
-          desctioption: `At Adaired, we don’t believe in generic ad campaigns. 
-          We build structured, data-driven PPC strategies designed to generate qualified leads, increase conversions, and maximize return on ad spend.`,
+          desctioption: `Partner with Adaired Digital Media and expand your service offerings with expert white-label PPC management. 
+          Deliver high-performing Google Ads and paid media campaigns under your brand, without the cost, complexity, or risk of building an internal team.`,
         },
         {
-          desctioption: `Whether you're new to paid advertising or looking to improve existing campaigns, our team is ready to help.`,
+          desctioption: `Whether you’re looking to add PPC to your agency for the first time or scale your existing paid advertising services, 
+          our team is ready to support you behind the scenes. 
+          We handle strategy, execution, and optimization, while you focus on closing deals and strengthening client relationships.`,
         },
         {
-          desctioption: `If you're serious about growing your business, it’s time to invest in a system that delivers measurable performance.`,
+          desctioption: `Let’s build predictable, scalable growth for your agency.`,
         },
       ],
-      button: 'Request a Custom PPC Proposal',
+      button: 'Contact us today to discuss a customized white-label partnership.',
     },
 
     faqData: {
