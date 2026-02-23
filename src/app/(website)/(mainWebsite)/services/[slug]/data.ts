@@ -1675,7 +1675,7 @@ brand appears in AI summaries and citations.`,
     },
 
     importantToBussiness: {
-      isVisible: true,
+      isVisible: false,
       heading: '',
       buttonName: '',
       breakIndex: 4,
@@ -2297,7 +2297,7 @@ brand appears in AI summaries and citations.`,
     },
 
     importantToBussiness: {
-      isVisible: true,
+      isVisible: false,
       heading: '',
       buttonName: '',
       breakIndex: 4,
@@ -6293,7 +6293,7 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '07',
+      isVariant: '08',
       img: WhatIsPPC,
       heading: 'What is Pay Per',
       span: 'Click Advertising?',
@@ -6306,8 +6306,11 @@ brand appears in AI summaries and citations.`,
           PPC allows you to place your business directly in front of people who are actively searching for your products or services.`,
         },
         {
-          desctioption: `The most common form of PPC appears on search engines through platforms like Google Ads and Microsoft Advertising. 
-          When a user searches for a specific keyword (for example, “emergency plumber near me” or “buy running shoes online”), sponsored ads appear at the top of the search results. If the user clicks on your ad, you pay for that click.`,
+          desctioption: `The most common form of PPC appears on search engines through platforms like Google Ads and Microsoft Advertising.`
+        },
+        {
+          desctioption: `When a user searches for a specific keyword (for example, “emergency plumber near me” or “buy running shoes online”), 
+          sponsored ads appear at the top of the search results. If the user clicks on your ad, you pay for that click.`,
         }
 
       ],
@@ -6971,13 +6974,18 @@ brand appears in AI summaries and citations.`,
       list: [
         {
           title: 'How does Adaired Digital Media manage PPC campaigns?',
-          description: `We follow a structured process that includes: We manage campaigns on platforms like Google Ads to ensure maximum visibility and performance.`,
-          list: [
-            `In-depth keyword research`,
-            `Strategic campaign setup`,
-            `Conversion tracking implementation`,
-            `Continuous performance optimization`,
-            `Transparent reporting`,
+          description: [
+            `We follow a structured process that includes:`,
+            {
+              list: [
+                `In-depth keyword research`,
+                `Strategic campaign setup`,
+                `Conversion tracking implementation`,
+                `Continuous performance optimization`,
+                `Transparent reporting`,
+              ],
+            },
+            `We manage campaigns on platforms like Google Ads to ensure maximum visibility and performance.`,
           ],
         },
         {
