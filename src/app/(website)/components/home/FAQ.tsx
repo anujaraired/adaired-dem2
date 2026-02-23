@@ -101,11 +101,11 @@ const FAQ = ({ faqs }: any) => {
 
                           if (typeof desc === "object" && desc?.list) {
                             return (
-                              <div key={index} className="space-y-2 pl-4">
+                              <div key={index} className="space-y-2">
                                 {desc.list.map((item: string, i: number) => (
-                                  <div key={i} className="flex gap-2 text-black">
-                                    <TbPointFilled className="mt-1" />
-                                    <p>{item}</p>
+                                  <div key={i} className="flex items-center gap-2 text-black ">
+                                    <TbPointFilled className="size-3" />
+                                    <p className='text-left'>{item}</p>
                                   </div>
                                 ))}
                               </div>

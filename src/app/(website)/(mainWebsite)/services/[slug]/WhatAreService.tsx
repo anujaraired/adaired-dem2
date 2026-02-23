@@ -494,7 +494,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
 
             <div
               ref={ref}
-              className={`group order-2 flex items-center justify-start transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-x-0 opacity-100 ' : '-translate-x-0 opacity-0 lg:translate-x-16'}`}
+              className={`group order-2 flex items-center justify-center transition-all duration-1000 lg:order-1 lg:justify-start ${isVisible ? 'translate-x-0 opacity-100 ' : '-translate-x-0 opacity-0 lg:translate-x-16'}`}
             >
               <Image src={whatareaiseo?.img} width={579} height={552} alt="" />
             </div>

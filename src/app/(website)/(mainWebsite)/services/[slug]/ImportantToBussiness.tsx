@@ -105,7 +105,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
                                             alt="check"
                                             className="shrink-0 mt-1 w-[14px] h-auto sm:w-[17px]"
                                           />
-                                          <p>{d}</p>
+                                          <p className='text-left'>{d}</p>
                                         </div>
                                       ))}
                                     </li>
