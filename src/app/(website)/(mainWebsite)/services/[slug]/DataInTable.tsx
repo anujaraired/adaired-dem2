@@ -22,8 +22,9 @@ const DataInTable = ({ dataInTable }: any) => {
                     <Heading
                         title={dataInTable?.heading}
                         description={dataInTable?.description}
-                        isInCenter={true}
-                        isBgWhite={true}
+                        isInCenter={dataInTable?.isInCenter}
+                        isDecVarticle={!dataInTable?.isInCenter}
+                        isBgWhite={dataInTable?.isBgWhite}
                     />
 
                     {dataInTable?.isVariant === '01' && (
