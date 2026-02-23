@@ -142,3 +142,5 @@ const AboutBanner = ({ banner }: any) => {
 };
 
 export default AboutBanner;
+
+//fixed
