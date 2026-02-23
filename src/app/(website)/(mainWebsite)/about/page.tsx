@@ -92,7 +92,7 @@ const sectionRenderer: Record<SectionKey, SectionRenderer> = {
 
   readyToStart: (data) =>
     data.readyToStart?.isVisible ? (
-      <ReadyToStart />
+      <ReadyToStart className="pt-[6rem]" />
     ) : null,
 
 };
@@ -111,6 +111,45 @@ const About = () => {
 };
 
 export default About;
+
+
+
+// import React from 'react';
+// import { ABOUT_DATA } from './aboutData';
+// import Banner from '../services/[slug]/Banner';
+// import Stopstruggling from '../services/[slug]/Stopstruggling';
+// import AdairedServiceResult from '../services/[slug]/AdairedServiceResult';
+// import MeetTheFounderSection from './MeetTheFounder';
+
+// const page = () => {
+//   return (
+//     <div>
+//       {ABOUT_DATA?.banner?.isVisible && <Banner banner={ABOUT_DATA?.banner} />}
+//       {ABOUT_DATA?.stopStruggling && (
+//         <Stopstruggling stopStruggling={ABOUT_DATA?.stopStruggling} />
+//       )}
+//       {ABOUT_DATA?.serviceResult?.isVisible && (
+//         <AdairedServiceResult aiseoResult={ABOUT_DATA?.serviceResult} />
+//       )}
+
+//       <MeetTheFounderSection
+//         MeetTheFounder={{
+//           isVisible: true,
+//           heading: '',
+//           Name: '',
+//           designation: '',
+//           image: '',
+//           Quote: '',
+//           descriptionHeading: '',
+//           description: [],
+//         }}
+//       />
+//     </div>
+//   );
+// };
+
+// export default page;
+
 
 
 
