@@ -6526,7 +6526,7 @@ brand appears in AI summaries and citations.`,
     importantToBussiness: {
       isVisible: true,
       breakIndex: 5,
-      isVariant: '01',
+      isVariant: '02',
       heading: 'Our Pay Per Click Advertising Services',
       description: [
         `At Adaired, we design multi-channel PPC strategies tailored to your business goals, audience behavior, and sales cycle. 
