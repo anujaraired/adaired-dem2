@@ -12,11 +12,12 @@ import Testimonial from '../../components/home/Testimonial';
 import ReadyToStart from '../services/[slug]/ReadyToStart';
 import Solutions from '../../components/home/Solutions';
 import KeyStats from '../services/[slug]/KeyStats';
+import AboutBanner from './AboutBanner';
 
 const page = () => {
   return (
     <div>
-      {ABOUT_DATA?.banner?.isVisible && <Banner banner={ABOUT_DATA?.banner} />}
+      <AboutBanner banner={ABOUT_DATA?.banner}/>
       {ABOUT_DATA?.stopStruggling && (
         <Stopstruggling stopStruggling={ABOUT_DATA?.stopStruggling} />
       )}
@@ -32,7 +33,7 @@ const page = () => {
       <IndustriesWeWorkWith
         industriesWeWorkWith={ABOUT_DATA?.industriesWeWorkWith}
       />
-      <Solutions />
+      <Solutions data={ABOUT_DATA?.seeDifference} />
       <GrowingBrands />
       <Testimonial />
       <ReadyToStart className="pt-[6rem]" />
