@@ -96,6 +96,8 @@ export const ABOUT_DATA = {
         ],
         isBgColor: false,
         img: localServiceResultImg,
+        width:752,
+        hight:470,
         list: [
             {
                 img: localServiceResultIcon,
