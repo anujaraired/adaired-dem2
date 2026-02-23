@@ -162,7 +162,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
               >
                 {buildlinks?.label}
               </h1>
-              <h1 className="font-bold text-[#FFFFFF] lg:text-left">
+              <h1 className="font-bold text-[#FFFFFF] text-center lg:text-left">
                 {buildlinks?.heading}
               </h1>
               <div className="py-[2rem]">

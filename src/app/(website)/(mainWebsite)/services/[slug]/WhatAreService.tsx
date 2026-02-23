@@ -543,7 +543,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
 
             <div
               ref={ref}
-              className={`flex items-center justify-center transition-all duration-1000 absolute -lg:bottom-1 lg:right-0 order-1 lg:items-start lg:justify-end`}
+              className={`flex items-center justify-center transition-all duration-1000 lg:absolute -lg:bottom-1 lg:right-0 order-1 lg:items-start lg:justify-end`}
             >
               <Image
                 src={whatareaiseo?.img}
