@@ -228,7 +228,7 @@ import whiteServicesIncluded_5 from '../../../../../../public/assets/whitelabel/
 import whiteServicesIncluded_6 from '../../../../../../public/assets/whitelabel/whiteLabelServices/whiteServicesIncluded_6.png';
 
 //PPC Images
-import PPC_Banner from '../../../../../../public/assets/images/PPCimg/PPC_Banner.png'
+import PPC_Banner from '../../../../../../public/assets/images/PPCimg/PPC_Banner.png';
 import WhatIsPPC from '../../../../../../public/assets/images/PPCimg/WhatIsPPC.png';
 import ppcServicesBuildLinkImg from '../../../../../../public/assets/images/PPCimg/ppcServicesBuildLinkImg.png';
 
@@ -519,24 +519,25 @@ export const SERVICES_DATA = {
     },
     ourProcess: {
       isVisible: true,
+      breakIndex:7,
+      isInCenter:true,
       title: 'Our Proven SEO Process That SEO Drives Both Traffic & Revenue',
       services: [
         {
           icon: step,
           title: 'Website Analysis and Audit',
           description: [
-            `We begin the SEO process with a thorough website analysis and audit. This includes reviewing site structure, technical performance, content quality, and existing search rankings. 
-            The identification of the strengths, weaknesses, and opportunities is a clear roadmap to optimization. 
-            A detailed audit ensures that every SEO effort is strategic, focused, and based upon best practices with regard to search engine visibility.
-`,
+            `We begin the SEO process with a thorough website analysis and audit. This includes reviewing site structure, technical performance, content quality, and existing search rankings.`,
+            `The identification of the strengths, weaknesses, and opportunities is a clear roadmap to optimization. 
+            A detailed audit ensures that every SEO effort is strategic, focused, and based upon best practices with regard to search engine visibility.`,
           ],
         },
         {
           icon: step_2,
           title: 'Keyword Research and Strategy Planning',
           description: [
-            `In keyword research, we determine the keywords your target audience is searching for to find products, services, or information. This step analyzes search volume, competition, and user intent. 
-            After identifying the relevant keywords, a structured SEO strategy is developed, mapping each keyword to appropriate pages. 
+            `In keyword research, we determine the keywords your target audience is searching for to find products, services, or information. This step analyzes search volume, competition, and user intent.`,
+            `After identifying the relevant keywords, a structured SEO strategy is developed, mapping each keyword to appropriate pages. 
             This ensures your site attracts the right people and is driving meaningful conversions.`,
           ],
         },
@@ -544,35 +545,31 @@ export const SERVICES_DATA = {
           icon: step_3,
           title: 'On-Page and Technical Optimization',
           description: [
-            `Under on-page and technical SEO improvements, we make your website more accessible and understandable for search engines. 
-            This involves optimization of meta tags, headings, URLs, internal links, page speed, mobile usability, and site indexing. 
-            These changes enhance user experience while improving search rankings. A well-optimized site ensures that content is both readable for users and properly recognized by search engines.`,
+            `Under on-page and technical SEO improvements, we make your website more accessible and understandable for search engines.`,`This involves optimization of meta tags, headings, URLs, internal links, page speed, mobile usability, and site indexing. 
+           `, ` These changes enhance user experience while improving search rankings. A well-optimized site ensures that content is both readable for users and properly recognized by search engines.`
           ],
         },
         {
           icon: step_4,
           title: 'Content Enhancement and Creation',
           description: [
-            `Optimizing and creating content is a core part of the SEO process. We improve existing pages to better match target keywords, while new content is being created to fill gaps. 
-            High-quality content addresses user intent, provides value, and encourages engagement. 
-            Organized content assists search engines with relevancy, ranking, and visitors who are actively attracted by content.`,
+            `Optimizing and creating content is a core part of the SEO process. We improve existing pages to better match target keywords, while new content is being created to fill gaps.`, `High-quality content addresses user intent, provides value, and encourages engagement. 
+            Organized content assists search engines with relevancy, ranking, and visitors who are actively attracted by content.`
           ],
         },
         {
           icon: step_5,
           title: 'Link Building and Authority Growth',
           description: [
-            `Building high-quality backlinks strengthens a website’s authority and trustworthiness in the eyes of search engines. 
-            This process focuses on acquiring links from relevant and reputable websites through ethical methods. 
-            Effective link building supports long-term SEO success and helps maintain visibility in search results.`,
+            `Building high-quality backlinks strengthens a website’s authority and trustworthiness in the eyes of search engines.`,`This process focuses on acquiring links from relevant and reputable websites through ethical methods. 
+            Effective link building supports long-term SEO success and helps maintain visibility in search results.`
           ],
         },
         {
           icon: step_3,
           title: 'Monitoring, Reporting, and Optimization',
           description: [
-            `SEO is an ongoing process that requires continuous monitoring and refinement. Performance metrics, including traffic, rankings, and user behavior, are regularly tracked and analyzed. 
-            The constant monitoring enables our strategy to adjust to the changes of the search engines and the appearance of trends, which will guarantee the stable growth and exploitation of the search visibility in the long term.`,
+            `SEO is an ongoing process that requires continuous monitoring and refinement. Performance metrics, including traffic, rankings, and user behavior, are regularly tracked and analyzed. `, `The constant monitoring enables our strategy to adjust to the changes of the search engines and the appearance of trends, which will guarantee the stable growth and exploitation of the search visibility in the long term.`
           ],
         },
       ],
@@ -3469,7 +3466,6 @@ brand appears in AI summaries and citations.`,
       description:
         'From small businesses to multi-location brands, clients trust usto boost local rankings, manage online reputation, and drive consistent local leads that fuel long-term growth ',
       bgImage: leadingToolsImg,
-
     },
 
     // leadingTools: {
@@ -6315,13 +6311,12 @@ brand appears in AI summaries and citations.`,
           PPC allows you to place your business directly in front of people who are actively searching for your products or services.`,
         },
         {
-          desctioption: `The most common form of PPC appears on search engines through platforms like Google Ads and Microsoft Advertising.`
+          desctioption: `The most common form of PPC appears on search engines through platforms like Google Ads and Microsoft Advertising.`,
         },
         {
           desctioption: `When a user searches for a specific keyword (for example, “emergency plumber near me” or “buy running shoes online”), 
           sponsored ads appear at the top of the search results. If the user clicks on your ad, you pay for that click.`,
-        }
-
+        },
       ],
       button: '',
     },
@@ -6384,7 +6379,7 @@ brand appears in AI summaries and citations.`,
                 },
                 {
                   des: `Audience layering and remarketing`,
-                }
+                },
               ],
             },
             `This structure improves efficiency, reduces wasted spending, and increases conversion potential.`,
@@ -6408,7 +6403,7 @@ brand appears in AI summaries and citations.`,
                 },
                 {
                   des: `Strategic use of ad extensions`,
-                }
+                },
               ],
             },
             `We ensure your ads stand out while staying highly relevant to the search query.`,
@@ -6433,7 +6428,7 @@ brand appears in AI summaries and citations.`,
                 },
                 {
                   des: `Efficient budget allocation`,
-                }
+                },
               ],
             },
             `We continuously monitor performance to ensure every dollar is working toward growth.`,
@@ -6457,7 +6452,7 @@ brand appears in AI summaries and citations.`,
                 },
                 {
                   des: `Landing page experience`,
-                }
+                },
               ],
             },
             `This allows us to outrank competitors, often without needing the highest bid.`,
@@ -6484,7 +6479,7 @@ brand appears in AI summaries and citations.`,
                 },
                 {
                   des: `Conversion tracking accuracy`,
-                }
+                },
               ],
             },
             `This step is critical in turning traffic into leads and sales.`,
@@ -7003,7 +6998,7 @@ brand appears in AI summaries and citations.`,
             `PPC can begin driving traffic immediately after launch. `,
             `However, the first few weeks are typically focused on data collection and optimization. 
             As campaigns gather performance insights, we refine targeting and bidding strategies to improve results over time.`,
-          ]
+          ],
         },
         {
           title: 'Can you improve my existing PPC campaigns?',
