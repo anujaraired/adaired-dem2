@@ -36,6 +36,12 @@ import seo_tool_4 from '../../../../../../public/assets/icons/seotools/Group 100
 import seo_tool_5 from '../../../../../../public/assets/icons/seotools/Group 1000006002.svg';
 import seo_tool_6 from '../../../../../../public/assets/icons/seotools/Group 1000006003.svg';
 
+import client_1 from '../../../../../../public/assets/LeadingTools/Group 1000005353.png';
+import client_2 from '../../../../../../public/assets/LeadingTools/Group 1000005354.png';
+import client_3 from '../../../../../../public/assets/LeadingTools/Group 1000005355.png';
+import client_4 from '../../../../../../public/assets/LeadingTools/Group 1000005356.png';
+import client_5 from '../../../../../../public/assets/LeadingTools/Group 1000005428.png';
+
 import HowAdairedHelp from '../../../../../../public/assets/WebDevelopment/HowAdairedHelp.png';
 import adairedHelp_1 from '../../../../../../public/assets/adairedHelp/Group 1000006012.png';
 import adairedHelp_2 from '../../../../../../public/assets/adairedHelp/Group 1000006013.png';
@@ -637,10 +643,35 @@ export const SERVICES_DATA = {
     },
     leadingTools: {
       isVisible: true,
+      isVariant: '01',
       heading: 'Powered By Leading Brands From All Around The World',
       description:
         'We have worked with some of the leading brands to turn visitors into leads and paying customers. ',
       bgImage: leadingToolsImg,
+      list: [
+        {
+          img:client_1,
+        },
+        {
+          img:client_2,
+        },
+        {
+          img:client_3,
+        },
+        {
+          img:client_4,
+        },
+        {
+          img:client_5,
+        },
+        {
+          img:client_1,
+        },
+        {
+          img:client_2,
+        }
+      ]
+
     },
     leadingToolsForPerformence: {
       isGapTop: true,
@@ -1171,11 +1202,35 @@ export const SERVICES_DATA = {
     },
     leadingTools: {
       isVisible: true,
+      isVariant: '01',
       heading:
         'Powered By Leading Tools For Maximum Performance and Efficiency ',
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
+      list: [
+        {
+          img:client_1,
+        },
+        {
+          img:client_2,
+        },
+        {
+          img:client_3,
+        },
+        {
+          img:client_4,
+        },
+        {
+          img:client_5,
+        },
+        {
+          img:client_1,
+        },
+        {
+          img:client_2,
+        }
+      ]
     },
     adairedHelp: {
       isVisible: true,
@@ -1885,11 +1940,35 @@ brand appears in AI summaries and citations.`,
     },
     leadingTools: {
       isVisible: true,
+      isVariant: '01',
       heading:
         'Powered By Leading Tools For Maximum Performance and Efficiency ',
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
+      list: [
+        {
+          img:client_1,
+        },
+        {
+          img:client_2,
+        },
+        {
+          img:client_3,
+        },
+        {
+          img:client_4,
+        },
+        {
+          img:client_5,
+        },
+        {
+          img:client_1,
+        },
+        {
+          img:client_2,
+        }
+      ]
     },
 
     // NEW
@@ -2488,11 +2567,35 @@ brand appears in AI summaries and citations.`,
     },
     leadingTools: {
       isVisible: true,
+      isVariant: '01',
       heading:
         'Powered By Leading Tools For Maximum Performance and Efficiency ',
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
+      list: [
+        {
+          img:client_1,
+        },
+        {
+          img:client_2,
+        },
+        {
+          img:client_3,
+        },
+        {
+          img:client_4,
+        },
+        {
+          img:client_5,
+        },
+        {
+          img:client_1,
+        },
+        {
+          img:client_2,
+        }
+      ]
     },
 
     // Updated
@@ -3464,10 +3567,103 @@ brand appears in AI summaries and citations.`,
 
     leadingTools: {
       isVisible: true,
+      isVariant: '02',
       heading: 'Local Businesses That Choose Us',
       description:
         'From small businesses to multi-location brands, clients trust usto boost local rankings, manage online reputation, and drive consistent local leads that fuel long-term growth ',
       bgImage: leadingToolsImg,
+      list: [
+        {
+          img:client_1,
+        },
+        {
+          img:client_2,
+        },
+        {
+          img:client_3,
+        },
+        {
+          img:client_4,
+        },
+        {
+          img:client_5,
+        },
+        {
+          img:client_1,
+        },
+        {
+          img:client_2,
+        },
+        {
+          img:client_3,
+        },
+        {
+          img:client_4,
+        },
+        {
+          img:client_5,
+        },
+        {
+          img:client_1,
+        },
+        {
+          img:client_2,
+        },
+        {
+          img:client_3,
+        },
+        {
+          img:client_4,
+        },
+        {
+          img:client_5,
+        },
+        {
+          img:client_1,
+        },
+        {
+          img:client_2,
+        },
+        {
+          img:client_3,
+        },
+        {
+          img:client_4,
+        },
+        {
+          img:client_5,
+        },
+        {
+          img:client_1,
+        },
+        {
+          img:client_2,
+        },
+        {
+          img:client_3,
+        },
+        {
+          img:client_4,
+        },
+        {
+          img:client_5,
+        },
+        {
+          img:client_1,
+        },
+        {
+          img:client_2,
+        },
+        {
+          img:client_3,
+        },
+        {
+          img:client_4,
+        },
+        {
+          img:client_5,
+        },
+      ]
 
     },
 
@@ -4294,11 +4490,35 @@ brand appears in AI summaries and citations.`,
 
     leadingTools: {
       isVisible: false,
+      isVariant: '01',
       heading:
         'Powered By Leading Tools For Maximum Performance and Efficiency ',
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
+      list: [
+        {
+          img:client_1,
+        },
+        {
+          img:client_2,
+        },
+        {
+          img:client_3,
+        },
+        {
+          img:client_4,
+        },
+        {
+          img:client_5,
+        },
+        {
+          img:client_1,
+        },
+        {
+          img:client_2,
+        }
+      ]
     },
 
     getplan: {
@@ -4875,11 +5095,35 @@ brand appears in AI summaries and citations.`,
 
     leadingTools: {
       isVisible: false,
+      isVariant: '01',
       heading:
         'Powered By Leading Tools For Maximum Performance and Efficiency ',
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
+      list: [
+        {
+          img:client_1,
+        },
+        {
+          img:client_2,
+        },
+        {
+          img:client_3,
+        },
+        {
+          img:client_4,
+        },
+        {
+          img:client_5,
+        },
+        {
+          img:client_1,
+        },
+        {
+          img:client_2,
+        }
+      ]
     },
 
     getplan: {
@@ -6067,11 +6311,35 @@ brand appears in AI summaries and citations.`,
 
     leadingTools: {
       isVisible: false,
+      isVariant: '01',
       heading:
         'Powered By Leading Tools For Maximum Performance and Efficiency ',
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
+      list: [
+        {
+          img:client_1,
+        },
+        {
+          img:client_2,
+        },
+        {
+          img:client_3,
+        },
+        {
+          img:client_4,
+        },
+        {
+          img:client_5,
+        },
+        {
+          img:client_1,
+        },
+        {
+          img:client_2,
+        }
+      ]
     },
 
     getplan: {
@@ -7174,11 +7442,14 @@ brand appears in AI summaries and citations.`,
 
     leadingTools: {
       isVisible: false,
+      isVariant: '01',
       heading:
         'Powered By Leading Tools For Maximum Performance and Efficiency ',
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
+      list: [
+      ]
     },
 
     getplan: {
