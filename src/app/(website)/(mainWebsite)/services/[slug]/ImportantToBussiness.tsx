@@ -5,6 +5,7 @@ import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import { MdOutlineArrowOutward } from 'react-icons/md';
 import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
+import SocialMediaCheck from '../../../../../../public/assets/images/PPCimg/arrowOrange.png';
 
 const ImportantToBussiness = ({ importantToBussiness }: any) => {
   const [open, setOpen] = useState(false);
@@ -61,9 +62,61 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
                     </div>
 
                     <h3 className="mb-[0.5rem] mt-[2rem]">{item?.name}</h3>
-                    <div className="">
+
+                    {/* <div className="">
                       {item?.description?.map((dec: any) => {
                         return <p className="py-3">{dec}</p>;
+                      })}
+                    </div> */}
+
+                    <div>
+                      {item?.description?.map((dec: any, index: number) => {
+
+                        if (typeof dec === "string") {
+                          return (
+                            <p key={index} className="py-3">
+                              {dec}
+                            </p>
+                          );
+                        }
+
+                        if (typeof dec === "object") {
+                          return (
+                            <div key={index} className="py-3">
+                              {dec?.desctioption && (
+                                <p className="pb-2 font-semibold">
+                                  {dec.desctioption}
+                                </p>
+                              )}
+
+                              {dec?.list && (
+                                <ul className="space-y-3">
+                                  {dec.list.map((listItem: any, i: number) => (
+                                    <li key={i}>
+                                      {listItem?.des?.map((d: string, di: number) => (
+                                        <div
+                                          key={di}
+                                          className="flex items-start gap-3"
+                                        >
+                                          <Image
+                                            src={SocialMediaCheck}
+                                            width={17}
+                                            height={23}
+                                            alt="check"
+                                            className="shrink-0 mt-1 w-[14px] h-auto sm:w-[17px]"
+                                          />
+                                          <p className='text-left'>{d}</p>
+                                        </div>
+                                      ))}
+                                    </li>
+                                  ))}
+                                </ul>
+                              )}
+                            </div>
+                          );
+                        }
+
+                        return null;
                       })}
                     </div>
 

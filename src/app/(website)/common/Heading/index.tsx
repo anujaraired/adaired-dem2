@@ -86,6 +86,7 @@ const Heading = ({
                         <>
                           {words.slice(0, breakIndex).join(' ')}
                           <br className="hidden md:block" />
+                          {" "}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -100,6 +101,7 @@ const Heading = ({
                         <>
                           {words.slice(0, breakIndex).join(' ')}
                           <br className="hidden md:block" />
+                          {" "}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -142,6 +144,7 @@ const Heading = ({
                         <>
                           {words.slice(0, breakIndex).join(' ')}
                           <br className="hidden md:block" />
+                          {" "}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -156,6 +159,7 @@ const Heading = ({
                         <>
                           {words.slice(0, breakIndex).join(' ')}
                           <br className="hidden md:block" />
+                          {" "}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -207,6 +211,7 @@ const Heading = ({
                         <>
                           {words.slice(0, breakIndex).join(' ')}
                           <br className="hidden md:block" />
+                          {" "}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -221,6 +226,7 @@ const Heading = ({
                         <>
                           {words.slice(0, breakIndex).join(' ')}
                           <br className="hidden md:block" />
+                          {" "}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -268,6 +274,7 @@ const Heading = ({
                         <>
                           {words.slice(0, breakIndex).join(' ')}
                           <br className="hidden md:block" />
+                          {" "}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -284,6 +291,7 @@ const Heading = ({
                         <>
                           {words.slice(0, breakIndex).join(' ')}
                           <br className="hidden md:block" />
+                          {" "}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -298,6 +306,7 @@ const Heading = ({
                           <>
                             {spans.slice(0, spanBreakIndex).join(' ')}
                             <br className="hidden md:block" />
+                            {" "}
                             {spans.slice(spanBreakIndex).join(' ')}
                           </>
                         ) : (

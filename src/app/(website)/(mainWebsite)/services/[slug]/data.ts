@@ -230,6 +230,7 @@ import whiteServicesIncluded_6 from '../../../../../../public/assets/whitelabel/
 //PPC Images
 import PPC_Banner from '../../../../../../public/assets/images/PPCimg/PPC_Banner.png'
 import WhatIsPPC from '../../../../../../public/assets/images/PPCimg/WhatIsPPC.png';
+import ppcServicesBuildLinkImg from '../../../../../../public/assets/images/PPCimg/ppcServicesBuildLinkImg.png';
 
 export type SectionKey =
   | 'banner'
@@ -1674,7 +1675,7 @@ brand appears in AI summaries and citations.`,
     },
 
     importantToBussiness: {
-      isVisible: true,
+      isVisible: false,
       heading: '',
       buttonName: '',
       breakIndex: 4,
@@ -2296,7 +2297,7 @@ brand appears in AI summaries and citations.`,
     },
 
     importantToBussiness: {
-      isVisible: true,
+      isVisible: false,
       heading: '',
       buttonName: '',
       breakIndex: 4,
@@ -3464,12 +3465,21 @@ brand appears in AI summaries and citations.`,
 
     leadingTools: {
       isVisible: true,
-      heading:
-        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      heading: 'Local Businesses That Choose Us',
       description:
-        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
-      bgImage: '',
+        'From small businesses to multi-location brands, clients trust usto boost local rankings, manage online reputation, and drive consistent local leads that fuel long-term growth ',
+      bgImage: leadingToolsImg,
+
     },
+
+    // leadingTools: {
+    //   isVisible: true,
+    //   heading:
+    //     'Powered By Leading Tools For Maximum Performance and Efficiency ',
+    //   description:
+    //     'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+    //   bgImage: '',
+    // },
 
     adairedHelp: {
       isVisible: false,
@@ -6208,6 +6218,7 @@ brand appears in AI summaries and citations.`,
       'keyStats',
       'whatareservice',
       'ourProcess',
+      'importantToBussiness',
       'whatIncluded',
       'adairedHelp',
       'whatMkeDeferent',
@@ -6215,7 +6226,6 @@ brand appears in AI summaries and citations.`,
       'faqData',
       'needofservice',
       'dataInTable',
-      'importantToBussiness',
       'serviceResult',
       'getsCredit',
       'readyToStart',
@@ -6242,7 +6252,7 @@ brand appears in AI summaries and citations.`,
       heading: 'Scalable PPC Campaigns',
       // subheading:
       //   'No in-house hiring. No brand dilution. Just reliable execution when demand grows.',
-      subtitle: '',
+      subtitle: 'Pay Per Click Advertising',
       label: 'Own the Top Spot with',
       desc: [
         `Drive high-intent traffic, generate qualified leads, and maximize ROI with data-driven PPC management. We build, optimize, and scale paid search campaigns that turn clicks into real revenue.`,
@@ -6254,7 +6264,7 @@ brand appears in AI summaries and citations.`,
     },
 
     keyStats: {
-      isVisible: true,
+      isVisible: false,
       code: '07',
       img: whiteServicesKeyStatsImg,
       heading: 'Why Choose White-Label Delivery',
@@ -6292,7 +6302,7 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '07',
+      isVariant: '08',
       img: WhatIsPPC,
       heading: 'What is Pay Per',
       span: 'Click Advertising?',
@@ -6300,11 +6310,16 @@ brand appears in AI summaries and citations.`,
       isBgWhite: true,
       data: [
         {
-          desctioption: `PPC advertising is a digital marketing strategy where businesses pay a fee each time someone clicks on their ad. Instead of waiting to earn traffic organically, PPC allows you to place your business directly in front of people who are actively searching for your products or services.
-`,
+          desctioption: `PPC advertising is a digital marketing strategy where businesses pay a fee each time someone clicks on their ad. 
+          Instead of waiting to earn traffic organically, 
+          PPC allows you to place your business directly in front of people who are actively searching for your products or services.`,
         },
         {
-          desctioption: `The most common form of PPC appears on search engines through platforms like Google Ads and Microsoft Advertising. When a user searches for a specific keyword (for example, “emergency plumber near me” or “buy running shoes online”), sponsored ads appear at the top of the search results. If the user clicks on your ad, you pay for that click.`,
+          desctioption: `The most common form of PPC appears on search engines through platforms like Google Ads and Microsoft Advertising.`
+        },
+        {
+          desctioption: `When a user searches for a specific keyword (for example, “emergency plumber near me” or “buy running shoes online”), 
+          sponsored ads appear at the top of the search results. If the user clicks on your ad, you pay for that click.`,
         }
 
       ],
@@ -6352,7 +6367,7 @@ brand appears in AI summaries and citations.`,
           title: 'Smart Campaign Structure & Targeting',
           description: [
             `We build tightly organized campaigns to maximize relevance and performance. Our setup includes:`,
-            
+
             {
               list: [
                 {
@@ -6508,8 +6523,261 @@ brand appears in AI summaries and citations.`,
       ],
     },
 
-    whatIncluded: {
+    importantToBussiness: {
       isVisible: true,
+      breakIndex: 5,
+      isVariant: '01',
+      heading: 'Our Pay Per Click Advertising Services',
+      description: [
+        `At Adaired, we design multi-channel PPC strategies tailored to your business goals, audience behavior, and sales cycle. 
+        From search intent to remarketing and ecommerce campaigns, we build paid advertising systems that drive measurable growth.`,
+      ],
+      buttonName: 'Request a Consultation',
+      data: [
+        {
+          icon: whiteSeoImpIcon_1,
+          name: 'Search Ads',
+          description: [
+            `Search advertising is one of the most powerful forms of paid marketing services. 
+            These ads appear at the top of search results when potential customers actively look for products or services like yours.`,
+            {
+              desctioption: `Search ads are ideal for:`,
+              list: [
+                {
+                  des: [`Businesses targeting high-intent buyers`],
+                },
+                {
+                  des: [`Short sales cycles`],
+                },
+                {
+                  des: [`Lead generation campaigns`],
+                },
+                {
+                  des: [`Promotional pushes`],
+                },
+              ],
+            },
+            `We build search campaigns on platforms like Google Ads that focus on capturing demand at the exact moment customers are 
+            ready to act, delivering qualified, conversion-ready traffic.`,
+          ],
+          button: 'Request a Campaign Audit',
+        },
+        {
+          icon: whiteSeoImpIcon_1,
+          name: 'Display Ads',
+          description: [
+            `Display ads appear across Google’s partner websites and apps, targeting users based on interests, browsing behavior, and online activity.`,
+            {
+              desctioption: `Display advertising is ideal for:`,
+              list: [
+                {
+                  des: [`Brand awareness campaigns`],
+                },
+                {
+                  des: [`Long sales cycles`],
+                },
+                {
+                  des: [`Luxury or niche markets`],
+                },
+                {
+                  des: [`Audience retargeting`],
+                },
+              ],
+            },
+            `Our team uses visually compelling creatives, strategic audience targeting, and placement optimization to capture attention and nurture prospects through the buying journey.`,
+          ],
+          button: 'Request a Campaign Audit',
+        },
+        {
+          icon: whiteSeoImpIcon_1,
+          name: 'Social Media Ads',
+          description: [
+            `Social media PPC is one of the fastest-growing advertising channels. 
+            These ads appear across major social platforms and are targeted based on user interests, behaviors, demographics, and engagement patterns.`,
+            {
+              desctioption: `Social advertising works best for:`,
+              list: [
+                {
+                  des: [`Brands with active social presence`],
+                },
+                {
+                  des: [`Highly targeted audience segments`],
+                },
+                {
+                  des: [`Product launches`],
+                },
+                {
+                  des: [`Ecommerce campaigns`],
+                },
+              ],
+            },
+            `Adaired Digital Media creates high-converting social campaigns designed to drive engagement, traffic, and sales while maintaining cost efficiency.`,
+          ],
+          button: 'Request a Campaign Audit',
+        },
+        {
+          icon: whiteSeoImpIcon_1,
+          name: 'Remarketing Ads',
+          description: [
+            `Remarketing is one of the most effective ways to increase conversions and improve ROI. These ads target users who have already visited your website but didn’t convert.`,
+            {
+              desctioption: `By re-engaging warm audiences, remarketing:`,
+              list: [
+                {
+                  des: [`Increases brand recall`],
+                },
+                {
+                  des: [`Improves conversion rates`],
+                },
+                {
+                  des: [`Lowers cost per acquisition`],
+                },
+                {
+                  des: [`Maximizes existing traffic value`],
+                },
+              ],
+            },
+            `Because competition is lower and audiences are highly targeted, remarketing campaigns often deliver strong returns at a reduced cost.`,
+          ],
+          button: 'Request a Campaign Audit',
+        },
+        {
+          icon: whiteSeoImpIcon_1,
+          name: 'Shopping Ads',
+          description: [
+            `For ecommerce businesses, Shopping ads provide powerful visibility.`,
+            {
+              desctioption: `These ads appear directly in search results with:`,
+              list: [
+                {
+                  des: [`Product images`],
+                },
+                {
+                  des: [`Pricing`],
+                },
+                {
+                  des: [`Store name`],
+                },
+                {
+                  des: [`Reviews`],
+                },
+              ],
+            },
+            `They allow potential buyers to compare products before clicking, meaning traffic is often more qualified.`,
+            `We optimize product feeds, bidding strategies, and campaign structure within Google Ads to ensure maximum visibility and a stronger return on ad spend.`,
+          ],
+          button: 'Request a Campaign Audit',
+        },
+        {
+          icon: whiteSeoImpIcon_1,
+          name: 'In-Stream Ads',
+          description: [
+            `These ads appear before, during, or after video content across platforms like YouTube.`,
+            {
+              desctioption: `These campaigns are ideal for:`,
+              list: [
+                {
+                  des: [`Brand storytelling`],
+                },
+                {
+                  des: [`Product demonstrations`],
+                },
+                {
+                  des: [`Audience engagement`],
+                },
+                {
+                  des: [`Remarketing strategies`],
+                },
+              ],
+            },
+            `Video advertising allows your brand to connect with users in a more memorable and engaging way. 
+            Being the leading paid search advertising agency, our team ensures precise targeting and optimized placements for maximum impact.`,
+          ],
+          button: 'Request a Campaign Audit',
+        },
+        {
+          icon: whiteSeoImpIcon_1,
+          name: 'Gmail Sponsored Promotions',
+          description: [
+            `Gmail ads allow businesses to reach users directly inside their inbox.`,
+            {
+              desctioption: `These ads are effective for:`,
+              list: [
+                {
+                  des: [`B2B campaigns`],
+                },
+                {
+                  des: [`Promotional offers`],
+                },
+                {
+                  des: [`Lead generation`],
+                },
+                {
+                  des: [`Re-engagement campaigns`],
+                },
+              ],
+            },
+            `We structure Gmail campaigns with advanced targeting, compelling creatives, and conversion tracking to generate high-quality clicks and inquiries.`,
+          ],
+          button: 'Request a Campaign Audit',
+        },
+        {
+          icon: whiteSeoImpIcon_1,
+          name: 'Local Services Ads',
+          description: [
+            `Local Services Ads operate on a pay-per-lead model rather than pay-per-click.`,
+            {
+              desctioption: `This model is ideal for service-based businesses such as:`,
+              list: [
+                {
+                  des: [`HVAC companies`],
+                },
+                {
+                  des: [`Electricians`],
+                },
+                {
+                  des: [`Plumbers`],
+                },
+                {
+                  des: [`Locksmiths`],
+                },
+              ],
+            },
+            `You only pay when a verified lead contacts your business, making it a highly efficient advertising option for local providers.`,
+          ],
+          button: 'Request a Campaign Audit',
+        },
+        {
+          icon: whiteSeoImpIcon_1,
+          name: 'Amazon PPC Ads',
+          description: [
+            `For ecommerce brands selling on Amazon, Amazon PPC campaigns increase product visibility within the platform.`,
+            {
+              desctioption: `These ads help:`,
+              list: [
+                {
+                  des: [`Improve product rankings`],
+                },
+                {
+                  des: [`Increase brand awareness`],
+                },
+                {
+                  des: [`Drive more sales`],
+                },
+                {
+                  des: [`Maximize marketplace exposure`],
+                },
+              ],
+            },
+            `Our team builds structured Amazon campaigns designed to increase profitability while controlling advertising costs.`,
+          ],
+          button: 'Request a Campaign Audit',
+        },
+      ],
+    },
+
+    whatIncluded: {
+      isVisible: false,
       isVariant: '03',
       breakIndex: 3,
       heading: 'White-Label Services We Provide',
@@ -6687,24 +6955,24 @@ brand appears in AI summaries and citations.`,
       isCode01: true,
       isVariant: '03',
       bgImg: whiteBookConsultationBg,
-      img: whiteServicesBuildLinkImg,
-      label: 'Ready to Expand Your',
-      heading: 'Digital Service Empire?',
+      img: ppcServicesBuildLinkImg,
+      label: 'Build a PPC Campaign',
+      heading: 'That Drives Results',
       description: ``,
       isBgWhite: true,
       data: [
         {
-          desctioption: `If managing fulfillment is slowing your agency down, Adaired Digital Media’s white-label partnership 
-          can help you move forward without restructuring your team or changing how you work with clients.`,
+          desctioption: `At Adaired, we don’t believe in generic ad campaigns. 
+          We build structured, data-driven PPC strategies designed to generate qualified leads, increase conversions, and maximize return on ad spend.`,
         },
         {
-          desctioption: `We support agencies with structured white-label digital services designed for consistent delivery, brand protection, and long-term collaboration.`,
+          desctioption: `Whether you're new to paid advertising or looking to improve existing campaigns, our team is ready to help.`,
         },
         {
-          desctioption: `Talk to our team now to see if a white-label partnership makes sense for your agency.`,
+          desctioption: `If you're serious about growing your business, it’s time to invest in a system that delivers measurable performance.`,
         },
       ],
-      button: 'Get Started',
+      button: 'Request a Custom PPC Proposal',
     },
 
     faqData: {
@@ -6714,43 +6982,58 @@ brand appears in AI summaries and citations.`,
       description: ``,
       list: [
         {
-          title: 'What are white-label digital services?',
-          description: `White-label digital services allow agencies to offer marketing services under their own brand while execution is handled by an external partner. 
-          The agency manages the client relationship, pricing, and communication, while fulfillment happens in the background.`,
+          title: 'How does Adaired Digital Media manage PPC campaigns?',
+          description: [
+            `We follow a structured process that includes:`,
+            {
+              list: [
+                `In-depth keyword research`,
+                `Strategic campaign setup`,
+                `Conversion tracking implementation`,
+                `Continuous performance optimization`,
+                `Transparent reporting`,
+              ],
+            },
+            `We manage campaigns on platforms like Google Ads to ensure maximum visibility and performance.`,
+          ],
         },
         {
-          title: 'How does Adaired’s white-label model work?',
-          description: `Adaired operates as a fulfillment partner, handling execution across digital services while your agency retains full brand ownership and client control. 
-          Deliverables, reporting, and documentation are provided in a white-label format.`,
+          title: 'How long does it take to see results from PPC?',
+          description: [
+            `PPC can begin driving traffic immediately after launch. `,
+            `However, the first few weeks are typically focused on data collection and optimization. 
+            As campaigns gather performance insights, we refine targeting and bidding strategies to improve results over time.`,
+          ]
         },
         {
-          title: 'What types of agencies can use these services?',
-          description: `Our white-label services are designed for digital marketing agencies, web development firms, consultants, 
-          and businesses that manage client relationships but prefer not to build or expand internal delivery teams.`,
+          title: 'Can you improve my existing PPC campaigns?',
+          description: `Yes. If you already have active campaigns, we conduct a detailed audit to identify inefficiencies, wasted spending, and missed opportunities. 
+          From there, we restructure and optimize your campaigns to improve targeting, reduce costs, and increase conversions.`,
         },
         {
-          title: 'Will our clients know Adaired is involved?',
-          description: `No. All services are delivered without Adaired branding. 
-          Your agency remains the sole point of contact, and clients are never introduced to third-party providers.`,
+          title: 'How do you determine the right PPC strategy for my business?',
+          description: `We begin with a discovery process to understand your goals, target audience, competition, and budget. 
+          Based on this data, we create a customized strategy that aligns with your revenue objectives rather than applying a one-size-fits-all approach.`,
         },
         {
-          title: 'Do we retain ownership of clients and accounts?',
-          description: `Yes. Your agency retains full ownership of client relationships, accounts, data, and pricing. Adaired’s role is limited strictly to execution.`,
+          title: 'How do you measure success in PPC campaigns?',
+          description: `Success is measured through performance metrics that directly impact your business growth, such as cost per lead, conversion rate, and return on ad spend. 
+          We track all campaign activity using tools like Google Analytics to ensure transparency and accurate reporting.`,
         },
         {
-          title: 'How does communication work during delivery?',
-          description: `You are assigned a dedicated point of contact who manages coordination, timelines, and updates. 
-          This ensures clarity and accountability without requiring your team to manage daily execution.`,
+          title: 'Will I have access to my PPC advertising accounts?',
+          description: `Yes. You maintain full ownership and access to your PPC advertising accounts at all times. 
+          We believe in complete transparency, and you will always be able to review campaign performance and data whenever needed.`,
         },
         {
-          title: 'Are reports and deliverables white-labeled?',
-          description: `Yes. All reports and deliverables are provided in a white-label format and can 
-          be shared directly with your clients or adapted to your existing reporting structure.`,
+          title: 'How do you reduce wasted ad spend?',
+          description: `We reduce wasted spend by refining keyword targeting, adding negative keywords, improving ad relevance, and continuously optimizing bidding strategies. 
+          Our ongoing monitoring ensures your budget is focused on high-converting traffic rather than unqualified clicks.`,
         },
         {
-          title: 'Do you offer ongoing support after initial delivery?',
-          description: `Yes. Our white-label services are structured for ongoing execution and support, 
-          making them suitable for long-term client engagements and recurring service models.`,
+          title: 'Can PPC work for small businesses?',
+          description: `Absolutely. PPC is highly scalable and can be tailored to fit small business budgets. 
+          With the right targeting and optimization strategy, even modest ad budgets can generate consistent, high-quality leads.`,
         },
       ],
     },
@@ -7000,94 +7283,6 @@ brand appears in AI summaries and citations.`,
               ],
             },
           ],
-        },
-      ],
-    },
-
-    importantToBussiness: {
-      isVisible: false,
-      breakIndex: 5,
-      heading: 'What Will Our White Label SEO Services Cover?',
-      description: [
-        `Being a white-label SEO services agency, we are intended to help agencies throughout the SEO lifecycle while remaining brand neutral.`,
-      ],
-      buttonName: 'Request a Consultation',
-      data: [
-        {
-          icon: whiteSeoImpIcon_1,
-          name: 'SEO Audits',
-          description: [
-            `Every successful SEO campaign starts with clarity. 
-            Before making changes, we take a deep dive into your client’s website to understand what’s holding it back and where 
-            the biggest opportunities lie.`,
-            `Our audits cover technical health, on-page elements, keyword positioning, content quality, internal linking, 
-            competitor benchmarking, and more. We identify crawl errors, broken links, duplicate content issues, 
-            slow-loading pages, missing metadata, and structural weaknesses that may affect search visibility.`,
-            `But we don’t just list problems; we provide prioritized action plans. 
-            This makes it easier for your agency to present strategy and next steps clearly to your clients.`,
-          ],
-          button: 'Request a Consultation',
-        },
-        {
-          icon: whiteSeoImpIcon_2,
-          name: 'Ongoing SEO Management',
-          description: [
-            `SEO is not a one-time setup. Search engines evolve, competitors improve, algorithms update, and user behavior changes. 
-            That’s why ongoing SEO management is critical for long-term growth.`,
-            `We continuously monitor performance, refine keyword strategies, optimize pages, improve content relevance, 
-            and adjust tactics based on real-time data. 
-            Our team ensures your clients don’t just gain rankings temporarily; they maintain and improve them consistently.`,
-            `This ongoing optimization helps increase organic traffic, improve engagement metrics, and drive sustainable growth month after month.`,
-          ],
-          button: 'Request a Consultation',
-        },
-        {
-          icon: whiteSeoImpIcon_3,
-          name: 'Technical SEO',
-          description: [
-            `Even the best content won’t rank if the technical foundation is weak. 
-            Technical SEO is the backbone of every successful campaign, and we treat it that way.`,
-            `We analyze website architecture, URL structure, crawlability, indexing status, XML sitemaps, 
-            robots.txt files, site speed, mobile responsiveness, structured data, and overall site performance. 
-            We ensure search engines can easily crawl and understand the website.`,
-            `By strengthening the technical base, we remove invisible barriers that may be limiting rankings and unlock the full potential of your client’s website.`,
-          ],
-          button: 'Request a Consultation',
-        },
-        {
-          icon: whiteSeoImpIcon_2,
-          name: 'Content Optimization',
-          description: [
-            `Content is more than just keywords placed on a page. It needs to match search intent, answer user questions clearly, and provide real value.`,
-            `We conduct in-depth keyword research and cluster keywords strategically to build topical authority. 
-            We optimize existing pages by improving headings, metadata, internal links, structure, and readability. 
-            When needed, we recommend new content ideas based on gaps and opportunities.`,
-            `Our focus is always on creating content that ranks and converts, not just content that fills space.`,
-          ],
-          button: 'Request a Consultation',
-        },
-        {
-          icon: whiteSeoImpIcon_4,
-          name: 'Link Building',
-          description: [
-            `Search engines trust websites that other authoritative websites trust. That’s where strategic link building comes in.`,
-            `We focus on acquiring relevant, high-quality backlinks from credible sources within the industry. 
-            Our approach avoids spammy tactics and focuses on long-term authority development. 
-            We prioritize contextual placements, niche relevance, and natural anchor strategies.`,
-            `This structured backlink acquisition strengthens domain authority and improves ranking potential in a sustainable way.`,
-          ],
-          button: 'Request a Consultation',
-        },
-        {
-          icon: whiteSeoImpIcon_5,
-          name: 'Rank Tracking and Reporting',
-          description: [
-            `Transparency is key in any client relationship. That’s why we provide clear, easy-to-understand, white-labeled reports that reflect your agency branding.`,
-            `We track keyword movements, organic traffic growth, backlink performance, technical improvements, and overall campaign progress. 
-            Our reports help you confidently show results to your clients while reinforcing your expertise.`,
-            `You stay in control of communication, and your clients see measurable progress backed by data.progress, and you stay in control of the relationship.`,
-          ],
-          button: 'Request a Consultation',
         },
       ],
     },
