@@ -3992,6 +3992,7 @@ brand appears in AI summaries and citations.`,
             }
           ],
           button: 'Start Growing',
+          btnColor: '#000000',
         },
         {
           title: 'GBP + Website Dominate',
@@ -4026,6 +4027,7 @@ brand appears in AI summaries and citations.`,
             }
           ],
           button: 'Dominate Search',
+          btnColor: '#000000',
         }
       ]
 
