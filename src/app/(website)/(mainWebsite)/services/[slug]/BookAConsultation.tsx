@@ -167,13 +167,14 @@ const BookAConsultation = ({ buildlinks }: any) => {
                 isH1={true}
                 title={buildlinks?.heading}
                 isBgWhite={buildlinks?.isBgWhite && true}
+                className=''
               />
 
-              <div className="pb-[2rem]">
+              <div className="space-y-4">
                 {buildlinks?.data?.map((item: any) => {
                   return (
                     <p
-                      className={`py-3 ${buildlinks?.isBgWhite && 'text-[#FFFFFF]'} `}
+                      className={`${buildlinks?.isBgWhite && 'text-[#FFFFFF]'} `}
                     >
                       {item?.desctioption}
                     </p>
@@ -187,7 +188,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
                   isIcon={true}
                   isBgWhite={true}
                   handleClick={() => setOpen(!open)}
-                  className="mt-[1rem]"
+                  className="mt-[3rem]"
                 />
               )}
             </div>
