@@ -45,7 +45,7 @@ export default function ImpToBusinessSlider({
                 {data?.map((item: any, idx: number) => (
                     <SwiperSlide key={idx} className="flex">
                         <div
-                            className="relative my-[1rem] flex h-[52rem] sm:h-[50rem] md:h-[48rem] lg:h-[47rem] w-full flex-col rounded-[1rem] border bg-white p-[2rem] transition-all duration-500"
+                            className="relative my-[1rem] flex h-[35rem] sm:h-[35rem] md:h-[36rem] lg:h-[36rem] w-full flex-col rounded-[1rem] border bg-white p-[2rem] transition-all duration-500"
                             style={{
                                 borderColor: colors?.borderColor,
                                 backgroundColor: colors?.cardColor || '#FFFFFF',
