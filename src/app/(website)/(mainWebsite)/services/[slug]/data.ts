@@ -984,7 +984,7 @@ export const SERVICES_DATA = {
         },
         {
           title: 'Accelerate',
-          text:'Recommended',
+          text: 'Recommended',
           description: 'Lorem Ipsum is simply dummy text of the printing and typesetting',
           desc: '$599',
           span: '/month',
@@ -3953,7 +3953,7 @@ brand appears in AI summaries and citations.`,
       description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
     },
 
-     seopackages: {
+    seopackages: {
       isVisible: true,
       cardLength: 2,
       heading: 'Local SEO Packages',
@@ -6878,28 +6878,9 @@ brand appears in AI summaries and citations.`,
           icon: step,
           title: 'Strategic Keyword Research',
           description: [
-            `Every successful PPC campaign starts with precision targeting.`,
-            `We identify high-intent keywords that your ideal customers are actively searching for. Our focus is not just traffic; it’s profitable traffic. We analyze:`,
-            {
-              list: [
-                {
-                  des: `Commercial and transactional search terms`,
-                },
-                {
-                  des: `Competitor bidding strategies`,
-                },
-                ,
-                {
-                  des: `Cost-per-click trends`,
-                },
-                {
-                  des: `Conversion intent signals`,
-                },
-                {
-                  des: `Long-tail opportunities`,
-                },
-              ],
-            },
+            `Every successful PPC campaign starts with precision targeting. We identify high-intent keywords that your ideal customers are actively searching for.`,
+            `Our focus is not just traffic; it’s profitable traffic. 
+            We analyze commercial and transactional search terms, competitor bidding strategies, cost-per-click trends, conversion intent signals, and long-tail opportunities.`,
             `This ensures your ads appear when customers are ready to take action.`,
           ],
         },
@@ -6907,27 +6888,8 @@ brand appears in AI summaries and citations.`,
           icon: step,
           title: 'Smart Campaign Structure & Targeting',
           description: [
-            `We build tightly organized campaigns to maximize relevance and performance. Our setup includes:`,
-
-            {
-              list: [
-                {
-                  des: `Strategic campaign segmentation`,
-                },
-                {
-                  des: `Themed ad groups for keyword alignment`,
-                },
-                {
-                  des: `Location-based targeting`,
-                },
-                {
-                  des: `Device optimization`,
-                },
-                {
-                  des: `Audience layering and remarketing`,
-                },
-              ],
-            },
+            `We build tightly organized campaigns to maximize relevance and performance.`,
+            `Our setup includes strategic campaign segmentation, themed ad groups for keyword alignment, location-based targeting, device optimization, and audience layering and remarketing.`,
             `This structure improves efficiency, reduces wasted spending, and increases conversion potential.`,
           ],
         },
@@ -6935,23 +6897,8 @@ brand appears in AI summaries and citations.`,
           icon: step,
           title: 'High-Converting Ad Creation',
           description: [
-            `Our team crafts compelling ad copy that matches search intent and drives clicks. Each ad is designed with:`,
-            {
-              list: [
-                {
-                  des: `Attention-grabbing headlines`,
-                },
-                {
-                  des: `Benefit-driven descriptions`,
-                },
-                {
-                  des: `Clear calls-to-action`,
-                },
-                {
-                  des: `Strategic use of ad extensions`,
-                },
-              ],
-            },
+            `Our team crafts compelling ad copy that matches search intent and drives clicks.`,
+            `Each ad is designed with attention-grabbing headlines, benefit-driven descriptions, clear calls-to-action, and strategic use of ad extensions.`,
             `We ensure your ads stand out while staying highly relevant to the search query.`,
           ],
         },
@@ -6960,23 +6907,7 @@ brand appears in AI summaries and citations.`,
           title: 'Smart Bidding & Budget Control',
           description: [
             `At Adaired Digital Media, we implement bidding strategies aligned with your business goals, whether that’s lead generation, ecommerce sales, or scaling revenue.`,
-            `We optimize for:`,
-            {
-              list: [
-                {
-                  des: `Lower cost per click`,
-                },
-                {
-                  des: `Improved conversion rates`,
-                },
-                {
-                  des: `Stronger return on ad spend (ROAS)`,
-                },
-                {
-                  des: `Efficient budget allocation`,
-                },
-              ],
-            },
+            `We optimize for lower cost per click, improved conversion rates, stronger return on ad spend (ROAS), and efficient budget allocation.`,
             `We continuously monitor performance to ensure every dollar is working toward growth.`,
           ],
         },
@@ -6984,23 +6915,8 @@ brand appears in AI summaries and citations.`,
           icon: step,
           title: 'Ad Auction & Quality Optimization',
           description: [
-            `Every time a search is performed, platforms like Google Ads run an instant auction to determine which ads appear. We improve your ad position by optimizing:`,
-            {
-              list: [
-                {
-                  des: `Keyword relevance`,
-                },
-                {
-                  des: `Expected click-through rate`,
-                },
-                {
-                  des: `Ad copy alignment`,
-                },
-                {
-                  des: `Landing page experience`,
-                },
-              ],
-            },
+            `Every time a search is performed, platforms like Google Ads run an instant auction to determine which ads appear.`,
+            `We improve your ad position by optimizing keyword relevance, expected click-through rate, Ad copy alignment, and landing page experience.`,
             `This allows us to outrank competitors, often without needing the highest bid.`,
           ],
         },
@@ -7008,26 +6924,8 @@ brand appears in AI summaries and citations.`,
           icon: step,
           title: 'Landing Page Performance',
           description: [
-            `Clicks alone don’t generate revenue; conversions do. As a pay per click company, we ensure your landing pages are optimized for:`,
-            {
-              list: [
-                {
-                  des: `Message match with ads`,
-                },
-                {
-                  des: `Fast load speed`,
-                },
-                {
-                  des: `Mobile responsiveness`,
-                },
-                {
-                  des: `Clear calls-to-action`,
-                },
-                {
-                  des: `Conversion tracking accuracy`,
-                },
-              ],
-            },
+            `Clicks alone don’t generate revenue; conversions do.`,
+            `As a pay per click company, we ensure your landing pages are optimized for message match with ads, fast load speeds, mobile responsiveness, clear calls-to-action, and conversion tracking accuracy.`,
             `This step is critical in turning traffic into leads and sales.`,
           ],
         },
@@ -7035,30 +6933,9 @@ brand appears in AI summaries and citations.`,
           icon: step,
           title: 'Continuous Monitoring & Optimization',
           description: [
-            `PPC success requires ongoing refinement. At Adaired Digital Media, we:`,
-            {
-              list: [
-                {
-                  des: `Analyze conversion data`,
-                },
-                {
-                  des: `Test new ad variations`,
-                },
-                {
-                  des: `Add negative keywords`,
-                },
-                {
-                  des: `Adjust bids strategically`,
-                },
-                {
-                  des: `Scale winning campaigns`,
-                },
-                {
-                  des: `Improve underperforming areas`,
-                },
-              ],
-            },
-            `Our goal is consistent improvement and scalable growth`,
+            `PPC success requires ongoing refinement.`,
+            `At Adaired Digital Media, we analyze conversion data, test new ad variations, add negative keywords, adjust bids strategically, scale winning campaigns, and improve underperforming areas.`,
+            `Our goal is consistent improvement and scalable growth.`,
           ],
         },
       ],
@@ -7079,27 +6956,9 @@ brand appears in AI summaries and citations.`,
           icon: whiteSeoImpIcon_1,
           name: 'Search Ads',
           description: [
-            `Search advertising is one of the most powerful forms of paid marketing services. 
-            These ads appear at the top of search results when potential customers actively look for products or services like yours.`,
-            {
-              desctioption: `Search ads are ideal for:`,
-              list: [
-                {
-                  des: [`Businesses targeting high-intent buyers`],
-                },
-                {
-                  des: [`Short sales cycles`],
-                },
-                {
-                  des: [`Lead generation campaigns`],
-                },
-                {
-                  des: [`Promotional pushes`],
-                },
-              ],
-            },
-            `We build search campaigns on platforms like Google Ads that focus on capturing demand at the exact moment customers are 
-            ready to act, delivering qualified, conversion-ready traffic.`,
+            `Search advertising is one of the most powerful forms of paid marketing services.`, 
+            `These ads appear at the top of search results when potential customers actively look for products or services like yours.`, 
+            `We build search campaigns on platforms like Google Ads that focus on capturing demand at the exact moment customers are ready to act, delivering qualified, conversion-ready traffic.`,
           ],
           button: 'Request a Campaign Audit',
         },
@@ -7107,24 +6966,7 @@ brand appears in AI summaries and citations.`,
           icon: whiteSeoImpIcon_1,
           name: 'Display Ads',
           description: [
-            `Display ads appear across Google’s partner websites and apps, targeting users based on interests, browsing behavior, and online activity.`,
-            {
-              desctioption: `Display advertising is ideal for:`,
-              list: [
-                {
-                  des: [`Brand awareness campaigns`],
-                },
-                {
-                  des: [`Long sales cycles`],
-                },
-                {
-                  des: [`Luxury or niche markets`],
-                },
-                {
-                  des: [`Audience retargeting`],
-                },
-              ],
-            },
+            `Display ads appear across Google’s partner websites and apps, targeting users based on interests, browsing behavior, and online activity.`, 
             `Our team uses visually compelling creatives, strategic audience targeting, and placement optimization to capture attention and nurture prospects through the buying journey.`,
           ],
           button: 'Request a Campaign Audit',
@@ -7133,25 +6975,8 @@ brand appears in AI summaries and citations.`,
           icon: whiteSeoImpIcon_1,
           name: 'Social Media Ads',
           description: [
-            `Social media PPC is one of the fastest-growing advertising channels. 
-            These ads appear across major social platforms and are targeted based on user interests, behaviors, demographics, and engagement patterns.`,
-            {
-              desctioption: `Social advertising works best for:`,
-              list: [
-                {
-                  des: [`Brands with active social presence`],
-                },
-                {
-                  des: [`Highly targeted audience segments`],
-                },
-                {
-                  des: [`Product launches`],
-                },
-                {
-                  des: [`Ecommerce campaigns`],
-                },
-              ],
-            },
+            `Social media PPC is one of the fastest-growing advertising channels.`, 
+            `These ads appear across major social platforms and are targeted based on user interests, behaviors, demographics, and engagement patterns.`, 
             `Adaired Digital Media creates high-converting social campaigns designed to drive engagement, traffic, and sales while maintaining cost efficiency.`,
           ],
           button: 'Request a Campaign Audit',
@@ -7160,24 +6985,8 @@ brand appears in AI summaries and citations.`,
           icon: whiteSeoImpIcon_1,
           name: 'Remarketing Ads',
           description: [
-            `Remarketing is one of the most effective ways to increase conversions and improve ROI. These ads target users who have already visited your website but didn’t convert.`,
-            {
-              desctioption: `By re-engaging warm audiences, remarketing:`,
-              list: [
-                {
-                  des: [`Increases brand recall`],
-                },
-                {
-                  des: [`Improves conversion rates`],
-                },
-                {
-                  des: [`Lowers cost per acquisition`],
-                },
-                {
-                  des: [`Maximizes existing traffic value`],
-                },
-              ],
-            },
+            `Remarketing is one of the most effective ways to increase conversions and improve ROI.`, 
+            `These ads target users who have already visited your website but didn’t convert.`, 
             `Because competition is lower and audiences are highly targeted, remarketing campaigns often deliver strong returns at a reduced cost.`,
           ],
           button: 'Request a Campaign Audit',
@@ -7186,25 +6995,8 @@ brand appears in AI summaries and citations.`,
           icon: whiteSeoImpIcon_1,
           name: 'Shopping Ads',
           description: [
-            `For ecommerce businesses, Shopping ads provide powerful visibility.`,
-            {
-              desctioption: `These ads appear directly in search results with:`,
-              list: [
-                {
-                  des: [`Product images`],
-                },
-                {
-                  des: [`Pricing`],
-                },
-                {
-                  des: [`Store name`],
-                },
-                {
-                  des: [`Reviews`],
-                },
-              ],
-            },
-            `They allow potential buyers to compare products before clicking, meaning traffic is often more qualified.`,
+            `For ecommerce businesses, Shopping ads provide powerful visibility.`, 
+            `They allow potential buyers to compare products before clicking, meaning traffic is often more qualified.`, 
             `We optimize product feeds, bidding strategies, and campaign structure within Google Ads to ensure maximum visibility and a stronger return on ad spend.`,
           ],
           button: 'Request a Campaign Audit',
@@ -7213,26 +7005,9 @@ brand appears in AI summaries and citations.`,
           icon: whiteSeoImpIcon_1,
           name: 'In-Stream Ads',
           description: [
-            `These ads appear before, during, or after video content across platforms like YouTube.`,
-            {
-              desctioption: `These campaigns are ideal for:`,
-              list: [
-                {
-                  des: [`Brand storytelling`],
-                },
-                {
-                  des: [`Product demonstrations`],
-                },
-                {
-                  des: [`Audience engagement`],
-                },
-                {
-                  des: [`Remarketing strategies`],
-                },
-              ],
-            },
-            `Video advertising allows your brand to connect with users in a more memorable and engaging way. 
-            Being the leading paid search advertising agency, our team ensures precise targeting and optimized placements for maximum impact.`,
+            `These ads appear before, during, or after video content across platforms like YouTube.`, 
+            `Video advertising allows your brand to connect with users more memorably and engagingly.`, 
+            `Being the leading paid search advertising agency, our team ensures precise targeting and optimized placements for maximum impact.`,
           ],
           button: 'Request a Campaign Audit',
         },
@@ -7240,24 +7015,8 @@ brand appears in AI summaries and citations.`,
           icon: whiteSeoImpIcon_1,
           name: 'Gmail Sponsored Promotions',
           description: [
-            `Gmail ads allow businesses to reach users directly inside their inbox.`,
-            {
-              desctioption: `These ads are effective for:`,
-              list: [
-                {
-                  des: [`B2B campaigns`],
-                },
-                {
-                  des: [`Promotional offers`],
-                },
-                {
-                  des: [`Lead generation`],
-                },
-                {
-                  des: [`Re-engagement campaigns`],
-                },
-              ],
-            },
+            `Gmail ads allow businesses to reach users directly inside their inbox.`, 
+            `These ads are effective for B2B campaigns, promotional offers, lead generation, and re-engagement campaigns.`, 
             `We structure Gmail campaigns with advanced targeting, compelling creatives, and conversion tracking to generate high-quality clicks and inquiries.`,
           ],
           button: 'Request a Campaign Audit',
@@ -7266,24 +7025,8 @@ brand appears in AI summaries and citations.`,
           icon: whiteSeoImpIcon_1,
           name: 'Local Services Ads',
           description: [
-            `Local Services Ads operate on a pay-per-lead model rather than pay-per-click.`,
-            {
-              desctioption: `This model is ideal for service-based businesses such as:`,
-              list: [
-                {
-                  des: [`HVAC companies`],
-                },
-                {
-                  des: [`Electricians`],
-                },
-                {
-                  des: [`Plumbers`],
-                },
-                {
-                  des: [`Locksmiths`],
-                },
-              ],
-            },
+            `Local Services Ads operate on a pay-per-lead model rather than pay-per-click.`, 
+            `This model is ideal for service-based businesses such as HVAC companies, electricians, plumbers, and locksmiths.`, 
             `You only pay when a verified lead contacts your business, making it a highly efficient advertising option for local providers.`,
           ],
           button: 'Request a Campaign Audit',
@@ -7292,24 +7035,8 @@ brand appears in AI summaries and citations.`,
           icon: whiteSeoImpIcon_1,
           name: 'Amazon PPC Ads',
           description: [
-            `For ecommerce brands selling on Amazon, Amazon PPC campaigns increase product visibility within the platform.`,
-            {
-              desctioption: `These ads help:`,
-              list: [
-                {
-                  des: [`Improve product rankings`],
-                },
-                {
-                  des: [`Increase brand awareness`],
-                },
-                {
-                  des: [`Drive more sales`],
-                },
-                {
-                  des: [`Maximize marketplace exposure`],
-                },
-              ],
-            },
+            `For ecommerce brands selling on Amazon, Amazon PPC campaigns increase product visibility within the platform.`, 
+            `These ads improve product rankings, increase brand awareness, drive more sales, and maximize marketplace exposure.`, 
             `Our team builds structured Amazon campaigns designed to increase profitability while controlling advertising costs.`,
           ],
           button: 'Request a Campaign Audit',
