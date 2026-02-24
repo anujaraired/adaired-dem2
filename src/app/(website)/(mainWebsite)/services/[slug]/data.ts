@@ -237,6 +237,7 @@ import whiteServicesIncluded_6 from '../../../../../../public/assets/whitelabel/
 import PPC_Banner from '../../../../../../public/assets/images/PPCimg/PPC_Banner.png';
 import WhatIsPPC from '../../../../../../public/assets/images/PPCimg/WhatIsPPC.png';
 import ppcServicesBuildLinkImg from '../../../../../../public/assets/images/PPCimg/ppcServicesBuildLinkImg.png';
+import benefitsOfPPC from '../../../../../../public/assets/images/PPCimg/benefitsOfPPC.png';
 
 import ppcImpIcon_1 from '../../../../../../public/assets/images/PPCimg/ppcImpIcon_1.png';
 import ppcImpIcon_2 from '../../../../../../public/assets/images/PPCimg/ppcImpIcon_2.png';
@@ -264,7 +265,11 @@ import whitePaidAdsImpIcon_3 from '../../../../../../public/assets/whitelabel/wh
 import whitePaidAdsImpIcon_4 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_4.png';
 import whitePaidAdsImpIcon_5 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_5.png';
 import whitePaidAdsImpIcon_6 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_6.png';
-import benefitsOfPPC from '../../../../../../public/assets/images/PPCimg/benefitsOfPPC.png';
+
+// White Label Link Building Images
+import whiteLinkBuildingBannerBg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingBannerBg.png';
+import whiteLinkBuildingKeyStatsImg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingKeyStatsImg.png';
+
 
 export type SectionKey =
   | 'banner'
@@ -8855,52 +8860,53 @@ brand appears in AI summaries and citations.`,
       code: '07',
       isCenter: false,
       isVisible: true,
-      heading: 'White Label PPC Services',
+      heading: 'Authority with High-Quality Backlinks',
       subheading: '',
       subtitle: '',
-      label: 'Accelerate Agency Growth with',
+      label: 'Build Your Client’s Online',
       desc: [
-        `Stop turning down PPC clients. Launch high-performance white-label paid ads services without expanding your internal team.`,
-        `At Adaired Digital Media, we deliver high-performing Google Ads and paid media campaigns under your brand, so you can focus on sales and client relationships and grow faster.`,
+        `Strengthen your clients’ SEO strategy with expert white-label link-building services designed for agencies that want to scale without increasing overhead.`, 
+        `At Adaired Digital Media, white-label backlinks are built through ethical outreach, high-authority guest posting, and strategic placements that enhance domain authority, improve rankings, 
+        and drive measurable organic growth, all under your brand name.`,
       ],
-      button: 'Become a White Label Reseller',
+      button: 'Boost My SEO Rankings',
       width: '20rem',
       widthLg: '30rem',
-      bgImg: whitePaidAdsBannerBg,
+      bgImg: whiteLinkBuildingBannerBg,
     },
 
     keyStats: {
       isVisible: true,
       code: '08',
-      img: whiteServicesKeyStatsImg,
-      heading: 'Why Choose White-Label Delivery',
+      img: whiteLinkBuildingKeyStatsImg,
+      heading: 'Key Stats About White Label Link Building',
       bgColor: '#FB9100',
       isImgBg: true,
       isCard: false,
       list: [
         {
           desctioption: [
-            `Businesses that outsource between 40 and 60% of their service delivery experience growth that is roughly 2.3x faster than that of their peers.`,
+            `Nearly 9 out of 10 marketers (89%) rely on content marketing to generate backlinks.`,
           ],
         },
         {
           desctioption: [
-            `According to surveys, agencies that use white-label services have a 42% higher client retention rate.`,
+            `85% of SEO professionals confirm that link building solutions strengthens brand credibility.`,
           ],
         },
         {
           desctioption: [
-            `In 2026, the white label market is expected to reach $99.19 billion. This quick growth is a result of growing industry demand for outsourced solutions.`,
+            `Over two-thirds (69%) say link building directly drives business growth.`,
           ],
         },
         {
           desctioption: [
-            `White-label services are part of the global digital marketing market, which is expanding at a 13.1% CAGR.`,
+            `59% predict backlinks will become even more important for rankings.`,
           ],
         },
         {
           desctioption: [
-            `Using white-label marketing, agencies can expand their service offerings without having to hire full-time employees.`,
+            `An overwhelming 94% believe links will continue to shape Google’s algorithm in the future.`,
           ],
         },
       ],
