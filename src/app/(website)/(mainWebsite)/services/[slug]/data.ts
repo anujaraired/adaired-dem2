@@ -269,6 +269,7 @@ import whitePaidAdsImpIcon_6 from '../../../../../../public/assets/whitelabel/wh
 // White Label Link Building Images
 import whiteLinkBuildingBannerBg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingBannerBg.png';
 import whiteLinkBuildingKeyStatsImg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingKeyStatsImg.png';
+import whiteLinkBuildingBuildLinkImg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingBuildLinkImg.png';
 
 
 export type SectionKey =
@@ -8867,7 +8868,7 @@ brand appears in AI summaries and citations.`,
       subtitle: '',
       label: 'Build Your Client’s Online',
       desc: [
-        `Strengthen your clients’ SEO strategy with expert white-label link-building services designed for agencies that want to scale without increasing overhead.`, 
+        `Strengthen your clients’ SEO strategy with expert white-label link-building services designed for agencies that want to scale without increasing overhead.`,
         `At Adaired Digital Media, white-label backlinks are built through ethical outreach, high-authority guest posting, and strategic placements that enhance domain authority, improve rankings, 
         and drive measurable organic growth, all under your brand name.`,
       ],
@@ -9179,88 +9180,46 @@ brand appears in AI summaries and citations.`,
     whatMkeDeferent: {
       isVisible: true,
       isVariant: '02',
-      heading: ``,
+      breakIndex: 3,
+      heading: `Who Our White Label Link Building Is For`,
       description: [
-        `Our white-label model is designed to reduce execution pressure while providing agencies with 
-        complete control over how services are positioned, priced, and presented to clients. 
-        Rather than providing generic outsourcing, we serve as a structured fulfillment layer that integrates with existing agency operations.`,
+        `Our white-label link-building services are designed for growth-focused teams that want to deliver powerful SEO results without building an in-house outreach department.`,
+        `Whether you’re scaling an agency or expanding your service offerings, we act as your silent fulfillment partner.`
       ],
       list: [
         {
           img: whiteServicesAdairedHelpImg,
-          name: 'White Label Reporting',
+          name: 'SEO Agencies',
           description: [
-            `Reporting is essential for effective client communication. 
-            Adaired provides white-label reports that can be delivered directly to clients or integrated into your current reporting formats. 
-            Metrics, insights, and progress updates are intended to promote transparency without revealing third-party involvement. 
-            This enables agencies to consistently present results while reducing internal reporting effort.`,
+            `For dedicated SEO agencies, link building is often the most time-consuming and resource-heavy part of the campaign.`,
           ],
         },
         {
           img: whiteServicesAdairedHelpImg,
-          name: 'Dedicated Account Management',
+          name: 'Digital Marketing Agencies',
           description: [
-            `Each agency partnership has a dedicated point of contact who is in charge of managing delivery, timelines, and cross-service coordination. 
-            This eliminates the uncertainty that is often associated with freelancers or distributed vendors while also ensuring clear accountability. 
-            Agencies benefit from having a single, consistent communication channel, eliminating the need to manage daily execution tasks.`,
+            `Full-service digital marketing agencies often manage PPC, social media, content marketing, and web development, but building an internal link acquisition team can be complex and costly.`,
           ],
         },
         {
           img: whiteServicesAdairedHelpImg,
-          name: 'On-Time Delivery and Structured Timelines',
+          name: 'Web Design & Development Agencies',
           description: [
-            `Missed deadlines directly impact client trust. 
-            Adaired follows defined delivery schedules and internal checkpoints to ensure work is completed within agreed timelines. 
-            Service execution is planned in advance, reducing last-minute delays and reactive management. 
-            This structured approach helps agencies maintain reliable delivery standards as service demand increases.`,
+            `Many web design and development agencies want to expand into SEO but lack link building expertise.`,
           ],
         },
         {
           img: whiteServicesAdairedHelpImg,
-          name: 'Affordable Pricing Compared to Other Models',
+          name: 'Freelance SEO Consultants',
           description: [
-            `Hiring and maintaining in-house teams involves fixed costs, training time, and long-term commitments. 
-            Adaired’s white-label services offer a cost-efficient alternative, allowing agencies to access specialized execution without carrying internal overhead. 
-            Our pricing model is designed to remain competitive while supporting sustainable agency margins.`,
+            `Independent consultants often handle strategy and technical SEO but may not have the time or systems to manage manual outreach campaigns.`,
           ],
         },
         {
           img: whiteServicesAdairedHelpImg,
-          name: 'Brand Protection and Confidentiality ',
+          name: 'SaaS Marketing Teams',
           description: [
-            `Brand integrity is critical in white-label partnerships. 
-            Adaired operates under strict confidentiality protocols to ensure your agency remains the sole visible service provider. 
-            No branding, outreach, or communication is conducted in our name unless explicitly agreed upon. 
-            Client data, account access, and reporting remain under your control at all times.`,
-          ],
-        },
-        {
-          img: whiteServicesAdairedHelpImg,
-          name: 'Consistency at Scale',
-          description: [
-            `As agencies grow, maintaining consistent quality across accounts becomes increasingly difficult. 
-            Adaired’s delivery processes are structured to support scale without sacrificing execution standards. 
-            Internal quality checks, standardized workflows, and defined service benchmarks help maintain consistency as volume increases. 
-            This allows agencies to grow service capacity without introducing delivery instability.`,
-          ],
-        },
-        {
-          img: whiteServicesAdairedHelpImg,
-          name: 'Predictable Resource Planning',
-          description: [
-            `Hiring in-house teams requires long-term commitments, training cycles, and fixed costs. 
-            Adaired’s white-label model offers flexible capacity that adjusts with demand. 
-            Agencies can expand or reduce service delivery without internal restructuring or staffing risk. 
-            This predictability supports healthier margins and more accurate forecasting.`,
-          ],
-        },
-        {
-          img: whiteServicesAdairedHelpImg,
-          name: 'Long-Term Partnership Focus',
-          description: [
-            `Adaired works with agencies looking for sustained growth rather than short-term fulfillment. 
-            Our processes are designed to support ongoing client relationships, recurring service models, and long-term delivery stability. 
-            This partnership approach allows agencies to focus on growth, strategy, and client retention while fulfillment remains dependable.`,
+            `For SaaS companies, authority and trust signals are essential in competitive markets. We align link acquisition with product-led growth strategies to support long-term visibility and lead generation.`,
           ],
         },
       ],
@@ -9272,26 +9231,20 @@ brand appears in AI summaries and citations.`,
       isVariant: '03',
       breakIndex: 3,
       bgImg: whiteBookConsultationBg,
-      img: whitePaidAdsBuildLinkImg,
-      label: 'Ready to Scale Your',
-      heading: 'Agency Without Hiring In-House?',
+      img: whiteLinkBuildingBuildLinkImg,
+      label: 'Stop Turning Away SEO',
+      heading: 'Opportunities and Scale Without Hiring!',
       description: ``,
       isBgWhite: true,
       data: [
         {
-          desctioption: `Partner with Adaired Digital Media and expand your service offerings with expert white-label PPC management. 
-          Deliver high-performing Google Ads and paid media campaigns under your brand, without the cost, complexity, or risk of building an internal team.`,
+          desctioption: `Start offering premium white label link building services today. With Adaired as your white label link building agency partner,`,
         },
         {
-          desctioption: `Whether you’re looking to add PPC to your agency for the first time or scale your existing paid advertising services, 
-          our team is ready to support you behind the scenes. 
-          We handle strategy, execution, and optimization, while you focus on closing deals and strengthening client relationships.`,
-        },
-        {
-          desctioption: `Let’s build predictable, scalable growth for your agency.`,
+          desctioption: `you can confidently offer high-quality backlink acquisition without hiring a full-fledged in-house team.`,
         },
       ],
-      button: 'Contact us today to discuss a customized white-label partnership.',
+      button: 'Request a Quick Strategy Call',
     },
 
     faqData: {
@@ -9301,45 +9254,53 @@ brand appears in AI summaries and citations.`,
       description: ``,
       list: [
         {
-          title: 'What is included in your white-label PPC services?',
+          title: 'What is included in your white label link building service?',
           description: [
-            `Our white-label PPC services include complete campaign strategy, setup, management, optimization, and reporting.`,
-            `We handle keyword research, audience targeting, ad creation, bid management, conversion tracking, A/B testing, and ongoing performance optimization across platforms like Google Ads, Microsoft Ads, and paid social channels.`,
+            `Our service includes strategy planning, prospect research, manual outreach, content creation, placement negotiation, quality assurance, and fully white-labeled reporting.`,
+            `We manage the entire backlink acquisition process while you maintain client ownership.`,
           ],
         },
         {
-          title: 'Will my clients know you are managing the campaigns?',
+          title: 'Are the backlinks permanent?',
           description: [
-            `No. Our services are 100% white-labeled. We operate entirely behind the scenes under your agency’s brand.`,
-            `All reports, communications, and deliverables are presented with your branding, ensuring you maintain full client ownership and authority.`,
+            `Yes, we focus on long-term placements on real websites with editorial standards.`,
+            `While no provider can control a publisher indefinitely, we prioritize stable, lasting links and monitor placements carefully.`,
           ]
         },
         {
-          title: 'Do you work directly with our clients?',
-          description: [`We typically work exclusively through your agency to protect your client relationships.`,
-            `However, if needed, we can join calls as a silent partner or branded team member, depending on your preferred structure.`]
+          title: 'Do you use PBNs or automated link-building tools?',
+          description: [`No. We strictly use manual outreach and legitimate websites.`,
+            `We do not use private blog networks (PBNs), spam directories, or automated link generation software.`]
         },
         {
-          title: 'How quickly can campaigns be launched?',
-          description: [`In most cases, campaigns can be launched within a few business days after receiving complete client information and access to required platforms.`,
-            `Our streamlined onboarding process ensures fast turnaround without compromising quality.`
+          title: 'How long does it take to see SEO results?',
+          description: [`Most campaigns begin showing measurable ranking movement within 8–12 weeks, depending on competition, domain authority, and existing backlink profile.`,
+            `Link building is a long-term authority strategy, not an overnight tactic.`
           ]
         },
         {
-          title: 'What platforms do you manage?',
-          description: `We manage campaigns across Google Ads (Search, Display, Shopping, and Performance Max), Microsoft Ads, Facebook Ads, Instagram Ads, LinkedIn Ads, Amazon Ads, and other paid media platforms, depending on your client’s needs.`,
+          title: 'Can I resell your services under my own brand?',
+          description: [`Absolutely. Our ready-to-resell link-building services are fully white-labeled. Your clients will only see your branding, your reports, and your communication.`,
+            `We operate as your silent fulfillment partner.`
+          ],
         },
         {
-          title: 'How do you measure campaign success?',
-          description: [`Success is measured based on clearly defined KPIs such as conversions, cost per acquisition (CPA), return on ad spend (ROAS), lead quality, and revenue growth.`,
-            `We focus on performance metrics that directly impact your client’s business goals, not just clicks or impressions.`]
+          title: 'How do you ensure link quality?',
+          description: [`We evaluate every website based on traffic, authority metrics, relevance, spam signals, and editorial integrity.`,
+            `Each placement goes through a manual review process before delivery.`]
         },
         {
-          title: 'Is there a minimum commitment required?',
-          description: [`We offer flexible partnership models depending on campaign scope and volume.`,
-            `While PPC performs best with ongoing optimization, we structure agreements to align with your agency’s growth strategy and client retention model.`
+          title: 'Is there a minimum monthly commitment?',
+          description: [`We offer flexible packages depending on your needs.`,
+            `However, sustainable link building requires consistency, so most agencies choose ongoing monthly campaigns for optimal results.`
           ]
         },
+        {
+          title: 'Do you guarantee rankings?',
+          description: [`No reputable link building provider can ethically guarantee specific rankings.`,
+            `What we guarantee is high-quality, strategic backlink acquisition designed to improve authority, strengthen search visibility, and support long-term growth.`
+          ]
+        }
       ],
     },
 
