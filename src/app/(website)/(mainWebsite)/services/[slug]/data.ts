@@ -238,6 +238,16 @@ import PPC_Banner from '../../../../../../public/assets/images/PPCimg/PPC_Banner
 import WhatIsPPC from '../../../../../../public/assets/images/PPCimg/WhatIsPPC.png';
 import ppcServicesBuildLinkImg from '../../../../../../public/assets/images/PPCimg/ppcServicesBuildLinkImg.png';
 
+import ppcImpIcon_1 from '../../../../../../public/assets/images/PPCimg/ppcImpIcon_1.png';
+import ppcImpIcon_2 from '../../../../../../public/assets/images/PPCimg/ppcImpIcon_2.png';
+import ppcImpIcon_3 from '../../../../../../public/assets/images/PPCimg/ppcImpIcon_3.png';
+import ppcImpIcon_4 from '../../../../../../public/assets/images/PPCimg/ppcImpIcon_4.png';
+import ppcImpIcon_5 from '../../../../../../public/assets/images/PPCimg/ppcImpIcon_5.png';
+import ppcImpIcon_6 from '../../../../../../public/assets/images/PPCimg/ppcImpIcon_6.png';
+import ppcImpIcon_7 from '../../../../../../public/assets/images/PPCimg/ppcImpIcon_7.png';
+import ppcImpIcon_8 from '../../../../../../public/assets/images/PPCimg/ppcImpIcon_8.png';
+import ppcImpIcon_9 from '../../../../../../public/assets/images/PPCimg/ppcImpIcon_9.png';
+
 // White Label Paid Ads Images
 import whitePaidAdsBannerBg from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsBannerBg.png';
 import whiteWhatIsImg from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whiteWhatIsImg.png';
@@ -6954,7 +6964,7 @@ brand appears in AI summaries and citations.`,
       buttonName: 'Request a Consultation',
       data: [
         {
-          icon: whiteSeoImpIcon_1,
+          icon: ppcImpIcon_1,
           name: 'Search Ads',
           description: [
             `Search advertising is one of the most powerful forms of paid marketing services.`, 
@@ -6964,7 +6974,7 @@ brand appears in AI summaries and citations.`,
           button: 'Request a Campaign Audit',
         },
         {
-          icon: whiteSeoImpIcon_1,
+          icon: ppcImpIcon_2,
           name: 'Display Ads',
           description: [
             `Display ads appear across Google’s partner websites and apps, targeting users based on interests, browsing behavior, and online activity.`, 
@@ -6973,7 +6983,7 @@ brand appears in AI summaries and citations.`,
           button: 'Request a Campaign Audit',
         },
         {
-          icon: whiteSeoImpIcon_1,
+          icon: ppcImpIcon_3,
           name: 'Social Media Ads',
           description: [
             `Social media PPC is one of the fastest-growing advertising channels.`, 
@@ -6983,7 +6993,7 @@ brand appears in AI summaries and citations.`,
           button: 'Request a Campaign Audit',
         },
         {
-          icon: whiteSeoImpIcon_1,
+          icon: ppcImpIcon_4,
           name: 'Remarketing Ads',
           description: [
             `Remarketing is one of the most effective ways to increase conversions and improve ROI.`, 
@@ -6993,7 +7003,7 @@ brand appears in AI summaries and citations.`,
           button: 'Request a Campaign Audit',
         },
         {
-          icon: whiteSeoImpIcon_1,
+          icon: ppcImpIcon_5,
           name: 'Shopping Ads',
           description: [
             `For ecommerce businesses, Shopping ads provide powerful visibility.`, 
@@ -7003,7 +7013,7 @@ brand appears in AI summaries and citations.`,
           button: 'Request a Campaign Audit',
         },
         {
-          icon: whiteSeoImpIcon_1,
+          icon: ppcImpIcon_6,
           name: 'In-Stream Ads',
           description: [
             `These ads appear before, during, or after video content across platforms like YouTube.`, 
@@ -7013,7 +7023,7 @@ brand appears in AI summaries and citations.`,
           button: 'Request a Campaign Audit',
         },
         {
-          icon: whiteSeoImpIcon_1,
+          icon: ppcImpIcon_7,
           name: 'Gmail Sponsored Promotions',
           description: [
             `Gmail ads allow businesses to reach users directly inside their inbox.`, 
@@ -7023,7 +7033,7 @@ brand appears in AI summaries and citations.`,
           button: 'Request a Campaign Audit',
         },
         {
-          icon: whiteSeoImpIcon_1,
+          icon: ppcImpIcon_8,
           name: 'Local Services Ads',
           description: [
             `Local Services Ads operate on a pay-per-lead model rather than pay-per-click.`, 
@@ -7033,7 +7043,7 @@ brand appears in AI summaries and citations.`,
           button: 'Request a Campaign Audit',
         },
         {
-          icon: whiteSeoImpIcon_1,
+          icon: ppcImpIcon_9,
           name: 'Amazon PPC Ads',
           description: [
             `For ecommerce brands selling on Amazon, Amazon PPC campaigns increase product visibility within the platform.`, 
