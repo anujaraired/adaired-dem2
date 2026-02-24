@@ -1,12 +1,10 @@
 'use client';
-
 import React, { useRef, useState } from 'react';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Heading from '@/app/(website)/common/Heading';
 import Image from 'next/image';
 import { useScrollTabs } from '@/@core/hooks/useScrollTabs';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
-
 import SocialMediaCheck from '../../../../../../public/assets/images/PPCimg/arrowOrange.png';
 
 const OurProcess = ({ ourProcess }: any) => {
@@ -130,13 +128,6 @@ const OurProcess = ({ ourProcess }: any) => {
                 >
                   Step {idx + 1}: {service.title}
                 </h3>
-
-                {/* {service.description.map((desc: string, i: number) => (
-                  <p key={i} className="my-3 text-[#333]">
-                    {desc}
-                  </p>
-                ))} */}
-
                 {service.description.map((item: any, i: number) => {
                   if (typeof item === "string") {
                     return (
