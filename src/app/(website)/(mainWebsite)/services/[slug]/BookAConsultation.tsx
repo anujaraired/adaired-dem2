@@ -40,7 +40,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
               <Heading
                 className="flex justify-center lg:justify-start"
                 subTitle={''}
-                breakIndex={5}
+                breakIndex={buildlinks?.breakIndex}
                 isH1={true}
                 title={buildlinks?.heading}
                 span={buildlinks?.span}
@@ -97,7 +97,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
               <Heading
                 className="flex justify-center lg:justify-start"
                 subTitle={''}
-                breakIndex={5}
+                breakIndex={buildlinks?.breakIndex}
                 isH1={true}
                 title={buildlinks?.heading}
                 span={buildlinks?.span}
