@@ -28,7 +28,7 @@ const LeadingTools = ({ leadingTools }: any) => {
 
   const row1Duplicated = [...row1, ...row1];
   const row2Duplicated = [...row2, ...row2];
-  const row3Duplicated = [...row3, ...row3];
+  // const row3Duplicated = [...row3, ...row3];
 
   return (
     <div

@@ -52,7 +52,7 @@ const SeoPackages = ({ seopackages }: any) => {
 
                                         <h3 className="py-[1rem]">{item.title}</h3>
                                         <p className="pb-[2rem]">{item.description}</p>
-                                        <h1 className="text-center lg:text-left">
+                                        <h1 className="text-center lg:text-left font-normal">
                                             {' '}
                                             {item.desc}
                                             <span className="text-[18px]">{item.span}</span>
