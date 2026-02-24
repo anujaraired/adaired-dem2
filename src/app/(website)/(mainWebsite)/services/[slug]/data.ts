@@ -221,6 +221,7 @@ import whiteServicesIncluded_6 from '../../../../../../public/assets/whitelabel/
 //PPC Images
 import PPC_Banner from '../../../../../../public/assets/images/PPCimg/PPC_Banner.png'
 import WhatIsPPC from '../../../../../../public/assets/images/PPCimg/WhatIsPPC.png';
+import benefitsOfPPC from '../../../../../../public/assets/images/PPCimg/benefitsOfPPC.png';
 
 export type SectionKey =
   | 'banner'
@@ -6558,92 +6559,84 @@ brand appears in AI summaries and citations.`,
 
     adairedHelp: {
       isVisible: true,
-      img: whiteServicesAdairedHelpImg,
+      img: benefitsOfPPC,
       isInCenter: false,
       bgColor: '#FFFCF8',
-      heading: `Work with Adaired's Agency-First White-Label Model`,
+      heading: `The Benefits of PPC Marketing for Your Company`,
       description: [
-        `Our white-label model is designed to reduce execution pressure while providing agencies with 
-        complete control over how services are positioned, priced, and presented to clients. 
-        Rather than providing generic outsourcing, we serve as a structured fulfillment layer that integrates with existing agency operations.`,
+        `We use pay per click advertising as a strategic growth engine, not just a traffic source. When executed properly, PPC delivers immediate visibility, precise targeting, and measurable returns.`,
+        `Here are the key benefits of investing in professional PPC management:`,
       ],
-      mainImage: whiteServicesAdairedHelpImg,
+      mainImage: benefitsOfPPC,
       list: [
         {
           img: '',
-          name: 'White Label Reporting',
+          name: 'Fast Market Entry',
           description: [
-            `Reporting is essential for effective client communication. 
-            Adaired provides white-label reports that can be delivered directly to clients or integrated into your current reporting formats.`,
-            `Metrics, insights, and progress updates are intended to promote transparency without revealing third-party involvement. 
-            This enables agencies to consistently present results while reducing internal reporting effort.`,
+            `PPC allows your business to appear at the top of search results almost instantly.`,
+            `Unlike long-term strategies that take months to gain traction, paid campaigns can begin generating clicks and leads as soon as they go live. Whether you're launching a new service or entering a competitive market, PPC gives you immediate exposure.`,
           ],
         },
         {
           img: '',
-          name: 'Dedicated Account Management',
+          name: 'Increased Brand Visibility',
           description: [
-            `Each agency partnership has a dedicated point of contact who is in charge of managing delivery, timelines, and cross-service coordination.`,
-            `This eliminates the uncertainty that is often associated with freelancers or distributed vendors while also ensuring clear accountability. 
-            Agencies benefit from having a single, consistent communication channel, eliminating the need to manage daily execution tasks.`,
+            `Even when users don’t click your ad, they still see your brand.`,
+            `Platforms like Google Ads position your business at the top of search results, reinforcing credibility and increasing brand awareness among high-intent audiences.`,
+            `This repeated visibility builds trust and keeps your company top-of-mind.`
           ],
         },
         {
           img: '',
-          name: 'On-Time Delivery and Structured Timelines',
+          name: 'Precision Audience Targeting',
           description: [
-            `Missed deadlines directly impact client trust. 
-            Adaired follows defined delivery schedules and internal checkpoints to ensure work is completed within agreed timelines.`,
-            `Service execution is planned in advance, reducing last-minute delays and reactive management. 
-            This structured approach helps agencies maintain reliable delivery standards as service demand increases.`,
+            `PPC allows you to reach exactly the right audience at the right time.`,
+            `At Adaired, we target users based on search intent, geographic location, service usage, demographics, interests, behaviors, and remarketing activity.`,
+            `This granular control ensures your ad budget is spent only on users most likely to convert.`
           ],
         },
         {
           img: '',
-          name: 'Affordable Pricing Compared to Other Models',
+          name: 'Measurable & Trackable Results',
           description: [
-            `Hiring and maintaining in-house teams involves fixed costs, training time, and long-term commitments. 
-            Adaired’s white-label services offer a cost-efficient alternative, allowing agencies to access specialized execution without carrying internal overhead.`,
-            `Our pricing model is designed to remain competitive while supporting sustainable agency margins.`,
+            `Every click, impression, and conversion is tracked.`,
+            `Using tools like Google Analytics, we monitor campaign performance in real time, allowing us to measure cost per lead, track return on ad spend (ROAS), identify top-performing keywords, and optimize underperforming ads.`,
+            `No guesswork, just data-driven decisions`
           ],
         },
         {
           img: '',
-          name: 'Brand Protection and Confidentiality ',
+          name: 'Faster Lead Generation ',
           description: [
-            `Brand integrity is critical in white-label partnerships. 
-            Adaired operates under strict confidentiality protocols to ensure your agency remains the sole visible service provider.`,
-            `No branding, outreach, or communication is conducted in our name unless explicitly agreed upon. 
-            Client data, account access, and reporting remain under your control at all times.`,
+            `Because PPC targets users who are actively searching for solutions, the traffic it generates is high-intent.`,
+            `This often leads to more qualified inquiries, higher conversion rates, shorter sales cycles, and faster revenue growth.`,
+            `For service-based businesses, this can mean immediate phone calls and booking requests after launch.`,
           ],
         },
         {
           img: '',
-          name: 'Consistency at Scale',
+          name: 'Continuous Testing & Performance Improvement',
           description: [
-            `As agencies grow, maintaining consistent quality across accounts becomes increasingly difficult. 
-            Adaired’s delivery processes are structured to support scale without sacrificing execution standards.`,
-            `Internal quality checks, standardized workflows, and defined service benchmarks help maintain consistency as volume increases. 
-            This allows agencies to grow service capacity without introducing delivery instability.`,
+            `PPC is never static.`,
+            `We constantly test new ad variations, refine targeting, adjust bidding strategies, and improve landing pages. Small improvements in click-through rate or conversion rate can significantly lower your overall cost per acquisition.`,
+            `Ongoing optimization is what turns a good campaign into a highly profitable one.`,
           ],
         },
         {
           img: '',
-          name: 'Predictable Resource Planning',
+          name: 'Complete Budget Control',
           description: [
-            `Hiring in-house teams requires long-term commitments, training cycles, and fixed costs. 
-            Adaired’s white-label model offers flexible capacity that adjusts with demand.`,
-            `Agencies can expand or reduce service delivery without internal restructuring or staffing risk. 
-            This predictability supports healthier margins and more accurate forecasting.`,
+            `When you hire PPC experts, you remain in full control of your advertising spend.`,
+            `You can set daily or monthly budgets, pause campaigns anytime, scale winning ads, and shift budget toward high-performing keywords.`,
+            `This flexibility allows your marketing strategy to adapt quickly to performance trends and business goals.`
           ],
         },
         {
           img: '',
-          name: 'Long-Term Partnership Focus',
+          name: 'Works Alongside SEO',
           description: [
-            `Adaired works with agencies looking for sustained growth rather than short-term fulfillment. 
-            Our processes are designed to support ongoing client relationships, recurring service models, and long-term delivery stability.`,
-            `This partnership approach allows agencies to focus on growth, strategy, and client retention while fulfillment remains dependable.`,
+            `PPC and SEO are strongest when combined.`,
+            `While SEO builds long-term authority, PPC provides immediate traffic and valuable keyword insights. The data gathered from paid campaigns can also improve your organic strategy, creating a powerful, integrated marketing approach.`,
           ],
         },
       ],
