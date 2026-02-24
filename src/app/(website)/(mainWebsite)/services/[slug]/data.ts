@@ -279,12 +279,14 @@ export type SectionKey =
   | 'leadingToolsForPerformence'
   | 'getplan'
   | 'faqData'
-  | 'readyToStart';
+  | 'readyToStart'
+  | 'seopackages';
 
 export const SERVICES_DATA = {
   'seo-company-india': {
     sectionsOrder: [
       'banner',
+      'seopackages',
       'keyStats',
       'whatareservice',
       'importantToBussiness',
@@ -302,6 +304,7 @@ export const SERVICES_DATA = {
       'getplan',
       'faqData',
       'readyToStart',
+
     ] satisfies SectionKey[],
     metaDetails: {
       title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
@@ -541,8 +544,8 @@ export const SERVICES_DATA = {
     },
     ourProcess: {
       isVisible: true,
-      breakIndex:7,
-      isInCenter:true,
+      breakIndex: 7,
+      isInCenter: true,
       title: 'Our Proven SEO Process That SEO Drives Both Traffic & Revenue',
       services: [
         {
@@ -567,7 +570,7 @@ export const SERVICES_DATA = {
           icon: step_3,
           title: 'On-Page and Technical Optimization',
           description: [
-            `Under on-page and technical SEO improvements, we make your website more accessible and understandable for search engines.`,`This involves optimization of meta tags, headings, URLs, internal links, page speed, mobile usability, and site indexing. 
+            `Under on-page and technical SEO improvements, we make your website more accessible and understandable for search engines.`, `This involves optimization of meta tags, headings, URLs, internal links, page speed, mobile usability, and site indexing. 
            `, ` These changes enhance user experience while improving search rankings. A well-optimized site ensures that content is both readable for users and properly recognized by search engines.`
           ],
         },
@@ -583,7 +586,7 @@ export const SERVICES_DATA = {
           icon: step_5,
           title: 'Link Building and Authority Growth',
           description: [
-            `Building high-quality backlinks strengthens a website’s authority and trustworthiness in the eyes of search engines.`,`This process focuses on acquiring links from relevant and reputable websites through ethical methods. 
+            `Building high-quality backlinks strengthens a website’s authority and trustworthiness in the eyes of search engines.`, `This process focuses on acquiring links from relevant and reputable websites through ethical methods. 
             Effective link building supports long-term SEO success and helps maintain visibility in search results.`
           ],
         },
@@ -664,25 +667,25 @@ export const SERVICES_DATA = {
       bgImage: leadingToolsImg,
       list: [
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         }
       ]
 
@@ -943,6 +946,94 @@ export const SERVICES_DATA = {
           rating: 5,
         },
       ],
+    },
+    seopackages: {
+      isVisible: true,
+      cardLength: 3,
+      heading: 'SEO Packages',
+      description: '',
+      data: [
+        {
+          title: 'Establish',
+          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting',
+          desc: '$399',
+          span: '/month',
+          desctioption: `Complete SEO Audit`,
+          list: [
+            {
+              des: [`ON-Page Optimization`],
+            },
+            {
+              des: [`Target 15 Primary Keywords`],
+            },
+            {
+              des: [`SEMRush Errors Fixing`],
+            },
+            {
+              des: [`Quality Link Building`],
+            },
+            {
+              des: [`Manual Monthly Reports`],
+            },
+            {
+              des: [`Competitor Analysis`],
+            }
+          ],
+          button: 'Start Growing',
+        },
+        {
+          title: 'Accelerate',
+          text:'Recommended',
+          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting',
+          desc: '$599',
+          span: '/month',
+          desctioption: `Everything In Starter`,
+          list: [
+            {
+              des: [`AI SEO, GEO, AEO, LLMs"`],
+            },
+            {
+              des: [`Unlimited Secondary Keywords`],
+            },
+            {
+              des: [`2 Website Blogs`],
+            },
+            {
+              des: [`Authority Guest Post Links`],
+            },
+            {
+              des: [`Technical Errors Fixing`],
+            },
+            {
+              des: [`Branded Monthly Reports`],
+            }
+          ],
+          button: 'Scale My Growth',
+        },
+        {
+          title: 'Dominate',
+          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting',
+          desc: '$899',
+          span: '/month',
+          desctioption: `Everything in Premium`,
+          list: [
+            {
+              des: [`Advanced AI Search & Visibility Optimization`],
+            },
+            {
+              des: [`Website Speed Optimization`],
+            },
+            {
+              des: [`Dedicated Account Manager`],
+            },
+            {
+              des: [`Complete SEO Growth roadmap`],
+            },
+          ],
+          button: 'Dominate Search',
+        }
+      ]
+
     },
   },
   'ai-seo-company-india': {
@@ -1224,25 +1315,25 @@ export const SERVICES_DATA = {
       bgImage: '',
       list: [
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         }
       ]
     },
@@ -1607,6 +1698,87 @@ brand appears in AI summaries and citations.`,
         },
       ],
     },
+    seopackages: {
+      isVisible: false,
+      cardLength: 3,
+      heading: '',
+      description: '',
+      list: [
+        {
+          title: '',
+          desctioption: `Complete SEO Audit`,
+          list: [
+            {
+              des: [`ON-Page Optimization`],
+            },
+            {
+              des: [`Target 15 Primary Keywords`],
+            },
+            {
+              des: [`SEMRush Errors Fixing`],
+            },
+            {
+              des: [`Quality Link Building`],
+            },
+            {
+              des: [`Manual Monthly Reports`],
+            },
+            {
+              des: [`Competitor Analysis`],
+            }
+          ],
+        },
+        {
+          title: '',
+          desctioption: `Complete SEO Audit`,
+          list: [
+            {
+              des: [`ON-Page Optimization`],
+            },
+            {
+              des: [`Target 15 Primary Keywords`],
+            },
+            {
+              des: [`SEMRush Errors Fixing`],
+            },
+            {
+              des: [`Quality Link Building`],
+            },
+            {
+              des: [`Manual Monthly Reports`],
+            },
+            {
+              des: [`Competitor Analysis`],
+            }
+          ],
+        },
+        {
+          title: '',
+          desctioption: `Complete SEO Audit`,
+          list: [
+            {
+              des: [`ON-Page Optimization`],
+            },
+            {
+              des: [`Target 15 Primary Keywords`],
+            },
+            {
+              des: [`SEMRush Errors Fixing`],
+            },
+            {
+              des: [`Quality Link Building`],
+            },
+            {
+              des: [`Manual Monthly Reports`],
+            },
+            {
+              des: [`Competitor Analysis`],
+            }
+          ],
+        }
+      ]
+
+    },
   },
   'link-building-services-india': {
     sectionsOrder: [
@@ -1962,25 +2134,25 @@ brand appears in AI summaries and citations.`,
       bgImage: '',
       list: [
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         }
       ]
     },
@@ -2589,25 +2761,25 @@ brand appears in AI summaries and citations.`,
       bgImage: '',
       list: [
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         }
       ]
     },
@@ -2897,6 +3069,7 @@ brand appears in AI summaries and citations.`,
   'local-seo-company-india': {
     sectionsOrder: [
       'banner',
+      'seopackages',
       'keyStats',
       'whatareservice',
       'benefitofAiSeo',
@@ -3588,94 +3761,94 @@ brand appears in AI summaries and citations.`,
       bgImage: leadingToolsImg,
       list: [
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
       ]
 
@@ -3774,6 +3947,84 @@ brand appears in AI summaries and citations.`,
       bgImage: stop_struggle2,
       title: 'Stop Guessing Start Acting ',
       description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+
+     seopackages: {
+      isVisible: true,
+      cardLength: 2,
+      heading: 'Local SEO Packages',
+      description: '',
+      data: [
+        {
+          title: 'GBP Only Establish',
+          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting',
+          desc: '$299',
+          span: '/month',
+          desctioption: `Complete GBP Audit`,
+          list: [
+            {
+              des: [`Google Business Profile optimization`],
+            },
+            {
+              des: [`NAP (Name, Address, Phone) consistency`],
+            },
+            {
+              des: [`City-based keyword research`],
+            },
+            {
+              des: [`“Near me” keyword targeting`],
+            },
+            {
+              des: [`Local Citation Building`],
+            },
+            {
+              des: [`Review strategy`],
+            },
+            {
+              des: [`Local Search Grid Tracking`],
+            },
+            {
+              des: [`Monthly Performance Reports`],
+            }
+          ],
+          button: 'Start Growing',
+        },
+        {
+          title: 'GBP + Website Dominate',
+          description: 'Lorem Ipsum is simply dummy text of the printing and typesetting',
+          desc: '$599',
+          span: '/month',
+          desctioption: `Everything in GBP Package`,
+          list: [
+            {
+              des: [`Website Optimization`],
+            },
+            {
+              des: [`Schema Markup (LocalBusiness)`],
+            },
+            {
+              des: [`Service + Location Pages`],
+            },
+            {
+              des: [`Embed Google Map`],
+            },
+            {
+              des: [`Internal Linking to Location Pages`],
+            },
+            {
+              des: [`Submission to High-Authority Directories`],
+            },
+            {
+              des: [`Local Rank Tracking`],
+            },
+            {
+              des: [`Local Search Grid Tracking`],
+            }
+          ],
+          button: 'Dominate Search',
+        }
+      ]
+
     },
   },
   'social-media-outsourcing-india': {
@@ -4512,25 +4763,25 @@ brand appears in AI summaries and citations.`,
       bgImage: '',
       list: [
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         }
       ]
     },
@@ -5119,25 +5370,25 @@ brand appears in AI summaries and citations.`,
       bgImage: '',
       list: [
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         }
       ]
     },
@@ -6335,25 +6586,25 @@ brand appears in AI summaries and citations.`,
       bgImage: '',
       list: [
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         },
         {
-          img:client_3,
+          img: client_3,
         },
         {
-          img:client_4,
+          img: client_4,
         },
         {
-          img:client_5,
+          img: client_5,
         },
         {
-          img:client_1,
+          img: client_1,
         },
         {
-          img:client_2,
+          img: client_2,
         }
       ]
     },
@@ -8229,8 +8480,8 @@ brand appears in AI summaries and citations.`,
           img: '',
           name: 'Faster Time to Market',
           description: [
-            `Recruiting and training skilled PPC professionals can take months. During that time, agencies may miss opportunities, delay client campaigns, or even turn down potential contracts due to capacity limitations.`, 
-            `White label PPC services enable agencies to launch campaigns quickly, often within days.`,`With established processes, experienced strategists, and ready-to-deploy systems, agencies can begin generating revenue immediately rather than waiting for internal infrastructure to develop.`,
+            `Recruiting and training skilled PPC professionals can take months. During that time, agencies may miss opportunities, delay client campaigns, or even turn down potential contracts due to capacity limitations.`,
+            `White label PPC services enable agencies to launch campaigns quickly, often within days.`, `With established processes, experienced strategists, and ready-to-deploy systems, agencies can begin generating revenue immediately rather than waiting for internal infrastructure to develop.`,
             `Speed to execution directly translates into competitive advantage.`,
           ],
         },
@@ -8239,7 +8490,7 @@ brand appears in AI summaries and citations.`,
           name: 'Access to Experienced PPC Specialists',
           description: [
             `Paid advertising platforms like Google Ads, Microsoft Ads, and social media networks constantly evolve. Algorithm updates, bidding strategies, audience targeting advancements, and compliance changes require continuous adaptation.`,
-            `White label advertising agencies dedicate their focus entirely to paid media management.`, 
+            `White label advertising agencies dedicate their focus entirely to paid media management.`,
             `This specialization allows them to conduct advanced keyword and competitor research, build high-converting campaign structures, continuously test ad creatives and landing pages, optimize bidding strategies based on real-time data, and implement performance-maximizing automation tools.`,
             `Instead of relying on one internal hire, agencies gain access to a team of specialists with diverse platform expertise.`,
           ],
@@ -8330,7 +8581,7 @@ brand appears in AI summaries and citations.`,
           icon: step,
           title: 'Scalable Infrastructure for Long-Term Growth',
           description: [
-            `As your agency grows, our support grows with you. Whether you add new clients or increase campaign budgets, our team scales resources accordingly without the delays or risks associated with internal hiring.`,`This flexible infrastructure allows you to pursue expansion confidently while maintaining consistent service quality.`
+            `As your agency grows, our support grows with you. Whether you add new clients or increase campaign budgets, our team scales resources accordingly without the delays or risks associated with internal hiring.`, `This flexible infrastructure allows you to pursue expansion confidently while maintaining consistent service quality.`
           ],
         },
       ],
