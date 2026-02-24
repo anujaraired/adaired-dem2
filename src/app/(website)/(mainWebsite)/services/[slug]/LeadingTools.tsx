@@ -33,7 +33,7 @@ const LeadingTools = ({ leadingTools }: any) => {
   return (
     <div
       ref={ref}
-      className={`bg-cover ${leadingTools?.isGapTop
+      className={`overflow-hidden bg-cover ${leadingTools?.isGapTop
         ? 'pb-[3rem] lg:pb-[4rem]'
         : 'pb-[3rem] pt-[2rem] lg:pb-[4rem] lg:pt-[2.5rem]'
         } `}
