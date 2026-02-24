@@ -28,12 +28,12 @@ const LeadingTools = ({ leadingTools }: any) => {
 
   const row1Duplicated = [...row1, ...row1];
   const row2Duplicated = [...row2, ...row2];
-  const row3Duplicated = [...row3, ...row3];
+  // const row3Duplicated = [...row3, ...row3];
 
   return (
     <div
       ref={ref}
-      className={`bg-cover ${leadingTools?.isGapTop
+      className={`overflow-hidden bg-cover ${leadingTools?.isGapTop
         ? 'pb-[3rem] lg:pb-[4rem]'
         : 'pb-[3rem] pt-[2rem] lg:pb-[4rem] lg:pt-[2.5rem]'
         } `}
