@@ -523,6 +523,7 @@ export const SERVICES_DATA = {
       isVariant: '01',
       heading: 'What’s Included in Our SEO Services',
       button: 'Get Your Free SEO Audit',
+      btnColor: '#1A5A96',
 
       list: [
         {
@@ -726,11 +727,35 @@ export const SERVICES_DATA = {
     leadingToolsForPerformence: {
       isGapTop: true,
       isVisible: true,
+      isVariant: '01',
       heading:
         'Powered By Leading Tools For Maximum Performance and Efficiency',
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
+      list: [
+        {
+          img: client_1,
+        },
+        {
+          img: client_2,
+        },
+        {
+          img: client_3,
+        },
+        {
+          img: client_4,
+        },
+        {
+          img: client_5,
+        },
+        {
+          img: client_1,
+        },
+        {
+          img: client_2,
+        }
+      ]
     },
     adairedHelp: {
       isVisible: true,
@@ -2821,6 +2846,8 @@ brand appears in AI summaries and citations.`,
     // Updated
     adairedHelp: {
       isVisible: true,
+      isInCenter: true,
+      breakIndex: 6,
       heading:
         'How Adaired Can Help You With Professional Website Design and Development Services?',
       img: HowAdairedHelp,
