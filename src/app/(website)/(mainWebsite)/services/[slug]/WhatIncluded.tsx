@@ -179,7 +179,7 @@ const WhatIncluded = ({ whatIncluded }: any) => {
                           className="absolute bottom-[2rem] left-[0rem] flex w-full items-center justify-center gap-2 lg:left-[2rem] lg:justify-start"
                         >
                           <span className="text-[18px]">
-                            {'Get Your Free AI SEO Audit'}
+                            {'Start a Conversation'}
                           </span>
                           <MdOutlineArrowOutward />
                         </p>

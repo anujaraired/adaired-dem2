@@ -1990,6 +1990,7 @@ brand appears in AI summaries and citations.`,
       textColor: '#FB9100',
       textBg: '#FFE6C380',
       borderColor: '#FB910040',
+      isInCenter: true,
       heading: 'How Adaired Helps You With Authority Link Building Services',
       description: [``],
       list: [
@@ -2099,6 +2100,8 @@ brand appears in AI summaries and citations.`,
           linkHref: '#',
         },
       ],
+      button: 'Get Your Free AI SEO Audit',
+      btnColor: '#1A5A96',
     },
 
     serviceResult: {
@@ -2203,6 +2206,7 @@ brand appears in AI summaries and citations.`,
     // NEW
     adairedHelp: {
       isVisible: true,
+      isInCenter: true,
       heading: 'Benefits of Authority Link Building Services',
       img: adairedHelpImgLink,
       list: [
@@ -2276,6 +2280,8 @@ brand appears in AI summaries and citations.`,
     whatMkeDeferent: {
       isVisible: true,
       isVariant: '01',
+      isInCenter: true,
+      bgColor: true,
       heading: 'What Makes Adaired Different From Our Competitors?',
       description: [],
       list: [
@@ -2395,7 +2401,7 @@ brand appears in AI summaries and citations.`,
     whatMissing: {
       isVisible: true,
       breakIndex: 5,
-      bgColor: true,
+      bgColor: false,
       isInCenter: true,
       heading:
         'What Your Business Could Be Missing And How Link Building Can Help?',
@@ -4211,6 +4217,7 @@ brand appears in AI summaries and citations.`,
       cardBorder: '',
       isVariant: '01',
       bgColor: '#F5F5F5',
+      borderColor: 'border-[#FB9100]/20',
       isVisible: true,
       heading: 'Our White Label Social Media Services',
       description: [
@@ -4369,7 +4376,10 @@ brand appears in AI summaries and citations.`,
 
     adairedHelp: {
       isVisible: true,
+      isInCenter : true,
+      isDecVarticle: false,
       img: AdairedHelpSocial,
+      breakIndex: 7,
       heading: 'Benefits of Partnering With a White Label Social Media Agency',
       description: `Here’s how a structured white label social media partnership with Adaired supports long-term agency growth:`,
       mainImage: adairedHelpImg,
@@ -5149,7 +5159,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       bgColor: '',
       cardColor: '',
-      borderColor: '#FB9100',
+      borderColor: 'border-[#FB9100]/20',
       heading: 'What Will Our White Label SEO   Services Cover?',
       description: [
         `Being a white-label SEO services agency, we are intended to help agencies throughout the SEO lifecycle while remaining brand neutral.`,
@@ -5363,7 +5373,7 @@ brand appears in AI summaries and citations.`,
           desctioption: `Talk to our team to understand how our reseller SEO services model fits into your current services and workflows.`,
         },
       ],
-      button: 'Get a Quote!',
+      button: 'Request a Consultation',
     },
 
     faqData: {
@@ -6052,6 +6062,7 @@ brand appears in AI summaries and citations.`,
           linkHref: '#',
         },
       ],
+      button: 'Start a Conversation',
     },
 
     adairedHelp: {
@@ -6473,6 +6484,7 @@ brand appears in AI summaries and citations.`,
     importantToBussiness: {
       isVisible: false,
       breakIndex: 5,
+      borderColor: '[#FB9100]/20',
       heading: 'What Will Our White Label SEO Services Cover?',
       description: [
         `Being a white-label SEO services agency, we are intended to help agencies throughout the SEO lifecycle while remaining brand neutral.`,
@@ -8048,7 +8060,7 @@ brand appears in AI summaries and citations.`,
 
     importantToBussiness: {
       isVisible: true,
-      breakIndex: 5,
+      breakIndex: 4,
       isVariant: '03',
       heading: 'Our White Label PPC Management Services',
       description: [
