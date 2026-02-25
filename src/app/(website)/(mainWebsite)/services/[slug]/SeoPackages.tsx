@@ -95,7 +95,7 @@ const SeoPackages = ({ seopackages }: any) => {
 
 
                                     <Button
-                                        className={`group mt-[2rem] px-[2rem] bg-black hover:bg-[#FB9100] text-white flex w-full cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-[60px] py-[0.75rem] font-montserrat text-xxs font-medium transition-all duration-300 ease-out active:scale-95 xl:text-xs 1366:text-[14px] 1400:text-[18px] 1470:text-[18px] 1600:text-[18px] 1680:text-[18px]`}
+                                        className={`group mt-[2rem] px-[2rem] bg-black group-hover:bg-[#FB9100] text-white flex w-full cursor-pointer items-center justify-center gap-2 overflow-hidden rounded-[60px] py-[0.75rem] font-montserrat text-xxs font-medium transition-all duration-300 ease-out active:scale-95 xl:text-xs 1366:text-[14px] 1400:text-[18px] 1470:text-[18px] 1600:text-[18px] 1680:text-[18px]`}
                                     >
                                         {item?.button}
                                         <IoIosArrowRoundForward
