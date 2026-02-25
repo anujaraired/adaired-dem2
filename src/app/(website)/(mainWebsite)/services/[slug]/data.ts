@@ -270,6 +270,8 @@ import whitePaidAdsImpIcon_6 from '../../../../../../public/assets/whitelabel/wh
 import whiteLinkBuildingBannerBg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingBannerBg.png';
 import whiteLinkBuildingKeyStatsImg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingKeyStatsImg.png';
 import whiteLinkBuildingWhatIsImg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatIsImg.png';
+import whiteLinkBuildingBuildLinkImg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingBuildLinkImg.png';
+import whiteLinkBuildingBookConsultationBg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingBookConsultationBg.png';
 
 import whiteLinkBuildingImpIcon_1 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_1.png';
 import whiteLinkBuildingImpIcon_2 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_2.png';
@@ -277,7 +279,12 @@ import whiteLinkBuildingImpIcon_3 from '../../../../../../public/assets/whitelab
 import whiteLinkBuildingImpIcon_4 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_4.png';
 import whiteLinkBuildingImpIcon_5 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_5.png';
 import whiteLinkBuildingImpIcon_6 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_6.png';
-import whiteLinkBuildingBuildLinkImg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingBuildLinkImg.png';
+
+import whiteLinkBuildingWhatMkDiffImg_1 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_1.png';
+import whiteLinkBuildingWhatMkDiffImg_2 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_2.png';
+import whiteLinkBuildingWhatMkDiffImg_3 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_3.png';
+import whiteLinkBuildingWhatMkDiffImg_4 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_4.png';
+import whiteLinkBuildingWhatMkDiffImg_5 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_5.png';
 
 
 export type SectionKey =
@@ -8943,6 +8950,11 @@ brand appears in AI summaries and citations.`,
         },
         {
           desctioption: `In short:`,
+          list: [
+            `1. You sell the service.`, 
+            `2. We execute it.`,
+            `3. You keep the credit and the profit margin.`
+          ]
         },
       ],
       button: '',
@@ -9053,7 +9065,7 @@ brand appears in AI summaries and citations.`,
             `Because the pages are already indexed and trusted, impact is often faster compared to new content placements.`,
           ],
           button: 'Boost My SEO Rankings',
-          btnColor: '#2E8ADD',
+          btnColor: '#8181D7',
         },
         {
           icon: whiteLinkBuildingImpIcon_3,
@@ -9064,7 +9076,7 @@ brand appears in AI summaries and citations.`,
             `These placements often appear on high-authority publications, strengthening brand trust alongside SEO performance.`,
           ],
           button: 'Boost My SEO Rankings',
-          btnColor: '#2E8ADD',
+          btnColor: '#7C84E8',
         },
         {
           icon: whiteLinkBuildingImpIcon_4,
@@ -9075,7 +9087,7 @@ brand appears in AI summaries and citations.`,
             `This layered approach increases both Map Pack visibility and organic rankings in location-specific search results.`,
           ],
           button: 'Boost My SEO Rankings',
-          btnColor: '#2E8ADD',
+          btnColor: '#60B7FF',
         },
         {
           icon: whiteLinkBuildingImpIcon_5,
@@ -9086,7 +9098,7 @@ brand appears in AI summaries and citations.`,
             `This improves authority without requiring entirely new campaigns.`,
           ],
           button: 'Boost My SEO Rankings',
-          btnColor: '#2E8ADD',
+          btnColor: '#FF9F00',
         },
         {
           icon: whiteLinkBuildingImpIcon_6,
@@ -9097,7 +9109,7 @@ brand appears in AI summaries and citations.`,
             `They are particularly powerful for SaaS, service businesses, and B2B clients.`,
           ],
           button: 'Boost My SEO Rankings',
-          btnColor: '#2E8ADD',
+          btnColor: '#FD5043',
         },
       ],
     },
@@ -9113,35 +9125,35 @@ brand appears in AI summaries and citations.`,
       ],
       list: [
         {
-          img: whiteServicesAdairedHelpImg,
+          img: whiteLinkBuildingWhatMkDiffImg_1,
           name: 'SEO Agencies',
           description: [
             `For dedicated SEO agencies, link building is often the most time-consuming and resource-heavy part of the campaign.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: whiteLinkBuildingWhatMkDiffImg_2,
           name: 'Digital Marketing Agencies',
           description: [
             `Full-service digital marketing agencies often manage PPC, social media, content marketing, and web development, but building an internal link acquisition team can be complex and costly.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: whiteLinkBuildingWhatMkDiffImg_3,
           name: 'Web Design & Development Agencies',
           description: [
             `Many web design and development agencies want to expand into SEO but lack link building expertise.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: whiteLinkBuildingWhatMkDiffImg_4,
           name: 'Freelance SEO Consultants',
           description: [
             `Independent consultants often handle strategy and technical SEO but may not have the time or systems to manage manual outreach campaigns.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: whiteLinkBuildingWhatMkDiffImg_5,
           name: 'SaaS Marketing Teams',
           description: [
             `For SaaS companies, authority and trust signals are essential in competitive markets. We align link acquisition with product-led growth strategies to support long-term visibility and lead generation.`,
@@ -9153,9 +9165,9 @@ brand appears in AI summaries and citations.`,
     buildlinks: {
       isVisible: true,
       isCode01: true,
-      isVariant: '03',
+      isVariant: '04',
       breakIndex: 3,
-      bgImg: whiteBookConsultationBg,
+      bgImg: whiteLinkBuildingBookConsultationBg,
       img: whiteLinkBuildingBuildLinkImg,
       label: 'Stop Turning Away SEO',
       heading: 'Opportunities and Scale Without Hiring!',

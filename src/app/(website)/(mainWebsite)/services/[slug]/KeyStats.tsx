@@ -588,7 +588,7 @@ const KeyStats = ({ keyStats }: any) => {
               isInCenter={true}
               subTitle={''}
               title={keyStats?.heading}
-              className='pb-[2rem]'
+              className='pb-[3rem]'
             />
 
             <div className="relative grid grid-cols-1 gap-[1rem] lg:grid-cols-2 lg:gap-[4rem]">
