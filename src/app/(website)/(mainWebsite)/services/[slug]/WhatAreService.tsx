@@ -73,7 +73,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
         >
           <MaxWidthWrapper className="relative grid grid-cols-1 gap-[1rem] py-[3rem] lg:grid-cols-2 lg:gap-[8rem] lg:py-[4rem]">
             <div
-              className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+              className={`relative order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
               <Heading
                 className="flex justify-center lg:justify-start"
@@ -95,7 +95,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 })}
               </div>
 
-              {whatareaiseo?.isBgWhite?.button && (
+              {whatareaiseo?.button && (
                 <SaveAndCancel
                   name={whatareaiseo?.button}
                   isIcon={true}
