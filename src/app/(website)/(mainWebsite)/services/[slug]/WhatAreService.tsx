@@ -423,7 +423,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                           {item.list.map((listItem: string, i: number) => (
                             <p
                               key={i}
-                              className={`${whatareaiseo?.isBgWhite ? 'text-[#FFDA24]' : ' '} font-semibold`}
+                              className={`${whatareaiseo?.isBgWhite ? 'text-[#FFDA24]' : ' '} font-semibold text-left`}
                             >
                               {listItem}
                             </p>
