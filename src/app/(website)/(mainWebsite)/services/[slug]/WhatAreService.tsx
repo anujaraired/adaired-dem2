@@ -411,24 +411,41 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 {whatareaiseo?.data?.map((item: any, index: number) => {
                   const isLast = index === whatareaiseo.data.length - 1;
                   return (
-                    <p
-                      className={`py-2 text-center lg:text-justify ${isLast && 'font-semibold'} ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'} `}
-                    >
-                      {item?.desctioption}
-                    </p>
+                    <div key={index} className="py-2">
+                      <p
+                        className={`py-2 text-center lg:text-justify ${isLast && 'font-semibold'} ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'} `}
+                      >
+                        {item?.desctioption}
+                      </p>
+
+                      {item?.list && (
+                        <div className="mt-2">
+                          {item.list.map((listItem: string, i: number) => (
+                            <p
+                              key={i}
+                              className={`${whatareaiseo?.isBgWhite ? 'text-[#FFDA24]' : ' '} font-semibold text-left`}
+                            >
+                              {listItem}
+                            </p>
+                          ))}
+                        </div>
+                      )}
+                    </div>
                   );
                 })}
               </div>
 
-              {whatareaiseo?.isBgWhite?.button && (
-                <SaveAndCancel
-                  name={whatareaiseo?.button}
-                  isIcon={true}
-                  isBgWhite={true}
-                  handleClick={() => setOpen(!open)}
-                  className="my-[2rem]"
-                />
-              )}
+              {
+                whatareaiseo?.isBgWhite?.button && (
+                  <SaveAndCancel
+                    name={whatareaiseo?.button}
+                    isIcon={true}
+                    isBgWhite={true}
+                    handleClick={() => setOpen(!open)}
+                    className="my-[2rem]"
+                  />
+                )
+              }
             </div>
 
             <div

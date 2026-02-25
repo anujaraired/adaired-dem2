@@ -269,7 +269,22 @@ import whitePaidAdsImpIcon_6 from '../../../../../../public/assets/whitelabel/wh
 // White Label Link Building Images
 import whiteLinkBuildingBannerBg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingBannerBg.png';
 import whiteLinkBuildingKeyStatsImg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingKeyStatsImg.png';
+import whiteLinkBuildingWhatIsImg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatIsImg.png';
 import whiteLinkBuildingBuildLinkImg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingBuildLinkImg.png';
+import whiteLinkBuildingBookConsultationBg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingBookConsultationBg.png';
+
+import whiteLinkBuildingImpIcon_1 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_1.png';
+import whiteLinkBuildingImpIcon_2 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_2.png';
+import whiteLinkBuildingImpIcon_3 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_3.png';
+import whiteLinkBuildingImpIcon_4 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_4.png';
+import whiteLinkBuildingImpIcon_5 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_5.png';
+import whiteLinkBuildingImpIcon_6 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_6.png';
+
+import whiteLinkBuildingWhatMkDiffImg_1 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_1.png';
+import whiteLinkBuildingWhatMkDiffImg_2 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_2.png';
+import whiteLinkBuildingWhatMkDiffImg_3 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_3.png';
+import whiteLinkBuildingWhatMkDiffImg_4 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_4.png';
+import whiteLinkBuildingWhatMkDiffImg_5 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_5.png';
 
 
 export type SectionKey =
@@ -8899,7 +8914,7 @@ brand appears in AI summaries and citations.`,
       },
     },
     banner: {
-      code: '07',
+      code: '10',
       isCenter: false,
       isVisible: true,
       heading: 'Authority with High-Quality Backlinks',
@@ -8919,7 +8934,7 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: true,
-      code: '08',
+      code: '10',
       img: whiteLinkBuildingKeyStatsImg,
       heading: 'Key Stats About White Label Link Building',
       bgColor: '#FB9100',
@@ -8957,19 +8972,28 @@ brand appears in AI summaries and citations.`,
     whatareservice: {
       isVisible: true,
       isVariant: '07',
-      img: whiteWhatIsImg,
-      heading: 'What Is White',
-      span: 'Label PPC?',
+      img: whiteLinkBuildingWhatIsImg,
+      heading: 'What is White',
+      span: 'Label Link Building?',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [
         {
-          desctioption: `White-label PPC is a partnership model that allows digital marketing agencies to offer professional paid advertising 
-          services under their own brand, without managing the campaigns in-house.`,
+          desctioption: `White label link building is a fulfillment partnership model where a specialized SEO provider builds high-quality backlinks for your clients, 
+          while you present the service entirely under your own brand.`,
         },
         {
-          desctioption: `In a white-label setup, a specialized PPC management company handles the strategy, campaign setup, optimization, tracking, and reporting behind the scenes. 
-          Your agency maintains full ownership of the client relationship, branding, and pricing.`
+          desctioption: `Instead of hiring an in-house outreach team, content writers, and link acquisition specialists, you can outsource link-building services 
+          to an expert white label link-building company like us to handle the complete backlink building process, from strategy and outreach to content creation and reporting. 
+          Your clients see only your brand, your communication, and your results.`
+        },
+        {
+          desctioption: `In short:`,
+          list: [
+            `1. You sell the service.`, 
+            `2. We execute it.`,
+            `3. You keep the credit and the profit margin.`
+          ]
         },
       ],
       button: '',
@@ -8978,57 +9002,71 @@ brand appears in AI summaries and citations.`,
     ourProcess: {
       isVisible: true,
       subtitle: 'Our Process',
-      title: 'How Our White-Label Digital Marketing Agency Works',
+      title: 'How White Label Link Building Works with Adaired Digital Media',
       span: 'Here’s a detailed breakdown of how the entire system works:',
-      description: [`At Adaired Digital Media, our white-label partnership model is designed to integrate seamlessly with your agency while delivering expert-level digital marketing performance under your brand.`,
-        `We operate behind the scenes, allowing you to scale services without increasing internal workload or overhead.`
+      description: [
+        `At Adaired, our best white label SEO link-building services are built to be seamless, scalable, and completely brandable. 
+        We function as your behind-the-scenes SEO fulfillment team, allowing you to confidently offer premium link building services without managing outreach, writers, or publisher relationships internally.`,
+        `Our structured, step-by-step approach ensures quality, consistency, and long-term SEO impact for your clients.`,
       ],
       services: [
         {
           icon: step,
-          title: 'Strategic Onboarding & Alignment',
+          title: 'Strategy & Planning',
           description: [
-            `Every successful white-label partnership begins with clarity and alignment. We take time to understand your agency’s positioning, service offerings, target industries, and client expectations.`,
-            `This ensures our execution reflects your brand voice and performance standards. By establishing communication workflows, reporting formats, and goal benchmarks upfront, we create a smooth and scalable operational structure that feels like a natural extension of your team.`,
+            `Every successful link-building campaign begins with a solid strategy. At Adaired, we don’t build random links; we build links with purpose.`,
+            `Based on this research, we develop a customized link acquisition roadmap tailored to your client’s goals. 
+            Whether the objective is ranking improvement, authority growth, or local SEO enhancement, our strategy aligns link placements with measurable outcomes.`,
+            `We also carefully plan anchor text distribution to maintain a natural backlink profile and reduce risk.`,
           ],
         },
         {
           icon: step,
-          title: 'Customized Campaign Strategy Development',
+          title: 'Manual Outreach & Relationship Building',
           description: [
-            `Once a client is onboarded, we develop a tailored strategy based on their specific business goals, competitive landscape, target audience, and budget allocation.`,
-            `Instead of using templated campaigns, we build a structured roadmap focused on measurable growth. This strategic planning phase ensures that each campaign is aligned with revenue objectives and long-term scalability.`,
+            `Unlike low-quality providers that rely on automated systems or private blog networks (PBNs), we use 100% manual outreach.`,
+            `Our outreach specialists identify niche-relevant, authoritative websites, build genuine relationships with site owners and editors, 
+            pitch valuable content ideas aligned with publisher guidelines, and negotiate contextual link placements.`,
+            `We prioritize websites that have real organic traffic, strong domain metrics, editorial standards, and relevance to your client’s industry.`,
           ],
         },
         {
           icon: step,
-          title: 'Expert Campaign Setup & Execution',
+          title: 'Content Creation & Placement',
           description: [
-            `Our team builds and launches fully optimized campaigns across platforms such as Google Ads, Microsoft Ads, and paid social channels.`,
-            `From advanced targeting and audience segmentation to conversion tracking and ad creative development, every element is structured to maximize performance. We focus on precision execution to ensure campaigns are positioned for strong ROI from the start.`
+            `Once a placement opportunity is secured, our content team takes over. 
+            Each article is written to blend seamlessly with the publisher’s existing content, ensuring authenticity and higher acceptance rates. 
+            We focus on contextual placements within the body of the content rather than low-impact sidebar or footer links.`,
+            `Before final publication, every piece undergoes quality review to ensure relevance, readability, and compliance with search engine guidelines.`,
           ],
         },
         {
           icon: step,
-          title: 'Continuous Optimization & Performance Scaling',
+          title: 'Quality Assurance & Compliance',
           description: [
-            `Paid advertising success depends on ongoing refinement. We continuously monitor campaign data, test new variations, adjust bids, refine audiences, and optimize budgets based on performance insights.`,
-            `This proactive management approach allows us to improve efficiency, increase conversion rates, and scale campaigns strategically over time.`,
+            `Quality control is a core part of our white-label link-building framework. 
+            At Adaired, we verify website authenticity and traffic metrics, link placement accuracy, proper anchor text usage, indexing status, and no spam signals or toxic link patterns.`,
+            `Our internal review process ensures that every backlink meets our standards before it is delivered to you. 
+            We prioritize sustainable SEO practices aligned with search engine guidelines to protect your clients’ long-term performance.`,
           ],
         },
         {
           icon: step,
-          title: 'White-Labeled Reporting & Transparent Communication',
+          title: 'White-Labeled Reporting & Delivery',
           description: [
-            `All performance reports are delivered under your brand identity, allowing you to maintain authority and client trust.`,
-            `Our reports provide clear insights into key metrics, return on ad spend, conversion performance, and strategic next steps. While we manage the technical execution behind the scenes, you remain the face of the service.`,
+            `Transparency is essential for agency partnerships. You receive comprehensive, brand-ready reports that include live link URLs, domain authority or DR metrics, 
+            traffic estimates, anchor text used, placement type (guest post, editorial, etc.), and publication date.`,
+            `All reports are fully white-labeled, allowing you to present them under your brand identity. From your client’s perspective, your agency executed the entire campaign. 
+            This makes it easy for you to demonstrate value, justify retainers, and strengthen client trust.`,
           ],
         },
         {
           icon: step,
-          title: 'Scalable Infrastructure for Long-Term Growth',
+          title: 'Ongoing Scaling & Optimization',
           description: [
-            `As your agency grows, our support grows with you. Whether you add new clients or increase campaign budgets, our team scales resources accordingly without the delays or risks associated with internal hiring.`, `This flexible infrastructure allows you to pursue expansion confidently while maintaining consistent service quality.`
+            `White label link building is not a one-time effort. We monitor performance trends and refine strategy over time. 
+            As your client’s authority grows, we adjust the anchor text strategy, target higher authority placements, expand into additional relevant niches, and strengthen topical authority. 
+            This progressive scaling ensures continued ranking improvement and long-term SEO stability.`,
           ],
         },
       ],
@@ -9038,180 +9076,79 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       breakIndex: 5,
       isVariant: '03',
-      heading: 'Our White Label PPC Management Services',
+      heading: 'Our White Label Link Building Services',
       description: [
-        `At Adaired Digital Media, we provide comprehensive white-label PPC Management Services designed to help agencies deliver high-performance paid advertising under their own brand. 
-        From search engines to social media and eCommerce marketplaces, we manage every campaign with precision, strategy, and ROI focus.`,
+        `At Adaired, we don’t just build links; we engineer authority ecosystems for your clients. 
+        Our white-label link-building services are designed to deliver diversified, natural, and scalable backlink profiles that align with long-term ranking growth.`, 
+        `Every campaign is structured to combine multiple authority layers rather than relying on a single tactic.`,
       ],
-      buttonName: 'Become a White Label Reseller',
+      buttonName: 'Boost My SEO Rankings',
       data: [
         {
-          icon: whitePaidAdsImpIcon_1,
-          name: 'White Label Google Ads Management',
+          icon: whiteLinkBuildingImpIcon_1,
+          name: 'Authority Guest Publishing Campaigns',
           description: [
-            `Google Ads remains the most powerful pay-per-click advertising platform, offering unmatched reach and advanced targeting capabilities.`,
-            {
-              desctioption: `As your white-label PPC partner, we manage:`,
-              list: [
-                {
-                  des: [`Search Campaigns`],
-                },
-                {
-                  des: [`Shopping Ads`],
-                },
-                {
-                  des: [`Display Campaigns`],
-                },
-                {
-                  des: [`Performance Max Campaigns`],
-                },
-                {
-                  des: [`YouTube Ads`],
-                },
-              ],
-            },
-            `We craft data-driven strategies to maximize ad spend, improve conversion rates, and drive measurable ROI, all under your agency’s branding.`,
+            `Instead of chasing random placements, we build structured guest publishing campaigns focused on relevance, trust, and long-term value.`,
+            `Our team maps out niche-specific publishing targets, builds direct relationships with editors, crafts industry-relevant thought leadership content, and secures contextual in-content placements.`,
+            `These links strengthen topical authority and send strong relevance signals to search engines, not just raw link equity.`,
           ],
-          button: 'Become a White Label Reseller',
+          button: 'Boost My SEO Rankings',
           btnColor: '#2E8ADD',
         },
         {
-          icon: whitePaidAdsImpIcon_2,
-          name: 'White Label Microsoft (Bing) Ads',
+          icon: whiteLinkBuildingImpIcon_2,
+          name: 'Contextual Authority Insertions',
           description: [
-            `Microsoft Ads (formerly Bing Ads) provides access to a highly engaged audience, often at a lower cost-per-click.`,
-            {
-              desctioption: `Our white-label advertising services include:`,
-              list: [
-                {
-                  des: [`Search Campaign Optimization`],
-                },
-                {
-                  des: [`Shopping Campaign Management`],
-                },
-                {
-                  des: [`Audience Targeting & Bid Strategy`],
-                },
-                {
-                  des: [`Conversion Tracking & Reporting`],
-                },
-              ],
-            },
-            `We help your agency expand reach and increase lead generation while maintaining efficient ad spend.`,
+            `We strategically place contextual backlinks inside aged, ranking content that already carries trust and visibility.`,
+            `This service focuses on identifying evergreen articles with traffic, ensuring contextual alignment, natural anchor blending, and immediate authority transfer.`,
+            `Because the pages are already indexed and trusted, impact is often faster compared to new content placements.`,
           ],
-          button: 'Become a White Label Reseller',
-          btnColor: '#008599',
+          button: 'Boost My SEO Rankings',
+          btnColor: '#8181D7',
         },
         {
-          icon: whitePaidAdsImpIcon_3,
-          name: 'White Label Facebook & Instagram Ads',
+          icon: whiteLinkBuildingImpIcon_3,
+          name: 'Editorial & Brand Mention Campaigns',
           description: [
-            `Social media advertising plays a critical role in brand awareness and lead generation.`,
-            {
-              desctioption: `We manage:`,
-              list: [
-                {
-                  des: [`Carousel Ads`],
-                },
-                {
-                  des: [`Video Ads`],
-                },
-                {
-                  des: [`Dynamic Product Ads`],
-                },
-                {
-                  des: [`Lead Generation Ads`],
-                },
-                {
-                  des: [`Story & Feed Ads`],
-                },
-              ],
-            },
-            `Our team creates high-converting creative strategies and audience targeting frameworks to drive qualified leads and maximize ROI, fully white-labeled under your agency.`,
+            `For agencies serving competitive niches, brand-level authority signals are critical. 
+            We design editorial outreach campaigns that position your clients as industry contributors, data sources, expert commentators, and resource creators.`,
+            `These placements often appear on high-authority publications, strengthening brand trust alongside SEO performance.`,
           ],
-          button: 'Become a White Label Reseller',
-          btnColor: '#FE2181',
+          button: 'Boost My SEO Rankings',
+          btnColor: '#7C84E8',
         },
         {
-          icon: whitePaidAdsImpIcon_4,
-          name: 'White Label Twitter (X) Ads',
+          icon: whiteLinkBuildingImpIcon_4,
+          name: 'Local Authority Strengthening',
           description: [
-            `Twitter Ads allow brands to engage audiences in real time through targeted messaging.`,
-            {
-              desctioption: `We manage:`,
-              list: [
-                {
-                  des: [`Promoted Posts`],
-                },
-                {
-                  des: [`Follower Campaigns`],
-                },
-                {
-                  des: [`Trend Promotions`],
-                },
-                {
-                  des: [`Lead Generation Campaigns`],
-                },
-              ],
-            },
-            `Our strategies focus on increasing brand awareness and driving measurable conversions through optimized PPC execution.`,
+            `For businesses targeting geographic markets, we build location-reinforced link profiles. 
+            This includes geo-relevant editorial placements, regional publications, community-based digital platforms, and industry and location crossover opportunities.`,
+            `This layered approach increases both Map Pack visibility and organic rankings in location-specific search results.`,
           ],
-          button: 'Become a White Label Reseller',
-          btnColor: '#000000',
+          button: 'Boost My SEO Rankings',
+          btnColor: '#60B7FF',
         },
         {
-          icon: whitePaidAdsImpIcon_5,
-          name: 'White Label Pinterest Ads',
+          icon: whiteLinkBuildingImpIcon_5,
+          name: 'Strategic Link Reclamation',
           description: [
-            `Pinterest offers access to users actively searching for inspiration and purchase ideas.`,
-            {
-              desctioption: `Our white label paid ads services include:`,
-              list: [
-                {
-                  des: [`Promoted Pins`],
-                },
-                {
-                  des: [`Video Ads`],
-                },
-                {
-                  des: [`Traffic Campaigns`],
-                },
-                {
-                  des: [`Conversion Campaigns`],
-                },
-              ],
-            },
-            `We create visually compelling campaigns that drive engagement, website traffic, and revenue growth.`,
+            `Many websites unknowingly lose backlink equity due to broken pages or outdated resources. 
+            We identify reclaimable link opportunities, recover lost backlink value, replace broken external links on authoritative domains, and strengthen existing content assets.`,
+            `This improves authority without requiring entirely new campaigns.`,
           ],
-          button: 'Become a White Label Reseller',
-          btnColor: '#FF1D25',
+          button: 'Boost My SEO Rankings',
+          btnColor: '#FF9F00',
         },
         {
-          icon: whitePaidAdsImpIcon_6,
-          name: 'White Label Amazon Ads',
+          icon: whiteLinkBuildingImpIcon_6,
+          name: 'Resource & Industry Hub Placements',
           description: [
-            `For eCommerce-focused agencies, Amazon Ads provide direct access to high-intent shoppers.`,
-            {
-              desctioption: `We manage:`,
-              list: [
-                {
-                  des: [`Sponsored Products`],
-                },
-                {
-                  des: [`Sponsored Brands`],
-                },
-                {
-                  des: [`Sponsored Display Ads`],
-                },
-                {
-                  des: [`Marketplace Optimization`],
-                },
-              ],
-            },
-            `Our goal is to increase visibility, drive product sales, and improve Return on Ad Spend (ROAS).`,
+            `We secure placements on curated industry hubs where users actively seek tools, research, and trusted references. 
+            These placements drive consistent referral traffic, reinforce topical authority, support long-term SEO stability, and enhance brand positioning.`,
+            `They are particularly powerful for SaaS, service businesses, and B2B clients.`,
           ],
-          button: 'Become a White Label Reseller',
-          btnColor: '#FF9900',
+          button: 'Boost My SEO Rankings',
+          btnColor: '#FD5043',
         },
       ],
     },
@@ -9227,35 +9164,35 @@ brand appears in AI summaries and citations.`,
       ],
       list: [
         {
-          img: whiteServicesAdairedHelpImg,
+          img: whiteLinkBuildingWhatMkDiffImg_1,
           name: 'SEO Agencies',
           description: [
             `For dedicated SEO agencies, link building is often the most time-consuming and resource-heavy part of the campaign.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: whiteLinkBuildingWhatMkDiffImg_2,
           name: 'Digital Marketing Agencies',
           description: [
             `Full-service digital marketing agencies often manage PPC, social media, content marketing, and web development, but building an internal link acquisition team can be complex and costly.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: whiteLinkBuildingWhatMkDiffImg_3,
           name: 'Web Design & Development Agencies',
           description: [
             `Many web design and development agencies want to expand into SEO but lack link building expertise.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: whiteLinkBuildingWhatMkDiffImg_4,
           name: 'Freelance SEO Consultants',
           description: [
             `Independent consultants often handle strategy and technical SEO but may not have the time or systems to manage manual outreach campaigns.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: whiteLinkBuildingWhatMkDiffImg_5,
           name: 'SaaS Marketing Teams',
           description: [
             `For SaaS companies, authority and trust signals are essential in competitive markets. We align link acquisition with product-led growth strategies to support long-term visibility and lead generation.`,
@@ -9267,9 +9204,9 @@ brand appears in AI summaries and citations.`,
     buildlinks: {
       isVisible: true,
       isCode01: true,
-      isVariant: '03',
+      isVariant: '04',
       breakIndex: 3,
-      bgImg: whiteBookConsultationBg,
+      bgImg: whiteLinkBuildingBookConsultationBg,
       img: whiteLinkBuildingBuildLinkImg,
       label: 'Stop Turning Away SEO',
       heading: 'Opportunities and Scale Without Hiring!',
