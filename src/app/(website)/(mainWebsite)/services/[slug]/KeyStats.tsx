@@ -568,11 +568,11 @@ const KeyStats = ({ keyStats }: any) => {
                     transitionDelay: isVisible ? '0ms' : `${idx * 280}ms`,
                   }}
                 >
-                  <h2 className="F28F17 mx-auto w-fit rounded-xl border border-[#F28F17]/10 bg-[#FFEACD] px-3 py-1 font-normal text-[#FB9100] lg:mx-0">
+                  <h2 className="mx-auto w-fit rounded-xl border border-[#F28F17]/10 bg-[#FFEACD] px-3 font-normal text-[#FB9100] lg:mx-0">
                     {`0${idx + 1}`}
                   </h2>
-                  <p className="pt-16 font-bold">{item?.title}</p>
-                  <p className="pt-6">{item?.description}</p>
+                  <p className="pt-10 font-bold">{item?.title}</p>
+                  <p className="pt-2 md:text-left">{item?.description}</p>
                 </div>
               ))}
             </div>

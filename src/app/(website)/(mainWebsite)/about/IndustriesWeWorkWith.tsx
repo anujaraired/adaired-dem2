@@ -70,58 +70,60 @@ const IndustriesWeWorkWith = ({ industriesWeWorkWith }: any) => {
                             />
                         </div>
 
-                        <div className="flex justify-center lg:justify-start py-[3rem]">
-                            <IoArrowForwardCircleOutline
-                                size={50}
-                                onClick={handlePrev}
-                                className={`rotate-180 cursor-pointer text-white hover:text-[#FB9100] ${index === 0 ? 'cursor-not-allowed opacity-40' : ''}`}
-                            />
-                            <IoArrowForwardCircleOutline
-                                size={50}
-                                onClick={handleNext}
-                                className={`cursor-pointer text-white hover:text-[#FB9100] ${index >= maxIndex ? 'cursor-not-allowed opacity-40' : ''}`}
-                            />
-                        </div>
+                        <div className='flex flex-col-reverse lg:flex-col'>
+                            <div className="flex justify-center lg:justify-start py-[1rem] lg:py-[3rem]">
+                                <IoArrowForwardCircleOutline
+                                    size={50}
+                                    onClick={handlePrev}
+                                    className={`rotate-180 cursor-pointer text-white hover:text-[#FB9100] ${index === 0 ? 'cursor-not-allowed opacity-40' : ''}`}
+                                />
+                                <IoArrowForwardCircleOutline
+                                    size={50}
+                                    onClick={handleNext}
+                                    className={`cursor-pointer text-white hover:text-[#FB9100] ${index >= maxIndex ? 'cursor-not-allowed opacity-40' : ''}`}
+                                />
+                            </div>
 
-                        <div className="overflow-hidden">
-                            <div
-                                className="flex gap-[2.5rem] transition-transform duration-500 ease-in-out last:pr-[2rem]"
-                                style={{
-                                    transform: `translateX(-${index * (80 / visibleCards)}%)`,
-                                }}
-                            >
-                                {industriesWeWorkWith?.list?.map((item: any, idx: number) => (
-                                    <div
-                                        key={idx}
-                                        onMouseEnter={() => setIsActive(idx)}
-                                        onMouseLeave={() => setIsActive(null)}
-                                        className={`flex flex-col justify-center items-center min-w-full transition-all duration-300 ease-in-out sm:min-w-[50%] lg:min-w-[25%]`}
-                                    >
+                            <div className="overflow-hidden py-[1rem]">
+                                <div
+                                    className="flex gap-[2.5rem] transition-transform duration-500 ease-in-out last:pr-[2rem]"
+                                    style={{
+                                        transform: `translateX(-${index * (80 / visibleCards)}%)`,
+                                    }}
+                                >
+                                    {industriesWeWorkWith?.list?.map((item: any, idx: number) => (
+                                        <div
+                                            key={idx}
+                                            onMouseEnter={() => setIsActive(idx)}
+                                            onMouseLeave={() => setIsActive(null)}
+                                            className={`flex flex-col justify-center items-center min-w-full transition-all duration-300 ease-in-out sm:min-w-[50%] lg:min-w-[25%]`}
+                                        >
 
-                                        <div className="relative inline-block">
-                                            <Image
-                                                src={item?.img}
-                                                width={419}
-                                                height={502}
-                                                alt="img"
-                                            />
-                                            <div className='absolute bottom-[2rem] left-0 w-full px-6 py-3 flex justify-between items-center bg-white text-center'>
-
-                                                <p className='font-bold'>
-                                                    {item?.btn}
-                                                </p>
-
-                                                <IoIosArrowRoundForward
-                                                    size={35}
-                                                    className={`text-black ${isHover ? 'rotate-[360deg] transition-all duration-300 ease-out active:scale-95' : 'rotate-[310deg]'}`}
+                                            <div className="relative inline-block">
+                                                <Image
+                                                    src={item?.img}
+                                                    width={419}
+                                                    height={502}
+                                                    alt="img"
                                                 />
+                                                <div className='absolute bottom-[2rem] left-0 w-full px-6 py-3 flex justify-between items-center bg-white text-center'>
 
+                                                    <p className='font-bold'>
+                                                        {item?.btn}
+                                                    </p>
+
+                                                    <IoIosArrowRoundForward
+                                                        size={35}
+                                                        className={`text-black ${isHover ? 'rotate-[360deg] transition-all duration-300 ease-out active:scale-95' : 'rotate-[310deg]'}`}
+                                                    />
+
+                                                </div>
                                             </div>
+
+
                                         </div>
-
-
-                                    </div>
-                                ))}
+                                    ))}
+                                </div>
                             </div>
                         </div>
                     </div>
