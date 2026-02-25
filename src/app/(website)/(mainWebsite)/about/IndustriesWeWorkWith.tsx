@@ -18,11 +18,11 @@ const IndustriesWeWorkWith = ({ industriesWeWorkWith }: any) => {
     useEffect(() => {
         const updateVisibleCards = () => {
             if (window.innerWidth < 640) {
-                setVisibleCards(1); // sm
+                setVisibleCards(1);
             } else if (window.innerWidth < 1024) {
-                setVisibleCards(2); // md
+                setVisibleCards(2);
             } else {
-                setVisibleCards(3); // lg
+                setVisibleCards(4);
             }
         };
 
@@ -33,7 +33,7 @@ const IndustriesWeWorkWith = ({ industriesWeWorkWith }: any) => {
     }, []);
 
     const totalItems = industriesWeWorkWith?.list?.length || 0;
-    const maxIndex = totalItems - visibleCards;
+    const maxIndex = Math.max(totalItems - visibleCards, 0);
 
     const handleNext = () => {
         if (index < maxIndex) {
@@ -86,17 +86,21 @@ const IndustriesWeWorkWith = ({ industriesWeWorkWith }: any) => {
 
                             <div className="overflow-hidden py-[1rem]">
                                 <div
-                                    className="flex gap-[2.5rem] transition-transform duration-500 ease-in-out last:pr-[2rem]"
+                                    className="flex transition-transform duration-500 ease-in-out -mx-4"
                                     style={{
-                                        transform: `translateX(-${index * (80 / visibleCards)}%)`,
+                                        transform: `translateX(-${index * (100 / visibleCards)}%)`,
                                     }}
                                 >
+
                                     {industriesWeWorkWith?.list?.map((item: any, idx: number) => (
                                         <div
                                             key={idx}
                                             onMouseEnter={() => setIsActive(idx)}
                                             onMouseLeave={() => setIsActive(null)}
-                                            className={`flex flex-col justify-center items-center min-w-full transition-all duration-300 ease-in-out sm:min-w-[50%] lg:min-w-[25%]`}
+                                            className="flex flex-col justify-center items-center px-4 transition-all duration-300 ease-in-out"
+                                            style={{
+                                                minWidth: `${100 / visibleCards}%`,
+                                            }}
                                         >
 
                                             <div className="relative inline-block">
@@ -119,8 +123,6 @@ const IndustriesWeWorkWith = ({ industriesWeWorkWith }: any) => {
 
                                                 </div>
                                             </div>
-
-
                                         </div>
                                     ))}
                                 </div>

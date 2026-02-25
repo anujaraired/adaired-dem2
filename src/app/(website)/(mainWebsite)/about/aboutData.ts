@@ -246,9 +246,9 @@ export const ABOUT_DATA = {
     ],
     images: [
       {
-        img: SEOManager,
-        title: 'Gourav Manuja',
-        desc: 'Seo Team Manegar',
+        img: ORMManager,
+        title: 'Sandeep Grewal',
+        desc: 'ORM Team Manegar',
         icon: Linkedin,
       },
       {
@@ -258,9 +258,9 @@ export const ABOUT_DATA = {
         icon: Linkedin,
       },
       {
-        img: ORMManager,
-        title: 'Sandeep Grewal',
-        desc: 'ORM Team Manegar',
+        img: SEOManager,
+        title: 'Gourav Manuja',
+        desc: 'Seo Team Manegar',
         icon: Linkedin,
       },
       {
