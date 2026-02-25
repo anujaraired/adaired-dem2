@@ -1530,6 +1530,7 @@ export const SERVICES_DATA = {
           ],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
+          btnColor: '#74AA9C',
         },
 
         {
@@ -1537,10 +1538,11 @@ export const SERVICES_DATA = {
           title: 'Perplexity AI SEO',
           description: [
             `Our Perplexity AI SEO service integrates the basics of SEO with answer-engine formatting to optimize your content for recognition, trust, and visibility with AI search engines. 
-        Through the combination of structured responses and content accessible to the AI, we enhance authority, engagement, and discoverability. This helps your brand appear in high-intent searches in the AI-based search results.`,
+            Through the combination of structured responses and content accessible to the AI, we enhance authority, engagement, and discoverability. This helps your brand appear in high-intent searches in the AI-based search results.`,
           ],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
+          btnColor: '#20808D',
         },
 
         {
@@ -1548,10 +1550,11 @@ export const SERVICES_DATA = {
           title: 'Gemini AI SEO',
           description: [
             `Our Gemini AI SEO services combine traditional SEO best practices with AI-first page structuring to make your content easily discoverable, cited, and trusted in Google's AI-powered Gemini search results.
-        We ensure that your pages stand out as authoritative answers, boosting visibility, credibility, and user engagement in an increasingly AI-powered search landscape.`,
+            We ensure that your pages stand out as authoritative answers, boosting visibility, credibility, and user engagement in an increasingly AI-powered search landscape.`,
           ],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
+          btnColor: '#2B99DE',
         },
 
         {
@@ -1559,10 +1562,11 @@ export const SERVICES_DATA = {
           title: 'Grok AI SEO',
           description: [
             `Our Grok AI SEO helps to increase AI visibility, ensuring that insights are clear, authoritative, and easily discovered by Grok.
-        With the help of our strategies, your brand gains citation, trust, and recognition, gaining authority in your industry and maximizing content to provide answers using AI, high-intent traffic, and meaningful engagement.`,
+             With the help of our strategies, your brand gains citation, trust, and recognition, gaining authority in your industry and maximizing content to provide answers using AI, high-intent traffic, and meaningful engagement.`,
           ],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
+          btnColor: '#000000',
         },
 
         {
@@ -1570,10 +1574,11 @@ export const SERVICES_DATA = {
           title: 'Answer Engine Optimization',
           description: [
             `Being one of the leaders in Answer Engine Optimization, Adaired integrates search engine AI with SEO best practices to ensure your site is answerable on ChatGPT, Gemini, and Perplexity.
-        We optimize content structure and relevance so that your pages gain recognition, credibility, and are continually surfaced by the AI-based search engines.`,
+            We optimize content structure and relevance so that your pages gain recognition, credibility, and are continually surfaced by the AI-based search engines.`,
           ],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
+          btnColor: '#1F66BE',
         },
 
         {
@@ -1581,10 +1586,11 @@ export const SERVICES_DATA = {
           title: 'Generative Engine Optimization',
           description: [
             `Our Generative Engine Optimization services combine the basics of SEO with answer-based structuring, so that your content is easily found, cited, and surfaced by Gemini, Claude, and other AI engines.
-        We position your brand as an authoritative source, boosting your visibility, trust, and engagement on AI-driven search engines, and optimize content to high-intent user search queries.`,
+            We position your brand as an authoritative source, boosting your visibility, trust, and engagement on AI-driven search engines, and optimize content to high-intent user search queries.`,
           ],
           linkText: 'Get Your Free AI SEO Audit',
           linkHref: '#',
+          btnColor: '#5F52B1', 
         },
       ],
     },
@@ -4391,7 +4397,7 @@ brand appears in AI summaries and citations.`,
 
     adairedHelp: {
       isVisible: true,
-      isInCenter : true,
+      isInCenter: true,
       isDecVarticle: false,
       img: AdairedHelpSocial,
       breakIndex: 7,
@@ -8990,7 +8996,7 @@ brand appears in AI summaries and citations.`,
         {
           desctioption: `In short:`,
           list: [
-            `1. You sell the service.`, 
+            `1. You sell the service.`,
             `2. We execute it.`,
             `3. You keep the credit and the profit margin.`
           ]
@@ -9079,7 +9085,7 @@ brand appears in AI summaries and citations.`,
       heading: 'Our White Label Link Building Services',
       description: [
         `At Adaired, we don’t just build links; we engineer authority ecosystems for your clients. 
-        Our white-label link-building services are designed to deliver diversified, natural, and scalable backlink profiles that align with long-term ranking growth.`, 
+        Our white-label link-building services are designed to deliver diversified, natural, and scalable backlink profiles that align with long-term ranking growth.`,
         `Every campaign is structured to combine multiple authority layers rather than relying on a single tactic.`,
       ],
       buttonName: 'Boost My SEO Rankings',
