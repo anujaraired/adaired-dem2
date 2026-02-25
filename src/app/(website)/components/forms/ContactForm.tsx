@@ -118,7 +118,7 @@ const ContactForm = () => {
           className="mb-auto"
         />
       </div>
-      <div>
+      <div className="space-y-4">
         <InputField
           className="my-4"
           name="name"
@@ -149,7 +149,7 @@ const ContactForm = () => {
         </div>
 
         <SelectField
-          className="my-4"
+          
           name="service"
           value={inputValue.service}
           handleChange={handleChange}
