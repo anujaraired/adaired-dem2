@@ -8080,7 +8080,7 @@ brand appears in AI summaries and citations.`,
     importantToBussiness: {
       isVisible: true,
       breakIndex: 4,
-      isVariant: '03',
+      isVariant: '01',
       heading: 'Our White Label PPC Management Services',
       description: [
         `At Adaired Digital Media, we provide comprehensive white-label PPC Management Services designed to help agencies deliver high-performance paid advertising under their own brand. 
@@ -9079,7 +9079,7 @@ brand appears in AI summaries and citations.`,
     importantToBussiness: {
       isVisible: true,
       breakIndex: 5,
-      isVariant: '03',
+      isVariant: '01',
       heading: 'Our White Label Link Building Services',
       description: [
         `At Adaired, we don’t just build links; we engineer authority ecosystems for your clients. 
