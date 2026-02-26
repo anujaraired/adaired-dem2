@@ -22,7 +22,7 @@ const WhatMissing = ({ whatMissing }: any) => {
             isInCenter={whatMissing?.isInCenter}
             description={whatMissing?.description}
             isDecVarticle={!whatMissing?.isInCenter}
-            isBgWhite={!whatMissing?.bgColor && true}
+            isBgWhite={whatMissing?.isInCenter && true}
           />
 
           <div className="grid grid-cols-1 gap-6 pt-[3rem] lg:grid-cols-3">

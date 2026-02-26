@@ -779,8 +779,8 @@ export const SERVICES_DATA = {
           name: 'AI SEO',
           description: [
             `Our AI SEO services leverage artificial intelligence to enhance search engine optimization strategies with precision and efficiency. 
-            By analyzing large datasets, we identify keyword opportunities, optimize content, enhance technical performance, and predict user behavior. 
-            We do this to help our clients to adapt quickly to algorithm updates, scale SEO efforts, and achieve higher rankings with smarter, data-driven decisions.`,
+            By analyzing large datasets, we identify keyword opportunities, optimize content, enhance technical performance, and predict user behavior.`, 
+            `We do this to help our clients to adapt quickly to algorithm updates, scale SEO efforts, and achieve higher rankings with smarter, data-driven decisions.`,
           ],
         },
         {
@@ -788,8 +788,8 @@ export const SERVICES_DATA = {
           name: 'Local SEO',
           description: [
             `Our Local SEO helps businesses connect with customers in their immediate geographic area. 
-            It focuses on optimizing Google Business Profiles, local keywords, map listings, reviews, and citations to improve visibility in local search results. 
-            Our effective local SEO drives foot traffic, phone inquiries, and leads, making it essential for service-based and location-focused businesses. `,
+            It focuses on optimizing Google Business Profiles, local keywords, map listings, reviews, and citations to improve visibility in local search results.`, 
+            `Our effective local SEO drives foot traffic, phone inquiries, and leads, making it essential for service-based and location-focused businesses. `,
           ],
         },
         {
@@ -797,16 +797,16 @@ export const SERVICES_DATA = {
           name: 'National SEO',
           description: [
             `Our National SEO services are designed for businesses targeting audiences across an entire country. 
-            It involves competitive keyword targeting, authoritative content creation, strong backlink profiles, and optimized website architecture. 
-            This approach builds brand authority, increases nationwide search visibility, and delivers consistent organic traffic in highly competitive markets and industries.`,
+            It involves competitive keyword targeting, authoritative content creation, strong backlink profiles, and optimized website architecture.`, 
+            `This approach builds brand authority, increases nationwide search visibility, and delivers consistent organic traffic in highly competitive markets and industries.`,
           ],
         },
         {
           img: adairedHelp_icon_4,
           name: 'E-commerce SEO',
           description: [
-            `E-commerce SEO improves the visibility of online stores in search engines to drive qualified traffic and sales. It optimizes product pages, category structures, site speed, and user experience. 
-            We deploy a strong e-commerce SEO strategy that increases conversions, enhances discoverability, and supports long-term growth by reducing reliance on paid advertising. `,
+            `E-commerce SEO improves the visibility of online stores in search engines to drive qualified traffic and sales. It optimizes product pages, category structures, site speed, and user experience.`, 
+            `We deploy a strong e-commerce SEO strategy that increases conversions, enhances discoverability, and supports long-term growth by reducing reliance on paid advertising. `,
           ],
         },
       ],
@@ -1250,10 +1250,14 @@ export const SERVICES_DATA = {
     },
     benefitofAiSeo: {
       isVisible: true,
+      isDecVarticle: true,
+      isInCenter: false,
+      isBgWhite: false,
+      breakIndex: 6,
       activeDot: '#F28F17',
       inactiveDot: '#FFEACD',
       bgColor:
-        'bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0]/70 to-[#FFF8F0]/30',
+        'bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0]',
       textColor: '#FB9100',
       textBg: '#FFE6C380',
       borderColor: '#FB910040',
@@ -2005,10 +2009,13 @@ brand appears in AI summaries and citations.`,
     // NEW
     benefitofAiSeo: {
       isVisible: true,
+      isDecVarticle: false,
+      isBgWhite: true,
+      breakIndex: 6,
       activeDot: '#F28F17',
       inactiveDot: '#FFEACD',
       bgColor:
-        'bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0]/70 to-[#FFF8F0]/30',
+        'bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0]',
       textColor: '#FB9100',
       textBg: '#FFE6C380',
       borderColor: '#FB910040',
@@ -2423,9 +2430,9 @@ brand appears in AI summaries and citations.`,
     // NEW
     whatMissing: {
       isVisible: true,
-      breakIndex: 5,
-      bgColor: false,
-      isInCenter: true,
+      breakIndex: 7,
+      isInCenter:true,
+      bgColor: '#FAFAFA',
       heading:
         'What Your Business Could Be Missing And How Link Building Can Help?',
       list: [
@@ -2657,6 +2664,10 @@ brand appears in AI summaries and citations.`,
 
     benefitofAiSeo: {
       isVisible: true,
+      isDecVarticle: true,
+      isBgWhite: false,
+      isInCenter: false,
+      breakIndex: 3,
       activeDot: '#000000',
       inactiveDot: '#9DA0A3',
       bgColor: 'bg-[#FAFAFA]',
@@ -6092,12 +6103,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       img: whiteServicesAdairedHelpImg,
       isInCenter: false,
+      breakIndex: 3,
       bgColor: '#FFFCF8',
       heading: `Work with Adaired's Agency-First White-Label Model`,
       description: [
         `Our white-label model is designed to reduce execution pressure while providing agencies with 
-        complete control over how services are positioned, priced, and presented to clients. 
-        Rather than providing generic outsourcing, we serve as a structured fulfillment layer that integrates with existing agency operations.`,
+        complete control over how services are positioned, priced, and presented to clients.`, 
+        `Rather than providing generic outsourcing, we serve as a structured fulfillment layer that integrates with existing agency operations.`,
       ],
       mainImage: whiteServicesAdairedHelpImg,
       list: [

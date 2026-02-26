@@ -474,7 +474,7 @@ const KeyStats = ({ keyStats }: any) => {
                 className={`relative flex h-full items-center justify-center rounded-[10px] ${keyStats?.isImgBg
                   ? keyStats?.bgColor
                     ? `bg-[${keyStats.bgColor}]/10`
-                    : 'bg-[#FFFFFF]/10'
+                    : 'bg-[#F5F5F5]/50'
                   : ''
                   }`}
               >
