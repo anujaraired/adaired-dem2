@@ -46,16 +46,16 @@ import HowAdairedHelp from '../../../../../../public/assets/WebDevelopment/HowAd
 import adairedHelp_1 from '../../../../../../public/assets/adairedHelp/Group 1000006012.png';
 import adairedHelp_2 from '../../../../../../public/assets/adairedHelp/Group 1000006013.png';
 import adairedHelp_3 from '../../../../../../public/assets/adairedHelp/Group 1000006014.png';
-import adairedHelp_4 from '../../../../../../public/assets/adairedHelp/Group 1000006027.png';
+import adairedHelp_4 from '../../../../../../public/assets/adairedHelp/adairedSEO1.png';
 import adairedHelp_5 from '../../../../../../public/assets/adairedHelp/Group 1000006028.png';
 import adairedHelp_6 from '../../../../../../public/assets/adairedHelp/Group 1000006029.png';
-import adairedHelp_7 from '../../../../../../public/assets/adairedHelp/Group 1000006065.png';
-import adairedHelp_8 from '../../../../../../public/assets/adairedHelp/Group 1000006045.png';
-import adairedHelp_12 from '../../../../../../public/assets/adairedHelp/White-Hat.png';
-import adairedHelp_13 from '../../../../../../public/assets/adairedHelp/Transparent Reporting.png';
-import adairedHelp_14 from '../../../../../../public/assets/adairedHelp/Continuous Optimization.png';
-import adairedHelp_15 from '../../../../../../public/assets/adairedHelp/Complete SEO Expertise.png';
-import adairedHelp_16 from '../../../../../../public/assets/adairedHelp/Client-Centric.png';
+import adairedHelp_7 from '../../../../../../public/assets/adairedHelp/adairedSEO2.png';
+import adairedHelp_8 from '../../../../../../public/assets/adairedHelp/adairedSEO3.png';
+import adairedHelp_12 from '../../../../../../public/assets/adairedHelp/adairedSEO6.png';
+import adairedHelp_13 from '../../../../../../public/assets/adairedHelp/adairedSEO5.png';
+import adairedHelp_14 from '../../../../../../public/assets/adairedHelp/adairedSEO7.png';
+import adairedHelp_15 from '../../../../../../public/assets/adairedHelp/adairedSEO4.png';
+import adairedHelp_16 from '../../../../../../public/assets/adairedHelp/adairedSEO8.png';
 
 import seo_resultIcon_1 from '../../../../../../public/assets/seo/seo_resultIcon_1.svg';
 import seo_resultIcon_2 from '../../../../../../public/assets/seo/seo_resultIcon_2.svg';
@@ -1482,7 +1482,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_5,
+          img: adairedHelp_8,
           name: 'SEO Focused on Real Business Growth',
           description: [
             'We don’t focus only on rankings. SEO at Adaired is meant to deliver actual performance, increased traffic, improved leads, and increased conversions. ',

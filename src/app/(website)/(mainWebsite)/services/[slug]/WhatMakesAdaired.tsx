@@ -35,9 +35,8 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
                 style={{
                   transitionDelay: `${idx * 120}ms`,
                 }}
-                className={`mt-[2rem] flex flex-col justify-between gap-10 rounded-[20px] p-[2rem] transition-all duration-700 lg:flex-row lg:gap-0 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${
-                  shouldUseOrange ? 'bg-[#FB9100]/5' : 'bg-[#F9F9F9]'
-                }`}
+                className={`mt-[2rem] flex flex-col justify-between gap-10 rounded-[20px] p-[2rem] transition-all duration-700 lg:flex-row lg:gap-0 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${shouldUseOrange ? 'bg-[#FB9100]/5' : 'bg-[#F9F9F9]'
+                  }`}
               >
                 <div className="order-2 my-auto w-[100%] lg:order-1 lg:w-[50%]">
                   <h3>{item?.name}</h3>
@@ -47,8 +46,11 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
                     })}
                   </div>
                 </div>
-                <div className="order-1 flex w-[100%] justify-center justify-items-center lg:order-2 lg:w-[40%] lg:justify-end lg:justify-items-end">
-                  <Image src={item?.img} alt="if" className="" />
+                <div className={`order-1 flex w-[100%] justify-center justify-items-center rounded-[20px] p-4 lg:order-2 lg:w-[40%] lg:justify-end lg:justify-items-end ${shouldUseOrange ? 'bg-[#FFF2DF]' : 'bg-[#F3F3F3]'
+                  }`}>
+                  <div className='relative w-[525px] h-[334px] p-4'>
+                    <Image src={item?.img} alt="if" fill className="object-contain" />
+                  </div>
                 </div>
               </div>
 
