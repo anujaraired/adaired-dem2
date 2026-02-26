@@ -112,7 +112,7 @@ const IndustriesWeWorkWith = ({ industriesWeWorkWith }: any) => {
                                                 />
                                                 <div className='absolute bottom-[2rem] left-0 w-full px-6 py-3 flex justify-between items-center bg-white text-center'>
 
-                                                    <p className='font-bold'>
+                                                    <p className='font-bold text-left'>
                                                         {item?.btn}
                                                     </p>
 
