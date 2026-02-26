@@ -847,7 +847,7 @@ const Banner = ({ banner }: any) => {
               </div>
             )}
             {banner?.code === '10' && (
-              <div className="relative z-10 block justify-between py-[3rem] lg:flex lg:py-[4rem]">
+              <div className="relative z-10 block justify-between lg:flex lg:gap-[2rem] pt-[4rem] lg:pt-[6rem] lg:pb-[4rem]">
                 <div
                   className={`my-auto w-[100%] space-y-5 transition-all duration-1000 lg:w-[53%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
                 >
@@ -913,6 +913,7 @@ const Banner = ({ banner }: any) => {
                     />
                   </div>
                 </div>
+                
                 <div className="py-[3rem]">
                   <Image
                     src={banner?.bgImg}
