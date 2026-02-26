@@ -523,8 +523,6 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '01',
       heading: 'What’s Included in Our SEO Services',
-      button: 'Get Your Free SEO Audit',
-      btnColor: '#1A5A96',
 
       list: [
         {
@@ -534,6 +532,8 @@ export const SERVICES_DATA = {
             `We start the process by conducting a comprehensive keyword research. It helps determine the search terms that users input in search engines when looking for related information, products, or services.`,
             `Our effective SEO strategy consists of proper keyword research to match the content of the websites with what the users are actively searching for.`,
           ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',
         },
         {
           icon: seo_tool_1,
@@ -542,6 +542,8 @@ export const SERVICES_DATA = {
             `Our focus on On-page SEO optimization is to improve search visibility. This involves optimization of page names, meta descriptions, headings, URLs, internal links, and content structure.`,
             `On-page optimization helps search engines to understand the relevance of the pages while enhancing readability and user experience, making the content easy to access, arranged and in accordance with the targeted keywords.`,
           ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',   
         },
         {
           icon: seo_tool_2,
@@ -550,6 +552,8 @@ export const SERVICES_DATA = {
             `In Technical SEO, we address the backend elements of a website that affect search engine crawling and indexing. This involves site speed improvement, mobile friendliness, HTTPS configuration, XML sitemaps, and crawl errors remedies.`,
             `Technical optimization ensures search engines can efficiently access and understand the site effectively, and this is what is necessary to maintain the same ranking level.`,
           ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',    
         },
         {
           icon: seo_tool_4,
@@ -558,6 +562,8 @@ export const SERVICES_DATA = {
             `In content optimization, we improve existing content and create new, relevant content based on SEO insights. This is done to ensure that the content is informative, keyword-compatible, user and search engine friendly.`,
             `High-quality content supports better engagement, increased page views, and stronger relevance signals, helping websites perform more effectively in search results.`,
           ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',      
         },
         {
           icon: seo_tool_5,
@@ -566,6 +572,8 @@ export const SERVICES_DATA = {
             `In link building, we focus on earning high-quality backlinks from relevant and trustworthy websites. These links are indicators of credibility and authority to search engines.`,
             ` Ethical link-building practices help strengthen a website’s domain authority over time,  improving its ability to rank competitively while maintaining compliance with search engine guidelines.`,
           ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',      
         },
         {
           icon: seo_tool_6,
@@ -574,6 +582,8 @@ export const SERVICES_DATA = {
             `We track keyword rankings, organic traffic, user behavior, and technical performance in SEO monitoring. Regular reporting gives an idea of what works and where it should be improved.`,
             `The ongoing analysis helps refine SEO strategies, keeping up with the changes in the algorithms, and ensuring long-term effectiveness through data-driven optimization efforts.`,
           ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',      
         },
       ],
     },
@@ -1513,7 +1523,6 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '01',
       breakIndex: 7,
-      button: 'Get Your Free AI SEO Audit',
       heading:
         'AI SEO Solutions That Make Your Website Trusted by AI and Humans',
       description:
@@ -1526,8 +1535,7 @@ export const SERVICES_DATA = {
             `We provide ChatGPT SEO solutions made to be AI discoverable. We ensure your content appears as a reliable, cited, and recommended source in the search results produced by the AI.`,
             `Our strategy ensures cross-industry visibility, drives high-intent user engagement, and positions your content high in the AI search.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#74AA9C',
         },
 
@@ -1538,8 +1546,7 @@ export const SERVICES_DATA = {
             `Our Perplexity AI SEO service integrates the basics of SEO with answer-engine formatting to optimize your content for recognition, trust, and visibility with AI search engines. 
             Through the combination of structured responses and content accessible to the AI, we enhance authority, engagement, and discoverability. This helps your brand appear in high-intent searches in the AI-based search results.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#20808D',
         },
 
@@ -1550,8 +1557,7 @@ export const SERVICES_DATA = {
             `Our Gemini AI SEO services combine traditional SEO best practices with AI-first page structuring to make your content easily discoverable, cited, and trusted in Google's AI-powered Gemini search results.
             We ensure that your pages stand out as authoritative answers, boosting visibility, credibility, and user engagement in an increasingly AI-powered search landscape.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#2B99DE',
         },
 
@@ -1562,8 +1568,7 @@ export const SERVICES_DATA = {
             `Our Grok AI SEO helps to increase AI visibility, ensuring that insights are clear, authoritative, and easily discovered by Grok.
              With the help of our strategies, your brand gains citation, trust, and recognition, gaining authority in your industry and maximizing content to provide answers using AI, high-intent traffic, and meaningful engagement.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#000000',
         },
 
@@ -1574,8 +1579,7 @@ export const SERVICES_DATA = {
             `Being one of the leaders in Answer Engine Optimization, Adaired integrates search engine AI with SEO best practices to ensure your site is answerable on ChatGPT, Gemini, and Perplexity.
             We optimize content structure and relevance so that your pages gain recognition, credibility, and are continually surfaced by the AI-based search engines.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#1F66BE',
         },
 
@@ -1586,8 +1590,7 @@ export const SERVICES_DATA = {
             `Our Generative Engine Optimization services combine the basics of SEO with answer-based structuring, so that your content is easily found, cited, and surfaced by Gemini, Claude, and other AI engines.
             We position your brand as an authoritative source, boosting your visibility, trust, and engagement on AI-driven search engines, and optimize content to high-intent user search queries.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#5F52B1', 
         },
       ],
@@ -2074,8 +2077,8 @@ brand appears in AI summaries and citations.`,
             `Adaired’s citation-building service helps businesses establish consistent and accurate listings across trusted online directories. We make sure your business name, address, and phone number are consistent, which increases your local search visibility and credibility.`,
             `Powerful citations will boost the ranking of maps, increase brand awareness, and assist your customers in locating your business easily.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
+          btnColor: '#1A5A96',    
         },
 
         {
@@ -2085,8 +2088,8 @@ brand appears in AI summaries and citations.`,
             `We ensure quality placements on niche-specific blogs and publications with our guest posting. All the posts are value-based and have natural backlinks that enhance your domain authority.`,
             `Our attention is on the authentic outreach and editorial quality, which assist your brand in becoming visible, getting referral traffic, and achieving a sustainable change in SEO.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
+          btnColor: '#1A5A96',
         },
 
         {
@@ -2096,7 +2099,8 @@ brand appears in AI summaries and citations.`,
             `Adaired creates and distributes SEO-optimized press releases that amplify the news of your brand in the authoritative media. The service contributes to the creation of backlinks, spreading brand awareness, and creating targeted attention.`,
             `We professionally write our press releases to achieve credibility, reach, and measurable impact on your online presence.`,
           ],
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
+          btnColor: '#1A5A96',
         },
 
         {
@@ -2106,7 +2110,8 @@ brand appears in AI summaries and citations.`,
             `Our niche edit business establishes contextual backlinks on existing, old content on related sites. These links are natural and authoritative, and they convey good SEO value to your site.`,
             `Niche edits achieve better ranking and long-term link equity because they can be used to promote the existing page with its existing traffic and trust.`,
           ],
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
+          btnColor: '#1A5A96',
         },
 
         {
@@ -2116,11 +2121,10 @@ brand appears in AI summaries and citations.`,
             `Our article link building services involve creating, publishing and promoting high-quality content on relevant websites to earn backlinks, increase domain authority and boost search engine rankings. All these techniques serve as 'votes of confidence', signalling to search engines that your content is valuable, which increases page authority and rankings.`,
             `Consistent, high-quality links establish your website as a trusted, authoritative source in your niche.`,
           ],
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
+          btnColor: '#1A5A96',
         },
       ],
-      button: 'Get Your Free AI SEO Audit',
-      btnColor: '#1A5A96',
     },
 
     serviceResult: {
