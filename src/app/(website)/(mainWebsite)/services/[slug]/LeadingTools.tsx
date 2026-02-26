@@ -76,7 +76,7 @@ const LeadingTools = ({ leadingTools }: any) => {
         </div>*/}
 
         {leadingTools?.isVariant === '01' && (
-          <div className="grid grid-cols-2 gap-4 pt-[1rem] sm:grid-cols-3 lg:grid-cols-7">
+          <div className="flex w-max animate-marquee gap-2 sm:gap-3 lg:gap-[2rem]">
             {leadingTools?.list?.map((leadingTools: any, idx: number) => (
               <div
                 key={idx}
