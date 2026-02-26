@@ -57,9 +57,9 @@ import adairedHelp_14 from '../../../../../../public/assets/adairedHelp/Continuo
 import adairedHelp_15 from '../../../../../../public/assets/adairedHelp/Complete SEO Expertise.png';
 import adairedHelp_16 from '../../../../../../public/assets/adairedHelp/Client-Centric.png';
 
-import seo_resultIcon_1 from '../../../../../../public/assets/seo/strategy (2) 1.svg';
-import seo_resultIcon_2 from '../../../../../../public/assets/seo/Group 1000005912 (1).svg';
-import seo_resultIcon_3 from '../../../../../../public/assets/seo/Group 1000005915.svg';
+import seo_resultIcon_1 from '../../../../../../public/assets/seo/seo_resultIcon_1.svg';
+import seo_resultIcon_2 from '../../../../../../public/assets/seo/seo_resultIcon_2.svg';
+import seo_resultIcon_3 from '../../../../../../public/assets/seo/seo_resultIcon_3.svg';
 
 import adairedHelp_icon_1 from '../../../../../../public/assets/adairedHelp/help_icon_1.svg';
 import adairedHelp_icon_2 from '../../../../../../public/assets/adairedHelp/help_icon_2.svg';
@@ -495,8 +495,9 @@ export const SERVICES_DATA = {
       heading: '',
       list: [],
     },
+
     whyAdaired: {
-      isVisible: true,
+      isVisible: false,
       heading: 'Why Partner With Adaired Digital Media to Hire SEO Services?',
       data: [
         {
@@ -635,12 +636,13 @@ export const SERVICES_DATA = {
     },
     serviceResult: {
       isVisible: true,
-      isVariant: '01',
+      isVariant: '04',
       heading: 'Why Partner With Adaired Digital Media to Hire SEO Services?',
       bgImage: '',
       img: StrugglingImgSEO,
       description: [
-        'Adaired, a leading SEO agency, puts your business at the forefront of technology with the help of proven SEO strategies. We help your business stay visible, no matter how the search changes.',
+        `Adaired, a leading SEO agency, puts your business at the forefront of technology with the help of proven SEO strategies. 
+        We help your business stay visible, no matter how the search changes.`,
         `With the help of our data-driven insights, strategic approach, and commitment to performance, we help your business emerge as a premier seo company.`,
       ],
       isBgColor: true,
@@ -649,33 +651,29 @@ export const SERVICES_DATA = {
           img: seo_resultIcon_1,
           name: 'Tailored SEO Strategies',
           description: [
-            `At Adaired, we offer tailored SEO strategies that match your business goals and objectives. With the help of our comprehensive approach, we uncover valuable insights to enhance your website's performance and drive strategic growth for your business. 
-`,
+            `At Adaired, we offer tailored SEO strategies that match your business goals and objectives.`, 
+            `With the help of our comprehensive approach, we uncover valuable insights to enhance your website's performance and drive strategic growth for your business.`,
           ],
         },
         {
           img: seo_resultIcon_2,
           name: 'Transparent Reporting',
           description: [
-            `We believe in building long-term relationships with our clients. This is why we use advanced digital marketing tools such as Ahrefs, Yoast, BuzzSumo, Hootsuite, and more to create result-driven strategies, track real-time results, and drive long-term revenue for our clients. Our search engine optimization strategy services are built on a structured, analytical approach that strengthens visibility, improves relevance, and supports long-term growth. `,
+            `We believe in building long-term relationships with our clients.`, 
+            `This is why we use advanced digital marketing tools such as Ahrefs, Yoast, BuzzSumo, Hootsuite, and more to create result-driven strategies, track real-time results, 
+            and drive long-term revenue for our clients.`, 
+            `Our search engine optimization strategy services are built on a structured, analytical approach that strengthens visibility, improves relevance, and supports long-term growth.`,
           ],
         },
         {
           img: seo_resultIcon_3,
           name: 'Sustainable White-Hat Practices',
           description: [
-            `Delivering quality work to our clients has become our USP over the years. We work with a laser-sharp focus to generate organic traffic, conversions, and improve technical site health. Our approach to search engine optimization is deep-rooted in advanced keyword research, SEO audits, market gap analysis, and data-driven strategies to meet your goals.  We address all the aspects of search engine optimization, right from on-page optimization to link building, ensuring that your digital presence is robust and sustainable. 
-`,
+            `Delivering quality work to our clients has become our USP over the years. We work with a laser-sharp focus to generate organic traffic, conversions, and improve technical site health.`, 
+            `Our approach to search engine optimization is deep-rooted in advanced keyword research, SEO audits, market gap analysis, and data-driven strategies to meet your goals.`,
+            `We address all the aspects of search engine optimization, right from on-page optimization to link building, ensuring that your digital presence is robust and sustainable.`,
           ],
         },
-        // {
-        //   img: aiseoresult,
-        //   name: 'You’re Making SEO Decisions Without Real Data',
-        //   description: [
-        //     'Most companies are dependent on guesswork or past reports. It is difficult to discover what works and what does not without insights provided by AI. This leads to wasted effort, slow growth, and missed opportunities while competitors move ahead faster.',
-        //     ``,
-        //   ],
-        // },
       ],
     },
     notSeeingResult: {
@@ -5875,7 +5873,7 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: true,
-      code: '07',
+      code: '10',
       img: whiteServicesKeyStatsImg,
       heading: 'Why Choose White-Label Delivery',
       bgColor: '#FB9100',
