@@ -9846,49 +9846,39 @@ brand appears in AI summaries and citations.`,
       },
     },
     banner: {
-      code: '08',
+      code: '07',
       isCenter: false,
       isVisible: true,
-      heading: 'Authority with High-Quality Backlinks',
+      heading: 'Scalable Growth',
       subheading: '',
       subtitle: '',
-      label: 'Build Your Client’s Online',
+      label: 'SaaS SEO Services That Drive',
       desc: [
-        `Strengthen your clients’ SEO strategy with expert white-label link-building services designed for agencies that want to scale without increasing overhead.`,
-        `At Adaired Digital Media, white-label backlinks are built through ethical outreach, high-authority guest posting, and strategic placements that enhance domain authority, improve rankings, 
-        and drive measurable organic growth, all under your brand name.`,
+        `Stop chasing traffic that doesn’t convert. 
+        We build SaaS SEO systems that generate qualified demos, lower CAC, and turn organic search into a predictable revenue channel.`,
       ],
-      button: 'Boost My SEO Rankings',
+      button: 'Book a 30-Minute Strategy Call',
       width: '20rem',
       widthLg: '30rem',
-      bgImg: whiteLinkBuildingBannerBg,
+      bgImg: saasSeoBannerBg,
     },
 
     whatareservice: {
       isVisible: true,
-      isVariant: '07',
-      img: whiteLinkBuildingWhatIsImg,
-      heading: 'What is White',
-      span: 'Label Link Building?',
+      isVariant: '10',
+      img: saasSeoWhatIsImg,
+      heading: 'Adaired Digital: A Dedicated B2B SaaS SEO Agency',
+      span: '',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [
         {
-          desctioption: `White label link building is a fulfillment partnership model where a specialized SEO provider builds high-quality backlinks for your clients, 
-          while you present the service entirely under your own brand.`,
+          desctioption: `Helping B2B SaaS companies build predictable organic growth engines that increase MRR, generate qualified demos, 
+          and scale recurring revenue through data-driven SEO strategies tailored specifically for subscription-based software businesses.`,
         },
         {
-          desctioption: `Instead of hiring an in-house outreach team, content writers, and link acquisition specialists, you can outsource link-building services 
-          to an expert white label link-building company like us to handle the complete backlink building process, from strategy and outreach to content creation and reporting. 
-          Your clients see only your brand, your communication, and your results.`
-        },
-        {
-          desctioption: `In short:`,
-          list: [
-            `1. You sell the service.`,
-            `2. We execute it.`,
-            `3. You keep the credit and the profit margin.`
-          ]
+          desctioption: `With a focus on performance, analytics, and long-term value creation, 
+          we build SEO systems that grow alongside your product, sales team, and expansion strategy.`
         },
       ],
       button: '',
@@ -9898,31 +9888,38 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       bgColor: false,
       isInCenter: true,
-      heading: 'How Does White Label PPC Work?',
+      button: 'Dominate Search Results!',
+      heading: 'Why SEO is Important for B2B SaaS Companies',
       description: [
-        `The process is simple and scalable:`,
+        `The data is clear: SEO is not optional for SaaS growth.`,
       ],
       list: [
         {
-          icon: whitePaidAdsMissing_1,
-          title: 'You Acquire the Client',
+          icon: saasSeoMissing_1,
+          title: '',
           description: [
-            `Your agency sells PPC services as part of your marketing solutions and manages communication with the client.`,
+            `Research shows that 66% of B2B SaaS buyers rely on search engines to evaluate and compare solutions before making a purchase decision. (Statista)`,
           ],
         },
         {
-          icon: whitePaidAdsMissing_2,
-          title: 'We Build & Manage the Campaigns',
+          icon: saasSeoMissing_1,
+          title: '',
           description: [
-            `Our PPC experts handle keyword research, competitor analysis, campaign structure, ad copy creation, conversion tracking, bid optimization, 
-            and ongoing performance management.`,
+            `SEO not only improves SaaS rankings in SERPs but also increases visibility in emerging AI-powered search features and overviews, expanding brand exposure. (Forbes)`,
           ],
         },
         {
-          icon: whitePaidAdsMissing_3,
-          title: 'You Deliver Results Under Your Brand',
+          icon: saasSeoMissing_1,
+          title: '',
           description: [
-            `We provide detailed performance reports and insights, fully aligned with your branding. Your client sees results, and your agency gets the credit.`,
+            `Data reveals that 70% of SaaS companies believe SEO generates stronger long-term sales results compared to PPC advertising. (Databox)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Organic search contributes 14.3% of total leads for SaaS businesses, making SEO one of the most consistent acquisition channels. (Sixth City Marketing)`,
           ],
         },
       ],
