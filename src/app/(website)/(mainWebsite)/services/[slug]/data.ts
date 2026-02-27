@@ -295,6 +295,30 @@ import whiteLinkBuildingImpIcon_4 from '../../../../../../public/assets/whitelab
 import whiteLinkBuildingImpIcon_5 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_5.png';
 import whiteLinkBuildingImpIcon_6 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_6.png';
 
+// SAAS Seo Images
+import saasSeoBannerBg from '../../../../../../public/assets/saasSeo/saasSeoBannerBg.png';
+import saasSeoWhatIsImg from '../../../../../../public/assets/saasSeo/saasSeoWhatIsImg.png';
+import saasSeoAdairedHelpImg from '../../../../../../public/assets/saasSeo/saasSeoAdairedHelpImg.png';
+import saasSeoBuildLinkImg from '../../../../../../public/assets/saasSeo/saasSeoBuildLinkImg.png';
+import saasSeoBuildLinkBg from '../../../../../../public/assets/saasSeo/saasSeoBuildLinkBg.png';
+
+import saasSeoMissing_1 from '../../../../../../public/assets/saasSeo/saasSeoMissing_1.png';
+
+import saasSeoImpIcon_1 from '../../../../../../public/assets/saasSeo/saasSeoImpIcon_1.png';
+import saasSeoImpIcon_2 from '../../../../../../public/assets/saasSeo/saasSeoImpIcon_2.png';
+import saasSeoImpIcon_3 from '../../../../../../public/assets/saasSeo/saasSeoImpIcon_3.png';
+import saasSeoImpIcon_4 from '../../../../../../public/assets/saasSeo/saasSeoImpIcon_4.png';
+import saasSeoImpIcon_5 from '../../../../../../public/assets/saasSeo/saasSeoImpIcon_5.png';
+import saasSeoImpIcon_6 from '../../../../../../public/assets/saasSeo/saasSeoImpIcon_6.png';
+
+import saasSeoWhatMkDiffImg_1 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_1.png';
+import saasSeoWhatMkDiffImg_2 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_2.png';
+import saasSeoWhatMkDiffImg_3 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_3.png';
+import saasSeoWhatMkDiffImg_4 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_4.png';
+import saasSeoWhatMkDiffImg_5 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_5.png';
+import saasSeoWhatMkDiffImg_6 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_6.png';
+
+
 export type SectionKey =
   | 'banner'
   | 'getsCredit'
@@ -669,7 +693,7 @@ export const SERVICES_DATA = {
           img: seo_resultIcon_1,
           name: 'Tailored SEO Strategies',
           description: [
-            `At Adaired, we offer tailored SEO strategies that match your business goals and objectives.`, 
+            `At Adaired, we offer tailored SEO strategies that match your business goals and objectives.`,
             `With the help of our comprehensive approach, we uncover valuable insights to enhance your website's performance and drive strategic growth for your business.`,
           ],
         },
@@ -677,9 +701,9 @@ export const SERVICES_DATA = {
           img: seo_resultIcon_2,
           name: 'Transparent Reporting',
           description: [
-            `We believe in building long-term relationships with our clients.`, 
+            `We believe in building long-term relationships with our clients.`,
             `This is why we use advanced digital marketing tools such as Ahrefs, Yoast, BuzzSumo, Hootsuite, and more to create result-driven strategies, track real-time results, 
-            and drive long-term revenue for our clients.`, 
+            and drive long-term revenue for our clients.`,
             `Our search engine optimization strategy services are built on a structured, analytical approach that strengthens visibility, improves relevance, and supports long-term growth.`,
           ],
         },
@@ -687,7 +711,7 @@ export const SERVICES_DATA = {
           img: seo_resultIcon_3,
           name: 'Sustainable White-Hat Practices',
           description: [
-            `Delivering quality work to our clients has become our USP over the years. We work with a laser-sharp focus to generate organic traffic, conversions, and improve technical site health.`, 
+            `Delivering quality work to our clients has become our USP over the years. We work with a laser-sharp focus to generate organic traffic, conversions, and improve technical site health.`,
             `Our approach to search engine optimization is deep-rooted in advanced keyword research, SEO audits, market gap analysis, and data-driven strategies to meet your goals.`,
             `We address all the aspects of search engine optimization, right from on-page optimization to link building, ensuring that your digital presence is robust and sustainable.`,
           ],
@@ -8106,7 +8130,7 @@ brand appears in AI summaries and citations.`,
     importantToBussiness: {
       isVisible: true,
       breakIndex: 4,
-      isVariant: '03',
+      isVariant: '01',
       heading: 'Our White Label PPC Management Services',
       description: [
         `At Adaired Digital Media, we provide comprehensive white-label PPC Management Services designed to help agencies deliver high-performance paid advertising under their own brand. 
@@ -8909,7 +8933,6 @@ brand appears in AI summaries and citations.`,
       bgImage: LocalNotSeeBg,
     },
   },
-
   'white-label-link-building': {
     sectionsOrder: [
       'banner',
@@ -9105,7 +9128,7 @@ brand appears in AI summaries and citations.`,
     importantToBussiness: {
       isVisible: true,
       breakIndex: 5,
-      isVariant: '03',
+      isVariant: '01',
       heading: 'Our White Label Link Building Services',
       description: [
         `At Adaired, we don’t just build links; we engineer authority ecosystems for your clients. 
@@ -9412,6 +9435,964 @@ brand appears in AI summaries and citations.`,
           title: 'You Deliver Results Under Your Brand',
           description: [
             `We provide detailed performance reports and insights, fully aligned with your branding. Your client sees results, and your agency gets the credit.`,
+          ],
+        },
+      ],
+    },
+
+    dataInTable: {
+      isVisible: false,
+      isInCenter: false,
+      isBgWhite: false,
+      isVariant: '01',
+      heading: 'White-Label PPC Agency vs In-house PPC Team: What Should You Do?',
+      description:
+        [`As your agency grows, you’ll eventually face a critical decision:`,
+          `Should you build an in-house PPC team or partner with a white-label PPC agency?`,
+          `Both options have advantages, but the right choice depends on your growth goals, budget, and operational capacity. Let’s differentiate them:`
+        ],
+      data: [
+        {
+          desctioption: `Factor`,
+          list: [
+            {
+              description: [`Upfront Cost`],
+            },
+            {
+              description: [`Time to Launch`],
+            },
+            {
+              description: [`Expertise Level`],
+            },
+            {
+              description: [`Scalability`],
+            },
+            {
+              description: [`Operational Overhead`],
+            },
+            {
+              description: [`Risk`],
+            },
+            {
+              description: [`Flexibility`],
+            },
+            {
+              description: [`Brand Control`],
+            },
+            {
+              description: [`Focus`],
+            },
+          ],
+        },
+        {
+          desctioption: `White-Label PPC Agency`,
+          list: [
+            {
+              description: [
+                `Low or no hiring or training costs`,
+              ],
+            },
+            {
+              description: [`Fast campaigns can launch within days`],
+            },
+            {
+              description: [`Access to experienced PPC specialists`],
+            },
+            {
+              description: [`Easily scalable as clients grow`],
+            },
+            {
+              description: [
+                `Minimal management required`,
+              ],
+            },
+            {
+              description: [`Low or no employee turnover risk`],
+            },
+            {
+              description: [`Pay for what you need`],
+            },
+            {
+              description: [
+                `Fully white-labeled under your agency`,
+              ],
+            },
+            {
+              description: [`You focus on sales & client relationships`],
+            },
+          ],
+        },
+        {
+          desctioption: `In-House PPC Team`,
+          list: [
+            {
+              description: [
+                `High Salaries, benefits, and recruitment expenses`,
+              ],
+            },
+            {
+              description: [
+                `Slow hiring & onboarding can take months`,
+              ],
+            },
+            {
+              description: [
+                `Depends on who you hire`,
+              ],
+            },
+            {
+              description: [`Limited by team capacity`],
+            },
+            {
+              description: [
+                `Ongoing supervision & HR management`,
+              ],
+            },
+            {
+              description: [`High staff turnover disrupts service`],
+            },
+            {
+              description: [
+                `Fixed payroll regardless of workload`,
+              ],
+            },
+            {
+              description: [`Fully internal control`],
+            },
+            {
+              description: [`You manage both sales and team operations`],
+            },
+          ],
+        },
+      ],
+    },
+
+    whatIncluded: {
+      isVisible: false,
+      isVariant: '03',
+      breakIndex: 3,
+      heading: 'White-Label Services We Provide',
+      description: [
+        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
+        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
+      ],
+      list: [
+        {
+          icon: whiteServicesIncluded_1,
+          title: 'White-Label SEO',
+          description: [
+            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
+            We handle research, optimization, technical improvements, 
+            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
+            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_2,
+          title: 'White-Label Social Media Management',
+          description: [
+            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
+            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
+            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_3,
+          title: 'White-Label Pay-Per-Click Ads',
+          description: [
+            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
+            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
+            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_4,
+          title: 'White-Label Link Building',
+          description: [
+            `Link building requires consistent outreach and quality control. 
+            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
+            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_5,
+          title: 'White-Label Web Design and Development',
+          description: [
+            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
+            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
+            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
+            and timelines, all without having to manage in-house design or development teams.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_6,
+          title: 'White-Label Application Development',
+          description: [
+            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
+            We assist with application planning, development, integration, testing, and platform-wide updates.`,
+            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+      ],
+    },
+
+    needofservice: {
+      isVisible: false,
+      isVariant: '04',
+      isBgCornerImg: true,
+      heading: 'How White Label SEO Works for Agencies',
+      data: [
+        {
+          desctioption: `White label SEO seeks to separate client ownership and service delivery. 
+          The agency remains the primary point of contact, but SEO fulfillment is handled externally.`,
+        },
+        {
+          desctioption: `Client acquisition, onboarding, and relationship management are handled entirely by the agency. 
+          The client receives SEO services directly from the agency they hired.`,
+        },
+        {
+          desctioption: `At Adaired, as a leading white-label SEO company, we do SEO execution, including research, optimization, 
+          and ongoing maintenance, which takes place quietly in the background. 
+          This allows agencies to provide SEO services without expanding their internal teams or infrastructure.`,
+        },
+        {
+          desctioption: `Furthermore, we ensure that all reporting, documentation, and performance updates are delivered using the agency's branding. 
+          Communication follows the agency's processes, ensuring continuity and brand integrity.`,
+        },
+      ],
+    },
+
+    serviceResult: {
+      isVisible: false,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
+      heading: 'Common White Label SEO Use Cases',
+      isVariant: '03',
+      description: [
+        `Outsourcing SEO services is used across different types of agencies and service providers, 
+        primarily as a way to support ongoing search optimization without expanding internal teams. 
+        The following use cases reflect common operational scenarios:`,
+      ],
+      isBgColor: true,
+      img: WhiteSeoServiceResultImg,
+      list: [
+        {
+          img: whiteSeoResult_1,
+          name: 'Web Design Agencies Adding SEO Retainers',
+          description: [
+            `Web design agencies often introduce SEO as a recurring service after a website launch. 
+            White label SEO allows these agencies to offer ongoing optimization, monitoring, and reporting without building a dedicated SEO department.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_2,
+          name: 'PPC Agencies Expanding into Organic Search',
+          description: [
+            `Paid media agencies frequently complement pay-per-click services with organic search offerings. 
+            White label SEO enables PPC-focused teams to support long-term visibility and traffic growth alongside paid campaigns.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_3,
+          name: 'Consultants Supporting Long-Term SEO Clients',
+          description: [
+            `Independent consultants and marketing advisors may use white-label SEO to fulfill execution-heavy tasks while remaining focused on strategy and client management. 
+            This model supports continuity for clients requiring ongoing optimization.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_4,
+          name: 'Multi-Location or Franchise SEO Support',
+          description: [
+            `Businesses operating across multiple locations often require scalable and standardized SEO execution. 
+            White label SEO supports consistent optimization, reporting, and performance tracking across regions while maintaining centralized brand control.`,
+          ],
+        },
+      ],
+    },
+
+    getsCredit: {
+      isVisible: false,
+      code: '01',
+      heading: 'You Sell. We Execute. Your Brand Gets the Credit.',
+      isCard: false,
+      list: [
+        {
+          description: [`SEO audits & strategy`],
+        },
+        {
+          description: [`Ongoing optimization`],
+        },
+        {
+          description: [`100% brand-safe delivery`],
+        },
+        {
+          description: [`Rank tracking & white-label reporting`],
+        },
+      ],
+    },
+
+    leadingTools: {
+      isVisible: false,
+      isVariant: '01',
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+      list: [
+      ]
+    },
+
+    getplan: {
+      isVisible: false,
+      isLabel: false,
+      subtitle: '',
+      bgImage: stop_struggle2,
+      title: 'Stop Guessing Start Acting ',
+      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+
+    stopStruggling: {
+      isVisible: false,
+      isCenter: true,
+      subtitle: '',
+      title: '',
+      description: [
+        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
+      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
+      ],
+      button: '',
+      bgImg: whiteStruggleBg,
+      isHoverBgBlue: true,
+    },
+
+    benefitofAiSeo: {
+      isVisible: false,
+      bgColor: 'bg-[#FAFAFA]',
+      textColor: '#000000',
+      textBg: '#EEEEEE',
+      borderColor: '#00000014',
+      heading: 'Benefits of Website Design and Development Services',
+      description: [
+        `A business’s success is closely tied to the quality of its website. A professional web site can determine whether a visitor becomes a loyal customer or leaves for a competitor. Here are the key benefits:`,
+      ],
+      list: [
+        {
+          name: 'Creates a Strong First Impression',
+          description: [
+            `The potential customers often get in touch with you through your site. The first impression that a properly developed site leaves is positive and credible. 
+            The use of professional images, well-designed layouts, and navigation facilitate the development of trust within seconds after a visitor visits your site.`,
+          ],
+        },
+        {
+          name: 'Enhances User Experience',
+          description: [
+            `Effective website design is rooted in user experience. A visitor will find it easier to do business with a site that has easy navigation, attractive design, and is responsive to all devices. 
+            A well-organized site will ensure the users have an easy time navigating their way to heighten satisfaction and interest.`,
+          ],
+        },
+        {
+          name: 'Builds Trust and Credibility',
+          description: [
+            `Good website design is associated with the credibility and professionalism of a business. 
+            Features such as fast loading speeds, secure connections, consistent performance, and clear messaging reassure users that the company is reliable, established, and customer-focused.`,
+          ],
+        },
+        {
+          name: 'Improves Conversion Rates and ROI',
+          description: [
+            `A well-planned website is your effective conversion tool. 
+            An efficient design, simple calls to action, and information-driven design components motivate the visitor to make a substantial move like purchasing a product, joining a mailing list, or leaving an enquiry which will lead to an increase in the profit margin.`,
+          ],
+        },
+        {
+          name: 'Helps You Stand Out in a Competitive Market',
+          description: [
+            `The world of the Internet is very busy nowadays, so a generic site is not sufficient. 
+            A tailored site featuring unique images, effective branding, and engagement is useful to businesses to stand out, enhance their online presence, and create an impression.`,
+          ],
+        },
+      ],
+    },
+
+    industryLeaders: {
+      isVisible: false,
+      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      description:
+        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      bgImage: leadingToolsImg,
+    },
+
+    leadingToolsForPerformence: {
+      isVisible: false,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+
+    notSeeingResult: {
+      isVisible: false,
+      heading: ``,
+      description: '',
+      buttonName: '',
+      img: LocalNotSee,
+      bgImage: LocalNotSeeBg,
+    },
+  },
+  'saas-seo-india': {
+    sectionsOrder: [
+      'banner',
+      'whatareservice',
+      'whatMissing',
+      'importantToBussiness',
+      'ourProcess',
+      'adairedHelp',
+      'whatMkeDeferent',
+      'buildlinks',
+      'faqData',
+      'keyStats',
+      'dataInTable',
+      'whatIncluded',
+      'needofservice',
+      'serviceResult',
+      'getsCredit',
+      'readyToStart',
+      'stopStruggling',
+      'benefitofAiSeo',
+      'leadingToolsForPerformence',
+      'notSeeingResult',
+      'leadingTools',
+      'getplan',
+    ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/seo-company-india',
+      },
+    },
+    banner: {
+      code: '07',
+      isCenter: false,
+      isVisible: true,
+      heading: 'Scalable Growth',
+      subheading: '',
+      subtitle: '',
+      label: 'SaaS SEO Services That Drive',
+      desc: [
+        `Stop chasing traffic that doesn’t convert. 
+        We build SaaS SEO systems that generate qualified demos, lower CAC, and turn organic search into a predictable revenue channel.`,
+      ],
+      button: 'Book a 30-Minute Strategy Call',
+      width: '20rem',
+      widthLg: '30rem',
+      bgImg: saasSeoBannerBg,
+    },
+
+    whatareservice: {
+      isVisible: true,
+      isVariant: '10',
+      img: saasSeoWhatIsImg,
+      heading: 'Adaired Digital: A Dedicated B2B SaaS SEO Agency',
+      span: '',
+      bgColor: '#FFFCF8',
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `Helping B2B SaaS companies build predictable organic growth engines that increase MRR, generate qualified demos, 
+          and scale recurring revenue through data-driven SEO strategies tailored specifically for subscription-based software businesses.`,
+        },
+        {
+          desctioption: `With a focus on performance, analytics, and long-term value creation, 
+          we build SEO systems that grow alongside your product, sales team, and expansion strategy.`
+        },
+      ],
+      button: '',
+    },
+
+    whatMissing: {
+      isVisible: true,
+      bgColor: false,
+      isInCenter: true,
+      button: 'Dominate Search Results!',
+      heading: 'Why SEO is Important for B2B SaaS Companies',
+      description: [
+        `The data is clear: SEO is not optional for SaaS growth.`,
+      ],
+      list: [
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Research shows that 66% of B2B SaaS buyers rely on search engines to evaluate and compare solutions before making a purchase decision. (Statista)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `SEO not only improves SaaS rankings in SERPs but also increases visibility in emerging AI-powered search features and overviews, expanding brand exposure. (Forbes)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Data reveals that 70% of SaaS companies believe SEO generates stronger long-term sales results compared to PPC advertising. (Databox)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Organic search contributes 14.3% of total leads for SaaS businesses, making SEO one of the most consistent acquisition channels. (Sixth City Marketing)`,
+          ],
+        },
+      ],
+    },
+
+    importantToBussiness: {
+      isVisible: true,
+      breakIndex: 3,
+      isVariant: '01',
+      cardColor: '#F9F9F9',
+      heading: 'Comprehensive SaaS SEO Services',
+      description: [
+        `We deliver specialized SaaS SEO services designed to help subscription-based software companies attract high-intent buyers, increase demo bookings, 
+        and scale recurring revenue through sustainable organic growth.`,
+      ],
+      buttonName: 'Book a 30-Minute Strategy Call',
+      data: [
+        {
+          icon: saasSeoImpIcon_1,
+          name: 'Technical SaaS SEO Audits',
+          description: [
+            `SaaS websites are often complex, dynamic pages; product dashboards, subdomains, integrations, and layered site architecture can create hidden SEO issues that limit growth. 
+            Our technical SaaS SEO audits go beyond surface-level checks.`,
+            `We analyze crawlability, indexation, site structure, internal linking, page speed, Core Web Vitals, structured data, and technical bottlenecks that impact rankings. 
+            Then we prioritize fixes based on revenue impact, ensuring your platform is search-engine optimized, scalable, and technically sound for long-term growth.`,
+          ],
+          button: 'Book a 30-Minute Strategy Call',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: saasSeoImpIcon_2,
+          name: 'Product-Led Content Strategy',
+          description: [
+            `Your product should be the foundation of your SEO strategy. 
+            We develop product-led content frameworks that align directly with your features, use cases, and ideal customer profiles.`,
+            `Instead of publishing generic blog posts, we build high-intent landing pages, feature pages, comparison content, integration pages, 
+            and solution-based content that move prospects through the funnel.`,
+            `Every piece of content is strategically mapped to search intent and conversion goals, turning organic visibility into demos, trials, and paying customers.`,
+          ],
+          button: 'Book a 30-Minute Strategy Call',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: saasSeoImpIcon_3,
+          name: 'B2B SaaS Keyword Research',
+          description: [
+            `Effective SaaS SEO starts with understanding buyer intent. 
+            Our keyword research process focuses on identifying commercial and bottom-of-funnel search terms that directly impact pipeline growth.`,
+            `We analyze competitor rankings, industry-specific search patterns, long-tail opportunities, and high-value decision-stage keywords.`,
+            `Rather than chasing traffic volume, we prioritize keywords that align with your ICP, sales cycle, and revenue objectives, 
+            ensuring your organic strategy supports measurable business outcomes.`,
+          ],
+          button: 'Book a 30-Minute Strategy Call',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: saasSeoImpIcon_4,
+          name: 'Competitor & Alternative Pages',
+          description: [
+            `Decision-stage buyers frequently search for comparisons and alternatives before committing to a solution. 
+            We create optimized competitor comparisons and alternative pages designed to capture this high-intent traffic.`,
+            `These pages are strategically structured to rank, persuade, and convert, positioning your SaaS as the superior choice.`,
+            `By targeting “[Competitor] vs." and “[Competitor] alternatives” keywords, we help you intercept buyers actively evaluating options 
+            and increase your demo conversion rates.`,
+          ],
+          button: 'Book a 30-Minute Strategy Call',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: saasSeoImpIcon_5,
+          name: 'Link Acquisition for SaaS',
+          description: [
+            `In competitive SaaS markets, authority is critical. 
+            Our link acquisition strategy focuses on earning high-quality backlinks from relevant industry publications, SaaS communities, and authoritative domains.`,
+            `We prioritize contextual, value-driven placements that strengthen domain authority and improve ranking potential for competitive keywords.`,
+            `This approach enhances credibility, increases organic visibility, and supports sustainable long-term growth, without relying on risky or low-quality link tactics.`,
+          ],
+          button: 'Book a 30-Minute Strategy Call',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: saasSeoImpIcon_6,
+          name: 'Conversion Rate Optimization for Demo Pages',
+          description: [
+            `Driving traffic is only part of the equation; converting that traffic into demos and trials is where revenue happens.`,
+            `We optimize demo, trial, and signup pages through data-driven CRO strategies, including messaging refinement, CTA testing, UX improvements, trust signal integration, 
+            and behavioral analytics.`,
+            `By improving conversion rates, we help you generate more qualified opportunities from existing traffic, maximizing the ROI of your SEO investment.`,
+          ],
+          button: 'Book a 30-Minute Strategy Call',
+          btnColor: '#FB9100',
+        },
+      ],
+    },
+
+    ourProcess: {
+      isVisible: true,
+      subtitle: 'Our Process',
+      title: 'The Growth Framework Behind Our SaaS SEO',
+      span: '',
+      description: [
+        `We don’t guess. We build structured, revenue-aligned SEO systems designed specifically for SaaS growth.`,
+      ],
+      services: [
+        {
+          icon: step,
+          title: 'Deep Market & Competitor Research',
+          description: [
+            `Every successful SaaS SEO strategy begins with understanding your market. We analyze your category landscape, competitors, positioning, pricing model, and ICP behavior.`,
+            `We identify who dominates search results, where competitors are vulnerable, what high-intent gaps exist, and how buyers search at different stages.`,
+            `This ensures we build a strategy rooted in opportunity, not assumptions.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'Revenue-Focused Keyword Mapping',
+          description: [
+            `We map keywords to revenue, not just traffic. Our team identifies commercial, comparison, integration, and solution-based queries aligned with your sales funnel.`,
+            `Each keyword is assigned to a funnel stage, a landing page type, revenue potential, and conversion objective.`,
+            `The result? A keyword roadmap that supports predictable pipeline growth.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'Content & Technical Optimization',
+          description: [
+            `With strategy in place, we execute. We optimize your site architecture, internal linking, and technical foundation while building high-intent content assets designed to rank and convert. 
+            This includes feature pages, competitor pages, use-case landing pages, and supporting authority content.`,
+            `Everything is structured to improve rankings, engagement, demo conversions, and organic visibility.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'Authority & Link Building',
+          description: [
+            `In competitive SaaS niches, authority determines who wins. 
+            We implement strategic link acquisition campaigns that secure high-quality backlinks from relevant publications and SaaS-focused platforms.`,
+            `This strengthens domain authority, ranking potential, brand credibility, and long-term competitive positioning.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'Conversion & Performance Tracking',
+          description: [
+            `Traffic without conversions is a wasted opportunity.`,
+            `We continuously track rankings, demo submissions, trial signups, user behavior, and funnel metrics. Then we refine content, messaging, and CTAs.`,
+            `Our goal is simple: Turn organic visibility into measurable recurring revenue.`,
+          ],
+        },
+        {
+          icon: step,
+          title: 'Continuous Scaling & Growth Expansion',
+          description: [
+            `SEO is not a one-time campaign; it’s a long-term growth engine. Once initial traction is achieved, we shift from foundation-building to aggressive expansion and compounding scale.`,
+            `We aim to expand into high-intent keyword clusters, target adjacent industries, launch advanced use-case pages, scale competitor content, 
+            optimize underperforming pages for conversions, and leverage data insights to focus on revenue-driving topics.`,
+            `We continuously refine strategy based on performance metrics, search behavior shifts, and market trends, ensuring your SaaS keeps growing even as competition increases.`,
+          ],
+        },
+      ],
+    },
+
+    adairedHelp: {
+      isVisible: true,
+      breakIndex: 4,
+      img: saasSeoAdairedHelpImg,
+      isInCenter: false,
+      bgColor: '',
+      heading: `The Difference Between SaaS SEO and Standard SEO`,
+      description: [
+        `B2B SaaS SEO isn’t like traditional SEO. It requires a strategic, revenue-focused approach built around complex buyer journeys and long-term customer value.`
+      ],
+      mainImage: whiteServicesAdairedHelpImg,
+      list: [
+        {
+          img: '',
+          name: 'Long Sales Cycles',
+          description: [
+            `B2B SaaS purchases rarely happen overnight. Buyers research, compare, validate, and involve internal stakeholders before making a decision.`, 
+            `Your SEO strategy must support every stage of that journey, from early problem awareness to decision-ready comparison searches. 
+            That means building content ecosystems, not just ranking blog posts.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Multiple Decision-Makers',
+          description: [
+            `Unlike B2C, B2B SaaS buying decisions often involve founders, department heads, finance teams, and technical evaluators.`, 
+            `Each stakeholder searches differently. 
+            Your SEO strategy must address varied concerns, ROI, integrations, security, scalability, and implementation across multiple touchpoints.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Product-Led Growth',
+          description: [
+            `Modern SaaS companies rely heavily on product-led acquisition. 
+            Buyers want to understand features, use cases, integrations, and real-world applications before booking a demo.`, 
+            `SEO must support feature pages, solution pages, comparison pages, and bottom-of-funnel content that directly connects search intent with product value.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Enterprise-Level Intent',
+          description: [
+            `B2B SaaS keywords often represent high commercial intent and significant contract values.`, 
+            `Ranking for terms like “best [software category] platform” or “[competitor] alternative” can generate a pipeline worth thousands, or even millions, in annual contract value. 
+            Precision targeting is critical.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'High Lifetime Value (LTV) Customers',
+          description: [
+            `SaaS businesses operate on recurring revenue models. One organic conversion can translate into years of subscription revenue.`, 
+            `That makes SEO not just a traffic channel but a long-term revenue multiplier. 
+            The focus shifts from volume to quality and retention-driven acquisition.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Competitive & Saturated Markets',
+          description: [
+            `Most SaaS categories are highly competitive, with established brands dominating search results.`, 
+            `Winning requires more than basic optimization; it demands strategic content positioning, authority building, technical precision, and competitor-focused targeting. 
+            In saturated markets, smart SEO execution becomes a competitive advantage.`,
+          ],
+        },
+      ],
+    },
+
+    whatMkeDeferent: {
+      isVisible: true,
+      isVariant: '01',
+      breakIndex: 3,
+      heading: `Why Leading SaaS Brands Choose Adaired Digital`,
+      description: [
+        ``
+      ],
+      list: [
+        {
+          img: saasSeoWhatMkDiffImg_1,
+          name: 'SaaS-Only Focus',
+          description: [
+            `We work exclusively with B2B SaaS companies, not eCommerce brands, not local businesses, and not general service providers. That specialization matters. 
+            SaaS growth is driven by subscription economics, long-term retention, product adoption, and expansion revenue. 
+            We understand the nuances of CAC, LTV, churn sensitivity, pipeline velocity, and product-led growth models. 
+            Because SaaS is all we do, our strategies are built around how subscription businesses actually scale, not around outdated SEO tactics designed for one-time purchases.`,
+          ],
+        },
+        {
+          img: saasSeoWhatMkDiffImg_2,
+          name: 'Revenue-First Strategy',
+          description: [
+            `Traffic alone doesn’t grow a SaaS company; revenue does. 
+            Every keyword we target, every page we optimize, and every content asset we build is aligned with measurable business outcomes. 
+            We map search intent to funnel stages and revenue potential, ensuring your organic growth translates into demo requests, trial signups, and a qualified pipeline. 
+            Instead of chasing high-volume vanity terms, we prioritize high-intent opportunities that directly influence recurring revenue and long-term customer value.`,
+          ],
+        },
+        {
+          img: saasSeoWhatMkDiffImg_3,
+          name: 'No Generic SEO Playbooks',
+          description: [
+            `Most agencies rely on templated processes that look impressive but fail to deliver meaningful results in competitive SaaS markets. \
+            We don’t believe in one-size-fits-all SEO. Your growth strategy is built specifically around your product positioning, ideal customer profile, category maturity, and competitive landscape. 
+            Whether you're defining a new category or competing in a saturated one, we design a framework that reflects your unique strengths and market realities, not a recycled checklist.`,
+          ],
+        },
+        {
+          img: saasSeoWhatMkDiffImg_4,
+          name: 'Deep Competitor Targeting',
+          description: [
+            `In B2B SaaS, buyers actively compare alternatives before making decisions. 
+            We leverage this behavior strategically. 
+            Our approach includes detailed competitor gap analysis, alternative positioning pages, comparison content, and high-intent keyword targeting designed to intercept prospects at the evaluation stage. 
+            By identifying where competitors dominate and where they leave opportunities open, we position your brand directly in the path of decision-ready buyers.`,
+          ],
+        },
+        {
+          img: saasSeoWhatMkDiffImg_5,
+          name: 'Full-Funnel Execution',
+          description: [
+            `Organic growth doesn’t happen at a single stage of the buyer journey. 
+            We build comprehensive SEO ecosystems that support awareness, consideration, evaluation, and decision-making. 
+            From problem-focused educational content to integration pages, use-case assets, and bottom-of-funnel comparison pages, every piece works together to create a cohesive search presence. 
+            The result is not fragmented traffic but a structured acquisition engine that consistently feeds your sales pipeline.`,
+          ],
+        },
+        {
+          img: saasSeoWhatMkDiffImg_6,
+          name: 'Built for Scale',
+          description: [
+            `SaaS companies evolve, new features launch, new markets open, and new verticals emerge. 
+            Your SEO strategy should evolve with you. 
+            We design scalable frameworks that expand into new keyword clusters, industries, and high-value opportunities as your company grows. 
+            Instead of short-term ranking wins, we focus on building a long-term organic growth asset that compounds over time and strengthens your competitive position year after year.`,
+          ],
+        },
+      ],
+    },
+
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '04',
+      breakIndex: 3,
+      bgImg: saasSeoBuildLinkBg,
+      img: saasSeoBuildLinkImg,
+      label: 'Ready to Scale Your',
+      heading: 'SaaS with Strategic SEO?',
+      description: ``,
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `Organic growth doesn’t happen by accident. It requires a focused strategy, deep SaaS expertise, and execution built around revenue, not just rankings.`,
+        },
+        {
+          desctioption: `If you’re looking to reduce paid acquisition dependency, capture high-intent buyers, and build a long-term pipeline asset, we’re ready to help.`,
+        },
+      ],
+      button: 'Book a Strategy Call Now',
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      title: 'Frequently Asked Questions',
+      description: ``,
+      list: [
+        {
+          title: 'How is B2B SaaS SEO different from traditional SEO?',
+          description: [
+            `B2B SaaS SEO involves longer sales cycles, multiple decision-makers, and significantly higher customer lifetime values compared to most industries.`, 
+            `Unlike eCommerce or local SEO, SaaS strategies must target multiple funnel stages, from awareness to comparison and decision.`, 
+            `It also requires deep competitor positioning, feature-level optimization, and content aligned with complex buying intent. 
+            The focus isn’t just traffic; it’s qualified pipeline and recurring revenue.`,
+          ],
+        },
+        {
+          title: 'How long does it take to see results from SaaS SEO?',
+          description: [
+            `SaaS SEO is a long-term growth strategy. 
+            While early traction can be seen within 3–4 months, meaningful pipeline impact typically begins between 4–6 months, depending on competition, domain authority, and execution speed.`, 
+            `Unlike paid ads, SEO builds compounding momentum, meaning results continue to strengthen over time rather than stopping when budgets pause.`,
+          ],
+        },
+        {
+          title: 'Do you work with early-stage SaaS startups?',
+          description: [
+            `Yes. We work with both early-stage and established SaaS companies. 
+            For startups, the focus is often on category positioning, long-tail opportunities, and building initial topical authority.`, 
+            `For more mature SaaS brands, we concentrate on competitive gaps, scaling content clusters, and capturing high-intent comparison traffic. 
+            Strategy always adapts to the growth stage and goals.`,
+          ],
+        },
+        {
+          title: 'How do you measure SEO success for SaaS companies?',
+          description: [
+            `We measure success based on business metrics, not vanity metrics. 
+            That includes demo bookings, trial signups, marketing-qualified leads (MQLs), sales-qualified leads (SQLs), and revenue influenced by organic traffic.`, 
+            `Rankings and traffic are important indicators, but they are secondary to pipeline and recurring revenue growth.`,
+          ],
+        },
+        {
+          title: 'What type of content do you create for SaaS SEO?',
+          description: [
+            `Our content strategy spans the full funnel. 
+            This includes educational problem-aware content, solution-focused pages, comparison and alternative pages, integration content, use-case landing pages, and product-led assets that support evaluation.`, 
+            `Each piece is strategically mapped to intent and conversion opportunity rather than being created solely for volume.`,
+          ],
+        },
+        {
+          title: 'Can SEO reduce our paid acquisition costs?',
+          description: [
+            `Yes. A strong organic presence reduces dependency on paid channels over time. 
+            As your website ranks for high-intent commercial and comparison keywords, you begin capturing traffic that would otherwise require paid ads.`, 
+            `While SEO does not replace paid media entirely, it significantly lowers blended CAC and increases acquisition efficiency.`,
+          ],
+        },
+        {
+          title: 'How do you approach competitor-heavy markets?',
+          description: [
+            `In competitive SaaS industries, generic blogging is not enough. We conduct detailed competitor gap analysis to identify content weaknesses, keyword gaps, and structural opportunities.`, 
+            `From there, we build targeted comparison pages, alternative positioning assets, and deeper topical authority clusters designed to outperform competitors strategically, not randomly.`,
+          ],
+        },
+        {
+          title: 'Is SEO worth it for enterprise SaaS companies?',
+          description: [
+            `Absolutely. Enterprise SaaS buyers conduct extensive research before engaging with sales teams. 
+            Ranking across awareness, solution comparison, integration, and feature-level searches positions your brand early in the decision-making process.`, 
+            `For high LTV enterprise customers, even a small increase in qualified organic traffic can generate a significant long-term revenue impact.`,
+          ],
+        },
+      ],
+    },
+
+    keyStats: {
+      isVisible: false,
+      code: '10',
+      img: whiteLinkBuildingKeyStatsImg,
+      heading: 'Key Stats About White Label Link Building',
+      bgColor: '#FB9100',
+      isImgBg: true,
+      isCard: false,
+      list: [
+        {
+          desctioption: [
+            `Nearly 9 out of 10 marketers (89%) rely on content marketing to generate backlinks.`,
+          ],
+        },
+        {
+          desctioption: [
+            `85% of SEO professionals confirm that link building solutions strengthens brand credibility.`,
+          ],
+        },
+        {
+          desctioption: [
+            `Over two-thirds (69%) say link building directly drives business growth.`,
+          ],
+        },
+        {
+          desctioption: [
+            `59% predict backlinks will become even more important for rankings.`,
+          ],
+        },
+        {
+          desctioption: [
+            `An overwhelming 94% believe links will continue to shape Google’s algorithm in the future.`,
           ],
         },
       ],
