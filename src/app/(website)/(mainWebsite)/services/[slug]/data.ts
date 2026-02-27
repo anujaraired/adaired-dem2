@@ -42,20 +42,61 @@ import client_3 from '../../../../../../public/assets/LeadingTools/Group 1000005
 import client_4 from '../../../../../../public/assets/LeadingTools/Group 1000005356.png';
 import client_5 from '../../../../../../public/assets/LeadingTools/Group 1000005428.png';
 
+import adairedHelp_4 from '../../../../../../public/assets/images/services/seo/adairedSEO1.png';
+import adairedHelp_7 from '../../../../../../public/assets/images/services/seo/adairedSEO2.png';
+import adairedHelp_8 from '../../../../../../public/assets/images/services/seo/adairedSEO3.png';
+import adairedHelp_15 from '../../../../../../public/assets/images/services/seo/adairedSEO4.png';
+import adairedHelp_13 from '../../../../../../public/assets/images/services/seo/adairedSEO5.png';
+import adairedHelp_12 from '../../../../../../public/assets/images/services/seo/adairedSEO6.png';
+import adairedHelp_14 from '../../../../../../public/assets/images/Services/seo/adairedSEO7.png';
+import adairedHelp_16 from '../../../../../../public/assets/images/services/seo/adairedSEO8.png';
+import adairedHelpaiseo1 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO1.png';
+import adairedHelpaiseo2 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO2.png';
+import adairedHelpaiseo3 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO3.png';
+import adairedHelpaiseo4 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO4.png';
+import adairedHelpaiseo5 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO5.png';
+import adairedHelpaiseo6 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO6.png';
+import whatMkLocal from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo1.png';
+import whatMkLocal1 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo2.png';
+import whatMkLocal2 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo3.png';
+import whatMkLocal3 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo4.png';
+import whatMkLocal4 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo5.png';
+import whatMkLocal5 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo6.png';
+import WhatMkeAd from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign1.png';
+import WhatMkeAd2 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign2.png';
+import WhatMkeAd3 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign3.png';
+import WhatMkeAd4 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign4.png';
+import WhatMkeAd5 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign5.png';
+import WhatMkeAd6 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign6.png';
+
+import whiteLinkBuildingWhatMkDiffImg_1 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild1.png';
+import whiteLinkBuildingWhatMkDiffImg_2 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild2.png';
+import whiteLinkBuildingWhatMkDiffImg_3 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild3.png';
+import whiteLinkBuildingWhatMkDiffImg_4 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild5.png';
+import whiteLinkBuildingWhatMkDiffImg_5 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild4.png';
+
+
+import whatMkWhite_1 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia1.png';
+import whatMkWhite_2 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia2.png';
+import whatMkWhite_3 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia3.png';
+import whatMkWhite_4 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia4.png';
+import whatMkWhite_5 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia5.png';
+
+
+import whatMkWhiteSeo_1 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo1.png';
+import whatMkWhiteSeo_2 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo2.png';
+import whatMkWhiteSeo_3 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo3.png';
+import whatMkWhiteSeo_4 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo4.png';
+import whatMkWhiteSeo_5 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo5.png';
+import whatMkWhiteSeo_6 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo6.png';
+
+
 import HowAdairedHelp from '../../../../../../public/assets/WebDevelopment/HowAdairedHelp.png';
 import adairedHelp_1 from '../../../../../../public/assets/adairedHelp/Group 1000006012.png';
 import adairedHelp_2 from '../../../../../../public/assets/adairedHelp/Group 1000006013.png';
 import adairedHelp_3 from '../../../../../../public/assets/adairedHelp/Group 1000006014.png';
-import adairedHelp_4 from '../../../../../../public/assets/adairedHelp/adairedSEO1.png';
 import adairedHelp_5 from '../../../../../../public/assets/adairedHelp/Group 1000006028.png';
 import adairedHelp_6 from '../../../../../../public/assets/adairedHelp/Group 1000006029.png';
-import adairedHelp_7 from '../../../../../../public/assets/adairedHelp/adairedSEO2.png';
-import adairedHelp_8 from '../../../../../../public/assets/adairedHelp/adairedSEO3.png';
-import adairedHelp_12 from '../../../../../../public/assets/adairedHelp/adairedSEO6.png';
-import adairedHelp_13 from '../../../../../../public/assets/adairedHelp/adairedSEO5.png';
-import adairedHelp_14 from '../../../../../../public/assets/adairedHelp/adairedSEO7.png';
-import adairedHelp_15 from '../../../../../../public/assets/adairedHelp/adairedSEO4.png';
-import adairedHelp_16 from '../../../../../../public/assets/adairedHelp/adairedSEO8.png';
 
 import seo_resultIcon_1 from '../../../../../../public/assets/seo/seo_resultIcon_1.svg';
 import seo_resultIcon_2 from '../../../../../../public/assets/seo/seo_resultIcon_2.svg';
@@ -97,19 +138,12 @@ import AdairedHelp4 from '../../../../../../public/assets/images/AdairedHelp4.pn
 import AdairedHelp5 from '../../../../../../public/assets/images/AdairedHelp5.png';
 import AdairedHelp6 from '../../../../../../public/assets/images/AdairedHelp6.png';
 
-import adairedDiff_1 from '../../../../../../public/assets/images/adairedDiff_1.png';
-import adairedDiff_2 from '../../../../../../public/assets/images/abc.png';
-import adairedDiff_3 from '../../../../../../public/assets/images/adairedDiff_3.png';
-import adairedDiff_4 from '../../../../../../public/assets/images/adairedDiff_4.png';
-import adairedDiff_5 from '../../../../../../public/assets/images/adairedDiff_5.png';
-import adairedDiff_6 from '../../../../../../public/assets/images/adairedDiff_6.png';
-
-import WhatMkeAd from '../../../../../../public/assets/images/WhatMkeAd.png';
-import WhatMkeAd2 from '../../../../../../public/assets/images/WhatMkeAd2.png';
-import WhatMkeAd3 from '../../../../../../public/assets/images/WhatMkeAd3.png';
-import WhatMkeAd4 from '../../../../../../public/assets/images/WhatMkeAd4.png';
-import WhatMkeAd5 from '../../../../../../public/assets/images/WhatMkeAd5.png';
-import WhatMkeAd6 from '../../../../../../public/assets/images/WhatMkeAd6.png';
+import adairedDiff_1 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding1.png';
+import adairedDiff_2 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding2.png';
+import adairedDiff_3 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding3.png';
+import adairedDiff_4 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding4.png';
+import adairedDiff_5 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding5.png';
+import adairedDiff_6 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding6.png';
 
 import linkServices_1 from '../../../../../../public/assets/images/linkServices_1.png';
 import linkServices_2 from '../../../../../../public/assets/images/linkServices_2.png';
@@ -137,12 +171,6 @@ import WhatAreService from '../../../../../../public/assets/images/Development_S
 import webDevelopmentBannerBg from '../../../../../../public/assets/web_development_banner_img.png';
 
 import stop_struggle3 from '../../../../../../public/assets/localseo/stop_struggle3.png';
-import whatMkLocal from '../../../../../../public/assets/localseo/whatMkLocal.png';
-import whatMkLocal1 from '../../../../../../public/assets/localseo/whatMkLocal1.png';
-import whatMkLocal2 from '../../../../../../public/assets/localseo/whatMkLocal2.png';
-import whatMkLocal3 from '../../../../../../public/assets/localseo/whatMkLocal3.png';
-import whatMkLocal4 from '../../../../../../public/assets/localseo/whatMkLocal4.png';
-import whatMkLocal5 from '../../../../../../public/assets/localseo/whatMkLocal5.png';
 
 // Local SEO Images
 import localBannerBg from '../../../../../../public/assets/localseo/localBannerBg.png';
@@ -183,25 +211,12 @@ import whiteImpIcon_4 from '../../../../../../public/assets/whitelabel/whiteLabe
 import whiteImpIcon_5 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whiteImpIcon_5.png';
 import whiteImpIcon_6 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whiteImpIcon_6.png';
 
-import whatMkWhite_1 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whatMkWhite_1.png';
-import whatMkWhite_2 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whatMkWhite_2.png';
-import whatMkWhite_3 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whatMkWhite_3.png';
-import whatMkWhite_4 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whatMkWhite_4.png';
-import whatMkWhite_5 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whatMkWhite_5.png';
-
 // White Label Seo Page Images
 import whiteSeoBannerBg from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoBannerBg.png';
 import whiteSeoKeyStatsImg from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoKeyStatsImg.png';
 import whiteSeoWhatIs from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoWhatIs.png';
 import whiteSeoBuildLinkImg from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoBuildLinkImg.png';
 import WhiteSeoServiceResultImg from '../../../../../../public/assets/whitelabel/whiteLabelSeo/WhiteSeoServiceResultImg.png';
-
-import whatMkWhiteSeo_1 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_1.png';
-import whatMkWhiteSeo_2 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_2.png';
-import whatMkWhiteSeo_3 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_3.png';
-import whatMkWhiteSeo_4 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_4.png';
-import whatMkWhiteSeo_5 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_5.png';
-import whatMkWhiteSeo_6 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_6.png';
 
 import whiteSeoResult_1 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoResult_1.png';
 import whiteSeoResult_2 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoResult_2.png';
@@ -279,13 +294,6 @@ import whiteLinkBuildingImpIcon_3 from '../../../../../../public/assets/whitelab
 import whiteLinkBuildingImpIcon_4 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_4.png';
 import whiteLinkBuildingImpIcon_5 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_5.png';
 import whiteLinkBuildingImpIcon_6 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_6.png';
-
-import whiteLinkBuildingWhatMkDiffImg_1 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_1.png';
-import whiteLinkBuildingWhatMkDiffImg_2 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_2.png';
-import whiteLinkBuildingWhatMkDiffImg_3 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_3.png';
-import whiteLinkBuildingWhatMkDiffImg_4 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_4.png';
-import whiteLinkBuildingWhatMkDiffImg_5 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_5.png';
-
 
 export type SectionKey =
   | 'banner'
@@ -1474,7 +1482,7 @@ export const SERVICES_DATA = {
       description: [],
       list: [
         {
-          img: adairedHelp_4,
+          img: adairedHelpaiseo1,
           name: 'AI-First SEO Built For Modern Search',
           description: [
             `Adaired pursues an AI-first strategy of SEO, which is how today's search engines operate. The search trends, user intent, and the ranking changes are analysed and processed by our AI tools in real time. `,
@@ -1482,7 +1490,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_8,
+          img: adairedHelpaiseo2,
           name: 'SEO Focused on Real Business Growth',
           description: [
             'We don’t focus only on rankings. SEO at Adaired is meant to deliver actual performance, increased traffic, improved leads, and increased conversions. ',
@@ -1490,7 +1498,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_3,
+          img: adairedHelpaiseo3,
           name: 'Custom SEO Strategies, No Templates',
           description: [
             `Adaired never uses one-size-fits-all SEO plans. We develop tailor-made plans that suit your industry, your target market, competition, and objectives. `,
@@ -1498,7 +1506,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_2,
+          img: adairedHelpaiseo4,
           name: 'Content That Works for AI and People',
           description: [
             'We create our content in a way that meets the demands of search engines and actual users. AI helps us to interpret search intent and frame content properly, whereas our professionals make sure that it remains straightforward, practical, and comprehensible. ',
@@ -1506,7 +1514,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_1,
+          img: adairedHelpaiseo5,
           name: 'Proactive SEO That Stays Ahead of Changes',
           description: [
             `The search engines change constantly, and Adaired stays ahead of them. Our AI tracks performance changes, updates, and competitor activities in real time.`,
@@ -1514,7 +1522,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_6,
+          img: adairedHelpaiseo6,
           name: 'Clear Reporting and Complete Transparency',
           description: [
             'Adaired believes in honest communication. We provide simple, easy-to-follow reports that reveal what is working and what is not.  ',
@@ -2309,7 +2317,7 @@ brand appears in AI summaries and citations.`,
     // NEW
     whatMkeDeferent: {
       isVisible: true,
-      isVariant: '01',
+      isVariant: '02',
       isInCenter: true,
       bgColor: true,
       heading: 'What Makes Adaired Different From Our Competitors?',
