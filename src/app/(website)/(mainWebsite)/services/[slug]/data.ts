@@ -10296,10 +10296,10 @@ brand appears in AI summaries and citations.`,
         {
           title: 'How is B2B SaaS SEO different from traditional SEO?',
           description: [
-            `B2B SaaS SEO involves longer sales cycles, multiple decision-makers, and significantly higher customer lifetime values compared to most industries.`, 
-            `Unlike eCommerce or local SEO, SaaS strategies must target multiple funnel stages, from awareness to comparison and decision.`, 
-            `It also requires deep competitor positioning, feature-level optimization, and content aligned with complex buying intent. 
-            The focus isn’t just traffic; it’s qualified pipeline and recurring revenue.`,
+            `B2B SaaS SEO involves longer sales cycles, multiple decision-makers, and significantly higher customer lifetime values compared to most industries.
+             Unlike eCommerce or local SEO, SaaS strategies must target multiple funnel stages, from awareness to comparison and decision.`, 
+            `It also requires deep competitor positioning, feature-level optimization, and content aligned with complex buying intent.`,
+            `The focus isn’t just traffic; it’s qualified pipeline and recurring revenue.`,
           ],
         },
         {
@@ -10315,8 +10315,8 @@ brand appears in AI summaries and citations.`,
           description: [
             `Yes. We work with both early-stage and established SaaS companies. 
             For startups, the focus is often on category positioning, long-tail opportunities, and building initial topical authority.`, 
-            `For more mature SaaS brands, we concentrate on competitive gaps, scaling content clusters, and capturing high-intent comparison traffic. 
-            Strategy always adapts to the growth stage and goals.`,
+            `For more mature SaaS brands, we concentrate on competitive gaps, scaling content clusters, and capturing high-intent comparison traffic.`, 
+            `Strategy always adapts to the growth stage and goals.`,
           ],
         },
         {

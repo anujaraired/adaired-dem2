@@ -46,9 +46,9 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
                     })}
                   </div>
                 </div>
-                <div className={`order-1 flex w-[100%] justify-center justify-items-center rounded-[20px] p-4 lg:order-2 lg:w-[40%] lg:justify-end lg:justify-items-end ${shouldUseOrange ? 'bg-[#FFF2DF]' : 'bg-[#F3F3F3]'
+                <div className={`order-1 flex w-[100%] justify-center justify-items-center rounded-[20px] p-8 lg:order-2 lg:w-[40%] ${shouldUseOrange ? 'bg-[#FFF2DF]' : 'bg-[#F3F3F3]'
                   }`}>
-                  <div className='relative w-[525px] h-[334px] p-4'>
+                  <div className='relative w-[525px] h-[334px]'>
                     <Image src={item?.img} alt="if" fill className="object-contain" />
                   </div>
                 </div>
