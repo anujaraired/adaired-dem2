@@ -27,7 +27,7 @@ const WhatMissing = ({ whatMissing }: any) => {
               isInCenter={whatMissing?.isInCenter}
               description={whatMissing?.description}
               isDecVarticle={!whatMissing?.isInCenter}
-              isBgWhite={!whatMissing?.bgColor && true}
+              isBgWhite={whatMissing?.bgColor && true}
             />
 
             <div className="grid grid-cols-1 gap-6 pt-[3rem] lg:grid-cols-3">
@@ -83,7 +83,7 @@ const WhatMissing = ({ whatMissing }: any) => {
               title={whatMissing?.heading}
               isInCenter={whatMissing?.isInCenter}
               isDecVarticle={!whatMissing?.isInCenter}
-              isBgWhite={!whatMissing?.bgColor && true}
+              isBgWhite={whatMissing?.bgColor && true}
             />
 
             <div className="grid grid-cols-1 gap-6 p-[3rem] lg:grid-cols-4">
@@ -105,7 +105,7 @@ const WhatMissing = ({ whatMissing }: any) => {
                                 </div> */}
 
                   <div className="mb-2 flex items-center justify-center sm:mb-4 lg:mb-6 lg:justify-start">
-                    <div className="flex items-center justify-center rounded-[10px] h-[40px] w-[40px] md:h-[50px] md:w-[50px] p-2 bg-black lg:h-[60px] lg:w-[60px]">
+                    <div className="flex h-[40px] w-[40px] items-center justify-center rounded-[10px] bg-black p-2 md:h-[50px] md:w-[50px] lg:h-[60px] lg:w-[60px]">
                       <Image
                         src={card.icon}
                         alt="icons"
@@ -132,17 +132,17 @@ const WhatMissing = ({ whatMissing }: any) => {
               isInCenter={whatMissing?.isInCenter}
               description={whatMissing?.description}
               isDecVarticle={!whatMissing?.isInCenter}
-              isBgWhite={!whatMissing?.bgColor && true}
+              isBgWhite={whatMissing?.bgColor && true}
             />
 
-            <div className='flex justify-center'>
+            <div className="flex justify-center">
               <SaveAndCancel
                 name={whatMissing?.button}
                 isBgWhite={true}
                 isBorder={true}
                 isIcon={true}
                 handleClick={() => setOpen(!open)}
-                className="pt-[2rem]"
+                className="pt-[1rem]"
               />
             </div>
           </div>
