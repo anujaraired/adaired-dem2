@@ -1,3 +1,4 @@
+export const dynamic = 'force-dynamic';
 import React from 'react';
 import MaxWidthWrapper from '@web-components/MaxWidthWrapper';
 import parse, {
@@ -65,19 +66,89 @@ function splitIntroParagraphs(html: string, wordLimit = 120) {
 /* ------------------ DATA ------------------ */
 
 async function getBlogs({ params }: { params: { slug: string } }) {
-  const res = await fetch(`${BaseURL}/blog/read?slug=${params.slug}`, {
+  const res = await fetch(`${BaseURL}/blog/${params.slug}`, {
     cache: 'no-store',
   });
   return res.json();
 }
 
-export async function generateStaticParams() {
-  const res = await fetch(`${BaseURL}/blog/read`, { cache: 'no-store' });
-  const data = await res.json();
+import { Metadata } from 'next';
 
-  return (data?.data ?? []).map((blog: any) => ({
-    slug: String(blog.slug),
-  }));
+export async function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Promise<Metadata> {
+  try {
+    const res = await fetch(`${BaseURL}/blog/${params.slug}`, {
+      cache: 'no-store',
+    });
+
+    if (!res.status) {
+      return {
+        title: 'Blog | Adaired',
+      };
+    }
+
+    const response = await res.json();
+    const blog = response?.data;
+
+    if (!blog) {
+      return {
+        title: 'Blog Not Found | Adaired',
+      };
+    }
+
+    const seo = blog?.seo || {};
+
+    return {
+      title: seo.metaTitle || blog.postTitle || 'Blog | Adaired',
+
+      description:
+        seo.metaDescription ||
+        blog.postDescription?.replace(/<[^>]+>/g, '').slice(0, 160) ||
+        '',
+
+      alternates: {
+        canonical: seo.canonicalLink || `https://adaired.com/blog/${blog.slug}`,
+      },
+
+      keywords: seo.keywords || '',
+
+      openGraph: {
+        title: seo.metaTitle || blog.postTitle,
+        description:
+          seo.metaDescription ||
+          blog.postDescription?.replace(/<[^>]+>/g, '').slice(0, 160) ||
+          '',
+        url: `https://adaired.com/blog/${blog.slug}`,
+        type: 'article',
+        publishedTime: blog.createdAt,
+        modifiedTime: blog.updatedAt,
+        images: blog.featuredImage
+          ? [
+              {
+                url: blog.featuredImage,
+              },
+            ]
+          : [],
+      },
+
+      twitter: {
+        card: 'summary_large_image',
+        title: seo.metaTitle || blog.postTitle,
+        description:
+          seo.metaDescription ||
+          blog.postDescription?.replace(/<[^>]+>/g, '').slice(0, 160) ||
+          '',
+        images: blog.featuredImage ? [blog.featuredImage] : [],
+      },
+    };
+  } catch (error) {
+    return {
+      title: 'Blog | Adaired',
+    };
+  }
 }
 
 interface BlogProps {
@@ -87,10 +158,11 @@ interface BlogProps {
 /* ------------------ COMPONENT ------------------ */
 
 const Blog = async ({ params }: BlogProps) => {
-  const { data } = await getBlogs({ params });
-  const blog = data[0];
+  const blog = await getBlogs({ params });
 
-  const { introHtml, bodyHtml } = splitHtmlAtFirstH2(blog?.postDescription);
+  const { introHtml, bodyHtml } = splitHtmlAtFirstH2(
+    blog?.data?.postDescription
+  );
   const { top, bottom } = splitIntroParagraphs(introHtml, 100);
 
   const h2Total = (bodyHtml.match(/<h2>/g) || []).length;
@@ -146,15 +218,25 @@ const Blog = async ({ params }: BlogProps) => {
             </p>
           );
 
+        case 'ul':
+          return (
+            <ul className="list-disc space-y-2 pl-6">
+              {domToReact(domNode.children as DOMNode[], options)}
+            </ul>
+          );
+
+        case 'ol':
+          return (
+            <ol className="list-decimal space-y-2 pl-6">
+              {domToReact(domNode.children as DOMNode[], options)}
+            </ol>
+          );
+
         case 'li':
           return (
-            <p className="pl-6">
-              •{' '}
-              {domToReact(
-                (domNode.children || []) as unknown as DOMNode[],
-                options
-              )}
-            </p>
+            <li className="leading-7">
+              {domToReact(domNode.children as DOMNode[], options)}
+            </li>
           );
 
         case 'a':
@@ -187,19 +269,27 @@ const Blog = async ({ params }: BlogProps) => {
           subTitle="BLOG"
           isLabel={true}
           // breakIndex={4}
-          title={blog?.postTitle}
+          title={blog?.data?.postTitle}
         />
 
         {/* ----------- IMAGE + FIRST 100 WORDS ----------- */}
         <div className="mt-8 grid grid-cols-1 gap-[2rem] md:grid-cols-2">
-          <div className="relative h-[30rem]">
-            <Image
-              src={blog?.featuredImage}
-              alt="blog"
-              fill
-              className="rounded-[1rem] object-cover"
-              priority
-            />
+          <div className="relative h-[30rem] rounded-2xl">
+            {blog?.data?.featuredImage ? (
+              <Image
+                src={blog?.data?.featuredImage}
+                fill
+                alt={blog?.data?.postTitle}
+                className="rounded-2xl object-fill transition-transform duration-500 group-hover:scale-110"
+              />
+            ) : (
+              <Image
+                src={blog?.data?.seo?.openGraph?.image}
+                fill
+                alt={blog?.data?.postTitle}
+                className="rounded-2xl object-fill transition-transform duration-500 group-hover:scale-110"
+              />
+            )}
           </div>
 
           <div>
@@ -208,7 +298,7 @@ const Blog = async ({ params }: BlogProps) => {
               <p className="font-bold">
                 Date:{' '}
                 <span className="font-normal text-[#797979]">
-                  {transformDate(blog?.createdAt)}
+                  {transformDate(blog?.data?.createdAt)}
                 </span>
               </p>
             </div>

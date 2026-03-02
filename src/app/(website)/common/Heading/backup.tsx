@@ -25,7 +25,7 @@ export interface IHeading {
   isCapitalize?: boolean;
 }
 
-const Heading = ({
+const backup = ({
   subTitle,
   title,
   span,
@@ -85,8 +85,7 @@ const Heading = ({
                       {breakIndex !== undefined ? (
                         <>
                           {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />
-                          {" "}
+                          <br className="hidden md:block" />{' '}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -100,8 +99,7 @@ const Heading = ({
                       {breakIndex !== undefined ? (
                         <>
                           {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />
-                          {" "}
+                          <br className="hidden md:block" />{' '}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -143,8 +141,7 @@ const Heading = ({
                       {breakIndex !== undefined ? (
                         <>
                           {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />
-                          {" "}
+                          <br className="hidden md:block" />{' '}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -158,8 +155,7 @@ const Heading = ({
                       {breakIndex !== undefined ? (
                         <>
                           {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />
-                          {" "}
+                          <br className="hidden md:block" />{' '}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -179,7 +175,7 @@ const Heading = ({
       ) : (
         <div>
           {isInCenter ? (
-            <div className="">
+            <div className=" ">
               <div className="md:flex` w- block gap-3">
                 {isLabel && (
                   <div className="flex justify-center">
@@ -210,8 +206,7 @@ const Heading = ({
                       {breakIndex !== undefined ? (
                         <>
                           {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />
-                          {" "}
+                          <br className="hidden md:block" />{' '}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -225,8 +220,7 @@ const Heading = ({
                       {breakIndex !== undefined ? (
                         <>
                           {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />
-                          {" "}
+                          <br className="hidden md:block" />{' '}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -273,8 +267,7 @@ const Heading = ({
                       {breakIndex !== undefined ? (
                         <>
                           {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />
-                          {" "}
+                          <br className="hidden md:block" />{' '}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -290,8 +283,7 @@ const Heading = ({
                       {breakIndex !== undefined ? (
                         <>
                           {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />
-                          {" "}
+                          <br className="hidden md:block" />{' '}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -305,8 +297,7 @@ const Heading = ({
                         {spanBreakIndex !== undefined ? (
                           <>
                             {spans.slice(0, spanBreakIndex).join(' ')}
-                            <br className="hidden md:block" />
-                            {" "}
+                            <br className="hidden md:block" />{' '}
                             {spans.slice(spanBreakIndex).join(' ')}
                           </>
                         ) : (
@@ -318,7 +309,7 @@ const Heading = ({
                 </div>
               </div>
               <div className={`${isDecVarticle && 'pt-[0rem]'}`}>
-                {Array.isArray(description)? (
+                {Array.isArray(description) ? (
                   description.map((item: string, index: number) => (
                     <p
                       key={index}
@@ -344,4 +335,4 @@ const Heading = ({
   );
 };
 
-export default Heading;
+export default backup;
