@@ -21,7 +21,7 @@ import Banner from '../../components/HereComponent/Banner';
 import FAQ from '../../components/home/FAQ';
 import Solutions from '../../components/home/Solutions';
 import Clients from '../../components/home/Clients';
-
+//test
 
 export default function Home() {
   return (
