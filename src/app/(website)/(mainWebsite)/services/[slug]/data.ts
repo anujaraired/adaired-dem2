@@ -194,7 +194,8 @@ import localImpIcon_8 from '../../../../../../public/assets/localseo/localImpIco
 
 // White Label Social Media Page Images
 import whiteKeyStats from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteKeyStats.png';
-import whiteWhatIs from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteWhatIs.png';
+import whiteWhatIs from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteWhatIs.png';
+
 import whiteStruggleBg from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteStruggleBg.png';
 import whiteBannerBg from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteBannerBg.png';
 import whiteAdairedHelpImg from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteAdairedHelpImg.png';
