@@ -60,10 +60,22 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // ---------------------
     // Fetch APIs in parallel
     // ---------------------
+    // const [servicesRes, caseStudiesRes, blogsRes] = await Promise.all([
+    //   fetch(`${backendApiUri}/service/getServices`, { cache: 'no-store' }),
+    //   fetch(`${backendApiUri}/case-study/read`, { cache: 'no-store' }),
+    //   fetch(`${backendApiUri}/blog/read?status=publish`, { cache: 'no-store' }),
+    // ]);
+
     const [servicesRes, caseStudiesRes, blogsRes] = await Promise.all([
-      fetch(`${backendApiUri}/service/getServices`, { cache: 'no-store' }),
-      fetch(`${backendApiUri}/case-study/read`, { cache: 'no-store' }),
-      fetch(`${backendApiUri}/blog/read?status=publish`, { cache: 'no-store' }),
+      fetch(`${backendApiUri}/service/getServices`, {
+        next: { revalidate: 3600 },
+      }),
+      fetch(`${backendApiUri}/case-study/read`, {
+        next: { revalidate: 3600 },
+      }),
+      fetch(`${backendApiUri}/blog/read?status=publish`, {
+        next: { revalidate: 3600 },
+      }),
     ]);
     // ---------------------
     // Parse safely
