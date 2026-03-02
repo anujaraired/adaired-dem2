@@ -33,7 +33,7 @@ async function getBlogs() {
 
     const response = await res.json();
 
-    // 👇 Extract correct array safely est
+    // 👇 Extract correct array safely
     let blogsArray: any[] = [];
 
     if (Array.isArray(response)) {
