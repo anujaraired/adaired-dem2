@@ -42,20 +42,61 @@ import client_3 from '../../../../../../public/assets/LeadingTools/Group 1000005
 import client_4 from '../../../../../../public/assets/LeadingTools/Group 1000005356.png';
 import client_5 from '../../../../../../public/assets/LeadingTools/Group 1000005428.png';
 
+import adairedHelp_4 from '../../../../../../public/assets/images/services/seo/adairedSEO1.png';
+import adairedHelp_7 from '../../../../../../public/assets/images/services/seo/adairedSEO2.png';
+import adairedHelp_8 from '../../../../../../public/assets/images/services/seo/adairedSEO3.png';
+import adairedHelp_15 from '../../../../../../public/assets/images/services/seo/adairedSEO4.png';
+import adairedHelp_13 from '../../../../../../public/assets/images/services/seo/adairedSEO5.png';
+import adairedHelp_12 from '../../../../../../public/assets/images/services/seo/adairedSEO6.png';
+import adairedHelp_14 from '../../../../../../public/assets/images/Services/seo/adairedSEO7.png';
+import adairedHelp_16 from '../../../../../../public/assets/images/services/seo/adairedSEO8.png';
+import adairedHelpaiseo1 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO1.png';
+import adairedHelpaiseo2 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO2.png';
+import adairedHelpaiseo3 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO3.png';
+import adairedHelpaiseo4 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO4.png';
+import adairedHelpaiseo5 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO5.png';
+import adairedHelpaiseo6 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO6.png';
+import whatMkLocal from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo1.png';
+import whatMkLocal1 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo2.png';
+import whatMkLocal2 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo3.png';
+import whatMkLocal3 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo4.png';
+import whatMkLocal4 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo5.png';
+import whatMkLocal5 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo6.png';
+import WhatMkeAd from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign1.png';
+import WhatMkeAd2 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign2.png';
+import WhatMkeAd3 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign3.png';
+import WhatMkeAd4 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign4.png';
+import WhatMkeAd5 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign5.png';
+import WhatMkeAd6 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign6.png';
+
+import whiteLinkBuildingWhatMkDiffImg_1 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild1.png';
+import whiteLinkBuildingWhatMkDiffImg_2 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild2.png';
+import whiteLinkBuildingWhatMkDiffImg_3 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild3.png';
+import whiteLinkBuildingWhatMkDiffImg_4 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild5.png';
+import whiteLinkBuildingWhatMkDiffImg_5 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild4.png';
+
+
+import whatMkWhite_1 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia1.png';
+import whatMkWhite_2 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia2.png';
+import whatMkWhite_3 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia3.png';
+import whatMkWhite_4 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia4.png';
+import whatMkWhite_5 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia5.png';
+
+
+import whatMkWhiteSeo_1 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo1.png';
+import whatMkWhiteSeo_2 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo2.png';
+import whatMkWhiteSeo_3 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo3.png';
+import whatMkWhiteSeo_4 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo4.png';
+import whatMkWhiteSeo_5 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo5.png';
+import whatMkWhiteSeo_6 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo6.png';
+
+
 import HowAdairedHelp from '../../../../../../public/assets/WebDevelopment/HowAdairedHelp.png';
 import adairedHelp_1 from '../../../../../../public/assets/adairedHelp/Group 1000006012.png';
 import adairedHelp_2 from '../../../../../../public/assets/adairedHelp/Group 1000006013.png';
 import adairedHelp_3 from '../../../../../../public/assets/adairedHelp/Group 1000006014.png';
-import adairedHelp_4 from '../../../../../../public/assets/adairedHelp/Group 1000006027.png';
 import adairedHelp_5 from '../../../../../../public/assets/adairedHelp/Group 1000006028.png';
 import adairedHelp_6 from '../../../../../../public/assets/adairedHelp/Group 1000006029.png';
-import adairedHelp_7 from '../../../../../../public/assets/adairedHelp/Group 1000006065.png';
-import adairedHelp_8 from '../../../../../../public/assets/adairedHelp/Group 1000006045.png';
-import adairedHelp_12 from '../../../../../../public/assets/adairedHelp/White-Hat.png';
-import adairedHelp_13 from '../../../../../../public/assets/adairedHelp/Transparent Reporting.png';
-import adairedHelp_14 from '../../../../../../public/assets/adairedHelp/Continuous Optimization.png';
-import adairedHelp_15 from '../../../../../../public/assets/adairedHelp/Complete SEO Expertise.png';
-import adairedHelp_16 from '../../../../../../public/assets/adairedHelp/Client-Centric.png';
 
 import seo_resultIcon_1 from '../../../../../../public/assets/seo/seo_resultIcon_1.svg';
 import seo_resultIcon_2 from '../../../../../../public/assets/seo/seo_resultIcon_2.svg';
@@ -97,19 +138,12 @@ import AdairedHelp4 from '../../../../../../public/assets/images/AdairedHelp4.pn
 import AdairedHelp5 from '../../../../../../public/assets/images/AdairedHelp5.png';
 import AdairedHelp6 from '../../../../../../public/assets/images/AdairedHelp6.png';
 
-import adairedDiff_1 from '../../../../../../public/assets/images/adairedDiff_1.png';
-import adairedDiff_2 from '../../../../../../public/assets/images/abc.png';
-import adairedDiff_3 from '../../../../../../public/assets/images/adairedDiff_3.png';
-import adairedDiff_4 from '../../../../../../public/assets/images/adairedDiff_4.png';
-import adairedDiff_5 from '../../../../../../public/assets/images/adairedDiff_5.png';
-import adairedDiff_6 from '../../../../../../public/assets/images/adairedDiff_6.png';
-
-import WhatMkeAd from '../../../../../../public/assets/images/WhatMkeAd.png';
-import WhatMkeAd2 from '../../../../../../public/assets/images/WhatMkeAd2.png';
-import WhatMkeAd3 from '../../../../../../public/assets/images/WhatMkeAd3.png';
-import WhatMkeAd4 from '../../../../../../public/assets/images/WhatMkeAd4.png';
-import WhatMkeAd5 from '../../../../../../public/assets/images/WhatMkeAd5.png';
-import WhatMkeAd6 from '../../../../../../public/assets/images/WhatMkeAd6.png';
+import adairedDiff_1 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding1.png';
+import adairedDiff_2 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding2.png';
+import adairedDiff_3 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding3.png';
+import adairedDiff_4 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding4.png';
+import adairedDiff_5 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding5.png';
+import adairedDiff_6 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding6.png';
 
 import linkServices_1 from '../../../../../../public/assets/images/linkServices_1.png';
 import linkServices_2 from '../../../../../../public/assets/images/linkServices_2.png';
@@ -137,12 +171,6 @@ import WhatAreService from '../../../../../../public/assets/images/Development_S
 import webDevelopmentBannerBg from '../../../../../../public/assets/web_development_banner_img.png';
 
 import stop_struggle3 from '../../../../../../public/assets/localseo/stop_struggle3.png';
-import whatMkLocal from '../../../../../../public/assets/localseo/whatMkLocal.png';
-import whatMkLocal1 from '../../../../../../public/assets/localseo/whatMkLocal1.png';
-import whatMkLocal2 from '../../../../../../public/assets/localseo/whatMkLocal2.png';
-import whatMkLocal3 from '../../../../../../public/assets/localseo/whatMkLocal3.png';
-import whatMkLocal4 from '../../../../../../public/assets/localseo/whatMkLocal4.png';
-import whatMkLocal5 from '../../../../../../public/assets/localseo/whatMkLocal5.png';
 
 // Local SEO Images
 import localBannerBg from '../../../../../../public/assets/localseo/localBannerBg.png';
@@ -183,12 +211,6 @@ import whiteImpIcon_4 from '../../../../../../public/assets/images/service/white
 import whiteImpIcon_5 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whiteImpIcon_5.png';
 import whiteImpIcon_6 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whiteImpIcon_6.png';
 
-import whatMkWhite_1 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whatMkWhite_1.png';
-import whatMkWhite_2 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whatMkWhite_2.png';
-import whatMkWhite_3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whatMkWhite_3.png';
-import whatMkWhite_4 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whatMkWhite_4.png';
-import whatMkWhite_5 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whatMkWhite_5.png';
-
 // White Label Seo Page Images
 import whiteSeoBannerBg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whiteSeoBannerBg.png';
 import whiteSeoKeyStatsImg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whiteSeoKeyStatsImg.png';
@@ -196,17 +218,10 @@ import whiteSeoWhatIs from '../../../../../../public/assets/images/service/white
 import whiteSeoBuildLinkImg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whiteSeoBuildLinkImg.png';
 import WhiteSeoServiceResultImg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/WhiteSeoServiceResultImg.png';
 
-import whatMkWhiteSeo_1 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whatMkWhiteSeo_1.png';
-import whatMkWhiteSeo_2 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whatMkWhiteSeo_2.png';
-import whatMkWhiteSeo_3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whatMkWhiteSeo_3.png';
-import whatMkWhiteSeo_4 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whatMkWhiteSeo_4.png';
-import whatMkWhiteSeo_5 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whatMkWhiteSeo_5.png';
-import whatMkWhiteSeo_6 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whatMkWhiteSeo_6.png';
-
-import whiteSeoResult_1 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whiteSeoResult_1.png';
-import whiteSeoResult_2 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whiteSeoResult_2.png';
-import whiteSeoResult_3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whiteSeoResult_3.png';
-import whiteSeoResult_4 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whiteSeoResult_4.png';
+import whiteSeoResult_1 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoResult_1.png';
+import whiteSeoResult_2 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoResult_2.png';
+import whiteSeoResult_3 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoResult_3.png';
+import whiteSeoResult_4 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoResult_4.png';
 
 import whiteSeoResult_Icon_1 from '../../../../../../public/assets/white_label_SEO/Group 1000006517.svg';
 import whiteSeoResult_Icon_2 from '../../../../../../public/assets/white_label_SEO/Group 1000005912.svg';
@@ -279,13 +294,6 @@ import whiteLinkBuildingImpIcon_3 from '../../../../../../public/assets/images/s
 import whiteLinkBuildingImpIcon_4 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_4.png';
 import whiteLinkBuildingImpIcon_5 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_5.png';
 import whiteLinkBuildingImpIcon_6 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_6.png';
-
-import whiteLinkBuildingWhatMkDiffImg_1 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_1.png';
-import whiteLinkBuildingWhatMkDiffImg_2 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_2.png';
-import whiteLinkBuildingWhatMkDiffImg_3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_3.png';
-import whiteLinkBuildingWhatMkDiffImg_4 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_4.png';
-import whiteLinkBuildingWhatMkDiffImg_5 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_5.png';
-
 
 // SAAS Seo Images
 import saasSeoBannerBg from '../../../../../../public/assets/saasSeo/saasSeoBannerBg.png';
@@ -547,8 +555,6 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '01',
       heading: 'What’s Included in Our SEO Services',
-      button: 'Get Your Free SEO Audit',
-      btnColor: '#1A5A96',
 
       list: [
         {
@@ -558,6 +564,8 @@ export const SERVICES_DATA = {
             `We start the process by conducting a comprehensive keyword research. It helps determine the search terms that users input in search engines when looking for related information, products, or services.`,
             `Our effective SEO strategy consists of proper keyword research to match the content of the websites with what the users are actively searching for.`,
           ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',
         },
         {
           icon: seo_tool_1,
@@ -566,6 +574,8 @@ export const SERVICES_DATA = {
             `Our focus on On-page SEO optimization is to improve search visibility. This involves optimization of page names, meta descriptions, headings, URLs, internal links, and content structure.`,
             `On-page optimization helps search engines to understand the relevance of the pages while enhancing readability and user experience, making the content easy to access, arranged and in accordance with the targeted keywords.`,
           ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',   
         },
         {
           icon: seo_tool_2,
@@ -574,6 +584,8 @@ export const SERVICES_DATA = {
             `In Technical SEO, we address the backend elements of a website that affect search engine crawling and indexing. This involves site speed improvement, mobile friendliness, HTTPS configuration, XML sitemaps, and crawl errors remedies.`,
             `Technical optimization ensures search engines can efficiently access and understand the site effectively, and this is what is necessary to maintain the same ranking level.`,
           ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',    
         },
         {
           icon: seo_tool_4,
@@ -582,6 +594,8 @@ export const SERVICES_DATA = {
             `In content optimization, we improve existing content and create new, relevant content based on SEO insights. This is done to ensure that the content is informative, keyword-compatible, user and search engine friendly.`,
             `High-quality content supports better engagement, increased page views, and stronger relevance signals, helping websites perform more effectively in search results.`,
           ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',      
         },
         {
           icon: seo_tool_5,
@@ -590,6 +604,8 @@ export const SERVICES_DATA = {
             `In link building, we focus on earning high-quality backlinks from relevant and trustworthy websites. These links are indicators of credibility and authority to search engines.`,
             ` Ethical link-building practices help strengthen a website’s domain authority over time,  improving its ability to rank competitively while maintaining compliance with search engine guidelines.`,
           ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',      
         },
         {
           icon: seo_tool_6,
@@ -598,6 +614,8 @@ export const SERVICES_DATA = {
             `We track keyword rankings, organic traffic, user behavior, and technical performance in SEO monitoring. Regular reporting gives an idea of what works and where it should be improved.`,
             `The ongoing analysis helps refine SEO strategies, keeping up with the changes in the algorithms, and ensuring long-term effectiveness through data-driven optimization efforts.`,
           ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',      
         },
       ],
     },
@@ -793,8 +811,8 @@ export const SERVICES_DATA = {
           name: 'AI SEO',
           description: [
             `Our AI SEO services leverage artificial intelligence to enhance search engine optimization strategies with precision and efficiency. 
-            By analyzing large datasets, we identify keyword opportunities, optimize content, enhance technical performance, and predict user behavior. 
-            We do this to help our clients to adapt quickly to algorithm updates, scale SEO efforts, and achieve higher rankings with smarter, data-driven decisions.`,
+            By analyzing large datasets, we identify keyword opportunities, optimize content, enhance technical performance, and predict user behavior.`, 
+            `We do this to help our clients to adapt quickly to algorithm updates, scale SEO efforts, and achieve higher rankings with smarter, data-driven decisions.`,
           ],
         },
         {
@@ -802,8 +820,8 @@ export const SERVICES_DATA = {
           name: 'Local SEO',
           description: [
             `Our Local SEO helps businesses connect with customers in their immediate geographic area. 
-            It focuses on optimizing Google Business Profiles, local keywords, map listings, reviews, and citations to improve visibility in local search results. 
-            Our effective local SEO drives foot traffic, phone inquiries, and leads, making it essential for service-based and location-focused businesses. `,
+            It focuses on optimizing Google Business Profiles, local keywords, map listings, reviews, and citations to improve visibility in local search results.`, 
+            `Our effective local SEO drives foot traffic, phone inquiries, and leads, making it essential for service-based and location-focused businesses. `,
           ],
         },
         {
@@ -811,16 +829,16 @@ export const SERVICES_DATA = {
           name: 'National SEO',
           description: [
             `Our National SEO services are designed for businesses targeting audiences across an entire country. 
-            It involves competitive keyword targeting, authoritative content creation, strong backlink profiles, and optimized website architecture. 
-            This approach builds brand authority, increases nationwide search visibility, and delivers consistent organic traffic in highly competitive markets and industries.`,
+            It involves competitive keyword targeting, authoritative content creation, strong backlink profiles, and optimized website architecture.`, 
+            `This approach builds brand authority, increases nationwide search visibility, and delivers consistent organic traffic in highly competitive markets and industries.`,
           ],
         },
         {
           img: adairedHelp_icon_4,
           name: 'E-commerce SEO',
           description: [
-            `E-commerce SEO improves the visibility of online stores in search engines to drive qualified traffic and sales. It optimizes product pages, category structures, site speed, and user experience. 
-            We deploy a strong e-commerce SEO strategy that increases conversions, enhances discoverability, and supports long-term growth by reducing reliance on paid advertising. `,
+            `E-commerce SEO improves the visibility of online stores in search engines to drive qualified traffic and sales. It optimizes product pages, category structures, site speed, and user experience.`, 
+            `We deploy a strong e-commerce SEO strategy that increases conversions, enhances discoverability, and supports long-term growth by reducing reliance on paid advertising. `,
           ],
         },
       ],
@@ -1264,10 +1282,14 @@ export const SERVICES_DATA = {
     },
     benefitofAiSeo: {
       isVisible: true,
+      isDecVarticle: true,
+      isInCenter: false,
+      isBgWhite: false,
+      breakIndex: 6,
       activeDot: '#F28F17',
       inactiveDot: '#FFEACD',
       bgColor:
-        'bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0]/70 to-[#FFF8F0]/30',
+        'bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0]',
       textColor: '#FB9100',
       textBg: '#FFE6C380',
       borderColor: '#FB910040',
@@ -1484,7 +1506,7 @@ export const SERVICES_DATA = {
       description: [],
       list: [
         {
-          img: adairedHelp_4,
+          img: adairedHelpaiseo1,
           name: 'AI-First SEO Built For Modern Search',
           description: [
             `Adaired pursues an AI-first strategy of SEO, which is how today's search engines operate. The search trends, user intent, and the ranking changes are analysed and processed by our AI tools in real time. `,
@@ -1492,7 +1514,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_5,
+          img: adairedHelpaiseo2,
           name: 'SEO Focused on Real Business Growth',
           description: [
             'We don’t focus only on rankings. SEO at Adaired is meant to deliver actual performance, increased traffic, improved leads, and increased conversions. ',
@@ -1500,7 +1522,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_3,
+          img: adairedHelpaiseo3,
           name: 'Custom SEO Strategies, No Templates',
           description: [
             `Adaired never uses one-size-fits-all SEO plans. We develop tailor-made plans that suit your industry, your target market, competition, and objectives. `,
@@ -1508,7 +1530,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_2,
+          img: adairedHelpaiseo4,
           name: 'Content That Works for AI and People',
           description: [
             'We create our content in a way that meets the demands of search engines and actual users. AI helps us to interpret search intent and frame content properly, whereas our professionals make sure that it remains straightforward, practical, and comprehensible. ',
@@ -1516,7 +1538,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_1,
+          img: adairedHelpaiseo5,
           name: 'Proactive SEO That Stays Ahead of Changes',
           description: [
             `The search engines change constantly, and Adaired stays ahead of them. Our AI tracks performance changes, updates, and competitor activities in real time.`,
@@ -1524,7 +1546,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_6,
+          img: adairedHelpaiseo6,
           name: 'Clear Reporting and Complete Transparency',
           description: [
             'Adaired believes in honest communication. We provide simple, easy-to-follow reports that reveal what is working and what is not.  ',
@@ -1537,7 +1559,6 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '01',
       breakIndex: 7,
-      button: 'Get Your Free AI SEO Audit',
       heading:
         'AI SEO Solutions That Make Your Website Trusted by AI and Humans',
       description:
@@ -1550,8 +1571,7 @@ export const SERVICES_DATA = {
             `We provide ChatGPT SEO solutions made to be AI discoverable. We ensure your content appears as a reliable, cited, and recommended source in the search results produced by the AI.`,
             `Our strategy ensures cross-industry visibility, drives high-intent user engagement, and positions your content high in the AI search.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#74AA9C',
         },
 
@@ -1562,8 +1582,7 @@ export const SERVICES_DATA = {
             `Our Perplexity AI SEO service integrates the basics of SEO with answer-engine formatting to optimize your content for recognition, trust, and visibility with AI search engines. 
             Through the combination of structured responses and content accessible to the AI, we enhance authority, engagement, and discoverability. This helps your brand appear in high-intent searches in the AI-based search results.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#20808D',
         },
 
@@ -1574,8 +1593,7 @@ export const SERVICES_DATA = {
             `Our Gemini AI SEO services combine traditional SEO best practices with AI-first page structuring to make your content easily discoverable, cited, and trusted in Google's AI-powered Gemini search results.
             We ensure that your pages stand out as authoritative answers, boosting visibility, credibility, and user engagement in an increasingly AI-powered search landscape.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#2B99DE',
         },
 
@@ -1586,8 +1604,7 @@ export const SERVICES_DATA = {
             `Our Grok AI SEO helps to increase AI visibility, ensuring that insights are clear, authoritative, and easily discovered by Grok.
              With the help of our strategies, your brand gains citation, trust, and recognition, gaining authority in your industry and maximizing content to provide answers using AI, high-intent traffic, and meaningful engagement.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#000000',
         },
 
@@ -1598,8 +1615,7 @@ export const SERVICES_DATA = {
             `Being one of the leaders in Answer Engine Optimization, Adaired integrates search engine AI with SEO best practices to ensure your site is answerable on ChatGPT, Gemini, and Perplexity.
             We optimize content structure and relevance so that your pages gain recognition, credibility, and are continually surfaced by the AI-based search engines.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#1F66BE',
         },
 
@@ -1610,9 +1626,8 @@ export const SERVICES_DATA = {
             `Our Generative Engine Optimization services combine the basics of SEO with answer-based structuring, so that your content is easily found, cited, and surfaced by Gemini, Claude, and other AI engines.
             We position your brand as an authoritative source, boosting your visibility, trust, and engagement on AI-driven search engines, and optimize content to high-intent user search queries.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
-          btnColor: '#5F52B1',
+          button: 'Get Your Free AI SEO Audit',
+          btnColor: '#5F52B1', 
         },
       ],
     },
@@ -2026,10 +2041,13 @@ brand appears in AI summaries and citations.`,
     // NEW
     benefitofAiSeo: {
       isVisible: true,
+      isDecVarticle: false,
+      isBgWhite: true,
+      breakIndex: 6,
       activeDot: '#F28F17',
       inactiveDot: '#FFEACD',
       bgColor:
-        'bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0]/70 to-[#FFF8F0]/30',
+        'bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0]',
       textColor: '#FB9100',
       textBg: '#FFE6C380',
       borderColor: '#FB910040',
@@ -2098,8 +2116,8 @@ brand appears in AI summaries and citations.`,
             `Adaired’s citation-building service helps businesses establish consistent and accurate listings across trusted online directories. We make sure your business name, address, and phone number are consistent, which increases your local search visibility and credibility.`,
             `Powerful citations will boost the ranking of maps, increase brand awareness, and assist your customers in locating your business easily.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
+          btnColor: '#1A5A96',    
         },
 
         {
@@ -2109,8 +2127,8 @@ brand appears in AI summaries and citations.`,
             `We ensure quality placements on niche-specific blogs and publications with our guest posting. All the posts are value-based and have natural backlinks that enhance your domain authority.`,
             `Our attention is on the authentic outreach and editorial quality, which assist your brand in becoming visible, getting referral traffic, and achieving a sustainable change in SEO.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
+          btnColor: '#1A5A96',
         },
 
         {
@@ -2120,7 +2138,8 @@ brand appears in AI summaries and citations.`,
             `Adaired creates and distributes SEO-optimized press releases that amplify the news of your brand in the authoritative media. The service contributes to the creation of backlinks, spreading brand awareness, and creating targeted attention.`,
             `We professionally write our press releases to achieve credibility, reach, and measurable impact on your online presence.`,
           ],
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
+          btnColor: '#1A5A96',
         },
 
         {
@@ -2130,7 +2149,8 @@ brand appears in AI summaries and citations.`,
             `Our niche edit business establishes contextual backlinks on existing, old content on related sites. These links are natural and authoritative, and they convey good SEO value to your site.`,
             `Niche edits achieve better ranking and long-term link equity because they can be used to promote the existing page with its existing traffic and trust.`,
           ],
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
+          btnColor: '#1A5A96',
         },
 
         {
@@ -2140,11 +2160,10 @@ brand appears in AI summaries and citations.`,
             `Our article link building services involve creating, publishing and promoting high-quality content on relevant websites to earn backlinks, increase domain authority and boost search engine rankings. All these techniques serve as 'votes of confidence', signalling to search engines that your content is valuable, which increases page authority and rankings.`,
             `Consistent, high-quality links establish your website as a trusted, authoritative source in your niche.`,
           ],
-          linkHref: '#',
+          button: 'Get Your Free AI SEO Audit',
+          btnColor: '#1A5A96',
         },
       ],
-      button: 'Get Your Free AI SEO Audit',
-      btnColor: '#1A5A96',
     },
 
     serviceResult: {
@@ -2322,7 +2341,7 @@ brand appears in AI summaries and citations.`,
     // NEW
     whatMkeDeferent: {
       isVisible: true,
-      isVariant: '01',
+      isVariant: '02',
       isInCenter: true,
       bgColor: true,
       heading: 'What Makes Adaired Different From Our Competitors?',
@@ -2443,7 +2462,7 @@ brand appears in AI summaries and citations.`,
     // NEW
     whatMissing: {
       isVisible: true,
-      breakIndex: 5,
+      breakIndex: 7,
       bgColor: false,
       isInCenter: true,
       isVariant: '01',
@@ -2678,6 +2697,10 @@ brand appears in AI summaries and citations.`,
 
     benefitofAiSeo: {
       isVisible: true,
+      isDecVarticle: true,
+      isBgWhite: false,
+      isInCenter: false,
+      breakIndex: 3,
       activeDot: '#000000',
       inactiveDot: '#9DA0A3',
       bgColor: 'bg-[#FAFAFA]',
@@ -4177,7 +4200,7 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: true,
-      code: '07',
+      code: '08',
       img: whiteKeyStats,
       heading: 'Must-Know Facts About White Label Social Media',
       bgColor: '#FB9100',
@@ -4566,7 +4589,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isCode01: true,
       isVariant: '03',
-      breakIndex: 3,
+      breakIndex: 4,
       bgImg: whiteBookConsultationBg,
       img: whiteBuildLinkImg,
       heading: 'Ready to Expand Your Agency?',
@@ -4977,7 +5000,7 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: true,
-      code: '07',
+      code: '06',
       img: whiteSeoKeyStatsImg,
       heading: 'White Label SEO Insights',
       bgColor: '#000000',
@@ -5294,7 +5317,8 @@ brand appears in AI summaries and citations.`,
     serviceResult: {
       isVisible: true,
       breakIndex: 3,
-      bgColor: '#FFF8F0',
+      bgColor: 
+      'bg-gradient-to-b from-[#FFF8F0] to-[#FFFFFF]',
       isInCenter: false,
       heading: 'Common White Label SEO Use Cases',
       isVariant: '03',
@@ -5405,7 +5429,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isCode01: true,
       isVariant: '03',
-      breakIndex: 3,
+      breakIndex:4,
       bgImg: whiteBookConsultationBg,
       img: whiteSeoBuildLinkImg,
       heading: 'Ready to Offer SEO Without Building an In-House Team?',
@@ -6116,12 +6140,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       img: whiteServicesAdairedHelpImg,
       isInCenter: false,
+      breakIndex: 3,
       bgColor: '#FFFCF8',
       heading: `Work with Adaired's Agency-First White-Label Model`,
       description: [
         `Our white-label model is designed to reduce execution pressure while providing agencies with 
-        complete control over how services are positioned, priced, and presented to clients. 
-        Rather than providing generic outsourcing, we serve as a structured fulfillment layer that integrates with existing agency operations.`,
+        complete control over how services are positioned, priced, and presented to clients.`, 
+        `Rather than providing generic outsourcing, we serve as a structured fulfillment layer that integrates with existing agency operations.`,
       ],
       mainImage: whiteServicesAdairedHelpImg,
       list: [
@@ -7233,6 +7258,7 @@ brand appears in AI summaries and citations.`,
 
     adairedHelp: {
       isVisible: true,
+      breakIndex: 4,
       img: benefitsOfPPC,
       isInCenter: false,
       bgColor: '#FFFCF8',
@@ -10282,9 +10308,9 @@ brand appears in AI summaries and citations.`,
           title: 'How is B2B SaaS SEO different from traditional SEO?',
           description: [
             `B2B SaaS SEO involves longer sales cycles, multiple decision-makers, and significantly higher customer lifetime values compared to most industries.`,
-            `Unlike eCommerce or local SEO, SaaS strategies must target multiple funnel stages, from awareness to comparison and decision.`,
-            `It also requires deep competitor positioning, feature-level optimization, and content aligned with complex buying intent. 
-            The focus isn’t just traffic; it’s qualified pipeline and recurring revenue.`,
+            `Unlike eCommerce or local SEO, SaaS strategies must target multiple funnel stages, from awareness to comparison and decision.
+            It also requires deep competitor positioning, feature-level optimization, and content aligned with complex buying intent.`,
+            `The focus isn’t just traffic; it’s qualified pipeline and recurring revenue.`,
           ],
         },
         {
@@ -10300,8 +10326,8 @@ brand appears in AI summaries and citations.`,
           description: [
             `Yes. We work with both early-stage and established SaaS companies. 
             For startups, the focus is often on category positioning, long-tail opportunities, and building initial topical authority.`,
-            `For more mature SaaS brands, we concentrate on competitive gaps, scaling content clusters, and capturing high-intent comparison traffic. 
-            Strategy always adapts to the growth stage and goals.`,
+            `For more mature SaaS brands, we concentrate on competitive gaps, scaling content clusters, and capturing high-intent comparison traffic.`,
+            `Strategy always adapts to the growth stage and goals.`,
           ],
         },
         {
