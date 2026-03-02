@@ -194,11 +194,11 @@ import localImpIcon_8 from '../../../../../../public/assets/localseo/localImpIco
 
 // White Label Social Media Page Images
 import whiteKeyStats from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteKeyStats.png';
-import whiteWhatIs from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteWhatIs_1.png';
-import whiteStruggleBg from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteStruggleBg_1.png';
+import whiteWhatIs from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteWhatIs.png';
+import whiteStruggleBg from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteStruggleBg.png';
 import whiteBannerBg from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteBannerBg.png';
-import whiteBookConsultationBg from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteBookConsultationBg_1.png';
-import whiteBuildLinkImg from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteBuildLinkImg_1.png';
+import whiteBookConsultationBg from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteBookConsultationBg.png';
+import whiteBuildLinkImg from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteBuildLinkImg.png';
 
 import whiteImpIcon_1 from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteImpIcon_1.png';
 import whiteImpIcon_2 from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteImpIcon_2.png';
