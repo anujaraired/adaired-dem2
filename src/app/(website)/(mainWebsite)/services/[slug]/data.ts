@@ -168,70 +168,70 @@ import localImpIcon_7 from '../../../../../../public/assets/localseo/localImpIco
 import localImpIcon_8 from '../../../../../../public/assets/localseo/localImpIcon_8.png';
 
 // White Label Social Media Page Images
-import whiteKeyStats from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whiteKeyStats.png';
-import whiteWhatIs from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whiteWhatIs.png';
-import whiteStruggleBg from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whiteStruggleBg.png';
-import whiteBannerBg from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whiteBannerBg.png';
-import whiteAdairedHelpImg from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whiteAdairedHelpImg.png';
-import whiteBookConsultationBg from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whiteBookConsultationBg.png';
-import whiteBuildLinkImg from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whiteBuildLinkImg.png';
+import whiteKeyStats from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whiteKeyStats.png';
+import whiteWhatIs from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whiteWhatIs.png';
+import whiteStruggleBg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whiteStruggleBg.png';
+import whiteBannerBg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whiteBannerBg.png';
+import whiteAdairedHelpImg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whiteAdairedHelpImg.png';
+import whiteBookConsultationBg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whiteBookConsultationBg.png';
+import whiteBuildLinkImg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whiteBuildLinkImg.png';
 
-import whiteImpIcon_1 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whiteImpIcon_1.png';
-import whiteImpIcon_2 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whiteImpIcon_2.png';
-import whiteImpIcon_3 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whiteImpIcon_3.png';
-import whiteImpIcon_4 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whiteImpIcon_4.png';
-import whiteImpIcon_5 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whiteImpIcon_5.png';
-import whiteImpIcon_6 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whiteImpIcon_6.png';
+import whiteImpIcon_1 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whiteImpIcon_1.png';
+import whiteImpIcon_2 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whiteImpIcon_2.png';
+import whiteImpIcon_3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whiteImpIcon_3.png';
+import whiteImpIcon_4 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whiteImpIcon_4.png';
+import whiteImpIcon_5 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whiteImpIcon_5.png';
+import whiteImpIcon_6 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whiteImpIcon_6.png';
 
-import whatMkWhite_1 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whatMkWhite_1.png';
-import whatMkWhite_2 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whatMkWhite_2.png';
-import whatMkWhite_3 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whatMkWhite_3.png';
-import whatMkWhite_4 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whatMkWhite_4.png';
-import whatMkWhite_5 from '../../../../../../public/assets/whitelabel/whiteLabelSocialMedia/whatMkWhite_5.png';
+import whatMkWhite_1 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whatMkWhite_1.png';
+import whatMkWhite_2 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whatMkWhite_2.png';
+import whatMkWhite_3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whatMkWhite_3.png';
+import whatMkWhite_4 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whatMkWhite_4.png';
+import whatMkWhite_5 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/whatMkWhite_5.png';
 
 // White Label Seo Page Images
-import whiteSeoBannerBg from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoBannerBg.png';
-import whiteSeoKeyStatsImg from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoKeyStatsImg.png';
-import whiteSeoWhatIs from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoWhatIs.png';
-import whiteSeoBuildLinkImg from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoBuildLinkImg.png';
-import WhiteSeoServiceResultImg from '../../../../../../public/assets/whitelabel/whiteLabelSeo/WhiteSeoServiceResultImg.png';
+import whiteSeoBannerBg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whiteSeoBannerBg.png';
+import whiteSeoKeyStatsImg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whiteSeoKeyStatsImg.png';
+import whiteSeoWhatIs from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whiteSeoWhatIs.png';
+import whiteSeoBuildLinkImg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whiteSeoBuildLinkImg.png';
+import WhiteSeoServiceResultImg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/WhiteSeoServiceResultImg.png';
 
-import whatMkWhiteSeo_1 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_1.png';
-import whatMkWhiteSeo_2 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_2.png';
-import whatMkWhiteSeo_3 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_3.png';
-import whatMkWhiteSeo_4 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_4.png';
-import whatMkWhiteSeo_5 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_5.png';
-import whatMkWhiteSeo_6 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whatMkWhiteSeo_6.png';
+import whatMkWhiteSeo_1 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whatMkWhiteSeo_1.png';
+import whatMkWhiteSeo_2 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whatMkWhiteSeo_2.png';
+import whatMkWhiteSeo_3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whatMkWhiteSeo_3.png';
+import whatMkWhiteSeo_4 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whatMkWhiteSeo_4.png';
+import whatMkWhiteSeo_5 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whatMkWhiteSeo_5.png';
+import whatMkWhiteSeo_6 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whatMkWhiteSeo_6.png';
 
-import whiteSeoResult_1 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoResult_1.png';
-import whiteSeoResult_2 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoResult_2.png';
-import whiteSeoResult_3 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoResult_3.png';
-import whiteSeoResult_4 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoResult_4.png';
+import whiteSeoResult_1 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whiteSeoResult_1.png';
+import whiteSeoResult_2 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whiteSeoResult_2.png';
+import whiteSeoResult_3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whiteSeoResult_3.png';
+import whiteSeoResult_4 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whiteSeoResult_4.png';
 
 import whiteSeoResult_Icon_1 from '../../../../../../public/assets/white_label_SEO/Group 1000006517.svg';
 import whiteSeoResult_Icon_2 from '../../../../../../public/assets/white_label_SEO/Group 1000005912.svg';
 import whiteSeoResult_Icon_3 from '../../../../../../public/assets/white_label_SEO/Group 1000006524.svg';
 import whiteSeoResult_Icon_4 from '../../../../../../public/assets/white_label_SEO/Group 1000006522.svg';
 
-import whiteSeoImpIcon_1 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoImpIcon_1.png';
-import whiteSeoImpIcon_2 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoImpIcon_2.png';
-import whiteSeoImpIcon_3 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoImpIcon_3.png';
-import whiteSeoImpIcon_4 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoImpIcon_4.png';
-import whiteSeoImpIcon_5 from '../../../../../../public/assets/whitelabel/whiteLabelSeo/whiteSeoImpIcon_5.png';
+import whiteSeoImpIcon_1 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whiteSeoImpIcon_1.png';
+import whiteSeoImpIcon_2 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whiteSeoImpIcon_2.png';
+import whiteSeoImpIcon_3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whiteSeoImpIcon_3.png';
+import whiteSeoImpIcon_4 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whiteSeoImpIcon_4.png';
+import whiteSeoImpIcon_5 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whiteSeoImpIcon_5.png';
 
 // White Label Services Page Images
-import whiteServicesBannerBg from '../../../../../../public/assets/whitelabel/whiteLabelServices/whiteServicesBannerBg.png';
-import whiteServicesKeyStatsImg from '../../../../../../public/assets/whitelabel/whiteLabelServices/whiteServicesKeyStatsImg.png';
-import whiteServicesWhatIs from '../../../../../../public/assets/whitelabel/whiteLabelServices/whiteServicesWhatIs.png';
-import whiteServicesBuildLinkImg from '../../../../../../public/assets/whitelabel/whiteLabelServices/whiteServicesBuildLinkImg.png';
-import whiteServicesAdairedHelpImg from '../../../../../../public/assets/whitelabel/whiteLabelServices/whiteServicesAdairedHelpImg.png';
+import whiteServicesBannerBg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelServices/whiteServicesBannerBg.png';
+import whiteServicesKeyStatsImg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelServices/whiteServicesKeyStatsImg.png';
+import whiteServicesWhatIs from '../../../../../../public/assets/images/service/whitelabel/whiteLabelServices/whiteServicesWhatIs.png';
+import whiteServicesBuildLinkImg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelServices/whiteServicesBuildLinkImg.png';
+import whiteServicesAdairedHelpImg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelServices/whiteServicesAdairedHelpImg.png';
 
-import whiteServicesIncluded_1 from '../../../../../../public/assets/whitelabel/whiteLabelServices/whiteServicesIncluded_1.png';
-import whiteServicesIncluded_2 from '../../../../../../public/assets/whitelabel/whiteLabelServices/whiteServicesIncluded_2.png';
-import whiteServicesIncluded_3 from '../../../../../../public/assets/whitelabel/whiteLabelServices/whiteServicesIncluded_3.png';
-import whiteServicesIncluded_4 from '../../../../../../public/assets/whitelabel/whiteLabelServices/whiteServicesIncluded_4.png';
-import whiteServicesIncluded_5 from '../../../../../../public/assets/whitelabel/whiteLabelServices/whiteServicesIncluded_5.png';
-import whiteServicesIncluded_6 from '../../../../../../public/assets/whitelabel/whiteLabelServices/whiteServicesIncluded_6.png';
+import whiteServicesIncluded_1 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelServices/whiteServicesIncluded_1.png';
+import whiteServicesIncluded_2 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelServices/whiteServicesIncluded_2.png';
+import whiteServicesIncluded_3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelServices/whiteServicesIncluded_3.png';
+import whiteServicesIncluded_4 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelServices/whiteServicesIncluded_4.png';
+import whiteServicesIncluded_5 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelServices/whiteServicesIncluded_5.png';
+import whiteServicesIncluded_6 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelServices/whiteServicesIncluded_6.png';
 
 //PPC Images
 import PPC_Banner from '../../../../../../public/assets/images/PPCimg/PPC_Banner.png';
@@ -250,41 +250,41 @@ import ppcImpIcon_8 from '../../../../../../public/assets/images/PPCimg/ppcImpIc
 import ppcImpIcon_9 from '../../../../../../public/assets/images/PPCimg/ppcImpIcon_9.png';
 
 // White Label Paid Ads Images
-import whitePaidAdsBannerBg from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsBannerBg.png';
-import whiteWhatIsImg from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whiteWhatIsImg.png';
-import whitePaidAdsBuildLinkImg from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsBuildLinkImg.png';
-import whitePaidAdsAdairedHelpImg from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsAdairedHelpImg.png';
+import whitePaidAdsBannerBg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/whitePaidAdsBannerBg.png';
+import whiteWhatIsImg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/whiteWhatIsImg.png';
+import whitePaidAdsBuildLinkImg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/whitePaidAdsBuildLinkImg.png';
+import whitePaidAdsAdairedHelpImg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/whitePaidAdsAdairedHelpImg.png';
 
-import whitePaidAdsMissing_1 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsMissing_1.png';
-import whitePaidAdsMissing_2 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsMissing_2.png';
-import whitePaidAdsMissing_3 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsMissing_3.png';
+import whitePaidAdsMissing_1 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/whitePaidAdsMissing_1.png';
+import whitePaidAdsMissing_2 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/whitePaidAdsMissing_2.png';
+import whitePaidAdsMissing_3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/whitePaidAdsMissing_3.png';
 
-import whitePaidAdsImpIcon_1 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_1.png';
-import whitePaidAdsImpIcon_2 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_2.png';
-import whitePaidAdsImpIcon_3 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_3.png';
-import whitePaidAdsImpIcon_4 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_4.png';
-import whitePaidAdsImpIcon_5 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_5.png';
-import whitePaidAdsImpIcon_6 from '../../../../../../public/assets/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_6.png';
+import whitePaidAdsImpIcon_1 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_1.png';
+import whitePaidAdsImpIcon_2 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_2.png';
+import whitePaidAdsImpIcon_3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_3.png';
+import whitePaidAdsImpIcon_4 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_4.png';
+import whitePaidAdsImpIcon_5 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_5.png';
+import whitePaidAdsImpIcon_6 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/whitePaidAdsImpIcon_6.png';
 
 // White Label Link Building Images
-import whiteLinkBuildingBannerBg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingBannerBg.png';
-import whiteLinkBuildingKeyStatsImg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingKeyStatsImg.png';
-import whiteLinkBuildingWhatIsImg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatIsImg.png';
-import whiteLinkBuildingBuildLinkImg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingBuildLinkImg.png';
-import whiteLinkBuildingBookConsultationBg from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingBookConsultationBg.png';
+import whiteLinkBuildingBannerBg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingBannerBg.png';
+import whiteLinkBuildingKeyStatsImg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingKeyStatsImg.png';
+import whiteLinkBuildingWhatIsImg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatIsImg.png';
+import whiteLinkBuildingBuildLinkImg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingBuildLinkImg.png';
+import whiteLinkBuildingBookConsultationBg from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingBookConsultationBg.png';
 
-import whiteLinkBuildingImpIcon_1 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_1.png';
-import whiteLinkBuildingImpIcon_2 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_2.png';
-import whiteLinkBuildingImpIcon_3 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_3.png';
-import whiteLinkBuildingImpIcon_4 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_4.png';
-import whiteLinkBuildingImpIcon_5 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_5.png';
-import whiteLinkBuildingImpIcon_6 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_6.png';
+import whiteLinkBuildingImpIcon_1 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_1.png';
+import whiteLinkBuildingImpIcon_2 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_2.png';
+import whiteLinkBuildingImpIcon_3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_3.png';
+import whiteLinkBuildingImpIcon_4 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_4.png';
+import whiteLinkBuildingImpIcon_5 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_5.png';
+import whiteLinkBuildingImpIcon_6 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_6.png';
 
-import whiteLinkBuildingWhatMkDiffImg_1 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_1.png';
-import whiteLinkBuildingWhatMkDiffImg_2 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_2.png';
-import whiteLinkBuildingWhatMkDiffImg_3 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_3.png';
-import whiteLinkBuildingWhatMkDiffImg_4 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_4.png';
-import whiteLinkBuildingWhatMkDiffImg_5 from '../../../../../../public/assets/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_5.png';
+import whiteLinkBuildingWhatMkDiffImg_1 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_1.png';
+import whiteLinkBuildingWhatMkDiffImg_2 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_2.png';
+import whiteLinkBuildingWhatMkDiffImg_3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_3.png';
+import whiteLinkBuildingWhatMkDiffImg_4 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_4.png';
+import whiteLinkBuildingWhatMkDiffImg_5 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatMkDiffImg_5.png';
 
 
 // SAAS Seo Images
