@@ -119,7 +119,7 @@ const WhatMissing = ({ whatMissing }: any) => {
                   <h3 className="py-[1rem]">{card.title}</h3>
                   <div className="space-y-4">
                     {card.description.map((text: string, i: number) => (
-                      <p key={i} className="leading-relaxed">
+                      <p key={i} className="leading-relaxed text-left">
                         {text}
                       </p>
                     ))}
@@ -141,6 +141,7 @@ const WhatMissing = ({ whatMissing }: any) => {
                 isBgWhite={true}
                 isBorder={true}
                 isIcon={true}
+                isBold={true}
                 handleClick={() => setOpen(!open)}
                 className="pt-[1rem]"
               />
