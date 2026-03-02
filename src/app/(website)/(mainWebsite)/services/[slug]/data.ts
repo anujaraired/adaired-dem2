@@ -1020,17 +1020,20 @@ export const SERVICES_DATA = {
           bgColor: '#E1F2E2',
           rating: 5,
         },
-
         {
           title: 'What is your measure of SEO success?',
-          description: 'To measure SEO success, we follow such metrics as:',
-          list: [
-            'Organic traffic growth',
-            'Keyword rankings',
-            'Conversion rates',
-            'Click-through rates (CTR)',
-            'Bounce rate and engagement',
-            'Organic search leads or sales made.',
+          description: [
+            'To measure SEO success, we follow such metrics as:',
+            {
+              list: [
+                'Organic traffic growth',
+                'Keyword rankings',
+                'Conversion rates',
+                'Click-through rates (CTR)',
+                'Bounce rate and engagement',
+                'Organic search leads or sales made.',
+              ],
+            },
           ],
           bgColor: '#E1F2E2',
           rating: 5,
@@ -2500,7 +2503,7 @@ brand appears in AI summaries and citations.`,
       isCenter: true,
       isHoverBgBlue: true,
       subtitle: '',
-      breakIndex:3,
+      breakIndex: 3,
       title:
         'Maximize Your Online Presence With The Best Link Building Services',
       button: 'Get Started Now',
