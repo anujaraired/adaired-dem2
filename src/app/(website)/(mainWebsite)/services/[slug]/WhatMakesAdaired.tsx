@@ -49,8 +49,8 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
                 <div className={`order-1 flex w-[100%] justify-center justify-items-center rounded-[20px] p-8 lg:order-2 lg:w-[40%] ${shouldUseOrange ? 'bg-[#FFF2DF]' : 'bg-[#F3F3F3]'
                   }`}>
                   {/* <div className='relative lg:w-[525px] lg:h-[334px]'> */}
-                  <div className="relative w-full max-w-[525px] aspect-[525/334]">
-                    <Image src={item?.img} alt="if" fill className="object-contain" />
+                  <div className="relative w-full max-w-[525px] aspect-[525/334] ">
+                    <Image src={item?.img} alt="if" fill className="object-contain transition-transform duration-300 ease-out hover:scale-110" />
                   </div>
                 </div>
               </div>
