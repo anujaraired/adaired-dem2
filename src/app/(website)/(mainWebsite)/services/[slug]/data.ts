@@ -193,14 +193,12 @@ import localImpIcon_7 from '../../../../../../public/assets/localseo/localImpIco
 import localImpIcon_8 from '../../../../../../public/assets/localseo/localImpIcon_8.png';
 
 // White Label Social Media Page Images
-import whiteKeyStats from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteKeyStats.png';
-import whiteWhatIs from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteWhatIs.png';
-
-import whiteStruggleBg from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteStruggleBg.png';
+import whiteKeyStats from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteKeyStats.png';
+import whiteWhatIs from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteWhatIs_1.png';
+import whiteStruggleBg from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteStruggleBg_1.png';
 import whiteBannerBg from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteBannerBg.png';
-import whiteAdairedHelpImg from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteAdairedHelpImg.png';
-import whiteBookConsultationBg from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteBookConsultationBg.png';
-import whiteBuildLinkImg from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteBuildLinkImg.png';
+import whiteBookConsultationBg from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteBookConsultationBg_1.png';
+import whiteBuildLinkImg from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteBuildLinkImg_1.png';
 
 import whiteImpIcon_1 from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteImpIcon_1.png';
 import whiteImpIcon_2 from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSocialMedia/whiteImpIcon_2.png';
