@@ -6,7 +6,7 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import imgCorner from '../../../../../../public/assets/images/authLinkBuilding.png';
 import Mask from '../../../../../../public/assets/images/home/Mask group.png';
 
-import imgcornerReverse from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSeo/whiteLabelNeedImg.png';
+import imgcornerReverse from '../../../../../../public/assets/images/services/whitelabel/whiteLabelSeo/whiteLabelNeedImg.png';
 
 const NeedOfAdaired = ({ needOfService }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
