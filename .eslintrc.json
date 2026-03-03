@@ -4,10 +4,8 @@
     "next/typescript"
   ],
   "rules": {
-    // "no-undef": "error",
     "no-unused-vars": "warn",
     "no-duplicate-imports": "warn",
-    // "import/no-unresolved": "error",
     "react/react-in-jsx-scope": "off",
     "react/no-unknown-property": "error"
   }
