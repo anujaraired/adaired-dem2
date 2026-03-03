@@ -371,7 +371,7 @@ export const SERVICES_DATA = {
       description:
         'Top-rated SEO company in India delivering higher rankings, organic traffic, and real growth for businesses in the USA, UK, UAE, Canada and Australia.',
       alternates: {
-        canonical: '/seo-company-india',
+        canonical: '/services/seo-company-india',
       },
     },
     banner: {
@@ -1163,7 +1163,7 @@ export const SERVICES_DATA = {
       description:
         'LLM-driven AI SEO services in India for ChatGPT, Gemini and Google AI Overviews to enhance search visibility, rankings, and long-term organic performance.',
       alternates: {
-        canonical: '/ai-seo-company-india',
+        canonical: '/services/ai-seo-company-india',
       },
     },
     banner: {
@@ -1908,7 +1908,7 @@ brand appears in AI summaries and citations.`,
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/seo-company-india',
+        canonical: '/services/link-building-services-india',
       },
     },
     banner: {
@@ -2582,7 +2582,7 @@ brand appears in AI summaries and citations.`,
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/seo-company-india',
+        canonical: '/services/web-design-development-company',
       },
     },
     banner: {
@@ -3216,7 +3216,7 @@ brand appears in AI summaries and citations.`,
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/seo-company-india',
+        canonical: '/services/local-seo-company-india',
       },
     },
 
@@ -4180,7 +4180,7 @@ brand appears in AI summaries and citations.`,
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/seo-company-india',
+        canonical: '/services/social-media-outsourcing-india',
       },
     },
     banner: {
@@ -4958,7 +4958,7 @@ brand appears in AI summaries and citations.`,
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/seo-company-india',
+        canonical: '/services/seo-outsourcing-india',
       },
     },
     banner: {
@@ -5902,7 +5902,7 @@ brand appears in AI summaries and citations.`,
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/seo-company-india',
+        canonical: '/services/white-label-agency-india',
       },
     },
     banner: {
@@ -6916,7 +6916,7 @@ brand appears in AI summaries and citations.`,
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/seo-company-india',
+        canonical: '/services/paid-media-and-advertising',
       },
     },
     banner: {
@@ -7931,7 +7931,7 @@ brand appears in AI summaries and citations.`,
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/seo-company-india',
+        canonical: '/services/white-label-paid-ads',
       },
     },
     banner: {
@@ -8967,7 +8967,7 @@ brand appears in AI summaries and citations.`,
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/seo-company-india',
+        canonical: '/services/white-label-link-building',
       },
     },
     banner: {
@@ -9885,7 +9885,7 @@ brand appears in AI summaries and citations.`,
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/seo-company-india',
+        canonical: '/services/saas-seo-india',
       },
     },
     banner: {
