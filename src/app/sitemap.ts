@@ -63,7 +63,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     const [servicesRes, caseStudiesRes, blogsRes] = await Promise.all([
       fetch(`${backendApiUri}/service/getServices`, { cache: 'no-store' }),
       fetch(`${backendApiUri}/case-study/read`, { cache: 'no-store' }),
-      fetch(`${backendApiUri}/blog/read?status=publish`, { cache: 'no-store' }),
+      fetch(`${backendApiUri}/blog/get`, { cache: 'no-store' }),
     ]);
     // ---------------------
     // Parse safely
@@ -123,6 +123,45 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     // ---------------------
     // Static paths
     // ---------------------
+    // const staticPaths: MetadataRoute.Sitemap = [
+    //   {
+    //     url: `${siteUri}/`,
+    //     lastModified: new Date(),
+    //     changeFrequency: 'weekly',
+    //     priority: 1,
+    //   },
+    //   {
+    //     url: `${siteUri}/about`,
+    //     lastModified: new Date('2024-06-24'),
+    //     changeFrequency: 'weekly',
+    //     priority: 1,
+    //   },
+    //   {
+    //     url: `${siteUri}/career`,
+    //     lastModified: new Date('2024-06-24'),
+    //     changeFrequency: 'monthly',
+    //     priority: 0.5,
+    //   },
+    //   {
+    //     url: `${siteUri}/case-studies`,
+    //     lastModified: new Date('2024-06-24'),
+    //     changeFrequency: 'weekly',
+    //     priority: 0.5,
+    //   },
+    //   {
+    //     url: `${siteUri}/blog`,
+    //     lastModified: new Date('2024-06-24'),
+    //     changeFrequency: 'weekly',
+    //     priority: 0.65,
+    //   },
+    //   {
+    //     url: `${siteUri}/contact`,
+    //     lastModified: new Date('2024-06-24'),
+    //     changeFrequency: 'weekly',
+    //     priority: 0.5,
+    //   },
+    // ];
+
     const staticPaths: MetadataRoute.Sitemap = [
       {
         url: `${siteUri}/`,
@@ -160,6 +199,218 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         changeFrequency: 'weekly',
         priority: 0.5,
       },
+
+      // =========================
+      // SERVICES
+      // =========================
+
+      // Main Categories
+      {
+        url: `${siteUri}/services/web-design-development-company`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+      {
+        url: `${siteUri}/services/seo-company-india`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+      {
+        url: `${siteUri}/services/strategic-social-media-management`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+      {
+        url: `${siteUri}/services/digital-creative-and-logo-design`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+      {
+        url: `${siteUri}/services/paid-media-and-advertising`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+      {
+        url: `${siteUri}/services/expert-content-solutions`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+
+      // Web Development
+      {
+        url: `${siteUri}/services/wordpress-development`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+      {
+        url: `${siteUri}/services/custom-web-development`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+      {
+        url: `${siteUri}/services/woocommerce`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+      {
+        url: `${siteUri}/services/shopify-development`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+      {
+        url: `${siteUri}/services/php-development`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+      {
+        url: `${siteUri}/services/laravel-development`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+      {
+        url: `${siteUri}/services/web-development-company-usa`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 1,
+      },
+
+      // SEO
+      {
+        url: `${siteUri}/services/technical-seo-analysis`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+      {
+        url: `${siteUri}/services/online-reputation-management`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+      {
+        url: `${siteUri}/services/competitor-backlink-outreach`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+      {
+        url: `${siteUri}/services/guest-post-outreach`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+      {
+        url: `${siteUri}/services/on-page-and-off-page-optimization`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+      {
+        url: `${siteUri}/services/local-seo`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+      {
+        url: `${siteUri}/services/seo-company-usa`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 1,
+      },
+
+      // Social Media
+      {
+        url: `${siteUri}/services/social-media-optimization`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+      {
+        url: `${siteUri}/services/social-media-marketing`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+
+      // =========================
+      // WHITE LABEL
+      // =========================
+
+      {
+        url: `${siteUri}/services/white-label-agency-india`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+      {
+        url: `${siteUri}/services/seo-outsourcing-india`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+      {
+        url: `${siteUri}/services/social-media-outsourcing-india`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+      {
+        url: `${siteUri}/services/white-label-paid-ads`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+      {
+        url: `${siteUri}/services/white-label-link-building`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+
+      // AI SEO
+      {
+        url: `${siteUri}/services/ai-seo-company-india`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+
+      // SaaS SEO (nested)
+      // {
+      //   url: `${siteUri}/services/ai-seo-company-india`,
+      //   lastModified: new Date(),
+      //   changeFrequency: 'weekly',
+      //   priority: 0.9,
+      // },
+
+      // Local SEO Company India
+      {
+        url: `${siteUri}/services/local-seo-company-india`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+
+      // Link Building Services India
+      {
+        url: `${siteUri}/services/link-building-services-india`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+
     ];
 
     // ---------------------

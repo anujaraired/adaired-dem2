@@ -72,11 +72,11 @@ const ContactCards = () => {
   return (
     <div className="py-12">
       <MaxWidthWrapper>
-        <div className="grid grid-cols-1 gap-20 md:grid-cols-3 md:gap-6">
+        <div className="grid grid-cols-1 gap-[4rem] lg:grid-cols-3 lg:gap-6">
 
           {/* Card 1 */}
-          <div className="relative rounded-xl bg-[#F9FCFF] p-6 pt-16 text-center">
-            <div className="absolute -top-8 left-1/2 flex h-20 w-20 -translate-x-1/2 mb-16 items-center justify-center rounded-full bg-[#1b5b97]">
+          <div className="relative rounded-xl bg-[#F9FCFF] flex flex-col items-center justify-center pt-[5rem] pb-[2rem] px-[1rem] lg:px-[2rem]">
+            <div className="absolute -top-8 left-1/2 -translate-x-1/2 h-[77px] w-[77px] lg:h-[88px] lg:w-[88px] flex items-center justify-center rounded-full bg-[#1b5b97]">
               <Link
                 href="https://maps.app.goo.gl/CEMtUbQd1246YQ3c7"
                 target="_blank"
@@ -85,22 +85,21 @@ const ContactCards = () => {
                 <Icons.Map className="h-9 w-9 text-white" />
               </Link>
             </div>
-            <p>
+
+            <p className='text-center font-semibold'>
               <Link
                 href="https://maps.app.goo.gl/CEMtUbQd1246YQ3c7"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-semibold"
               >
-                B-509, 5th Floor, Bestech Business Towers, Sector 66, SAS Nagar,
-                Punjab 160066
+                B-509, 5th Floor, Bestech Business Towers, Sector 66, SAS Nagar, Punjab 160066
               </Link>
             </p>
           </div>
 
           {/* Card 2 */}
-          <div className="relative rounded-xl bg-[#F9FCFF] p-6 pt-16 text-center">
-            <div className="absolute -top-8 left-1/2 flex h-20 w-20 -translate-x-1/2 items-center justify-center rounded-full bg-[#1b5b97]">
+          <div className="relative rounded-xl bg-[#F9FCFF] flex flex-col items-center justify-center pt-[5rem] pb-[2rem] px-[1rem] lg:px-[2rem]">
+            <div className="absolute -top-8 left-1/2 -translate-x-1/2 h-[77px] w-[77px] lg:h-[88px] lg:w-[88px] flex items-center justify-center rounded-full bg-[#1b5b97]">
               <Link
                 href="tel:+91-8907200008"
                 target="_blank"
@@ -110,30 +109,33 @@ const ContactCards = () => {
               </Link>
             </div>
 
-            <p>Need assistance? Call us at</p>
-
-            <Link
-              href="tel:+91-8907200008"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block font-semibold text-[#6694FF]"
-            >
-              +91-89072 00008
-            </Link>
-            <br />
-            <Link
-              href="tel:+91-8907300008"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block font-semibold text-[#6694FF]"
-            >
-              +91-89073 00008
-            </Link>
+            <p className='text-center font-semibold'>
+              Need assistance? Call us at <br />
+              <Link
+                href="tel:+91-8907200008"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-[#6694FF]"
+              >
+                +91-89072 00008 {' '}
+              </Link>
+              <span className='text-black inline-block font-bold'>(HR)</span>
+              <br />
+              <Link
+                href="tel:+91-8907300008"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-semibold text-[#6694FF]"
+              >
+                +91-89073 00008 {' '}
+              </Link>
+              <span className='text-black inline-block font-bold'>(SALES)</span>
+            </p>
           </div>
 
           {/* Card 3 */}
-          <div className="relative rounded-xl bg-[#F9FCFF] p-6 pt-16 text-center">
-            <div className="absolute -top-8 left-1/2 flex h-20 w-20 -translate-x-1/2 items-center justify-center rounded-full bg-[#1b5b97]">
+          <div className="relative rounded-xl bg-[#F9FCFF] flex flex-col items-center justify-center pt-[5rem] pb-[2rem] px-[1rem] lg:px-[2rem]">
+            <div className="absolute -top-8 left-1/2 -translate-x-1/2 h-[77px] w-[77px] lg:h-[88px] lg:w-[88px] flex items-center justify-center rounded-full bg-[#1b5b97]">
               <Link
                 href="mailto:info@adaired.com?subject=Adaired Support&body=Hi Adaired Team,"
                 target="_blank"
@@ -143,34 +145,34 @@ const ContactCards = () => {
               </Link>
             </div>
 
-            <p>
-              General Inquiries -{' '}
+            <p className='font-semibold flex gap-2'>
+              General Inquiries -
               <Link
                 href="mailto:info@adaired.com?subject=Adaired Support&body=Hi Adaired Team,"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block font-semibold"
+                className="text-[#6694FF] font-semibold inline-block"
               >
-                <span className="text-[#6694FF]">info@adaired.com</span>
+                info@adaired.com
               </Link>
             </p>
 
-            <p>
-              HR Department -{' '}
+            <p className='font-semibold flex gap-2'>
+              HR Department -
               <Link
                 href="mailto:hr@adaired.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block font-semibold"
+                className="text-[#6694FF] font-semibold inline-block"
               >
-                <span className="text-[#6694FF]">hr@adaired.com</span>
+                hr@adaired.com
               </Link>
             </p>
           </div>
 
         </div>
-      </MaxWidthWrapper>
-    </div>
+      </MaxWidthWrapper >
+    </div >
 
 
     // OLD CODE
