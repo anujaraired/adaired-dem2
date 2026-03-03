@@ -62,8 +62,6 @@ async function getBlogs() {
 const Blog = async () => {
   const data = await getBlogs();
 
-  console.log(data.slice(0, 1), 'data>>>>qaw');
-
   return (
     <>
       <PageBanner subTitle={'Latest'} title="BLOGS" />
