@@ -11,6 +11,32 @@ import step_2 from '../../../../../../public/assets/aiseo/process/Group 10000058
 import step_3 from '../../../../../../public/assets/aiseo/process/Group 1000005847.svg';
 import step_4 from '../../../../../../public/assets/aiseo/process/Group 1000005848.svg';
 import step_5 from '../../../../../../public/assets/aiseo/process/Group 1000005849.svg';
+import step3 from '../../../../../../public/assets/seo/process/step3.svg';
+import step4 from '../../../../../../public/assets/seo/process/step4.svg';
+import step6 from '../../../../../../public/assets/seo/process/step6.svg';
+
+import stepSaas1 from '../../../../../../public/assets/saasSeo/step1.svg';
+import stepSaas2 from '../../../../../../public/assets/saasSeo/step2.svg';
+import stepSaas3 from '../../../../../../public/assets/saasSeo/step3.svg';
+import stepSaas4 from '../../../../../../public/assets/saasSeo/step4.svg';
+import stepSaas5 from '../../../../../../public/assets/saasSeo/step5.svg';
+import stepSaas6 from '../../../../../../public/assets/saasSeo/step6.svg';
+import steplocalseo1 from '../../../../../../public/assets/localseo/step1.svg';
+import steplocalseo2 from '../../../../../../public/assets/localseo/step2.svg';
+import steplocalseo3 from '../../../../../../public/assets/localseo/step3.svg';
+import steplocalseo4 from '../../../../../../public/assets/localseo/step4.svg';
+import steplocalseo5 from '../../../../../../public/assets/localseo/step5.svg';
+import steplocalseo6 from '../../../../../../public/assets/localseo/step6.svg';
+import steplinkbuild1 from '../../../../../../public/assets/localseo/step6.svg';
+import steplinkbuild2 from '../../../../../../public/assets/localseo/step6.svg';
+import steplinkbuild3 from '../../../../../../public/assets/localseo/step6.svg';
+import steplinkbuild4 from '../../../../../../public/assets/localseo/step6.svg';
+import steplinkbuild5 from '../../../../../../public/assets/localseo/step6.svg';
+import steplinkbuild6 from '../../../../../../public/assets/localseo/step6.svg';
+import steplinkbuild7 from '../../../../../../public/assets/localseo/step6.svg';
+
+
+
 import NotSeeingResultsBg from '../../../../../../public/assets/NotSeeingResultsBg.png';
 import NotSeeingResultsBg2 from '../../../../../../public/assets/NotSeeingResultsBg2.png';
 import leadingToolsImg from '../../../../../../public/assets/leadingTools.png';
@@ -616,12 +642,12 @@ export const SERVICES_DATA = {
     },
     ourProcess: {
       isVisible: true,
-      breakIndex: 7,
+      breakIndex: 8,
       isInCenter: true,
       title: 'Our Proven SEO Process That SEO Drives Both Traffic & Revenue',
       services: [
         {
-          icon: step,
+          icon: step3,
           title: 'Website Analysis and Audit',
           description: [
             `We begin the SEO process with a thorough website analysis and audit. This includes reviewing site structure, technical performance, content quality, and existing search rankings.`,
@@ -630,7 +656,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: step_2,
+          icon: step3,
           title: 'Keyword Research and Strategy Planning',
           description: [
             `In keyword research, we determine the keywords your target audience is searching for to find products, services, or information. This step analyzes search volume, competition, and user intent.`,
@@ -639,7 +665,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: step_3,
+          icon: step3,
           title: 'On-Page and Technical Optimization',
           description: [
             `Under on-page and technical SEO improvements, we make your website more accessible and understandable for search engines.`,
@@ -649,7 +675,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: step_4,
+          icon: step4,
           title: 'Content Enhancement and Creation',
           description: [
             `Optimizing and creating content is a core part of the SEO process. We improve existing pages to better match target keywords, while new content is being created to fill gaps.`,
@@ -658,7 +684,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: step_5,
+          icon: step6,
           title: 'Link Building and Authority Growth',
           description: [
             `Building high-quality backlinks strengthens a website’s authority and trustworthiness in the eyes of search engines.`,
@@ -667,7 +693,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: step_3,
+          icon: step6,
           title: 'Monitoring, Reporting, and Optimization',
           description: [
             `SEO is an ongoing process that requires continuous monitoring and refinement. Performance metrics, including traffic, rankings, and user behavior, are regularly tracked and analyzed. `,
@@ -1636,6 +1662,8 @@ export const SERVICES_DATA = {
     },
     ourProcess: {
       isVisible: true,
+      isInCenter: true,
+      breakIndex: 7,
       subtitle: 'Our Process',
       title: 'Our Comprehensive AI Process to Make Your Brand Stand Out',
       span: '',
@@ -2402,6 +2430,8 @@ brand appears in AI summaries and citations.`,
     // NEW
     ourProcess: {
       isVisible: true,
+      isInCenter: true,
+      breakIndex: 6,
       subtitle: 'Our Process',
       title:
         'Our Strategic Link Building Process Focused On Building Lasting Authority',
@@ -3048,10 +3078,14 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
+      isInCenter: false,
+      // breakIndex: 4,
       subtitle: 'Our Process',
       title: 'The Web Design and Development Process That We Follow At Adaired',
       span: '',
-      description: ``,
+      description: [`The web design and development process at Adaired adheres to a strategic, transparent, and results-oriented mechanism that will see to it that all projects generate measurable business value.`,
+        `We are a creative, technology-driven, user-centered design solution that enables brands to grow through scalable digital solutions.`
+      ],
       services: [
         {
           icon: step,
@@ -3573,13 +3607,15 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
+      isInCenter: true,
+      breakIndex: 3,
       subtitle: 'Our Process',
       title: 'Our Performance-Focused Local SEO Strategy',
       span: '',
       description: ``,
       services: [
         {
-          icon: step,
+          icon: steplocalseo1,
           title: 'Local SEO Audit & Market Analysis',
           description: [
             `Our first step is to do a comprehensive Local SEO audit to review your site, Google Business profile, citations, reviews, and competitors. 
@@ -3588,7 +3624,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step_2,
+          icon: steplocalseo2,
           title: 'Local SEO Strategy Development',
           description: [
             `Using the insights of the audit, we create a data-driven Local SEO strategy that targets your industry, location, and customer behavior. 
@@ -3597,7 +3633,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step_3,
+          icon: steplocalseo3,
           title: 'Website & On-Page Local Optimization',
           description: [
             `We configure your site to be more locally relevant by enhancing meta tags, content, headings, internal links and location specific pages. 
@@ -3606,7 +3642,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step_4,
+          icon: steplocalseo4,
           title: 'Google Business Profile & Listings Optimization',
           description: [
             `We also optimize your Google Business Profile and local listings to increase your visibility on Google maps and on local search results. 
@@ -3615,7 +3651,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step_5,
+          icon: steplocalseo5,
           title: 'Local Citations, Reviews & Authority Building',
           description: [
             `We empower your local authority through the creation of correct citations, review management and local backlinks. 
@@ -3624,7 +3660,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step_5,
+          icon: steplocalseo6,
           title: 'Monitoring, Reporting & Continuous Optimization',
           description: [
             `Local search optimization is a process. We continuously monitor rankings, traffic and conversions and optimize strategies based on performance data. 
@@ -3634,7 +3670,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step_5,
+          icon: steplocalseo6,
           title: 'Maintenance & Continuous Support',
           description: [
             `The relationship does not stop with the launch.`,
@@ -4400,6 +4436,8 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
+      isInCenter: true,
+      breakIndex: 6,
       subtitle: 'Our Process',
       title: 'How Our White Label Social Media Management Works',
       span: '',
@@ -5989,6 +6027,8 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
+      isInCenter: true,
+      breakIndex: 3,
       subtitle: 'Our Process',
       title: 'How Adaired’s White-Label Model Works',
       span: '',
@@ -7001,10 +7041,14 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
+      isInCenter: false,
+      breakIndex: 3,
       subtitle: 'Our Process',
       title: 'How Pay-Per-Click Advertising Works',
       span: 'Here’s a detailed breakdown of how the entire system works:',
-      description: `PPC advertising operates through a real-time auction system that determines which ads appear in search results, in what position, and at what cost. Unlike traditional advertising, where you pay for exposure, PPC ensures you only pay when a user actively engages with your ad.`,
+      description: [`PPC advertising operates through a real-time auction system that determines which ads appear in search results, in what position, and at what cost. Unlike traditional advertising, where you pay for exposure, PPC ensures you only pay when a user actively engages with your ad.`,
+        `Here’s a detailed breakdown of how the entire system works:`
+      ],
       services: [
         {
           icon: step,
@@ -8380,6 +8424,8 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
+      isInCenter: false,
+      breakIndex: 3,
       subtitle: 'Our Process',
       title: 'How Our White-Label Digital Marketing Agency Works',
       span: 'Here’s a detailed breakdown of how the entire system works:',
@@ -9058,6 +9104,8 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
+      isInCenter: false,
+      breakIndex: 4,
       subtitle: 'Our Process',
       title: 'How White Label Link Building Works with Adaired Digital Media',
       span: 'Here’s a detailed breakdown of how the entire system works:',
@@ -10059,6 +10107,8 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
+      isInCenter: false,
+      breakIndex: 4,
       subtitle: 'Our Process',
       title: 'The Growth Framework Behind Our SaaS SEO',
       span: '',
@@ -10067,7 +10117,7 @@ brand appears in AI summaries and citations.`,
       ],
       services: [
         {
-          icon: step,
+          icon: stepSaas1,
           title: 'Deep Market & Competitor Research',
           description: [
             `Every successful SaaS SEO strategy begins with understanding your market. We analyze your category landscape, competitors, positioning, pricing model, and ICP behavior.`,
@@ -10076,7 +10126,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepSaas2,
           title: 'Revenue-Focused Keyword Mapping',
           description: [
             `We map keywords to revenue, not just traffic. Our team identifies commercial, comparison, integration, and solution-based queries aligned with your sales funnel.`,
@@ -10085,7 +10135,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepSaas3,
           title: 'Content & Technical Optimization',
           description: [
             `With strategy in place, we execute. We optimize your site architecture, internal linking, and technical foundation while building high-intent content assets designed to rank and convert. 
@@ -10094,7 +10144,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepSaas4,
           title: 'Authority & Link Building',
           description: [
             `In competitive SaaS niches, authority determines who wins. 
@@ -10103,7 +10153,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepSaas5,
           title: 'Conversion & Performance Tracking',
           description: [
             `Traffic without conversions is a wasted opportunity.`,
@@ -10112,7 +10162,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepSaas6,
           title: 'Continuous Scaling & Growth Expansion',
           description: [
             `SEO is not a one-time campaign; it’s a long-term growth engine. Once initial traction is achieved, we shift from foundation-building to aggressive expansion and compounding scale.`,

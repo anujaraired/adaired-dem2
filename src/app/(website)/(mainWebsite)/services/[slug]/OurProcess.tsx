@@ -1,5 +1,5 @@
 'use client';
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Heading from '@/app/(website)/common/Heading';
 import Image from 'next/image';
@@ -19,11 +19,28 @@ const OurProcess2 = ({ ourProcess }: any) => {
     wrapperRef,
   });
 
+  useEffect(() => {
+    const handleScroll = () => {
+      sectionRefs.current.forEach((section, index) => {
+        if (!section) return;
+        const rect = section.getBoundingClientRect();
+        const middle = window.innerHeight / 2;
+
+        if (rect.top <= middle && rect.bottom >= middle) {
+          setActiveTab(index);
+        }
+      });
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <section
       ref={ref}
       id="services"
-      className="bg-[#FFF9F2] py-[3rem] lg:py-[4rem]"
+      className="bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2] py-[3rem] lg:py-[4rem]"
     >
       <MaxWidthWrapper>
         {/* ❗ IMPORTANT: relative + NO overflow */}
@@ -33,6 +50,8 @@ const OurProcess2 = ({ ourProcess }: any) => {
             subTitle={'Our Process'}
             breakIndex={ourProcess?.breakIndex}
             title={ourProcess?.title}
+            isDecVarticle={!ourProcess?.isInCenter && true}
+            description={ourProcess?.description}
             isInCenter={ourProcess?.isInCenter}
             isBgWhite={ourProcess?.isInCenter && true}
           />
@@ -42,7 +61,10 @@ const OurProcess2 = ({ ourProcess }: any) => {
           className="relative flex justify-between gap-[3rem]"
         >
           {/* ================= LEFT (STICKY) ================= */}
-          <div className="relative mt-[1rem] flex items-center justify-center">
+
+          {/* <div className="relative mt-[1rem] flex items-center justify-center"> */}
+          <div className="sticky top-32 h-fit mt-[1rem] flex items-center justify-center">
+
             <div className="relative h-[520px] w-[520px]">
               <svg width="520" height="520" viewBox="0 0 520 520">
                 {ourProcess.services.map((service: any, idx: number) => {
@@ -138,51 +160,46 @@ const OurProcess2 = ({ ourProcess }: any) => {
           </div>
           {/* ================= RIGHT (SCROLL CONTENT) ================= */}
           <div className="my-auto w-full lg:w-[55%]">
-            {ourProcess.services[activeTab] && (
-              <div
-                key={activeTab}
-                className="transform rounded-[20px] bg-[#FFFFFF] p-[2.5rem] transition-all duration-500"
-              >
-                <h3 className="mb-3 font-semibold uppercase text-[#FB9100]">
-                  Step {activeTab + 1}: {ourProcess.services[activeTab].title}
-                </h3>
+            <div className="flex min-h-[70vh] flex-col gap-[1rem]">
+              {ourProcess.services.map((service: any, idx: number) => (
+                <div
+                  key={idx}
+                  ref={(el) => {
+                    sectionRefs.current[idx] = el;
+                  }}
+                  className={`flex items-center justify-center py-10 snap-start transition-opacity duration-500 ${activeTab === idx ? 'opacity-100' : 'opacity-0'
+                    }`}
+                >
+                  <div className="w-full rounded-[20px] bg-[#FFFFFF] border border-[#FB9100]/20 p-[2.5rem] transition-all duration-500">
+                    <h3 className="mb-3 font-semibold uppercase text-[#FB9100]">
+                      Step {activeTab + 1}: {ourProcess.services[activeTab].title}
+                    </h3>
 
-                {ourProcess.services[activeTab].description.map(
-                  (item: any, i: number) => {
-                    if (typeof item === 'string') {
-                      return (
-                        <p key={i} className="my-4">
-                          {item}
-                        </p>
-                      );
-                    }
+                    {ourProcess.services[activeTab].description.map((item: any, i: number) => {
+                      if (typeof item === 'string') {
+                        return <p key={i} className="my-2">{item}</p>;
+                      }
 
-                    if (item.list) {
-                      return item.list.map((listItem: any, j: number) => (
-                        <div
-                          key={`${i}-${j}`}
-                          className="my-2 flex items-start gap-3 sm:gap-4"
-                        >
-                          <Image
-                            src={SocialMediaCheck}
-                            width={17}
-                            height={23}
-                            alt="arrow"
-                            className="mt-1 h-auto w-[14px] shrink-0 sm:w-[17px]"
-                          />
-
-                          <p className="text-left">
-                            {listItem.des || listItem.description}
-                          </p>
-                        </div>
-                      ));
-                    }
-
-                    return null;
-                  }
-                )}
-              </div>
-            )}
+                      if (item.list) {
+                        return item.list.map((listItem: any, j: number) => (
+                          <div key={`${i}-${j}`} className="my-1 flex items-start gap-2">
+                            <Image
+                              src={SocialMediaCheck}
+                              width={17}
+                              height={23}
+                              alt="arrow"
+                              className="mt-1 h-auto w-[14px] shrink-0"
+                            />
+                            <p>{listItem.des || listItem.description}</p>
+                          </div>
+                        ));
+                      }
+                      return null;
+                    })}
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </MaxWidthWrapper>
