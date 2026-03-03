@@ -83,7 +83,7 @@ const LeadingTools = ({ leadingTools }: any) => {
 
       {leadingTools?.isVariant === '01' && (
         // <div className="flex w-max animate-marquee gap-2 sm:gap-3 lg:gap-[2rem]">
-        <div className="w-full overflow-hidden">
+        <div className="w-full overflow-hidden pt-[2rem]">
           <div className="flex w-max animate-marquee gap-[4rem] md:bg-transparent md:py-0">
             {duplicatedList.map((item: any, idx: number) => (
               <div
