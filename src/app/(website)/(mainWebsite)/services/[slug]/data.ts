@@ -1056,7 +1056,7 @@ export const SERVICES_DATA = {
         {
           title: 'Establish',
           description:
-            'Lorem Ipsum is simply dummy text of the printing and typesetting',
+            'Start strong with the strategy to build visibility and create a foundation for growth.',
           desc: '$399',
           span: '/month',
           desctioption: `Complete SEO Audit`,
@@ -1086,7 +1086,7 @@ export const SERVICES_DATA = {
           title: 'Accelerate',
           text: 'Recommended',
           description:
-            'Lorem Ipsum is simply dummy text of the printing and typesetting',
+            'Step up with an expanded strategy, deeper optimization, and the tools to scale faster.',
           desc: '$599',
           span: '/month',
           desctioption: `Everything In Starter`,
@@ -1115,7 +1115,7 @@ export const SERVICES_DATA = {
         {
           title: 'Dominate',
           description:
-            'Lorem Ipsum is simply dummy text of the printing and typesetting',
+            'Dominate your market with advanced strategy and powerful execution.',
           desc: '$899',
           span: '/month',
           desctioption: `Everything in Premium`,
@@ -2464,7 +2464,7 @@ brand appears in AI summaries and citations.`,
     whatMissing: {
       isVisible: true,
       breakIndex: 7,
-      bgColor: "#FAFAFA",
+      bgColor: '#FAFAFA',
       isInCenter: true,
       isVariant: '01',
       heading:
@@ -4081,7 +4081,7 @@ brand appears in AI summaries and citations.`,
         {
           title: 'GBP Only Establish',
           description:
-            'Lorem Ipsum is simply dummy text of the printing and typesetting',
+            'Strengthen your presence and attract local customers from Google search and maps.',
           desc: '$299',
           span: '/month',
           desctioption: `Complete GBP Audit`,
@@ -4117,7 +4117,7 @@ brand appears in AI summaries and citations.`,
         {
           title: 'GBP + Website Dominate',
           description:
-            'Lorem Ipsum is simply dummy text of the printing and typesetting',
+            'Combine local visibility with website authority to capture traffic, leads, and long-term growth.',
           desc: '$599',
           span: '/month',
           desctioption: `Everything in GBP Package`,
@@ -7975,7 +7975,7 @@ brand appears in AI summaries and citations.`,
 
     whatMissing: {
       isVisible: true,
-      bgColor: "#FFFFFF",
+      bgColor: '#FFFFFF',
       isInCenter: true,
       isVariant: '01',
       heading: 'How Does White Label PPC Work?',
