@@ -1,20 +1,7 @@
 'use client';
-
 import { FC, useState, useMemo, useEffect } from 'react';
 import Image from 'next/image';
-import { calculateReadingTime } from '@core/utils/calculateReadingTime';
-import { formatDate } from '@core/utils/format-date';
-import {
-  Card,
-  CardContent,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from '@core/ui/shadcn-ui/card';
-import { Separator } from '@core/ui/shadcn-ui/separator';
-import Link from 'next/link';
 import Pagination from '@core/ui/rizzui-ui/pagination';
-import Button from '../../common/Button';
 import { PiEyeBold } from 'react-icons/pi';
 import { useRouter } from 'next/navigation';
 import useBreakpointCharLimit from '@/@core/hooks/useBreakpointCharLimit';
@@ -53,7 +40,6 @@ const BlogWPagination: FC<IProps> = ({ data }) => {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [currentPage]);
-  
 
   return (
     <div className="relative">
@@ -64,12 +50,12 @@ const BlogWPagination: FC<IProps> = ({ data }) => {
             className="group relative my-[2.5rem] rounded-3xl bg-white shadow-[0_0_20px_rgba(0,0,0,0.14)] lg:my-[3rem]"
           >
             {/* IMAGE */}
-            <div className="relative h-[190px] w-full overflow-hidden rounded-2xl lg:h-[250px] xl:h-[350px]">
+            <div className="relative h-[170px] w-full overflow-hidden rounded-2xl lg:h-[200px] xl:h-[280px]">
               <Image
                 src={blog?.featuredImage}
                 fill
                 alt={blog.postTitle}
-                className="object-cover transition-transform duration-500 group-hover:scale-110"
+                className="object-fill transition-transform duration-500 group-hover:scale-110"
               />
 
               {/* OVERLAY */}
