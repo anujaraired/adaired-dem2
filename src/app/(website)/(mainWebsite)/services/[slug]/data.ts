@@ -11,6 +11,82 @@ import step_2 from '../../../../../../public/assets/aiseo/process/Group 10000058
 import step_3 from '../../../../../../public/assets/aiseo/process/Group 1000005847.svg';
 import step_4 from '../../../../../../public/assets/aiseo/process/Group 1000005848.svg';
 import step_5 from '../../../../../../public/assets/aiseo/process/Group 1000005849.svg';
+import step1 from '../../../../../../public/assets/seo/process/step1.svg';
+import step2 from '../../../../../../public/assets/seo/process/step2.svg';
+import step3 from '../../../../../../public/assets/seo/process/step3.svg';
+import step4 from '../../../../../../public/assets/seo/process/step4.svg';
+import step5 from '../../../../../../public/assets/seo/process/step5.svg';
+import step6 from '../../../../../../public/assets/seo/process/step6.svg';
+
+import stepAiseo1 from '../../../../../../public/assets/aiseo/process/step1.svg';
+import stepAiseo2 from '../../../../../../public/assets/aiseo/process/step2.svg';
+import stepAiseo3 from '../../../../../../public/assets/aiseo/process/step3.svg';
+import stepAiseo4 from '../../../../../../public/assets/aiseo/process/step4.svg';
+import stepAiseo5 from '../../../../../../public/assets/aiseo/process/step5.svg';
+import stepAiseo6 from '../../../../../../public/assets/aiseo/process/step6.svg';
+import stepSaas1 from '../../../../../../public/assets/saasSeo/step1.svg';
+import stepSaas2 from '../../../../../../public/assets/saasSeo/step2.svg';
+import stepSaas3 from '../../../../../../public/assets/saasSeo/step3.svg';
+import stepSaas4 from '../../../../../../public/assets/saasSeo/step4.svg';
+import stepSaas5 from '../../../../../../public/assets/saasSeo/step5.svg';
+import stepSaas6 from '../../../../../../public/assets/saasSeo/step6.svg';
+import steplocalseo1 from '../../../../../../public/assets/localseo/step1.svg';
+import steplocalseo2 from '../../../../../../public/assets/localseo/step2.svg';
+import steplocalseo3 from '../../../../../../public/assets/localseo/step3.svg';
+import steplocalseo4 from '../../../../../../public/assets/localseo/step4.svg';
+import steplocalseo5 from '../../../../../../public/assets/localseo/step5.svg';
+import steplocalseo6 from '../../../../../../public/assets/localseo/step6.svg';
+import steplinkbuild1 from '../../../../../../public/assets/localseo/step1.svg';
+import steplinkbuild2 from '../../../../../../public/assets/localseo/step2.svg';
+import steplinkbuild3 from '../../../../../../public/assets/localseo/step3.svg';
+import steplinkbuild4 from '../../../../../../public/assets/localseo/step4.svg';
+import steplinkbuild5 from '../../../../../../public/assets/localseo/step5.svg';
+import steplinkbuild6 from '../../../../../../public/assets/localseo/step6.svg';
+import stepWeb1 from '../../../../../../public/assets/WebDevelopment/step1.svg';
+import stepWeb2 from '../../../../../../public/assets/WebDevelopment/step2.svg';
+import stepWeb3 from '../../../../../../public/assets/WebDevelopment/step3.svg';
+import stepWeb4 from '../../../../../../public/assets/WebDevelopment/step4.svg';
+import stepWeb5 from '../../../../../../public/assets/WebDevelopment/step5.svg';
+import stepWeb6 from '../../../../../../public/assets/WebDevelopment/step6.svg';
+import stepWeb7 from '../../../../../../public/assets/WebDevelopment/step7.svg';
+import stepPPC1 from '../../../../../../public/assets/payperclick/step1.svg';
+import stepPPC2 from '../../../../../../public/assets/payperclick/step2.svg';
+import stepPPC3 from '../../../../../../public/assets/payperclick/step3.svg';
+import stepPPC4 from '../../../../../../public/assets/payperclick/step4.svg';
+import stepPPC5 from '../../../../../../public/assets/payperclick/step5.svg';
+import stepPPC6 from '../../../../../../public/assets/payperclick/step6.svg';
+import stepPPC7 from '../../../../../../public/assets/payperclick/step7.svg';
+import stepwhitelabel1 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelServices/step1.svg';
+import stepwhitelabel2 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelServices/step2.svg';
+import stepwhitelabel3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelServices/step3.svg';
+import stepwhitelabel4 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelServices/step4.svg';
+import stepwhitelabel5 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelServices/step5.svg';
+import stepwhitelabel6 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelServices/step6.svg';
+import stepwhitelabelsocialmedia1 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step1.svg';
+import stepwhitelabelsocialmedia2 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step2.svg';
+import stepwhitelabelsocialmedia3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step3.svg';
+import stepwhitelabelsocialmedia4 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step4.svg';
+import stepwhitelabelsocialmedia5 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step5.svg';
+import stepwhitelabelsocialmedia6 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step6.svg';
+import stepwhitelabelpaidad1 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/step1.svg';
+import stepwhitelabelpaidad2 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/step2.svg';
+import stepwhitelabelpaidad3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/step3.svg';
+import stepwhitelabelpaidad4 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/step4.svg';
+import stepwhitelabelpaidad5 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/step5.svg';
+import stepwhitelabelpaidad6 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/step6.svg';
+import stepwhitelabellinkbuild1 from '../../../../../../public/assets/images/service/whitelabel//whiteLabelLinkBuilding/step1.svg';
+import stepwhitelabellinkbuild2 from '../../../../../../public/assets/images/service/whitelabel//whiteLabelLinkBuilding/step2.svg';
+import stepwhitelabellinkbuild3 from '../../../../../../public/assets/images/service/whitelabel//whiteLabelLinkBuilding/step3.svg';
+import stepwhitelabellinkbuild4 from '../../../../../../public/assets/images/service/whitelabel//whiteLabelLinkBuilding/step4.svg';
+import stepwhitelabellinkbuild5 from '../../../../../../public/assets/images/service/whitelabel//whiteLabelLinkBuilding/step5.svg';
+import stepwhitelabellinkbuild6 from '../../../../../../public/assets/images/service/whitelabel//whiteLabelLinkBuilding/step6.svg';
+
+
+
+
+
+
+
 import NotSeeingResultsBg from '../../../../../../public/assets/NotSeeingResultsBg.png';
 import NotSeeingResultsBg2 from '../../../../../../public/assets/NotSeeingResultsBg2.png';
 import leadingToolsImg from '../../../../../../public/assets/leadingTools.png';
@@ -616,12 +692,12 @@ export const SERVICES_DATA = {
     },
     ourProcess: {
       isVisible: true,
-      breakIndex: 7,
+      breakIndex: 8,
       isInCenter: true,
       title: 'Our Proven SEO Process That SEO Drives Both Traffic & Revenue',
       services: [
         {
-          icon: step,
+          icon: step1,
           title: 'Website Analysis and Audit',
           description: [
             `We begin the SEO process with a thorough website analysis and audit. This includes reviewing site structure, technical performance, content quality, and existing search rankings.`,
@@ -630,7 +706,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: step_2,
+          icon: step2,
           title: 'Keyword Research and Strategy Planning',
           description: [
             `In keyword research, we determine the keywords your target audience is searching for to find products, services, or information. This step analyzes search volume, competition, and user intent.`,
@@ -639,7 +715,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: step_3,
+          icon: step3,
           title: 'On-Page and Technical Optimization',
           description: [
             `Under on-page and technical SEO improvements, we make your website more accessible and understandable for search engines.`,
@@ -649,7 +725,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: step_4,
+          icon: step4,
           title: 'Content Enhancement and Creation',
           description: [
             `Optimizing and creating content is a core part of the SEO process. We improve existing pages to better match target keywords, while new content is being created to fill gaps.`,
@@ -658,7 +734,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: step_5,
+          icon: step5,
           title: 'Link Building and Authority Growth',
           description: [
             `Building high-quality backlinks strengthens a website’s authority and trustworthiness in the eyes of search engines.`,
@@ -667,7 +743,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: step_3,
+          icon: step6,
           title: 'Monitoring, Reporting, and Optimization',
           description: [
             `SEO is an ongoing process that requires continuous monitoring and refinement. Performance metrics, including traffic, rankings, and user behavior, are regularly tracked and analyzed. `,
@@ -1636,13 +1712,15 @@ export const SERVICES_DATA = {
     },
     ourProcess: {
       isVisible: true,
+      isInCenter: true,
+      breakIndex: 7,
       subtitle: 'Our Process',
       title: 'Our Comprehensive AI Process to Make Your Brand Stand Out',
       span: '',
       description: `Our success-driven digital marketing services integrate AI-enhanced SEO, advanced analytics, and conversion-focused strategies to strengthen brand presence, improve search performance, and accelerate measurable business growth.`,
       services: [
         {
-          icon: step,
+          icon: stepAiseo1,
           title: 'GEO Discovery & Audit',
           description: [
             `We examine how AI models perceive your brand, including search appearances, indexing, and content structure, to create a comprehensive AI search presence overview.  `,
@@ -1650,7 +1728,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: step_2,
+          icon: stepAiseo2,
           title: 'Multiplatform Strategy',
           description: [
             `We create a custom strategy that targets the most relevant AI platforms, including Gemini, Perplexity, ChatGPT, and more. `,
@@ -1658,7 +1736,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: step_3,
+          icon: stepAiseo3,
           title: 'GEO and SEO Implementation',
           description: [
             `Our team implements precise GEO-targeted SEO strategies to improve your visibility, rankings, and engagement across search and AI-driven platforms.`,
@@ -1666,7 +1744,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: step_4,
+          icon: stepAiseo4,
           title: 'GEO Content Optimization',
           description: [
             `To improve rankings on LLM-powered platforms, we employ AI-focused keywords, structured data, and technical optimization methods. `,
@@ -1674,7 +1752,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: step_5,
+          icon: stepAiseo5,
           title: 'Implementation and Monitoring',
           description: [
             `We constantly monitor AI visibility, analyze search analytics, and track competitors to make recommendations. `,
@@ -1682,7 +1760,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: step_5,
+          icon: stepAiseo6,
           title: 'Reporting and Ongoing Refinement',
           description: [
             `We provide monthly reports detailing AI visibility improvements, identifying new growth opportunities, and guiding ongoing SEO and GEO strategy refinements.`,
@@ -2402,6 +2480,8 @@ brand appears in AI summaries and citations.`,
     // NEW
     ourProcess: {
       isVisible: true,
+      isInCenter: true,
+      breakIndex: 6,
       subtitle: 'Our Process',
       title:
         'Our Strategic Link Building Process Focused On Building Lasting Authority',
@@ -2409,7 +2489,7 @@ brand appears in AI summaries and citations.`,
       description: ``,
       services: [
         {
-          icon: step,
+          icon: steplinkbuild1,
           title: 'Website & Competitor Analysis',
           description: [
             `We start with the review of your current backlink profile, domain authority, and performance in terms of keywords. 
@@ -2418,7 +2498,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step_2,
+          icon: steplinkbuild2,
           title: 'Strategy & Goal Alignment',
           description: [
             `Looking at what we have learned in our analysis, we develop a tailor-made authority link-building strategy that is in tandem with your business objectives.`,
@@ -2426,7 +2506,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step_3,
+          icon: steplinkbuild3,
           title: 'Prospecting High-Authority Websites',
           description: [
             `Highly authoritative, niche-relevant sites are identified and qualified by our team on the basis of rigid criteria like the domain strength, organic traffic, and editorial quality.`,
@@ -2434,7 +2514,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step_4,
+          icon: steplinkbuild4,
           title: 'Content Creation & Outreach',
           description: [
             `We produce premium and value-oriented content targeting every placement opportunity. Through targeted targeting, we reach out to editors, bloggers, and publishers to earn natural placements of links with them.`,
@@ -2442,7 +2522,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step_5,
+          icon: steplinkbuild5,
           title: 'Placement and Quality Assurance',
           description: [
             `When connections have been established, Adaired conducts extensive quality inspections to ensure that everything is in the right place, is relevant, and has been indexed.`,
@@ -2450,7 +2530,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step_5,
+          icon: steplinkbuild6,
           title: 'Reporting, Optimization & Scaling.',
           description: [
             `You will get clear reports of purchased links, metrics, and performance influence. Adaired constantly measures performance, optimizes strategy, and expands link-building activities according to the best results.`,
@@ -3048,13 +3128,17 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
+      isInCenter: false,
+      // breakIndex: 4,
       subtitle: 'Our Process',
       title: 'The Web Design and Development Process That We Follow At Adaired',
       span: '',
-      description: ``,
+      description: [`The web design and development process at Adaired adheres to a strategic, transparent, and results-oriented mechanism that will see to it that all projects generate measurable business value.`,
+        `We are a creative, technology-driven, user-centered design solution that enables brands to grow through scalable digital solutions.`
+      ],
       services: [
         {
-          icon: step,
+          icon: stepWeb1,
           title: 'Discovery & Requirement Analysis',
           description: [
             `We start with knowing your business objectives, target market, industry landscape and technical needs. 
@@ -3062,7 +3146,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step_2,
+          icon: stepWeb2,
           title: 'Planning & Strategy',
           description: [
             `We design an elaborate project roadmap based on the knowledge acquired during discovery. 
@@ -3070,7 +3154,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step_3,
+          icon: stepWeb3,
           title: 'UI/UX Design',
           description: [
             `Our designers create user-friendly, aesthetically pleasing, and intuitive user interfaces that can reflect your brand identity. 
@@ -3078,7 +3162,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step_4,
+          icon: stepWeb4,
           title: 'Development & Integration',
           description: [
             `Using modern technologies and best coding practices, our developers bring the designs to life. 
@@ -3086,7 +3170,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step_5,
+          icon: stepWeb5,
           title: 'Quality Assurance & Testing',
           description: [
             `We do intensive testing before launch so ensure the flawless performance. 
@@ -3094,7 +3178,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step_5,
+          icon: stepWeb6,
           title: 'Deployment & Launch',
           description: [
             `After all the approval is given, we put your site into live environment and ensure that there is minimal downtime. 
@@ -3102,7 +3186,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step_5,
+          icon: stepWeb7,
           title: 'Maintenance & Continuous Support',
           description: [
             `The relationship does not stop with the launch. 
@@ -3573,13 +3657,15 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
+      isInCenter: true,
+      breakIndex: 3,
       subtitle: 'Our Process',
       title: 'Our Performance-Focused Local SEO Strategy',
       span: '',
       description: ``,
       services: [
         {
-          icon: step,
+          icon: steplocalseo1,
           title: 'Local SEO Audit & Market Analysis',
           description: [
             `Our first step is to do a comprehensive Local SEO audit to review your site, Google Business profile, citations, reviews, and competitors. 
@@ -3588,7 +3674,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step_2,
+          icon: steplocalseo2,
           title: 'Local SEO Strategy Development',
           description: [
             `Using the insights of the audit, we create a data-driven Local SEO strategy that targets your industry, location, and customer behavior. 
@@ -3597,7 +3683,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step_3,
+          icon: steplocalseo3,
           title: 'Website & On-Page Local Optimization',
           description: [
             `We configure your site to be more locally relevant by enhancing meta tags, content, headings, internal links and location specific pages. 
@@ -3606,7 +3692,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step_4,
+          icon: steplocalseo4,
           title: 'Google Business Profile & Listings Optimization',
           description: [
             `We also optimize your Google Business Profile and local listings to increase your visibility on Google maps and on local search results. 
@@ -3615,7 +3701,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step_5,
+          icon: steplocalseo5,
           title: 'Local Citations, Reviews & Authority Building',
           description: [
             `We empower your local authority through the creation of correct citations, review management and local backlinks. 
@@ -3624,7 +3710,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step_5,
+          icon: steplocalseo6,
           title: 'Monitoring, Reporting & Continuous Optimization',
           description: [
             `Local search optimization is a process. We continuously monitor rankings, traffic and conversions and optimize strategies based on performance data. 
@@ -3634,7 +3720,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step_5,
+          icon: steplocalseo6,
           title: 'Maintenance & Continuous Support',
           description: [
             `The relationship does not stop with the launch.`,
@@ -4400,41 +4486,43 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
+      isInCenter: true,
+      breakIndex: 6,
       subtitle: 'Our Process',
       title: 'How Our White Label Social Media Management Works',
       span: '',
       description: `A structured process ensures consistency and measurable results. Our white label social media management approach includes:`,
       services: [
         {
-          icon: step,
+          icon: stepwhitelabelsocialmedia1,
           title: 'Discovery & Onboarding',
           description: [
             `We align with your agency’s goals, branding, and client expectations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepwhitelabelsocialmedia2,
           title: 'Strategy Development',
           description: [
             `Our team builds a tailored social media marketing strategy for each client, aligned with their industry and audience.`,
           ],
         },
         {
-          icon: step,
+          icon: stepwhitelabelsocialmedia3,
           title: 'Content Creation & Approval',
           description: [
             `We develop branded content and campaigns that reflect your client’s voice and positioning.`,
           ],
         },
         {
-          icon: step,
+          icon: stepwhitelabelsocialmedia4,
           title: 'Publishing & Engagement',
           description: [
             `Content is scheduled and monitored across platforms, ensuring consistent brand presence.`,
           ],
         },
         {
-          icon: step,
+          icon: stepwhitelabelsocialmedia5,
           title: 'Reporting & Optimization',
           description: [
             `With our white label social media management approach, you get detailed performance insights branded under your name.`,
@@ -5989,13 +6077,15 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
+      isInCenter: true,
+      breakIndex: 3,
       subtitle: 'Our Process',
       title: 'How Adaired’s White-Label Model Works',
       span: '',
       description: `Our approach is designed to integrate smoothly into agency workflows.`,
       services: [
         {
-          icon: step,
+          icon: stepwhitelabel1,
           title: 'Discovery, Alignment & Service Mapping',
           description: [
             `The engagement starts with a structured discovery phase where we learn about your agency's service offerings, 
@@ -6006,7 +6096,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepwhitelabel2,
           title: 'Workflow Integration and Account Setup',
           description: [
             `Once service requirements have been defined, we create execution workflows, access protocols, reporting structures, and delivery timelines. 
@@ -6016,7 +6106,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepwhitelabel3,
           title: 'White-Labeled Service Execution',
           description: [
             `Our team is in charge of providing agreed-upon digital services across channels, including campaign management, optimization, content creation, and ongoing maintenance. 
@@ -6025,7 +6115,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepwhitelabel4,
           title: 'Performance Tracking & Reporting',
           description: [
             `We provide structured reporting dashboards and performance summaries customized to your agency’s branding. With a focus on user-friendly interfaces, 
@@ -6034,7 +6124,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepwhitelabel5,
           title: 'Communication and Delivery Management',
           description: [
             `To ensure clarity and efficiency, you collaborate with a single point of contact who oversees service delivery. 
@@ -6043,7 +6133,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepwhitelabel6,
           title: 'Continuous Optimization & Scaling',
           description: [
             `As campaigns mature, we refine strategies based on performance data. 
@@ -7001,13 +7091,17 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
+      isInCenter: false,
+      breakIndex: 3,
       subtitle: 'Our Process',
       title: 'How Pay-Per-Click Advertising Works',
       span: 'Here’s a detailed breakdown of how the entire system works:',
-      description: `PPC advertising operates through a real-time auction system that determines which ads appear in search results, in what position, and at what cost. Unlike traditional advertising, where you pay for exposure, PPC ensures you only pay when a user actively engages with your ad.`,
+      description: [`PPC advertising operates through a real-time auction system that determines which ads appear in search results, in what position, and at what cost. Unlike traditional advertising, where you pay for exposure, PPC ensures you only pay when a user actively engages with your ad.`,
+        `Here’s a detailed breakdown of how the entire system works:`
+      ],
       services: [
         {
-          icon: step,
+          icon: stepPPC1,
           title: 'Strategic Keyword Research',
           description: [
             `Every successful PPC campaign starts with precision targeting. We identify high-intent keywords that your ideal customers are actively searching for.`,
@@ -7017,7 +7111,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepPPC2,
           title: 'Smart Campaign Structure & Targeting',
           description: [
             `We build tightly organized campaigns to maximize relevance and performance.`,
@@ -7026,7 +7120,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepPPC3,
           title: 'High-Converting Ad Creation',
           description: [
             `Our team crafts compelling ad copy that matches search intent and drives clicks.`,
@@ -7035,7 +7129,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepPPC4,
           title: 'Smart Bidding & Budget Control',
           description: [
             `At Adaired Digital Media, we implement bidding strategies aligned with your business goals, whether that’s lead generation, ecommerce sales, or scaling revenue.`,
@@ -7044,7 +7138,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepPPC5,
           title: 'Ad Auction & Quality Optimization',
           description: [
             `Every time a search is performed, platforms like Google Ads run an instant auction to determine which ads appear.`,
@@ -7053,7 +7147,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepPPC6,
           title: 'Landing Page Performance',
           description: [
             `Clicks alone don’t generate revenue; conversions do.`,
@@ -7062,7 +7156,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepPPC7,
           title: 'Continuous Monitoring & Optimization',
           description: [
             `PPC success requires ongoing refinement.`,
@@ -8380,6 +8474,8 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
+      isInCenter: false,
+      breakIndex: 3,
       subtitle: 'Our Process',
       title: 'How Our White-Label Digital Marketing Agency Works',
       span: 'Here’s a detailed breakdown of how the entire system works:',
@@ -8389,7 +8485,7 @@ brand appears in AI summaries and citations.`,
       ],
       services: [
         {
-          icon: step,
+          icon: stepwhitelabelpaidad1,
           title: 'Strategic Onboarding & Alignment',
           description: [
             `Every successful white-label partnership begins with clarity and alignment. We take time to understand your agency’s positioning, service offerings, target industries, and client expectations.`,
@@ -8397,7 +8493,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepwhitelabelpaidad2,
           title: 'Customized Campaign Strategy Development',
           description: [
             `Once a client is onboarded, we develop a tailored strategy based on their specific business goals, competitive landscape, target audience, and budget allocation.`,
@@ -8405,7 +8501,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepwhitelabelpaidad3,
           title: 'Expert Campaign Setup & Execution',
           description: [
             `Our team builds and launches fully optimized campaigns across platforms such as Google Ads, Microsoft Ads, and paid social channels.`,
@@ -8413,7 +8509,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepwhitelabelpaidad4,
           title: 'Continuous Optimization & Performance Scaling',
           description: [
             `Paid advertising success depends on ongoing refinement. We continuously monitor campaign data, test new variations, adjust bids, refine audiences, and optimize budgets based on performance insights.`,
@@ -8421,7 +8517,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepwhitelabelpaidad5,
           title: 'White-Labeled Reporting & Transparent Communication',
           description: [
             `All performance reports are delivered under your brand identity, allowing you to maintain authority and client trust.`,
@@ -8429,7 +8525,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepwhitelabelpaidad6,
           title: 'Scalable Infrastructure for Long-Term Growth',
           description: [
             `As your agency grows, our support grows with you. Whether you add new clients or increase campaign budgets, our team scales resources accordingly without the delays or risks associated with internal hiring.`,
@@ -9058,6 +9154,8 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
+      isInCenter: false,
+      breakIndex: 4,
       subtitle: 'Our Process',
       title: 'How White Label Link Building Works with Adaired Digital Media',
       span: 'Here’s a detailed breakdown of how the entire system works:',
@@ -9068,7 +9166,7 @@ brand appears in AI summaries and citations.`,
       ],
       services: [
         {
-          icon: step,
+          icon: stepwhitelabellinkbuild1,
           title: 'Strategy & Planning',
           description: [
             `Every successful link-building campaign begins with a solid strategy. At Adaired, we don’t build random links; we build links with purpose.`,
@@ -9078,7 +9176,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepwhitelabellinkbuild2,
           title: 'Manual Outreach & Relationship Building',
           description: [
             `Unlike low-quality providers that rely on automated systems or private blog networks (PBNs), we use 100% manual outreach.`,
@@ -9088,7 +9186,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepwhitelabellinkbuild3,
           title: 'Content Creation & Placement',
           description: [
             `Once a placement opportunity is secured, our content team takes over. 
@@ -9098,7 +9196,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepwhitelabellinkbuild4,
           title: 'Quality Assurance & Compliance',
           description: [
             `Quality control is a core part of our white-label link-building framework. 
@@ -9108,7 +9206,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepwhitelabellinkbuild5,
           title: 'White-Labeled Reporting & Delivery',
           description: [
             `Transparency is essential for agency partnerships. You receive comprehensive, brand-ready reports that include live link URLs, domain authority or DR metrics, 
@@ -9118,7 +9216,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepwhitelabellinkbuild6,
           title: 'Ongoing Scaling & Optimization',
           description: [
             `White label link building is not a one-time effort. We monitor performance trends and refine strategy over time. 
@@ -10059,6 +10157,8 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
+      isInCenter: false,
+      breakIndex: 4,
       subtitle: 'Our Process',
       title: 'The Growth Framework Behind Our SaaS SEO',
       span: '',
@@ -10067,7 +10167,7 @@ brand appears in AI summaries and citations.`,
       ],
       services: [
         {
-          icon: step,
+          icon: stepSaas1,
           title: 'Deep Market & Competitor Research',
           description: [
             `Every successful SaaS SEO strategy begins with understanding your market. We analyze your category landscape, competitors, positioning, pricing model, and ICP behavior.`,
@@ -10076,7 +10176,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepSaas2,
           title: 'Revenue-Focused Keyword Mapping',
           description: [
             `We map keywords to revenue, not just traffic. Our team identifies commercial, comparison, integration, and solution-based queries aligned with your sales funnel.`,
@@ -10085,7 +10185,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepSaas3,
           title: 'Content & Technical Optimization',
           description: [
             `With strategy in place, we execute. We optimize your site architecture, internal linking, and technical foundation while building high-intent content assets designed to rank and convert. 
@@ -10094,7 +10194,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepSaas4,
           title: 'Authority & Link Building',
           description: [
             `In competitive SaaS niches, authority determines who wins. 
@@ -10103,7 +10203,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepSaas5,
           title: 'Conversion & Performance Tracking',
           description: [
             `Traffic without conversions is a wasted opportunity.`,
@@ -10112,7 +10212,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: stepSaas6,
           title: 'Continuous Scaling & Growth Expansion',
           description: [
             `SEO is not a one-time campaign; it’s a long-term growth engine. Once initial traction is achieved, we shift from foundation-building to aggressive expansion and compounding scale.`,

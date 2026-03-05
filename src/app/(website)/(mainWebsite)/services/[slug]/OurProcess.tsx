@@ -1,5 +1,5 @@
 'use client';
-import React, { useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Heading from '@/app/(website)/common/Heading';
 import Image from 'next/image';
@@ -19,11 +19,28 @@ const OurProcess2 = ({ ourProcess }: any) => {
     wrapperRef,
   });
 
+  useEffect(() => {
+    const handleScroll = () => {
+      sectionRefs.current.forEach((section, index) => {
+        if (!section) return;
+        const rect = section.getBoundingClientRect();
+        const middle = window.innerHeight / 2;
+
+        if (rect.top <= middle && rect.bottom >= middle) {
+          setActiveTab(index);
+        }
+      });
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <section
       ref={ref}
       id="services"
-      className="bg-[#FFF9F2] py-[3rem] lg:py-[4rem]"
+      className="bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2] py-[3rem] lg:py-[4rem]"
     >
       <MaxWidthWrapper>
         {/* ❗ IMPORTANT: relative + NO overflow */}
@@ -33,16 +50,22 @@ const OurProcess2 = ({ ourProcess }: any) => {
             subTitle={'Our Process'}
             breakIndex={ourProcess?.breakIndex}
             title={ourProcess?.title}
+            isDecVarticle={!ourProcess?.isInCenter && true}
+            description={ourProcess?.description}
             isInCenter={ourProcess?.isInCenter}
             isBgWhite={ourProcess?.isInCenter && true}
           />
         </div>
+
         <div
           ref={wrapperRef}
           className="relative flex justify-between gap-[3rem]"
         >
           {/* ================= LEFT (STICKY) ================= */}
-          <div className="relative mt-[1rem] flex items-center justify-center">
+
+          {/* <div className="relative mt-[1rem] flex items-center justify-center"> */}
+          <div className="sticky top-[14rem] h-fit mt-[1rem] flex items-center justify-center">
+
             <div className="relative h-[520px] w-[520px]">
               <svg width="520" height="520" viewBox="0 0 520 520">
                 {ourProcess.services.map((service: any, idx: number) => {
@@ -78,13 +101,13 @@ const OurProcess2 = ({ ourProcess }: any) => {
                     <path
                       key={idx}
                       d={`
-            M ${sx} ${sy}
-            A ${outerR} ${outerR} 0 ${largeArc} 1 ${ex} ${ey}
-            A ${capRadius} ${capRadius} 0 0 1 ${iex} ${iey}
-            A ${innerR} ${innerR} 0 ${largeArc} 0 ${isx} ${isy}
-            A ${capRadius} ${capRadius} 0 0 0 ${sx} ${sy}
-            Z
-          `}
+                        M ${sx} ${sy}
+                        A ${outerR} ${outerR} 0 ${largeArc} 1 ${ex} ${ey}
+                        A ${capRadius} ${capRadius} 0 0 1 ${iex} ${iey}
+                        A ${innerR} ${innerR} 0 ${largeArc} 0 ${isx} ${isy}
+                        A ${capRadius} ${capRadius} 0 0 0 ${sx} ${sy}
+                        Z
+                      `}
                       fill={activeTab === idx ? '#FB9100' : '#FBEBD5'}
                       stroke="#FFFFFF"
                       onClick={() => setActiveTab(idx)}
@@ -125,8 +148,8 @@ const OurProcess2 = ({ ourProcess }: any) => {
                     <Image
                       src={service.icon}
                       alt={service.title}
-                      width={28}
-                      height={28}
+                      width={40}
+                      height={40}
                       className={
                         activeTab === idx ? 'brightness-0 invert' : 'opacity-60'
                       }
@@ -136,53 +159,51 @@ const OurProcess2 = ({ ourProcess }: any) => {
               })}
             </div>
           </div>
+
           {/* ================= RIGHT (SCROLL CONTENT) ================= */}
           <div className="my-auto w-full lg:w-[55%]">
-            {ourProcess.services[activeTab] && (
-              <div
-                key={activeTab}
-                className="transform rounded-[20px] bg-[#FFFFFF] p-[2.5rem] transition-all duration-500"
-              >
-                <h3 className="mb-3 font-semibold uppercase text-[#FB9100]">
-                  Step {activeTab + 1}: {ourProcess.services[activeTab].title}
-                </h3>
+            <div className="flex flex-col gap-[1rem]">
+              {ourProcess.services.map((service: any, idx: number) => (
+                <div
+                  key={idx}
+                  ref={(el) => {
+                    sectionRefs.current[idx] = el;
+                  }}
+                  className={`flex items-center justify-center py-12 snap-start transition-opacity duration-500 ${activeTab === idx ? 'opacity-100' : 'opacity-0'
+                    }`}
+                >
+                  <div className="rounded-[20px] bg-white border border-[#FB9100]/20 p-10 transition-all duration-500">
 
-                {ourProcess.services[activeTab].description.map(
-                  (item: any, i: number) => {
-                    if (typeof item === 'string') {
-                      return (
-                        <p key={i} className="my-4">
-                          {item}
-                        </p>
-                      );
-                    }
+                    <h3 className="mb-3 font-semibold uppercase text-[#FB9100]">
+                      Step {activeTab + 1}: {ourProcess.services[activeTab].title}
+                    </h3>
 
-                    if (item.list) {
-                      return item.list.map((listItem: any, j: number) => (
-                        <div
-                          key={`${i}-${j}`}
-                          className="my-2 flex items-start gap-3 sm:gap-4"
-                        >
-                          <Image
-                            src={SocialMediaCheck}
-                            width={17}
-                            height={23}
-                            alt="arrow"
-                            className="mt-1 h-auto w-[14px] shrink-0 sm:w-[17px]"
-                          />
+                    {ourProcess.services[activeTab].description.map((item: any, i: number) => {
+                      if (typeof item === "string") {
+                        return <p key={i} className="my-2">{item}</p>;
+                      }
 
-                          <p className="text-left">
-                            {listItem.des || listItem.description}
-                          </p>
-                        </div>
-                      ));
-                    }
+                      if (item.list) {
+                        return item.list.map((listItem: any, j: number) => (
+                          <div key={`${i}-${j}`} className="my-1 flex items-start gap-2">
+                            <Image
+                              src={SocialMediaCheck}
+                              width={17}
+                              height={23}
+                              alt="arrow"
+                              className="mt-1 w-[14px] shrink-0"
+                            />
+                            <p>{listItem.des || listItem.description}</p>
+                          </div>
+                        ));
+                      }
 
-                    return null;
-                  }
-                )}
-              </div>
-            )}
+                      return null;
+                    })}
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </MaxWidthWrapper>
