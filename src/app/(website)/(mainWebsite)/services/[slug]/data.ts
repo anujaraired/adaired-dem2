@@ -308,6 +308,21 @@ import whiteServicesWhatIs from '../../../../../../public/assets/images/services
 import whiteServicesBuildLinkImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesBuildLinkImg.png';
 import whiteServicesAdairedHelpImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesAdairedHelpImg.png';
 
+//AeoService Page Images
+import WhatAreServiceAeoServiceImg from '../../../../../../public/assets/images/services/aeoService/whiteServicesAeoServiceImg.png';
+import AeoServiceAdairedHelpImg from '../../../../../../public/assets/images/services/aeoService/AeoServiceAdairedHelpImg.png';
+import AEOServiceImpIcon_1 from '../../../../../../public/assets/images/services/aeoService/ImpToBussinessImg/Icon1.svg';
+import AEOServiceImpIcon_2 from '../../../../../../public/assets/images/services/aeoService/ImpToBussinessImg/Icon2.svg';
+import AEOServiceImpIcon_3 from '../../../../../../public/assets/images/services/aeoService/ImpToBussinessImg/Icon3.svg';
+import AEOServiceImpIcon_4 from '../../../../../../public/assets/images/services/aeoService/ImpToBussinessImg/Icon4.svg';
+import AEOServiceImpIcon_5 from '../../../../../../public/assets/images/services/aeoService/ImpToBussinessImg/Icon5.svg';
+import AEOServiceImpIcon_6 from '../../../../../../public/assets/images/services/aeoService/ImpToBussinessImg/Icon6.svg';
+import AEOServiceImpIcon_7 from '../../../../../../public/assets/images/services/aeoService/ImpToBussinessImg/Icon7.svg';
+import AEOServiceImpIcon_8 from '../../../../../../public/assets/images/services/aeoService/ImpToBussinessImg/Icon8.svg';
+import AEOServiceImpIcon_9 from '../../../../../../public/assets/images/services/aeoService/ImpToBussinessImg/Icon9.svg';
+import AEOServicewhatMke1 from '../../../../../../public/assets/images/services/aeoService/whatMkeDeferentImg/Img1.png';
+import AEOServicewhatMke2 from '../../../../../../public/assets/images/services/aeoService/whatMkeDeferentImg/Img2.png';
+
 import whiteServicesIncluded_1 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesIncluded_1.png';
 import whiteServicesIncluded_2 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesIncluded_2.png';
 import whiteServicesIncluded_3 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesIncluded_3.png';
@@ -385,7 +400,6 @@ import saasSeoWhatMkDiffImg_4 from '../../../../../../public/assets/saasSeo/saas
 import saasSeoWhatMkDiffImg_5 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_5.png';
 import saasSeoWhatMkDiffImg_6 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_6.png';
 
-
 // GEO Ai Seo Images
 import geoAiSeoImpIcon_1 from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoImpIcon_1.png';
 import geoAiSeoImpIcon_2 from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoImpIcon_2.png';
@@ -399,7 +413,6 @@ import geoAiSeoWhatIsImg from '../../../../../../public/assets/images/services/g
 import geoAiSeoBannerBg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoBannerBg.png';
 
 import geoAiSeoBuildLinkImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoBuildLinkImg.png';
-
 
 export type SectionKey =
   | 'banner'
@@ -5202,6 +5215,8 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: true,
       isBgWhite: true,
+      trColor: '#7259FF',
+      rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       heading: 'White Label SEO vs In-House SEO Teams',
       description:
@@ -8133,6 +8148,8 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: false,
       isBgWhite: false,
+      trColor: '#7259FF',
+      rowColor: '#f1eeff',
       isVariant: '01',
       heading:
         'White-Label PPC Agency vs In-house PPC Team: What Should You Do?',
@@ -11019,16 +11036,14 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       bgColor: '',
       heading: `How GEO Aligns with the Future of Search Visibility`,
-      description: [
-        ``,
-      ],
+      description: [``],
       mainImage: whiteServicesAdairedHelpImg,
       list: [
         {
           img: '',
           name: 'It’s Everywhere Now',
           description: [
-            `AI-powered assistants like ChatGPT, Claude, and Gemini are no longer a novelty; they’re the everyday tools we rely on.`, 
+            `AI-powered assistants like ChatGPT, Claude, and Gemini are no longer a novelty; they’re the everyday tools we rely on.`,
             `Whether we’re asking for information or seeking assistance, AI is seamlessly integrated into daily life, cutting down the clutter and getting us straight to the answers.`,
           ],
         },
@@ -11036,7 +11051,7 @@ brand appears in AI summaries and citations.`,
           img: '',
           name: 'Conversations Over Clicks',
           description: [
-            `The way we search has completely shifted. No more endless scrolling and hunting through results; people are engaging with AI in real-time conversations.`, 
+            `The way we search has completely shifted. No more endless scrolling and hunting through results; people are engaging with AI in real-time conversations.`,
             `They’re after quick, to-the-point responses that feel like a dialogue, not just a list of links to sift through.`,
           ],
         },
@@ -11044,7 +11059,7 @@ brand appears in AI summaries and citations.`,
           img: '',
           name: 'Intent Understanding, Not Just Keywords',
           description: [
-            `Forget keyword matching. Generative AI has changed the game by understanding why you’re searching.`, 
+            `Forget keyword matching. Generative AI has changed the game by understanding why you’re searching.`,
             `It doesn’t just find pages with your words on them; it figures out your intent and delivers answers that hit the mark with precision and clarity.`,
           ],
         },
@@ -11053,7 +11068,7 @@ brand appears in AI summaries and citations.`,
           name: 'Tailored Just for You',
           description: [
             `Every search is different. 
-            AI understands the context behind each query, personalizing results based on who you are, where you are, and what you need.`, 
+            AI understands the context behind each query, personalizing results based on who you are, where you are, and what you need.`,
             `It’s not just about answering questions; it’s about answering the right way for you.`,
           ],
         },
@@ -11061,7 +11076,7 @@ brand appears in AI summaries and citations.`,
           img: '',
           name: 'AI as Your Problem Solver',
           description: [
-            `AI isn’t just a tool; it’s your intelligent assistant.`, 
+            `AI isn’t just a tool; it’s your intelligent assistant.`,
             `From making complex decisions to finding creative solutions, AI is stepping in as a problem-solving partner, 
             helping users navigate the overwhelming amount of information out there with ease and insight.`,
           ],
@@ -11071,7 +11086,7 @@ brand appears in AI summaries and citations.`,
           name: 'The New Search Experience',
           description: [
             `Search is no longer limited to just text-based results. 
-            With AI’s multimodal capabilities, you can search by image, voice, or even video, making the process more interactive and immersive.`, 
+            With AI’s multimodal capabilities, you can search by image, voice, or even video, making the process more interactive and immersive.`,
             `Brands and content creators need to think beyond the traditional text-based search and optimize for every medium.`,
           ],
         },
@@ -11095,7 +11110,7 @@ brand appears in AI summaries and citations.`,
           name: 'AI-Optimized Content Strategy & Creation',
           description: [
             `We create strategically structured content designed for both human engagement and AI interpretation. Our content is built around semantic depth, topical authority, 
-            and clear entity positioning so that generative AI systems can accurately understand and summarize your expertise.`, 
+            and clear entity positioning so that generative AI systems can accurately understand and summarize your expertise.`,
             `Whether it’s concise, answer-focused content or comprehensive long-form resources, we align every piece with real search intent. 
             This significantly improves your chances of being included in AI-generated summaries, comparisons, and recommendations.`,
           ],
@@ -11107,7 +11122,7 @@ brand appears in AI summaries and citations.`,
           name: 'Authority & Brand Signal Enhancement',
           description: [
             `AI engines prioritize credibility and authoritative signals before recommending any brand. We strengthen your digital authority by optimizing internal 
-            content structures, refining entity signals, improving contextual clarity, and amplifying brand mentions across relevant platforms.`, 
+            content structures, refining entity signals, improving contextual clarity, and amplifying brand mentions across relevant platforms.`,
             `By building a strong and consistent digital footprint, we position your company as a trusted industry source that AI systems are more likely to reference.`,
           ],
           button: 'Optimize My Website for AI',
@@ -11117,8 +11132,8 @@ brand appears in AI summaries and citations.`,
           icon: geoAiSeoImpIcon_3,
           name: 'User Intent & Search Behavior Alignment',
           description: [
-            `Generative search platforms interpret conversational queries and contextual patterns differently than traditional search engines.`, 
-            `We conduct in-depth research into evolving user behavior, conversational search trends, and industry-specific demand signals.`, 
+            `Generative search platforms interpret conversational queries and contextual patterns differently than traditional search engines.`,
+            `We conduct in-depth research into evolving user behavior, conversational search trends, and industry-specific demand signals.`,
             `By aligning your content with how users actually interact with AI platforms, we ensure your brand becomes the most relevant and helpful solution when AI systems generate responses.`,
           ],
           button: 'Optimize My Website for AI',
@@ -11129,7 +11144,7 @@ brand appears in AI summaries and citations.`,
           name: 'Technical & Structural GEO Optimization',
           description: [
             `The technical structure of your website plays a critical role in how AI algorithms interpret your content. 
-            We ensure your site architecture is clean, logically structured, and optimized for machine readability.`, 
+            We ensure your site architecture is clean, logically structured, and optimized for machine readability.`,
             `From structured data implementation and schema optimization to performance enhancements and mobile responsiveness, 
             we create a technically sound foundation that increases AI trust and improves visibility across generative platforms.`,
           ],
@@ -11140,8 +11155,8 @@ brand appears in AI summaries and citations.`,
           icon: geoAiSeoImpIcon_5,
           name: 'Monitoring & Continuous Refinement',
           description: [
-            `The AI search landscape evolves rapidly, and static optimization strategies quickly become outdated.`, 
-            `We use advanced AI-powered analysis tools to monitor how your brand appears within generative search environments.`, 
+            `The AI search landscape evolves rapidly, and static optimization strategies quickly become outdated.`,
+            `We use advanced AI-powered analysis tools to monitor how your brand appears within generative search environments.`,
             `By tracking changes in AI-generated responses, content citations, and search behavior trends, we continuously refine your strategy to maintain and expand your AI visibility.`,
           ],
           button: 'Optimize My Website for AI',
@@ -11151,8 +11166,8 @@ brand appears in AI summaries and citations.`,
           icon: geoAiSeoImpIcon_6,
           name: 'Multimodal Search Optimization',
           description: [
-            `Search is no longer limited to text queries. AI-driven discovery now includes voice search, image recognition, and video-based results.`, 
-            `We optimize your content across multiple formats to ensure your brand remains discoverable in every AI-powered environment.`, 
+            `Search is no longer limited to text queries. AI-driven discovery now includes voice search, image recognition, and video-based results.`,
+            `We optimize your content across multiple formats to ensure your brand remains discoverable in every AI-powered environment.`,
             `Our holistic approach ensures consistent visibility regardless of how users search or interact with generative platforms.`,
           ],
           button: 'Optimize My Website for AI',
@@ -11176,11 +11191,11 @@ brand appears in AI summaries and citations.`,
           title: 'AI Visibility Audit',
           description: [
             `Our process begins with a comprehensive AI visibility and brand intelligence audit. 
-            We evaluate how AI-powered platforms currently interpret your brand, what information is publicly associated with your business, and how clearly your expertise is communicated across digital channels.`, 
+            We evaluate how AI-powered platforms currently interpret your brand, what information is publicly associated with your business, and how clearly your expertise is communicated across digital channels.`,
             `This includes analyzing website content structure, semantic clarity, entity consistency, technical signals, brand mentions, and contextual authority.`,
-            `We also assess whether your content aligns with conversational search patterns and whether your messaging clearly answers high-intent queries within your industry.`, 
+            `We also assess whether your content aligns with conversational search patterns and whether your messaging clearly answers high-intent queries within your industry.`,
             `This diagnostic phase allows us to identify structural weaknesses, authority gaps, and missed opportunities that may prevent AI systems from confidently citing or recommending your business. 
-            The result is a clear roadmap for transformation.`
+            The result is a clear roadmap for transformation.`,
           ],
         },
         {
@@ -11188,11 +11203,11 @@ brand appears in AI summaries and citations.`,
           title: 'Entity & Authority Structuring',
           description: [
             `Generative AI engines rely heavily on entity recognition and contextual relationships to determine expertise. 
-            In this stage, we define and strengthen your core brand entities: who you are, what you specialize in, which industries you serve, and which problem areas you own.`, 
+            In this stage, we define and strengthen your core brand entities: who you are, what you specialize in, which industries you serve, and which problem areas you own.`,
             `We build structured topic clusters that reinforce semantic connections across your website and eliminate ambiguity in your positioning.`,
             `Rather than producing scattered content, we establish topical depth that signals long-term authority. 
-            This structured approach improves how AI models categorize your business within knowledge frameworks and increases the likelihood of being surfaced in relevant responses.`, 
-            `Clear entity alignment ensures your brand is not just visible but contextually dominant within your niche.`
+            This structured approach improves how AI models categorize your business within knowledge frameworks and increases the likelihood of being surfaced in relevant responses.`,
+            `Clear entity alignment ensures your brand is not just visible but contextually dominant within your niche.`,
           ],
         },
         {
@@ -11200,11 +11215,11 @@ brand appears in AI summaries and citations.`,
           title: 'AI-Optimized Content Architecture',
           description: [
             `Content must now be designed for both human engagement and AI interpretation. 
-            During this phase, we restructure existing content and develop new resources aligned with generative search behavior.`, 
+            During this phase, we restructure existing content and develop new resources aligned with generative search behavior.`,
             `We refine page structure, implement intent-driven answer segments, enhance contextual depth, and ensure clarity in topic hierarchy.`,
             `Our focus is on producing content that AI systems can easily summarize, extract, and reference. 
-            This includes incorporating structured answer formats, improving semantic relationships between sections, strengthening explanatory depth, and ensuring every page communicates expertise with precision.`, 
-            `The objective is to transform your website into a reliable source that AI engines confidently use when generating summaries, comparisons, and recommendations.`
+            This includes incorporating structured answer formats, improving semantic relationships between sections, strengthening explanatory depth, and ensuring every page communicates expertise with precision.`,
+            `The objective is to transform your website into a reliable source that AI engines confidently use when generating summaries, comparisons, and recommendations.`,
           ],
         },
         {
@@ -11212,11 +11227,11 @@ brand appears in AI summaries and citations.`,
           title: 'Technical GEO Optimization',
           description: [
             `Technical clarity plays a foundational role in AI trust. 
-            Even high-quality content can underperform if the underlying structure does not support machine interpretation.`, 
+            Even high-quality content can underperform if the underlying structure does not support machine interpretation.`,
             `We optimize your website architecture to ensure it is semantically organized, fast-loading, mobile-optimized, and structured with a clean hierarchy and internal linking systems.`,
             `This stage includes implementing structured data, schema markup, improved crawl paths, optimized metadata, and streamlined content hierarchy. 
-            By improving machine readability and eliminating technical friction, we enhance how AI systems interpret your authority signals and contextual relationships.`, 
-            `A technically sound website increases algorithmic confidence and improves your probability of recommendation.`
+            By improving machine readability and eliminating technical friction, we enhance how AI systems interpret your authority signals and contextual relationships.`,
+            `A technically sound website increases algorithmic confidence and improves your probability of recommendation.`,
           ],
         },
         {
@@ -11224,13 +11239,13 @@ brand appears in AI summaries and citations.`,
           title: 'Authority Signal Amplification',
           description: [
             `AI engines do not evaluate your website in isolation. 
-            They assess your broader digital footprint to determine credibility and trustworthiness.`, 
+            They assess your broader digital footprint to determine credibility and trustworthiness.`,
             `We strengthen your authority through strategic digital signal development, including brand mention enhancement, contextual citations, thought leadership positioning, 
             and ecosystem consistency across platforms.`,
             `AI engines do not evaluate your website in isolation. 
-            They assess your broader digital footprint to determine credibility and trustworthiness.`, 
+            They assess your broader digital footprint to determine credibility and trustworthiness.`,
             `We strengthen your authority through strategic digital signal development, including brand mention enhancement, contextual citations, thought leadership positioning, 
-            and ecosystem consistency across platforms.`
+            and ecosystem consistency across platforms.`,
           ],
         },
         {
@@ -11238,10 +11253,10 @@ brand appears in AI summaries and citations.`,
           title: 'Continuous AI Monitoring & Refinement',
           description: [
             `The generative search landscape evolves rapidly, making ongoing refinement essential. 
-            We continuously monitor how AI platforms respond to your content, how your brand appears in generated outputs, and how conversational search trends shift over time.`, 
+            We continuously monitor how AI platforms respond to your content, how your brand appears in generated outputs, and how conversational search trends shift over time.`,
             `Using AI-powered analytics and performance evaluation frameworks, we identify changes in citation patterns, visibility opportunities, and emerging demand signals.`,
             `This allows us to proactively adjust your Generative Engine Optimization strategy to maintain a competitive advantage. 
-            Rather than implementing a static campaign, we develop a dynamic system that evolves alongside AI algorithms and user behavior.`
+            Rather than implementing a static campaign, we develop a dynamic system that evolves alongside AI algorithms and user behavior.`,
           ],
         },
       ],
@@ -11252,11 +11267,8 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       isBgWhite: true,
       isVariant: '01',
-      heading:
-        'Adaired Digital Media vs. Other Generative AI SEO Agencies',
-      description: [
-        ``,
-      ],
+      heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
+      description: [``],
       data: [
         {
           desctioption: `Feature`,
@@ -11285,22 +11297,34 @@ brand appears in AI summaries and citations.`,
           desctioption: `Adaired Digital Media`,
           list: [
             {
-              description: [`We design strategies that are tailored for the evolving AI search landscape.`],
+              description: [
+                `We design strategies that are tailored for the evolving AI search landscape.`,
+              ],
             },
             {
-              description: [`We optimize for a broad range of AI platforms, ensuring visibility across all channels.`],
+              description: [
+                `We optimize for a broad range of AI platforms, ensuring visibility across all channels.`,
+              ],
             },
             {
-              description: [`We align your content with evolving user intent, ensuring your brand matches search needs.`],
+              description: [
+                `We align your content with evolving user intent, ensuring your brand matches search needs.`,
+              ],
             },
             {
-              description: [`We create content that is both AI-readable and contextually aligned with search intent.`],
+              description: [
+                `We create content that is both AI-readable and contextually aligned with search intent.`,
+              ],
             },
             {
-              description: [`Our strategies evolve with changing AI algorithms to keep your brand visible long-term.`],
+              description: [
+                `Our strategies evolve with changing AI algorithms to keep your brand visible long-term.`,
+              ],
             },
             {
-              description: [`We leverage AI tools to continuously optimize and refine your SEO for better performance.`],
+              description: [
+                `We leverage AI tools to continuously optimize and refine your SEO for better performance.`,
+              ],
             },
           ],
         },
@@ -11308,22 +11332,34 @@ brand appears in AI summaries and citations.`,
           desctioption: `They`,
           list: [
             {
-              description: [`They rely on traditional keyword-based SEO methods that are no longer as effective.`],
+              description: [
+                `They rely on traditional keyword-based SEO methods that are no longer as effective.`,
+              ],
             },
             {
-              description: [`They focus on a limited number of platforms, missing out on AI-driven opportunities elsewhere.`],
+              description: [
+                `They focus on a limited number of platforms, missing out on AI-driven opportunities elsewhere.`,
+              ],
             },
             {
-              description: [`They overlook the nuances of user intent, resulting in less relevant content placement.`],
+              description: [
+                `They overlook the nuances of user intent, resulting in less relevant content placement.`,
+              ],
             },
             {
-              description: [`They use generic content strategies that don’t cater to AI’s need for clear, structured data.`],
+              description: [
+                `They use generic content strategies that don’t cater to AI’s need for clear, structured data.`,
+              ],
             },
             {
-              description: [`Their solutions are static and struggle to adapt as AI algorithms continue to change.`],
+              description: [
+                `Their solutions are static and struggle to adapt as AI algorithms continue to change.`,
+              ],
             },
             {
-              description: [`They lack the use of AI-driven insights, relying on outdated metrics for optimization.`],
+              description: [
+                `They lack the use of AI-driven insights, relying on outdated metrics for optimization.`,
+              ],
             },
           ],
         },
@@ -11366,7 +11402,7 @@ brand appears in AI summaries and citations.`,
           title: 'What is Generative Engine Optimization (GEO)?',
           description: [
             `Generative Engine Optimization (GEO) is the process of optimizing your website, content, and authority signals so AI-powered search platforms can understand, trust, 
-            and recommend your brand in generated answers.`, 
+            and recommend your brand in generated answers.`,
             `It goes beyond traditional SEO by focusing on AI interpretation and recommendation probability.`,
           ],
         },
@@ -11374,7 +11410,7 @@ brand appears in AI summaries and citations.`,
           title: 'How is GEO different from traditional SEO?',
           description: [
             `Traditional SEO focuses on ranking pages in search engine results. 
-            GEO focuses on getting your brand mentioned, cited, and recommended within AI-generated responses.`, 
+            GEO focuses on getting your brand mentioned, cited, and recommended within AI-generated responses.`,
             `While SEO targets keywords and rankings, GEO prioritizes intent alignment, entity clarity, authority, and AI readability.`,
           ],
         },
@@ -11382,14 +11418,14 @@ brand appears in AI summaries and citations.`,
           title: 'Does GEO replace SEO?',
           description: [
             `No, GEO does not replace SEO; it builds on it. 
-            A strong SEO foundation is still essential, but GEO enhances your strategy by optimizing for AI-driven search environments.`, 
+            A strong SEO foundation is still essential, but GEO enhances your strategy by optimizing for AI-driven search environments.`,
             `Together, they create a more comprehensive visibility strategy.`,
           ],
         },
         {
           title: 'Why is GEO important for businesses in India?',
           description: [
-            `AI adoption in India is rapidly increasing across industries.`, 
+            `AI adoption in India is rapidly increasing across industries.`,
             `As more users rely on AI assistants for research and recommendations, businesses that invest in Generative Engine Optimization gain a competitive advantage 
             by appearing in AI-generated results before the market becomes saturated.`,
           ],
@@ -11397,7 +11433,7 @@ brand appears in AI summaries and citations.`,
         {
           title: 'How long does it take to see results from GEO?',
           description: [
-            `GEO is a strategic process rather than an instant fix.`, 
+            `GEO is a strategic process rather than an instant fix.`,
             `Initial improvements in structure and clarity can be implemented quickly, but authority development and AI recognition 
             typically strengthen over several months as signals compound and AI systems reassess credibility.`,
           ],
@@ -11405,14 +11441,14 @@ brand appears in AI summaries and citations.`,
         {
           title: 'Can small and mid-sized businesses benefit from GEO?',
           description: [
-            `Yes. In fact, small and mid-sized businesses can gain a significant advantage through GEO by positioning themselves as niche authorities.`, 
+            `Yes. In fact, small and mid-sized businesses can gain a significant advantage through GEO by positioning themselves as niche authorities.`,
             `AI systems prioritize relevance and clarity, which allows focused brands to compete effectively against larger competitors.`,
           ],
         },
         {
           title: 'What types of businesses need Generative AI SEO?',
           description: [
-            `Any business that relies on online visibility can benefit from Generative AI SEO.`, 
+            `Any business that relies on online visibility can benefit from Generative AI SEO.`,
             `This includes SaaS companies, B2B service providers, e-commerce brands, agencies, consultants, and local businesses seeking increased digital authority in AI-driven search platforms.`,
           ],
         },
