@@ -48,7 +48,7 @@ const OurProcess = ({ ourProcess }: any) => {
             title={ourProcess?.title}
             isDecVarticle={!ourProcess?.isInCenter && true}
             description={ourProcess?.description}
-            isInCenter={true}
+            isInCenter={ourProcess?.isInCenter}
             isBgWhite={ourProcess?.isInCenter && true}
           />
 
