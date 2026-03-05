@@ -113,29 +113,29 @@ export const routes: {
       value: 'services',
       href: '#',
       subItems: [
-        {
-          icon: icon_1,
-          name: 'White Label (For Agencies)',
-          href: '/services/white-label-agency-india',
-          subItems: [
-            {
-              name: 'White Label SEO',
-              href: '/services/seo-outsourcing-india',
-            },
-            {
-              name: 'White Label Social Media',
-              href: '/services/social-media-outsourcing-india',
-            },
-            {
-              name: 'White Label Paid Ads',
-              href: '/services/white-label-paid-ads',
-            },
-            {
-              name: 'White Label Link Building',
-              href: '/services/white-label-link-building',
-            },
-          ],
-        },
+        // {
+        //   icon: icon_1,
+        //   name: 'White Label (For Agencies)',
+        //   href: '/services/white-label-agency-india',
+        //   subItems: [
+        //     {
+        //       name: 'White Label SEO',
+        //       href: '/services/seo-outsourcing-india',
+        //     },
+        //     {
+        //       name: 'White Label Social Media',
+        //       href: '/services/social-media-outsourcing-india',
+        //     },
+        //     {
+        //       name: 'White Label Paid Ads',
+        //       href: '/services/white-label-paid-ads',
+        //     },
+        //     {
+        //       name: 'White Label Link Building',
+        //       href: '/services/white-label-link-building',
+        //     },
+        //   ],
+        // },
         {
           icon: icon_2,
           name: 'Link Building',
@@ -337,26 +337,26 @@ export const routes: {
         },
       ],
     },
-    // {
-    //   label: 'White Label',
-    //   value: 'White Label',
-    //   href: '/services/white-label-agency-india',
-    //   subItems: [
-    //     { name: 'White Label SEO', href: '/services/seo-outsourcing-india' },
-    //     {
-    //       name: 'White Label Social Media',
-    //       href: '/services/social-media-outsourcing-india',
-    //     },
-    //     {
-    //       name: 'White Label Paid Ads',
-    //       href: '/services/white-label-paid-ads',
-    //     },
-    //     {
-    //       name: 'White Label Link Building',
-    //       href: '/services/white-label-link-building',
-    //     },
-    //   ],
-    // },
+    {
+      label: 'White Label',
+      value: 'White Label',
+      href: '/services/white-label-agency-india',
+      subItems: [
+        { name: 'White Label SEO', href: '/services/seo-outsourcing-india' },
+        {
+          name: 'White Label Social Media',
+          href: '/services/social-media-outsourcing-india',
+        },
+        {
+          name: 'White Label Paid Ads',
+          href: '/services/white-label-paid-ads',
+        },
+        {
+          name: 'White Label Link Building',
+          href: '/services/white-label-link-building',
+        },
+      ],
+    },
     {
       label: 'Resources',
       value: 'resources',
