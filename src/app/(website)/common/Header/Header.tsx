@@ -138,7 +138,7 @@ const Header = () => {
                           </div>
                         ) : (
                           /* ===================== SERVICES MEGA MENU ===================== */
-                          <div className="mx-auto rounded-2xl bg-white px-[1rem] py-[0.5rem] shadow-xl">
+                          <div className="mx-auto rounded-2xl bg-white px-[2rem] py-[1.5rem] shadow-xl">
                             <div className="">
                               {/* LEFT SERVICES GRID */}
                               {/* <div className="grid grid-cols-4 gap-10">
