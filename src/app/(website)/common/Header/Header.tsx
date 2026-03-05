@@ -20,6 +20,7 @@ import { GoArrowUpRight } from 'react-icons/go';
 import { MdArrowOutward } from 'react-icons/md';
 import { AiOutlineSetting } from 'react-icons/ai';
 import contactus from '../../../../../public/assets/header/Group 1000006721.svg';
+
 const Header = () => {
   const router = useRouter();
   const [show, setShow] = useState(false);
@@ -150,6 +151,9 @@ const Header = () => {
                                         onMouseEnter={() =>
                                           setActiveMenuTab(index)
                                         }
+                                        onMouseLeave={() =>
+                                          setActiveMenuTab(null)
+                                        }
                                         className={`relative rounded-[1rem] border-r p-[1rem] last:border-none ${
                                           activeMenuTab === index
                                             ? 'bg-[#FB9100]'
@@ -159,8 +163,8 @@ const Header = () => {
                                         <span>
                                           <Image
                                             src={sub?.icon}
-                                            width={45}
-                                            height={45}
+                                            width={43}
+                                            height={43}
                                             alt={sub?.icon}
                                             className={`rounded-[5px] border border-[#FB91001A]/10 p-2 ${activeMenuTab === index && 'bg-[#FFFFFF]'}`}
                                           />
@@ -168,7 +172,7 @@ const Header = () => {
 
                                         <Link
                                           href={sub.href}
-                                          className={`my-[0.75rem] block text-sm font-semibold transition ${
+                                          className={`my-[0.65rem] block text-[18px] font-semibold transition ${
                                             activeMenuTab === index
                                               ? 'text-white'
                                               : ''
@@ -177,21 +181,33 @@ const Header = () => {
                                           {sub.name}
                                         </Link>
 
-                                        <div className="space-y-1">
+                                        <div className="space-y-0.5">
                                           {sub.subItems?.map(
-                                            (item: any, j: number) => (
-                                              <Link
-                                                key={j}
-                                                href={item.href}
-                                                className={`flex items-center gap-3 text-[15px] transition ${
-                                                  activeMenuTab === index
-                                                    ? 'text-white'
-                                                    : ''
-                                                }`}
-                                              >
-                                                {item.name}
-                                              </Link>
-                                            )
+                                            (item: any, j: number) => {
+                                              const isActive = isPathActive(
+                                                item.href
+                                              );
+
+                                              return (
+                                                <Link
+                                                  key={j}
+                                                  href={item.href}
+                                                  className={`group flex items-center gap-2 transition ${activeMenuTab === index ? 'text-white' : ''} ${isActive ? 'font-bold text-[#FB9100]' : 'hover:font-semibold'} `}
+                                                >
+                                                  <span className="text-[15px]">
+                                                    {item.name}
+                                                  </span>
+
+                                                  <GoArrowUpRight
+                                                    className={`transition-all duration-200 ${
+                                                      isActive
+                                                        ? 'opacity-100'
+                                                        : 'opacity-0 group-hover:opacity-100'
+                                                    }`}
+                                                  />
+                                                </Link>
+                                              );
+                                            }
                                           )}
                                         </div>
                                       </div>
@@ -214,6 +230,9 @@ const Header = () => {
                                             onMouseEnter={() =>
                                               setActiveMenuTab(index)
                                             }
+                                            onMouseLeave={() =>
+                                              setActiveMenuTab(null)
+                                            }
                                             className={`relative rounded-[1rem] border-r p-[1rem] last:border-none ${
                                               activeMenuTab === index
                                                 ? 'bg-[#FB9100]'
@@ -223,8 +242,8 @@ const Header = () => {
                                             <span>
                                               <Image
                                                 src={sub?.icon}
-                                                width={45}
-                                                height={45}
+                                                width={43}
+                                                height={43}
                                                 alt={sub?.icon}
                                                 className={`rounded-[5px] border border-[#FB91001A]/10 p-2 ${activeMenuTab === index && 'bg-[#FFFFFF]'}`}
                                               />
@@ -232,7 +251,7 @@ const Header = () => {
 
                                             <Link
                                               href={sub.href}
-                                              className={`my-[0.75rem] block text-sm font-semibold transition ${
+                                              className={`my-[0.65rem] block text-[18px] font-semibold transition ${
                                                 activeMenuTab === index
                                                   ? 'text-white'
                                                   : ''
@@ -240,22 +259,33 @@ const Header = () => {
                                             >
                                               {sub.name}
                                             </Link>
-
-                                            <div className="space-y-1">
+                                            <div className="space-y-0.5">
                                               {sub.subItems?.map(
-                                                (item: any, j: number) => (
-                                                  <Link
-                                                    key={j}
-                                                    href={item.href}
-                                                    className={`flex items-center gap-3 text-[15px] transition ${
-                                                      activeMenuTab === index
-                                                        ? 'text-white'
-                                                        : ''
-                                                    }`}
-                                                  >
-                                                    {item.name}
-                                                  </Link>
-                                                )
+                                                (item: any, j: number) => {
+                                                  const isActive = isPathActive(
+                                                    item.href
+                                                  );
+
+                                                  return (
+                                                    <Link
+                                                      key={j}
+                                                      href={item.href}
+                                                      className={`group flex items-center gap-2 transition ${activeMenuTab === index ? 'text-white' : ''} ${isActive ? 'font-bold text-[#FB9100]' : 'hover:font-semibold'} `}
+                                                    >
+                                                      <span className="text-[15px]">
+                                                        {item.name}
+                                                      </span>
+
+                                                      <GoArrowUpRight
+                                                        className={`transition-all duration-200 ${
+                                                          isActive
+                                                            ? 'opacity-100'
+                                                            : 'opacity-0 group-hover:opacity-100'
+                                                        }`}
+                                                      />
+                                                    </Link>
+                                                  );
+                                                }
                                               )}
                                             </div>
                                           </div>
@@ -264,7 +294,7 @@ const Header = () => {
                                   </div>
 
                                   {/* THIRD ROW */}
-                                  <div className="mt-[1rem] grid grid-cols-3 gap-10">
+                                  <div className="mt-[0.5rem] grid grid-cols-3 gap-10">
                                     {menu?.subItems
                                       ?.slice(7, 10)
                                       .map((sub: any, i: number) => {
@@ -276,6 +306,9 @@ const Header = () => {
                                             onMouseEnter={() =>
                                               setActiveMenuTab(index)
                                             }
+                                            onMouseLeave={() =>
+                                              setActiveMenuTab(null)
+                                            }
                                             className={`relative rounded-[1rem] border-r p-[1rem] last:border-none ${
                                               activeMenuTab === index
                                                 ? 'bg-[#FB9100]'
@@ -285,8 +318,8 @@ const Header = () => {
                                             <span>
                                               <Image
                                                 src={sub?.icon}
-                                                width={45}
-                                                height={45}
+                                                width={43}
+                                                height={43}
                                                 alt={sub?.icon}
                                                 className={`rounded-[5px] border border-[#FB91001A]/10 p-2 ${activeMenuTab === index && 'bg-[#FFFFFF]'}`}
                                               />
@@ -294,7 +327,7 @@ const Header = () => {
 
                                             <Link
                                               href={sub.href}
-                                              className={`my-[0.75rem] block text-sm font-semibold transition ${
+                                              className={`my-[0.65rem] block text-[18px] font-semibold transition ${
                                                 activeMenuTab === index
                                                   ? 'text-white'
                                                   : ''
@@ -302,22 +335,33 @@ const Header = () => {
                                             >
                                               {sub.name}
                                             </Link>
-
-                                            <div className="space-y-1">
+                                            <div className="space-y-0.5">
                                               {sub.subItems?.map(
-                                                (item: any, j: number) => (
-                                                  <Link
-                                                    key={j}
-                                                    href={item.href}
-                                                    className={`flex items-center gap-3 text-[15px] transition ${
-                                                      activeMenuTab === index
-                                                        ? 'text-white'
-                                                        : ''
-                                                    }`}
-                                                  >
-                                                    {item.name}
-                                                  </Link>
-                                                )
+                                                (item: any, j: number) => {
+                                                  const isActive = isPathActive(
+                                                    item.href
+                                                  );
+
+                                                  return (
+                                                    <Link
+                                                      key={j}
+                                                      href={item.href}
+                                                      className={`group flex items-center gap-2 transition ${activeMenuTab === index ? 'text-white' : ''} ${isActive ? 'font-bold text-[#FB9100]' : 'hover:font-semibold'} `}
+                                                    >
+                                                      <span className="text-[15px]">
+                                                        {item.name}
+                                                      </span>
+
+                                                      <GoArrowUpRight
+                                                        className={`transition-all duration-200 ${
+                                                          isActive
+                                                            ? 'opacity-100'
+                                                            : 'opacity-0 group-hover:opacity-100'
+                                                        }`}
+                                                      />
+                                                    </Link>
+                                                  );
+                                                }
                                               )}
                                             </div>
                                           </div>
@@ -329,21 +373,18 @@ const Header = () => {
                                 {/* RIGHT CTA */}
                                 <div className="flex h-full flex-col justify-between rounded-xl bg-[#F6F1E8] p-6">
                                   <div>
-                                    <h3 className="text-2xl font-light">
-                                      Let’s Build
-                                      <br />
-                                      <span className="font-bold text-black">
-                                        Something Great
-                                      </span>
-                                    </h3>
+                                    <p className="text-[30px]">Let’s Build</p>
+                                    <h2 className="font-bold text-black">
+                                      Something Great
+                                    </h2>
 
-                                    <p className="mt-4 text-sm text-gray-600">
+                                    <p className="mt-2 text-sm text-gray-600">
                                       Talk To Our Experts Today.
                                     </p>
 
                                     <Link
                                       href="/contact"
-                                      className="mt-6 inline-block rounded-full border border-black px-5 py-2 text-sm transition hover:bg-black hover:text-white"
+                                      className="mt-4 inline-block rounded-full border border-black px-5 py-2 text-sm transition hover:bg-black hover:text-white"
                                     >
                                       Contact Us
                                     </Link>

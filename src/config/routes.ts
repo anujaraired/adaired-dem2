@@ -116,40 +116,46 @@ export const routes: {
         {
           icon: icon_1,
           name: 'White Label (For Agencies)',
-          href: '/services/web-design-development-company',
+          href: '/services/white-label-agency-india',
           subItems: [
             {
               name: 'White Label SEO',
-              href: '/services/wordpress-development',
+              href: '/services/seo-outsourcing-india',
             },
             {
-              name: 'White Label Socila Media',
-              href: '/services/custom-web-development',
+              name: 'White Label Social Media',
+              href: '/services/social-media-outsourcing-india',
             },
-            { name: 'White Label Paid Ads', href: '/services/woocommerce' },
+            {
+              name: 'White Label Paid Ads',
+              href: '/services/white-label-paid-ads',
+            },
             {
               name: 'White Label Link Building',
-              href: '/services/shopify-development',
+              href: '/services/white-label-link-building',
             },
           ],
         },
         {
           icon: icon_2,
           name: 'Link Building',
-          href: '/services/web-design-development-company',
+          href: '/services/link-building-services-india',
           subItems: [
             {
               name: 'High Authority Link Building',
-              href: '/services/wordpress-development',
+              href: '/services/link-building-services-india',
             },
             {
               name: 'Gest Post Links',
-              href: '/services/custom-web-development',
+              href: '/services/link-building-services-india',
             },
-            { name: 'Niche Edits', href: '/services/woocommerce' },
+            {
+              name: 'Niche Edits',
+              href: '/services/link-building-services-india',
+            },
             {
               name: 'Press Releases',
-              href: '/services/shopify-development',
+              href: '/services/link-building-services-india',
             },
           ],
         },
@@ -161,42 +167,42 @@ export const routes: {
           subItems: [
             {
               name: 'Port Creation',
-              href: '/services/social-media-optimization',
+              href: '/services/strategic-social-media-management',
             },
             {
               name: 'Content Calendar',
-              href: '/services/social-media-marketing',
+              href: '/services/strategic-social-media-management',
             },
             {
               name: 'Reel Editing',
-              href: '/services/social-media-optimization',
+              href: '/services/strategic-social-media-management',
             },
             {
               name: 'Creatives',
-              href: '/services/social-media-marketing',
+              href: '/services/strategic-social-media-management',
             },
           ],
         },
         {
           icon: icon_4,
           name: 'Content Writing & Marketing',
-          href: '/services/strategic-social-media-management',
+          href: '/services/expert-content-solutions',
           subItems: [
             {
               name: 'Article Writing',
-              href: '/services/social-media-optimization',
+              href: '/services/expert-content-solutions',
             },
             {
               name: 'Blog Writing',
-              href: '/services/social-media-marketing',
+              href: '/services/expert-content-solutions',
             },
             {
               name: 'Web Content',
-              href: '/services/social-media-optimization',
+              href: '/services/expert-content-solutions',
             },
             {
               name: 'ECommerce Content',
-              href: '/services/social-media-marketing',
+              href: '/services/expert-content-solutions',
             },
           ],
         },
@@ -208,30 +214,30 @@ export const routes: {
           subItems: [
             {
               name: 'SEO',
-              href: '/services/technical-seo-analysis',
+              href: '/services/seo-company-india',
             },
             {
               name: 'SAAS SEO',
-              href: '/services/online-reputation-management',
+              href: '/services/saas-seo-india',
             },
             {
               name: 'ECommerce SEO',
-              href: '/services/competitor-backlink-outreach',
+              href: '/services/seo-company-india',
             },
           ],
         },
         {
           icon: icon_6,
           name: 'Local SEO',
-          href: '/services/strategic-social-media-management',
+          href: '/services/local-seo-company-india',
           subItems: [
             {
               name: 'GBP Only',
-              href: '/services/social-media-optimization',
+              href: '/services/local-seo-company-india',
             },
             {
               name: 'GBP + Website',
-              href: '/services/social-media-marketing',
+              href: '/services/local-seo-company-india',
             },
           ],
         },
@@ -239,46 +245,46 @@ export const routes: {
         {
           icon: icon_7,
           name: 'Web Design & Development',
-          href: '/services/white-label-agency-india',
+          href: '/services/web-design-development-company',
           subItems: [
             {
               name: 'Wordpress Development',
-              href: '/services/seo-outsourcing-india',
+              href: '/services/wordpress-development',
             },
             {
               name: 'Shopify Development',
-              href: '/services/social-media-outsourcing-india',
+              href: '/services/shopify-development',
             },
             {
               name: 'ECommerce Development',
-              href: '/services/white-label-paid-ads',
+              href: '/services/web-design-development-company',
             },
             {
               name: 'Custom Web Development',
-              href: '/services/white-label-link-building',
+              href: '/services/custom-web-development',
             },
           ],
         },
         {
           icon: icon_8,
           name: 'AI SEO',
-          href: '/services/digital-creative-and-logo-design',
+          href: '#',
           subItems: [
             {
               name: 'AI SEO',
-              href: '/services/digital-creative-and-logo-design',
+              href: '/services/ai-seo-company-india',
             },
             {
               name: 'LMM SEO/LLMO',
-              href: '/services/digital-creative-and-logo-design',
+              href: '/services/ai-seo-company-india',
             },
             {
               name: 'GEO',
-              href: '/services/digital-creative-and-logo-design',
+              href: '/services/ai-seo-company-india',
             },
             {
               name: 'AEO',
-              href: '/services/digital-creative-and-logo-design',
+              href: '/services/ai-seo-company-india',
             },
           ],
         },
@@ -301,10 +307,6 @@ export const routes: {
               href: '/services/paid-media-and-advertising',
             },
             {
-              name: 'CPC Bid Management',
-              href: '/services/paid-media-and-advertising',
-            },
-            {
               name: 'TikTok Ads',
               href: '/services/paid-media-and-advertising',
             },
@@ -313,48 +315,48 @@ export const routes: {
         {
           icon: icon_10,
           name: 'Mobile App Development',
-          href: '/services/white-label-agency-india',
+          href: '/services/web-design-development-company',
           subItems: [
             {
               name: 'IOS Development',
-              href: '/services/seo-outsourcing-india',
+              href: '/services/web-design-development-company',
             },
             {
               name: 'Android Development',
-              href: '/services/social-media-outsourcing-india',
+              href: '/services/web-design-development-company',
             },
             {
               name: 'Cross-Platform',
-              href: '/services/white-label-paid-ads',
+              href: '/services/web-design-development-company',
             },
             {
               name: 'Wearables',
-              href: '/services/white-label-link-building',
+              href: '/services/web-design-development-company',
             },
           ],
         },
       ],
     },
-    {
-      label: 'White Label',
-      value: 'White Label',
-      href: '/services/white-label-agency-india',
-      subItems: [
-        { name: 'White Label SEO', href: '/services/seo-outsourcing-india' },
-        {
-          name: 'White Label Social Media',
-          href: '/services/social-media-outsourcing-india',
-        },
-        {
-          name: 'White Label Paid Ads',
-          href: '/services/white-label-paid-ads',
-        },
-        {
-          name: 'White Label Link Building',
-          href: '/services/white-label-link-building',
-        },
-      ],
-    },
+    // {
+    //   label: 'White Label',
+    //   value: 'White Label',
+    //   href: '/services/white-label-agency-india',
+    //   subItems: [
+    //     { name: 'White Label SEO', href: '/services/seo-outsourcing-india' },
+    //     {
+    //       name: 'White Label Social Media',
+    //       href: '/services/social-media-outsourcing-india',
+    //     },
+    //     {
+    //       name: 'White Label Paid Ads',
+    //       href: '/services/white-label-paid-ads',
+    //     },
+    //     {
+    //       name: 'White Label Link Building',
+    //       href: '/services/white-label-link-building',
+    //     },
+    //   ],
+    // },
     {
       label: 'Resources',
       value: 'resources',
