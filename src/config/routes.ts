@@ -1,3 +1,14 @@
+import icon_1 from '../../public/assets/icons/header/Group 1000006700.svg';
+import icon_2 from '../../public/assets/icons/header/Group 1000006727.svg';
+import icon_3 from '../../public/assets/icons/header/Group 1000006729.svg';
+import icon_4 from '../../public/assets/icons/header/Group 1000006731.svg';
+import icon_5 from '../../public/assets/icons/header/Group 1000006730.svg';
+import icon_6 from '../../public/assets/icons/header/Group 1000006732.svg';
+import icon_7 from '../../public/assets/icons/header/Group 1000006733.svg';
+import icon_8 from '../../public/assets/icons/header/ai-technology 1.svg';
+import icon_9 from '../../public/assets/icons/header/Group 1000006735.svg';
+import icon_10 from '../../public/assets/icons/header/Group 1000006736.svg';
+
 /* ======================================
    NAV TYPES
 ====================================== */
@@ -8,6 +19,7 @@ export type NavLeaf = {
 };
 
 export type NavGroup = {
+  icon: string;
   name: string;
   href: string;
   subItems: NavLeaf[];
@@ -102,127 +114,190 @@ export const routes: {
       href: '#',
       subItems: [
         {
-          name: 'Web Design & Development',
+          icon: icon_1,
+          name: 'White Label (For Agencies)',
           href: '/services/web-design-development-company',
           subItems: [
             {
-              name: 'WordPress Development',
+              name: 'White Label SEO',
               href: '/services/wordpress-development',
             },
             {
-              name: 'Custom web development',
+              name: 'White Label Socila Media',
               href: '/services/custom-web-development',
             },
-            { name: 'WooCommerce', href: '/services/woocommerce' },
+            { name: 'White Label Paid Ads', href: '/services/woocommerce' },
             {
-              name: 'Shopify Development',
+              name: 'White Label Link Building',
               href: '/services/shopify-development',
             },
-            { name: 'PHP Development', href: '/services/php-development' },
-            {
-              name: 'Laravel Development',
-              href: '/services/laravel-development',
-            },
-            {
-              name: 'Web Development Company USA',
-              href: '/services/web-development-company-usa',
-            },
           ],
         },
-
         {
-          name: 'Search Engine Optimization (SEO)',
-          href: '/services/seo-company-india',
+          icon: icon_2,
+          name: 'Link Building',
+          href: '/services/web-design-development-company',
           subItems: [
             {
-              name: 'Technical SEO Analysis',
-              href: '/services/technical-seo-analysis',
+              name: 'High Authority Link Building',
+              href: '/services/wordpress-development',
             },
             {
-              name: 'Online Reputation Management',
-              href: '/services/online-reputation-management',
+              name: 'Gest Post Links',
+              href: '/services/custom-web-development',
             },
+            { name: 'Niche Edits', href: '/services/woocommerce' },
             {
-              name: 'Competitor Backlink Outreach',
-              href: '/services/competitor-backlink-outreach',
+              name: 'Press Releases',
+              href: '/services/shopify-development',
             },
-            {
-              name: 'Guest Post Outreach',
-              href: '/services/guest-post-outreach',
-            },
-            {
-              name: 'On-Page and Off-Page Optimization',
-              href: '/services/on-page-and-off-page-optimization',
-            },
-            { name: 'Local SEO (GBP)', href: '/services/local-seo' },
-            { name: 'SEO Company USA', href: '/services/seo-company-usa' },
           ],
         },
 
         {
-          name: 'Strategic Social Media Management',
+          icon: icon_3,
+          name: 'Social Media Management',
           href: '/services/strategic-social-media-management',
           subItems: [
             {
-              name: 'Social Media Optimization',
+              name: 'Port Creation',
               href: '/services/social-media-optimization',
             },
             {
-              name: 'Social Media Marketing',
+              name: 'Content Calendar',
+              href: '/services/social-media-marketing',
+            },
+            {
+              name: 'Reel Editing',
+              href: '/services/social-media-optimization',
+            },
+            {
+              name: 'Creatives',
+              href: '/services/social-media-marketing',
+            },
+          ],
+        },
+        {
+          icon: icon_4,
+          name: 'Content Writing & Marketing',
+          href: '/services/strategic-social-media-management',
+          subItems: [
+            {
+              name: 'Article Writing',
+              href: '/services/social-media-optimization',
+            },
+            {
+              name: 'Blog Writing',
+              href: '/services/social-media-marketing',
+            },
+            {
+              name: 'Web Content',
+              href: '/services/social-media-optimization',
+            },
+            {
+              name: 'ECommerce Content',
               href: '/services/social-media-marketing',
             },
           ],
         },
 
         {
-          name: 'Graphic Design',
+          icon: icon_5,
+          name: 'Search Engine Optimization (SEO)',
+          href: '/services/seo-company-india',
+          subItems: [
+            {
+              name: 'SEO',
+              href: '/services/technical-seo-analysis',
+            },
+            {
+              name: 'SAAS SEO',
+              href: '/services/online-reputation-management',
+            },
+            {
+              name: 'ECommerce SEO',
+              href: '/services/competitor-backlink-outreach',
+            },
+          ],
+        },
+        {
+          icon: icon_6,
+          name: 'Local SEO',
+          href: '/services/strategic-social-media-management',
+          subItems: [
+            {
+              name: 'GBP Only',
+              href: '/services/social-media-optimization',
+            },
+            {
+              name: 'GBP + Website',
+              href: '/services/social-media-marketing',
+            },
+          ],
+        },
+
+        {
+          icon: icon_7,
+          name: 'Web Design & Development',
+          href: '/services/white-label-agency-india',
+          subItems: [
+            {
+              name: 'Wordpress Development',
+              href: '/services/seo-outsourcing-india',
+            },
+            {
+              name: 'Shopify Development',
+              href: '/services/social-media-outsourcing-india',
+            },
+            {
+              name: 'ECommerce Development',
+              href: '/services/white-label-paid-ads',
+            },
+            {
+              name: 'Custom Web Development',
+              href: '/services/white-label-link-building',
+            },
+          ],
+        },
+        {
+          icon: icon_8,
+          name: 'AI SEO',
           href: '/services/digital-creative-and-logo-design',
           subItems: [
             {
-              name: 'Website Graphics',
+              name: 'AI SEO',
               href: '/services/digital-creative-and-logo-design',
             },
             {
-              name: 'Website Logo',
+              name: 'LMM SEO/LLMO',
               href: '/services/digital-creative-and-logo-design',
             },
             {
-              name: 'Digital Broucher',
+              name: 'GEO',
               href: '/services/digital-creative-and-logo-design',
             },
             {
-              name: 'Email Marketing Graphics',
-              href: '/services/digital-creative-and-logo-design',
-            },
-            {
-              name: 'Business card, Letterhead etc.',
-              href: '/services/digital-creative-and-logo-design',
-            },
-            {
-              name: 'Poster, Banner, Flyer and Signage',
-              href: '/services/digital-creative-and-logo-design',
-            },
-            {
-              name: 'Social Media Graphics',
+              name: 'AEO',
               href: '/services/digital-creative-and-logo-design',
             },
           ],
         },
 
         {
-          name: 'Paid Media & Advertising',
+          icon: icon_9,
+          name: 'Pay Per Click & SMM',
           href: '/services/paid-media-and-advertising',
           subItems: [
             {
-              name: 'AdWords Audit',
+              name: 'Google Ads',
               href: '/services/paid-media-and-advertising',
             },
             {
-              name: 'Keyword Research',
+              name: 'Meta Ads',
               href: '/services/paid-media-and-advertising',
             },
             {
-              name: 'Campaign Optimization',
+              name: 'Linkedin Ads',
               href: '/services/paid-media-and-advertising',
             },
             {
@@ -230,59 +305,31 @@ export const routes: {
               href: '/services/paid-media-and-advertising',
             },
             {
-              name: 'Customized Ad Extensions',
-              href: '/services/paid-media-and-advertising',
-            },
-            {
-              name: 'Creative Display Ads',
-              href: '/services/paid-media-and-advertising',
-            },
-            {
-              name: 'Local Targeting Strategies',
-              href: '/services/paid-media-and-advertising',
-            },
-            {
-              name: 'Conversion Tracking',
+              name: 'TikTok Ads',
               href: '/services/paid-media-and-advertising',
             },
           ],
         },
-
         {
-          name: 'Content Marketing',
-          href: '/services/expert-content-solutions',
+          icon: icon_10,
+          name: 'Mobile App Development',
+          href: '/services/white-label-agency-india',
           subItems: [
             {
-              name: 'Content Audit',
-              href: '/services/expert-content-solutions',
+              name: 'IOS Development',
+              href: '/services/seo-outsourcing-india',
             },
             {
-              name: 'Blogs & Articles',
-              href: '/services/expert-content-solutions',
+              name: 'Android Development',
+              href: '/services/social-media-outsourcing-india',
             },
             {
-              name: 'Social Media Posts',
-              href: '/services/expert-content-solutions',
+              name: 'Cross-Platform',
+              href: '/services/white-label-paid-ads',
             },
             {
-              name: 'Infographics',
-              href: '/services/expert-content-solutions',
-            },
-            {
-              name: 'Email Marketing Draft',
-              href: '/services/expert-content-solutions',
-            },
-            {
-              name: 'Website Copies',
-              href: '/services/expert-content-solutions',
-            },
-            {
-              name: 'Guest Posting',
-              href: '/services/expert-content-solutions',
-            },
-            {
-              name: 'Google Business Profile Posts',
-              href: '/services/expert-content-solutions',
+              name: 'Wearables',
+              href: '/services/white-label-link-building',
             },
           ],
         },
