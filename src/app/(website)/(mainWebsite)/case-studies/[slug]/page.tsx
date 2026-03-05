@@ -27,7 +27,6 @@ export interface CaseStudy {
   challengesDescription?: string;
   resultFinalDescription?: string;
 }
-const { projectInfo, aboutTheproject, projectInformation, description } = data;
 const CaseStudies = () => {
   const { slug } = useParams<{ slug: string }>();
 
@@ -41,7 +40,7 @@ const CaseStudies = () => {
   const getData = async () => {
     try {
       setLoading(true);
-      const res = await axios.get(`${Base2URL}/case-study/read?slug=${slug}`);
+      const res = await axios.get(`${BaseURL}case-study/${slug}`);
       console.log(res?.data?.data, 'res?.data?.data');
       setCaseStudiesData(res?.data?.data);
     } catch (error) {

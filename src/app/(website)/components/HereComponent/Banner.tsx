@@ -1,6 +1,5 @@
 'use client';
 import React, { useEffect, useState } from 'react';
-import Heading from '../../common/Heading';
 import MaxWidthWrapper from '../MaxWidthWrapper';
 import user from '../../../../../public/assets/review/Ellipse 30.png';
 import user_2 from '../../../../../public/assets/review/Ellipse 31.png';
@@ -10,9 +9,6 @@ import user_5 from '../../../../../public/assets/review/Ellipse 34.png';
 import Image from 'next/image';
 import { MdStarRate } from 'react-icons/md';
 import SaveAndCancel from '../../common/SaveAndCancel';
-// import banner_img_1 from '../../../../../public/assets/images/home/banner_img_1.png';
-// import banner_img_2 from '../../../../../public/assets/images/home/banner_img_2.png';
-// import banner_img_3 from '../../../../../public/assets/images/home/banner_img_3.png';
 import banner_img_1 from '../../../../../public/assets/graph/Graph 1.svg';
 import banner_img_2 from '../../../../../public/assets/graph/Graph 2.svg';
 import banner_img_3 from '../../../../../public/assets/graph/Graph 3.svg';
@@ -124,6 +120,7 @@ const Banner = () => {
         priority
         className="pointer-events-none object-fill lg:object-cover"
       />
+
       <MaxWidthWrapper className="relative z-10 block items-center justify-between py-[6rem] lg:flex lg:py-[4rem]">
         <div
           className={`w-[100%] space-y-5 transition-all duration-1000 lg:w-[45%] xl:w-[42%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
