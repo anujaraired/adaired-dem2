@@ -56,6 +56,7 @@ const OurProcess2 = ({ ourProcess }: any) => {
             isBgWhite={ourProcess?.isInCenter && true}
           />
         </div>
+
         <div
           ref={wrapperRef}
           className="relative flex justify-between gap-[3rem]"
@@ -63,7 +64,7 @@ const OurProcess2 = ({ ourProcess }: any) => {
           {/* ================= LEFT (STICKY) ================= */}
 
           {/* <div className="relative mt-[1rem] flex items-center justify-center"> */}
-          <div className="sticky top-32 h-fit mt-[1rem] flex items-center justify-center">
+          <div className="sticky top-[14rem] h-fit mt-[1rem] flex items-center justify-center">
 
             <div className="relative h-[520px] w-[520px]">
               <svg width="520" height="520" viewBox="0 0 520 520">
@@ -100,13 +101,13 @@ const OurProcess2 = ({ ourProcess }: any) => {
                     <path
                       key={idx}
                       d={`
-            M ${sx} ${sy}
-            A ${outerR} ${outerR} 0 ${largeArc} 1 ${ex} ${ey}
-            A ${capRadius} ${capRadius} 0 0 1 ${iex} ${iey}
-            A ${innerR} ${innerR} 0 ${largeArc} 0 ${isx} ${isy}
-            A ${capRadius} ${capRadius} 0 0 0 ${sx} ${sy}
-            Z
-          `}
+                        M ${sx} ${sy}
+                        A ${outerR} ${outerR} 0 ${largeArc} 1 ${ex} ${ey}
+                        A ${capRadius} ${capRadius} 0 0 1 ${iex} ${iey}
+                        A ${innerR} ${innerR} 0 ${largeArc} 0 ${isx} ${isy}
+                        A ${capRadius} ${capRadius} 0 0 0 ${sx} ${sy}
+                        Z
+                      `}
                       fill={activeTab === idx ? '#FB9100' : '#FBEBD5'}
                       stroke="#FFFFFF"
                       onClick={() => setActiveTab(idx)}
@@ -158,6 +159,7 @@ const OurProcess2 = ({ ourProcess }: any) => {
               })}
             </div>
           </div>
+
           {/* ================= RIGHT (SCROLL CONTENT) ================= */}
           <div className="my-auto w-full lg:w-[55%]">
             <div className="flex flex-col gap-[1rem]">
@@ -171,34 +173,34 @@ const OurProcess2 = ({ ourProcess }: any) => {
                     }`}
                 >
                   <div className="rounded-[20px] bg-white border border-[#FB9100]/20 p-10 transition-all duration-500">
-      
-      <h3 className="mb-3 font-semibold uppercase text-[#FB9100]">
-        Step {activeTab + 1}: {ourProcess.services[activeTab].title}
-      </h3>
 
-      {ourProcess.services[activeTab].description.map((item: any, i: number) => {
-        if (typeof item === "string") {
-          return <p key={i} className="my-2">{item}</p>;
-        }
+                    <h3 className="mb-3 font-semibold uppercase text-[#FB9100]">
+                      Step {activeTab + 1}: {ourProcess.services[activeTab].title}
+                    </h3>
 
-        if (item.list) {
-          return item.list.map((listItem: any, j: number) => (
-            <div key={`${i}-${j}`} className="my-1 flex items-start gap-2">
-              <Image
-                src={SocialMediaCheck}
-                width={17}
-                height={23}
-                alt="arrow"
-                className="mt-1 w-[14px] shrink-0"
-              />
-              <p>{listItem.des || listItem.description}</p>
-            </div>
-          ));
-        }
+                    {ourProcess.services[activeTab].description.map((item: any, i: number) => {
+                      if (typeof item === "string") {
+                        return <p key={i} className="my-2">{item}</p>;
+                      }
 
-        return null;
-      })}
-    </div>
+                      if (item.list) {
+                        return item.list.map((listItem: any, j: number) => (
+                          <div key={`${i}-${j}`} className="my-1 flex items-start gap-2">
+                            <Image
+                              src={SocialMediaCheck}
+                              width={17}
+                              height={23}
+                              alt="arrow"
+                              className="mt-1 w-[14px] shrink-0"
+                            />
+                            <p>{listItem.des || listItem.description}</p>
+                          </div>
+                        ));
+                      }
+
+                      return null;
+                    })}
+                  </div>
                 </div>
               ))}
             </div>
