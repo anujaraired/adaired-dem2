@@ -35,12 +35,12 @@ const OurProcess = ({ ourProcess }: any) => {
     <section
       ref={ref}
       id="services"
-      className="bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2] py-[4rem]"
+      className={`${ourProcess?.bgGradient || 'bg-[#F5F5F599]'} py-[3rem] lg:py-[4rem]`}
     >
       <MaxWidthWrapper>
         {/* ================= HEADING ================= */}
 
-        <div className="sticky top-[8rem] z-20 mb-[3rem]">
+        <div className="sticky top-[10rem] z-20 mb-[3rem]">
           <Heading
             isLabel={true}
             subTitle={'Our Process'}
@@ -51,47 +51,44 @@ const OurProcess = ({ ourProcess }: any) => {
             isInCenter={true}
             isBgWhite={ourProcess?.isInCenter && true}
           />
-        </div>
 
-        <div className="relative flex gap-[4rem]">
-          {/* ================= LEFT CIRCLE ================= */}
+          <div className="grid grid-cols-5 gap-[4rem]">
+            <div className="col-span-2 flex h-fit items-center justify-center">
+              <div className="relative h-[520px] w-[520px]">
+                <svg width="520" height="520" viewBox="0 0 520 520">
+                  {ourProcess.services.map((service: any, idx: number) => {
+                    const total = ourProcess.services.length;
+                    const center = 260;
 
-          <div className="sticky top-[18rem] flex h-fit w-[45%] items-center justify-center">
-            <div className="relative h-[520px] w-[520px]">
-              <svg width="520" height="520" viewBox="0 0 520 520">
-                {ourProcess.services.map((service: any, idx: number) => {
-                  const total = ourProcess.services.length;
-                  const center = 260;
+                    const outerR = 240;
+                    const innerR = 150;
+                    const thickness = outerR - innerR;
+                    const capRadius = thickness / 3;
 
-                  const outerR = 240;
-                  const innerR = 150;
-                  const thickness = outerR - innerR;
-                  const capRadius = thickness / 3;
+                    const fullAngle = (2 * Math.PI) / total;
+                    const gap = 0.03;
 
-                  const fullAngle = (2 * Math.PI) / total;
-                  const gap = 0.03;
+                    const start = idx * fullAngle - Math.PI / 2 + gap / 2;
+                    const end = start + fullAngle - gap;
 
-                  const start = idx * fullAngle - Math.PI / 2 + gap / 2;
-                  const end = start + fullAngle - gap;
+                    const largeArc = fullAngle > Math.PI ? 1 : 0;
 
-                  const largeArc = fullAngle > Math.PI ? 1 : 0;
+                    const sx = center + outerR * Math.cos(start);
+                    const sy = center + outerR * Math.sin(start);
 
-                  const sx = center + outerR * Math.cos(start);
-                  const sy = center + outerR * Math.sin(start);
+                    const ex = center + outerR * Math.cos(end);
+                    const ey = center + outerR * Math.sin(end);
 
-                  const ex = center + outerR * Math.cos(end);
-                  const ey = center + outerR * Math.sin(end);
+                    const isx = center + innerR * Math.cos(start);
+                    const isy = center + innerR * Math.sin(start);
 
-                  const isx = center + innerR * Math.cos(start);
-                  const isy = center + innerR * Math.sin(start);
+                    const iex = center + innerR * Math.cos(end);
+                    const iey = center + innerR * Math.sin(end);
 
-                  const iex = center + innerR * Math.cos(end);
-                  const iey = center + innerR * Math.sin(end);
-
-                  return (
-                    <path
-                      key={idx}
-                      d={`
+                    return (
+                      <path
+                        key={idx}
+                        d={`
                         M ${sx} ${sy}
                         A ${outerR} ${outerR} 0 ${largeArc} 1 ${ex} ${ey}
                         A ${capRadius} ${capRadius} 0 0 1 ${iex} ${iey}
@@ -99,63 +96,59 @@ const OurProcess = ({ ourProcess }: any) => {
                         A ${capRadius} ${capRadius} 0 0 0 ${sx} ${sy}
                         Z
                       `}
-                      fill={activeTab === idx ? '#FB9100' : '#FBEBD5'}
-                      stroke="#FFFFFF"
-                      onClick={() => setActiveTab(idx)}
-                      className="cursor-pointer transition-all duration-500"
-                    />
+                        fill={activeTab === idx ? '#FB9100' : '#FBEBD5'}
+                        stroke="#FFFFFF"
+                        onClick={() => setActiveTab(idx)}
+                        className="cursor-pointer transition-all duration-500"
+                      />
+                    );
+                  })}
+                </svg>
+
+                {/* ================= ICONS ================= */}
+
+                {ourProcess.services.map((service: any, idx: number) => {
+                  const total = ourProcess.services.length;
+
+                  const outerR = 240;
+                  const innerR = 150;
+                  const center = 260;
+
+                  const midRadius = (outerR + innerR) / 2;
+
+                  const angle = (2 * Math.PI) / total;
+                  const mid = idx * angle + angle / 1.5 - Math.PI / 2;
+
+                  const x = center + midRadius * Math.cos(mid);
+                  const y = center + midRadius * Math.sin(mid);
+
+                  return (
+                    <div
+                      key={idx}
+                      className="absolute"
+                      style={{
+                        left: x,
+                        top: y,
+                        transform: 'translate(-50%, -50%)',
+                      }}
+                    >
+                      <Image
+                        src={service.icon}
+                        alt={service.title}
+                        width={40}
+                        height={40}
+                        className={
+                          activeTab === idx
+                            ? 'brightness-0 invert'
+                            : 'opacity-60'
+                        }
+                      />
+                    </div>
                   );
                 })}
-              </svg>
-
-              {/* ================= ICONS ================= */}
-
-              {ourProcess.services.map((service: any, idx: number) => {
-                const total = ourProcess.services.length;
-
-                const outerR = 240;
-                const innerR = 150;
-                const center = 260;
-
-                const midRadius = (outerR + innerR) / 2;
-
-                const angle = (2 * Math.PI) / total;
-                const mid = idx * angle + angle / 1.5 - Math.PI / 2;
-
-                const x = center + midRadius * Math.cos(mid);
-                const y = center + midRadius * Math.sin(mid);
-
-                return (
-                  <div
-                    key={idx}
-                    className="absolute"
-                    style={{
-                      left: x,
-                      top: y,
-                      transform: 'translate(-50%, -50%)',
-                    }}
-                  >
-                    <Image
-                      src={service.icon}
-                      alt={service.title}
-                      width={40}
-                      height={40}
-                      className={
-                        activeTab === idx ? 'brightness-0 invert' : 'opacity-60'
-                      }
-                    />
-                  </div>
-                );
-              })}
+              </div>
             </div>
-          </div>
-
-          {/* ================= RIGHT SIDE ================= */}
-
-          <div className="relative w-[55%]">
-            {/* ================= STICKY CARD ================= */}
-
-            <div className="sticky top-[23rem]">
+            <div className="col-span-3 mt-[8rem] flex h-fit items-center justify-center">
               <div className="rounded-[20px] border border-[#FB9100]/20 bg-white p-10">
                 <h3 className="mb-4 text-[18px] font-semibold uppercase text-[#FB9100]">
                   Step {activeTab + 1}: {ourProcess.services[activeTab].title}
@@ -197,9 +190,10 @@ const OurProcess = ({ ourProcess }: any) => {
                 )}
               </div>
             </div>
-
-            {/* ================= SCROLL TRIGGERS ================= */}
-
+          </div>
+        </div>
+        <div className="relative flex gap-[4rem]">
+          <div>
             <div className="mt-[300px]">
               {ourProcess.services.map((_: any, idx: number) => (
                 <div

@@ -81,12 +81,6 @@ import stepwhitelabellinkbuild4 from '../../../../../../public/assets/images/ser
 import stepwhitelabellinkbuild5 from '../../../../../../public/assets/images/service/whitelabel//whiteLabelLinkBuilding/step5.svg';
 import stepwhitelabellinkbuild6 from '../../../../../../public/assets/images/service/whitelabel//whiteLabelLinkBuilding/step6.svg';
 
-
-
-
-
-
-
 import NotSeeingResultsBg from '../../../../../../public/assets/NotSeeingResultsBg.png';
 import NotSeeingResultsBg2 from '../../../../../../public/assets/NotSeeingResultsBg2.png';
 import leadingToolsImg from '../../../../../../public/assets/leadingTools.png';
@@ -695,6 +689,8 @@ export const SERVICES_DATA = {
       breakIndex: 8,
       isInCenter: true,
       title: 'Our Proven SEO Process That SEO Drives Both Traffic & Revenue',
+      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+
       services: [
         {
           icon: step1,
@@ -1718,6 +1714,8 @@ export const SERVICES_DATA = {
       title: 'Our Comprehensive AI Process to Make Your Brand Stand Out',
       span: '',
       description: `Our success-driven digital marketing services integrate AI-enhanced SEO, advanced analytics, and conversion-focused strategies to strengthen brand presence, improve search performance, and accelerate measurable business growth.`,
+      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+
       services: [
         {
           icon: stepAiseo1,
@@ -2487,6 +2485,7 @@ brand appears in AI summaries and citations.`,
         'Our Strategic Link Building Process Focused On Building Lasting Authority',
       span: '',
       description: ``,
+      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
       services: [
         {
           icon: steplinkbuild1,
@@ -3128,14 +3127,17 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
-      isInCenter: false,
+      isInCenter: true,
       // breakIndex: 4,
       subtitle: 'Our Process',
       title: 'The Web Design and Development Process That We Follow At Adaired',
       span: '',
-      description: [`The web design and development process at Adaired adheres to a strategic, transparent, and results-oriented mechanism that will see to it that all projects generate measurable business value.`,
-        `We are a creative, technology-driven, user-centered design solution that enables brands to grow through scalable digital solutions.`
+      description: [
+        `The web design and development process at Adaired adheres to a strategic, transparent, and results-oriented mechanism that will see to it that all projects generate measurable business value.`,
+        `We are a creative, technology-driven, user-centered design solution that enables brands to grow through scalable digital solutions.`,
       ],
+      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+
       services: [
         {
           icon: stepWeb1,
@@ -3663,6 +3665,8 @@ brand appears in AI summaries and citations.`,
       title: 'Our Performance-Focused Local SEO Strategy',
       span: '',
       description: ``,
+      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+
       services: [
         {
           icon: steplocalseo1,
@@ -4492,6 +4496,7 @@ brand appears in AI summaries and citations.`,
       title: 'How Our White Label Social Media Management Works',
       span: '',
       description: `A structured process ensures consistency and measurable results. Our white label social media management approach includes:`,
+      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
       services: [
         {
           icon: stepwhitelabelsocialmedia1,
@@ -5637,10 +5642,13 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: false,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'How Our White Label Social Media Management Works',
       span: '',
       description: `A structured process ensures consistency and measurable results. Our white label social media management approach includes:`,
+      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+
       services: [
         {
           icon: step,
@@ -6083,6 +6091,8 @@ brand appears in AI summaries and citations.`,
       title: 'How Adaired’s White-Label Model Works',
       span: '',
       description: `Our approach is designed to integrate smoothly into agency workflows.`,
+      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+
       services: [
         {
           icon: stepwhitelabel1,
@@ -7091,14 +7101,17 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
-      isInCenter: false,
+      isInCenter: true,
       breakIndex: 3,
       subtitle: 'Our Process',
       title: 'How Pay-Per-Click Advertising Works',
       span: 'Here’s a detailed breakdown of how the entire system works:',
-      description: [`PPC advertising operates through a real-time auction system that determines which ads appear in search results, in what position, and at what cost. Unlike traditional advertising, where you pay for exposure, PPC ensures you only pay when a user actively engages with your ad.`,
-        `Here’s a detailed breakdown of how the entire system works:`
+      description: [
+        `PPC advertising operates through a real-time auction system that determines which ads appear in search results, in what position, and at what cost. Unlike traditional advertising, where you pay for exposure, PPC ensures you only pay when a user actively engages with your ad.`,
+        `Here’s a detailed breakdown of how the entire system works:`,
       ],
+      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+
       services: [
         {
           icon: stepPPC1,
@@ -8474,7 +8487,7 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
-      isInCenter: false,
+      isInCenter: true,
       breakIndex: 3,
       subtitle: 'Our Process',
       title: 'How Our White-Label Digital Marketing Agency Works',
@@ -8483,6 +8496,8 @@ brand appears in AI summaries and citations.`,
         `At Adaired Digital Media, our white-label partnership model is designed to integrate seamlessly with your agency while delivering expert-level digital marketing performance under your brand.`,
         `We operate behind the scenes, allowing you to scale services without increasing internal workload or overhead.`,
       ],
+      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+
       services: [
         {
           icon: stepwhitelabelpaidad1,
@@ -9154,7 +9169,7 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
-      isInCenter: false,
+      isInCenter: true,
       breakIndex: 4,
       subtitle: 'Our Process',
       title: 'How White Label Link Building Works with Adaired Digital Media',
@@ -9164,6 +9179,8 @@ brand appears in AI summaries and citations.`,
         We function as your behind-the-scenes SEO fulfillment team, allowing you to confidently offer premium link building services without managing outreach, writers, or publisher relationships internally.`,
         `Our structured, step-by-step approach ensures quality, consistency, and long-term SEO impact for your clients.`,
       ],
+      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+
       services: [
         {
           icon: stepwhitelabellinkbuild1,
@@ -10157,7 +10174,7 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
-      isInCenter: false,
+      isInCenter: true,
       breakIndex: 4,
       subtitle: 'Our Process',
       title: 'The Growth Framework Behind Our SaaS SEO',
@@ -10165,6 +10182,8 @@ brand appears in AI summaries and citations.`,
       description: [
         `We don’t guess. We build structured, revenue-aligned SEO systems designed specifically for SaaS growth.`,
       ],
+      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+
       services: [
         {
           icon: stepSaas1,
