@@ -27,7 +27,9 @@ const Header = () => {
   const pathname = usePathname();
   const [hover, setHover] = useState<number | null>(null);
   const [activeMenuTab, setActiveMenuTab] = useState<number | null>(null);
-
+  const isCardActive = (sub: any) => {
+    return sub.subItems?.some((item: any) => pathname === item.href);
+  };
   const { websiteNav } = routes;
   const [level, setLevel] = useState<0 | 1 | 2>(0);
   const [activeMenu, setActiveMenu] = useState<any>(null);
@@ -155,7 +157,8 @@ const Header = () => {
                                           setActiveMenuTab(null)
                                         }
                                         className={`relative rounded-[1rem] border-r p-[1rem] last:border-none ${
-                                          activeMenuTab === index
+                                          activeMenuTab === index ||
+                                          isCardActive(sub)
                                             ? 'bg-[#FB9100]'
                                             : ''
                                         }`}
@@ -166,14 +169,15 @@ const Header = () => {
                                             width={43}
                                             height={43}
                                             alt={sub?.icon}
-                                            className={`rounded-[5px] border border-[#FB91001A]/10 p-2 ${activeMenuTab === index && 'bg-[#FFFFFF]'}`}
+                                            className={`rounded-[5px] border border-[#FB91001A]/10 p-2 ${activeMenuTab === index || isCardActive(sub) ? 'bg-[#FFFFFF]' : ''}`}
                                           />
                                         </span>
 
                                         <Link
                                           href={sub.href}
                                           className={`my-[0.65rem] block text-[18px] font-semibold transition ${
-                                            activeMenuTab === index
+                                            activeMenuTab === index ||
+                                            isCardActive(sub)
                                               ? 'text-white'
                                               : ''
                                           }`}
@@ -192,9 +196,11 @@ const Header = () => {
                                                 <Link
                                                   key={j}
                                                   href={item.href}
-                                                  className={`group flex items-center gap-2 transition ${activeMenuTab === index ? 'text-white' : ''} ${isActive ? 'font-bold text-[#FB9100]' : 'hover:font-semibold'} `}
+                                                  className={`group flex items-center gap-2 transition ${activeMenuTab === index || isCardActive(sub) ? 'text-white' : ''} `}
                                                 >
-                                                  <span className="text-[15px]">
+                                                  <span
+                                                    className={`text-[15px] ${isActive && 'font-bold'}`}
+                                                  >
                                                     {item.name}
                                                   </span>
 
@@ -234,7 +240,8 @@ const Header = () => {
                                               setActiveMenuTab(null)
                                             }
                                             className={`relative rounded-[1rem] border-r p-[1rem] last:border-none ${
-                                              activeMenuTab === index
+                                              activeMenuTab === index ||
+                                              isCardActive(sub)
                                                 ? 'bg-[#FB9100]'
                                                 : ''
                                             }`}
@@ -245,14 +252,15 @@ const Header = () => {
                                                 width={43}
                                                 height={43}
                                                 alt={sub?.icon}
-                                                className={`rounded-[5px] border border-[#FB91001A]/10 p-2 ${activeMenuTab === index && 'bg-[#FFFFFF]'}`}
+                                                className={`rounded-[5px] border border-[#FB91001A]/10 p-2 ${activeMenuTab === index || isCardActive(sub) ? 'bg-[#FFFFFF]' : ''}`}
                                               />
                                             </span>
 
                                             <Link
                                               href={sub.href}
                                               className={`my-[0.65rem] block text-[18px] font-semibold transition ${
-                                                activeMenuTab === index
+                                                activeMenuTab === index ||
+                                                isCardActive(sub)
                                                   ? 'text-white'
                                                   : ''
                                               }`}
@@ -270,9 +278,11 @@ const Header = () => {
                                                     <Link
                                                       key={j}
                                                       href={item.href}
-                                                      className={`group flex items-center gap-2 transition ${activeMenuTab === index ? 'text-white' : ''} ${isActive ? 'font-bold text-[#FB9100]' : 'hover:font-semibold'} `}
+                                                      className={`group flex items-center gap-2 transition ${activeMenuTab === index || isCardActive(sub) ? 'text-white' : ''}`}
                                                     >
-                                                      <span className="text-[15px]">
+                                                      <span
+                                                        className={`text-[15px] ${isActive && 'font-bold'}`}
+                                                      >
                                                         {item.name}
                                                       </span>
 
@@ -310,7 +320,8 @@ const Header = () => {
                                               setActiveMenuTab(null)
                                             }
                                             className={`relative rounded-[1rem] border-r p-[1rem] last:border-none ${
-                                              activeMenuTab === index
+                                              activeMenuTab === index ||
+                                              isCardActive(sub)
                                                 ? 'bg-[#FB9100]'
                                                 : ''
                                             }`}
@@ -321,14 +332,15 @@ const Header = () => {
                                                 width={43}
                                                 height={43}
                                                 alt={sub?.icon}
-                                                className={`rounded-[5px] border border-[#FB91001A]/10 p-2 ${activeMenuTab === index && 'bg-[#FFFFFF]'}`}
+                                                className={`rounded-[5px] border border-[#FB91001A]/10 p-2 ${activeMenuTab === index || isCardActive(sub) ? 'bg-[#FFFFFF]' : ''}`}
                                               />
                                             </span>
 
                                             <Link
                                               href={sub.href}
                                               className={`my-[0.65rem] block text-[18px] font-semibold transition ${
-                                                activeMenuTab === index
+                                                activeMenuTab === index ||
+                                                isCardActive(sub)
                                                   ? 'text-white'
                                                   : ''
                                               }`}
@@ -346,9 +358,11 @@ const Header = () => {
                                                     <Link
                                                       key={j}
                                                       href={item.href}
-                                                      className={`group flex items-center gap-2 transition ${activeMenuTab === index ? 'text-white' : ''} ${isActive ? 'font-bold text-[#FB9100]' : 'hover:font-semibold'} `}
+                                                      className={`group flex items-center gap-2 transition ${activeMenuTab === index || isCardActive(sub) ? 'text-white' : ''}`}
                                                     >
-                                                      <span className="text-[15px]">
+                                                      <span
+                                                        className={`text-[15px] ${isActive && 'font-bold'}`}
+                                                      >
                                                         {item.name}
                                                       </span>
 
