@@ -500,7 +500,7 @@ const Header = () => {
               })}
             </div>
 
-            <div className="my-auto hidden gap-2 lg:flex">
+            <div className="my-auto z-50 hidden gap-2 lg:flex">
               <SaveAndCancel
                 isBorder={true}
                 handleClick={() => router.push('/contact')}
