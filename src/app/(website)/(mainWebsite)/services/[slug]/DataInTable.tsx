@@ -34,7 +34,7 @@ const DataInTable = ({ dataInTable }: any) => {
                                 <div className="min-w-[700px] rounded-2xl overflow-hidden">
                                     <table className="w-full">
                                         <thead>
-                                            <tr className="bg-[#7259FF]">
+                                            <tr className={`bg-[${dataInTable?.trColor}]`}>
                                                 {dataInTable?.data?.map(
                                                     (column: any, index: number) => (
                                                         <th
@@ -63,7 +63,7 @@ const DataInTable = ({ dataInTable }: any) => {
                                                         className={
                                                             rowIndex % 2 === 0
                                                                 ? 'bg-white'
-                                                                : 'bg-[#7259FF]/10'
+                                                                : `bg-[${dataInTable?.rowColor}]`
                                                         }
                                                     >
                                                         {dataInTable?.data?.map(

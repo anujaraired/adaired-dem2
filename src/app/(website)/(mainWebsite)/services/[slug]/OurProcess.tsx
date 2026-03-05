@@ -162,48 +162,48 @@ const OurProcess2 = ({ ourProcess }: any) => {
 
           {/* ================= RIGHT (SCROLL CONTENT) ================= */}
           <div className="my-auto w-full lg:w-[55%]">
-            <div className="flex flex-col gap-[1rem]">
-              {ourProcess.services.map((service: any, idx: number) => (
-                <div
-                  key={idx}
-                  ref={(el) => {
-                    sectionRefs.current[idx] = el;
-                  }}
-                  className={`flex items-center justify-center py-12 snap-start transition-opacity duration-500 ${activeTab === idx ? 'opacity-100' : 'opacity-0'
-                    }`}
-                >
-                  <div className="rounded-[20px] bg-white border border-[#FB9100]/20 p-10 transition-all duration-500">
 
-                    <h3 className="mb-3 font-semibold uppercase text-[#FB9100]">
-                      Step {activeTab + 1}: {ourProcess.services[activeTab].title}
-                    </h3>
+            {ourProcess.services.map((service: any, idx: number) => (
+              <div
+                key={idx}
+                ref={(el) => {
+                  sectionRefs.current[idx] = el;
+                }}
+                className={`flex items-center justify-center py-12 snap-start transition-opacity duration-500 ${activeTab === idx ? 'opacity-100' : 'opacity-0'
+                  }`}
+              >
+                <div className="rounded-[20px] bg-white border border-[#FB9100]/20 p-10 transition-all duration-500">
 
-                    {ourProcess.services[activeTab].description.map((item: any, i: number) => {
-                      if (typeof item === "string") {
-                        return <p key={i} className="my-2">{item}</p>;
-                      }
+                  <h3 className="mb-3 font-semibold uppercase text-[#FB9100]">
+                    Step {activeTab + 1}: {ourProcess.services[activeTab].title}
+                  </h3>
 
-                      if (item.list) {
-                        return item.list.map((listItem: any, j: number) => (
-                          <div key={`${i}-${j}`} className="my-1 flex items-start gap-2">
-                            <Image
-                              src={SocialMediaCheck}
-                              width={17}
-                              height={23}
-                              alt="arrow"
-                              className="mt-1 w-[14px] shrink-0"
-                            />
-                            <p>{listItem.des || listItem.description}</p>
-                          </div>
-                        ));
-                      }
+                  {ourProcess.services[activeTab].description.map((item: any, i: number) => {
+                    if (typeof item === "string") {
+                      return <p key={i} className="my-2">{item}</p>;
+                    }
 
-                      return null;
-                    })}
-                  </div>
+                    if (item.list) {
+                      return item.list.map((listItem: any, j: number) => (
+                        <div key={`${i}-${j}`} className="my-1 flex items-start gap-2">
+                          <Image
+                            src={SocialMediaCheck}
+                            width={17}
+                            height={23}
+                            alt="arrow"
+                            className="mt-1 w-[14px] shrink-0"
+                          />
+                          <p>{listItem.des || listItem.description}</p>
+                        </div>
+                      ));
+                    }
+
+                    return null;
+                  })}
                 </div>
-              ))}
-            </div>
+              </div>
+            ))}
+
           </div>
         </div>
       </MaxWidthWrapper>
