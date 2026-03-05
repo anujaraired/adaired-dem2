@@ -3,26 +3,21 @@ import React, { useEffect, useRef, useState } from 'react';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Heading from '@/app/(website)/common/Heading';
 import Image from 'next/image';
-import { useScrollTabs } from '@/@core/hooks/useScrollTabs';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
-
 import SocialMediaCheck from '../../../../../../public/assets/images/PPCimg/arrowOrange.png';
 
-const OurProcess2 = ({ ourProcess }: any) => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0);
-  const sectionRefs = useRef<(HTMLDivElement | null)[]>([]);
-  const wrapperRef = useRef<HTMLDivElement | null>(null);
+const OurProcess = ({ ourProcess }: any) => {
+  const { ref } = useInViewOnce<HTMLDivElement>(0);
 
-  const { activeTab, setActiveTab, isMobile, showMobileTab } = useScrollTabs({
-    items: ourProcess?.services,
-    sectionRefs,
-    wrapperRef,
-  });
+  const [activeTab, setActiveTab] = useState(0);
+
+  const scrollSections = useRef<(HTMLDivElement | null)[]>([]);
 
   useEffect(() => {
     const handleScroll = () => {
-      sectionRefs.current.forEach((section, index) => {
+      scrollSections.current.forEach((section, index) => {
         if (!section) return;
+
         const rect = section.getBoundingClientRect();
         const middle = window.innerHeight / 2;
 
@@ -40,11 +35,12 @@ const OurProcess2 = ({ ourProcess }: any) => {
     <section
       ref={ref}
       id="services"
-      className="bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2] py-[3rem] lg:py-[4rem]"
+      className="bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2] py-[4rem]"
     >
       <MaxWidthWrapper>
-        {/* ❗ IMPORTANT: relative + NO overflow */}
-        <div>
+        {/* ================= HEADING ================= */}
+
+        <div className="sticky top-[8rem] z-20 mb-[3rem]">
           <Heading
             isLabel={true}
             subTitle={'Our Process'}
@@ -52,20 +48,15 @@ const OurProcess2 = ({ ourProcess }: any) => {
             title={ourProcess?.title}
             isDecVarticle={!ourProcess?.isInCenter && true}
             description={ourProcess?.description}
-            isInCenter={ourProcess?.isInCenter}
+            isInCenter={true}
             isBgWhite={ourProcess?.isInCenter && true}
           />
         </div>
 
-        <div
-          ref={wrapperRef}
-          className="relative flex justify-between gap-[3rem]"
-        >
-          {/* ================= LEFT (STICKY) ================= */}
+        <div className="relative flex gap-[4rem]">
+          {/* ================= LEFT CIRCLE ================= */}
 
-          {/* <div className="relative mt-[1rem] flex items-center justify-center"> */}
-          <div className="sticky top-[14rem] h-fit mt-[1rem] flex items-center justify-center">
-
+          <div className="sticky top-[18rem] flex h-fit w-[45%] items-center justify-center">
             <div className="relative h-[520px] w-[520px]">
               <svg width="520" height="520" viewBox="0 0 520 520">
                 {ourProcess.services.map((service: any, idx: number) => {
@@ -117,9 +108,8 @@ const OurProcess2 = ({ ourProcess }: any) => {
                 })}
               </svg>
 
-              {/* Inner background circle */}
+              {/* ================= ICONS ================= */}
 
-              {/* ICONS */}
               {ourProcess.services.map((service: any, idx: number) => {
                 const total = ourProcess.services.length;
 
@@ -160,48 +150,65 @@ const OurProcess2 = ({ ourProcess }: any) => {
             </div>
           </div>
 
-          {/* ================= RIGHT (SCROLL CONTENT) ================= */}
-          <div className="my-auto w-full lg:w-[55%]">
-            <div className="flex flex-col gap-[1rem]">
-              {ourProcess.services.map((service: any, idx: number) => (
+          {/* ================= RIGHT SIDE ================= */}
+
+          <div className="relative w-[55%]">
+            {/* ================= STICKY CARD ================= */}
+
+            <div className="sticky top-[23rem]">
+              <div className="rounded-[20px] border border-[#FB9100]/20 bg-white p-10">
+                <h3 className="mb-4 text-[18px] font-semibold uppercase text-[#FB9100]">
+                  Step {activeTab + 1}: {ourProcess.services[activeTab].title}
+                </h3>
+
+                {ourProcess.services[activeTab].description.map(
+                  (item: any, i: number) => {
+                    if (typeof item === 'string') {
+                      return (
+                        <p key={i} className="my-2 text-gray-700">
+                          {item}
+                        </p>
+                      );
+                    }
+
+                    if (item.list) {
+                      return item.list.map((listItem: any, j: number) => (
+                        <div
+                          key={`${i}-${j}`}
+                          className="my-2 flex items-start gap-2"
+                        >
+                          <Image
+                            src={SocialMediaCheck}
+                            width={17}
+                            height={23}
+                            alt="arrow"
+                            className="mt-1 w-[14px] shrink-0"
+                          />
+
+                          <p className="text-gray-700">
+                            {listItem.des || listItem.description}
+                          </p>
+                        </div>
+                      ));
+                    }
+
+                    return null;
+                  }
+                )}
+              </div>
+            </div>
+
+            {/* ================= SCROLL TRIGGERS ================= */}
+
+            <div className="mt-[300px]">
+              {ourProcess.services.map((_: any, idx: number) => (
                 <div
                   key={idx}
                   ref={(el) => {
-                    sectionRefs.current[idx] = el;
+                    scrollSections.current[idx] = el;
                   }}
-                  className={`flex items-center justify-center py-12 snap-start transition-opacity duration-500 ${activeTab === idx ? 'opacity-100' : 'opacity-0'
-                    }`}
-                >
-                  <div className="rounded-[20px] bg-white border border-[#FB9100]/20 p-10 transition-all duration-500">
-
-                    <h3 className="mb-3 font-semibold uppercase text-[#FB9100]">
-                      Step {activeTab + 1}: {ourProcess.services[activeTab].title}
-                    </h3>
-
-                    {ourProcess.services[activeTab].description.map((item: any, i: number) => {
-                      if (typeof item === "string") {
-                        return <p key={i} className="my-2">{item}</p>;
-                      }
-
-                      if (item.list) {
-                        return item.list.map((listItem: any, j: number) => (
-                          <div key={`${i}-${j}`} className="my-1 flex items-start gap-2">
-                            <Image
-                              src={SocialMediaCheck}
-                              width={17}
-                              height={23}
-                              alt="arrow"
-                              className="mt-1 w-[14px] shrink-0"
-                            />
-                            <p>{listItem.des || listItem.description}</p>
-                          </div>
-                        ));
-                      }
-
-                      return null;
-                    })}
-                  </div>
-                </div>
+                  className="h-[100vh]"
+                />
               ))}
             </div>
           </div>
@@ -211,4 +218,4 @@ const OurProcess2 = ({ ourProcess }: any) => {
   );
 };
 
-export default OurProcess2;
+export default OurProcess;

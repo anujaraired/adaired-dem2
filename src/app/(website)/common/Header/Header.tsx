@@ -124,7 +124,7 @@ const Header = () => {
                                           : 'text-gray-600 hover:text-[#FB9100]'
                                       }`}
                                     >
-                                      <span className="h-2 w-2 rounded bg-gray-300"></span>
+                                      {/* <span className="h-2 w-2 rounded bg-gray-300"></span> */}
                                       {item.name}
                                       <MdArrowOutward
                                         size={16}
