@@ -11897,4 +11897,923 @@ brand appears in AI summaries and citations.`,
       bgImage: LocalNotSeeBg,
     },
   },
+  'aeo-service-india': {
+    sectionsOrder: [
+      'banner',
+      'keyStats',
+      'whatareservice',
+      'adairedHelp',
+      'importantToBussiness',
+      'dataInTable',
+      'whatMkeDeferent',
+      'faqData',
+      'ourProcess',
+      'whatIncluded',
+      'buildlinks',
+      'needofservice',
+      'serviceResult',
+      'getsCredit',
+      'readyToStart',
+      'stopStruggling',
+      'benefitofAiSeo',
+      'whatMissing',
+      'leadingToolsForPerformence',
+      'notSeeingResult',
+      'leadingTools',
+      'getplan',
+    ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/services/aeo-service-india',
+      },
+    },
+    banner: {
+      code: '07',
+      isCenter: false,
+      isVisible: true,
+      heading: 'AI Search Engines',
+      subheading:
+        '',
+      subtitle: '',
+      label: 'Get Found, Trusted, and Cited by',
+      desc: [
+        `Position your brand as a trusted source in AI-powered search results and earn visibility where answers are generated.`,
+        ` Using proven Answer Engine Optimization services, Adaired Digital Media helps you structure your content so AI platforms can understand it, trust it, and feature it at the top of the results.`,
+      ],
+      button: 'Build My AEO Strategy',
+      width: '20rem',
+      widthLg: '30rem',
+      bgImg: whiteServicesBannerBg,
+    },
+
+    keyStats: {
+      isVisible: true,
+      code: '01',
+      heading: 'The Data Behind AI Search Growth',
+      isCard: false,
+      img: '',
+      list: [
+        {
+          icon: '',
+          desctioption:
+            'AI referral traffic accounts for 1.08% of total website visits and is growing steadily month over month. (SE Ranking)',
+        },
+        {
+          icon: '',
+          desctioption:
+            'AI search traffic has increased by 527% in the past year, signaling rapid adoption. (Semrush)',
+        },
+        {
+          icon: '',
+          desctioption:
+            'ChatGPT generates 87.4% of all AI referral traffic sent to external websites. (SE Ranking) ',
+        },
+        {
+          icon: '',
+          desctioption:
+            'Generative AI traffic is expanding 165 times faster than traditional organic search traffic. (Position.digital)',
+        },
+        {
+          icon: '',
+          desctioption:
+            'Generative AI traffic is expanding 165 times faster than traditional organic search traffic. (Position.digital)',
+        },
+        {
+          icon: '',
+          desctioption:
+            'ChatGPT drives 190 times less traffic than Google despite reaching 12% of Google’s search volume. (ALM Corp)',
+        },
+      ],
+    },
+
+    whatareservice: {
+      isVisible: true,
+      isVariant: '07',
+      img: WhatAreServiceAeoServiceImg,
+      heading: 'What is AEO?',
+      span: '',
+      bgColor: '#FFFCF8',
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: [`AEO, or answer engine optimization, refers to the strategic practice of optimizing content and online resources to answer user queries directly and effectively.`,],
+        },
+        {
+          desctioption: [`As search engines evolve into more conversational and intuitive platforms, the demand for precise, accurate answers is increasing. AEO focuses on tailoring content to meet the specific needs of search engine algorithms that prioritize direct answers over traditional web page rankings.`,]
+        },
+        {
+          desctioption: [`This process involves carefully researching common questions in your niche, utilizing structured data, and crafting clear, concise responses that are easy for search engines to understand and display prominently.`,]
+        },
+        {
+          desctioption: `By optimizing for answer engines, businesses and content creators can significantly enhance their visibility in search results, improve user engagement, and drive more organic traffic to their websites.`,
+        },
+      ],
+      button: '',
+    },
+
+    adairedHelp: {
+      isVisible: true,
+      img: AeoServiceAdairedHelpImg,
+      isInCenter: false,
+      breakIndex: 3,
+      bgColor: '#FFFCF8',
+      heading: `How AI Search Engines Choose What to Cite`,
+      description: [
+        `AI search engines don’t simply rank pages the way traditional search algorithms do. They analyze, extract, compare, and synthesize information before selecting which sources to reference in generated answers. Understanding these selection criteria is essential if you want your brand to be cited.`,
+        ``,
+      ],
+      mainImage: AeoServiceAdairedHelpImg,
+      list: [
+        {
+          img: '',
+          name: 'Content Structure',
+          description: [
+            `AI systems favor content that is logically organized and easy to interpret. Clear headings, direct definitions, concise explanations, and well-structured formatting make it easier for algorithms to extract reliable answers`,
+            `When information is layered properly, from high-level summaries to supporting details, AI engines can confidently identify what your page is about and determine whether it directly answers a query.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Authority Signals',
+          description: [
+            `Citations are heavily influenced by trust. AI models evaluate brand credibility using signals such as backlink quality, expert authorship, consistent publishing history, and third-party mentions.`,
+            `If your website demonstrates expertise and industry recognition, AI engines are more likely to treat your content as a dependable source worth referencing in generated responses.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Entity Recognition',
+          description: [
+            `Modern AI search relies on entity understanding, identifying brands, people, services, and concepts as interconnected data points.`,
+            `When your brand is clearly associated with specific topics and expertise areas, AI systems connect your content to relevant queries. Strong entity alignment increases your chances of being surfaced and cited.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Topical Depth',
+          description: [
+            `Shallow content rarely earns citations. AI search engines prefer comprehensive resources that cover a subject thoroughly, address related questions, and provide contextual depth.`,
+            `When your content demonstrates mastery of a topic, not just surface-level coverage, it signals authority and increases the likelihood of inclusion in AI-generated answers. This is what makes Adaired Digital different from other AEO agency options out there!`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Structured Data',
+          description: [
+            `Structured data helps machines interpret your content more accurately. Schema markup, defined FAQs, article metadata, and clear contextual tagging make your content easier to process.`,
+            `This technical clarity strengthens AI’s ability to extract accurate information and improves your visibility within answer-driven results.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Freshness & Trust Signals',
+          description: [
+            `AI engines prioritize information that is current, accurate, and consistent across multiple reputable sources. Regular updates, reliable references, and a history of publishing accurate information strengthen trust over time.`,
+            `Outdated or inconsistent content reduces the likelihood of citation, even if it once ranked well in traditional search.`,
+          ],
+        },
+      ],
+    },
+
+    importantToBussiness: {
+      isVisible: true,
+      breakIndex: 5,
+      isBgWhite: false,
+      isVariant: '01',
+      cardColor: '#F9F9F9',
+      heading: 'AEO Services Built for AI-Driven Search Ecosystems',
+      description: [
+        `AI search engines evaluate content differently from traditional ranking algorithms. They extract, interpret, validate, and synthesize information before choosing what to cite.`,
+        `Our services are designed to align your digital presence with that evaluation model, ensuring your brand becomes a trusted source behind AI-generated answers. AI search engines evaluate content differently from traditional ranking algorithms.`
+      ],
+      buttonName: 'Build My AEO Strategy',
+      data: [
+        {
+          icon: AEOServiceImpIcon_1,
+          name: 'AI Presence & Extraction Audit',
+          description: [
+            `Our process begins with a comprehensive diagnostic of how AI systems currently process your website. We evaluate whether your content is easily extractable, contextually clear, and structurally eligible for citation. This includes analyzing answer formatting, semantic flow, technical barriers, authority positioning, and competitive citation visibility.`,
+            `Most websites are built for human readers and traditional rankings, not for machine extraction. We identify friction points preventing AI systems from understanding your expertise and uncover untapped opportunities where your brand could realistically earn AI-generated exposure.`,
+          ],
+          button: 'Build My AEO Strategy',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: AEOServiceImpIcon_2,
+          name: 'Search Intent Intelligence & Knowledge Architecture',
+          description: [
+            `AI engines prioritize topical authority and entity relationships over isolated keywords. Instead of chasing fragmented search terms, we build a structured knowledge framework around your core services and high-intent queries. This involves mapping commercial search intent to semantic clusters, aligning pages under clear topic hierarchies, and reinforcing contextual depth across your site.`,
+            `By architecting your content ecosystem strategically, we help AI systems recognize your brand as a concentrated authority within specific domains, increasing citation eligibility.`,
+          ],
+          button: 'Build My AEO Strategy',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: AEOServiceImpIcon_3,
+          name: 'Semantic Page Engineering',
+          description: [
+            `Traditional on-page SEO optimizes for rankings. Semantic page engineering optimizes for machine comprehension. We restructure pages to improve logical sequencing, contextual layering, heading clarity, and information prioritization. Key definitions are surfaced clearly. Supporting data is positioned contextually.`,
+            `Internal links reinforce topic relationships. The result is a page structure that AI systems can interpret quickly and confidently, improving the likelihood that your content is selected for summaries, snippets, and generated answers.`,
+            ,
+          ],
+          button: 'Build My AEO Strategy',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: AEOServiceImpIcon_4,
+          name: 'AI-Ready Content Development & Enhancement',
+          description: [
+            `AI engines favor content that is precise, factual, and directly responsive to user intent. We refine and develop content that is designed specifically for generative extraction. This includes crafting definition blocks, data-supported explanations, structured Q&A segments, and contextual reinforcement throughout the page.`,
+            `We remove ambiguity, strengthen topical authority, and ensure every key section clearly answers identifiable user questions. The objective is to make your content quotable, reliable, and easy for AI systems to summarize without distortion.`,
+          ],
+          button: 'Build My AEO Strategy',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: AEOServiceImpIcon_5,
+          name: 'Machine-Readable Markup & Technical Alignment',
+          description: [
+            `Structured data and technical clarity play a critical role in how AI interprets your content. We implement advanced schema strategies, including FAQ, How-To, Product, Review, Organization, and contextual markup, to reinforce meaning and relationships.`,
+            `Beyond basic schema, we evaluate crawl pathways, metadata consistency, indexation health, and contextual tagging to ensure AI systems can process your information efficiently. Technical alignment reduces misinterpretation and strengthens extraction accuracy.`,
+          ],
+          button: 'Build My AEO Strategy',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: AEOServiceImpIcon_6,
+          name: 'Authority & Credibility Engineering',
+          description: [
+            `AI models prioritize trusted sources when generating responses. We, as a leading AEO agency, strengthen your authority footprint both on-site and across the broader digital ecosystem.`,
+            `This includes reinforcing author expertise signals, improving brand entity clarity, aligning content with reputable references, and supporting strategic digital authority initiatives.`,
+            `Over time, these signals compound, increasing the probability that AI engines select your brand as a citation-worthy source.`,
+          ],
+          button: 'Build My AEO Strategy',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: AEOServiceImpIcon_7,
+          name: 'Zero-Click & AI Answer Optimization',
+          description: [
+            `As AI-generated answers reduce traditional click-through behavior, visibility becomes just as important as traffic. We optimize your content to appear within featured snippets, AI summaries, conversational search responses, and voice-driven results.`,
+            `Even when users don’t visit your website directly, your brand gains authority exposure by being referenced within the answer itself. This shifts your visibility strategy from pure traffic acquisition to influence and recognition within AI-driven ecosystems.`,
+            `As AI-generated answers reduce traditional click-through behavior, visibility becomes just as important as traffic. We optimize your content to appear within featured snippets, AI summaries, conversational search responses, and voice-driven results.`,
+          ],
+          button: 'Build My AEO Strategy',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: AEOServiceImpIcon_8,
+          name: 'AI Visibility Analytics & Performance Reporting',
+          description: [
+            `Measuring Answer Engine Optimization services requires more than tracking rankings. We monitor citation frequency, AI-generated mentions, referral behavior, engagement patterns, and emerging visibility trends.`,
+            `Our reporting provides insight into how your content performs within AI systems, identifying which topics generate the strongest presence and where optimization efforts can yield further gains.`,
+            `This data-driven approach ensures continuous strategic improvement.`,
+          ],
+          button: 'Build My AEO Strategy',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: AEOServiceImpIcon_9,
+          name: 'Continuous AI Adaptation & Strategic Refinement',
+          description: [
+            `AI search algorithms evolve rapidly, reshaping how answers are generated and sources are selected. Static optimization is not enough. We continuously evaluate changes in AI search behavior, citation patterns, and platform updates.`,
+            `Content structures are refined, entity alignments are strengthened, and technical enhancements are adjusted to maintain long-term competitiveness.`,
+            `This ongoing refinement protects your AI visibility while expanding your authority footprint over time.`,
+          ],
+          button: 'Build My AEO Strategy',
+          btnColor: '#FB9100',
+        },
+      ],
+    },
+
+    dataInTable: {
+      isVisible: true,
+      isInCenter: true,
+      isBgWhite: true,
+      trColor: '#FB9100',
+      rowColor: '#fff6eb',
+      isVariant: '01',
+      heading: 'AEO vs Traditional SEO: A Strategic Comparison',
+      description:
+        'To understand the shift from rankings to AI citations, it helps to compare both strategies under the same core performance categories.',
+      data: [
+        {
+          desctioption: `Category`,
+          list: [
+            {
+              description: [`Ranking & Visibility Factors`],
+            },
+            {
+              description: [`Keywords vs Entities`],
+            },
+            {
+              description: [`Authority Signals`],
+            },
+            {
+              description: [`Performance Metrics`],
+            },
+            {
+              description: [`Search Experience`],
+            },
+            {
+              description: [`Primary Objective`],
+            },
+          ],
+        },
+        {
+          desctioption: `Traditional SEO`,
+          list: [
+            {
+              description: [
+                `Optimizes for algorithmic ranking signals that determine position on search engine results pages.`,
+              ],
+            },
+            {
+              description: [`Focuses on targeting specific keyword phrases to match search queries and improve rankings.`],
+            },
+            {
+              description: [`Relies heavily on backlink quantity and domain authority to improve rankings.`],
+            },
+            {
+              description: [`Measures success through rankings, traffic volume, and click-through rate (CTR).`],
+            },
+            {
+              description: [
+                `Competes for blue link placements within traditional search results.`,
+              ],
+            },
+            {
+              description: [`Drive website visits from search engines.`],
+            },
+          ],
+        },
+        {
+          desctioption: `Answer Engine Optimization (AEO)`,
+          list: [
+            {
+              description: [
+                `Optimizes for extraction and citation signals that determine whether AI systems select your content in generated answers.`,
+              ],
+            },
+            {
+              description: [
+                `Focuses on building entity clarity and topic relationships so AI systems understand contextual authority.`,
+              ],
+            },
+            {
+              description: [
+                `Relies on expertise, brand credibility, topical depth, consistency, and trust validation across sources.`,
+              ],
+            },
+            {
+              description: [`Measures success through citation frequency, AI visibility, answer inclusion, and influence in zero-click environments.`],
+            },
+            {
+              description: [
+                `Competes to become the referenced source inside AI-generated summaries and conversational responses.`,
+              ],
+            },
+            {
+              description: [`Establish brand authority and visibility within AI-powered answers, with or without clicks.`],
+            },
+          ],
+        },
+      ],
+    },
+
+    whatMkeDeferent: {
+      isVisible: true,
+      breakIndex: 5,
+      isVariant: '02',
+      heading: `What Sets Our AI Search Strategy Apart`,
+      description: [
+        `AI search optimization requires more than surface-level SEO updates. Our approach is built around long-term authority positioning, technical precision, and strategic clarity, not short-term tactics.`,
+      ],
+      list: [
+        {
+          img: AEOServicewhatMke1,
+          name: 'Proprietary AEO Framework',
+          description: [
+            `We don’t apply generic SEO checklists to AI search. Our proprietary framework is designed specifically for answer engine ecosystems. It combines semantic architecture, entity engineering, citation readiness, and authority development into a structured methodology that aligns with how AI systems actually evaluate and extract information.`,
+            `This structured approach ensures consistency, scalability, and measurable progress, not isolated optimizations.`
+          ],
+        },
+        {
+          img: AEOServicewhatMke2,
+          name: 'AI Visibility Monitoring',
+          description: [
+            `Most agencies track rankings. We track citation visibility. Our monitoring systems analyze how and where your brand appears in AI-generated answers, featured summaries, and conversational search experiences.`,
+            `This allows us to measure real AI presence, not just organic traffic, and identify emerging opportunities before competitors capitalize on them.`
+          ],
+        },
+      ],
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      title: 'Frequently Asked Questions',
+      description: ``,
+      list: [
+        {
+          title: 'How is AEO different from optimizing for featured snippets?',
+          description: [`Featured snippet optimization focuses on winning a specific search result placement in traditional SERPs. AEO goes further by preparing content for AI-generated summaries, conversational responses, voice assistants, and zero-click environments.`,
+            `It’s about being the source behind the answer, not just occupying a box in search results.`
+          ]
+        },
+        {
+          title: 'Which platforms does AEO impact?',
+          description: [`AEO influences visibility across AI-powered search experiences, including generative search summaries, conversational AI assistants, and voice-driven queries.`,
+            `As AI becomes integrated into mainstream search engines and standalone AI platforms, citation optimization improves your brand’s presence across multiple ecosystems simultaneously.`
+          ]
+        },
+        {
+          title: 'What types of content perform best in AI search?',
+          description: [`Content that performs well typically includes clear definitions, structured explanations, data-backed insights, FAQs, and comprehensive topical coverage.`,
+            `AI systems favor clarity, contextual depth, and factual consistency over promotional or vague language.`
+          ]
+        },
+        {
+          title: 'How long does AEO take to show results?',
+          description: [`AI visibility improvements can begin within a few months, especially when structural and technical enhancements are implemented early. However, building citation authority and a consistent AI presence is a compounding process.`,
+            `Sustainable results typically develop over 3–6 months, depending on competition and content maturity.`
+          ]
+        },
+        {
+          title: 'Does AEO replace traditional SEO?',
+          description: [`No. Answer Engine Optimization services build on traditional SEO. Strong technical foundations, authority signals, and content quality still matter.`,
+            `The difference is that AEO adapts those elements to align with AI extraction and citation behavior rather than focusing solely on rankings.`
+          ]
+        },
+        {
+          title: 'Can small businesses benefit from AEO?',
+          description: [`Yes. In fact, smaller brands can gain a significant advantage by becoming authoritative within focused niches.`,
+            `AI search engines often prioritize topical clarity and expertise over sheer domain size, creating new opportunities for well-positioned small businesses.`
+          ]
+        },
+        {
+          title: 'How do you track AI citations?',
+          description: [`We monitor AI-generated responses, citation frequency, referral patterns, snippet presence, and brand mentions across AI-powered search platforms.`,
+            `This provides visibility into how often and where your content is being referenced.`
+          ]
+        },
+        {
+          title: 'Is schema enough for AI visibility?',
+          description: [`Schema is important, but it is not sufficient on its own. Structured data improves machine readability, but AI engines also evaluate authority, topical depth, clarity, and trust signals.`,
+            `True AEO requires a holistic strategy that integrates technical, content, and credibility factors.`
+          ]
+        },
+      ],
+    },
+
+    ourProcess: {
+      isVisible: false,
+      isInCenter: true,
+      breakIndex: 3,
+      subtitle: 'Our Process',
+      title: 'How Adaired’s White-Label Model Works',
+      span: '',
+      description: `Our approach is designed to integrate smoothly into agency workflows.`,
+      services: [
+        {
+          icon: stepwhitelabel1,
+          title: 'Discovery, Alignment & Service Mapping',
+          description: [
+            `The engagement starts with a structured discovery phase where we learn about your agency's service offerings, 
+            client profiles, delivery expectations, and internal processes. 
+            We describe the digital services that you intend to provide, such as SEO, paid media, content, social media, or a combination of the above.`,
+            `This alignment ensures that our delivery model fits seamlessly into your existing operations, 
+            allowing you to expand services without changing the way your agency operates or communicates with clients.`,
+          ],
+        },
+        {
+          icon: stepwhitelabel2,
+          title: 'Workflow Integration and Account Setup',
+          description: [
+            `Once service requirements have been defined, we create execution workflows, access protocols, reporting structures, and delivery timelines. 
+            To ensure consistency across accounts, each service is configured to meet predefined benchmarks.`,
+            `This phase is focused on creating repeatable processes that will enable your agency to consistently deliver multiple 
+            digital services without relying on fragmented resources or ad hoc execution.`,
+          ],
+        },
+        {
+          icon: stepwhitelabel3,
+          title: 'White-Labeled Service Execution',
+          description: [
+            `Our team is in charge of providing agreed-upon digital services across channels, including campaign management, optimization, content creation, and ongoing maintenance. 
+            All work is delivered without Adaired branding and to your agency's standards.`,
+            `We strictly operate as a fulfillment partner, ensuring that your clients receive consistent service under your brand identity.`,
+          ],
+        },
+        {
+          icon: stepwhitelabel4,
+          title: 'Performance Tracking & Reporting',
+          description: [
+            `We provide structured reporting dashboards and performance summaries customized to your agency’s branding. With a focus on user-friendly interfaces, 
+            we allow easy navigation and real-time updates, ensuring that you can make informed decisions based on the most current data available.`,
+            `Every metric is tracked against agreed KPIs, ensuring transparency, accountability, and measurable growth.`,
+          ],
+        },
+        {
+          icon: stepwhitelabel5,
+          title: 'Communication and Delivery Management',
+          description: [
+            `To ensure clarity and efficiency, you collaborate with a single point of contact who oversees service delivery. 
+            This central coordination closes communication gaps and ensures that timelines, priorities, and quality standards are consistently met.`,
+            `You stay informed and in control without being pulled into day-to-day operations.`,
+          ],
+        },
+        {
+          icon: stepwhitelabel6,
+          title: 'Continuous Optimization & Scaling',
+          description: [
+            `As campaigns mature, we refine strategies based on performance data. 
+            By leveraging these insights, we identify successful tactics and areas needing improvement, 
+            allowing us to optimize our approach for maximum effectiveness and efficiency.`,
+            `Whether you’re onboarding new clients or expanding service lines, our processes are built to scale alongside your agency, without adding internal complexity.`,
+          ],
+        },
+      ],
+    },
+
+    whatIncluded: {
+      isVisible: false,
+      isVariant: '03',
+      breakIndex: 3,
+      heading: 'White-Label Services We Provide',
+      description: [
+        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
+        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
+      ],
+      list: [
+        {
+          icon: whiteServicesIncluded_1,
+          title: 'White-Label SEO',
+          description: [
+            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
+            We handle research, optimization, technical improvements, 
+            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
+            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_2,
+          title: 'White-Label Social Media Management',
+          description: [
+            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
+            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
+            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_3,
+          title: 'White-Label Pay-Per-Click Ads',
+          description: [
+            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
+            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
+            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_4,
+          title: 'White-Label Link Building',
+          description: [
+            `Link building requires consistent outreach and quality control. 
+            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
+            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_5,
+          title: 'White-Label Web Design and Development',
+          description: [
+            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
+            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
+            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
+            and timelines, all without having to manage in-house design or development teams.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_6,
+          title: 'White-Label Application Development',
+          description: [
+            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
+            We assist with application planning, development, integration, testing, and platform-wide updates.`,
+            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+      ],
+      button: 'Start a Conversation',
+    },
+
+    buildlinks: {
+      isVisible: false,
+      isCode01: true,
+      isVariant: '03',
+      breakIndex: 3,
+      bgImg: whiteBookConsultationBg,
+      img: whiteServicesBuildLinkImg,
+      label: 'Ready to Expand Your',
+      heading: 'Digital Service Empire?',
+      description: ``,
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `If managing fulfillment is slowing your agency down, Adaired Digital Media’s white-label partnership 
+          can help you move forward without restructuring your team or changing how you work with clients.`,
+        },
+        {
+          desctioption: `We support agencies with structured white-label digital services designed for consistent delivery, brand protection, and long-term collaboration.`,
+        },
+        {
+          desctioption: `Talk to our team now to see if a white-label partnership makes sense for your agency.`,
+        },
+      ],
+      button: 'Get Started',
+    },
+
+    needofservice: {
+      isVisible: false,
+      isVariant: '04',
+      isBgCornerImg: true,
+      heading: 'How White Label SEO Works for Agencies',
+      data: [
+        {
+          desctioption: `White label SEO seeks to separate client ownership and service delivery. 
+          The agency remains the primary point of contact, but SEO fulfillment is handled externally.`,
+        },
+        {
+          desctioption: `Client acquisition, onboarding, and relationship management are handled entirely by the agency. 
+          The client receives SEO services directly from the agency they hired.`,
+        },
+        {
+          desctioption: `At Adaired, as a leading white-label SEO company, we do SEO execution, including research, optimization, 
+          and ongoing maintenance, which takes place quietly in the background. 
+          This allows agencies to provide SEO services without expanding their internal teams or infrastructure.`,
+        },
+        {
+          desctioption: `Furthermore, we ensure that all reporting, documentation, and performance updates are delivered using the agency's branding. 
+          Communication follows the agency's processes, ensuring continuity and brand integrity.`,
+        },
+      ],
+    },
+
+    serviceResult: {
+      isVisible: false,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
+      heading: 'Common White Label SEO Use Cases',
+      isVariant: '03',
+      description: [
+        `Outsourcing SEO services is used across different types of agencies and service providers, 
+        primarily as a way to support ongoing search optimization without expanding internal teams. 
+        The following use cases reflect common operational scenarios:`,
+      ],
+      isBgColor: true,
+      img: WhiteSeoServiceResultImg,
+      list: [
+        {
+          img: whiteSeoResult_1,
+          name: 'Web Design Agencies Adding SEO Retainers',
+          description: [
+            `Web design agencies often introduce SEO as a recurring service after a website launch. 
+            White label SEO allows these agencies to offer ongoing optimization, monitoring, and reporting without building a dedicated SEO department.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_2,
+          name: 'PPC Agencies Expanding into Organic Search',
+          description: [
+            `Paid media agencies frequently complement pay-per-click services with organic search offerings. 
+            White label SEO enables PPC-focused teams to support long-term visibility and traffic growth alongside paid campaigns.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_3,
+          name: 'Consultants Supporting Long-Term SEO Clients',
+          description: [
+            `Independent consultants and marketing advisors may use white-label SEO to fulfill execution-heavy tasks while remaining focused on strategy and client management. 
+            This model supports continuity for clients requiring ongoing optimization.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_4,
+          name: 'Multi-Location or Franchise SEO Support',
+          description: [
+            `Businesses operating across multiple locations often require scalable and standardized SEO execution. 
+            White label SEO supports consistent optimization, reporting, and performance tracking across regions while maintaining centralized brand control.`,
+          ],
+        },
+      ],
+    },
+
+    getsCredit: {
+      isVisible: false,
+      code: '01',
+      heading: 'You Sell. We Execute. Your Brand Gets the Credit.',
+      isCard: false,
+      list: [
+        {
+          description: [`SEO audits & strategy`],
+        },
+        {
+          description: [`Ongoing optimization`],
+        },
+        {
+          description: [`100% brand-safe delivery`],
+        },
+        {
+          description: [`Rank tracking & white-label reporting`],
+        },
+      ],
+    },
+
+    leadingTools: {
+      isVisible: false,
+      isVariant: '01',
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+      list: [
+        {
+          img: client_1,
+        },
+        {
+          img: client_2,
+        },
+        {
+          img: client_3,
+        },
+        {
+          img: client_4,
+        },
+        {
+          img: client_5,
+        },
+        {
+          img: client_1,
+        },
+        {
+          img: client_2,
+        },
+      ],
+    },
+
+    getplan: {
+      isVisible: false,
+      isLabel: false,
+      subtitle: '',
+      bgImage: stop_struggle2,
+      title: 'Stop Guessing Start Acting ',
+      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+
+    stopStruggling: {
+      isVisible: false,
+      isCenter: true,
+      subtitle: '',
+      title: '',
+      description: [
+        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
+      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
+      ],
+      button: '',
+      bgImg: whiteStruggleBg,
+      isHoverBgBlue: true,
+    },
+
+    benefitofAiSeo: {
+      isVisible: false,
+      bgColor: 'bg-[#FAFAFA]',
+      textColor: '#000000',
+      textBg: '#EEEEEE',
+      borderColor: '#00000014',
+      heading: 'Benefits of Website Design and Development Services',
+      description: [
+        `A business’s success is closely tied to the quality of its website. A professional web site can determine whether a visitor becomes a loyal customer or leaves for a competitor. Here are the key benefits:`,
+      ],
+      list: [
+        {
+          name: 'Creates a Strong First Impression',
+          description: [
+            `The potential customers often get in touch with you through your site. The first impression that a properly developed site leaves is positive and credible. 
+            The use of professional images, well-designed layouts, and navigation facilitate the development of trust within seconds after a visitor visits your site.`,
+          ],
+        },
+        {
+          name: 'Enhances User Experience',
+          description: [
+            `Effective website design is rooted in user experience. A visitor will find it easier to do business with a site that has easy navigation, attractive design, and is responsive to all devices. 
+            A well-organized site will ensure the users have an easy time navigating their way to heighten satisfaction and interest.`,
+          ],
+        },
+        {
+          name: 'Builds Trust and Credibility',
+          description: [
+            `Good website design is associated with the credibility and professionalism of a business. 
+            Features such as fast loading speeds, secure connections, consistent performance, and clear messaging reassure users that the company is reliable, established, and customer-focused.`,
+          ],
+        },
+        {
+          name: 'Improves Conversion Rates and ROI',
+          description: [
+            `A well-planned website is your effective conversion tool. 
+            An efficient design, simple calls to action, and information-driven design components motivate the visitor to make a substantial move like purchasing a product, joining a mailing list, or leaving an enquiry which will lead to an increase in the profit margin.`,
+          ],
+        },
+        {
+          name: 'Helps You Stand Out in a Competitive Market',
+          description: [
+            `The world of the Internet is very busy nowadays, so a generic site is not sufficient. 
+            A tailored site featuring unique images, effective branding, and engagement is useful to businesses to stand out, enhance their online presence, and create an impression.`,
+          ],
+        },
+      ],
+    },
+
+    whatMissing: {
+      isVisible: false,
+      bgColor: true,
+      isVariant: '01',
+      heading: 'What Are Local SEO Ranking Factors?',
+      description: [
+        `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
+        Google now relies on three primary ranking factors to determine local visibility: Relevance, Distance, and Prominence.`,
+        `Together these factors assist Google in presenting the most accurate, trustworthy, and helpful local businesses to its users during their search.`,
+      ],
+      list: [
+        {
+          icon: missing_1,
+          title: 'Relevance',
+          description: [
+            `Relevance takes into consideration the similarity of your business with what the user wants to search. 
+            Google considers your business details, web content, service descriptions, categories and keywords to find out whether your business fits in the intention of the user.`,
+            `Clear, accurate, and well-optimized content improves relevance and increases the likelihood of appearing for the right local searches.`,
+          ],
+        },
+        {
+          icon: missing_2,
+          title: 'Distance',
+          description: [
+            `Distance measures how close your business is to the searcher or to the location specified in the search. 
+            You cannot control the location of the user, but you can make sure that your address, service areas and location information is correct and showing the same points on the web.`,
+            `Good relevance and high profile may enable the businesses to appear high even when the business is not the nearest.`,
+          ],
+        },
+        {
+          icon: missing_3,
+          title: 'Prominence',
+          description: [
+            `Prominence reflects how well-known and trusted your business is online. 
+            Google evaluates the signals including customer reviews, rating, local citation, and back links, mention of the brand and general online presence.`,
+            `Companies that enjoy a high degree of authority and good reputation are more likely to feature on top search results in the local search engine.`,
+          ],
+        },
+      ],
+    },
+
+    industryLeaders: {
+      isVisible: false,
+      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      description:
+        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      bgImage: leadingToolsImg,
+    },
+
+    leadingToolsForPerformence: {
+      isVisible: false,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+
+    notSeeingResult: {
+      isVisible: false,
+      heading: ``,
+      description: '',
+      buttonName: '',
+      img: LocalNotSee,
+      bgImage: LocalNotSeeBg,
+    },
+  },
 };
