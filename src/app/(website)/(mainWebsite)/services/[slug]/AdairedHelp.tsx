@@ -11,7 +11,7 @@ const AdairedHelp = ({ adairedHelp }: any) => {
 
   return (
     <div
-      className={`py-[3rem] lg:py-[4rem] bg-[${adairedHelp?.bgColor || '#FFFFFF'}]`}
+      className={`pb-[3rem] lg:pb-[4rem] bg-[${adairedHelp?.bgColor || '#FFFFFF'}]`}
     >
       <MaxWidthWrapper>
         <div
@@ -24,7 +24,7 @@ const AdairedHelp = ({ adairedHelp }: any) => {
             isBgWhite={adairedHelp?.isInCenter && true}
             title={adairedHelp?.heading}
             description={adairedHelp?.description}
-            className="mx-auto"
+            className=""
           />
         </div>
 
