@@ -552,7 +552,7 @@ export const ServiceSectionData = {
           label: 'AEO',
           title: 'AEO',
           description: `We structure and optimize content so search engines and AI systems can easily extract, understand, and present your brand as the best answer. Through question-focused optimization, schema markup, and intent alignment, we help businesses capture high-value answer placements beyond traditional rankings.`,
-          link: '/services/ai-seo-company-india',
+          link: '/services/aeo-service-india',
         },
       ],
       mainSvg: 'Logo Design_PpqcI',
