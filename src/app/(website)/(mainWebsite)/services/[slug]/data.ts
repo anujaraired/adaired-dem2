@@ -322,6 +322,7 @@ import AEOServiceImpIcon_8 from '../../../../../../public/assets/images/services
 import AEOServiceImpIcon_9 from '../../../../../../public/assets/images/services/aeoService/ImpToBussinessImg/Icon9.svg';
 import AEOServicewhatMke1 from '../../../../../../public/assets/images/services/aeoService/whatMkeDeferentImg/Img1.png';
 import AEOServicewhatMke2 from '../../../../../../public/assets/images/services/aeoService/whatMkeDeferentImg/Img2.png';
+import AeoServiceBannerImg from '../../../../../../public/assets/images/services/aeoService/AeoServiceBannerImg.png';
 
 import whiteServicesIncluded_1 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesIncluded_1.png';
 import whiteServicesIncluded_2 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesIncluded_2.png';
@@ -329,6 +330,7 @@ import whiteServicesIncluded_3 from '../../../../../../public/assets/images/serv
 import whiteServicesIncluded_4 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesIncluded_4.png';
 import whiteServicesIncluded_5 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesIncluded_5.png';
 import whiteServicesIncluded_6 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesIncluded_6.png';
+
 
 //PPC Images
 import PPC_Banner from '../../../../../../public/assets/images/PPCimg/PPC_Banner.png';
@@ -1393,7 +1395,7 @@ export const SERVICES_DATA = {
       breakIndex: 6,
       activeDot: '#F28F17',
       inactiveDot: '#FFEACD',
-      bgColor: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0]',
+      bgColor: 'bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0] to-[#FFFFFF]',
       textColor: '#FB9100',
       textBg: '#FFE6C380',
       borderColor: '#FB910040',
@@ -2152,7 +2154,7 @@ brand appears in AI summaries and citations.`,
       breakIndex: 6,
       activeDot: '#F28F17',
       inactiveDot: '#FFEACD',
-      bgColor: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0]',
+      bgColor: 'bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0] to-[#FFFFFF]',
       textColor: '#FB9100',
       textBg: '#FFE6C380',
       borderColor: '#FB910040',
@@ -5212,6 +5214,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: true,
       isBgWhite: true,
+      bgColor: '#FAFAFA',
       trColor: '#7259FF',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
@@ -8142,6 +8145,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: false,
       isBgWhite: false,
+      bgColor: '#FAFAFA',
       trColor: '#7259FF',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
@@ -11257,6 +11261,9 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: true,
       isBgWhite: true,
+      bgColor: '#FAFAFA',
+      trColor: '#7259FF',
+      rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
       description: [``],
@@ -11937,7 +11944,7 @@ brand appears in AI summaries and citations.`,
       button: 'Build My AEO Strategy',
       width: '20rem',
       widthLg: '30rem',
-      bgImg: whiteServicesBannerBg,
+      bgImg: AeoServiceBannerImg,
     },
 
     keyStats: {
@@ -12185,6 +12192,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: true,
       isBgWhite: true,
+      bgColor: '#FFFCF7',
       trColor: '#FB9100',
       rowColor: 'bg-[#FB9100]/10',
       isVariant: '01',

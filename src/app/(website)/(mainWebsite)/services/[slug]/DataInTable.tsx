@@ -11,7 +11,7 @@ const DataInTable = ({ dataInTable }: any) => {
     const [open, setOpen] = useState(false);
 
     return (
-        <section ref={ref} className="py-[3rem] lg:py-[4rem] bg-[#FAFAFA]">
+        <section ref={ref} className={`py-[3rem] lg:py-[4rem] bg-[${dataInTable?.bgColor}]`}>
             <MaxWidthWrapper>
                 <div
                     className={`transition-all duration-1000 ${isVisible
@@ -43,7 +43,7 @@ const DataInTable = ({ dataInTable }: any) => {
                                                         >
                                                             <div className="flex gap-4 items-center font-medium">
                                                                 <BiSolidBadgeCheck
-                                                                    className="w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 flex-shrink-0 text-white"
+                                                                    className="mb-auto w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 flex-shrink-0 text-white"
                                                                 />
                                                                 <p className="break-words text-white font-semibold text-left">
                                                                     {column?.desctioption}
@@ -73,7 +73,7 @@ const DataInTable = ({ dataInTable }: any) => {
                                                                 >
                                                                     <div className="flex gap-4 items-center font-medium">
                                                                         <BiSolidBadgeCheck
-                                                                            className="w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 flex-shrink-0"
+                                                                            className="mb-auto w-5 h-5 md:w-6 md:h-6 lg:w-7 lg:h-7 flex-shrink-0"
                                                                         />
                                                                         <p className="break-words text-left">
                                                                             {column?.list?.[rowIndex]?.description?.[0]}

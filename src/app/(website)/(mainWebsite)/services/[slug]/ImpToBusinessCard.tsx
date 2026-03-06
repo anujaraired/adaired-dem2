@@ -18,7 +18,7 @@ const ImpToBusinessCard = ({ handleClick }: any) => {
         className="pointer-events-none rounded-2xl object-fill lg:object-cover"
       />
       <div className="absolute left-[2.5rem] right-[5rem] top-[2rem] h-full">
-        <h1 className="text-center uppercase text-white lg:text-left font-normal">
+        <h1 className="text-center text-white lg:text-left font-normal">
           Become the Brand
         </h1>
 
