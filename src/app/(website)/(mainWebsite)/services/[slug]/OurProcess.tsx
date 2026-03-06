@@ -60,10 +60,10 @@ const OurProcess = ({ ourProcess }: any) => {
                     const total = ourProcess.services.length;
                     const center = 260;
 
-                    const outerR = 240;
-                    const innerR = 150;
+                    const outerR = 245;
+                    const innerR = 110;
                     const thickness = outerR - innerR;
-                    const capRadius = thickness / 3;
+                    const capRadius = thickness / 2.2;
 
                     const fullAngle = (2 * Math.PI) / total;
                     const gap = 0.03;
@@ -89,13 +89,13 @@ const OurProcess = ({ ourProcess }: any) => {
                       <path
                         key={idx}
                         d={`
-                        M ${sx} ${sy}
-                        A ${outerR} ${outerR} 0 ${largeArc} 1 ${ex} ${ey}
-                        A ${capRadius} ${capRadius} 0 0 1 ${iex} ${iey}
-                        A ${innerR} ${innerR} 0 ${largeArc} 0 ${isx} ${isy}
-                        A ${capRadius} ${capRadius} 0 0 0 ${sx} ${sy}
-                        Z
-                      `}
+          M ${sx} ${sy}
+          A ${outerR} ${outerR} 0 ${largeArc} 1 ${ex} ${ey}
+          A ${capRadius} ${capRadius} 0 0 1 ${iex} ${iey}
+          A ${innerR} ${innerR} 0 ${largeArc} 0 ${isx} ${isy}
+          A ${capRadius} ${capRadius} 0 0 0 ${sx} ${sy}
+          Z
+        `}
                         fill={activeTab === idx ? '#FB9100' : '#FBEBD5'}
                         stroke="#FFFFFF"
                         onClick={() => setActiveTab(idx)}
@@ -110,14 +110,14 @@ const OurProcess = ({ ourProcess }: any) => {
                 {ourProcess.services.map((service: any, idx: number) => {
                   const total = ourProcess.services.length;
 
-                  const outerR = 240;
+                  const outerR = 200;
                   const innerR = 150;
                   const center = 260;
 
                   const midRadius = (outerR + innerR) / 2;
 
                   const angle = (2 * Math.PI) / total;
-                  const mid = idx * angle + angle / 1.5 - Math.PI / 2;
+                  const mid = idx * angle + angle / 1.25 - Math.PI / 2;
 
                   const x = center + midRadius * Math.cos(mid);
                   const y = center + midRadius * Math.sin(mid);
