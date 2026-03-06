@@ -8,7 +8,8 @@ import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 const ImpToBusinessCard = ({ handleClick }: any) => {
   //test
   return (
-    <div className="relative min-h-[450px] rounded-2xl transition-all duration-700 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:duration-300">
+    <div className="relative min-h-[450px] rounded-2xl">
+      {/* transition-all duration-700 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:duration-300 */}
       <Image
         src={ImpToBusinessCradImg}
         fill
@@ -16,16 +17,16 @@ const ImpToBusinessCard = ({ handleClick }: any) => {
         priority
         className="pointer-events-none rounded-2xl object-fill lg:object-cover"
       />
-      <div className="absolute left-[2rem] right-[2rem] top-[2rem] h-full">
-        <h2 className="text-center uppercase text-white lg:text-left">
+      <div className="absolute left-[2.5rem] right-[5rem] top-[2rem] h-full">
+        <h1 className="text-center uppercase text-white lg:text-left font-normal">
           Become the Brand
-        </h2>
+        </h1>
 
-        <h1 className="text-center text-[clamp(1.8rem,2.688vw,2.688rem)] leading-[clamp(2.5rem,2.688vw,3.65rem)] text-white lg:text-left">
-          AI Search Engines<br /> Trust{' '}
-          <span className="text-[clamp(1.8rem,2.688vw,2.688rem)] font-bold text-white">
-
-          </span>
+        <h1 className="text-center text-white lg:text-left">
+          AI Search Engines
+        </h1>
+        <h1 className='text-center text-white lg:text-left'>
+          Trust
         </h1>
 
         <p className="whitespace-pre-line py-[1rem] text-white">
@@ -40,6 +41,8 @@ const ImpToBusinessCard = ({ handleClick }: any) => {
           <SaveAndCancel
             name="Build My AEO Strategy"
             isIcon={true}
+            isBold={true}
+            isBgWhite={true}
             buttonWidth=""
             handleClick={handleClick}
           />
