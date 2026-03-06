@@ -418,8 +418,9 @@ import geoAiSeoProcess_6 from '../../../../../../public/assets/images/services/g
 import geoAiSeoAdairedHelpImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoAdairedHelpImg.png';
 import geoAiSeoWhatIsImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoWhatIsImg.png';
 import geoAiSeoBannerBg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoBannerBg.png';
-
 import geoAiSeoBuildLinkImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoBuildLinkImg.png';
+
+import geoAiSeoWhatServiceImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoWhatServiceImg.png';
 
 export type SectionKey =
   | 'banner'
@@ -427,6 +428,7 @@ export type SectionKey =
   | 'keyStats'
   | 'areYouTired'
   | 'whatareservice'
+  | 'whatareservice2'
   | 'needofservice'
   | 'needofservice2'
   | 'dataInTable'
@@ -10973,6 +10975,7 @@ brand appears in AI summaries and citations.`,
     sectionsOrder: [
       'banner',
       'whatareservice',
+      'whatareservice2',
       'adairedHelp',
       'importantToBussiness',
       'ourProcess',
@@ -11046,6 +11049,40 @@ brand appears in AI summaries and citations.`,
         },
       ],
       button: '',
+    },
+
+
+    whatareservice2: {
+      isVisible: true,
+      isVariant: '01',
+      img: geoAiSeoWhatServiceImg,
+      heading: 'How Generative AI SEO Strengthens Your Visibility',
+      bgColor: '#FFFFFF',
+      isBgWhite: false,
+      button: '',
+      data: [
+        {
+          desctioption: `Generative AI has fundamentally changed the way search engines interpret content, assess expertise, and deliver results. 
+          Today, visibility is more than just keywords and backlinks; it is about providing the exact signals that AI models use to determine credibility and relevance.`,
+        },
+        {
+          desctioption: `Your website must be AI-friendly, contextually clear, intent-aligned, 
+          and entity-rich so that AI systems can confidently reference, cite, and recommend your brand in answers and summaries.`,
+        },
+        {
+          desctioption: `Our generative engine optimization services India aim to reshape and future-proof your digital presence in this new search landscape. 
+          We evaluate how AI interprets your brand, identify gaps in understanding, and optimize your generative AI search engine optimization strategy, content, 
+          and structure to align with algorithms.`,
+        },
+        {
+          desctioption: `From honing your authority to fortifying your technical foundation, we ensure that every page communicates who you are, 
+          what you offer, and why you're the most trustworthy option for the search intent you want to dominate.`,
+        },
+        {
+          desctioption: `We align your brand with the specific variables that influence AI-generated results using strategic optimization, content writing, 
+          and AI-driven insights, enabling you to become an algorithm that trusts, recommends, and elevates.`,
+        },
+      ],
     },
 
     adairedHelp: {
@@ -11919,7 +11956,7 @@ brand appears in AI summaries and citations.`,
       bgImage: LocalNotSeeBg,
     },
   },
-    'aeo-service-india': {
+  'aeo-service-india': {
     sectionsOrder: [
       'banner',
       'keyStats',
