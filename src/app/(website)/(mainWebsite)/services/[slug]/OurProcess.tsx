@@ -41,16 +41,18 @@ const OurProcess = ({ ourProcess }: any) => {
         {/* ================= HEADING ================= */}
 
         <div className="sticky top-[10rem] z-20 mb-[3rem]">
-          <Heading
-            isLabel={true}
-            subTitle={'Our Process'}
-            breakIndex={ourProcess?.breakIndex}
-            title={ourProcess?.title}
-            isDecVarticle={!ourProcess?.isInCenter && true}
-            description={ourProcess?.description}
-            isInCenter={ourProcess?.isInCenter}
-            isBgWhite={ourProcess?.isInCenter && true}
-          />
+          <div className="mx-auto w-full lg:w-[80%]">
+            <Heading
+              isLabel={true}
+              subTitle={'Our Process'}
+              breakIndex={ourProcess?.breakIndex}
+              title={ourProcess?.title}
+              isDecVarticle={!ourProcess?.isInCenter && true}
+              description={ourProcess?.description}
+              isInCenter={ourProcess?.isInCenter}
+              isBgWhite={ourProcess?.isInCenter && true}
+            />
+          </div>
 
           <div className="grid grid-cols-5 gap-[4rem]">
             <div className="col-span-2 flex h-fit items-center justify-center">
@@ -148,7 +150,7 @@ const OurProcess = ({ ourProcess }: any) => {
                 })}
               </div>
             </div>
-            <div className="col-span-3 mt-[8rem] flex h-fit items-center justify-center">
+            <div className="col-span-3 my-auto flex h-fit items-center justify-center">
               <div className="rounded-[20px] border border-[#FB9100]/20 bg-white p-10">
                 <h3 className="mb-4 text-[18px] font-semibold uppercase text-[#FB9100]">
                   Step {activeTab + 1}: {ourProcess.services[activeTab].title}

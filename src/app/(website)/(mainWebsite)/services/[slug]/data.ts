@@ -331,7 +331,6 @@ import whiteServicesIncluded_4 from '../../../../../../public/assets/images/serv
 import whiteServicesIncluded_5 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesIncluded_5.png';
 import whiteServicesIncluded_6 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesIncluded_6.png';
 
-
 //PPC Images
 import PPC_Banner from '../../../../../../public/assets/images/PPCimg/PPC_Banner.png';
 import WhatIsPPC from '../../../../../../public/assets/images/PPCimg/WhatIsPPC.png';
@@ -1751,6 +1750,7 @@ export const SERVICES_DATA = {
     ourProcess: {
       isVisible: true,
       // breakIndex: 7,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'Our Comprehensive AI Process to Make Your Brand Stand Out',
       span: '',
@@ -2699,7 +2699,7 @@ brand appears in AI summaries and citations.`,
       'readyToStart',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'Web Design and Development Company India | Custom Web Design',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -3171,6 +3171,7 @@ brand appears in AI summaries and citations.`,
     ourProcess: {
       isVisible: true,
       // breakIndex: 4,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'The Web Design and Development Process That We Follow At Adaired',
       span: '',
@@ -4534,6 +4535,7 @@ brand appears in AI summaries and citations.`,
     ourProcess: {
       isVisible: true,
       breakIndex: 6,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'How Our White Label Social Media Management Works',
       span: '',
@@ -5688,6 +5690,7 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: false,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'How Our White Label Social Media Management Works',
       span: '',
@@ -6132,6 +6135,7 @@ brand appears in AI summaries and citations.`,
     ourProcess: {
       isVisible: true,
       breakIndex: 3,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'How Adaired’s White-Label Model Works',
       span: '',
@@ -7148,6 +7152,7 @@ brand appears in AI summaries and citations.`,
     ourProcess: {
       isVisible: true,
       breakIndex: 3,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'How Pay-Per-Click Advertising Works',
       span: 'Here’s a detailed breakdown of how the entire system works:',
@@ -8538,6 +8543,7 @@ brand appears in AI summaries and citations.`,
     ourProcess: {
       isVisible: true,
       breakIndex: 3,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'How Our White-Label Digital Marketing Agency Works',
       span: 'Here’s a detailed breakdown of how the entire system works:',
@@ -9219,6 +9225,7 @@ brand appears in AI summaries and citations.`,
     ourProcess: {
       isVisible: true,
       breakIndex: 4,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'How White Label Link Building Works with Adaired Digital Media',
       span: 'Here’s a detailed breakdown of how the entire system works:',
@@ -10224,6 +10231,7 @@ brand appears in AI summaries and citations.`,
     ourProcess: {
       isVisible: true,
       breakIndex: 4,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'The Growth Framework Behind Our SaaS SEO',
       span: '',
@@ -11229,6 +11237,7 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'Adaired Digital’s 6-Step Generate Engine Optimization Process',
       breakIndex: 3,
@@ -12454,6 +12463,7 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: false,
+      isInCenter: true,
       breakIndex: 3,
       subtitle: 'Our Process',
       title: 'How Adaired’s White-Label Model Works',
