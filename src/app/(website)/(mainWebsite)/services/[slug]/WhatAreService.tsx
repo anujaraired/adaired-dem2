@@ -620,6 +620,55 @@ const WhatAreService = ({ whatareaiseo }: any) => {
           <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
         </div>
       )}
+      {whatareaiseo?.isVariant === '11' && (
+        <div
+          className={`${whatareaiseo?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFFFF] py-[3rem] lg:py-[4rem]'}`}
+        >
+          <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2">
+            <div
+              className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+            >
+              <Heading
+                className="flex justify-center lg:justify-start"
+                subTitle={''}
+                title={whatareaiseo?.heading}
+                span={whatareaiseo?.span}
+                spanColor="text-[#FBD04F]"
+                isBgWhite={whatareaiseo?.isBgWhite && true}
+              />
+              <div className="">
+                {whatareaiseo?.data?.map((item: any) => {
+                  return (
+                    <p
+                      className={`py-2 text-center lg:text-justify ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'} `}
+                    >
+                      {item?.desctioption}
+                    </p>
+                  );
+                })}
+              </div>
+
+              {whatareaiseo?.button && (
+                <SaveAndCancel
+                  name={whatareaiseo?.button}
+                  isIcon={true}
+                  isBgWhite={true}
+                  handleClick={() => setOpen(!open)}
+                  className="my-[2rem]"
+                />
+              )}
+            </div>
+
+            <div
+              ref={ref}
+              className={`group order-1 flex items-center justify-center transition-all duration-1000 lg:order-2 lg:items-center lg:justify-center ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
+            >
+              <Image src={whatareaiseo?.img} width={602} height={50} alt="" />
+            </div>
+          </MaxWidthWrapper>
+          <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
+        </div>
+      )}
     </div>
   );
 };

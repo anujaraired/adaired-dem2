@@ -11042,10 +11042,9 @@ brand appears in AI summaries and citations.`,
       button: '',
     },
 
-
     whatareservice2: {
       isVisible: true,
-      isVariant: '01',
+      isVariant: '11',
       img: geoAiSeoWhatServiceImg,
       heading: 'How Generative AI SEO Strengthens Your Visibility',
       bgColor: '#FFFFFF',
