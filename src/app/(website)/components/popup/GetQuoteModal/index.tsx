@@ -150,6 +150,7 @@ const GetQuoteModal = ({ isOpen, onClose }: GetQuoteModalProps) => {
               <div className="mt-4 flex gap-2">
                 <Link
                   href={process.env.NEXT_PUBLIC_TWITTER_URL || '/'}
+                  target="_blank"
                   className="group/x hover:bg-theme-orange rounded-full bg-white p-2"
                 >
                   <Icons.Twitter className="text-[#1B5A96] group-hover/x:text-[#FB9100]" />
@@ -159,6 +160,7 @@ const GetQuoteModal = ({ isOpen, onClose }: GetQuoteModalProps) => {
                 </Link>
                 <Link
                   href={process.env.NEXT_PUBLIC_INSTAGRAM_URL || '/'}
+                  target="_blank"
                   className="group/insta hover:bg-theme-orange rounded-full bg-white p-2"
                 >
                   <Icons.Instagram className="text-[#1B5A96] group-hover/insta:text-[#FB9100]" />
@@ -168,6 +170,7 @@ const GetQuoteModal = ({ isOpen, onClose }: GetQuoteModalProps) => {
                 </Link>
                 <Link
                   href={process.env.NEXT_PUBLIC_FACEBOOK_URL || '/'}
+                  target="_blank"
                   className="group/fb hover:bg-theme-orange rounded-full bg-white p-2"
                 >
                   <Icons.Facebook className="text-[#1B5A96] group-hover/fb:text-[#FB9100]" />
@@ -177,6 +180,7 @@ const GetQuoteModal = ({ isOpen, onClose }: GetQuoteModalProps) => {
                 </Link>
                 <Link
                   href={process.env.NEXT_PUBLIC_LINKEDIN_URL || '/'}
+                  target="_blank"
                   className="group/in hover:bg-theme-orange rounded-full bg-white p-2"
                 >
                   <Icons.LinkedIn className="text-[#1B5A96] group-hover/in:text-[#FB9100]" />

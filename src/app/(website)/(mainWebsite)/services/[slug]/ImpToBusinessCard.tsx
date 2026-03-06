@@ -17,7 +17,7 @@ const ImpToBusinessCard = ({ handleClick }: any) => {
         priority
         className="pointer-events-none rounded-2xl object-fill lg:object-cover"
       />
-      <div className="absolute left-[2.5rem] right-[5rem] top-[2rem] h-full">
+      <div className="absolute lg:left-[2.5rem] left-[2rem] lg:right-[5rem] right-[2rem] lg:top-[2rem] top-[1.5rem] h-full">
         <h1 className="text-center text-white lg:text-left font-normal">
           Become the Brand
         </h1>
@@ -29,15 +29,15 @@ const ImpToBusinessCard = ({ handleClick }: any) => {
           Trust
         </h1>
 
-        <p className="whitespace-pre-line py-[1rem] text-white">
+        <p className="whitespace-pre-line lg:py-[1rem] py-0 lg:pb-0 pb-[1rem] text-white">
           AI-powered search is already reshaping how customers discover information. The question isn’t whether AI visibility matters; it’s whether your brand will be cited or overlooked.
         </p>
 
-        <p className="whitespace-pre-line py-[1rem] text-white">
+        <p className="whitespace-pre-line lg:py-[1rem] py-0 text-white">
           Position your business to be found, trusted, and referenced in AI-generated answers.
         </p>
 
-        <div className="absolute bottom-[4rem] left-0 right-0 flex justify-center lg:justify-start">
+        <div className="absolute lg:bottom-[4rem] bottom-[3rem] left-0 right-0 flex justify-center lg:justify-start">
           <SaveAndCancel
             name="Build My AEO Strategy"
             isIcon={true}

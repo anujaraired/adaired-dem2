@@ -27,7 +27,7 @@ const WebFooter = () => {
     const { name, value } = e.target;
     setInputVal({ ...inputVal, [name]: value });
   };
-  const handleSubcribe = () => {};
+  const handleSubcribe = () => { };
   return (
     <>
       <footer className="relative py-12 text-white">
@@ -68,7 +68,8 @@ const WebFooter = () => {
               <div className="mt-6 hidden lg:block">
                 <div className="mt-4 flex gap-2">
                   <Link
-                    href={process.env.NEXT_PUBLIC_FACEBOOK_URL || '/'}
+                    href="https://www.facebook.com/adaired.digital/"
+                    target="_blank"
                     className="group/fb hover:bg-theme-orange rounded-full bg-white p-2"
                   >
                     <Icons.Facebook className="text-[#1B5A96] group-hover/fb:text-[#FB9100]" />
@@ -77,7 +78,8 @@ const WebFooter = () => {
                     </span>
                   </Link>
                   <Link
-                    href={process.env.NEXT_PUBLIC_TWITTER_URL || '/'}
+                    href="https://twitter.com/adaireddigital/"
+                    target="_blank"
                     className="group/x hover:bg-theme-orange rounded-full bg-white p-2"
                   >
                     <Icons.Twitter className="text-[#1B5A96] group-hover/x:text-[#FB9100]" />
@@ -86,7 +88,8 @@ const WebFooter = () => {
                     </span>
                   </Link>
                   <Link
-                    href={process.env.NEXT_PUBLIC_INSTAGRAM_URL || '/'}
+                    href="https://www.instagram.com/adaired.digital"
+                    target="_blank"
                     className="group/insta hover:bg-theme-orange rounded-full bg-white p-2"
                   >
                     <Icons.Instagram className="text-[#1B5A96] group-hover/insta:text-[#FB9100]" />
@@ -95,7 +98,8 @@ const WebFooter = () => {
                     </span>
                   </Link>
                   <Link
-                    href={process.env.NEXT_PUBLIC_LINKEDIN_URL || '/'}
+                    href="https://www.linkedin.com/company/adaired/mycompany/"
+                    target="_blank"
                     className="group/in hover:bg-theme-orange rounded-full bg-white p-2"
                   >
                     <Icons.LinkedIn className="text-[#1B5A96] group-hover/in:text-[#FB9100]" />
@@ -240,7 +244,7 @@ const WebFooter = () => {
               <div className="mt-4 flex gap-2">
                 <Link
                   href={process.env.NEXT_PUBLIC_FACEBOOK_URL || '/'}
-                  className="rounded-full bg-white p-2" 
+                  className="rounded-full bg-white p-2"
                 >
                   <Icons.Facebook className="text-[#1B5A96]" />
                   <span className="sr-only">
