@@ -51,7 +51,7 @@ const AdairedHelp = ({ adairedHelp }: any) => {
             {adairedHelp?.list?.map((item: any, index: number) => (
               <div
                 key={index}
-                className={`flex flex-col items-center rounded-[20px] border border-[#FB9100]/25 bg-[#FFF8F0] p-[1.5rem] transition-all duration-700 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+                className={`flex flex-col items-center rounded-[20px] border border-[#FB9100]/25 bg-[${adairedHelp?.cardBg || '#FFFFFF'}] p-[1.5rem] transition-all duration-700 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
                 style={{
                   transitionDelay: `${index * 280}ms`, // 👈 stagger here
                 }}

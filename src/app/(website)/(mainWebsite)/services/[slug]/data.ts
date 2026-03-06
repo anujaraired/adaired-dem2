@@ -331,7 +331,6 @@ import whiteServicesIncluded_4 from '../../../../../../public/assets/images/serv
 import whiteServicesIncluded_5 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesIncluded_5.png';
 import whiteServicesIncluded_6 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesIncluded_6.png';
 
-
 //PPC Images
 import PPC_Banner from '../../../../../../public/assets/images/PPCimg/PPC_Banner.png';
 import WhatIsPPC from '../../../../../../public/assets/images/PPCimg/WhatIsPPC.png';
@@ -410,11 +409,19 @@ import geoAiSeoImpIcon_4 from '../../../../../../public/assets/images/services/g
 import geoAiSeoImpIcon_5 from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoImpIcon_5.png';
 import geoAiSeoImpIcon_6 from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoImpIcon_6.png';
 
+import geoAiSeoProcess_1 from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoProcess_1.png';
+import geoAiSeoProcess_2 from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoProcess_2.png';
+import geoAiSeoProcess_3 from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoProcess_3.png';
+import geoAiSeoProcess_4 from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoProcess_4.png';
+import geoAiSeoProcess_5 from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoProcess_5.png';
+import geoAiSeoProcess_6 from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoProcess_6.png';
+
 import geoAiSeoAdairedHelpImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoAdairedHelpImg.png';
 import geoAiSeoWhatIsImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoWhatIsImg.png';
 import geoAiSeoBannerBg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoBannerBg.png';
-
 import geoAiSeoBuildLinkImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoBuildLinkImg.png';
+
+import geoAiSeoWhatServiceImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoWhatServiceImg.png';
 
 export type SectionKey =
   | 'banner'
@@ -422,6 +429,7 @@ export type SectionKey =
   | 'keyStats'
   | 'areYouTired'
   | 'whatareservice'
+  | 'whatareservice2'
   | 'needofservice'
   | 'needofservice2'
   | 'dataInTable'
@@ -904,6 +912,7 @@ export const SERVICES_DATA = {
       breakIndex: 6,
       img: adaairedHelpSEO,
       isInCenter: true,
+      cardBg: '#FFF8F0',
       heading:
         'List of comprehensive SEO Services that Drive Revenue and Traffic',
       mainImage: adairedHelpImg,
@@ -1549,6 +1558,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       img: adairedHelpAISEO,
       isInCenter: true,
+      cardBg: '#FFF8F0',
       heading: 'How Can Adaired Help You With AI SEO Services?',
       mainImage: adairedHelpImg,
       list: [
@@ -1740,6 +1750,7 @@ export const SERVICES_DATA = {
     ourProcess: {
       isVisible: true,
       // breakIndex: 7,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'Our Comprehensive AI Process to Make Your Brand Stand Out',
       span: '',
@@ -2376,6 +2387,7 @@ brand appears in AI summaries and citations.`,
     adairedHelp: {
       isVisible: true,
       isInCenter: true,
+      cardBg: '#FFF8F0',
       heading: 'Benefits of Authority Link Building Services',
       img: adairedHelpImgLink,
       list: [
@@ -2687,7 +2699,7 @@ brand appears in AI summaries and citations.`,
       'readyToStart',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'Web Design and Development Company India | Custom Web Design',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -3016,6 +3028,7 @@ brand appears in AI summaries and citations.`,
     adairedHelp: {
       isVisible: true,
       isInCenter: true,
+      cardBg: '#FFF8F0',
       breakIndex: 6,
       heading:
         'How Adaired Can Help You With Professional Website Design and Development Services?',
@@ -3158,6 +3171,7 @@ brand appears in AI summaries and citations.`,
     ourProcess: {
       isVisible: true,
       // breakIndex: 4,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'The Web Design and Development Process That We Follow At Adaired',
       span: '',
@@ -4109,6 +4123,7 @@ brand appears in AI summaries and citations.`,
       heading:
         'How Adaired Can Help You With Professional Website Design and Development Services?',
       img: HowAdairedHelp,
+      cardBg: '#FFF8F0',
       list: [
         {
           img: AdairedHelp1,
@@ -4520,6 +4535,7 @@ brand appears in AI summaries and citations.`,
     ourProcess: {
       isVisible: true,
       breakIndex: 6,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'How Our White Label Social Media Management Works',
       span: '',
@@ -4569,6 +4585,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: true,
       isDecVarticle: false,
+      cardBg: '#FFF8F0',
       img: AdairedHelpSocial,
       breakIndex: 7,
       heading: 'Benefits of Partnering With a White Label Social Media Agency',
@@ -5673,6 +5690,7 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: false,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'How Our White Label Social Media Management Works',
       span: '',
@@ -5747,6 +5765,7 @@ brand appears in AI summaries and citations.`,
     adairedHelp: {
       isVisible: false,
       img: adaairedHelpSEO,
+      cardBg: '#FFF8F0',
       heading: 'Benefits of Partnering With a White Label Social Media Agency',
       description: `Here’s how a structured white label social media partnership with Adaired supports long-term agency growth:`,
       mainImage: adairedHelpImg,
@@ -6032,7 +6051,7 @@ brand appears in AI summaries and citations.`,
       },
     },
     banner: {
-      code: '08',
+      code: '07',
       isCenter: false,
       isVisible: true,
       heading: 'Built for Growing Agencies',
@@ -6116,6 +6135,7 @@ brand appears in AI summaries and citations.`,
     ourProcess: {
       isVisible: true,
       breakIndex: 3,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'How Adaired’s White-Label Model Works',
       span: '',
@@ -6270,6 +6290,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       img: whiteServicesAdairedHelpImg,
       isInCenter: false,
+      cardBg: '#FFF8F0',
       breakIndex: 3,
       bgColor: '#FFFCF8',
       heading: `Work with Adaired's Agency-First White-Label Model`,
@@ -7049,7 +7070,7 @@ brand appears in AI summaries and citations.`,
       },
     },
     banner: {
-      code: '08',
+      code: '07',
       isCenter: false,
       isVisible: true,
       heading: 'Scalable PPC Campaigns',
@@ -7131,6 +7152,7 @@ brand appears in AI summaries and citations.`,
     ourProcess: {
       isVisible: true,
       breakIndex: 3,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'How Pay-Per-Click Advertising Works',
       span: 'Here’s a detailed breakdown of how the entire system works:',
@@ -7397,6 +7419,7 @@ brand appears in AI summaries and citations.`,
       breakIndex: 4,
       img: benefitsOfPPC,
       isInCenter: false,
+      cardBg: '#FFF8F0',
       bgColor: '#FFFCF8',
       heading: `The Benefits of PPC Marketing for Your Company`,
       description: [
@@ -8446,6 +8469,7 @@ brand appears in AI summaries and citations.`,
       img: whitePaidAdsAdairedHelpImg,
       isInCenter: false,
       bgColor: '',
+      cardBg: '#FFF8F0',
       heading: `Why Businesses Prefer White Label PPC?`,
       description: [
         `As competition increases and client expectations grow, agencies need smarter ways to scale.`,
@@ -8519,6 +8543,7 @@ brand appears in AI summaries and citations.`,
     ourProcess: {
       isVisible: true,
       breakIndex: 3,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'How Our White-Label Digital Marketing Agency Works',
       span: 'Here’s a detailed breakdown of how the entire system works:',
@@ -9112,7 +9137,7 @@ brand appears in AI summaries and citations.`,
       },
     },
     banner: {
-      code: '10',
+      code: '07',
       isCenter: false,
       isVisible: true,
       heading: 'Authority with High-Quality Backlinks',
@@ -9200,6 +9225,7 @@ brand appears in AI summaries and citations.`,
     ourProcess: {
       isVisible: true,
       breakIndex: 4,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'How White Label Link Building Works with Adaired Digital Media',
       span: 'Here’s a detailed breakdown of how the entire system works:',
@@ -9495,6 +9521,7 @@ brand appears in AI summaries and citations.`,
       img: whitePaidAdsAdairedHelpImg,
       isInCenter: false,
       bgColor: '',
+      cardBg: '#FFF8F0',
       heading: `Why Businesses Prefer White Label PPC?`,
       description: [
         `As competition increases and client expectations grow, agencies need smarter ways to scale.`,
@@ -10204,6 +10231,7 @@ brand appears in AI summaries and citations.`,
     ourProcess: {
       isVisible: true,
       breakIndex: 4,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'The Growth Framework Behind Our SaaS SEO',
       span: '',
@@ -10277,6 +10305,7 @@ brand appears in AI summaries and citations.`,
       img: saasSeoAdairedHelpImg,
       isInCenter: false,
       bgColor: '',
+      cardBg: '#FFF8F0',
       heading: `The Difference Between SaaS SEO and Standard SEO`,
       description: [
         `B2B SaaS SEO isn’t like traditional SEO. It requires a strategic, revenue-focused approach built around complex buyer journeys and long-term customer value.`,
@@ -10949,6 +10978,7 @@ brand appears in AI summaries and citations.`,
     sectionsOrder: [
       'banner',
       'whatareservice',
+      'whatareservice2',
       'adairedHelp',
       'importantToBussiness',
       'ourProcess',
@@ -10979,7 +11009,7 @@ brand appears in AI summaries and citations.`,
       },
     },
     banner: {
-      code: '10',
+      code: '07',
       isCenter: false,
       isVisible: true,
       heading: 'Visible in AI Search Results',
@@ -11000,7 +11030,7 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '10',
+      isVariant: '07',
       img: geoAiSeoWhatIsImg,
       heading: 'What is GEO?',
       span: '',
@@ -11024,12 +11054,46 @@ brand appears in AI summaries and citations.`,
       button: '',
     },
 
+    whatareservice2: {
+      isVisible: true,
+      isVariant: '11',
+      img: geoAiSeoWhatServiceImg,
+      heading: 'How Generative AI SEO Strengthens Your Visibility',
+      bgColor: '#FFFFFF',
+      isBgWhite: false,
+      button: '',
+      data: [
+        {
+          desctioption: `Generative AI has fundamentally changed the way search engines interpret content, assess expertise, and deliver results. 
+          Today, visibility is more than just keywords and backlinks; it is about providing the exact signals that AI models use to determine credibility and relevance.`,
+        },
+        {
+          desctioption: `Your website must be AI-friendly, contextually clear, intent-aligned, 
+          and entity-rich so that AI systems can confidently reference, cite, and recommend your brand in answers and summaries.`,
+        },
+        {
+          desctioption: `Our generative engine optimization services India aim to reshape and future-proof your digital presence in this new search landscape. 
+          We evaluate how AI interprets your brand, identify gaps in understanding, and optimize your generative AI search engine optimization strategy, content, 
+          and structure to align with algorithms.`,
+        },
+        {
+          desctioption: `From honing your authority to fortifying your technical foundation, we ensure that every page communicates who you are, 
+          what you offer, and why you're the most trustworthy option for the search intent you want to dominate.`,
+        },
+        {
+          desctioption: `We align your brand with the specific variables that influence AI-generated results using strategic optimization, content writing, 
+          and AI-driven insights, enabling you to become an algorithm that trusts, recommends, and elevates.`,
+        },
+      ],
+    },
+
     adairedHelp: {
       isVisible: true,
       breakIndex: 0,
       img: geoAiSeoAdairedHelpImg,
       isInCenter: true,
-      bgColor: '',
+      bgColor: '#FFFBF5',
+      cardBg: '',
       heading: `How GEO Aligns with the Future of Search Visibility`,
       description: [``],
       mainImage: whiteServicesAdairedHelpImg,
@@ -11090,7 +11154,7 @@ brand appears in AI summaries and citations.`,
 
     importantToBussiness: {
       isVisible: true,
-      breakIndex: 3,
+      breakIndex: 4,
       isVariant: '01',
       cardColor: '#F9F9F9',
       heading: 'What’s Included in Our GEO Services',
@@ -11173,8 +11237,11 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'Adaired Digital’s 6-Step Generate Engine Optimization Process',
+      breakIndex: 3,
+      bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0]',
       span: '',
       description: [
         `At Adaired Digital Media, every step in our process is designed to ensure your brand is clearly understood, 
@@ -11182,7 +11249,7 @@ brand appears in AI summaries and citations.`,
       ],
       services: [
         {
-          icon: step,
+          icon: geoAiSeoProcess_1,
           title: 'AI Visibility Audit',
           description: [
             `Our process begins with a comprehensive AI visibility and brand intelligence audit. 
@@ -11194,7 +11261,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: geoAiSeoProcess_2,
           title: 'Entity & Authority Structuring',
           description: [
             `Generative AI engines rely heavily on entity recognition and contextual relationships to determine expertise. 
@@ -11206,7 +11273,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: geoAiSeoProcess_3,
           title: 'AI-Optimized Content Architecture',
           description: [
             `Content must now be designed for both human engagement and AI interpretation. 
@@ -11218,7 +11285,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: geoAiSeoProcess_4,
           title: 'Technical GEO Optimization',
           description: [
             `Technical clarity plays a foundational role in AI trust. 
@@ -11230,7 +11297,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: geoAiSeoProcess_5,
           title: 'Authority Signal Amplification',
           description: [
             `AI engines do not evaluate your website in isolation. 
@@ -11244,7 +11311,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: step,
+          icon: geoAiSeoProcess_6,
           title: 'Continuous AI Monitoring & Refinement',
           description: [
             `The generative search landscape evolves rapidly, making ongoing refinement essential. 
@@ -11367,7 +11434,7 @@ brand appears in AI summaries and citations.`,
     buildlinks: {
       isVisible: true,
       isCode01: true,
-      isVariant: '05',
+      isVariant: '06',
       breakIndex: 3,
       bgImg: saasSeoBuildLinkBg,
       img: geoAiSeoBuildLinkImg,
@@ -12024,6 +12091,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: false,
       breakIndex: 5,
       bgColor: '#FFFCF8',
+      cardBg: '#FFF8F0',
       heading: `How AI Search Engines Choose What to Cite`,
       description: [
         `AI search engines don’t simply rank pages the way traditional search algorithms do. They analyze, extract, compare, and synthesize information before selecting which sources to reference in generated answers. Understanding these selection criteria is essential if you want your brand to be cited.`,
@@ -12395,6 +12463,7 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: false,
+      isInCenter: true,
       breakIndex: 3,
       subtitle: 'Our Process',
       title: 'How Adaired’s White-Label Model Works',

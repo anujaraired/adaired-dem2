@@ -42,16 +42,17 @@ const OurProcess = ({ ourProcess }: any) => {
         {/* ================= HEADING ================= */}
 
         <div className="sticky top-[10rem] z-20 mb-[3rem]">
-          <Heading
-            isLabel={true}
-            subTitle={'Our Process'}
-            breakIndex={ourProcess?.breakIndex}
-            title={ourProcess?.title}
-            isDecVarticle={!ourProcess?.isInCenter && true}
-            description={ourProcess?.description}
-            isInCenter={ourProcess?.isInCenter}
-            isBgWhite={ourProcess?.isInCenter && true}
-          />
+          <div className="mx-auto w-full lg:w-[80%]">
+            <Heading
+              isLabel={true}
+              subTitle={'Our Process'}
+              breakIndex={ourProcess?.breakIndex}
+              title={ourProcess?.title}
+              description={ourProcess?.description}
+              isInCenter={ourProcess?.isInCenter}
+              isBgWhite={ourProcess?.isInCenter && true}
+            />
+          </div>
 
           <div
             className={`grid grid-cols-5 gap-[4rem] ${!ourProcess?.isInCenter && 'mt-[2rem]'}`}
@@ -152,7 +153,7 @@ const OurProcess = ({ ourProcess }: any) => {
                 })}
               </div>
             </div>
-            <div className="col-span-3 mt-[8rem] flex h-fit items-center justify-center">
+            <div className="col-span-3 my-auto flex h-fit items-center justify-center">
               <AnimatePresence mode="wait">
                 <motion.div
                   key={activeTab}
