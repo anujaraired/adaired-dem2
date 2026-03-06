@@ -1737,8 +1737,7 @@ export const SERVICES_DATA = {
     },
     ourProcess: {
       isVisible: true,
-      isInCenter: true,
-      breakIndex: 7,
+      // breakIndex: 7,
       subtitle: 'Our Process',
       title: 'Our Comprehensive AI Process to Make Your Brand Stand Out',
       span: '',
@@ -3156,7 +3155,6 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
-      isInCenter: true,
       // breakIndex: 4,
       subtitle: 'Our Process',
       title: 'The Web Design and Development Process That We Follow At Adaired',
@@ -4519,7 +4517,6 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
-      isInCenter: true,
       breakIndex: 6,
       subtitle: 'Our Process',
       title: 'How Our White Label Social Media Management Works',
@@ -5673,7 +5670,6 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: false,
-      isInCenter: true,
       subtitle: 'Our Process',
       title: 'How Our White Label Social Media Management Works',
       span: '',
@@ -6116,7 +6112,6 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
-      isInCenter: true,
       breakIndex: 3,
       subtitle: 'Our Process',
       title: 'How Adaired’s White-Label Model Works',
@@ -7132,7 +7127,6 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
-      isInCenter: true,
       breakIndex: 3,
       subtitle: 'Our Process',
       title: 'How Pay-Per-Click Advertising Works',
@@ -8520,7 +8514,6 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
-      isInCenter: true,
       breakIndex: 3,
       subtitle: 'Our Process',
       title: 'How Our White-Label Digital Marketing Agency Works',
@@ -9202,7 +9195,6 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
-      isInCenter: true,
       breakIndex: 4,
       subtitle: 'Our Process',
       title: 'How White Label Link Building Works with Adaired Digital Media',
@@ -10207,7 +10199,6 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
-      isInCenter: true,
       breakIndex: 4,
       subtitle: 'Our Process',
       title: 'The Growth Framework Behind Our SaaS SEO',
@@ -12371,7 +12362,6 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: false,
-      isInCenter: true,
       breakIndex: 3,
       subtitle: 'Our Process',
       title: 'How Adaired’s White-Label Model Works',
