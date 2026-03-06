@@ -666,7 +666,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
               ref={ref}
               className={`group order-1 flex items-center justify-center transition-all duration-1000 lg:order-2 lg:items-center lg:justify-center ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
             >
-              <Image src={whatareaiseo?.img} width={602} height={50} alt="" />
+              <Image src={whatareaiseo?.img} width={715} height={760} alt="" />
             </div>
           </MaxWidthWrapper>
           <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
