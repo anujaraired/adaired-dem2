@@ -661,7 +661,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 />
               )}
             </div>
-
+{/* test */}
             <div
               ref={ref}
               className={`group order-1 flex items-center justify-center transition-all duration-1000 lg:order-2 lg:items-center lg:justify-center ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
