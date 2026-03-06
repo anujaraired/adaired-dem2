@@ -6139,7 +6139,7 @@ brand appears in AI summaries and citations.`,
       subtitle: 'Our Process',
       title: 'How Adaired’s White-Label Model Works',
       span: '',
-      description: `Our approach is designed to integrate smoothly into agency workflows.`,
+      description: `Adaired Digital functions as your dedicated fulfillment team, allowing you to confidently offer premium digital marketing services without managing an in-house team.`,
       bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
 
       services: [
@@ -8548,7 +8548,6 @@ brand appears in AI summaries and citations.`,
       title: 'How Our White-Label Digital Marketing Agency Works',
       span: 'Here’s a detailed breakdown of how the entire system works:',
       description: [
-        `At Adaired Digital Media, our white-label partnership model is designed to integrate seamlessly with your agency while delivering expert-level digital marketing performance under your brand.`,
         `We operate behind the scenes, allowing you to scale services without increasing internal workload or overhead.`,
       ],
       bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
@@ -9230,9 +9229,7 @@ brand appears in AI summaries and citations.`,
       title: 'How White Label Link Building Works with Adaired Digital Media',
       span: 'Here’s a detailed breakdown of how the entire system works:',
       description: [
-        `At Adaired, our best white label SEO link-building services are built to be seamless, scalable, and completely brandable. 
-        We function as your behind-the-scenes SEO fulfillment team, allowing you to confidently offer premium link building services without managing outreach, writers, or publisher relationships internally.`,
-        `Our structured, step-by-step approach ensures quality, consistency, and long-term SEO impact for your clients.`,
+        `At Adaired, our best white label SEO link-building services are built to be seamless, scalable, and completely brandable.`,
       ],
       bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
 

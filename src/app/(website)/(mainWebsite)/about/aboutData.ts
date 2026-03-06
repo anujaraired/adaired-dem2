@@ -266,7 +266,7 @@ export const ABOUT_DATA = {
       {
         img: WebDevelopmentManager,
         title: 'Ratanjyot Singh',
-        desc: 'Design & Development Team Manegar',
+        desc: 'Project Manegar',
         icon: Linkedin,
       },
       {
