@@ -63,13 +63,13 @@ const DataInTable = ({ dataInTable }: any) => {
                                                         className={
                                                             rowIndex % 2 === 0
                                                                 ? 'bg-white'
-                                                                : `bg-[${dataInTable?.rowColor}]`
+                                                                : `${dataInTable?.rowColor}`
                                                         }
                                                     >
                                                         {dataInTable?.data?.map(
                                                             (column: any) => (
                                                                 <td
-                                                                    className="px-6 md:px-10 lg:px-14 py-4 md:py-6 lg:py-8 text-xs md:text-sm text-black border-r border-[#3D3D3D]/30 last:border-r-0"
+                                                                    className="px-6 md:px-10 lg:px-14 py-4 md:py-6 lg:py-6 text-xs md:text-sm text-black border-r border-[#3D3D3D]/30 last:border-r-0"
                                                                 >
                                                                     <div className="flex gap-4 items-center font-medium">
                                                                         <BiSolidBadgeCheck
