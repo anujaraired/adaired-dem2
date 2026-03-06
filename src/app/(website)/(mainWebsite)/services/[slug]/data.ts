@@ -11926,8 +11926,7 @@ brand appears in AI summaries and citations.`,
       isCenter: false,
       isVisible: true,
       heading: 'AI Search Engines',
-      subheading:
-        '',
+      subheading: '',
       subtitle: '',
       label: 'Get Found, Trusted, and Cited by',
       desc: [
@@ -11984,19 +11983,26 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '07',
       img: WhatAreServiceAeoServiceImg,
+
       heading: 'What is AEO?',
       span: '',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [
         {
-          desctioption: [`AEO, or answer engine optimization, refers to the strategic practice of optimizing content and online resources to answer user queries directly and effectively.`,],
+          desctioption: [
+            `AEO, or answer engine optimization, refers to the strategic practice of optimizing content and online resources to answer user queries directly and effectively.`,
+          ],
         },
         {
-          desctioption: [`As search engines evolve into more conversational and intuitive platforms, the demand for precise, accurate answers is increasing. AEO focuses on tailoring content to meet the specific needs of search engine algorithms that prioritize direct answers over traditional web page rankings.`,]
+          desctioption: [
+            `As search engines evolve into more conversational and intuitive platforms, the demand for precise, accurate answers is increasing. AEO focuses on tailoring content to meet the specific needs of search engine algorithms that prioritize direct answers over traditional web page rankings.`,
+          ],
         },
         {
-          desctioption: [`This process involves carefully researching common questions in your niche, utilizing structured data, and crafting clear, concise responses that are easy for search engines to understand and display prominently.`,]
+          desctioption: [
+            `This process involves carefully researching common questions in your niche, utilizing structured data, and crafting clear, concise responses that are easy for search engines to understand and display prominently.`,
+          ],
         },
         {
           desctioption: `By optimizing for answer engines, businesses and content creators can significantly enhance their visibility in search results, improve user engagement, and drive more organic traffic to their websites.`,
@@ -12079,7 +12085,7 @@ brand appears in AI summaries and citations.`,
       heading: 'AEO Services Built for AI-Driven Search Ecosystems',
       description: [
         `AI search engines evaluate content differently from traditional ranking algorithms. They extract, interpret, validate, and synthesize information before choosing what to cite.`,
-        `Our services are designed to align your digital presence with that evaluation model, ensuring your brand becomes a trusted source behind AI-generated answers. AI search engines evaluate content differently from traditional ranking algorithms.`
+        `Our services are designed to align your digital presence with that evaluation model, ensuring your brand becomes a trusted source behind AI-generated answers. AI search engines evaluate content differently from traditional ranking algorithms.`,
       ],
       buttonName: 'Build My AEO Strategy',
       data: [
@@ -12224,13 +12230,19 @@ brand appears in AI summaries and citations.`,
               ],
             },
             {
-              description: [`Focuses on targeting specific keyword phrases to match search queries and improve rankings.`],
+              description: [
+                `Focuses on targeting specific keyword phrases to match search queries and improve rankings.`,
+              ],
             },
             {
-              description: [`Relies heavily on backlink quantity and domain authority to improve rankings.`],
+              description: [
+                `Relies heavily on backlink quantity and domain authority to improve rankings.`,
+              ],
             },
             {
-              description: [`Measures success through rankings, traffic volume, and click-through rate (CTR).`],
+              description: [
+                `Measures success through rankings, traffic volume, and click-through rate (CTR).`,
+              ],
             },
             {
               description: [
@@ -12261,7 +12273,9 @@ brand appears in AI summaries and citations.`,
               ],
             },
             {
-              description: [`Measures success through citation frequency, AI visibility, answer inclusion, and influence in zero-click environments.`],
+              description: [
+                `Measures success through citation frequency, AI visibility, answer inclusion, and influence in zero-click environments.`,
+              ],
             },
             {
               description: [
@@ -12269,7 +12283,9 @@ brand appears in AI summaries and citations.`,
               ],
             },
             {
-              description: [`Establish brand authority and visibility within AI-powered answers, with or without clicks.`],
+              description: [
+                `Establish brand authority and visibility within AI-powered answers, with or without clicks.`,
+              ],
             },
           ],
         },
@@ -12290,7 +12306,7 @@ brand appears in AI summaries and citations.`,
           name: 'Proprietary AEO Framework',
           description: [
             `We don’t apply generic SEO checklists to AI search. Our proprietary framework is designed specifically for answer engine ecosystems. It combines semantic architecture, entity engineering, citation readiness, and authority development into a structured methodology that aligns with how AI systems actually evaluate and extract information.`,
-            `This structured approach ensures consistency, scalability, and measurable progress, not isolated optimizations.`
+            `This structured approach ensures consistency, scalability, and measurable progress, not isolated optimizations.`,
           ],
         },
         {
@@ -12298,7 +12314,7 @@ brand appears in AI summaries and citations.`,
           name: 'AI Visibility Monitoring',
           description: [
             `Most agencies track rankings. We track citation visibility. Our monitoring systems analyze how and where your brand appears in AI-generated answers, featured summaries, and conversational search experiences.`,
-            `This allows us to measure real AI presence, not just organic traffic, and identify emerging opportunities before competitors capitalize on them.`
+            `This allows us to measure real AI presence, not just organic traffic, and identify emerging opportunities before competitors capitalize on them.`,
           ],
         },
       ],
@@ -12312,51 +12328,59 @@ brand appears in AI summaries and citations.`,
       list: [
         {
           title: 'How is AEO different from optimizing for featured snippets?',
-          description: [`Featured snippet optimization focuses on winning a specific search result placement in traditional SERPs. AEO goes further by preparing content for AI-generated summaries, conversational responses, voice assistants, and zero-click environments.`,
-            `It’s about being the source behind the answer, not just occupying a box in search results.`
-          ]
+          description: [
+            `Featured snippet optimization focuses on winning a specific search result placement in traditional SERPs. AEO goes further by preparing content for AI-generated summaries, conversational responses, voice assistants, and zero-click environments.`,
+            `It’s about being the source behind the answer, not just occupying a box in search results.`,
+          ],
         },
         {
           title: 'Which platforms does AEO impact?',
-          description: [`AEO influences visibility across AI-powered search experiences, including generative search summaries, conversational AI assistants, and voice-driven queries.`,
-            `As AI becomes integrated into mainstream search engines and standalone AI platforms, citation optimization improves your brand’s presence across multiple ecosystems simultaneously.`
-          ]
+          description: [
+            `AEO influences visibility across AI-powered search experiences, including generative search summaries, conversational AI assistants, and voice-driven queries.`,
+            `As AI becomes integrated into mainstream search engines and standalone AI platforms, citation optimization improves your brand’s presence across multiple ecosystems simultaneously.`,
+          ],
         },
         {
           title: 'What types of content perform best in AI search?',
-          description: [`Content that performs well typically includes clear definitions, structured explanations, data-backed insights, FAQs, and comprehensive topical coverage.`,
-            `AI systems favor clarity, contextual depth, and factual consistency over promotional or vague language.`
-          ]
+          description: [
+            `Content that performs well typically includes clear definitions, structured explanations, data-backed insights, FAQs, and comprehensive topical coverage.`,
+            `AI systems favor clarity, contextual depth, and factual consistency over promotional or vague language.`,
+          ],
         },
         {
           title: 'How long does AEO take to show results?',
-          description: [`AI visibility improvements can begin within a few months, especially when structural and technical enhancements are implemented early. However, building citation authority and a consistent AI presence is a compounding process.`,
-            `Sustainable results typically develop over 3–6 months, depending on competition and content maturity.`
-          ]
+          description: [
+            `AI visibility improvements can begin within a few months, especially when structural and technical enhancements are implemented early. However, building citation authority and a consistent AI presence is a compounding process.`,
+            `Sustainable results typically develop over 3–6 months, depending on competition and content maturity.`,
+          ],
         },
         {
           title: 'Does AEO replace traditional SEO?',
-          description: [`No. Answer Engine Optimization services build on traditional SEO. Strong technical foundations, authority signals, and content quality still matter.`,
-            `The difference is that AEO adapts those elements to align with AI extraction and citation behavior rather than focusing solely on rankings.`
-          ]
+          description: [
+            `No. Answer Engine Optimization services build on traditional SEO. Strong technical foundations, authority signals, and content quality still matter.`,
+            `The difference is that AEO adapts those elements to align with AI extraction and citation behavior rather than focusing solely on rankings.`,
+          ],
         },
         {
           title: 'Can small businesses benefit from AEO?',
-          description: [`Yes. In fact, smaller brands can gain a significant advantage by becoming authoritative within focused niches.`,
-            `AI search engines often prioritize topical clarity and expertise over sheer domain size, creating new opportunities for well-positioned small businesses.`
-          ]
+          description: [
+            `Yes. In fact, smaller brands can gain a significant advantage by becoming authoritative within focused niches.`,
+            `AI search engines often prioritize topical clarity and expertise over sheer domain size, creating new opportunities for well-positioned small businesses.`,
+          ],
         },
         {
           title: 'How do you track AI citations?',
-          description: [`We monitor AI-generated responses, citation frequency, referral patterns, snippet presence, and brand mentions across AI-powered search platforms.`,
-            `This provides visibility into how often and where your content is being referenced.`
-          ]
+          description: [
+            `We monitor AI-generated responses, citation frequency, referral patterns, snippet presence, and brand mentions across AI-powered search platforms.`,
+            `This provides visibility into how often and where your content is being referenced.`,
+          ],
         },
         {
           title: 'Is schema enough for AI visibility?',
-          description: [`Schema is important, but it is not sufficient on its own. Structured data improves machine readability, but AI engines also evaluate authority, topical depth, clarity, and trust signals.`,
-            `True AEO requires a holistic strategy that integrates technical, content, and credibility factors.`
-          ]
+          description: [
+            `Schema is important, but it is not sufficient on its own. Structured data improves machine readability, but AI engines also evaluate authority, topical depth, clarity, and trust signals.`,
+            `True AEO requires a holistic strategy that integrates technical, content, and credibility factors.`,
+          ],
         },
       ],
     },
@@ -12808,4 +12832,3 @@ brand appears in AI summaries and citations.`,
     },
   },
 };
-
