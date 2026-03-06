@@ -162,11 +162,10 @@ const WhatAreService = ({ whatareaiseo }: any) => {
             </div>
             <div
               ref={ref}
-              className={`right-0 top-0 flex -translate-y-0 justify-center transition-all duration-1000 lg:absolute lg:right-[-5%] lg:top-1/2 lg:flex lg:-translate-y-1/2 lg:justify-end ${
-                isVisible
+              className={`right-0 top-0 flex -translate-y-0 justify-center transition-all duration-1000 lg:absolute lg:right-[-5%] lg:top-1/2 lg:flex lg:-translate-y-1/2 lg:justify-end ${isVisible
                   ? 'translate-x-0 opacity-100'
                   : 'translate-x-12 opacity-0'
-              }`}
+                }`}
             >
               <Image
                 src={whatareaiseo?.img}
@@ -201,9 +200,8 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                   return (
                     <div key={index} className="space-y-4">
                       <p
-                        className={`py-2 text-center lg:text-justify ${
-                          whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
-                        }`}
+                        className={`py-2 text-center lg:text-justify ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
+                          }`}
                       >
                         {item?.desctioption}
                       </p>
@@ -222,9 +220,8 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                               (desc: string, descIndex: number) => (
                                 <p
                                   key={descIndex}
-                                  className={`my-auto text-left ${
-                                    whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
-                                  }`}
+                                  className={`my-auto text-left ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
+                                    }`}
                                 >
                                   {desc}
                                 </p>
@@ -291,18 +288,16 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                   return (
                     <div key={index} className="space-y-4">
                       <p
-                        className={`py-1 text-center lg:text-justify ${
-                          whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
-                        }`}
+                        className={`py-1 text-center lg:text-justify ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
+                          }`}
                       >
                         {item?.desctioption}
                       </p>
                       <div
-                        className={`grid w-fit pb-4 ${
-                          item?.list?.length > 4
+                        className={`grid w-fit pb-4 ${item?.list?.length > 4
                             ? 'grid-cols-1 md:grid-cols-3'
                             : 'grid-cols-1 md:grid-cols-2'
-                        }`}
+                          }`}
                       >
                         {item?.list?.map((listItem: any, listIndex: number) => (
                           <div
@@ -318,9 +313,8 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                               (desc: string, descIndex: number) => (
                                 <p
                                   key={descIndex}
-                                  className={`text-left ${
-                                    whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
-                                  }`}
+                                  className={`text-left ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
+                                    }`}
                                 >
                                   {desc}
                                 </p>
@@ -661,12 +655,88 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 />
               )}
             </div>
-{/* test */}
+
             <div
               ref={ref}
               className={`group order-1 flex items-center justify-center transition-all duration-1000 lg:order-2 lg:items-center lg:justify-center ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
             >
               <Image src={whatareaiseo?.img} width={715} height={760} alt="" />
+            </div>
+          </MaxWidthWrapper>
+          <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
+        </div>
+      )}
+      {whatareaiseo?.isVariant === '12' && (
+        <div
+          className={`${whatareaiseo?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8] py-[3rem] lg:py-[4rem]'}`}
+        >
+          <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2 py-[3rem] lg:py-[4rem]">
+            <div
+              ref={ref}
+              className={`group flex items-center justify-center transition-all duration-1000 lg:items-center lg:justify-start ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
+            >
+              <Image src={whatareaiseo?.img} width={602} height={50} alt="" />
+            </div>
+            <div
+              className={`my-auto flex flex-col items-center transition-all duration-1000 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+            >
+              <Heading
+                className="flex justify-center lg:justify-start"
+                subTitle={''}
+                title={whatareaiseo?.heading}
+                span={whatareaiseo?.span}
+                spanColor="text-[#FBD04F]"
+                isBgWhite={whatareaiseo?.isBgWhite && true}
+              />
+              <div className="">
+                {whatareaiseo?.data?.map((item: any, index: number) => {
+                  return (
+                    <div key={index} className="space-y-4">
+                      <p
+                        className={`py-2 text-center lg:text-justify ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
+                          }`}
+                      >
+                        {item?.desctioption}
+                      </p>
+
+                      <div className="grid w-fit grid-cols-1 pb-4 md:grid-cols-2">
+                        {item?.list?.map((listItem: any, listIndex: number) => (
+                          <div
+                            key={listIndex}
+                            className="flex items-center gap-2 py-1"
+                          >
+                            <BiSolidBadgeCheck
+                              size={25}
+                              className="text-[#FBD04F]"
+                            />
+                            {listItem?.description?.map(
+                              (desc: string, descIndex: number) => (
+                                <p
+                                  key={descIndex}
+                                  className={`my-auto text-left ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
+                                    }`}
+                                >
+                                  {desc}
+                                </p>
+                              )
+                            )}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+
+              {/* {whatareaiseo?.isBgWhite && (
+                <SaveAndCancel
+                  name={whatareaiseo?.button}
+                  isIcon={true}
+                  isBgWhite={true}
+                  handleClick={() => setOpen(!open)}
+                  className="my-[2rem] w-[16rem]"
+                />
+              )} */}
             </div>
           </MaxWidthWrapper>
           <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />

@@ -12898,4 +12898,999 @@ brand appears in AI summaries and citations.`,
       bgImage: LocalNotSeeBg,
     },
   },
+  'mobile-apps-development-company': {
+    sectionsOrder: [
+      'banner',
+      'whatareservice',
+      'whatareservice2',
+      'adairedHelp',
+      'importantToBussiness',
+      'ourProcess',
+      'dataInTable',
+      'buildlinks',
+      'faqData',
+      'whatMkeDeferent',
+      'whatMissing',
+      'keyStats',
+      'whatIncluded',
+      'needofservice',
+      'serviceResult',
+      'getsCredit',
+      'readyToStart',
+      'stopStruggling',
+      'benefitofAiSeo',
+      'leadingToolsForPerformence',
+      'notSeeingResult',
+      'leadingTools',
+      'getplan',
+    ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/seo-company-india',
+      },
+    },
+    banner: {
+      code: '04',
+      isCenter: false,
+      isVisible: true,
+      heading: '',
+      subheading: '',
+      subtitle: '#1 Mobile App Development Company',
+      label: 'Custom iOS & Android App Developers',
+      desc: [
+        `Take your brand to your users’ fingertips with high-performance mobile apps designed to increase reach, engagement, and growth.`,
+      ],
+      button: 'Transform Your Website Into an App',
+      width: '20rem',
+      widthLg: '30rem',
+      bgImg: geoAiSeoBannerBg,
+    },
+
+    whatareservice: {
+      isVisible: true,
+      isVariant: '12',
+      img: LocalWhatService,
+      heading: 'What is Mobile App Development?',
+      span: '',
+      bgColor: '#FFFCF8',
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `Mobile app development is the process of designing, building, testing, and deploying software applications 
+          that run on mobile devices such as smartphones and tablets. 
+          These applications are typically developed for platforms like Android and iOS or created using cross-platform frameworks 
+          that allow them to operate across multiple systems.`,
+        },
+        {
+          desctioption: `It involves several stages, including planning the app’s features, designing an intuitive user interface (UI), 
+          developing the functionality through programming, testing for performance and security, and finally launching the app on app stores.`,
+        },
+        {
+          desctioption: `Mobile apps can serve various purposes, such as:`,
+          list: [
+            {
+              description: [`E-commerce and online shopping`],
+            },
+            {
+              description: [`Social networking and communication`],
+            },
+            {
+              description: [`Business management and productivity`],
+            },
+            {
+              description: [`Entertainment and gaming`],
+            },
+            {
+              description: [`Healthcare and education`],
+            },
+          ],
+        },
+        {
+          desctioption: `With the growing use of smartphones worldwide, mobile app development has become essential for businesses looking 
+          to improve customer engagement, increase brand visibility, and create new revenue opportunities.`,
+        },
+      ],
+      button: '',
+    },
+
+    adairedHelp: {
+      isVisible: true,
+      breakIndex: 4,
+      img: geoAiSeoAdairedHelpImg,
+      isInCenter: false,
+      bgColor: '',
+      cardBg: '',
+      heading: `The Importance of Mobile Apps for Growing Companies Now`,
+      description: [
+        `Mobile apps are transforming how growing companies operate, compete, and scale. 
+        At Adaired Digital Media, we believe a well-designed mobile app is not just a digital product; it’s a long-term business asset that drives measurable growth.`,
+        `We work closely with growing brands to build mobile solutions that strengthen their market presence, 
+      improve operational efficiency, and create meaningful customer relationships.`
+      ],
+      mainImage: whiteServicesAdairedHelpImg,
+      list: [
+        {
+          img: '',
+          name: 'Stronger Brand Recognition & Visibility',
+          description: [
+            `Smartphones are now an essential part of daily life. A mobile app keeps your brand visible on your customers’ home screens. Every interaction builds brand familiarity and trust.`,
+            `We design visually appealing and user-friendly apps that reflect our clients’ brand identity. From logo placement to interface design, we ensure your brand remains memorable and professional.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Personalized Customer Engagement',
+          description: [
+            `Modern customers expect instant communication and personalized experiences. With a mobile app, we help businesses create a direct channel to their audience through:`,
+            `Unlike social media platforms or email marketing, where algorithms limit reach, mobile apps give us full control over customer engagement. 
+            This ensures consistent brand communication and stronger relationships.`
+          ],
+        },
+        {
+          img: '',
+          name: 'Intent Understanding, Not Just Keywords',
+          description: [
+            `Forget keyword matching. Generative AI has changed the game by understanding why you’re searching.`,
+            `It doesn’t just find pages with your words on them; it figures out your intent and delivers answers that hit the mark with precision and clarity.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Improved Customer Experience (CX)',
+          description: [
+            `User experience directly impacts customer retention. Mobile apps provide:`,
+            `We focus on intuitive UI/UX design to reduce friction and create smooth user journeys. When customers enjoy using an app, they are more likely to return, increasing lifetime value.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Increased Revenue & Monetization Opportunities',
+          description: [
+            `Mobile apps open multiple revenue streams that traditional platforms cannot fully leverage. We help businesses generate revenue through:`,
+            `Additionally, apps make repeat purchases easier, increasing conversion rates and customer retention. 
+            With secure payment integrations and optimized checkout flows, we help maximize sales performance.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Data-Driven Decision Making',
+          description: [
+            `One of the most powerful advantages of mobile apps is access to real-time data. We integrate analytics tools that track:`,
+            `This data allows companies to make informed decisions, refine marketing strategies, and continuously improve their offerings.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Operational Efficiency & Automation',
+          description: [
+            `Mobile apps are not just customer-facing tools; they can streamline internal operations as well. We develop solutions that:`,
+            `By automating processes, companies reduce costs and improve productivity.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Scalability for Future Growth',
+          description: [
+            `As companies grow, their technology must scale with them. At Adaired Digital Media, we build mobile apps with scalable architecture, ensuring:`,
+            `Our development approach ensures that the app evolves alongside the business.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Stronger Customer Loyalty & Retention',
+          description: [
+            `Customer acquisition is expensive. Retention is where real growth happens. Mobile apps help businesses build loyalty through:`,
+            `We focus on creating engaging experiences that keep users coming back.`,
+          ],
+        },
+      ],
+    },
+
+    importantToBussiness: {
+      isVisible: true,
+      breakIndex: 4,
+      isVariant: '01',
+      cardColor: '#F9F9F9',
+      heading: 'Our Custom Mobile Application Development Services',
+      description: [
+        `We deliver high-performance, scalable, and user-focused mobile application development services tailored to your business goals. 
+        Our custom app development services approach ensures every app is secure, future-ready, and aligned with your growth strategy.`,
+      ],
+      buttonName: 'Transform Your Website Into an App',
+      data: [
+        {
+          icon: geoAiSeoImpIcon_1,
+          name: 'iOS App Development',
+          description: [
+            `We build premium iOS applications designed for performance, security, and seamless user experience across Apple devices. 
+            Our team of expert mobile app developers develops apps for the iOS ecosystem, including iPhone and iPad.`,
+            `We focus on building high-quality applications that deliver smooth performance and long-term scalability.`
+          ],
+          button: 'Transform Your Website Into an App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: geoAiSeoImpIcon_1,
+          name: 'Android App Development',
+          description: [
+            `Our Android app development services are built to reach a wide and diverse global audience. We create feature-rich, secure applications optimized for the Android platform.`,
+            `We ensure your Android app performs consistently across devices while delivering a seamless user experience.`
+          ],
+          button: 'Transform Your Website Into an App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: geoAiSeoImpIcon_1,
+          name: 'Cross-Platform App Development',
+          description: [
+            `To reduce development time and cost while maintaining quality, we offer cross-platform app development solutions using advanced frameworks such as React Native and Flutter.`,
+            `We help businesses launch apps efficiently without compromising on performance or design.`
+          ],
+          button: 'Transform Your Website Into an App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: geoAiSeoImpIcon_1,
+          name: 'Wearable App Development',
+          description: [
+            `As wearable technology continues to grow, we develop innovative apps for smart devices such as smartwatches and fitness trackers. 
+            Our wearable app solutions are designed for seamless connectivity and real-time performance.`,
+            `We ensure your wearable applications are intuitive, lightweight, and optimized for smaller screens while delivering powerful functionality.`
+          ],
+          button: 'Transform Your Website Into an App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: geoAiSeoImpIcon_1,
+          name: 'PWA (Progressive Web App) Development',
+          description: [
+            `Progressive Web Apps combine the best features of web and mobile applications. PWAs provide fast loading times, offline access, 
+            and app-like experiences without requiring full installation from app stores.`,
+            `PWAs are an ideal solution for businesses looking for cost-effective mobile accessibility with high performance.`
+          ],
+          button: 'Transform Your Website Into an App',
+          btnColor: '#FB9100',
+        },
+      ],
+    },
+
+    ourProcess: {
+      isVisible: true,
+      subtitle: 'Our Process',
+      title: 'Our Mobile App Development Process',
+      breakIndex: 3,
+      bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0]',
+      span: '',
+      description: [
+        `We follow a structured, agile-driven approach to deliver high-performance mobile applications that align with your business goals.`,
+      ],
+      services: [
+        {
+          icon: geoAiSeoProcess_1,
+          title: 'Discovery & Requirement Analysis',
+          description: [
+            `We start by gaining a deep understanding of your business model, objectives, target audience, and market positioning. 
+            Through collaborative discussions and research, we identify core functionalities, define user personas, and analyze competitors to uncover opportunities.`,
+            `This discovery phase helps us create a clear project roadmap, align expectations, and ensure the app is built around measurable business outcomes rather than assumptions.`
+          ],
+        },
+        {
+          icon: geoAiSeoProcess_1,
+          title: 'Strategy & Technical Planning',
+          description: [
+            `Once requirements are finalized, we develop a strategic and technical blueprint for your application. 
+            This includes selecting the most suitable technology stack, defining backend architecture, planning API integrations, and establishing security protocols.`,
+            `Our goal is to create a scalable and high-performance foundation that supports future growth, feature expansion, and seamless third-party integrations without technical limitations.`
+          ],
+        },
+        {
+          icon: geoAiSeoProcess_1,
+          title: 'UI/UX Design',
+          description: [
+            `Our design process focuses on creating an intuitive, engaging, and brand-aligned user experience. 
+            We begin with wireframes and user flow mapping to visualize structure and navigation. 
+            After validation, we design high-fidelity mockups and interactive prototypes that reflect your brand identity while ensuring usability.`,
+            `Every design decision is guided by user behavior insights to maximize engagement, retention, and overall satisfaction.`
+          ],
+        },
+        {
+          icon: geoAiSeoProcess_1,
+          title: 'Development',
+          description: [
+            `During the development phase, our engineers transform approved designs into a fully functional mobile application. 
+            We follow agile methodology, breaking the project into structured sprints for steady progress and continuous feedback.`,
+            `Whether developing native or cross-platform apps, we prioritize performance optimization, clean coding standards, 
+            and secure architecture to ensure reliability across devices and operating systems.`
+          ],
+        },
+        {
+          icon: geoAiSeoProcess_1,
+          title: 'Testing & Quality Assurance',
+          description: [
+            `Quality assurance is integrated throughout the development lifecycle. 
+            Our testing process includes functional testing, usability validation, performance benchmarking, and security assessments.`,
+            `We test the application across multiple devices, screen sizes, and operating systems to ensure consistent performance. 
+            This rigorous approach minimizes risks, eliminates bugs, and guarantees a smooth user experience at launch.`
+          ],
+        },
+        {
+          icon: geoAiSeoProcess_1,
+          title: 'Deployment & Launch',
+          description: [
+            `After successful testing and final approval, we prepare the application for launch. 
+            This includes build optimization, compliance verification with App Store and Google Play guidelines, and submission management.`,
+            `We also assist with store listing optimization to improve visibility and downloads. Our structured deployment process ensures a smooth, hassle-free release.`
+          ],
+        },
+        {
+          icon: geoAiSeoProcess_1,
+          title: 'Post-Launch Support & Maintenance',
+          description: [
+            `Launching the app is only the beginning of its growth journey. We provide continuous monitoring, performance optimization, 
+            and timely updates to keep the application secure and aligned with evolving platform standards.`,
+            `As user feedback comes in, we implement enhancements and new features to maintain competitiveness and long-term success.`
+          ],
+        },
+      ],
+    },
+
+    dataInTable: {
+      isVisible: false,
+      isInCenter: true,
+      isBgWhite: true,
+      bgColor: '#FAFAFA',
+      trColor: '#7259FF',
+      rowColor: 'bg-[#7259FF]/10',
+      isVariant: '01',
+      heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
+      description: [``],
+      data: [
+        {
+          desctioption: `Feature`,
+          list: [
+            {
+              description: [`AI-First SEO Strategy`],
+            },
+            {
+              description: [`Cross-Platform Optimization`],
+            },
+            {
+              description: [`User Intent Alignment`],
+            },
+            {
+              description: [`Content Creation & Structure`],
+            },
+            {
+              description: [`Scalable & Future-Proof Solutions`],
+            },
+            {
+              description: [`AI-Driven Insights`],
+            },
+          ],
+        },
+        {
+          desctioption: `Adaired Digital Media`,
+          list: [
+            {
+              description: [
+                `We design strategies that are tailored for the evolving AI search landscape.`,
+              ],
+            },
+            {
+              description: [
+                `We optimize for a broad range of AI platforms, ensuring visibility across all channels.`,
+              ],
+            },
+            {
+              description: [
+                `We align your content with evolving user intent, ensuring your brand matches search needs.`,
+              ],
+            },
+            {
+              description: [
+                `We create content that is both AI-readable and contextually aligned with search intent.`,
+              ],
+            },
+            {
+              description: [
+                `Our strategies evolve with changing AI algorithms to keep your brand visible long-term.`,
+              ],
+            },
+            {
+              description: [
+                `We leverage AI tools to continuously optimize and refine your SEO for better performance.`,
+              ],
+            },
+          ],
+        },
+        {
+          desctioption: `They`,
+          list: [
+            {
+              description: [
+                `They rely on traditional keyword-based SEO methods that are no longer as effective.`,
+              ],
+            },
+            {
+              description: [
+                `They focus on a limited number of platforms, missing out on AI-driven opportunities elsewhere.`,
+              ],
+            },
+            {
+              description: [
+                `They overlook the nuances of user intent, resulting in less relevant content placement.`,
+              ],
+            },
+            {
+              description: [
+                `They use generic content strategies that don’t cater to AI’s need for clear, structured data.`,
+              ],
+            },
+            {
+              description: [
+                `Their solutions are static and struggle to adapt as AI algorithms continue to change.`,
+              ],
+            },
+            {
+              description: [
+                `They lack the use of AI-driven insights, relying on outdated metrics for optimization.`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '06',
+      breakIndex: 3,
+      bgImg: saasSeoBuildLinkBg,
+      img: geoAiSeoBuildLinkImg,
+      label: 'Ready to',
+      heading: 'Build Your Mobile App?',
+      description: ``,
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `Turn your idea into a powerful, high-performing mobile application with our expert development team. 
+          Whether you need a native iOS app, an Android solution, or a cross-platform application, we deliver scalable and future-ready mobile experiences tailored to your business goals.`,
+        },
+        {
+          desctioption: `Let’s discuss your project, define the right strategy, and bring your vision to life.`,
+        },
+      ],
+      button: 'Contact us today for a free consultation and project estimate.',
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      title: 'Frequently Asked Questions',
+      description: ``,
+      list: [
+        {
+          title: 'What mobile app development services do you offer?',
+          description: [
+            `We provide end-to-end mobile app development services, including strategy, UI/UX design, native and cross-platform development, testing, deployment, and post-launch maintenance.`,
+          ],
+        },
+        {
+          title: 'Do you develop apps for both Android and iOS?',
+          description: [
+            `Yes, we build native Android and iOS applications as well as cross-platform apps using modern frameworks to ensure optimal performance across devices.`,
+          ],
+        },
+        {
+          title: 'How much does mobile app development cost?',
+          description: [
+            `The cost depends on app complexity, features, design requirements, platform choice, and integrations. We provide customized cost estimates based on your specific project needs.`,
+          ],
+        },
+        {
+          title: 'How long does it take to develop a mobile app?',
+          description: [
+            `Development timelines vary depending on project scope and features. A basic app may take a few weeks, while complex enterprise applications may require several months.`,
+          ],
+        },
+        {
+          title: 'Can I hire dedicated mobile app developers?',
+          description: [
+            `Yes, we offer flexible hiring models that allow you to hire dedicated mobile app developers or a full development team based on your project requirements.`,
+          ],
+        },
+        {
+          title: 'Do you provide post-launch support and maintenance?',
+          description: [
+            `Absolutely. We offer ongoing maintenance, performance monitoring, feature enhancements, and security updates to ensure long-term success.`,
+          ],
+        },
+        {
+          title: 'Do you sign NDAs for project confidentiality?',
+          description: [
+            `Yes. We strictly follow data security and confidentiality protocols and are fully prepared to sign a Non-Disclosure Agreement (NDA) before initiating any project discussions. 
+            Protecting your idea, business data, and intellectual property is our top priority.`,
+          ],
+        },
+        {
+          title: 'Can you upgrade my existing mobile app?',
+          description: [
+            `Yes, we can modernize outdated apps, improve UI/UX, enhance performance, add new features, and migrate apps to newer technologies.`,
+          ],
+        },
+      ],
+    },
+
+    whatareservice2: {
+      isVisible: false,
+      isVariant: '11',
+      img: geoAiSeoWhatServiceImg,
+      heading: 'How Generative AI SEO Strengthens Your Visibility',
+      bgColor: '#FFFFFF',
+      isBgWhite: false,
+      button: '',
+      data: [
+        {
+          desctioption: `Generative AI has fundamentally changed the way search engines interpret content, assess expertise, and deliver results. 
+          Today, visibility is more than just keywords and backlinks; it is about providing the exact signals that AI models use to determine credibility and relevance.`,
+        },
+        {
+          desctioption: `Your website must be AI-friendly, contextually clear, intent-aligned, 
+          and entity-rich so that AI systems can confidently reference, cite, and recommend your brand in answers and summaries.`,
+        },
+        {
+          desctioption: `Our generative engine optimization services India aim to reshape and future-proof your digital presence in this new search landscape. 
+          We evaluate how AI interprets your brand, identify gaps in understanding, and optimize your generative AI search engine optimization strategy, content, 
+          and structure to align with algorithms.`,
+        },
+        {
+          desctioption: `From honing your authority to fortifying your technical foundation, we ensure that every page communicates who you are, 
+          what you offer, and why you're the most trustworthy option for the search intent you want to dominate.`,
+        },
+        {
+          desctioption: `We align your brand with the specific variables that influence AI-generated results using strategic optimization, content writing, 
+          and AI-driven insights, enabling you to become an algorithm that trusts, recommends, and elevates.`,
+        },
+      ],
+    },
+
+    whatMkeDeferent: {
+      isVisible: false,
+      isVariant: '01',
+      breakIndex: 3,
+      isInCenter: true,
+      bgColor: true,
+      heading: `Why Leading SaaS Brands Choose Adaired Digital`,
+      description: [``],
+      list: [
+        {
+          img: saasSeoWhatMkDiffImg_1,
+          name: 'SaaS-Only Focus',
+          description: [
+            `We work exclusively with B2B SaaS companies, not eCommerce brands, not local businesses, and not general service providers. That specialization matters. 
+            SaaS growth is driven by subscription economics, long-term retention, product adoption, and expansion revenue. 
+            We understand the nuances of CAC, LTV, churn sensitivity, pipeline velocity, and product-led growth models. 
+            Because SaaS is all we do, our strategies are built around how subscription businesses actually scale, not around outdated SEO tactics designed for one-time purchases.`,
+          ],
+        },
+        {
+          img: saasSeoWhatMkDiffImg_2,
+          name: 'Revenue-First Strategy',
+          description: [
+            `Traffic alone doesn’t grow a SaaS company; revenue does. 
+            Every keyword we target, every page we optimize, and every content asset we build is aligned with measurable business outcomes. 
+            We map search intent to funnel stages and revenue potential, ensuring your organic growth translates into demo requests, trial signups, and a qualified pipeline. 
+            Instead of chasing high-volume vanity terms, we prioritize high-intent opportunities that directly influence recurring revenue and long-term customer value.`,
+          ],
+        },
+        {
+          img: saasSeoWhatMkDiffImg_3,
+          name: 'No Generic SEO Playbooks',
+          description: [
+            `Most agencies rely on templated processes that look impressive but fail to deliver meaningful results in competitive SaaS markets. \
+            We don’t believe in one-size-fits-all SEO. Your growth strategy is built specifically around your product positioning, ideal customer profile, category maturity, and competitive landscape. 
+            Whether you're defining a new category or competing in a saturated one, we design a framework that reflects your unique strengths and market realities, not a recycled checklist.`,
+          ],
+        },
+        {
+          img: saasSeoWhatMkDiffImg_4,
+          name: 'Deep Competitor Targeting',
+          description: [
+            `In B2B SaaS, buyers actively compare alternatives before making decisions. 
+            We leverage this behavior strategically. 
+            Our approach includes detailed competitor gap analysis, alternative positioning pages, comparison content, and high-intent keyword targeting designed to intercept prospects at the evaluation stage. 
+            By identifying where competitors dominate and where they leave opportunities open, we position your brand directly in the path of decision-ready buyers.`,
+          ],
+        },
+        {
+          img: saasSeoWhatMkDiffImg_5,
+          name: 'Full-Funnel Execution',
+          description: [
+            `Organic growth doesn’t happen at a single stage of the buyer journey. 
+            We build comprehensive SEO ecosystems that support awareness, consideration, evaluation, and decision-making. 
+            From problem-focused educational content to integration pages, use-case assets, and bottom-of-funnel comparison pages, every piece works together to create a cohesive search presence. 
+            The result is not fragmented traffic but a structured acquisition engine that consistently feeds your sales pipeline.`,
+          ],
+        },
+        {
+          img: saasSeoWhatMkDiffImg_6,
+          name: 'Built for Scale',
+          description: [
+            `SaaS companies evolve, new features launch, new markets open, and new verticals emerge. 
+            Your SEO strategy should evolve with you. 
+            We design scalable frameworks that expand into new keyword clusters, industries, and high-value opportunities as your company grows. 
+            Instead of short-term ranking wins, we focus on building a long-term organic growth asset that compounds over time and strengthens your competitive position year after year.`,
+          ],
+        },
+      ],
+    },
+
+    whatMissing: {
+      isVisible: false,
+      bgColor: '#FFFCF8',
+      isInCenter: true,
+      isVariant: '02',
+      button: 'Dominate Search Results!',
+      heading: 'Why SEO is Important for B2B SaaS Companies',
+      description: [`The data is clear: SEO is not optional for SaaS growth.`],
+      list: [
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Research shows that 66% of B2B SaaS buyers rely on search engines to evaluate and compare solutions before making a purchase decision. (Statista)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `SEO not only improves SaaS rankings in SERPs but also increases visibility in emerging AI-powered search features and overviews, expanding brand exposure. (Forbes)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Data reveals that 70% of SaaS companies believe SEO generates stronger long-term sales results compared to PPC advertising. (Databox)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Organic search contributes 14.3% of total leads for SaaS businesses, making SEO one of the most consistent acquisition channels. (Sixth City Marketing)`,
+          ],
+        },
+      ],
+    },
+
+    keyStats: {
+      isVisible: false,
+      code: '10',
+      img: whiteLinkBuildingKeyStatsImg,
+      heading: 'Key Stats About White Label Link Building',
+      bgColor: '#FB9100',
+      isImgBg: true,
+      isCard: false,
+      list: [
+        {
+          desctioption: [
+            `Nearly 9 out of 10 marketers (89%) rely on content marketing to generate backlinks.`,
+          ],
+        },
+        {
+          desctioption: [
+            `85% of SEO professionals confirm that link building solutions strengthens brand credibility.`,
+          ],
+        },
+        {
+          desctioption: [
+            `Over two-thirds (69%) say link building directly drives business growth.`,
+          ],
+        },
+        {
+          desctioption: [
+            `59% predict backlinks will become even more important for rankings.`,
+          ],
+        },
+        {
+          desctioption: [
+            `An overwhelming 94% believe links will continue to shape Google’s algorithm in the future.`,
+          ],
+        },
+      ],
+    },
+
+    whatIncluded: {
+      isVisible: false,
+      isVariant: '03',
+      breakIndex: 3,
+      heading: 'White-Label Services We Provide',
+      description: [
+        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
+        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
+      ],
+      list: [
+        {
+          icon: whiteServicesIncluded_1,
+          title: 'White-Label SEO',
+          description: [
+            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
+            We handle research, optimization, technical improvements, 
+            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
+            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_2,
+          title: 'White-Label Social Media Management',
+          description: [
+            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
+            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
+            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_3,
+          title: 'White-Label Pay-Per-Click Ads',
+          description: [
+            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
+            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
+            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_4,
+          title: 'White-Label Link Building',
+          description: [
+            `Link building requires consistent outreach and quality control. 
+            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
+            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_5,
+          title: 'White-Label Web Design and Development',
+          description: [
+            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
+            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
+            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
+            and timelines, all without having to manage in-house design or development teams.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_6,
+          title: 'White-Label Application Development',
+          description: [
+            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
+            We assist with application planning, development, integration, testing, and platform-wide updates.`,
+            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+      ],
+    },
+
+    needofservice: {
+      isVisible: false,
+      isVariant: '04',
+      isBgCornerImg: true,
+      heading: 'How White Label SEO Works for Agencies',
+      data: [
+        {
+          desctioption: `White label SEO seeks to separate client ownership and service delivery. 
+          The agency remains the primary point of contact, but SEO fulfillment is handled externally.`,
+        },
+        {
+          desctioption: `Client acquisition, onboarding, and relationship management are handled entirely by the agency. 
+          The client receives SEO services directly from the agency they hired.`,
+        },
+        {
+          desctioption: `At Adaired, as a leading white-label SEO company, we do SEO execution, including research, optimization, 
+          and ongoing maintenance, which takes place quietly in the background. 
+          This allows agencies to provide SEO services without expanding their internal teams or infrastructure.`,
+        },
+        {
+          desctioption: `Furthermore, we ensure that all reporting, documentation, and performance updates are delivered using the agency's branding. 
+          Communication follows the agency's processes, ensuring continuity and brand integrity.`,
+        },
+      ],
+    },
+
+    serviceResult: {
+      isVisible: false,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
+      heading: 'Common White Label SEO Use Cases',
+      isVariant: '03',
+      description: [
+        `Outsourcing SEO services is used across different types of agencies and service providers, 
+        primarily as a way to support ongoing search optimization without expanding internal teams. 
+        The following use cases reflect common operational scenarios:`,
+      ],
+      isBgColor: true,
+      img: WhiteSeoServiceResultImg,
+      list: [
+        {
+          img: whiteSeoResult_1,
+          name: 'Web Design Agencies Adding SEO Retainers',
+          description: [
+            `Web design agencies often introduce SEO as a recurring service after a website launch. 
+            White label SEO allows these agencies to offer ongoing optimization, monitoring, and reporting without building a dedicated SEO department.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_2,
+          name: 'PPC Agencies Expanding into Organic Search',
+          description: [
+            `Paid media agencies frequently complement pay-per-click services with organic search offerings. 
+            White label SEO enables PPC-focused teams to support long-term visibility and traffic growth alongside paid campaigns.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_3,
+          name: 'Consultants Supporting Long-Term SEO Clients',
+          description: [
+            `Independent consultants and marketing advisors may use white-label SEO to fulfill execution-heavy tasks while remaining focused on strategy and client management. 
+            This model supports continuity for clients requiring ongoing optimization.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_4,
+          name: 'Multi-Location or Franchise SEO Support',
+          description: [
+            `Businesses operating across multiple locations often require scalable and standardized SEO execution. 
+            White label SEO supports consistent optimization, reporting, and performance tracking across regions while maintaining centralized brand control.`,
+          ],
+        },
+      ],
+    },
+
+    getsCredit: {
+      isVisible: false,
+      code: '01',
+      heading: 'You Sell. We Execute. Your Brand Gets the Credit.',
+      isCard: false,
+      list: [
+        {
+          description: [`SEO audits & strategy`],
+        },
+        {
+          description: [`Ongoing optimization`],
+        },
+        {
+          description: [`100% brand-safe delivery`],
+        },
+        {
+          description: [`Rank tracking & white-label reporting`],
+        },
+      ],
+    },
+
+    leadingTools: {
+      isVisible: false,
+      isVariant: '01',
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+      list: [],
+    },
+
+    getplan: {
+      isVisible: false,
+      isLabel: false,
+      subtitle: '',
+      bgImage: stop_struggle2,
+      title: 'Stop Guessing Start Acting ',
+      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+
+    stopStruggling: {
+      isVisible: false,
+      isCenter: true,
+      subtitle: '',
+      title: '',
+      description: [
+        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
+      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
+      ],
+      button: '',
+      bgImg: whiteStruggleBg,
+      isHoverBgBlue: true,
+    },
+
+    benefitofAiSeo: {
+      isVisible: false,
+      bgColor: 'bg-[#FAFAFA]',
+      textColor: '#000000',
+      textBg: '#EEEEEE',
+      borderColor: '#00000014',
+      heading: 'Benefits of Website Design and Development Services',
+      description: [
+        `A business’s success is closely tied to the quality of its website. A professional web site can determine whether a visitor becomes a loyal customer or leaves for a competitor. Here are the key benefits:`,
+      ],
+      list: [
+        {
+          name: 'Creates a Strong First Impression',
+          description: [
+            `The potential customers often get in touch with you through your site. The first impression that a properly developed site leaves is positive and credible. 
+            The use of professional images, well-designed layouts, and navigation facilitate the development of trust within seconds after a visitor visits your site.`,
+          ],
+        },
+        {
+          name: 'Enhances User Experience',
+          description: [
+            `Effective website design is rooted in user experience. A visitor will find it easier to do business with a site that has easy navigation, attractive design, and is responsive to all devices. 
+            A well-organized site will ensure the users have an easy time navigating their way to heighten satisfaction and interest.`,
+          ],
+        },
+        {
+          name: 'Builds Trust and Credibility',
+          description: [
+            `Good website design is associated with the credibility and professionalism of a business. 
+            Features such as fast loading speeds, secure connections, consistent performance, and clear messaging reassure users that the company is reliable, established, and customer-focused.`,
+          ],
+        },
+        {
+          name: 'Improves Conversion Rates and ROI',
+          description: [
+            `A well-planned website is your effective conversion tool. 
+            An efficient design, simple calls to action, and information-driven design components motivate the visitor to make a substantial move like purchasing a product, joining a mailing list, or leaving an enquiry which will lead to an increase in the profit margin.`,
+          ],
+        },
+        {
+          name: 'Helps You Stand Out in a Competitive Market',
+          description: [
+            `The world of the Internet is very busy nowadays, so a generic site is not sufficient. 
+            A tailored site featuring unique images, effective branding, and engagement is useful to businesses to stand out, enhance their online presence, and create an impression.`,
+          ],
+        },
+      ],
+    },
+
+    industryLeaders: {
+      isVisible: false,
+      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      description:
+        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      bgImage: leadingToolsImg,
+    },
+
+    leadingToolsForPerformence: {
+      isVisible: false,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+
+    notSeeingResult: {
+      isVisible: false,
+      heading: ``,
+      description: '',
+      buttonName: '',
+      img: LocalNotSee,
+      bgImage: LocalNotSeeBg,
+    },
+  },
 };
