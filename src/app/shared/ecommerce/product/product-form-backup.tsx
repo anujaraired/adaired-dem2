@@ -22,7 +22,6 @@ import ProductFormSkeleton from '@/app/(website)/components/Skeletons/ProductFor
 import { useRouter } from 'next/navigation';
 import { z } from 'zod';
 import { Product } from '@/types';
-import { BaseURL } from '@/baseUrl';
 
 // Define types based on JSON structure
 interface FormField {
@@ -224,7 +223,7 @@ export const ProductForm = ({
       window.history.replaceState(
         { productId: selectedProduct._id },
         '',
-        `/expert-content-solutions/products/${selectedProduct.slug}/form`
+        `/services/expert-content-solutions/products/${selectedProduct.slug}/form`
       );
 
       if (
@@ -233,7 +232,7 @@ export const ProductForm = ({
       ) {
         try {
           const formRes = await fetch(
-            `${BaseURL}form/${selectedProduct.formId}`
+            `${process.env.NEXT_PUBLIC_BACKEND_API_URI}/product/form/read-form?formId=${selectedProduct.formId}`
           );
           if (!formRes.ok) throw new Error('Failed to fetch form');
           const newForm = await formRes.json();
@@ -335,7 +334,7 @@ export const ProductForm = ({
                 `grid items-center gap-3 border-b-2 border-dashed border-[#1B5A96] pb-5 sm:grid-cols-2`
               )}
             >
-              {/* <div className={cn(`flex items-center gap-3`)}>
+              <div className={cn(`flex items-center gap-3`)}>
                 <figure className="relative aspect-square w-14 shrink-0 overflow-hidden rounded-full bg-gray-100">
                   <Image
                     src={
@@ -362,7 +361,7 @@ export const ProductForm = ({
                     handleProductChange(selectedOption.value)
                   }
                 />
-              </div> */}
+              </div>
               <div className={cn(`items-center justify-self-end`)}>
                 <Title
                   as="h5"
@@ -383,7 +382,7 @@ export const ProductForm = ({
             </div>
 
             {/* Dynamic Form Fields */}
-            {/* <div className="mt-5 space-y-6">
+            <div className="mt-5 space-y-6">
               {form?.form?.fields.map(({ field }) => (
                 <div key={field._id} className="flex-1">
                   <Title
@@ -470,7 +469,7 @@ export const ProductForm = ({
                   loading={loading}
                 />
               </div>
-            </div> */}
+            </div>
           </div>
         </div>
       </form>

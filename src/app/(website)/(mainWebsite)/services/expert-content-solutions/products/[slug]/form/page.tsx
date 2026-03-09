@@ -19,12 +19,9 @@ async function fetchProducts() {
 }
 
 async function fetchForm(formId: string) {
-  const response = await fetch(
-    `${BaseURL}form/${formId}`,
-    {
-      cache: 'no-store',
-    }
-  );
+  const response = await fetch(`${BaseURL}form/${formId}`, {
+    cache: 'no-store',
+  });
   if (!response.ok) throw new Error('Failed to fetch form');
   return await response.json();
 }
@@ -50,6 +47,12 @@ const ProductForm = async ({ params, searchParams }: ProductFormParams) => {
   const initialForm = initialSelectedProduct?.formId
     ? await fetchForm(initialSelectedProduct.formId)
     : null;
+  console.log(initialProducts, 'initialProducts>>>>>>>>>>>>>>>>>>>');
+  console.log(initialForm, 'initialForm>>>>>>>>>>>>>>>>>>>');
+  console.log(
+    initialSelectedProduct,
+    'initialSelectedProduct>>>>>>>>>>>>>>>>>>>'
+  );
 
   return (
     <>
