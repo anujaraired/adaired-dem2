@@ -331,7 +331,6 @@ import whiteServicesIncluded_4 from '../../../../../../public/assets/images/serv
 import whiteServicesIncluded_5 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesIncluded_5.png';
 import whiteServicesIncluded_6 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesIncluded_6.png';
 
-
 //PPC Images
 import PPC_Banner from '../../../../../../public/assets/images/PPCimg/PPC_Banner.png';
 import WhatIsPPC from '../../../../../../public/assets/images/PPCimg/WhatIsPPC.png';
@@ -1751,6 +1750,7 @@ export const SERVICES_DATA = {
     ourProcess: {
       isVisible: true,
       // breakIndex: 7,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'Our Comprehensive AI Process to Make Your Brand Stand Out',
       span: '',
@@ -2699,7 +2699,7 @@ brand appears in AI summaries and citations.`,
       'readyToStart',
     ] satisfies SectionKey[],
     metaDetails: {
-      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      title: 'Web Design and Development Company India | Custom Web Design',
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
@@ -3171,6 +3171,7 @@ brand appears in AI summaries and citations.`,
     ourProcess: {
       isVisible: true,
       // breakIndex: 4,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'The Web Design and Development Process That We Follow At Adaired',
       span: '',
@@ -4534,6 +4535,7 @@ brand appears in AI summaries and citations.`,
     ourProcess: {
       isVisible: true,
       breakIndex: 6,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'How Our White Label Social Media Management Works',
       span: '',
@@ -5688,6 +5690,7 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: false,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'How Our White Label Social Media Management Works',
       span: '',
@@ -6132,10 +6135,11 @@ brand appears in AI summaries and citations.`,
     ourProcess: {
       isVisible: true,
       breakIndex: 3,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'How Adaired’s White-Label Model Works',
       span: '',
-      description: `Our approach is designed to integrate smoothly into agency workflows.`,
+      description: `Adaired Digital functions as your dedicated fulfillment team, allowing you to confidently offer premium digital marketing services without managing an in-house team.`,
       bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
 
       services: [
@@ -7148,6 +7152,7 @@ brand appears in AI summaries and citations.`,
     ourProcess: {
       isVisible: true,
       breakIndex: 3,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'How Pay-Per-Click Advertising Works',
       span: 'Here’s a detailed breakdown of how the entire system works:',
@@ -8538,11 +8543,11 @@ brand appears in AI summaries and citations.`,
     ourProcess: {
       isVisible: true,
       breakIndex: 3,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'How Our White-Label Digital Marketing Agency Works',
       span: 'Here’s a detailed breakdown of how the entire system works:',
       description: [
-        `At Adaired Digital Media, our white-label partnership model is designed to integrate seamlessly with your agency while delivering expert-level digital marketing performance under your brand.`,
         `We operate behind the scenes, allowing you to scale services without increasing internal workload or overhead.`,
       ],
       bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
@@ -9219,13 +9224,12 @@ brand appears in AI summaries and citations.`,
     ourProcess: {
       isVisible: true,
       breakIndex: 4,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'How White Label Link Building Works with Adaired Digital Media',
       span: 'Here’s a detailed breakdown of how the entire system works:',
       description: [
-        `At Adaired, our best white label SEO link-building services are built to be seamless, scalable, and completely brandable. 
-        We function as your behind-the-scenes SEO fulfillment team, allowing you to confidently offer premium link building services without managing outreach, writers, or publisher relationships internally.`,
-        `Our structured, step-by-step approach ensures quality, consistency, and long-term SEO impact for your clients.`,
+        `At Adaired, our best white label SEO link-building services are built to be seamless, scalable, and completely brandable.`,
       ],
       bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
 
@@ -10224,6 +10228,7 @@ brand appears in AI summaries and citations.`,
     ourProcess: {
       isVisible: true,
       breakIndex: 4,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'The Growth Framework Behind Our SaaS SEO',
       span: '',
@@ -11229,6 +11234,7 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'Adaired Digital’s 6-Step Generate Engine Optimization Process',
       breakIndex: 3,
@@ -12454,6 +12460,7 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: false,
+      isInCenter: true,
       breakIndex: 3,
       subtitle: 'Our Process',
       title: 'How Adaired’s White-Label Model Works',

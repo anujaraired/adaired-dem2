@@ -5,6 +5,7 @@ import Heading from '@/app/(website)/common/Heading';
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import SocialMediaCheck from '../../../../../../public/assets/images/PPCimg/arrowOrange.png';
+import { motion, AnimatePresence } from 'framer-motion';
 
 const OurProcess = ({ ourProcess }: any) => {
   const { ref } = useInViewOnce<HTMLDivElement>(0);
@@ -41,18 +42,21 @@ const OurProcess = ({ ourProcess }: any) => {
         {/* ================= HEADING ================= */}
 
         <div className="sticky top-[10rem] z-20 mb-[3rem]">
-          <Heading
-            isLabel={true}
-            subTitle={'Our Process'}
-            breakIndex={ourProcess?.breakIndex}
-            title={ourProcess?.title}
-            isDecVarticle={!ourProcess?.isInCenter && true}
-            description={ourProcess?.description}
-            isInCenter={ourProcess?.isInCenter}
-            isBgWhite={ourProcess?.isInCenter && true}
-          />
+          <div className="mx-auto w-full lg:w-[80%]">
+            <Heading
+              isLabel={true}
+              subTitle={'Our Process'}
+              breakIndex={ourProcess?.breakIndex}
+              title={ourProcess?.title}
+              description={ourProcess?.description}
+              isInCenter={ourProcess?.isInCenter}
+              isBgWhite={ourProcess?.isInCenter && true}
+            />
+          </div>
 
-          <div className="grid grid-cols-5 gap-[4rem]">
+          <div
+            className={`grid grid-cols-5 gap-[4rem] ${!ourProcess?.isInCenter && 'mt-[2rem]'}`}
+          >
             <div className="col-span-2 flex h-fit items-center justify-center">
               <div className="relative h-[520px] w-[520px]">
                 <svg width="520" height="520" viewBox="0 0 520 520">
@@ -137,10 +141,11 @@ const OurProcess = ({ ourProcess }: any) => {
                         alt={service.title}
                         width={40}
                         height={40}
+                        onClick={() => setActiveTab(idx)}
                         className={
                           activeTab === idx
                             ? 'brightness-0 invert'
-                            : 'opacity-60'
+                            : 'opacity-100'
                         }
                       />
                     </div>
@@ -148,47 +153,56 @@ const OurProcess = ({ ourProcess }: any) => {
                 })}
               </div>
             </div>
-            <div className="col-span-3 mt-[8rem] flex h-fit items-center justify-center">
-              <div className="rounded-[20px] border border-[#FB9100]/20 bg-white p-10">
-                <h3 className="mb-4 text-[18px] font-semibold uppercase text-[#FB9100]">
-                  Step {activeTab + 1}: {ourProcess.services[activeTab].title}
-                </h3>
+            <div className="col-span-3 my-auto flex h-fit items-center justify-center">
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={activeTab}
+                  initial={{ opacity: 0, y: 40 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  exit={{ opacity: 0, y: -40 }}
+                  transition={{ duration: 0.25 }}
+                  className="rounded-[20px] border border-[#FB9100]/20 bg-white p-10"
+                >
+                  <h3 className="mb-4 text-[18px] font-semibold uppercase text-[#FB9100]">
+                    Step {activeTab + 1}: {ourProcess.services[activeTab].title}
+                  </h3>
 
-                {ourProcess.services[activeTab].description.map(
-                  (item: any, i: number) => {
-                    if (typeof item === 'string') {
-                      return (
-                        <p key={i} className="my-2 text-gray-700">
-                          {item}
-                        </p>
-                      );
-                    }
-
-                    if (item.list) {
-                      return item.list.map((listItem: any, j: number) => (
-                        <div
-                          key={`${i}-${j}`}
-                          className="my-2 flex items-start gap-2"
-                        >
-                          <Image
-                            src={SocialMediaCheck}
-                            width={17}
-                            height={23}
-                            alt="arrow"
-                            className="mt-1 w-[14px] shrink-0"
-                          />
-
-                          <p className="text-gray-700">
-                            {listItem.des || listItem.description}
+                  {ourProcess.services[activeTab].description.map(
+                    (item: any, i: number) => {
+                      if (typeof item === 'string') {
+                        return (
+                          <p key={i} className="my-2 text-gray-700">
+                            {item}
                           </p>
-                        </div>
-                      ));
-                    }
+                        );
+                      }
 
-                    return null;
-                  }
-                )}
-              </div>
+                      if (item.list) {
+                        return item.list.map((listItem: any, j: number) => (
+                          <div
+                            key={`${i}-${j}`}
+                            className="my-2 flex items-start gap-2"
+                          >
+                            <Image
+                              src={SocialMediaCheck}
+                              width={17}
+                              height={23}
+                              alt="arrow"
+                              className="mt-1 w-[14px] shrink-0"
+                            />
+
+                            <p className="text-gray-700">
+                              {listItem.des || listItem.description}
+                            </p>
+                          </div>
+                        ));
+                      }
+
+                      return null;
+                    }
+                  )}
+                </motion.div>
+              </AnimatePresence>
             </div>
           </div>
         </div>
