@@ -223,7 +223,7 @@ export const ProductForm = ({
       window.history.replaceState(
         { productId: selectedProduct._id },
         '',
-        `/expert-content-solutions/products/${selectedProduct.slug}/form`
+        `/services/expert-content-solutions/products/${selectedProduct.slug}/form`
       );
 
       if (

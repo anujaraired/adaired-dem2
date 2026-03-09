@@ -87,8 +87,8 @@ const nextConfig = {
     // const dynamicRedirects = await fetchRedirects();
     return [
       {
-        source: '/expert-content-solutions/products/form',
-        destination: '/expert-content-solutions/products/website-content/form',
+        source: '/services/expert-content-solutions/products/form',
+        destination: '/services/expert-content-solutions/products/website-content/form',
         permanent: true,
       },
       // ...dynamicRedirects, // Spread the dynamic redirects from API
