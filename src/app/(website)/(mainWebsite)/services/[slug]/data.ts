@@ -423,10 +423,11 @@ import geoAiSeoBuildLinkImg from '../../../../../../public/assets/images/service
 
 import geoAiSeoWhatServiceImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoWhatServiceImg.png';
 
-// Mobile App Development Images
 
+// Mobile App Development Images
 import mobileAppDevBannerBg from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevBannerBg.png';
 import mobileAppDevAdairedHelpImg from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevAdairedHelpImg.png';
+
 
 export type SectionKey =
   | 'banner'
