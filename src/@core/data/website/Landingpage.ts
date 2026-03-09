@@ -4,6 +4,7 @@ import {
   IHeroSection,
   IStandOutSection,
   ISurferSEOSection,
+  IFAQSectionList,
   IFAQSection,
 } from '../../types/LandingpageTypes';
 
@@ -46,37 +47,37 @@ export const ApproachSectionDetails: IApproachSection = {
     'We tailor every piece of content to align perfectly with your brand:',
   iconList: [
     {
-      icon: 'assets/icons/approach-1.svg',
+      icon: '/assets/icons/approach-1.svg',
       title: 'Know Your Goals',
       description:
         "We start by conducting a thorough dive into your brand's objectives to clearly understand your vision and expectations.",
     },
     {
-      icon: 'assets/icons/approach-2.svg',
+      icon: '/assets/icons/approach-2.svg',
       title: 'Feedback & Revisions',
       description:
         'We work closely with you to gather feedback and make adjustments, ensuring the final product meets your expectations.',
     },
     {
-      icon: 'assets/icons/approach-3.svg',
+      icon: '/assets/icons/approach-3.svg',
       title: 'Performance Review ',
       description:
         "After delivery, we assess the content's impact, analyzing its performance to meet your goals and deliver the desired results.",
     },
     {
-      icon: 'assets/icons/approach-4.svg',
+      icon: '/assets/icons/approach-4.svg',
       title: 'Tailored Content',
       description:
         'Our talented writers create content that resonates with your target audience, ensuring it effectively captures their interest.',
     },
     {
-      icon: 'assets/icons/approach-5.svg',
+      icon: '/assets/icons/approach-5.svg',
       title: 'Delivery & Support',
       description:
         'You can rely on us to deliver high-quality content, every time, with a dedicated team available for any questions.',
     },
     {
-      icon: 'assets/icons/approach-6.svg',
+      icon: '/assets/icons/approach-6.svg',
       title: 'Continuous Improvement',
       description:
         'We focus on continuous improvement, refining the content to keep it effective and relevant.',
@@ -85,7 +86,7 @@ export const ApproachSectionDetails: IApproachSection = {
 };
 
 export const SurferSEOSectionDetails: ISurferSEOSection = {
-  icon: 'assets/icons/surferSEO.svg',
+  icon: '/assets/icons/surferSEO.svg',
   title:
     "<span className='uppercase bg-[#f39019]/10 rounded-lg px-[10px] font-semibold text-3xl font-poppins whitespace-nowrap'>Surfer seo</span> : Our key to content success",
   iconList: [
@@ -316,35 +317,37 @@ export const BHWServices: IBHWServices[] = [
   },
 ];
 
-export const FAQSectionDetails: IFAQSection[] = [
-  {
-    title: 'What is your policy on revisions and feedback?',
-    content:
-      'We’re dedicated to ensuring your complete satisfaction and are happy to work with you until the content meets your expectations.',
-  },
-  {
-    title: 'Are your payment methods secure?',
-    content:
-      'Yes, we handle every transaction securely to provide a smooth and safe experience for our clients.',
-  },
-  {
-    title: 'What if we need content outside your normal TAT?',
-    content:
-      'We understand that urgent needs may arise, and we’re happy to accommodate such requests. Get in touch to know more!',
-  },
-  {
-    title: 'How can I cancel or pause my content order?',
-    content:
-      'If you need to cancel or pause your order, please reach out to our support team. Ideally, within 24 hours of placing your order, discuss your options',
-  },
-  {
-    title: 'How Do I Reach Out To You?',
-    content:
-      'You can reach out to us via our website form, email, or support line for any inquiries.',
-  },
-  {
-    title: 'Do You Offer Automated Invoices?',
-    content:
-      'Yes, once you’ve made the payment, you will receive the invoice directly to your registered email.',
-  },
-];
+export const FAQSectionDetails: any = {
+  list: [
+    {
+      title: 'What is your policy on revisions and feedback?',
+      description:
+        'We’re dedicated to ensuring your complete satisfaction and are happy to work with you until the content meets your expectations.',
+    },
+    {
+      title: 'Are your payment methods secure?',
+      description:
+        'Yes, we handle every transaction securely to provide a smooth and safe experience for our clients.',
+    },
+    {
+      title: 'What if we need content outside your normal TAT?',
+      description:
+        'We understand that urgent needs may arise, and we’re happy to accommodate such requests. Get in touch to know more!',
+    },
+    {
+      title: 'How can I cancel or pause my content order?',
+      description:
+        'If you need to cancel or pause your order, please reach out to our support team. Ideally, within 24 hours of placing your order, discuss your options',
+    },
+    {
+      title: 'How Do I Reach Out To You?',
+      description:
+        'You can reach out to us via our website form, email, or support line for any inquiries.',
+    },
+    {
+      title: 'Do You Offer Automated Invoices?',
+      description:
+        'Yes, once you’ve made the payment, you will receive the invoice directly to your registered email.',
+    },
+  ],
+};

@@ -4,7 +4,8 @@ import Link from 'next/link';
 import { cn } from '../../utils/class-names';
 import React, { FC } from 'react';
 import { Icon } from '@iconify/react';
-import { Button } from 'rizzui';
+// import { Button } from 'rizzui';
+import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import { useRouter } from 'nextjs-toploader/app';
 import CldImage from '@/app/(website)/components/CloudinaryImageComponent';
 
@@ -97,7 +98,8 @@ const IconBox: FC<IIconBox> = ({
           {description && (
             <p className={cn(`${descriptionClassName}`)}>{description}</p>
           )}
-          {buttonText && (
+
+          {/* {buttonText && (
             <Link href={buttonLink || ''} target={target}>
               <Button
                 className={cn(`${buttonClassName}`)}
@@ -106,6 +108,15 @@ const IconBox: FC<IIconBox> = ({
               >
                 {buttonText}
               </Button>
+            </Link>
+          )} */}
+
+          {buttonText && (
+            <Link href={buttonLink || ''} target={target}>
+              <SaveAndCancel
+                className={cn(buttonClassName)}
+                name={buttonText}
+              />
             </Link>
           )}
         </div>

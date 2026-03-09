@@ -777,7 +777,7 @@ export const ServiceSectionData = {
     },
     {
       title: 'Mobile App Development',
-      link: '/services/web-design-development-company',
+      link: '/services/mobile-apps-development-company',
       description:
         'We help you create high-performing mobile apps. Our team manages design, development, and deployment, delivering apps that engage users and grow your business.',
       list: [
