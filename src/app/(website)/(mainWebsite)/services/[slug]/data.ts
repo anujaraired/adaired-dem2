@@ -423,6 +423,11 @@ import geoAiSeoBuildLinkImg from '../../../../../../public/assets/images/service
 
 import geoAiSeoWhatServiceImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoWhatServiceImg.png';
 
+// Mobile App Development Images
+
+import mobileAppDevBannerBg from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevBannerBg.png';
+import mobileAppDevAdairedHelpImg from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevAdairedHelpImg.png';
+
 export type SectionKey =
   | 'banner'
   | 'getsCredit'
@@ -12913,9 +12918,9 @@ brand appears in AI summaries and citations.`,
       'adairedHelp',
       'importantToBussiness',
       'ourProcess',
-      'dataInTable',
       'buildlinks',
       'faqData',
+      'dataInTable',
       'whatMkeDeferent',
       'whatMissing',
       'keyStats',
@@ -12940,20 +12945,20 @@ brand appears in AI summaries and citations.`,
       },
     },
     banner: {
-      code: '04',
+      code: '07',
       isCenter: false,
       isVisible: true,
-      heading: '',
+      heading: 'App Developers',
       subheading: '',
       subtitle: '#1 Mobile App Development Company',
-      label: 'Custom iOS & Android App Developers',
+      label: 'Custom iOS & Android ',
       desc: [
         `Take your brand to your users’ fingertips with high-performance mobile apps designed to increase reach, engagement, and growth.`,
       ],
       button: 'Transform Your Website Into an App',
       width: '20rem',
       widthLg: '30rem',
-      bgImg: geoAiSeoBannerBg,
+      bgImg: mobileAppDevBannerBg,
     },
 
     whatareservice: {
@@ -13006,10 +13011,10 @@ brand appears in AI summaries and citations.`,
     adairedHelp: {
       isVisible: true,
       breakIndex: 4,
-      img: geoAiSeoAdairedHelpImg,
+      img: mobileAppDevAdairedHelpImg,
       isInCenter: false,
-      bgColor: '',
-      cardBg: '',
+      bgColor: '#FFFBF5',
+      cardBg: '#FFF8F0',
       heading: `The Importance of Mobile Apps for Growing Companies Now`,
       description: [
         `Mobile apps are transforming how growing companies operate, compete, and scale. 
@@ -13098,13 +13103,13 @@ brand appears in AI summaries and citations.`,
 
     importantToBussiness: {
       isVisible: true,
-      breakIndex: 4,
+      breakIndex: 3,
       isVariant: '01',
       cardColor: '#F9F9F9',
       heading: 'Our Custom Mobile Application Development Services',
       description: [
-        `We deliver high-performance, scalable, and user-focused mobile application development services tailored to your business goals. 
-        Our custom app development services approach ensures every app is secure, future-ready, and aligned with your growth strategy.`,
+        `We deliver high-performance, scalable, and user-focused mobile application development services tailored to your business goals.`, 
+        `Our custom app development services approach ensures every app is secure, future-ready, and aligned with your growth strategy.`,
       ],
       buttonName: 'Transform Your Website Into an App',
       data: [
@@ -13244,6 +13249,87 @@ brand appears in AI summaries and citations.`,
       ],
     },
 
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '06',
+      breakIndex: 3,
+      bgImg: saasSeoBuildLinkBg,
+      img: geoAiSeoBuildLinkImg,
+      label: 'Ready to',
+      heading: 'Build Your Mobile App?',
+      description: ``,
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `Turn your idea into a powerful, high-performing mobile application with our expert development team. 
+          Whether you need a native iOS app, an Android solution, or a cross-platform application, we deliver scalable and future-ready mobile experiences tailored to your business goals.`,
+        },
+        {
+          desctioption: `Let’s discuss your project, define the right strategy, and bring your vision to life.`,
+        },
+      ],
+      button: 'Contact us today for a free consultation and project estimate.',
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      title: 'Frequently Asked Questions',
+      description: ``,
+      list: [
+        {
+          title: 'What mobile app development services do you offer?',
+          description: [
+            `We provide end-to-end mobile app development services, including strategy, UI/UX design, native and cross-platform development, testing, deployment, and post-launch maintenance.`,
+          ],
+        },
+        {
+          title: 'Do you develop apps for both Android and iOS?',
+          description: [
+            `Yes, we build native Android and iOS applications as well as cross-platform apps using modern frameworks to ensure optimal performance across devices.`,
+          ],
+        },
+        {
+          title: 'How much does mobile app development cost?',
+          description: [
+            `The cost depends on app complexity, features, design requirements, platform choice, and integrations. We provide customized cost estimates based on your specific project needs.`,
+          ],
+        },
+        {
+          title: 'How long does it take to develop a mobile app?',
+          description: [
+            `Development timelines vary depending on project scope and features. A basic app may take a few weeks, while complex enterprise applications may require several months.`,
+          ],
+        },
+        {
+          title: 'Can I hire dedicated mobile app developers?',
+          description: [
+            `Yes, we offer flexible hiring models that allow you to hire dedicated mobile app developers or a full development team based on your project requirements.`,
+          ],
+        },
+        {
+          title: 'Do you provide post-launch support and maintenance?',
+          description: [
+            `Absolutely. We offer ongoing maintenance, performance monitoring, feature enhancements, and security updates to ensure long-term success.`,
+          ],
+        },
+        {
+          title: 'Do you sign NDAs for project confidentiality?',
+          description: [
+            `Yes. We strictly follow data security and confidentiality protocols and are fully prepared to sign a Non-Disclosure Agreement (NDA) before initiating any project discussions. 
+            Protecting your idea, business data, and intellectual property is our top priority.`,
+          ],
+        },
+        {
+          title: 'Can you upgrade my existing mobile app?',
+          description: [
+            `Yes, we can modernize outdated apps, improve UI/UX, enhance performance, add new features, and migrate apps to newer technologies.`,
+          ],
+        },
+      ],
+    },
+
     dataInTable: {
       isVisible: false,
       isInCenter: true,
@@ -13346,87 +13432,6 @@ brand appears in AI summaries and citations.`,
                 `They lack the use of AI-driven insights, relying on outdated metrics for optimization.`,
               ],
             },
-          ],
-        },
-      ],
-    },
-
-    buildlinks: {
-      isVisible: true,
-      isCode01: true,
-      isVariant: '06',
-      breakIndex: 3,
-      bgImg: saasSeoBuildLinkBg,
-      img: geoAiSeoBuildLinkImg,
-      label: 'Ready to',
-      heading: 'Build Your Mobile App?',
-      description: ``,
-      isBgWhite: true,
-      data: [
-        {
-          desctioption: `Turn your idea into a powerful, high-performing mobile application with our expert development team. 
-          Whether you need a native iOS app, an Android solution, or a cross-platform application, we deliver scalable and future-ready mobile experiences tailored to your business goals.`,
-        },
-        {
-          desctioption: `Let’s discuss your project, define the right strategy, and bring your vision to life.`,
-        },
-      ],
-      button: 'Contact us today for a free consultation and project estimate.',
-    },
-
-    faqData: {
-      isVisible: true,
-      subtitle: 'FAQ',
-      title: 'Frequently Asked Questions',
-      description: ``,
-      list: [
-        {
-          title: 'What mobile app development services do you offer?',
-          description: [
-            `We provide end-to-end mobile app development services, including strategy, UI/UX design, native and cross-platform development, testing, deployment, and post-launch maintenance.`,
-          ],
-        },
-        {
-          title: 'Do you develop apps for both Android and iOS?',
-          description: [
-            `Yes, we build native Android and iOS applications as well as cross-platform apps using modern frameworks to ensure optimal performance across devices.`,
-          ],
-        },
-        {
-          title: 'How much does mobile app development cost?',
-          description: [
-            `The cost depends on app complexity, features, design requirements, platform choice, and integrations. We provide customized cost estimates based on your specific project needs.`,
-          ],
-        },
-        {
-          title: 'How long does it take to develop a mobile app?',
-          description: [
-            `Development timelines vary depending on project scope and features. A basic app may take a few weeks, while complex enterprise applications may require several months.`,
-          ],
-        },
-        {
-          title: 'Can I hire dedicated mobile app developers?',
-          description: [
-            `Yes, we offer flexible hiring models that allow you to hire dedicated mobile app developers or a full development team based on your project requirements.`,
-          ],
-        },
-        {
-          title: 'Do you provide post-launch support and maintenance?',
-          description: [
-            `Absolutely. We offer ongoing maintenance, performance monitoring, feature enhancements, and security updates to ensure long-term success.`,
-          ],
-        },
-        {
-          title: 'Do you sign NDAs for project confidentiality?',
-          description: [
-            `Yes. We strictly follow data security and confidentiality protocols and are fully prepared to sign a Non-Disclosure Agreement (NDA) before initiating any project discussions. 
-            Protecting your idea, business data, and intellectual property is our top priority.`,
-          ],
-        },
-        {
-          title: 'Can you upgrade my existing mobile app?',
-          description: [
-            `Yes, we can modernize outdated apps, improve UI/UX, enhance performance, add new features, and migrate apps to newer technologies.`,
           ],
         },
       ],

@@ -600,7 +600,7 @@ const Banner = ({ banner }: any) => {
               </div>
             )}
             {banner?.code === '07' && (
-              <div className="relative z-10 block justify-between gap-[4rem] pb-[4rem] pt-[6rem] lg:flex">
+              <div className="relative z-10 block justify-between gap-[4rem] py-[3rem] lg:py-[4rem] lg:flex">
                 <div
                   className={`my-auto w-[100%] space-y-5 py-[3rem] transition-all duration-1000 lg:w-[55%] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
                 >
