@@ -24,7 +24,7 @@ const ImpToBusinessCard = ({ handleClick, idx, isVisible }: any) => {
         priority
         className="pointer-events-none rounded-2xl object-fill lg:object-cover"
       />
-      <div className="absolute lg:left-[2.5rem] left-[2rem] lg:right-[5rem] right-[2rem] lg:top-[2rem] top-[1.5rem] h-full">
+      <div className="absolute lg:left-[2.5rem] md:left-[2rem] left-[1rem] lg:right-[5rem] md:right-[2rem] right-[1rem] lg:top-[2rem] md:top-[1.5rem] top-[1rem] h-full">
         <h1 className="text-center text-white lg:text-left font-normal">
           Become the Brand
         </h1>
@@ -44,7 +44,7 @@ const ImpToBusinessCard = ({ handleClick, idx, isVisible }: any) => {
           Position your business to be found, trusted, and referenced in AI-generated answers.
         </p>
 
-        <div className="absolute lg:bottom-[4rem] bottom-[3rem] left-0 right-0 flex justify-center lg:justify-start">
+        <div className="absolute lg:bottom-[4rem] md:bottom-[3rem] bottom-[2rem] left-0 right-0 flex justify-center lg:justify-start">
           <SaveAndCancel
             name="Build My AEO Strategy"
             isIcon={true}
