@@ -5,10 +5,17 @@ import ImpToBusinessCradImg from '../../../../../../public/assets/images/service
 import Image from 'next/image';
 import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 
-const ImpToBusinessCard = ({ handleClick }: any) => {
+
+const ImpToBusinessCard = ({ handleClick, idx, isVisible }: any) => {
   //test
   return (
-    <div className="relative min-h-[450px] rounded-2xl">
+    <div
+      className={`relative min-h-[450px] rounded-2xl transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
+        }`}
+      style={{
+        transitionDelay: `${idx * 280}ms`, // 👈 stagger like other cards
+      }}
+    >
       {/* transition-all duration-700 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:duration-300 */}
       <Image
         src={ImpToBusinessCradImg}

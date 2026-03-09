@@ -728,7 +728,7 @@ export const SERVICES_DATA = {
       breakIndex: 8,
       isInCenter: true,
       title: 'Our Proven SEO Process That SEO Drives Both Traffic & Revenue',
-      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+      bgGradient: 'bg-gradient-to-b from-[#ffffff] via-[#FFF9F2] to-[#FB9100]/10',
 
       services: [
         {
@@ -1755,7 +1755,7 @@ export const SERVICES_DATA = {
       title: 'Our Comprehensive AI Process to Make Your Brand Stand Out',
       span: '',
       description: `Our success-driven digital marketing services integrate AI-enhanced SEO, advanced analytics, and conversion-focused strategies to strengthen brand presence, improve search performance, and accelerate measurable business growth.`,
-      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+      // bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
 
       services: [
         {
@@ -2527,7 +2527,7 @@ brand appears in AI summaries and citations.`,
         'Our Strategic Link Building Process Focused On Building Lasting Authority',
       span: '',
       description: ``,
-      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+      bgGradient: 'bg-gradient-to-b from-[#FFF8F0] via-[#FFF9F2] to-[#FFFFFF]',
       services: [
         {
           icon: steplinkbuild1,
@@ -3179,7 +3179,7 @@ brand appears in AI summaries and citations.`,
         `The web design and development process at Adaired adheres to a strategic, transparent, and results-oriented mechanism that will see to it that all projects generate measurable business value.`,
         `We are a creative, technology-driven, user-centered design solution that enables brands to grow through scalable digital solutions.`,
       ],
-      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+      bgGradient: 'bg-gradient-to-b from-[#FFF8F0] via-[#FFF9F2] to-[#FFFFFF]',
 
       services: [
         {
@@ -3708,7 +3708,7 @@ brand appears in AI summaries and citations.`,
       title: 'Our Performance-Focused Local SEO Strategy',
       span: '',
       description: ``,
-      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+      bgGradient: 'bg-gradient-to-b from-[#ffffff] via-[#FFF9F2] to-[#FFF8f0]',
 
       services: [
         {
@@ -4540,7 +4540,7 @@ brand appears in AI summaries and citations.`,
       title: 'How Our White Label Social Media Management Works',
       span: '',
       description: `A structured process ensures consistency and measurable results. Our white label social media management approach includes:`,
-      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+      bgGradient: 'bg-gradient-to-b from-[#FFFFFF] via-[#fffcf8] to-[#FFF8F0]',
       services: [
         {
           icon: stepwhitelabelsocialmedia1,
@@ -6140,7 +6140,7 @@ brand appears in AI summaries and citations.`,
       title: 'How Adaired’s White-Label Model Works',
       span: '',
       description: `Adaired Digital functions as your dedicated fulfillment team, allowing you to confidently offer premium digital marketing services without managing an in-house team.`,
-      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+      bgGradient: 'bg-gradient-to-b from-[#FFFFFF] via-[#fffcf8] to-[#FFF8F0]',
 
       services: [
         {
@@ -7160,7 +7160,7 @@ brand appears in AI summaries and citations.`,
         `PPC advertising operates through a real-time auction system that determines which ads appear in search results, in what position, and at what cost. Unlike traditional advertising, where you pay for exposure, PPC ensures you only pay when a user actively engages with your ad.`,
         `Here’s a detailed breakdown of how the entire system works:`,
       ],
-      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+      bgGradient: 'bg-gradient-to-b from-[#FFF8F0] via-[#FFF9F2] to-[#FFFFFF]',
 
       services: [
         {
@@ -8550,7 +8550,7 @@ brand appears in AI summaries and citations.`,
       description: [
         `We operate behind the scenes, allowing you to scale services without increasing internal workload or overhead.`,
       ],
-      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+      // bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
 
       services: [
         {
@@ -9231,7 +9231,7 @@ brand appears in AI summaries and citations.`,
       description: [
         `At Adaired, our best white label SEO link-building services are built to be seamless, scalable, and completely brandable.`,
       ],
-      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+      // bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
 
       services: [
         {
@@ -10235,7 +10235,7 @@ brand appears in AI summaries and citations.`,
       description: [
         `We don’t guess. We build structured, revenue-aligned SEO systems designed specifically for SaaS growth.`,
       ],
-      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+      bgGradient: 'bg-gradient-to-b from-[#ffffff] via-[#FFF9F2] to-[#FFF8f0]',
 
       services: [
         {
@@ -11238,7 +11238,7 @@ brand appears in AI summaries and citations.`,
       subtitle: 'Our Process',
       title: 'Adaired Digital’s 6-Step Generate Engine Optimization Process',
       breakIndex: 3,
-      bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0]',
+      bgGradient: 'bg-gradient-to-b from-[#ffffff] via-[#FFF9F2] to-[#FFF8f0]',
       span: '',
       description: [
         `At Adaired Digital Media, every step in our process is designed to ensure your brand is clearly understood, 
