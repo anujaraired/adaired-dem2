@@ -40,10 +40,10 @@ export const metadata: Metadata = {
 
 async function getProducts() {
   try {
-    const res = await fetch(`${BaseURL}/product/read-product?status=active`, {
+    const res = await fetch(`${BaseURL}products`, {
       cache: 'no-store',
     });
-
+    console.log(res, 'res121212');
     if (!res.ok) {
       console.error('Failed to fetch products:', res.status);
       return [];

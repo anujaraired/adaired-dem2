@@ -9,15 +9,10 @@ const OrderSummery = dynamic(
   { ssr: false }
 );
 
-const API_BASE_URL = BaseURL || '';
-
 async function fetchProducts() {
-  const response = await fetch(
-    `${API_BASE_URL}/product/read-product?status=active`,
-    {
-      cache: 'no-store',
-    }
-  );
+  const response = await fetch(`${BaseURL}products`, {
+    cache: 'no-store',
+  });
   if (!response.ok) throw new Error('Failed to fetch products');
   const { data } = await response.json();
   return data;
@@ -25,7 +20,7 @@ async function fetchProducts() {
 
 async function fetchForm(formId: string) {
   const response = await fetch(
-    `${API_BASE_URL}/product/form/read-form?formId=${formId}`,
+    `${BaseURL}form/${formId}`,
     {
       cache: 'no-store',
     }

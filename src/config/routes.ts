@@ -401,20 +401,20 @@ export const routes: {
   ],
 
   eCommerce: {
-    home: '/expert-content-solutions',
-    products: '/expert-content-solutions/#products',
-    shop: '/expert-content-solutions/#products',
-    cart: '/expert-content-solutions/cart',
+    home: '/services/expert-content-solutions',
+    products: '/services/expert-content-solutions/#products',
+    shop: '/services/expert-content-solutions/#products',
+    cart: '/services/expert-content-solutions/cart',
     contentProductForm: (slug: string) =>
-      `/expert-content-solutions/products/${slug}/form`,
-    orders: '/expert-content-solutions/orders',
+      `/services/expert-content-solutions/products/${slug}/form`,
+    orders: '/services/expert-content-solutions/orders',
     orderDetails: (id: string) =>
       `/dashboard/shop/orders/order-details?orderNumber=${id}`,
-    thankyouPage: '/expert-content-solutions/thankyou',
+    thankyouPage: '/services/expert-content-solutions/thankyou',
   },
 
   userDashboard: {
-    website: '/expert-content-solutions',
+    website: '/services/expert-content-solutions',
     dashboard: '/dashboard',
     accountSettings: '/dashboard/user/profile-settings',
     passwordSettings: '/dashboard/user/profile-settings/password',
