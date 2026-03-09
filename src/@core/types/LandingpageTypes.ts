@@ -55,7 +55,13 @@ export type IBHWServices = {
   status: string;
 };
 
-export type IFAQSection = {
+export type IFAQSectionList = {
   title: string;
-  content: string;
+  description: string;
+};
+
+export type IFAQSection = {
+  // title: string;
+  // description: string;
+  list: IFAQSectionList[];
 };
