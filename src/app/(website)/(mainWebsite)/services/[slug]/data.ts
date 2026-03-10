@@ -13047,26 +13047,20 @@ brand appears in AI summaries and citations.`,
     banner: {
       code: '02',
       isVisible: true,
-      subtitle: '#1 Mobile App Development Company',
       isStyleHeading: true,
       headingParts: [
         {
-          text: 'From Invisible to',
+          text: 'Custom iOS & Android',
           color: '#000000',
           weight: '700',
         },
         {
-          text: ' #1 on Google Maps: ',
+          text: ' App Developer',
           color: '#FB9100',
           weight: '700',
         },
-                {
-          text: 'Get Seen by Local Customers',
-          color: '#000000',
-          weight: '700',
-        },
       ],
-      breakIndex: 6,
+      breakIndex: 4,
       desc: [
         `Take your brand to your users’ fingertips with high-performance mobile apps designed to increase reach, engagement, and growth.`,
       ],
@@ -13151,24 +13145,25 @@ brand appears in AI summaries and citations.`,
           name: 'Personalized Customer Engagement',
           description: [
             {
-              desctioption: 'Modern customers expect instant communication and personalized experiences. With a mobile app, we help businesses create a direct channel to their audience through:',
+              desctioption:
+                'Modern customers expect instant communication and personalized experiences. With a mobile app, we help businesses create a direct channel to their audience through:',
               list: [
                 {
-                  des: ['Custom iPhone and iPad app development']
+                  des: ['Custom iPhone and iPad app development'],
                 },
                 {
-                  des: ['Swift-based app development']
+                  des: ['Swift-based app development'],
                 },
                 {
-                  des: ['UI/UX design aligned with Apple guidelines']
+                  des: ['UI/UX design aligned with Apple guidelines'],
                 },
                 {
-                  des: ['App Store submission & deployment support']
+                  des: ['App Store submission & deployment support'],
                 },
                 {
-                  des: ['Ongoing maintenance and updates']
+                  des: ['Ongoing maintenance and updates'],
                 },
-              ]
+              ],
             },
             `Unlike social media platforms or email marketing, where algorithms limit reach, mobile apps give us full control over customer engagement. 
             This ensures consistent brand communication and stronger relationships.`,
@@ -13182,21 +13177,21 @@ brand appears in AI summaries and citations.`,
               desctioption: `User experience directly impacts customer retention. Mobile apps provide:`,
               list: [
                 {
-                  des: ['Faster loading speeds than mobile websites']
+                  des: ['Faster loading speeds than mobile websites'],
                 },
                 {
-                  des: ['Seamless navigation']
+                  des: ['Seamless navigation'],
                 },
                 {
-                  des: ['Simplified checkout processes']
+                  des: ['Simplified checkout processes'],
                 },
                 {
-                  des: ['Secure payment integrations']
+                  des: ['Secure payment integrations'],
                 },
                 {
-                  des: ['Offline accessibility']
+                  des: ['Offline accessibility'],
                 },
-              ]
+              ],
             },
             `We focus on intuitive UI/UX design to reduce friction and create smooth user journeys. When customers enjoy using an app, they are more likely to return, increasing lifetime value.`,
           ],
@@ -13209,21 +13204,21 @@ brand appears in AI summaries and citations.`,
               desctioption: `Mobile apps open multiple revenue streams that traditional platforms cannot fully leverage. We help businesses generate revenue through:`,
               list: [
                 {
-                  des: ['In-app purchases']
+                  des: ['In-app purchases'],
                 },
                 {
-                  des: ['Subscription models']
+                  des: ['Subscription models'],
                 },
                 {
-                  des: ['Mobile commerce']
+                  des: ['Mobile commerce'],
                 },
                 {
-                  des: ['Advertising opportunities']
+                  des: ['Advertising opportunities'],
                 },
                 {
-                  des: ['Premium feature upgrades']
+                  des: ['Premium feature upgrades'],
                 },
-              ]
+              ],
             },
             `Additionally, apps make repeat purchases easier, increasing conversion rates and customer retention. 
             With secure payment integrations and optimized checkout flows, we help maximize sales performance.`,
@@ -13237,21 +13232,21 @@ brand appears in AI summaries and citations.`,
               desctioption: `One of the most powerful advantages of mobile apps is access to real-time data. We integrate analytics tools that track:`,
               list: [
                 {
-                  des: ['User behavior']
+                  des: ['User behavior'],
                 },
                 {
-                  des: ['Purchase patterns']
+                  des: ['Purchase patterns'],
                 },
                 {
-                  des: ['Feature usage']
+                  des: ['Feature usage'],
                 },
                 {
-                  des: ['Customer demographics']
+                  des: ['Customer demographics'],
                 },
                 {
-                  des: ['Engagement trends']
+                  des: ['Engagement trends'],
                 },
-              ]
+              ],
             },
             `This data allows companies to make informed decisions, refine marketing strategies, and continuously improve their offerings.`,
           ],
@@ -13264,21 +13259,21 @@ brand appears in AI summaries and citations.`,
               desctioption: `Mobile apps are not just customer-facing tools; they can streamline internal operations as well. We develop solutions that:`,
               list: [
                 {
-                  des: ['Automate appointment bookings']
+                  des: ['Automate appointment bookings'],
                 },
                 {
-                  des: ['Simplify inventory management']
+                  des: ['Simplify inventory management'],
                 },
                 {
-                  des: ['Improve staff communication']
+                  des: ['Improve staff communication'],
                 },
                 {
-                  des: ['Reduce manual paperwork']
+                  des: ['Reduce manual paperwork'],
                 },
                 {
-                  des: ['Enhance workflow tracking']
+                  des: ['Enhance workflow tracking'],
                 },
-              ]
+              ],
             },
             `By automating processes, companies reduce costs and improve productivity.`,
           ],
@@ -13291,18 +13286,18 @@ brand appears in AI summaries and citations.`,
               desctioption: `As companies grow, their technology must scale with them. At Adaired Digital Media, we build mobile apps with scalable architecture, ensuring:`,
               list: [
                 {
-                  des: ['Easy feature expansion']
+                  des: ['Easy feature expansion'],
                 },
                 {
-                  des: ['Integration with third-party systems']
+                  des: ['Integration with third-party systems'],
                 },
                 {
-                  des: ['High performance under increasing traffic']
+                  des: ['High performance under increasing traffic'],
                 },
                 {
-                  des: ['Long-term adaptability']
+                  des: ['Long-term adaptability'],
                 },
-              ]
+              ],
             },
             `Our development approach ensures that the app evolves alongside the business.`,
           ],
@@ -13315,18 +13310,18 @@ brand appears in AI summaries and citations.`,
               desctioption: `Customer acquisition is expensive. Retention is where real growth happens. Mobile apps help businesses build loyalty through:`,
               list: [
                 {
-                  des: ['Reward programs']
+                  des: ['Reward programs'],
                 },
                 {
-                  des: ['Exclusive offers']
+                  des: ['Exclusive offers'],
                 },
                 {
-                  des: ['Personalized recommendations']
+                  des: ['Personalized recommendations'],
                 },
                 {
-                  des: ['Faster support response']
+                  des: ['Faster support response'],
                 },
-              ]
+              ],
             },
             `We focus on creating engaging experiences that keep users coming back.`,
           ],
@@ -13626,7 +13621,7 @@ brand appears in AI summaries and citations.`,
       description: [``],
       list: [
         {
-          img: mobileAppDevProcess_7,
+          img: 'adaired/services/mobile_app_dev/Group_1000006721_nw3tvn.svg',
           name: 'Custom Development Services',
           description: [
             `Every application we build is tailored to your business goals, target audience, and industry requirements.`,
@@ -13634,7 +13629,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: mobileAppDevProcess_7,
+          img: 'adaired/services/mobile_app_dev/Group_1000006721_nw3tvn.svg',
           name: 'Agile Development Methodology',
           description: [
             `Our agile-driven process ensures flexibility, transparency, and faster time-to-market. By dividing projects into structured sprints, we enable continuous feedback, rapid iterations, and adaptive improvements.`,
@@ -13642,7 +13637,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: mobileAppDevProcess_7,
+          img: 'adaired/services/mobile_app_dev/Group_1000006721_nw3tvn.svg',
           name: 'Transparent Pricing',
           description: [
             `We maintain complete clarity in project scope, timelines, and cost structure. With detailed proposals and milestone-based delivery plans, you always know where your investment is going.`,
@@ -13650,7 +13645,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: mobileAppDevProcess_7,
+          img: 'adaired/services/mobile_app_dev/Group_1000006721_nw3tvn.svg',
           name: 'Structured Cost Evaluation',
           description: [
             `To help you estimate your investment upfront, we provide structured cost evaluation guidance based on features, platform choice, complexity, and integrations.`,
@@ -13658,7 +13653,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: mobileAppDevProcess_7,
+          img: 'adaired/services/mobile_app_dev/Group_1000006721_nw3tvn.svg',
           name: 'Proven Track Record',
           description: [
             `Our experience across diverse industries has helped businesses launch high-performing mobile applications that drive engagement and revenue.`,
@@ -14290,7 +14285,7 @@ brand appears in AI summaries and citations.`,
       isCenter: false,
       isVisible: true,
       heading2: '#1 on Google Maps: Get Seen by Local Customers',
-      isAbsolute:true,
+      isAbsolute: true,
       isStyleHeading: true,
       headingParts: [
         { text: 'From Invisible to', color: '#000000', weight: '400' },
