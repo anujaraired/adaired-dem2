@@ -50,7 +50,6 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
                 <div
                   className={`order-1 flex w-[100%] justify-center justify-items-center rounded-[20px] p-8 lg:order-2 lg:w-[40%] ${shouldUseOrange ? 'bg-[#FFF2DF]' : 'bg-[#F3F3F3]'} ${whiteBgWithBorder ? 'bg-[#FFF2DF]' : 'bg-[#F4F4F4]'}`}
                 >
-                  {/* <div className='relative lg:w-[525px] lg:h-[334px]'> */}
                   <div className="relative aspect-[525/334] w-full max-w-[525px]">
                     {typeof item?.img === 'string' ? (
                       <CldImage
