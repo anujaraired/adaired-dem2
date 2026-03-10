@@ -101,7 +101,7 @@ const KeyStats = ({ keyStats }: any) => {
               })}
             </div>
             <div className="mt-[1rem] grid grid-cols-1 gap-[1rem] lg:grid-cols-2">
-              {keyStats?.list?.slice(4, 6).map((item: any, idx: number) => {
+              {keyStats?.list?.slice(3, 9).map((item: any, idx: number) => {
                 return (
                   <div
                     className={`flex flex-col items-center rounded-[1rem] border border-[#323232]/10 bg-[#F9F9F9] p-[2rem] transition-all duration-700 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} `}
