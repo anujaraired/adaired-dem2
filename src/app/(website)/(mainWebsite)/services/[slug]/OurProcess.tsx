@@ -36,7 +36,9 @@ const OurProcess = ({ ourProcess }: any) => {
     <section
       ref={ref}
       id="services"
-      className={`${ourProcess?.bgGradient || 'bg-[#F5F5F599]'} py-[3rem] lg:py-[4rem]`}
+
+      // For making bg-gradiant fixed at one place 
+      className={`${ourProcess?.bgGradient || 'bg-[#f9f9f9]/80'} bg-fixed relative py-[3rem] lg:py-[4rem]`}
     >
       <MaxWidthWrapper>
         {/* ================= HEADING ================= */}
@@ -93,13 +95,13 @@ const OurProcess = ({ ourProcess }: any) => {
                       <path
                         key={idx}
                         d={`
-          M ${sx} ${sy}
-          A ${outerR} ${outerR} 0 ${largeArc} 1 ${ex} ${ey}
-          A ${capRadius} ${capRadius} 0 0 1 ${iex} ${iey}
-          A ${innerR} ${innerR} 0 ${largeArc} 0 ${isx} ${isy}
-          A ${capRadius} ${capRadius} 0 0 0 ${sx} ${sy}
-          Z
-        `}
+                            M ${sx} ${sy}
+                            A ${outerR} ${outerR} 0 ${largeArc} 1 ${ex} ${ey}
+                            A ${capRadius} ${capRadius} 0 0 1 ${iex} ${iey}
+                            A ${innerR} ${innerR} 0 ${largeArc} 0 ${isx} ${isy}
+                            A ${capRadius} ${capRadius} 0 0 0 ${sx} ${sy}
+                            Z
+                         `}
                         fill={activeTab === idx ? '#FB9100' : '#FBEBD5'}
                         stroke="#FFFFFF"
                         onClick={() => setActiveTab(idx)}

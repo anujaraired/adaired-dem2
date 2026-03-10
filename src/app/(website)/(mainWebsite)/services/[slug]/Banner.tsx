@@ -237,9 +237,11 @@ const Banner = ({ banner }: any) => {
               </div>
             )}
             {banner?.code === '02' && (
-              <div className="relative z-10 block justify-between gap-[3rem] py-[6rem] lg:flex">
+              <div
+                className={`relative z-10 block justify-between gap-[3rem] ${banner?.isAbsolute ? 'pt-[6rem]' : 'py-[6rem]'} lg:flex`}
+              >
                 <div
-                  className={`my-auto w-[100%] space-y-5 transition-all duration-1000 lg:w-[${banner?.width || '50%'}] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
+                  className={`my-auto w-[100%] space-y-5 transition-all duration-1000 lg:w-[${banner?.width || '50%'}] ${banner?.isAbsolute && 'pb-[6rem]'} ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
                 >
                   <div
                     className={`'grid lg:gap-[10rem]'} grid-cols-1 lg:grid-cols-2`}
@@ -261,23 +263,32 @@ const Banner = ({ banner }: any) => {
                           </div>
                         )}
                         {banner?.isStyleHeading ? (
-                          <h1
-                            className={`text-center capitalize text-[${banner?.headingColor || '#000000'}] lg:text-left ${banner?.isHeadingNormal && 'font-light'}`}
-                          >
-                            {banner?.breakIndex !== undefined ? (
-                              <>
-                                {words.slice(0, banner?.breakIndex).join(' ')}
-                                <br className="hidden md:block" />{' '}
-                                {words.slice(banner?.breakIndex).join(' ')}
-                              </>
-                            ) : (
-                              words.join(' ')
-                            )}{' '}
-                            <span
-                              className={`font-poppins text-[${banner?.heading2Color || '#000000'}] text-[clamp(1.8rem,3vw,3.75rem)] font-bold capitalize leading-[clamp(2.5rem,3.65vw,4.65rem)]`}
-                            >
-                              {banner?.heading2}
-                            </span>
+                          <h1 className="text-center capitalize lg:text-left">
+                            {banner?.headingParts
+                              ?.map((part: any) => part.text)
+                              .join(' ')
+                              .split(' ')
+                              .map((word: string, i: number) => {
+                                const part = banner.headingParts.find(
+                                  (p: any) => p.text.includes(word)
+                                );
+
+                                return (
+                                  <span
+                                    key={i}
+                                    style={{
+                                      color: part?.color,
+                                      fontWeight: part?.weight,
+                                    }}
+                                    className="text-[3.65rem] leading-[4.65rem]"
+                                  >
+                                    {word}{' '}
+                                    {banner?.breakIndex === i + 1 && (
+                                      <br className="hidden md:block" />
+                                    )}
+                                  </span>
+                                );
+                              })}
                           </h1>
                         ) : (
                           <div className="md:flex` block justify-center justify-items-center gap-3 lg:justify-start lg:justify-items-start">
@@ -345,7 +356,9 @@ const Banner = ({ banner }: any) => {
                     />
                   </div>
                 </div>
-                <div className="my-auto ml-auto w-fit pt-[4rem] lg:pt-0">
+                <div
+                  className={`${banner?.isAbsolute ? 'mt-auto' : 'my-auto'} ml-auto w-fit pt-[4rem] lg:pt-0`}
+                >
                   <Image
                     src={banner?.bgImg}
                     width={800}
