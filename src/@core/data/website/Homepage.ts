@@ -544,7 +544,7 @@ export const ServiceSectionData = {
           label: 'GEO',
           title: 'GEO',
           description: `We help businesses adapt to the shift from search results to AI-generated answers. Our GEO approach focuses on content clarity, semantic depth, and authority signals that generative engines rely on, ensuring your brand remains visible, accurate, and competitive in AI-powered discovery.`,
-          link: '/services/geo-ai-seo-company-india',
+          link: '/services/geo-service-india',
         },
         {
           icon: LinkBuilding,
@@ -777,7 +777,7 @@ export const ServiceSectionData = {
     },
     {
       title: 'Mobile App Development',
-      link: '/services/web-design-development-company',
+      link: '/services/mobile-apps-development-company',
       description:
         'We help you create high-performing mobile apps. Our team manages design, development, and deployment, delivering apps that engage users and grow your business.',
       list: [

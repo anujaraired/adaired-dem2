@@ -12,6 +12,7 @@ import { useAtom } from 'jotai';
 import { selectedContentProductAtom } from '@/store/atoms/selectedContentProductAtom';
 import { useEffect } from 'react';
 import { useMedia } from '@core/hooks/use-media';
+import MaxWidthWrapper from '../MaxWidthWrapper';
 
 export const ProductSection = ({ products }: { products: Product[] }) => {
   const [selectedProduct, setSelectedProduct] = useAtom(
@@ -32,7 +33,7 @@ export const ProductSection = ({ products }: { products: Product[] }) => {
 
   return (
     <div className={cn(`bg-[#F6FBFF]`)} id="products">
-      <SmallContainer>
+      <MaxWidthWrapper className='py-[3rem] lg:py-[4rem]'>
         <div className={cn(`space-y-[15px] pb-[40px] text-center`)}>
           <IconList
             icon={ProductSectionDetails.subHeadingIconUrl}
@@ -75,10 +76,10 @@ export const ProductSection = ({ products }: { products: Product[] }) => {
                     buttonLink={routes.eCommerce.contentProductForm(
                       product.slug
                     )}
-                    buttonClassName={`bg-[#424242] rounded-full mt-4 xs:mt-4 sm:mt-5 opt-md:mt-8 xl:mt-[55px] block xl:hidden xl:group-hover:block mx-auto`}
-                    containerClassName={`text-center p-5 sm:p-3 md:p-5 xl:p-[30px] rounded-[20px] bg-white aspect-square w-auto w-full h-full max-h-[286px] max-w-[286px] flex flex-col items-center justify-center hover:shadow-4xl transition-all duration-300 group`}
-                    titleClassName={`font-poppins text-base opt-md:text-lg 2xl:text-[20px] font-medium text-black `}
-                    iconContainerClassName={`pb-[15px]`}
+                    buttonClassName={`bg-[#424242] rounded-full mt-4 xs:mt-4 sm:mt-5 opt-md:mt-8 xl:mt-[20px] block xl:hidden xl:group-hover:block mx-auto transition-transform duration-500 ease-out`}
+                    containerClassName={`text-center p-5 sm:p-3 md:p-5 xl:p-[30px] rounded-[20px] bg-white aspect-square w-auto w-full h-full max-h-[286px] max-w-[286px] flex flex-col items-center justify-center hover:shadow-4xl group transition-transform duration-500 ease-out`}
+                    titleClassName={`font-poppins text-base opt-md:text-lg 2xl:text-[20px] font-medium text-black text-center group-hover:-translate-y-4 transition-transform duration-500 ease-out`}
+                    iconContainerClassName={`pb-[15px] group-hover:-translate-y-4 transition-transform duration-500 ease-out`}
                     btnSize={isMedium ? 'sm' : 'md'}
                     onClick={() => setSelectedProduct(product)}
                   />
@@ -91,7 +92,7 @@ export const ProductSection = ({ products }: { products: Product[] }) => {
             />
           )}
         </div>
-      </SmallContainer>
+      </MaxWidthWrapper>
     </div>
   );
 };

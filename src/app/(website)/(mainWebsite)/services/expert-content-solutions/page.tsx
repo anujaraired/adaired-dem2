@@ -9,7 +9,6 @@ import { cn } from '@core/utils/class-names';
 import parse from 'html-react-parser';
 import { Icon } from '@iconify/react';
 import TwoColumnGrid from '@core/components/twoColumnGrid';
-import SmallContainer from '@/app/(website)/components/SmallWidthContainer';
 import IconBox from '@core/components/iconBox';
 import IconList from '@core/components/iconList';
 import { Product, ProductCategory } from '@/types';
@@ -18,12 +17,17 @@ import {
   StandOutSectionDetails,
   ApproachSectionDetails,
   SurferSEOSectionDetails,
+  FAQSectionDetails,
 } from '@core/data/website/Landingpage';
-import { FAQSection } from '@web-components/eComFaqSection';
+// import FAQSection from '@web-components/eComFaqSection';
 import { EcomPageForm } from '@/app/(website)/components/forms/EcomForm';
 import CldImage from '@web-components/CloudinaryImageComponent';
 import { ProductSection } from '@web-components/ContentProducts';
 import { BaseURL } from '@/baseUrl';
+
+import ContactUsForm from '../../../components/forms/ContactForm';
+import MaxWidthWrapper from '../../../components/MaxWidthWrapper/index';
+import FAQ from '@/app/(website)/components/home/FAQ';
 
 export const metadata: Metadata = {
   title: 'Content Marketing Services & Solutions for Business Growth',
@@ -36,10 +40,10 @@ export const metadata: Metadata = {
 
 async function getProducts() {
   try {
-    const res = await fetch(`${BaseURL}/product/read-product?status=active`, {
+    const res = await fetch(`${BaseURL}products`, {
       cache: 'no-store',
     });
-
+    console.log(res, 'res121212');
     if (!res.ok) {
       console.error('Failed to fetch products:', res.status);
       return [];
@@ -64,7 +68,7 @@ const Landing = async () => {
       <ApproachSection />
       <SurferSEOSection />
       <ContactUsSection />
-      <FAQSection />
+      <FAQ faqs={FAQSectionDetails} />
     </>
   );
 };
@@ -73,23 +77,26 @@ export default Landing;
 
 const HeroSection = () => {
   return (
+
     <div
       id="heroSection"
       className={cn(
         `relative flex items-end justify-center overflow-hidden bg-[#F39019] pt-[4rem] opt-md:bg-[#FFF9F1] lg:pt-[8rem]`
       )}
     >
-      <div
-        className={cn(
-          `absolute left-0 top-0 h-[calc(100%-30px)] w-[calc(100%-15px)] rounded-br-[150px] bg-[#FFDCB2] opt-md:hidden`
-        )}
-      ></div>
-      <div
-        className={cn(
-          `absolute left-0 top-0 h-[calc(100%-41px)] w-[calc(100%-15px)] rounded-br-[150px] bg-[#FFF9F1] sm:h-[calc(100%-45px)] opt-md:hidden`
-        )}
-      ></div>
-      <SmallContainer className="relative z-[2] grid !pb-0 opt-md:!pt-0 3xl:!pb-0 3xl:!pt-14">
+      {/* <div
+          className={cn(
+            `absolute left-0 top-0 h-[calc(100%-30px)] w-[calc(100%-15px)] rounded-br-[150px] bg-[#FFDCB2] opt-md:hidden`
+          )}
+        ></div> */}
+
+      {/* <div
+          className={cn(
+            `absolute left-0 top-0 h-[calc(100%-41px)] w-[calc(100%-15px)] rounded-br-[150px] bg-[#FFF9F1] sm:h-[calc(100%-45px)] opt-md:hidden`
+          )}
+        ></div> */}
+
+      <MaxWidthWrapper className="relative z-[2] grid !pb-0 opt-md:!pt-0 3xl:!pb-0 3xl:!pt-14">
         <div
           className={cn(
             `absolute bottom-1/2 left-[calc(100%-400px)] hidden h-[calc(100%+145px)] w-full translate-y-1/2 rounded-tl-[250px] bg-[#FFDCB2] opt-md:block xl:h-[calc(100%+105px)] 2xl:h-full`
@@ -172,13 +179,15 @@ const HeroSection = () => {
             />
           </div>
         </TwoColumnGrid>
-      </SmallContainer>
+      </MaxWidthWrapper>
     </div>
   );
 };
+
 const StandOutSection = () => {
   return (
-    <SmallContainer id="standoutSection">
+    // <SmallContainer id="standoutSection">
+    <MaxWidthWrapper className='py-[3rem] lg:py-[4rem]'>
       <TwoColumnGrid
         className={cn(`grid-cols-1 gap-10 opt-md:grid-cols-2 opt-md:gap-10`)}
       >
@@ -224,12 +233,14 @@ const StandOutSection = () => {
           </div>
         </div>
       </TwoColumnGrid>
-    </SmallContainer>
+    </MaxWidthWrapper>
   );
 };
+
 const ApproachSection = () => {
   return (
-    <SmallContainer id="approachSection">
+    // <SmallContainer id="approachSection">
+    <MaxWidthWrapper className='py-[3rem] lg:py-[4rem]'>
       <>
         <h2
           className={cn(
@@ -262,16 +273,17 @@ const ApproachSection = () => {
           );
         })}
       </div>
-    </SmallContainer>
+    </MaxWidthWrapper>
   );
 };
+
 const SurferSEOSection = () => {
   return (
     <section
       className={cn('overflow-hidden bg-[#FFFBF5]')}
       id="surferSeoSection"
     >
-      <SmallContainer>
+      <MaxWidthWrapper className='py-[3rem] lg:py-[4rem]'>
         <div className={cn(`flex items-start gap-2 py-0`)}>
           <Image
             src={SurferSEOSectionDetails.icon}
@@ -322,13 +334,15 @@ const SurferSEOSection = () => {
             </div>
           </div>
         </TwoColumnGrid>
-      </SmallContainer>
+      </MaxWidthWrapper>
     </section>
   );
 };
+
 const ContactUsSection = () => {
   return (
-    <SmallContainer id="contact">
+    // <SmallContainer id="contact">
+    <MaxWidthWrapper className='py-[3rem] lg:py-[4rem]'>
       <TwoColumnGrid
         className={cn(
           `grid-cols-1 place-items-center gap-10 opt-md:grid-cols-2 opt-md:gap-x-20`
@@ -341,11 +355,12 @@ const ContactUsSection = () => {
             height={635}
             width={635}
             quality={100}
-            // sizes="(min-width: 808px) 50vw, 100vw"
+          // sizes="(min-width: 808px) 50vw, 100vw"
           />
         </div>
-        <div className={cn(`h-full w-full max-w-[635px] opt-md:pr-5`)}>
-          <div
+        <div className={cn(`h-full w-full opt-md:pr-5`)}>
+          <ContactUsForm />
+          {/* <div
             className={cn(
               `flex h-full w-full flex-col items-center justify-center rounded-[15px] border p-10`
             )}
@@ -371,9 +386,9 @@ const ContactUsSection = () => {
               </p>
             </div>
             <EcomPageForm />
-          </div>
+          </div> */}
         </div>
       </TwoColumnGrid>
-    </SmallContainer>
+    </MaxWidthWrapper>
   );
 };
