@@ -969,7 +969,7 @@ export const SERVICES_DATA = {
       ],
       list: [
         {
-          img: adairedHelp_4,
+          img: "adaired/services/seo/adairedSEO8_qrb7xh.png",
           name: 'Customized SEO Strategies',
           description: [
             `Adaired develops customized search engine optimization plans according to your business objectives, target market, and competition in the industry. We do not apply templates and standardized checklists.`,
@@ -977,7 +977,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_7,
+          img: "adaired/services/seo/adairedSEO2_cvwllu",
           name: 'Data-Driven Decision Making',
           description: [
             `Our SEO services are guided by real data, not assumptions. We make use of advanced analytics, performance measurement, and search intelligence to optimize campaigns on a continuous basis.`,
@@ -985,7 +985,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_8,
+          img: "adaired/services/seo/adairedSEO2_cvwllu",
           name: 'Focus on Revenue, Not Just Rankings',
           description: [
             `Higher rankings alone don’t grow businesses. Adaired focuses on the SEO strategies, which will provide qualified traffic, leads, and sales.`,
@@ -993,7 +993,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_15,
+          img: "adaired/services/seo/adairedSEO2_cvwllu",
           name: 'Complete SEO Expertise Under One Roof',
           description: [
             `From technical SEO and on-page optimization to content creation, link building, and local optimization, Adaired covers every SEO pillar.`,
@@ -1001,7 +1001,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_13,
+          img: "adaired/services/seo/adairedSEO2_cvwllu",
           name: 'Transparent Reporting & Communication',
           description: [
             `We believe in full transparency. Adaired offers effective, understandable SEO reports with the focus on progress, results, and future actions.`,
@@ -1009,7 +1009,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_12,
+          img: "adaired/services/seo/adairedSEO2_cvwllu",
           name: 'White-Hat, Google-Compliant SEO',
           description: [
             `Adaired follows ethical, white-hat SEO practices aligned with Google’s guidelines. We avoid risky shortcuts and spam methods that lead to penalties.`,
@@ -1017,7 +1017,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_14,
+          img: "adaired/services/seo/adairedSEO2_cvwllu",
           name: 'Continuous Optimization & Algorithm Readiness',
           description: [
             `Search algorithms are constantly evolving, and so are our strategies.  Adaired constantly monitors updates, user actions, and performance patterns to optimize the campaigns.`,
@@ -1025,7 +1025,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_16,
+          img: "adaired/services/seo/adairedSEO2_cvwllu",
           name: 'Client-Centric Partnership Approach',
           description: [
             `We do not provide just SEO; we build partnerships. Adaired works closely with its clients to understand challenges, create strategies, and adapt with the business.`,
