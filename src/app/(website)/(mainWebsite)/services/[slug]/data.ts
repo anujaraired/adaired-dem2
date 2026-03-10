@@ -13018,14 +13018,26 @@ brand appears in AI summaries and citations.`,
     banner: {
       code: '02',
       isVisible: true,
-      heading2: 'App Developers',
-      subheading: '',
       subtitle: '#1 Mobile App Development Company',
-
-      isHeadingNormal: true,
-      heading2Color: '#FB9100',
-      breakIndex: 4,
-      heading: 'Custom iOS & Android',
+      isStyleHeading: true,
+      headingParts: [
+        {
+          text: 'From Invisible to',
+          color: '#000000',
+          weight: '700',
+        },
+        {
+          text: ' #1 on Google Maps: ',
+          color: '#FB9100',
+          weight: '700',
+        },
+                {
+          text: 'Get Seen by Local Customers',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      breakIndex: 6,
       desc: [
         `Take your brand to your users’ fingertips with high-performance mobile apps designed to increase reach, engagement, and growth.`,
       ],
