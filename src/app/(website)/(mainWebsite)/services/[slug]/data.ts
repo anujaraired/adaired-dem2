@@ -13548,7 +13548,7 @@ brand appears in AI summaries and citations.`,
       description: [
         `We follow a structured, agile-driven approach to deliver high-performance mobile applications that align with your business goals.`,
       ],
-     bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0]',
+      bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0]',
 
       services: [
         {
@@ -13688,7 +13688,7 @@ brand appears in AI summaries and citations.`,
       description: [``],
       list: [
         {
-          img: 'adaired/services/mobile_app_dev/Group_1000006721_nw3tvn.svg',
+          img: mobileAppDevWhatMkDiffImg_1,
           name: 'Custom Development Services',
           description: [
             `Every application we build is tailored to your business goals, target audience, and industry requirements.`,
@@ -13696,7 +13696,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: 'adaired/services/mobile_app_dev/Group_1000006721_nw3tvn.svg',
+          img: mobileAppDevWhatMkDiffImg_2,
           name: 'Agile Development Methodology',
           description: [
             `Our agile-driven process ensures flexibility, transparency, and faster time-to-market. By dividing projects into structured sprints, we enable continuous feedback, rapid iterations, and adaptive improvements.`,
@@ -13704,7 +13704,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: 'adaired/services/mobile_app_dev/Group_1000006721_nw3tvn.svg',
+          img: mobileAppDevWhatMkDiffImg_3,
           name: 'Transparent Pricing',
           description: [
             `We maintain complete clarity in project scope, timelines, and cost structure. With detailed proposals and milestone-based delivery plans, you always know where your investment is going.`,
@@ -13712,7 +13712,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: 'adaired/services/mobile_app_dev/Group_1000006721_nw3tvn.svg',
+          img: mobileAppDevWhatMkDiffImg_4,
           name: 'Structured Cost Evaluation',
           description: [
             `To help you estimate your investment upfront, we provide structured cost evaluation guidance based on features, platform choice, complexity, and integrations.`,
@@ -13720,7 +13720,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: 'adaired/services/mobile_app_dev/Group_1000006721_nw3tvn.svg',
+          img: mobileAppDevWhatMkDiffImg_5,
           name: 'Proven Track Record',
           description: [
             `Our experience across diverse industries has helped businesses launch high-performing mobile applications that drive engagement and revenue.`,

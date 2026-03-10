@@ -25,7 +25,7 @@ const LaunchMobileApp = ({ handleClick }: any) => {
                 width={424}
                 height={413}
                 priority
-                className="absolute bottom-0 right-0 pointer-events-none rounded-2xl"
+                className="absolute w-[clamp(12rem,25vw,26rem)] bottom-0 right-0 pointer-events-none rounded-2xl"
             />
             <div className="absolute left-[2.5rem] right-[5rem] top-[2rem] h-full">
                 <h1 className="text-center text-white lg:text-left font-normal">
@@ -39,11 +39,11 @@ const LaunchMobileApp = ({ handleClick }: any) => {
                     Experts
                 </h1>
 
-                <p className="pt-[2rem] text-white font-semibold">
+                <p className="pt-[2rem] text-white font-semibold text-center lg:text-left">
                     Custom Android and iOS apps built to
                 </p>
 
-                <p className="text-white font-semibold">
+                <p className="text-white font-semibold text-center lg:text-left">
                     scale with your business.
                 </p>
 
