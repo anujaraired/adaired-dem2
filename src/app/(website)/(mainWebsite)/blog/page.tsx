@@ -64,12 +64,12 @@ const Blog = async () => {
 
   return (
     <>
-      <PageBanner subTitle={'Latest'} title="BLOGS" />
+      <PageBanner subTitle={'Latest'} title="OUR BLOGS" />
       <MaxWidthWrapper className="pb-[6rem] pt-[3rem] lg:py-[4rem] lg:pb-[10rem] xl:pb-[12rem] xl:pt-[6rem]">
         <div className="">
           <Heading
             isLabel={true}
-            subTitle={'BLOG'}
+            subTitle={'Our BLOGS'}
             breakIndex={3}
             title={`Digital Agency That Turns Businesses Into Brands`}
           />

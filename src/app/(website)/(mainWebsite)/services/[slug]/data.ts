@@ -969,7 +969,7 @@ export const SERVICES_DATA = {
       ],
       list: [
         {
-          img: adairedHelp_4,
+          img: "adaired/services/seo/adairedSEO8_qrb7xh.png",
           name: 'Customized SEO Strategies',
           description: [
             `Adaired develops customized search engine optimization plans according to your business objectives, target market, and competition in the industry. We do not apply templates and standardized checklists.`,
@@ -977,7 +977,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_7,
+          img: "adaired/services/seo/adairedSEO2_cvwllu",
           name: 'Data-Driven Decision Making',
           description: [
             `Our SEO services are guided by real data, not assumptions. We make use of advanced analytics, performance measurement, and search intelligence to optimize campaigns on a continuous basis.`,
@@ -985,7 +985,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_8,
+          img: "adaired/services/seo/adairedSEO2_cvwllu",
           name: 'Focus on Revenue, Not Just Rankings',
           description: [
             `Higher rankings alone don’t grow businesses. Adaired focuses on the SEO strategies, which will provide qualified traffic, leads, and sales.`,
@@ -993,7 +993,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_15,
+          img: "adaired/services/seo/adairedSEO2_cvwllu",
           name: 'Complete SEO Expertise Under One Roof',
           description: [
             `From technical SEO and on-page optimization to content creation, link building, and local optimization, Adaired covers every SEO pillar.`,
@@ -1001,7 +1001,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_13,
+          img: "adaired/services/seo/adairedSEO2_cvwllu",
           name: 'Transparent Reporting & Communication',
           description: [
             `We believe in full transparency. Adaired offers effective, understandable SEO reports with the focus on progress, results, and future actions.`,
@@ -1009,7 +1009,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_12,
+          img: "adaired/services/seo/adairedSEO2_cvwllu",
           name: 'White-Hat, Google-Compliant SEO',
           description: [
             `Adaired follows ethical, white-hat SEO practices aligned with Google’s guidelines. We avoid risky shortcuts and spam methods that lead to penalties.`,
@@ -1017,7 +1017,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_14,
+          img: "adaired/services/seo/adairedSEO2_cvwllu",
           name: 'Continuous Optimization & Algorithm Readiness',
           description: [
             `Search algorithms are constantly evolving, and so are our strategies.  Adaired constantly monitors updates, user actions, and performance patterns to optimize the campaigns.`,
@@ -1025,7 +1025,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelp_16,
+          img: "adaired/services/seo/adairedSEO2_cvwllu",
           name: 'Client-Centric Partnership Approach',
           description: [
             `We do not provide just SEO; we build partnerships. Adaired works closely with its clients to understand challenges, create strategies, and adapt with the business.`,
@@ -2548,7 +2548,7 @@ brand appears in AI summaries and citations.`,
           title: 'Strategy & Goal Alignment',
           description: [
             `Looking at what we have learned in our analysis, we develop a tailor-made authority link-building strategy that is in tandem with your business objectives.`,
-            `Be it rankings or traffic, brand visibility, we establish the type of links, target pages, and anchor text strategy so that we can have long-term and seamless growth in SEO.`,
+            `Be it rankings, traffic, or brand visibility, we establish the type of links, target pages, and anchor text strategy so that we can have long-term and seamless growth in SEO. This approach ensures each backlink boosts domain authority, rankings, and organic growth.`,
           ],
         },
         {
@@ -2556,7 +2556,7 @@ brand appears in AI summaries and citations.`,
           title: 'Prospecting High-Authority Websites',
           description: [
             `Highly authoritative, niche-relevant sites are identified and qualified by our team on the basis of rigid criteria like the domain strength, organic traffic, and editorial quality.`,
-            `Adaired ensures each prospect meets our quality standards, guaranteeing that every backlink adds real value and strengthens your website’s overall authority.`,
+            `Adaired ensures each prospect meets our quality standards, guaranteeing that every backlink adds real value and strengthens your website’s overall authority. This process helps maintain a strong, natural backlink profile that supports long-term SEO performance and credibility.`,
           ],
         },
         {
@@ -4542,43 +4542,54 @@ brand appears in AI summaries and citations.`,
       subtitle: 'Our Process',
       title: 'How Our White Label Social Media Management Works',
       span: '',
-      description: `A structured process ensures consistency and measurable results. Our white label social media management approach includes:`,
-      bgGradient: 'bg-gradient-to-b from-[#FFFFFF] via-[#fffcf8] to-[#FFF8F0]',
+      description: `A structured process ensures consistency and measurable results. Our white-label social media management approach includes:`,
+      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
       services: [
         {
           icon: stepwhitelabelsocialmedia1,
           title: 'Discovery & Onboarding',
           description: [
-            `We align with your agency’s goals, branding, and client expectations.`,
+            `Every successful campaign starts with clarity and alignment. During onboarding, we take time to understand your agency’s positioning, tone, and service expectations.`,"We review your agency branding guidelines; your client’s business goals and target audience; industry landscape; competitor presence; and platform priorities (such as Facebook, Instagram, LinkedIn, or X). This ensures that everything we produce aligns seamlessly with your brand identity and your client’s expectations."
           ],
         },
         {
           icon: stepwhitelabelsocialmedia2,
-          title: 'Strategy Development',
+          title: 'Competitor & Market Analysis',
           description: [
-            `Our team builds a tailored social media marketing strategy for each client, aligned with their industry and audience.`,
+            `Before building the strategy, we conduct detailed competitor and industry research to identify content gaps and positioning opportunities. This includes competitor content performance review, industry trend analysis, benchmarking engagement rates, identifying high-performing formats, and spotting differentiation opportunities.`,
+            "By analyzing competitors across platforms like Instagram, Facebook, LinkedIn, and X, we create strategies that help your clients stand out instead of blending in."
           ],
         },
         {
           icon: stepwhitelabelsocialmedia3,
-          title: 'Content Creation & Approval',
+          title: 'Strategy Development',
           description: [
-            `We develop branded content and campaigns that reflect your client’s voice and positioning.`,
+            `Once we understand the objectives, our team builds a tailored social media marketing strategy for each client. This includes audience research and content mapping, platform-specific growth plans, content themes and campaign direction, posting frequency and engagement strategy, and KPI selection aligned with business goals.`,
+            "Whether your client is focused on brand awareness, lead generation, or community building, the strategy is customized to drive measurable impact."
           ],
         },
         {
           icon: stepwhitelabelsocialmedia4,
-          title: 'Publishing & Engagement',
+          title: 'Content Creation & Approval',
           description: [
-            `Content is scheduled and monitored across platforms, ensuring consistent brand presence.`,
+            `Execution is where creativity meets brand consistency. Our team develops branded graphics and visual creatives, captions tailored to audience psychology, hashtag strategies for improved discoverability, and promotional campaigns and content calendars.`,
+            "Before publishing, everything goes through an approval workflow, either with your agency or directly with your client (fully branded as your company). This ensures full transparency while maintaining your ownership of the relationship."
           ],
         },
         {
           icon: stepwhitelabelsocialmedia5,
-          title: 'Reporting & Optimization',
+          title: 'Publishing & Engagement',
           description: [
-            `With our white label social media management approach, you get detailed performance insights branded under your name.`,
-            `This streamlined process allows agencies to deliver reliable results without operational strain.`,
+            `After approval, content is scheduled and managed across platforms using structured publishing workflows. We ensure consistent posting schedules, platform-optimized formatting, active monitoring of comments and interactions, and community engagement aligned with brand tone.`,
+            `This keeps your clients visible, active, and relevant in their market, without requiring your internal team to manage day-to-day execution.`,
+          ],
+        },
+                {
+          icon: stepwhitelabelsocialmedia5,
+          title: 'Publishing & Engagement',
+          description: [
+            `Performance tracking is essential for long-term success. With our white-label social media management approach, you receive branded monthly performance reports, engagement, reach, and growth metrics, audience behavior insights, and strategic recommendations for improvement.`,
+            `We continuously analyze results and refine content strategy to improve performance over time. This streamlined process allows agencies to deliver reliable results without operational strain.`,
           ],
         },
       ],
