@@ -454,6 +454,31 @@ import mobileAppDevTechStackImg_2 from '../../../../../../public/assets/images/s
 import mobileAppDevTechStackImg_3 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_3.png';
 import mobileAppDevTechStackImg_4 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_4.png';
 import mobileAppDevTechStackImg_5 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_5.png';
+import mobileAppDevTechStackImg_6 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_6.png';
+import mobileAppDevTechStackImg_7 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_7.png';
+import mobileAppDevTechStackImg_8 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_8.png';
+import mobileAppDevTechStackImg_9 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_9.png';
+import mobileAppDevTechStackImg_10 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_10.png';
+import mobileAppDevTechStackImg_11 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_11.png';
+import mobileAppDevTechStackImg_12 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_12.png';
+import mobileAppDevTechStackImg_13 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_13.png';
+import mobileAppDevTechStackImg_14 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_14.png';
+import mobileAppDevTechStackImg_15 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_15.png';
+import mobileAppDevTechStackImg_16 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_16.png';
+import mobileAppDevTechStackImg_17 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_17.png';
+import mobileAppDevTechStackImg_18 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_18.png';
+import mobileAppDevTechStackImg_19 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_19.png';
+import mobileAppDevTechStackImg_20 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_20.png';
+import mobileAppDevTechStackImg_21 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_21.png';
+import mobileAppDevTechStackImg_22 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_22.png';
+import mobileAppDevTechStackImg_23 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_23.png';
+import mobileAppDevTechStackImg_24 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_24.png';
+import mobileAppDevTechStackImg_25 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_25.png';
+import mobileAppDevTechStackImg_26 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_26.png';
+import mobileAppDevTechStackImg_27 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_27.png';
+import mobileAppDevTechStackImg_28 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_28.png';
+import mobileAppDevTechStackImg_29 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_29.png';
+import mobileAppDevTechStackImg_30 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_30.png';
 
 // GBP local Seo Images
 import gbplocalSeoBannerBg from '../../../../../../public/assets/images/services/gbpLocalSeo/gbplocalSeoBannerBg.png';
@@ -13581,29 +13606,51 @@ brand appears in AI summaries and citations.`,
         'Database Management',
         'Cloud & DevOps',
         'UI/UX & Prototyping Tools',
-        // 'API & Integrations',
+        'API & Integrations',
       ],
       list: [
-        {
-          image: mobileAppDevTechStackImg_1,
-          desc: 'Swift (iOS Development)',
-        },
-        {
-          image: mobileAppDevTechStackImg_2,
-          desc: 'Kotlin (Android Development)',
-        },
-        {
-          image: mobileAppDevTechStackImg_3,
-          desc: 'React Native',
-        },
-        {
-          image: mobileAppDevTechStackImg_4,
-          desc: 'Flutter',
-        },
-        {
-          image: mobileAppDevTechStackImg_5,
-          desc: 'Xamarin',
-        },
+        [
+          { image: mobileAppDevTechStackImg_1, desc: 'Swift (iOS Development)' },
+          { image: mobileAppDevTechStackImg_2, desc: 'Kotlin (Android Development)' },
+          { image: mobileAppDevTechStackImg_3, desc: 'React Native' },
+          { image: mobileAppDevTechStackImg_4, desc: 'Flutter' },
+          { image: mobileAppDevTechStackImg_5, desc: 'Xamarin' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_6, desc: 'Node.js' },
+          { image: mobileAppDevTechStackImg_7, desc: 'Python' },
+          { image: mobileAppDevTechStackImg_8, desc: 'PHP' },
+          { image: mobileAppDevTechStackImg_9, desc: '.NET Core' },
+          { image: mobileAppDevTechStackImg_10, desc: 'Java' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_11, desc: 'MySQL' },
+          { image: mobileAppDevTechStackImg_12, desc: 'PostgreSQL' },
+          { image: mobileAppDevTechStackImg_13, desc: 'MongoDB' },
+          { image: mobileAppDevTechStackImg_14, desc: 'Firebase Realtime Database' },
+          { image: mobileAppDevTechStackImg_15, desc: 'SQLite' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_16, desc: 'AWS' },
+          { image: mobileAppDevTechStackImg_17, desc: 'Microsoft Azure' },
+          { image: mobileAppDevTechStackImg_18, desc: 'Google Cloud Platform' },
+          { image: mobileAppDevTechStackImg_19, desc: 'Docker' },
+          { image: mobileAppDevTechStackImg_20, desc: 'Kubernetes' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_21, desc: 'Figma' },
+          { image: mobileAppDevTechStackImg_22, desc: 'Adobe XD' },
+          { image: mobileAppDevTechStackImg_23, desc: 'Sketch' },
+          { image: mobileAppDevTechStackImg_24, desc: 'InVision' },
+          { image: mobileAppDevTechStackImg_25, desc: 'Ux Pin' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_26, desc: 'RESTful APIs' },
+          { image: mobileAppDevTechStackImg_27, desc: 'GraphQL' },
+          { image: mobileAppDevTechStackImg_28, desc: 'Payment Gateway Integration' },
+          { image: mobileAppDevTechStackImg_29, desc: 'Social Media Integration' },
+          { image: mobileAppDevTechStackImg_30, desc: 'Third-party API Integration' },
+        ],
       ],
     },
 
@@ -13740,6 +13787,7 @@ brand appears in AI summaries and citations.`,
         },
       ],
     },
+
     keyStats: {
       isVisible: false,
       code: '11',
@@ -13776,6 +13824,7 @@ brand appears in AI summaries and citations.`,
         },
       ],
     },
+
     dataInTable: {
       isVisible: false,
       isInCenter: true,
