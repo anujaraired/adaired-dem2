@@ -5,6 +5,7 @@ import Image from 'next/image';
 import adairedHelpImg from '../../../../../../public/assets/aiseo/adairedHelp.png';
 // import chat from '../../../../../../public/assets/icons/chat.svg';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
+import { TbPointFilled } from 'react-icons/tb';
 
 const AdairedHelp = ({ adairedHelp }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.1);
@@ -69,11 +70,56 @@ const AdairedHelp = ({ adairedHelp }: any) => {
                 <h3 className="pt-[1.5rem]">{item?.name}</h3>
 
                 <div className="pt-2">
-                  {item?.description?.map((desc: string, i: number) => (
+                  {/* {item?.description?.map((desc: string, i: number) => (
                     <p key={i} className="my-3">
                       {desc}
                     </p>
-                  ))}
+                  ))} */}
+
+
+
+                  {item?.description?.map((dec: any, index: number) => {
+
+                    if (typeof dec === "string") {
+                      return (
+                        <p key={index} className="py-3">
+                          {dec}
+                        </p>
+                      );
+                    }
+
+                    if (typeof dec === "object") {
+                      return (
+                        <div key={index} className="py-3">
+                          {dec?.desctioption && (
+                            <p className="pb-[1rem]">
+                              {dec.desctioption}
+                            </p>
+                          )}
+
+                          {dec?.list && (
+                            <ul className="space-y-3">
+                              {dec.list.map((listItem: any, i: number) => (
+                                <li key={i}>
+                                  {listItem?.des?.map((d: string, di: number) => (
+                                    <div
+                                      key={di}
+                                      className="flex items-center gap-3"
+                                    >
+                                      <TbPointFilled size={11} />
+                                      <p className='text-left'>{d}</p>
+                                    </div>
+                                  ))}
+                                </li>
+                              ))}
+                            </ul>
+                          )}
+                        </div>
+                      );
+                    }
+
+                    return null;
+                  })}
                 </div>
               </div>
             ))}

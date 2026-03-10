@@ -427,6 +427,7 @@ import geoAiSeoWhatServiceImg from '../../../../../../public/assets/images/servi
 import mobileAppDevBannerBg from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevBannerBg.png';
 import mobileAppDevAdairedHelpImg from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevAdairedHelpImg.png';
 import mobileAppDevWhatService from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevWhatService.png';
+import mobileAppDevBuildLinkImg from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevBuildLinkImg.png';
 
 import mobileAppDevProcess_1 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevProcess_1.png';
 import mobileAppDevProcess_2 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevProcess_2.png';
@@ -441,6 +442,18 @@ import mobileAppDevImpIcon_2 from '../../../../../../public/assets/images/servic
 import mobileAppDevImpIcon_3 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevImpIcon_3.png';
 import mobileAppDevImpIcon_4 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevImpIcon_4.png';
 import mobileAppDevImpIcon_5 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevImpIcon_5.png';
+
+import mobileAppDevWhatMkDiffImg_1 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevWhatMkDiffImg_1.png';
+import mobileAppDevWhatMkDiffImg_2 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevWhatMkDiffImg_2.png';
+import mobileAppDevWhatMkDiffImg_3 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevWhatMkDiffImg_3.png';
+import mobileAppDevWhatMkDiffImg_4 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevWhatMkDiffImg_4.png';
+import mobileAppDevWhatMkDiffImg_5 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevWhatMkDiffImg_5.png';
+
+import mobileAppDevTechStackImg_1 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_1.png';
+import mobileAppDevTechStackImg_2 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_2.png';
+import mobileAppDevTechStackImg_3 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_3.png';
+import mobileAppDevTechStackImg_4 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_4.png';
+import mobileAppDevTechStackImg_5 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_5.png';
 
 // GBP local Seo Images
 import gbplocalSeoBannerBg from '../../../../../../public/assets/images/services/gbpLocalSeo/gbplocalSeoBannerBg.png';
@@ -465,6 +478,7 @@ export type SectionKey =
   | 'leadingTools'
   | 'whatIncluded'
   | 'ourProcess'
+  | 'techStackMobile'
   | 'whatMissing'
   | 'stopStruggling'
   | 'whatMkeDeferent'
@@ -980,6 +994,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       variant: '01',
       breakIndex: 4,
+      bgGradient: '',
       heading: 'What Makes Adaired Different From Our Competitors?',
       description: [
         `At Adaired, we have a clear plan for building your search engine optimization strategy. Starting with understanding your goals clearly to analyzing where you are losing search visibility, we do all the legwork to help your business uncover quick wins.`,
@@ -1640,6 +1655,7 @@ export const SERVICES_DATA = {
       breakIndex: 4,
       isInCenter: true,
       bgColor: '#FFFFFF',
+      bgGradient: '',
       heading: 'What Makes Adaired Different From Our Competitors?',
       description: [],
       list: [
@@ -2485,6 +2501,7 @@ brand appears in AI summaries and citations.`,
       isVariant: '02',
       isInCenter: true,
       bgColor: true,
+      bgGradient: '',
       heading: 'What Makes Adaired Different From Our Competitors?',
       description: [],
       list: [
@@ -3133,6 +3150,7 @@ brand appears in AI summaries and citations.`,
     whatMkeDeferent: {
       isVisible: true,
       isVariant: '02',
+      bgGradient: '',
       heading:
         'What Makes Adaired Stand Out As The Best Website Design & Development Service Provider?',
       description: [
@@ -3802,6 +3820,7 @@ brand appears in AI summaries and citations.`,
       breakIndex: 5,
       bgColor: true,
       isInCenter: true,
+      bgGradient: '',
       heading: 'Why Choose Adaired for Your Local Search Engine Optimization ?',
       description: [],
       list: [
@@ -4693,6 +4712,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       breakIndex: 5,
       isInCenter: false,
+      bgGradient: '',
       heading: 'Why Choose Adaired as Your White Label Social Media Partner?',
       description: [
         `Selecting the right white label social media agency directly impacts your client satisfaction, service quality, and long-term growth. 
@@ -5533,6 +5553,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '02',
       isInCenter: true,
+      bgGradient: '',
       heading: 'How White Label SEO Works at Adaired',
       bgColor: true,
       description: [
@@ -6481,6 +6502,7 @@ brand appears in AI summaries and citations.`,
       isVisible: false,
       isVariant: '01',
       heading: ``,
+      bgGradient: '',
       description: [
         `Our white-label model is designed to reduce execution pressure while providing agencies with 
         complete control over how services are positioned, priced, and presented to clients. 
@@ -7614,6 +7636,7 @@ brand appears in AI summaries and citations.`,
       isVisible: false,
       isVariant: '01',
       heading: ``,
+      bgGradient: '',
       description: [
         `Our white-label model is designed to reduce execution pressure while providing agencies with 
         complete control over how services are positioned, priced, and presented to clients. 
@@ -8832,6 +8855,7 @@ brand appears in AI summaries and citations.`,
       isVisible: false,
       isVariant: '01',
       heading: ``,
+      bgGradient: '',
       description: [
         `Our white-label model is designed to reduce execution pressure while providing agencies with 
         complete control over how services are positioned, priced, and presented to clients. 
@@ -9404,6 +9428,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '02',
       breakIndex: 3,
+      bgGradient: '',
       heading: `Who Our White Label Link Building Is For`,
       description: [
         `Our white-label link-building services are designed for growth-focused teams that want to deliver powerful SEO results without building an in-house outreach department.`,
@@ -10398,6 +10423,7 @@ brand appears in AI summaries and citations.`,
       breakIndex: 3,
       isInCenter: true,
       bgColor: true,
+      bgGradient: '',
       heading: `Why Leading SaaS Brands Choose Adaired Digital`,
       description: [``],
       list: [
@@ -11537,6 +11563,7 @@ brand appears in AI summaries and citations.`,
       breakIndex: 3,
       isInCenter: true,
       bgColor: true,
+      bgGradient: '',
       heading: `Why Leading SaaS Brands Choose Adaired Digital`,
       description: [``],
       list: [
@@ -12379,6 +12406,7 @@ brand appears in AI summaries and citations.`,
       breakIndex: 5,
       isVariant: '02',
       heading: `What Sets Our AI Search Strategy Apart`,
+      bgGradient: '',
       description: [
         `AI search optimization requires more than surface-level SEO updates. Our approach is built around long-term authority positioning, technical precision, and strategic clarity, not short-term tactics.`,
       ],
@@ -12922,12 +12950,13 @@ brand appears in AI summaries and citations.`,
       'adairedHelp',
       'importantToBussiness',
       'ourProcess',
+      'techStackMobile',
       'whatMkeDeferent',
       'buildlinks',
       'faqData',
+      'keyStats',
       'dataInTable',
       'whatMissing',
-      'keyStats',
       'whatIncluded',
       'needofservice',
       'serviceResult',
@@ -13042,24 +13071,54 @@ brand appears in AI summaries and citations.`,
           img: '',
           name: 'Personalized Customer Engagement',
           description: [
-            `Modern customers expect instant communication and personalized experiences. With a mobile app, we help businesses create a direct channel to their audience through:`,
+            {
+              desctioption: 'Modern customers expect instant communication and personalized experiences. With a mobile app, we help businesses create a direct channel to their audience through:',
+              list: [
+                {
+                  des: ['Custom iPhone and iPad app development']
+                },
+                {
+                  des: ['Swift-based app development']
+                },
+                {
+                  des: ['UI/UX design aligned with Apple guidelines']
+                },
+                {
+                  des: ['App Store submission & deployment support']
+                },
+                {
+                  des: ['Ongoing maintenance and updates']
+                },
+              ]
+            },
             `Unlike social media platforms or email marketing, where algorithms limit reach, mobile apps give us full control over customer engagement. 
             This ensures consistent brand communication and stronger relationships.`,
           ],
         },
         {
           img: '',
-          name: 'Intent Understanding, Not Just Keywords',
-          description: [
-            `Forget keyword matching. Generative AI has changed the game by understanding why you’re searching.`,
-            `It doesn’t just find pages with your words on them; it figures out your intent and delivers answers that hit the mark with precision and clarity.`,
-          ],
-        },
-        {
-          img: '',
           name: 'Improved Customer Experience (CX)',
           description: [
-            `User experience directly impacts customer retention. Mobile apps provide:`,
+            {
+              desctioption: `User experience directly impacts customer retention. Mobile apps provide:`,
+              list: [
+                {
+                  des: ['Faster loading speeds than mobile websites']
+                },
+                {
+                  des: ['Seamless navigation']
+                },
+                {
+                  des: ['Simplified checkout processes']
+                },
+                {
+                  des: ['Secure payment integrations']
+                },
+                {
+                  des: ['Offline accessibility']
+                },
+              ]
+            },
             `We focus on intuitive UI/UX design to reduce friction and create smooth user journeys. When customers enjoy using an app, they are more likely to return, increasing lifetime value.`,
           ],
         },
@@ -13067,7 +13126,26 @@ brand appears in AI summaries and citations.`,
           img: '',
           name: 'Increased Revenue & Monetization Opportunities',
           description: [
-            `Mobile apps open multiple revenue streams that traditional platforms cannot fully leverage. We help businesses generate revenue through:`,
+            {
+              desctioption: `Mobile apps open multiple revenue streams that traditional platforms cannot fully leverage. We help businesses generate revenue through:`,
+              list: [
+                {
+                  des: ['In-app purchases']
+                },
+                {
+                  des: ['Subscription models']
+                },
+                {
+                  des: ['Mobile commerce']
+                },
+                {
+                  des: ['Advertising opportunities']
+                },
+                {
+                  des: ['Premium feature upgrades']
+                },
+              ]
+            },
             `Additionally, apps make repeat purchases easier, increasing conversion rates and customer retention. 
             With secure payment integrations and optimized checkout flows, we help maximize sales performance.`,
           ],
@@ -13076,7 +13154,26 @@ brand appears in AI summaries and citations.`,
           img: '',
           name: 'Data-Driven Decision Making',
           description: [
-            `One of the most powerful advantages of mobile apps is access to real-time data. We integrate analytics tools that track:`,
+            {
+              desctioption: `One of the most powerful advantages of mobile apps is access to real-time data. We integrate analytics tools that track:`,
+              list: [
+                {
+                  des: ['User behavior']
+                },
+                {
+                  des: ['Purchase patterns']
+                },
+                {
+                  des: ['Feature usage']
+                },
+                {
+                  des: ['Customer demographics']
+                },
+                {
+                  des: ['Engagement trends']
+                },
+              ]
+            },
             `This data allows companies to make informed decisions, refine marketing strategies, and continuously improve their offerings.`,
           ],
         },
@@ -13084,7 +13181,26 @@ brand appears in AI summaries and citations.`,
           img: '',
           name: 'Operational Efficiency & Automation',
           description: [
-            `Mobile apps are not just customer-facing tools; they can streamline internal operations as well. We develop solutions that:`,
+            {
+              desctioption: `Mobile apps are not just customer-facing tools; they can streamline internal operations as well. We develop solutions that:`,
+              list: [
+                {
+                  des: ['Automate appointment bookings']
+                },
+                {
+                  des: ['Simplify inventory management']
+                },
+                {
+                  des: ['Improve staff communication']
+                },
+                {
+                  des: ['Reduce manual paperwork']
+                },
+                {
+                  des: ['Enhance workflow tracking']
+                },
+              ]
+            },
             `By automating processes, companies reduce costs and improve productivity.`,
           ],
         },
@@ -13092,7 +13208,23 @@ brand appears in AI summaries and citations.`,
           img: '',
           name: 'Scalability for Future Growth',
           description: [
-            `As companies grow, their technology must scale with them. At Adaired Digital Media, we build mobile apps with scalable architecture, ensuring:`,
+            {
+              desctioption: `As companies grow, their technology must scale with them. At Adaired Digital Media, we build mobile apps with scalable architecture, ensuring:`,
+              list: [
+                {
+                  des: ['Easy feature expansion']
+                },
+                {
+                  des: ['Integration with third-party systems']
+                },
+                {
+                  des: ['High performance under increasing traffic']
+                },
+                {
+                  des: ['Long-term adaptability']
+                },
+              ]
+            },
             `Our development approach ensures that the app evolves alongside the business.`,
           ],
         },
@@ -13100,7 +13232,23 @@ brand appears in AI summaries and citations.`,
           img: '',
           name: 'Stronger Customer Loyalty & Retention',
           description: [
-            `Customer acquisition is expensive. Retention is where real growth happens. Mobile apps help businesses build loyalty through:`,
+            {
+              desctioption: `Customer acquisition is expensive. Retention is where real growth happens. Mobile apps help businesses build loyalty through:`,
+              list: [
+                {
+                  des: ['Reward programs']
+                },
+                {
+                  des: ['Exclusive offers']
+                },
+                {
+                  des: ['Personalized recommendations']
+                },
+                {
+                  des: ['Faster support response']
+                },
+              ]
+            },
             `We focus on creating engaging experiences that keep users coming back.`,
           ],
         },
@@ -13110,8 +13258,9 @@ brand appears in AI summaries and citations.`,
     importantToBussiness: {
       isVisible: true,
       breakIndex: 3,
-      isVariant: '01',
+      isVariant: '03',
       cardColor: '#F9F9F9',
+      isCardVisible: true,
       heading: 'Our Custom Mobile Application Development Services',
       description: [
         `We deliver high-performance, scalable, and user-focused mobile application development services tailored to your business goals.`,
@@ -13352,17 +13501,53 @@ brand appears in AI summaries and citations.`,
       ],
     },
 
+    techStackMobile: {
+      isVisible: true,
+      heading: 'Key Stats About White Label Link Building',
+      NavItems: [
+        'Frontend Technologies',
+        'Backend Technologies',
+        'Database Management',
+        'Cloud & DevOps',
+        'UI/UX & Prototyping Tools',
+        // 'API & Integrations',
+      ],
+      list: [
+        {
+          image: mobileAppDevTechStackImg_1,
+          desc: 'Swift (iOS Development)',
+        },
+        {
+          image: mobileAppDevTechStackImg_2,
+          desc: 'Kotlin (Android Development)',
+        },
+        {
+          image: mobileAppDevTechStackImg_3,
+          desc: 'React Native',
+        },
+        {
+          image: mobileAppDevTechStackImg_4,
+          desc: 'Flutter',
+        },
+        {
+          image: mobileAppDevTechStackImg_5,
+          desc: 'Xamarin',
+        },
+      ],
+    },
+
     whatMkeDeferent: {
       isVisible: true,
       isVariant: '03',
       breakIndex: 3,
       isInCenter: true,
       bgColor: true,
+      bgGradient: 'bg-[#F5F5F5]/40',
       heading: `Why Choose Us as Your Mobile App Development Firm?`,
       description: [``],
       list: [
         {
-          img: saasSeoWhatMkDiffImg_1,
+          img: mobileAppDevWhatMkDiffImg_1,
           name: 'Custom Development Services',
           description: [
             `Every application we build is tailored to your business goals, target audience, and industry requirements.`,
@@ -13370,7 +13555,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_2,
+          img: mobileAppDevWhatMkDiffImg_2,
           name: 'Agile Development Methodology',
           description: [
             `Our agile-driven process ensures flexibility, transparency, and faster time-to-market. By dividing projects into structured sprints, we enable continuous feedback, rapid iterations, and adaptive improvements.`,
@@ -13378,7 +13563,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_3,
+          img: mobileAppDevWhatMkDiffImg_3,
           name: 'Transparent Pricing',
           description: [
             `We maintain complete clarity in project scope, timelines, and cost structure. With detailed proposals and milestone-based delivery plans, you always know where your investment is going.`,
@@ -13386,7 +13571,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_4,
+          img: mobileAppDevWhatMkDiffImg_4,
           name: 'Structured Cost Evaluation',
           description: [
             `To help you estimate your investment upfront, we provide structured cost evaluation guidance based on features, platform choice, complexity, and integrations.`,
@@ -13394,7 +13579,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_5,
+          img: mobileAppDevWhatMkDiffImg_5,
           name: 'Proven Track Record',
           description: [
             `Our experience across diverse industries has helped businesses launch high-performing mobile applications that drive engagement and revenue.`,
@@ -13407,12 +13592,12 @@ brand appears in AI summaries and citations.`,
     buildlinks: {
       isVisible: true,
       isCode01: true,
-      isVariant: '06',
-      breakIndex: 3,
+      isVariant: '07',
+      breakIndex: 4,
       bgImg: saasSeoBuildLinkBg,
-      img: geoAiSeoBuildLinkImg,
-      label: 'Ready to',
-      heading: 'Build Your Mobile App?',
+      img: mobileAppDevBuildLinkImg,
+      label: '',
+      heading: 'Ready to Build Your Mobile App?',
       description: ``,
       isBgWhite: true,
       data: [
@@ -13484,7 +13669,42 @@ brand appears in AI summaries and citations.`,
         },
       ],
     },
-
+    keyStats: {
+      isVisible: false,
+      code: '11',
+      img: whiteLinkBuildingKeyStatsImg,
+      heading: 'Key Stats About White Label Link Building',
+      bgColor: '#FB9100',
+      isImgBg: true,
+      isCard: false,
+      list: [
+        {
+          desctioption: [
+            `Nearly 9 out of 10 marketers (89%) rely on content marketing to generate backlinks.`,
+          ],
+        },
+        {
+          desctioption: [
+            `85% of SEO professionals confirm that link building solutions strengthens brand credibility.`,
+          ],
+        },
+        {
+          desctioption: [
+            `Over two-thirds (69%) say link building directly drives business growth.`,
+          ],
+        },
+        {
+          desctioption: [
+            `59% predict backlinks will become even more important for rankings.`,
+          ],
+        },
+        {
+          desctioption: [
+            `An overwhelming 94% believe links will continue to shape Google’s algorithm in the future.`,
+          ],
+        },
+      ],
+    },
     dataInTable: {
       isVisible: false,
       isInCenter: true,
@@ -13660,43 +13880,6 @@ brand appears in AI summaries and citations.`,
           title: '',
           description: [
             `Organic search contributes 14.3% of total leads for SaaS businesses, making SEO one of the most consistent acquisition channels. (Sixth City Marketing)`,
-          ],
-        },
-      ],
-    },
-
-    keyStats: {
-      isVisible: false,
-      code: '10',
-      img: whiteLinkBuildingKeyStatsImg,
-      heading: 'Key Stats About White Label Link Building',
-      bgColor: '#FB9100',
-      isImgBg: true,
-      isCard: false,
-      list: [
-        {
-          desctioption: [
-            `Nearly 9 out of 10 marketers (89%) rely on content marketing to generate backlinks.`,
-          ],
-        },
-        {
-          desctioption: [
-            `85% of SEO professionals confirm that link building solutions strengthens brand credibility.`,
-          ],
-        },
-        {
-          desctioption: [
-            `Over two-thirds (69%) say link building directly drives business growth.`,
-          ],
-        },
-        {
-          desctioption: [
-            `59% predict backlinks will become even more important for rankings.`,
-          ],
-        },
-        {
-          desctioption: [
-            `An overwhelming 94% believe links will continue to shape Google’s algorithm in the future.`,
           ],
         },
       ],
@@ -14563,6 +14746,7 @@ brand appears in AI summaries and citations.`,
       breakIndex: 3,
       isInCenter: true,
       bgColor: true,
+      bgGradient: '',
       heading: `Why Leading SaaS Brands Choose Adaired Digital`,
       description: [``],
       list: [
