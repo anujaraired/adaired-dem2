@@ -13060,7 +13060,7 @@ brand appears in AI summaries and citations.`,
           color: '#FB9100',
           weight: '700',
         },
-                {
+        {
           text: 'Get Seen by Local Customers',
           color: '#000000',
           weight: '700',
@@ -13580,6 +13580,41 @@ brand appears in AI summaries and citations.`,
       ],
     },
 
+    // techStackMobile: {
+    //   isVisible: true,
+    //   heading: 'Key Stats About White Label Link Building',
+    //   NavItems: [
+    //     'Frontend Technologies',
+    //     'Backend Technologies',
+    //     'Database Management',
+    //     'Cloud & DevOps',
+    //     'UI/UX & Prototyping Tools',
+    //     'API & Integrations',
+    //   ],
+    //   list: [
+    //     {
+    //       image: mobileAppDevTechStackImg_1,
+    //       desc: 'Swift (iOS Development)',
+    //     },
+    //     {
+    //       image: mobileAppDevTechStackImg_2,
+    //       desc: 'Kotlin (Android Development)',
+    //     },
+    //     {
+    //       image: mobileAppDevTechStackImg_3,
+    //       desc: 'React Native',
+    //     },
+    //     {
+    //       image: mobileAppDevTechStackImg_4,
+    //       desc: 'Flutter',
+    //     },
+    //     {
+    //       image: mobileAppDevTechStackImg_5,
+    //       desc: 'Xamarin',
+    //     },
+    //   ],
+    // },
+
     techStackMobile: {
       isVisible: true,
       heading: 'Key Stats About White Label Link Building',
@@ -13589,29 +13624,51 @@ brand appears in AI summaries and citations.`,
         'Database Management',
         'Cloud & DevOps',
         'UI/UX & Prototyping Tools',
-        // 'API & Integrations',
+        'API & Integrations',
       ],
       list: [
-        {
-          image: mobileAppDevTechStackImg_1,
-          desc: 'Swift (iOS Development)',
-        },
-        {
-          image: mobileAppDevTechStackImg_2,
-          desc: 'Kotlin (Android Development)',
-        },
-        {
-          image: mobileAppDevTechStackImg_3,
-          desc: 'React Native',
-        },
-        {
-          image: mobileAppDevTechStackImg_4,
-          desc: 'Flutter',
-        },
-        {
-          image: mobileAppDevTechStackImg_5,
-          desc: 'Xamarin',
-        },
+        [
+          { image: mobileAppDevTechStackImg_1, desc: 'Swift (iOS Development)' },
+          { image: mobileAppDevTechStackImg_2, desc: 'Kotlin (Android Development)' },
+          { image: mobileAppDevTechStackImg_3, desc: 'React Native' },
+          { image: mobileAppDevTechStackImg_4, desc: 'Flutter' },
+          { image: mobileAppDevTechStackImg_5, desc: 'Xamarin' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_1, desc: 'Node.js' },
+          { image: mobileAppDevTechStackImg_1, desc: 'Laravel' },
+          { image: mobileAppDevTechStackImg_1, desc: 'Django' },
+          { image: mobileAppDevTechStackImg_1, desc: 'Spring Boot' },
+          { image: mobileAppDevTechStackImg_1, desc: 'Express.js' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_1, desc: 'MySQL' },
+          { image: mobileAppDevTechStackImg_1, desc: 'PostgreSQL' },
+          { image: mobileAppDevTechStackImg_1, desc: 'MongoDB' },
+          { image: mobileAppDevTechStackImg_1, desc: 'Firebase' },
+          { image: mobileAppDevTechStackImg_1, desc: 'Redis' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_1, desc: 'AWS' },
+          { image: mobileAppDevTechStackImg_1, desc: 'Google Cloud' },
+          { image: mobileAppDevTechStackImg_1, desc: 'Docker' },
+          { image: mobileAppDevTechStackImg_1, desc: 'Kubernetes' },
+          { image: mobileAppDevTechStackImg_1, desc: 'CI/CD Pipelines' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_1, desc: 'Figma' },
+          { image: mobileAppDevTechStackImg_1, desc: 'Adobe XD' },
+          { image: mobileAppDevTechStackImg_1, desc: 'Sketch' },
+          { image: mobileAppDevTechStackImg_1, desc: 'InVision' },
+          { image: mobileAppDevTechStackImg_1, desc: 'Zeplin' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_1, desc: 'REST API' },
+          { image: mobileAppDevTechStackImg_1, desc: 'GraphQL' },
+          { image: mobileAppDevTechStackImg_1, desc: 'Stripe API' },
+          { image: mobileAppDevTechStackImg_1, desc: 'Firebase API' },
+          { image: mobileAppDevTechStackImg_1, desc: 'Twilio API' },
+        ],
       ],
     },
 
@@ -14290,7 +14347,7 @@ brand appears in AI summaries and citations.`,
       isCenter: false,
       isVisible: true,
       heading2: '#1 on Google Maps: Get Seen by Local Customers',
-      isAbsolute:true,
+      isAbsolute: true,
       isStyleHeading: true,
       headingParts: [
         { text: 'From Invisible to', color: '#000000', weight: '400' },
