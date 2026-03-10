@@ -13621,7 +13621,7 @@ brand appears in AI summaries and citations.`,
     },
 
     techStackMobile: {
-      isVisible: true,
+      isVisible: false,
       heading: 'Key Stats About White Label Link Building',
       NavItems: [
         'Frontend Technologies',
