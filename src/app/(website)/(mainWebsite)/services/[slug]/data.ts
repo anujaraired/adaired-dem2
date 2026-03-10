@@ -12143,11 +12143,6 @@ brand appears in AI summaries and citations.`,
         {
           icon: '',
           desctioption:
-            'Generative AI traffic is expanding 165 times faster than traditional organic search traffic. (Position.digital)',
-        },
-        {
-          icon: '',
-          desctioption:
             'ChatGPT drives 190 times less traffic than Google despite reaching 12% of Google’s search volume. (ALM Corp)',
         },
       ],
@@ -13060,7 +13055,7 @@ brand appears in AI summaries and citations.`,
           weight: '700',
         },
       ],
-      breakIndex: 4,
+      // breakIndex: 4,
       desc: [
         `Take your brand to your users’ fingertips with high-performance mobile apps designed to increase reach, engagement, and growth.`,
       ],

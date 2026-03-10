@@ -280,7 +280,7 @@ export const routes: {
             },
             {
               name: 'GEO',
-              href: '/services/geo-ai-seo-company-india',
+              href: '/services/geo-service-india',
             },
             {
               name: 'AEO',
