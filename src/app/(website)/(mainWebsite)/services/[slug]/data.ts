@@ -444,6 +444,34 @@ import mobileAppDevImpIcon_5 from '../../../../../../public/assets/images/servic
 
 // GBP local Seo Images
 import gbplocalSeoBannerBg from '../../../../../../public/assets/images/services/gbpLocalSeo/gbplocalSeoBannerBg.png';
+import KeyStatsIcon1 from '../../../../../../public/assets/images/services/gmb/KeyStatIcon1.svg';
+import KeyStatsIcon2 from '../../../../../../public/assets/images/services/gmb/KeyStatIcon2.svg';
+import KeyStatsIcon3 from '../../../../../../public/assets/images/services/gmb/KeyStatIcon3.svg';
+import KeyStatsIcon4 from '../../../../../../public/assets/images/services/gmb/KeyStatIcon4.svg';
+import KeyStatsIcon5 from '../../../../../../public/assets/images/services/gmb/KeyStatIcon5.svg';
+import WhatAreServiceGMB from '../../../../../../public/assets/images/services/gmb/whatAreServiceGMB.png';
+import WhatAreServiceGMB2 from '../../../../../../public/assets/images/services/gmb/whatAreServiceGMB2.png';
+import AdairedHelpgmb from '../../../../../../public/assets/images/services/gmb/AdairedHelpGmb.png';
+
+
+import icon1 from '../../../../../../public/assets/images/services/gmb/ourProcess/Icon1.svg';
+import icon2 from '../../../../../../public/assets/images/services/gmb/ourProcess/icon2.svg';
+import icon3 from '../../../../../../public/assets/images/services/gmb/ourProcess/icon3.svg';
+import icon4 from '../../../../../../public/assets/images/services/gmb/ourProcess/icon4.svg';
+import icon5 from '../../../../../../public/assets/images/services/gmb/ourProcess/icon5.svg';
+import icon6 from '../../../../../../public/assets/images/services/gmb/ourProcess/icon6.svg';
+import icon7 from '../../../../../../public/assets/images/services/gmb/ourProcess/icon7.svg';
+
+import icon_1 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon1.svg';
+import icon_2 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon2.svg';
+import icon_3 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon3.svg';
+import icon_4 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon4.svg';
+import icon_5 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon5.svg';
+import icon_6 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon6.svg';
+import icon_7 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon7.svg';
+import icon_8 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon8.svg';
+import icon_9 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon9.svg';
+
 
 export type SectionKey =
   | 'banner'
@@ -1335,11 +1363,6 @@ export const SERVICES_DATA = {
           icon: '',
           desctioption:
             'With the introduction of AI searches, the organic web traffic is reduced by 15% to 25%. ',
-        },
-        {
-          icon: '',
-          desctioption:
-            'The global AI content marketing industry is expected to grow from 2.4 billion in 2023 at a CAGR of 25.68% to reach $17.6 billion by 2033. ',
         },
         {
           icon: '',
@@ -12116,11 +12139,6 @@ brand appears in AI summaries and citations.`,
         {
           icon: '',
           desctioption:
-            'Generative AI traffic is expanding 165 times faster than traditional organic search traffic. (Position.digital)',
-        },
-        {
-          icon: '',
-          desctioption:
             'ChatGPT drives 190 times less traffic than Google despite reaching 12% of Google’s search volume. (ALM Corp)',
         },
       ],
@@ -14129,26 +14147,31 @@ brand appears in AI summaries and citations.`,
       isCard: false,
       list: [
         {
+          icon: KeyStatsIcon1,
           desctioption: [
             `Google Business Profile signals account for 32% of local pack ranking factors, making them the most influential element for ranking on Google Maps. (Whitespark)`,
           ],
         },
         {
+          icon: KeyStatsIcon2,
           desctioption: [
             `97% of consumers read reviews when researching local businesses, making reputation a critical factor in customer decisions. (BrightLocal)`,
           ],
         },
         {
+          icon: KeyStatsIcon3,
           desctioption: [
             `64% of consumers use Google Business Profiles to quickly find key business contact details like phone numbers, addresses, and emails. (BrightLocal)`,
           ],
         },
         {
+          icon: KeyStatsIcon4,
           desctioption: [
             `69% of users check opening hours on Google Business Profiles, making it the most used feature, followed by directions and reviews. (BrightLocal)`,
           ],
         },
         {
+          icon: KeyStatsIcon5,
           desctioption: [
             `76% of marketers consider Google Business Profile management the most valuable local SEO service for improving local visibility. (BrightLocal)`,
           ],
@@ -14159,24 +14182,26 @@ brand appears in AI summaries and citations.`,
     whatareservice: {
       isVisible: true,
       isVariant: '07',
-      img: geoAiSeoWhatIsImg,
-      heading: 'What is GEO?',
+      img: WhatAreServiceGMB,
+      heading: 'What is Google Business Profile Optimization?',
       span: '',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [
         {
-          desctioption: `GEO, or generative engine optimization, is the process of optimizing your brand, website, 
-          and content to appear in AI-generated search results on AI-powered search engines.`,
+          desctioption: `Google Business Profile optimization, previously known as GMB (Google My Business) optimization, is the strategic process of improving and fine-tuning your business listing. 
+          The goal is to increase your visibility and engagement on Google Search and Google Maps. This involves a series of actions designed to ensure that your profile is fully completed and accurately represents your business.`,
         },
         {
-          desctioption: `Instead of just ranking on Google, GEO ensures your business gets mentioned, cited, and recommended inside AI-generated answers. 
-          Users no longer just type keywords into search engines; they ask AI platforms for direct answers, recommendations, comparisons, and expert opinions. 
-          Instead of browsing multiple links, they rely on AI to summarize the best options.`,
+          desctioption: `Key components of GBP optimization include ensuring that your business name, address, and phone number (NAP) are consistent and accurate across all online platforms, selecting the most relevant business categories, and including high-quality images that effectively showcase your products or services.
+           Additionally, it entails crafting a compelling business description that highlights your unique selling points and offerings.`,
         },
         {
-          desctioption: `If your business is not structured and optimized for these systems, you may not appear in those answers at all. 
-          GEO ensures that AI platforms recognize your brand as a credible, relevant, and authoritative source within your industry.`,
+          desctioption: `Regularly updating your profile with posts about promotions, events, and other relevant news can also engage potential customers. Encouraging and responding to customer reviews is crucial for building credibility and maintaining a positive reputation.
+           Utilizing features such as business hours, appointment links, and FAQs will further enhance the user experience.`,
+        },
+        {
+          desctioption: `Overall, effective GBP optimization services​ not only boost local SEO rankings but also help attract more customers by making it easier for them to find and connect with your business online`,
         },
       ],
       button: '',
@@ -14185,114 +14210,133 @@ brand appears in AI summaries and citations.`,
     whatareservice2: {
       isVisible: true,
       isVariant: '11',
-      img: geoAiSeoWhatServiceImg,
-      heading: 'How Generative AI SEO Strengthens Your Visibility',
+      img: WhatAreServiceGMB2,
+      heading: 'Why Your Business Needs GBP Optimization',
       bgColor: '#FFFFFF',
       isBgWhite: false,
       button: '',
       data: [
         {
-          desctioption: `Generative AI has fundamentally changed the way search engines interpret content, assess expertise, and deliver results. 
-          Today, visibility is more than just keywords and backlinks; it is about providing the exact signals that AI models use to determine credibility and relevance.`,
+          desctioption: `In the digital era, having a strong online presence is crucial for any business aiming to attract and retain customers. One of the most effective ways to enhance your visibility is through Google Business Profile optimization. `,
         },
         {
-          desctioption: `Your website must be AI-friendly, contextually clear, intent-aligned, 
-          and entity-rich so that AI systems can confidently reference, cite, and recommend your brand in answers and summaries.`,
+          desctioption: `By fine-tuning your GBP, you ensure that potential customers can easily find accurate information about your business, including your location, hours of operation, services, and even customer reviews.`,
         },
         {
-          desctioption: `Our generative engine optimization services India aim to reshape and future-proof your digital presence in this new search landscape. 
-          We evaluate how AI interprets your brand, identify gaps in understanding, and optimize your generative AI search engine optimization strategy, content, 
-          and structure to align with algorithms.`,
+          desctioption: `Optimizing your GBP also plays a significant role in local search engine optimization (SEO). When your business profile is well-crafted, it can improve your rankings on search engine results pages, particularly for local searches related to the products or services you offer.
+           This means that when potential customers search for businesses like yours in their vicinity, your optimized profile is more likely to appear at the top of the search results.`,
         },
         {
-          desctioption: `From honing your authority to fortifying your technical foundation, we ensure that every page communicates who you are, 
-          what you offer, and why you're the most trustworthy option for the search intent you want to dominate.`,
-        },
-        {
-          desctioption: `We align your brand with the specific variables that influence AI-generated results using strategic optimization, content writing, 
-          and AI-driven insights, enabling you to become an algorithm that trusts, recommends, and elevates.`,
+          desctioption: `Furthermore, a well-optimized GBP enhances your credibility.
+           When users see a complete and professional profile, complete with images, updated information, and positive reviews, they are more likely to trust your business over competitors with less informative profiles.`,
         },
       ],
     },
 
     importantToBussiness: {
       isVisible: true,
-      breakIndex: 4,
+      isInCenter: true,
+      isCardVisible: false,
+      breakIndex: 5,
       isVariant: '01',
       cardColor: '#F9F9F9',
-      heading: 'What’s Included in Our GEO Services',
+      heading: 'Unlock Your Potential with Top-Notch GBP Optimization Services!',
       description: [
-        `Our Generative Engine Optimization services are designed to ensure your brand is understood, trusted, and recommended by AI-powered search platforms. 
-        Here’s how we help you win:`,
+        ``,
       ],
       buttonName: 'Optimize My Website for AI',
       data: [
         {
-          icon: geoAiSeoImpIcon_1,
-          name: 'AI-Optimized Content Strategy & Creation',
+          icon: icon_1,
+          name: 'Profile Setup & Verification',
           description: [
-            `We create strategically structured content designed for both human engagement and AI interpretation. Our content is built around semantic depth, topical authority, 
-            and clear entity positioning so that generative AI systems can accurately understand and summarize your expertise.`,
-            `Whether it’s concise, answer-focused content or comprehensive long-form resources, we align every piece with real search intent. 
-            This significantly improves your chances of being included in AI-generated summaries, comparisons, and recommendations.`,
+            `A properly set up and verified Google Business Profile is the foundation of strong local visibility. Our team handles the entire setup process, ensuring that your business is correctly listed on Google with accurate details and professional formatting. `,
+            `We also guide and manage the verification process through Google’s approved methods, such as postcard, phone, or video verification. Once verified, your profile gains credibility and becomes eligible to appear in local search results and Google Maps listings.`,
           ],
-          button: 'Optimize My Website for AI',
+          button: 'Boost My Visibility Today',
           btnColor: '#FB9100',
         },
         {
-          icon: geoAiSeoImpIcon_2,
-          name: 'Authority & Brand Signal Enhancement',
+          icon: icon_2,
+          name: 'Google Maps Ranking Tracking',
           description: [
-            `AI engines prioritize credibility and authoritative signals before recommending any brand. We strengthen your digital authority by optimizing internal 
-            content structures, refining entity signals, improving contextual clarity, and amplifying brand mentions across relevant platforms.`,
-            `By building a strong and consistent digital footprint, we position your company as a trusted industry source that AI systems are more likely to reference.`,
+            `Understanding how your business ranks in different areas of your city is critical for GMB SEO success. We use advanced geo-grid and heatmap tracking tools to monitor your visibility across neighborhoods and key service areas. `,
+            `This allows us to identify locations where your business ranks strongly and areas where visibility may be weak. With this data-driven approach, we refine optimization strategies to improve your rankings across a wider geographic range.`,
           ],
-          button: 'Optimize My Website for AI',
+          button: 'Boost My Visibility Today',
           btnColor: '#FB9100',
         },
         {
-          icon: geoAiSeoImpIcon_3,
-          name: 'User Intent & Search Behavior Alignment',
+          icon: icon_3,
+          name: 'Keyword & Category Optimization',
           description: [
-            `Generative search platforms interpret conversational queries and contextual patterns differently than traditional search engines.`,
-            `We conduct in-depth research into evolving user behavior, conversational search trends, and industry-specific demand signals.`,
-            `By aligning your content with how users actually interact with AI platforms, we ensure your brand becomes the most relevant and helpful solution when AI systems generate responses.`,
+            `Choosing the right business categories and integrating relevant keywords can significantly improve your chances of appearing in local search results. Our GBP optimization service experts conduct in-depth keyword research to identify high-intent search terms that customers in your area are using. `,
+            `We then optimize your business description, services, and categories with these keywords to increase your visibility when potential customers search for related services on Google.`,
           ],
-          button: 'Optimize My Website for AI',
+          button: 'Boost My Visibility Today',
           btnColor: '#FB9100',
         },
         {
-          icon: geoAiSeoImpIcon_4,
-          name: 'Technical & Structural GEO Optimization',
+          icon: icon_4,
+          name: 'Review & Reputation Management',
           description: [
-            `The technical structure of your website plays a critical role in how AI algorithms interpret your content. 
-            We ensure your site architecture is clean, logically structured, and optimized for machine readability.`,
-            `From structured data implementation and schema optimization to performance enhancements and mobile responsiveness, 
-            we create a technically sound foundation that increases AI trust and improves visibility across generative platforms.`,
+            `Customer reviews have a powerful influence on both search rankings and customer trust. Our review management strategy focuses on helping you generate more authentic customer feedback while maintaining a professional reputation online. `,
+            `We assist in creating review acquisition strategies and craft thoughtful responses to both positive and negative reviews. This approach strengthens your credibility and demonstrates your commitment to customer satisfaction.`,
           ],
-          button: 'Optimize My Website for AI',
+          button: 'Boost My Visibility Today',
           btnColor: '#FB9100',
         },
         {
-          icon: geoAiSeoImpIcon_5,
-          name: 'Monitoring & Continuous Refinement',
+          icon: icon_5,
+          name: 'Google Posts & Content Updates',
           description: [
-            `The AI search landscape evolves rapidly, and static optimization strategies quickly become outdated.`,
-            `We use advanced AI-powered analysis tools to monitor how your brand appears within generative search environments.`,
-            `By tracking changes in AI-generated responses, content citations, and search behavior trends, we continuously refine your strategy to maintain and expand your AI visibility.`,
+            `Google rewards active and regularly updated business profiles. Our team creates engaging Google Posts that highlight business updates, promotions, offers, events, or announcements. `,
+            `These posts keep your profile active and provide valuable information to potential customers browsing your listing. Consistent posting also signals to Google that your business is active and relevant, which can positively influence your local search visibility.`,
           ],
-          button: 'Optimize My Website for AI',
+          button: 'Boost My Visibility Today',
           btnColor: '#FB9100',
         },
         {
-          icon: geoAiSeoImpIcon_6,
-          name: 'Multimodal Search Optimization',
+          icon: icon_6,
+          name: 'Photo & Video Optimization',
           description: [
-            `Search is no longer limited to text queries. AI-driven discovery now includes voice search, image recognition, and video-based results.`,
-            `We optimize your content across multiple formats to ensure your brand remains discoverable in every AI-powered environment.`,
-            `Our holistic approach ensures consistent visibility regardless of how users search or interact with generative platforms.`,
+            `Visual content plays a major role in attracting customers and building trust. Businesses with high-quality photos and videos often receive more engagement and clicks compared to those without visuals. `,
+            `We optimize and upload professional images of your business location, interior, exterior, products, services, and team members.`,
+            `These visuals help customers better understand your brand while improving engagement with your profile.`,
           ],
-          button: 'Optimize My Website for AI',
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_7,
+          name: 'Q&A Section Optimization',
+          description: [
+            `The Questions & Answers section on your Google Business Profile is often overlooked, yet it can significantly influence customer decisions.`,
+            `We proactively add commonly asked questions and provide helpful answers that address typical customer concerns.`,
+            `This not only saves time for your business but also ensures that accurate information is available to potential customers before they contact you.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_8,
+          name: 'Listing Monitoring & Protection',
+          description: [
+            `Unauthorized edits or competitor interference can sometimes change important details on your business listing. Our monitoring system continuously checks your profile for any suspicious or incorrect updates.`,
+            `If changes occur, we quickly correct them to maintain the accuracy of your listing.`,
+            `This proactive protection ensures that your business information remains reliable and trustworthy for customers searching on Google.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_9,
+          name: 'Performance Analytics & Reporting',
+          description: [
+            `Understanding how customers interact with your Google Business Profile is essential for measuring success. We provide detailed performance reports that track key customer actions such as phone calls, direction requests, website clicks, and profile views. `,
+            `These insights help you clearly see the impact of optimization efforts and understand how your listing contributes to generating new leads and customers.`,
+          ],
+          button: 'Boost My Visibility Today',
           btnColor: '#FB9100',
         },
       ],
@@ -14300,64 +14344,93 @@ brand appears in AI summaries and citations.`,
 
     adairedHelp: {
       isVisible: true,
-      breakIndex: 0,
-      img: geoAiSeoAdairedHelpImg,
-      isInCenter: true,
+      breakIndex: 5,
+      img: AdairedHelpgmb,
+      isInCenter: false,
       bgColor: '#FFFBF5',
       cardBg: '',
-      heading: `How GEO Aligns with the Future of Search Visibility`,
-      description: [``],
+      heading: `Top Reasons to Select GBP Optimization Services from Adaired Digital`,
+      description: [`Here are some of the primary reasons why you should choose Adaired Digital’s Google business optimization services:`],
       mainImage: whiteServicesAdairedHelpImg,
       list: [
         {
           img: '',
-          name: 'It’s Everywhere Now',
+          name: 'Proven Local SEO Expertise',
           description: [
-            `AI-powered assistants like ChatGPT, Claude, and Gemini are no longer a novelty; they’re the everyday tools we rely on.`,
-            `Whether we’re asking for information or seeking assistance, AI is seamlessly integrated into daily life, cutting down the clutter and getting us straight to the answers.`,
+            `At Adaired Digital, our team specializes in local SEO strategies designed specifically for Google Business Profiles.`,
+            ` We stay updated with Google’s latest algorithm changes and best practices to ensure your business profile remains optimized, compliant, and competitive in local search results.`,
           ],
         },
         {
           img: '',
-          name: 'Conversations Over Clicks',
+          name: 'Customized Optimization Strategy',
           description: [
-            `The way we search has completely shifted. No more endless scrolling and hunting through results; people are engaging with AI in real-time conversations.`,
-            `They’re after quick, to-the-point responses that feel like a dialogue, not just a list of links to sift through.`,
+            `No two businesses are the same, which is why we don’t rely on generic optimization methods. `,
+            `We analyze your industry, service area, competitors, and target customers to develop a customized GBP optimization strategy that helps your business stand out in local searches.`,
           ],
         },
         {
           img: '',
-          name: 'Intent Understanding, Not Just Keywords',
+          name: 'Stronger Visibility on Google Search and Maps',
           description: [
-            `Forget keyword matching. Generative AI has changed the game by understanding why you’re searching.`,
-            `It doesn’t just find pages with your words on them; it figures out your intent and delivers answers that hit the mark with precision and clarity.`,
+            `A properly optimized Google Business Profile can significantly improve your chances of appearing in the local pack and Google Maps results.`,
+            `Our team focuses on optimizing your business categories, services, keywords, and profile content so that your business appears when potential customers search for related services in your area.`,
           ],
         },
         {
           img: '',
-          name: 'Tailored Just for You',
+          name: 'Complete Profile Optimization',
           description: [
-            `Every search is different. 
-            AI understands the context behind each query, personalizing results based on who you are, where you are, and what you need.`,
-            `It’s not just about answering questions; it’s about answering the right way for you.`,
+            `We optimize every element of your profile, including your business description, services, categories, images, and contact information.`,
+            `By improving these details within our GMB optimization services​, we ensure your listing is both search-engine-friendly and appealing to potential customers.`,
           ],
         },
         {
           img: '',
-          name: 'AI as Your Problem Solver',
+          name: 'Reputation and Review Management',
           description: [
-            `AI isn’t just a tool; it’s your intelligent assistant.`,
-            `From making complex decisions to finding creative solutions, AI is stepping in as a problem-solving partner, 
-            helping users navigate the overwhelming amount of information out there with ease and insight.`,
+            `Customer reviews play an important role in influencing both search rankings and buying decisions. `,
+            `Our team helps you develop strategies to encourage genuine customer reviews and guides responding professionally to both positive and negative feedback.`,
           ],
         },
         {
           img: '',
-          name: 'The New Search Experience',
+          name: 'Consistent Profile Activity and Updates',
           description: [
-            `Search is no longer limited to just text-based results. 
-            With AI’s multimodal capabilities, you can search by image, voice, or even video, making the process more interactive and immersive.`,
-            `Brands and content creators need to think beyond the traditional text-based search and optimize for every medium.`,
+            `An active profile sends strong signals to Google that your business is reliable and relevant. `,
+            `We regularly publish Google Posts, updates, and promotional content to keep your listing fresh, informative, and engaging for potential customers.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Data-Driven Optimization Approach',
+          description: [
+            `We rely on research, performance tracking, and local keyword analysis to make informed optimization decisions. `,
+            `This data-driven approach helps improve your profile’s performance and ensures your business continues to grow its visibility over time.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Clear Performance Reporting',
+          description: [
+            `Transparency is a key part of our service. We provide regular reports showing important metrics such as profile views, customer interactions, phone calls, and direction requests. `,
+            `These insights help you understand how your Google Business Profile contributes to your business growth.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Ongoing Support and Monitoring',
+          description: [
+            `Our work doesn’t stop after optimization. We continuously monitor your listing for performance improvements, profile updates, and potential issues. `,
+            `This proactive GMB management service ensures your business profile stays optimized and protected from unauthorized changes.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Focused on Real Business Results',
+          description: [
+            `Ultimately, our goal is to help your business attract more local customers.`,
+            ` By improving your visibility on Google Maps and local search results, we help convert online searches into real calls, visits, and sales for your business.`,
           ],
         },
       ],
@@ -14367,63 +14440,67 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: true,
       subtitle: 'Our Process',
-      title: 'Adaired Digital’s 6-Step Generate Engine Optimization Process',
-      breakIndex: 3,
+      title: 'Our Google Business Profile Optimization Process',
+      breakIndex: 4,
       bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0]',
       span: '',
       description: [
-        `At Adaired Digital Media, we ensure your brand is relevant, optimized, and positioned as a trusted authority in generative search systems.
-`,
+        ``,
       ],
       services: [
         {
-          icon: geoAiSeoProcess_1,
-          title: 'AI Visibility Audit',
+          icon: icon1,
+          title: 'Business Profile Audit',
           description: [
-            `We start with a thorough audit of your AI visibility and brand intelligence, assessing how AI perceives your brand and the information available about your business. This includes analyzing content structure, semantic clarity, entity consistency, brand mentions, and authority.`,
-            `We ensure your content aligns with conversational search patterns and addresses key industry queries. This diagnostic phase uncovers weaknesses and missed opportunities, providing a clear roadmap for transformation.`,
+            `We begin by conducting a comprehensive audit of your existing Google My Business Profile. This includes analyzing your current rankings, profile completeness, business information, categories, images, and customer reviews. `,
+            `The audit helps us identify areas that need improvement and opportunities to enhance your profile’s performance.`,
           ],
         },
         {
-          icon: geoAiSeoProcess_2,
-          title: 'Entity & Authority Structuring',
+          icon: icon2,
+          title: 'Profile Setup or Verification',
           description: [
-            `Generative AI engines rely on entity recognition and contextual relationships to evaluate expertise. We focus on defining your core brand entities, your identity, specialization, industries served, and key problems addressed. By creating structured topic clusters, we clarify your positioning and enhance semantic connections on your website.`,
-            `Rather than producing scattered content, we strive for topical depth to build long-term authority. This approach improves how AI models categorize your business, boosts visibility in relevant responses, and positions your brand as a leader in your niche.`,
+            `If your business does not yet have a fully verified profile, we assist with the complete setup and verification process.`,
+            `This ensures that your business is officially recognized by Google and eligible to appear in local search results and Google Maps listings.`,
           ],
         },
         {
-          icon: geoAiSeoProcess_3,
-          title: 'AI-Optimized Content Architecture',
+          icon: icon3,
+          title: 'Keyword and Category Research',
           description: [
-            `Content must be designed for both human engagement and AI interpretation. We will restructure existing content and create new resources to align with generative search behavior. This includes refining page structure, implementing intent-driven answers, and enhancing clarity in topic hierarchy.`,
-            `Our goal is to produce content that AI systems can easily summarize and reference, using structured formats and strong semantic relationships. We aim to establish your website as a reliable source for AI engines when generating summaries and recommendations.`,
+            `Our team performs detailed keyword research to identify the most relevant and high-intent search terms used by customers in your area.`,
+            `We also analyze your competitors to determine the best primary and secondary business categories for improved local rankings.`,
           ],
         },
         {
-          icon: geoAiSeoProcess_4,
-          title: 'Technical GEO Optimization',
+          icon: icon4,
+          title: 'Profile Optimization',
           description: [
-            `Technical clarity is essential for building trust in AI. Even quality content can struggle without a supportive structure. We enhance your website's architecture to ensure it is well-organized, fast, mobile-friendly, and has a clear hierarchy with effective internal linking.`,
-            `This process involves adding structured data, schema markup, and optimizing crawl paths and metadata. By improving machine readability and reducing technical issues, we boost how AI interprets your authority and contextual relevance, which increases your chances of being recommended.`,
+            `Next, we optimize every important component of your Google Business Profile. `,
+            `This includes writing a keyword-optimized business description, adding detailed services and products, selecting the right categories, and ensuring your business information is accurate and consistent.`,
           ],
         },
         {
-          icon: geoAiSeoProcess_5,
-          title: 'Authority Signal Amplification',
+          icon: icon5,
+          title: 'Visual and Content Enhancement',
           description: [
-            `AI engines assess your broader digital footprint to determine credibility and trustworthiness. We strengthen your authority through strategic digital signal development, including brand mention enhancement, contextual citations, thought leadership positioning, and ecosystem consistency across platforms.`,
-
-            `By reinforcing your presence beyond your primary website, we help AI systems validate your legitimacy and industry standing. This amplification phase ensures your brand signals are consistent, authoritative, and aligned with the expertise you aim to dominate.`,
+            `We enhance your profile with high-quality images, videos, and engaging content that showcase your business.`,
+            `Visual content helps attract more attention from potential customers and improves overall engagement with your listing.`,
           ],
         },
         {
-          icon: geoAiSeoProcess_6,
-          title: 'Continuous AI Monitoring & Refinement',
+          icon: icon6,
+          title: 'Review and Reputation Strategy',
           description: [
-            `The generative search landscape evolves quickly, necessitating ongoing refinement. We monitor AI platform responses to your content, brand visibility, and shifts in conversational search trends. By leveraging AI analytics, we identify changes in citation patterns and emerging demand signals.`,
-
-            `This enables us to adapt your Generative Engine Optimization strategy proactively, maintaining a competitive edge with a dynamic system that evolves with AI algorithms and user behavior.`,
+            `Customer reviews are a critical factor in both rankings and customer trust.`,
+            `We help you implement a review strategy that encourages genuine customer feedback and guide you on responding professionally to build a strong online reputation.`,
+          ],
+        },
+        {
+          icon: icon7,
+          title: 'Ongoing Monitoring and Updates',
+          description: [
+            `Optimization is not a one-time task. We continuously monitor your profile’s performance, publish updates through Google Posts, and make improvements to maintain strong visibility and engagement.`,
           ],
         },
       ],
@@ -14436,64 +14513,58 @@ brand appears in AI summaries and citations.`,
       description: ``,
       list: [
         {
-          title: 'What is Generative Engine Optimization (GEO)?',
+          title: 'What is Google Business Profile optimization?',
           description: [
-            `Generative Engine Optimization (GEO) is the process of optimizing your website, content, and authority signals so AI-powered search platforms can understand, trust, 
-            and recommend your brand in generated answers.`,
-            `It goes beyond traditional SEO by focusing on AI interpretation and recommendation probability.`,
+            `Google Business Profile optimization is the process of improving and managing your business listing on Google to increase its visibility in local search results and Google Maps.`,
+            `This includes optimizing business information, categories, keywords, images, reviews, and posts to attract more local customers.`,
           ],
         },
         {
-          title: 'How is GEO different from traditional SEO?',
+          title: 'Why is Google Business Profile important for local businesses?',
           description: [
-            `Traditional SEO focuses on ranking pages in search engine results. 
-            GEO focuses on getting your brand mentioned, cited, and recommended within AI-generated responses.`,
-            `While SEO targets keywords and rankings, GEO prioritizes intent alignment, entity clarity, authority, and AI readability.`,
+            `Your Google Business Profile is often the first place potential customers discover your business online.`,
+            `A well-optimized profile helps your business appear in local searches, builds credibility through reviews, and makes it easier for customers to contact or visit your business.`,
           ],
         },
         {
-          title: 'Does GEO replace SEO?',
+          title: 'How long does it take to see results from GBP optimization?',
           description: [
-            `No, GEO does not replace SEO; it builds on it. 
-            A strong SEO foundation is still essential, but GEO enhances your strategy by optimizing for AI-driven search environments.`,
-            `Together, they create a more comprehensive visibility strategy.`,
+            `Results can vary depending on your industry, competition, and the current state of your profile.`,
+            `Many businesses begin noticing improvements in visibility, engagement, and customer interactions within a few weeks of consistent optimization and updates.`,
           ],
         },
         {
-          title: 'Why is GEO important for businesses in India?',
+          title: 'Can Google Business Profile optimization improve my Google Maps ranking?',
           description: [
-            `AI adoption in India is rapidly increasing across industries.`,
-            `As more users rely on AI assistants for research and recommendations, businesses that invest in Generative Engine Optimization gain a competitive advantage 
-            by appearing in AI-generated results before the market becomes saturated.`,
+            `Yes, proper optimization can significantly improve your chances of appearing higher in Google Maps results.`,
+            `Factors such as accurate business information, relevant categories, customer reviews, and consistent updates all contribute to better local rankings.`,
           ],
         },
         {
-          title: 'How long does it take to see results from GEO?',
+          title: 'Do I need a physical location to create a Google Business Profile?',
           description: [
-            `GEO is a strategic process rather than an instant fix.`,
-            `Initial improvements in structure and clarity can be implemented quickly, but authority development and AI recognition 
-            typically strengthen over several months as signals compound and AI systems reassess credibility.`,
+            `Not necessarily. Service-area businesses can also create Google Business Profiles without displaying a physical storefront address. Instead, they can specify the areas they serve.`,
           ],
         },
         {
-          title: 'Can small and mid-sized businesses benefit from GEO?',
+          title: 'How important are customer reviews for Google Business Profiles?',
           description: [
-            `Yes. In fact, small and mid-sized businesses can gain a significant advantage through GEO by positioning themselves as niche authorities.`,
-            `AI systems prioritize relevance and clarity, which allows focused brands to compete effectively against larger competitors.`,
+            `Customer reviews are extremely important because they influence both search rankings and customer trust.`,
+            `Businesses with more positive and recent reviews often attract more clicks, calls, and visits.`,
           ],
         },
         {
-          title: 'What types of businesses need Generative AI SEO?',
+          title: 'Can I update my Google Business Profile regularly?',
           description: [
-            `Any business that relies on online visibility can benefit from Generative AI SEO.`,
-            `This includes SaaS companies, B2B service providers, e-commerce brands, agencies, consultants, and local businesses seeking increased digital authority in AI-driven search platforms.`,
+            `Yes, updating your profile with posts, photos, offers, and business updates helps keep your listing active.`,
+            `Regular activity signals to Google that your business is engaged and relevant to customers.`,
           ],
         },
         {
-          title: 'How do you measure success in GEO?',
+          title: 'How can Adaired Digital help with Google Business Profile optimization?',
           description: [
-            `Success in GEO is measured through improved AI visibility, increased brand mentions in AI-generated responses, stronger authority signals, improved content interpretation, 
-            and sustained growth in organic engagement aligned with conversational search trends.`,
+            `Adaired Digital provides comprehensive GBP optimization services, including profile setup, keyword optimization, review management, content updates, and performance tracking.`,
+            `Our goal is to help your business rank higher on Google Maps and attract more local customers.`
           ],
         },
       ],

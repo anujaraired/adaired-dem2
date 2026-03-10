@@ -76,7 +76,7 @@ const KeyStats = ({ keyStats }: any) => {
               className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
             >
               <Heading
-                breakIndex={6}
+                // breakIndex={6}
                 isBgWhite={true}
                 isInCenter={true}
                 subTitle={''}
@@ -94,7 +94,7 @@ const KeyStats = ({ keyStats }: any) => {
                       transitionDelay: `${idx * 280}ms`, // 👈 stagger here
                     }}
                   >
-                    <Image src={groth} width={50} height={50} alt="img" />
+                    <Image src={item?.icon || groth} width={50} height={50} alt="img" />
                     <p className="pt-[2rem]">{item?.desctioption}</p>
                   </div>
                 );
@@ -109,7 +109,7 @@ const KeyStats = ({ keyStats }: any) => {
                       transitionDelay: `${idx * 280}ms`, // 👈 stagger here
                     }}
                   >
-                    <Image src={groth} width={50} height={50} alt="img" />
+                    <Image src={item?.icon || groth} width={50} height={50} alt="img" />
                     <p className="pt-[2rem]">{item?.desctioption}</p>
                   </div>
                 );
