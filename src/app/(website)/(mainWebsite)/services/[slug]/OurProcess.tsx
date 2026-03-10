@@ -36,9 +36,8 @@ const OurProcess = ({ ourProcess }: any) => {
     <section
       ref={ref}
       id="services"
-
-      // For making bg-gradiant fixed at one place 
-      className={`${ourProcess?.bgGradient || 'bg-[#f9f9f9]/80'} bg-fixed relative py-[3rem] lg:py-[4rem]`}
+      // For making bg-gradiant fixed at one place
+      className={`${ourProcess?.bgGradient || 'bg-[#f9f9f9]/80'} relative bg-fixed py-[3rem] lg:py-[4rem]`}
     >
       <MaxWidthWrapper>
         {/* ================= HEADING ================= */}
@@ -57,9 +56,9 @@ const OurProcess = ({ ourProcess }: any) => {
           </div>
 
           <div
-            className={`grid grid-cols-5 gap-[4rem] ${!ourProcess?.isInCenter && 'mt-[2rem]'}`}
+            className={`grid grid-cols-1 gap-[4rem] lg:grid-cols-5 ${!ourProcess?.isInCenter && 'mt-[2rem]'}`}
           >
-            <div className="col-span-2 flex h-fit items-center justify-center">
+            <div className="col-span-2 hidden h-fit items-center justify-center md:flex">
               <div className="relative h-[520px] w-[520px]">
                 <svg width="520" height="520" viewBox="0 0 520 520">
                   {ourProcess.services.map((service: any, idx: number) => {
@@ -155,7 +154,7 @@ const OurProcess = ({ ourProcess }: any) => {
                 })}
               </div>
             </div>
-            <div className="col-span-3 my-auto flex h-fit items-center justify-center">
+            <div className="col-span-3 my-auto flex h-fit w-full items-center justify-center">
               <AnimatePresence mode="wait">
                 <motion.div
                   key={activeTab}
