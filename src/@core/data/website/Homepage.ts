@@ -571,7 +571,7 @@ export const ServiceSectionData = {
           label: 'GBP Only',
           title: 'GBP Only',
           description: `We help businesses dominate local search through a strategic mix of Google Business Profile optimization, localized content, review management, and technical SEO. Our local-first approach drives higher map visibility, increased foot traffic, and more qualified calls and inquiries from nearby customers.`,
-          link: '/services/local-seo-company-india',
+          link: '/services/gmb-service-india',
         },
         {
           icon: GBPSetup,
