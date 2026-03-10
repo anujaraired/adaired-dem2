@@ -422,11 +422,19 @@ import geoAiSeoBannerBg from '../../../../../../public/assets/images/services/ge
 import geoAiSeoBuildLinkImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoBuildLinkImg.png';
 
 import geoAiSeoWhatServiceImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoWhatServiceImg.png';
-import { Span } from 'next/dist/trace';
 
 // Mobile App Development Images
 import mobileAppDevBannerBg from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevBannerBg.png';
 import mobileAppDevAdairedHelpImg from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevAdairedHelpImg.png';
+import mobileAppDevWhatService from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevWhatService.png';
+
+import mobileAppDevProcess_1 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevProcess_1.png';
+import mobileAppDevProcess_2 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevProcess_2.png';
+import mobileAppDevProcess_3 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevProcess_3.png';
+import mobileAppDevProcess_4 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevProcess_4.png';
+import mobileAppDevProcess_5 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevProcess_5.png';
+import mobileAppDevProcess_6 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevProcess_6.png';
+import mobileAppDevProcess_7 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevProcess_7.png';
 
 export type SectionKey =
   | 'banner'
@@ -12905,10 +12913,10 @@ brand appears in AI summaries and citations.`,
       'adairedHelp',
       'importantToBussiness',
       'ourProcess',
+      'whatMkeDeferent',
       'buildlinks',
       'faqData',
       'dataInTable',
-      'whatMkeDeferent',
       'whatMissing',
       'keyStats',
       'whatIncluded',
@@ -12932,26 +12940,28 @@ brand appears in AI summaries and citations.`,
       },
     },
     banner: {
-      code: '07',
-      isCenter: false,
+      code: '02',
       isVisible: true,
-      heading: 'App Developers',
+      heading2: 'App Developers',
       subheading: '',
       subtitle: '#1 Mobile App Development Company',
-      label: 'Custom iOS & Android ',
+      isStyleHeading: true,
+      isHeadingNormal: true,
+      heading2Color: '#FB9100',
+      breakIndex: 4,
+      heading: 'Custom iOS & Android',
       desc: [
         `Take your brand to your users’ fingertips with high-performance mobile apps designed to increase reach, engagement, and growth.`,
       ],
       button: 'Transform Your Website Into an App',
-      width: '20rem',
-      widthLg: '30rem',
+      width: '50%',
       bgImg: mobileAppDevBannerBg,
     },
 
     whatareservice: {
       isVisible: true,
       isVariant: '12',
-      img: LocalWhatService,
+      img: mobileAppDevWhatService,
       heading: 'What is Mobile App Development?',
       span: '',
       bgColor: '#FFFCF8',
@@ -13106,6 +13116,26 @@ brand appears in AI summaries and citations.`,
           description: [
             `We build premium iOS applications designed for performance, security, and seamless user experience across Apple devices. 
             Our team of expert mobile app developers develops apps for the iOS ecosystem, including iPhone and iPad.`,
+            {
+              desctioption: 'What we offer:',
+              list: [
+                {
+                  des: ['[Custom iPhone and iPad app development']
+                },
+                {
+                  des: ['Swift-based app development']
+                },
+                {
+                  des: ['UI/UX design aligned with Apple guidelines']
+                },
+                {
+                  des: ['App Store submission & deployment support']
+                },
+                {
+                  des: ['Ongoing maintenance and updates']
+                },
+              ]
+            },
             `We focus on building high-quality applications that deliver smooth performance and long-term scalability.`,
           ],
           button: 'Transform Your Website Into an App',
@@ -13116,6 +13146,26 @@ brand appears in AI summaries and citations.`,
           name: 'Android App Development',
           description: [
             `Our Android app development services are built to reach a wide and diverse global audience. We create feature-rich, secure applications optimized for the Android platform.`,
+            {
+              desctioption: 'Our Android services include:',
+              list: [
+                {
+                  des: ['Custom Android application development']
+                },
+                {
+                  des: ['Kotlin and Java-based programming']
+                },
+                {
+                  des: ['Responsive UI design for multiple screen sizes']
+                },
+                {
+                  des: ['Google Play Store deployment']
+                },
+                {
+                  des: ['Performance optimization and security integration']
+                },
+              ]
+            },
             `We ensure your Android app performs consistently across devices while delivering a seamless user experience.`,
           ],
           button: 'Transform Your Website Into an App',
@@ -13126,6 +13176,26 @@ brand appears in AI summaries and citations.`,
           name: 'Cross-Platform App Development',
           description: [
             `To reduce development time and cost while maintaining quality, we offer cross-platform app development solutions using advanced frameworks such as React Native and Flutter.`,
+            {
+              desctioption: 'Benefits of our cross-platform solutions:',
+              list: [
+                {
+                  des: ['Single codebase for multiple platforms']
+                },
+                {
+                  des: ['Faster time-to-market']
+                },
+                {
+                  des: ['Cost-effective development']
+                },
+                {
+                  des: ['Consistent UI/UX across devices']
+                },
+                {
+                  des: ['Simplified maintenance and updates']
+                },
+              ]
+            },
             `We help businesses launch apps efficiently without compromising on performance or design.`,
           ],
           button: 'Transform Your Website Into an App',
@@ -13137,6 +13207,23 @@ brand appears in AI summaries and citations.`,
           description: [
             `As wearable technology continues to grow, we develop innovative apps for smart devices such as smartwatches and fitness trackers. 
             Our wearable app solutions are designed for seamless connectivity and real-time performance.`,
+            {
+              desctioption: 'Our wearable development services include:',
+              list: [
+                {
+                  des: ['Smartwatch app development']
+                },
+                {
+                  des: ['Fitness and health tracking integrations']
+                },
+                {
+                  des: ['IoT-enabled wearable solutions']
+                },
+                {
+                  des: ['Companion apps for mobile synchronization']
+                },
+              ]
+            },
             `We ensure your wearable applications are intuitive, lightweight, and optimized for smaller screens while delivering powerful functionality.`,
           ],
           button: 'Transform Your Website Into an App',
@@ -13148,6 +13235,26 @@ brand appears in AI summaries and citations.`,
           description: [
             `Progressive Web Apps combine the best features of web and mobile applications. PWAs provide fast loading times, offline access, 
             and app-like experiences without requiring full installation from app stores.`,
+            {
+              desctioption: 'Our PWA development services offer:',
+              list: [
+                {
+                  des: ['Responsive design across all devices']
+                },
+                {
+                  des: ['Offline functionality']
+                },
+                {
+                  des: ['Push notifications']
+                },
+                {
+                  des: ['Secure HTTPS implementation']
+                },
+                {
+                  des: ['Faster performance compared to traditional web apps']
+                },
+              ]
+            },
             `PWAs are an ideal solution for businesses looking for cost-effective mobile accessibility with high performance.`,
           ],
           button: 'Transform Your Website Into an App',
@@ -13168,7 +13275,7 @@ brand appears in AI summaries and citations.`,
       ],
       services: [
         {
-          icon: geoAiSeoProcess_1,
+          icon: mobileAppDevProcess_1,
           title: 'Discovery & Requirement Analysis',
           description: [
             `We start by gaining a deep understanding of your business model, objectives, target audience, and market positioning. 
@@ -13177,7 +13284,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: geoAiSeoProcess_1,
+          icon: mobileAppDevProcess_2,
           title: 'Strategy & Technical Planning',
           description: [
             `Once requirements are finalized, we develop a strategic and technical blueprint for your application. 
@@ -13186,7 +13293,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: geoAiSeoProcess_1,
+          icon: mobileAppDevProcess_3,
           title: 'UI/UX Design',
           description: [
             `Our design process focuses on creating an intuitive, engaging, and brand-aligned user experience. 
@@ -13196,7 +13303,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: geoAiSeoProcess_1,
+          icon: mobileAppDevProcess_4,
           title: 'Development',
           description: [
             `During the development phase, our engineers transform approved designs into a fully functional mobile application. 
@@ -13206,7 +13313,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: geoAiSeoProcess_1,
+          icon: mobileAppDevProcess_5,
           title: 'Testing & Quality Assurance',
           description: [
             `Quality assurance is integrated throughout the development lifecycle. 
@@ -13216,7 +13323,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: geoAiSeoProcess_1,
+          icon: mobileAppDevProcess_6,
           title: 'Deployment & Launch',
           description: [
             `After successful testing and final approval, we prepare the application for launch. 
@@ -13225,12 +13332,64 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: geoAiSeoProcess_1,
+          icon: mobileAppDevProcess_7,
           title: 'Post-Launch Support & Maintenance',
           description: [
             `Launching the app is only the beginning of its growth journey. We provide continuous monitoring, performance optimization, 
             and timely updates to keep the application secure and aligned with evolving platform standards.`,
             `As user feedback comes in, we implement enhancements and new features to maintain competitiveness and long-term success.`,
+          ],
+        },
+      ],
+    },
+
+    whatMkeDeferent: {
+      isVisible: true,
+      isVariant: '03',
+      breakIndex: 3,
+      isInCenter: true,
+      bgColor: true,
+      heading: `Why Choose Us as Your Mobile App Development Firm?`,
+      description: [``],
+      list: [
+        {
+          img: saasSeoWhatMkDiffImg_1,
+          name: 'Custom Development Services',
+          description: [
+            `Every application we build is tailored to your business goals, target audience, and industry requirements.`,
+            `From feature planning to UI/UX design and backend architecture, our solutions are strategically crafted to deliver measurable growth, enhanced user engagement, and long-term scalability.`,
+          ],
+        },
+        {
+          img: saasSeoWhatMkDiffImg_2,
+          name: 'Agile Development Methodology',
+          description: [
+            `Our agile-driven process ensures flexibility, transparency, and faster time-to-market. By dividing projects into structured sprints, we enable continuous feedback, rapid iterations, and adaptive improvements.`,
+            `This approach minimizes risks, improves collaboration, and ensures your mobile application evolves efficiently throughout the development lifecycle.`,
+          ],
+        },
+        {
+          img: saasSeoWhatMkDiffImg_3,
+          name: 'Transparent Pricing',
+          description: [
+            `We maintain complete clarity in project scope, timelines, and cost structure. With detailed proposals and milestone-based delivery plans, you always know where your investment is going.`,
+            `Our transparent pricing model eliminates hidden charges and helps you plan your budget with confidence.`,
+          ],
+        },
+        {
+          img: saasSeoWhatMkDiffImg_4,
+          name: 'Structured Cost Evaluation',
+          description: [
+            `To help you estimate your investment upfront, we provide structured cost evaluation guidance based on features, platform choice, complexity, and integrations.`,
+            `This allows you to make informed decisions and align development strategy with your financial planning from the very beginning.`,
+          ],
+        },
+        {
+          img: saasSeoWhatMkDiffImg_5,
+          name: 'Proven Track Record',
+          description: [
+            `Our experience across diverse industries has helped businesses launch high-performing mobile applications that drive engagement and revenue.`,
+            `With a strong portfolio, skilled development team, and client-centric approach, we consistently deliver solutions that meet global quality standards and exceed expectations.`,
           ],
         },
       ],
@@ -13453,77 +13612,6 @@ brand appears in AI summaries and citations.`,
         {
           desctioption: `We align your brand with the specific variables that influence AI-generated results using strategic optimization, content writing, 
           and AI-driven insights, enabling you to become an algorithm that trusts, recommends, and elevates.`,
-        },
-      ],
-    },
-
-    whatMkeDeferent: {
-      isVisible: false,
-      isVariant: '01',
-      breakIndex: 3,
-      isInCenter: true,
-      bgColor: true,
-      heading: `Why Leading SaaS Brands Choose Adaired Digital`,
-      description: [``],
-      list: [
-        {
-          img: saasSeoWhatMkDiffImg_1,
-          name: 'SaaS-Only Focus',
-          description: [
-            `We work exclusively with B2B SaaS companies, not eCommerce brands, not local businesses, and not general service providers. That specialization matters. 
-            SaaS growth is driven by subscription economics, long-term retention, product adoption, and expansion revenue. 
-            We understand the nuances of CAC, LTV, churn sensitivity, pipeline velocity, and product-led growth models. 
-            Because SaaS is all we do, our strategies are built around how subscription businesses actually scale, not around outdated SEO tactics designed for one-time purchases.`,
-          ],
-        },
-        {
-          img: saasSeoWhatMkDiffImg_2,
-          name: 'Revenue-First Strategy',
-          description: [
-            `Traffic alone doesn’t grow a SaaS company; revenue does. 
-            Every keyword we target, every page we optimize, and every content asset we build is aligned with measurable business outcomes. 
-            We map search intent to funnel stages and revenue potential, ensuring your organic growth translates into demo requests, trial signups, and a qualified pipeline. 
-            Instead of chasing high-volume vanity terms, we prioritize high-intent opportunities that directly influence recurring revenue and long-term customer value.`,
-          ],
-        },
-        {
-          img: saasSeoWhatMkDiffImg_3,
-          name: 'No Generic SEO Playbooks',
-          description: [
-            `Most agencies rely on templated processes that look impressive but fail to deliver meaningful results in competitive SaaS markets. \
-            We don’t believe in one-size-fits-all SEO. Your growth strategy is built specifically around your product positioning, ideal customer profile, category maturity, and competitive landscape. 
-            Whether you're defining a new category or competing in a saturated one, we design a framework that reflects your unique strengths and market realities, not a recycled checklist.`,
-          ],
-        },
-        {
-          img: saasSeoWhatMkDiffImg_4,
-          name: 'Deep Competitor Targeting',
-          description: [
-            `In B2B SaaS, buyers actively compare alternatives before making decisions. 
-            We leverage this behavior strategically. 
-            Our approach includes detailed competitor gap analysis, alternative positioning pages, comparison content, and high-intent keyword targeting designed to intercept prospects at the evaluation stage. 
-            By identifying where competitors dominate and where they leave opportunities open, we position your brand directly in the path of decision-ready buyers.`,
-          ],
-        },
-        {
-          img: saasSeoWhatMkDiffImg_5,
-          name: 'Full-Funnel Execution',
-          description: [
-            `Organic growth doesn’t happen at a single stage of the buyer journey. 
-            We build comprehensive SEO ecosystems that support awareness, consideration, evaluation, and decision-making. 
-            From problem-focused educational content to integration pages, use-case assets, and bottom-of-funnel comparison pages, every piece works together to create a cohesive search presence. 
-            The result is not fragmented traffic but a structured acquisition engine that consistently feeds your sales pipeline.`,
-          ],
-        },
-        {
-          img: saasSeoWhatMkDiffImg_6,
-          name: 'Built for Scale',
-          description: [
-            `SaaS companies evolve, new features launch, new markets open, and new verticals emerge. 
-            Your SEO strategy should evolve with you. 
-            We design scalable frameworks that expand into new keyword clusters, industries, and high-value opportunities as your company grows. 
-            Instead of short-term ranking wins, we focus on building a long-term organic growth asset that compounds over time and strengthens your competitive position year after year.`,
-          ],
         },
       ],
     },

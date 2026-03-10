@@ -673,9 +673,9 @@ const WhatAreService = ({ whatareaiseo }: any) => {
           <MaxWidthWrapper className="grid grid-cols-1 gap-[2rem] lg:grid-cols-2 py-[3rem] lg:py-[4rem]">
             <div
               ref={ref}
-              className={`group flex items-center justify-center transition-all duration-1000 lg:items-center lg:justify-start ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
+              className={`relative group flex items-center justify-center transition-all duration-1000 lg:items-center lg:justify-start ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-16' : '-translate-x-0 opacity-0'}`}
             >
-              <Image src={whatareaiseo?.img} width={602} height={50} alt="" />
+              <Image src={whatareaiseo?.img} width={947} height={632} alt="" className='lg:absolute lg:-left-[14rem]' />
             </div>
             <div
               className={`my-auto flex flex-col items-center transition-all duration-1000 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}

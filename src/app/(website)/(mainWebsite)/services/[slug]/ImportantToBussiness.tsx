@@ -87,7 +87,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
                           return (
                             <div key={index} className="py-3">
                               {dec?.desctioption && (
-                                <p className="pb-2 font-semibold">
+                                <p className="pb-[1rem]">
                                   {dec.desctioption}
                                 </p>
                               )}
@@ -99,15 +99,16 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
                                       {listItem?.des?.map((d: string, di: number) => (
                                         <div
                                           key={di}
-                                          className="flex items-start gap-3"
+                                          className="flex items-center gap-3"
                                         >
-                                          <Image
+                                          {/* <Image
                                             src={SocialMediaCheck}
                                             width={17}
                                             height={23}
                                             alt="check"
                                             className="shrink-0 mt-1 w-[14px] h-auto sm:w-[17px]"
-                                          />
+                                          /> */}
+                                          <TbPointFilled size={11} />
                                           <p className='text-left'>{d}</p>
                                         </div>
                                       ))}

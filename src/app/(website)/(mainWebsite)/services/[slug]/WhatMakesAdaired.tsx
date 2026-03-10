@@ -30,13 +30,14 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
             const isOrange = idx % 2 === 0;
             const shouldUseOrange =
               whatMkeDeferent?.isVariant === '02' ? !isOrange : isOrange;
+              const whiteBgWithBorder=
+              whatMkeDeferent?.isVariant === '03' ? !isOrange : isOrange;
             return (
               <div
                 style={{
                   transitionDelay: `${idx * 120}ms`,
                 }}
-                className={`mt-[2rem] flex flex-col justify-between gap-10 rounded-[20px] p-[2rem] transition-all duration-700 lg:flex-row lg:gap-0 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${shouldUseOrange ? 'bg-[#FB9100]/5' : 'bg-[#F9F9F9]'
-                  }`}
+                className={`mt-[2rem] flex flex-col justify-between gap-10 rounded-[20px] p-[2rem] transition-all duration-700 lg:flex-row lg:gap-0 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} ${shouldUseOrange ? 'bg-[#FB9100]/5' : 'bg-[#F9F9F9]'} ${whiteBgWithBorder ? 'bg-[#FB9100]/5 border border-[#F28F17]/10' : 'bg-white border border-[#051B3C]/17'}`}
               >
                 <div className="order-2 my-auto w-[100%] lg:order-1 lg:w-[50%]">
                   <h3>{item?.name}</h3>
@@ -46,8 +47,7 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
                     })}
                   </div>
                 </div>
-                <div className={`order-1 flex w-[100%] justify-center justify-items-center rounded-[20px] p-8 lg:order-2 lg:w-[40%] ${shouldUseOrange ? 'bg-[#FFF2DF]' : 'bg-[#F3F3F3]'
-                  }`}>
+                <div className={`order-1 flex w-[100%] justify-center justify-items-center rounded-[20px] p-8 lg:order-2 lg:w-[40%] ${shouldUseOrange ? 'bg-[#FFF2DF]' : 'bg-[#F3F3F3]'} ${whiteBgWithBorder ? 'bg-[#FFF2DF]' : 'bg-[#F4F4F4]'}`}>
                   {/* <div className='relative lg:w-[525px] lg:h-[334px]'> */}
                   <div className="relative w-full max-w-[525px] aspect-[525/334]">
                     <Image src={item?.img} alt="if" fill className="object-contain transition-transform duration-300 ease-out hover:scale-110" />
