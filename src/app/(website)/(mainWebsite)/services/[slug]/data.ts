@@ -2737,7 +2737,15 @@ brand appears in AI summaries and citations.`,
       breakIndex: 3,
       heading: 'Design That Builds Trust.',
       heading2: 'Design That Builds Trust.',
-      // isStyleHeading: true,
+      isStyleHeading: true,
+      headingParts: [
+        { text: 'Design That Builds Trust.', color: '#FB9100', weight: '800' },
+        {
+          text: ' Experiences That Convert.',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       bgImg: webDevelopmentBannerBg,
     },
 
