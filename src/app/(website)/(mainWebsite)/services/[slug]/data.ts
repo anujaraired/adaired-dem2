@@ -13497,14 +13497,16 @@ brand appears in AI summaries and citations.`,
 
     ourProcess: {
       isVisible: true,
+      breakIndex: 3,
+      isInCenter: true,
       subtitle: 'Our Process',
       title: 'Our Mobile App Development Process',
-      breakIndex: 3,
-      bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0]',
       span: '',
       description: [
         `We follow a structured, agile-driven approach to deliver high-performance mobile applications that align with your business goals.`,
       ],
+     bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0]',
+
       services: [
         {
           icon: mobileAppDevProcess_1,
