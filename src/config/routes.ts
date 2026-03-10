@@ -143,19 +143,19 @@ export const routes: {
           subItems: [
             {
               name: 'High Authority Link Building',
-              href: '/services/link-building-services-india',
+              href: '#',
             },
             {
               name: 'Gest Post Links',
-              href: '/services/link-building-services-india',
+              href: '#',
             },
             {
               name: 'Niche Edits',
-              href: '/services/link-building-services-india',
+              href: '#',
             },
             {
               name: 'Press Releases',
-              href: '/services/link-building-services-india',
+              href: '#',
             },
           ],
         },
@@ -167,19 +167,19 @@ export const routes: {
           subItems: [
             {
               name: 'Port Creation',
-              href: '/services/strategic-social-media-management',
+              href: '#',
             },
             {
               name: 'Content Calendar',
-              href: '/services/strategic-social-media-management',
+              href: '#',
             },
             {
               name: 'Reel Editing',
-              href: '/services/strategic-social-media-management',
+              href: '#',
             },
             {
               name: 'Creatives',
-              href: '/services/strategic-social-media-management',
+              href: '#',
             },
           ],
         },
@@ -190,39 +190,39 @@ export const routes: {
           subItems: [
             {
               name: 'Article Writing',
-              href: '/services/expert-content-solutions',
+              href: '#',
             },
             {
               name: 'Blog Writing',
-              href: '/services/expert-content-solutions',
+              href: '#',
             },
             {
               name: 'Web Content',
-              href: '/services/expert-content-solutions',
+              href: '#',
             },
             {
               name: 'ECommerce Content',
-              href: '/services/expert-content-solutions',
+              href: '#',
             },
           ],
         },
 
         {
           icon: icon_5,
-          name: 'Search Engine Optimization (SEO)',
+          name: 'Search Engine Optimization',
           href: '/services/seo-company-india',
           subItems: [
-            {
-              name: 'SEO',
-              href: '/services/seo-company-india',
-            },
+            // {
+            //   name: 'SEO',
+            //   href: '/services/seo-company-india',
+            // },
             {
               name: 'SAAS SEO',
               href: '/services/saas-seo-india',
             },
             {
               name: 'ECommerce SEO',
-              href: '/services/seo-company-india',
+              href: '#',
             },
           ],
         },
@@ -233,11 +233,11 @@ export const routes: {
           subItems: [
             {
               name: 'GBP Only',
-              href: '/services/local-seo-company-india',
+              href: '/services/gmb-service-india',
             },
             {
               name: 'GBP + Website',
-              href: '/services/local-seo-company-india',
+              href: '#',
             },
           ],
         },
@@ -270,21 +270,21 @@ export const routes: {
           name: 'AI SEO',
           href: '#',
           subItems: [
-            {
-              name: 'AI SEO',
-              href: '/services/ai-seo-company-india',
-            },
+            // {
+            //   name: 'AI SEO',
+            //   href: '/services/ai-seo-company-india',
+            // },
             {
               name: 'LMM SEO/LLMO',
-              href: '/services/ai-seo-company-india',
+              href: '#',
             },
             {
               name: 'GEO',
-              href: '/services/ai-seo-company-india',
+              href: '/services/geo-ai-seo-company-india',
             },
             {
               name: 'AEO',
-              href: '/services/ai-seo-company-india',
+              href: '/services/aeo-service-india',
             },
           ],
         },
@@ -296,42 +296,42 @@ export const routes: {
           subItems: [
             {
               name: 'Google Ads',
-              href: '/services/paid-media-and-advertising',
+              href: '#',
             },
             {
               name: 'Meta Ads',
-              href: '/services/paid-media-and-advertising',
+              href: '#',
             },
             {
               name: 'Linkedin Ads',
-              href: '/services/paid-media-and-advertising',
+              href: '#',
             },
             {
               name: 'TikTok Ads',
-              href: '/services/paid-media-and-advertising',
+              href: '#',
             },
           ],
         },
         {
           icon: icon_10,
           name: 'Mobile App Development',
-          href: '/services/web-design-development-company',
+          href: '/services/mobile-apps-development-company',
           subItems: [
             {
               name: 'IOS Development',
-              href: '/services/web-design-development-company',
+              href: '#',
             },
             {
               name: 'Android Development',
-              href: '/services/web-design-development-company',
+              href: '#',
             },
             {
               name: 'Cross-Platform',
-              href: '/services/web-design-development-company',
+              href: '#',
             },
             {
               name: 'Wearables',
-              href: '/services/web-design-development-company',
+              href: '#',
             },
           ],
         },
