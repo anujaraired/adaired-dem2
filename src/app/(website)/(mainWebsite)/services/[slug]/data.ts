@@ -120,43 +120,43 @@ import adairedHelp_13 from '../../../../../../public/assets/images/services/seo/
 import adairedHelp_12 from '../../../../../../public/assets/images/services/seo/adairedSEO6.png';
 import adairedHelp_14 from '../../../../../../public/assets/images/services/seo/adairedSEO7.png';
 import adairedHelp_16 from '../../../../../../public/assets/images/services/seo/adairedSEO8.png';
-import adairedHelpaiseo1 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO1.png';
-import adairedHelpaiseo2 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO2.png';
-import adairedHelpaiseo3 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO3.png';
-import adairedHelpaiseo4 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO4.png';
-import adairedHelpaiseo5 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO5.png';
-import adairedHelpaiseo6 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO6.png';
-import whatMkLocal from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo1.png';
-import whatMkLocal1 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo2.png';
-import whatMkLocal2 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo3.png';
-import whatMkLocal3 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo4.png';
-import whatMkLocal4 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo5.png';
-import whatMkLocal5 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo6.png';
-import WhatMkeAd from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign1.png';
-import WhatMkeAd2 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign2.png';
-import WhatMkeAd3 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign3.png';
-import WhatMkeAd4 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign4.png';
-import WhatMkeAd5 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign5.png';
-import WhatMkeAd6 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign6.png';
+// import adairedHelpaiseo1 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO1.png';
+// import adairedHelpaiseo2 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO2.png';
+// import adairedHelpaiseo3 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO3.png';
+// import adairedHelpaiseo4 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO4.png';
+// import adairedHelpaiseo5 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO5.png';
+// import adairedHelpaiseo6 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO6.png';
+// import whatMkLocal from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo1.png';
+// import whatMkLocal1 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo2.png';
+// import whatMkLocal2 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo3.png';
+// import whatMkLocal3 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo4.png';
+// import whatMkLocal4 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo5.png';
+// import whatMkLocal5 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo6.png';
+// import WhatMkeAd from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign1.png';
+// import WhatMkeAd2 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign2.png';
+// import WhatMkeAd3 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign3.png';
+// import WhatMkeAd4 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign4.png';
+// import WhatMkeAd5 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign5.png';
+// import WhatMkeAd6 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign6.png';
 
-import whiteLinkBuildingWhatMkDiffImg_1 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild1.png';
-import whiteLinkBuildingWhatMkDiffImg_2 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild2.png';
-import whiteLinkBuildingWhatMkDiffImg_3 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild3.png';
-import whiteLinkBuildingWhatMkDiffImg_4 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild5.png';
-import whiteLinkBuildingWhatMkDiffImg_5 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild4.png';
+// import whiteLinkBuildingWhatMkDiffImg_1 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild1.png';
+// import whiteLinkBuildingWhatMkDiffImg_2 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild2.png';
+// import whiteLinkBuildingWhatMkDiffImg_3 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild3.png';
+// import whiteLinkBuildingWhatMkDiffImg_4 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild5.png';
+// import whiteLinkBuildingWhatMkDiffImg_5 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild4.png';
 
-import whatMkWhite_1 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia1.png';
-import whatMkWhite_2 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia2.png';
-import whatMkWhite_3 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia3.png';
-import whatMkWhite_4 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia4.png';
-import whatMkWhite_5 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia5.png';
+// import whatMkWhite_1 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia1.png';
+// import whatMkWhite_2 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia2.png';
+// import whatMkWhite_3 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia3.png';
+// import whatMkWhite_4 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia4.png';
+// import whatMkWhite_5 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia5.png';
 
-import whatMkWhiteSeo_1 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo1.png';
-import whatMkWhiteSeo_2 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo2.png';
-import whatMkWhiteSeo_3 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo3.png';
-import whatMkWhiteSeo_4 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo4.png';
-import whatMkWhiteSeo_5 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo5.png';
-import whatMkWhiteSeo_6 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo6.png';
+// import whatMkWhiteSeo_1 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo1.png';
+// import whatMkWhiteSeo_2 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo2.png';
+// import whatMkWhiteSeo_3 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo3.png';
+// import whatMkWhiteSeo_4 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo4.png';
+// import whatMkWhiteSeo_5 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo5.png';
+// import whatMkWhiteSeo_6 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo6.png';
 
 import HowAdairedHelp from '../../../../../../public/assets/WebDevelopment/HowAdairedHelp.png';
 import adairedHelp_1 from '../../../../../../public/assets/adairedHelp/Group 1000006012.png';
@@ -205,12 +205,12 @@ import AdairedHelp4 from '../../../../../../public/assets/images/AdairedHelp4.pn
 import AdairedHelp5 from '../../../../../../public/assets/images/AdairedHelp5.png';
 import AdairedHelp6 from '../../../../../../public/assets/images/AdairedHelp6.png';
 
-import adairedDiff_1 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding1.png';
-import adairedDiff_2 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding2.png';
-import adairedDiff_3 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding3.png';
-import adairedDiff_4 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding4.png';
-import adairedDiff_5 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding5.png';
-import adairedDiff_6 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding6.png';
+// import adairedDiff_1 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding1.png';
+// import adairedDiff_2 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding2.png';
+// import adairedDiff_3 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding3.png';
+// import adairedDiff_4 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding4.png';
+// import adairedDiff_5 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding5.png';
+// import adairedDiff_6 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding6.png';
 
 import linkServices_1 from '../../../../../../public/assets/images/linkServices_1.png';
 import linkServices_2 from '../../../../../../public/assets/images/linkServices_2.png';
@@ -320,8 +320,8 @@ import AEOServiceImpIcon_6 from '../../../../../../public/assets/images/services
 import AEOServiceImpIcon_7 from '../../../../../../public/assets/images/services/aeoService/ImpToBussinessImg/Icon7.svg';
 import AEOServiceImpIcon_8 from '../../../../../../public/assets/images/services/aeoService/ImpToBussinessImg/Icon8.svg';
 import AEOServiceImpIcon_9 from '../../../../../../public/assets/images/services/aeoService/ImpToBussinessImg/Icon9.svg';
-import AEOServicewhatMke1 from '../../../../../../public/assets/images/services/aeoService/whatMkeDeferentImg/Img1.png';
-import AEOServicewhatMke2 from '../../../../../../public/assets/images/services/aeoService/whatMkeDeferentImg/Img2.png';
+// import AEOServicewhatMke1 from '../../../../../../public/assets/images/services/aeoService/whatMkeDeferentImg/Img1.png';
+// import AEOServicewhatMke2 from '../../../../../../public/assets/images/services/aeoService/whatMkeDeferentImg/Img2.png';
 import AeoServiceBannerImg from '../../../../../../public/assets/images/services/aeoService/AeoServiceBannerImg.png';
 
 import whiteServicesIncluded_1 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesIncluded_1.png';
@@ -394,12 +394,12 @@ import saasSeoImpIcon_4 from '../../../../../../public/assets/saasSeo/saasSeoImp
 import saasSeoImpIcon_5 from '../../../../../../public/assets/saasSeo/saasSeoImpIcon_5.png';
 import saasSeoImpIcon_6 from '../../../../../../public/assets/saasSeo/saasSeoImpIcon_6.png';
 
-import saasSeoWhatMkDiffImg_1 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_1.png';
-import saasSeoWhatMkDiffImg_2 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_2.png';
-import saasSeoWhatMkDiffImg_3 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_3.png';
-import saasSeoWhatMkDiffImg_4 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_4.png';
-import saasSeoWhatMkDiffImg_5 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_5.png';
-import saasSeoWhatMkDiffImg_6 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_6.png';
+// import saasSeoWhatMkDiffImg_1 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_1.png';
+// import saasSeoWhatMkDiffImg_2 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_2.png';
+// import saasSeoWhatMkDiffImg_3 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_3.png';
+// import saasSeoWhatMkDiffImg_4 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_4.png';
+// import saasSeoWhatMkDiffImg_5 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_5.png';
+// import saasSeoWhatMkDiffImg_6 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_6.png';
 
 // GEO Ai Seo Images
 import geoAiSeoImpIcon_1 from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoImpIcon_1.png';
@@ -969,7 +969,7 @@ export const SERVICES_DATA = {
       ],
       list: [
         {
-          img: "adaired/services/seo/adairedSEO8_qrb7xh.png",
+          img: "adaired/services/seo/adairedSEO1_q3hwfz.png",
           name: 'Customized SEO Strategies',
           description: [
             `Adaired develops customized search engine optimization plans according to your business objectives, target market, and competition in the industry. We do not apply templates and standardized checklists.`,
@@ -985,7 +985,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: "adaired/services/seo/adairedSEO2_cvwllu",
+          img: "adaired/services/seo/adairedSEO3_vdik7e.png",
           name: 'Focus on Revenue, Not Just Rankings',
           description: [
             `Higher rankings alone don’t grow businesses. Adaired focuses on the SEO strategies, which will provide qualified traffic, leads, and sales.`,
@@ -993,7 +993,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: "adaired/services/seo/adairedSEO2_cvwllu",
+          img: "adaired/services/seo/adairedSEO4_fnv2bk.png",
           name: 'Complete SEO Expertise Under One Roof',
           description: [
             `From technical SEO and on-page optimization to content creation, link building, and local optimization, Adaired covers every SEO pillar.`,
@@ -1001,7 +1001,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: "adaired/services/seo/adairedSEO2_cvwllu",
+          img: "adaired/services/seo/adairedSEO5_yx8jag.png",
           name: 'Transparent Reporting & Communication',
           description: [
             `We believe in full transparency. Adaired offers effective, understandable SEO reports with the focus on progress, results, and future actions.`,
@@ -1009,7 +1009,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: "adaired/services/seo/adairedSEO2_cvwllu",
+          img: "adaired/services/seo/adairedSEO6_lecqo7.png",
           name: 'White-Hat, Google-Compliant SEO',
           description: [
             `Adaired follows ethical, white-hat SEO practices aligned with Google’s guidelines. We avoid risky shortcuts and spam methods that lead to penalties.`,
@@ -1017,7 +1017,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: "adaired/services/seo/adairedSEO2_cvwllu",
+          img: "adaired/services/seo/adairedSEO7_xzi2d0.png",
           name: 'Continuous Optimization & Algorithm Readiness',
           description: [
             `Search algorithms are constantly evolving, and so are our strategies.  Adaired constantly monitors updates, user actions, and performance patterns to optimize the campaigns.`,
@@ -1025,7 +1025,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: "adaired/services/seo/adairedSEO2_cvwllu",
+          img: "adaired/services/seo/adairedSEO8_qrb7xh.png",
           name: 'Client-Centric Partnership Approach',
           description: [
             `We do not provide just SEO; we build partnerships. Adaired works closely with its clients to understand challenges, create strategies, and adapt with the business.`,
@@ -1627,7 +1627,7 @@ export const SERVICES_DATA = {
       description: [],
       list: [
         {
-          img: adairedHelpaiseo1,
+          img: "adaired/services/ai_seo/adairedAISEO1_laiacx.png",
           name: 'AI-First SEO Built For Modern Search',
           description: [
             `Adaired pursues an AI-first strategy of SEO, which is how today's search engines operate. The search trends, user intent, and the ranking changes are analysed and processed by our AI tools in real time. `,
@@ -1635,7 +1635,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelpaiseo2,
+          img: "adaired/services/ai_seo/adairedAISEO2_zxctyf.png",
           name: 'SEO Focused on Real Business Growth',
           description: [
             'We don’t focus only on rankings. SEO at Adaired is meant to deliver actual performance, increased traffic, improved leads, and increased conversions. ',
@@ -1643,7 +1643,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelpaiseo3,
+          img: "adaired/services/ai_seo/adairedAISEO3_cb9lab.png",
           name: 'Custom SEO Strategies, No Templates',
           description: [
             `Adaired never uses one-size-fits-all SEO plans. We develop tailor-made plans that suit your industry, your target market, competition, and objectives. `,
@@ -1651,7 +1651,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelpaiseo4,
+          img: "adaired/services/ai_seo/adairedAISEO4_smalkf.png",
           name: 'Content That Works for AI and People',
           description: [
             'We create our content in a way that meets the demands of search engines and actual users. AI helps us to interpret search intent and frame content properly, whereas our professionals make sure that it remains straightforward, practical, and comprehensible. ',
@@ -1659,7 +1659,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelpaiseo5,
+          img: "adaired/services/ai_seo/adairedAISEO5_xpbmvr.png",
           name: 'Proactive SEO That Stays Ahead of Changes',
           description: [
             `The search engines change constantly, and Adaired stays ahead of them. Our AI tracks performance changes, updates, and competitor activities in real time.`,
@@ -1667,7 +1667,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: adairedHelpaiseo6,
+          img: "adaired/services/ai_seo/adairedAISEO6_xkywjh.png",
           name: 'Clear Reporting and Complete Transparency',
           description: [
             'Adaired believes in honest communication. We provide simple, easy-to-follow reports that reveal what is working and what is not.  ',
@@ -2472,7 +2472,7 @@ brand appears in AI summaries and citations.`,
       description: [],
       list: [
         {
-          img: adairedDiff_1,
+          img: "adaired/services/link_building/adairedLinkBuilding1_o9qrri.png",
           name: 'Links That Build Real Authority',
           description: [
             `Adaired focuses on authoritative and niche-specific backlinks rather than pursuing high quantities. Every link is evaluated for domain strength, traffic quality, relevance, and editorial.`,
@@ -2480,7 +2480,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: adairedDiff_2,
+          img: "adaired/services/link_building/adairedLinkBuilding2_enfjfh.png",
           name: '100% White-Hat & Safe',
           description: [
             `Our web building policies align well with the Google Webmaster Policy. We do not use PBNs, link farms, or automation.`,
@@ -2488,7 +2488,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: adairedDiff_3,
+          img: "adaired/services/link_building/adairedLinkBuilding3_bicg91.png",
           name: 'Niche-Relevant Placements',
           description: [
             `Unlike generic providers, Adaired builds links within your exact industry and content ecosystem. All the backlinks are contextually situated on the appropriate pages, which naturally align with your brand.`,
@@ -2496,7 +2496,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: adairedDiff_4,
+          img: "adaired/services/link_building/adairedLinkBuilding4_zpjmdf.png",
           name: 'Clear Reporting, Real Results',
           description: [
             `We believe in complete transparency. Adaired offers reports that display live links, use of anchor texts, domain measures, traffic, and placement URLs.`,
@@ -2504,7 +2504,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: adairedDiff_5,
+          img: "adaired/services/link_building/adairedLinkBuilding5_wangjy.png",
           name: 'Fully Customized Strategies',
           description: [
             `No two businesses are the same, and neither are our link-building campaigns.  Adaired develops unique strategies relevant to your interests, competition, industry, and existing backlink profile.`,
@@ -2512,7 +2512,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: adairedDiff_6,
+          img: "adaired/services/link_building/adairedLinkBuilding6_w5vs3m.png",
           name: 'SEO-Led Link Building',
           description: [
             `We identify that backlinks are aligned with the intent of the keywords, site architecture, and the overall performance of the search engine optimization.`,
@@ -3123,7 +3123,7 @@ brand appears in AI summaries and citations.`,
       ],
       list: [
         {
-          img: WhatMkeAd,
+          img: "adaired/services/web_design_development/adairedWebDesign1_vrhmda.png",
           name: 'Professional experience and expertise',
           description: [
             `Our professionals clearly convey that you are investing in years of knowledge and experience. We adapt to the latest designs and follow the best practices to help you create websites that are user-friendly, visually appealing, and fully functional.`,
@@ -3132,7 +3132,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: WhatMkeAd2,
+          img: "adaired/services/web_design_development/adairedWebDesign2_fg0acc.png",
           name: 'User-centric design and SEO',
           description: [
             `The studies suggest that half of the internet users make an opinion about a business based on how its website look and 57% of users will not suggest a business to others after a bad experience. `,
@@ -3140,7 +3140,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: WhatMkeAd3,
+          img: "adaired/services/web_design_development/adairedWebDesign3_phbrlo.png",
           name: 'Commitment to time and quality',
           description: [
             `Through years, we have built a reputation on delivering quality work to our clients. Since there are a number of steps involved in the website creation, we create timelines for different aspects of the project to complete it on time. `,
@@ -3148,7 +3148,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: WhatMkeAd4,
+          img: "adaired/services/web_design_development/adairedWebDesign4_gbwvap.png",
           name: 'Quick Turnaround Time',
           description: [
             `With efficient project management and a dedicated workforce, we ensure that the projects are completed faster without compromising quality. `,
@@ -3156,7 +3156,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: WhatMkeAd5,
+          img: "adaired/services/web_design_development/adairedWebDesign5_r7i3ws.png",
           name: 'Highly skilled team members',
           description: [
             `At Adaired, we have a team of highly skilled, knowledgeable and experienced professionals including developers, designers, and digital marketers. Our website design team brings skills and creativity to build websites that excel in functionality, performance and aesthetics.`,
@@ -3164,7 +3164,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: WhatMkeAd6,
+          img: "adaired/services/web_design_development/adairedWebDesign6_kix9co.png",
           name: 'Proven Track Record of Success',
           description: [
             `Adaired has a proven track record of delivering results to our clients. Our portfolio spans multiple industries, demonstrating our ability to adapt and innovate with time. `,
@@ -3789,7 +3789,7 @@ brand appears in AI summaries and citations.`,
       description: [],
       list: [
         {
-          img: whatMkLocal,
+          img: "adaired/services/local_seo/adairedLocalSeo1_pxo4vp.png",
           name: '1. Proven Local SEO Strategies That Drive Real Foot Traffic',
           description: [
             `At Adaired, we don’t chase vanity metrics but we focus on what matters: visibility that converts. 
@@ -3798,7 +3798,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkLocal1,
+          img: "adaired/services/local_seo/adairedLocalSeo2_qvwi5i.png",
           name: '2. Deep Understanding of Local Search Algorithms',
           description: [
             `Local SEO isn’t the same as traditional SEO, and we treat it that way. Adaired focuses on local ranking factors like proximity, relevance, and prominence.`,
@@ -3806,7 +3806,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkLocal2,
+          img: "adaired/services/local_seo/adairedLocalSeo3_dqjt0d.png",
           name: '3. Customized Solutions for Every Local Business',
           description: [
             `No two local businesses are the same and neither are our strategies. 
@@ -3815,7 +3815,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkLocal3,
+          img: "adaired/services/local_seo/adairedLocalSeo4_nqh3pz.png",
           name: '4. End-to-End Local SEO Services Under One Roof',
           description: [
             `Adaired does it all, starting with local keyword research and citation building and going through to review management and on-page optimization.`,
@@ -3823,7 +3823,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkLocal4,
+          img: "adaired/services/local_seo/adairedLocalSeo5_gv1vhs.png",
           name: '5. Transparent Reporting and Measurable Results',
           description: [
             `We believe trust is built on transparency. Adaired provides clear, easy-to-understand reports which present the performance of your campaigns on local search engine optimization.`,
@@ -3831,7 +3831,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkLocal5,
+          img: "adaired/services/local_seo/adairedLocalSeo6_zzridz.png",
           name: '6. Dedicated Local SEO Experts Who Care About Growth',
           description: [
             `When you work with Adaired, you’re not just hiring an agency, you’re gaining a growth partner. 
@@ -4695,7 +4695,7 @@ brand appears in AI summaries and citations.`,
       ],
       list: [
         {
-          img: whatMkWhite_1,
+          img: "adaired/services/white_label_social_media/adairedSocialMedia1_q9yul4.png",
           name: '1. Dedicated Social Media Specialists',
           description: [
             `Our team consists of experienced strategists, content creators, ad managers, and account coordinators who specialize in white label social media management.`,
@@ -4703,7 +4703,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkWhite_2,
+          img: "adaired/services/white_label_social_media/adairedSocialMedia2_xk9rv8.png",
           name: '2. Data-Driven Campaign Execution',
           description: [
             `Every social media marketing initiative we manage is guided by analytics, performance tracking, and ongoing optimization.`,
@@ -4711,7 +4711,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkWhite_3,
+          img: "adaired/services/white_label_social_media/adairedSocialMedia3_mm8igr.png",
           name: '3. Structured Communication & Collaboration',
           description: [
             `Successful white label social media services depend on clear coordination.`,
@@ -4719,7 +4719,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkWhite_4,
+          img: "adaired/services/white_label_social_media/adairedSocialMedia4_x19y6f.png",
           name: '4. Focus on Measurable Growth',
           description: [
             `Vanity metrics do not define success. 
@@ -4727,7 +4727,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkWhite_5,
+          img: "adaired/services/white_label_social_media/adairedSocialMedia5_qghir7.png",
           name: '5. Brand Integrity & Confidentiality',
           description: [
             `As your white label social media reseller partner, we operate discreetly. 
@@ -5534,7 +5534,7 @@ brand appears in AI summaries and citations.`,
       ],
       list: [
         {
-          img: whatMkWhiteSeo_1,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'You Acquire and Manage the Client',
           description: [
             `You handle sales, onboarding, and all client communication under your brand. 
@@ -5542,7 +5542,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkWhiteSeo_2,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo2_dpfuh9.png",
           name: 'Campaign Onboarding and Scope Alignment',
           description: [
             `Once a project is approved, you share campaign details, goals, and access requirements with us. 
@@ -5550,7 +5550,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkWhiteSeo_3,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo3_vpnkp1.png",
           name: 'SEO Execution by Our Team',
           description: [
             `Our team handles the complete SEO workload in the background. 
@@ -5558,7 +5558,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkWhiteSeo_4,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo4_kkrqw5.png",
           name: 'Dedicated SEO Manager for Scaled Accounts',
           description: [
             `We assign a dedicated SEO manager to oversee execution, coordinate workflows, and serve as a single point of contact. 
@@ -5566,14 +5566,14 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whatMkWhiteSeo_5,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo5_mbpvyr.png",
           name: 'White-Labeled Reporting and Deliverables',
           description: [
             `We prepare all reports, dashboards, and updates with your branding. Every deliverable is client-ready and aligned with your reporting cadence.`,
           ],
         },
         {
-          img: whatMkWhiteSeo_6,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo6_g79z31.png",
           name: 'You Deliver Results Under Your Brand',
           description: [
             `You share insights, rankings, and performance updates with your clients. 
@@ -6482,7 +6482,7 @@ brand appears in AI summaries and citations.`,
       ],
       list: [
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'White Label Reporting',
           description: [
             `Reporting is essential for effective client communication. 
@@ -6492,7 +6492,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Dedicated Account Management',
           description: [
             `Each agency partnership has a dedicated point of contact who is in charge of managing delivery, timelines, and cross-service coordination. 
@@ -6501,7 +6501,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'On-Time Delivery and Structured Timelines',
           description: [
             `Missed deadlines directly impact client trust. 
@@ -6511,7 +6511,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Affordable Pricing Compared to Other Models',
           description: [
             `Hiring and maintaining in-house teams involves fixed costs, training time, and long-term commitments. 
@@ -6520,7 +6520,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Brand Protection and Confidentiality ',
           description: [
             `Brand integrity is critical in white-label partnerships. 
@@ -6530,7 +6530,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Consistency at Scale',
           description: [
             `As agencies grow, maintaining consistent quality across accounts becomes increasingly difficult. 
@@ -6540,7 +6540,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Predictable Resource Planning',
           description: [
             `Hiring in-house teams requires long-term commitments, training cycles, and fixed costs. 
@@ -6550,7 +6550,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Long-Term Partnership Focus',
           description: [
             `Adaired works with agencies looking for sustained growth rather than short-term fulfillment. 
@@ -7615,7 +7615,7 @@ brand appears in AI summaries and citations.`,
       ],
       list: [
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'White Label Reporting',
           description: [
             `Reporting is essential for effective client communication. 
@@ -7625,7 +7625,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Dedicated Account Management',
           description: [
             `Each agency partnership has a dedicated point of contact who is in charge of managing delivery, timelines, and cross-service coordination. 
@@ -7634,7 +7634,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'On-Time Delivery and Structured Timelines',
           description: [
             `Missed deadlines directly impact client trust. 
@@ -7644,7 +7644,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Affordable Pricing Compared to Other Models',
           description: [
             `Hiring and maintaining in-house teams involves fixed costs, training time, and long-term commitments. 
@@ -7653,7 +7653,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Brand Protection and Confidentiality ',
           description: [
             `Brand integrity is critical in white-label partnerships. 
@@ -7663,7 +7663,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Consistency at Scale',
           description: [
             `As agencies grow, maintaining consistent quality across accounts becomes increasingly difficult. 
@@ -7673,7 +7673,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Predictable Resource Planning',
           description: [
             `Hiring in-house teams requires long-term commitments, training cycles, and fixed costs. 
@@ -7683,7 +7683,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Long-Term Partnership Focus',
           description: [
             `Adaired works with agencies looking for sustained growth rather than short-term fulfillment. 
@@ -8833,7 +8833,7 @@ brand appears in AI summaries and citations.`,
       ],
       list: [
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'White Label Reporting',
           description: [
             `Reporting is essential for effective client communication. 
@@ -8843,7 +8843,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Dedicated Account Management',
           description: [
             `Each agency partnership has a dedicated point of contact who is in charge of managing delivery, timelines, and cross-service coordination. 
@@ -8852,7 +8852,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'On-Time Delivery and Structured Timelines',
           description: [
             `Missed deadlines directly impact client trust. 
@@ -8862,7 +8862,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Affordable Pricing Compared to Other Models',
           description: [
             `Hiring and maintaining in-house teams involves fixed costs, training time, and long-term commitments. 
@@ -8871,7 +8871,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Brand Protection and Confidentiality ',
           description: [
             `Brand integrity is critical in white-label partnerships. 
@@ -8881,7 +8881,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Consistency at Scale',
           description: [
             `As agencies grow, maintaining consistent quality across accounts becomes increasingly difficult. 
@@ -8891,7 +8891,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Predictable Resource Planning',
           description: [
             `Hiring in-house teams requires long-term commitments, training cycles, and fixed costs. 
@@ -8901,7 +8901,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: whiteServicesAdairedHelpImg,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Long-Term Partnership Focus',
           description: [
             `Adaired works with agencies looking for sustained growth rather than short-term fulfillment. 
@@ -9405,35 +9405,35 @@ brand appears in AI summaries and citations.`,
       ],
       list: [
         {
-          img: whiteLinkBuildingWhatMkDiffImg_1,
+          img: "adaired/services/white_label_link_building/adairedWhiteLinkBuild1_xjjuyp.png",
           name: 'SEO Agencies',
           description: [
             `For dedicated SEO agencies, link building is often the most time-consuming and resource-heavy part of the campaign.`,
           ],
         },
         {
-          img: whiteLinkBuildingWhatMkDiffImg_2,
+          img: "adaired/services/white_label_link_building/adairedWhiteLinkBuild2_hzji5k.png",
           name: 'Digital Marketing Agencies',
           description: [
             `Full-service digital marketing agencies often manage PPC, social media, content marketing, and web development, but building an internal link acquisition team can be complex and costly.`,
           ],
         },
         {
-          img: whiteLinkBuildingWhatMkDiffImg_3,
+          img: "adaired/services/white_label_link_building/adairedWhiteLinkBuild3_p41wbq.png",
           name: 'Web Design & Development Agencies',
           description: [
             `Many web design and development agencies want to expand into SEO but lack link building expertise.`,
           ],
         },
         {
-          img: whiteLinkBuildingWhatMkDiffImg_4,
+          img: "adaired/services/white_label_link_building/adairedWhiteLinkBuild5_a55yha.png",
           name: 'Freelance SEO Consultants',
           description: [
             `Independent consultants often handle strategy and technical SEO but may not have the time or systems to manage manual outreach campaigns.`,
           ],
         },
         {
-          img: whiteLinkBuildingWhatMkDiffImg_5,
+          img: "adaired/services/white_label_link_building/adairedWhiteLinkBuild4_xbsaao.png",
           name: 'SaaS Marketing Teams',
           description: [
             `For SaaS companies, authority and trust signals are essential in competitive markets. We align link acquisition with product-led growth strategies to support long-term visibility and lead generation.`,
@@ -10396,7 +10396,7 @@ brand appears in AI summaries and citations.`,
       description: [``],
       list: [
         {
-          img: saasSeoWhatMkDiffImg_1,
+          img: "adaired/services/saas_seo/saasSeoWhatMkDiffImg_1_me0vkq.png",
           name: 'SaaS-Only Focus',
           description: [
             `We work exclusively with B2B SaaS companies, not eCommerce brands, not local businesses, and not general service providers. That specialization matters. 
@@ -10406,7 +10406,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_2,
+          img: "adaired/services/saas_seo/saasSeoWhatMkDiffImg_2_b4yzt8.png",
           name: 'Revenue-First Strategy',
           description: [
             `Traffic alone doesn’t grow a SaaS company; revenue does. 
@@ -10416,7 +10416,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_3,
+          img: "adaired/services/saas_seo/saasSeoWhatMkDiffImg_3_el0oex.png",
           name: 'No Generic SEO Playbooks',
           description: [
             `Most agencies rely on templated processes that look impressive but fail to deliver meaningful results in competitive SaaS markets. \
@@ -10425,7 +10425,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_4,
+          img: "adaired/services/saas_seo/saasSeoWhatMkDiffImg_4_hpahqn.png",
           name: 'Deep Competitor Targeting',
           description: [
             `In B2B SaaS, buyers actively compare alternatives before making decisions. 
@@ -10435,7 +10435,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_5,
+          img: "adaired/services/saas_seo/saasSeoWhatMkDiffImg_5_u2tvzw.png",
           name: 'Full-Funnel Execution',
           description: [
             `Organic growth doesn’t happen at a single stage of the buyer journey. 
@@ -10445,7 +10445,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_6,
+          img: "adaired/services/saas_seo/saasSeoWhatMkDiffImg_6_szpceg.png",
           name: 'Built for Scale',
           description: [
             `SaaS companies evolve, new features launch, new markets open, and new verticals emerge. 
@@ -11535,7 +11535,7 @@ brand appears in AI summaries and citations.`,
       description: [``],
       list: [
         {
-          img: saasSeoWhatMkDiffImg_1,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'SaaS-Only Focus',
           description: [
             `We work exclusively with B2B SaaS companies, not eCommerce brands, not local businesses, and not general service providers. That specialization matters. 
@@ -11545,7 +11545,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_2,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Revenue-First Strategy',
           description: [
             `Traffic alone doesn’t grow a SaaS company; revenue does. 
@@ -11555,7 +11555,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_3,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'No Generic SEO Playbooks',
           description: [
             `Most agencies rely on templated processes that look impressive but fail to deliver meaningful results in competitive SaaS markets. \
@@ -11564,7 +11564,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_4,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Deep Competitor Targeting',
           description: [
             `In B2B SaaS, buyers actively compare alternatives before making decisions. 
@@ -11574,7 +11574,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_5,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Full-Funnel Execution',
           description: [
             `Organic growth doesn’t happen at a single stage of the buyer journey. 
@@ -11584,7 +11584,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_6,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Built for Scale',
           description: [
             `SaaS companies evolve, new features launch, new markets open, and new verticals emerge. 
@@ -12378,7 +12378,7 @@ brand appears in AI summaries and citations.`,
       ],
       list: [
         {
-          img: AEOServicewhatMke1,
+          img: "adaired/services/aeo_service/Img1_i7g6cb.png",
           name: 'Proprietary AEO Framework',
           description: [
             `We don’t apply generic SEO checklists to AI search. Our proprietary framework is designed specifically for answer engine ecosystems. It combines semantic architecture, entity engineering, citation readiness, and authority development into a structured methodology that aligns with how AI systems actually evaluate and extract information.`,
@@ -12386,7 +12386,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: AEOServicewhatMke2,
+          img: "adaired/services/aeo_service/Img2_omj70c.png",
           name: 'AI Visibility Monitoring',
           description: [
             `Most agencies track rankings. We track citation visibility. Our monitoring systems analyze how and where your brand appears in AI-generated answers, featured summaries, and conversational search experiences.`,
@@ -13478,7 +13478,7 @@ brand appears in AI summaries and citations.`,
       description: [``],
       list: [
         {
-          img: saasSeoWhatMkDiffImg_1,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'SaaS-Only Focus',
           description: [
             `We work exclusively with B2B SaaS companies, not eCommerce brands, not local businesses, and not general service providers. That specialization matters. 
@@ -13488,7 +13488,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_2,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Revenue-First Strategy',
           description: [
             `Traffic alone doesn’t grow a SaaS company; revenue does. 
@@ -13498,7 +13498,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_3,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'No Generic SEO Playbooks',
           description: [
             `Most agencies rely on templated processes that look impressive but fail to deliver meaningful results in competitive SaaS markets. \
@@ -13507,7 +13507,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_4,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Deep Competitor Targeting',
           description: [
             `In B2B SaaS, buyers actively compare alternatives before making decisions. 
@@ -13517,7 +13517,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_5,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Full-Funnel Execution',
           description: [
             `Organic growth doesn’t happen at a single stage of the buyer journey. 
@@ -13527,7 +13527,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: saasSeoWhatMkDiffImg_6,
+          img: "adaired/services/white_label_seo_outsourcing/adairedWhiteLabelSeo1_i8elv2.png",
           name: 'Built for Scale',
           description: [
             `SaaS companies evolve, new features launch, new markets open, and new verticals emerge. 
