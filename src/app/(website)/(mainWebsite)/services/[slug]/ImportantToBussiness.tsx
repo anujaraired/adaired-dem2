@@ -128,7 +128,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
                     {item?.button && (
                       <p
                         onClick={() => setOpen(!open)}
-                        className="absolute bottom-[2rem] left-[0rem] flex w-fit cursor-pointer items-center justify-center gap-2 text-[#FB9100] lg:left-[2rem] lg:justify-start"
+                        className="absolute bottom-[2rem] left-[0rem] w-full flex lg:w-fit cursor-pointer items-center justify-center gap-2 text-[#FB9100] lg:left-[2rem] lg:justify-start"
                       >
                         <span className="text-[16px]">{item.button}</span>
                         <MdOutlineArrowOutward />
@@ -137,13 +137,22 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
                   </div>
                 );
               })}
-              {importantToBussiness?.isCardVisible && (
+              {/* {importantToBussiness?.isCardVisible && (
                 <ImpToBusinessCard
                   handleClick={() => setOpen(true)}
                   idx={importantToBussiness?.data?.length} 
                   isVisible={isVisible}
                 />
-              )}
+              )} */}
+
+              {importantToBussiness.card?.map((card :any, idx: any) => (
+                <ImpToBusinessCard
+                  idx={importantToBussiness?.data?.length} 
+                  isVisible={isVisible}
+                  handleClick={() => setOpen(true)}
+                  cardData={card}
+                />
+              ))}
             </div>
           </MaxWidthWrapper>
         </div>
@@ -317,7 +326,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
                     {item?.button && (
                       <p
                         onClick={() => setOpen(!open)}
-                        className="absolute bottom-[2rem] left-[0rem] flex w-fit cursor-pointer items-center justify-center gap-2 text-[#FB9100] lg:left-[2rem] lg:justify-start"
+                        className="absolute bottom-[2rem] left-[0rem] flex w-full lg:w-fit cursor-pointer items-center justify-center gap-2 text-[#FB9100] lg:left-[2rem] lg:justify-start"
                       >
                         <span className="text-[16px]">{item.button}</span>
                         <MdOutlineArrowOutward />

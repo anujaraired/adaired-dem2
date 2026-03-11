@@ -30,7 +30,7 @@ const FAQ = ({ faqs }: any) => {
   };
 
   return (
-    <div ref={ref} className="overflow-visible py-[3rem] lg:py-[4rem]">
+    <div ref={ref} className={`overflow-visible py-[3rem] lg:py-[4rem] ${faqs?.bgColor || 'bg-white'}`}>
       <MaxWidthWrapper className="space-y-[1rem] overflow-visible">
         {/* Heading */}
         <div
