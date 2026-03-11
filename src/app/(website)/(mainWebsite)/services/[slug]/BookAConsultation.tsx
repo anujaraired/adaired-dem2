@@ -480,6 +480,9 @@ const BookAConsultation = ({ buildlinks }: any) => {
             buildlinks?.bgImg
               ? {
                 backgroundImage: `url(${buildlinks.bgImg?.src})`,
+                backgroundSize: 'cover',
+                backgroundPosition: 'center',
+                backgroundRepeat: 'no-repeat',
               }
               : {}
           }

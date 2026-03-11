@@ -27,7 +27,11 @@ const LaunchMobileApp = ({ handleClick }: any) => {
                 priority
                 className="absolute w-[clamp(12rem,25vw,26rem)] bottom-0 right-0 pointer-events-none rounded-2xl"
             />
-            <div className="absolute left-[2.5rem] right-[5rem] top-[2rem] h-full">
+            <div 
+            // className="absolute left-[2.5rem] right-[5rem] top-[2rem] h-full"
+            className='absolute w-full px-[3rem] py-[3rem] h-full'
+            
+            >
                 <h1 className="text-center text-white lg:text-left font-normal">
                     Launch Your Next
                 </h1>
@@ -47,7 +51,7 @@ const LaunchMobileApp = ({ handleClick }: any) => {
                     scale with your business.
                 </p>
 
-                <div className="flex justify-center lg:justify-start mt-[3rem]">
+                <div className="absolute pt-[2rem]">
                     <SaveAndCancel
                         name="Talk to Our Developers"
                         isIcon={true}
