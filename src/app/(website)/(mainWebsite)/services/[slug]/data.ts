@@ -323,6 +323,7 @@ import AEOServiceImpIcon_9 from '../../../../../../public/assets/images/services
 // import AEOServicewhatMke1 from '../../../../../../public/assets/images/services/aeoService/whatMkeDeferentImg/Img1.png';
 // import AEOServicewhatMke2 from '../../../../../../public/assets/images/services/aeoService/whatMkeDeferentImg/Img2.png';
 import AeoServiceBannerImg from '../../../../../../public/assets/images/services/aeoService/AeoServiceBannerImg.png';
+import ImpToBusinessCradImg from '../../../../../../public/assets/images/services/aeoService/ImpToBusinessCradImg.png';
 
 import whiteServicesIncluded_1 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesIncluded_1.png';
 import whiteServicesIncluded_2 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesIncluded_2.png';
@@ -12295,6 +12296,17 @@ brand appears in AI summaries and citations.`,
           btnColor: '#FB9100',
         },
       ],
+      card: [
+        {
+          code: 1,
+          img: ImpToBusinessCradImg,
+          heading: 'Become the Brand',
+          heading1: [`AI Search Engines`, `Trust`],
+          description: [`AI-powered search is already reshaping how customers discover information. The question isn’t whether AI visibility matters; it’s whether your brand will be cited or overlooked.`,
+            `Position your business to be found, trusted, and referenced in AI-generated answers.`],
+          buttonName: 'Build My AEO Strategy',
+        }
+      ],
     },
 
     dataInTable: {
@@ -14307,6 +14319,7 @@ brand appears in AI summaries and citations.`,
     whatareservice: {
       isVisible: true,
       isVariant: '07',
+      breakIndex: 5,
       img: WhatAreServiceGMB,
       heading: 'What is Google Business Profile Optimization?',
       span: '',
@@ -14335,6 +14348,7 @@ brand appears in AI summaries and citations.`,
     whatareservice2: {
       isVisible: true,
       isVariant: '11',
+      breakIndex: 5,
       img: WhatAreServiceGMB2,
       heading: 'Why Your Business Needs GBP Optimization',
       bgColor: '#FFFFFF',
@@ -14361,7 +14375,7 @@ brand appears in AI summaries and citations.`,
     importantToBussiness: {
       isVisible: true,
       isInCenter: true,
-      isCardVisible: false,
+      isCardVisible: true,
       breakIndex: 5,
       isVariant: '01',
       cardColor: '#F9F9F9',
@@ -14464,6 +14478,17 @@ brand appears in AI summaries and citations.`,
           btnColor: '#FB9100',
         },
       ],
+      card: [
+        {
+          code: 2,
+          img: ImpToBusinessCradImg,
+          heading: 'Boost Your Visibility on',
+          heading1: [`Google Maps`],
+          description: [`Take the next step toward stronger local visibility and more customer inquiries. `,
+            `Contact Adaired Digital today to get started with professional Google My Business optimization services.`],
+          buttonName: 'Optimize My Website for AI',
+        }
+      ],
     },
 
     adairedHelp: {
@@ -14471,7 +14496,7 @@ brand appears in AI summaries and citations.`,
       breakIndex: 5,
       img: AdairedHelpgmb,
       isInCenter: false,
-      bgColor: '#FFFBF5',
+      bgColor: 'bg-gradient-to-b from-[#FFFEFB] to-[#FFF7EB]',
       cardBg: '',
       heading: `Top Reasons to Select GBP Optimization Services from Adaired Digital`,
       description: [
@@ -14568,7 +14593,7 @@ brand appears in AI summaries and citations.`,
       subtitle: 'Our Process',
       title: 'Our Google Business Profile Optimization Process',
       breakIndex: 4,
-      bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0]',
+      bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFFFFF]',
       span: '',
       description: [``],
       services: [
@@ -14632,6 +14657,7 @@ brand appears in AI summaries and citations.`,
 
     faqData: {
       isVisible: true,
+      bgColor: 'bg-[#FAFAFA]',
       subtitle: 'FAQ',
       title: 'Frequently Asked Questions',
       description: ``,

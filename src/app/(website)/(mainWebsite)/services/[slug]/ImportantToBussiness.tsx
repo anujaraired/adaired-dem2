@@ -137,13 +137,22 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
                   </div>
                 );
               })}
-              {importantToBussiness?.isCardVisible && (
+              {/* {importantToBussiness?.isCardVisible && (
                 <ImpToBusinessCard
                   handleClick={() => setOpen(true)}
                   idx={importantToBussiness?.data?.length} 
                   isVisible={isVisible}
                 />
-              )}
+              )} */}
+
+              {importantToBussiness.card?.map((card :any, idx: any) => (
+                <ImpToBusinessCard
+                  idx={importantToBussiness?.data?.length} 
+                  isVisible={isVisible}
+                  handleClick={() => setOpen(true)}
+                  cardData={card}
+                />
+              ))}
             </div>
           </MaxWidthWrapper>
         </div>
