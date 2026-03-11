@@ -13623,12 +13623,20 @@ brand appears in AI summaries and citations.`,
     techStackMobile: {
       isVisible: true,
       heading: 'Key Stats About White Label Link Building',
-      NavItems: [
+      navItems: [
         'Frontend Technologies',
         'Backend Technologies',
         'Database Management',
         'Cloud & DevOps',
         'UI/UX & Prototyping Tools',
+        'API & Integrations',
+      ],
+      mobileNavItems: [
+        'Frontend',
+        'Backend',
+        'Database',
+        'DevOps',
+        'UI/UX',
         'API & Integrations',
       ],
       list: [
