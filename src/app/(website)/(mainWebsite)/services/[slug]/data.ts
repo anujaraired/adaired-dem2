@@ -1505,6 +1505,7 @@ export const SERVICES_DATA = {
     },
     benefitofAiSeo: {
       isVisible: true,
+      isVariant: '01',
       isDecVarticle: true,
       isInCenter: false,
       isBgWhite: false,
@@ -2269,6 +2270,7 @@ brand appears in AI summaries and citations.`,
     // NEW
     benefitofAiSeo: {
       isVisible: true,
+      isVariant: '01',
       isDecVarticle: false,
       isBgWhite: true,
       breakIndex: 6,
@@ -2937,6 +2939,7 @@ brand appears in AI summaries and citations.`,
 
     benefitofAiSeo: {
       isVisible: true,
+      isVariant: '01',
       isDecVarticle: true,
       isBgWhite: false,
       isInCenter: false,
@@ -15437,6 +15440,7 @@ brand appears in AI summaries and citations.`,
 
     benefitofAiSeo: {
       isVisible: true,
+      isVariant: '02',
       isDecVarticle: true,
       isBgWhite: false,
       isInCenter: false,
