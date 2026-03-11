@@ -249,7 +249,7 @@ export const routes: {
           subItems: [
             {
               name: 'Wordpress Development',
-              href: '/services/wordpress-development',
+              href: '/services/wordpress-development-company-india',
             },
             {
               name: 'Shopify Development',

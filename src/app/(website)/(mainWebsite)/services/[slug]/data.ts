@@ -16313,7 +16313,7 @@ brand appears in AI summaries and citations.`,
       bgImage: LocalNotSeeBg,
     },
   },
-  'wordpress-development-service-india': {
+  'wordpress-development-company-india': {
     sectionsOrder: [
       'banner',
       'keyStats',

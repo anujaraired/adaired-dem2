@@ -744,7 +744,7 @@ export const ServiceSectionData = {
           label: 'WordPress Development',
           title: 'WordPress Development',
           description: `Build a powerful, professional website with our WordPress Development services. We design, develop, and customize responsive sites tailored to your brand, ensuring fast performance, SEO optimization, and user-friendly navigation. From blogs to e-commerce, we deliver secure, scalable solutions that help your business grow online effectively.`,
-          link: '/services/shopify-development',
+          link: '/services/wordpress-development-company-india',
         },
         {
           icon: shoppyfy,
@@ -752,7 +752,7 @@ export const ServiceSectionData = {
           label: 'Shopify Development',
           title: 'Shopify Development',
           description: `Launch and grow your online store with our Shopify Development services. We design, build, and customize responsive, secure, and user-friendly e-commerce websites. From product management to payment integration, our solutions drive sales, enhance customer experience, and help your business succeed in the competitive world of online retail.`,
-          link: '/services/search-engine-optimization',
+          link: '/services/web-design-development-company',
         },
         {
           icon: amazon,
