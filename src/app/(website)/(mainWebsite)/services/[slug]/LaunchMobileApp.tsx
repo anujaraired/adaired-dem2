@@ -9,8 +9,7 @@ import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 const LaunchMobileApp = ({ handleClick }: any) => {
     //test
     return (
-        <div className="relative min-h-[450px] rounded-2xl">
-            {/* transition-all duration-700 ease-in-out hover:-translate-y-2 hover:shadow-xl hover:duration-300 */}
+        <div className="relative min-h-[480px] lg:min-h-[450px] rounded-2xl">
             <Image
                 src={LaunchMobileAppCardBg}
                 fill
@@ -28,9 +27,7 @@ const LaunchMobileApp = ({ handleClick }: any) => {
                 className="absolute w-[clamp(12rem,25vw,26rem)] bottom-0 right-0 pointer-events-none rounded-2xl"
             />
             <div 
-            // className="absolute left-[2.5rem] right-[5rem] top-[2rem] h-full"
-            className='absolute w-full px-[3rem] py-[3rem] h-full'
-            
+            className='absolute w-full p-[2rem] md:p-[4rem] lg:p-[3rem] h-full'
             >
                 <h1 className="text-center text-white lg:text-left font-normal">
                     Launch Your Next
@@ -43,7 +40,7 @@ const LaunchMobileApp = ({ handleClick }: any) => {
                     Experts
                 </h1>
 
-                <p className="pt-[2rem] text-white font-semibold text-center lg:text-left">
+                <p className="pt-[1rem] lg:pt-[2rem] text-white font-semibold text-center lg:text-left">
                     Custom Android and iOS apps built to
                 </p>
 
@@ -51,13 +48,12 @@ const LaunchMobileApp = ({ handleClick }: any) => {
                     scale with your business.
                 </p>
 
-                <div className="absolute pt-[2rem]">
+                <div className="absolute pt-[2rem] sm:px-[7rem] sm:p-[3rem] md:p-[4rem] lg:px-0">
                     <SaveAndCancel
-                        name="Talk to Our Developers"
+                        name="Ask a Developer"
                         isIcon={true}
                         isBold={true}
                         isBgWhite={true}
-                        buttonWidth=""
                         handleClick={handleClick}
                     />
                 </div>
