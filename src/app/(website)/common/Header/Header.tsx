@@ -261,7 +261,7 @@ const Header = () => {
                                               className={`group flex items-center gap-2 transition hover:text-[#FB9100]`}
                                             >
                                               <span
-                                                className={`my-[0.65rem] block text-[18px] font-semibold transition ${pathname === sub?.href && 'text-[#FB9100]'}`}
+                                                className={`my-[0.65rem] block text-[15px] font-semibold transition ${pathname === sub?.href && 'text-[#FB9100]'}`}
                                               >
                                                 {sub.name}
                                               </span>
@@ -347,7 +347,7 @@ const Header = () => {
                                               className={`group flex items-center gap-2 transition hover:text-[#FB9100]`}
                                             >
                                               <span
-                                                className={`my-[0.65rem] block text-[18px] font-semibold transition ${pathname === sub?.href && 'text-[#FB9100]'}`}
+                                                className={`my-[0.65rem] block text-[15px] font-semibold transition ${pathname === sub?.href && 'text-[#FB9100]'}`}
                                               >
                                                 {sub.name}
                                               </span>
@@ -428,7 +428,7 @@ const Header = () => {
                                               className={`group flex items-center gap-2 transition hover:text-[#FB9100]`}
                                             >
                                               <span
-                                                className={`my-[0.65rem] block text-[18px] font-semibold transition ${pathname === sub?.href && 'text-[#FB9100]'}`}
+                                                className={`my-[0.65rem] block text-[15px] font-semibold transition ${pathname === sub?.href && 'text-[#FB9100]'}`}
                                               >
                                                 {sub.name}
                                               </span>
