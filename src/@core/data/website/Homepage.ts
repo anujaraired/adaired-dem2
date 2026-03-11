@@ -580,7 +580,7 @@ export const ServiceSectionData = {
           title: 'GBP + Website',
           description: `We build and maintain consistent business citations across relevant local, industry, and geo-specific directories. By standardizing business information and eliminating inconsistencies, we help search engines verify legitimacy, improve map pack visibility, and drive more qualified local traffic.
 `,
-          link: '/services/local-seo-company-india',
+          link: '/services/gmb-website-seo-india',
         },
         // {
         //   icon: FakeGBPReporting,
