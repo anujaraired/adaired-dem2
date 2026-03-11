@@ -285,7 +285,7 @@ const KeyStats = ({ keyStats }: any) => {
               </div>
 
               <div
-                className={`relative flex items-center justify-center rounded-[20px] bg-[${keyStats?.bgColor || '#FFFFFF'}]/10`}
+                className={`relative flex items-center justify-center rounded-[20px] ${keyStats?.heading == 'Must-Know Facts About White Label Social Media' ? 'bg-[#FFFFFF]' : `bg-[${keyStats?.bgColor}]/10`}`}
               >
                 <Image
                   src={keyStats?.img}

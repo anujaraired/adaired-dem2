@@ -404,7 +404,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
               className={`order-2 my-auto flex flex-col items-center transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
               <h1
-                className={`font-normal text-[#FFFFFF] lg:text-left`}
+                className={`font-normal text-[#FFFFFF] text-center lg:text-left`}
               >
                 {buildlinks?.label}
               </h1>
