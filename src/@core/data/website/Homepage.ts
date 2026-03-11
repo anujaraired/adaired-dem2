@@ -492,7 +492,7 @@ export const ServiceSectionData = {
           label: 'SaaS SEO',
           title: 'SaaS SEO',
           description: `We help SaaS businesses grow through targeted SEO strategies designed for recurring-revenue models. From optimizing product pages and feature-based keywords to creating funnel-driven content, our SaaS SEO approach attracts decision-makers, boosts trial sign-ups, and supports long-term customer acquisition.`,
-          link: '/services/saas-seo-india',
+          link: '/services/saas-seo-agency',
         },
         {
           icon: SEO_3,
@@ -580,7 +580,7 @@ export const ServiceSectionData = {
           title: 'GBP + Website',
           description: `We build and maintain consistent business citations across relevant local, industry, and geo-specific directories. By standardizing business information and eliminating inconsistencies, we help search engines verify legitimacy, improve map pack visibility, and drive more qualified local traffic.
 `,
-          link: '/services/local-seo-company-india',
+          link: '/services/gmb-website-seo-india',
         },
         // {
         //   icon: FakeGBPReporting,

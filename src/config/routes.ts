@@ -237,7 +237,7 @@ export const routes: {
             },
             {
               name: 'GBP + Website',
-              href: '#',
+              href: '/services/gmb-website-seo-india',
             },
           ],
         },
@@ -268,7 +268,7 @@ export const routes: {
         {
           icon: icon_8,
           name: 'AI SEO',
-          href: '#',
+          href: '/services/ai-seo-india',
           subItems: [
             // {
             //   name: 'AI SEO',
