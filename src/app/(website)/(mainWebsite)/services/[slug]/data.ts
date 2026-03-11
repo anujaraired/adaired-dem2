@@ -482,7 +482,10 @@ import mobileAppDevTechStackImg_29 from '../../../../../../public/assets/images/
 import mobileAppDevTechStackImg_30 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_30.png';
 
 // GBP local Seo Images
-import gbplocalSeoBannerBg from '../../../../../../public/assets/images/services/gbpLocalSeo/gbplocalSeoBannerBg.png';
+// import gbplocalSeoBannerBg from '../../../../../../public/assets/images/services/gbpLocalSeo/gbplocalSeoBannerBg.png';
+import gbplocalSeoBannerBg from '../../../../../../public/assets/images/services/gmb/gmb_only.png';
+import gmb_website_banner from '../../../../../../public/assets/images/services/gmb/gmb+website.png';
+
 import KeyStatsIcon1 from '../../../../../../public/assets/images/services/gmb/KeyStatIcon1.svg';
 import KeyStatsIcon2 from '../../../../../../public/assets/images/services/gmb/KeyStatIcon2.svg';
 import KeyStatsIcon3 from '../../../../../../public/assets/images/services/gmb/KeyStatIcon3.svg';
@@ -15330,7 +15333,7 @@ brand appears in AI summaries and citations.`,
       button: 'Boost My Visibility Today',
       width: '60%',
       widthLg: '30rem',
-      bgImg: gbplocalSeoBannerBg,
+      bgImg: gmb_website_banner,
     },
 
     keyStats: {
