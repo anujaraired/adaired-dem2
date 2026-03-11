@@ -42,7 +42,7 @@ const OurProcess = ({ ourProcess }: any) => {
       <MaxWidthWrapper>
         {/* ================= HEADING ================= */}
 
-        <div className="sticky top-[10rem] z-20 mb-[3rem]">
+        <div className="sticky top-[0rem] lg:top-[10rem] z-20 mb-[3rem]">
           <div className="mx-auto w-full lg:w-[80%]">
             <Heading
               isLabel={true}

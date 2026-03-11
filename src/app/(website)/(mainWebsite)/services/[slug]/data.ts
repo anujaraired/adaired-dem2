@@ -492,7 +492,6 @@ import WhatAreServiceGMB from '../../../../../../public/assets/images/services/g
 import WhatAreServiceGMB2 from '../../../../../../public/assets/images/services/gmb/whatAreServiceGMB2.png';
 import AdairedHelpgmb from '../../../../../../public/assets/images/services/gmb/AdairedHelpGmb.png';
 
-
 import icon1 from '../../../../../../public/assets/images/services/gmb/ourProcess/Icon1.svg';
 import icon2 from '../../../../../../public/assets/images/services/gmb/ourProcess/icon2.svg';
 import icon3 from '../../../../../../public/assets/images/services/gmb/ourProcess/icon3.svg';
@@ -510,7 +509,6 @@ import icon_6 from '../../../../../../public/assets/images/services/gmb/ImpToBus
 import icon_7 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon7.svg';
 import icon_8 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon8.svg';
 import icon_9 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon9.svg';
-
 
 export type SectionKey =
   | 'banner'
@@ -2130,6 +2128,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       code: '03',
       heading: 'Key Stats on Authority Link Building ',
+      bgColor:"#FB9100",
       isCard: false,
       img: keyStatsImg,
       list: [
@@ -3458,7 +3457,8 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: true,
-      code: '05',
+      code: '01',
+      isCarousel: true,
       heading: 'Must-Know Local SEO Statistics',
       isCard: false,
       list: [
@@ -4435,11 +4435,11 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: true,
-      code: '08',
+      code: '03',
       img: whiteKeyStats,
       heading: 'Must-Know Facts About White Label Social Media',
-      bgColor: '#FB9100',
       isImgBg: false,
+      bgColor:"#FB9100",
       isCard: false,
       list: [
         {
@@ -5261,7 +5261,7 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: true,
-      code: '06',
+      code: '03',
       img: whiteSeoKeyStatsImg,
       heading: 'White Label SEO Insights',
       bgColor: '#000000',
@@ -6199,10 +6199,11 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: true,
-      code: '10',
+      code: '03',
       img: whiteServicesKeyStatsImg,
       heading: 'Why Choose White-Label Delivery',
       bgColor: '#FB9100',
+      textColor: '#000000',
       isImgBg: true,
       isCard: false,
       list: [
@@ -7221,39 +7222,12 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: false,
-      code: '07',
+      code: '01',
       img: whiteServicesKeyStatsImg,
-      heading: 'Why Choose White-Label Delivery',
-      bgColor: '#FB9100',
+      heading: '',
       isImgBg: true,
       isCard: false,
-      list: [
-        {
-          desctioption: [
-            `Businesses that outsource between 40 and 60% of their service delivery experience growth that is roughly 2.3x faster than that of their peers.`,
-          ],
-        },
-        {
-          desctioption: [
-            `According to surveys, agencies that use white-label services have a 42% higher client retention rate.`,
-          ],
-        },
-        {
-          desctioption: [
-            `In 2026, the white label market is expected to reach $99.19 billion. This quick growth is a result of growing industry demand for outsourced solutions.`,
-          ],
-        },
-        {
-          desctioption: [
-            `White-label services are part of the global digital marketing market, which is expanding at a 13.1% CAGR.`,
-          ],
-        },
-        {
-          desctioption: [
-            `Using white-label marketing, agencies can expand their service offerings without having to hire full-time employees.`,
-          ],
-        },
-      ],
+      list: [],
     },
 
     whatareservice: {
@@ -8913,39 +8887,12 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: false,
-      code: '07',
+      code: '01',
       img: whiteServicesKeyStatsImg,
-      heading: 'Why Choose White-Label Delivery',
-      bgColor: '#FB9100',
+      heading: '',
       isImgBg: true,
       isCard: false,
-      list: [
-        {
-          desctioption: [
-            `Businesses that outsource between 40 and 60% of their service delivery experience growth that is roughly 2.3x faster than that of their peers.`,
-          ],
-        },
-        {
-          desctioption: [
-            `According to surveys, agencies that use white-label services have a 42% higher client retention rate.`,
-          ],
-        },
-        {
-          desctioption: [
-            `In 2026, the white label market is expected to reach $99.19 billion. This quick growth is a result of growing industry demand for outsourced solutions.`,
-          ],
-        },
-        {
-          desctioption: [
-            `White-label services are part of the global digital marketing market, which is expanding at a 13.1% CAGR.`,
-          ],
-        },
-        {
-          desctioption: [
-            `Using white-label marketing, agencies can expand their service offerings without having to hire full-time employees.`,
-          ],
-        },
-      ],
+      list: [],
     },
 
     whatMkeDeferent: {
@@ -9303,7 +9250,7 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: true,
-      code: '10',
+      code: '03',
       img: whiteLinkBuildingKeyStatsImg,
       heading: 'Key Stats About White Label Link Building',
       bgColor: '#FB9100',
@@ -10692,39 +10639,12 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: false,
-      code: '10',
-      img: whiteLinkBuildingKeyStatsImg,
-      heading: 'Key Stats About White Label Link Building',
-      bgColor: '#FB9100',
+      code: '01',
+      img: '',
+      heading: '',
       isImgBg: true,
       isCard: false,
-      list: [
-        {
-          desctioption: [
-            `Nearly 9 out of 10 marketers (89%) rely on content marketing to generate backlinks.`,
-          ],
-        },
-        {
-          desctioption: [
-            `85% of SEO professionals confirm that link building solutions strengthens brand credibility.`,
-          ],
-        },
-        {
-          desctioption: [
-            `Over two-thirds (69%) say link building directly drives business growth.`,
-          ],
-        },
-        {
-          desctioption: [
-            `59% predict backlinks will become even more important for rankings.`,
-          ],
-        },
-        {
-          desctioption: [
-            `An overwhelming 94% believe links will continue to shape Google’s algorithm in the future.`,
-          ],
-        },
-      ],
+      list: [],
     },
 
     dataInTable: {
@@ -11780,39 +11700,12 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: false,
-      code: '10',
-      img: whiteLinkBuildingKeyStatsImg,
-      heading: 'Key Stats About White Label Link Building',
-      bgColor: '#FB9100',
+      code: '01',
+      img: '',
+      heading: '',
       isImgBg: true,
       isCard: false,
-      list: [
-        {
-          desctioption: [
-            `Nearly 9 out of 10 marketers (89%) rely on content marketing to generate backlinks.`,
-          ],
-        },
-        {
-          desctioption: [
-            `85% of SEO professionals confirm that link building solutions strengthens brand credibility.`,
-          ],
-        },
-        {
-          desctioption: [
-            `Over two-thirds (69%) say link building directly drives business growth.`,
-          ],
-        },
-        {
-          desctioption: [
-            `59% predict backlinks will become even more important for rankings.`,
-          ],
-        },
-        {
-          desctioption: [
-            `An overwhelming 94% believe links will continue to shape Google’s algorithm in the future.`,
-          ],
-        },
-      ],
+      list: [],
     },
 
     whatIncluded: {
@@ -13633,7 +13526,7 @@ brand appears in AI summaries and citations.`,
     },
 
     techStackMobile: {
-      isVisible: true,
+      isVisible: false,
       heading: 'Key Stats About White Label Link Building',
       NavItems: [
         'Frontend Technologies',
@@ -13645,8 +13538,14 @@ brand appears in AI summaries and citations.`,
       ],
       list: [
         [
-          { image: mobileAppDevTechStackImg_1, desc: 'Swift (iOS Development)' },
-          { image: mobileAppDevTechStackImg_2, desc: 'Kotlin (Android Development)' },
+          {
+            image: mobileAppDevTechStackImg_1,
+            desc: 'Swift (iOS Development)',
+          },
+          {
+            image: mobileAppDevTechStackImg_2,
+            desc: 'Kotlin (Android Development)',
+          },
           { image: mobileAppDevTechStackImg_3, desc: 'React Native' },
           { image: mobileAppDevTechStackImg_4, desc: 'Flutter' },
           { image: mobileAppDevTechStackImg_5, desc: 'Xamarin' },
@@ -13662,7 +13561,10 @@ brand appears in AI summaries and citations.`,
           { image: mobileAppDevTechStackImg_11, desc: 'MySQL' },
           { image: mobileAppDevTechStackImg_12, desc: 'PostgreSQL' },
           { image: mobileAppDevTechStackImg_13, desc: 'MongoDB' },
-          { image: mobileAppDevTechStackImg_14, desc: 'Firebase Realtime Database' },
+          {
+            image: mobileAppDevTechStackImg_14,
+            desc: 'Firebase Realtime Database',
+          },
           { image: mobileAppDevTechStackImg_15, desc: 'SQLite' },
         ],
         [
@@ -13682,9 +13584,18 @@ brand appears in AI summaries and citations.`,
         [
           { image: mobileAppDevTechStackImg_26, desc: 'RESTful APIs' },
           { image: mobileAppDevTechStackImg_27, desc: 'GraphQL' },
-          { image: mobileAppDevTechStackImg_28, desc: 'Payment Gateway Integration' },
-          { image: mobileAppDevTechStackImg_29, desc: 'Social Media Integration' },
-          { image: mobileAppDevTechStackImg_30, desc: 'Third-party API Integration' },
+          {
+            image: mobileAppDevTechStackImg_28,
+            desc: 'Payment Gateway Integration',
+          },
+          {
+            image: mobileAppDevTechStackImg_29,
+            desc: 'Social Media Integration',
+          },
+          {
+            image: mobileAppDevTechStackImg_30,
+            desc: 'Third-party API Integration',
+          },
         ],
       ],
     },
@@ -13825,39 +13736,12 @@ brand appears in AI summaries and citations.`,
 
     keyStats: {
       isVisible: false,
-      code: '11',
-      img: whiteLinkBuildingKeyStatsImg,
-      heading: 'Key Stats About White Label Link Building',
-      bgColor: '#FB9100',
+      code: '01',
+      img: '',
+      heading: '',
       isImgBg: true,
       isCard: false,
-      list: [
-        {
-          desctioption: [
-            `Nearly 9 out of 10 marketers (89%) rely on content marketing to generate backlinks.`,
-          ],
-        },
-        {
-          desctioption: [
-            `85% of SEO professionals confirm that link building solutions strengthens brand credibility.`,
-          ],
-        },
-        {
-          desctioption: [
-            `Over two-thirds (69%) say link building directly drives business growth.`,
-          ],
-        },
-        {
-          desctioption: [
-            `59% predict backlinks will become even more important for rankings.`,
-          ],
-        },
-        {
-          desctioption: [
-            `An overwhelming 94% believe links will continue to shape Google’s algorithm in the future.`,
-          ],
-        },
-      ],
+      list: [],
     },
 
     dataInTable: {
@@ -14496,10 +14380,9 @@ brand appears in AI summaries and citations.`,
       breakIndex: 5,
       isVariant: '01',
       cardColor: '#F9F9F9',
-      heading: 'Unlock Your Potential with Top-Notch GBP Optimization Services!',
-      description: [
-        ``,
-      ],
+      heading:
+        'Unlock Your Potential with Top-Notch GBP Optimization Services!',
+      description: [``],
       buttonName: 'Optimize My Website for AI',
       data: [
         {
@@ -14617,7 +14500,9 @@ brand appears in AI summaries and citations.`,
       bgColor: 'bg-gradient-to-b from-[#FFFEFB] to-[#FFF7EB]',
       cardBg: '',
       heading: `Top Reasons to Select GBP Optimization Services from Adaired Digital`,
-      description: [`Here are some of the primary reasons why you should choose Adaired Digital’s Google business optimization services:`],
+      description: [
+        `Here are some of the primary reasons why you should choose Adaired Digital’s Google business optimization services:`,
+      ],
       mainImage: whiteServicesAdairedHelpImg,
       list: [
         {
@@ -14711,9 +14596,7 @@ brand appears in AI summaries and citations.`,
       breakIndex: 4,
       bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFFFFF]',
       span: '',
-      description: [
-        ``,
-      ],
+      description: [``],
       services: [
         {
           icon: icon1,
@@ -14788,7 +14671,8 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          title: 'Why is Google Business Profile important for local businesses?',
+          title:
+            'Why is Google Business Profile important for local businesses?',
           description: [
             `Your Google Business Profile is often the first place potential customers discover your business online.`,
             `A well-optimized profile helps your business appear in local searches, builds credibility through reviews, and makes it easier for customers to contact or visit your business.`,
@@ -14802,20 +14686,23 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          title: 'Can Google Business Profile optimization improve my Google Maps ranking?',
+          title:
+            'Can Google Business Profile optimization improve my Google Maps ranking?',
           description: [
             `Yes, proper optimization can significantly improve your chances of appearing higher in Google Maps results.`,
             `Factors such as accurate business information, relevant categories, customer reviews, and consistent updates all contribute to better local rankings.`,
           ],
         },
         {
-          title: 'Do I need a physical location to create a Google Business Profile?',
+          title:
+            'Do I need a physical location to create a Google Business Profile?',
           description: [
             `Not necessarily. Service-area businesses can also create Google Business Profiles without displaying a physical storefront address. Instead, they can specify the areas they serve.`,
           ],
         },
         {
-          title: 'How important are customer reviews for Google Business Profiles?',
+          title:
+            'How important are customer reviews for Google Business Profiles?',
           description: [
             `Customer reviews are extremely important because they influence both search rankings and customer trust.`,
             `Businesses with more positive and recent reviews often attract more clicks, calls, and visits.`,
@@ -14829,10 +14716,11 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          title: 'How can Adaired Digital help with Google Business Profile optimization?',
+          title:
+            'How can Adaired Digital help with Google Business Profile optimization?',
           description: [
             `Adaired Digital provides comprehensive GBP optimization services, including profile setup, keyword optimization, review management, content updates, and performance tracking.`,
-            `Our goal is to help your business rank higher on Google Maps and attract more local customers.`
+            `Our goal is to help your business rank higher on Google Maps and attract more local customers.`,
           ],
         },
       ],
