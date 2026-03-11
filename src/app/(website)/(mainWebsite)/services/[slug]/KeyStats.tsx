@@ -253,7 +253,9 @@ const KeyStats = ({ keyStats }: any) => {
                     key={index}
                     onMouseEnter={() => setActiveTab(index)}
                     onMouseLeave={() => setActiveTab(0)}
-                    className={`relative flex w-[100%] flex-col px-[2rem] py-[2rem] transition-all duration-300 ease-in-out ${activeTab === index ? `bg-[${keyStats?.bgColor}]/20 text-white` : `bg-[${keyStats?.bgColor}]/10 text-black`}`}
+                    // className={`relative flex w-[100%] flex-col px-[2rem] py-[2rem] transition-all duration-300 ease-in-out ${activeTab === index ? `bg-[${keyStats?.bgColor}]/20 text-white` : `bg-[${keyStats?.bgColor}]/10 text-black`}`}
+
+                    className={`relative flex w-[100%] flex-col px-[2rem] py-[2rem] transition-all duration-300 ease-in-out ${activeTab === index ? `bg-[${keyStats?.bgColor}]` : `bg-[${keyStats?.bgColor}]/10`}`}
                   >
                     <div
                       className={`flex items-start gap-8 transition-all duration-700 ease-in-out lg:items-center lg:gap-16 lg:text-left`}

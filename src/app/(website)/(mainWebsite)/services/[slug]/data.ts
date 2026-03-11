@@ -513,6 +513,29 @@ import icon_7 from '../../../../../../public/assets/images/services/gmb/ImpToBus
 import icon_8 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon8.svg';
 import icon_9 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon9.svg';
 
+// WordPress Development Images
+import Banner from '../../../../../../public/assets/images/services/wordpressDevelopment/Banner.png';
+import KeyStatsImg from '../../../../../../public/assets/images/services/wordpressDevelopment/KeyStatsIcon.svg';
+import WhatAreService1 from '../../../../../../public/assets/images/services/wordpressDevelopment/WhatAreService.png';
+import WhatAreService2 from '../../../../../../public/assets/images/services/wordpressDevelopment/whatareservice2.png';
+import AdairedHelp from '../../../../../../public/assets/images/services/wordpressDevelopment/adairedHelp.png';
+import BuildLink from '../../../../../../public/assets/images/services/wordpressDevelopment/BuildLink.png';
+import bgImgBuildLink from '../../../../../../public/assets/images/services/wordpressDevelopment/bgImgBuildLink.png';
+import Icon1 from '../../../../../../public/assets/images/services/wordpressDevelopment/ourProcessIcon1.svg';
+import Icon2 from '../../../../../../public/assets/images/services/wordpressDevelopment/ourProcessIcon2.svg';
+import Icon3 from '../../../../../../public/assets/images/services/wordpressDevelopment/ourProcessIcon3.svg';
+import Icon4 from '../../../../../../public/assets/images/services/wordpressDevelopment/ourProcessIcon4.svg';
+import Icon5 from '../../../../../../public/assets/images/services/wordpressDevelopment/ourProcessIcon5.svg';
+import Icon6 from '../../../../../../public/assets/images/services/wordpressDevelopment/ourProcessIcon6.svg';
+import AdairedHelp_1 from '../../../../../../public/assets/images/services/wordpressDevelopment/AdairedHelp1.svg';
+import AdairedHelp_2 from '../../../../../../public/assets/images/services/wordpressDevelopment/AdairedHelp2.svg';
+import AdairedHelp_3 from '../../../../../../public/assets/images/services/wordpressDevelopment/AdairedHelp3.svg';
+import AdairedHelp_4 from '../../../../../../public/assets/images/services/wordpressDevelopment/AdairedHelp4.svg';
+import AdairedHelp_5 from '../../../../../../public/assets/images/services/wordpressDevelopment/AdairedHelp5.svg';
+import AdairedHelp_6 from '../../../../../../public/assets/images/services/wordpressDevelopment/AdairedHelp6.svg';
+
+
+
 export type SectionKey =
   | 'banner'
   | 'getsCredit'
@@ -1485,6 +1508,7 @@ export const SERVICES_DATA = {
     },
     benefitofAiSeo: {
       isVisible: true,
+      isVariant: '01',
       isDecVarticle: true,
       isInCenter: false,
       isBgWhite: false,
@@ -2131,7 +2155,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       code: '03',
       heading: 'Key Stats on Authority Link Building ',
-      bgColor: '#FB9100',
+      bgColor:'#FB9100',
       isCard: false,
       img: keyStatsImg,
       list: [
@@ -2249,6 +2273,7 @@ brand appears in AI summaries and citations.`,
     // NEW
     benefitofAiSeo: {
       isVisible: true,
+      isVariant: '01',
       isDecVarticle: false,
       isBgWhite: true,
       breakIndex: 6,
@@ -2917,6 +2942,7 @@ brand appears in AI summaries and citations.`,
 
     benefitofAiSeo: {
       isVisible: true,
+      isVariant: '01',
       isDecVarticle: true,
       isBgWhite: false,
       isInCenter: false,
@@ -11390,7 +11416,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       isBgWhite: true,
       bgColor: '#FAFAFA',
-      trColor: '#FB9100',
+      trColor: '#7259FF',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
@@ -16293,6 +16319,1042 @@ brand appears in AI summaries and citations.`,
           ],
         },
       ],
+    },
+
+    industryLeaders: {
+      isVisible: false,
+      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      description:
+        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      bgImage: leadingToolsImg,
+    },
+
+    leadingToolsForPerformence: {
+      isVisible: false,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+
+    notSeeingResult: {
+      isVisible: false,
+      heading: ``,
+      description: '',
+      buttonName: '',
+      img: LocalNotSee,
+      bgImage: LocalNotSeeBg,
+    },
+  },
+  'wordpress-development-service-india': {
+    sectionsOrder: [
+      'banner',
+      'keyStats',
+      'whatareservice',
+      'whatareservice2',
+      'benefitofAiSeo',
+      'ourProcess',
+      'adairedHelp',
+      'whatMkeDeferent',
+      'buildlinks',
+      'faqData',
+      'importantToBussiness',
+      'dataInTable',
+      'whatMissing',
+      'whatIncluded',
+      'needofservice',
+      'serviceResult',
+      'getsCredit',
+      'readyToStart',
+      'stopStruggling',
+      'leadingToolsForPerformence',
+      'notSeeingResult',
+      'leadingTools',
+      'getplan',
+    ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/seo-company-india',
+      },
+    },
+    banner: {
+      code: '02',
+      isCenter: false,
+      isVisible: true,
+      heading2: '#1 on Google Maps: Get Seen by Local Customers',
+      isAbsolute: true,
+      isStyleHeading: true,
+      headingParts: [
+        { text: 'A Premier WordPress ', color: '#000000', weight: '400' },
+        {
+          text: ' Development Agency ',
+          color: '#FB9100',
+          weight: '700',
+        },
+      ],
+      breakIndex: 8,
+      desc: [
+        `Expand your business's reach and transform visitors into genuine opportunities with our expert WordPress development services. Whether you need a fully responsive website or seamless functionality paired with intuitive designs, we can meet all your website development requirements.`,
+      ],
+      subheading: 'Don’t wait to grow your business; let us assist you!',
+      button: 'Create a Website for My Business',
+      width: '45%',
+      widthLg: '30rem',
+      bgImg: Banner,
+    },
+
+    keyStats: {
+      isVisible: true,
+      code: '01',
+      img: whiteLinkBuildingKeyStatsImg,
+      heading: 'Key Stats About WordPress Development',
+      bgColor: '#FB9100',
+      isImgBg: true,
+      isCard: false,
+      list: [
+        {
+          icon: KeyStatsImg,
+          desctioption: [
+            `42.6% of all websites run on WordPress, meaning more than 4 out of every 10 sites on the internet use the platform (W3Techs).`,
+          ],
+        },
+        {
+          icon: KeyStatsImg,
+          desctioption: [
+            `WordPress powers about 37–39 million active websites and up to 595–605 million total web properties, depending on how domains are counted (BuiltWith, Netcraft via WPZOOM).`,
+          ],
+        },
+        {
+          icon: KeyStatsImg,
+          desctioption: [
+            `Among websites using a CMS, WordPress holds about 59.9% market share, more than all other CMS platforms combined (W3Techs).`,
+          ],
+        },
+        {
+          icon: KeyStatsImg,
+          desctioption: [
+            `WordPress grew from 21% of all websites in 2014 to about 42.6% in 2026, more than doubling its market share in a decade (WPZOOM citing W3Techs data).`,
+          ],
+        },
+        {
+          icon: KeyStatsImg,
+          desctioption: [
+            `The official WordPress directory offers 61,000+ free plugins, allowing users to easily extend site functionality (WordPress.org via WPZOOM).`,
+          ],
+        },
+      ],
+    },
+
+    whatareservice: {
+      isVisible: true,
+      isVariant: '12',
+      breakIndex: 6,
+      img: WhatAreService1,
+      heading: 'Is WordPress Development Right for Your Business?',
+      span: '',
+      bgColor: '#FFFCF8',
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `With WordPress powering over 40% of all websites on the internet, it offers an unparalleled level of flexibility and customization.`,
+        },
+        {
+          desctioption: `Whether you're running a blog, an e-commerce store, or a corporate site, WordPress provides robust tools that can help you effectively communicate your brand message and convert visitors into customers. Our team specializes in creating user-friendly, responsive designs that ensure a seamless experience across all devices. We also integrate essential plugins that enhance functionality, improve SEO, and boost site performance.`,
+        },
+        {
+          desctioption: `Furthermore, WordPress makes it easy to manage your own content, allowing you to update and expand your site without needing extensive technical knowledge.In addition, our ongoing support and maintenance services mean that your website will remain secure, updated, and fully functional.`,
+        },
+        {
+          desctioption: `If you're considering an online presence or looking to revamp your current site, WordPress development could be the perfect solution for your business. Let us help you harness the power of this platform to elevate your online presence!`,
+        },
+      ],
+      button: '',
+    },
+
+    whatareservice2: {
+      isVisible: true,
+      isVariant: '11',
+      img: WhatAreService2,
+      heading: 'What is WordPress Development',
+      bgColor: '#FFFFFF',
+      isBgWhite: false,
+      button: '',
+      data: [
+        {
+          desctioption: `WordPress development refers to the process of creating, customizing, and maintaining websites using the WordPress content management system (CMS).`,
+        },
+        {
+          desctioption: ` It involves a variety of tasks, including designing themes, developing plugins, and configuring settings to ensure optimal performance and user experience.`,
+        },
+        {
+          desctioption: `Our WordPress developers India work with PHP, HTML, CSS, and JavaScript to build custom solutions tailored to specific client needs. They can create unique themes that define the visual appearance of a site and plugins that add functionality, such as contact forms, e-commerce capabilities, and SEO tools.`,
+        },
+        {
+          desctioption: `Additionally, WordPress development encompasses website optimization for speed and security, ensuring that the sites are responsive and accessible across different devices. Developers also engage in regular updates and troubleshooting to keep the website functional and secure from vulnerabilities. `,
+        },
+        {
+          desctioption: `Overall, WordPress development is a multifaceted discipline that combines technical skills with creative design to deliver effective online solutions.`,
+        },
+      ],
+    },
+
+    benefitofAiSeo: {
+      isVisible: true,
+      isVariant: '02',
+      isDecVarticle: true,
+      isBgWhite: false,
+      isInCenter: false,
+      breakIndex: 3,
+      activeDot: '#000000',
+      inactiveDot: '#9DA0A3',
+      bgColor: 'bg-[#FAFAFA]',
+      textColor: '#000000',
+      textBg: '#EEEEEE',
+      borderColor: '#00000014',
+      heading: 'WordPress Design and Development Services We Offer',
+      description: [
+        `As an experienced WordPress development agency, we offer a comprehensive range of WordPress development services designed to help businesses build powerful, scalable, and high-performing websites. `,
+        `Whether you are launching a new website, upgrading an existing platform, or adding advanced functionality, our team of skilled developers delivers customized WordPress solutions that align with your business goals.`,
+        `We combine technical expertise, creative design, and modern development practices to ensure that every WordPress website we build is fast, secure, SEO-friendly, and optimized for long-term growth.`
+      ],
+      list: [
+        {
+          name: 'Custom WordPress Website Development',
+          description: [
+            `Our custom WordPress website development services focus on building unique websites tailored specifically to your business needs. Instead of relying on generic templates, we design and develop fully customized WordPress websites that reflect your brand identity and provide an engaging user experience.`,
+            `Our developers carefully analyze your business requirements, target audience, and industry trends to create a website that not only looks visually appealing but also performs efficiently across all devices.`, ` Every website we develop is responsive, mobile-friendly, and optimized for search engines to help improve online visibility and drive organic traffic.`,
+            `We also ensure that the website architecture is scalable so that your platform can grow alongside your business. Whether you need a corporate website, a business portfolio, a service-based website, or a content-driven platform, our team can deliver a solution that aligns perfectly with your long-term digital strategy.`
+          ],
+        },
+        {
+          name: 'WordPress Theme Development',
+          description: [
+            `A well-designed theme plays a crucial role in defining the visual identity and user experience of your website. We, as a WordPress development company India, focus on creating custom themes that combine modern design with clean, optimized code.`,
+            `We design themes that are lightweight, fast-loading, and fully responsive across desktops, tablets, and mobile devices. Our development process ensures that the theme structure follows WordPress best practices, which improves website stability, maintainability, and SEO performance.`,
+            `In addition to aesthetics, we prioritize usability and accessibility to ensure visitors can easily navigate your website and find the information they need.`, ` Our custom themes are also built with flexibility in mind, allowing businesses to update content, modify layouts, and expand functionality without requiring complex technical changes.`
+          ],
+        },
+        {
+          name: 'WordPress Plugin Development',
+          description: [
+            `Sometimes your website needs functionality that standard plugins cannot provide. Our WordPress plugin development services allow businesses to add custom features tailored specifically to their operational requirements.
+`,
+            `Our developers build secure, scalable, and well-documented plugins that seamlessly integrate with your WordPress website. Whether you require advanced forms, booking systems, API integrations, custom dashboards, or unique business workflows, we develop plugins that enhance your website’s capabilities.
+`,
+            `We ensure that every plugin is developed following WordPress coding standards, which helps maintain compatibility with future updates and reduces the risk of security vulnerabilities.`,
+            `By creating custom plugins, we help businesses automate processes, improve efficiency, and deliver better digital experiences to their users.
+`,
+          ],
+        },
+        {
+          name: 'WooCommerce Development',
+          description: [
+            `For businesses looking to sell products or services online, we offer comprehensive WooCommerce development services that transform WordPress websites into powerful e-commerce platforms.
+`,
+            `Our WooCommerce development solutions include everything from store setup and product catalog management to payment gateway integration and shipping configuration.`, ` We design user-friendly shopping experiences that make it easy for customers to browse products, complete purchases, and interact with your brand.
+`,
+            `We also implement advanced features such as inventory management systems, subscription services, multi-currency support, and custom checkout processes. By optimizing the entire purchase journey, we help businesses improve conversion rates and maximize their online sales potential.
+`
+          ],
+        },
+        {
+          name: 'WordPress Migration & Redesign',
+          description: [
+            `If your existing website is built on another platform or has become outdated, our WordPress migration and redesign services can help you transition smoothly to a more modern and flexible system.
+`,
+            `Our team handles the entire migration process, including content transfer, database migration, URL structure preservation, and SEO protection. We ensure that your website maintains its existing search engine rankings while benefiting from improved design and performance.
+`,
+            `In addition to migration, we also provide complete website redesign services that refresh the visual appearance, improve usability, and modernize the overall structure of your site.`, ` By upgrading your website with the latest design standards and development technologies, we help businesses enhance their digital presence and stay competitive in the evolving online landscape.
+`,
+            ``
+          ],
+        },
+        {
+          name: 'WordPress Speed Optimization',
+          description: [
+            `Website performance plays a crucial role in user experience, search engine rankings, and overall conversion rates. Our WordPress speed optimization services focus on improving website loading times and enhancing Core Web Vitals performance.
+`,
+            `We analyze various performance factors such as server response time, image optimization, script loading, caching configuration, and database efficiency.`, ` By implementing advanced optimization techniques, we significantly reduce page load times and ensure that your website delivers a smooth browsing experience for visitors.
+`,
+            `Our optimization process may include CDN integration, code minification, lazy loading implementation, and server-level improvements. Faster websites not only improve user engagement but also contribute to better SEO rankings and increased customer satisfaction.
+`,
+          ],
+        },
+        {
+          name: 'WordPress Maintenance & Support',
+          description: [
+            `A successful website requires continuous monitoring, updates, and improvements. Our WordPress maintenance and support services ensure that your website remains secure, updated, and fully functional at all times.
+`,
+            `We handle essential maintenance tasks such as WordPress core updates, plugin updates, security monitoring, performance checks, and routine backups. Our team also provides ongoing technical support to quickly resolve any issues that may arise.
+`,
+            `Regular maintenance helps prevent security vulnerabilities, improve website stability, and ensure compatibility with new technologies and updates.`, ` With our dedicated support services, businesses can focus on their operations while we take care of their website’s health and performance.
+`,
+          ],
+        },
+      ],
+    },
+
+    ourProcess: {
+      isVisible: true,
+      isInCenter: true,
+      subtitle: 'Our Process',
+      title: 'How We Deliver Successful WordPress Development Projects',
+      breakIndex: 5,
+      bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFFFFF]',
+      span: '',
+      description: [`Our development process focuses on collaboration, quality assurance, and continuous improvement to create high-performing WordPress websites that support long-term business growth.`],
+      services: [
+        {
+          icon: Icon1,
+          title: 'Requirement Analysis',
+          description: [
+            `Every successful project begins with a thorough understanding of your business goals, target audience, and technical requirements. During the requirement analysis stage, our team works closely with you to gather important information about your brand, services, competitors, and desired website functionality.`,
+            `We evaluate factors such as website objectives, content structure, design preferences, and integration needs. This step helps us identify the most suitable WordPress solutions and ensures that the final product aligns with your business strategy.`,
+            `By clearly defining project requirements at the beginning, we reduce the chances of miscommunication and ensure a smooth development process.`
+          ],
+        },
+        {
+          icon: Icon2,
+          title: 'UI/UX Design Planning',
+          description: [
+            `Once the project requirements are finalized, our designers focus on creating an intuitive and visually engaging user experience. During the UI/UX planning stage, we develop wireframes, design layouts, and user interface concepts that reflect your brand identity and improve website usability.`,
+            `Our goal is to create a design that is not only visually appealing but also easy for visitors to navigate. We pay close attention to layout structure, typography, color schemes, and user interaction elements to ensure the website delivers a consistent experience across all devices.`,
+            `The design phase also includes mobile responsiveness planning, ensuring that your WordPress website performs perfectly on smartphones, tablets, and desktops.`
+          ],
+        },
+        {
+          icon: Icon3,
+          title: 'Development and Customization',
+          description: [
+            `After the design is approved, our developers begin building the website using modern WordPress development practices. This stage involves creating custom themes, configuring plugins, and implementing the required functionality to bring the design to life. Our developers work with technologies such as PHP, HTML, CSS, and JavaScript to develop secure and scalable solutions tailored to your specific business needs.`,
+            `We also focus on writing clean, optimized code that ensures faster loading speeds and long-term maintainability. Throughout the development process, we regularly review progress and ensure that all features and integrations are functioning as expected.`,
+            `This collaborative approach allows us to maintain transparency and deliver a website that meets both technical and business expectations.`
+          ],
+        },
+        {
+          icon: Icon4,
+          title: 'Testing and Quality Assurance',
+          description: [
+            `Before launching the website, we perform extensive testing to ensure that every component functions correctly. Our quality assurance process includes testing website performance, responsiveness, security, and compatibility across different browsers and devices.`,
+            `We verify that all forms, navigation elements, and interactive features operate smoothly. Additionally, we check page loading speed, optimize images and scripts, and ensure the website follows SEO best practices.`,
+            `This detailed testing process helps eliminate potential issues and guarantees that your website provides a reliable and user-friendly experience.`
+          ],
+        },
+        {
+          icon: Icon5,
+          title: 'Website Launch',
+          description: [
+            `Once the testing phase is successfully completed, we prepare the website for launch. Our team ensures that the hosting environment is properly configured and that the website is fully optimized for performance and security before going live.`,
+            `We also verify that all content, links, and integrations are functioning correctly. The launch phase involves deploying the website to the live server while ensuring minimal downtime.`,
+            `Our goal is to make the transition from development to a live environment as smooth as possible.`
+          ],
+        },
+        {
+          icon: Icon6,
+          title: 'Post-Launch Support',
+          description: [
+            `Our relationship with clients does not end after the website goes live. We provide ongoing WordPress maintenance and support to ensure that your website continues to operate smoothly and remains up to date.`,
+            `This includes regular software updates, security monitoring, performance optimization, and troubleshooting. We also assist with future improvements, feature enhancements, and technical support whenever required.`,
+            `With our dedicated post-launch support, your WordPress website remains secure, efficient, and capable of adapting to evolving business needs.`
+          ],
+        },
+      ],
+    },
+
+    adairedHelp: {
+      isVisible: true,
+      breakIndex: 5,
+      img: AdairedHelp,
+      isInCenter: true,
+      bgColor: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFCF8]',
+      cardBg: '',
+      heading: `Industries We Serve`,
+      description: [
+        `Our WordPress development services are designed to support businesses across a wide range of industries.`,
+      ],
+      mainImage: whiteServicesAdairedHelpImg,
+      list: [
+        {
+          img: AdairedHelp_1,
+          name: 'E-commerce',
+          description: [
+            `We build powerful WooCommerce-based websites that help online stores showcase products, manage inventory, and deliver seamless checkout experiences.`,
+            `Our e-commerce WordPress solutions focus on performance, security, and conversion optimization.`,
+          ],
+        },
+        {
+          img: AdairedHelp_2,
+          name: 'Healthcare',
+          description: [
+            `Healthcare providers require secure, user-friendly websites that make it easy for patients to access information and services.`,
+            `We develop WordPress websites for clinics, hospitals, and healthcare organizations that support appointment booking, patient resources, and compliance standards.`,
+          ],
+        },
+        {
+          img: AdairedHelp_3,
+          name: 'Real Estate',
+          description: [
+            `Real estate businesses rely on visually engaging websites to showcase property listings and attract potential buyers.`,
+            `Our WordPress development solutions include property listing systems, advanced search filters, and interactive property galleries.`,
+          ],
+        },
+        {
+          img: AdairedHelp_4,
+          name: 'Professional Services',
+          description: [
+            `Law firms, consulting agencies, marketing companies, and other professional service providers need websites that establish credibility and generate leads.`,
+            `We build WordPress websites that highlight expertise, showcase services, and encourage potential clients to get in touch.`,
+          ],
+        },
+        {
+          img: AdairedHelp_5,
+          name: 'Education',
+          description: [
+            `Educational institutions, training providers, and online learning platforms benefit from WordPress websites that support course management, learning portals, and content distribution.`,
+            `Our solutions make it easier for organizations to deliver educational resources and engage learners.`,
+          ],
+        },
+        {
+          img: AdairedHelp_6,
+          name: 'SaaS and Technology',
+          description: [
+            `Technology companies require modern websites that clearly communicate complex solutions.`,
+            `We build WordPress websites for SaaS companies that highlight product features, support integrations, and help convert visitors into customers.`,
+          ],
+        },
+      ],
+    },
+
+    whatMkeDeferent: {
+      isVisible: true,
+      isVariant: '02',
+      bgGradient: '',
+      heading:
+        `Why Choose Adaired Digital's WordPress Development Services`,
+      description: [
+        'At Adaired Digital, we combine technical expertise, strategic thinking, and creative design to deliver WordPress websites that drive real business results.',
+      ],
+      list: [
+        {
+          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_1_r50n2t.png',
+          name: 'Experienced WordPress Developers',
+          description: [
+            `Our team consists of skilled developers with extensive experience in building custom WordPress websites for businesses across different industries. `,
+          ],
+        },
+        {
+          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_2_dlpnys.png',
+          name: 'Custom Development Solutions',
+          description: [
+            `We don’t rely on generic templates. Every WordPress website we develop is tailored to your brand, business goals, and audience.`,
+          ],
+        },
+        {
+          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_3_r3sl4v.png',
+          name: 'SEO-Friendly Development',
+          description: [
+            `Through years, we have built a reputation on delivering quality work to our clients. Since there are a number of steps involved in the website creation, we create timelines for different aspects of the project to complete it on time. `,
+            `Whether you need a simple business website or a complex e-commerce platform, we are capable of developing tailored solutions that can scale with your business. `
+          ],
+        },
+        {
+          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_4_zvk0k1.png',
+          name: 'Quick Turnaround Time',
+          description: [
+            `Our websites are built following SEO best practices, helping your site perform better in search engine results and attract more organic traffic. `,
+          ],
+        },
+        {
+          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_5_fvsjh9.png',
+          name: 'Mobile-First Design',
+          description: [
+            `With a large percentage of users browsing on mobile devices, we ensure that every website we build is fully responsive and optimized for all screen sizes `,
+          ],
+        },
+        {
+          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_6_bbua27.png',
+          name: 'Performance Optimization',
+          description: [
+            `We focus on building fast-loading websites that provide excellent user experiences and meet modern performance standards. `,
+          ],
+        },
+        {
+          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_7_og9cfi.png',
+          name: 'Ongoing Support',
+          description: [
+            `Our relationship doesn’t end after launch. We provide ongoing maintenance and support services to keep your website secure, updated, and running smoothly. `,
+          ],
+        },
+      ],
+    },
+
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '0',
+      breakIndex: 3,
+      bgImg: bgImgBuildLink,
+      img: BuildLink,
+      label: 'Start Your WordPress',
+      heading: 'Development Today',
+      description: ``,
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `At Adaired Digital, hire WordPress development India team to help you create a powerful online presence that attracts visitors, builds trust, and converts leads into customers.`,
+        },
+        {
+          desctioption: `Get in touch with our WordPress experts today to discuss your project and receive a customized development solution tailored to your business needs.`,
+        },
+      ],
+      button: 'Talk to a WordPress Expert',
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      title: 'Frequently Asked Questions',
+      description: ``,
+      list: [
+        {
+          title: 'What are WordPress development services?',
+          description: [
+            `WordPress development services involve designing, building, customizing, and maintaining websites using the WordPress content management system.`,
+            `These services may include theme development, plugin development, website optimization, and ongoing support.`,
+          ],
+        },
+        {
+          title:
+            'Why should I choose WordPress for my website?',
+          description: [
+            `WordPress is one of the most flexible and widely used website platforms.`,
+            `It offers extensive customization options, thousands of plugins, strong SEO capabilities, and an easy-to-manage content system.`,
+          ],
+        },
+        {
+          title: 'How long does it take to develop a WordPress website?',
+          description: [
+            `The development timeline depends on the complexity of the project.`,
+            `A basic business website may take a few weeks, while a more complex website with custom features may require additional development time.`,
+          ],
+        },
+        {
+          title:
+            'Can you redesign my existing WordPress website?',
+          description: [
+            `Yes, we offer WordPress redesign services to improve your website’s design, performance, and user experience while maintaining your existing content and SEO value.`,
+          ],
+        },
+        {
+          title:
+            'Do you provide WooCommerce development services?',
+          description: [
+            `Yes, we develop WooCommerce-powered e-commerce websites that allow businesses to sell products and services online with secure payment integrations and optimized shopping experiences.`,
+          ],
+        },
+        {
+          title:
+            'Is WordPress good for SEO?',
+          description: [
+            `Yes, WordPress is highly SEO-friendly. With proper optimization, WordPress websites can rank well in search engines and attract consistent organic traffic.`,
+          ],
+        },
+        {
+          title: 'Do you offer ongoing WordPress maintenance services?',
+          description: [
+            `Yes, we provide WordPress maintenance services that include software updates, security monitoring, performance optimization, and technical support.`,
+          ],
+        },
+        {
+          title:
+            'Can I manage my WordPress website after it is launched?',
+          description: [
+            `Absolutely. WordPress has a user-friendly dashboard that allows you to easily update content, publish blog posts, and manage your website without advanced technical knowledge.`,
+          ],
+        },
+      ],
+    },
+
+    importantToBussiness: {
+      isVisible: false,
+      isInCenter: true,
+      isCardVisible: true,
+      breakIndex: 5,
+      isVariant: '01',
+      cardColor: '#F9F9F9',
+      heading:
+        'Unlock Your Potential with Top-Notch GBP Optimization Services!',
+      description: [``],
+      buttonName: 'Optimize My Website for AI',
+      data: [
+        {
+          icon: icon_1,
+          name: 'Profile Setup & Verification',
+          description: [
+            `A properly set up and verified Google Business Profile is the foundation of strong local visibility. Our team handles the entire setup process, ensuring that your business is correctly listed on Google with accurate details and professional formatting. `,
+            `We also guide and manage the verification process through Google’s approved methods, such as postcard, phone, or video verification. Once verified, your profile gains credibility and becomes eligible to appear in local search results and Google Maps listings.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_2,
+          name: 'Google Maps Ranking Tracking',
+          description: [
+            `Understanding how your business ranks in different areas of your city is critical for GMB SEO success. We use advanced geo-grid and heatmap tracking tools to monitor your visibility across neighborhoods and key service areas. `,
+            `This allows us to identify locations where your business ranks strongly and areas where visibility may be weak. With this data-driven approach, we refine optimization strategies to improve your rankings across a wider geographic range.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_3,
+          name: 'Keyword & Category Optimization',
+          description: [
+            `Choosing the right business categories and integrating relevant keywords can significantly improve your chances of appearing in local search results. Our GBP optimization service experts conduct in-depth keyword research to identify high-intent search terms that customers in your area are using. `,
+            `We then optimize your business description, services, and categories with these keywords to increase your visibility when potential customers search for related services on Google.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_4,
+          name: 'Review & Reputation Management',
+          description: [
+            `Customer reviews have a powerful influence on both search rankings and customer trust. Our review management strategy focuses on helping you generate more authentic customer feedback while maintaining a professional reputation online. `,
+            `We assist in creating review acquisition strategies and craft thoughtful responses to both positive and negative reviews. This approach strengthens your credibility and demonstrates your commitment to customer satisfaction.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_5,
+          name: 'Google Posts & Content Updates',
+          description: [
+            `Google rewards active and regularly updated business profiles. Our team creates engaging Google Posts that highlight business updates, promotions, offers, events, or announcements. `,
+            `These posts keep your profile active and provide valuable information to potential customers browsing your listing. Consistent posting also signals to Google that your business is active and relevant, which can positively influence your local search visibility.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_6,
+          name: 'Photo & Video Optimization',
+          description: [
+            `Visual content plays a major role in attracting customers and building trust. Businesses with high-quality photos and videos often receive more engagement and clicks compared to those without visuals. `,
+            `We optimize and upload professional images of your business location, interior, exterior, products, services, and team members.`,
+            `These visuals help customers better understand your brand while improving engagement with your profile.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_7,
+          name: 'Q&A Section Optimization',
+          description: [
+            `The Questions & Answers section on your Google Business Profile is often overlooked, yet it can significantly influence customer decisions.`,
+            `We proactively add commonly asked questions and provide helpful answers that address typical customer concerns.`,
+            `This not only saves time for your business but also ensures that accurate information is available to potential customers before they contact you.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_8,
+          name: 'Listing Monitoring & Protection',
+          description: [
+            `Unauthorized edits or competitor interference can sometimes change important details on your business listing. Our monitoring system continuously checks your profile for any suspicious or incorrect updates.`,
+            `If changes occur, we quickly correct them to maintain the accuracy of your listing.`,
+            `This proactive protection ensures that your business information remains reliable and trustworthy for customers searching on Google.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_9,
+          name: 'Performance Analytics & Reporting',
+          description: [
+            `Understanding how customers interact with your Google Business Profile is essential for measuring success. We provide detailed performance reports that track key customer actions such as phone calls, direction requests, website clicks, and profile views. `,
+            `These insights help you clearly see the impact of optimization efforts and understand how your listing contributes to generating new leads and customers.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+      ],
+      card: [
+        {
+          code: 2,
+          img: ImpToBusinessCradImg,
+          heading: 'Boost Your Visibility on',
+          heading1: [`Google Maps`],
+          description: [`Take the next step toward stronger local visibility and more customer inquiries. `,
+            `Contact Adaired Digital today to get started with professional Google My Business optimization services.`],
+          buttonName: 'Optimize My Website for AI',
+        }
+      ],
+    },
+
+    dataInTable: {
+      isVisible: false,
+      isInCenter: true,
+      isBgWhite: true,
+      bgColor: '#FAFAFA',
+      trColor: '#FB9100',
+      rowColor: 'bg-[#7259FF]/10',
+      isVariant: '01',
+      heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
+      description: [``],
+      data: [
+        {
+          desctioption: `Feature`,
+          list: [
+            {
+              description: [`AI-First SEO Strategy`],
+            },
+            {
+              description: [`Cross-Platform Optimization`],
+            },
+            {
+              description: [`User Intent Alignment`],
+            },
+            {
+              description: [`Content Creation & Structure`],
+            },
+            {
+              description: [`Scalable & Future-Proof Solutions`],
+            },
+            {
+              description: [`AI-Driven Insights`],
+            },
+          ],
+        },
+        {
+          desctioption: `Adaired Digital Media`,
+          list: [
+            {
+              description: [
+                `We design strategies that are tailored for the evolving AI search landscape.`,
+              ],
+            },
+            {
+              description: [
+                `We optimize for a broad range of AI platforms, ensuring visibility across all channels.`,
+              ],
+            },
+            {
+              description: [
+                `We align your content with evolving user intent, ensuring your brand matches search needs.`,
+              ],
+            },
+            {
+              description: [
+                `We create content that is both AI-readable and contextually aligned with search intent.`,
+              ],
+            },
+            {
+              description: [
+                `Our strategies evolve with changing AI algorithms to keep your brand visible long-term.`,
+              ],
+            },
+            {
+              description: [
+                `We leverage AI tools to continuously optimize and refine your SEO for better performance.`,
+              ],
+            },
+          ],
+        },
+        {
+          desctioption: `They`,
+          list: [
+            {
+              description: [
+                `They rely on traditional keyword-based SEO methods that are no longer as effective.`,
+              ],
+            },
+            {
+              description: [
+                `They focus on a limited number of platforms, missing out on AI-driven opportunities elsewhere.`,
+              ],
+            },
+            {
+              description: [
+                `They overlook the nuances of user intent, resulting in less relevant content placement.`,
+              ],
+            },
+            {
+              description: [
+                `They use generic content strategies that don’t cater to AI’s need for clear, structured data.`,
+              ],
+            },
+            {
+              description: [
+                `Their solutions are static and struggle to adapt as AI algorithms continue to change.`,
+              ],
+            },
+            {
+              description: [
+                `They lack the use of AI-driven insights, relying on outdated metrics for optimization.`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+
+    whatMissing: {
+      isVisible: false,
+      bgColor: '#FFFCF8',
+      isInCenter: true,
+      isVariant: '02',
+      button: 'Dominate Search Results!',
+      heading: 'Why SEO is Important for B2B SaaS Companies',
+      description: [`The data is clear: SEO is not optional for SaaS growth.`],
+      list: [
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Research shows that 66% of B2B SaaS buyers rely on search engines to evaluate and compare solutions before making a purchase decision. (Statista)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `SEO not only improves SaaS rankings in SERPs but also increases visibility in emerging AI-powered search features and overviews, expanding brand exposure. (Forbes)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Data reveals that 70% of SaaS companies believe SEO generates stronger long-term sales results compared to PPC advertising. (Databox)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Organic search contributes 14.3% of total leads for SaaS businesses, making SEO one of the most consistent acquisition channels. (Sixth City Marketing)`,
+          ],
+        },
+      ],
+    },
+
+    whatIncluded: {
+      isVisible: false,
+      isVariant: '03',
+      breakIndex: 3,
+      heading: 'White-Label Services We Provide',
+      description: [
+        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
+        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
+      ],
+      list: [
+        {
+          icon: whiteServicesIncluded_1,
+          title: 'White-Label SEO',
+          description: [
+            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
+            We handle research, optimization, technical improvements, 
+            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
+            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_2,
+          title: 'White-Label Social Media Management',
+          description: [
+            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
+            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
+            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_3,
+          title: 'White-Label Pay-Per-Click Ads',
+          description: [
+            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
+            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
+            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_4,
+          title: 'White-Label Link Building',
+          description: [
+            `Link building requires consistent outreach and quality control. 
+            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
+            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_5,
+          title: 'White-Label Web Design and Development',
+          description: [
+            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
+            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
+            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
+            and timelines, all without having to manage in-house design or development teams.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_6,
+          title: 'White-Label Application Development',
+          description: [
+            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
+            We assist with application planning, development, integration, testing, and platform-wide updates.`,
+            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+      ],
+    },
+
+    needofservice: {
+      isVisible: false,
+      isVariant: '04',
+      isBgCornerImg: true,
+      heading: 'How White Label SEO Works for Agencies',
+      data: [
+        {
+          desctioption: `White label SEO seeks to separate client ownership and service delivery. 
+          The agency remains the primary point of contact, but SEO fulfillment is handled externally.`,
+        },
+        {
+          desctioption: `Client acquisition, onboarding, and relationship management are handled entirely by the agency. 
+          The client receives SEO services directly from the agency they hired.`,
+        },
+        {
+          desctioption: `At Adaired, as a leading white-label SEO company, we do SEO execution, including research, optimization, 
+          and ongoing maintenance, which takes place quietly in the background. 
+          This allows agencies to provide SEO services without expanding their internal teams or infrastructure.`,
+        },
+        {
+          desctioption: `Furthermore, we ensure that all reporting, documentation, and performance updates are delivered using the agency's branding. 
+          Communication follows the agency's processes, ensuring continuity and brand integrity.`,
+        },
+      ],
+    },
+
+    serviceResult: {
+      isVisible: false,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
+      heading: 'Common White Label SEO Use Cases',
+      isVariant: '03',
+      description: [
+        `Outsourcing SEO services is used across different types of agencies and service providers, 
+        primarily as a way to support ongoing search optimization without expanding internal teams. 
+        The following use cases reflect common operational scenarios:`,
+      ],
+      isBgColor: true,
+      img: WhiteSeoServiceResultImg,
+      list: [
+        {
+          img: whiteSeoResult_1,
+          name: 'Web Design Agencies Adding SEO Retainers',
+          description: [
+            `Web design agencies often introduce SEO as a recurring service after a website launch. 
+            White label SEO allows these agencies to offer ongoing optimization, monitoring, and reporting without building a dedicated SEO department.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_2,
+          name: 'PPC Agencies Expanding into Organic Search',
+          description: [
+            `Paid media agencies frequently complement pay-per-click services with organic search offerings. 
+            White label SEO enables PPC-focused teams to support long-term visibility and traffic growth alongside paid campaigns.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_3,
+          name: 'Consultants Supporting Long-Term SEO Clients',
+          description: [
+            `Independent consultants and marketing advisors may use white-label SEO to fulfill execution-heavy tasks while remaining focused on strategy and client management. 
+            This model supports continuity for clients requiring ongoing optimization.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_4,
+          name: 'Multi-Location or Franchise SEO Support',
+          description: [
+            `Businesses operating across multiple locations often require scalable and standardized SEO execution. 
+            White label SEO supports consistent optimization, reporting, and performance tracking across regions while maintaining centralized brand control.`,
+          ],
+        },
+      ],
+    },
+
+    getsCredit: {
+      isVisible: false,
+      code: '01',
+      heading: 'You Sell. We Execute. Your Brand Gets the Credit.',
+      isCard: false,
+      list: [
+        {
+          description: [`SEO audits & strategy`],
+        },
+        {
+          description: [`Ongoing optimization`],
+        },
+        {
+          description: [`100% brand-safe delivery`],
+        },
+        {
+          description: [`Rank tracking & white-label reporting`],
+        },
+      ],
+    },
+
+    leadingTools: {
+      isVisible: false,
+      isVariant: '01',
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+      list: [],
+    },
+
+    getplan: {
+      isVisible: false,
+      isLabel: false,
+      subtitle: '',
+      bgImage: stop_struggle2,
+      title: 'Stop Guessing Start Acting ',
+      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+
+    stopStruggling: {
+      isVisible: false,
+      isCenter: true,
+      subtitle: '',
+      title: '',
+      description: [
+        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
+      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
+      ],
+      button: '',
+      bgImg: whiteStruggleBg,
+      isHoverBgBlue: true,
     },
 
     industryLeaders: {
