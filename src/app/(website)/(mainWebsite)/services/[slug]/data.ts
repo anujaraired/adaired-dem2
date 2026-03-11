@@ -1339,7 +1339,7 @@ export const SERVICES_DATA = {
       ],
     },
   },
-  'ai-seo-company-india': {
+  'ai-seo-india': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -1364,7 +1364,7 @@ export const SERVICES_DATA = {
       description:
         'LLM-driven AI SEO services in India for ChatGPT, Gemini and Google AI Overviews to enhance search visibility, rankings, and long-term organic performance.',
       alternates: {
-        canonical: '/services/ai-seo-company-india',
+        canonical: '/services/ai-seo-india',
       },
     },
     banner: {
@@ -2085,7 +2085,7 @@ brand appears in AI summaries and citations.`,
       ],
     },
   },
-  'link-building-services-india': {
+  'link-building-agency-india': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -2110,7 +2110,7 @@ brand appears in AI summaries and citations.`,
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/services/link-building-services-india',
+        canonical: '/services/link-building-agency-india',
       },
     },
     banner: {
@@ -2128,7 +2128,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       code: '03',
       heading: 'Key Stats on Authority Link Building ',
-      bgColor:"#FB9100",
+      bgColor: '#FB9100',
       isCard: false,
       img: keyStatsImg,
       list: [
@@ -4439,7 +4439,7 @@ brand appears in AI summaries and citations.`,
       img: whiteKeyStats,
       heading: 'Must-Know Facts About White Label Social Media',
       isImgBg: false,
-      bgColor:"#FB9100",
+      bgColor: '#FB9100',
       list: [
         {
           desctioption: [
@@ -7165,7 +7165,7 @@ brand appears in AI summaries and citations.`,
       bgImage: LocalNotSeeBg,
     },
   },
-  'paid-media-and-advertising': {
+  'ppc-management-company-india': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -7195,7 +7195,7 @@ brand appears in AI summaries and citations.`,
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/services/paid-media-and-advertising',
+        canonical: '/services/ppc-management-company-india',
       },
     },
     banner: {
@@ -8165,7 +8165,7 @@ brand appears in AI summaries and citations.`,
       bgImage: LocalNotSeeBg,
     },
   },
-  'white-label-paid-ads': {
+  'white-label-paid-ads-india': {
     sectionsOrder: [
       'banner',
       'whatareservice',
@@ -8195,7 +8195,7 @@ brand appears in AI summaries and citations.`,
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/services/white-label-paid-ads',
+        canonical: '/services/white-label-paid-ads-india',
       },
     },
     banner: {
@@ -9191,7 +9191,7 @@ brand appears in AI summaries and citations.`,
       bgImage: LocalNotSeeBg,
     },
   },
-  'white-label-link-building': {
+  'white-label-link-building-india': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -9221,7 +9221,7 @@ brand appears in AI summaries and citations.`,
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/services/white-label-link-building',
+        canonical: '/services/white-label-link-building-india',
       },
     },
     banner: {
@@ -10117,7 +10117,7 @@ brand appears in AI summaries and citations.`,
       bgImage: LocalNotSeeBg,
     },
   },
-  'saas-seo-india': {
+  'saas-seo-agency': {
     sectionsOrder: [
       'banner',
       'whatareservice',
@@ -11047,7 +11047,7 @@ brand appears in AI summaries and citations.`,
       bgImage: LocalNotSeeBg,
     },
   },
-  'geo-service-india': {
+  'generative-engine-optimization-india': {
     sectionsOrder: [
       'banner',
       'whatareservice',
@@ -11994,7 +11994,7 @@ brand appears in AI summaries and citations.`,
       bgImage: LocalNotSeeBg,
     },
   },
-  'aeo-service-india': {
+  'answer-engine-optimization-india': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -12024,7 +12024,7 @@ brand appears in AI summaries and citations.`,
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/services/aeo-service-india',
+        canonical: '/services/answer-engine-optimization-india',
       },
     },
     banner: {
@@ -12302,10 +12302,12 @@ brand appears in AI summaries and citations.`,
           img: ImpToBusinessCradImg,
           heading: 'Become the Brand',
           heading1: [`AI Search Engines`, `Trust`],
-          description: [`AI-powered search is already reshaping how customers discover information. The question isn’t whether AI visibility matters; it’s whether your brand will be cited or overlooked.`,
-            `Position your business to be found, trusted, and referenced in AI-generated answers.`],
+          description: [
+            `AI-powered search is already reshaping how customers discover information. The question isn’t whether AI visibility matters; it’s whether your brand will be cited or overlooked.`,
+            `Position your business to be found, trusted, and referenced in AI-generated answers.`,
+          ],
           buttonName: 'Build My AEO Strategy',
-        }
+        },
       ],
     },
 
@@ -12956,7 +12958,7 @@ brand appears in AI summaries and citations.`,
       bgImage: LocalNotSeeBg,
     },
   },
-  'mobile-apps-development-company': {
+  'mobile-apps-development-india': {
     sectionsOrder: [
       'banner',
       'whatareservice',
@@ -14218,7 +14220,7 @@ brand appears in AI summaries and citations.`,
       bgImage: LocalNotSeeBg,
     },
   },
-  'gmb-service-india': {
+  'gmb-optimization-india': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -14492,10 +14494,1061 @@ brand appears in AI summaries and citations.`,
           img: ImpToBusinessCradImg,
           heading: 'Boost Your Visibility on',
           heading1: [`Google Maps`],
-          description: [`Take the next step toward stronger local visibility and more customer inquiries. `,
-            `Contact Adaired Digital today to get started with professional Google My Business optimization services.`],
+          description: [
+            `Take the next step toward stronger local visibility and more customer inquiries. `,
+            `Contact Adaired Digital today to get started with professional Google My Business optimization services.`,
+          ],
           buttonName: 'Optimize My Website for AI',
-        }
+        },
+      ],
+    },
+
+    adairedHelp: {
+      isVisible: true,
+      breakIndex: 5,
+      img: AdairedHelpgmb,
+      isInCenter: false,
+      bgColor: 'bg-gradient-to-b from-[#FFFEFB] to-[#FFF7EB]',
+      cardBg: '',
+      heading: `Top Reasons to Select GBP Optimization Services from Adaired Digital`,
+      description: [
+        `Here are some of the primary reasons why you should choose Adaired Digital’s Google business optimization services:`,
+      ],
+      mainImage: whiteServicesAdairedHelpImg,
+      list: [
+        {
+          img: '',
+          name: 'Proven Local SEO Expertise',
+          description: [
+            `At Adaired Digital, our team specializes in local SEO strategies designed specifically for Google Business Profiles.`,
+            ` We stay updated with Google’s latest algorithm changes and best practices to ensure your business profile remains optimized, compliant, and competitive in local search results.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Customized Optimization Strategy',
+          description: [
+            `No two businesses are the same, which is why we don’t rely on generic optimization methods. `,
+            `We analyze your industry, service area, competitors, and target customers to develop a customized GBP optimization strategy that helps your business stand out in local searches.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Stronger Visibility on Google Search and Maps',
+          description: [
+            `A properly optimized Google Business Profile can significantly improve your chances of appearing in the local pack and Google Maps results.`,
+            `Our team focuses on optimizing your business categories, services, keywords, and profile content so that your business appears when potential customers search for related services in your area.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Complete Profile Optimization',
+          description: [
+            `We optimize every element of your profile, including your business description, services, categories, images, and contact information.`,
+            `By improving these details within our GMB optimization services​, we ensure your listing is both search-engine-friendly and appealing to potential customers.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Reputation and Review Management',
+          description: [
+            `Customer reviews play an important role in influencing both search rankings and buying decisions. `,
+            `Our team helps you develop strategies to encourage genuine customer reviews and guides responding professionally to both positive and negative feedback.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Consistent Profile Activity and Updates',
+          description: [
+            `An active profile sends strong signals to Google that your business is reliable and relevant. `,
+            `We regularly publish Google Posts, updates, and promotional content to keep your listing fresh, informative, and engaging for potential customers.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Data-Driven Optimization Approach',
+          description: [
+            `We rely on research, performance tracking, and local keyword analysis to make informed optimization decisions. `,
+            `This data-driven approach helps improve your profile’s performance and ensures your business continues to grow its visibility over time.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Clear Performance Reporting',
+          description: [
+            `Transparency is a key part of our service. We provide regular reports showing important metrics such as profile views, customer interactions, phone calls, and direction requests. `,
+            `These insights help you understand how your Google Business Profile contributes to your business growth.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Ongoing Support and Monitoring',
+          description: [
+            `Our work doesn’t stop after optimization. We continuously monitor your listing for performance improvements, profile updates, and potential issues. `,
+            `This proactive GMB management service ensures your business profile stays optimized and protected from unauthorized changes.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Focused on Real Business Results',
+          description: [
+            `Ultimately, our goal is to help your business attract more local customers.`,
+            ` By improving your visibility on Google Maps and local search results, we help convert online searches into real calls, visits, and sales for your business.`,
+          ],
+        },
+      ],
+    },
+
+    ourProcess: {
+      isVisible: true,
+      isInCenter: true,
+      subtitle: 'Our Process',
+      title: 'Our Google Business Profile Optimization Process',
+      breakIndex: 4,
+      bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFFFFF]',
+      span: '',
+      description: [``],
+      services: [
+        {
+          icon: icon1,
+          title: 'Business Profile Audit',
+          description: [
+            `We begin by conducting a comprehensive audit of your existing Google My Business Profile. This includes analyzing your current rankings, profile completeness, business information, categories, images, and customer reviews. `,
+            `The audit helps us identify areas that need improvement and opportunities to enhance your profile’s performance.`,
+          ],
+        },
+        {
+          icon: icon2,
+          title: 'Profile Setup or Verification',
+          description: [
+            `If your business does not yet have a fully verified profile, we assist with the complete setup and verification process.`,
+            `This ensures that your business is officially recognized by Google and eligible to appear in local search results and Google Maps listings.`,
+          ],
+        },
+        {
+          icon: icon3,
+          title: 'Keyword and Category Research',
+          description: [
+            `Our team performs detailed keyword research to identify the most relevant and high-intent search terms used by customers in your area.`,
+            `We also analyze your competitors to determine the best primary and secondary business categories for improved local rankings.`,
+          ],
+        },
+        {
+          icon: icon4,
+          title: 'Profile Optimization',
+          description: [
+            `Next, we optimize every important component of your Google Business Profile. `,
+            `This includes writing a keyword-optimized business description, adding detailed services and products, selecting the right categories, and ensuring your business information is accurate and consistent.`,
+          ],
+        },
+        {
+          icon: icon5,
+          title: 'Visual and Content Enhancement',
+          description: [
+            `We enhance your profile with high-quality images, videos, and engaging content that showcase your business.`,
+            `Visual content helps attract more attention from potential customers and improves overall engagement with your listing.`,
+          ],
+        },
+        {
+          icon: icon6,
+          title: 'Review and Reputation Strategy',
+          description: [
+            `Customer reviews are a critical factor in both rankings and customer trust.`,
+            `We help you implement a review strategy that encourages genuine customer feedback and guide you on responding professionally to build a strong online reputation.`,
+          ],
+        },
+        {
+          icon: icon7,
+          title: 'Ongoing Monitoring and Updates',
+          description: [
+            `Optimization is not a one-time task. We continuously monitor your profile’s performance, publish updates through Google Posts, and make improvements to maintain strong visibility and engagement.`,
+          ],
+        },
+      ],
+    },
+
+    faqData: {
+      isVisible: true,
+      bgColor: 'bg-[#FAFAFA]',
+      subtitle: 'FAQ',
+      title: 'Frequently Asked Questions',
+      description: ``,
+      list: [
+        {
+          title: 'What is Google Business Profile optimization?',
+          description: [
+            `Google Business Profile optimization is the process of improving and managing your business listing on Google to increase its visibility in local search results and Google Maps.`,
+            `This includes optimizing business information, categories, keywords, images, reviews, and posts to attract more local customers.`,
+          ],
+        },
+        {
+          title:
+            'Why is Google Business Profile important for local businesses?',
+          description: [
+            `Your Google Business Profile is often the first place potential customers discover your business online.`,
+            `A well-optimized profile helps your business appear in local searches, builds credibility through reviews, and makes it easier for customers to contact or visit your business.`,
+          ],
+        },
+        {
+          title: 'How long does it take to see results from GBP optimization?',
+          description: [
+            `Results can vary depending on your industry, competition, and the current state of your profile.`,
+            `Many businesses begin noticing improvements in visibility, engagement, and customer interactions within a few weeks of consistent optimization and updates.`,
+          ],
+        },
+        {
+          title:
+            'Can Google Business Profile optimization improve my Google Maps ranking?',
+          description: [
+            `Yes, proper optimization can significantly improve your chances of appearing higher in Google Maps results.`,
+            `Factors such as accurate business information, relevant categories, customer reviews, and consistent updates all contribute to better local rankings.`,
+          ],
+        },
+        {
+          title:
+            'Do I need a physical location to create a Google Business Profile?',
+          description: [
+            `Not necessarily. Service-area businesses can also create Google Business Profiles without displaying a physical storefront address. Instead, they can specify the areas they serve.`,
+          ],
+        },
+        {
+          title:
+            'How important are customer reviews for Google Business Profiles?',
+          description: [
+            `Customer reviews are extremely important because they influence both search rankings and customer trust.`,
+            `Businesses with more positive and recent reviews often attract more clicks, calls, and visits.`,
+          ],
+        },
+        {
+          title: 'Can I update my Google Business Profile regularly?',
+          description: [
+            `Yes, updating your profile with posts, photos, offers, and business updates helps keep your listing active.`,
+            `Regular activity signals to Google that your business is engaged and relevant to customers.`,
+          ],
+        },
+        {
+          title:
+            'How can Adaired Digital help with Google Business Profile optimization?',
+          description: [
+            `Adaired Digital provides comprehensive GBP optimization services, including profile setup, keyword optimization, review management, content updates, and performance tracking.`,
+            `Our goal is to help your business rank higher on Google Maps and attract more local customers.`,
+          ],
+        },
+      ],
+    },
+
+    dataInTable: {
+      isVisible: false,
+      isInCenter: true,
+      isBgWhite: true,
+      bgColor: '#FAFAFA',
+      trColor: '#FB9100',
+      rowColor: 'bg-[#7259FF]/10',
+      isVariant: '01',
+      heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
+      description: [``],
+      data: [
+        {
+          desctioption: `Feature`,
+          list: [
+            {
+              description: [`AI-First SEO Strategy`],
+            },
+            {
+              description: [`Cross-Platform Optimization`],
+            },
+            {
+              description: [`User Intent Alignment`],
+            },
+            {
+              description: [`Content Creation & Structure`],
+            },
+            {
+              description: [`Scalable & Future-Proof Solutions`],
+            },
+            {
+              description: [`AI-Driven Insights`],
+            },
+          ],
+        },
+        {
+          desctioption: `Adaired Digital Media`,
+          list: [
+            {
+              description: [
+                `We design strategies that are tailored for the evolving AI search landscape.`,
+              ],
+            },
+            {
+              description: [
+                `We optimize for a broad range of AI platforms, ensuring visibility across all channels.`,
+              ],
+            },
+            {
+              description: [
+                `We align your content with evolving user intent, ensuring your brand matches search needs.`,
+              ],
+            },
+            {
+              description: [
+                `We create content that is both AI-readable and contextually aligned with search intent.`,
+              ],
+            },
+            {
+              description: [
+                `Our strategies evolve with changing AI algorithms to keep your brand visible long-term.`,
+              ],
+            },
+            {
+              description: [
+                `We leverage AI tools to continuously optimize and refine your SEO for better performance.`,
+              ],
+            },
+          ],
+        },
+        {
+          desctioption: `They`,
+          list: [
+            {
+              description: [
+                `They rely on traditional keyword-based SEO methods that are no longer as effective.`,
+              ],
+            },
+            {
+              description: [
+                `They focus on a limited number of platforms, missing out on AI-driven opportunities elsewhere.`,
+              ],
+            },
+            {
+              description: [
+                `They overlook the nuances of user intent, resulting in less relevant content placement.`,
+              ],
+            },
+            {
+              description: [
+                `They use generic content strategies that don’t cater to AI’s need for clear, structured data.`,
+              ],
+            },
+            {
+              description: [
+                `Their solutions are static and struggle to adapt as AI algorithms continue to change.`,
+              ],
+            },
+            {
+              description: [
+                `They lack the use of AI-driven insights, relying on outdated metrics for optimization.`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+
+    buildlinks: {
+      isVisible: false,
+      isCode01: true,
+      isVariant: '06',
+      breakIndex: 3,
+      bgImg: saasSeoBuildLinkBg,
+      img: geoAiSeoBuildLinkImg,
+      label: 'Ready to',
+      heading: 'Dominate AI Search?',
+      description: ``,
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `AI-powered search platforms are already influencing how customers discover, evaluate, and choose businesses. 
+          If your brand is not structured for generative search engines, you risk losing visibility to competitors who adapt faster.`,
+        },
+        {
+          desctioption: `Our Generative Engine Optimization services are designed to position your business where modern discovery happens, inside AI-generated answers, summaries, and recommendations.`,
+        },
+        {
+          desctioption: `The future of search is not about rankings alone. It is about recognition, authority, and recommendation. Take the next step toward AI visibility.`,
+        },
+      ],
+      button: 'Optimize My Website for AI',
+    },
+
+    whatMkeDeferent: {
+      isVisible: false,
+      isVariant: '01',
+      breakIndex: 3,
+      isInCenter: true,
+      bgColor: true,
+      bgGradient: '',
+      heading: `Why Leading SaaS Brands Choose Adaired Digital`,
+      description: [``],
+      list: [
+        {
+          img: saasSeoMissing_1,
+          name: 'SaaS-Only Focus',
+          description: [
+            `We work exclusively with B2B SaaS companies, not eCommerce brands, not local businesses, and not general service providers. That specialization matters. 
+            SaaS growth is driven by subscription economics, long-term retention, product adoption, and expansion revenue. 
+            We understand the nuances of CAC, LTV, churn sensitivity, pipeline velocity, and product-led growth models. 
+            Because SaaS is all we do, our strategies are built around how subscription businesses actually scale, not around outdated SEO tactics designed for one-time purchases.`,
+          ],
+        },
+        {
+          img: saasSeoMissing_1,
+          name: 'Revenue-First Strategy',
+          description: [
+            `Traffic alone doesn’t grow a SaaS company; revenue does. 
+            Every keyword we target, every page we optimize, and every content asset we build is aligned with measurable business outcomes. 
+            We map search intent to funnel stages and revenue potential, ensuring your organic growth translates into demo requests, trial signups, and a qualified pipeline. 
+            Instead of chasing high-volume vanity terms, we prioritize high-intent opportunities that directly influence recurring revenue and long-term customer value.`,
+          ],
+        },
+        {
+          img: saasSeoMissing_1,
+          name: 'No Generic SEO Playbooks',
+          description: [
+            `Most agencies rely on templated processes that look impressive but fail to deliver meaningful results in competitive SaaS markets. \
+            We don’t believe in one-size-fits-all SEO. Your growth strategy is built specifically around your product positioning, ideal customer profile, category maturity, and competitive landscape. 
+            Whether you're defining a new category or competing in a saturated one, we design a framework that reflects your unique strengths and market realities, not a recycled checklist.`,
+          ],
+        },
+        {
+          img: saasSeoMissing_1,
+          name: 'Deep Competitor Targeting',
+          description: [
+            `In B2B SaaS, buyers actively compare alternatives before making decisions. 
+            We leverage this behavior strategically. 
+            Our approach includes detailed competitor gap analysis, alternative positioning pages, comparison content, and high-intent keyword targeting designed to intercept prospects at the evaluation stage. 
+            By identifying where competitors dominate and where they leave opportunities open, we position your brand directly in the path of decision-ready buyers.`,
+          ],
+        },
+        {
+          img: saasSeoMissing_1,
+          name: 'Full-Funnel Execution',
+          description: [
+            `Organic growth doesn’t happen at a single stage of the buyer journey. 
+            We build comprehensive SEO ecosystems that support awareness, consideration, evaluation, and decision-making. 
+            From problem-focused educational content to integration pages, use-case assets, and bottom-of-funnel comparison pages, every piece works together to create a cohesive search presence. 
+            The result is not fragmented traffic but a structured acquisition engine that consistently feeds your sales pipeline.`,
+          ],
+        },
+        {
+          img: saasSeoMissing_1,
+          name: 'Built for Scale',
+          description: [
+            `SaaS companies evolve, new features launch, new markets open, and new verticals emerge. 
+            Your SEO strategy should evolve with you. 
+            We design scalable frameworks that expand into new keyword clusters, industries, and high-value opportunities as your company grows. 
+            Instead of short-term ranking wins, we focus on building a long-term organic growth asset that compounds over time and strengthens your competitive position year after year.`,
+          ],
+        },
+      ],
+    },
+
+    whatMissing: {
+      isVisible: false,
+      bgColor: '#FFFCF8',
+      isInCenter: true,
+      isVariant: '02',
+      button: 'Dominate Search Results!',
+      heading: 'Why SEO is Important for B2B SaaS Companies',
+      description: [`The data is clear: SEO is not optional for SaaS growth.`],
+      list: [
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Research shows that 66% of B2B SaaS buyers rely on search engines to evaluate and compare solutions before making a purchase decision. (Statista)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `SEO not only improves SaaS rankings in SERPs but also increases visibility in emerging AI-powered search features and overviews, expanding brand exposure. (Forbes)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Data reveals that 70% of SaaS companies believe SEO generates stronger long-term sales results compared to PPC advertising. (Databox)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Organic search contributes 14.3% of total leads for SaaS businesses, making SEO one of the most consistent acquisition channels. (Sixth City Marketing)`,
+          ],
+        },
+      ],
+    },
+
+    whatIncluded: {
+      isVisible: false,
+      isVariant: '03',
+      breakIndex: 3,
+      heading: 'White-Label Services We Provide',
+      description: [
+        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
+        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
+      ],
+      list: [
+        {
+          icon: whiteServicesIncluded_1,
+          title: 'White-Label SEO',
+          description: [
+            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
+            We handle research, optimization, technical improvements, 
+            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
+            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_2,
+          title: 'White-Label Social Media Management',
+          description: [
+            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
+            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
+            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_3,
+          title: 'White-Label Pay-Per-Click Ads',
+          description: [
+            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
+            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
+            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_4,
+          title: 'White-Label Link Building',
+          description: [
+            `Link building requires consistent outreach and quality control. 
+            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
+            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_5,
+          title: 'White-Label Web Design and Development',
+          description: [
+            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
+            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
+            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
+            and timelines, all without having to manage in-house design or development teams.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_6,
+          title: 'White-Label Application Development',
+          description: [
+            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
+            We assist with application planning, development, integration, testing, and platform-wide updates.`,
+            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+      ],
+    },
+
+    needofservice: {
+      isVisible: false,
+      isVariant: '04',
+      isBgCornerImg: true,
+      heading: 'How White Label SEO Works for Agencies',
+      data: [
+        {
+          desctioption: `White label SEO seeks to separate client ownership and service delivery. 
+          The agency remains the primary point of contact, but SEO fulfillment is handled externally.`,
+        },
+        {
+          desctioption: `Client acquisition, onboarding, and relationship management are handled entirely by the agency. 
+          The client receives SEO services directly from the agency they hired.`,
+        },
+        {
+          desctioption: `At Adaired, as a leading white-label SEO company, we do SEO execution, including research, optimization, 
+          and ongoing maintenance, which takes place quietly in the background. 
+          This allows agencies to provide SEO services without expanding their internal teams or infrastructure.`,
+        },
+        {
+          desctioption: `Furthermore, we ensure that all reporting, documentation, and performance updates are delivered using the agency's branding. 
+          Communication follows the agency's processes, ensuring continuity and brand integrity.`,
+        },
+      ],
+    },
+
+    serviceResult: {
+      isVisible: false,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
+      heading: 'Common White Label SEO Use Cases',
+      isVariant: '03',
+      description: [
+        `Outsourcing SEO services is used across different types of agencies and service providers, 
+        primarily as a way to support ongoing search optimization without expanding internal teams. 
+        The following use cases reflect common operational scenarios:`,
+      ],
+      isBgColor: true,
+      img: WhiteSeoServiceResultImg,
+      list: [
+        {
+          img: whiteSeoResult_1,
+          name: 'Web Design Agencies Adding SEO Retainers',
+          description: [
+            `Web design agencies often introduce SEO as a recurring service after a website launch. 
+            White label SEO allows these agencies to offer ongoing optimization, monitoring, and reporting without building a dedicated SEO department.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_2,
+          name: 'PPC Agencies Expanding into Organic Search',
+          description: [
+            `Paid media agencies frequently complement pay-per-click services with organic search offerings. 
+            White label SEO enables PPC-focused teams to support long-term visibility and traffic growth alongside paid campaigns.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_3,
+          name: 'Consultants Supporting Long-Term SEO Clients',
+          description: [
+            `Independent consultants and marketing advisors may use white-label SEO to fulfill execution-heavy tasks while remaining focused on strategy and client management. 
+            This model supports continuity for clients requiring ongoing optimization.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_4,
+          name: 'Multi-Location or Franchise SEO Support',
+          description: [
+            `Businesses operating across multiple locations often require scalable and standardized SEO execution. 
+            White label SEO supports consistent optimization, reporting, and performance tracking across regions while maintaining centralized brand control.`,
+          ],
+        },
+      ],
+    },
+
+    getsCredit: {
+      isVisible: false,
+      code: '01',
+      heading: 'You Sell. We Execute. Your Brand Gets the Credit.',
+      isCard: false,
+      list: [
+        {
+          description: [`SEO audits & strategy`],
+        },
+        {
+          description: [`Ongoing optimization`],
+        },
+        {
+          description: [`100% brand-safe delivery`],
+        },
+        {
+          description: [`Rank tracking & white-label reporting`],
+        },
+      ],
+    },
+
+    leadingTools: {
+      isVisible: false,
+      isVariant: '01',
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+      list: [],
+    },
+
+    getplan: {
+      isVisible: false,
+      isLabel: false,
+      subtitle: '',
+      bgImage: stop_struggle2,
+      title: 'Stop Guessing Start Acting ',
+      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+
+    stopStruggling: {
+      isVisible: false,
+      isCenter: true,
+      subtitle: '',
+      title: '',
+      description: [
+        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
+      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
+      ],
+      button: '',
+      bgImg: whiteStruggleBg,
+      isHoverBgBlue: true,
+    },
+
+    benefitofAiSeo: {
+      isVisible: false,
+      bgColor: 'bg-[#FAFAFA]',
+      textColor: '#000000',
+      textBg: '#EEEEEE',
+      borderColor: '#00000014',
+      heading: 'Benefits of Website Design and Development Services',
+      description: [
+        `A business’s success is closely tied to the quality of its website. A professional web site can determine whether a visitor becomes a loyal customer or leaves for a competitor. Here are the key benefits:`,
+      ],
+      list: [
+        {
+          name: 'Creates a Strong First Impression',
+          description: [
+            `The potential customers often get in touch with you through your site. The first impression that a properly developed site leaves is positive and credible. 
+            The use of professional images, well-designed layouts, and navigation facilitate the development of trust within seconds after a visitor visits your site.`,
+          ],
+        },
+        {
+          name: 'Enhances User Experience',
+          description: [
+            `Effective website design is rooted in user experience. A visitor will find it easier to do business with a site that has easy navigation, attractive design, and is responsive to all devices. 
+            A well-organized site will ensure the users have an easy time navigating their way to heighten satisfaction and interest.`,
+          ],
+        },
+        {
+          name: 'Builds Trust and Credibility',
+          description: [
+            `Good website design is associated with the credibility and professionalism of a business. 
+            Features such as fast loading speeds, secure connections, consistent performance, and clear messaging reassure users that the company is reliable, established, and customer-focused.`,
+          ],
+        },
+        {
+          name: 'Improves Conversion Rates and ROI',
+          description: [
+            `A well-planned website is your effective conversion tool. 
+            An efficient design, simple calls to action, and information-driven design components motivate the visitor to make a substantial move like purchasing a product, joining a mailing list, or leaving an enquiry which will lead to an increase in the profit margin.`,
+          ],
+        },
+        {
+          name: 'Helps You Stand Out in a Competitive Market',
+          description: [
+            `The world of the Internet is very busy nowadays, so a generic site is not sufficient. 
+            A tailored site featuring unique images, effective branding, and engagement is useful to businesses to stand out, enhance their online presence, and create an impression.`,
+          ],
+        },
+      ],
+    },
+
+    industryLeaders: {
+      isVisible: false,
+      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      description:
+        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      bgImage: leadingToolsImg,
+    },
+
+    leadingToolsForPerformence: {
+      isVisible: false,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+
+    notSeeingResult: {
+      isVisible: false,
+      heading: ``,
+      description: '',
+      buttonName: '',
+      img: LocalNotSee,
+      bgImage: LocalNotSeeBg,
+    },
+  },
+  'gmb-website-seo-india': {
+    sectionsOrder: [
+      'banner',
+      'keyStats',
+      'whatareservice',
+      'whatareservice2',
+      'importantToBussiness',
+      'adairedHelp',
+      'ourProcess',
+      'faqData',
+      'dataInTable',
+      'buildlinks',
+      'whatMkeDeferent',
+      'whatMissing',
+      'whatIncluded',
+      'needofservice',
+      'serviceResult',
+      'getsCredit',
+      'readyToStart',
+      'stopStruggling',
+      'benefitofAiSeo',
+      'leadingToolsForPerformence',
+      'notSeeingResult',
+      'leadingTools',
+      'getplan',
+    ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/seo-company-india',
+      },
+    },
+    banner: {
+      code: '02',
+      isCenter: false,
+      isVisible: true,
+      heading2: '#1 on Google Maps: Get Seen by Local Customers',
+      isAbsolute: true,
+      isStyleHeading: true,
+      headingParts: [
+        { text: 'From Invisible to', color: '#000000', weight: '400' },
+        {
+          text: ' #1 on Google Maps ',
+          color: '#FB9100',
+          weight: '700',
+        },
+        {
+          text: 'Get Seen by Local Customers',
+          color: '#000000',
+          weight: '400',
+        },
+      ],
+      breakIndex: 6,
+      desc: [
+        `Show up first when customers search for your services and turn your Google Business Profile into a stream of calls and leads into real sales.`,
+      ],
+      button: 'Boost My Visibility Today',
+      width: '60%',
+      widthLg: '30rem',
+      bgImg: gbplocalSeoBannerBg,
+    },
+
+    keyStats: {
+      isVisible: true,
+      code: '01',
+      img: whiteLinkBuildingKeyStatsImg,
+      heading: 'Why Should You Rank #1 on Google Maps?',
+      bgColor: '#FB9100',
+      isImgBg: true,
+      isCard: false,
+      list: [
+        {
+          icon: KeyStatsIcon1,
+          desctioption: [
+            `Google Business Profile signals account for 32% of local pack ranking factors, making them the most influential element for ranking on Google Maps. (Whitespark)`,
+          ],
+        },
+        {
+          icon: KeyStatsIcon2,
+          desctioption: [
+            `97% of consumers read reviews when researching local businesses, making reputation a critical factor in customer decisions. (BrightLocal)`,
+          ],
+        },
+        {
+          icon: KeyStatsIcon3,
+          desctioption: [
+            `64% of consumers use Google Business Profiles to quickly find key business contact details like phone numbers, addresses, and emails. (BrightLocal)`,
+          ],
+        },
+        {
+          icon: KeyStatsIcon4,
+          desctioption: [
+            `69% of users check opening hours on Google Business Profiles, making it the most used feature, followed by directions and reviews. (BrightLocal)`,
+          ],
+        },
+        {
+          icon: KeyStatsIcon5,
+          desctioption: [
+            `76% of marketers consider Google Business Profile management the most valuable local SEO service for improving local visibility. (BrightLocal)`,
+          ],
+        },
+      ],
+    },
+
+    whatareservice: {
+      isVisible: true,
+      isVariant: '07',
+      breakIndex: 5,
+      img: WhatAreServiceGMB,
+      heading: 'What is Google Business Profile Optimization?',
+      span: '',
+      bgColor: '#FFFCF8',
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `Google Business Profile optimization, previously known as GMB (Google My Business) optimization, is the strategic process of improving and fine-tuning your business listing. 
+          The goal is to increase your visibility and engagement on Google Search and Google Maps. This involves a series of actions designed to ensure that your profile is fully completed and accurately represents your business.`,
+        },
+        {
+          desctioption: `Key components of GBP optimization include ensuring that your business name, address, and phone number (NAP) are consistent and accurate across all online platforms, selecting the most relevant business categories, and including high-quality images that effectively showcase your products or services.
+           Additionally, it entails crafting a compelling business description that highlights your unique selling points and offerings.`,
+        },
+        {
+          desctioption: `Regularly updating your profile with posts about promotions, events, and other relevant news can also engage potential customers. Encouraging and responding to customer reviews is crucial for building credibility and maintaining a positive reputation.
+           Utilizing features such as business hours, appointment links, and FAQs will further enhance the user experience.`,
+        },
+        {
+          desctioption: `Overall, effective GBP optimization services​ not only boost local SEO rankings but also help attract more customers by making it easier for them to find and connect with your business online`,
+        },
+      ],
+      button: '',
+    },
+
+    whatareservice2: {
+      isVisible: true,
+      isVariant: '11',
+      breakIndex: 5,
+      img: WhatAreServiceGMB2,
+      heading: 'Why Your Business Needs GBP Optimization',
+      bgColor: '#FFFFFF',
+      isBgWhite: false,
+      button: '',
+      data: [
+        {
+          desctioption: `In the digital era, having a strong online presence is crucial for any business aiming to attract and retain customers. One of the most effective ways to enhance your visibility is through Google Business Profile optimization. `,
+        },
+        {
+          desctioption: `By fine-tuning your GBP, you ensure that potential customers can easily find accurate information about your business, including your location, hours of operation, services, and even customer reviews.`,
+        },
+        {
+          desctioption: `Optimizing your GBP also plays a significant role in local search engine optimization (SEO). When your business profile is well-crafted, it can improve your rankings on search engine results pages, particularly for local searches related to the products or services you offer.
+           This means that when potential customers search for businesses like yours in their vicinity, your optimized profile is more likely to appear at the top of the search results.`,
+        },
+        {
+          desctioption: `Furthermore, a well-optimized GBP enhances your credibility.
+           When users see a complete and professional profile, complete with images, updated information, and positive reviews, they are more likely to trust your business over competitors with less informative profiles.`,
+        },
+      ],
+    },
+
+    importantToBussiness: {
+      isVisible: true,
+      isInCenter: true,
+      isCardVisible: true,
+      breakIndex: 5,
+      isVariant: '01',
+      cardColor: '#F9F9F9',
+      heading:
+        'Unlock Your Potential with Top-Notch GBP Optimization Services!',
+      description: [``],
+      buttonName: 'Optimize My Website for AI',
+      data: [
+        {
+          icon: icon_1,
+          name: 'Profile Setup & Verification',
+          description: [
+            `A properly set up and verified Google Business Profile is the foundation of strong local visibility. Our team handles the entire setup process, ensuring that your business is correctly listed on Google with accurate details and professional formatting. `,
+            `We also guide and manage the verification process through Google’s approved methods, such as postcard, phone, or video verification. Once verified, your profile gains credibility and becomes eligible to appear in local search results and Google Maps listings.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_2,
+          name: 'Google Maps Ranking Tracking',
+          description: [
+            `Understanding how your business ranks in different areas of your city is critical for GMB SEO success. We use advanced geo-grid and heatmap tracking tools to monitor your visibility across neighborhoods and key service areas. `,
+            `This allows us to identify locations where your business ranks strongly and areas where visibility may be weak. With this data-driven approach, we refine optimization strategies to improve your rankings across a wider geographic range.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_3,
+          name: 'Keyword & Category Optimization',
+          description: [
+            `Choosing the right business categories and integrating relevant keywords can significantly improve your chances of appearing in local search results. Our GBP optimization service experts conduct in-depth keyword research to identify high-intent search terms that customers in your area are using. `,
+            `We then optimize your business description, services, and categories with these keywords to increase your visibility when potential customers search for related services on Google.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_4,
+          name: 'Review & Reputation Management',
+          description: [
+            `Customer reviews have a powerful influence on both search rankings and customer trust. Our review management strategy focuses on helping you generate more authentic customer feedback while maintaining a professional reputation online. `,
+            `We assist in creating review acquisition strategies and craft thoughtful responses to both positive and negative reviews. This approach strengthens your credibility and demonstrates your commitment to customer satisfaction.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_5,
+          name: 'Google Posts & Content Updates',
+          description: [
+            `Google rewards active and regularly updated business profiles. Our team creates engaging Google Posts that highlight business updates, promotions, offers, events, or announcements. `,
+            `These posts keep your profile active and provide valuable information to potential customers browsing your listing. Consistent posting also signals to Google that your business is active and relevant, which can positively influence your local search visibility.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_6,
+          name: 'Photo & Video Optimization',
+          description: [
+            `Visual content plays a major role in attracting customers and building trust. Businesses with high-quality photos and videos often receive more engagement and clicks compared to those without visuals. `,
+            `We optimize and upload professional images of your business location, interior, exterior, products, services, and team members.`,
+            `These visuals help customers better understand your brand while improving engagement with your profile.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_7,
+          name: 'Q&A Section Optimization',
+          description: [
+            `The Questions & Answers section on your Google Business Profile is often overlooked, yet it can significantly influence customer decisions.`,
+            `We proactively add commonly asked questions and provide helpful answers that address typical customer concerns.`,
+            `This not only saves time for your business but also ensures that accurate information is available to potential customers before they contact you.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_8,
+          name: 'Listing Monitoring & Protection',
+          description: [
+            `Unauthorized edits or competitor interference can sometimes change important details on your business listing. Our monitoring system continuously checks your profile for any suspicious or incorrect updates.`,
+            `If changes occur, we quickly correct them to maintain the accuracy of your listing.`,
+            `This proactive protection ensures that your business information remains reliable and trustworthy for customers searching on Google.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: icon_9,
+          name: 'Performance Analytics & Reporting',
+          description: [
+            `Understanding how customers interact with your Google Business Profile is essential for measuring success. We provide detailed performance reports that track key customer actions such as phone calls, direction requests, website clicks, and profile views. `,
+            `These insights help you clearly see the impact of optimization efforts and understand how your listing contributes to generating new leads and customers.`,
+          ],
+          button: 'Boost My Visibility Today',
+          btnColor: '#FB9100',
+        },
+      ],
+      card: [
+        {
+          code: 2,
+          img: ImpToBusinessCradImg,
+          heading: 'Boost Your Visibility on',
+          heading1: [`Google Maps`],
+          description: [
+            `Take the next step toward stronger local visibility and more customer inquiries. `,
+            `Contact Adaired Digital today to get started with professional Google My Business optimization services.`,
+          ],
+          buttonName: 'Optimize My Website for AI',
+        },
       ],
     },
 

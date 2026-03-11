@@ -188,7 +188,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: 0.9,
       },
       {
-        url: `${siteUri}/services/paid-media-and-advertising`,
+        url: `${siteUri}/services/ppc-management-company-india`,
         lastModified: new Date(),
         changeFrequency: 'weekly',
         priority: 0.9,
@@ -325,13 +325,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         priority: 0.9,
       },
       {
-        url: `${siteUri}/services/white-label-paid-ads`,
+        url: `${siteUri}/services/white-label-paid-ads-india`,
         lastModified: new Date(),
         changeFrequency: 'weekly',
         priority: 0.9,
       },
       {
-        url: `${siteUri}/services/white-label-link-building`,
+        url: `${siteUri}/services/white-label-link-building-india`,
         lastModified: new Date(),
         changeFrequency: 'weekly',
         priority: 0.9,
@@ -339,7 +339,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
       // AI SEO
       {
-        url: `${siteUri}/services/ai-seo-company-india`,
+        url: `${siteUri}/services/ai-seo-india`,
         lastModified: new Date(),
         changeFrequency: 'weekly',
         priority: 0.9,
@@ -347,7 +347,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
       // SaaS SEO (nested)
       // {
-      //   url: `${siteUri}/services/ai-seo-company-india`,
+      //   url: `${siteUri}/services/ai-seo-india`,
       //   lastModified: new Date(),
       //   changeFrequency: 'weekly',
       //   priority: 0.9,
@@ -363,7 +363,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 
       // Link Building Services India
       {
-        url: `${siteUri}/services/link-building-services-india`,
+        url: `${siteUri}/services/link-building-agency-india`,
         lastModified: new Date(),
         changeFrequency: 'weekly',
         priority: 0.9,

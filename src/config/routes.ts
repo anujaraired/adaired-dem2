@@ -128,18 +128,18 @@ export const routes: {
         //     },
         //     {
         //       name: 'White Label Paid Ads',
-        //       href: '/services/white-label-paid-ads',
+        //       href: '/services/white-label-paid-ads-india',
         //     },
         //     {
         //       name: 'White Label Link Building',
-        //       href: '/services/white-label-link-building',
+        //       href: '/services/white-label-link-building-india',
         //     },
         //   ],
         // },
         {
           icon: icon_2,
           name: 'Link Building',
-          href: '/services/link-building-services-india',
+          href: '/services/link-building-agency-india',
           subItems: [
             {
               name: 'High Authority Link Building',
@@ -233,7 +233,7 @@ export const routes: {
           subItems: [
             {
               name: 'GBP Only',
-              href: '/services/gmb-service-india',
+              href: '/services/gmb-optimization-india',
             },
             {
               name: 'GBP + Website',
@@ -272,7 +272,7 @@ export const routes: {
           subItems: [
             // {
             //   name: 'AI SEO',
-            //   href: '/services/ai-seo-company-india',
+            //   href: '/services/ai-seo-india',
             // },
             {
               name: 'LMM SEO/LLMO',
@@ -280,11 +280,11 @@ export const routes: {
             },
             {
               name: 'GEO',
-              href: '/services/geo-service-india',
+              href: '/services/generative-engine-optimization-india',
             },
             {
               name: 'AEO',
-              href: '/services/aeo-service-india',
+              href: '/services/answer-engine-optimization-india',
             },
           ],
         },
@@ -292,7 +292,7 @@ export const routes: {
         {
           icon: icon_9,
           name: 'Pay Per Click & SMM',
-          href: '/services/paid-media-and-advertising',
+          href: '/services/ppc-management-company-india',
           subItems: [
             {
               name: 'Google Ads',
@@ -315,7 +315,7 @@ export const routes: {
         {
           icon: icon_10,
           name: 'Mobile App Development',
-          href: '/services/mobile-apps-development-company',
+          href: '/services/mobile-apps-development-india',
           subItems: [
             {
               name: 'IOS Development',
@@ -349,11 +349,11 @@ export const routes: {
         },
         {
           name: 'White Label Paid Ads',
-          href: '/services/white-label-paid-ads',
+          href: '/services/white-label-paid-ads-india',
         },
         {
           name: 'White Label Link Building',
-          href: '/services/white-label-link-building',
+          href: '/services/white-label-link-building-india',
         },
       ],
     },
