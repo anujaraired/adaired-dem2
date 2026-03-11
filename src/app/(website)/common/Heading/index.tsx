@@ -85,8 +85,7 @@ const Heading = ({
                       {breakIndex !== undefined ? (
                         <>
                           {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />
-                          {" "}
+                          <br className="hidden md:block" />{' '}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -100,8 +99,7 @@ const Heading = ({
                       {breakIndex !== undefined ? (
                         <>
                           {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />
-                          {" "}
+                          <br className="hidden md:block" />{' '}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -143,8 +141,7 @@ const Heading = ({
                       {breakIndex !== undefined ? (
                         <>
                           {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />
-                          {" "}
+                          <br className="hidden md:block" />{' '}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -158,8 +155,7 @@ const Heading = ({
                       {breakIndex !== undefined ? (
                         <>
                           {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />
-                          {" "}
+                          <br className="hidden md:block" />{' '}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -210,8 +206,7 @@ const Heading = ({
                       {breakIndex !== undefined ? (
                         <>
                           {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />
-                          {" "}
+                          <br className="hidden md:block" />{' '}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -225,8 +220,7 @@ const Heading = ({
                       {breakIndex !== undefined ? (
                         <>
                           {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />
-                          {" "}
+                          <br className="hidden md:block" />{' '}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -239,7 +233,7 @@ const Heading = ({
               {description && (
                 <div className="px-0 lg:px-[15%]">
                   <p
-                    className={`${isBgWhite ? 'text-[#000000]' : 'text-[#FFFFFF]'} mx-auto w-[80%] py-4 text-center`}
+                    className={`${isBgWhite ? 'text-[#000000]' : 'text-[#FFFFFF]'} mx-auto w-[100%] py-4 text-center lg:w-[80%]`}
                   >
                     {description}
                   </p>
@@ -273,8 +267,7 @@ const Heading = ({
                       {breakIndex !== undefined ? (
                         <>
                           {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />
-                          {" "}
+                          <br className="hidden md:block" />{' '}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -290,8 +283,7 @@ const Heading = ({
                       {breakIndex !== undefined ? (
                         <>
                           {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />
-                          {" "}
+                          <br className="hidden md:block" />{' '}
                           {words.slice(breakIndex).join(' ')}
                         </>
                       ) : (
@@ -305,8 +297,7 @@ const Heading = ({
                         {spanBreakIndex !== undefined ? (
                           <>
                             {spans.slice(0, spanBreakIndex).join(' ')}
-                            <br className="hidden md:block" />
-                            {" "}
+                            <br className="hidden md:block" />{' '}
                             {spans.slice(spanBreakIndex).join(' ')}
                           </>
                         ) : (
@@ -318,7 +309,7 @@ const Heading = ({
                 </div>
               </div>
               <div className={`${isDecVarticle && 'pt-[0rem]'}`}>
-                {Array.isArray(description)? (
+                {Array.isArray(description) ? (
                   description.map((item: string, index: number) => (
                     <p
                       key={index}

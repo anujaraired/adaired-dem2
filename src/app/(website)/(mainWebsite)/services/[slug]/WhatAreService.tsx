@@ -412,7 +412,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 {whatareaiseo?.data?.map((item: any, index: number) => {
                   const isLast = index === whatareaiseo.data.length - 1;
                   return (
-                    <div key={index} className="py-2">
+                    <div key={index} className="">
                       <p
                         className={`py-2 text-center lg:text-justify ${isLast && 'font-semibold'} ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'} `}
                       >
