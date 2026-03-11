@@ -331,7 +331,21 @@ const Banner = () => {
           <div className="my-auto h-full space-y-4">
             <div className="flex w-[100%] justify-center">
               <div className="relative flex justify-end">
-                <Image
+                <div>
+                  <video
+                    autoPlay
+                    loop
+                    muted
+                    playsInline
+                    className="h-full w-full"
+                  >
+                    <source
+                      src="/assets/videos/Graph animation_3.mp4"
+                      type="video/mp4"
+                    />
+                  </video>
+                </div>
+                {/* <Image
                   src={banner_img_1}
                   width={599}
                   height={483}
@@ -343,53 +357,11 @@ const Banner = () => {
                         ? 'opacity-40'
                         : 'opacity-100'
                   }`}
-                />
+                /> */}
 
-                <div className="absolute right-0 top-[103%] hidden w-[100%] grid-cols-[repeat(auto-fit,minmax(90px,1fr))] gap-2 md:grid">
+                {/* <div className="absolute right-0 top-[103%] hidden w-[100%] grid-cols-[repeat(auto-fit,minmax(90px,1fr))] gap-2 md:grid">
                   {griphData?.map((item, idx) => {
                     return (
-                      // <div
-                      //   className={`min-h-[3.5rem] rounded-[0.25rem] border border-black/20 bg-white/80 px-2 pb-2 ${
-                      //     idx == 1 && 'animate-step1'
-                      //   } ${idx == 2 && 'animate-step2'} ${
-                      //     idx == 3 && 'animate-step3'
-                      //   } ${idx == 4 && 'animate-step4'}`}
-                      // >
-                      //   <div className="flex justify-between">
-                      //     <div className="my-auto flex gap-1">
-                      //       <span className="my-auto">{item?.icon}</span>
-                      //       <p className="mb-auto text-[6px] xl:text-[6px]">
-                      //         {item?.lebal}
-                      //       </p>
-                      //     </div>
-                      //     <PiDotsThree size={12} />
-                      //   </div>
-
-                      //   <div className="-mt-1 flex h-fit w-[100%] gap-2">
-                      //     <p className="my-auto text-[10px] font-bold xl:text-[12px]">
-                      //       {item?.number}
-                      //     </p>
-
-                      //     <div
-                      //       className={`my-auto flex h-[16px] w-fit gap-1 rounded-[0.25rem] border-[0.49px] bg-[#000000]/10 px-[0.5rem] opacity-40 ${
-                      //         item?.griphNumber == '10'
-                      //           ? 'border-[#FF5A65]/20 text-[#FF5A65]'
-                      //           : 'border-[#14CA74]/20 text-[#14CA74]'
-                      //       }`}
-                      //     >
-                      //       <p
-                      //         className={`mt-[-0.25rem] text-[6px] font-semibold xl:text-[6px] ${
-                      //           item?.griphNumber == '10'
-                      //             ? 'text-[#FF5A65]'
-                      //             : 'text-[#14CA74]'
-                      //         }`}
-                      //       >
-                      //         {item?.griphNumber}
-                      //       </p>
-                      //       <span className="my-auto">{item?.griph}</span>
-                      //     </div>
-                      //   </div>
-                      // </div>
                       <div
                         className={`min-h-[3.5rem] rounded-[0.25rem] border border-black/20 bg-white/80 px-2 py-2 ${
                           idx == 1 && 'animate-step1'
@@ -436,12 +408,12 @@ const Banner = () => {
                       </div>
                     );
                   })}
-                </div>
+                </div> */}
               </div>
             </div>
 
             {/* Image 3 */}
-            <Image
+            {/* <Image
               src={banner_img_3}
               width={302}
               height={186}
@@ -453,10 +425,10 @@ const Banner = () => {
                     ? 'z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
                     : 'z-10 translate-x-0 translate-y-0 scale-100 opacity-100'
               }`}
-            />
+            /> */}
 
             {/* Image 2 */}
-            <Image
+            {/* <Image
               src={banner_img_2}
               width={388}
               height={244}
@@ -468,7 +440,7 @@ const Banner = () => {
                     ? 'z-10 translate-x-0 translate-y-0 scale-100 opacity-40'
                     : 'z-10 translate-x-0 translate-y-0 scale-100 opacity-100'
               }`}
-            />
+            /> */}
           </div>
         </div>
       </MaxWidthWrapper>

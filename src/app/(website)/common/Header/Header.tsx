@@ -138,7 +138,8 @@ const Header = () => {
                           </div>
                         ) : (
                           /* ===================== SERVICES MEGA MENU ===================== */
-                          <div className="mx-auto rounded-2xl bg-white px-[2rem] py-[1.5rem] shadow-xl">
+                          // <div className="mx-auto rounded-2xl bg-white px-[2rem] py-[1.5rem] shadow-xl">
+                          <div className="mx-auto rounded-2xl bg-white shadow-xl">
                             <div className="">
                               {/* LEFT SERVICES GRID */}
                               {/* <div className="grid grid-cols-4 gap-10">
@@ -221,9 +222,9 @@ const Header = () => {
                                   })}
                               </div> */}
 
-                              <div className="my-[0.5rem] grid grid-cols-4 items-stretch gap-10">
-                                <div className="col-span-3">
-                                  <div className="grid grid-cols-3 gap-10">
+                              <div className="my-[0.5rem] grid grid-cols-4 items-stretch gap-1">
+                                <div className="col-span-3 p-[2rem]">
+                                  <div className="grid grid-cols-3 gap-2">
                                     {menu?.subItems
                                       ?.slice(0, 3)
                                       .map((sub: any, i: number) => {
@@ -238,10 +239,10 @@ const Header = () => {
                                             onMouseLeave={() =>
                                               setActiveMenuTab(null)
                                             }
-                                            className={`relative rounded-[1rem] border-r p-[1rem] last:border-none ${
+                                            className={`relative rounded-[1rem] border-r px-[1rem] ${
                                               activeMenuTab === index ||
                                               isCardActive(sub)
-                                                ? 'bg-[#FB9100]'
+                                                ? 'bg-'
                                                 : ''
                                             }`}
                                           >
@@ -257,14 +258,21 @@ const Header = () => {
 
                                             <Link
                                               href={sub.href}
-                                              className={`my-[0.65rem] block text-[18px] font-semibold transition ${
-                                                activeMenuTab === index ||
-                                                isCardActive(sub)
-                                                  ? 'text-white'
-                                                  : ''
-                                              }`}
+                                              className={`group flex items-center gap-2 transition hover:text-[#FB9100]`}
                                             >
-                                              {sub.name}
+                                              <span
+                                                className={`my-[0.65rem] block text-[18px] font-semibold transition ${pathname === sub?.href && 'text-[#FB9100]'}`}
+                                              >
+                                                {sub.name}
+                                              </span>
+
+                                              <GoArrowUpRight
+                                                className={`transition-all duration-200 ${pathname === sub?.href && 'font-bold text-[#FB9100]'} ${
+                                                  pathname === sub?.href
+                                                    ? 'opacity-100'
+                                                    : 'opacity-0 group-hover:opacity-100'
+                                                }`}
+                                              />
                                             </Link>
                                             <div className="space-y-0.5">
                                               {sub.subItems?.map(
@@ -277,16 +285,16 @@ const Header = () => {
                                                     <Link
                                                       key={j}
                                                       href={item.href}
-                                                      className={`group flex items-center gap-2 transition ${activeMenuTab === index || isCardActive(sub) ? 'text-white' : ''}`}
+                                                      className={`group flex items-center gap-2 transition hover:text-[#FB9100]`}
                                                     >
                                                       <span
-                                                        className={`text-[15px] ${isActive && 'font-bold'}`}
+                                                        className={`text-[15px] ${isActive && 'font-bold text-[#FB9100]'}`}
                                                       >
                                                         {item.name}
                                                       </span>
 
                                                       <GoArrowUpRight
-                                                        className={`transition-all duration-200 ${
+                                                        className={`transition-all duration-200 ${isActive && 'font-bold text-[#FB9100]'} ${
                                                           isActive
                                                             ? 'opacity-100'
                                                             : 'opacity-0 group-hover:opacity-100'
@@ -302,7 +310,7 @@ const Header = () => {
                                       })}
                                   </div>
 
-                                  <div className="my-[0.5rem] grid grid-cols-3 gap-10">
+                                  <div className="my-[0.5rem] grid grid-cols-3 gap-2">
                                     {menu?.subItems
                                       ?.slice(3, 6)
                                       .map((sub: any, i: number) => {
@@ -317,10 +325,10 @@ const Header = () => {
                                             onMouseLeave={() =>
                                               setActiveMenuTab(null)
                                             }
-                                            className={`relative rounded-[1rem] border-r p-[1rem] last:border-none ${
+                                            className={`relative my-[0.65rem] rounded-[1rem] border-r px-[1rem] ${
                                               activeMenuTab === index ||
                                               isCardActive(sub)
-                                                ? 'bg-[#FB9100]'
+                                                ? 'bg-'
                                                 : ''
                                             }`}
                                           >
@@ -330,20 +338,27 @@ const Header = () => {
                                                 width={43}
                                                 height={43}
                                                 alt={sub?.icon}
-                                                className={`rounded-[5px] border border-[#FB91001A]/10 p-2 ${activeMenuTab === index || isCardActive(sub) ? 'bg-[#FFFFFF]' : ''}`}
+                                                className={`rounded-[5px] border border-[#FB91001A]/10 p-2 ${activeMenuTab === index || isCardActive(sub) ? 'bg-[]' : ''}`}
                                               />
                                             </span>
 
                                             <Link
                                               href={sub.href}
-                                              className={`my-[0.65rem] block text-[18px] font-semibold transition ${
-                                                activeMenuTab === index ||
-                                                isCardActive(sub)
-                                                  ? 'text-white'
-                                                  : ''
-                                              }`}
+                                              className={`group flex items-center gap-2 transition hover:text-[#FB9100]`}
                                             >
-                                              {sub.name}
+                                              <span
+                                                className={`my-[0.65rem] block text-[18px] font-semibold transition ${pathname === sub?.href && 'text-[#FB9100]'}`}
+                                              >
+                                                {sub.name}
+                                              </span>
+
+                                              <GoArrowUpRight
+                                                className={`transition-all duration-200 ${pathname === sub?.href && 'font-bold text-[#FB9100]'} ${
+                                                  pathname === sub?.href
+                                                    ? 'opacity-100'
+                                                    : 'opacity-0 group-hover:opacity-100'
+                                                }`}
+                                              />
                                             </Link>
                                             <div className="space-y-0.5">
                                               {sub.subItems?.map(
@@ -356,16 +371,16 @@ const Header = () => {
                                                     <Link
                                                       key={j}
                                                       href={item.href}
-                                                      className={`group flex items-center gap-2 transition ${activeMenuTab === index || isCardActive(sub) ? 'text-white' : ''}`}
+                                                      className={`group flex items-center gap-2 transition hover:text-[#FB9100]`}
                                                     >
                                                       <span
-                                                        className={`text-[15px] ${isActive && 'font-bold'}`}
+                                                        className={`text-[15px] ${isActive && 'font-bold text-[#FB9100]'}`}
                                                       >
                                                         {item.name}
                                                       </span>
 
                                                       <GoArrowUpRight
-                                                        className={`transition-all duration-200 ${
+                                                        className={`transition-all duration-200 ${isActive && 'font-bold text-[#FB9100]'} ${
                                                           isActive
                                                             ? 'opacity-100'
                                                             : 'opacity-0 group-hover:opacity-100'
@@ -381,7 +396,7 @@ const Header = () => {
                                       })}
                                   </div>
 
-                                  <div className="grid grid-cols-3 gap-10">
+                                  <div className="grid grid-cols-3 gap-2">
                                     {menu?.subItems
                                       ?.slice(6, 9)
                                       .map((sub: any, i: number) => {
@@ -396,12 +411,7 @@ const Header = () => {
                                             onMouseLeave={() =>
                                               setActiveMenuTab(null)
                                             }
-                                            className={`relative rounded-[1rem] border-r p-[1rem] last:border-none ${
-                                              activeMenuTab === index ||
-                                              isCardActive(sub)
-                                                ? 'bg-[#FB9100]'
-                                                : ''
-                                            }`}
+                                            className={`relative rounded-[1rem] border-r px-[1rem]`}
                                           >
                                             <span>
                                               <Image
@@ -415,14 +425,21 @@ const Header = () => {
 
                                             <Link
                                               href={sub.href}
-                                              className={`my-[0.65rem] block text-[18px] font-semibold transition ${
-                                                activeMenuTab === index ||
-                                                isCardActive(sub)
-                                                  ? 'text-white'
-                                                  : ''
-                                              }`}
+                                              className={`group flex items-center gap-2 transition hover:text-[#FB9100]`}
                                             >
-                                              {sub.name}
+                                              <span
+                                                className={`my-[0.65rem] block text-[18px] font-semibold transition ${pathname === sub?.href && 'text-[#FB9100]'}`}
+                                              >
+                                                {sub.name}
+                                              </span>
+
+                                              <GoArrowUpRight
+                                                className={`transition-all duration-200 ${pathname === sub?.href && 'font-bold text-[#FB9100]'} ${
+                                                  pathname === sub?.href
+                                                    ? 'opacity-100'
+                                                    : 'opacity-0 group-hover:opacity-100'
+                                                }`}
+                                              />
                                             </Link>
                                             <div className="space-y-0.5">
                                               {sub.subItems?.map(
@@ -435,16 +452,16 @@ const Header = () => {
                                                     <Link
                                                       key={j}
                                                       href={item.href}
-                                                      className={`group flex items-center gap-2 transition ${activeMenuTab === index || isCardActive(sub) ? 'text-white' : ''}`}
+                                                      className={`group flex items-center gap-2 transition hover:text-[#FB9100]`}
                                                     >
                                                       <span
-                                                        className={`text-[15px] ${isActive && 'font-bold'}`}
+                                                        className={`text-[15px] ${isActive && 'font-bold text-[#FB9100]'}`}
                                                       >
                                                         {item.name}
                                                       </span>
 
                                                       <GoArrowUpRight
-                                                        className={`transition-all duration-200 ${
+                                                        className={`transition-all duration-200 ${isActive && 'font-bold text-[#FB9100]'} ${
                                                           isActive
                                                             ? 'opacity-100'
                                                             : 'opacity-0 group-hover:opacity-100'
@@ -461,14 +478,14 @@ const Header = () => {
                                   </div>
                                 </div>
 
-                                <div className="relative flex h-full flex-col justify-between rounded-xl bg-[#F6F1E8] p-6">
+                                <div className="relative flex h-full flex-col justify-between rounded-xl bg-[#F6F1E8] p-[2.5rem]">
                                   <div>
-                                    <p className="text-[30px]">Let’s Build</p>
-                                    <h2 className="font-bold text-black">
+                                    <p className="text-[24px]">Let’s Build</p>
+                                    <h2 className="text-[2rem] font-bold text-black">
                                       Something Great
                                     </h2>
 
-                                    <p className="mt-4 text-sm text-gray-600">
+                                    <p className="mt-4 text-gray-600">
                                       Talk To Our Experts Today.
                                     </p>
 
@@ -500,7 +517,7 @@ const Header = () => {
               })}
             </div>
 
-            <div className="my-auto z-50 hidden gap-2 lg:flex">
+            <div className="z-50 my-auto hidden gap-2 lg:flex">
               <SaveAndCancel
                 isBorder={true}
                 handleClick={() => router.push('/contact')}

@@ -238,7 +238,8 @@ const Banner = ({ banner }: any) => {
             )}
             {banner?.code === '02' && (
               <div
-                className={`relative z-10 block justify-between gap-[3rem] ${banner?.isAbsolute ? 'pt-[6rem]' : 'py-[6rem]'} lg:flex`}
+                // className={`relative z-10 block justify-between gap-[3rem] ${banner?.isAbsolute ? 'pt-[6rem]' : 'py-[6rem]'} lg:flex`}
+                className={`relative z-10 block justify-between gap-[3rem] py-[6rem] lg:flex`}
               >
                 <div
                   className={`my-auto w-[100%] space-y-5 transition-all duration-1000 lg:w-[${banner?.width || '50%'}] ${banner?.isAbsolute && 'pb-[0rem] lg:pb-[6rem]'} ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-16 opacity-0'}`}
@@ -401,7 +402,8 @@ const Banner = ({ banner }: any) => {
                   </div>
                 </div>
                 <div
-                  className={`${banner?.isAbsolute ? 'mt-auto' : 'my-auto'} ml-auto w-fit pt-[4rem] lg:pt-0`}
+                  // className={`${banner?.isAbsolute ? 'ml-auto' : 'my-auto'} ml-auto w-fit pt-[4rem] lg:pt-0`}
+                  className={`${banner?.isAbsolute ? 'ml-auto' : 'my-auto'} ml-auto w-fit pt-[4rem] lg:pt-0`}
                 >
                   <Image
                     src={banner?.bgImg}
