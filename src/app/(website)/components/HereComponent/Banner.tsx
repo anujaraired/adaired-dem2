@@ -22,7 +22,6 @@ import upwork from '../../../../../public/assets/images/partner/upwork.svg';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import star from '../../../../../public/assets/icons/star.png';
 import useIsMobile from '@/@core/hooks/useIsMobile';
-import bannerGriph from '../../../../../public/assets/videos/Graph animation_3.mp4';
 
 const Banner = () => {
   const isMobile = useIsMobile();
