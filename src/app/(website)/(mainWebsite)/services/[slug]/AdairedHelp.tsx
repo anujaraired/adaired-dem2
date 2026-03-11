@@ -12,7 +12,7 @@ const AdairedHelp = ({ adairedHelp }: any) => {
 
   return (
     <div
-      className={`py-[3rem] lg:py-[4rem] bg-[${adairedHelp?.bgColor || '#FFFFFF'}]`}
+      className={`py-[3rem] lg:py-[4rem] ${adairedHelp?.bgColor || '#FFFFFF'}`}
     >
       <MaxWidthWrapper>
         <div

@@ -405,6 +405,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 title={whatareaiseo?.heading}
                 span={whatareaiseo?.span}
                 spanColor="text-[#FBD04F]"
+                breakIndex={whatareaiseo?.breakIndex}
                 isBgWhite={whatareaiseo?.isBgWhite && true}
               />
               <div className="">
@@ -631,6 +632,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 title={whatareaiseo?.heading}
                 span={whatareaiseo?.span}
                 spanColor="text-[#FBD04F]"
+                breakIndex={whatareaiseo?.breakIndex}
                 isBgWhite={whatareaiseo?.isBgWhite && true}
               />
               <div className="">
