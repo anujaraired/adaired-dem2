@@ -4439,7 +4439,6 @@ brand appears in AI summaries and citations.`,
       heading: 'Must-Know Facts About White Label Social Media',
       isImgBg: false,
       bgColor:"#FB9100",
-      isCard: false,
       list: [
         {
           desctioption: [
