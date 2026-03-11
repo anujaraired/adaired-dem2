@@ -513,6 +513,29 @@ import icon_7 from '../../../../../../public/assets/images/services/gmb/ImpToBus
 import icon_8 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon8.svg';
 import icon_9 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon9.svg';
 
+
+// GMB Website Seo Images
+import gmbWebsitelocalSeoBannerBg from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsitelocalSeoBannerBg.png';
+import gmbWebsiteSeoBuildLinkImg from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteSeoBuildLinkImg.png';
+import gmbWebsiteServiceResultImg from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteServiceResultImg.png';
+
+import gmbWebsiteimpIcon_1 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_1.png';
+import gmbWebsiteimpIcon_2 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_2.png';
+import gmbWebsiteimpIcon_3 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_3.png';
+import gmbWebsiteimpIcon_4 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_4.png';
+import gmbWebsiteimpIcon_5 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_5.png';
+import gmbWebsiteimpIcon_6 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_6.png';
+import gmbWebsiteimpIcon_7 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_7.png';
+import gmbWebsiteimpIcon_8 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_8.png';
+import gmbWebsiteimpIcon_9 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_9.png';
+import gmbWebsiteimpIcon_10 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_10.png';
+
+import gmbProcessIcon_1 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbProcessIcon_1.png';
+import gmbProcessIcon_2 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbProcessIcon_2.png';
+import gmbProcessIcon_3 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbProcessIcon_3.png';
+import gmbProcessIcon_4 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbProcessIcon_4.png';
+import gmbProcessIcon_5 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbProcessIcon_5.png';
+import gmbProcessIcon_6 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbProcessIcon_6.png';
 // WordPress Development Images
 import Banner from '../../../../../../public/assets/images/services/wordpressDevelopment/Banner.png';
 import KeyStatsImg from '../../../../../../public/assets/images/services/wordpressDevelopment/KeyStatsIcon.svg';
@@ -15300,20 +15323,20 @@ brand appears in AI summaries and citations.`,
   'gmb-website-seo-india': {
     sectionsOrder: [
       'banner',
-      'keyStats',
+      'serviceResult',
+      'dataInTable',
+      'importantToBussiness',
+      'ourProcess',
+      'adairedHelp',
+      'buildlinks',
+      'faqData',
       'whatareservice',
       'whatareservice2',
-      'importantToBussiness',
-      'adairedHelp',
-      'ourProcess',
-      'faqData',
-      'dataInTable',
-      'buildlinks',
+      'keyStats',
       'whatMkeDeferent',
       'whatMissing',
       'whatIncluded',
       'needofservice',
-      'serviceResult',
       'getsCredit',
       'readyToStart',
       'stopStruggling',
@@ -15336,33 +15359,571 @@ brand appears in AI summaries and citations.`,
       isCenter: false,
       isVisible: true,
       heading2: '#1 on Google Maps: Get Seen by Local Customers',
-      isAbsolute: true,
+      isAbsolute: false,
       isStyleHeading: true,
+      subtitle: 'Complete Local SEO',
       headingParts: [
-        { text: 'From Invisible to', color: '#000000', weight: '400' },
+        { text: 'Google Business Profile +', color: '#000000', weight: '400' },
         {
-          text: ' #1 on Google Maps ',
+          text: 'Website Optimization',
           color: '#FB9100',
           weight: '700',
-        },
-        {
-          text: 'Get Seen by Local Customers',
-          color: '#000000',
-          weight: '400',
         },
       ],
       breakIndex: 6,
       desc: [
-        `Show up first when customers search for your services and turn your Google Business Profile into a stream of calls and leads into real sales.`,
+        `Increase your presence across Google Maps and local search to stay ahead of competitors and attract more customers actively searching for your services.`,
+        `By optimizing both your Google Business Profile and website, we help your business appear where local customers are actively searching for services like yours.`,
       ],
-      button: 'Boost My Visibility Today',
+      button: 'Get a Free Local SEO Audit',
       width: '60%',
       widthLg: '30rem',
+      bgImg: gmbWebsitelocalSeoBannerBg,
+    },
+
+    serviceResult: {
+      isVisible: true,
+      breakIndex: 4,
+      bgColor: false,
+      isInCenter: true,
+      heading: 'How Google Maps & Local Search Rankings Work',
+      isVariant: '01',
+      description: [
+        `Understanding how local search rankings work is essential for any business that wants to improve its online visibility. When customers search for services near them, Google uses several factors to determine which businesses appear in the local results and the Google Maps “Map Pack.”`,
+        `These factors help Google decide which businesses are the most relevant and trustworthy for a particular search query.`
+      ],
+      isBgColor: false,
+      img: gmbWebsiteServiceResultImg,
+      list: [
+        {
+          img: null,
+          name: '1. Relevance',
+          description: [
+            `Relevance refers to how closely a business matches what a user is searching for. Google analyzes the information in your Google Business Profile and website content to determine whether your business offers the services being searched.`,
+            `This is why accurate categories, service descriptions, and well-optimized website content are extremely important. Businesses that clearly communicate their services and target keywords tend to rank higher in local searches.`
+          ],
+        },
+        {
+          img: null,
+          name: '2. Distance',
+          description: [
+            `Distance plays a major role in local search results. Google tries to display businesses that are closest to the user’s location or the location specified in the search query.`,
+            `While businesses cannot change their physical location to influence rankings, they can improve visibility by clearly defining their service areas and optimizing location-related content on their website.`
+          ],
+        },
+        {
+          img: null,
+          name: '3. Prominence',
+          description: [
+            `IProminence refers to the overall reputation and authority of a business online. Google evaluates factors such as customer reviews, backlinks, business mentions, directory listings, and overall online presence to determine how well-known and trustworthy a business is. Companies with strong online reputations and consistent information across platforms often achieve better local search visibility.`,
+            `When these factors are properly optimized through both Google Business Profile and website SEO, businesses significantly improve their chances of appearing in local search results and attracting nearby customers.`
+          ],
+        },
+      ],
+    },
+
+    dataInTable: {
+      isVisible: true,
+      isInCenter: true,
+      isBgWhite: true,
+      bgColor: '#FFFCF7',
+      trColor: '#FB9100',
+      rowColor: 'bg-[#FFF6EB]',
+      isVariant: '01',
+      heading: 'The Importance of Google Maps & Website Optimization',
+      description: [``],
+      data: [
+        {
+          desctioption: `Google Maps`,
+          list: [
+            {
+              description: [
+                `Helps businesses appear in local search results.`,
+              ],
+            },
+            {
+              description: [
+                `Provides accurate location, directions, and contact details to customers.`,
+              ],
+            },
+            {
+              description: [
+                `Makes it easier for nearby customers to discover your business.`,
+              ],
+            },
+            {
+              description: [
+                `Increases visibility for local searches like “near me” queries.`,
+              ],
+            },
+            {
+              description: [
+                `Encourages customer engagement through reviews, ratings, and photos.`,
+              ],
+            },
+            {
+              description: [
+                `Helps small businesses attract local foot traffic and potential clients.`,
+              ],
+            },
+          ],
+        },
+        {
+          desctioption: `Website Optimization`,
+          list: [
+            {
+              description: [
+                `Improves your website’s ranking on search engines.`,
+              ],
+            },
+            {
+              description: [
+                `Uses relevant keywords to attract the right audience.`,
+              ],
+            },
+            {
+              description: [
+                `Enhances website structure and content quality.`,
+              ],
+            },
+            {
+              description: [
+                `Optimizes images and media for faster loading.`,
+              ],
+            },
+            {
+              description: [
+                `Ensures mobile-friendly design for smartphone users.`,
+              ],
+            },
+            {
+              description: [
+                `Improves page speed, which enhances user experience.`,
+              ],
+            },
+          ],
+        },
+        {
+          desctioption: `Combined Impact`,
+          list: [
+            {
+              description: [
+                `Increases overall online visibility and brand presence.`,
+              ],
+            },
+            {
+              description: [
+                `Helps businesses reach more potential customers.`,
+              ],
+            },
+            {
+              description: [
+                `Improves customer engagement and trust.`,
+              ],
+            },
+            {
+              description: [
+                `Leads to higher conversions, more sales, and business growth.`,
+              ],
+            },
+            {
+              description: [
+                `An essential strategy to stay competitive in the digital market.`,
+              ],
+            },
+            {
+              description: [
+                `Reach more local customers.`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+
+    importantToBussiness: {
+      isVisible: true,
+      isInCenter: false,
+      isCardVisible: true,
+      breakIndex: 2,
+      isVariant: '01',
+      cardColor: '#F9F9F9',
+      heading:'Key Services Included in Our Local SEO Solution',
+      description: [
+        `Our complete local SEO solution focuses on improving your business's visibility in both Google Maps and organic search results.`,
+        `By optimizing your Google Business Profile alongside your website, we create a strong and consistent digital presence that helps your business attract customers who are actively searching for services in your area.`,
+        `Our approach combines technical SEO improvements, strategic content optimization, and local search enhancements to help your business gain a competitive advantage.`,
+      ],
+      buttonName: 'Get a Free Local SEO Audit',
+      data: [
+        {
+          icon: gmbWebsiteimpIcon_1,
+          name: 'Google Business Profile Setup & Optimization',
+          description: [
+            `Your Google Business Profile is often the first interaction potential customers have with your business when searching locally. We optimize every component of your profile to ensure it accurately represents your business and performs well in Google Maps results.`,
+            `This includes selecting the most relevant primary and secondary categories, optimizing the business description, adding detailed services, updating operating hours, and uploading high-quality images that showcase your brand.`,
+            `We also ensure that your service areas, contact details, and location information are accurate and fully optimized to maximize local visibility.`,
+          ],
+          button: 'Get a Free Local SEO Audit',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: gmbWebsiteimpIcon_2,
+          name: 'Local Keyword Research & Search Intent Analysis',
+          description: [
+            `Understanding how customers search for services in your area is critical for successful local SEO. Our team conducts detailed keyword research to identify the most relevant and high-intent search terms that potential customers are using.`,
+            `We analyze search trends, local competition, and customer intent to ensure that your business is targeting keywords that generate real leads rather than just traffic`,
+            `These insights guide the optimization of both your website content and your Google Business Profile.`,
+          ],
+          button: 'Get a Free Local SEO Audit',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: gmbWebsiteimpIcon_3,
+          name: 'Website On-Page SEO Optimization',
+          description: [
+            `Your website plays a critical role in supporting your Google Business Profile rankings. We optimize key on-page SEO elements such as page titles, meta descriptions, headings, URL structures, and internal linking to ensure that search engines can easily understand your content.`,
+            `Additionally, we enhance your website content with targeted keywords while maintaining a natural and user-friendly structure.`,
+            `This ensures that your website remains relevant to local search queries and provides valuable information to visitors.`,
+          ],
+          button: 'Get a Free Local SEO Audit',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: gmbWebsiteimpIcon_4,
+          name: 'Local Landing Page Development',
+          description: [
+            `Many businesses serve multiple cities or neighborhoods, and having optimized landing pages for these locations significantly improves local search visibility.`,
+            `We create or optimize location-specific pages that target important service areas. These pages include locally relevant content, service information, and geographic signals that help search engines associate your business with those locations.`,
+            `As a result, your website becomes more visible when customers search for services in those specific areas.`,
+          ],
+          button: 'Get a Free Local SEO Audit',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: gmbWebsiteimpIcon_5,
+          name: 'Google Maps Ranking Improvements',
+          description: [
+            `Ranking higher in Google Maps requires strong local signals and consistent optimization.`,
+            `Our team focuses on improving the factors that influence Google Maps rankings, including business relevance, distance, and prominence.`,
+            `Through strategic optimization of your Google Business Profile, local citations, and website content, we strengthen the signals that help Google trust and rank your business in the local map pack.`,
+          ],
+          button: 'Get a Free Local SEO Audit',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: gmbWebsiteimpIcon_6,
+          name: 'Review & Reputation Management',
+          description: [
+            `Customer reviews are one of the most influential ranking factors in local SEO. Positive reviews not only improve your rankings but also build trust with potential customers.`,
+            `We help implement a review generation strategy that encourages satisfied customers to leave feedback.`,
+            `In addition, we guide you in responding to reviews professionally and effectively, which helps demonstrate credibility and improve customer engagement.`,
+          ],
+          button: 'Get a Free Local SEO Audit',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: gmbWebsiteimpIcon_7,
+          name: 'Local Citations & Directory Listings',
+          description: [
+            `Consistency in business information across online directories plays a crucial role in local search rankings.`,
+            `We ensure that your business name, address, and phone number remain consistent across trusted local directories and platforms.`,
+            `This strengthens your online authority and helps search engines verify the legitimacy of your business.`,
+          ],
+          button: 'Get a Free Local SEO Audit',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: gmbWebsiteimpIcon_8,
+          name: 'Website Performance & Mobile Optimization',
+          description: [
+            `Most local searches happen on mobile devices, which means your website must load quickly and provide a seamless mobile experience.`,
+            `We optimize your website’s loading speed, improve mobile responsiveness, and enhance usability to ensure visitors can easily navigate your site and access important information.`,
+            `A fast and mobile-friendly website not only improves user experience but also contributes to better search rankings.`,
+          ],
+          button: 'Get a Free Local SEO Audit',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: gmbWebsiteimpIcon_9,
+          name: 'Local Content Optimization',
+          description: [
+            `Content is a powerful component of local SEO.`,
+            `We optimize your existing website content and develop new locally relevant content that aligns with what your target audience is searching for.`,
+            `This includes service descriptions, location-based content, FAQs, and informative resources that help both search engines and customers better understand your offerings.`,
+          ],
+          button: 'Get a Free Local SEO Audit',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: gmbWebsiteimpIcon_10,
+          name: 'Performance Monitoring & Detailed Reporting',
+          description: [
+            `Tracking the results of your local SEO efforts is essential for long-term success.`,
+            `We continuously monitor your rankings, website traffic, and Google Business Profile insights to measure performance.`,
+            `Our detailed reports provide clear insights into how your local SEO strategy is improving visibility, generating leads, and driving business growth.`,
+          ],
+          button: 'Get a Free Local SEO Audit',
+          btnColor: '#FB9100',
+        },
+      ],
+    },
+
+    ourProcess: {
+      isVisible: true,
+      isInCenter: true,
+      subtitle: 'Our Process',
+      title: 'Our Local SEO Process: GBP + Website',
+      breakIndex: 4,
+      bgGradient: 'bg-[#FFFCF7]',
+      span: '',
+      description: [
+        `Our local SEO process is designed to create a strong synergy between your Google Business Profile and your website. By optimizing both together, we help your business gain better visibility across multiple areas of Google search.`,
+        `Our structured approach ensures that every aspect of your local presence is strategically optimized.`,
+      ],
+      services: [
+        {
+          icon: gmbProcessIcon_1,
+          title: 'Comprehensive Local SEO Audit',
+          description: [
+            `The first step in our process is to analyze your current online presence. We conduct a detailed audit of your Google Business Profile, website structure, and current keyword rankings.`,
+            `We also evaluate competitor performance to identify opportunities for improvement. This audit allows us to develop a customized strategy that addresses the specific challenges and opportunities within your local market.`
+          ],
+        },
+        {
+          icon: gmbProcessIcon_2,
+          title: 'Strategic Keyword Research',
+          description: [
+            `Once the audit is complete, we conduct extensive keyword research to identify the search terms that customers in your area are using.`,
+            `These keywords are categorized based on search intent and potential value. By targeting the right keywords, we ensure that your business appears in front of customers who are actively looking for services like yours.`
+          ],
+        },
+        {
+          icon: gmbProcessIcon_3,
+          title: 'Google Business Profile Optimization',
+          description: [
+            `We optimize your Google Business Profile to ensure that it is complete, accurate, and aligned with best practices.`,
+            `This includes improving your business description, categories, services, images, and profile engagement signals. A fully optimized profile increases your chances of appearing in Google Maps results and encourages potential customers to interact with your business.`
+          ],
+        },
+        {
+          icon: gmbProcessIcon_4,
+          title: 'Website SEO Improvements',
+          description: [
+            `Next, we optimize your website to support your local SEO strategy. This includes improving page content, optimizing technical SEO elements, and strengthening internal linking.`,
+            `These improvements help search engines understand the relationship between your website content and your service locations.`
+          ],
+        },
+        {
+          icon: gmbProcessIcon_5,
+          title: 'Local Authority Building',
+          description: [
+            `Building authority within your local market is essential for improving search rankings.`,
+            `We strengthen your online presence through citation optimization, directory listings, and reputation management strategies. These efforts help establish your business as a credible and trustworthy local service provider.`
+          ],
+        },
+        {
+          icon: gmbProcessIcon_6,
+          title: 'Continuous Optimization & Monitoring',
+          description: [
+            `Local SEO is not a one-time effort but an ongoing process. We continuously monitor rankings, analyze performance data, and adjust strategies to maintain strong visibility.`,
+            `This continuous improvement ensures that your business stays competitive and continues attracting new customers over time.`,
+          ],
+        },
+      ],
+    },
+
+    adairedHelp: {
+      isVisible: true,
+      breakIndex: 5,
+      img: AdairedHelpgmb,
+      isInCenter: false,
+      bgColor: 'bg-gradient-to-b from-[#FFFEFB] to-[#FFF7EB]',
+      cardBg: '',
+      heading: `Our Local SEO Strategy for Sustainable Growth`,
+      description: [
+        `At Adaired Digital, we focus on creating long-term local SEO strategies that deliver consistent results.`,
+        `Our approach combines technical optimization, content development, and local authority building to ensure your business maintains strong visibility in local search results.`
+      ],
+      mainImage: whiteServicesAdairedHelpImg,
+      list: [
+        {
+          img: '',
+          name: 'Data-Driven Strategy Development',
+          description: [
+            `Every local SEO campaign begins with research and analysis.`,
+            `By studying search trends, competitor strategies, and keyword opportunities, we develop a plan tailored to your business goals and market conditions.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Comprehensive Profile & Website Optimization',
+          description: [
+            `We ensure that both your Google Business Profile and website are fully optimized to send strong local signals to search engines.`,
+            `This integrated approach helps maximize visibility across multiple search platforms.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Local Authority & Reputation Building',
+          description: [
+            `Building trust is essential for long-term success in local search.`,
+            `Our strategy focuses on improving customer reviews, strengthening directory listings, and increasing brand credibility.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Continuous Monitoring & Improvement',
+          description: [
+            `Search engine algorithms and market competition constantly evolve. Our team continuously monitors campaign performance and makes strategic adjustments to maintain strong rankings and improve results over time.`,
+            `By combining these strategies, we help businesses build a strong and sustainable online presence that continues attracting local customers and driving business growth.`,
+          ],
+        },
+      ],
+    },
+
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '05',
+      breakIndex: 3,
+      bgImg: saasSeoBuildLinkBg,
+      img: gmbWebsiteSeoBuildLinkImg,
+      label: 'Ready to Improve Your',
+      heading: 'Local Search Visibility',
+      description: ``,
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `If your business is not appearing in Google Maps or local search results, you could be missing valuable opportunities to connect with potential customers in your area.`,
+        },
+        {
+          desctioption: `By strengthening both platforms together, we increase your chances of attracting more local traffic, generating qualified leads, and staying ahead of competitors.`,
+        },
+        {
+          desctioption: `Get started today with a free local SEO audit and discover how your business can rank higher in Google.`,
+        },
+      ],
+      button: 'Get a Free Local SEO Audit',
+    },
+
+    faqData: {
+      isVisible: true,
+      bgColor: 'bg-[#FAFAFA]',
+      subtitle: 'FAQ',
+      title: 'Frequently Asked Questions',
+      description: ``,
+      list: [
+        {
+          title: 'What is the difference between GBP optimization and website SEO?',
+          description: [
+            `Google Business Profile optimization focuses on improving your business listing in Google Maps, while website SEO improves your website’s ability to rank in organic search results. Combining both strategies creates a stronger local presence.`,
+          ],
+        },
+        {
+          title: 'How long does local SEO take to show results?',
+          description: [
+            `Local SEO improvements typically begin appearing within a few weeks, but noticeable ranking improvements usually take several months, depending on competition and market conditions.`,
+          ],
+        },
+        {
+          title: 'Is Google Business Profile important for small businesses?',
+          description: [
+            `Yes. Google Business Profile is one of the most powerful tools for local businesses because it helps them appear directly in Google Maps and local search results, where customers are actively searching.`,
+          ],
+        },
+        {
+          title: 'Can local SEO help generate more leads?',
+          description: [
+            `Yes. Local SEO targets customers who are searching for services in your area, which means the traffic generated is highly relevant and more likely to convert into leads.`,
+          ],
+        },
+        {
+          title: 'Do I need a website if I already have a Google Business Profile?',
+          description: [
+            `While a Google Business Profile helps you appear in Google Maps, a website strengthens your authority and improves your chances of ranking for additional search queries.`,
+          ],
+        },
+        {
+          title: 'How often should a Google Business Profile be updated?',
+          description: [
+            `Profiles should be updated regularly with posts, photos, service updates, and accurate business information to maintain strong engagement and search visibility.`,
+          ],
+        },
+        {
+          title: 'What industries benefit most from local SEO?',
+          description: [
+            `Local SEO benefits nearly every industry that serves a specific geographic area, including home services, healthcare providers, restaurants, law firms, and retail businesses.`,
+          ],
+        },
+        {
+          title: 'Can you optimize an existing website for local SEO?',
+          description: [
+            `Yes. Existing websites can be optimized by improving on-page SEO, adding location-based content, and enhancing technical performance.`,
+          ],
+        },
+      ],
+    },
+
+    whatareservice: {
+      isVisible: false,
+      isVariant: '05',
+      breakIndex: 5,
+      img: WhatAreServiceGMB,
+      heading: 'What is Google Business Profile Optimization?',
+      span: '',
+      bgColor: '#FFFCF8',
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `Google Business Profile optimization, previously known as GMB (Google My Business) optimization, is the strategic process of improving and fine-tuning your business listing. 
+          The goal is to increase your visibility and engagement on Google Search and Google Maps. This involves a series of actions designed to ensure that your profile is fully completed and accurately represents your business.`,
+        },
+        {
+          desctioption: `Key components of GBP optimization include ensuring that your business name, address, and phone number (NAP) are consistent and accurate across all online platforms, selecting the most relevant business categories, and including high-quality images that effectively showcase your products or services.
+           Additionally, it entails crafting a compelling business description that highlights your unique selling points and offerings.`,
+        },
+        {
+          desctioption: `Regularly updating your profile with posts about promotions, events, and other relevant news can also engage potential customers. Encouraging and responding to customer reviews is crucial for building credibility and maintaining a positive reputation.
+           Utilizing features such as business hours, appointment links, and FAQs will further enhance the user experience.`,
+        },
+        {
+          desctioption: `Overall, effective GBP optimization services​ not only boost local SEO rankings but also help attract more customers by making it easier for them to find and connect with your business online`,
+        },
+      ],
+      button: '',
+    },
+
+    whatareservice2: {
+      isVisible: false,
+      isVariant: '11',
+      breakIndex: 5,
+      img: WhatAreServiceGMB2,
+      heading: 'Why Your Business Needs GBP Optimization',
+      bgColor: '#FFFFFF',
+      isBgWhite: false,
+      button: '',
+      data: [
+        {
+          desctioption: `In the digital era, having a strong online presence is crucial for any business aiming to attract and retain customers. One of the most effective ways to enhance your visibility is through Google Business Profile optimization. `,
+        },
+        {
+          desctioption: `By fine-tuning your GBP, you ensure that potential customers can easily find accurate information about your business, including your location, hours of operation, services, and even customer reviews.`,
+        },
+        {
+          desctioption: `Optimizing your GBP also plays a significant role in local search engine optimization (SEO). When your business profile is well-crafted, it can improve your rankings on search engine results pages, particularly for local searches related to the products or services you offer.
+           This means that when potential customers search for businesses like yours in their vicinity, your optimized profile is more likely to appear at the top of the search results.`,
+        },
+        {
+          desctioption: `Furthermore, a well-optimized GBP enhances your credibility.
+           When users see a complete and professional profile, complete with images, updated information, and positive reviews, they are more likely to trust your business over competitors with less informative profiles.`,
+        },
+      ],
       bgImg: gmb_website_banner,
     },
 
     keyStats: {
-      isVisible: true,
+      isVisible: false,
       code: '01',
       img: whiteLinkBuildingKeyStatsImg,
       heading: 'Why Should You Rank #1 on Google Maps?',
@@ -15401,550 +15962,6 @@ brand appears in AI summaries and citations.`,
           ],
         },
       ],
-    },
-
-    whatareservice: {
-      isVisible: true,
-      isVariant: '07',
-      breakIndex: 5,
-      img: WhatAreServiceGMB,
-      heading: 'What is Google Business Profile Optimization?',
-      span: '',
-      bgColor: '#FFFCF8',
-      isBgWhite: true,
-      data: [
-        {
-          desctioption: `Google Business Profile optimization, previously known as GMB (Google My Business) optimization, is the strategic process of improving and fine-tuning your business listing. 
-          The goal is to increase your visibility and engagement on Google Search and Google Maps. This involves a series of actions designed to ensure that your profile is fully completed and accurately represents your business.`,
-        },
-        {
-          desctioption: `Key components of GBP optimization include ensuring that your business name, address, and phone number (NAP) are consistent and accurate across all online platforms, selecting the most relevant business categories, and including high-quality images that effectively showcase your products or services.
-           Additionally, it entails crafting a compelling business description that highlights your unique selling points and offerings.`,
-        },
-        {
-          desctioption: `Regularly updating your profile with posts about promotions, events, and other relevant news can also engage potential customers. Encouraging and responding to customer reviews is crucial for building credibility and maintaining a positive reputation.
-           Utilizing features such as business hours, appointment links, and FAQs will further enhance the user experience.`,
-        },
-        {
-          desctioption: `Overall, effective GBP optimization services​ not only boost local SEO rankings but also help attract more customers by making it easier for them to find and connect with your business online`,
-        },
-      ],
-      button: '',
-    },
-
-    whatareservice2: {
-      isVisible: true,
-      isVariant: '11',
-      breakIndex: 5,
-      img: WhatAreServiceGMB2,
-      heading: 'Why Your Business Needs GBP Optimization',
-      bgColor: '#FFFFFF',
-      isBgWhite: false,
-      button: '',
-      data: [
-        {
-          desctioption: `In the digital era, having a strong online presence is crucial for any business aiming to attract and retain customers. One of the most effective ways to enhance your visibility is through Google Business Profile optimization. `,
-        },
-        {
-          desctioption: `By fine-tuning your GBP, you ensure that potential customers can easily find accurate information about your business, including your location, hours of operation, services, and even customer reviews.`,
-        },
-        {
-          desctioption: `Optimizing your GBP also plays a significant role in local search engine optimization (SEO). When your business profile is well-crafted, it can improve your rankings on search engine results pages, particularly for local searches related to the products or services you offer.
-           This means that when potential customers search for businesses like yours in their vicinity, your optimized profile is more likely to appear at the top of the search results.`,
-        },
-        {
-          desctioption: `Furthermore, a well-optimized GBP enhances your credibility.
-           When users see a complete and professional profile, complete with images, updated information, and positive reviews, they are more likely to trust your business over competitors with less informative profiles.`,
-        },
-      ],
-    },
-
-    importantToBussiness: {
-      isVisible: true,
-      isInCenter: true,
-      isCardVisible: true,
-      breakIndex: 5,
-      isVariant: '01',
-      cardColor: '#F9F9F9',
-      heading:
-        'Unlock Your Potential with Top-Notch GBP Optimization Services!',
-      description: [``],
-      buttonName: 'Optimize My Website for AI',
-      data: [
-        {
-          icon: icon_1,
-          name: 'Profile Setup & Verification',
-          description: [
-            `A properly set up and verified Google Business Profile is the foundation of strong local visibility. Our team handles the entire setup process, ensuring that your business is correctly listed on Google with accurate details and professional formatting. `,
-            `We also guide and manage the verification process through Google’s approved methods, such as postcard, phone, or video verification. Once verified, your profile gains credibility and becomes eligible to appear in local search results and Google Maps listings.`,
-          ],
-          button: 'Boost My Visibility Today',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: icon_2,
-          name: 'Google Maps Ranking Tracking',
-          description: [
-            `Understanding how your business ranks in different areas of your city is critical for GMB SEO success. We use advanced geo-grid and heatmap tracking tools to monitor your visibility across neighborhoods and key service areas. `,
-            `This allows us to identify locations where your business ranks strongly and areas where visibility may be weak. With this data-driven approach, we refine optimization strategies to improve your rankings across a wider geographic range.`,
-          ],
-          button: 'Boost My Visibility Today',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: icon_3,
-          name: 'Keyword & Category Optimization',
-          description: [
-            `Choosing the right business categories and integrating relevant keywords can significantly improve your chances of appearing in local search results. Our GBP optimization service experts conduct in-depth keyword research to identify high-intent search terms that customers in your area are using. `,
-            `We then optimize your business description, services, and categories with these keywords to increase your visibility when potential customers search for related services on Google.`,
-          ],
-          button: 'Boost My Visibility Today',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: icon_4,
-          name: 'Review & Reputation Management',
-          description: [
-            `Customer reviews have a powerful influence on both search rankings and customer trust. Our review management strategy focuses on helping you generate more authentic customer feedback while maintaining a professional reputation online. `,
-            `We assist in creating review acquisition strategies and craft thoughtful responses to both positive and negative reviews. This approach strengthens your credibility and demonstrates your commitment to customer satisfaction.`,
-          ],
-          button: 'Boost My Visibility Today',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: icon_5,
-          name: 'Google Posts & Content Updates',
-          description: [
-            `Google rewards active and regularly updated business profiles. Our team creates engaging Google Posts that highlight business updates, promotions, offers, events, or announcements. `,
-            `These posts keep your profile active and provide valuable information to potential customers browsing your listing. Consistent posting also signals to Google that your business is active and relevant, which can positively influence your local search visibility.`,
-          ],
-          button: 'Boost My Visibility Today',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: icon_6,
-          name: 'Photo & Video Optimization',
-          description: [
-            `Visual content plays a major role in attracting customers and building trust. Businesses with high-quality photos and videos often receive more engagement and clicks compared to those without visuals. `,
-            `We optimize and upload professional images of your business location, interior, exterior, products, services, and team members.`,
-            `These visuals help customers better understand your brand while improving engagement with your profile.`,
-          ],
-          button: 'Boost My Visibility Today',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: icon_7,
-          name: 'Q&A Section Optimization',
-          description: [
-            `The Questions & Answers section on your Google Business Profile is often overlooked, yet it can significantly influence customer decisions.`,
-            `We proactively add commonly asked questions and provide helpful answers that address typical customer concerns.`,
-            `This not only saves time for your business but also ensures that accurate information is available to potential customers before they contact you.`,
-          ],
-          button: 'Boost My Visibility Today',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: icon_8,
-          name: 'Listing Monitoring & Protection',
-          description: [
-            `Unauthorized edits or competitor interference can sometimes change important details on your business listing. Our monitoring system continuously checks your profile for any suspicious or incorrect updates.`,
-            `If changes occur, we quickly correct them to maintain the accuracy of your listing.`,
-            `This proactive protection ensures that your business information remains reliable and trustworthy for customers searching on Google.`,
-          ],
-          button: 'Boost My Visibility Today',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: icon_9,
-          name: 'Performance Analytics & Reporting',
-          description: [
-            `Understanding how customers interact with your Google Business Profile is essential for measuring success. We provide detailed performance reports that track key customer actions such as phone calls, direction requests, website clicks, and profile views. `,
-            `These insights help you clearly see the impact of optimization efforts and understand how your listing contributes to generating new leads and customers.`,
-          ],
-          button: 'Boost My Visibility Today',
-          btnColor: '#FB9100',
-        },
-      ],
-      card: [
-        {
-          code: 2,
-          img: ImpToBusinessCradImg,
-          heading: 'Boost Your Visibility on',
-          heading1: [`Google Maps`],
-          description: [
-            `Take the next step toward stronger local visibility and more customer inquiries. `,
-            `Contact Adaired Digital today to get started with professional Google My Business optimization services.`,
-          ],
-          buttonName: 'Optimize My Website for AI',
-        },
-      ],
-    },
-
-    adairedHelp: {
-      isVisible: true,
-      breakIndex: 5,
-      img: AdairedHelpgmb,
-      isInCenter: false,
-      bgColor: 'bg-gradient-to-b from-[#FFFEFB] to-[#FFF7EB]',
-      cardBg: '',
-      heading: `Top Reasons to Select GBP Optimization Services from Adaired Digital`,
-      description: [
-        `Here are some of the primary reasons why you should choose Adaired Digital’s Google business optimization services:`,
-      ],
-      mainImage: whiteServicesAdairedHelpImg,
-      list: [
-        {
-          img: '',
-          name: 'Proven Local SEO Expertise',
-          description: [
-            `At Adaired Digital, our team specializes in local SEO strategies designed specifically for Google Business Profiles.`,
-            ` We stay updated with Google’s latest algorithm changes and best practices to ensure your business profile remains optimized, compliant, and competitive in local search results.`,
-          ],
-        },
-        {
-          img: '',
-          name: 'Customized Optimization Strategy',
-          description: [
-            `No two businesses are the same, which is why we don’t rely on generic optimization methods. `,
-            `We analyze your industry, service area, competitors, and target customers to develop a customized GBP optimization strategy that helps your business stand out in local searches.`,
-          ],
-        },
-        {
-          img: '',
-          name: 'Stronger Visibility on Google Search and Maps',
-          description: [
-            `A properly optimized Google Business Profile can significantly improve your chances of appearing in the local pack and Google Maps results.`,
-            `Our team focuses on optimizing your business categories, services, keywords, and profile content so that your business appears when potential customers search for related services in your area.`,
-          ],
-        },
-        {
-          img: '',
-          name: 'Complete Profile Optimization',
-          description: [
-            `We optimize every element of your profile, including your business description, services, categories, images, and contact information.`,
-            `By improving these details within our GMB optimization services​, we ensure your listing is both search-engine-friendly and appealing to potential customers.`,
-          ],
-        },
-        {
-          img: '',
-          name: 'Reputation and Review Management',
-          description: [
-            `Customer reviews play an important role in influencing both search rankings and buying decisions. `,
-            `Our team helps you develop strategies to encourage genuine customer reviews and guides responding professionally to both positive and negative feedback.`,
-          ],
-        },
-        {
-          img: '',
-          name: 'Consistent Profile Activity and Updates',
-          description: [
-            `An active profile sends strong signals to Google that your business is reliable and relevant. `,
-            `We regularly publish Google Posts, updates, and promotional content to keep your listing fresh, informative, and engaging for potential customers.`,
-          ],
-        },
-        {
-          img: '',
-          name: 'Data-Driven Optimization Approach',
-          description: [
-            `We rely on research, performance tracking, and local keyword analysis to make informed optimization decisions. `,
-            `This data-driven approach helps improve your profile’s performance and ensures your business continues to grow its visibility over time.`,
-          ],
-        },
-        {
-          img: '',
-          name: 'Clear Performance Reporting',
-          description: [
-            `Transparency is a key part of our service. We provide regular reports showing important metrics such as profile views, customer interactions, phone calls, and direction requests. `,
-            `These insights help you understand how your Google Business Profile contributes to your business growth.`,
-          ],
-        },
-        {
-          img: '',
-          name: 'Ongoing Support and Monitoring',
-          description: [
-            `Our work doesn’t stop after optimization. We continuously monitor your listing for performance improvements, profile updates, and potential issues. `,
-            `This proactive GMB management service ensures your business profile stays optimized and protected from unauthorized changes.`,
-          ],
-        },
-        {
-          img: '',
-          name: 'Focused on Real Business Results',
-          description: [
-            `Ultimately, our goal is to help your business attract more local customers.`,
-            ` By improving your visibility on Google Maps and local search results, we help convert online searches into real calls, visits, and sales for your business.`,
-          ],
-        },
-      ],
-    },
-
-    ourProcess: {
-      isVisible: true,
-      isInCenter: true,
-      subtitle: 'Our Process',
-      title: 'Our Google Business Profile Optimization Process',
-      breakIndex: 4,
-      bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFFFFF]',
-      span: '',
-      description: [``],
-      services: [
-        {
-          icon: icon1,
-          title: 'Business Profile Audit',
-          description: [
-            `We begin by conducting a comprehensive audit of your existing Google My Business Profile. This includes analyzing your current rankings, profile completeness, business information, categories, images, and customer reviews. `,
-            `The audit helps us identify areas that need improvement and opportunities to enhance your profile’s performance.`,
-          ],
-        },
-        {
-          icon: icon2,
-          title: 'Profile Setup or Verification',
-          description: [
-            `If your business does not yet have a fully verified profile, we assist with the complete setup and verification process.`,
-            `This ensures that your business is officially recognized by Google and eligible to appear in local search results and Google Maps listings.`,
-          ],
-        },
-        {
-          icon: icon3,
-          title: 'Keyword and Category Research',
-          description: [
-            `Our team performs detailed keyword research to identify the most relevant and high-intent search terms used by customers in your area.`,
-            `We also analyze your competitors to determine the best primary and secondary business categories for improved local rankings.`,
-          ],
-        },
-        {
-          icon: icon4,
-          title: 'Profile Optimization',
-          description: [
-            `Next, we optimize every important component of your Google Business Profile. `,
-            `This includes writing a keyword-optimized business description, adding detailed services and products, selecting the right categories, and ensuring your business information is accurate and consistent.`,
-          ],
-        },
-        {
-          icon: icon5,
-          title: 'Visual and Content Enhancement',
-          description: [
-            `We enhance your profile with high-quality images, videos, and engaging content that showcase your business.`,
-            `Visual content helps attract more attention from potential customers and improves overall engagement with your listing.`,
-          ],
-        },
-        {
-          icon: icon6,
-          title: 'Review and Reputation Strategy',
-          description: [
-            `Customer reviews are a critical factor in both rankings and customer trust.`,
-            `We help you implement a review strategy that encourages genuine customer feedback and guide you on responding professionally to build a strong online reputation.`,
-          ],
-        },
-        {
-          icon: icon7,
-          title: 'Ongoing Monitoring and Updates',
-          description: [
-            `Optimization is not a one-time task. We continuously monitor your profile’s performance, publish updates through Google Posts, and make improvements to maintain strong visibility and engagement.`,
-          ],
-        },
-      ],
-    },
-
-    faqData: {
-      isVisible: true,
-      bgColor: 'bg-[#FAFAFA]',
-      subtitle: 'FAQ',
-      title: 'Frequently Asked Questions',
-      description: ``,
-      list: [
-        {
-          title: 'What is Google Business Profile optimization?',
-          description: [
-            `Google Business Profile optimization is the process of improving and managing your business listing on Google to increase its visibility in local search results and Google Maps.`,
-            `This includes optimizing business information, categories, keywords, images, reviews, and posts to attract more local customers.`,
-          ],
-        },
-        {
-          title:
-            'Why is Google Business Profile important for local businesses?',
-          description: [
-            `Your Google Business Profile is often the first place potential customers discover your business online.`,
-            `A well-optimized profile helps your business appear in local searches, builds credibility through reviews, and makes it easier for customers to contact or visit your business.`,
-          ],
-        },
-        {
-          title: 'How long does it take to see results from GBP optimization?',
-          description: [
-            `Results can vary depending on your industry, competition, and the current state of your profile.`,
-            `Many businesses begin noticing improvements in visibility, engagement, and customer interactions within a few weeks of consistent optimization and updates.`,
-          ],
-        },
-        {
-          title:
-            'Can Google Business Profile optimization improve my Google Maps ranking?',
-          description: [
-            `Yes, proper optimization can significantly improve your chances of appearing higher in Google Maps results.`,
-            `Factors such as accurate business information, relevant categories, customer reviews, and consistent updates all contribute to better local rankings.`,
-          ],
-        },
-        {
-          title:
-            'Do I need a physical location to create a Google Business Profile?',
-          description: [
-            `Not necessarily. Service-area businesses can also create Google Business Profiles without displaying a physical storefront address. Instead, they can specify the areas they serve.`,
-          ],
-        },
-        {
-          title:
-            'How important are customer reviews for Google Business Profiles?',
-          description: [
-            `Customer reviews are extremely important because they influence both search rankings and customer trust.`,
-            `Businesses with more positive and recent reviews often attract more clicks, calls, and visits.`,
-          ],
-        },
-        {
-          title: 'Can I update my Google Business Profile regularly?',
-          description: [
-            `Yes, updating your profile with posts, photos, offers, and business updates helps keep your listing active.`,
-            `Regular activity signals to Google that your business is engaged and relevant to customers.`,
-          ],
-        },
-        {
-          title:
-            'How can Adaired Digital help with Google Business Profile optimization?',
-          description: [
-            `Adaired Digital provides comprehensive GBP optimization services, including profile setup, keyword optimization, review management, content updates, and performance tracking.`,
-            `Our goal is to help your business rank higher on Google Maps and attract more local customers.`,
-          ],
-        },
-      ],
-    },
-
-    dataInTable: {
-      isVisible: false,
-      isInCenter: true,
-      isBgWhite: true,
-      bgColor: '#FAFAFA',
-      trColor: '#FB9100',
-      rowColor: 'bg-[#7259FF]/10',
-      isVariant: '01',
-      heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
-      description: [``],
-      data: [
-        {
-          desctioption: `Feature`,
-          list: [
-            {
-              description: [`AI-First SEO Strategy`],
-            },
-            {
-              description: [`Cross-Platform Optimization`],
-            },
-            {
-              description: [`User Intent Alignment`],
-            },
-            {
-              description: [`Content Creation & Structure`],
-            },
-            {
-              description: [`Scalable & Future-Proof Solutions`],
-            },
-            {
-              description: [`AI-Driven Insights`],
-            },
-          ],
-        },
-        {
-          desctioption: `Adaired Digital Media`,
-          list: [
-            {
-              description: [
-                `We design strategies that are tailored for the evolving AI search landscape.`,
-              ],
-            },
-            {
-              description: [
-                `We optimize for a broad range of AI platforms, ensuring visibility across all channels.`,
-              ],
-            },
-            {
-              description: [
-                `We align your content with evolving user intent, ensuring your brand matches search needs.`,
-              ],
-            },
-            {
-              description: [
-                `We create content that is both AI-readable and contextually aligned with search intent.`,
-              ],
-            },
-            {
-              description: [
-                `Our strategies evolve with changing AI algorithms to keep your brand visible long-term.`,
-              ],
-            },
-            {
-              description: [
-                `We leverage AI tools to continuously optimize and refine your SEO for better performance.`,
-              ],
-            },
-          ],
-        },
-        {
-          desctioption: `They`,
-          list: [
-            {
-              description: [
-                `They rely on traditional keyword-based SEO methods that are no longer as effective.`,
-              ],
-            },
-            {
-              description: [
-                `They focus on a limited number of platforms, missing out on AI-driven opportunities elsewhere.`,
-              ],
-            },
-            {
-              description: [
-                `They overlook the nuances of user intent, resulting in less relevant content placement.`,
-              ],
-            },
-            {
-              description: [
-                `They use generic content strategies that don’t cater to AI’s need for clear, structured data.`,
-              ],
-            },
-            {
-              description: [
-                `Their solutions are static and struggle to adapt as AI algorithms continue to change.`,
-              ],
-            },
-            {
-              description: [
-                `They lack the use of AI-driven insights, relying on outdated metrics for optimization.`,
-              ],
-            },
-          ],
-        },
-      ],
-    },
-
-    buildlinks: {
-      isVisible: false,
-      isCode01: true,
-      isVariant: '06',
-      breakIndex: 3,
-      bgImg: saasSeoBuildLinkBg,
-      img: geoAiSeoBuildLinkImg,
-      label: 'Ready to',
-      heading: 'Dominate AI Search?',
-      description: ``,
-      isBgWhite: true,
-      data: [
-        {
-          desctioption: `AI-powered search platforms are already influencing how customers discover, evaluate, and choose businesses. 
-          If your brand is not structured for generative search engines, you risk losing visibility to competitors who adapt faster.`,
-        },
-        {
-          desctioption: `Our Generative Engine Optimization services are designed to position your business where modern discovery happens, inside AI-generated answers, summaries, and recommendations.`,
-        },
-        {
-          desctioption: `The future of search is not about rankings alone. It is about recognition, authority, and recommendation. Take the next step toward AI visibility.`,
-        },
-      ],
-      button: 'Optimize My Website for AI',
     },
 
     whatMkeDeferent: {
@@ -16162,56 +16179,6 @@ brand appears in AI summaries and citations.`,
         {
           desctioption: `Furthermore, we ensure that all reporting, documentation, and performance updates are delivered using the agency's branding. 
           Communication follows the agency's processes, ensuring continuity and brand integrity.`,
-        },
-      ],
-    },
-
-    serviceResult: {
-      isVisible: false,
-      breakIndex: 5,
-      bgColor: true,
-      isInCenter: true,
-      heading: 'Common White Label SEO Use Cases',
-      isVariant: '03',
-      description: [
-        `Outsourcing SEO services is used across different types of agencies and service providers, 
-        primarily as a way to support ongoing search optimization without expanding internal teams. 
-        The following use cases reflect common operational scenarios:`,
-      ],
-      isBgColor: true,
-      img: WhiteSeoServiceResultImg,
-      list: [
-        {
-          img: whiteSeoResult_1,
-          name: 'Web Design Agencies Adding SEO Retainers',
-          description: [
-            `Web design agencies often introduce SEO as a recurring service after a website launch. 
-            White label SEO allows these agencies to offer ongoing optimization, monitoring, and reporting without building a dedicated SEO department.`,
-          ],
-        },
-        {
-          img: whiteSeoResult_2,
-          name: 'PPC Agencies Expanding into Organic Search',
-          description: [
-            `Paid media agencies frequently complement pay-per-click services with organic search offerings. 
-            White label SEO enables PPC-focused teams to support long-term visibility and traffic growth alongside paid campaigns.`,
-          ],
-        },
-        {
-          img: whiteSeoResult_3,
-          name: 'Consultants Supporting Long-Term SEO Clients',
-          description: [
-            `Independent consultants and marketing advisors may use white-label SEO to fulfill execution-heavy tasks while remaining focused on strategy and client management. 
-            This model supports continuity for clients requiring ongoing optimization.`,
-          ],
-        },
-        {
-          img: whiteSeoResult_4,
-          name: 'Multi-Location or Franchise SEO Support',
-          description: [
-            `Businesses operating across multiple locations often require scalable and standardized SEO execution. 
-            White label SEO supports consistent optimization, reporting, and performance tracking across regions while maintaining centralized brand control.`,
-          ],
         },
       ],
     },
