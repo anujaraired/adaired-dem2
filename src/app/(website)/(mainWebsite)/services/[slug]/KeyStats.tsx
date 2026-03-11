@@ -270,7 +270,7 @@ const KeyStats = ({ keyStats }: any) => {
                       </h2>
 
                       <p
-                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${activeTab === index ? `text-[${keyStats?.textColor}]` : 'text-[#000000]'} ${
+                        className={`pr-[2rem] transition-all duration-300 ease-in-out lg:text-left ${activeTab === index && `text-[${keyStats?.textColor || "text-[#000000]"}]`} ${
                           activeTab === index ? 'font-semibold' : ''
                         }`}
                       >

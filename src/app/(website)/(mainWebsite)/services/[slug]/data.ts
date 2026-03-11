@@ -534,8 +534,6 @@ import AdairedHelp_4 from '../../../../../../public/assets/images/services/wordp
 import AdairedHelp_5 from '../../../../../../public/assets/images/services/wordpressDevelopment/AdairedHelp5.svg';
 import AdairedHelp_6 from '../../../../../../public/assets/images/services/wordpressDevelopment/AdairedHelp6.svg';
 
-
-
 export type SectionKey =
   | 'banner'
   | 'getsCredit'
@@ -2155,7 +2153,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       code: '03',
       heading: 'Key Stats on Authority Link Building ',
-      bgColor:'#FB9100',
+      bgColor: '#FB9100',
       isCard: false,
       img: keyStatsImg,
       list: [
@@ -5293,6 +5291,7 @@ brand appears in AI summaries and citations.`,
       img: whiteSeoKeyStatsImg,
       heading: 'White Label SEO Insights',
       bgColor: '#000000',
+      textColor: '#FFFFFF',
       isImgBg: true,
       isTextWhite: true,
       isCard: false,
@@ -16519,15 +16518,16 @@ brand appears in AI summaries and citations.`,
       description: [
         `As an experienced WordPress development agency, we offer a comprehensive range of WordPress development services designed to help businesses build powerful, scalable, and high-performing websites. `,
         `Whether you are launching a new website, upgrading an existing platform, or adding advanced functionality, our team of skilled developers delivers customized WordPress solutions that align with your business goals.`,
-        `We combine technical expertise, creative design, and modern development practices to ensure that every WordPress website we build is fast, secure, SEO-friendly, and optimized for long-term growth.`
+        `We combine technical expertise, creative design, and modern development practices to ensure that every WordPress website we build is fast, secure, SEO-friendly, and optimized for long-term growth.`,
       ],
       list: [
         {
           name: 'Custom WordPress Website Development',
           description: [
             `Our custom WordPress website development services focus on building unique websites tailored specifically to your business needs. Instead of relying on generic templates, we design and develop fully customized WordPress websites that reflect your brand identity and provide an engaging user experience.`,
-            `Our developers carefully analyze your business requirements, target audience, and industry trends to create a website that not only looks visually appealing but also performs efficiently across all devices.`, ` Every website we develop is responsive, mobile-friendly, and optimized for search engines to help improve online visibility and drive organic traffic.`,
-            `We also ensure that the website architecture is scalable so that your platform can grow alongside your business. Whether you need a corporate website, a business portfolio, a service-based website, or a content-driven platform, our team can deliver a solution that aligns perfectly with your long-term digital strategy.`
+            `Our developers carefully analyze your business requirements, target audience, and industry trends to create a website that not only looks visually appealing but also performs efficiently across all devices.`,
+            ` Every website we develop is responsive, mobile-friendly, and optimized for search engines to help improve online visibility and drive organic traffic.`,
+            `We also ensure that the website architecture is scalable so that your platform can grow alongside your business. Whether you need a corporate website, a business portfolio, a service-based website, or a content-driven platform, our team can deliver a solution that aligns perfectly with your long-term digital strategy.`,
           ],
         },
         {
@@ -16535,7 +16535,8 @@ brand appears in AI summaries and citations.`,
           description: [
             `A well-designed theme plays a crucial role in defining the visual identity and user experience of your website. We, as a WordPress development company India, focus on creating custom themes that combine modern design with clean, optimized code.`,
             `We design themes that are lightweight, fast-loading, and fully responsive across desktops, tablets, and mobile devices. Our development process ensures that the theme structure follows WordPress best practices, which improves website stability, maintainability, and SEO performance.`,
-            `In addition to aesthetics, we prioritize usability and accessibility to ensure visitors can easily navigate your website and find the information they need.`, ` Our custom themes are also built with flexibility in mind, allowing businesses to update content, modify layouts, and expand functionality without requiring complex technical changes.`
+            `In addition to aesthetics, we prioritize usability and accessibility to ensure visitors can easily navigate your website and find the information they need.`,
+            ` Our custom themes are also built with flexibility in mind, allowing businesses to update content, modify layouts, and expand functionality without requiring complex technical changes.`,
           ],
         },
         {
@@ -16555,10 +16556,11 @@ brand appears in AI summaries and citations.`,
           description: [
             `For businesses looking to sell products or services online, we offer comprehensive WooCommerce development services that transform WordPress websites into powerful e-commerce platforms.
 `,
-            `Our WooCommerce development solutions include everything from store setup and product catalog management to payment gateway integration and shipping configuration.`, ` We design user-friendly shopping experiences that make it easy for customers to browse products, complete purchases, and interact with your brand.
+            `Our WooCommerce development solutions include everything from store setup and product catalog management to payment gateway integration and shipping configuration.`,
+            ` We design user-friendly shopping experiences that make it easy for customers to browse products, complete purchases, and interact with your brand.
 `,
             `We also implement advanced features such as inventory management systems, subscription services, multi-currency support, and custom checkout processes. By optimizing the entire purchase journey, we help businesses improve conversion rates and maximize their online sales potential.
-`
+`,
           ],
         },
         {
@@ -16568,9 +16570,10 @@ brand appears in AI summaries and citations.`,
 `,
             `Our team handles the entire migration process, including content transfer, database migration, URL structure preservation, and SEO protection. We ensure that your website maintains its existing search engine rankings while benefiting from improved design and performance.
 `,
-            `In addition to migration, we also provide complete website redesign services that refresh the visual appearance, improve usability, and modernize the overall structure of your site.`, ` By upgrading your website with the latest design standards and development technologies, we help businesses enhance their digital presence and stay competitive in the evolving online landscape.
+            `In addition to migration, we also provide complete website redesign services that refresh the visual appearance, improve usability, and modernize the overall structure of your site.`,
+            ` By upgrading your website with the latest design standards and development technologies, we help businesses enhance their digital presence and stay competitive in the evolving online landscape.
 `,
-            ``
+            ``,
           ],
         },
         {
@@ -16578,7 +16581,8 @@ brand appears in AI summaries and citations.`,
           description: [
             `Website performance plays a crucial role in user experience, search engine rankings, and overall conversion rates. Our WordPress speed optimization services focus on improving website loading times and enhancing Core Web Vitals performance.
 `,
-            `We analyze various performance factors such as server response time, image optimization, script loading, caching configuration, and database efficiency.`, ` By implementing advanced optimization techniques, we significantly reduce page load times and ensure that your website delivers a smooth browsing experience for visitors.
+            `We analyze various performance factors such as server response time, image optimization, script loading, caching configuration, and database efficiency.`,
+            ` By implementing advanced optimization techniques, we significantly reduce page load times and ensure that your website delivers a smooth browsing experience for visitors.
 `,
             `Our optimization process may include CDN integration, code minification, lazy loading implementation, and server-level improvements. Faster websites not only improve user engagement but also contribute to better SEO rankings and increased customer satisfaction.
 `,
@@ -16591,7 +16595,8 @@ brand appears in AI summaries and citations.`,
 `,
             `We handle essential maintenance tasks such as WordPress core updates, plugin updates, security monitoring, performance checks, and routine backups. Our team also provides ongoing technical support to quickly resolve any issues that may arise.
 `,
-            `Regular maintenance helps prevent security vulnerabilities, improve website stability, and ensure compatibility with new technologies and updates.`, ` With our dedicated support services, businesses can focus on their operations while we take care of their website’s health and performance.
+            `Regular maintenance helps prevent security vulnerabilities, improve website stability, and ensure compatibility with new technologies and updates.`,
+            ` With our dedicated support services, businesses can focus on their operations while we take care of their website’s health and performance.
 `,
           ],
         },
@@ -16606,7 +16611,9 @@ brand appears in AI summaries and citations.`,
       breakIndex: 5,
       bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFFFFF]',
       span: '',
-      description: [`Our development process focuses on collaboration, quality assurance, and continuous improvement to create high-performing WordPress websites that support long-term business growth.`],
+      description: [
+        `Our development process focuses on collaboration, quality assurance, and continuous improvement to create high-performing WordPress websites that support long-term business growth.`,
+      ],
       services: [
         {
           icon: Icon1,
@@ -16614,7 +16621,7 @@ brand appears in AI summaries and citations.`,
           description: [
             `Every successful project begins with a thorough understanding of your business goals, target audience, and technical requirements. During the requirement analysis stage, our team works closely with you to gather important information about your brand, services, competitors, and desired website functionality.`,
             `We evaluate factors such as website objectives, content structure, design preferences, and integration needs. This step helps us identify the most suitable WordPress solutions and ensures that the final product aligns with your business strategy.`,
-            `By clearly defining project requirements at the beginning, we reduce the chances of miscommunication and ensure a smooth development process.`
+            `By clearly defining project requirements at the beginning, we reduce the chances of miscommunication and ensure a smooth development process.`,
           ],
         },
         {
@@ -16623,7 +16630,7 @@ brand appears in AI summaries and citations.`,
           description: [
             `Once the project requirements are finalized, our designers focus on creating an intuitive and visually engaging user experience. During the UI/UX planning stage, we develop wireframes, design layouts, and user interface concepts that reflect your brand identity and improve website usability.`,
             `Our goal is to create a design that is not only visually appealing but also easy for visitors to navigate. We pay close attention to layout structure, typography, color schemes, and user interaction elements to ensure the website delivers a consistent experience across all devices.`,
-            `The design phase also includes mobile responsiveness planning, ensuring that your WordPress website performs perfectly on smartphones, tablets, and desktops.`
+            `The design phase also includes mobile responsiveness planning, ensuring that your WordPress website performs perfectly on smartphones, tablets, and desktops.`,
           ],
         },
         {
@@ -16632,7 +16639,7 @@ brand appears in AI summaries and citations.`,
           description: [
             `After the design is approved, our developers begin building the website using modern WordPress development practices. This stage involves creating custom themes, configuring plugins, and implementing the required functionality to bring the design to life. Our developers work with technologies such as PHP, HTML, CSS, and JavaScript to develop secure and scalable solutions tailored to your specific business needs.`,
             `We also focus on writing clean, optimized code that ensures faster loading speeds and long-term maintainability. Throughout the development process, we regularly review progress and ensure that all features and integrations are functioning as expected.`,
-            `This collaborative approach allows us to maintain transparency and deliver a website that meets both technical and business expectations.`
+            `This collaborative approach allows us to maintain transparency and deliver a website that meets both technical and business expectations.`,
           ],
         },
         {
@@ -16641,7 +16648,7 @@ brand appears in AI summaries and citations.`,
           description: [
             `Before launching the website, we perform extensive testing to ensure that every component functions correctly. Our quality assurance process includes testing website performance, responsiveness, security, and compatibility across different browsers and devices.`,
             `We verify that all forms, navigation elements, and interactive features operate smoothly. Additionally, we check page loading speed, optimize images and scripts, and ensure the website follows SEO best practices.`,
-            `This detailed testing process helps eliminate potential issues and guarantees that your website provides a reliable and user-friendly experience.`
+            `This detailed testing process helps eliminate potential issues and guarantees that your website provides a reliable and user-friendly experience.`,
           ],
         },
         {
@@ -16650,7 +16657,7 @@ brand appears in AI summaries and citations.`,
           description: [
             `Once the testing phase is successfully completed, we prepare the website for launch. Our team ensures that the hosting environment is properly configured and that the website is fully optimized for performance and security before going live.`,
             `We also verify that all content, links, and integrations are functioning correctly. The launch phase involves deploying the website to the live server while ensuring minimal downtime.`,
-            `Our goal is to make the transition from development to a live environment as smooth as possible.`
+            `Our goal is to make the transition from development to a live environment as smooth as possible.`,
           ],
         },
         {
@@ -16659,7 +16666,7 @@ brand appears in AI summaries and citations.`,
           description: [
             `Our relationship with clients does not end after the website goes live. We provide ongoing WordPress maintenance and support to ensure that your website continues to operate smoothly and remains up to date.`,
             `This includes regular software updates, security monitoring, performance optimization, and troubleshooting. We also assist with future improvements, feature enhancements, and technical support whenever required.`,
-            `With our dedicated post-launch support, your WordPress website remains secure, efficient, and capable of adapting to evolving business needs.`
+            `With our dedicated post-launch support, your WordPress website remains secure, efficient, and capable of adapting to evolving business needs.`,
           ],
         },
       ],
@@ -16733,8 +16740,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '02',
       bgGradient: '',
-      heading:
-        `Why Choose Adaired Digital's WordPress Development Services`,
+      heading: `Why Choose Adaired Digital's WordPress Development Services`,
       description: [
         'At Adaired Digital, we combine technical expertise, strategic thinking, and creative design to deliver WordPress websites that drive real business results.',
       ],
@@ -16758,7 +16764,7 @@ brand appears in AI summaries and citations.`,
           name: 'SEO-Friendly Development',
           description: [
             `Through years, we have built a reputation on delivering quality work to our clients. Since there are a number of steps involved in the website creation, we create timelines for different aspects of the project to complete it on time. `,
-            `Whether you need a simple business website or a complex e-commerce platform, we are capable of developing tailored solutions that can scale with your business. `
+            `Whether you need a simple business website or a complex e-commerce platform, we are capable of developing tailored solutions that can scale with your business. `,
           ],
         },
         {
@@ -16828,8 +16834,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          title:
-            'Why should I choose WordPress for my website?',
+          title: 'Why should I choose WordPress for my website?',
           description: [
             `WordPress is one of the most flexible and widely used website platforms.`,
             `It offers extensive customization options, thousands of plugins, strong SEO capabilities, and an easy-to-manage content system.`,
@@ -16843,22 +16848,19 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          title:
-            'Can you redesign my existing WordPress website?',
+          title: 'Can you redesign my existing WordPress website?',
           description: [
             `Yes, we offer WordPress redesign services to improve your website’s design, performance, and user experience while maintaining your existing content and SEO value.`,
           ],
         },
         {
-          title:
-            'Do you provide WooCommerce development services?',
+          title: 'Do you provide WooCommerce development services?',
           description: [
             `Yes, we develop WooCommerce-powered e-commerce websites that allow businesses to sell products and services online with secure payment integrations and optimized shopping experiences.`,
           ],
         },
         {
-          title:
-            'Is WordPress good for SEO?',
+          title: 'Is WordPress good for SEO?',
           description: [
             `Yes, WordPress is highly SEO-friendly. With proper optimization, WordPress websites can rank well in search engines and attract consistent organic traffic.`,
           ],
@@ -16870,8 +16872,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          title:
-            'Can I manage my WordPress website after it is launched?',
+          title: 'Can I manage my WordPress website after it is launched?',
           description: [
             `Absolutely. WordPress has a user-friendly dashboard that allows you to easily update content, publish blog posts, and manage your website without advanced technical knowledge.`,
           ],
@@ -16991,10 +16992,12 @@ brand appears in AI summaries and citations.`,
           img: ImpToBusinessCradImg,
           heading: 'Boost Your Visibility on',
           heading1: [`Google Maps`],
-          description: [`Take the next step toward stronger local visibility and more customer inquiries. `,
-            `Contact Adaired Digital today to get started with professional Google My Business optimization services.`],
+          description: [
+            `Take the next step toward stronger local visibility and more customer inquiries. `,
+            `Contact Adaired Digital today to get started with professional Google My Business optimization services.`,
+          ],
           buttonName: 'Optimize My Website for AI',
-        }
+        },
       ],
     },
 
