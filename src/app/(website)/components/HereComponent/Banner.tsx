@@ -337,10 +337,10 @@ const Banner = () => {
                     loop
                     muted
                     playsInline
-                    className="h-full w-full"
+                    className="h-full rounded-2xl w-full"
                   >
                     <source
-                      src="/assets/videos/Graph animation_3.mp4"
+                      src="/assets/videos/Graph animation_4.mp4"
                       type="video/mp4"
                     />
                   </video>
