@@ -137,7 +137,7 @@ const GetQuoteModal = ({ isOpen, onClose }: GetQuoteModalProps) => {
 
         {/* Modal Content */}
         <div className="flex justify-between gap-3">
-          <div className="relative w-[40%]">
+          <div className="relative lg:w-[40%] hidden lg:block">
             <Image
               src={get_a_Quote}
               alt="get_a_Quote"
@@ -191,14 +191,15 @@ const GetQuoteModal = ({ isOpen, onClose }: GetQuoteModalProps) => {
               </div>
             </div>
           </div>
-          <div className="w-[60%] p-[2rem]">
+
+          <div className="w-full lg:w-[60%] p-[2rem]">
             <h3>See How Your Website Performs</h3>
             <p className="text-[15px] font-medium text-[#323232]">
               Find performance gaps limiting your website’s visibility and
               effectiveness.
             </p>
             <div className="py-[2rem]">
-              <div className="grid grid-cols-2 gap-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
                 <InputField
                   placeholder="First name"
                   name={'firstName'}

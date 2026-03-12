@@ -70,11 +70,11 @@ export const ABOUT_DATA = {
 
   stopStruggling: {
     isVisible: true,
-    isCenter: false,
+    isCenter: true,
     breakIndex: 5,
-    title: 'Adaired Digital Media is a modern digital marketing agency',
+    title: `We're Not Just Another Digital Marketing Agency`,
     description: [
-      `Adaired Digital Media is a modern digital marketing agency that values performance, innovation, and results. 
+      `Successful digital marketing begins with the right strategy, the right team, and the right execution, and at Adaired Digital Media, we bring all three together. 
             We help brands turn digital opportunities into measurable results through data-driven strategy and execution, 
             backed up by a team of digitally savvy marketing specialists.`,
       `Over the years, we've earned the trust of brands as a true growth partner rather than just a service provider. 

@@ -9,7 +9,7 @@ import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 import { BiSolidBadgeCheck } from 'react-icons/bi';
-
+import { BsCheckAll } from "react-icons/bs";
 const WhatAreService = ({ whatareaiseo }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const [open, setOpen] = useState(false);
@@ -162,11 +162,10 @@ const WhatAreService = ({ whatareaiseo }: any) => {
             </div>
             <div
               ref={ref}
-              className={`right-0 top-0 flex -translate-y-0 justify-center transition-all duration-1000 lg:absolute lg:right-[-5%] lg:top-1/2 lg:flex lg:-translate-y-1/2 lg:justify-end ${
-                isVisible
-                  ? 'translate-x-0 opacity-100'
-                  : 'translate-x-12 opacity-0'
-              }`}
+              className={`right-0 top-0 flex -translate-y-0 justify-center transition-all duration-1000 lg:absolute lg:right-[-5%] lg:top-1/2 lg:flex lg:-translate-y-1/2 lg:justify-end ${isVisible
+                ? 'translate-x-0 opacity-100'
+                : 'translate-x-12 opacity-0'
+                }`}
             >
               <Image
                 src={whatareaiseo?.img}
@@ -201,9 +200,8 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                   return (
                     <div key={index} className="space-y-4">
                       <p
-                        className={`py-2 text-center lg:text-justify ${
-                          whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
-                        }`}
+                        className={`py-2 text-center lg:text-justify ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
+                          }`}
                       >
                         {item?.desctioption}
                       </p>
@@ -222,9 +220,8 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                               (desc: string, descIndex: number) => (
                                 <p
                                   key={descIndex}
-                                  className={`my-auto text-left ${
-                                    whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
-                                  }`}
+                                  className={`my-auto text-left ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
+                                    }`}
                                 >
                                   {desc}
                                 </p>
@@ -291,18 +288,16 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                   return (
                     <div key={index} className="space-y-4">
                       <p
-                        className={`py-1 text-center lg:text-justify ${
-                          whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
-                        }`}
+                        className={`py-1 text-center lg:text-justify ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
+                          }`}
                       >
                         {item?.desctioption}
                       </p>
                       <div
-                        className={`grid w-fit pb-4 ${
-                          item?.list?.length > 4
-                            ? 'grid-cols-1 md:grid-cols-3'
-                            : 'grid-cols-1 md:grid-cols-2'
-                        }`}
+                        className={`grid w-fit pb-4 ${item?.list?.length > 4
+                          ? 'grid-cols-1 md:grid-cols-3'
+                          : 'grid-cols-1 md:grid-cols-2'
+                          }`}
                       >
                         {item?.list?.map((listItem: any, listIndex: number) => (
                           <div
@@ -318,9 +313,8 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                               (desc: string, descIndex: number) => (
                                 <p
                                   key={descIndex}
-                                  className={`text-left ${
-                                    whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
-                                  }`}
+                                  className={`text-left ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
+                                    }`}
                                 >
                                   {desc}
                                 </p>
@@ -642,15 +636,28 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 isBgWhite={whatareaiseo?.isBgWhite && true}
               />
               <div className="">
-                {whatareaiseo?.data?.map((item: any) => {
-                  return (
+
+                {whatareaiseo?.data?.map((item: any, index: number) => (
+                  <div key={index}>
                     <p
-                      className={`py-2 text-center lg:text-justify ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'} `}
+                      className={`py-2 text-center lg:text-justify ${whatareaiseo?.isBgWhite ? "text-white" : ""
+                        }`}
                     >
                       {item?.desctioption}
                     </p>
-                  );
-                })}
+
+                    {item?.list && (
+                      <div className="space-y-1 pl-2 py-4">
+                        {item.list.map((listItem: any, i: number) => (
+                          <div className='flex items-center gap-2'>
+                            <BsCheckAll size={22} className="text-black" />
+                            <p key={i} className='font-bold'>{listItem}</p>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                ))}
               </div>
 
               {whatareaiseo?.button && (
@@ -707,9 +714,8 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                   return (
                     <div key={index} className="space-y-">
                       <p
-                        className={`py- text-center lg:text-justify ${
-                          whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
-                        }`}
+                        className={`py- text-center lg:text-justify ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
+                          }`}
                       >
                         {item?.desctioption}
                       </p>
@@ -728,9 +734,8 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                               (desc: string, descIndex: number) => (
                                 <p
                                   key={descIndex}
-                                  className={`mb-auto text-left ${
-                                    whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
-                                  }`}
+                                  className={`mb-auto text-left ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
+                                    }`}
                                 >
                                   {desc}
                                 </p>
