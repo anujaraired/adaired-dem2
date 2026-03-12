@@ -619,6 +619,7 @@ export type SectionKey =
   | 'whatMissing'
   | 'stopStruggling'
   | 'whatMkeDeferent'
+  | 'industriesWeServe'
   | 'leadingToolsForPerformence'
   | 'getplan'
   | 'faqData'
@@ -18432,6 +18433,7 @@ brand appears in AI summaries and citations.`,
       'adairedHelp',
       'ourProcess',
       'whatMkeDeferent',
+      'industriesWeServe',
       'buildlinks',
       'faqData',
       'benefitofAiSeo',
@@ -18759,8 +18761,17 @@ brand appears in AI summaries and citations.`,
 
     whatMkeDeferent: {
       isVisible: true,
-      isVariant: '02',
-      bgGradient: '',
+      isVariant: '01',
+      breakIndex: 3,
+      isInCenter: false,
+      bgColor: false,
+      bgGradient: 'bg-[#EEEEEE]/20',
+      cardColor2: '#FFF8EF',
+      cardColor: '#FFFFFF',
+      cardImgBgColor2: '#FFEDD7',
+      cardImgBgColor: '#F3F3F3',
+      borderColor2: '#F28F17',
+      borderColor: '#051B3C',
       heading: `Why Choose Our Shopify App Development Company`,
       description: [
         'Our team combines technical expertise, creative design capabilities, and strategic thinking to deliver Shopify solutions that help businesses grow and succeed in the competitive online marketplace.',
@@ -18789,17 +18800,69 @@ brand appears in AI summaries and citations.`,
         },
         {
           img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_4_zvk0k1.png',
+          name: 'Quick Turnaround Time',
+          description: [
+            `Our websites are built following SEO best practices, helping your site perform better in search engine results and attract more organic traffic.`,
+          ],
+        },
+        {
+          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_5_fvsjh9.png',
           name: 'SEO-Friendly Shopify Stores',
           description: [
             `Our development practices follow SEO best practices, including clean code structure, optimized page performance, and mobile-friendly design. This helps improve search engine visibility and ensures your store is positioned for long-term organic growth.`,
           ],
         },
         {
-          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_5_fvsjh9.png',
+          img: 'adaired/services/shopify_Development_Images/ShopifyDevwhatmkdiffimg_6_ur6asc.png',
           name: 'Dedicated Support & Maintenance',
           description: [
             `Our partnership continues even after your store is launched. We provide ongoing maintenance, updates, technical support, and performance monitoring to ensure your Shopify store remains secure, efficient, and up to date.`,
           ],
+        },
+      ],
+    },
+
+    industriesWeServe: {
+      isVisible: true,
+      code: '01',
+      heading: 'Industries We Serve In',
+      description: [
+        `Our expertise across these industries enables us to design Shopify stores that deliver exceptional user experiences and support long-term business success.`,
+      ],
+      isCard: false,
+      bgImg: '',
+      list: [
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317137/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__1_nxi3gz.png',
+          btn: [`Fashion & Apparel`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317137/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__2_caf6zt.png',
+          btn: [`Beauty & Cosmetics`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317136/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__3_lavaza.png',
+          btn: [`Electronics & Gadgets`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317136/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__4_x3bwnn.png',
+          btn: [`Home & Furniture`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317136/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__5_rlsolp.png',
+          btn: [`Food & Beverage`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317136/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__16_iz4gom.png',
+          btn: [`Health & Wellness`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317136/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__7_zmhzk1.png',
+          btn: [`Lifestyle & Accessories`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317136/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__8_x5i8db.png',
+          btn: [`Sports & Outdoor Equipment`],
         },
       ],
     },
