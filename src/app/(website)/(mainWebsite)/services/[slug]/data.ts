@@ -563,6 +563,13 @@ import ShopifyDevBannerImg from '../../../../../../public/assets/images/services
 import shopifyDevKeyStatsImg from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevKeyStatsImg.png';
 import shopifyDevWhatAreServiceImg from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevWhatAreServiceImg.png';
 
+import shopifyDevProcessIcon_1 from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevProcessIcon_1.png';
+import shopifyDevProcessIcon_2 from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevProcessIcon_2.png';
+import shopifyDevProcessIcon_3 from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevProcessIcon_3.png';
+import shopifyDevProcessIcon_4 from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevProcessIcon_4.png';
+import shopifyDevProcessIcon_5 from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevProcessIcon_5.png';
+import shopifyDevProcessIcon_6 from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevProcessIcon_6.png';
+
 export type SectionKey =
   | 'banner'
   | 'getsCredit'
@@ -17545,66 +17552,66 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: true,
       subtitle: 'Our Process',
-      title: 'How We Deliver Successful WordPress Development Projects',
+      title: 'Our Shopify Development Process',
       breakIndex: 5,
       bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFFFFF]',
       span: '',
       description: [
-        `Our development process focuses on collaboration, quality assurance, and continuous improvement to create high-performing WordPress websites that support long-term business growth.`,
+        `We follow a structured and strategic approach that ensures every project is delivered with efficiency, precision, and high quality.`,
       ],
       services: [
         {
-          icon: Icon1,
-          title: 'Requirement Analysis',
+          icon: shopifyDevProcessIcon_1,
+          title: '',
           description: [
-            `Every successful project begins with a thorough understanding of your business goals, target audience, and technical requirements. During the requirement analysis stage, our team works closely with you to gather important information about your brand, services, competitors, and desired website functionality.`,
-            `We evaluate factors such as website objectives, content structure, design preferences, and integration needs. This step helps us identify the most suitable WordPress solutions and ensures that the final product aligns with your business strategy.`,
-            `By clearly defining project requirements at the beginning, we reduce the chances of miscommunication and ensure a smooth development process.`,
+            ``,
+            ``,
+            ``,
           ],
         },
         {
-          icon: Icon2,
-          title: 'UI/UX Design Planning',
+          icon: shopifyDevProcessIcon_2,
+          title: '',
           description: [
-            `Once the project requirements are finalized, our designers focus on creating an intuitive and visually engaging user experience. During the UI/UX planning stage, we develop wireframes, design layouts, and user interface concepts that reflect your brand identity and improve website usability.`,
-            `Our goal is to create a design that is not only visually appealing but also easy for visitors to navigate. We pay close attention to layout structure, typography, color schemes, and user interaction elements to ensure the website delivers a consistent experience across all devices.`,
-            `The design phase also includes mobile responsiveness planning, ensuring that your WordPress website performs perfectly on smartphones, tablets, and desktops.`,
+            ``,
+            ``,
+            ``,
           ],
         },
         {
-          icon: Icon3,
-          title: 'Development and Customization',
+          icon: shopifyDevProcessIcon_3,
+          title: '',
           description: [
-            `After the design is approved, our developers begin building the website using modern WordPress development practices. This stage involves creating custom themes, configuring plugins, and implementing the required functionality to bring the design to life. Our developers work with technologies such as PHP, HTML, CSS, and JavaScript to develop secure and scalable solutions tailored to your specific business needs.`,
-            `We also focus on writing clean, optimized code that ensures faster loading speeds and long-term maintainability. Throughout the development process, we regularly review progress and ensure that all features and integrations are functioning as expected.`,
-            `This collaborative approach allows us to maintain transparency and deliver a website that meets both technical and business expectations.`,
+            ``,
+            ``,
+            ``,
           ],
         },
         {
-          icon: Icon4,
-          title: 'Testing and Quality Assurance',
+          icon: shopifyDevProcessIcon_4,
+          title: '',
           description: [
-            `Before launching the website, we perform extensive testing to ensure that every component functions correctly. Our quality assurance process includes testing website performance, responsiveness, security, and compatibility across different browsers and devices.`,
-            `We verify that all forms, navigation elements, and interactive features operate smoothly. Additionally, we check page loading speed, optimize images and scripts, and ensure the website follows SEO best practices.`,
-            `This detailed testing process helps eliminate potential issues and guarantees that your website provides a reliable and user-friendly experience.`,
+            ``,
+            ``,
+            ``,
           ],
         },
         {
-          icon: Icon5,
-          title: 'Website Launch',
+          icon: shopifyDevProcessIcon_5,
+          title: '',
           description: [
-            `Once the testing phase is successfully completed, we prepare the website for launch. Our team ensures that the hosting environment is properly configured and that the website is fully optimized for performance and security before going live.`,
-            `We also verify that all content, links, and integrations are functioning correctly. The launch phase involves deploying the website to the live server while ensuring minimal downtime.`,
-            `Our goal is to make the transition from development to a live environment as smooth as possible.`,
+            ``,
+            ``,
+            ``,
           ],
         },
         {
-          icon: Icon6,
-          title: 'Post-Launch Support',
+          icon: shopifyDevProcessIcon_6,
+          title: '',
           description: [
-            `Our relationship with clients does not end after the website goes live. We provide ongoing WordPress maintenance and support to ensure that your website continues to operate smoothly and remains up to date.`,
-            `This includes regular software updates, security monitoring, performance optimization, and troubleshooting. We also assist with future improvements, feature enhancements, and technical support whenever required.`,
-            `With our dedicated post-launch support, your WordPress website remains secure, efficient, and capable of adapting to evolving business needs.`,
+            ``,
+            ``,
+            ``,
           ],
         },
       ],
