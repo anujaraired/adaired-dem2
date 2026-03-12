@@ -19409,10 +19409,10 @@ brand appears in AI summaries and citations.`,
       'importantToBussiness',
       'benefitofAiSeo',
       'whatIncluded',
-      'ourProcess',
       'whatMkeDeferent',
-      'buildlinks',
       'faqData',
+      'ourProcess',
+      'buildlinks',
       'whatareservice2',
       'dataInTable',
       'whatMissing',
@@ -19821,6 +19821,110 @@ brand appears in AI summaries and citations.`,
       ],
     },
 
+    whatMkeDeferent: {
+      isVisible: true,
+      isVariant: '02',
+      bgGradient: '',
+      heading: `Why Choose Our Shopify App Development Company`,
+      description: [
+        'Our team combines technical expertise, creative design capabilities, and strategic thinking to deliver Shopify solutions that help businesses grow and succeed in the competitive online marketplace.',
+      ],
+      list: [
+        {
+          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_1_r50n2t.png',
+          name: 'Experienced Shopify Developers',
+          description: [
+            `Our development team consists of highly skilled Shopify professionals with extensive experience in building and customizing eCommerce stores. We stay updated with the latest Shopify technologies and best practices to deliver high-quality development solutions.`,
+          ],
+        },
+        {
+          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_2_dlpnys.png',
+          name: 'Custom Solutions for Your Business',
+          description: [
+            `Every business has unique needs and goals. Instead of offering one-size-fits-all solutions, we develop custom Shopify stores tailored to your brand identity, target audience, and operational requirements.`,
+          ],
+        },
+        {
+          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_3_r3sl4v.png',
+          name: 'Scalable eCommerce Architecture',
+          description: [
+            `We design Shopify stores with scalability in mind. Whether your store experiences increased traffic, expanding product catalogs, or growing customer bases, our development approach ensures your website can handle growth efficiently.`,
+          ],
+        },
+        {
+          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_4_zvk0k1.png',
+          name: 'SEO-Friendly Shopify Stores',
+          description: [
+            `Our development practices follow SEO best practices, including clean code structure, optimized page performance, and mobile-friendly design. This helps improve search engine visibility and ensures your store is positioned for long-term organic growth.`,
+          ],
+        },
+        {
+          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_5_fvsjh9.png',
+          name: 'Dedicated Support & Maintenance',
+          description: [
+            `Our partnership continues even after your store is launched. We provide ongoing maintenance, updates, technical support, and performance monitoring to ensure your Shopify store remains secure, efficient, and up to date.`,
+          ],
+        },
+      ],
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      title: 'Frequently Asked Questions',
+      description: ``,
+      list: [
+        {
+          title: 'What does a Shopify app development company do?',
+          description: [
+            `We, as a Shopify app development company, help businesses design, build, customize, and maintain eCommerce stores using the Shopify platform. These services include store setup, theme customization, app development, integration of third-party tools, and performance optimization.`,
+          ],
+        },
+        {
+          title: 'How long does it take to build a Shopify store?',
+          description: [
+            `The development timeline depends on the complexity of the project. A basic store setup can take a few weeks, while a fully customized Shopify store with advanced features and integrations may take several weeks to complete.`,
+          ],
+        },
+        {
+          title: 'What is the difference between Shopify and Shopify Plus?',
+          description: [
+            `Shopify is designed for small and medium-sized businesses, while Shopify Plus is an enterprise-level solution that provides advanced features, automation tools, and scalability for high-volume online stores.`,
+          ],
+        },
+        {
+          title: 'Can my existing eCommerce website be migrated to Shopify?',
+          description: [
+            `Yes, an existing store can be migrated from platforms such as WooCommerce, Magento, or other systems to Shopify. During migration, products, customer data, and order history can be securely transferred while maintaining SEO performance.`,
+          ],
+        },
+        {
+          title: 'Is Shopify suitable for small businesses?',
+          description: [
+            `Yes, Shopify is highly suitable for small businesses because it offers easy store management, affordable pricing plans, and a wide range of built-in tools that simplify eCommerce operations.`,
+          ],
+        },
+        {
+          title: 'Can Shopify stores be customized?',
+          description: [
+            `Yes, Shopify stores can be customized through themes, apps, and custom development. Developers can modify store design, add new features, and integrate external systems to match business requirements.`,
+          ],
+        },
+        {
+          title: 'Do Shopify stores support multiple payment gateways?',
+          description: [
+            `Yes, Shopify supports multiple payment gateways and also offers its own integrated payment solution called Shopify Payments, making transactions secure and convenient.`,
+          ],
+        },
+        {
+          title: 'Do you offer ongoing Shopify maintenance and support?',
+          description: [
+            `Yes, ongoing support services are typically available to help businesses maintain store performance, implement updates, resolve technical issues, and continuously optimize their Shopify store.`,
+          ],
+        },
+      ],
+    },
+
     ourProcess: {
       isVisible: false,
       isInCenter: true,
@@ -19890,53 +19994,6 @@ brand appears in AI summaries and citations.`,
       ],
     },
 
-    whatMkeDeferent: {
-      isVisible: true,
-      isVariant: '02',
-      bgGradient: '',
-      heading: `Why Choose Our Shopify App Development Company`,
-      description: [
-        'Our team combines technical expertise, creative design capabilities, and strategic thinking to deliver Shopify solutions that help businesses grow and succeed in the competitive online marketplace.',
-      ],
-      list: [
-        {
-          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_1_r50n2t.png',
-          name: 'Experienced Shopify Developers',
-          description: [
-            `Our development team consists of highly skilled Shopify professionals with extensive experience in building and customizing eCommerce stores. We stay updated with the latest Shopify technologies and best practices to deliver high-quality development solutions.`,
-          ],
-        },
-        {
-          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_2_dlpnys.png',
-          name: 'Custom Solutions for Your Business',
-          description: [
-            `Every business has unique needs and goals. Instead of offering one-size-fits-all solutions, we develop custom Shopify stores tailored to your brand identity, target audience, and operational requirements.`,
-          ],
-        },
-        {
-          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_3_r3sl4v.png',
-          name: 'Scalable eCommerce Architecture',
-          description: [
-            `We design Shopify stores with scalability in mind. Whether your store experiences increased traffic, expanding product catalogs, or growing customer bases, our development approach ensures your website can handle growth efficiently.`,
-          ],
-        },
-        {
-          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_4_zvk0k1.png',
-          name: 'SEO-Friendly Shopify Stores',
-          description: [
-            `Our development practices follow SEO best practices, including clean code structure, optimized page performance, and mobile-friendly design. This helps improve search engine visibility and ensures your store is positioned for long-term organic growth.`,
-          ],
-        },
-        {
-          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_5_fvsjh9.png',
-          name: 'Dedicated Support & Maintenance',
-          description: [
-            `Our partnership continues even after your store is launched. We provide ongoing maintenance, updates, technical support, and performance monitoring to ensure your Shopify store remains secure, efficient, and up to date.`,
-          ],
-        },
-      ],
-    },
-
     buildlinks: {
       isVisible: true,
       isCode01: true,
@@ -19954,63 +20011,6 @@ brand appears in AI summaries and citations.`,
         },
       ],
       button: 'Start Your Shopify Project Today',
-    },
-
-    faqData: {
-      isVisible: true,
-      subtitle: 'FAQ',
-      title: 'Frequently Asked Questions',
-      description: ``,
-      list: [
-        {
-          title: 'What does a Shopify app development company do?',
-          description: [
-            `We, as a Shopify app development company, help businesses design, build, customize, and maintain eCommerce stores using the Shopify platform. These services include store setup, theme customization, app development, integration of third-party tools, and performance optimization.`,
-          ],
-        },
-        {
-          title: 'How long does it take to build a Shopify store?',
-          description: [
-            `The development timeline depends on the complexity of the project. A basic store setup can take a few weeks, while a fully customized Shopify store with advanced features and integrations may take several weeks to complete.`,
-          ],
-        },
-        {
-          title: 'What is the difference between Shopify and Shopify Plus?',
-          description: [
-            `Shopify is designed for small and medium-sized businesses, while Shopify Plus is an enterprise-level solution that provides advanced features, automation tools, and scalability for high-volume online stores.`,
-          ],
-        },
-        {
-          title: 'Can my existing eCommerce website be migrated to Shopify?',
-          description: [
-            `Yes, an existing store can be migrated from platforms such as WooCommerce, Magento, or other systems to Shopify. During migration, products, customer data, and order history can be securely transferred while maintaining SEO performance.`,
-          ],
-        },
-        {
-          title: 'Is Shopify suitable for small businesses?',
-          description: [
-            `Yes, Shopify is highly suitable for small businesses because it offers easy store management, affordable pricing plans, and a wide range of built-in tools that simplify eCommerce operations.`,
-          ],
-        },
-        {
-          title: 'Can Shopify stores be customized?',
-          description: [
-            `Yes, Shopify stores can be customized through themes, apps, and custom development. Developers can modify store design, add new features, and integrate external systems to match business requirements.`,
-          ],
-        },
-        {
-          title: 'Do Shopify stores support multiple payment gateways?',
-          description: [
-            `Yes, Shopify supports multiple payment gateways and also offers its own integrated payment solution called Shopify Payments, making transactions secure and convenient.`,
-          ],
-        },
-        {
-          title: 'Do you offer ongoing Shopify maintenance and support?',
-          description: [
-            `Yes, ongoing support services are typically available to help businesses maintain store performance, implement updates, resolve technical issues, and continuously optimize their Shopify store.`,
-          ],
-        },
-      ],
     },
 
     whatareservice2: {
