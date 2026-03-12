@@ -536,7 +536,7 @@ export const ServiceSectionData = {
           label: 'LLM SEO/LLMO',
           title: 'LLM SEO/LLMO',
           description: `Adaired’s LLM SEO services enable agencies to offer next-generation search optimization under their own brand. We handle the strategy and execution needed to optimize client content for AI-driven search and generative models, while you maintain full ownership of client relationships and reporting.`,
-          link: '/services/ai-seo-india',
+          link: '/services/llm-seo-india',
         },
         {
           icon: WhiteLabelFacebookAds,
