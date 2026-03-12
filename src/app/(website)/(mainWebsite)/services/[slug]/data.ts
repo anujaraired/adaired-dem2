@@ -19831,35 +19831,35 @@ brand appears in AI summaries and citations.`,
       ],
       list: [
         {
-          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_1_r50n2t.png',
+          img: 'adaired/services/eCommerce_seo_india/Group_1000007197_z3qcbu.png',
           name: 'Experienced Shopify Developers',
           description: [
             `Our development team consists of highly skilled Shopify professionals with extensive experience in building and customizing eCommerce stores. We stay updated with the latest Shopify technologies and best practices to deliver high-quality development solutions.`,
           ],
         },
         {
-          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_2_dlpnys.png',
+          img: 'adaired/services/eCommerce_seo_india/Group_1000007198_yg9fpx.png',
           name: 'Custom Solutions for Your Business',
           description: [
             `Every business has unique needs and goals. Instead of offering one-size-fits-all solutions, we develop custom Shopify stores tailored to your brand identity, target audience, and operational requirements.`,
           ],
         },
         {
-          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_3_r3sl4v.png',
+          img: 'adaired/services/eCommerce_seo_india/Group_o5nqkt.png',
           name: 'Scalable eCommerce Architecture',
           description: [
             `We design Shopify stores with scalability in mind. Whether your store experiences increased traffic, expanding product catalogs, or growing customer bases, our development approach ensures your website can handle growth efficiently.`,
           ],
         },
         {
-          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_4_zvk0k1.png',
+          img: 'adaired/services/eCommerce_seo_india/Group_1_kfwcw5.png',
           name: 'SEO-Friendly Shopify Stores',
           description: [
             `Our development practices follow SEO best practices, including clean code structure, optimized page performance, and mobile-friendly design. This helps improve search engine visibility and ensures your store is positioned for long-term organic growth.`,
           ],
         },
         {
-          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_5_fvsjh9.png',
+          img: 'adaired/services/eCommerce_seo_india/Group_2_zqvypq.png',
           name: 'Dedicated Support & Maintenance',
           description: [
             `Our partnership continues even after your store is launched. We provide ongoing maintenance, updates, technical support, and performance monitoring to ensure your Shopify store remains secure, efficient, and up to date.`,
