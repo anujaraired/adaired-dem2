@@ -578,6 +578,22 @@ import ImpToBusinessIcon6 from '../../../../../../public/assets/images/services/
 import ShopifyDevBannerImg from '../../../../../../public/assets/images/services/shopifyDevelopment/ShopifyDevBannerImg.png';
 import shopifyDevKeyStatsImg from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevKeyStatsImg.png';
 import shopifyDevWhatAreServiceImg from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevWhatAreServiceImg.png';
+import shopifyDevAdairedHelpImg from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevAdairedHelpImg.png';
+import shopifyDevBuildLinkImg from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevBuildLinkImg.png';
+
+import shopifyDevProcessIcon_1 from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevProcessIcon_1.png';
+import shopifyDevProcessIcon_2 from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevProcessIcon_2.png';
+import shopifyDevProcessIcon_3 from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevProcessIcon_3.png';
+import shopifyDevProcessIcon_4 from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevProcessIcon_4.png';
+import shopifyDevProcessIcon_5 from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevProcessIcon_5.png';
+import shopifyDevProcessIcon_6 from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevProcessIcon_6.png';
+
+import shopifyDevImpIcon_1 from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevImpIcon_1.png';
+import shopifyDevImpIcon_2 from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevImpIcon_2.png';
+import shopifyDevImpIcon_3 from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevImpIcon_3.png';
+import shopifyDevImpIcon_4 from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevImpIcon_4.png';
+import shopifyDevImpIcon_5 from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevImpIcon_5.png';
+import shopifyDevImpIcon_6 from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevImpIcon_6.png';
 
 export type SectionKey =
   | 'banner'
@@ -18408,12 +18424,12 @@ brand appears in AI summaries and citations.`,
       ],
     },
   },
-
   'shopify-development-company-india': {
     sectionsOrder: [
       'banner',
       'keyStats',
       'whatareservice',
+      'importantToBussiness',
       'adairedHelp',
       'ourProcess',
       'whatMkeDeferent',
@@ -18421,7 +18437,6 @@ brand appears in AI summaries and citations.`,
       'faqData',
       'benefitofAiSeo',
       'whatareservice2',
-      'importantToBussiness',
       'dataInTable',
       'whatMissing',
       'whatIncluded',
@@ -18538,11 +18553,98 @@ brand appears in AI summaries and citations.`,
       button: '',
     },
 
+    importantToBussiness: {
+      isVisible: true,
+      isInCenter: false,
+      isCardVisible: true,
+      breakIndex: 5,
+      isVariant: '01',
+      cardColor: '#F9F9F9',
+      heading:
+        'Full-Service Shopify Design & Development Solutions',
+      description: [
+        `As a professional Shopify Plus development company, Adaired Digital offers comprehensive solutions to help businesses build, customize, and scale powerful eCommerce stores. `,
+        `Our Shopify development services are designed to deliver high-performing, secure, and user-friendly online stores tailored to your specific business goals.`,
+      ],
+      buttonName: 'Launch My Shopify Store',
+      data: [
+        {
+          icon: shopifyDevImpIcon_1,
+          name: 'Custom Shopify Store Development',
+          description: [
+            `Our custom Shopify store development services focus on building fully tailored eCommerce websites that align with your brand identity and business objectives.`,
+            `We create scalable store architectures, design intuitive user journeys, and implement advanced features that help businesses stand out in the competitive online marketplace.`,
+            `Whether you are launching a new store or redesigning an existing one, we ensure your Shopify store is built for performance, usability, and future growth.`,
+          ],
+          button: 'Launch My Shopify Store',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: shopifyDevImpIcon_2,
+          name: 'Shopify Theme Development',
+          description: [
+            `A well-designed theme plays a critical role in delivering a smooth and engaging shopping experience. `,
+            `Our Shopify theme development services include creating custom themes from scratch or customizing existing themes to match your brand guidelines. `,
+            `We design responsive layouts, optimize navigation structures, and ensure that every element of the theme is optimized for speed, accessibility, and mobile compatibility. This results in visually appealing stores that provide consistent experiences across all devices.`,
+          ],
+          button: 'Launch My Shopify Store',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: shopifyDevImpIcon_3,
+          name: 'Shopify App Development',
+          description: [
+            `Every business has unique operational needs, and sometimes off-the-shelf solutions may not fully meet those requirements.`,
+            `Our Shopify app development services focus on building custom apps that extend the functionality of your store.`,
+            ` We develop apps that automate workflows, enhance store management, integrate external systems, and improve customer engagement. These apps are designed to work seamlessly within your Shopify environment while providing the flexibility needed to support your business processes.`,
+          ],
+          button: 'Launch My Shopify Store',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: shopifyDevImpIcon_4,
+          name: 'Shopify Plus Development',
+          description: [
+            `For rapidly growing brands and enterprise-level businesses, we offer advanced development solutions using Shopify Plus. Shopify Plus provides powerful features such as advanced automation, higher scalability, and enhanced customization options. `,
+            `Our team leverages these capabilities to build high-performance stores capable of handling large product catalogs, high traffic volumes, and complex operational requirements. `,
+            `This allows businesses to scale efficiently while maintaining exceptional customer experiences.`,
+          ],
+          button: 'Launch My Shopify Store',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: shopifyDevImpIcon_5,
+          name: 'Shopify Store Migration',
+          description: [
+            `If you are planning to move your online store from another platform to Shopify, our migration services ensure a smooth and secure transition. `,
+            `We carefully transfer all essential data, including product catalogs, customer information, order history, and content, while preserving your website’s SEO value and search engine rankings. `,
+            `Our team ensures minimal downtime during the migration process so your business operations continue without disruption.`,
+          ],
+          button: 'Launch My Shopify Store',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: shopifyDevImpIcon_6,
+          name: 'Shopify Store Optimization',
+          description: [
+            `A successful Shopify store requires continuous improvement and optimization. `,
+            `Our Shopify store optimization services focus on improving page load speed, enhancing user experience, refining product pages, and optimizing checkout processes. `,
+            `By analyzing store performance and user behavior, we implement targeted improvements that increase engagement, reduce bounce rates, and ultimately drive higher conversion rates.`,
+          ],
+          button: 'Launch My Shopify Store',
+          btnColor: '#FB9100',
+        },
+      ],
+    },
+
     adairedHelp: {
       isVisible: true,
       breakIndex: 5,
-      img: AdairedHelp,
+      img: shopifyDevAdairedHelpImg,
       isInCenter: false,
+      textColor: '#000000',
+      isnNumberBg: true,
+      numberBg: '#FDE6C6',
       bgColor: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFCF8]',
       cardBg: '',
       heading: `Why Choose Shopify for Your eCommerce Store`,
@@ -18594,66 +18696,66 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: true,
       subtitle: 'Our Process',
-      title: 'How We Deliver Successful WordPress Development Projects',
+      title: 'Our Shopify Development Process',
       breakIndex: 5,
       bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFFFFF]',
       span: '',
       description: [
-        `Our development process focuses on collaboration, quality assurance, and continuous improvement to create high-performing WordPress websites that support long-term business growth.`,
+        `We follow a structured and strategic approach that ensures every project is delivered with efficiency, precision, and high quality.`,
       ],
       services: [
         {
-          icon: Icon1,
-          title: 'Requirement Analysis',
+          icon: shopifyDevProcessIcon_1,
+          title: 'Discovery & Requirement Analysis',
           description: [
-            `Every successful project begins with a thorough understanding of your business goals, target audience, and technical requirements. During the requirement analysis stage, our team works closely with you to gather important information about your brand, services, competitors, and desired website functionality.`,
-            `We evaluate factors such as website objectives, content structure, design preferences, and integration needs. This step helps us identify the most suitable WordPress solutions and ensures that the final product aligns with your business strategy.`,
-            `By clearly defining project requirements at the beginning, we reduce the chances of miscommunication and ensure a smooth development process.`,
+            `Every successful Shopify project begins with a comprehensive discovery phase. During this stage, our team works closely with you to understand your business objectives, target audience, product offerings, and overall eCommerce strategy.`,
+            `We evaluate your current digital presence, analyze competitors within your industry, and identify opportunities to improve functionality and user experience.`,
+            `This phase also involves gathering technical requirements, understanding integration needs, and determining the features necessary to support your store’s operations.`,
           ],
         },
         {
-          icon: Icon2,
-          title: 'UI/UX Design Planning',
+          icon: shopifyDevProcessIcon_2,
+          title: 'Planning & Strategy',
           description: [
-            `Once the project requirements are finalized, our designers focus on creating an intuitive and visually engaging user experience. During the UI/UX planning stage, we develop wireframes, design layouts, and user interface concepts that reflect your brand identity and improve website usability.`,
-            `Our goal is to create a design that is not only visually appealing but also easy for visitors to navigate. We pay close attention to layout structure, typography, color schemes, and user interaction elements to ensure the website delivers a consistent experience across all devices.`,
-            `The design phase also includes mobile responsiveness planning, ensuring that your WordPress website performs perfectly on smartphones, tablets, and desktops.`,
+            `Once the discovery phase is complete, we move into strategic planning. At this stage, our team develops a detailed roadmap outlining the entire Shopify development process.`,
+            `This includes defining the website architecture, organizing product categories, planning user navigation flows, and selecting the most suitable technologies and integrations.`,
+            `We also establish development timelines, project milestones, and communication channels to ensure smooth collaboration throughout the project.`,
           ],
         },
         {
-          icon: Icon3,
-          title: 'Development and Customization',
+          icon: shopifyDevProcessIcon_3,
+          title: 'UI/UX Design',
           description: [
-            `After the design is approved, our developers begin building the website using modern WordPress development practices. This stage involves creating custom themes, configuring plugins, and implementing the required functionality to bring the design to life. Our developers work with technologies such as PHP, HTML, CSS, and JavaScript to develop secure and scalable solutions tailored to your specific business needs.`,
-            `We also focus on writing clean, optimized code that ensures faster loading speeds and long-term maintainability. Throughout the development process, we regularly review progress and ensure that all features and integrations are functioning as expected.`,
-            `This collaborative approach allows us to maintain transparency and deliver a website that meets both technical and business expectations.`,
+            `User experience plays a critical role in the success of any eCommerce website. During the design phase, our designers focus on creating visually appealing and intuitive interfaces that reflect your brand identity while enhancing usability.`,
+            `We develop wireframes, design layouts, and interactive elements that guide users through a smooth shopping journey.`,
+            `Special attention is given to mobile responsiveness, navigation simplicity, and product page optimization to ensure customers can easily browse, search, and purchase products.`,
           ],
         },
         {
-          icon: Icon4,
-          title: 'Testing and Quality Assurance',
+          icon: shopifyDevProcessIcon_4,
+          title: 'Shopify Development & Customization',
           description: [
-            `Before launching the website, we perform extensive testing to ensure that every component functions correctly. Our quality assurance process includes testing website performance, responsiveness, security, and compatibility across different browsers and devices.`,
-            `We verify that all forms, navigation elements, and interactive features operate smoothly. Additionally, we check page loading speed, optimize images and scripts, and ensure the website follows SEO best practices.`,
-            `This detailed testing process helps eliminate potential issues and guarantees that your website provides a reliable and user-friendly experience.`,
+            `After the design is approved, our development team begins building your Shopify store. This stage involves converting design concepts into a fully functional website using best coding practices and Shopify’s development framework.`,
+            `We customize themes, implement advanced features, integrate third-party applications, and configure store settings to match your operational needs.`,
+            `Our developers ensure that your store is optimized for performance, security, and scalability.`,
           ],
         },
         {
-          icon: Icon5,
-          title: 'Website Launch',
+          icon: shopifyDevProcessIcon_5,
+          title: 'Testing & Quality Assurance',
           description: [
-            `Once the testing phase is successfully completed, we prepare the website for launch. Our team ensures that the hosting environment is properly configured and that the website is fully optimized for performance and security before going live.`,
-            `We also verify that all content, links, and integrations are functioning correctly. The launch phase involves deploying the website to the live server while ensuring minimal downtime.`,
-            `Our goal is to make the transition from development to a live environment as smooth as possible.`,
+            `Before launching your Shopify store, we conduct comprehensive testing to ensure that every feature functions flawlessly.`,
+            `Our quality assurance process includes checking all website components, validating forms and checkout processes, testing integrations, and reviewing product display functionality.`,
+            `We also test the store across multiple browsers, devices, and screen sizes to ensure a consistent user experience. Performance optimization and security checks are also conducted during this stage to guarantee that your Shopify store is fast, stable, and secure.`,
           ],
         },
         {
-          icon: Icon6,
-          title: 'Post-Launch Support',
+          icon: shopifyDevProcessIcon_6,
+          title: 'Launch & Optimization',
           description: [
-            `Our relationship with clients does not end after the website goes live. We provide ongoing WordPress maintenance and support to ensure that your website continues to operate smoothly and remains up to date.`,
-            `This includes regular software updates, security monitoring, performance optimization, and troubleshooting. We also assist with future improvements, feature enhancements, and technical support whenever required.`,
-            `With our dedicated post-launch support, your WordPress website remains secure, efficient, and capable of adapting to evolving business needs.`,
+            `Once testing is completed and final approvals are obtained, we proceed with launching your Shopify store.`,
+            `Our team carefully deploys the website to the live environment while ensuring minimal downtime and smooth system integration.`,
+            `After the launch, we monitor the store’s performance closely to ensure everything operates as expected. We also perform post-launch optimization tasks such as improving page speed, refining user experience, and implementing additional enhancements where needed.`,
           ],
         },
       ],
@@ -18663,59 +18765,44 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '02',
       bgGradient: '',
-      heading: `Why Choose Adaired Digital's WordPress Development Services`,
+      heading: `Why Choose Our Shopify App Development Company`,
       description: [
-        'At Adaired Digital, we combine technical expertise, strategic thinking, and creative design to deliver WordPress websites that drive real business results.',
+        'Our team combines technical expertise, creative design capabilities, and strategic thinking to deliver Shopify solutions that help businesses grow and succeed in the competitive online marketplace.',
       ],
       list: [
         {
           img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_1_r50n2t.png',
-          name: 'Experienced WordPress Developers',
+          name: 'Experienced Shopify Developers',
           description: [
-            `Our team consists of skilled developers with extensive experience in building custom WordPress websites for businesses across different industries. `,
+            `Our development team consists of highly skilled Shopify professionals with extensive experience in building and customizing eCommerce stores. We stay updated with the latest Shopify technologies and best practices to deliver high-quality development solutions.`,
           ],
         },
         {
           img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_2_dlpnys.png',
-          name: 'Custom Development Solutions',
+          name: 'Custom Solutions for Your Business',
           description: [
-            `We don’t rely on generic templates. Every WordPress website we develop is tailored to your brand, business goals, and audience.`,
+            `Every business has unique needs and goals. Instead of offering one-size-fits-all solutions, we develop custom Shopify stores tailored to your brand identity, target audience, and operational requirements.`,
           ],
         },
         {
           img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_3_r3sl4v.png',
-          name: 'SEO-Friendly Development',
+          name: 'Scalable eCommerce Architecture',
           description: [
-            `Through years, we have built a reputation on delivering quality work to our clients. Since there are a number of steps involved in the website creation, we create timelines for different aspects of the project to complete it on time. `,
-            `Whether you need a simple business website or a complex e-commerce platform, we are capable of developing tailored solutions that can scale with your business. `,
+            `We design Shopify stores with scalability in mind. Whether your store experiences increased traffic, expanding product catalogs, or growing customer bases, our development approach ensures your website can handle growth efficiently.`,
           ],
         },
         {
           img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_4_zvk0k1.png',
-          name: 'Quick Turnaround Time',
+          name: 'SEO-Friendly Shopify Stores',
           description: [
-            `Our websites are built following SEO best practices, helping your site perform better in search engine results and attract more organic traffic. `,
+            `Our development practices follow SEO best practices, including clean code structure, optimized page performance, and mobile-friendly design. This helps improve search engine visibility and ensures your store is positioned for long-term organic growth.`,
           ],
         },
         {
           img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_5_fvsjh9.png',
-          name: 'Mobile-First Design',
+          name: 'Dedicated Support & Maintenance',
           description: [
-            `With a large percentage of users browsing on mobile devices, we ensure that every website we build is fully responsive and optimized for all screen sizes `,
-          ],
-        },
-        {
-          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_6_bbua27.png',
-          name: 'Performance Optimization',
-          description: [
-            `We focus on building fast-loading websites that provide excellent user experiences and meet modern performance standards. `,
-          ],
-        },
-        {
-          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_7_og9cfi.png',
-          name: 'Ongoing Support',
-          description: [
-            `Our relationship doesn’t end after launch. We provide ongoing maintenance and support services to keep your website secure, updated, and running smoothly. `,
+            `Our partnership continues even after your store is launched. We provide ongoing maintenance, updates, technical support, and performance monitoring to ensure your Shopify store remains secure, efficient, and up to date.`,
           ],
         },
       ],
@@ -18727,20 +18814,17 @@ brand appears in AI summaries and citations.`,
       isVariant: '06',
       breakIndex: 3,
       bgImg: bgImgBuildLink,
-      img: BuildLink,
-      label: 'Start Your WordPress',
-      heading: 'Development Today',
+      img: shopifyDevBuildLinkImg,
+      label: 'Take Your eCommerce',
+      heading: 'Business to the Next Level!',
       description: ``,
       isBgWhite: true,
       data: [
         {
-          desctioption: `At Adaired Digital, hire WordPress development India team to help you create a powerful online presence that attracts visitors, builds trust, and converts leads into customers.`,
-        },
-        {
-          desctioption: `Get in touch with our WordPress experts today to discuss your project and receive a customized development solution tailored to your business needs.`,
+          desctioption: `Whether you are launching a new eCommerce business or upgrading an existing store, we, as an expert Shopify development company India is ready to help you create a powerful and scalable online store.`,
         },
       ],
-      button: 'Talk to a WordPress Expert',
+      button: 'Start Your Shopify Project Today',
     },
 
     faqData: {
@@ -18750,54 +18834,51 @@ brand appears in AI summaries and citations.`,
       description: ``,
       list: [
         {
-          title: 'What are WordPress development services?',
+          title: 'What does a Shopify app development company do?',
           description: [
-            `WordPress development services involve designing, building, customizing, and maintaining websites using the WordPress content management system.`,
-            `These services may include theme development, plugin development, website optimization, and ongoing support.`,
+            `We, as a Shopify app development company, help businesses design, build, customize, and maintain eCommerce stores using the Shopify platform. These services include store setup, theme customization, app development, integration of third-party tools, and performance optimization.`,
           ],
         },
         {
-          title: 'Why should I choose WordPress for my website?',
+          title: 'How long does it take to build a Shopify store?',
           description: [
-            `WordPress is one of the most flexible and widely used website platforms.`,
-            `It offers extensive customization options, thousands of plugins, strong SEO capabilities, and an easy-to-manage content system.`,
+            `The development timeline depends on the complexity of the project. A basic store setup can take a few weeks, while a fully customized Shopify store with advanced features and integrations may take several weeks to complete.`,
           ],
         },
         {
-          title: 'How long does it take to develop a WordPress website?',
+          title: 'What is the difference between Shopify and Shopify Plus?',
           description: [
-            `The development timeline depends on the complexity of the project.`,
-            `A basic business website may take a few weeks, while a more complex website with custom features may require additional development time.`,
+            `Shopify is designed for small and medium-sized businesses, while Shopify Plus is an enterprise-level solution that provides advanced features, automation tools, and scalability for high-volume online stores.`,
           ],
         },
         {
-          title: 'Can you redesign my existing WordPress website?',
+          title: 'Can my existing eCommerce website be migrated to Shopify?',
           description: [
-            `Yes, we offer WordPress redesign services to improve your website’s design, performance, and user experience while maintaining your existing content and SEO value.`,
+            `Yes, an existing store can be migrated from platforms such as WooCommerce, Magento, or other systems to Shopify. During migration, products, customer data, and order history can be securely transferred while maintaining SEO performance.`,
           ],
         },
         {
-          title: 'Do you provide WooCommerce development services?',
+          title: 'Is Shopify suitable for small businesses?',
           description: [
-            `Yes, we develop WooCommerce-powered e-commerce websites that allow businesses to sell products and services online with secure payment integrations and optimized shopping experiences.`,
+            `Yes, Shopify is highly suitable for small businesses because it offers easy store management, affordable pricing plans, and a wide range of built-in tools that simplify eCommerce operations.`,
           ],
         },
         {
-          title: 'Is WordPress good for SEO?',
+          title: 'Can Shopify stores be customized?',
           description: [
-            `Yes, WordPress is highly SEO-friendly. With proper optimization, WordPress websites can rank well in search engines and attract consistent organic traffic.`,
+            `Yes, Shopify stores can be customized through themes, apps, and custom development. Developers can modify store design, add new features, and integrate external systems to match business requirements.`,
           ],
         },
         {
-          title: 'Do you offer ongoing WordPress maintenance services?',
+          title: 'Do Shopify stores support multiple payment gateways?',
           description: [
-            `Yes, we provide WordPress maintenance services that include software updates, security monitoring, performance optimization, and technical support.`,
+            `Yes, Shopify supports multiple payment gateways and also offers its own integrated payment solution called Shopify Payments, making transactions secure and convenient.`,
           ],
         },
         {
-          title: 'Can I manage my WordPress website after it is launched?',
+          title: 'Do you offer ongoing Shopify maintenance and support?',
           description: [
-            `Absolutely. WordPress has a user-friendly dashboard that allows you to easily update content, publish blog posts, and manage your website without advanced technical knowledge.`,
+            `Yes, ongoing support services are typically available to help businesses maintain store performance, implement updates, resolve technical issues, and continuously optimize their Shopify store.`,
           ],
         },
       ],
@@ -18928,127 +19009,6 @@ brand appears in AI summaries and citations.`,
         },
         {
           desctioption: `Overall, WordPress development is a multifaceted discipline that combines technical skills with creative design to deliver effective online solutions.`,
-        },
-      ],
-    },
-
-    importantToBussiness: {
-      isVisible: false,
-      isInCenter: true,
-      isCardVisible: true,
-      breakIndex: 5,
-      isVariant: '01',
-      cardColor: '#F9F9F9',
-      heading:
-        'Unlock Your Potential with Top-Notch GBP Optimization Services!',
-      description: [``],
-      buttonName: 'Optimize My Website for AI',
-      data: [
-        {
-          icon: icon_1,
-          name: 'Profile Setup & Verification',
-          description: [
-            `A properly set up and verified Google Business Profile is the foundation of strong local visibility. Our team handles the entire setup process, ensuring that your business is correctly listed on Google with accurate details and professional formatting. `,
-            `We also guide and manage the verification process through Google’s approved methods, such as postcard, phone, or video verification. Once verified, your profile gains credibility and becomes eligible to appear in local search results and Google Maps listings.`,
-          ],
-          button: 'Boost My Visibility Today',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: icon_2,
-          name: 'Google Maps Ranking Tracking',
-          description: [
-            `Understanding how your business ranks in different areas of your city is critical for GMB SEO success. We use advanced geo-grid and heatmap tracking tools to monitor your visibility across neighborhoods and key service areas. `,
-            `This allows us to identify locations where your business ranks strongly and areas where visibility may be weak. With this data-driven approach, we refine optimization strategies to improve your rankings across a wider geographic range.`,
-          ],
-          button: 'Boost My Visibility Today',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: icon_3,
-          name: 'Keyword & Category Optimization',
-          description: [
-            `Choosing the right business categories and integrating relevant keywords can significantly improve your chances of appearing in local search results. Our GBP optimization service experts conduct in-depth keyword research to identify high-intent search terms that customers in your area are using. `,
-            `We then optimize your business description, services, and categories with these keywords to increase your visibility when potential customers search for related services on Google.`,
-          ],
-          button: 'Boost My Visibility Today',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: icon_4,
-          name: 'Review & Reputation Management',
-          description: [
-            `Customer reviews have a powerful influence on both search rankings and customer trust. Our review management strategy focuses on helping you generate more authentic customer feedback while maintaining a professional reputation online. `,
-            `We assist in creating review acquisition strategies and craft thoughtful responses to both positive and negative reviews. This approach strengthens your credibility and demonstrates your commitment to customer satisfaction.`,
-          ],
-          button: 'Boost My Visibility Today',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: icon_5,
-          name: 'Google Posts & Content Updates',
-          description: [
-            `Google rewards active and regularly updated business profiles. Our team creates engaging Google Posts that highlight business updates, promotions, offers, events, or announcements. `,
-            `These posts keep your profile active and provide valuable information to potential customers browsing your listing. Consistent posting also signals to Google that your business is active and relevant, which can positively influence your local search visibility.`,
-          ],
-          button: 'Boost My Visibility Today',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: icon_6,
-          name: 'Photo & Video Optimization',
-          description: [
-            `Visual content plays a major role in attracting customers and building trust. Businesses with high-quality photos and videos often receive more engagement and clicks compared to those without visuals. `,
-            `We optimize and upload professional images of your business location, interior, exterior, products, services, and team members.`,
-            `These visuals help customers better understand your brand while improving engagement with your profile.`,
-          ],
-          button: 'Boost My Visibility Today',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: icon_7,
-          name: 'Q&A Section Optimization',
-          description: [
-            `The Questions & Answers section on your Google Business Profile is often overlooked, yet it can significantly influence customer decisions.`,
-            `We proactively add commonly asked questions and provide helpful answers that address typical customer concerns.`,
-            `This not only saves time for your business but also ensures that accurate information is available to potential customers before they contact you.`,
-          ],
-          button: 'Boost My Visibility Today',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: icon_8,
-          name: 'Listing Monitoring & Protection',
-          description: [
-            `Unauthorized edits or competitor interference can sometimes change important details on your business listing. Our monitoring system continuously checks your profile for any suspicious or incorrect updates.`,
-            `If changes occur, we quickly correct them to maintain the accuracy of your listing.`,
-            `This proactive protection ensures that your business information remains reliable and trustworthy for customers searching on Google.`,
-          ],
-          button: 'Boost My Visibility Today',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: icon_9,
-          name: 'Performance Analytics & Reporting',
-          description: [
-            `Understanding how customers interact with your Google Business Profile is essential for measuring success. We provide detailed performance reports that track key customer actions such as phone calls, direction requests, website clicks, and profile views. `,
-            `These insights help you clearly see the impact of optimization efforts and understand how your listing contributes to generating new leads and customers.`,
-          ],
-          button: 'Boost My Visibility Today',
-          btnColor: '#FB9100',
-        },
-      ],
-      card: [
-        {
-          code: 2,
-          img: ImpToBusinessCradImg,
-          heading: 'Boost Your Visibility on',
-          heading1: [`Google Maps`],
-          description: [
-            `Take the next step toward stronger local visibility and more customer inquiries. `,
-            `Contact Adaired Digital today to get started with professional Google My Business optimization services.`,
-          ],
-          buttonName: 'Optimize My Website for AI',
         },
       ],
     },
