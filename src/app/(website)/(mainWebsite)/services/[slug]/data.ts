@@ -514,7 +514,6 @@ import icon_7 from '../../../../../../public/assets/images/services/gmb/ImpToBus
 import icon_8 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon8.svg';
 import icon_9 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon9.svg';
 
-
 // GMB Website Seo Images
 import gmbWebsitelocalSeoBannerBg from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsitelocalSeoBannerBg.png';
 import gmbWebsiteSeoBuildLinkImg from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteSeoBuildLinkImg.png';
@@ -1113,6 +1112,12 @@ export const SERVICES_DATA = {
       variant: '01',
       breakIndex: 4,
       bgGradient: '',
+      cardColor2: '#F9F9F9',
+      cardColor: '#FFF8EF',
+      cardImgBgColor2: '#F3F3F3',
+      cardImgBgColor: '#FFEDD7',
+      borderColor2: '#051B3C',
+      borderColor: '#F28F17',
       heading: 'What Makes Adaired Different From Our Competitors?',
       description: [
         `At Adaired, we have a clear plan for building your search engine optimization strategy. Starting with understanding your goals clearly to analyzing where you are losing search visibility, we do all the legwork to help your business uncover quick wins.`,
@@ -1770,6 +1775,12 @@ export const SERVICES_DATA = {
       isInCenter: true,
       bgColor: '#FFFFFF',
       bgGradient: '',
+      cardColor2: '#F9F9F9',
+      cardColor: '#FFF8EF',
+      cardImgBgColor2: '#F3F3F3',
+      cardImgBgColor: '#FFEDD7',
+      borderColor2: '#051B3C',
+      borderColor: '#F28F17',
       heading: 'What Makes Adaired Different From Our Competitors?',
       description: [],
       list: [
@@ -2618,6 +2629,12 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       bgColor: true,
       bgGradient: '',
+      cardColor: '#F9F9F9',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F3F3F3',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       heading: 'What Makes Adaired Different From Our Competitors?',
       description: [],
       list: [
@@ -3274,6 +3291,12 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '02',
       bgGradient: '',
+      cardColor: '#F9F9F9',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F3F3F3',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       heading:
         'What Makes Adaired Stand Out As The Best Website Design & Development Service Provider?',
       description: [
@@ -3945,6 +3968,12 @@ brand appears in AI summaries and citations.`,
       bgColor: true,
       isInCenter: true,
       bgGradient: '',
+      cardColor2: '#F9F9F9',
+      cardColor: '#FFF8EF',
+      cardImgBgColor2: '#F3F3F3',
+      cardImgBgColor: '#FFEDD7',
+      borderColor2: '#051B3C',
+      borderColor: '#F28F17',
       heading: 'Why Choose Adaired for Your Local Search Engine Optimization ?',
       description: [],
       list: [
@@ -4853,6 +4882,12 @@ brand appears in AI summaries and citations.`,
       breakIndex: 5,
       isInCenter: false,
       bgGradient: '',
+      cardColor2: '#F9F9F9',
+      cardColor: '#FFF8EF',
+      cardImgBgColor2: '#F3F3F3',
+      cardImgBgColor: '#FFEDD7',
+      borderColor2: '#051B3C',
+      borderColor: '#F28F17',
       heading: 'Why Choose Adaired as Your White Label Social Media Partner?',
       description: [
         `Selecting the right white label social media agency directly impacts your client satisfaction, service quality, and long-term growth. 
@@ -5702,6 +5737,12 @@ brand appears in AI summaries and citations.`,
       isVariant: '02',
       isInCenter: true,
       bgGradient: '',
+      cardColor: '#F9F9F9',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F3F3F3',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       heading: 'How White Label SEO Works at Adaired',
       bgColor: true,
       description: [
@@ -6658,6 +6699,12 @@ brand appears in AI summaries and citations.`,
       isVariant: '01',
       heading: ``,
       bgGradient: '',
+      cardColor: '#FFFFFF',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F4F4F4',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       description: [
         `Our white-label model is designed to reduce execution pressure while providing agencies with 
         complete control over how services are positioned, priced, and presented to clients. 
@@ -7770,6 +7817,12 @@ brand appears in AI summaries and citations.`,
       isVariant: '01',
       heading: ``,
       bgGradient: '',
+      cardColor: '#FFFFFF',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F4F4F4',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       description: [
         `Our white-label model is designed to reduce execution pressure while providing agencies with 
         complete control over how services are positioned, priced, and presented to clients. 
@@ -8969,6 +9022,12 @@ brand appears in AI summaries and citations.`,
       isVariant: '01',
       heading: ``,
       bgGradient: '',
+      cardColor: '#FFFFFF',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F4F4F4',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       description: [
         `Our white-label model is designed to reduce execution pressure while providing agencies with 
         complete control over how services are positioned, priced, and presented to clients. 
@@ -9545,6 +9604,12 @@ brand appears in AI summaries and citations.`,
       isVariant: '02',
       breakIndex: 3,
       bgGradient: '',
+      cardColor: '#F9F9F9',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F3F3F3',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       heading: `Who Our White Label Link Building Is For`,
       description: [
         `Our white-label link-building services are designed for growth-focused teams that want to deliver powerful SEO results without building an in-house outreach department.`,
@@ -10545,6 +10610,12 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       bgColor: true,
       bgGradient: '',
+      cardColor2: '#F9F9F9',
+      cardColor: '#FFF8EF',
+      cardImgBgColor2: '#F3F3F3',
+      cardImgBgColor: '#FFEDD7',
+      borderColor2: '#051B3C',
+      borderColor: '#F28F17',
       heading: `Why Leading SaaS Brands Choose Adaired Digital`,
       description: [``],
       list: [
@@ -11662,6 +11733,12 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       bgColor: true,
       bgGradient: '',
+      cardColor: '#FFFFFF',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F4F4F4',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       heading: `Why Leading SaaS Brands Choose Adaired Digital`,
       description: [``],
       list: [
@@ -12493,6 +12570,12 @@ brand appears in AI summaries and citations.`,
       isVariant: '02',
       heading: `What Sets Our AI Search Strategy Apart`,
       bgGradient: '',
+      cardColor: '#F9F9F9',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F3F3F3',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       description: [
         `AI search optimization requires more than surface-level SEO updates. Our approach is built around long-term authority positioning, technical precision, and strategic clarity, not short-term tactics.`,
       ],
@@ -13685,6 +13768,12 @@ brand appears in AI summaries and citations.`,
       breakIndex: 3,
       isInCenter: true,
       bgColor: true,
+      cardColor: '#FFFFFF',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F4F4F4',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       bgGradient: 'bg-[#F5F5F5]/40',
       heading: `Why Choose Us as Your Mobile App Development Firm?`,
       description: [``],
@@ -14947,6 +15036,12 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       bgColor: true,
       bgGradient: '',
+      cardColor: '#FFFFFF',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F4F4F4',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       heading: `Why Leading SaaS Brands Choose Adaired Digital`,
       description: [``],
       list: [
@@ -15409,7 +15504,7 @@ brand appears in AI summaries and citations.`,
       isVariant: '01',
       description: [
         `Understanding how local search rankings work is essential for any business that wants to improve its online visibility. When customers search for services near them, Google uses several factors to determine which businesses appear in the local results and the Google Maps “Map Pack.”`,
-        `These factors help Google decide which businesses are the most relevant and trustworthy for a particular search query.`
+        `These factors help Google decide which businesses are the most relevant and trustworthy for a particular search query.`,
       ],
       isBgColor: false,
       img: gmbWebsiteServiceResultImg,
@@ -15419,7 +15514,7 @@ brand appears in AI summaries and citations.`,
           name: '1. Relevance',
           description: [
             `Relevance refers to how closely a business matches what a user is searching for. Google analyzes the information in your Google Business Profile and website content to determine whether your business offers the services being searched.`,
-            `This is why accurate categories, service descriptions, and well-optimized website content are extremely important. Businesses that clearly communicate their services and target keywords tend to rank higher in local searches.`
+            `This is why accurate categories, service descriptions, and well-optimized website content are extremely important. Businesses that clearly communicate their services and target keywords tend to rank higher in local searches.`,
           ],
         },
         {
@@ -15427,7 +15522,7 @@ brand appears in AI summaries and citations.`,
           name: '2. Distance',
           description: [
             `Distance plays a major role in local search results. Google tries to display businesses that are closest to the user’s location or the location specified in the search query.`,
-            `While businesses cannot change their physical location to influence rankings, they can improve visibility by clearly defining their service areas and optimizing location-related content on their website.`
+            `While businesses cannot change their physical location to influence rankings, they can improve visibility by clearly defining their service areas and optimizing location-related content on their website.`,
           ],
         },
         {
@@ -15435,7 +15530,7 @@ brand appears in AI summaries and citations.`,
           name: '3. Prominence',
           description: [
             `IProminence refers to the overall reputation and authority of a business online. Google evaluates factors such as customer reviews, backlinks, business mentions, directory listings, and overall online presence to determine how well-known and trustworthy a business is. Companies with strong online reputations and consistent information across platforms often achieve better local search visibility.`,
-            `When these factors are properly optimized through both Google Business Profile and website SEO, businesses significantly improve their chances of appearing in local search results and attracting nearby customers.`
+            `When these factors are properly optimized through both Google Business Profile and website SEO, businesses significantly improve their chances of appearing in local search results and attracting nearby customers.`,
           ],
         },
       ],
@@ -15456,9 +15551,7 @@ brand appears in AI summaries and citations.`,
           desctioption: `Google Maps`,
           list: [
             {
-              description: [
-                `Helps businesses appear in local search results.`,
-              ],
+              description: [`Helps businesses appear in local search results.`],
             },
             {
               description: [
@@ -15501,14 +15594,10 @@ brand appears in AI summaries and citations.`,
               ],
             },
             {
-              description: [
-                `Enhances website structure and content quality.`,
-              ],
+              description: [`Enhances website structure and content quality.`],
             },
             {
-              description: [
-                `Optimizes images and media for faster loading.`,
-              ],
+              description: [`Optimizes images and media for faster loading.`],
             },
             {
               description: [
@@ -15531,14 +15620,10 @@ brand appears in AI summaries and citations.`,
               ],
             },
             {
-              description: [
-                `Helps businesses reach more potential customers.`,
-              ],
+              description: [`Helps businesses reach more potential customers.`],
             },
             {
-              description: [
-                `Improves customer engagement and trust.`,
-              ],
+              description: [`Improves customer engagement and trust.`],
             },
             {
               description: [
@@ -15551,9 +15636,7 @@ brand appears in AI summaries and citations.`,
               ],
             },
             {
-              description: [
-                `Reach more local customers.`,
-              ],
+              description: [`Reach more local customers.`],
             },
           ],
         },
@@ -15706,7 +15789,7 @@ brand appears in AI summaries and citations.`,
           title: 'Comprehensive Local SEO Audit',
           description: [
             `The first step in our process is to analyze your current online presence. We conduct a detailed audit of your Google Business Profile, website structure, and current keyword rankings.`,
-            `We also evaluate competitor performance to identify opportunities for improvement. This audit allows us to develop a customized strategy that addresses the specific challenges and opportunities within your local market.`
+            `We also evaluate competitor performance to identify opportunities for improvement. This audit allows us to develop a customized strategy that addresses the specific challenges and opportunities within your local market.`,
           ],
         },
         {
@@ -15714,7 +15797,7 @@ brand appears in AI summaries and citations.`,
           title: 'Strategic Keyword Research',
           description: [
             `Once the audit is complete, we conduct extensive keyword research to identify the search terms that customers in your area are using.`,
-            `These keywords are categorized based on search intent and potential value. By targeting the right keywords, we ensure that your business appears in front of customers who are actively looking for services like yours.`
+            `These keywords are categorized based on search intent and potential value. By targeting the right keywords, we ensure that your business appears in front of customers who are actively looking for services like yours.`,
           ],
         },
         {
@@ -15722,7 +15805,7 @@ brand appears in AI summaries and citations.`,
           title: 'Google Business Profile Optimization',
           description: [
             `We optimize your Google Business Profile to ensure that it is complete, accurate, and aligned with best practices.`,
-            `This includes improving your business description, categories, services, images, and profile engagement signals. A fully optimized profile increases your chances of appearing in Google Maps results and encourages potential customers to interact with your business.`
+            `This includes improving your business description, categories, services, images, and profile engagement signals. A fully optimized profile increases your chances of appearing in Google Maps results and encourages potential customers to interact with your business.`,
           ],
         },
         {
@@ -15730,7 +15813,7 @@ brand appears in AI summaries and citations.`,
           title: 'Website SEO Improvements',
           description: [
             `Next, we optimize your website to support your local SEO strategy. This includes improving page content, optimizing technical SEO elements, and strengthening internal linking.`,
-            `These improvements help search engines understand the relationship between your website content and your service locations.`
+            `These improvements help search engines understand the relationship between your website content and your service locations.`,
           ],
         },
         {
@@ -15738,7 +15821,7 @@ brand appears in AI summaries and citations.`,
           title: 'Local Authority Building',
           description: [
             `Building authority within your local market is essential for improving search rankings.`,
-            `We strengthen your online presence through citation optimization, directory listings, and reputation management strategies. These efforts help establish your business as a credible and trustworthy local service provider.`
+            `We strengthen your online presence through citation optimization, directory listings, and reputation management strategies. These efforts help establish your business as a credible and trustworthy local service provider.`,
           ],
         },
         {
@@ -15762,7 +15845,7 @@ brand appears in AI summaries and citations.`,
       heading: `Our Local SEO Strategy for Sustainable Growth`,
       description: [
         `At Adaired Digital, we focus on creating long-term local SEO strategies that deliver consistent results.`,
-        `Our approach combines technical optimization, content development, and local authority building to ensure your business maintains strong visibility in local search results.`
+        `Our approach combines technical optimization, content development, and local authority building to ensure your business maintains strong visibility in local search results.`,
       ],
       mainImage: whiteServicesAdairedHelpImg,
       list: [
@@ -15834,7 +15917,8 @@ brand appears in AI summaries and citations.`,
       description: ``,
       list: [
         {
-          title: 'What is the difference between GBP optimization and website SEO?',
+          title:
+            'What is the difference between GBP optimization and website SEO?',
           description: [
             `Google Business Profile optimization focuses on improving your business listing in Google Maps, while website SEO improves your website’s ability to rank in organic search results. Combining both strategies creates a stronger local presence.`,
           ],
@@ -15858,7 +15942,8 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          title: 'Do I need a website if I already have a Google Business Profile?',
+          title:
+            'Do I need a website if I already have a Google Business Profile?',
           description: [
             `While a Google Business Profile helps you appear in Google Maps, a website strengthens your authority and improves your chances of ranking for additional search queries.`,
           ],
@@ -15990,6 +16075,12 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       bgColor: true,
       bgGradient: '',
+      cardColor: '#FFFFFF',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F4F4F4',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       heading: `Why Leading SaaS Brands Choose Adaired Digital`,
       description: [``],
       list: [
@@ -16726,6 +16817,12 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '02',
       bgGradient: '',
+      cardColor: '#F9F9F9',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F3F3F3',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       heading: `Why Choose Adaired Digital's WordPress Development Services`,
       description: [
         'At Adaired Digital, we combine technical expertise, strategic thinking, and creative design to deliver WordPress websites that drive real business results.',
