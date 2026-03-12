@@ -518,6 +518,7 @@ import icon_9 from '../../../../../../public/assets/images/services/gmb/ImpToBus
 import gmbWebsitelocalSeoBannerBg from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsitelocalSeoBannerBg.png';
 import gmbWebsiteSeoBuildLinkImg from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteSeoBuildLinkImg.png';
 import gmbWebsiteServiceResultImg from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteServiceResultImg.png';
+import gmbWebsiteWhatAreService from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteWhatAreService.png';
 
 import gmbWebsiteimpIcon_1 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_1.png';
 import gmbWebsiteimpIcon_2 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_2.png';
@@ -15441,10 +15442,10 @@ brand appears in AI summaries and citations.`,
       'dataInTable',
       'importantToBussiness',
       'ourProcess',
+      'whatareservice',
       'adairedHelp',
       'buildlinks',
       'faqData',
-      'whatareservice',
       'whatareservice2',
       'keyStats',
       'whatMkeDeferent',
@@ -15511,7 +15512,7 @@ brand appears in AI summaries and citations.`,
       list: [
         {
           img: null,
-          name: '1. Relevance',
+          name: 'Relevance',
           description: [
             `Relevance refers to how closely a business matches what a user is searching for. Google analyzes the information in your Google Business Profile and website content to determine whether your business offers the services being searched.`,
             `This is why accurate categories, service descriptions, and well-optimized website content are extremely important. Businesses that clearly communicate their services and target keywords tend to rank higher in local searches.`,
@@ -15519,7 +15520,7 @@ brand appears in AI summaries and citations.`,
         },
         {
           img: null,
-          name: '2. Distance',
+          name: 'Distance',
           description: [
             `Distance plays a major role in local search results. Google tries to display businesses that are closest to the user’s location or the location specified in the search query.`,
             `While businesses cannot change their physical location to influence rankings, they can improve visibility by clearly defining their service areas and optimizing location-related content on their website.`,
@@ -15527,7 +15528,7 @@ brand appears in AI summaries and citations.`,
         },
         {
           img: null,
-          name: '3. Prominence',
+          name: 'Prominence',
           description: [
             `IProminence refers to the overall reputation and authority of a business online. Google evaluates factors such as customer reviews, backlinks, business mentions, directory listings, and overall online presence to determine how well-known and trustworthy a business is. Companies with strong online reputations and consistent information across platforms often achieve better local search visibility.`,
             `When these factors are properly optimized through both Google Business Profile and website SEO, businesses significantly improve their chances of appearing in local search results and attracting nearby customers.`,
@@ -15835,12 +15836,44 @@ brand appears in AI summaries and citations.`,
       ],
     },
 
+    whatareservice: {
+      isVisible: true,
+      isVariant: '11',
+      breakIndex: 5,
+      img: gmbWebsiteWhatAreService,
+      heading: 'How Combined GBP + Website Optimization Drives Results',
+      bgColor: '#FFFFFF',
+      isBgWhite: false,
+      button: '',
+      data: [
+        {
+          desctioption: `When your Google Business Profile and website are optimized together, they reinforce each other and create a stronger local search presence. Search engines rely on multiple signals to determine which businesses should appear in local results.`,
+        },
+        {
+          desctioption: `By aligning your profile information, website content, and location signals, we create a consistent digital presence that improves trust and visibility.`,
+        },
+        {
+          desctioption: `This integrated strategy allows your business to appear in multiple areas of Google search, including:`,
+          list: [
+            'Google Maps listings',
+            'Local map pack results',
+            'Organic search results',
+            'Location-based service searches',
+          ]
+        },
+        {
+          desctioption: `As a result, your business gains more opportunities to be discovered by customers searching for services nearby.`,
+        },
+      ],
+      bgImg: gmb_website_banner,
+    },
+
     adairedHelp: {
       isVisible: true,
       breakIndex: 5,
       img: AdairedHelpgmb,
       isInCenter: false,
-      bgColor: 'bg-gradient-to-b from-[#FFFEFB] to-[#FFF7EB]',
+      bgColor: 'bg-[#FCFCFC]',
       cardBg: '',
       heading: `Our Local SEO Strategy for Sustainable Growth`,
       description: [
@@ -15969,7 +16002,7 @@ brand appears in AI summaries and citations.`,
       ],
     },
 
-    whatareservice: {
+    whatareservice2: {
       isVisible: false,
       isVariant: '05',
       breakIndex: 5,
@@ -15996,34 +16029,6 @@ brand appears in AI summaries and citations.`,
         },
       ],
       button: '',
-    },
-
-    whatareservice2: {
-      isVisible: false,
-      isVariant: '11',
-      breakIndex: 5,
-      img: WhatAreServiceGMB2,
-      heading: 'Why Your Business Needs GBP Optimization',
-      bgColor: '#FFFFFF',
-      isBgWhite: false,
-      button: '',
-      data: [
-        {
-          desctioption: `In the digital era, having a strong online presence is crucial for any business aiming to attract and retain customers. One of the most effective ways to enhance your visibility is through Google Business Profile optimization. `,
-        },
-        {
-          desctioption: `By fine-tuning your GBP, you ensure that potential customers can easily find accurate information about your business, including your location, hours of operation, services, and even customer reviews.`,
-        },
-        {
-          desctioption: `Optimizing your GBP also plays a significant role in local search engine optimization (SEO). When your business profile is well-crafted, it can improve your rankings on search engine results pages, particularly for local searches related to the products or services you offer.
-           This means that when potential customers search for businesses like yours in their vicinity, your optimized profile is more likely to appear at the top of the search results.`,
-        },
-        {
-          desctioption: `Furthermore, a well-optimized GBP enhances your credibility.
-           When users see a complete and professional profile, complete with images, updated information, and positive reviews, they are more likely to trust your business over competitors with less informative profiles.`,
-        },
-      ],
-      bgImg: gmb_website_banner,
     },
 
     keyStats: {
