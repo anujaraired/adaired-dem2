@@ -1,3 +1,4 @@
+import rocket from '../../../../../../public/assets/icons/rocket.svg';
 import aiseoresult from '../../../../../../public/assets/aiseo/AISEORESULT.png';
 import aiseoresult_2 from '../../../../../../public/assets/680_500.png';
 import aiseoresult_3 from '../../../../../../public/assets/aiseo/AISEORESULT.png';
@@ -513,7 +514,6 @@ import icon_7 from '../../../../../../public/assets/images/services/gmb/ImpToBus
 import icon_8 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon8.svg';
 import icon_9 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon9.svg';
 
-
 // GMB Website Seo Images
 import gmbWebsitelocalSeoBannerBg from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsitelocalSeoBannerBg.png';
 import gmbWebsiteSeoBuildLinkImg from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteSeoBuildLinkImg.png';
@@ -558,7 +558,23 @@ import AdairedHelp_4 from '../../../../../../public/assets/images/services/wordp
 import AdairedHelp_5 from '../../../../../../public/assets/images/services/wordpressDevelopment/AdairedHelp5.svg';
 import AdairedHelp_6 from '../../../../../../public/assets/images/services/wordpressDevelopment/AdairedHelp6.svg';
 
+// LLM Service Page Images
 
+import ourProcessIcon1 from '../../../../../../public/assets/images/services/llm/ourProcessIcon1.svg';
+import ourProcessIcon2 from '../../../../../../public/assets/images/services/llm/ourProcessIcon2.svg';
+import ourProcessIcon3 from '../../../../../../public/assets/images/services/llm/ourProcessIcon3.svg';
+import ourProcessIcon4 from '../../../../../../public/assets/images/services/llm/ourProcessIcon4.svg';
+import ourProcessIcon5 from '../../../../../../public/assets/images/services/llm/ourProcessIcon5.svg';
+import ourProcessIcon6 from '../../../../../../public/assets/images/services/llm/ourProcessIcon6.svg';
+import ourProcessIcon7 from '../../../../../../public/assets/images/services/llm/ourProcessIcon7.svg';
+import ImpToBusinessIcon1 from '../../../../../../public/assets/images/services/llm/Icon1.svg';
+import ImpToBusinessIcon2 from '../../../../../../public/assets/images/services/llm/Icon2.svg';
+import ImpToBusinessIcon3 from '../../../../../../public/assets/images/services/llm/Icon3.svg';
+import ImpToBusinessIcon4 from '../../../../../../public/assets/images/services/llm/Icon4.svg';
+import ImpToBusinessIcon5 from '../../../../../../public/assets/images/services/llm/Icon5.svg';
+import ImpToBusinessIcon6 from '../../../../../../public/assets/images/services/llm/Icon6.svg';
+
+// shopyfy Service Page Images
 import ShopifyDevBannerImg from '../../../../../../public/assets/images/services/shopifyDevelopment/ShopifyDevBannerImg.png';
 import shopifyDevKeyStatsImg from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevKeyStatsImg.png';
 import shopifyDevWhatAreServiceImg from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevWhatAreServiceImg.png';
@@ -650,6 +666,7 @@ export const SERVICES_DATA = {
       heading: 'Key Stats Related to SEO Services ',
       isCard: true,
       img: keyStatsImg2,
+      rocketImg: rocket,
       list: [
         {
           icon: '',
@@ -1107,6 +1124,12 @@ export const SERVICES_DATA = {
       variant: '01',
       breakIndex: 4,
       bgGradient: '',
+      cardColor2: '#F9F9F9',
+      cardColor: '#FFF8EF',
+      cardImgBgColor2: '#F3F3F3',
+      cardImgBgColor: '#FFEDD7',
+      borderColor2: '#051B3C',
+      borderColor: '#F28F17',
       heading: 'What Makes Adaired Different From Our Competitors?',
       description: [
         `At Adaired, we have a clear plan for building your search engine optimization strategy. Starting with understanding your goals clearly to analyzing where you are losing search visibility, we do all the legwork to help your business uncover quick wins.`,
@@ -1764,6 +1787,12 @@ export const SERVICES_DATA = {
       isInCenter: true,
       bgColor: '#FFFFFF',
       bgGradient: '',
+      cardColor2: '#F9F9F9',
+      cardColor: '#FFF8EF',
+      cardImgBgColor2: '#F3F3F3',
+      cardImgBgColor: '#FFEDD7',
+      borderColor2: '#051B3C',
+      borderColor: '#F28F17',
       heading: 'What Makes Adaired Different From Our Competitors?',
       description: [],
       list: [
@@ -2612,6 +2641,12 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       bgColor: true,
       bgGradient: '',
+      cardColor: '#F9F9F9',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F3F3F3',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       heading: 'What Makes Adaired Different From Our Competitors?',
       description: [],
       list: [
@@ -3268,6 +3303,12 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '02',
       bgGradient: '',
+      cardColor: '#F9F9F9',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F3F3F3',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       heading:
         'What Makes Adaired Stand Out As The Best Website Design & Development Service Provider?',
       description: [
@@ -3939,6 +3980,12 @@ brand appears in AI summaries and citations.`,
       bgColor: true,
       isInCenter: true,
       bgGradient: '',
+      cardColor2: '#F9F9F9',
+      cardColor: '#FFF8EF',
+      cardImgBgColor2: '#F3F3F3',
+      cardImgBgColor: '#FFEDD7',
+      borderColor2: '#051B3C',
+      borderColor: '#F28F17',
       heading: 'Why Choose Adaired for Your Local Search Engine Optimization ?',
       description: [],
       list: [
@@ -4847,6 +4894,12 @@ brand appears in AI summaries and citations.`,
       breakIndex: 5,
       isInCenter: false,
       bgGradient: '',
+      cardColor2: '#F9F9F9',
+      cardColor: '#FFF8EF',
+      cardImgBgColor2: '#F3F3F3',
+      cardImgBgColor: '#FFEDD7',
+      borderColor2: '#051B3C',
+      borderColor: '#F28F17',
       heading: 'Why Choose Adaired as Your White Label Social Media Partner?',
       description: [
         `Selecting the right white label social media agency directly impacts your client satisfaction, service quality, and long-term growth. 
@@ -5696,6 +5749,12 @@ brand appears in AI summaries and citations.`,
       isVariant: '02',
       isInCenter: true,
       bgGradient: '',
+      cardColor: '#F9F9F9',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F3F3F3',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       heading: 'How White Label SEO Works at Adaired',
       bgColor: true,
       description: [
@@ -6652,6 +6711,12 @@ brand appears in AI summaries and citations.`,
       isVariant: '01',
       heading: ``,
       bgGradient: '',
+      cardColor: '#FFFFFF',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F4F4F4',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       description: [
         `Our white-label model is designed to reduce execution pressure while providing agencies with 
         complete control over how services are positioned, priced, and presented to clients. 
@@ -7764,6 +7829,12 @@ brand appears in AI summaries and citations.`,
       isVariant: '01',
       heading: ``,
       bgGradient: '',
+      cardColor: '#FFFFFF',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F4F4F4',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       description: [
         `Our white-label model is designed to reduce execution pressure while providing agencies with 
         complete control over how services are positioned, priced, and presented to clients. 
@@ -8963,6 +9034,12 @@ brand appears in AI summaries and citations.`,
       isVariant: '01',
       heading: ``,
       bgGradient: '',
+      cardColor: '#FFFFFF',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F4F4F4',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       description: [
         `Our white-label model is designed to reduce execution pressure while providing agencies with 
         complete control over how services are positioned, priced, and presented to clients. 
@@ -9539,6 +9616,12 @@ brand appears in AI summaries and citations.`,
       isVariant: '02',
       breakIndex: 3,
       bgGradient: '',
+      cardColor: '#F9F9F9',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F3F3F3',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       heading: `Who Our White Label Link Building Is For`,
       description: [
         `Our white-label link-building services are designed for growth-focused teams that want to deliver powerful SEO results without building an in-house outreach department.`,
@@ -10539,6 +10622,12 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       bgColor: true,
       bgGradient: '',
+      cardColor2: '#F9F9F9',
+      cardColor: '#FFF8EF',
+      cardImgBgColor2: '#F3F3F3',
+      cardImgBgColor: '#FFEDD7',
+      borderColor2: '#051B3C',
+      borderColor: '#F28F17',
       heading: `Why Leading SaaS Brands Choose Adaired Digital`,
       description: [``],
       list: [
@@ -11656,6 +11745,12 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       bgColor: true,
       bgGradient: '',
+      cardColor: '#FFFFFF',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F4F4F4',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       heading: `Why Leading SaaS Brands Choose Adaired Digital`,
       description: [``],
       list: [
@@ -12487,6 +12582,12 @@ brand appears in AI summaries and citations.`,
       isVariant: '02',
       heading: `What Sets Our AI Search Strategy Apart`,
       bgGradient: '',
+      cardColor: '#F9F9F9',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F3F3F3',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       description: [
         `AI search optimization requires more than surface-level SEO updates. Our approach is built around long-term authority positioning, technical precision, and strategic clarity, not short-term tactics.`,
       ],
@@ -13679,6 +13780,12 @@ brand appears in AI summaries and citations.`,
       breakIndex: 3,
       isInCenter: true,
       bgColor: true,
+      cardColor: '#FFFFFF',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F4F4F4',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       bgGradient: 'bg-[#F5F5F5]/40',
       heading: `Why Choose Us as Your Mobile App Development Firm?`,
       description: [``],
@@ -14323,7 +14430,7 @@ brand appears in AI summaries and citations.`,
       isCenter: false,
       isVisible: true,
       heading2: '#1 on Google Maps: Get Seen by Local Customers',
-      isAbsolute: true,
+      isAbsolute: false,
       isStyleHeading: true,
       headingParts: [
         { text: 'From Invisible to', color: '#000000', weight: '400' },
@@ -14941,6 +15048,12 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       bgColor: true,
       bgGradient: '',
+      cardColor: '#FFFFFF',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F4F4F4',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       heading: `Why Leading SaaS Brands Choose Adaired Digital`,
       description: [``],
       list: [
@@ -15403,7 +15516,7 @@ brand appears in AI summaries and citations.`,
       isVariant: '01',
       description: [
         `Understanding how local search rankings work is essential for any business that wants to improve its online visibility. When customers search for services near them, Google uses several factors to determine which businesses appear in the local results and the Google Maps “Map Pack.”`,
-        `These factors help Google decide which businesses are the most relevant and trustworthy for a particular search query.`
+        `These factors help Google decide which businesses are the most relevant and trustworthy for a particular search query.`,
       ],
       isBgColor: false,
       img: gmbWebsiteServiceResultImg,
@@ -15413,7 +15526,7 @@ brand appears in AI summaries and citations.`,
           name: 'Relevance',
           description: [
             `Relevance refers to how closely a business matches what a user is searching for. Google analyzes the information in your Google Business Profile and website content to determine whether your business offers the services being searched.`,
-            `This is why accurate categories, service descriptions, and well-optimized website content are extremely important. Businesses that clearly communicate their services and target keywords tend to rank higher in local searches.`
+            `This is why accurate categories, service descriptions, and well-optimized website content are extremely important. Businesses that clearly communicate their services and target keywords tend to rank higher in local searches.`,
           ],
         },
         {
@@ -15421,7 +15534,7 @@ brand appears in AI summaries and citations.`,
           name: 'Distance',
           description: [
             `Distance plays a major role in local search results. Google tries to display businesses that are closest to the user’s location or the location specified in the search query.`,
-            `While businesses cannot change their physical location to influence rankings, they can improve visibility by clearly defining their service areas and optimizing location-related content on their website.`
+            `While businesses cannot change their physical location to influence rankings, they can improve visibility by clearly defining their service areas and optimizing location-related content on their website.`,
           ],
         },
         {
@@ -15429,7 +15542,7 @@ brand appears in AI summaries and citations.`,
           name: 'Prominence',
           description: [
             `IProminence refers to the overall reputation and authority of a business online. Google evaluates factors such as customer reviews, backlinks, business mentions, directory listings, and overall online presence to determine how well-known and trustworthy a business is. Companies with strong online reputations and consistent information across platforms often achieve better local search visibility.`,
-            `When these factors are properly optimized through both Google Business Profile and website SEO, businesses significantly improve their chances of appearing in local search results and attracting nearby customers.`
+            `When these factors are properly optimized through both Google Business Profile and website SEO, businesses significantly improve their chances of appearing in local search results and attracting nearby customers.`,
           ],
         },
       ],
@@ -15450,9 +15563,7 @@ brand appears in AI summaries and citations.`,
           desctioption: `Google Maps`,
           list: [
             {
-              description: [
-                `Helps businesses appear in local search results.`,
-              ],
+              description: [`Helps businesses appear in local search results.`],
             },
             {
               description: [
@@ -15495,14 +15606,10 @@ brand appears in AI summaries and citations.`,
               ],
             },
             {
-              description: [
-                `Enhances website structure and content quality.`,
-              ],
+              description: [`Enhances website structure and content quality.`],
             },
             {
-              description: [
-                `Optimizes images and media for faster loading.`,
-              ],
+              description: [`Optimizes images and media for faster loading.`],
             },
             {
               description: [
@@ -15525,14 +15632,10 @@ brand appears in AI summaries and citations.`,
               ],
             },
             {
-              description: [
-                `Helps businesses reach more potential customers.`,
-              ],
+              description: [`Helps businesses reach more potential customers.`],
             },
             {
-              description: [
-                `Improves customer engagement and trust.`,
-              ],
+              description: [`Improves customer engagement and trust.`],
             },
             {
               description: [
@@ -15545,9 +15648,7 @@ brand appears in AI summaries and citations.`,
               ],
             },
             {
-              description: [
-                `Reach more local customers.`,
-              ],
+              description: [`Reach more local customers.`],
             },
           ],
         },
@@ -15700,7 +15801,7 @@ brand appears in AI summaries and citations.`,
           title: 'Comprehensive Local SEO Audit',
           description: [
             `The first step in our process is to analyze your current online presence. We conduct a detailed audit of your Google Business Profile, website structure, and current keyword rankings.`,
-            `We also evaluate competitor performance to identify opportunities for improvement. This audit allows us to develop a customized strategy that addresses the specific challenges and opportunities within your local market.`
+            `We also evaluate competitor performance to identify opportunities for improvement. This audit allows us to develop a customized strategy that addresses the specific challenges and opportunities within your local market.`,
           ],
         },
         {
@@ -15708,7 +15809,7 @@ brand appears in AI summaries and citations.`,
           title: 'Strategic Keyword Research',
           description: [
             `Once the audit is complete, we conduct extensive keyword research to identify the search terms that customers in your area are using.`,
-            `These keywords are categorized based on search intent and potential value. By targeting the right keywords, we ensure that your business appears in front of customers who are actively looking for services like yours.`
+            `These keywords are categorized based on search intent and potential value. By targeting the right keywords, we ensure that your business appears in front of customers who are actively looking for services like yours.`,
           ],
         },
         {
@@ -15716,7 +15817,7 @@ brand appears in AI summaries and citations.`,
           title: 'Google Business Profile Optimization',
           description: [
             `We optimize your Google Business Profile to ensure that it is complete, accurate, and aligned with best practices.`,
-            `This includes improving your business description, categories, services, images, and profile engagement signals. A fully optimized profile increases your chances of appearing in Google Maps results and encourages potential customers to interact with your business.`
+            `This includes improving your business description, categories, services, images, and profile engagement signals. A fully optimized profile increases your chances of appearing in Google Maps results and encourages potential customers to interact with your business.`,
           ],
         },
         {
@@ -15724,7 +15825,7 @@ brand appears in AI summaries and citations.`,
           title: 'Website SEO Improvements',
           description: [
             `Next, we optimize your website to support your local SEO strategy. This includes improving page content, optimizing technical SEO elements, and strengthening internal linking.`,
-            `These improvements help search engines understand the relationship between your website content and your service locations.`
+            `These improvements help search engines understand the relationship between your website content and your service locations.`,
           ],
         },
         {
@@ -15732,7 +15833,7 @@ brand appears in AI summaries and citations.`,
           title: 'Local Authority Building',
           description: [
             `Building authority within your local market is essential for improving search rankings.`,
-            `We strengthen your online presence through citation optimization, directory listings, and reputation management strategies. These efforts help establish your business as a credible and trustworthy local service provider.`
+            `We strengthen your online presence through citation optimization, directory listings, and reputation management strategies. These efforts help establish your business as a credible and trustworthy local service provider.`,
           ],
         },
         {
@@ -15769,7 +15870,7 @@ brand appears in AI summaries and citations.`,
             'Local map pack results',
             'Organic search results',
             'Location-based service searches',
-          ]
+          ],
         },
         {
           desctioption: `As a result, your business gains more opportunities to be discovered by customers searching for services nearby.`,
@@ -15788,7 +15889,7 @@ brand appears in AI summaries and citations.`,
       heading: `Our Local SEO Strategy for Sustainable Growth`,
       description: [
         `At Adaired Digital, we focus on creating long-term local SEO strategies that deliver consistent results.`,
-        `Our approach combines technical optimization, content development, and local authority building to ensure your business maintains strong visibility in local search results.`
+        `Our approach combines technical optimization, content development, and local authority building to ensure your business maintains strong visibility in local search results.`,
       ],
       mainImage: whiteServicesAdairedHelpImg,
       list: [
@@ -15860,7 +15961,8 @@ brand appears in AI summaries and citations.`,
       description: ``,
       list: [
         {
-          title: 'What is the difference between GBP optimization and website SEO?',
+          title:
+            'What is the difference between GBP optimization and website SEO?',
           description: [
             `Google Business Profile optimization focuses on improving your business listing in Google Maps, while website SEO improves your website’s ability to rank in organic search results. Combining both strategies creates a stronger local presence.`,
           ],
@@ -15884,7 +15986,8 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          title: 'Do I need a website if I already have a Google Business Profile?',
+          title:
+            'Do I need a website if I already have a Google Business Profile?',
           description: [
             `While a Google Business Profile helps you appear in Google Maps, a website strengthens your authority and improves your chances of ranking for additional search queries.`,
           ],
@@ -15988,6 +16091,12 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       bgColor: true,
       bgGradient: '',
+      cardColor: '#FFFFFF',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F4F4F4',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       heading: `Why Leading SaaS Brands Choose Adaired Digital`,
       description: [``],
       list: [
@@ -16724,6 +16833,12 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '02',
       bgGradient: '',
+      cardColor: '#F9F9F9',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F3F3F3',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
       heading: `Why Choose Adaired Digital's WordPress Development Services`,
       description: [
         'At Adaired Digital, we combine technical expertise, strategic thinking, and creative design to deliver WordPress websites that drive real business results.',
@@ -17370,6 +17485,936 @@ brand appears in AI summaries and citations.`,
       bgImage: LocalNotSeeBg,
     },
   },
+  'llm-seo-india': {
+    sectionsOrder: [
+      'banner',
+      'keyStats',
+      'whatareservice',
+      'benefitofAiSeo',
+      'ourProcess',
+      'importantToBussiness',
+      'adairedHelp',
+      'buildlinks',
+      'faqData',
+      'serviceResult',
+      'notSeeingResult',
+      'industryOrLeadingTools',
+      'leadingTools',
+      'whatIncluded',
+      'stopStruggling',
+      'whatMkeDeferent',
+      'leadingToolsForPerformence',
+      'getplan',
+      'readyToStart',
+      'seopackages',
+    ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Top-rated SEO company in India delivering higher rankings, organic traffic, and real growth for businesses in the USA, UK, UAE, Canada and Australia.',
+      alternates: {
+        canonical: '/services/llm-seo-india',
+      },
+    },
+    banner: {
+      code: '02',
+      breakIndex: 3,
+      isAbsolute: true,
+      isCenter: false,
+      isVisible: true,
+      isStyleHeading: true,
+      headingParts: [
+        {
+          text: 'Make Yourself Visible',
+          color: '#000000',
+          weight: '500',
+        },
+        {
+          text: 'In LLMs & Generative Searches',
+          color: '#FB9100',
+          weight: '800',
+        },
+      ],
+      width: '50%',
+      heading2: 'White Label PPC Services',
+      desc: [
+        `Future-proof your visibility with strategic LLM SEO and generative search optimization.`,
+        `At Adaired Digital Media, our LLM SEO services help your brand appear in AI-generated answers across platforms like ChatGPT, Gemini, Claude, and other AI-driven search systems.`,
+      ],
+      button: 'Get Your AI Visibility Report',
+      bgImg:
+        'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773297265/adaired/services/llm_service/Banner_kjwupk.png',
+    },
+    keyStats: {
+      isVisible: true,
+      code: '02',
+      heading: 'Explosive Growth of LLM Platforms',
+      isCard: true,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773297271/adaired/services/llm_service/KeyStats_flxjoi.png',
+      list: [
+        {
+          icon: '',
+          desctioption:
+            'There are currently 254 large language models evaluated in the global market, reflecting the rapid expansion of AI systems (llm-stats.com, 2026). ',
+        },
+        {
+          icon: '',
+          desctioption:
+            'ChatGPT alone has reached 900 million weekly active users worldwide, showing massive mainstream adoption (Backlinko, 2026).',
+        },
+        {
+          icon: '',
+          desctioption:
+            'On average, ChatGPT processes 2.5 billion queries per day, demonstrating the scale of AI-driven search behavior (Exploding Topics, 2026). ',
+        },
+        {
+          icon: '',
+          desctioption:
+            'Over 50% of web content is now AI-generated, signaling a fundamental shift in how information is created online (Graphite, 2026). ',
+        },
+        {
+          icon: '',
+          desctioption:
+            '65% of organizations are actively using generative AI tools, making AI adoption a competitive necessity (McKinsey, 2026).',
+        },
+      ],
+    },
+    whatareservice: {
+      isVisible: true,
+      isVariant: '08',
+      // breakIndex: 5,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773297265/adaired/services/llm_service/WhatAreService_tlsghh.png',
+      heading: 'What is LLM SEO & Why Does It Matter?',
+      span: '',
+      bgColor: '#FFFCF8',
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `LLM SEO (Large Language Model Search Engine Optimization) is the strategic process of optimizing your brand so AI systems like ChatGPT, Google Gemini, and Claude can clearly understand, evaluate, and confidently reference your business in their generated answers.`,
+        },
+        {
+          desctioption: `Search behavior is changing. Users are no longer just scrolling through search engine result pages; they are asking AI tools direct questions and receiving summarized, conversational responses. Instead of showing ten links, AI platforms generate a single, synthesized answer pulled from trusted sources, structured data, brand signals, and authoritative content across the web. If your business is not positioned within that ecosystem of trust and clarity, it won’t be mentioned.`,
+        },
+        {
+          desctioption: `LLMO goes beyond traditional SEO. While SEO focuses on ranking webpages, LLMO focuses on influencing AI-generated outputs. It ensures your brand is structured as a recognized entity, associated with key topics, supported by authoritative mentions, and formatted in a way that large language models can easily interpret and cite.`,
+        },
+        {
+          desctioption: `As generative search becomes mainstream, visibility is no longer just about rankings; it’s about representation inside AI answers. Adaired Digital’s LLMO services ensure that when customers ask AI for recommendations, comparisons, or solutions, your brand is part of the response.`,
+        },
+      ],
+      button: '',
+    },
+    benefitofAiSeo: {
+      isVisible: true,
+      isVariant: '01',
+      isDecVarticle: true,
+      isBgWhite: false,
+      isInCenter: false,
+      breakIndex: 3,
+      activeDot: '#000000',
+      inactiveDot: '#9DA0A3',
+      bgColor: 'bg-[#FFFFFF]',
+      textColor: '#000000',
+      textBg: '#EEEEEE',
+      borderColor: '#00000014',
+      heading: 'How LLM SEO Positions Your Brand for the Future',
+      description: [
+        `LLM SEO isn’t just an extension of traditional SEO; it’s a visibility strategy built for the AI-driven web. As platforms like ChatGPT, Google Gemini, and Claude reshape how users discover information, brands that optimize for AI gain a measurable competitive advantage.`,
+        ` Here are the key benefits of investing in LLM SEO services:`,
+      ],
+      list: [
+        {
+          name: 'Visibility Inside AI-Generated Answers',
+          description: [
+            `LLM SEO helps your brand appear directly within AI-generated responses rather than just traditional search listings. As users increasingly rely on conversational platforms like ChatGPT and Google Gemini for answers, being mentioned inside those responses places your brand at the exact moment decisions are made.`,
+            `Instead of competing for clicks, you become part of the answer itself.`,
+          ],
+        },
+        {
+          name: 'Stronger Brand Authority & Entity Recognition',
+          description: [
+            `Large language models interpret the web through entities, context, and authority signals. LLM SEO services strengthen how AI systems understand your business, clarifying who you are, what you specialize in, and why you are credible.`,
+            `This structured positioning increases the likelihood that AI tools recognize and reference your brand when relevant questions are asked.`,
+          ],
+        },
+        {
+          name: 'Future-Proof Search Strategy',
+          description: [
+            `Search behavior is rapidly evolving toward generative and conversational experiences. LLM SEO ensures your visibility strategy adapts to this shift by aligning your content, authority signals, and digital footprint with how AI systems retrieve and generate information.`,
+            `It protects your brand from losing visibility as traditional click-based traffic models change.`,
+          ],
+        },
+        {
+          name: 'Increased Trust & Recommendation Potential',
+          description: [
+            `AI systems prioritize reliable, well-cited, and authoritative sources. By strengthening digital PR, structured data, semantic clarity, and topical depth, LLM SEO increases the trust signals associated with your brand.`,
+            `We, as your LLM SEO agency partner, improve your potential to be recommended when users ask for solutions, comparisons, or expert insights.`,
+          ],
+        },
+        {
+          name: 'Competitive Advantage in Generative Search',
+          description: [
+            `Most businesses are still optimizing only for traditional rankings. LLM SEO gives you early positioning in AI-driven search environments, allowing your brand to establish authority before the space becomes saturated.`,
+            `This proactive approach creates long-term competitive leverage.`,
+          ],
+        },
+        {
+          name: 'Expanded Topical Authority',
+          description: [
+            `LLM SEO enhances the depth and structure of your content ecosystem, ensuring your brand is associated with relevant topics and subtopics in a meaningful way.`,
+            `This strengthens contextual understanding, making it easier for AI systems to connect your business with high-intent queries.`,
+          ],
+        },
+        {
+          name: 'Greater Influence in Buyer Decision Journeys',
+          description: [
+            `Modern buyers increasingly rely on AI for research, comparisons, and recommendations.`,
+            `By optimizing for LLM visibility, your brand becomes part of those early- and mid-stage conversations, influencing decisions before a user even visits a website.`,
+          ],
+        },
+      ],
+    },
+    ourProcess: {
+      isVisible: true,
+      breakIndex: 3,
+      isInCenter: true,
+      title: 'How We Make Your Brand AI-Visible',
+      description: [
+        `We provide end-to-end solutions that cover every aspect of LLM optimization, from technical infrastructure to content strategy, authority building, and ongoing monitoring.`,
+        `Here’s how Adaired Digital helps your brand thrive in the age of AI:`,
+      ],
+      bgGradient: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFF8F0]',
+
+      services: [
+        {
+          icon: ourProcessIcon1,
+          title: 'LLM SEO Audit',
+          description: [
+            `Our process begins with a comprehensive LLM SEO audit of your current visibility within AI-generated search environments. This includes analyzing how your brand is recognized by large language models, assessing the completeness of your entity representation, and identifying gaps in topic coverage or citation signals.`,
+            `The audit helps you understand where your brand is visible, where it is being overlooked, and the opportunities to capture AI-driven traffic. By benchmarking your current performance, we can develop a precise strategy tailored to your unique business objectives.`,
+          ],
+        },
+        {
+          icon: ourProcessIcon2,
+          title: 'Entity & Knowledge Graph Optimization',
+          description: [
+            `Large language models rely on structured entities to understand relationships between brands, topics, and concepts. Our team optimizes your brand’s digital presence to ensure AI systems clearly recognize who you are, what you do, and your authority in your industry.`,
+            `This includes enhancing your presence in knowledge graphs, ensuring consistent brand mentions across platforms, and aligning content with AI-friendly entity signals. Effective entity optimization increases the likelihood that AI tools will reference your brand when generating answers, boosting visibility at the exact moment customers are seeking solutions.`,
+          ],
+        },
+        {
+          icon: ourProcessIcon3,
+          title: 'Content Strategy for Generative Search',
+          description: [
+            `AI-driven platforms prioritize content that is structured, contextually relevant, and informative. We develop a content strategy designed specifically for generative search, creating AI-readable content that answers the exact questions your audience is asking.`,
+            `Our approach includes semantic optimization, topic clustering, conversational prompts, and long-form content that establishes your brand as an expert authority. By strategically structuring your content, we make it easy for AI systems to extract and cite your information in responses, increasing the likelihood of being referenced in high-value queries.`,
+          ],
+        },
+        {
+          icon: ourProcessIcon4,
+          title: 'Authority Building & AI Citation Growth',
+          description: [
+            `Trust and credibility are crucial for the inclusion of AI-generated answers. LLM SEO requires that your brand be consistently cited, mentioned, and referenced across authoritative sources.`,
+            `We implement strategies that include digital PR, citation acquisition, strategic partnerships, and content amplification to enhance your online authority. The more your brand is recognized as a reliable source, the higher the chances AI systems will trust and reference your content when answering user queries.`,
+          ],
+        },
+        {
+          icon: ourProcessIcon5,
+          title: 'Technical LLM Optimization',
+          description: [
+            `The technical foundation of your website plays a major role in AI visibility. Our technical LLM optimization includes implementing structured data, schema markup, semantic tagging, and AI-friendly content formatting.`,
+            `These optimizations help large language models understand your site’s structure, extract accurate information, and reference it effectively. Technical LLM SEO services ensure that your brand’s content is both machine-readable and authoritative, maximizing your chances of being included in AI-generated recommendations.`,
+          ],
+        },
+        {
+          icon: ourProcessIcon6,
+          title: 'Ongoing Monitoring & Continuous Optimization',
+          description: [
+            `The AI landscape evolves rapidly. LLM visibility isn’t static; models update, new sources emerge, and user queries shift. We provide continuous monitoring, reporting, and iterative optimization to ensure your brand maintains and grows its visibility over time.`,
+            `This includes tracking AI mentions, assessing content performance, and updating entity associations to align with evolving AI behavior. With ongoing optimization, your brand remains top-of-mind and consistently visible in AI-generated answers.`,
+          ],
+        },
+        {
+          icon: ourProcessIcon7,
+          title: 'Strategic Consulting & AI Visibility Roadmap',
+          description: [
+            `Beyond execution, we provide strategic consulting to help you understand the rapidly evolving AI search landscape and position your brand for long-term visibility. As AI-driven platforms increasingly influence how users discover information, it’s essential to adopt a forward-thinking strategy rather than relying solely on traditional SEO practices.`,
+            `Our team works closely with you to develop a comprehensive AI visibility roadmap tailored to your business goals, industry, and competitive environment.`,
+          ],
+        },
+      ],
+    },
+    importantToBussiness: {
+      isVisible: true,
+      isInCenter: false,
+      isCardVisible: true,
+      breakIndex: 2,
+      isVariant: '01',
+      cardColor: '#F9F9F9',
+      heading: 'Where Your Customers Are Asking Questions',
+      description: [
+        `The way people search has changed. Instead of browsing multiple websites and comparing links, users are now asking AI systems direct, conversational questions and receiving instant, summarized answers. These AI-generated responses influence purchasing decisions, vendor shortlists, product comparisons, and brand perception long before a user ever visits a website.`,
+        `If your brand is not included in those answers, you are effectively invisible during the most critical stage of the decision-making process.`,
+        `That’s why our LLM SEO services focus on optimizing your visibility across the AI platforms shaping modern discovery:`,
+      ],
+      buttonName: 'Get a Free Local SEO Audit',
+      data: [
+        {
+          icon: ImpToBusinessIcon1,
+          name: 'ChatGPT',
+          description: [
+            `With hundreds of millions of active users, ChatGPT has become a primary destination for research, recommendations, and solution discovery. Users rely on it to compare services, evaluate providers, and ask complex industry questions`,
+            `We structure your brand authority, entity signals, and content ecosystem to increase the likelihood that your business is contextually referenced within these AI-generated conversations.`,
+          ],
+          button: 'Get Your AI Visibility Report',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: ImpToBusinessIcon2,
+          name: 'Google Gemini',
+          description: [
+            `Gemini powers AI-driven search enhancements and conversational experiences across Google’s ecosystem.`,
+            `As Google integrates generative AI more deeply into search workflows, semantic clarity and entity authority become even more critical.`,
+            `We align your content, structured data, and topical signals with the frameworks Gemini prioritizes.`,
+          ],
+          button: 'Get Your AI Visibility Report',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: ImpToBusinessIcon3,
+          name: 'Google AI Overviews',
+          description: [
+            `Google AI Overviews now generate summarized answers directly within search results, often appearing above traditional organic listings.`,
+            `This shift reduces clicks and concentrates visibility inside AI summaries.`,
+            `Our optimization approach focuses on improving your chances of being cited within these overviews by strengthening topical authority, structured formatting, and authoritative mentions across the web.`,
+          ],
+          button: 'Get Your AI Visibility Report',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: ImpToBusinessIcon4,
+          name: 'Claude AI',
+          description: [
+            `Claude is widely used for in-depth research, analytical queries, and business-focused prompts.`,
+            `It favors well-structured, high-authority sources with clear contextual relationships.`,
+            `We enhance your digital footprint to ensure your brand demonstrates the expertise and clarity necessary to be included in more complex AI-generated responses.`,
+          ],
+          button: 'Get Your AI Visibility Report',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: ImpToBusinessIcon5,
+          name: 'Perplexity AI',
+          description: [
+            `Perplexity operates as an AI-powered answer engine that provides sourced, citation-backed responses.`,
+            ` Because it emphasizes references and source credibility, strong digital authority and structured content are critical.`,
+            ` We optimize your brand’s citation footprint and topical authority to improve the likelihood of being referenced within Perplexity’s answer results.`,
+          ],
+          button: 'Get Your AI Visibility Report',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: ImpToBusinessIcon6,
+          name: 'AI-Powered Assistants & Other Generative Platforms',
+          description: [
+            `Beyond standalone tools, generative AI is embedded into browsers, SaaS applications, enterprise platforms, and productivity tools.`,
+            ` These systems pull from structured data, knowledge graphs, and authoritative digital signals.`,
+            `Our cross-platform LLM optimization ensures consistent entity recognition so your brand maintains visibility wherever AI-driven answers appear.`,
+          ],
+          button: 'Get Your AI Visibility Report',
+          btnColor: '#FB9100',
+        },
+      ],
+    },
+    adairedHelp: {
+      isVisible: true,
+      breakIndex: 4,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773297269/adaired/services/llm_service/AdairedHelp_xhgkuw.png',
+      isInCenter: false,
+      bgColor: 'bg-gradient-to-b from-[#FFFBF5]/60 to-[#FFFBF5]/60',
+      cardBg: '',
+      heading: `Why Choose Us as Your LLM Optimization Agency`,
+      description: [
+        `Adaired Digital, as your dedicated agency specializing in large language model (LLM) optimization, focuses on tailored strategies that enhance the performance, accuracy, and efficiency of your AI applications.`,
+        `Here is what sets us apart:`,
+      ],
+      mainImage: whiteServicesAdairedHelpImg,
+      list: [
+        {
+          img: '',
+          name: 'We Treat It as Infrastructure',
+          description: [
+            `While many agencies are experimenting with AI visibility, we approach LLM optimization as a long-term structural strategy.`,
+            `Our frameworks are built around entity architecture, authority engineering, and cross-platform AI recognition, not short-term hacks or prompt manipulation.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Built for the Post-Click Internet',
+          description: [
+            `Traffic is no longer the only goal. We design strategies for a world where decisions are made before users visit your website.`,
+            `Our focus is on positioning your brand inside AI-influenced buying journeys, where visibility translates directly into trust and preference.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Strategy-First, Not Tactics-First',
+          description: [
+            `We don’t start with content production. We start with positioning.`,
+            ` Every engagement begins with identifying your authority gaps, competitive AI exposure, and entity weaknesses, then building a structured roadmap aligned with measurable visibility outcomes.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Cross-Platform AI Understanding',
+          description: [
+            `Each AI system retrieves, interprets, and synthesizes information differently.`,
+            `Our approach is designed for multi-platform resilience, ensuring your brand maintains recognition across conversational AI, AI-enhanced search results, and citation-driven answer engines.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Data-Led Optimization & Iteration',
+          description: [
+            `LLM visibility is dynamic. Adaired Digital continuously analyzes AI behavior patterns, monitors brand mentions in generated outputs, and refines strategies as models evolve.`,
+            `Our work adapts alongside the AI landscape, so your visibility doesn’t stagnate.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Integrated SEO + AI Authority Framework',
+          description: [
+            `We bridge traditional SEO foundations with AI-specific optimization.`,
+            `This ensures your technical structure, authority signals, and topical ecosystem work together, rather than operating in silos.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Early-Mover Advantage for Forward-Thinking Brands',
+          description: [
+            `Most agencies are still focused purely on rankings`,
+            `We help forward-thinking brands secure positioning in generative search before competition intensifies, creating a durable competitive advantage.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Focused on Outcomes, Not Vanity Metrics',
+          description: [
+            `We prioritize measurable improvements in AI-generated brand mentions, entity strength, citation frequency,`,
+            ` topical authority, and AI-influenced conversions. Because visibility inside answers is what ultimately drives influence.`,
+          ],
+        },
+      ],
+    },
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '06',
+      breakIndex: 3,
+      bgImg: saasSeoBuildLinkBg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773297265/adaired/services/llm_service/BuildLink_jenexd.png',
+      label: 'Let’s Build Your Custom',
+      heading: 'LLM SEO Strategy',
+      description: ``,
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `Partner with Adaired Digital, and let’s create a dynamic and robust SEO strategy that elevates your language model’s presence and impact online.`,
+        },
+      ],
+      button: 'Book a 30-Minute Strategy Call',
+    },
+    faqData: {
+      isVisible: true,
+      bgColor: 'bg-[#FFFFFF]',
+      subtitle: 'FAQ',
+      title: 'Frequently Asked Questions',
+      description: ``,
+      list: [
+        {
+          title: 'Why does my business need AI LLM SEO now?',
+          description: [
+            `AI-powered search is rapidly changing how customers discover and evaluate brands. Instead of browsing multiple websites, users increasingly rely on AI-generated answers for recommendations and comparisons. If your business is not structured and positioned for AI visibility, you risk being excluded from those answers, even if you rank well in traditional search.`,
+          ],
+        },
+        {
+          title: 'How is LLM SEO different from traditional SEO?',
+          description: [
+            `Traditional SEO focuses on ranking webpages in search engine results. LLM SEO focuses on influencing AI-generated answers. While SEO emphasizes keywords and rankings, LLM SEO emphasizes entity clarity, contextual authority, structured data, and trust signals that large language models use to determine which brands to reference.`,
+          ],
+        },
+        {
+          title: 'Why do I need an LLM SEO agency?',
+          description: [
+            `An experienced LLM SEO agency understands how AI systems interpret, prioritize, and synthesize information. We help structure your content strategically, close authority gaps, improve semantic clarity, and strengthen digital credibility signals. These optimizations significantly increase the likelihood that AI platforms recognize and reference your brand instead of overlooking it.`,
+          ],
+        },
+        {
+          title: 'Do I need to change my entire website for LLM SEO?',
+          description: [
+            `Not necessarily. In most cases, we refine your existing structure, enhance content clarity, strengthen authority signals, and implement technical improvements. The goal is to make your current website more understandable and trustworthy to AI systems, not rebuild it from scratch.`,
+          ],
+        },
+        {
+          title: 'What’s the cost of LLMO services?',
+          description: [
+            `LLMO pricing varies based on your current digital footprint, competitive landscape, and scope of optimization required. Some businesses need foundational entity and technical improvements, while others require ongoing authority-building and monitoring. We provide customized strategies and transparent pricing aligned with your growth objectives.`,
+          ],
+        },
+        {
+          title: 'How long does it take to see results from LLM SEO?',
+          description: [
+            `LLM SEO is a strategic, long-term visibility investment rather than an instant ranking tactic. While certain structural and clarity improvements can create early signals within weeks, meaningful authority growth and increased AI recognition typically develop over a few months. The timeline depends on your current digital presence, competition, and industry complexity.`,
+          ],
+        },
+        {
+          title: 'How do you measure LLM visibility?',
+          description: [
+            `We track indicators such as AI-generated brand mentions, citation frequency, entity recognition improvements, topical coverage expansion, and visibility trends across generative platforms. Because AI search behaves differently from traditional rankings, measurement focuses on influence, inclusion, and authority signals rather than just keyword positions.`,
+          ],
+        },
+        {
+          title: 'Is LLM SEO relevant for my industry?',
+          description: [
+            `If customers in your industry ask AI tools for recommendations, comparisons, research insights, or expert explanations, LLM SEO is relevant. This applies across SaaS, professional services, eCommerce, healthcare, finance, technology, and local businesses. As AI-assisted research becomes more common, nearly every industry benefits from structured AI visibility.`,
+          ],
+        },
+      ],
+    },
+    areYouTired: {
+      isVisible: false,
+      isVariant: '01',
+      heading: 'Are you tired of link building that hurts more than it helps?',
+      data: [
+        {
+          desctioption: ``,
+          list: [
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+            {
+              description: ``,
+            },
+          ],
+        },
+      ],
+    },
+    needofservice: {
+      isVisible: false,
+      heading: '',
+      data: [],
+    },
+    whyAdaired: {
+      isVisible: false,
+      heading: 'Why Partner With Adaired Digital Media to Hire SEO Services?',
+      data: [
+        {
+          desctioption: `Adaired, a leading SEO agency, puts your business at the forefront of technology with the help of proven SEO strategies. We help your business stay visible, no matter how the search changes. 
+          With the help of our data-driven insights, strategic approach, and commitment to performance, we help your business emerge as a premier seo company.`,
+        },
+        {
+          desctioption: `Tailored SEO Strategies- At Adaired, we offer tailored SEO strategies that match your business goals and objectives. 
+          With the help of our comprehensive approach, we uncover valuable insights to enhance your website's performance and drive strategic growth for your business.`,
+        },
+        {
+          desctioption: `Transparent Reporting - We believe in building long-term relationships with our clients. This is why we use advanced digital marketing tools such as Ahrefs, Yoast, BuzzSumo, Hootsuite, and more to create result-driven strategies, track real-time results, and drive long-term revenue for our clients. 
+          Our search engine optimization strategy services are built on a structured, analytical approach that strengthens visibility, improves relevance, and supports long-term growth.`,
+        },
+        {
+          desctioption: `Sustainable White-Hat Practices - Delivering quality work to our clients has become our USP over the years. 
+          We work with a laser-sharp focus to generate organic traffic, conversions, and improve technical site health. Our approach to search engine optimization is deep-rooted in advanced keyword research, SEO audits, market gap analysis, and data-driven strategies to meet your goals.  
+          We address all the aspects of search engine optimization, right from on-page optimization to link building, ensuring that your digital presence is robust and sustainable.`,
+        },
+      ],
+    },
+    whatIncluded: {
+      isVisible: false,
+      isVariant: '01',
+      heading: 'What’s Included in Our SEO Services',
+
+      list: [
+        {
+          icon: seo_tool_3,
+          title: 'Keyword Research and Analysis',
+          description: [
+            `We start the process by conducting a comprehensive keyword research. It helps determine the search terms that users input in search engines when looking for related information, products, or services.`,
+            `Our effective SEO strategy consists of proper keyword research to match the content of the websites with what the users are actively searching for.`,
+          ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',
+        },
+        {
+          icon: seo_tool_1,
+          title: 'On-Page SEO Optimization',
+          description: [
+            `Our focus on On-page SEO optimization is to improve search visibility. This involves optimization of page names, meta descriptions, headings, URLs, internal links, and content structure.`,
+            `On-page optimization helps search engines to understand the relevance of the pages while enhancing readability and user experience, making the content easy to access, arranged and in accordance with the targeted keywords.`,
+          ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',
+        },
+        {
+          icon: seo_tool_2,
+          title: 'Technical SEO Improvements',
+          description: [
+            `In Technical SEO, we address the backend elements of a website that affect search engine crawling and indexing. This involves site speed improvement, mobile friendliness, HTTPS configuration, XML sitemaps, and crawl errors remedies.`,
+            `Technical optimization ensures search engines can efficiently access and understand the site effectively, and this is what is necessary to maintain the same ranking level.`,
+          ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',
+        },
+        {
+          icon: seo_tool_4,
+          title: 'Content Optimization and Development',
+          description: [
+            `In content optimization, we improve existing content and create new, relevant content based on SEO insights. This is done to ensure that the content is informative, keyword-compatible, user and search engine friendly.`,
+            `High-quality content supports better engagement, increased page views, and stronger relevance signals, helping websites perform more effectively in search results.`,
+          ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',
+        },
+        {
+          icon: seo_tool_5,
+          title: 'Link Building and Authority Development',
+          description: [
+            `In link building, we focus on earning high-quality backlinks from relevant and trustworthy websites. These links are indicators of credibility and authority to search engines.`,
+            ` Ethical link-building practices help strengthen a website’s domain authority over time,  improving its ability to rank competitively while maintaining compliance with search engine guidelines.`,
+          ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',
+        },
+        {
+          icon: seo_tool_6,
+          title: 'SEO Monitoring and Reporting',
+          description: [
+            `We track keyword rankings, organic traffic, user behavior, and technical performance in SEO monitoring. Regular reporting gives an idea of what works and where it should be improved.`,
+            `The ongoing analysis helps refine SEO strategies, keeping up with the changes in the algorithms, and ensuring long-term effectiveness through data-driven optimization efforts.`,
+          ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',
+        },
+      ],
+    },
+    serviceResult: {
+      isVisible: false,
+      isVariant: '04',
+      heading: 'Why Partner With Adaired Digital Media to Hire SEO Services?',
+      bgImage: '',
+      img: StrugglingImgSEO,
+      description: [
+        `Adaired, a leading SEO agency, puts your business at the forefront of technology with the help of proven SEO strategies. 
+        We help your business stay visible, no matter how the search changes.`,
+        `With the help of our data-driven insights, strategic approach, and commitment to performance, we help your business emerge as a premier seo company.`,
+      ],
+      isBgColor: true,
+      list: [
+        {
+          img: seo_resultIcon_1,
+          name: 'Tailored SEO Strategies',
+          description: [
+            `At Adaired, we offer tailored SEO strategies that match your business goals and objectives.`,
+            `With the help of our comprehensive approach, we uncover valuable insights to enhance your website's performance and drive strategic growth for your business.`,
+          ],
+        },
+        {
+          img: seo_resultIcon_2,
+          name: 'Transparent Reporting',
+          description: [
+            `We believe in building long-term relationships with our clients.`,
+            `This is why we use advanced digital marketing tools such as Ahrefs, Yoast, BuzzSumo, Hootsuite, and more to create result-driven strategies, track real-time results, 
+            and drive long-term revenue for our clients.`,
+            `Our search engine optimization strategy services are built on a structured, analytical approach that strengthens visibility, improves relevance, and supports long-term growth.`,
+          ],
+        },
+        {
+          img: seo_resultIcon_3,
+          name: 'Sustainable White-Hat Practices',
+          description: [
+            `Delivering quality work to our clients has become our USP over the years. We work with a laser-sharp focus to generate organic traffic, conversions, and improve technical site health.`,
+            `Our approach to search engine optimization is deep-rooted in advanced keyword research, SEO audits, market gap analysis, and data-driven strategies to meet your goals.`,
+            `We address all the aspects of search engine optimization, right from on-page optimization to link building, ensuring that your digital presence is robust and sustainable.`,
+          ],
+        },
+      ],
+    },
+    notSeeingResult: {
+      isVisible: false,
+      heading: 'Every day you wait is a lost lead.',
+      description: 'Start SEO that converts now.',
+      buttonName: 'Book a Free Consultation',
+      img: Everydayyouwait,
+      bgImage: stop_struggle2,
+    },
+    industryLeaders: {
+      isVisible: false,
+      heading: '',
+      description: '',
+      bgImage: leadingToolsImg,
+    },
+    leadingTools: {
+      isVisible: false,
+      isVariant: '01',
+      heading: 'Powered By Leading Brands From All Around The World',
+      description:
+        'We have worked with some of the leading brands to turn visitors into leads and paying customers. ',
+      bgImage: leadingToolsImg,
+      list: [
+        {
+          img: client_1,
+        },
+        {
+          img: client_2,
+        },
+        {
+          img: client_3,
+        },
+        {
+          img: client_4,
+        },
+        {
+          img: client_5,
+        },
+        {
+          img: client_1,
+        },
+        {
+          img: client_2,
+        },
+      ],
+    },
+    leadingToolsForPerformence: {
+      isGapTop: true,
+      isVisible: false,
+      isVariant: '01',
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+      list: [
+        {
+          img: client_1,
+        },
+        {
+          img: client_2,
+        },
+        {
+          img: client_3,
+        },
+        {
+          img: client_4,
+        },
+        {
+          img: client_5,
+        },
+        {
+          img: client_1,
+        },
+        {
+          img: client_2,
+        },
+      ],
+    },
+    whatMkeDeferent: {
+      isVisible: false,
+      variant: '01',
+      breakIndex: 4,
+      bgGradient: '',
+      heading: 'What Makes Adaired Different From Our Competitors?',
+      description: [
+        `At Adaired, we have a clear plan for building your search engine optimization strategy. Starting with understanding your goals clearly to analyzing where you are losing search visibility, we do all the legwork to help your business uncover quick wins.`,
+      ],
+      list: [
+        {
+          img: 'adaired/services/seo/adairedSEO1_q3hwfz.png',
+          name: 'Customized SEO Strategies',
+          description: [
+            `Adaired develops customized search engine optimization plans according to your business objectives, target market, and competition in the industry. We do not apply templates and standardized checklists.`,
+            `All the campaigns will be carefully strategized based on extensive keyword research, competitor analysis, and search intent to provide organic growth in the long term.`,
+          ],
+        },
+        {
+          img: 'adaired/services/seo/adairedSEO2_cvwllu',
+          name: 'Data-Driven Decision Making',
+          description: [
+            `Our SEO services are guided by real data, not assumptions. We make use of advanced analytics, performance measurement, and search intelligence to optimize campaigns on a continuous basis.`,
+            `This guarantees that all the changes enhance rankings, organic flow, and possible conversion, and get the most out of your SEO investment.`,
+          ],
+        },
+        {
+          img: 'adaired/services/seo/adairedSEO3_vdik7e.png',
+          name: 'Focus on Revenue, Not Just Rankings',
+          description: [
+            `Higher rankings alone don’t grow businesses. Adaired focuses on the SEO strategies, which will provide qualified traffic, leads, and sales.`,
+            `We help businesses maximize search visibility to the user intent and conversion to help them generate measurable revenue and sustain business growth.`,
+          ],
+        },
+        {
+          img: 'adaired/services/seo/adairedSEO4_fnv2bk.png',
+          name: 'Complete SEO Expertise Under One Roof',
+          description: [
+            `From technical SEO and on-page optimization to content creation, link building, and local optimization, Adaired covers every SEO pillar.`,
+            `This integrated approach enhances the authority of the websites, better user experience, and provides a steady stream of improvements in the ranking of the sites in various search platforms.`,
+          ],
+        },
+        {
+          img: 'adaired/services/seo/adairedSEO5_yx8jag.png',
+          name: 'Transparent Reporting & Communication',
+          description: [
+            `We believe in full transparency. Adaired offers effective, understandable SEO reports with the focus on progress, results, and future actions.`,
+            `Clients always know how their website is performing, the strategies they are using, and how their SEO investment is delivering real value.`,
+          ],
+        },
+        {
+          img: 'adaired/services/seo/adairedSEO6_lecqo7.png',
+          name: 'White-Hat, Google-Compliant SEO',
+          description: [
+            `Adaired follows ethical, white-hat SEO practices aligned with Google’s guidelines. We avoid risky shortcuts and spam methods that lead to penalties.`,
+            `Instead, we create long-lasting SEO platforms that safeguard rankings, enhance credibility, and secure long-term online presence.`,
+          ],
+        },
+        {
+          img: 'adaired/services/seo/adairedSEO7_xzi2d0.png',
+          name: 'Continuous Optimization & Algorithm Readiness',
+          description: [
+            `Search algorithms are constantly evolving, and so are our strategies.  Adaired constantly monitors updates, user actions, and performance patterns to optimize the campaigns.`,
+            `This is a proactive measure that ensures that your site remains competitive, compliant, and visible even when search engine algorithms keep changing.`,
+          ],
+        },
+        {
+          img: 'adaired/services/seo/adairedSEO8_qrb7xh.png',
+          name: 'Client-Centric Partnership Approach',
+          description: [
+            `We do not provide just SEO; we build partnerships. Adaired works closely with its clients to understand challenges, create strategies, and adapt with the business.`,
+            `Our dedicated support, active communication with our clients, and a result-oriented approach make us stand out among the traditional SEO agencies.`,
+          ],
+        },
+      ],
+    },
+    projectLogos: {
+      isVisible: false,
+      heading: 'Powered By Leading Brands From All Around The World',
+      desctioption: `We have worked with some of the leading brands to turn visitors into leads and paying customers.`,
+    },
+    stopStruggling: {
+      isVisible: false,
+      isCenter: true,
+      subtitle: '',
+      breakIndex: 5,
+      title: 'Claim Your Free Audit Before Competitors Do!',
+      description: [
+        `Spot problems, improve rankings, and get more traffic at no cost.`,
+      ],
+      button: 'Get Your Free Website Audit!',
+      bgImg: stop_struggle2,
+    },
+    getplan: {
+      isVisible: false,
+      subtitle: 'Boost Traffic Today',
+      isLabel: true,
+      button: 'Get Your AI SEO Plan',
+      title:
+        'Get more visitors, attract the right audience, and increase your revenue.',
+      description: `Our proven SEO strategies put your website in front of people who are ready to buy.`,
+    },
+    seopackages: {
+      isVisible: false,
+      cardLength: 3,
+      heading: 'SEO Packages',
+      description: '',
+      data: [
+        {
+          title: 'Establish',
+          description:
+            'Start strong with the strategy to build visibility and create a foundation for growth.',
+          desc: '$399',
+          span: '/month',
+          desctioption: `Complete SEO Audit`,
+          list: [
+            {
+              des: [`ON-Page Optimization`],
+            },
+            {
+              des: [`Target 15 Primary Keywords`],
+            },
+            {
+              des: [`SEMRush Errors Fixing`],
+            },
+            {
+              des: [`Quality Link Building`],
+            },
+            {
+              des: [`Manual Monthly Reports`],
+            },
+            {
+              des: [`Competitor Analysis`],
+            },
+          ],
+          button: 'Start Growing',
+        },
+        {
+          title: 'Accelerate',
+          text: 'Recommended',
+          description:
+            'Step up with an expanded strategy, deeper optimization, and the tools to scale faster.',
+          desc: '$599',
+          span: '/month',
+          desctioption: `Everything In Starter`,
+          list: [
+            {
+              des: [`AI SEO, GEO, AEO, LLMs"`],
+            },
+            {
+              des: [`Unlimited Secondary Keywords`],
+            },
+            {
+              des: [`2 Website Blogs`],
+            },
+            {
+              des: [`Authority Guest Post Links`],
+            },
+            {
+              des: [`Technical Errors Fixing`],
+            },
+            {
+              des: [`Branded Monthly Reports`],
+            },
+          ],
+          button: 'Scale My Growth',
+        },
+        {
+          title: 'Dominate',
+          description:
+            'Dominate your market with advanced strategy and powerful execution.',
+          desc: '$899',
+          span: '/month',
+          desctioption: `Everything in Premium`,
+          list: [
+            {
+              des: [`Advanced AI Search & Visibility Optimization`],
+            },
+            {
+              des: [`Website Speed Optimization`],
+            },
+            {
+              des: [`Dedicated Account Manager`],
+            },
+            {
+              des: [`Complete SEO Growth roadmap`],
+            },
+          ],
+          button: 'Dominate Search',
+        },
+      ],
+    },
+  },
+
   'shopify-development-company-india': {
     sectionsOrder: [
       'banner',
@@ -17496,7 +18541,7 @@ brand appears in AI summaries and citations.`,
       button: '',
     },
 
-     adairedHelp: {
+    adairedHelp: {
       isVisible: true,
       breakIndex: 5,
       img: AdairedHelp,
@@ -17506,7 +18551,7 @@ brand appears in AI summaries and citations.`,
       heading: `Why Choose Shopify for Your eCommerce Store`,
       description: [
         `Shopify has become one of the most trusted eCommerce platforms for businesses looking to build and scale online stores.`,
-        `Its powerful features, flexibility, and ease of use make it an ideal choice for startups, growing brands, and enterprise-level businesses alike.`
+        `Its powerful features, flexibility, and ease of use make it an ideal choice for startups, growing brands, and enterprise-level businesses alike.`,
       ],
       mainImage: whiteServicesAdairedHelpImg,
       list: [
