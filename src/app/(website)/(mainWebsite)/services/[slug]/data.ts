@@ -644,6 +644,20 @@ import customWebDevImpIcon_8 from '../../../../../../public/assets/images/servic
 import customWebDevImpIcon_9 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_9.png';
 import customWebDevImpIcon_10 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_10.png';
 
+import customWebDevProcessIcon_1 from '../../../../../../public/assets/images/services/customWebDev/customWebDevProcessIcon_1.svg';
+import customWebDevProcessIcon_2 from '../../../../../../public/assets/images/services/customWebDev/customWebDevProcessIcon_2.svg';
+import customWebDevProcessIcon_3 from '../../../../../../public/assets/images/services/customWebDev/customWebDevProcessIcon_3.svg';
+import customWebDevProcessIcon_4 from '../../../../../../public/assets/images/services/customWebDev/customWebDevProcessIcon_4.png';
+import customWebDevProcessIcon_5 from '../../../../../../public/assets/images/services/customWebDev/customWebDevProcessIcon_5.svg';
+import customWebDevProcessIcon_6 from '../../../../../../public/assets/images/services/customWebDev/customWebDevProcessIcon_6.svg';
+import customWebDevProcessIcon_7 from '../../../../../../public/assets/images/services/customWebDev/customWebDevProcessIcon_7.png';
+
+import customWebDevTechStackImg_1 from '../../../../../../public/assets/images/services/customWebDev/customWebDevTechStackImg_1.png';
+import customWebDevTechStackImg_2 from '../../../../../../public/assets/images/services/customWebDev/customWebDevTechStackImg_2.png';
+import customWebDevTechStackImg_3 from '../../../../../../public/assets/images/services/customWebDev/customWebDevTechStackImg_3.png';
+import customWebDevTechStackImg_4 from '../../../../../../public/assets/images/services/customWebDev/customWebDevTechStackImg_4.png';
+import customWebDevTechStackImg_5 from '../../../../../../public/assets/images/services/customWebDev/customWebDevTechStackImg_5.png';
+
 export type SectionKey =
   | 'banner'
   | 'getsCredit'
@@ -13785,7 +13799,10 @@ brand appears in AI summaries and citations.`,
 
     techStackMobile: {
       isVisible: true,
+      breakIndex: 4,
+      description: '',
       heading: 'Key Stats About White Label Link Building',
+      ContentDescription: '',
       navItems: [
         'Frontend Technologies',
         'Backend Technologies',
@@ -21856,66 +21873,68 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: true,
       subtitle: 'Our Process',
-      title: 'Our Shopify Development Process',
-      breakIndex: 5,
-      bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFFFFF]',
+      title: 'How We Deliver Custom Web Solutions',
+      breakIndex: 4,
+      bgGradient: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFFFF]',
       span: '',
       description: [
-        `We follow a structured and strategic approach that ensures every project is delivered with efficiency, precision, and high quality.`,
+        `Our development process follows a structured approach that allows us to transform ideas into fully functional, scalable digital platforms.`,
       ],
       services: [
         {
-          icon: shopifyDevProcessIcon_1,
-          title: 'Discovery & Requirement Analysis',
+          icon: customWebDevProcessIcon_1,
+          title: 'Discovery and Requirement Analysis',
           description: [
-            `Every successful Shopify project begins with a comprehensive discovery phase. During this stage, our team works closely with you to understand your business objectives, target audience, product offerings, and overall eCommerce strategy.`,
-            `We evaluate your current digital presence, analyze competitors within your industry, and identify opportunities to improve functionality and user experience.`,
-            `This phase also involves gathering technical requirements, understanding integration needs, and determining the features necessary to support your store’s operations.`,
+            `Every successful project begins with a clear understanding of the business problem that needs to be solved. During the discovery phase, we collaborate with stakeholders to gather detailed information about the project goals, user requirements, and technical expectations.`,
+            `This stage typically involves identifying the target audience, defining core functionalities, and understanding how the platform will support business operations. Our team also analyzes existing systems, potential integrations, and long-term scalability requirements.`,
           ],
         },
         {
-          icon: shopifyDevProcessIcon_2,
-          title: 'Planning & Strategy',
+          icon: customWebDevProcessIcon_2,
+          title: 'Strategy and Solution Planning',
           description: [
-            `Once the discovery phase is complete, we move into strategic planning. At this stage, our team develops a detailed roadmap outlining the entire Shopify development process.`,
-            `This includes defining the website architecture, organizing product categories, planning user navigation flows, and selecting the most suitable technologies and integrations.`,
-            `We also establish development timelines, project milestones, and communication channels to ensure smooth collaboration throughout the project.`,
+            `Once the requirements are defined, we develop a strategic roadmap for the project. This stage focuses on designing the overall system architecture, selecting the appropriate technologies, and determining the development timeline.`,
+            `Our team evaluates the most suitable frontend and backend frameworks, database structures, and cloud infrastructure to ensure the platform can handle future growth and performance demands. We also identify potential challenges and plan solutions in advance to reduce development risks.`,
           ],
         },
         {
-          icon: shopifyDevProcessIcon_3,
-          title: 'UI/UX Design',
+          icon: customWebDevProcessIcon_3,
+          title: 'User Experience and Interface Design',
           description: [
-            `User experience plays a critical role in the success of any eCommerce website. During the design phase, our designers focus on creating visually appealing and intuitive interfaces that reflect your brand identity while enhancing usability.`,
-            `We develop wireframes, design layouts, and interactive elements that guide users through a smooth shopping journey.`,
-            `Special attention is given to mobile responsiveness, navigation simplicity, and product page optimization to ensure customers can easily browse, search, and purchase products.`,
+            `User experience plays a critical role in the success of any web platform. During this stage, our designers create intuitive layouts and user flows that ensure visitors can easily navigate the application and complete their desired actions.`,
+            `The process includes wireframing, interface design, and usability testing. Designers focus on creating a visually appealing and user-friendly interface that reflects the brand identity while maintaining functionality and accessibility.`,
           ],
         },
         {
-          icon: shopifyDevProcessIcon_4,
-          title: 'Shopify Development & Customization',
+          icon: customWebDevProcessIcon_4,
+          title: 'Frontend & Backend Development',
           description: [
-            `After the design is approved, our development team begins building your Shopify store. This stage involves converting design concepts into a fully functional website using best coding practices and Shopify’s development framework.`,
-            `We customize themes, implement advanced features, integrate third-party applications, and configure store settings to match your operational needs.`,
-            `Our developers ensure that your store is optimized for performance, security, and scalability.`,
+            `Frontend development involves building the visual and interactive components of the web application that users interact with directly. Our developers convert the approved designs into functional interfaces using modern web technologies.`,
+            `While the backend is the core engine that powers the web application. It handles data processing, user authentication, system logic, and communication between different components of the platform.`,
           ],
         },
         {
-          icon: shopifyDevProcessIcon_5,
-          title: 'Testing & Quality Assurance',
+          icon: customWebDevProcessIcon_5,
+          title: 'Integration and Feature Implementation',
           description: [
-            `Before launching your Shopify store, we conduct comprehensive testing to ensure that every feature functions flawlessly.`,
-            `Our quality assurance process includes checking all website components, validating forms and checkout processes, testing integrations, and reviewing product display functionality.`,
-            `We also test the store across multiple browsers, devices, and screen sizes to ensure a consistent user experience. Performance optimization and security checks are also conducted during this stage to guarantee that your Shopify store is fast, stable, and secure.`,
+            `Many web applications require integration with third-party systems such as payment gateways, customer relationship management tools, analytics platforms, and cloud services. In this phase, our team connects the web application with these external systems to create a unified digital ecosystem.`,
+            `We also implement advanced features such as automation tools, reporting dashboards, notification systems, and role-based access controls. These capabilities allow businesses to streamline operations and gain better control over their digital platforms.`,
           ],
         },
         {
-          icon: shopifyDevProcessIcon_6,
-          title: 'Launch & Optimization',
+          icon: customWebDevProcessIcon_6,
+          title: 'Testing and Quality Assurance',
           description: [
-            `Once testing is completed and final approvals are obtained, we proceed with launching your Shopify store.`,
-            `Our team carefully deploys the website to the live environment while ensuring minimal downtime and smooth system integration.`,
-            `After the launch, we monitor the store’s performance closely to ensure everything operates as expected. We also perform post-launch optimization tasks such as improving page speed, refining user experience, and implementing additional enhancements where needed.`,
+            `Before launching the application, we conduct comprehensive testing to ensure the platform performs flawlessly. Our quality assurance team evaluates the system across multiple devices, browsers, and operating environments to identify potential issues.`,
+            `Testing includes functionality testing, performance testing, security assessments, and usability evaluations. Any bugs or inconsistencies discovered during this process are resolved before the platform moves to the deployment stage.`,
+          ],
+        },
+        {
+          icon: customWebDevProcessIcon_7,
+          title: 'Deployment and Launch',
+          description: [
+            `After successful testing, the application is deployed to a live environment where it becomes accessible to users. Our team handles server configuration, database setup, and performance optimization to ensure a smooth launch.`,
+            `We carefully monitor the platform during the initial launch phase to ensure that all components function as expected. If necessary, adjustments are made quickly to maintain optimal performance and stability.`,
           ],
         },
       ],
@@ -21923,83 +21942,43 @@ brand appears in AI summaries and citations.`,
 
     techStackMobile: {
       isVisible: true,
-      heading: 'Key Stats About White Label Link Building',
+      breakIndex: 4,
+      heading: 'Technologies We Use for Developing Custom Web Solutions',
+      description: 'Our custom web development team works with modern technologies to build reliable and scalable web solutions.',
+      ContentDescription: 'These technologies allow us to build secure and high-performance applications tailored to your business requirements...',
       navItems: [
         'Frontend Technologies',
         'Backend Technologies',
-        'Database Management',
-        'Cloud & DevOps',
-        'UI/UX & Prototyping Tools',
-        'API & Integrations',
+        'Database Systems',
       ],
       mobileNavItems: [
         'Frontend',
         'Backend',
         'Database',
-        'DevOps',
-        'UI/UX',
-        'API & Integrations',
       ],
       list: [
         [
-          {
-            image: mobileAppDevTechStackImg_1,
-            desc: 'Swift (iOS Development)',
-          },
-          {
-            image: mobileAppDevTechStackImg_2,
-            desc: 'Kotlin (Android Development)',
-          },
-          { image: mobileAppDevTechStackImg_3, desc: 'React Native' },
-          { image: mobileAppDevTechStackImg_4, desc: 'Flutter' },
-          { image: mobileAppDevTechStackImg_5, desc: 'Xamarin' },
+          { image: customWebDevTechStackImg_1, desc: 'HTML, CSS' },
+          { image: customWebDevTechStackImg_2, desc: 'JavaScript' },
+          { image: customWebDevTechStackImg_3, desc: 'React Native' },
+          { image: customWebDevTechStackImg_4, desc: 'Angular' },
+          { image: customWebDevTechStackImg_5, desc: 'Vue.js' },
         ],
         [
           { image: mobileAppDevTechStackImg_6, desc: 'Node.js' },
           { image: mobileAppDevTechStackImg_7, desc: 'Python' },
           { image: mobileAppDevTechStackImg_8, desc: 'PHP' },
-          { image: mobileAppDevTechStackImg_9, desc: '.NET Core' },
+          { image: mobileAppDevTechStackImg_9, desc: '.NET' },
           { image: mobileAppDevTechStackImg_10, desc: 'Java' },
         ],
         [
           { image: mobileAppDevTechStackImg_11, desc: 'MySQL' },
           { image: mobileAppDevTechStackImg_12, desc: 'PostgreSQL' },
           { image: mobileAppDevTechStackImg_13, desc: 'MongoDB' },
-          {
-            image: mobileAppDevTechStackImg_14,
-            desc: 'Firebase Realtime Database',
-          },
-          { image: mobileAppDevTechStackImg_15, desc: 'SQLite' },
-        ],
-        [
-          { image: mobileAppDevTechStackImg_16, desc: 'AWS' },
-          { image: mobileAppDevTechStackImg_17, desc: 'Microsoft Azure' },
-          { image: mobileAppDevTechStackImg_18, desc: 'Google Cloud Platform' },
-          { image: mobileAppDevTechStackImg_19, desc: 'Docker' },
-          { image: mobileAppDevTechStackImg_20, desc: 'Kubernetes' },
-        ],
-        [
-          { image: mobileAppDevTechStackImg_21, desc: 'Figma' },
-          { image: mobileAppDevTechStackImg_22, desc: 'Adobe XD' },
-          { image: mobileAppDevTechStackImg_23, desc: 'Sketch' },
-          { image: mobileAppDevTechStackImg_24, desc: 'InVision' },
-          { image: mobileAppDevTechStackImg_25, desc: 'Ux Pin' },
-        ],
-        [
-          { image: mobileAppDevTechStackImg_26, desc: 'RESTful APIs' },
-          { image: mobileAppDevTechStackImg_27, desc: 'GraphQL' },
-          {
-            image: mobileAppDevTechStackImg_28,
-            desc: 'Payment Gateway Integration',
-          },
-          {
-            image: mobileAppDevTechStackImg_29,
-            desc: 'Social Media Integration',
-          },
-          {
-            image: mobileAppDevTechStackImg_30,
-            desc: 'Third-party API Integration',
-          },
+          { image: mobileAppDevTechStackImg_14, desc: 'Cloud Platforms' },
+          { image: mobileAppDevTechStackImg_15, desc: 'AWS' },
+          { image: mobileAppDevTechStackImg_15, desc: 'Google Cloud' },
+          { image: mobileAppDevTechStackImg_15, desc: 'Microsoft Azure' },
         ],
       ],
     },
@@ -22007,44 +21986,45 @@ brand appears in AI summaries and citations.`,
     industriesWeServe: {
       isVisible: true,
       code: '01',
+      bgColor: 'bg-[#FFFBF5]',
       heading: 'Industries We Serve In',
       description: [
-        `Our expertise across these industries enables us to design Shopify stores that deliver exceptional user experiences and support long-term business success.`,
+        `Our custom web development services support businesses across a wide range of industries.`,
       ],
       isCard: false,
       bgImg: '',
       list: [
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317137/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__1_nxi3gz.png',
-          btn: [`Fashion & Apparel`],
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388294/adaired/services/custom_web_development/customWebDevIndustriesWeServe__1_ificfg.png',
+          btn: [`Healthcare`],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317137/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__2_caf6zt.png',
-          btn: [`Beauty & Cosmetics`],
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388294/adaired/services/custom_web_development/customWebDevIndustriesWeServe__2_jpt4f5.png',
+          btn: [`E-commerce`],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317136/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__3_lavaza.png',
-          btn: [`Electronics & Gadgets`],
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388295/adaired/services/custom_web_development/customWebDevIndustriesWeServe__3_fx5csy.png',
+          btn: [`Finance`],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317136/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__4_x3bwnn.png',
-          btn: [`Home & Furniture`],
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388294/adaired/services/custom_web_development/customWebDevIndustriesWeServe__4_rd9gro.png',
+          btn: [`Education`],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317136/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__5_rlsolp.png',
-          btn: [`Food & Beverage`],
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388294/adaired/services/custom_web_development/customWebDevIndustriesWeServe__5_ynvkcw.png',
+          btn: [`Real Estate`],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317136/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__16_iz4gom.png',
-          btn: [`Health & Wellness`],
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388293/adaired/services/custom_web_development/customWebDevIndustriesWeServe__6_m8d4ub.png',
+          btn: [`SaaS Platforms`],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317136/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__7_zmhzk1.png',
-          btn: [`Lifestyle & Accessories`],
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388293/adaired/services/custom_web_development/customWebDevIndustriesWeServe__7_kkvnv6.png',
+          btn: [`Lifestyle`],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317136/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__8_x5i8db.png',
-          btn: [`Sports & Outdoor Equipment`],
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388293/adaired/services/custom_web_development/customWebDevIndustriesWeServe__8_yivjck.png',
+          btn: [`IT & Automation`],
         },
       ],
     },
@@ -22055,22 +22035,52 @@ brand appears in AI summaries and citations.`,
       breakIndex: 3,
       isInCenter: false,
       bgColor: false,
-      bgGradient: 'bg-[#EEEEEE]/20',
-      cardColor2: '#FFF8EF',
-      cardColor: '#FFFFFF',
-      cardImgBgColor2: '#FFEDD7',
+      bgGradient: 'bg-[#FFFFFF]',
+      cardColor2: '#FFF8F0',
+      cardColor: '#FBFBFB',
+      cardImgBgColor2: '#FFF2DF',
       cardImgBgColor: '#F3F3F3',
-      borderColor2: '#F28F17',
-      borderColor: '#051B3C',
-      heading: `Why Choose Our Shopify App Development Company`,
+      borderColor2: '#FB9100',
+      borderColor: '#000000',
+      heading: `Why Choose Adaired As Your Custom Web Development Company`,
       description: [
-        'Our team combines technical expertise, creative design capabilities, and strategic thinking to deliver Shopify solutions that help businesses grow and succeed in the competitive online marketplace.',
+        'Choosing the right development partner is essential for the success of your project. Our team focuses on delivering reliable solutions that support business growth and innovation.',
       ],
       list: [
         {
-          img: '',
-          name: '',
-          description: [``],
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388295/adaired/services/custom_web_development/customWebDevWhatMkDiffImg_1_ogegl2.png',
+          name: 'Experienced Development Team',
+          description: [
+            `Our developers bring extensive experience in building complex web applications across multiple industries.`,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388295/adaired/services/custom_web_development/customWebDevWhatMkDiffImg_2_gno8aq.png',
+          name: 'Scalable Architecture',
+          description: [
+            `We design platforms that can expand as your business grows, allowing you to add features and support more users over time.`,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388295/adaired/services/custom_web_development/customWebDevWhatMkDiffImg_3_oabaa9.png',
+          name: 'Security-Focused Development',
+          description: [
+            `We implement strong security practices to protect your data and ensure the reliability of your platform. `,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388294/adaired/services/custom_web_development/customWebDevWhatMkDiffImg_4_nfafxn.png',
+          name: 'Agile Development Approach',
+          description: [
+            `Our agile workflow allows us to deliver projects efficiently while adapting to changing requirements.`,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388294/adaired/services/custom_web_development/customWebDevWhatMkDiffImg_5_jslrqb.png',
+          name: 'Ongoing Support',
+          description: [
+            `We provide continuous maintenance and support services to ensure your platform remains secure, updated, and high-performing.`,
+          ],
         },
       ],
     },
@@ -22078,20 +22088,23 @@ brand appears in AI summaries and citations.`,
     buildlinks: {
       isVisible: true,
       isCode01: true,
-      isVariant: '08',
+      isVariant: '05',
       breakIndex: 5,
       bgImg: bgImgBuildLink,
-      img: '',
-      label: 'Take Your eCommerce',
-      heading: 'Business to the Next Level!',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388292/adaired/services/custom_web_development/customWebDevBuildLinkImg_y1mjuu.png',
+      label: 'Start Your Custom Web',
+      heading: 'Development Project Today',
       description: ``,
       isBgWhite: true,
       data: [
         {
-          desctioption: `Whether you are launching a new eCommerce business or upgrading an existing store, we, as an expert Shopify development company India is ready to help you create a powerful and scalable online store.`,
+          desctioption: `Every successful digital platform begins with the right strategy and development partner. Whether you need a custom website, a scalable web application, or a complex enterprise platform, our team is ready to help you turn your vision into a powerful and reliable digital solution.`,
+        },
+        {
+          desctioption: `If you’re ready to build a web platform tailored specifically to your business, our team is here to guide you through every step of the process.`,
         },
       ],
-      button: 'Start Your Shopify Project Today',
+      button: 'Talk to a Web Development Expert',
     },
 
     faqData: {
@@ -22101,51 +22114,39 @@ brand appears in AI summaries and citations.`,
       description: ``,
       list: [
         {
-          title: 'What does a Shopify app development company do?',
+          title: 'What is custom web development?',
           description: [
-            `We, as a Shopify app development company, help businesses design, build, customize, and maintain eCommerce stores using the Shopify platform. These services include store setup, theme customization, app development, integration of third-party tools, and performance optimization.`,
+            `Custom web development involves building a website or web application specifically designed for the unique needs of a business rather than using generic templates or prebuilt systems.`,
           ],
         },
         {
-          title: 'How long does it take to build a Shopify store?',
+          title: 'How long does custom web development take?',
           description: [
-            `The development timeline depends on the complexity of the project. A basic store setup can take a few weeks, while a fully customized Shopify store with advanced features and integrations may take several weeks to complete.`,
+            `The timeline depends on the complexity of the project. Simple custom websites may take several weeks, while advanced web applications may require several months of development.`,
           ],
         },
         {
-          title: 'What is the difference between Shopify and Shopify Plus?',
+          title: 'How much does custom web development cost?',
           description: [
-            `Shopify is designed for small and medium-sized businesses, while Shopify Plus is an enterprise-level solution that provides advanced features, automation tools, and scalability for high-volume online stores.`,
+            `Costs vary based on project scope, features, and integrations. Custom web development is typically more expensive than template-based solutions but provides greater flexibility and long-term value.`,
           ],
         },
         {
-          title: 'Can my existing eCommerce website be migrated to Shopify?',
+          title: 'Is custom web development better than using templates?',
           description: [
-            `Yes, an existing store can be migrated from platforms such as WooCommerce, Magento, or other systems to Shopify. During migration, products, customer data, and order history can be securely transferred while maintaining SEO performance.`,
+            `For businesses with unique requirements, custom development provides greater flexibility, scalability, and performance compared to template-based platforms.`,
           ],
         },
         {
-          title: 'Is Shopify suitable for small businesses?',
+          title: 'Can custom web applications integrate with other systems?',
           description: [
-            `Yes, Shopify is highly suitable for small businesses because it offers easy store management, affordable pricing plans, and a wide range of built-in tools that simplify eCommerce operations.`,
+            `Yes. Custom web applications can integrate with CRM systems, payment gateways, marketing platforms, analytics tools, and many other third-party services.`,
           ],
         },
         {
-          title: 'Can Shopify stores be customized?',
+          title: 'Do you provide maintenance and support after development?',
           description: [
-            `Yes, Shopify stores can be customized through themes, apps, and custom development. Developers can modify store design, add new features, and integrate external systems to match business requirements.`,
-          ],
-        },
-        {
-          title: 'Do Shopify stores support multiple payment gateways?',
-          description: [
-            `Yes, Shopify supports multiple payment gateways and also offers its own integrated payment solution called Shopify Payments, making transactions secure and convenient.`,
-          ],
-        },
-        {
-          title: 'Do you offer ongoing Shopify maintenance and support?',
-          description: [
-            `Yes, ongoing support services are typically available to help businesses maintain store performance, implement updates, resolve technical issues, and continuously optimize their Shopify store.`,
+            `Yes. Ongoing maintenance and support ensure your web platform remains secure, updated, and fully functional as your business grows.`,
           ],
         },
       ],
