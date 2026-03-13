@@ -21574,7 +21574,7 @@ brand appears in AI summaries and citations.`,
       imgWidth: '836px',
       imgHight: '558px',
       heading: 'What is Custom Web Development?',
-      bgColor: '#FFFCF8',
+      bgColor: '#000000',
       textColor: '#FFFFFF',
       isGap: true,
       data: [
