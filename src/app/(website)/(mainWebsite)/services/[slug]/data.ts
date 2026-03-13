@@ -5743,7 +5743,7 @@ brand appears in AI summaries and citations.`,
     serviceResult: {
       isVisible: true,
       breakIndex: 3,
-      bgColor: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFFFF]',
+      bgcolor: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFFFF]',
       isInCenter: false,
       heading: 'Common White Label SEO Use Cases',
       isVariant: '03',
@@ -5752,7 +5752,7 @@ brand appears in AI summaries and citations.`,
         primarily as a way to support ongoing search optimization without expanding internal teams. 
         The following use cases reflect common operational scenarios:`,
       ],
-      isBgColor: true,
+      bgColor: true,
       img: WhiteSeoServiceResultImg,
       list: [
         {
@@ -19989,6 +19989,25 @@ brand appears in AI summaries and citations.`,
         },
       ],
     },
+    
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '03',
+      breakIndex: 3,
+      bgImg: bgImgBuildLink,
+      img: shopifyDevBuildLinkImg,
+      label: 'Take the First Step',
+      heading: 'Toward More  Sales',
+      description: ``,
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `Every day your store isn’t optimized is a missed revenue opportunity. Our expert e-commerce SEO services are designed to position your products in front of buyers who are ready to purchase. Let’s transform your organic traffic into predictable growth.`,
+        },
+      ],
+      button: 'GROW MY ONLINE STORE',
+    },
 
     faqData: {
       isVisible: true,
@@ -20122,25 +20141,6 @@ brand appears in AI summaries and citations.`,
           ],
         },
       ],
-    },
-
-    buildlinks: {
-      isVisible: true,
-      isCode01: true,
-      isVariant: '03',
-      breakIndex: 3,
-      bgImg: bgImgBuildLink,
-      img: shopifyDevBuildLinkImg,
-      label: 'Take the First Step',
-      heading: 'Toward More  Sales',
-      description: ``,
-      isBgWhite: true,
-      data: [
-        {
-          desctioption: `Every day your store isn’t optimized is a missed revenue opportunity. Our expert e-commerce SEO services are designed to position your products in front of buyers who are ready to purchase. Let’s transform your organic traffic into predictable growth.`,
-        },
-      ],
-      button: 'GROW MY ONLINE STORE',
     },
 
     whatareservice2: {
@@ -20897,6 +20897,7 @@ brand appears in AI summaries and citations.`,
     serviceResult: {
       isVisible: true,
       breakIndex: 1,
+      bgcolor: 'bg-gradient-to-b from-[#fffdf9] to-[#fffdf9]',
       isVariant: '03',
       heading: 'E-Commerce Platforms We Work With',
       bgImage: '',
@@ -20905,7 +20906,6 @@ brand appears in AI summaries and citations.`,
         `Choosing the right eCommerce platform is essential for building a successful online store.`,
         `We also help businesses evaluate eCommerce website development packages and understand the typical eCommerce website development price before selecting the right platform.`,
       ],
-      isBgColor: true,
       bgColor: true,
       list: [
         {
