@@ -760,7 +760,7 @@ export const ServiceSectionData = {
           label: 'eCommerce Web Development',
           title: 'eCommerce Web Development',
           description: `Transform your online business with our eCommerce Web Development services. We create responsive, secure, and user-friendly websites tailored to your brand, optimized for performance and conversions. From product catalogs to payment gateways, our solutions drive sales, enhance customer experience, and help your business thrive in the digital marketplace.`,
-          link: '/services/web-design-development-company',
+          link: '/services/ecommerce-development-company-india',
         },
         {
           icon: html,

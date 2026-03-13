@@ -14,13 +14,13 @@ const IndustriesWeServe = ({ industriesWeServe }: any) => {
     return (
         <div
             ref={ref}
-            className={`py-[3rem] lg:py-[4rem]`}
+            className={`py-[3rem] lg:py-[4rem] ${industriesWeServe?.bgColor}`}
         >
             <MaxWidthWrapper>
                 {industriesWeServe?.code === '01' && (
-                    <div>
+                    <div className=''>
                         <div
-                            className={`flex w-full justify-between transition-all duration-1000 lg:w-full ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
+                            className={`flex w-full justify-center transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
                         >
                             <Heading
                                 isInCenter={true}

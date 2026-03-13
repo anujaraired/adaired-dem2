@@ -9,6 +9,7 @@ import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 import { BiSolidBadgeCheck } from 'react-icons/bi';
 import { BsCheckAll } from 'react-icons/bs';
 import CldImage from '@/app/(website)/components/UI/CldImage';
+import Button from '@/app/(website)/common/Button';
 const WhatAreService = ({ whatareaiseo }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const [open, setOpen] = useState(false);
@@ -179,25 +180,26 @@ const WhatAreService = ({ whatareaiseo }: any) => {
       )}
       {whatareaiseo?.isVariant === '04' && (
         <div
-          // className={`relative bg-gradient-to-b from-black to-[#051C40] py-[3rem] lg:py-0`}
           className={`relative py-[3rem] lg:py-0`}
           style={{
             paddingTop: whatareaiseo?.paddingY,
             paddingBottom: whatareaiseo?.paddingY,
             backgroundColor: whatareaiseo?.bgColor,
+            
           }}
         >
           <MaxWidthWrapper
             isRowReverse={whatareaiseo?.isRowReverse}
             isGap={whatareaiseo?.isGap}
-            className={`block ${whatareaiseo?.isRowReverse && 'flex-row-reverse'} justify-between gap-[4rem] lg:flex`}
+            className={`block ${whatareaiseo?.isRowReverse && 'flex-row-reverse'} justify-between lg:flex`}
+            style={{gap:whatareaiseo?.customGap ||"4rem"}}
+            
           >
             <div
               className={`my-auto w-[100%] lg:w-[${whatareaiseo.width}] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
               <Heading
                 className="flex justify-center lg:justify-start"
-                subTitle={''}
                 title={whatareaiseo?.heading}
                 span={whatareaiseo?.span}
                 spanColor="text-[#FBD04F]"
@@ -228,7 +230,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                                 {item?.isListSingle ? (
                                   <BsCheckAll
                                     size={22}
-                                    style={{ color: item?.isListColor }}
+                                    style={{ color: item?.listTextColor }}
                                   />
                                 ) : (
                                   <BiSolidBadgeCheck
@@ -239,7 +241,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                                 <p
                                   className={`${item?.isListBold && 'font-bold'}`}
                                   style={{
-                                    color: item?.isListColor || '#000000',
+                                    color: item?.listTextColor || '#000000',
                                   }}
                                 >
                                   {listItem}
@@ -253,6 +255,9 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                   );
                 })}
               </div>
+              {whatareaiseo?.button && (
+                <Button name={whatareaiseo?.button}  className='mt-[2rem]'/>
+              )}
             </div>
             <div
               ref={ref}

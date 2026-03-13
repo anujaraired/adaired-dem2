@@ -6,7 +6,8 @@ const MaxWidthWrapper: React.FC<{
   isGap?: boolean;
   isRowReverse?: boolean;
   children: React.ReactNode;
-}> = ({ className, isGap, isRowReverse, children }) => {
+  style?:any
+}> = ({ className, isGap, isRowReverse, children, style }) => {
   return (
     <section
       // className={cn(
@@ -23,6 +24,7 @@ const MaxWidthWrapper: React.FC<{
         }`,
         className
       )}
+      style={style}
     >
       {children}
     </section>
