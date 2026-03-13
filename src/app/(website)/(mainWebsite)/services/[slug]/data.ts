@@ -598,6 +598,21 @@ import shopifyDevImpIcon_6 from '../../../../../../public/assets/images/services
 // eCommerce Service Page Images
 import ECommerceKeyStatsImg from '../../../../../../public/assets/images/services/eCommerceDevelopment/KeyStatsIcon.svg';
 
+// custom Web Development Images
+import customWebDevKeyStatsImg from '../../../../../../public/assets/images/services/customWebDev/customWebDevKeyStatsImg.png';
+import customWebDevWhatAreServiceImg from '../../../../../../public/assets/images/services/customWebDev/customWebDevWhatAreServiceImg.png';
+
+import customWebDevImpIcon_1 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_1.png';
+import customWebDevImpIcon_2 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_2.png';
+import customWebDevImpIcon_3 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_3.png';
+import customWebDevImpIcon_4 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_4.png';
+import customWebDevImpIcon_5 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_5.png';
+import customWebDevImpIcon_6 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_6.png';
+import customWebDevImpIcon_7 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_7.png';
+import customWebDevImpIcon_8 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_8.png';
+import customWebDevImpIcon_9 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_9.png';
+import customWebDevImpIcon_10 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_10.png';
+
 export type SectionKey =
   | 'banner'
   | 'getsCredit'
@@ -5483,7 +5498,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       isBgWhite: true,
       bgColor: '#FAFAFA',
-      trColor: '#7259FF',
+      trColor: 'bg-[#7259FF]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       heading: 'White Label SEO vs In-House SEO Teams',
@@ -8433,7 +8448,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: false,
       isBgWhite: false,
       bgColor: '#FAFAFA',
-      trColor: '#7259FF',
+      trColor: 'bg-[#7259FF]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       heading:
@@ -11554,7 +11569,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       isBgWhite: true,
       bgColor: '#FAFAFA',
-      trColor: '#7259FF',
+      trColor: 'bg-[#7259FF]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
@@ -12489,7 +12504,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       isBgWhite: true,
       bgColor: '#FFFCF7',
-      trColor: '#FB9100',
+      trColor: 'bg-[#FB9100]',
       rowColor: 'bg-[#FB9100]/10',
       isVariant: '01',
       heading: 'AEO vs Traditional SEO: A Strategic Comparison',
@@ -13948,7 +13963,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       isBgWhite: true,
       bgColor: '#FAFAFA',
-      trColor: '#7259FF',
+      trColor: 'bg-[#7259FF]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
@@ -14932,7 +14947,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       isBgWhite: true,
       bgColor: '#FAFAFA',
-      trColor: '#FB9100',
+      trColor: 'bg-[#FB9100]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
@@ -15572,7 +15587,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       isBgWhite: true,
       bgColor: '#FFFCF7',
-      trColor: '#FB9100',
+      trColor: 'bg-[#FB9100]',
       rowColor: 'bg-[#FFF6EB]',
       isVariant: '01',
       heading: 'The Importance of Google Maps & Website Optimization',
@@ -17129,7 +17144,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       isBgWhite: true,
       bgColor: '#FAFAFA',
-      trColor: '#FB9100',
+      trColor: 'bg-[#FB9100]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
@@ -19095,7 +19110,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       isBgWhite: true,
       bgColor: '#FAFAFA',
-      trColor: '#FB9100',
+      trColor: 'bg-[#FB9100]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
@@ -20116,7 +20131,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       isBgWhite: true,
       bgColor: '#FAFAFA',
-      trColor: '#FB9100',
+      trColor: 'bg-[#FB9100]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
@@ -21322,16 +21337,17 @@ brand appears in AI summaries and citations.`,
       'banner',
       'keyStats',
       'whatareservice',
+      'dataInTable',
       'importantToBussiness',
-      'adairedHelp',
       'ourProcess',
+      'techStackMobile',
+      'industriesWeServe', 
       'whatMkeDeferent',
-      'industriesWeServe',
       'buildlinks',
       'faqData',
+      'adairedHelp',
       'benefitofAiSeo',
       'whatareservice2',
-      'dataInTable',
       'whatMissing',
       'whatIncluded',
       'needofservice',
@@ -21360,62 +21376,62 @@ brand appears in AI summaries and citations.`,
       isAbsolute: true,
       isStyleHeading: true,
       headingParts: [
-        { text: 'Professional Shopify ', color: '#000000', weight: '400' },
+        { text: 'Custom-Built Web ', color: '#000000', weight: '400' },
         {
-          text: ' Development Company in India ',
+          text: ' Solutions for Growing Businesses ',
           color: '#FB9100',
           weight: '700',
         },
       ],
       breakIndex: 8,
       desc: [
-        `Get end-to-end Shopify development services, from store setup and theme design to app integration and Shopify Plus solutions.`,
-        `With an expert Shopify development company, you can build a scalable, high-performing online store designed to enhance user experience, drive conversions, and support long-term eCommerce growth.`,
+        `Get powerful web solutions crafted to solve real business challenges and support long-term growth.`,
+        `Adaired Digital, a reputable custom web application development company, creates solutions tailored to your business workflows, ensuring flexibility, performance, and long-term scalability.`,
       ],
       subheading: '',
-      button: 'Launch My Shopify Store',
+      button: 'Create Your Custom Platform',
       width: '48%',
       widthLg: '30rem',
-      bgImg: ShopifyDevBannerImg,
+      bgImg: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388293/adaired/services/custom_web_development/customWebDevBannerImg_jruqxc.png',
     },
 
     keyStats: {
       isVisible: true,
       code: '01',
       img: whiteLinkBuildingKeyStatsImg,
-      heading: 'Shopify’s Global Impact',
+      heading: 'Why Businesses Are Investing in Custom Web Development',
       bgColor: '#FB9100',
       isImgBg: true,
       isCard: false,
       list: [
         {
-          icon: shopifyDevKeyStatsImg,
+          icon: customWebDevKeyStatsImg,
           desctioption: [
-            `Over 7 million websites worldwide are built using Shopify, making it one of the most popular eCommerce platforms. (BuiltWith)`,
+            `65% of companies invest in web development to improve their digital transformation efforts.`,
           ],
         },
         {
-          icon: shopifyDevKeyStatsImg,
+          icon: customWebDevKeyStatsImg,
           desctioption: [
-            `Shopify merchants have generated more than $1.1 trillion in total sales since the platform launched. (Shopify)`,
+            `More than 71% of businesses now have a website, highlighting the growing demand for professional web development solutions.`,
           ],
         },
         {
-          icon: shopifyDevKeyStatsImg,
+          icon: customWebDevKeyStatsImg,
           desctioption: [
-            `Shopify powers online stores in 175+ countries, helping businesses sell globally. (Shopify)`,
+            `The global web development market is expected to reach about $10.5 billion by 2027.`,
           ],
         },
         {
-          icon: shopifyDevKeyStatsImg,
+          icon: customWebDevKeyStatsImg,
           desctioption: [
-            `In 2025, Shopify processed $378.44 billion in gross merchandise volume (GMV) across its platform. (Shopify)`,
+            `60% of website traffic comes from mobile devices, making mobile-optimized web applications essential.`,
           ],
         },
         {
-          icon: shopifyDevKeyStatsImg,
+          icon: customWebDevKeyStatsImg,
           desctioption: [
-            `Shopify accounts for around 10% of the global e-commerce platform market, underscoring its strong industry presence. (Statista)`,
+            `53% of mobile users abandon a website if it takes longer than 3 seconds to load.`,
           ],
         },
       ],
@@ -21428,161 +21444,294 @@ brand appears in AI summaries and citations.`,
       paddingY: '4rem',
       isRowReverse:true,
       width: '65%',
-      img: shopifyDevWhatAreServiceImg,
+      img: customWebDevWhatAreServiceImg,
+      // img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388292/adaired/services/custom_web_development/customWebDevWhatAreServiceImg_ropdfp.png',
       imgWidth: '836px',
       imgHight: '558px',
-      heading: 'What is Shopify Development',
+      heading: 'What is Custom Web Development?',
       bgColor: '#FFFCF8',
       isGap:true,
       isBgWhite: true,
       data: [
         {
-          desctioption: `Shopify development refers to the process of creating and customizing eCommerce websites using the Shopify platform. It encompasses a wide range of services, including store setup, theme design, app integration, and the implementation of Shopify Plus solutions. This development process is essential for businesses looking to establish a robust online presence, optimize user experience, and drive sales through tailored eCommerce solutions.`,
+          desctioption: `Custom web development is the process of designing and building a website or web application specifically tailored to the unique needs, goals, and workflows of a business or organization. Unlike template-based websites or off-the-shelf platforms, custom web development involves creating a solution from the ground up so that every feature, function, and design element is built to match the exact requirements of the user and the business.`,
         },
         {
-          desctioption: `It also includes customizing store functionality, optimizing website performance, and integrating essential tools for payments, shipping, marketing, and inventory management. Developers work with Shopify’s themes, apps, and APIs to create scalable and flexible online stores that align with a brand’s unique requirements.`,
+          desctioption: `At its core, custom web development focuses on flexibility, scalability, and functionality. Businesses often have processes, services, or operational needs that generic website builders cannot fully support. With custom development, developers can design a platform that fits the organization rather than forcing the organization to adapt to a prebuilt system. This approach ensures that the final product works efficiently with existing workflows, integrates with other software tools, and provides a seamless experience for both administrators and users.`,
         },
         {
-          desctioption: `By leveraging professional Shopify development services, businesses can build secure, high-performing eCommerce stores that support seamless navigation, mobile responsiveness, and smooth checkout experiences. This helps improve customer engagement, increase conversions, and support long-term growth in the competitive online marketplace.`,
+          desctioption: `In modern digital environments, businesses increasingly rely on web applications for tasks beyond simple information sharing. Custom solutions can include e-commerce platforms, enterprise management dashboards, online booking systems, SaaS platforms, and interactive customer portals. These systems not only improve internal operations but also enhance the overall customer experience by providing faster, more convenient digital services.`,
         },
       ],
       button: '',
+    },
+
+    dataInTable: {
+      isVisible: true,
+      isInCenter: true,
+      isBgWhite: true,
+      bgColor: '#FAFAFA',
+      trColor: 'bg-[#7259FF]',
+      rowColor: 'bg-[#7259FF]/10',
+      isVariant: '01',
+      heading: 'Custom Web Development vs Traditional Web Development',
+      description: [`Here is a clear comparison table showing the difference between Web Development and Custom Web Development:`],
+      data: [
+        {
+          desctioption: `Aspect`,
+          list: [
+            {
+              description: [`Definition`],
+            },
+            {
+              description: [`Development Approach`],
+            },
+            {
+              description: [`Customization Level`],
+            },
+            {
+              description: [`Development Time`],
+            },
+            {
+              description: [`Cost`],
+            },
+            {
+              description: [`Flexibility`],
+            },
+            {
+              description: [`Integration`],
+            },
+            {
+              description: [`Best Use Case`],
+            },
+          ],
+        },
+        {
+          desctioption: `Web Development`,
+          list: [
+            {
+              description: [
+                `The general process of building websites or web applications using available tools, frameworks, or CMS platforms.`,
+              ],
+            },
+            {
+              description: [
+                `Often uses prebuilt templates, themes, or platforms.`,
+              ],
+            },
+            {
+              description: [
+                `Limited to the features and structure provided by the platform.`,
+              ],
+            },
+            {
+              description: [
+                `Faster because many components are already built.`,
+              ],
+            },
+            {
+              description: [
+                `Usually lower due to faster development and prebuilt solutions.`,
+              ],
+            },
+            {
+              description: [
+                `May face limitations as the website grows or requires new features.`,
+              ],
+            },
+            {
+              description: [
+                `Limited flexibility depending on the platform being used.`,
+              ],
+            },
+            {
+              description: [
+                `Basic integrations with common tools and plugins.`,
+              ],
+            },
+            {
+              description: [
+                `Ideal for simple websites, blogs, portfolios, or small business sites.`,
+              ],
+            },
+          ],
+        },
+        {
+          desctioption: `Custom Web Development`,
+          list: [
+            {
+              description: [
+                `The process of building a website or web application is specifically tailored to the unique needs of a business.`,
+              ],
+            },
+            {
+              description: [
+                `Built from scratch or heavily customized to meet specific requirements.`,
+              ],
+            },
+            {
+              description: [
+                `Fully customizable design, features, and functionality.`,
+              ],
+            },
+            {
+              description: [
+                `Takes more time due to planning, design, and development from the ground up.`,
+              ],
+            },
+            {
+              description: [
+                `Generally higher because of custom design and development work.`,
+              ],
+            },
+            {
+              description: [
+                `Designed to scale easily as the business grows and needs evolve.`,
+              ],
+            },
+            {
+              description: [
+                `Highly flexible and adaptable to changing business requirements.`,
+              ],
+            },
+            {
+              description: [
+                `Can integrate with complex systems such as CRM, ERP, APIs, and custom tools.`,
+              ],
+            },
+            {
+              description: [
+                `Best for complex platforms, SaaS products, enterprise systems, or unique business processes.`,
+              ],
+            },
+          ],
+        },
+      ],
     },
 
     importantToBussiness: {
       isVisible: true,
       isInCenter: false,
       isCardVisible: true,
-      breakIndex: 5,
+      breakIndex: 4,
       isVariant: '01',
       cardColor: '#F9F9F9',
-      heading: 'Full-Service Shopify Design & Development Solutions',
+      heading: 'Key Benefits of Choosing Custom Web Development Services',
       description: [
-        `As a professional Shopify Plus development company, Adaired Digital offers comprehensive solutions to help businesses build, customize, and scale powerful eCommerce stores. `,
-        `Our Shopify development services are designed to deliver high-performing, secure, and user-friendly online stores tailored to your specific business goals.`,
+        `Custom web development offers several advantages that make it an ideal solution for businesses that require more than a basic website.`,
+        `By building a platform tailored to specific needs, organizations can create digital experiences that support efficiency, growth, and innovation.`,
       ],
-      buttonName: 'Launch My Shopify Store',
+      buttonName: 'Create Your Custom Platform',
       data: [
         {
-          icon: shopifyDevImpIcon_1,
-          name: 'Custom Shopify Store Development',
+          icon: customWebDevImpIcon_1,
+          name: 'Tailored Solutions for Your Business Needs',
           description: [
-            `Our custom Shopify store development services focus on building fully tailored eCommerce websites that align with your brand identity and business objectives.`,
-            `We create scalable store architectures, design intuitive user journeys, and implement advanced features that help businesses stand out in the competitive online marketplace.`,
-            `Whether you are launching a new store or redesigning an existing one, we ensure your Shopify store is built for performance, usability, and future growth.`,
+            `One of the biggest advantages of custom web app development is the ability to build a platform specifically designed around your business requirements. Every organization operates differently, with unique workflows, processes, and goals. `,
+            `Custom app web development eliminates this limitation by allowing developers to design features and functionality that directly support your business operations.`,
+            `Whether you need custom dashboards, booking systems, user portals, data management tools, or complex automation processes, the solution can be built specifically for your needs.`,
           ],
-          button: 'Launch My Shopify Store',
+          button: 'Create Your Custom Platform',
           btnColor: '#FB9100',
         },
         {
-          icon: shopifyDevImpIcon_2,
-          name: 'Shopify Theme Development',
+          icon: customWebDevImpIcon_2,
+          name: 'Scalability for Long-Term Growth',
           description: [
-            `A well-designed theme plays a critical role in delivering a smooth and engaging shopping experience. `,
-            `Our Shopify theme development services include creating custom themes from scratch or customizing existing themes to match your brand guidelines. `,
-            `We design responsive layouts, optimize navigation structures, and ensure that every element of the theme is optimized for speed, accessibility, and mobile compatibility. This results in visually appealing stores that provide consistent experiences across all devices.`,
+            `As businesses grow, their digital platforms must evolve to support increasing traffic, additional features, and larger amounts of data. Custom web applications are designed with scalability in mind, allowing businesses to expand their platform without experiencing technical limitations.`,
+            `Developers can build scalable architectures that allow new features, modules, and integrations to be added as the business grows.`,
+            `Whether you need to add new services, expand to new markets, or support a growing user base, a custom-built platform can adapt to these changes efficiently.`,
           ],
-          button: 'Launch My Shopify Store',
+          button: 'Create Your Custom Platform',
           btnColor: '#FB9100',
         },
         {
-          icon: shopifyDevImpIcon_3,
-          name: 'Shopify App Development',
+          icon: customWebDevImpIcon_3,
+          name: 'Improved Performance and Speed',
           description: [
-            `Every business has unique operational needs, and sometimes off-the-shelf solutions may not fully meet those requirements.`,
-            `Our Shopify app development services focus on building custom apps that extend the functionality of your store.`,
-            ` We develop apps that automate workflows, enhance store management, integrate external systems, and improve customer engagement. These apps are designed to work seamlessly within your Shopify environment while providing the flexibility needed to support your business processes.`,
+            `Website performance plays a crucial role in user experience, search engine rankings, and overall customer satisfaction. Template-based platforms often include unnecessary features, plugins, or scripts that can slow down performance.`,
+            `Custom web development focuses only on the functionality required for your platform, which helps eliminate unnecessary code and improve loading speed. `,
+            `Developers can optimize the system architecture, database queries, and frontend elements to ensure faster response times and smooth user interactions. `,
           ],
-          button: 'Launch My Shopify Store',
+          button: 'Create Your Custom Platform',
           btnColor: '#FB9100',
         },
         {
-          icon: shopifyDevImpIcon_4,
-          name: 'Shopify Plus Development',
+          icon: customWebDevImpIcon_4,
+          name: 'Enhanced Security and Data Protection',
           description: [
-            `For rapidly growing brands and enterprise-level businesses, we offer advanced development solutions using Shopify Plus. Shopify Plus provides powerful features such as advanced automation, higher scalability, and enhanced customization options. `,
-            `Our team leverages these capabilities to build high-performance stores capable of handling large product catalogs, high traffic volumes, and complex operational requirements. `,
-            `This allows businesses to scale efficiently while maintaining exceptional customer experiences.`,
+            `Security is one of the most critical factors in modern web development, particularly for businesses that handle sensitive customer data, financial transactions, or confidential information.`,
+            `Template-based systems and widely used plugins can sometimes become targets for cyber threats because they are commonly used across many websites.`,
+            `With custom web development, developers can implement security measures specifically tailored to the platform’s needs. This may include secure authentication systems, encrypted data storage, role-based access control, and advanced monitoring tools.`,
           ],
-          button: 'Launch My Shopify Store',
+          button: 'Create Your Custom Platform',
           btnColor: '#FB9100',
         },
         {
-          icon: shopifyDevImpIcon_5,
-          name: 'Shopify Store Migration',
+          icon: customWebDevImpIcon_5,
+          name: 'Seamless Integration with Business Systems',
           description: [
-            `If you are planning to move your online store from another platform to Shopify, our migration services ensure a smooth and secure transition. `,
-            `We carefully transfer all essential data, including product catalogs, customer information, order history, and content, while preserving your website’s SEO value and search engine rankings. `,
-            `Our team ensures minimal downtime during the migration process so your business operations continue without disruption.`,
+            `Many businesses rely on multiple digital tools and platforms to manage their operations, such as customer relationship management (CRM) systems, accounting software, payment gateways, marketing automation tools, and analytics platforms.`,
+            `Custom web applications can be designed to integrate seamlessly with these systems, creating a unified digital ecosystem.`,
+            `For example, a custom web platform can automatically sync customer information with your CRM, process payments securely, or generate reports based on real-time business data.`,
           ],
-          button: 'Launch My Shopify Store',
+          button: 'Create Your Custom Platform',
           btnColor: '#FB9100',
         },
         {
-          icon: shopifyDevImpIcon_6,
-          name: 'Shopify Store Optimization',
+          icon: customWebDevImpIcon_6,
+          name: 'Unique User Experience and Branding',
           description: [
-            `A successful Shopify store requires continuous improvement and optimization. `,
-            `Our Shopify store optimization services focus on improving page load speed, enhancing user experience, refining product pages, and optimizing checkout processes. `,
-            `By analyzing store performance and user behavior, we implement targeted improvements that increase engagement, reduce bounce rates, and ultimately drive higher conversion rates.`,
+            `A strong digital presence requires more than just functionality; it also requires a user experience that reflects your brand identity. Our custom web development allows businesses to create a unique interface that aligns with their branding, design preferences, and customer expectations.`,
+            `Designers can build intuitive navigation, engaging visual layouts, and user-friendly interactions that improve usability and encourage visitors to explore the platform.`,
+            `A well-designed custom web development solution not only enhances the user experience but also strengthens brand recognition and credibility.`,
           ],
-          button: 'Launch My Shopify Store',
+          button: 'Create Your Custom Platform',
           btnColor: '#FB9100',
         },
-      ],
-    },
-
-    adairedHelp: {
-      isVisible: true,
-      breakIndex: 5,
-      img: shopifyDevAdairedHelpImg,
-      isInCenter: false,
-      textColor: '#000000',
-      isnNumberBg: true,
-      numberBg: '#FEF1E0',
-      bgColor: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFCF8]',
-      cardBg: '',
-      heading: `Why Choose Shopify for Your eCommerce Store`,
-      description: [
-        `Shopify has become one of the most trusted eCommerce platforms for businesses looking to build and scale online stores.`,
-        `Its powerful features, flexibility, and ease of use make it an ideal choice for startups, growing brands, and enterprise-level businesses alike.`,
-      ],
-      mainImage: whiteServicesAdairedHelpImg,
-      list: [
         {
-          img: '',
-          name: 'Easy Store Management',
+          icon: customWebDevImpIcon_7,
+          name: 'Greater Flexibility and Control',
           description: [
-            `Shopify provides a simple and intuitive dashboard that allows store owners to easily manage products, inventory, orders, and customer data without requiring advanced technical knowledge.`,
+            `Custom web development provides complete control over how your platform functions, looks, and evolves over time. Unlike template-based platforms that restrict certain features or modifications, custom-built solutions allow businesses to modify and expand their platform whenever needed.`,
+            `This flexibility makes it easier to implement new technologies, experiment with innovative features, and adapt the platform to changing market demands.`,
+            `As a top custom web application development company, we help you improve your site’s functionality without being limited by platform constraints.`,
           ],
+          button: 'Create Your Custom Platform',
+          btnColor: '#FB9100',
         },
         {
-          img: '',
-          name: 'Secure Cloud Hosting',
+          icon: customWebDevImpIcon_8,
+          name: 'Competitive Advantage',
           description: [
-            `Being a fully hosted platform, Shopify offers reliable cloud infrastructure with built-in security, automatic updates, and PCI-compliant payment processing to keep your store safe and stable.`,
+            `In competitive industries, having a unique and efficient digital platform can provide a significant advantage. Custom web development allows businesses to create innovative solutions that differentiate them from competitors.`,
+            `Whether it involves advanced customer portals, personalized user experiences, automation tools, or unique service platforms, custom-built applications enable businesses to deliver capabilities that standard websites cannot offer.`,
+            `This differentiation can improve customer satisfaction, increase engagement, and strengthen the company’s market position.`,
           ],
+          button: 'Create Your Custom Platform',
+          btnColor: '#FB9100',
         },
         {
-          img: '',
-          name: 'Mobile-Responsive Themes',
+          icon: customWebDevImpIcon_9,
+          name: 'Long-Term Cost Efficiency',
           description: [
-            `Shopify offers professionally designed themes that are fully responsive and optimized for mobile devices, ensuring customers enjoy a seamless shopping experience across smartphones, tablets, and desktops. Choose Adaired Digital as your personalized Shopify theme development company!`,
+            `Although custom web development may require a larger initial investment compared to template-based solutions, it often proves to be more cost-effective in the long run.`,
+            `Template systems frequently rely on paid plugins, subscriptions, and ongoing customization to meet business needs.`,
+            `Custom platforms are designed specifically for your requirements, reducing the need for additional third-party tools and minimizing compatibility issues. Over time, this leads to lower maintenance costs and a more stable, reliable system.`,
           ],
+          button: 'Create Your Custom Platform',
+          btnColor: '#FB9100',
         },
         {
-          img: '',
-          name: 'Powerful App Ecosystem',
+          icon: customWebDevImpIcon_10,
+          name: 'Future-Ready Digital Infrastructure',
           description: [
-            `The Shopify App Store provides thousands of apps that extend store functionality. Businesses can integrate marketing tools, shipping solutions, CRM systems, and analytics platforms to enhance operations.`,
+            `Technology continues to evolve rapidly, and businesses need digital platforms that can keep pace with new innovations.`,
+            `At Adaired Digital Media, our custom web development services allow organizations to build a future-ready infrastructure that can support emerging technologies such as automation, AI-powered tools, advanced analytics, and new integration capabilities.`,
+            `By designing a flexible and scalable system, businesses can adapt to changing technological trends and continue improving their digital capabilities over time.`,
           ],
-        },
-        {
-          img: '',
-          name: 'Global Selling Capabilities',
-          description: [
-            `Shopify enables businesses to sell internationally with multi-currency support, global payment gateways, and localization tools that help reach customers across different markets.`,
-          ],
+          button: 'Create Your Custom Platform',
+          btnColor: '#FB9100',
         },
       ],
     },
@@ -21656,66 +21805,86 @@ brand appears in AI summaries and citations.`,
       ],
     },
 
-    whatMkeDeferent: {
+    techStackMobile: {
       isVisible: true,
-      isVariant: '01',
-      breakIndex: 3,
-      isInCenter: false,
-      bgColor: false,
-      bgGradient: 'bg-[#EEEEEE]/20',
-      cardColor2: '#FFF8EF',
-      cardColor: '#FFFFFF',
-      cardImgBgColor2: '#FFEDD7',
-      cardImgBgColor: '#F3F3F3',
-      borderColor2: '#F28F17',
-      borderColor: '#051B3C',
-      heading: `Why Choose Our Shopify App Development Company`,
-      description: [
-        'Our team combines technical expertise, creative design capabilities, and strategic thinking to deliver Shopify solutions that help businesses grow and succeed in the competitive online marketplace.',
+      heading: 'Key Stats About White Label Link Building',
+      navItems: [
+        'Frontend Technologies',
+        'Backend Technologies',
+        'Database Management',
+        'Cloud & DevOps',
+        'UI/UX & Prototyping Tools',
+        'API & Integrations',
+      ],
+      mobileNavItems: [
+        'Frontend',
+        'Backend',
+        'Database',
+        'DevOps',
+        'UI/UX',
+        'API & Integrations',
       ],
       list: [
-        {
-          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_1_r50n2t.png',
-          name: 'Experienced Shopify Developers',
-          description: [
-            `Our development team consists of highly skilled Shopify professionals with extensive experience in building and customizing eCommerce stores. We stay updated with the latest Shopify technologies and best practices to deliver high-quality development solutions.`,
-          ],
-        },
-        {
-          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_2_dlpnys.png',
-          name: 'Custom Solutions for Your Business',
-          description: [
-            `Every business has unique needs and goals. Instead of offering one-size-fits-all solutions, we develop custom Shopify stores tailored to your brand identity, target audience, and operational requirements.`,
-          ],
-        },
-        {
-          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_3_r3sl4v.png',
-          name: 'Scalable eCommerce Architecture',
-          description: [
-            `We design Shopify stores with scalability in mind. Whether your store experiences increased traffic, expanding product catalogs, or growing customer bases, our development approach ensures your website can handle growth efficiently.`,
-          ],
-        },
-        {
-          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_4_zvk0k1.png',
-          name: 'Quick Turnaround Time',
-          description: [
-            `Our websites are built following SEO best practices, helping your site perform better in search engine results and attract more organic traffic.`,
-          ],
-        },
-        {
-          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_5_fvsjh9.png',
-          name: 'SEO-Friendly Shopify Stores',
-          description: [
-            `Our development practices follow SEO best practices, including clean code structure, optimized page performance, and mobile-friendly design. This helps improve search engine visibility and ensures your store is positioned for long-term organic growth.`,
-          ],
-        },
-        {
-          img: 'adaired/services/shopify_Development_Images/ShopifyDevwhatmkdiffimg_6_ur6asc.png',
-          name: 'Dedicated Support & Maintenance',
-          description: [
-            `Our partnership continues even after your store is launched. We provide ongoing maintenance, updates, technical support, and performance monitoring to ensure your Shopify store remains secure, efficient, and up to date.`,
-          ],
-        },
+        [
+          {
+            image: mobileAppDevTechStackImg_1,
+            desc: 'Swift (iOS Development)',
+          },
+          {
+            image: mobileAppDevTechStackImg_2,
+            desc: 'Kotlin (Android Development)',
+          },
+          { image: mobileAppDevTechStackImg_3, desc: 'React Native' },
+          { image: mobileAppDevTechStackImg_4, desc: 'Flutter' },
+          { image: mobileAppDevTechStackImg_5, desc: 'Xamarin' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_6, desc: 'Node.js' },
+          { image: mobileAppDevTechStackImg_7, desc: 'Python' },
+          { image: mobileAppDevTechStackImg_8, desc: 'PHP' },
+          { image: mobileAppDevTechStackImg_9, desc: '.NET Core' },
+          { image: mobileAppDevTechStackImg_10, desc: 'Java' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_11, desc: 'MySQL' },
+          { image: mobileAppDevTechStackImg_12, desc: 'PostgreSQL' },
+          { image: mobileAppDevTechStackImg_13, desc: 'MongoDB' },
+          {
+            image: mobileAppDevTechStackImg_14,
+            desc: 'Firebase Realtime Database',
+          },
+          { image: mobileAppDevTechStackImg_15, desc: 'SQLite' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_16, desc: 'AWS' },
+          { image: mobileAppDevTechStackImg_17, desc: 'Microsoft Azure' },
+          { image: mobileAppDevTechStackImg_18, desc: 'Google Cloud Platform' },
+          { image: mobileAppDevTechStackImg_19, desc: 'Docker' },
+          { image: mobileAppDevTechStackImg_20, desc: 'Kubernetes' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_21, desc: 'Figma' },
+          { image: mobileAppDevTechStackImg_22, desc: 'Adobe XD' },
+          { image: mobileAppDevTechStackImg_23, desc: 'Sketch' },
+          { image: mobileAppDevTechStackImg_24, desc: 'InVision' },
+          { image: mobileAppDevTechStackImg_25, desc: 'Ux Pin' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_26, desc: 'RESTful APIs' },
+          { image: mobileAppDevTechStackImg_27, desc: 'GraphQL' },
+          {
+            image: mobileAppDevTechStackImg_28,
+            desc: 'Payment Gateway Integration',
+          },
+          {
+            image: mobileAppDevTechStackImg_29,
+            desc: 'Social Media Integration',
+          },
+          {
+            image: mobileAppDevTechStackImg_30,
+            desc: 'Third-party API Integration',
+          },
+        ],
       ],
     },
 
@@ -21764,13 +21933,41 @@ brand appears in AI summaries and citations.`,
       ],
     },
 
+    whatMkeDeferent: {
+      isVisible: true,
+      isVariant: '01',
+      breakIndex: 3,
+      isInCenter: false,
+      bgColor: false,
+      bgGradient: 'bg-[#EEEEEE]/20',
+      cardColor2: '#FFF8EF',
+      cardColor: '#FFFFFF',
+      cardImgBgColor2: '#FFEDD7',
+      cardImgBgColor: '#F3F3F3',
+      borderColor2: '#F28F17',
+      borderColor: '#051B3C',
+      heading: `Why Choose Our Shopify App Development Company`,
+      description: [
+        'Our team combines technical expertise, creative design capabilities, and strategic thinking to deliver Shopify solutions that help businesses grow and succeed in the competitive online marketplace.',
+      ],
+      list: [
+        {
+          img: '',
+          name: '',
+          description: [
+            ``,
+          ],
+        },
+      ],
+    },
+
     buildlinks: {
       isVisible: true,
       isCode01: true,
       isVariant: '08',
       breakIndex: 5,
       bgImg: bgImgBuildLink,
-      img: shopifyDevBuildLinkImg,
+      img: '',
       label: 'Take Your eCommerce',
       heading: 'Business to the Next Level!',
       description: ``,
@@ -21835,6 +22032,61 @@ brand appears in AI summaries and citations.`,
           title: 'Do you offer ongoing Shopify maintenance and support?',
           description: [
             `Yes, ongoing support services are typically available to help businesses maintain store performance, implement updates, resolve technical issues, and continuously optimize their Shopify store.`,
+          ],
+        },
+      ],
+    },
+
+    adairedHelp: {
+      isVisible: false,
+      breakIndex: 5,
+      img: shopifyDevAdairedHelpImg,
+      isInCenter: false,
+      textColor: '#000000',
+      isnNumberBg: true,
+      numberBg: '#FEF1E0',
+      bgColor: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFCF8]',
+      cardBg: '',
+      heading: `Why Choose Shopify for Your eCommerce Store`,
+      description: [
+        `Shopify has become one of the most trusted eCommerce platforms for businesses looking to build and scale online stores.`,
+        `Its powerful features, flexibility, and ease of use make it an ideal choice for startups, growing brands, and enterprise-level businesses alike.`,
+      ],
+      mainImage: whiteServicesAdairedHelpImg,
+      list: [
+        {
+          img: '',
+          name: 'Easy Store Management',
+          description: [
+            `Shopify provides a simple and intuitive dashboard that allows store owners to easily manage products, inventory, orders, and customer data without requiring advanced technical knowledge.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Secure Cloud Hosting',
+          description: [
+            `Being a fully hosted platform, Shopify offers reliable cloud infrastructure with built-in security, automatic updates, and PCI-compliant payment processing to keep your store safe and stable.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Mobile-Responsive Themes',
+          description: [
+            `Shopify offers professionally designed themes that are fully responsive and optimized for mobile devices, ensuring customers enjoy a seamless shopping experience across smartphones, tablets, and desktops. Choose Adaired Digital as your personalized Shopify theme development company!`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Powerful App Ecosystem',
+          description: [
+            `The Shopify App Store provides thousands of apps that extend store functionality. Businesses can integrate marketing tools, shipping solutions, CRM systems, and analytics platforms to enhance operations.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Global Selling Capabilities',
+          description: [
+            `Shopify enables businesses to sell internationally with multi-currency support, global payment gateways, and localization tools that help reach customers across different markets.`,
           ],
         },
       ],
@@ -21965,113 +22217,6 @@ brand appears in AI summaries and citations.`,
         },
         {
           desctioption: `Overall, WordPress development is a multifaceted discipline that combines technical skills with creative design to deliver effective online solutions.`,
-        },
-      ],
-    },
-
-    dataInTable: {
-      isVisible: false,
-      isInCenter: true,
-      isBgWhite: true,
-      bgColor: '#FAFAFA',
-      trColor: '#FB9100',
-      rowColor: 'bg-[#7259FF]/10',
-      isVariant: '01',
-      heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
-      description: [``],
-      data: [
-        {
-          desctioption: `Feature`,
-          list: [
-            {
-              description: [`AI-First SEO Strategy`],
-            },
-            {
-              description: [`Cross-Platform Optimization`],
-            },
-            {
-              description: [`User Intent Alignment`],
-            },
-            {
-              description: [`Content Creation & Structure`],
-            },
-            {
-              description: [`Scalable & Future-Proof Solutions`],
-            },
-            {
-              description: [`AI-Driven Insights`],
-            },
-          ],
-        },
-        {
-          desctioption: `Adaired Digital Media`,
-          list: [
-            {
-              description: [
-                `We design strategies that are tailored for the evolving AI search landscape.`,
-              ],
-            },
-            {
-              description: [
-                `We optimize for a broad range of AI platforms, ensuring visibility across all channels.`,
-              ],
-            },
-            {
-              description: [
-                `We align your content with evolving user intent, ensuring your brand matches search needs.`,
-              ],
-            },
-            {
-              description: [
-                `We create content that is both AI-readable and contextually aligned with search intent.`,
-              ],
-            },
-            {
-              description: [
-                `Our strategies evolve with changing AI algorithms to keep your brand visible long-term.`,
-              ],
-            },
-            {
-              description: [
-                `We leverage AI tools to continuously optimize and refine your SEO for better performance.`,
-              ],
-            },
-          ],
-        },
-        {
-          desctioption: `They`,
-          list: [
-            {
-              description: [
-                `They rely on traditional keyword-based SEO methods that are no longer as effective.`,
-              ],
-            },
-            {
-              description: [
-                `They focus on a limited number of platforms, missing out on AI-driven opportunities elsewhere.`,
-              ],
-            },
-            {
-              description: [
-                `They overlook the nuances of user intent, resulting in less relevant content placement.`,
-              ],
-            },
-            {
-              description: [
-                `They use generic content strategies that don’t cater to AI’s need for clear, structured data.`,
-              ],
-            },
-            {
-              description: [
-                `Their solutions are static and struggle to adapt as AI algorithms continue to change.`,
-              ],
-            },
-            {
-              description: [
-                `They lack the use of AI-driven insights, relying on outdated metrics for optimization.`,
-              ],
-            },
-          ],
         },
       ],
     },
