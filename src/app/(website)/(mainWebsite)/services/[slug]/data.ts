@@ -1586,11 +1586,14 @@ export const SERVICES_DATA = {
 
     whatareservice: {
       isVisible: true,
-      isVariant: '01',
+      isVariant: '04',
       img: what_are_ai_seo,
       heading: 'What Are AI SEO Services?',
-      bgColor: '#FFFCF8',
-      isBgWhite: true,
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      width: '50%',
+      imgWidth: '603px',
+      imgHight: '494px',
       button: 'Get Started',
       data: [
         {
@@ -3027,12 +3030,15 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '02',
+      isVariant: '04',
       img: WhatAreService,
       heading: 'What Are Website Design and Development Services?',
-      span: '',
-      bgColor: '#FFFCF8',
-      isBgWhite: true,
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      paddingY: '3rem',
+      width: '50%',
+      imgWidth: '792px',
+      imgHight: '528px',
       data: [
         {
           desctioption: `Website design and development is the process of creating, building, and maintaining a visually appealing, functional, and user-friendly website. 
@@ -3700,7 +3706,7 @@ brand appears in AI summaries and citations.`,
         },
         {
           desctioption: `Local SEO ensures your business appears where it matters most:`,
-          isListColor: '#FFFFFF',
+          listTextColor: '#FFFFFF',
           list: [
             'Google Maps',
             'Local search results',
@@ -9517,7 +9523,7 @@ brand appears in AI summaries and citations.`,
         },
         {
           desctioption: `In short:`,
-          isListColor: '#FFDA24',
+          listTextColor: '#FFDA24',
           isListSingle: true,
           isListBold: true,
           list: [
@@ -10406,11 +10412,11 @@ brand appears in AI summaries and citations.`,
       heading: 'Adaired Digital: A Dedicated B2B SaaS SEO Agency',
       bgColor: '#051C40',
       textColor: '#FFFFFF',
-      paddingY: '3rem',
       width: '60%',
       isRowReverse: true,
       imgWidth: '735px',
       imgHight: '477px',
+      customGap: '12rem',
       breakIndex: 5,
       data: [
         {
@@ -13283,7 +13289,8 @@ brand appears in AI summaries and citations.`,
       isRowReverse: true,
       imgWidth: '947px',
       imgHight: '631px',
-      bgColor: '#FFFCF8',
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
       isBgWhite: true,
       data: [
         {
@@ -13298,22 +13305,13 @@ brand appears in AI summaries and citations.`,
         },
         {
           desctioption: `Mobile apps can serve various purposes, such as:`,
+          listTextColor: '#FFFFFF',
           list: [
-            {
-              description: [`E-commerce and online shopping`],
-            },
-            {
-              description: [`Social networking and communication`],
-            },
-            {
-              description: [`Business management and productivity`],
-            },
-            {
-              description: [`Entertainment and gaming`],
-            },
-            {
-              description: [`Healthcare and education`],
-            },
+            'E-commerce and online shopping',
+            'Social networking and communication',
+            'Business management and productivity',
+            'Entertainment and gaming',
+            'Healthcare and education',
           ],
         },
         {
@@ -16652,7 +16650,8 @@ brand appears in AI summaries and citations.`,
       imgWidth: '917px',
       imgHight: '612px',
       heading: 'Is WordPress Development Right for Your Business?',
-      bgColor: '#FFFCF8',
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
       paddingY: '3rem',
       width: '60%',
       isGap: true,
@@ -17689,12 +17688,18 @@ brand appears in AI summaries and citations.`,
     },
     whatareservice: {
       isVisible: true,
-      isVariant: '08',
+      isVariant: '04',
       // breakIndex: 5,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773297265/adaired/services/llm_service/WhatAreService_tlsghh.png',
       heading: 'What is LLM SEO & Why Does It Matter?',
-      span: '',
-      bgColor: '#FFFCF8',
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      paddingY: '3rem',
+      width: '60%',
+      isRowReverse: true,
+      imgWidth: '619',
+      imgHight: '549',
+      customGap: '3rem',
       isBgWhite: true,
       data: [
         {
@@ -18637,7 +18642,8 @@ brand appears in AI summaries and citations.`,
       imgWidth: '836px',
       imgHight: '558px',
       heading: 'What is Shopify Development',
-      bgColor: '#FFFCF8',
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
       isGap: true,
       isBgWhite: true,
       data: [
