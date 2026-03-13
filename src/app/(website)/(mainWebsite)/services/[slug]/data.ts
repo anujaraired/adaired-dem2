@@ -632,6 +632,21 @@ import eCommerceSEO_whatIncluded6 from '../../../../../../public/assets/images/s
 
 
 
+// custom Web Development Images
+import customWebDevKeyStatsImg from '../../../../../../public/assets/images/services/customWebDev/customWebDevKeyStatsImg.png';
+import customWebDevWhatAreServiceImg from '../../../../../../public/assets/images/services/customWebDev/customWebDevWhatAreServiceImg.png';
+
+import customWebDevImpIcon_1 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_1.png';
+import customWebDevImpIcon_2 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_2.png';
+import customWebDevImpIcon_3 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_3.png';
+import customWebDevImpIcon_4 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_4.png';
+import customWebDevImpIcon_5 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_5.png';
+import customWebDevImpIcon_6 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_6.png';
+import customWebDevImpIcon_7 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_7.png';
+import customWebDevImpIcon_8 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_8.png';
+import customWebDevImpIcon_9 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_9.png';
+import customWebDevImpIcon_10 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_10.png';
+
 import customWebDevProcessIcon_1 from '../../../../../../public/assets/images/services/customWebDev/customWebDevProcessIcon_1.svg';
 import customWebDevProcessIcon_2 from '../../../../../../public/assets/images/services/customWebDev/customWebDevProcessIcon_2.svg';
 import customWebDevProcessIcon_3 from '../../../../../../public/assets/images/services/customWebDev/customWebDevProcessIcon_3.svg';
@@ -19683,7 +19698,7 @@ brand appears in AI summaries and citations.`,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773320505/adaired/services/eCommerce_seo_india/eCommerceSeo_AdairedHelp_kgo5p1.png',
       isInCenter: false,
       textColor: '#FB9100',
-      isnNumberBg: true,
+      isnNumberBg: false,
       numberBg: '#FDE6C6',
       bgColor: 'bg-gradient-to-b from-[#fff9f2] via-[#ffffff] to-[#fff9f2]',
       cardBg: '',
