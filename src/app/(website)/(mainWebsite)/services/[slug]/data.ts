@@ -241,7 +241,9 @@ import webDevelopmentBannerBg from '../../../../../../public/assets/web_developm
 import stop_struggle3 from '../../../../../../public/assets/localseo/stop_struggle3.png';
 
 // Local SEO Images
-import localBannerBg from '../../../../../../public/assets/localseo/localBannerBg.png';
+// import localBannerBg from '../../../../../../public/assets/localseo/localBannerBg.png';
+import localBannerBg from '../../../../../../public/assets/localseo/New version of seo image.jpg';
+
 import LocalWhatService from '../../../../../../public/assets/localseo/localWhatService.png';
 import LocalNotSee from '../../../../../../public/assets/localseo/localNotSee.png';
 import LocalNotSeeBg from '../../../../../../public/assets/localseo/localNotSeeBg.png';
@@ -3686,10 +3688,11 @@ brand appears in AI summaries and citations.`,
       isVariant: '04',
       img: LocalWhatService,
       heading: 'What Is Local SEO?',
-      span: '',
-      bgColor: '#FFFCF8',
       width: '55%',
-      isBgWhite: true,
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      imgWidth: '608px',
+      imgHight: '634px',
       data: [
         {
           desctioption: `Local SEO refers to the process of maximizing your online presence to increase visibility in local search results within a specific geographical area. 
@@ -3697,19 +3700,12 @@ brand appears in AI summaries and citations.`,
         },
         {
           desctioption: `Local SEO ensures your business appears where it matters most:`,
+          isListColor: '#FFFFFF',
           list: [
-            {
-              description: [`Google Maps`],
-            },
-            {
-              description: [`Local search results`],
-            },
-            {
-              description: [`"Near me" queries`],
-            },
-            {
-              description: [`Local business directories`],
-            },
+            'Google Maps',
+            'Local search results',
+            `Near me" queries`,
+            'Local business directories',
           ],
         },
         {
@@ -21562,8 +21558,8 @@ brand appears in AI summaries and citations.`,
       imgHight: '558px',
       heading: 'What is Custom Web Development?',
       bgColor: '#000000',
-      textColor:"#FFFFFF",
-      isGap:true,
+      textColor: '#FFFFFF',
+      isGap: true,
       data: [
         {
           desctioption: `Custom web development is the process of designing and building a website or web application specifically tailored to the unique needs, goals, and workflows of a business or organization. Unlike template-based websites or off-the-shelf platforms, custom web development involves creating a solution from the ground up so that every feature, function, and design element is built to match the exact requirements of the user and the business.`,
