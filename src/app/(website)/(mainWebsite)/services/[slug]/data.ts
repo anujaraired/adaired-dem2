@@ -613,6 +613,14 @@ import customWebDevImpIcon_8 from '../../../../../../public/assets/images/servic
 import customWebDevImpIcon_9 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_9.png';
 import customWebDevImpIcon_10 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_10.png';
 
+import customWebDevProcessIcon_1 from '../../../../../../public/assets/images/services/customWebDev/customWebDevProcessIcon_1.svg';
+import customWebDevProcessIcon_2 from '../../../../../../public/assets/images/services/customWebDev/customWebDevProcessIcon_2.svg';
+import customWebDevProcessIcon_3 from '../../../../../../public/assets/images/services/customWebDev/customWebDevProcessIcon_3.svg';
+import customWebDevProcessIcon_4 from '../../../../../../public/assets/images/services/customWebDev/customWebDevProcessIcon_4.png';
+import customWebDevProcessIcon_5 from '../../../../../../public/assets/images/services/customWebDev/customWebDevProcessIcon_5.svg';
+import customWebDevProcessIcon_6 from '../../../../../../public/assets/images/services/customWebDev/customWebDevProcessIcon_6.svg';
+import customWebDevProcessIcon_7 from '../../../../../../public/assets/images/services/customWebDev/customWebDevProcessIcon_7.png';
+
 export type SectionKey =
   | 'banner'
   | 'getsCredit'
@@ -21740,66 +21748,68 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: true,
       subtitle: 'Our Process',
-      title: 'Our Shopify Development Process',
-      breakIndex: 5,
-      bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFFFFF]',
+      title: 'How We Deliver Custom Web Solutions',
+      breakIndex: 4,
+      bgGradient: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFFFF]',
       span: '',
       description: [
-        `We follow a structured and strategic approach that ensures every project is delivered with efficiency, precision, and high quality.`,
+        `Our development process follows a structured approach that allows us to transform ideas into fully functional, scalable digital platforms.`,
       ],
       services: [
         {
-          icon: shopifyDevProcessIcon_1,
-          title: 'Discovery & Requirement Analysis',
+          icon: customWebDevProcessIcon_1,
+          title: 'Discovery and Requirement Analysis',
           description: [
-            `Every successful Shopify project begins with a comprehensive discovery phase. During this stage, our team works closely with you to understand your business objectives, target audience, product offerings, and overall eCommerce strategy.`,
-            `We evaluate your current digital presence, analyze competitors within your industry, and identify opportunities to improve functionality and user experience.`,
-            `This phase also involves gathering technical requirements, understanding integration needs, and determining the features necessary to support your store’s operations.`,
+            `Every successful project begins with a clear understanding of the business problem that needs to be solved. During the discovery phase, we collaborate with stakeholders to gather detailed information about the project goals, user requirements, and technical expectations.`,
+            `This stage typically involves identifying the target audience, defining core functionalities, and understanding how the platform will support business operations. Our team also analyzes existing systems, potential integrations, and long-term scalability requirements.`,
           ],
         },
         {
-          icon: shopifyDevProcessIcon_2,
-          title: 'Planning & Strategy',
+          icon: customWebDevProcessIcon_2,
+          title: 'Strategy and Solution Planning',
           description: [
-            `Once the discovery phase is complete, we move into strategic planning. At this stage, our team develops a detailed roadmap outlining the entire Shopify development process.`,
-            `This includes defining the website architecture, organizing product categories, planning user navigation flows, and selecting the most suitable technologies and integrations.`,
-            `We also establish development timelines, project milestones, and communication channels to ensure smooth collaboration throughout the project.`,
+            `Once the requirements are defined, we develop a strategic roadmap for the project. This stage focuses on designing the overall system architecture, selecting the appropriate technologies, and determining the development timeline.`,
+            `Our team evaluates the most suitable frontend and backend frameworks, database structures, and cloud infrastructure to ensure the platform can handle future growth and performance demands. We also identify potential challenges and plan solutions in advance to reduce development risks.`,
           ],
         },
         {
-          icon: shopifyDevProcessIcon_3,
-          title: 'UI/UX Design',
+          icon: customWebDevProcessIcon_3,
+          title: 'User Experience and Interface Design',
           description: [
-            `User experience plays a critical role in the success of any eCommerce website. During the design phase, our designers focus on creating visually appealing and intuitive interfaces that reflect your brand identity while enhancing usability.`,
-            `We develop wireframes, design layouts, and interactive elements that guide users through a smooth shopping journey.`,
-            `Special attention is given to mobile responsiveness, navigation simplicity, and product page optimization to ensure customers can easily browse, search, and purchase products.`,
+            `User experience plays a critical role in the success of any web platform. During this stage, our designers create intuitive layouts and user flows that ensure visitors can easily navigate the application and complete their desired actions.`,
+            `The process includes wireframing, interface design, and usability testing. Designers focus on creating a visually appealing and user-friendly interface that reflects the brand identity while maintaining functionality and accessibility.`,
           ],
         },
         {
-          icon: shopifyDevProcessIcon_4,
-          title: 'Shopify Development & Customization',
+          icon: customWebDevProcessIcon_4,
+          title: 'Frontend & Backend Development',
           description: [
-            `After the design is approved, our development team begins building your Shopify store. This stage involves converting design concepts into a fully functional website using best coding practices and Shopify’s development framework.`,
-            `We customize themes, implement advanced features, integrate third-party applications, and configure store settings to match your operational needs.`,
-            `Our developers ensure that your store is optimized for performance, security, and scalability.`,
+            `Frontend development involves building the visual and interactive components of the web application that users interact with directly. Our developers convert the approved designs into functional interfaces using modern web technologies.`,
+            `While the backend is the core engine that powers the web application. It handles data processing, user authentication, system logic, and communication between different components of the platform.`,
           ],
         },
         {
-          icon: shopifyDevProcessIcon_5,
-          title: 'Testing & Quality Assurance',
+          icon: customWebDevProcessIcon_5,
+          title: 'Integration and Feature Implementation',
           description: [
-            `Before launching your Shopify store, we conduct comprehensive testing to ensure that every feature functions flawlessly.`,
-            `Our quality assurance process includes checking all website components, validating forms and checkout processes, testing integrations, and reviewing product display functionality.`,
-            `We also test the store across multiple browsers, devices, and screen sizes to ensure a consistent user experience. Performance optimization and security checks are also conducted during this stage to guarantee that your Shopify store is fast, stable, and secure.`,
+            `Many web applications require integration with third-party systems such as payment gateways, customer relationship management tools, analytics platforms, and cloud services. In this phase, our team connects the web application with these external systems to create a unified digital ecosystem.`,
+            `We also implement advanced features such as automation tools, reporting dashboards, notification systems, and role-based access controls. These capabilities allow businesses to streamline operations and gain better control over their digital platforms.`,
           ],
         },
         {
-          icon: shopifyDevProcessIcon_6,
-          title: 'Launch & Optimization',
+          icon: customWebDevProcessIcon_6,
+          title: 'Testing and Quality Assurance',
           description: [
-            `Once testing is completed and final approvals are obtained, we proceed with launching your Shopify store.`,
-            `Our team carefully deploys the website to the live environment while ensuring minimal downtime and smooth system integration.`,
-            `After the launch, we monitor the store’s performance closely to ensure everything operates as expected. We also perform post-launch optimization tasks such as improving page speed, refining user experience, and implementing additional enhancements where needed.`,
+            `Before launching the application, we conduct comprehensive testing to ensure the platform performs flawlessly. Our quality assurance team evaluates the system across multiple devices, browsers, and operating environments to identify potential issues.`,
+            `Testing includes functionality testing, performance testing, security assessments, and usability evaluations. Any bugs or inconsistencies discovered during this process are resolved before the platform moves to the deployment stage.`,
+          ],
+        },
+        {
+          icon: customWebDevProcessIcon_7,
+          title: 'Deployment and Launch',
+          description: [
+            `After successful testing, the application is deployed to a live environment where it becomes accessible to users. Our team handles server configuration, database setup, and performance optimization to ensure a smooth launch.`,
+            `We carefully monitor the platform during the initial launch phase to ensure that all components function as expected. If necessary, adjustments are made quickly to maintain optimal performance and stability.`,
           ],
         },
       ],
@@ -21807,7 +21817,7 @@ brand appears in AI summaries and citations.`,
 
     techStackMobile: {
       isVisible: true,
-      heading: 'Key Stats About White Label Link Building',
+      heading: 'Technologies We Use for Developing Custom Web Solutions',
       navItems: [
         'Frontend Technologies',
         'Backend Technologies',
