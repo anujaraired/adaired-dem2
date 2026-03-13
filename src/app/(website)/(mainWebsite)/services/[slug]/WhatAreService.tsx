@@ -8,6 +8,7 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 import { BiSolidBadgeCheck } from 'react-icons/bi';
 import { BsCheckAll } from 'react-icons/bs';
+import CldImage from '@/app/(website)/components/UI/CldImage';
 const WhatAreService = ({ whatareaiseo }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const [open, setOpen] = useState(false);
@@ -263,11 +264,21 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 } as React.CSSProperties
               }
             >
-              <Image
-                src={whatareaiseo?.img}
-                alt=""
-                className="h-full w-full object-contain"
-              />
+              {typeof whatareaiseo?.img === 'string' ? (
+                <CldImage
+                  src={whatareaiseo?.img}
+                  alt={whatareaiseo?.name}
+                  width={whatareaiseo?.imgWidth}
+                  height={whatareaiseo?.imgHight}
+                  className="h-full w-full object-contain"
+                />
+              ) : (
+                <Image
+                  src={whatareaiseo?.img}
+                  alt={whatareaiseo?.name}
+                  className="h-full w-full object-contain"
+                />
+              )}
             </div>
           </MaxWidthWrapper>
           <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />

@@ -19637,16 +19637,16 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '01',
+      isVariant: '04',
       breakIndex: 6,
       paddingY: '3rem',
-      isRowReverse: true,
-      width: '65%',
+      width: '50%',
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773318978/adaired/services/eCommerce_seo_india/eCommerceSeo_WhatAreService_a4ljur.png',
       heading: 'What is E-Commerce SEO?',
-      span: '',
-      bgColor: '#FFFCF8',
-      isBgWhite: true,
+      bgColor: '#000000',
+      textColor:"#FFFFFF",
+      imgWidth: '780',
+      imgHight: '571',
       data: [
         {
           desctioption: `E-commerce SEO is essential for ensuring your products get discovered by the right customers.`,
