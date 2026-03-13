@@ -537,6 +537,7 @@ import gmbProcessIcon_3 from '../../../../../../public/assets/images/services/gm
 import gmbProcessIcon_4 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbProcessIcon_4.png';
 import gmbProcessIcon_5 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbProcessIcon_5.png';
 import gmbProcessIcon_6 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbProcessIcon_6.png';
+
 // WordPress Development Images
 import Banner from '../../../../../../public/assets/images/services/wordpressDevelopment/Banner.png';
 import KeyStatsImg from '../../../../../../public/assets/images/services/wordpressDevelopment/KeyStatsIcon.svg';
@@ -6373,12 +6374,18 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '07',
+      isVariant: '04',
       img: whiteServicesWhatIs,
       heading: 'Know More About',
       span: 'White Label Services',
-      bgColor: '#FFFCF8',
-      isBgWhite: true,
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      paddingY: '3rem',
+      width: '50%',
+      isGap: true,
+      isRowReverse: true,
+      imgWidth: '801px',
+      imgHight: '558px',
       data: [
         {
           desctioption: `White-label services allow agencies to offer specialized digital solutions without building or managing internal delivery teams. 
@@ -9441,12 +9448,18 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '07',
+      isVariant: '04',
       img: whiteLinkBuildingWhatIsImg,
       heading: 'What is White',
       span: 'Label Link Building?',
-      bgColor: '#FFFCF8',
-      isBgWhite: true,
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      paddingY: '3rem',
+      width: '50%',
+      isGap: true,
+      isRowReverse: true,
+      imgWidth: '917px',
+      imgHight: '612px',
       data: [
         {
           desctioption: `White label link building is a fulfillment partnership model where a specialized SEO provider builds high-quality backlinks for your clients, 
@@ -9459,10 +9472,13 @@ brand appears in AI summaries and citations.`,
         },
         {
           desctioption: `In short:`,
+          isListColor: '#FFDA24',
+          isListSingle: true,
+          isListBold: true,
           list: [
-            `1. You sell the service.`,
-            `2. We execute it.`,
-            `3. You keep the credit and the profit margin.`,
+            `You sell the service.`,
+            `We execute it.`,
+            `You keep the credit and the profit margin.`,
           ],
         },
       ],
@@ -10340,12 +10356,17 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '10',
+      isVariant: '04',
       img: saasSeoWhatIsImg,
       heading: 'Adaired Digital: A Dedicated B2B SaaS SEO Agency',
-      span: '',
-      bgColor: '#FFFCF8',
-      isBgWhite: true,
+      bgColor: '#051C40',
+      textColor: '#FFFFFF',
+      paddingY: '3rem',
+      width: '60%',
+      isRowReverse: true,
+      imgWidth: '735px',
+      imgHight: '477px',
+      breakIndex: 5,
       data: [
         {
           desctioption: `Helping B2B SaaS companies build predictable organic growth engines that increase MRR, generate qualified demos, 
@@ -11278,12 +11299,17 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '07',
+      isVariant: '04',
       img: geoAiSeoWhatIsImg,
       heading: 'What is GEO?',
-      span: '',
-      bgColor: '#FFFCF8',
-      isBgWhite: true,
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      paddingY: '3rem',
+      width: '50%',
+      isGap: true,
+      isRowReverse: true,
+      imgWidth: '792px',
+      imgHight: '528px',
       data: [
         {
           desctioption: `GEO, or generative engine optimization, is the process of optimizing your brand, website, 
@@ -12264,13 +12290,17 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '07',
+      isVariant: '04',
       img: WhatAreServiceAeoServiceImg,
-
       heading: 'What is AEO?',
-      span: '',
-      bgColor: '#FFFCF8',
-      isBgWhite: true,
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      paddingY: '4rem',
+      width: '50%',
+      isGap: true,
+      isRowReverse: true,
+      imgWidth: '877px',
+      imgHight: '492px',
       data: [
         {
           desctioption: [
@@ -14518,13 +14548,18 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '07',
+      isVariant: '04',
       breakIndex: 5,
       img: WhatAreServiceGMB,
       heading: 'What is Google Business Profile Optimization?',
-      span: '',
-      bgColor: '#FFFCF8',
-      isBgWhite: true,
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      paddingY: '4rem',
+      width: '60%',
+      isGap: true,
+      isRowReverse: true,
+      imgWidth: '880px',
+      imgHight: '611px',
       data: [
         {
           desctioption: `Google Business Profile optimization, previously known as GMB (Google My Business) optimization, is the strategic process of improving and fine-tuning your business listing. 
@@ -15868,13 +15903,17 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '11',
+      isVariant: '04',
       breakIndex: 5,
       img: gmbWebsiteWhatAreService,
       heading: 'How Combined GBP + Website Optimization Drives Results',
-      bgColor: '#FFFFFF',
+      paddingY: '4rem',
+      width: '50%',
+      imgWidth: '708px',
+      imgHight: '647px',
       isBgWhite: false,
-      button: '',
+      islistSingle: true,
+      isislistBold: true,
       data: [
         {
           desctioption: `When your Google Business Profile and website are optimized together, they reinforce each other and create a stronger local search presence. Search engines rely on multiple signals to determine which businesses should appear in local results.`,
@@ -20509,11 +20548,10 @@ brand appears in AI summaries and citations.`,
     },
     whatareservice: {
       isVisible: true,
-      isVariant: '07',
+      isVariant: '04',
       // breakIndex: 5,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773297265/adaired/services/llm_service/WhatAreService_tlsghh.png',
       heading: 'What is eCommerce Development?',
-      span: '',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [
