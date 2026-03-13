@@ -13199,10 +13199,15 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '12',
+      isVariant: '04',
       img: mobileAppDevWhatService,
       heading: 'What is Mobile App Development?',
-      span: '',
+      paddingY: '3rem',
+      width: '60%',
+      isGap: true,
+      isRowReverse: true,
+      imgWidth: '947px',
+      imgHight: '631px',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [
@@ -16566,8 +16571,8 @@ brand appears in AI summaries and citations.`,
       bgColor: '#FFFCF8',
       paddingY: '3rem',
       width: '60%',
-      isGap:true,
-      isRowReverse:true,
+      isGap: true,
+      isRowReverse: true,
       isBgWhite: true,
       data: [
         {

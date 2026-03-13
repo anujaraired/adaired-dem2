@@ -15,7 +15,11 @@ const MaxWidthWrapper: React.FC<{
       // )}
       className={cn(
         `mx-auto box-border ${
-          isGap ? (isRowReverse ? 'pr-[8.5%]' : 'pl-[8.5%]') : 'lg:px-[8.5%]'
+          isGap
+            ? isRowReverse
+              ? 'pr-[4%] lg:pr-[8.5%]'
+              : 'pl-[4%] lg:pl-[8.5%]'
+            : 'lg:px-[8.5%]'
         }`,
         className
       )}

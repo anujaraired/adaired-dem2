@@ -185,7 +185,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
           }}
         >
           <MaxWidthWrapper
-          isRowReverse={whatareaiseo?.isRowReverse}
+            isRowReverse={whatareaiseo?.isRowReverse}
             isGap={whatareaiseo?.isGap}
             className={`block ${whatareaiseo?.isRowReverse && 'flex-row-reverse'} justify-between gap-[4rem] lg:flex`}
           >
@@ -205,38 +205,43 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                   return (
                     <div key={index} className="">
                       <p
-                        className={`py-1 text-center lg:text-justify ${
+                        className={`py-3 text-center lg:text-justify ${
                           whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
                         }`}
                       >
                         {item?.desctioption}
                       </p>
 
-                      <div className="grid w-fit grid-cols-1 pb-4 md:grid-cols-2">
-                        {item?.list?.map((listItem: any, listIndex: number) => (
-                          <div
-                            key={listIndex}
-                            className="flex items-start gap-2 py-1"
-                          >
-                            <BiSolidBadgeCheck
-                              size={25}
-                              className="text-[#FB9100]"
-                            />
-                            {listItem?.description?.map(
-                              (desc: string, descIndex: number) => (
-                                <p
-                                  key={descIndex}
-                                  className={`my-auto text-left ${
-                                    whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
-                                  }`}
-                                >
-                                  {desc}
-                                </p>
-                              )
-                            )}
-                          </div>
-                        ))}
-                      </div>
+                      {item?.list?.length > 0 && (
+                        <div className="grid w-fit grid-cols-1 gap-4 py-2 md:grid-cols-2">
+                          {item?.list?.map(
+                            (listItem: any, listIndex: number) => (
+                              <div
+                                key={listIndex}
+                                className="flex items-start gap-2"
+                              >
+                                <BiSolidBadgeCheck
+                                  size={25}
+                                  className="text-[#FB9100]"
+                                />
+                                {listItem?.description?.map(
+                                  (desc: string, descIndex: number) => (
+                                    <p
+                                      key={descIndex}
+                                      className={`my-auto text-left ${
+                                        whatareaiseo?.isBgWhite &&
+                                        'text-[#FFFFFF]'
+                                      }`}
+                                    >
+                                      {desc}
+                                    </p>
+                                  )
+                                )}
+                              </div>
+                            )
+                          )}
+                        </div>
+                      )}
                     </div>
                   );
                 })}
@@ -245,7 +250,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
 
             <div
               ref={ref}
-              className="my-auto lg:h-[var(--img-h)] lg:w-[var(--img-w)]"
+              className="my-auto pt-[2rem] lg:h-[var(--img-h)] lg:w-[var(--img-w)] lg:pt-0"
               style={
                 {
                   '--img-w': whatareaiseo?.imgWidth,
@@ -689,18 +694,6 @@ const WhatAreService = ({ whatareaiseo }: any) => {
             >
               <Image src={whatareaiseo?.img} width={715} height={760} alt="" />
             </div>
-          </MaxWidthWrapper>
-          <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
-        </div>
-      )}
-
-      {whatareaiseo?.isVariant === '12' && (
-        <div
-          className={`py-[4rem] ${whatareaiseo?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8] py-[3rem] lg:py-[4rem]'}`}
-        >
-          <MaxWidthWrapper isGap={true} className="grid grid-cols-2 gap-4">
-            <div className="bg-slate-50">Card One</div>
-            <div className="bg-slate-100">Card Two</div>
           </MaxWidthWrapper>
           <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
         </div>
