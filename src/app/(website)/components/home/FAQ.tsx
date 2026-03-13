@@ -89,7 +89,7 @@ const FAQ = ({ faqs }: any) => {
 
                   {/* {isOpen && ( */}
                   <div
-                    className={`transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] ${isOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"}`}
+                    className={`overflow-hidden transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] ${isOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"}`}
                   >
                     <div className="space-y-3">
                       {Array.isArray(faq.description) ? (
