@@ -1,17 +1,17 @@
 import rocket from '../../../../../../public/assets/icons/rocket.svg';
 import aiseoresult from '../../../../../../public/assets/aiseo/AISEORESULT.png';
-import aiseoresult_2 from '../../../../../../public/assets/680_500.png';
-import aiseoresult_3 from '../../../../../../public/assets/aiseo/AISEORESULT.png';
-import aiseoresult_4 from '../../../../../../public/assets/680_500.png';
-import meke_derefent from '../../../../../../public/assets/aiseo/make_deferent.png';
-import meke_derefent_2 from '../../../../../../public/assets/aiseo/make_deferent_1.png';
-import meke_derefent_3 from '../../../../../../public/assets/aiseo/make_deferent_2.png';
-import meke_derefent_4 from '../../../../../../public/assets/aiseo/make_deferent_3.png';
+// import aiseoresult_2 from '../../../../../../public/assets/680_500.png';
+// import aiseoresult_3 from '../../../../../../public/assets/aiseo/AISEORESULT.png';
+// import aiseoresult_4 from '../../../../../../public/assets/680_500.png';
+// import meke_derefent from '../../../../../../public/assets/aiseo/make_deferent.png';
+// import meke_derefent_2 from '../../../../../../public/assets/aiseo/make_deferent_1.png';
+// import meke_derefent_3 from '../../../../../../public/assets/aiseo/make_deferent_2.png';
+// import meke_derefent_4 from '../../../../../../public/assets/aiseo/make_deferent_3.png';
 import step from '../../../../../../public/assets/aiseo/process/Group 1000005845 (1).svg';
-import step_2 from '../../../../../../public/assets/aiseo/process/Group 1000005846.svg';
-import step_3 from '../../../../../../public/assets/aiseo/process/Group 1000005847.svg';
-import step_4 from '../../../../../../public/assets/aiseo/process/Group 1000005848.svg';
-import step_5 from '../../../../../../public/assets/aiseo/process/Group 1000005849.svg';
+// import step_2 from '../../../../../../public/assets/aiseo/process/Group 1000005846.svg';
+// import step_3 from '../../../../../../public/assets/aiseo/process/Group 1000005847.svg';
+// import step_4 from '../../../../../../public/assets/aiseo/process/Group 1000005848.svg';
+// import step_5 from '../../../../../../public/assets/aiseo/process/Group 1000005849.svg';
 import step1 from '../../../../../../public/assets/seo/process/step1.svg';
 import step2 from '../../../../../../public/assets/seo/process/step2.svg';
 import step3 from '../../../../../../public/assets/seo/process/step3.svg';
@@ -68,7 +68,7 @@ import stepwhitelabelsocialmedia2 from '../../../../../../public/assets/images/s
 import stepwhitelabelsocialmedia3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step3.svg';
 import stepwhitelabelsocialmedia4 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step4.svg';
 import stepwhitelabelsocialmedia5 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step5.svg';
-import stepwhitelabelsocialmedia6 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step6.svg';
+// import stepwhitelabelsocialmedia6 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step6.svg';
 import stepwhitelabelpaidad1 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/step1.svg';
 import stepwhitelabelpaidad2 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/step2.svg';
 import stepwhitelabelpaidad3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/step3.svg';
@@ -83,7 +83,7 @@ import stepwhitelabellinkbuild5 from '../../../../../../public/assets/images/ser
 import stepwhitelabellinkbuild6 from '../../../../../../public/assets/images/service/whitelabel//whiteLabelLinkBuilding/step6.svg';
 
 import NotSeeingResultsBg from '../../../../../../public/assets/NotSeeingResultsBg.png';
-import NotSeeingResultsBg2 from '../../../../../../public/assets/NotSeeingResultsBg2.png';
+// import NotSeeingResultsBg2 from '../../../../../../public/assets/NotSeeingResultsBg2.png';
 import leadingToolsImg from '../../../../../../public/assets/leadingTools.png';
 import what_are_ai_seo from '../../../../../../public/assets/images/what_are_ai_seo.png';
 import what_are_ai_seo2 from '../../../../../../public/assets/what_are_ai_seo2.png';
@@ -113,14 +113,14 @@ import client_3 from '../../../../../../public/assets/LeadingTools/Group 1000005
 import client_4 from '../../../../../../public/assets/LeadingTools/Group 1000005356.png';
 import client_5 from '../../../../../../public/assets/LeadingTools/Group 1000005428.png';
 
-import adairedHelp_4 from '../../../../../../public/assets/images/services/seo/adairedSEO1.png';
-import adairedHelp_7 from '../../../../../../public/assets/images/services/seo/adairedSEO2.png';
-import adairedHelp_8 from '../../../../../../public/assets/images/services/seo/adairedSEO3.png';
-import adairedHelp_15 from '../../../../../../public/assets/images/services/seo/adairedSEO4.png';
-import adairedHelp_13 from '../../../../../../public/assets/images/services/seo/adairedSEO5.png';
-import adairedHelp_12 from '../../../../../../public/assets/images/services/seo/adairedSEO6.png';
-import adairedHelp_14 from '../../../../../../public/assets/images/services/seo/adairedSEO7.png';
-import adairedHelp_16 from '../../../../../../public/assets/images/services/seo/adairedSEO8.png';
+// import adairedHelp_4 from '../../../../../../public/assets/images/services/seo/adairedSEO1.png';
+// import adairedHelp_7 from '../../../../../../public/assets/images/services/seo/adairedSEO2.png';
+// import adairedHelp_8 from '../../../../../../public/assets/images/services/seo/adairedSEO3.png';
+// import adairedHelp_15 from '../../../../../../public/assets/images/services/seo/adairedSEO4.png';
+// import adairedHelp_13 from '../../../../../../public/assets/images/services/seo/adairedSEO5.png';
+// import adairedHelp_12 from '../../../../../../public/assets/images/services/seo/adairedSEO6.png';
+// import adairedHelp_14 from '../../../../../../public/assets/images/services/seo/adairedSEO7.png';
+// import adairedHelp_16 from '../../../../../../public/assets/images/services/seo/adairedSEO8.png';
 // import adairedHelpaiseo1 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO1.png';
 // import adairedHelpaiseo2 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO2.png';
 // import adairedHelpaiseo3 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO3.png';
@@ -160,11 +160,11 @@ import adairedHelp_16 from '../../../../../../public/assets/images/services/seo/
 // import whatMkWhiteSeo_6 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo6.png';
 
 import HowAdairedHelp from '../../../../../../public/assets/WebDevelopment/HowAdairedHelp.png';
-import adairedHelp_1 from '../../../../../../public/assets/adairedHelp/Group 1000006012.png';
-import adairedHelp_2 from '../../../../../../public/assets/adairedHelp/Group 1000006013.png';
-import adairedHelp_3 from '../../../../../../public/assets/adairedHelp/Group 1000006014.png';
-import adairedHelp_5 from '../../../../../../public/assets/adairedHelp/Group 1000006028.png';
-import adairedHelp_6 from '../../../../../../public/assets/adairedHelp/Group 1000006029.png';
+// import adairedHelp_1 from '../../../../../../public/assets/adairedHelp/Group 1000006012.png';
+// import adairedHelp_2 from '../../../../../../public/assets/adairedHelp/Group 1000006013.png';
+// import adairedHelp_3 from '../../../../../../public/assets/adairedHelp/Group 1000006014.png';
+// import adairedHelp_5 from '../../../../../../public/assets/adairedHelp/Group 1000006028.png';
+// import adairedHelp_6 from '../../../../../../public/assets/adairedHelp/Group 1000006029.png';
 
 import seo_resultIcon_1 from '../../../../../../public/assets/seo/seo_resultIcon_1.svg';
 import seo_resultIcon_2 from '../../../../../../public/assets/seo/seo_resultIcon_2.svg';
@@ -268,7 +268,7 @@ import whiteKeyStats from '../../../../../../public/assets/images/services/White
 import whiteWhatIs from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteWhatIs.png';
 import whiteStruggleBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteStruggleBg.png';
 import whiteBannerBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteBannerBg.png';
-import whiteAdairedHelpImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteAdairedHelpImg.png';
+// import whiteAdairedHelpImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteAdairedHelpImg.png';
 import whiteBookConsultationBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteBookConsultationBg.png';
 import whiteBuildLinkImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteBuildLinkImg.png';
 
@@ -598,6 +598,21 @@ import shopifyDevImpIcon_6 from '../../../../../../public/assets/images/services
 
 // eCommerce Service Page Images
 import ECommerceKeyStatsImg from '../../../../../../public/assets/images/services/eCommerceDevelopment/KeyStatsIcon.svg';
+
+// custom Web Development Images
+import customWebDevKeyStatsImg from '../../../../../../public/assets/images/services/customWebDev/customWebDevKeyStatsImg.png';
+import customWebDevWhatAreServiceImg from '../../../../../../public/assets/images/services/customWebDev/customWebDevWhatAreServiceImg.png';
+
+import customWebDevImpIcon_1 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_1.png';
+import customWebDevImpIcon_2 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_2.png';
+import customWebDevImpIcon_3 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_3.png';
+import customWebDevImpIcon_4 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_4.png';
+import customWebDevImpIcon_5 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_5.png';
+import customWebDevImpIcon_6 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_6.png';
+import customWebDevImpIcon_7 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_7.png';
+import customWebDevImpIcon_8 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_8.png';
+import customWebDevImpIcon_9 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_9.png';
+import customWebDevImpIcon_10 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_10.png';
 
 export type SectionKey =
   | 'banner'
@@ -5484,7 +5499,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       isBgWhite: true,
       bgColor: '#FAFAFA',
-      trColor: '#7259FF',
+      trColor: 'bg-[#7259FF]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       heading: 'White Label SEO vs In-House SEO Teams',
@@ -8440,7 +8455,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: false,
       isBgWhite: false,
       bgColor: '#FAFAFA',
-      trColor: '#7259FF',
+      trColor: 'bg-[#7259FF]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       heading:
@@ -11580,7 +11595,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       isBgWhite: true,
       bgColor: '#FAFAFA',
-      trColor: '#7259FF',
+      trColor: 'bg-[#7259FF]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
@@ -12519,7 +12534,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       isBgWhite: true,
       bgColor: '#FFFCF7',
-      trColor: '#FB9100',
+      trColor: 'bg-[#FB9100]',
       rowColor: 'bg-[#FB9100]/10',
       isVariant: '01',
       heading: 'AEO vs Traditional SEO: A Strategic Comparison',
@@ -13978,7 +13993,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       isBgWhite: true,
       bgColor: '#FAFAFA',
-      trColor: '#7259FF',
+      trColor: 'bg-[#7259FF]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
@@ -14967,7 +14982,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       isBgWhite: true,
       bgColor: '#FAFAFA',
-      trColor: '#FB9100',
+      trColor: 'bg-[#FB9100]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
@@ -15607,7 +15622,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       isBgWhite: true,
       bgColor: '#FFFCF7',
-      trColor: '#FB9100',
+      trColor: 'bg-[#FB9100]',
       rowColor: 'bg-[#FFF6EB]',
       isVariant: '01',
       heading: 'The Importance of Google Maps & Website Optimization',
@@ -17168,7 +17183,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       isBgWhite: true,
       bgColor: '#FAFAFA',
-      trColor: '#FB9100',
+      trColor: 'bg-[#FB9100]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
@@ -18585,13 +18600,15 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '04',
       breakIndex: 6,
-      paddingY: '3rem',
-      isRowReverse: true,
+      paddingY: '4rem',
+      isRowReverse:true,
       width: '65%',
       img: shopifyDevWhatAreServiceImg,
+      imgWidth: '836px',
+      imgHight: '558px',
       heading: 'What is Shopify Development',
-      span: '',
       bgColor: '#FFFCF8',
+      isGap:true,
       isBgWhite: true,
       data: [
         {
@@ -18697,7 +18714,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: false,
       textColor: '#000000',
       isnNumberBg: true,
-      numberBg: '#FDE6C6',
+      numberBg: '#FEF1E0',
       bgColor: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFCF8]',
       cardBg: '',
       heading: `Why Choose Shopify for Your eCommerce Store`,
@@ -18925,8 +18942,8 @@ brand appears in AI summaries and citations.`,
     buildlinks: {
       isVisible: true,
       isCode01: true,
-      isVariant: '06',
-      breakIndex: 3,
+      isVariant: '08',
+      breakIndex: 5,
       bgImg: bgImgBuildLink,
       img: shopifyDevBuildLinkImg,
       label: 'Take Your eCommerce',
@@ -19132,7 +19149,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       isBgWhite: true,
       bgColor: '#FAFAFA',
-      trColor: '#FB9100',
+      trColor: 'bg-[#FB9100]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
@@ -20153,7 +20170,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       isBgWhite: true,
       bgColor: '#FAFAFA',
-      trColor: '#FB9100',
+      trColor: 'bg-[#FB9100]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
@@ -21351,6 +21368,1173 @@ brand appears in AI summaries and citations.`,
           button: 'Dominate Search',
         },
       ],
+    },
+  },
+  'custom-web-development-company': {
+    sectionsOrder: [
+      'banner',
+      'keyStats',
+      'whatareservice',
+      'dataInTable',
+      'importantToBussiness',
+      'ourProcess',
+      'techStackMobile',
+      'industriesWeServe', 
+      'whatMkeDeferent',
+      'buildlinks',
+      'faqData',
+      'adairedHelp',
+      'benefitofAiSeo',
+      'whatareservice2',
+      'whatMissing',
+      'whatIncluded',
+      'needofservice',
+      'serviceResult',
+      'getsCredit',
+      'readyToStart',
+      'stopStruggling',
+      'leadingToolsForPerformence',
+      'notSeeingResult',
+      'leadingTools',
+      'getplan',
+    ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/seo-company-india',
+      },
+    },
+    banner: {
+      code: '02',
+      isCenter: false,
+      isVisible: true,
+      heading2: '#1 on Google Maps: Get Seen by Local Customers',
+      isAbsolute: true,
+      isStyleHeading: true,
+      headingParts: [
+        { text: 'Custom-Built Web ', color: '#000000', weight: '400' },
+        {
+          text: ' Solutions for Growing Businesses ',
+          color: '#FB9100',
+          weight: '700',
+        },
+      ],
+      breakIndex: 8,
+      desc: [
+        `Get powerful web solutions crafted to solve real business challenges and support long-term growth.`,
+        `Adaired Digital, a reputable custom web application development company, creates solutions tailored to your business workflows, ensuring flexibility, performance, and long-term scalability.`,
+      ],
+      subheading: '',
+      button: 'Create Your Custom Platform',
+      width: '48%',
+      widthLg: '30rem',
+      bgImg: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388293/adaired/services/custom_web_development/customWebDevBannerImg_jruqxc.png',
+    },
+
+    keyStats: {
+      isVisible: true,
+      code: '01',
+      img: whiteLinkBuildingKeyStatsImg,
+      heading: 'Why Businesses Are Investing in Custom Web Development',
+      bgColor: '#FB9100',
+      isImgBg: true,
+      isCard: false,
+      list: [
+        {
+          icon: customWebDevKeyStatsImg,
+          desctioption: [
+            `65% of companies invest in web development to improve their digital transformation efforts.`,
+          ],
+        },
+        {
+          icon: customWebDevKeyStatsImg,
+          desctioption: [
+            `More than 71% of businesses now have a website, highlighting the growing demand for professional web development solutions.`,
+          ],
+        },
+        {
+          icon: customWebDevKeyStatsImg,
+          desctioption: [
+            `The global web development market is expected to reach about $10.5 billion by 2027.`,
+          ],
+        },
+        {
+          icon: customWebDevKeyStatsImg,
+          desctioption: [
+            `60% of website traffic comes from mobile devices, making mobile-optimized web applications essential.`,
+          ],
+        },
+        {
+          icon: customWebDevKeyStatsImg,
+          desctioption: [
+            `53% of mobile users abandon a website if it takes longer than 3 seconds to load.`,
+          ],
+        },
+      ],
+    },
+
+    whatareservice: {
+      isVisible: true,
+      isVariant: '04',
+      breakIndex: 6,
+      paddingY: '4rem',
+      isRowReverse:true,
+      width: '65%',
+      img: customWebDevWhatAreServiceImg,
+      // img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388292/adaired/services/custom_web_development/customWebDevWhatAreServiceImg_ropdfp.png',
+      imgWidth: '836px',
+      imgHight: '558px',
+      heading: 'What is Custom Web Development?',
+      bgColor: '#FFFCF8',
+      isGap:true,
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `Custom web development is the process of designing and building a website or web application specifically tailored to the unique needs, goals, and workflows of a business or organization. Unlike template-based websites or off-the-shelf platforms, custom web development involves creating a solution from the ground up so that every feature, function, and design element is built to match the exact requirements of the user and the business.`,
+        },
+        {
+          desctioption: `At its core, custom web development focuses on flexibility, scalability, and functionality. Businesses often have processes, services, or operational needs that generic website builders cannot fully support. With custom development, developers can design a platform that fits the organization rather than forcing the organization to adapt to a prebuilt system. This approach ensures that the final product works efficiently with existing workflows, integrates with other software tools, and provides a seamless experience for both administrators and users.`,
+        },
+        {
+          desctioption: `In modern digital environments, businesses increasingly rely on web applications for tasks beyond simple information sharing. Custom solutions can include e-commerce platforms, enterprise management dashboards, online booking systems, SaaS platforms, and interactive customer portals. These systems not only improve internal operations but also enhance the overall customer experience by providing faster, more convenient digital services.`,
+        },
+      ],
+      button: '',
+    },
+
+    dataInTable: {
+      isVisible: true,
+      isInCenter: true,
+      isBgWhite: true,
+      bgColor: '#FAFAFA',
+      trColor: 'bg-[#7259FF]',
+      rowColor: 'bg-[#7259FF]/10',
+      isVariant: '01',
+      heading: 'Custom Web Development vs Traditional Web Development',
+      description: [`Here is a clear comparison table showing the difference between Web Development and Custom Web Development:`],
+      data: [
+        {
+          desctioption: `Aspect`,
+          list: [
+            {
+              description: [`Definition`],
+            },
+            {
+              description: [`Development Approach`],
+            },
+            {
+              description: [`Customization Level`],
+            },
+            {
+              description: [`Development Time`],
+            },
+            {
+              description: [`Cost`],
+            },
+            {
+              description: [`Flexibility`],
+            },
+            {
+              description: [`Integration`],
+            },
+            {
+              description: [`Best Use Case`],
+            },
+          ],
+        },
+        {
+          desctioption: `Web Development`,
+          list: [
+            {
+              description: [
+                `The general process of building websites or web applications using available tools, frameworks, or CMS platforms.`,
+              ],
+            },
+            {
+              description: [
+                `Often uses prebuilt templates, themes, or platforms.`,
+              ],
+            },
+            {
+              description: [
+                `Limited to the features and structure provided by the platform.`,
+              ],
+            },
+            {
+              description: [
+                `Faster because many components are already built.`,
+              ],
+            },
+            {
+              description: [
+                `Usually lower due to faster development and prebuilt solutions.`,
+              ],
+            },
+            {
+              description: [
+                `May face limitations as the website grows or requires new features.`,
+              ],
+            },
+            {
+              description: [
+                `Limited flexibility depending on the platform being used.`,
+              ],
+            },
+            {
+              description: [
+                `Basic integrations with common tools and plugins.`,
+              ],
+            },
+            {
+              description: [
+                `Ideal for simple websites, blogs, portfolios, or small business sites.`,
+              ],
+            },
+          ],
+        },
+        {
+          desctioption: `Custom Web Development`,
+          list: [
+            {
+              description: [
+                `The process of building a website or web application is specifically tailored to the unique needs of a business.`,
+              ],
+            },
+            {
+              description: [
+                `Built from scratch or heavily customized to meet specific requirements.`,
+              ],
+            },
+            {
+              description: [
+                `Fully customizable design, features, and functionality.`,
+              ],
+            },
+            {
+              description: [
+                `Takes more time due to planning, design, and development from the ground up.`,
+              ],
+            },
+            {
+              description: [
+                `Generally higher because of custom design and development work.`,
+              ],
+            },
+            {
+              description: [
+                `Designed to scale easily as the business grows and needs evolve.`,
+              ],
+            },
+            {
+              description: [
+                `Highly flexible and adaptable to changing business requirements.`,
+              ],
+            },
+            {
+              description: [
+                `Can integrate with complex systems such as CRM, ERP, APIs, and custom tools.`,
+              ],
+            },
+            {
+              description: [
+                `Best for complex platforms, SaaS products, enterprise systems, or unique business processes.`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+
+    importantToBussiness: {
+      isVisible: true,
+      isInCenter: false,
+      isCardVisible: true,
+      breakIndex: 4,
+      isVariant: '01',
+      cardColor: '#F9F9F9',
+      heading: 'Key Benefits of Choosing Custom Web Development Services',
+      description: [
+        `Custom web development offers several advantages that make it an ideal solution for businesses that require more than a basic website.`,
+        `By building a platform tailored to specific needs, organizations can create digital experiences that support efficiency, growth, and innovation.`,
+      ],
+      buttonName: 'Create Your Custom Platform',
+      data: [
+        {
+          icon: customWebDevImpIcon_1,
+          name: 'Tailored Solutions for Your Business Needs',
+          description: [
+            `One of the biggest advantages of custom web app development is the ability to build a platform specifically designed around your business requirements. Every organization operates differently, with unique workflows, processes, and goals. `,
+            `Custom app web development eliminates this limitation by allowing developers to design features and functionality that directly support your business operations.`,
+            `Whether you need custom dashboards, booking systems, user portals, data management tools, or complex automation processes, the solution can be built specifically for your needs.`,
+          ],
+          button: 'Create Your Custom Platform',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: customWebDevImpIcon_2,
+          name: 'Scalability for Long-Term Growth',
+          description: [
+            `As businesses grow, their digital platforms must evolve to support increasing traffic, additional features, and larger amounts of data. Custom web applications are designed with scalability in mind, allowing businesses to expand their platform without experiencing technical limitations.`,
+            `Developers can build scalable architectures that allow new features, modules, and integrations to be added as the business grows.`,
+            `Whether you need to add new services, expand to new markets, or support a growing user base, a custom-built platform can adapt to these changes efficiently.`,
+          ],
+          button: 'Create Your Custom Platform',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: customWebDevImpIcon_3,
+          name: 'Improved Performance and Speed',
+          description: [
+            `Website performance plays a crucial role in user experience, search engine rankings, and overall customer satisfaction. Template-based platforms often include unnecessary features, plugins, or scripts that can slow down performance.`,
+            `Custom web development focuses only on the functionality required for your platform, which helps eliminate unnecessary code and improve loading speed. `,
+            `Developers can optimize the system architecture, database queries, and frontend elements to ensure faster response times and smooth user interactions. `,
+          ],
+          button: 'Create Your Custom Platform',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: customWebDevImpIcon_4,
+          name: 'Enhanced Security and Data Protection',
+          description: [
+            `Security is one of the most critical factors in modern web development, particularly for businesses that handle sensitive customer data, financial transactions, or confidential information.`,
+            `Template-based systems and widely used plugins can sometimes become targets for cyber threats because they are commonly used across many websites.`,
+            `With custom web development, developers can implement security measures specifically tailored to the platform’s needs. This may include secure authentication systems, encrypted data storage, role-based access control, and advanced monitoring tools.`,
+          ],
+          button: 'Create Your Custom Platform',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: customWebDevImpIcon_5,
+          name: 'Seamless Integration with Business Systems',
+          description: [
+            `Many businesses rely on multiple digital tools and platforms to manage their operations, such as customer relationship management (CRM) systems, accounting software, payment gateways, marketing automation tools, and analytics platforms.`,
+            `Custom web applications can be designed to integrate seamlessly with these systems, creating a unified digital ecosystem.`,
+            `For example, a custom web platform can automatically sync customer information with your CRM, process payments securely, or generate reports based on real-time business data.`,
+          ],
+          button: 'Create Your Custom Platform',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: customWebDevImpIcon_6,
+          name: 'Unique User Experience and Branding',
+          description: [
+            `A strong digital presence requires more than just functionality; it also requires a user experience that reflects your brand identity. Our custom web development allows businesses to create a unique interface that aligns with their branding, design preferences, and customer expectations.`,
+            `Designers can build intuitive navigation, engaging visual layouts, and user-friendly interactions that improve usability and encourage visitors to explore the platform.`,
+            `A well-designed custom web development solution not only enhances the user experience but also strengthens brand recognition and credibility.`,
+          ],
+          button: 'Create Your Custom Platform',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: customWebDevImpIcon_7,
+          name: 'Greater Flexibility and Control',
+          description: [
+            `Custom web development provides complete control over how your platform functions, looks, and evolves over time. Unlike template-based platforms that restrict certain features or modifications, custom-built solutions allow businesses to modify and expand their platform whenever needed.`,
+            `This flexibility makes it easier to implement new technologies, experiment with innovative features, and adapt the platform to changing market demands.`,
+            `As a top custom web application development company, we help you improve your site’s functionality without being limited by platform constraints.`,
+          ],
+          button: 'Create Your Custom Platform',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: customWebDevImpIcon_8,
+          name: 'Competitive Advantage',
+          description: [
+            `In competitive industries, having a unique and efficient digital platform can provide a significant advantage. Custom web development allows businesses to create innovative solutions that differentiate them from competitors.`,
+            `Whether it involves advanced customer portals, personalized user experiences, automation tools, or unique service platforms, custom-built applications enable businesses to deliver capabilities that standard websites cannot offer.`,
+            `This differentiation can improve customer satisfaction, increase engagement, and strengthen the company’s market position.`,
+          ],
+          button: 'Create Your Custom Platform',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: customWebDevImpIcon_9,
+          name: 'Long-Term Cost Efficiency',
+          description: [
+            `Although custom web development may require a larger initial investment compared to template-based solutions, it often proves to be more cost-effective in the long run.`,
+            `Template systems frequently rely on paid plugins, subscriptions, and ongoing customization to meet business needs.`,
+            `Custom platforms are designed specifically for your requirements, reducing the need for additional third-party tools and minimizing compatibility issues. Over time, this leads to lower maintenance costs and a more stable, reliable system.`,
+          ],
+          button: 'Create Your Custom Platform',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: customWebDevImpIcon_10,
+          name: 'Future-Ready Digital Infrastructure',
+          description: [
+            `Technology continues to evolve rapidly, and businesses need digital platforms that can keep pace with new innovations.`,
+            `At Adaired Digital Media, our custom web development services allow organizations to build a future-ready infrastructure that can support emerging technologies such as automation, AI-powered tools, advanced analytics, and new integration capabilities.`,
+            `By designing a flexible and scalable system, businesses can adapt to changing technological trends and continue improving their digital capabilities over time.`,
+          ],
+          button: 'Create Your Custom Platform',
+          btnColor: '#FB9100',
+        },
+      ],
+    },
+
+    ourProcess: {
+      isVisible: true,
+      isInCenter: true,
+      subtitle: 'Our Process',
+      title: 'Our Shopify Development Process',
+      breakIndex: 5,
+      bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFFFFF]',
+      span: '',
+      description: [
+        `We follow a structured and strategic approach that ensures every project is delivered with efficiency, precision, and high quality.`,
+      ],
+      services: [
+        {
+          icon: shopifyDevProcessIcon_1,
+          title: 'Discovery & Requirement Analysis',
+          description: [
+            `Every successful Shopify project begins with a comprehensive discovery phase. During this stage, our team works closely with you to understand your business objectives, target audience, product offerings, and overall eCommerce strategy.`,
+            `We evaluate your current digital presence, analyze competitors within your industry, and identify opportunities to improve functionality and user experience.`,
+            `This phase also involves gathering technical requirements, understanding integration needs, and determining the features necessary to support your store’s operations.`,
+          ],
+        },
+        {
+          icon: shopifyDevProcessIcon_2,
+          title: 'Planning & Strategy',
+          description: [
+            `Once the discovery phase is complete, we move into strategic planning. At this stage, our team develops a detailed roadmap outlining the entire Shopify development process.`,
+            `This includes defining the website architecture, organizing product categories, planning user navigation flows, and selecting the most suitable technologies and integrations.`,
+            `We also establish development timelines, project milestones, and communication channels to ensure smooth collaboration throughout the project.`,
+          ],
+        },
+        {
+          icon: shopifyDevProcessIcon_3,
+          title: 'UI/UX Design',
+          description: [
+            `User experience plays a critical role in the success of any eCommerce website. During the design phase, our designers focus on creating visually appealing and intuitive interfaces that reflect your brand identity while enhancing usability.`,
+            `We develop wireframes, design layouts, and interactive elements that guide users through a smooth shopping journey.`,
+            `Special attention is given to mobile responsiveness, navigation simplicity, and product page optimization to ensure customers can easily browse, search, and purchase products.`,
+          ],
+        },
+        {
+          icon: shopifyDevProcessIcon_4,
+          title: 'Shopify Development & Customization',
+          description: [
+            `After the design is approved, our development team begins building your Shopify store. This stage involves converting design concepts into a fully functional website using best coding practices and Shopify’s development framework.`,
+            `We customize themes, implement advanced features, integrate third-party applications, and configure store settings to match your operational needs.`,
+            `Our developers ensure that your store is optimized for performance, security, and scalability.`,
+          ],
+        },
+        {
+          icon: shopifyDevProcessIcon_5,
+          title: 'Testing & Quality Assurance',
+          description: [
+            `Before launching your Shopify store, we conduct comprehensive testing to ensure that every feature functions flawlessly.`,
+            `Our quality assurance process includes checking all website components, validating forms and checkout processes, testing integrations, and reviewing product display functionality.`,
+            `We also test the store across multiple browsers, devices, and screen sizes to ensure a consistent user experience. Performance optimization and security checks are also conducted during this stage to guarantee that your Shopify store is fast, stable, and secure.`,
+          ],
+        },
+        {
+          icon: shopifyDevProcessIcon_6,
+          title: 'Launch & Optimization',
+          description: [
+            `Once testing is completed and final approvals are obtained, we proceed with launching your Shopify store.`,
+            `Our team carefully deploys the website to the live environment while ensuring minimal downtime and smooth system integration.`,
+            `After the launch, we monitor the store’s performance closely to ensure everything operates as expected. We also perform post-launch optimization tasks such as improving page speed, refining user experience, and implementing additional enhancements where needed.`,
+          ],
+        },
+      ],
+    },
+
+    techStackMobile: {
+      isVisible: true,
+      heading: 'Key Stats About White Label Link Building',
+      navItems: [
+        'Frontend Technologies',
+        'Backend Technologies',
+        'Database Management',
+        'Cloud & DevOps',
+        'UI/UX & Prototyping Tools',
+        'API & Integrations',
+      ],
+      mobileNavItems: [
+        'Frontend',
+        'Backend',
+        'Database',
+        'DevOps',
+        'UI/UX',
+        'API & Integrations',
+      ],
+      list: [
+        [
+          {
+            image: mobileAppDevTechStackImg_1,
+            desc: 'Swift (iOS Development)',
+          },
+          {
+            image: mobileAppDevTechStackImg_2,
+            desc: 'Kotlin (Android Development)',
+          },
+          { image: mobileAppDevTechStackImg_3, desc: 'React Native' },
+          { image: mobileAppDevTechStackImg_4, desc: 'Flutter' },
+          { image: mobileAppDevTechStackImg_5, desc: 'Xamarin' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_6, desc: 'Node.js' },
+          { image: mobileAppDevTechStackImg_7, desc: 'Python' },
+          { image: mobileAppDevTechStackImg_8, desc: 'PHP' },
+          { image: mobileAppDevTechStackImg_9, desc: '.NET Core' },
+          { image: mobileAppDevTechStackImg_10, desc: 'Java' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_11, desc: 'MySQL' },
+          { image: mobileAppDevTechStackImg_12, desc: 'PostgreSQL' },
+          { image: mobileAppDevTechStackImg_13, desc: 'MongoDB' },
+          {
+            image: mobileAppDevTechStackImg_14,
+            desc: 'Firebase Realtime Database',
+          },
+          { image: mobileAppDevTechStackImg_15, desc: 'SQLite' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_16, desc: 'AWS' },
+          { image: mobileAppDevTechStackImg_17, desc: 'Microsoft Azure' },
+          { image: mobileAppDevTechStackImg_18, desc: 'Google Cloud Platform' },
+          { image: mobileAppDevTechStackImg_19, desc: 'Docker' },
+          { image: mobileAppDevTechStackImg_20, desc: 'Kubernetes' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_21, desc: 'Figma' },
+          { image: mobileAppDevTechStackImg_22, desc: 'Adobe XD' },
+          { image: mobileAppDevTechStackImg_23, desc: 'Sketch' },
+          { image: mobileAppDevTechStackImg_24, desc: 'InVision' },
+          { image: mobileAppDevTechStackImg_25, desc: 'Ux Pin' },
+        ],
+        [
+          { image: mobileAppDevTechStackImg_26, desc: 'RESTful APIs' },
+          { image: mobileAppDevTechStackImg_27, desc: 'GraphQL' },
+          {
+            image: mobileAppDevTechStackImg_28,
+            desc: 'Payment Gateway Integration',
+          },
+          {
+            image: mobileAppDevTechStackImg_29,
+            desc: 'Social Media Integration',
+          },
+          {
+            image: mobileAppDevTechStackImg_30,
+            desc: 'Third-party API Integration',
+          },
+        ],
+      ],
+    },
+
+    industriesWeServe: {
+      isVisible: true,
+      code: '01',
+      heading: 'Industries We Serve In',
+      description: [
+        `Our expertise across these industries enables us to design Shopify stores that deliver exceptional user experiences and support long-term business success.`,
+      ],
+      isCard: false,
+      bgImg: '',
+      list: [
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317137/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__1_nxi3gz.png',
+          btn: [`Fashion & Apparel`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317137/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__2_caf6zt.png',
+          btn: [`Beauty & Cosmetics`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317136/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__3_lavaza.png',
+          btn: [`Electronics & Gadgets`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317136/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__4_x3bwnn.png',
+          btn: [`Home & Furniture`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317136/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__5_rlsolp.png',
+          btn: [`Food & Beverage`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317136/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__16_iz4gom.png',
+          btn: [`Health & Wellness`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317136/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__7_zmhzk1.png',
+          btn: [`Lifestyle & Accessories`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317136/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__8_x5i8db.png',
+          btn: [`Sports & Outdoor Equipment`],
+        },
+      ],
+    },
+
+    whatMkeDeferent: {
+      isVisible: true,
+      isVariant: '01',
+      breakIndex: 3,
+      isInCenter: false,
+      bgColor: false,
+      bgGradient: 'bg-[#EEEEEE]/20',
+      cardColor2: '#FFF8EF',
+      cardColor: '#FFFFFF',
+      cardImgBgColor2: '#FFEDD7',
+      cardImgBgColor: '#F3F3F3',
+      borderColor2: '#F28F17',
+      borderColor: '#051B3C',
+      heading: `Why Choose Our Shopify App Development Company`,
+      description: [
+        'Our team combines technical expertise, creative design capabilities, and strategic thinking to deliver Shopify solutions that help businesses grow and succeed in the competitive online marketplace.',
+      ],
+      list: [
+        {
+          img: '',
+          name: '',
+          description: [
+            ``,
+          ],
+        },
+      ],
+    },
+
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '08',
+      breakIndex: 5,
+      bgImg: bgImgBuildLink,
+      img: '',
+      label: 'Take Your eCommerce',
+      heading: 'Business to the Next Level!',
+      description: ``,
+      isBgWhite: true,
+      data: [
+        {
+          desctioption: `Whether you are launching a new eCommerce business or upgrading an existing store, we, as an expert Shopify development company India is ready to help you create a powerful and scalable online store.`,
+        },
+      ],
+      button: 'Start Your Shopify Project Today',
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      title: 'Frequently Asked Questions',
+      description: ``,
+      list: [
+        {
+          title: 'What does a Shopify app development company do?',
+          description: [
+            `We, as a Shopify app development company, help businesses design, build, customize, and maintain eCommerce stores using the Shopify platform. These services include store setup, theme customization, app development, integration of third-party tools, and performance optimization.`,
+          ],
+        },
+        {
+          title: 'How long does it take to build a Shopify store?',
+          description: [
+            `The development timeline depends on the complexity of the project. A basic store setup can take a few weeks, while a fully customized Shopify store with advanced features and integrations may take several weeks to complete.`,
+          ],
+        },
+        {
+          title: 'What is the difference between Shopify and Shopify Plus?',
+          description: [
+            `Shopify is designed for small and medium-sized businesses, while Shopify Plus is an enterprise-level solution that provides advanced features, automation tools, and scalability for high-volume online stores.`,
+          ],
+        },
+        {
+          title: 'Can my existing eCommerce website be migrated to Shopify?',
+          description: [
+            `Yes, an existing store can be migrated from platforms such as WooCommerce, Magento, or other systems to Shopify. During migration, products, customer data, and order history can be securely transferred while maintaining SEO performance.`,
+          ],
+        },
+        {
+          title: 'Is Shopify suitable for small businesses?',
+          description: [
+            `Yes, Shopify is highly suitable for small businesses because it offers easy store management, affordable pricing plans, and a wide range of built-in tools that simplify eCommerce operations.`,
+          ],
+        },
+        {
+          title: 'Can Shopify stores be customized?',
+          description: [
+            `Yes, Shopify stores can be customized through themes, apps, and custom development. Developers can modify store design, add new features, and integrate external systems to match business requirements.`,
+          ],
+        },
+        {
+          title: 'Do Shopify stores support multiple payment gateways?',
+          description: [
+            `Yes, Shopify supports multiple payment gateways and also offers its own integrated payment solution called Shopify Payments, making transactions secure and convenient.`,
+          ],
+        },
+        {
+          title: 'Do you offer ongoing Shopify maintenance and support?',
+          description: [
+            `Yes, ongoing support services are typically available to help businesses maintain store performance, implement updates, resolve technical issues, and continuously optimize their Shopify store.`,
+          ],
+        },
+      ],
+    },
+
+    adairedHelp: {
+      isVisible: false,
+      breakIndex: 5,
+      img: shopifyDevAdairedHelpImg,
+      isInCenter: false,
+      textColor: '#000000',
+      isnNumberBg: true,
+      numberBg: '#FEF1E0',
+      bgColor: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFCF8]',
+      cardBg: '',
+      heading: `Why Choose Shopify for Your eCommerce Store`,
+      description: [
+        `Shopify has become one of the most trusted eCommerce platforms for businesses looking to build and scale online stores.`,
+        `Its powerful features, flexibility, and ease of use make it an ideal choice for startups, growing brands, and enterprise-level businesses alike.`,
+      ],
+      mainImage: whiteServicesAdairedHelpImg,
+      list: [
+        {
+          img: '',
+          name: 'Easy Store Management',
+          description: [
+            `Shopify provides a simple and intuitive dashboard that allows store owners to easily manage products, inventory, orders, and customer data without requiring advanced technical knowledge.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Secure Cloud Hosting',
+          description: [
+            `Being a fully hosted platform, Shopify offers reliable cloud infrastructure with built-in security, automatic updates, and PCI-compliant payment processing to keep your store safe and stable.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Mobile-Responsive Themes',
+          description: [
+            `Shopify offers professionally designed themes that are fully responsive and optimized for mobile devices, ensuring customers enjoy a seamless shopping experience across smartphones, tablets, and desktops. Choose Adaired Digital as your personalized Shopify theme development company!`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Powerful App Ecosystem',
+          description: [
+            `The Shopify App Store provides thousands of apps that extend store functionality. Businesses can integrate marketing tools, shipping solutions, CRM systems, and analytics platforms to enhance operations.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Global Selling Capabilities',
+          description: [
+            `Shopify enables businesses to sell internationally with multi-currency support, global payment gateways, and localization tools that help reach customers across different markets.`,
+          ],
+        },
+      ],
+    },
+
+    benefitofAiSeo: {
+      isVisible: false,
+      isVariant: '02',
+      isDecVarticle: true,
+      isBgWhite: false,
+      isInCenter: false,
+      breakIndex: 3,
+      activeDot: '#000000',
+      inactiveDot: '#9DA0A3',
+      bgColor: 'bg-[#FAFAFA]',
+      textColor: '#000000',
+      textBg: '#EEEEEE',
+      borderColor: '#00000014',
+      heading: 'WordPress Design and Development Services We Offer',
+      description: [
+        `As an experienced WordPress development agency, we offer a comprehensive range of WordPress development services designed to help businesses build powerful, scalable, and high-performing websites. `,
+        `Whether you are launching a new website, upgrading an existing platform, or adding advanced functionality, our team of skilled developers delivers customized WordPress solutions that align with your business goals.`,
+        `We combine technical expertise, creative design, and modern development practices to ensure that every WordPress website we build is fast, secure, SEO-friendly, and optimized for long-term growth.`,
+      ],
+      list: [
+        {
+          name: 'Custom WordPress Website Development',
+          description: [
+            `Our custom WordPress website development services focus on building unique websites tailored specifically to your business needs. Instead of relying on generic templates, we design and develop fully customized WordPress websites that reflect your brand identity and provide an engaging user experience.`,
+            `Our developers carefully analyze your business requirements, target audience, and industry trends to create a website that not only looks visually appealing but also performs efficiently across all devices.`,
+            ` Every website we develop is responsive, mobile-friendly, and optimized for search engines to help improve online visibility and drive organic traffic.`,
+            `We also ensure that the website architecture is scalable so that your platform can grow alongside your business. Whether you need a corporate website, a business portfolio, a service-based website, or a content-driven platform, our team can deliver a solution that aligns perfectly with your long-term digital strategy.`,
+          ],
+        },
+        {
+          name: 'WordPress Theme Development',
+          description: [
+            `A well-designed theme plays a crucial role in defining the visual identity and user experience of your website. We, as a WordPress development company India, focus on creating custom themes that combine modern design with clean, optimized code.`,
+            `We design themes that are lightweight, fast-loading, and fully responsive across desktops, tablets, and mobile devices. Our development process ensures that the theme structure follows WordPress best practices, which improves website stability, maintainability, and SEO performance.`,
+            `In addition to aesthetics, we prioritize usability and accessibility to ensure visitors can easily navigate your website and find the information they need.`,
+            ` Our custom themes are also built with flexibility in mind, allowing businesses to update content, modify layouts, and expand functionality without requiring complex technical changes.`,
+          ],
+        },
+        {
+          name: 'WordPress Plugin Development',
+          description: [
+            `Sometimes your website needs functionality that standard plugins cannot provide. Our WordPress plugin development services allow businesses to add custom features tailored specifically to their operational requirements.
+`,
+            `Our developers build secure, scalable, and well-documented plugins that seamlessly integrate with your WordPress website. Whether you require advanced forms, booking systems, API integrations, custom dashboards, or unique business workflows, we develop plugins that enhance your website’s capabilities.
+`,
+            `We ensure that every plugin is developed following WordPress coding standards, which helps maintain compatibility with future updates and reduces the risk of security vulnerabilities.`,
+            `By creating custom plugins, we help businesses automate processes, improve efficiency, and deliver better digital experiences to their users.
+`,
+          ],
+        },
+        {
+          name: 'WooCommerce Development',
+          description: [
+            `For businesses looking to sell products or services online, we offer comprehensive WooCommerce development services that transform WordPress websites into powerful e-commerce platforms.
+`,
+            `Our WooCommerce development solutions include everything from store setup and product catalog management to payment gateway integration and shipping configuration.`,
+            ` We design user-friendly shopping experiences that make it easy for customers to browse products, complete purchases, and interact with your brand.
+`,
+            `We also implement advanced features such as inventory management systems, subscription services, multi-currency support, and custom checkout processes. By optimizing the entire purchase journey, we help businesses improve conversion rates and maximize their online sales potential.
+`,
+          ],
+        },
+        {
+          name: 'WordPress Migration & Redesign',
+          description: [
+            `If your existing website is built on another platform or has become outdated, our WordPress migration and redesign services can help you transition smoothly to a more modern and flexible system.
+`,
+            `Our team handles the entire migration process, including content transfer, database migration, URL structure preservation, and SEO protection. We ensure that your website maintains its existing search engine rankings while benefiting from improved design and performance.
+`,
+            `In addition to migration, we also provide complete website redesign services that refresh the visual appearance, improve usability, and modernize the overall structure of your site.`,
+            ` By upgrading your website with the latest design standards and development technologies, we help businesses enhance their digital presence and stay competitive in the evolving online landscape.
+`,
+            ``,
+          ],
+        },
+        {
+          name: 'WordPress Speed Optimization',
+          description: [
+            `Website performance plays a crucial role in user experience, search engine rankings, and overall conversion rates. Our WordPress speed optimization services focus on improving website loading times and enhancing Core Web Vitals performance.
+`,
+            `We analyze various performance factors such as server response time, image optimization, script loading, caching configuration, and database efficiency.`,
+            ` By implementing advanced optimization techniques, we significantly reduce page load times and ensure that your website delivers a smooth browsing experience for visitors.
+`,
+            `Our optimization process may include CDN integration, code minification, lazy loading implementation, and server-level improvements. Faster websites not only improve user engagement but also contribute to better SEO rankings and increased customer satisfaction.
+`,
+          ],
+        },
+        {
+          name: 'WordPress Maintenance & Support',
+          description: [
+            `A successful website requires continuous monitoring, updates, and improvements. Our WordPress maintenance and support services ensure that your website remains secure, updated, and fully functional at all times.
+`,
+            `We handle essential maintenance tasks such as WordPress core updates, plugin updates, security monitoring, performance checks, and routine backups. Our team also provides ongoing technical support to quickly resolve any issues that may arise.
+`,
+            `Regular maintenance helps prevent security vulnerabilities, improve website stability, and ensure compatibility with new technologies and updates.`,
+            ` With our dedicated support services, businesses can focus on their operations while we take care of their website’s health and performance.
+`,
+          ],
+        },
+      ],
+    },
+
+    whatareservice2: {
+      isVisible: false,
+      isVariant: '11',
+      img: WhatAreService2,
+      heading: 'What is WordPress Development',
+      bgColor: '#FFFFFF',
+      isBgWhite: false,
+      button: '',
+      data: [
+        {
+          desctioption: `WordPress development refers to the process of creating, customizing, and maintaining websites using the WordPress content management system (CMS).`,
+        },
+        {
+          desctioption: ` It involves a variety of tasks, including designing themes, developing plugins, and configuring settings to ensure optimal performance and user experience.`,
+        },
+        {
+          desctioption: `Our WordPress developers India work with PHP, HTML, CSS, and JavaScript to build custom solutions tailored to specific client needs. They can create unique themes that define the visual appearance of a site and plugins that add functionality, such as contact forms, e-commerce capabilities, and SEO tools.`,
+        },
+        {
+          desctioption: `Additionally, WordPress development encompasses website optimization for speed and security, ensuring that the sites are responsive and accessible across different devices. Developers also engage in regular updates and troubleshooting to keep the website functional and secure from vulnerabilities. `,
+        },
+        {
+          desctioption: `Overall, WordPress development is a multifaceted discipline that combines technical skills with creative design to deliver effective online solutions.`,
+        },
+      ],
+    },
+
+    whatMissing: {
+      isVisible: false,
+      bgColor: '#FFFCF8',
+      isInCenter: true,
+      isVariant: '02',
+      button: 'Dominate Search Results!',
+      heading: 'Why SEO is Important for B2B SaaS Companies',
+      description: [`The data is clear: SEO is not optional for SaaS growth.`],
+      list: [
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Research shows that 66% of B2B SaaS buyers rely on search engines to evaluate and compare solutions before making a purchase decision. (Statista)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `SEO not only improves SaaS rankings in SERPs but also increases visibility in emerging AI-powered search features and overviews, expanding brand exposure. (Forbes)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Data reveals that 70% of SaaS companies believe SEO generates stronger long-term sales results compared to PPC advertising. (Databox)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Organic search contributes 14.3% of total leads for SaaS businesses, making SEO one of the most consistent acquisition channels. (Sixth City Marketing)`,
+          ],
+        },
+      ],
+    },
+
+    whatIncluded: {
+      isVisible: false,
+      isVariant: '03',
+      breakIndex: 3,
+      heading: 'White-Label Services We Provide',
+      description: [
+        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
+        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
+      ],
+      list: [
+        {
+          icon: whiteServicesIncluded_1,
+          title: 'White-Label SEO',
+          description: [
+            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
+            We handle research, optimization, technical improvements, 
+            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
+            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_2,
+          title: 'White-Label Social Media Management',
+          description: [
+            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
+            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
+            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_3,
+          title: 'White-Label Pay-Per-Click Ads',
+          description: [
+            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
+            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
+            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_4,
+          title: 'White-Label Link Building',
+          description: [
+            `Link building requires consistent outreach and quality control. 
+            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
+            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_5,
+          title: 'White-Label Web Design and Development',
+          description: [
+            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
+            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
+            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
+            and timelines, all without having to manage in-house design or development teams.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+        {
+          icon: whiteServicesIncluded_6,
+          title: 'White-Label Application Development',
+          description: [
+            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
+            We assist with application planning, development, integration, testing, and platform-wide updates.`,
+            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
+          ],
+          linkText: 'Start a Conversation',
+          linkHref: '#',
+        },
+      ],
+    },
+
+    needofservice: {
+      isVisible: false,
+      isVariant: '04',
+      isBgCornerImg: true,
+      heading: 'How White Label SEO Works for Agencies',
+      data: [
+        {
+          desctioption: `White label SEO seeks to separate client ownership and service delivery. 
+          The agency remains the primary point of contact, but SEO fulfillment is handled externally.`,
+        },
+        {
+          desctioption: `Client acquisition, onboarding, and relationship management are handled entirely by the agency. 
+          The client receives SEO services directly from the agency they hired.`,
+        },
+        {
+          desctioption: `At Adaired, as a leading white-label SEO company, we do SEO execution, including research, optimization, 
+          and ongoing maintenance, which takes place quietly in the background. 
+          This allows agencies to provide SEO services without expanding their internal teams or infrastructure.`,
+        },
+        {
+          desctioption: `Furthermore, we ensure that all reporting, documentation, and performance updates are delivered using the agency's branding. 
+          Communication follows the agency's processes, ensuring continuity and brand integrity.`,
+        },
+      ],
+    },
+
+    serviceResult: {
+      isVisible: false,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
+      heading: 'Common White Label SEO Use Cases',
+      isVariant: '03',
+      description: [
+        `Outsourcing SEO services is used across different types of agencies and service providers, 
+        primarily as a way to support ongoing search optimization without expanding internal teams. 
+        The following use cases reflect common operational scenarios:`,
+      ],
+      isBgColor: true,
+      img: WhiteSeoServiceResultImg,
+      list: [
+        {
+          img: whiteSeoResult_1,
+          name: 'Web Design Agencies Adding SEO Retainers',
+          description: [
+            `Web design agencies often introduce SEO as a recurring service after a website launch. 
+            White label SEO allows these agencies to offer ongoing optimization, monitoring, and reporting without building a dedicated SEO department.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_2,
+          name: 'PPC Agencies Expanding into Organic Search',
+          description: [
+            `Paid media agencies frequently complement pay-per-click services with organic search offerings. 
+            White label SEO enables PPC-focused teams to support long-term visibility and traffic growth alongside paid campaigns.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_3,
+          name: 'Consultants Supporting Long-Term SEO Clients',
+          description: [
+            `Independent consultants and marketing advisors may use white-label SEO to fulfill execution-heavy tasks while remaining focused on strategy and client management. 
+            This model supports continuity for clients requiring ongoing optimization.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_4,
+          name: 'Multi-Location or Franchise SEO Support',
+          description: [
+            `Businesses operating across multiple locations often require scalable and standardized SEO execution. 
+            White label SEO supports consistent optimization, reporting, and performance tracking across regions while maintaining centralized brand control.`,
+          ],
+        },
+      ],
+    },
+
+    getsCredit: {
+      isVisible: false,
+      code: '01',
+      heading: 'You Sell. We Execute. Your Brand Gets the Credit.',
+      isCard: false,
+      list: [
+        {
+          description: [`SEO audits & strategy`],
+        },
+        {
+          description: [`Ongoing optimization`],
+        },
+        {
+          description: [`100% brand-safe delivery`],
+        },
+        {
+          description: [`Rank tracking & white-label reporting`],
+        },
+      ],
+    },
+
+    leadingTools: {
+      isVisible: false,
+      isVariant: '01',
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+      list: [],
+    },
+
+    getplan: {
+      isVisible: false,
+      isLabel: false,
+      subtitle: '',
+      bgImage: stop_struggle2,
+      title: 'Stop Guessing Start Acting ',
+      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+
+    stopStruggling: {
+      isVisible: false,
+      isCenter: true,
+      subtitle: '',
+      title: '',
+      description: [
+        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
+      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
+      ],
+      button: '',
+      bgImg: whiteStruggleBg,
+      isHoverBgBlue: true,
+    },
+
+    industryLeaders: {
+      isVisible: false,
+      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      description:
+        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      bgImage: leadingToolsImg,
+    },
+
+    leadingToolsForPerformence: {
+      isVisible: false,
+      heading:
+        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+
+    notSeeingResult: {
+      isVisible: false,
+      heading: ``,
+      description: '',
+      buttonName: '',
+      img: LocalNotSee,
+      bgImage: LocalNotSeeBg,
     },
   },
 };

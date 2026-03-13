@@ -60,8 +60,8 @@ const FAQ = ({ faqs }: any) => {
                 key={idx}
                 onClick={() => toggleFAQ(idx)}
                 className={`flex cursor-pointer justify-between rounded-2xl border-[2px] border-black/20 p-4 transition-all duration-700 lg:px-6 lg:py-4 ${isVisible
-                    ? 'translate-y-0 opacity-100'
-                    : 'translate-y-10 opacity-0'
+                  ? 'translate-y-0 opacity-100'
+                  : 'translate-y-10 opacity-0'
                   }`}
                 style={{ transitionDelay: `${idx * 120}ms` }}
               >
@@ -87,18 +87,18 @@ const FAQ = ({ faqs }: any) => {
                   )} */}
 
 
-                  {isOpen && (
+                  {/* {isOpen && ( */}
+                  <div
+                    className={`overflow-hidden transition-all duration-700 ease-[cubic-bezier(0.22,1,0.36,1)] ${isOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0"}`}
+                  >
                     <div className="space-y-3">
-
                       {Array.isArray(faq.description) ? (
                         faq.description.map((desc: any, index: number) => {
-
                           if (typeof desc === "string") {
                             return (
                               <p key={index}>{desc}</p>
                             );
                           }
-
                           if (typeof desc === "object" && desc?.list) {
                             return (
                               <div key={index} className="space-y-2">
@@ -118,7 +118,8 @@ const FAQ = ({ faqs }: any) => {
                       )}
 
                     </div>
-                  )}
+                    {/* )} */}
+                  </div>
                 </div>
 
                 {/* Toggle Icon */}
