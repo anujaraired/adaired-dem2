@@ -597,6 +597,22 @@ import shopifyDevImpIcon_6 from '../../../../../../public/assets/images/services
 
 // eCommerce Development Service Page Images
 import ECommerceKeyStatsImg from '../../../../../../public/assets/images/services/eCommerceDevelopment/KeyStatsIcon.svg';
+import ecommerceDEV_whatareserviceImg from '../../../../../../public/assets/images/services/eCommerceDevelopment/ecommerceDEV_whatareserviceImg.png';
+import ecommerceDev_imptobusiness1 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ecommerceDev_imptobusiness1.svg';
+import ecommerceDev_imptobusiness2 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ecommerceDev_imptobusiness2.svg';
+import ecommerceDev_imptobusiness3 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ecommerceDev_imptobusiness3.svg';
+import ecommerceDev_imptobusiness4 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ecommerceDev_imptobusiness4.svg';
+import ecommerceDev_imptobusiness5 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ecommerceDev_imptobusiness5.svg';
+import ecommerceDev_imptobusiness6 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ecommerceDev_imptobusiness6.svg';
+import ecommerceDev_imptobusiness7 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ecommerceDev_imptobusiness7.svg';
+import ourProcess_ecomDev1 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ourProcess_ecomDev1.svg';
+import ourProcess_ecomDev2 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ourProcess_ecomDev2.svg';
+import ourProcess_ecomDev3 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ourProcess_ecomDev3.svg';
+import ourProcess_ecomDev4 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ourProcess_ecomDev4.svg';
+import ourProcess_ecomDev5 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ourProcess_ecomDev5.svg';
+import ourProcess_ecomDev6 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ourProcess_ecomDev6.svg';
+
+
 
 // eCommerce SEO Service Page Images
 import ecommerceSEO_Imptobusiness1 from '../../../../../../public/assets/images/services/eCommerce_Seo/ecommerceSEO_Imptobusiness1.svg';
@@ -13221,10 +13237,15 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '12',
+      isVariant: '04',
       img: mobileAppDevWhatService,
       heading: 'What is Mobile App Development?',
-      span: '',
+      paddingY: '3rem',
+      width: '60%',
+      isGap: true,
+      isRowReverse: true,
+      imgWidth: '947px',
+      imgHight: '631px',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [
@@ -16531,7 +16552,7 @@ brand appears in AI summaries and citations.`,
       subheading: 'Don’t wait to grow your business; let us assist you!',
       button: 'Create a Website for My Business',
       width: '45%',
-      widthLg: '30rem',
+      isGap: true,
       bgImg: Banner,
     },
 
@@ -16579,12 +16600,17 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '12',
+      isVariant: '04',
       breakIndex: 6,
       img: WhatAreService1,
+      imgWidth: '917px',
+      imgHight: '612px',
       heading: 'Is WordPress Development Right for Your Business?',
-      span: '',
       bgColor: '#FFFCF8',
+      paddingY: '3rem',
+      width: '60%',
+      isGap: true,
+      isRowReverse: true,
       isBgWhite: true,
       data: [
         {
@@ -18556,7 +18582,7 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '12',
+      isVariant: '04',
       breakIndex: 6,
       paddingY: '3rem',
       isRowReverse: true,
@@ -19647,7 +19673,7 @@ brand appears in AI summaries and citations.`,
           description: [
             `Online stores often contain extensive product catalogs`,
             ` Without a clear site architecture, internal linking structure, and optimized category hierarchy, search engines struggle to crawl and rank pages effectively.`,
-            `A strategic structure ensures every product contributes to overall organic growth.`
+            `A strategic structure ensures every product contributes to overall organic growth.`,
           ],
         },
         {
@@ -19655,7 +19681,7 @@ brand appears in AI summaries and citations.`,
           name: 'Category Page Optimization Matters',
           description: [
             `In e-commerce SEO, category pages often drive more revenue than individual product pages.`,
-            `These pages must be optimized with high-intent keywords, engaging content, proper internal linking, and structured data to capture broader commercial search terms.`
+            `These pages must be optimized with high-intent keywords, engaging content, proper internal linking, and structured data to capture broader commercial search terms.`,
           ],
         },
         {
@@ -19663,7 +19689,7 @@ brand appears in AI summaries and citations.`,
           name: 'Duplicate Content Challenges',
           description: [
             `Product variations, manufacturer descriptions, pagination, and filtering systems can create duplicate or thin content issues.`,
-            `Proper canonical tags, unique content strategies, and structured optimization are essential to protect rankings and authority.`
+            `Proper canonical tags, unique content strategies, and structured optimization are essential to protect rankings and authority.`,
           ],
         },
         {
@@ -19671,7 +19697,7 @@ brand appears in AI summaries and citations.`,
           name: 'Technical Complexity',
           description: [
             `E-commerce websites include layered navigation, faceted filters, dynamic URLs, and pagination, all of which can create crawl budget issues if not managed correctly.`,
-            `Advanced technical SEO ensures search engines index the right pages while avoiding wasted crawl resources.`
+            `Advanced technical SEO ensures search engines index the right pages while avoiding wasted crawl resources.`,
           ],
         },
         {
@@ -19679,7 +19705,7 @@ brand appears in AI summaries and citations.`,
           name: 'Conversion-Focused Strategy',
           description: [
             `Unlike standard SEO, e-commerce SEO must prioritize revenue, not just traffic. That means optimizing product descriptions, improving user experience, enhancing site speed, and aligning search intent with buyer behavior to increase conversions.`,
-            `At Adaired Digital Media, our e-commerce SEO strategies are built specifically for online stores, balancing technical precision, structured growth, and revenue-focused optimization to deliver long-term results.`
+            `At Adaired Digital Media, our e-commerce SEO strategies are built specifically for online stores, balancing technical precision, structured growth, and revenue-focused optimization to deliver long-term results.`,
           ],
         },
       ],
@@ -19693,9 +19719,7 @@ brand appears in AI summaries and citations.`,
       isVariant: '01',
       cardColor: '#FFFFFF',
       heading: 'Our eCommerce SEO Services',
-      description: [
-        ``,
-      ],
+      description: [``],
       buttonName: 'Book a 30-Minute Strategy Call',
       data: [
         {
@@ -19776,36 +19800,34 @@ brand appears in AI summaries and citations.`,
       textBg: '#EEEEEE',
       borderColor: '#00000014',
       heading: 'What Benefits You’ll Get Out of Our eCommerce SEO Solutions',
-      description: [
-        ``,
-      ],
+      description: [``],
       list: [
         {
           name: 'Strong Organic Reach & Traffic',
           description: [
             `With Adaired’s expert e-commerce SEO services, your store achieves higher visibility in search engines, attracting targeted, high-quality traffic.`,
-            `Through expert optimization of product pages and content using advanced e-commerce SEO techniques, we will guarantee that your store will target the right audience, which will result in more clicks, interactions, and possible sales, creating a long-term base of online development.`
+            `Through expert optimization of product pages and content using advanced e-commerce SEO techniques, we will guarantee that your store will target the right audience, which will result in more clicks, interactions, and possible sales, creating a long-term base of online development.`,
           ],
         },
         {
           name: 'Visibility in AI & Voice Search',
           description: [
             `The e-commerce SEO of Adaired optimizes your store according to AI-powered and voice search queries.`,
-            `Through systematic data, natural language search optimization, and conversation search optimization, our e-commerce SEO services will guarantee that your products are at the point where current shoppers are searching to increase brand awareness and remain relevant in the current dynamic search environment.`
+            `Through systematic data, natural language search optimization, and conversation search optimization, our e-commerce SEO services will guarantee that your products are at the point where current shoppers are searching to increase brand awareness and remain relevant in the current dynamic search environment.`,
           ],
         },
         {
           name: 'Faster Site & Better Mobile Experience',
           description: [
             `We have e-commerce SEO services that enhance the speed of the site, navigation, and usability on mobile phones to offer a smooth shopping experience. Adaired will optimize your store to make it performance-wise and responsive, bounce rates will be lower, and visitors will also feel entertained.`,
-            `Our e-commerce SEO strategy will guarantee that your customers have a quick, hassle-free, and user-friendly browsing experience, as we have combined the technical SEO with a customer-friendly design.`
+            `Our e-commerce SEO strategy will guarantee that your customers have a quick, hassle-free, and user-friendly browsing experience, as we have combined the technical SEO with a customer-friendly design.`,
           ],
         },
         {
           name: 'Higher Conversions & Sales Potential',
           description: [
             `The e-commerce SEO that is offered by Adaired focuses on high-intent keywords and optimizes the pages that are concerned with the products to get ready-to-buy visitors. We maximize the use of e-commerce SEO to increase calls-to-action, product descriptions, and page layouts, and convert traffic into real sales with improved e-commerce SEO.`,
-            `We optimize your store in terms of conversion and ranking improvement, which is why we will make your store earn more and grow in a measurable way.`
+            `We optimize your store in terms of conversion and ranking improvement, which is why we will make your store earn more and grow in a measurable way.`,
           ],
         },
         {
@@ -19819,7 +19841,7 @@ brand appears in AI summaries and citations.`,
           name: 'Brand Authority & Competitive Edge',
           description: [
             `Having the SEO e-commerce experience of Adaired, your shop will have authority and credibility in its niche. Top pages gain confidence with the shoppers and enhance brand awareness.`,
-            `Our e-commerce search engine optimization efforts can guarantee that you surpass the competition, topple search rankings, and establish your presence on the internet as a quality, go-to service provider, and provide your business with a sustainable competitive edge in the online retailing marketplace.`
+            `Our e-commerce search engine optimization efforts can guarantee that you surpass the competition, topple search rankings, and establish your presence on the internet as a quality, go-to service provider, and provide your business with a sustainable competitive edge in the online retailing marketplace.`,
           ],
         },
       ],
@@ -20452,7 +20474,6 @@ brand appears in AI summaries and citations.`,
       bgImage: LocalNotSeeBg,
     },
   },
-
   'ecommerce-development-company-india': {
     sectionsOrder: [
       'banner',
@@ -20549,11 +20570,16 @@ brand appears in AI summaries and citations.`,
     },
     whatareservice: {
       isVisible: true,
-      isVariant: '12',
+      isVariant: '04',
       // breakIndex: 5,
-      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773382974/adaired/services/eCommerceDevelopment/Group_1000007437_jdfbav.png',
+      img: ecommerceDEV_whatareserviceImg,
       heading: 'What is eCommerce Development?',
-      span: '',
+      paddingY: '3rem',
+      width: '60%',
+      isGap: true,
+      isRowReverse: true,
+      imgWidth: '857px',
+      imgHight: '572px',
       bgColor: '#FFFCF8',
       isBgWhite: true,
       data: [
@@ -20657,7 +20683,7 @@ brand appears in AI summaries and citations.`,
       buttonName: 'Start Selling Online',
       data: [
         {
-          icon: ImpToBusinessIcon1,
+          icon: ecommerceDev_imptobusiness1,
           name: 'Custom eCommerce Website Development',
           description: [
             `Our custom eCommerce web development services focus on creating tailored online stores that align perfectly with your brand identity while delivering scalable eCommerce solutions development for modern businesses.`,
@@ -20668,7 +20694,7 @@ brand appears in AI summaries and citations.`,
           btnColor: '#FB9100',
         },
         {
-          icon: ImpToBusinessIcon2,
+          icon: ecommerceDev_imptobusiness2,
           name: 'eCommerce Store Design & UX',
           description: [
             `An effective eCommerce website must provide a smooth and engaging user experience. Our design and UX experts focus on creating visually appealing storefronts that guide visitors through the buying journey effortlessly.`,
@@ -20679,7 +20705,7 @@ brand appears in AI summaries and citations.`,
           btnColor: '#FB9100',
         },
         {
-          icon: ImpToBusinessIcon3,
+          icon: ecommerceDev_imptobusiness3,
           name: 'Shopping Cart Development',
           description: [
             `A well-designed shopping cart is a crucial component of any successful eCommerce platform. We develop advanced shopping cart systems that provide a secure, fast, and convenient checkout experience.`,
@@ -20690,7 +20716,7 @@ brand appears in AI summaries and citations.`,
           btnColor: '#FB9100',
         },
         {
-          icon: ImpToBusinessIcon4,
+          icon: ecommerceDev_imptobusiness4,
           name: 'Payment Gateway Integration',
           description: [
             `Secure and seamless payment processing is essential for building customer trust in online transactions. Our team integrates reliable payment gateways that support multiple payment methods, including credit cards, digital wallets, and international payment options.`,
@@ -20701,7 +20727,7 @@ brand appears in AI summaries and citations.`,
           btnColor: '#FB9100',
         },
         {
-          icon: ImpToBusinessIcon5,
+          icon: ecommerceDev_imptobusiness5,
           name: 'API & Third-Party Integrations',
           description: [
             `To enhance the capabilities of your eCommerce platform, we integrate it with a wide range of third-party tools and services. This includes customer relationship management (CRM) systems, inventory and warehouse management platforms, shipping providers, marketing automation tools, and analytics solutions.`,
@@ -20712,7 +20738,7 @@ brand appears in AI summaries and citations.`,
           btnColor: '#FB9100',
         },
         {
-          icon: ImpToBusinessIcon6,
+          icon: ecommerceDev_imptobusiness6,
           name: 'eCommerce Migration Services',
           description: [
             `If your current eCommerce platform no longer meets your business needs, our migration services ensure a smooth transition to a more advanced solution.`,
@@ -20723,7 +20749,7 @@ brand appears in AI summaries and citations.`,
           btnColor: '#FB9100',
         },
         {
-          icon: ImpToBusinessIcon6,
+          icon: ecommerceDev_imptobusiness7,
           name: 'Maintenance & Support',
           description: [
             `Maintaining the performance and security of your eCommerce website is essential for long-term success. Our maintenance and support services ensure that your platform remains up-to-date, secure, and fully optimized.`,
@@ -20813,7 +20839,7 @@ brand appears in AI summaries and citations.`,
 
       services: [
         {
-          icon: ourProcessIcon1,
+          icon: ourProcess_ecomDev1,
           title: 'Discovery & Requirement Analysis',
           description: [
             `The process begins with a thorough discovery phase where we work closely with you to understand your business goals, target audience, product offerings, and technical requirements.`,
@@ -20822,7 +20848,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: ourProcessIcon2,
+          icon: ourProcess_ecomDev2,
           title: 'Strategy & Planning',
           description: [
             `Once we understand your requirements, our team develops a detailed strategy and project plan.`,
@@ -20831,7 +20857,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: ourProcessIcon3,
+          icon: ourProcess_ecomDev3,
           title: 'UI/UX Design',
           description: [
             `In this stage, our designers focus on creating a visually appealing and user-friendly interface that enhances the overall shopping experience.`,
@@ -20840,7 +20866,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: ourProcessIcon4,
+          icon: ourProcess_ecomDev4,
           title: 'Development & Integration',
           description: [
             `During the development phase, our engineers transform the approved designs into a fully functional eCommerce platform.`,
@@ -20849,7 +20875,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: ourProcessIcon5,
+          icon: ourProcess_ecomDev5,
           title: 'Testing & Quality Assurance',
           description: [
             `Before launching the website, we conduct comprehensive testing to ensure everything works smoothly.`,
@@ -20858,7 +20884,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          icon: ourProcessIcon6,
+          icon: ourProcess_ecomDev6,
           title: 'Launch & Optimization',
           description: [
             `After successful testing, we deploy your eCommerce website to the live environment. However, our work does not end there.`,
@@ -20871,42 +20897,53 @@ brand appears in AI summaries and citations.`,
     serviceResult: {
       isVisible: true,
       breakIndex: 1,
-      isVariant: '04',
+      isVariant: '03',
       heading: 'E-Commerce Platforms We Work With',
       bgImage: '',
-      img: StrugglingImgSEO,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773382966/adaired/services/eCommerceDevelopment/Rectangle_10025_1_bewjuw.png',
       description: [
-        `Adaired, a leading SEO agency, puts your business at the forefront of technology with the help of proven SEO strategies. 
-        We help your business stay visible, no matter how the search changes.`,
-        `With the help of our data-driven insights, strategic approach, and commitment to performance, we help your business emerge as a premier seo company.`,
+        `Choosing the right eCommerce platform is essential for building a successful online store.`,
+        `We also help businesses evaluate eCommerce website development packages and understand the typical eCommerce website development price before selecting the right platform.`,
       ],
       isBgColor: true,
+      bgColor: true,
       list: [
         {
           img: seo_resultIcon_1,
-          name: 'Tailored SEO Strategies',
+          name: 'Shopify',
           description: [
-            `At Adaired, we offer tailored SEO strategies that match your business goals and objectives.`,
-            `With the help of our comprehensive approach, we uncover valuable insights to enhance your website's performance and drive strategic growth for your business.`,
+            `Shopify is a popular cloud-based eCommerce platform known for its ease of use and powerful built-in features.`,
+            `It is ideal for businesses looking for a quick and reliable way to launch and manage their online store.`
           ],
         },
         {
           img: seo_resultIcon_2,
-          name: 'Transparent Reporting',
+          name: 'WooCommerce',
           description: [
-            `We believe in building long-term relationships with our clients.`,
-            `This is why we use advanced digital marketing tools such as Ahrefs, Yoast, BuzzSumo, Hootsuite, and more to create result-driven strategies, track real-time results, 
-            and drive long-term revenue for our clients.`,
-            `Our search engine optimization strategy services are built on a structured, analytical approach that strengthens visibility, improves relevance, and supports long-term growth.`,
+            `WooCommerce is a flexible eCommerce solution built on WordPress.`,
+            `It offers extensive customization options and is suitable for businesses that want full control over their website and functionality.`
           ],
         },
         {
           img: seo_resultIcon_3,
-          name: 'Sustainable White-Hat Practices',
+          name: 'Magento',
           description: [
-            `Delivering quality work to our clients has become our USP over the years. We work with a laser-sharp focus to generate organic traffic, conversions, and improve technical site health.`,
-            `Our approach to search engine optimization is deep-rooted in advanced keyword research, SEO audits, market gap analysis, and data-driven strategies to meet your goals.`,
-            `We address all the aspects of search engine optimization, right from on-page optimization to link building, ensuring that your digital presence is robust and sustainable.`,
+            `Magento is a robust platform designed for businesses that require advanced customization and scalability.`,
+            `It is widely used by enterprises and high-volume online stores.`
+          ],
+        },
+        {
+          img: seo_resultIcon_3,
+          name: 'BigCommerce',
+          description: [
+            `BigCommerce provides powerful built-in features, scalability, and strong performance capabilities, making it a great option for growing businesses and established brands.`,
+          ],
+        },
+        {
+          img: seo_resultIcon_3,
+          name: 'Custom eCommerce Solutions',
+          description: [
+            `Custom-built platforms allow businesses to implement specialized features, integrations, and workflows tailored to their operations.`,
           ],
         },
       ],
@@ -20914,11 +20951,18 @@ brand appears in AI summaries and citations.`,
     whatMkeDeferent: {
       isVisible: true,
       variant: '01',
-      breakIndex: 4,
+      breakIndex: 5,
       bgGradient: '',
-      heading: 'Why Choose Adaired Digital as Your eCommerce Development Company',
+      cardColor: '#F9F9F9',
+      cardColor2: '#FFF8EF',
+      cardImgBgColor: '#F3F3F3',
+      cardImgBgColor2: '#FFEDD7',
+      borderColor: '#051B3C',
+      borderColor2: '#F28F17',
+      heading:
+        'Why Choose Adaired Digital as Your eCommerce Development Company',
       description: [
-        `Choosing the right development partner is essential for building a successful eCommerce platform. Our team focuses on delivering customized solutions that combine technical expertise, strategic thinking, and a deep understanding of digital commerce.`,
+        `Choosing the right development partner is essential for building a successful eCommerce platform.`,` Our team focuses on delivering customized solutions that combine technical expertise, strategic thinking, and a deep understanding of digital commerce.`,
       ],
       list: [
         {
@@ -20963,10 +21007,10 @@ brand appears in AI summaries and citations.`,
       isCode01: true,
       isVariant: '06',
       breakIndex: 3,
-      bgImg: saasSeoBuildLinkBg,
-      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773297265/adaired/services/llm_service/BuildLink_jenexd.png',
-      label: 'Let’s Build Your Custom',
-      heading: 'LLM SEO Strategy',
+      bgImg: bgImgBuildLink,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773386797/adaired/services/eCommerceDevelopment/Group_1000007436_r1hvxn.png',
+      label: 'Start Your eCommerce',
+      heading: 'Development Project',
       description: ``,
       isBgWhite: true,
       data: [
@@ -21026,7 +21070,8 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          title: 'Can you integrate third-party tools with my eCommerce website?',
+          title:
+            'Can you integrate third-party tools with my eCommerce website?',
           description: [
             `Yes, we can integrate various third-party tools such as payment gateways, CRM systems, shipping providers, marketing platforms, and analytics tools.`,
           ],

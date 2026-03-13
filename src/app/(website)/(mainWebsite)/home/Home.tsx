@@ -1,10 +1,6 @@
 'use client';
 export const dynamic = 'force-dynamic';
-
-import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
-import { InfiniteMovingCards } from '@/@core/ui/aceternity-ui/infinite-moving-cards';
 import {
-  AwardsSectionData,
   FAQSSectionData,
   SolutionsSectionData,
 } from '@/@core/data/website/Homepage';
@@ -21,7 +17,6 @@ import Banner from '../../components/HereComponent/Banner';
 import FAQ from '../../components/home/FAQ';
 import Solutions from '../../components/home/Solutions';
 import Clients from '../../components/home/Clients';
-//test
 
 export default function Home() {
   return (
