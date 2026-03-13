@@ -1,17 +1,17 @@
 import rocket from '../../../../../../public/assets/icons/rocket.svg';
 import aiseoresult from '../../../../../../public/assets/aiseo/AISEORESULT.png';
-import aiseoresult_2 from '../../../../../../public/assets/680_500.png';
-import aiseoresult_3 from '../../../../../../public/assets/aiseo/AISEORESULT.png';
-import aiseoresult_4 from '../../../../../../public/assets/680_500.png';
-import meke_derefent from '../../../../../../public/assets/aiseo/make_deferent.png';
-import meke_derefent_2 from '../../../../../../public/assets/aiseo/make_deferent_1.png';
-import meke_derefent_3 from '../../../../../../public/assets/aiseo/make_deferent_2.png';
-import meke_derefent_4 from '../../../../../../public/assets/aiseo/make_deferent_3.png';
+// import aiseoresult_2 from '../../../../../../public/assets/680_500.png';
+// import aiseoresult_3 from '../../../../../../public/assets/aiseo/AISEORESULT.png';
+// import aiseoresult_4 from '../../../../../../public/assets/680_500.png';
+// import meke_derefent from '../../../../../../public/assets/aiseo/make_deferent.png';
+// import meke_derefent_2 from '../../../../../../public/assets/aiseo/make_deferent_1.png';
+// import meke_derefent_3 from '../../../../../../public/assets/aiseo/make_deferent_2.png';
+// import meke_derefent_4 from '../../../../../../public/assets/aiseo/make_deferent_3.png';
 import step from '../../../../../../public/assets/aiseo/process/Group 1000005845 (1).svg';
-import step_2 from '../../../../../../public/assets/aiseo/process/Group 1000005846.svg';
-import step_3 from '../../../../../../public/assets/aiseo/process/Group 1000005847.svg';
-import step_4 from '../../../../../../public/assets/aiseo/process/Group 1000005848.svg';
-import step_5 from '../../../../../../public/assets/aiseo/process/Group 1000005849.svg';
+// import step_2 from '../../../../../../public/assets/aiseo/process/Group 1000005846.svg';
+// import step_3 from '../../../../../../public/assets/aiseo/process/Group 1000005847.svg';
+// import step_4 from '../../../../../../public/assets/aiseo/process/Group 1000005848.svg';
+// import step_5 from '../../../../../../public/assets/aiseo/process/Group 1000005849.svg';
 import step1 from '../../../../../../public/assets/seo/process/step1.svg';
 import step2 from '../../../../../../public/assets/seo/process/step2.svg';
 import step3 from '../../../../../../public/assets/seo/process/step3.svg';
@@ -68,7 +68,7 @@ import stepwhitelabelsocialmedia2 from '../../../../../../public/assets/images/s
 import stepwhitelabelsocialmedia3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step3.svg';
 import stepwhitelabelsocialmedia4 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step4.svg';
 import stepwhitelabelsocialmedia5 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step5.svg';
-import stepwhitelabelsocialmedia6 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step6.svg';
+// import stepwhitelabelsocialmedia6 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step6.svg';
 import stepwhitelabelpaidad1 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/step1.svg';
 import stepwhitelabelpaidad2 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/step2.svg';
 import stepwhitelabelpaidad3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/step3.svg';
@@ -83,7 +83,7 @@ import stepwhitelabellinkbuild5 from '../../../../../../public/assets/images/ser
 import stepwhitelabellinkbuild6 from '../../../../../../public/assets/images/service/whitelabel//whiteLabelLinkBuilding/step6.svg';
 
 import NotSeeingResultsBg from '../../../../../../public/assets/NotSeeingResultsBg.png';
-import NotSeeingResultsBg2 from '../../../../../../public/assets/NotSeeingResultsBg2.png';
+// import NotSeeingResultsBg2 from '../../../../../../public/assets/NotSeeingResultsBg2.png';
 import leadingToolsImg from '../../../../../../public/assets/leadingTools.png';
 import what_are_ai_seo from '../../../../../../public/assets/images/what_are_ai_seo.png';
 import what_are_ai_seo2 from '../../../../../../public/assets/what_are_ai_seo2.png';
@@ -113,14 +113,14 @@ import client_3 from '../../../../../../public/assets/LeadingTools/Group 1000005
 import client_4 from '../../../../../../public/assets/LeadingTools/Group 1000005356.png';
 import client_5 from '../../../../../../public/assets/LeadingTools/Group 1000005428.png';
 
-import adairedHelp_4 from '../../../../../../public/assets/images/services/seo/adairedSEO1.png';
-import adairedHelp_7 from '../../../../../../public/assets/images/services/seo/adairedSEO2.png';
-import adairedHelp_8 from '../../../../../../public/assets/images/services/seo/adairedSEO3.png';
-import adairedHelp_15 from '../../../../../../public/assets/images/services/seo/adairedSEO4.png';
-import adairedHelp_13 from '../../../../../../public/assets/images/services/seo/adairedSEO5.png';
-import adairedHelp_12 from '../../../../../../public/assets/images/services/seo/adairedSEO6.png';
-import adairedHelp_14 from '../../../../../../public/assets/images/services/seo/adairedSEO7.png';
-import adairedHelp_16 from '../../../../../../public/assets/images/services/seo/adairedSEO8.png';
+// import adairedHelp_4 from '../../../../../../public/assets/images/services/seo/adairedSEO1.png';
+// import adairedHelp_7 from '../../../../../../public/assets/images/services/seo/adairedSEO2.png';
+// import adairedHelp_8 from '../../../../../../public/assets/images/services/seo/adairedSEO3.png';
+// import adairedHelp_15 from '../../../../../../public/assets/images/services/seo/adairedSEO4.png';
+// import adairedHelp_13 from '../../../../../../public/assets/images/services/seo/adairedSEO5.png';
+// import adairedHelp_12 from '../../../../../../public/assets/images/services/seo/adairedSEO6.png';
+// import adairedHelp_14 from '../../../../../../public/assets/images/services/seo/adairedSEO7.png';
+// import adairedHelp_16 from '../../../../../../public/assets/images/services/seo/adairedSEO8.png';
 // import adairedHelpaiseo1 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO1.png';
 // import adairedHelpaiseo2 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO2.png';
 // import adairedHelpaiseo3 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO3.png';
@@ -160,11 +160,11 @@ import adairedHelp_16 from '../../../../../../public/assets/images/services/seo/
 // import whatMkWhiteSeo_6 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo6.png';
 
 import HowAdairedHelp from '../../../../../../public/assets/WebDevelopment/HowAdairedHelp.png';
-import adairedHelp_1 from '../../../../../../public/assets/adairedHelp/Group 1000006012.png';
-import adairedHelp_2 from '../../../../../../public/assets/adairedHelp/Group 1000006013.png';
-import adairedHelp_3 from '../../../../../../public/assets/adairedHelp/Group 1000006014.png';
-import adairedHelp_5 from '../../../../../../public/assets/adairedHelp/Group 1000006028.png';
-import adairedHelp_6 from '../../../../../../public/assets/adairedHelp/Group 1000006029.png';
+// import adairedHelp_1 from '../../../../../../public/assets/adairedHelp/Group 1000006012.png';
+// import adairedHelp_2 from '../../../../../../public/assets/adairedHelp/Group 1000006013.png';
+// import adairedHelp_3 from '../../../../../../public/assets/adairedHelp/Group 1000006014.png';
+// import adairedHelp_5 from '../../../../../../public/assets/adairedHelp/Group 1000006028.png';
+// import adairedHelp_6 from '../../../../../../public/assets/adairedHelp/Group 1000006029.png';
 
 import seo_resultIcon_1 from '../../../../../../public/assets/seo/seo_resultIcon_1.svg';
 import seo_resultIcon_2 from '../../../../../../public/assets/seo/seo_resultIcon_2.svg';
@@ -268,7 +268,7 @@ import whiteKeyStats from '../../../../../../public/assets/images/services/White
 import whiteWhatIs from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteWhatIs.png';
 import whiteStruggleBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteStruggleBg.png';
 import whiteBannerBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteBannerBg.png';
-import whiteAdairedHelpImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteAdairedHelpImg.png';
+// import whiteAdairedHelpImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteAdairedHelpImg.png';
 import whiteBookConsultationBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteBookConsultationBg.png';
 import whiteBuildLinkImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteBuildLinkImg.png';
 
