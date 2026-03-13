@@ -241,7 +241,9 @@ import webDevelopmentBannerBg from '../../../../../../public/assets/web_developm
 import stop_struggle3 from '../../../../../../public/assets/localseo/stop_struggle3.png';
 
 // Local SEO Images
-import localBannerBg from '../../../../../../public/assets/localseo/localBannerBg.png';
+// import localBannerBg from '../../../../../../public/assets/localseo/localBannerBg.png';
+import localBannerBg from '../../../../../../public/assets/localseo/New version of seo image.jpg';
+
 import LocalWhatService from '../../../../../../public/assets/localseo/localWhatService.png';
 import LocalNotSee from '../../../../../../public/assets/localseo/localNotSee.png';
 import LocalNotSeeBg from '../../../../../../public/assets/localseo/localNotSeeBg.png';
@@ -3674,10 +3676,11 @@ brand appears in AI summaries and citations.`,
       isVariant: '04',
       img: LocalWhatService,
       heading: 'What Is Local SEO?',
-      span: '',
-      bgColor: '#FFFCF8',
       width: '55%',
-      isBgWhite: true,
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      imgWidth: '608px',
+      imgHight: '634px',
       data: [
         {
           desctioption: `Local SEO refers to the process of maximizing your online presence to increase visibility in local search results within a specific geographical area. 
@@ -3685,19 +3688,12 @@ brand appears in AI summaries and citations.`,
         },
         {
           desctioption: `Local SEO ensures your business appears where it matters most:`,
+          isListColor: '#FFFFFF',
           list: [
-            {
-              description: [`Google Maps`],
-            },
-            {
-              description: [`Local search results`],
-            },
-            {
-              description: [`"Near me" queries`],
-            },
-            {
-              description: [`Local business directories`],
-            },
+            'Google Maps',
+            'Local search results',
+            `Near me" queries`,
+            'Local business directories',
           ],
         },
         {
