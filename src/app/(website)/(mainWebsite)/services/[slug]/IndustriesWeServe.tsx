@@ -8,7 +8,7 @@ import { IoIosArrowRoundForward } from 'react-icons/io';
 
 const IndustriesWeServe = ({ industriesWeServe }: any) => {
     const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.3);
-    const [isHover, setIsHover] = useState(false);
+    const [isHover, setIsHover] = useState<number | null>(null);
 
 
     return (
@@ -33,6 +33,7 @@ const IndustriesWeServe = ({ industriesWeServe }: any) => {
                         <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[1.5rem] pt-4`}>
                             {industriesWeServe?.list?.map((item: any, idx: number) => (
                                 <div
+                                    key={idx}
                                     className={`relative inline-block transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
                                     style={{
                                         transitionDelay: `${idx * 280}ms`,
@@ -50,10 +51,13 @@ const IndustriesWeServe = ({ industriesWeServe }: any) => {
                                             {item?.btn}
                                         </p>
 
-                                        <div className='bg-[#FFFFFF]/40 rounded-full p-1 cursor-pointer'>
+                                        <div
+                                            onMouseEnter={() => setIsHover(idx)}
+                                            onMouseLeave={() => setIsHover(null)}
+                                            className='bg-[#FFFFFF]/40 rounded-full p-1 cursor-pointer'>
                                             <IoIosArrowRoundForward
                                                 size={30}
-                                                className={`text-white ${isHover ? 'rotate-[360deg] transition-all duration-300 ease-out active:scale-95' : 'rotate-[310deg]'}`}
+                                                className={`text-white ${isHover === idx ? 'rotate-[360deg] transition-all duration-300 ease-out active:scale-95' : 'rotate-[310deg]'}`}
                                             />
                                         </div>
                                     </div>
