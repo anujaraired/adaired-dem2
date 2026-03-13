@@ -768,7 +768,7 @@ export const ServiceSectionData = {
           label: 'Custom Web Development',
           title: 'Custom Web Development',
           description: `Bring your vision to life with our Custom Web Development services. We design and build tailored websites that meet your unique business needs, ensuring responsive design, seamless functionality, and scalability. Our solutions enhance user experience, boost performance, and provide a strong digital presence to help your business grow online.`,
-          link: '/services/web-design-development-company',
+          link: '/services/custom-web-development-company',
         },
       ],
       mainSvg: 'Logo Design_PpqcI',
