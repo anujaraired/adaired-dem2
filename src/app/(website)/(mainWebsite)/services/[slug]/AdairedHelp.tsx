@@ -61,9 +61,22 @@ const AdairedHelp = ({ adairedHelp }: any) => {
                 {item?.img ? (
                   <Image src={item.img} width={40} height={40} alt="icon" />
                 ) : (
-                  <div className={`text-[50px] font-semibold text-[${adairedHelp?.textColor || '#FB9100'}]  ${adairedHelp?.isnNumberBg ? `px-4 rounded-[0.7rem] bg-[${adairedHelp?.numberBg}]/50` : 'bg-[#FFFFFF]'}`}>
+
+                  
+                  // <div className={`text-[50px] font-semibold text-[${adairedHelp?.textColor || '#FB9100'}]  ${adairedHelp?.isnNumberBg ? `px-4 rounded-[0.7rem] bg-[${adairedHelp?.numberBg}/50` : 'bg-[#FFFFFF]'}`}>
+                  //   {String(index + 1).padStart(2, '0')}
+                  // </div>
+                  <div
+                    className={`text-[50px] font-semibold ${adairedHelp?.isnNumberBg ? 'px-4 rounded-[0.8rem]' : ''}`}
+                    style={{
+                      color: adairedHelp?.textColor || '#FB9100',
+                      background: adairedHelp?.isnNumberBg ? adairedHelp?.numberBg : 'transparent',
+                    }}
+                  >
                     {String(index + 1).padStart(2, '0')}
                   </div>
+
+
                 )}
                 {/* <p className="pt-[1.5rem] font-bold">{item?.name}</p> */}
                 <h3 className="pt-[1.5rem]">{item?.name}</h3>

@@ -30,9 +30,14 @@ const IndustriesWeServe = ({ industriesWeServe }: any) => {
                             />
                         </div>
 
-                        <div className="grid grid-cols-1 lg:grid-cols-4 gap-[1.5rem] transition-transform duration-500 ease-in-out pt-4">
-                            {industriesWeServe?.list?.map((item: any) => (
-                                <div className="relative inline-block">
+                        <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[1.5rem] pt-4`}>
+                            {industriesWeServe?.list?.map((item: any, idx: number) => (
+                                <div
+                                    className={`relative inline-block transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+                                    style={{
+                                        transitionDelay: `${idx * 280}ms`,
+                                    }}
+                                >
                                     <Image
                                         src={item?.img}
                                         width={385}
@@ -40,12 +45,12 @@ const IndustriesWeServe = ({ industriesWeServe }: any) => {
                                         alt="img"
                                     />
 
-                                    <div className='absolute bottom-[2rem] left-0 w-full px-6 py-3 flex justify-between items-center text-center gap-2'>
+                                    <div className={`absolute bottom-[2rem] left-0 w-full px-6 py-3 flex justify-between items-center text-center gap-2`}>
                                         <p className='font-bold text-left text-white'>
                                             {item?.btn}
                                         </p>
 
-                                        <div className='bg-[#FFFFFF]/40 rounded-full p-1'>
+                                        <div className='bg-[#FFFFFF]/40 rounded-full p-1 cursor-pointer'>
                                             <IoIosArrowRoundForward
                                                 size={30}
                                                 className={`text-white ${isHover ? 'rotate-[360deg] transition-all duration-300 ease-out active:scale-95' : 'rotate-[310deg]'}`}
