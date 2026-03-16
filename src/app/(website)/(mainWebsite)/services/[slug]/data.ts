@@ -1214,7 +1214,13 @@ export const SERVICES_DATA = {
       cardImgBgColor: '#FFEDD7',
       borderColor2: '#051B3C',
       borderColor: '#F28F17',
-      heading: 'What Makes Adaired Different From Our Competitors?',
+      headingParts: [
+        {
+          text: 'What Makes Adaired Different From Our Competitors?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         `At Adaired, we have a clear plan for building your search engine optimization strategy. Starting with understanding your goals clearly to analyzing where you are losing search visibility, we do all the legwork to help your business uncover quick wins.`,
       ],
@@ -1880,7 +1886,13 @@ export const SERVICES_DATA = {
       cardImgBgColor: '#FFEDD7',
       borderColor2: '#051B3C',
       borderColor: '#F28F17',
-      heading: 'What Makes Adaired Different From Our Competitors?',
+      headingParts: [
+        {
+          text: 'What Makes Adaired Different From Our Competitors?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [],
       list: [
         {
@@ -2719,7 +2731,13 @@ brand appears in AI summaries and citations.`,
       isVariant: '01',
       breakIndex: 5,
       img: LinkBuilding,
-      heading: 'Build Links That Work for Your Business in',
+      headingParts: [
+        {
+          text: 'Build Links That Work for Your Business in',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       span: '2026 and Beyond',
       bgColor: '#FFFCF8',
       isBgWhite: true,
@@ -2740,7 +2758,13 @@ brand appears in AI summaries and citations.`,
       cardImgBgColor2: '#FFEDD7',
       borderColor: '#051B3C',
       borderColor2: '#F28F17',
-      heading: 'What Makes Adaired Different From Our Competitors?',
+      headingParts: [
+        {
+          text: 'What Makes Adaired Different From Our Competitors?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [],
       list: [
         {
@@ -2800,7 +2824,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       breakIndex: 6,
       subtitle: 'Our Process',
-        headingParts: [
+      headingParts: [
         {
           text: 'Our Strategic Link Building Process Focused On Building Lasting Authority',
           color: '#000000',
@@ -3007,8 +3031,8 @@ brand appears in AI summaries and citations.`,
         },
       ],
       img: webDevelopmentBannerBg,
-      imgWidth:"829",
-      imgHight:"530",
+      imgWidth: "829",
+      imgHight: "530",
     },
 
     keyStats: {
@@ -3389,7 +3413,13 @@ brand appears in AI summaries and citations.`,
       isVariant: '02',
       breakIndex: 5,
       img: BeautifulDesign,
-      heading: 'Beautiful Design Meets Smart Development.',
+      headingParts: [
+        {
+          text: 'Beautiful Design Meets Smart Development.',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description:
         'We build websites that captivate users and convert clicks into customers',
       bgColor: '#FFFCF8',
@@ -3412,8 +3442,13 @@ brand appears in AI summaries and citations.`,
       cardImgBgColor2: '#FFEDD7',
       borderColor: '#051B3C',
       borderColor2: '#F28F17',
-      heading:
-        'What Makes Adaired Stand Out As The Best Website Design & Development Service Provider?',
+      headingParts: [
+        {
+          text: 'What Makes Adaired Stand Out As The Best Website Design & Development Service Provider?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         'At Adaired, we help businesses create attractive and functional website to help them reach their potential customers worldwide, enhancing turnover, driving next-level growths and making you stand out from the crowd. ',
       ],
@@ -4102,7 +4137,13 @@ brand appears in AI summaries and citations.`,
       cardImgBgColor: '#FFEDD7',
       borderColor2: '#051B3C',
       borderColor: '#F28F17',
-      heading: 'Why Choose Adaired for Your Local Search Engine Optimization ?',
+      headingParts: [
+        {
+          text: 'Why Choose Adaired for Your Local Search Engine Optimization?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [],
       list: [
         {
@@ -4995,7 +5036,13 @@ brand appears in AI summaries and citations.`,
       cardImgBgColor: '#FFEDD7',
       borderColor2: '#051B3C',
       borderColor: '#F28F17',
-      heading: 'Why Choose Adaired as Your White Label Social Media Partner?',
+      headingParts: [
+        {
+          text: 'Why Choose Adaired as Your White Label Social Media Partner?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         `Selecting the right white label social media agency directly impacts your client satisfaction, service quality, and long-term growth. 
       When you entrust fulfillment to a partner, reliability, expertise, and alignment with your brand become critical.`,
@@ -5054,7 +5101,13 @@ brand appears in AI summaries and citations.`,
       breakIndex: 4,
       bgImg: whiteBookConsultationBg,
       img: whiteBuildLinkImg,
-      heading: 'Ready to Expand Your Agency?',
+      headingParts: [
+        {
+          text: 'Ready to Expand Your Agency?',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: ``,
       isBgWhite: true,
       data: [
@@ -5824,7 +5877,13 @@ brand appears in AI summaries and citations.`,
       cardImgBgColor2: '#FFEDD7',
       borderColor: '#051B3C',
       borderColor2: '#F28F17',
-      heading: 'How White Label SEO Works at Adaired',
+      headingParts: [
+        {
+          text: 'How White Label SEO Works at Adaired',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       bgColor: true,
       description: [
         `At Adaired, our white-label SEO process is designed to let agencies retain full client ownership while we handle execution behind the scenes.`,
@@ -5887,7 +5946,13 @@ brand appears in AI summaries and citations.`,
       breakIndex: 4,
       bgImg: whiteBookConsultationBg,
       img: whiteSeoBuildLinkImg,
-      heading: 'Ready to Offer SEO Without Building an In-House Team?',
+      headingParts: [
+        {
+          text: 'Ready to Offer SEO Without Building an In-House Team?',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: ``,
       isBgWhite: true,
       data: [
@@ -6358,7 +6423,7 @@ brand appears in AI summaries and citations.`,
       button: 'Start a Conversation!',
       width: '60%',
       img: whiteServicesBannerBg,
-      
+
     },
 
     keyStats: {
@@ -6699,7 +6764,13 @@ brand appears in AI summaries and citations.`,
       bgImg: whiteBookConsultationBg,
       img: whiteServicesBuildLinkImg,
       label: 'Ready to Expand Your',
-      heading: 'Digital Service Empire?',
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: ``,
       isBgWhite: true,
       data: [
@@ -6768,7 +6839,13 @@ brand appears in AI summaries and citations.`,
     whatMkeDeferent: {
       isVisible: false,
       isVariant: '01',
-      heading: ``,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       bgGradient: '',
       cardColor: '#FFFFFF',
       cardColor2: '#FFF8EF',
@@ -7698,7 +7775,13 @@ brand appears in AI summaries and citations.`,
       bgImg: whiteBookConsultationBg,
       img: ppcServicesBuildLinkImg,
       label: 'Build a PPC Campaign',
-      heading: 'That Drives Results',
+      headingParts: [
+        {
+          text: 'That Drives Results',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: ``,
       isBgWhite: true,
       data: [
@@ -7782,7 +7865,13 @@ brand appears in AI summaries and citations.`,
     whatMkeDeferent: {
       isVisible: false,
       isVariant: '01',
-      heading: ``,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       bgGradient: '',
       cardColor: '#FFFFFF',
       cardColor2: '#FFF8EF',
@@ -8829,7 +8918,13 @@ brand appears in AI summaries and citations.`,
       bgImg: whiteBookConsultationBg,
       img: whitePaidAdsBuildLinkImg,
       label: 'Ready to Scale Your',
-      heading: 'Agency Without Hiring In-House?',
+      headingParts: [
+        {
+          text: 'Agency Without Hiring In-House?',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: ``,
       isBgWhite: true,
       data: [
@@ -8943,7 +9038,13 @@ brand appears in AI summaries and citations.`,
     whatMkeDeferent: {
       isVisible: false,
       isVariant: '01',
-      heading: ``,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       bgGradient: '',
       cardColor: '#FFFFFF',
       cardColor2: '#FFF8EF',
@@ -9554,7 +9655,13 @@ brand appears in AI summaries and citations.`,
       cardImgBgColor2: '#FFEDD7',
       borderColor: '#051B3C',
       borderColor2: '#F28F17',
-      heading: `Who Our White Label Link Building Is For`,
+      headingParts: [
+        {
+          text: 'Who Our White Label Link Building Is For',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         `Our white-label link-building services are designed for growth-focused teams that want to deliver powerful SEO results without building an in-house outreach department.`,
         `Whether you’re scaling an agency or expanding your service offerings, we act as your silent fulfillment partner.`,
@@ -9606,7 +9713,13 @@ brand appears in AI summaries and citations.`,
       bgImg: whiteLinkBuildingBookConsultationBg,
       img: whiteLinkBuildingBuildLinkImg,
       label: 'Stop Turning Away SEO',
-      heading: 'Opportunities and Scale Without Hiring!',
+      headingParts: [
+        {
+          text: 'Opportunities and Scale Without Hiring!',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: ``,
       isBgWhite: true,
       data: [
@@ -10520,7 +10633,13 @@ brand appears in AI summaries and citations.`,
       cardImgBgColor: '#FFEDD7',
       borderColor2: '#051B3C',
       borderColor: '#F28F17',
-      heading: `Why Leading SaaS Brands Choose Adaired Digital`,
+      headingParts: [
+        {
+          text: 'Why Leading SaaS Brands Choose Adaired Digital',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [``],
       list: [
         {
@@ -10593,7 +10712,13 @@ brand appears in AI summaries and citations.`,
       bgImg: saasSeoBuildLinkBg,
       img: saasSeoBuildLinkImg,
       label: 'Ready to Scale Your',
-      heading: 'SaaS with Strategic SEO?',
+      headingParts: [
+        {
+          text: 'SaaS with Strategic SEO?',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: ``,
       isBgWhite: true,
       data: [
@@ -11502,7 +11627,13 @@ brand appears in AI summaries and citations.`,
       bgImg: saasSeoBuildLinkBg,
       img: geoAiSeoBuildLinkImg,
       label: 'Ready to',
-      heading: 'Dominate AI Search?',
+      headingParts: [
+        {
+          text: 'Dominate AI Search?',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: ``,
       isBgWhite: true,
       data: [
@@ -11603,7 +11734,13 @@ brand appears in AI summaries and citations.`,
       cardImgBgColor2: '#FFEDD7',
       borderColor: '#051B3C',
       borderColor2: '#F28F17',
-      heading: `Why Leading SaaS Brands Choose Adaired Digital`,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [``],
       list: [
         {
@@ -12386,7 +12523,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       breakIndex: 5,
       isVariant: '02',
-      heading: `What Sets Our AI Search Strategy Apart`,
+      headingParts: [
+        {
+          text: 'What Sets Our AI Search Strategy Apart',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       bgGradient: '',
       cardColor: '#F9F9F9',
       cardColor2: '#FFF8EF',
@@ -12591,7 +12734,13 @@ brand appears in AI summaries and citations.`,
       bgImg: whiteBookConsultationBg,
       img: whiteServicesBuildLinkImg,
       label: 'Ready to Expand Your',
-      heading: 'Digital Service Empire?',
+      headingParts: [
+        {
+          text: 'Digital Service Empire?',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: ``,
       isBgWhite: true,
       data: [
@@ -13459,7 +13608,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       breakIndex: 4,
       description: '',
-      heading: 'Key Stats About White Label Link Building',
+      headingParts: [
+        {
+          text: 'Key Stats About White Label Link Building',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       ContentDescription: '',
       navItems: [
         'Frontend Technologies',
@@ -13554,7 +13709,13 @@ brand appears in AI summaries and citations.`,
       borderColor: '#051B3C',
       borderColor2: '#F28F17',
       bgGradient: 'bg-[#F5F5F5]/40',
-      heading: `Why Choose Us as Your Mobile App Development Firm?`,
+      headingParts: [
+        {
+          text: 'Why Choose Us as Your Mobile App Development Firm?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [``],
       list: [
         {
@@ -13608,7 +13769,13 @@ brand appears in AI summaries and citations.`,
       bgImg: saasSeoBuildLinkBg,
       img: mobileAppDevBuildLinkImg,
       label: '',
-      heading: 'Ready to Build Your Mobile App?',
+      headingParts: [
+        {
+          text: 'Ready to Build Your Mobile App?',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: ``,
       isBgWhite: true,
       data: [
@@ -14495,10 +14662,15 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: true,
       subtitle: 'Our Process',
-      title: 'Our Google Business Profile Optimization Process',
+      headingParts: [
+        {
+          text: 'Our Google Business Profile Optimization Process',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       breakIndex: 4,
       bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFFFFF]',
-      span: '',
       description: [``],
       services: [
         {
@@ -14744,7 +14916,13 @@ brand appears in AI summaries and citations.`,
       bgImg: saasSeoBuildLinkBg,
       img: geoAiSeoBuildLinkImg,
       label: 'Ready to',
-      heading: 'Dominate AI Search?',
+      headingParts: [
+        {
+          text: 'Dominate AI Search?',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: ``,
       isBgWhite: true,
       data: [
@@ -14775,7 +14953,13 @@ brand appears in AI summaries and citations.`,
       cardImgBgColor2: '#FFEDD7',
       borderColor: '#051B3C',
       borderColor2: '#F28F17',
-      heading: `Why Leading SaaS Brands Choose Adaired Digital`,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [``],
       list: [
         {
@@ -15458,10 +15642,15 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: true,
       subtitle: 'Our Process',
-      title: 'Our Local SEO Process: GBP + Website',
+      headingParts: [
+        {
+          text: 'Our Local SEO Process: GBP + Website',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       breakIndex: 4,
       bgGradient: 'bg-[#FFFCF7]',
-      span: '',
       description: [
         `Our local SEO process is designed to create a strong synergy between your Google Business Profile and your website. By optimizing both together, we help your business gain better visibility across multiple areas of Google search.`,
         `Our structured approach ensures that every aspect of your local presence is strategically optimized.`,
@@ -15611,7 +15800,13 @@ brand appears in AI summaries and citations.`,
       bgImg: saasSeoBuildLinkBg,
       img: gmbWebsiteSeoBuildLinkImg,
       label: 'Ready to Improve Your',
-      heading: 'Local Search Visibility',
+      headingParts: [
+        {
+          text: 'Local Search Visibility',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: ``,
       isBgWhite: true,
       data: [
@@ -15772,7 +15967,13 @@ brand appears in AI summaries and citations.`,
       cardImgBgColor2: '#FFEDD7',
       borderColor: '#051B3C',
       borderColor2: '#F28F17',
-      heading: `Why Leading SaaS Brands Choose Adaired Digital`,
+     headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [``],
       list: [
         {
@@ -16116,8 +16317,8 @@ brand appears in AI summaries and citations.`,
       width: '60%',
       isGap: true,
       img: Banner,
-      imgWidth:"937",
-      imgHight:"813",
+      imgWidth: "937",
+      imgHight: "813",
     },
 
     keyStats: {
@@ -16327,10 +16528,15 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: true,
       subtitle: 'Our Process',
-      title: 'How We Deliver Successful WordPress Development Projects',
+      headingParts: [
+        {
+          text: 'How We Deliver Successful WordPress Development Projects',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       breakIndex: 5,
       bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFFFFF]',
-      span: '',
       description: [
         `Our development process focuses on collaboration, quality assurance, and continuous improvement to create high-performing WordPress websites that support long-term business growth.`,
       ],
@@ -16466,7 +16672,13 @@ brand appears in AI summaries and citations.`,
       cardImgBgColor2: '#FFEDD7',
       borderColor: '#051B3C',
       borderColor2: '#F28F17',
-      heading: `Why Choose Adaired Digital's WordPress Development Services`,
+      headingParts: [
+        {
+          text: `Why Choose Adaired Digital's WordPress Development Services`,
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         'At Adaired Digital, we combine technical expertise, strategic thinking, and creative design to deliver WordPress websites that drive real business results.',
       ],
@@ -16527,12 +16739,18 @@ brand appears in AI summaries and citations.`,
     buildlinks: {
       isVisible: true,
       isCode01: true,
-      isVariant: '0',
+      isVariant: '05',
       breakIndex: 3,
       bgImg: bgImgBuildLink,
       img: BuildLink,
       label: 'Start Your WordPress',
-      heading: 'Development Today',
+      headingParts: [
+        {
+          text: 'Development Today',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: ``,
       isBgWhite: true,
       data: [
@@ -17172,13 +17390,18 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       breakIndex: 3,
       isInCenter: true,
-      title: 'How We Make Your Brand AI-Visible',
+      headingParts: [
+        {
+          text: 'How We Make Your Brand AI-Visible',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         `We provide end-to-end solutions that cover every aspect of LLM optimization, from technical infrastructure to content strategy, authority building, and ongoing monitoring.`,
         `Here’s how Adaired Digital helps your brand thrive in the age of AI:`,
       ],
       bgGradient: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFF8F0]',
-
       services: [
         {
           icon: ourProcessIcon1,
@@ -17414,7 +17637,13 @@ brand appears in AI summaries and citations.`,
       bgImg: saasSeoBuildLinkBg,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773297265/adaired/services/llm_service/BuildLink_jenexd.png',
       label: 'Let’s Build Your Custom',
-      heading: 'LLM SEO Strategy',
+      headingParts: [
+        {
+          text: 'LLM SEO Strategy',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: ``,
       isBgWhite: true,
       data: [
@@ -17675,7 +17904,13 @@ brand appears in AI summaries and citations.`,
       variant: '01',
       breakIndex: 4,
       bgGradient: '',
-      heading: 'What Makes Adaired Different From Our Competitors?',
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         `At Adaired, we have a clear plan for building your search engine optimization strategy. Starting with understanding your goals clearly to analyzing where you are losing search visibility, we do all the legwork to help your business uncover quick wins.`,
       ],
@@ -17923,9 +18158,9 @@ brand appears in AI summaries and citations.`,
       width: '48%',
       widthLg: '30rem',
       img: ShopifyDevBannerImg,
-      imgWidth:"1075",
-      imgHight:"640",
-      isGap:true,
+      imgWidth: "1075",
+      imgHight: "640",
+      isGap: true,
     },
 
     keyStats: {
@@ -18147,10 +18382,15 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: true,
       subtitle: 'Our Process',
-      title: 'Our Shopify Development Process',
+      headingParts: [
+        {
+          text: 'Our Shopify Development Process',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       breakIndex: 5,
       bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFFFFF]',
-      span: '',
       description: [
         `We follow a structured and strategic approach that ensures every project is delivered with efficiency, precision, and high quality.`,
       ],
@@ -18225,7 +18465,14 @@ brand appears in AI summaries and citations.`,
       cardImgBgColor: '#F3F3F3',
       borderColor2: '#F28F17',
       borderColor: '#051B3C',
-      heading: `Why Choose Our Shopify App Development Company`,
+      heading: ``,
+      headingParts: [
+        {
+          text: 'Why Choose Our Shopify App Development Company',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         'Our team combines technical expertise, creative design capabilities, and strategic thinking to deliver Shopify solutions that help businesses grow and succeed in the competitive online marketplace.',
       ],
@@ -18278,7 +18525,13 @@ brand appears in AI summaries and citations.`,
     industriesWeServe: {
       isVisible: true,
       code: '01',
-      heading: 'Industries We Serve In',
+      headingParts: [
+        {
+          text: 'Industries We Serve In',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         `Our expertise across these industries enables us to design Shopify stores that deliver exceptional user experiences and support long-term business success.`,
       ],
@@ -18328,7 +18581,13 @@ brand appears in AI summaries and citations.`,
       bgImg: bgImgBuildLink,
       img: shopifyDevBuildLinkImg,
       label: 'Take Your eCommerce',
-      heading: 'Business to the Next Level!',
+      headingParts: [
+        {
+          text: 'Business to the Next Level!',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: ``,
       isBgWhite: true,
       data: [
@@ -19277,7 +19536,13 @@ brand appears in AI summaries and citations.`,
       breakIndex: 5,
       isVariant: '02',
       bgGradient: '',
-      heading: `Why Choose Adaired Digital Media for Your e‑Commerce SEO`,
+      headingParts: [
+        {
+          text: 'Why Choose Adaired Digital Media for Your e‑Commerce SEO',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [''],
       list: [
         {
@@ -19405,10 +19670,15 @@ brand appears in AI summaries and citations.`,
       isVisible: false,
       isInCenter: true,
       subtitle: 'Our Process',
-      title: 'Our Shopify Development Process',
+      headingParts: [
+        {
+          text: 'Our Shopify Development Process',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       breakIndex: 5,
       bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFFFFF]',
-      span: '',
       description: [
         `We follow a structured and strategic approach that ensures every project is delivered with efficiency, precision, and high quality.`,
       ],
@@ -19478,7 +19748,13 @@ brand appears in AI summaries and citations.`,
       bgImg: bgImgBuildLink,
       img: shopifyDevBuildLinkImg,
       label: 'Take the First Step',
-      heading: 'Toward More  Sales',
+      headingParts: [
+        {
+          text: 'Toward More  Sales',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: ``,
       isBgWhite: true,
       data: [
@@ -19858,7 +20134,7 @@ brand appears in AI summaries and citations.`,
       isCenter: false,
       isVisible: true,
       isStyleHeading: true,
-      isGap:true,
+      isGap: true,
       headingParts: [
         {
           text: 'Feature-Rich E-Commerce',
@@ -19880,8 +20156,8 @@ brand appears in AI summaries and citations.`,
       button: 'Start Selling Online',
       img:
         'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773310273/adaired/services/eCommerceDevelopment/Banner_sctvn1.png',
-        imgWidth:"1111",
-        imgHight:"740",
+      imgWidth: "1111",
+      imgHight: "740",
     },
     keyStats: {
       isVisible: true,
@@ -20186,12 +20462,17 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       breakIndex: 4,
       isInCenter: true,
-      title: 'Our Process for Creating High-Performing Online Stores',
+      headingParts: [
+        {
+          text: 'Our Process for Creating High-Performing Online Stores',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         `Our eCommerce development process is designed to ensure every online store we build is scalable, secure, and optimized for performance.`,
       ],
       bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFFFFF]',
-
       services: [
         {
           icon: ourProcess_ecomDev1,
@@ -20314,8 +20595,13 @@ brand appears in AI summaries and citations.`,
       cardImgBgColor2: '#FFEDD7',
       borderColor: '#051B3C',
       borderColor2: '#F28F17',
-      heading:
-        'Why Choose Adaired Digital as Your eCommerce Development Company',
+        headingParts: [
+        {
+          text: 'Why Choose Adaired Digital as Your eCommerce Development Company',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         `Choosing the right development partner is essential for building a successful eCommerce platform.`,
         ` Our team focuses on delivering customized solutions that combine technical expertise, strategic thinking, and a deep understanding of digital commerce.`,
@@ -20366,7 +20652,13 @@ brand appears in AI summaries and citations.`,
       bgImg: bgImgBuildLink,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773386797/adaired/services/eCommerceDevelopment/Group_1000007436_r1hvxn.png',
       label: 'Start Your eCommerce',
-      heading: 'Development Project',
+      headingParts: [
+        {
+          text: 'Development Project',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: ``,
       isBgWhite: true,
       data: [
@@ -21199,7 +21491,13 @@ brand appears in AI summaries and citations.`,
     techStackMobile: {
       isVisible: true,
       breakIndex: 4,
-      heading: 'Technologies We Use for Developing Custom Web Solutions',
+      headingParts: [
+        {
+          text: 'Technologies We Use for Developing Custom Web Solutions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description:
         'Our custom web development team works with modern technologies to build reliable and scalable web solutions.',
       ContentDescription:
@@ -21241,7 +21539,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       code: '01',
       bgColor: 'bg-[#FFFBF5]',
-      heading: 'Industries We Serve In',
+      headingParts: [
+        {
+          text: 'Industries We Serve In',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         `Our custom web development services support businesses across a wide range of industries.`,
       ],
@@ -21296,7 +21600,13 @@ brand appears in AI summaries and citations.`,
       cardImgBgColor: '#F3F3F3',
       borderColor2: '#FB9100',
       borderColor: '#000000',
-      heading: `Why Choose Adaired As Your Custom Web Development Company`,
+      headingParts: [
+        {
+          text: 'Why Choose Adaired As Your Custom Web Development Company',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         'Choosing the right development partner is essential for the success of your project. Our team focuses on delivering reliable solutions that support business growth and innovation.',
       ],
@@ -21347,7 +21657,13 @@ brand appears in AI summaries and citations.`,
       bgImg: bgImgBuildLink,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388292/adaired/services/custom_web_development/customWebDevBuildLinkImg_y1mjuu.png',
       label: 'Start Your Custom Web',
-      heading: 'Development Project Today',
+      headingParts: [
+        {
+          text: 'Development Project Today',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: ``,
       isBgWhite: true,
       data: [
