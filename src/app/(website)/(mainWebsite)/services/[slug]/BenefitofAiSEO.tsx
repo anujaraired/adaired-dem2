@@ -17,7 +17,7 @@ const BenefitofAiSEO = ({ benefitofAiSeo }: any) => {
           // className={`flex items-center justify-between flex-col lg:flex-row transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
         >
           <Heading
-            title={benefitofAiSeo?.heading}
+            headingParts={benefitofAiSeo?.headingParts}
             breakIndex={benefitofAiSeo?.breakIndex}
             isDecVarticle={!benefitofAiSeo?.isInCenter}
             isInCenter = {benefitofAiSeo?.isInCenter}

@@ -23,7 +23,7 @@ const WhatMissing = ({ whatMissing }: any) => {
           <div className={``}>
             <Heading
               breakIndex={whatMissing?.breakIndex}
-              title={whatMissing?.heading}
+              headingParts={whatMissing?.headingParts}
               isInCenter={whatMissing?.isInCenter}
               description={whatMissing?.description}
               isDecVarticle={!whatMissing?.isInCenter}
@@ -80,7 +80,7 @@ const WhatMissing = ({ whatMissing }: any) => {
           <div className={``}>
             <Heading
               breakIndex={whatMissing?.breakIndex}
-              title={whatMissing?.heading}
+              headingParts={whatMissing?.headingParts}
               isInCenter={whatMissing?.isInCenter}
               isDecVarticle={!whatMissing?.isInCenter}
               isBgWhite={whatMissing?.bgColor && true}

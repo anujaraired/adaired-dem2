@@ -32,7 +32,9 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
                 <div
                   className={`${aiseoResult?.description?.length > 0 ? 'w-[100%] pr-[10%] lg:w-[42%]' : 'flex w-[100%] items-center justify-center'}`}
                 >
-                  <Heading title={aiseoResult?.heading} />
+                  <Heading 
+                  headingParts={aiseoResult?.headingParts}
+                  />
                 </div>
                 <div
                   className={`${aiseoResult?.description?.length > 0 ? 'w-[100%] lg:w-[55%]' : 'w-[0%]'}`}
@@ -153,7 +155,7 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
               <Heading
                 isInCenter={true}
                 isBgWhite={true}
-                title={aiseoResult?.heading}
+                headingParts={aiseoResult?.headingParts}
                 description={aiseoResult?.description}
               />
             </div>
@@ -275,7 +277,7 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
             >
               <Heading
                 breakIndex={aiseoResult?.breakIndex}
-                title={aiseoResult?.heading}
+                headingParts={aiseoResult?.headingParts}
                 isInCenter={aiseoResult?.isInCenter}
                 description={aiseoResult?.description}
                 isDecVarticle={!aiseoResult?.isInCenter}
@@ -382,7 +384,7 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
                   className={`${aiseoResult?.description?.length > 0 ? 'w-[100%] pr-[10%] lg:w-[42%]' : 'flex w-[100%] items-center justify-center'}`}
                 >
                   <Heading
-                    title={aiseoResult?.heading}
+                    headingParts={aiseoResult?.headingParts}
                     breakIndex={aiseoResult?.breakIndex}
                   />
                 </div>
