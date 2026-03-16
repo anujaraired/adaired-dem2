@@ -1,17 +1,17 @@
 import rocket from '../../../../../../public/assets/icons/rocket.svg';
 import aiseoresult from '../../../../../../public/assets/aiseo/AISEORESULT.png';
-import aiseoresult_2 from '../../../../../../public/assets/680_500.png';
-import aiseoresult_3 from '../../../../../../public/assets/aiseo/AISEORESULT.png';
-import aiseoresult_4 from '../../../../../../public/assets/680_500.png';
-import meke_derefent from '../../../../../../public/assets/aiseo/make_deferent.png';
-import meke_derefent_2 from '../../../../../../public/assets/aiseo/make_deferent_1.png';
-import meke_derefent_3 from '../../../../../../public/assets/aiseo/make_deferent_2.png';
-import meke_derefent_4 from '../../../../../../public/assets/aiseo/make_deferent_3.png';
+// import aiseoresult_2 from '../../../../../../public/assets/680_500.png';
+// import aiseoresult_3 from '../../../../../../public/assets/aiseo/AISEORESULT.png';
+// import aiseoresult_4 from '../../../../../../public/assets/680_500.png';
+// import meke_derefent from '../../../../../../public/assets/aiseo/make_deferent.png';
+// import meke_derefent_2 from '../../../../../../public/assets/aiseo/make_deferent_1.png';
+// import meke_derefent_3 from '../../../../../../public/assets/aiseo/make_deferent_2.png';
+// import meke_derefent_4 from '../../../../../../public/assets/aiseo/make_deferent_3.png';
 import step from '../../../../../../public/assets/aiseo/process/Group 1000005845 (1).svg';
-import step_2 from '../../../../../../public/assets/aiseo/process/Group 1000005846.svg';
-import step_3 from '../../../../../../public/assets/aiseo/process/Group 1000005847.svg';
-import step_4 from '../../../../../../public/assets/aiseo/process/Group 1000005848.svg';
-import step_5 from '../../../../../../public/assets/aiseo/process/Group 1000005849.svg';
+// import step_2 from '../../../../../../public/assets/aiseo/process/Group 1000005846.svg';
+// import step_3 from '../../../../../../public/assets/aiseo/process/Group 1000005847.svg';
+// import step_4 from '../../../../../../public/assets/aiseo/process/Group 1000005848.svg';
+// import step_5 from '../../../../../../public/assets/aiseo/process/Group 1000005849.svg';
 import step1 from '../../../../../../public/assets/seo/process/step1.svg';
 import step2 from '../../../../../../public/assets/seo/process/step2.svg';
 import step3 from '../../../../../../public/assets/seo/process/step3.svg';
@@ -68,7 +68,7 @@ import stepwhitelabelsocialmedia2 from '../../../../../../public/assets/images/s
 import stepwhitelabelsocialmedia3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step3.svg';
 import stepwhitelabelsocialmedia4 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step4.svg';
 import stepwhitelabelsocialmedia5 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step5.svg';
-import stepwhitelabelsocialmedia6 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step6.svg';
+// import stepwhitelabelsocialmedia6 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step6.svg';
 import stepwhitelabelpaidad1 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/step1.svg';
 import stepwhitelabelpaidad2 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/step2.svg';
 import stepwhitelabelpaidad3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/step3.svg';
@@ -83,7 +83,7 @@ import stepwhitelabellinkbuild5 from '../../../../../../public/assets/images/ser
 import stepwhitelabellinkbuild6 from '../../../../../../public/assets/images/service/whitelabel//whiteLabelLinkBuilding/step6.svg';
 
 import NotSeeingResultsBg from '../../../../../../public/assets/NotSeeingResultsBg.png';
-import NotSeeingResultsBg2 from '../../../../../../public/assets/NotSeeingResultsBg2.png';
+// import NotSeeingResultsBg2 from '../../../../../../public/assets/NotSeeingResultsBg2.png';
 import leadingToolsImg from '../../../../../../public/assets/leadingTools.png';
 import what_are_ai_seo from '../../../../../../public/assets/images/what_are_ai_seo.png';
 import what_are_ai_seo2 from '../../../../../../public/assets/what_are_ai_seo2.png';
@@ -113,14 +113,14 @@ import client_3 from '../../../../../../public/assets/LeadingTools/Group 1000005
 import client_4 from '../../../../../../public/assets/LeadingTools/Group 1000005356.png';
 import client_5 from '../../../../../../public/assets/LeadingTools/Group 1000005428.png';
 
-import adairedHelp_4 from '../../../../../../public/assets/images/services/seo/adairedSEO1.png';
-import adairedHelp_7 from '../../../../../../public/assets/images/services/seo/adairedSEO2.png';
-import adairedHelp_8 from '../../../../../../public/assets/images/services/seo/adairedSEO3.png';
-import adairedHelp_15 from '../../../../../../public/assets/images/services/seo/adairedSEO4.png';
-import adairedHelp_13 from '../../../../../../public/assets/images/services/seo/adairedSEO5.png';
-import adairedHelp_12 from '../../../../../../public/assets/images/services/seo/adairedSEO6.png';
-import adairedHelp_14 from '../../../../../../public/assets/images/services/seo/adairedSEO7.png';
-import adairedHelp_16 from '../../../../../../public/assets/images/services/seo/adairedSEO8.png';
+// import adairedHelp_4 from '../../../../../../public/assets/images/services/seo/adairedSEO1.png';
+// import adairedHelp_7 from '../../../../../../public/assets/images/services/seo/adairedSEO2.png';
+// import adairedHelp_8 from '../../../../../../public/assets/images/services/seo/adairedSEO3.png';
+// import adairedHelp_15 from '../../../../../../public/assets/images/services/seo/adairedSEO4.png';
+// import adairedHelp_13 from '../../../../../../public/assets/images/services/seo/adairedSEO5.png';
+// import adairedHelp_12 from '../../../../../../public/assets/images/services/seo/adairedSEO6.png';
+// import adairedHelp_14 from '../../../../../../public/assets/images/services/seo/adairedSEO7.png';
+// import adairedHelp_16 from '../../../../../../public/assets/images/services/seo/adairedSEO8.png';
 // import adairedHelpaiseo1 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO1.png';
 // import adairedHelpaiseo2 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO2.png';
 // import adairedHelpaiseo3 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO3.png';
@@ -160,11 +160,11 @@ import adairedHelp_16 from '../../../../../../public/assets/images/services/seo/
 // import whatMkWhiteSeo_6 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo6.png';
 
 import HowAdairedHelp from '../../../../../../public/assets/WebDevelopment/HowAdairedHelp.png';
-import adairedHelp_1 from '../../../../../../public/assets/adairedHelp/Group 1000006012.png';
-import adairedHelp_2 from '../../../../../../public/assets/adairedHelp/Group 1000006013.png';
-import adairedHelp_3 from '../../../../../../public/assets/adairedHelp/Group 1000006014.png';
-import adairedHelp_5 from '../../../../../../public/assets/adairedHelp/Group 1000006028.png';
-import adairedHelp_6 from '../../../../../../public/assets/adairedHelp/Group 1000006029.png';
+// import adairedHelp_1 from '../../../../../../public/assets/adairedHelp/Group 1000006012.png';
+// import adairedHelp_2 from '../../../../../../public/assets/adairedHelp/Group 1000006013.png';
+// import adairedHelp_3 from '../../../../../../public/assets/adairedHelp/Group 1000006014.png';
+// import adairedHelp_5 from '../../../../../../public/assets/adairedHelp/Group 1000006028.png';
+// import adairedHelp_6 from '../../../../../../public/assets/adairedHelp/Group 1000006029.png';
 
 import seo_resultIcon_1 from '../../../../../../public/assets/seo/seo_resultIcon_1.svg';
 import seo_resultIcon_2 from '../../../../../../public/assets/seo/seo_resultIcon_2.svg';
@@ -270,7 +270,7 @@ import whiteKeyStats from '../../../../../../public/assets/images/services/White
 import whiteWhatIs from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteWhatIs.png';
 import whiteStruggleBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteStruggleBg.png';
 import whiteBannerBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteBannerBg.png';
-import whiteAdairedHelpImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteAdairedHelpImg.png';
+// import whiteAdairedHelpImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteAdairedHelpImg.png';
 import whiteBookConsultationBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteBookConsultationBg.png';
 import whiteBuildLinkImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteBuildLinkImg.png';
 
@@ -1642,7 +1642,13 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '04',
       img: what_are_ai_seo,
-      heading: 'What Are AI SEO Services?',
+      headingParts: [
+        {
+          text: 'What Are AI SEO Services?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       bgColor: '#000000',
       textColor: '#FFFFFF',
       width: '50%',
@@ -1669,7 +1675,13 @@ export const SERVICES_DATA = {
     needofservice: {
       isVisible: true,
       isVariant: '01',
-      heading: 'What is the Need Of AI SEO Services?',
+      headingParts: [
+        {
+          text: 'What is the Need Of AI SEO Services?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       data: [
         {
           desctioption: `The rise of artificial intelligence-powered search tools and large language models has caused the searches to deliver more dynamic, multimodal responses without requiring users click through to websites. This has increased the need for businesses to evolve alongside these LLM and Google AI advancements in order to stay relevant and visible.`,
@@ -1692,7 +1704,13 @@ export const SERVICES_DATA = {
       textColor: '#FB9100',
       textBg: '#FFE6C380',
       borderColor: '#FB910040',
-      heading: 'What are the Benefits of AI SEO Services?',
+      headingParts: [
+        {
+          text: 'What are the Benefits of AI SEO Services?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         `Modern search algorithms are growing exponentially and becoming more complex. Google now uses more than 200 ranking factors and thousands of algorithm adjustments annually. `,
         `Users encounter multimodal result blocks, AI summaries, and conversational interfaces before they can actually reach traditional organic listings in the search engine result pages.  This has increased the need for AI SEO because it blends the strengths of classic SEO with the realities of AI-powered retrieval.`,
@@ -1746,8 +1764,13 @@ export const SERVICES_DATA = {
     serviceResult: {
       isVisible: true,
       isVariant: '01',
-      heading:
-        'Struggling to Rank in AI SEO Results? Here’s What You Need to Know',
+        headingParts: [
+        {
+          text: 'Struggling to Rank in AI SEO Results? Here’s What You Need to Know',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: null,
       isBgColor: false,
       img: StrugglingImgAISEO,
@@ -15455,7 +15478,13 @@ brand appears in AI summaries and citations.`,
       breakIndex: 4,
       bgColor: false,
       isInCenter: true,
-      heading: 'How Google Maps & Local Search Rankings Work',
+      headingParts: [
+        {
+          text: 'How Google Maps & Local Search Rankings Work',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       isVariant: '01',
       description: [
         `Understanding how local search rankings work is essential for any business that wants to improve its online visibility. When customers search for services near them, Google uses several factors to determine which businesses appear in the local results and the Google Maps “Map Pack.”`,
@@ -15812,7 +15841,13 @@ brand appears in AI summaries and citations.`,
       isVariant: '11',
       breakIndex: 5,
       img: gmbWebsiteWhatAreService,
-      heading: 'How Combined GBP + Website Optimization Drives Results',
+      headingParts: [
+        {
+          text: 'How Combined GBP + Website Optimization Drives Results',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       bgColor: '#FFFFFF',
       isBgWhite: false,
       button: '',
@@ -15846,7 +15881,13 @@ brand appears in AI summaries and citations.`,
       isInCenter: false,
       bgColor: 'bg-[#FCFCFC]',
       cardBg: '',
-      heading: `Our Local SEO Strategy for Sustainable Growth`,
+      headingParts: [
+        {
+          text: 'Our Local SEO Strategy for Sustainable Growth',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         `At Adaired Digital, we focus on creating long-term local SEO strategies that deliver consistent results.`,
         `Our approach combines technical optimization, content development, and local authority building to ensure your business maintains strong visibility in local search results.`,
@@ -16463,7 +16504,13 @@ brand appears in AI summaries and citations.`,
       img: WhatAreService1,
       imgWidth: '917px',
       imgHight: '612px',
-      heading: 'Is WordPress Development Right for Your Business?',
+      headingParts: [
+        {
+          text: 'Is WordPress Development Right for Your Business?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       bgColor: '#000000',
       textColor: '#FFFFFF',
       paddingY: '3rem',
@@ -16492,7 +16539,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '11',
       img: WhatAreService2,
-      heading: 'What is WordPress Development',
+      headingParts: [
+        {
+          text: 'What is WordPress Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       bgColor: '#FFFFFF',
       isBgWhite: false,
       button: '',
@@ -16528,7 +16581,13 @@ brand appears in AI summaries and citations.`,
       textColor: '#000000',
       textBg: '#EEEEEE',
       borderColor: '#00000014',
-      heading: 'WordPress Design and Development Services We Offer',
+      headingParts: [
+        {
+          text: 'WordPress Design and Development Services We Offer',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         `As an experienced WordPress development agency, we offer a comprehensive range of WordPress development services designed to help businesses build powerful, scalable, and high-performing websites. `,
         `Whether you are launching a new website, upgrading an existing platform, or adding advanced functionality, our team of skilled developers delivers customized WordPress solutions that align with your business goals.`,
@@ -16698,7 +16757,13 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       bgColor: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFCF8]',
       cardBg: '',
-      heading: `Industries We Serve`,
+      headingParts: [
+        {
+          text: 'Industries We Serve',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         `Our WordPress development services are designed to support businesses across a wide range of industries.`,
       ],
@@ -17383,7 +17448,13 @@ brand appears in AI summaries and citations.`,
       isVariant: '04',
       // breakIndex: 5,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773297265/adaired/services/llm_service/WhatAreService_tlsghh.png',
-      heading: 'What is LLM SEO & Why Does It Matter?',
+      headingParts: [
+        {
+          text: 'What is LLM SEO & Why Does It Matter?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       bgColor: '#000000',
       textColor: '#FFFFFF',
       paddingY: '3rem',
@@ -17422,7 +17493,13 @@ brand appears in AI summaries and citations.`,
       textColor: '#000000',
       textBg: '#EEEEEE',
       borderColor: '#00000014',
-      heading: 'How LLM SEO Positions Your Brand for the Future',
+      headingParts: [
+        {
+          text: 'How LLM SEO Positions Your Brand for the Future',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         `LLM SEO isn’t just an extension of traditional SEO; it’s a visibility strategy built for the AI-driven web. As platforms like ChatGPT, Google Gemini, and Claude reshape how users discover information, brands that optimize for AI gain a measurable competitive advantage.`,
         ` Here are the key benefits of investing in LLM SEO services:`,
@@ -17649,7 +17726,13 @@ brand appears in AI summaries and citations.`,
       isInCenter: false,
       bgColor: 'bg-gradient-to-b from-[#FFFBF5]/60 to-[#FFFBF5]/60',
       cardBg: '',
-      heading: `Why Choose Us as Your LLM Optimization Agency`,
+      headingParts: [
+        {
+          text: 'Why Choose Us as Your LLM Optimization Agency',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         `Adaired Digital, as your dedicated agency specializing in large language model (LLM) optimization, focuses on tailored strategies that enhance the performance, accuracy, and efficiency of your AI applications.`,
         `Here is what sets us apart:`,
@@ -19269,7 +19352,13 @@ brand appears in AI summaries and citations.`,
       bgImg: bgImgBuildLink,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773398380/adaired/services/eCommerce_seo_india/Marketing_team_mbatf2.png',
       label: 'Take the First Step',
-      heading: 'Toward More Sales',
+      headingParts: [
+        {
+          text: 'Toward More Sales',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: ``,
       isBgWhite: true,
       data: [
