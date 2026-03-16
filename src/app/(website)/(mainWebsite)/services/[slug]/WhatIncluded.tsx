@@ -23,7 +23,7 @@ const WhatIncluded = ({ whatIncluded }: any) => {
               <div>
                 <Heading
                   breakIndex={whatIncluded?.breakIndex}
-                  title={whatIncluded?.heading}
+                  headingParts={whatIncluded?.headingParts}
                   description={whatIncluded?.description}
                   isInCenter={true}
                   isBgWhite={true}
@@ -80,7 +80,7 @@ const WhatIncluded = ({ whatIncluded }: any) => {
               <div>
                 <Heading
                   breakIndex={5}
-                  title={whatIncluded?.heading}
+                  headingParts={whatIncluded?.headingParts}
                   description={whatIncluded?.description}
                   isInCenter={true}
                   isBgWhite={true}

@@ -18,7 +18,7 @@ const GetsCredit = ({ getsCredit }: any) => {
                                 isBgWhite={true}
                                 isInCenter={true}
                                 subTitle={''}
-                                title={getsCredit?.heading}
+                                headingParts={getsCredit?.headingParts}
                             />
                         </div>
                         <div

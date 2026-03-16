@@ -23,7 +23,7 @@ const AdairedHelp = ({ adairedHelp }: any) => {
             isInCenter={adairedHelp?.isInCenter}
             isDecVarticle={!adairedHelp?.isInCenter && true}
             isBgWhite={adairedHelp?.isInCenter && true}
-            title={adairedHelp?.heading}
+            headingParts={adairedHelp?.headingParts}
             description={adairedHelp?.description}
             className=""
           />
