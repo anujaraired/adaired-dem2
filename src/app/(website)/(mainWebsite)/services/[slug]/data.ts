@@ -1442,7 +1442,8 @@ export const SERVICES_DATA = {
     seopackages: {
       isVisible: true,
       cardLength: 3,
-      heading: 'SEO Packages',
+      headingParts: [{text:'SEO Packages', weight:700}],
+
       description: '',
       data: [
         {
