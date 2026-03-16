@@ -84,29 +84,57 @@ const Heading = ({
                     <h1
                       className={`capitalize ${isBgWhite ? 'text-[#111111]' : 'text-[#FFFFFF]'} text-center`}
                     >
-                      {breakIndex !== undefined ? (
-                        <>
-                          {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />{' '}
-                          {words.slice(breakIndex).join(' ')}
-                        </>
-                      ) : (
-                        words.join(' ')
-                      )}
+                      {headingParts
+                        ?.flatMap((part: any) =>
+                          part.text.split(' ').map((word: string) => ({
+                            word,
+                            color: part.color,
+                            weight: part.weight,
+                          }))
+                        )
+                        .map((item: any, i: number) => (
+                          <span
+                            key={i}
+                            style={{
+                              color: item.color,
+                              fontWeight: item.weight,
+                            }}
+                            className="text-[clamp(1.8rem,3vw,3.75rem)] leading-[clamp(2.5rem,3.65vw,4.65rem)]"
+                          >
+                            {item.word}{' '}
+                            {breakIndex === i + 1 && (
+                              <br className="hidden md:block" />
+                            )}
+                          </span>
+                        ))}
                     </h1>
                   ) : (
                     <h2
                       className={`capitalize ${isBgWhite ? 'text-[#111111]' : 'text-[#FFFFFF]'} text-center`}
                     >
-                      {breakIndex !== undefined ? (
-                        <>
-                          {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />{' '}
-                          {words.slice(breakIndex).join(' ')}
-                        </>
-                      ) : (
-                        words.join(' ')
-                      )}
+                      {headingParts
+                        ?.flatMap((part: any) =>
+                          part.text.split(' ').map((word: string) => ({
+                            word,
+                            color: part.color,
+                            weight: part.weight,
+                          }))
+                        )
+                        .map((item: any, i: number) => (
+                          <span
+                            key={i}
+                            style={{
+                              color: item.color,
+                              fontWeight: item.weight,
+                            }}
+                            className="text-[clamp(1.6rem,2.188vw,2.188rem)] leading-[clamp(2rem,3.125vw,3.125rem)]"
+                          >
+                            {item.word}{' '}
+                            {breakIndex === i + 1 && (
+                              <br className="hidden md:block" />
+                            )}
+                          </span>
+                        ))}
                     </h2>
                   )}
                 </div>
@@ -140,29 +168,57 @@ const Heading = ({
                 <div className={`mt-[-1rem] ${headingWidth}`}>
                   {isH1 ? (
                     <h1 className={`capitalize`}>
-                      {breakIndex !== undefined ? (
-                        <>
-                          {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />{' '}
-                          {words.slice(breakIndex).join(' ')}
-                        </>
-                      ) : (
-                        words.join(' ')
-                      )}
+                      {headingParts
+                        ?.flatMap((part: any) =>
+                          part.text.split(' ').map((word: string) => ({
+                            word,
+                            color: part.color,
+                            weight: part.weight,
+                          }))
+                        )
+                        .map((item: any, i: number) => (
+                          <span
+                            key={i}
+                            style={{
+                              color: item.color,
+                              fontWeight: item.weight,
+                            }}
+                            className="text-[clamp(1.8rem,3vw,3.75rem)] leading-[clamp(2.5rem,3.65vw,4.65rem)]"
+                          >
+                            {item.word}{' '}
+                            {breakIndex === i + 1 && (
+                              <br className="hidden md:block" />
+                            )}
+                          </span>
+                        ))}
                     </h1>
                   ) : (
                     <h2
                       className={`capitalize ${isBgWhite ? 'text-[#111111]' : 'text-white'}`}
                     >
-                      {breakIndex !== undefined ? (
-                        <>
-                          {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />{' '}
-                          {words.slice(breakIndex).join(' ')}
-                        </>
-                      ) : (
-                        words.join(' ')
-                      )}
+                      {headingParts
+                        ?.flatMap((part: any) =>
+                          part.text.split(' ').map((word: string) => ({
+                            word,
+                            color: part.color,
+                            weight: part.weight,
+                          }))
+                        )
+                        .map((item: any, i: number) => (
+                          <span
+                            key={i}
+                            style={{
+                              color: item.color,
+                              fontWeight: item.weight,
+                            }}
+                            className="text-[clamp(1.6rem,2.188vw,2.188rem)] leading-[clamp(2rem,3.125vw,3.125rem)]"
+                          >
+                            {item.word}{' '}
+                            {breakIndex === i + 1 && (
+                              <br className="hidden md:block" />
+                            )}
+                          </span>
+                        ))}
                     </h2>
                   )}
                 </div>
@@ -205,29 +261,57 @@ const Heading = ({
                     <h1
                       className={`capitalize ${isBgWhite ? 'text-[#111111]' : 'text-[#FFFFFF]'} text-center`}
                     >
-                      {breakIndex !== undefined ? (
-                        <>
-                          {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />{' '}
-                          {words.slice(breakIndex).join(' ')}
-                        </>
-                      ) : (
-                        words.join(' ')
-                      )}
+                      {headingParts
+                        ?.flatMap((part: any) =>
+                          part.text.split(' ').map((word: string) => ({
+                            word,
+                            color: part.color,
+                            weight: part.weight,
+                          }))
+                        )
+                        .map((item: any, i: number) => (
+                          <span
+                            key={i}
+                            style={{
+                              color: item.color,
+                              fontWeight: item.weight,
+                            }}
+                            className="text-[clamp(1.8rem,3vw,3.75rem)] leading-[clamp(2.5rem,3.65vw,4.65rem)]"
+                          >
+                            {item.word}{' '}
+                            {breakIndex === i + 1 && (
+                              <br className="hidden md:block" />
+                            )}
+                          </span>
+                        ))}
                     </h1>
                   ) : (
                     <h2
                       className={`capitalize ${isBgWhite ? 'text-[#111111]' : 'text-[#FFFFFF]'} text-center`}
                     >
-                      {breakIndex !== undefined ? (
-                        <>
-                          {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />{' '}
-                          {words.slice(breakIndex).join(' ')}
-                        </>
-                      ) : (
-                        words.join(' ')
-                      )}
+                      {headingParts
+                        ?.flatMap((part: any) =>
+                          part.text.split(' ').map((word: string) => ({
+                            word,
+                            color: part.color,
+                            weight: part.weight,
+                          }))
+                        )
+                        .map((item: any, i: number) => (
+                          <span
+                            key={i}
+                            style={{
+                              color: item.color,
+                              fontWeight: item.weight,
+                            }}
+                            className="text-[clamp(1.6rem,2.188vw,2.188rem)] leading-[clamp(2rem,3.125vw,3.125rem)]"
+                          >
+                            {item.word}{' '}
+                            {breakIndex === i + 1 && (
+                              <br className="hidden md:block" />
+                            )}
+                          </span>
+                        ))}
                     </h2>
                   )}
                 </div>
