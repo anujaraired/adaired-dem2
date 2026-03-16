@@ -267,7 +267,7 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
       )}
       {aiseoResult?.isVariant === '03' && (
         <div
-          className={`py-[3rem] lg:py-[4rem] ${aiseoResult?.bgColor}`}
+          className={`py-[3rem] lg:py-[4rem] ${aiseoResult?.bgcolor}`}
         >
           <MaxWidthWrapper>
             <div
