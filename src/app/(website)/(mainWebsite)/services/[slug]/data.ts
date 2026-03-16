@@ -1069,7 +1069,13 @@ export const SERVICES_DATA = {
 
     notSeeingResult: {
       isVisible: true,
-      heading: 'Every day you wait is a lost lead.',
+      headingParts: [
+        {
+          text: 'Every day you wait is a lost lead.',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: 'Start SEO that converts now.',
       buttonName: 'Book a Free Consultation',
       img: Everydayyouwait,
@@ -1441,7 +1447,13 @@ export const SERVICES_DATA = {
     seopackages: {
       isVisible: true,
       cardLength: 3,
-      heading: 'SEO Packages',
+      headingParts: [
+        {
+          text: 'SEO Packages',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: '',
       data: [
         {
@@ -1738,7 +1750,7 @@ export const SERVICES_DATA = {
     serviceResult: {
       isVisible: true,
       isVariant: '01',
-        headingParts: [
+      headingParts: [
         {
           text: 'Struggling to Rank in AI SEO Results? Here’s What You Need to Know',
           color: '#000000',
@@ -1782,7 +1794,13 @@ export const SERVICES_DATA = {
     notSeeingResult: {
       isVisible: true,
       isBgOrange: true,
-      heading: 'Not Seeing Results? ',
+      headingParts: [
+        {
+          text: 'Not Seeing Results?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: 'Let AI Reveal What’s Holding You Back.',
       buttonName: 'Get Your Free AI SEO Audit',
       img: NotSeeingResult,
@@ -1790,15 +1808,26 @@ export const SERVICES_DATA = {
     },
     industryLeaders: {
       isVisible: true,
-      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      headingParts: [
+        {
+          text: 'Industry Leaders That Rely On Us To Achieve AI Success',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description:
         'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
       bgImage: leadingToolsImg,
     },
     leadingToolsForPerformence: {
       isVisible: false,
-      heading:
-        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+      headingParts: [
+        {
+          text: 'Powered By Leading Tools For Maximum Performance and Efficiency',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
@@ -1806,8 +1835,13 @@ export const SERVICES_DATA = {
     leadingTools: {
       isVisible: true,
       isVariant: '01',
-      heading:
-        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+        headingParts: [
+        {
+          text: 'Powered By Leading Tools For Maximum Performance and Efficiency',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
@@ -1840,7 +1874,13 @@ export const SERVICES_DATA = {
       img: adairedHelpAISEO,
       isInCenter: true,
       cardBg: '#FFF8F0',
-      heading: 'How Can Adaired Help You With AI SEO Services?',
+      headingParts: [
+        {
+          text: 'How Can Adaired Help You With AI SEO Services?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       mainImage: adairedHelpImg,
       list: [
         {
@@ -1969,8 +2009,13 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '01',
       breakIndex: 7,
-      heading:
-        'AI SEO Solutions That Make Your Website Trusted by AI and Humans',
+        headingParts: [
+        {
+          text: 'AI SEO Solutions That Make Your Website Trusted by AI and Humans',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description:
         'At Adaired, we use AI SEO services to enhance search results, increase organic traffic, and generate high-intent traffic through data-driven optimization. ',
       list: [
@@ -2312,7 +2357,13 @@ brand appears in AI summaries and citations.`,
     areYouTired: {
       isVisible: true,
       isVariant: '01',
-      heading: 'Are you tired of link building that hurts more than it helps?',
+      headingParts: [
+        {
+          text: 'Are you tired of link building that hurts more than it helps?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       data: [
         {
           desctioption: `If you have experienced:-`,
@@ -2355,7 +2406,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '03',
       img: WhatIsAuthorityLinkBuilding,
-      heading: 'What Is Authority',
+      headingParts: [
+        {
+          text: 'What Is Authority',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       span: 'Link Building?',
       bgColor: '#FFFCF8',
       isBgWhite: true,
@@ -2378,7 +2435,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isBgCornerImg: true,
       isVariant: '01',
-      heading: 'Why Authority Link Building Matters For Your Business?',
+      headingParts: [
+        {
+          text: 'Why Authority Link Building Matters For Your Business?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       data: [
         {
           desctioption: `For businesses aiming to grow sustainably online, authority link building is essential. Search engines prioritize websites that demonstrate trust and expertise, and authoritative backlinks play a critical role in this evaluation. `,
@@ -2403,7 +2466,13 @@ brand appears in AI summaries and citations.`,
       textBg: '#FFE6C380',
       borderColor: '#FB910040',
       isInCenter: true,
-      heading: 'How Adaired Helps You With Authority Link Building Services',
+      headingParts: [
+        {
+          text: 'How Adaired Helps You With Authority Link Building Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [``],
       list: [
         {
@@ -2456,7 +2525,13 @@ brand appears in AI summaries and citations.`,
     whatIncluded: {
       isVisible: true,
       isVariant: '01',
-      heading: 'Link Building Services That We Offer At Adaired',
+      headingParts: [
+        {
+          text: 'Link Building Services That We Offer At Adaired',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       isFetureProofVisible: true,
       description: ``,
       list: [
@@ -2523,22 +2598,39 @@ brand appears in AI summaries and citations.`,
 
     notSeeingResult: {
       isVisible: true,
-      heading: 'Not Seeing Results? ',
+      headingParts: [
+        {
+          text: 'Not Seeing Results?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: 'Let AI Reveal What’s Holding You Back.',
       buttonName: 'Get Your Free AI SEO Audit',
       bgImage: NotSeeingResultsBg,
     },
     industryLeaders: {
       isVisible: true,
-      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      headingParts: [
+        {
+          text: 'Industry Leaders That Rely On Us To Achieve AI Success',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description:
         'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
       bgImage: leadingToolsImg,
     },
     leadingToolsForPerformence: {
       isVisible: true,
-      heading:
-        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+        headingParts: [
+        {
+          text: 'Powered By Leading Tools For Maximum Performance and Efficiency',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
@@ -2546,8 +2638,13 @@ brand appears in AI summaries and citations.`,
     leadingTools: {
       isVisible: true,
       isVariant: '01',
-      heading:
-        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+        headingParts: [
+        {
+          text: 'Powered By Leading Tools For Maximum Performance and Efficiency',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
@@ -2581,7 +2678,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: true,
       cardBg: '#FFF8F0',
-      heading: 'Benefits of Authority Link Building Services',
+      headingParts: [
+        {
+          text: 'Benefits of Authority Link Building Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       img: adairedHelpImgLink,
       list: [
         {
@@ -2805,8 +2908,13 @@ brand appears in AI summaries and citations.`,
       bgColor: '#FAFAFA',
       isInCenter: true,
       isVariant: '01',
-      heading:
-        'What Your Business Could Be Missing And How Link Building Can Help?',
+        headingParts: [
+        {
+          text: 'What Your Business Could Be Missing And How Link Building Can Help?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       list: [
         {
           icon: missing_1,
@@ -2995,7 +3103,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '04',
       img: WhatAreService,
-      heading: 'What Are Website Design and Development Services?',
+      headingParts: [
+        {
+          text: 'What Are Website Design and Development Services?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       bgColor: '#000000',
       textColor: '#FFFFFF',
       paddingY: '3rem',
@@ -3022,7 +3136,13 @@ brand appears in AI summaries and citations.`,
     needofservice: {
       isVisible: true,
       isBgCornerImg: true,
-      heading: 'Why Authority Link Building Matters For Your Business?',
+      headingParts: [
+        {
+          text: 'Why Authority Link Building Matters For Your Business?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       data: [
         {
           desctioption: `For businesses aiming to grow sustainably online, authority link building is essential. Search engines prioritize websites that demonstrate trust and expertise, and authoritative backlinks play a critical role in this evaluation. `,
@@ -3046,7 +3166,13 @@ brand appears in AI summaries and citations.`,
       textColor: '#000000',
       textBg: '#EEEEEE',
       borderColor: '#00000014',
-      heading: 'Benefits of Website Design and Development Services',
+      headingParts: [
+        {
+          text: 'Benefits of Website Design and Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         `A business’s success is closely tied to the quality of its website. A professional web site can determine whether a visitor becomes a loyal customer or leaves for a competitor. Here are the key benefits:`,
       ],
@@ -3092,7 +3218,13 @@ brand appears in AI summaries and citations.`,
     whatIncluded: {
       isVisible: true,
       isVariant: '02',
-      heading: 'List Of Website Design and Development Services We Offer',
+      headingParts: [
+        {
+          text: 'List Of Website Design and Development Services We Offer',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: ``,
       list: [
         {
@@ -3147,22 +3279,39 @@ brand appears in AI summaries and citations.`,
 
     notSeeingResult: {
       isVisible: true,
-      heading: 'Not Seeing Results? ',
+      headingParts: [
+        {
+          text: 'Not Seeing Results?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: 'Let AI Reveal What’s Holding You Back.',
       buttonName: 'Get Your Free AI SEO Audit',
       bgImage: NotSeeingResultsBg,
     },
     industryLeaders: {
       isVisible: true,
-      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      headingParts: [
+        {
+          text: 'Industry Leaders That Rely On Us To Achieve AI Success',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description:
         'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
       bgImage: leadingToolsImg,
     },
     leadingToolsForPerformence: {
       isVisible: true,
-      heading:
-        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+        headingParts: [
+        {
+          text: 'Powered By Leading Tools For Maximum Performance and Efficiency',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
@@ -3170,8 +3319,13 @@ brand appears in AI summaries and citations.`,
     leadingTools: {
       isVisible: true,
       isVariant: '01',
-      heading:
-        'Powered By Leading Tools For Maximum Performance and Efficiency ',
+        headingParts: [
+        {
+          text: 'Powered By Leading Tools For Maximum Performance and Efficiency',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
@@ -3206,8 +3360,13 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       cardBg: '#FFF8F0',
       breakIndex: 6,
-      heading:
-        'How Adaired Can Help You With Professional Website Design and Development Services?',
+        headingParts: [
+        {
+          text: 'How Adaired Can Help You With Professional Website Design and Development Services?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       img: HowAdairedHelp,
       list: [
         {
@@ -3558,7 +3717,13 @@ brand appears in AI summaries and citations.`,
       code: '02',
       isCenter: false,
       isVisible: true,
-      heading: 'Helping You Rank #1 In Your Area',
+      headingParts: [
+        {
+          text: 'Helping You Rank #1 In Your Area',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       span: 'Get discovered by the customers who are searching for your business right now',
       button: 'Book a Strategy Call',
       subheading: '',
@@ -3623,7 +3788,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '04',
       img: LocalWhatService,
-      heading: 'What Is Local SEO?',
+      headingParts: [
+        {
+          text: 'What Is Local SEO?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       width: '55%',
       bgColor: '#000000',
       textColor: '#FFFFFF',
@@ -3654,7 +3825,13 @@ brand appears in AI summaries and citations.`,
     serviceResult: {
       isVisible: true,
       isVariant: '02',
-      heading: 'Why Is Local SEO Important for Your Business?',
+      headingParts: [
+        {
+          text: 'Why Is Local SEO Important for Your Business?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         `Local search optimization is necessary when the company is aimed at local consumers. It assists you attract ready-to-convert traffic, gain local visibility and stay ahead of competitors.`,
       ],
@@ -3714,7 +3891,13 @@ brand appears in AI summaries and citations.`,
       isVariant: '02',
       isBgCornerImg: true,
       img: needServiceImg,
-      heading: 'Why “Near Me” Searches Are More Important Than Ever',
+      headingParts: [
+        {
+          text: 'Why “Near Me” Searches Are More Important Than Ever',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       data: [
         {
           desctioption: `“Near me” searches are no longer based on distance alone.  Although proximity remains key, Google has introduced the use of several signals before local results can be shown.`,
@@ -3730,7 +3913,13 @@ brand appears in AI summaries and citations.`,
       isVariant: '03',
       isBgCornerImg: true,
       img: needServiceFactorsImg,
-      heading: 'Why These Factors Matter',
+      headingParts: [
+        {
+          text: 'Why These Factors Matter',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       data: [
         {
           desctioption: `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
@@ -3747,7 +3936,13 @@ brand appears in AI summaries and citations.`,
       breakIndex: 5,
       bgColor: '#FAFAFA',
       isVariant: '01',
-      heading: 'What Are Local SEO Ranking Factors?',
+      headingParts: [
+        {
+          text: 'What Are Local SEO Ranking Factors?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         `Local SEO is built around how Google decides which businesses appear in local search results and map listings. 
         Google now relies on three primary ranking factors to determine local visibility: Relevance, Distance, and Prominence.`,
@@ -3786,7 +3981,13 @@ brand appears in AI summaries and citations.`,
 
     notSeeingResult: {
       isVisible: true,
-      heading: `Still unsure about investing in local SEO?`,
+      headingParts: [
+        {
+          text: 'Still unsure about investing in local SEO?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: 'You shouldn’t be.',
       buttonName: 'Book a call with a local SEO expert!',
       img: LocalNotSee,
@@ -4118,7 +4319,13 @@ brand appears in AI summaries and citations.`,
 
     industryLeaders: {
       isVisible: true,
-      heading: 'Industry Leaders That Rely On Us To Achieve AI Success',
+      headingParts: [
+        {
+          text: 'Industry Leaders That Rely On Us To Achieve AI Success',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description:
         'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
       bgImage: leadingToolsImg,
@@ -4131,7 +4338,13 @@ brand appears in AI summaries and citations.`,
     leadingTools: {
       isVisible: true,
       isVariant: '02',
-      heading: 'Local Businesses That Choose Us',
+      headingParts: [
+        {
+          text: 'Local Businesses That Choose Us',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description:
         'From small businesses to multi-location brands, clients trust usto boost local rankings, manage online reputation, and drive consistent local leads that fuel long-term growth ',
       bgImage: leadingToolsImg,
@@ -4229,15 +4442,6 @@ brand appears in AI summaries and citations.`,
       ],
     },
 
-    // leadingTools: {
-    //   isVisible: true,
-    //   heading:
-    //     'Powered By Leading Tools For Maximum Performance and Efficiency ',
-    //   description:
-    //     'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
-    //   bgImage: '',
-    // },
-
     adairedHelp: {
       isVisible: false,
     },
@@ -4253,7 +4457,13 @@ brand appears in AI summaries and citations.`,
     seopackages: {
       isVisible: true,
       cardLength: 2,
-      heading: 'Local SEO Packages',
+      headingParts: [
+        {
+          text: 'Local SEO Packages',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: '',
       data: [
         {
@@ -4432,7 +4642,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '05',
       img: whiteWhatIs,
-      heading: 'What is White Label',
+      headingParts: [
+        {
+          text: 'What is White Label',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       span: 'Social Media Management?',
       bgColor: '#FFFCF8',
       isBgWhite: true,
@@ -4551,7 +4767,13 @@ brand appears in AI summaries and citations.`,
     areYouTired: {
       isVisible: true,
       isVariant: '02',
-      heading: 'Who Our White Label Social Media Solutions Are For',
+      headingParts: [
+        {
+          text: 'Who Our White Label Social Media Solutions Are For',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description:
         'Our white label social media marketing solutions are built specifically for\n  agencies and consultants looking to scale.',
       data: [
@@ -4669,7 +4891,13 @@ brand appears in AI summaries and citations.`,
       cardBg: '#FFF8F0',
       img: AdairedHelpSocial,
       breakIndex: 7,
-      heading: 'Benefits of Partnering With a White Label Social Media Agency',
+      headingParts: [
+        {
+          text: 'Benefits of Partnering With a White Label Social Media Agency',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: `Here’s how a structured white label social media partnership with Adaired supports long-term agency growth:`,
       mainImage: adairedHelpImg,
       list: [
@@ -4993,7 +5221,13 @@ brand appears in AI summaries and citations.`,
     getsCredit: {
       isVisible: true,
       code: '01',
-      heading: 'You Sell. We Execute. Your Brand Gets the Credit.',
+      headingParts: [
+        {
+          text: 'You Sell. We Execute. Your Brand Gets the Credit.',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       isCard: false,
       list: [
         {
