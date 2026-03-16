@@ -791,7 +791,7 @@ export const SERVICES_DATA = {
       headingParts: [
         {
           text: 'What Are SEO Services?',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -1637,7 +1637,7 @@ export const SERVICES_DATA = {
       headingParts: [
         {
           text: 'What Are AI SEO Services?',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -1836,7 +1836,7 @@ export const SERVICES_DATA = {
     leadingTools: {
       isVisible: true,
       isVariant: '01',
-        headingParts: [
+      headingParts: [
         {
           text: 'Powered By Leading Tools For Maximum Performance and Efficiency',
           color: '#000000',
@@ -2010,7 +2010,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '01',
       breakIndex: 7,
-        headingParts: [
+      headingParts: [
         {
           text: 'AI SEO Solutions That Make Your Website Trusted by AI and Humans',
           color: '#000000',
@@ -2410,7 +2410,7 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'What Is Authority',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -2625,7 +2625,7 @@ brand appears in AI summaries and citations.`,
     },
     leadingToolsForPerformence: {
       isVisible: true,
-        headingParts: [
+      headingParts: [
         {
           text: 'Powered By Leading Tools For Maximum Performance and Efficiency',
           color: '#000000',
@@ -2639,7 +2639,7 @@ brand appears in AI summaries and citations.`,
     leadingTools: {
       isVisible: true,
       isVariant: '01',
-        headingParts: [
+      headingParts: [
         {
           text: 'Powered By Leading Tools For Maximum Performance and Efficiency',
           color: '#000000',
@@ -2745,7 +2745,7 @@ brand appears in AI summaries and citations.`,
       isCode01: false,
       isVariant: '03',
       breakIndex: 5,
-      bgImg: bgImg_BuildLink, 
+      bgImg: bgImg_BuildLink,
       img: LinkBuilding,
       imgWidth: "479",
       imgHight: "400",
@@ -2763,7 +2763,7 @@ brand appears in AI summaries and citations.`,
       ],
       isBgWhite: true,
       width: '50%',
-      paddingY : '3rem',
+      paddingY: '3rem',
       data: [],
       button: 'Get a Free Audit ',
     },
@@ -2917,7 +2917,7 @@ brand appears in AI summaries and citations.`,
       bgColor: '#FAFAFA',
       isInCenter: true,
       isVariant: '01',
-        headingParts: [
+      headingParts: [
         {
           text: 'What Your Business Could Be Missing And How Link Building Can Help?',
           color: '#000000',
@@ -3115,7 +3115,7 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'What Are Website Design and Development Services?',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -3314,7 +3314,7 @@ brand appears in AI summaries and citations.`,
     },
     leadingToolsForPerformence: {
       isVisible: true,
-        headingParts: [
+      headingParts: [
         {
           text: 'Powered By Leading Tools For Maximum Performance and Efficiency',
           color: '#000000',
@@ -3328,7 +3328,7 @@ brand appears in AI summaries and citations.`,
     leadingTools: {
       isVisible: true,
       isVariant: '01',
-        headingParts: [
+      headingParts: [
         {
           text: 'Powered By Leading Tools For Maximum Performance and Efficiency',
           color: '#000000',
@@ -3369,7 +3369,7 @@ brand appears in AI summaries and citations.`,
       isInCenter: true,
       cardBg: '#FFF8F0',
       breakIndex: 6,
-        headingParts: [
+      headingParts: [
         {
           text: 'How Adaired Can Help You With Professional Website Design and Development Services?',
           color: '#000000',
@@ -3802,7 +3802,7 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'What Is Local SEO?',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -4656,7 +4656,7 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'What is White Label',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -5311,7 +5311,7 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'What Is White',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -6032,7 +6032,7 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'Know More About',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -6805,7 +6805,7 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'What is Pay Per',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -7605,7 +7605,7 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'What Is White',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -8505,7 +8505,7 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'What is White',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -9115,7 +9115,7 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'Adaired Digital: A Dedicated B2B SaaS SEO Agency',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -9885,7 +9885,7 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'What is GEO?',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -10316,7 +10316,7 @@ brand appears in AI summaries and citations.`,
       description: ``,
       isBgWhite: true,
       textColor: 'white',
-      width : '50%',
+      width: '50%',
       paddingY: '4rem',
       data: [
         {
@@ -10653,10 +10653,10 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '07',
       img: WhatAreServiceAeoServiceImg,
-headingParts: [
+      headingParts: [
         {
           text: 'What is AEO?',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -11336,7 +11336,7 @@ headingParts: [
       headingParts: [
         {
           text: 'What is Mobile App Development?',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -12416,7 +12416,7 @@ headingParts: [
       headingParts: [
         {
           text: 'What is Google Business Profile Optimization?',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -13560,7 +13560,7 @@ headingParts: [
       headingParts: [
         {
           text: 'How Combined GBP + Website Optimization Drives Results',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -14007,7 +14007,7 @@ headingParts: [
       headingParts: [
         {
           text: 'Is WordPress Development Right for Your Business?',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -14660,7 +14660,7 @@ headingParts: [
       headingParts: [
         {
           text: 'What is LLM SEO & Why Does It Matter?',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -15278,7 +15278,7 @@ headingParts: [
       headingParts: [
         {
           text: 'What is Shopify Development',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -15923,7 +15923,7 @@ headingParts: [
       headingParts: [
         {
           text: 'What is E-Commerce SEO?',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -16698,7 +16698,7 @@ headingParts: [
       headingParts: [
         {
           text: 'What is eCommerce Development?',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -18106,7 +18106,7 @@ headingParts: [
       description: ``,
       isBgWhite: true,
       textColor: 'white',
-      width : '60%',
+      width: '60%',
       paddingY: '2rem',
       data: [
         {
