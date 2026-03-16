@@ -2974,7 +2974,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       desc: 'With billions of websites competing for attention, your brand has seconds to stand out. At Adaired Digital Media, we design and develop visually compelling websites that build trust, capture attention, and drive results.',
       button: 'Book a consultation today',
-      width: '50%',
+      width: '60%',
       breakIndex: 3,
       heading: 'Design That Builds Trust.',
       heading2: 'Design That Builds Trust.',
@@ -2987,7 +2987,9 @@ brand appears in AI summaries and citations.`,
           weight: '700',
         },
       ],
-      bgImg: webDevelopmentBannerBg,
+      img: webDevelopmentBannerBg,
+      imgWidth:"829",
+      imgHight:"530",
     },
 
     keyStats: {
@@ -6393,7 +6395,8 @@ brand appears in AI summaries and citations.`,
       ],
       button: 'Start a Conversation!',
       width: '60%',
-      bgImg: whiteServicesBannerBg,
+      img: whiteServicesBannerBg,
+      
     },
 
     keyStats: {
@@ -16585,9 +16588,11 @@ brand appears in AI summaries and citations.`,
       ],
       subheading: 'Don’t wait to grow your business; let us assist you!',
       button: 'Create a Website for My Business',
-      width: '45%',
+      width: '60%',
       isGap: true,
-      bgImg: Banner,
+      img: Banner,
+      imgWidth:"937",
+      imgHight:"813",
     },
 
     keyStats: {
@@ -18576,7 +18581,10 @@ brand appears in AI summaries and citations.`,
       button: 'Launch My Shopify Store',
       width: '48%',
       widthLg: '30rem',
-      bgImg: ShopifyDevBannerImg,
+      img: ShopifyDevBannerImg,
+      imgWidth:"1075",
+      imgHight:"640",
+      isGap:true,
     },
 
     keyStats: {
@@ -20553,6 +20561,7 @@ brand appears in AI summaries and citations.`,
       isCenter: false,
       isVisible: true,
       isStyleHeading: true,
+      isGap:true,
       headingParts: [
         {
           text: 'Feature-Rich eCommerce',
@@ -20565,15 +20574,17 @@ brand appears in AI summaries and citations.`,
           weight: '800',
         },
       ],
-      width: '50%',
+      width: '60%',
       heading2: 'White Label PPC Services',
       desc: [
         `Empower your online business with a feature-packed eCommerce website designed for speed, usability, and scalability.`,
         `From concept to launch, we design and develop powerful eCommerce platforms as a leading eCommerce web development company that helps businesses sell smarter and grow faster online.`,
       ],
       button: 'Start Selling Online',
-      bgImg:
+      img:
         'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773310273/adaired/services/eCommerceDevelopment/Banner_sctvn1.png',
+        imgWidth:"1111",
+        imgHight:"740",
     },
     keyStats: {
       isVisible: true,
@@ -21485,6 +21496,7 @@ brand appears in AI summaries and citations.`,
           weight: '700',
         },
       ],
+      isGap: true,
       breakIndex: 8,
       desc: [
         `Get powerful web solutions crafted to solve real business challenges and support long-term growth.`,
@@ -21494,8 +21506,9 @@ brand appears in AI summaries and citations.`,
       button: 'Create Your Custom Platform',
       width: '48%',
       widthLg: '30rem',
-      bgImg:
-        'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388293/adaired/services/custom_web_development/customWebDevBannerImg_jruqxc.png',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388293/adaired/services/custom_web_development/customWebDevBannerImg_jruqxc.png',
+      imgWidth: '1062',
+      imgHight: '602',
     },
 
     keyStats: {
@@ -21922,18 +21935,16 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       breakIndex: 4,
       heading: 'Technologies We Use for Developing Custom Web Solutions',
-      description: 'Our custom web development team works with modern technologies to build reliable and scalable web solutions.',
-      ContentDescription: 'These technologies allow us to build secure and high-performance applications tailored to your business requirements...',
+      description:
+        'Our custom web development team works with modern technologies to build reliable and scalable web solutions.',
+      ContentDescription:
+        'These technologies allow us to build secure and high-performance applications tailored to your business requirements...',
       navItems: [
         'Frontend Technologies',
         'Backend Technologies',
         'Database Systems',
       ],
-      mobileNavItems: [
-        'Frontend',
-        'Backend',
-        'Database',
-      ],
+      mobileNavItems: ['Frontend', 'Backend', 'Database'],
       list: [
         [
           { image: customWebDevTechStackImg_1, desc: 'HTML, CSS' },
