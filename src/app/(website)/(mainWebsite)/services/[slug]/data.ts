@@ -2988,8 +2988,8 @@ brand appears in AI summaries and citations.`,
         },
       ],
       img: webDevelopmentBannerBg,
-      imgWidth:"829",
-      imgHight:"530",
+      imgWidth: "829",
+      imgHight: "530",
     },
 
     keyStats: {
@@ -3640,7 +3640,10 @@ brand appears in AI summaries and citations.`,
       button: 'Book a Strategy Call',
       subheading: '',
       width: '50%',
-      bgImg: localBannerBg,
+      img: localBannerBg,
+      imgWidth: "727",
+      imgHight: "598",
+
     },
 
     keyStats: {
@@ -4619,7 +4622,10 @@ brand appears in AI summaries and citations.`,
           From content creation to campaign management, our team drives measurable growth for your clients, all under your brand.`,
       button: 'Request a Consultation',
       subheading: 'We work behind the scenes. Your brand gets the credit.',
-      bgImg: whiteBannerBg,
+      img: whiteBannerBg,
+      imgWidth: "605",
+      imgHight: "597",
+
     },
 
     keyStats: {
@@ -5429,7 +5435,10 @@ brand appears in AI summaries and citations.`,
       button: 'Talk to Us!',
       span: 'All set to deliver real SEO results to your clients without building an in-house team?',
       width: '50%',
-      bgImg: whiteSeoBannerBg,
+      img: whiteSeoBannerBg,
+      imgWidth: "679",
+      imgHight: "558",
+
     },
 
     getsCredit: {
@@ -6396,7 +6405,10 @@ brand appears in AI summaries and citations.`,
       button: 'Start a Conversation!',
       width: '60%',
       img: whiteServicesBannerBg,
-      
+      imgWidth: "734",
+      imgHight: "512",
+
+
     },
 
     keyStats: {
@@ -7431,7 +7443,10 @@ brand appears in AI summaries and citations.`,
       ],
       button: 'Request a Campaign Audit',
       width: '55%',
-      bgImg: PPC_Banner,
+      img: PPC_Banner,
+      imgWidth: "750",
+      imgHight: "593",
+
     },
 
     keyStats: {
@@ -8443,7 +8458,10 @@ brand appears in AI summaries and citations.`,
         `At Adaired Digital Media, we deliver high-performing Google Ads and paid media campaigns under your brand, so you can focus on sales and client relationships and grow faster.`,
       ],
       button: 'Become a White Label Reseller',
-      bgImg: whitePaidAdsBannerBg,
+      img: whitePaidAdsBannerBg,
+      imgWidth: "751",
+      imgHight: "580",
+
     },
 
     whatareservice: {
@@ -9471,7 +9489,10 @@ brand appears in AI summaries and citations.`,
         and drive measurable organic growth, all under your brand name.`,
       ],
       button: 'Boost My SEO Rankings',
-      bgImg: whiteLinkBuildingBannerBg,
+      img: whiteLinkBuildingBannerBg,
+      imgWidth: "686",
+      imgHight: "558",
+
     },
 
     keyStats: {
@@ -10410,7 +10431,10 @@ brand appears in AI summaries and citations.`,
       ],
       button: 'Book a 30-Minute Strategy Call',
       width: '65%',
-      bgImg: saasSeoBannerBg,
+      img: saasSeoBannerBg,
+      imgWidth: "737",
+      imgHight: "558",
+
     },
 
     whatareservice: {
@@ -11353,7 +11377,10 @@ brand appears in AI summaries and citations.`,
       button: 'Optimize My Website for AI',
       width: '60%',
       widthLg: '30rem',
-      bgImg: geoAiSeoBannerBg,
+      img: geoAiSeoBannerBg,
+      imgWidth: "674",
+      imgHight: "498",
+
     },
 
     whatareservice: {
@@ -12304,7 +12331,10 @@ brand appears in AI summaries and citations.`,
       ],
       button: 'Build My AEO Strategy',
       width: '50%',
-      bgImg: AeoServiceBannerImg,
+      img: AeoServiceBannerImg,
+      imgWidth: "802",
+      imgHight: "594",
+
     },
 
     keyStats: {
@@ -13274,7 +13304,10 @@ brand appears in AI summaries and citations.`,
       ],
       button: 'Transform Your Website Into an App',
       width: '50%',
-      bgImg: mobileAppDevBannerBg,
+      img: mobileAppDevBannerBg,
+      imgWidth: "809",
+      imgHight: "650",
+
     },
 
     whatareservice: {
@@ -14546,7 +14579,10 @@ brand appears in AI summaries and citations.`,
       button: 'Boost My Visibility Today',
       width: '60%',
       widthLg: '30rem',
-      bgImg: gbplocalSeoBannerBg,
+      img: gbplocalSeoBannerBg,
+      imgWidth: "811",
+      imgHight: "562",
+
     },
 
     keyStats: {
@@ -15598,7 +15634,10 @@ brand appears in AI summaries and citations.`,
       button: 'Get a Free Local SEO Audit',
       width: '60%',
       widthLg: '30rem',
-      bgImg: gmbWebsitelocalSeoBannerBg,
+      img: gmbWebsitelocalSeoBannerBg,
+      imgWidth: "769",
+      imgHight: "529",
+
     },
 
     serviceResult: {
@@ -16591,8 +16630,8 @@ brand appears in AI summaries and citations.`,
       width: '60%',
       isGap: true,
       img: Banner,
-      imgWidth:"937",
-      imgHight:"813",
+      imgWidth: "937",
+      imgHight: "813",
     },
 
     keyStats: {
@@ -17644,8 +17683,11 @@ brand appears in AI summaries and citations.`,
         `At Adaired Digital Media, our LLM SEO services help your brand appear in AI-generated answers across platforms like ChatGPT, Gemini, Claude, and other AI-driven search systems.`,
       ],
       button: 'Get Your AI Visibility Report',
-      bgImg:
+      img:
         'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773297265/adaired/services/llm_service/Banner_kjwupk.png',
+      imgWidth: "866",
+      imgHight: "711",
+
     },
     keyStats: {
       isVisible: true,
@@ -18582,9 +18624,9 @@ brand appears in AI summaries and citations.`,
       width: '48%',
       widthLg: '30rem',
       img: ShopifyDevBannerImg,
-      imgWidth:"1075",
-      imgHight:"640",
-      isGap:true,
+      imgWidth: "1075",
+      imgHight: "640",
+      isGap: true,
     },
 
     keyStats: {
@@ -19597,7 +19639,7 @@ brand appears in AI summaries and citations.`,
     },
     banner: {
       code: '02',
-      breakIndex: 3,  
+      breakIndex: 3,
       isCenter: false,
       isVisible: true,
       isStyleHeading: true,
@@ -19613,15 +19655,19 @@ brand appears in AI summaries and citations.`,
           weight: '800',
         },
       ],
-      width: '45%',
+      width: '55%',
       heading2: 'White Label PPC Services',
       desc: [
         `Get found by shoppers who are ready to buy and turn search traffic into predictable sales growth. `,
         `At Adaired Digital Media, we help e-commerce brands increase visibility, attract buyers, and convert clicks into loyal customers.`,
       ],
       button: 'Book a 30-Minute Strategy Call',
-      bgImg:
+      img:
         'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773318980/adaired/services/eCommerce_seo_india/eCommerceSeo_Banner_lfjnx9.png',
+      imgWidth: "852",
+      imgHight: "618",
+      customGap: "8rem",
+
     },
 
     keyStats: {
@@ -20038,7 +20084,7 @@ brand appears in AI summaries and citations.`,
         },
       ],
     },
-    
+
     buildlinks: {
       isVisible: true,
       isCode01: true,
@@ -20561,7 +20607,7 @@ brand appears in AI summaries and citations.`,
       isCenter: false,
       isVisible: true,
       isStyleHeading: true,
-      isGap:true,
+      isGap: true,
       headingParts: [
         {
           text: 'Feature-Rich eCommerce',
@@ -20583,8 +20629,8 @@ brand appears in AI summaries and citations.`,
       button: 'Start Selling Online',
       img:
         'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773310273/adaired/services/eCommerceDevelopment/Banner_sctvn1.png',
-        imgWidth:"1111",
-        imgHight:"740",
+      imgWidth: "1111",
+      imgHight: "740",
     },
     keyStats: {
       isVisible: true,
@@ -20819,7 +20865,7 @@ brand appears in AI summaries and citations.`,
           heading: 'Need Help',
           heading1: [`Growing Your `, `Online Store?`],
           description: [
-            `Get personalized guidance to grow, optimize, and`,` scale your online store.`,
+            `Get personalized guidance to grow, optimize, and`, ` scale your online store.`,
           ],
           buttonName: 'Talk to an eCommerce Expert',
         },
@@ -21014,7 +21060,7 @@ brand appears in AI summaries and citations.`,
       heading:
         'Why Choose Adaired Digital as Your eCommerce Development Company',
       description: [
-        `Choosing the right development partner is essential for building a successful eCommerce platform.`,` Our team focuses on delivering customized solutions that combine technical expertise, strategic thinking, and a deep understanding of digital commerce.`,
+        `Choosing the right development partner is essential for building a successful eCommerce platform.`, ` Our team focuses on delivering customized solutions that combine technical expertise, strategic thinking, and a deep understanding of digital commerce.`,
       ],
       list: [
         {
