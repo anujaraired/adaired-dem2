@@ -10386,7 +10386,6 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       breakIndex: 5,
       isBgWhite: false,
-      isCardVisible: true,
       isVariant: '01',
       cardColor: '#F9F9F9',
       headingParts: [
