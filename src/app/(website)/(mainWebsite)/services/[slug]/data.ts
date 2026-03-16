@@ -897,7 +897,6 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '01',
       heading: 'What’s Included in Our SEO Services',
-
       list: [
         {
           icon: seo_tool_3,
@@ -4233,39 +4232,6 @@ brand appears in AI summaries and citations.`,
           linkText: 'Get Your Free Website Audit',
           linkHref: '#',
         },
-
-        {
-          icon: WhatIncluded2,
-          title: 'Shopify Development',
-          description: [
-            `Our online store development services can assist you in achieving the maximum for your online store, starting with consultation and design, development, deployment, and migration.`,
-            `Being a successful Shopify development service partner, we provide high-performing, scalable, and tailored solutions that help shops perform better, increase their security, and build positive shopping experiences. You can count on us to increase your eCommerce business in a measurably meaningful way, whether you are opening another store or refining an already existing one.`,
-          ],
-          linkText: 'Get Your Free Website Audit',
-          linkHref: '#',
-        },
-
-        {
-          icon: WhatIncluded3,
-          title: 'eCommerce Development',
-          description: [
-            `Our 360 eCommerce solutions are all-inclusive and applicable to businesses of any size and sector. Our website development experts create eCommerce online websites that are intuitive, user-friendly, and designed to align with your brand name and profitability.`,
-            `We develop custom experiences using recent technologies and the best practices in the industry and enhance customer engagement, conversion, and business expansion.`,
-          ],
-          linkText: 'Get Your Free Website Audit',
-          linkHref: '#',
-        },
-
-        {
-          icon: WhatIncluded4,
-          title: 'Custom Web Development',
-          description: [
-            `Our dedicated professionals offer web development services designed to be flexible, secure, and scalable with the development of your business. We develop feature-rich, high-performance websites to suit your specific needs, achieve maximum functionality, smooth user interfaces, and achieve scalability in the future.`,
-            `All solutions that we develop are designed to help your business achieve its goals and bring long-term value.`,
-          ],
-          linkText: 'Get Your Free Website Audit',
-          linkHref: '#',
-        },
       ],
     },
 
@@ -5262,39 +5228,6 @@ brand appears in AI summaries and citations.`,
           linkText: 'Get Your Free Website Audit',
           linkHref: '#',
         },
-
-        {
-          icon: WhatIncluded2,
-          title: 'Shopify Development',
-          description: [
-            `Our online store development services can assist you in achieving the maximum for your online store, starting with consultation and design, development, deployment, and migration.`,
-            `Being a successful Shopify development service partner, we provide high-performing, scalable, and tailored solutions that help shops perform better, increase their security, and build positive shopping experiences. You can count on us to increase your eCommerce business in a measurably meaningful way, whether you are opening another store or refining an already existing one.`,
-          ],
-          linkText: 'Get Your Free Website Audit',
-          linkHref: '#',
-        },
-
-        {
-          icon: WhatIncluded3,
-          title: 'eCommerce Development',
-          description: [
-            `Our 360 eCommerce solutions are all-inclusive and applicable to businesses of any size and sector. Our website development experts create eCommerce online websites that are intuitive, user-friendly, and designed to align with your brand name and profitability.`,
-            `We develop custom experiences using recent technologies and the best practices in the industry and enhance customer engagement, conversion, and business expansion.`,
-          ],
-          linkText: 'Get Your Free Website Audit',
-          linkHref: '#',
-        },
-
-        {
-          icon: WhatIncluded4,
-          title: 'Custom Web Development',
-          description: [
-            `Our dedicated professionals offer web development services designed to be flexible, secure, and scalable with the development of your business. We develop feature-rich, high-performance websites to suit your specific needs, achieve maximum functionality, smooth user interfaces, and achieve scalability in the future.`,
-            `All solutions that we develop are designed to help your business achieve its goals and bring long-term value.`,
-          ],
-          linkText: 'Get Your Free Website Audit',
-          linkHref: '#',
-        },
       ],
     },
 
@@ -6269,39 +6202,6 @@ brand appears in AI summaries and citations.`,
           description: [
             `At Adaired, we provide powerful WordPress development services that are expected to take your digital presence to the next level. Our team breaks creative and technical limits to design and develop robust, high-performance, and SEO-optimized WordPress solutions.`,
             `From custom WordPress theme development and plugin customization to speed optimization, SEO implementation, and seamless third-party integrations, we deliver the end-to-end WordPress solutions to match the requirements of your business.`,
-          ],
-          linkText: 'Get Your Free Website Audit',
-          linkHref: '#',
-        },
-
-        {
-          icon: WhatIncluded2,
-          title: 'Shopify Development',
-          description: [
-            `Our online store development services can assist you in achieving the maximum for your online store, starting with consultation and design, development, deployment, and migration.`,
-            `Being a successful Shopify development service partner, we provide high-performing, scalable, and tailored solutions that help shops perform better, increase their security, and build positive shopping experiences. You can count on us to increase your eCommerce business in a measurably meaningful way, whether you are opening another store or refining an already existing one.`,
-          ],
-          linkText: 'Get Your Free Website Audit',
-          linkHref: '#',
-        },
-
-        {
-          icon: WhatIncluded3,
-          title: 'eCommerce Development',
-          description: [
-            `Our 360 eCommerce solutions are all-inclusive and applicable to businesses of any size and sector. Our website development experts create eCommerce online websites that are intuitive, user-friendly, and designed to align with your brand name and profitability.`,
-            `We develop custom experiences using recent technologies and the best practices in the industry and enhance customer engagement, conversion, and business expansion.`,
-          ],
-          linkText: 'Get Your Free Website Audit',
-          linkHref: '#',
-        },
-
-        {
-          icon: WhatIncluded4,
-          title: 'Custom Web Development',
-          description: [
-            `Our dedicated professionals offer web development services designed to be flexible, secure, and scalable with the development of your business. We develop feature-rich, high-performance websites to suit your specific needs, achieve maximum functionality, smooth user interfaces, and achieve scalability in the future.`,
-            `All solutions that we develop are designed to help your business achieve its goals and bring long-term value.`,
           ],
           linkText: 'Get Your Free Website Audit',
           linkHref: '#',
@@ -7675,62 +7575,6 @@ brand appears in AI summaries and citations.`,
           linkText: 'Start a Conversation',
           linkHref: '#',
         },
-        {
-          icon: whiteServicesIncluded_2,
-          title: 'White-Label Social Media Management',
-          description: [
-            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
-            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
-            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_3,
-          title: 'White-Label Pay-Per-Click Ads',
-          description: [
-            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
-            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
-            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_4,
-          title: 'White-Label Link Building',
-          description: [
-            `Link building requires consistent outreach and quality control. 
-            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
-            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_5,
-          title: 'White-Label Web Design and Development',
-          description: [
-            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
-            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
-            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
-            and timelines, all without having to manage in-house design or development teams.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_6,
-          title: 'White-Label Application Development',
-          description: [
-            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
-            We assist with application planning, development, integration, testing, and platform-wide updates.`,
-            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
       ],
     },
 
@@ -9046,62 +8890,6 @@ brand appears in AI summaries and citations.`,
           linkText: 'Start a Conversation',
           linkHref: '#',
         },
-        {
-          icon: whiteServicesIncluded_2,
-          title: 'White-Label Social Media Management',
-          description: [
-            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
-            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
-            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_3,
-          title: 'White-Label Pay-Per-Click Ads',
-          description: [
-            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
-            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
-            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_4,
-          title: 'White-Label Link Building',
-          description: [
-            `Link building requires consistent outreach and quality control. 
-            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
-            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_5,
-          title: 'White-Label Web Design and Development',
-          description: [
-            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
-            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
-            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
-            and timelines, all without having to manage in-house design or development teams.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_6,
-          title: 'White-Label Application Development',
-          description: [
-            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
-            We assist with application planning, development, integration, testing, and platform-wide updates.`,
-            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
       ],
     },
 
@@ -10094,62 +9882,6 @@ brand appears in AI summaries and citations.`,
           linkText: 'Start a Conversation',
           linkHref: '#',
         },
-        {
-          icon: whiteServicesIncluded_2,
-          title: 'White-Label Social Media Management',
-          description: [
-            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
-            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
-            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_3,
-          title: 'White-Label Pay-Per-Click Ads',
-          description: [
-            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
-            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
-            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_4,
-          title: 'White-Label Link Building',
-          description: [
-            `Link building requires consistent outreach and quality control. 
-            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
-            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_5,
-          title: 'White-Label Web Design and Development',
-          description: [
-            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
-            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
-            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
-            and timelines, all without having to manage in-house design or development teams.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_6,
-          title: 'White-Label Application Development',
-          description: [
-            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
-            We assist with application planning, development, integration, testing, and platform-wide updates.`,
-            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
       ],
     },
 
@@ -11031,62 +10763,6 @@ brand appears in AI summaries and citations.`,
             We handle research, optimization, technical improvements, 
             and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
             `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_2,
-          title: 'White-Label Social Media Management',
-          description: [
-            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
-            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
-            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_3,
-          title: 'White-Label Pay-Per-Click Ads',
-          description: [
-            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
-            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
-            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_4,
-          title: 'White-Label Link Building',
-          description: [
-            `Link building requires consistent outreach and quality control. 
-            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
-            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_5,
-          title: 'White-Label Web Design and Development',
-          description: [
-            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
-            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
-            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
-            and timelines, all without having to manage in-house design or development teams.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_6,
-          title: 'White-Label Application Development',
-          description: [
-            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
-            We assist with application planning, development, integration, testing, and platform-wide updates.`,
-            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
           ],
           linkText: 'Start a Conversation',
           linkHref: '#',
@@ -11993,62 +11669,6 @@ brand appears in AI summaries and citations.`,
           linkText: 'Start a Conversation',
           linkHref: '#',
         },
-        {
-          icon: whiteServicesIncluded_2,
-          title: 'White-Label Social Media Management',
-          description: [
-            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
-            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
-            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_3,
-          title: 'White-Label Pay-Per-Click Ads',
-          description: [
-            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
-            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
-            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_4,
-          title: 'White-Label Link Building',
-          description: [
-            `Link building requires consistent outreach and quality control. 
-            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
-            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_5,
-          title: 'White-Label Web Design and Development',
-          description: [
-            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
-            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
-            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
-            and timelines, all without having to manage in-house design or development teams.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_6,
-          title: 'White-Label Application Development',
-          description: [
-            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
-            We assist with application planning, development, integration, testing, and platform-wide updates.`,
-            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
       ],
     },
 
@@ -12873,62 +12493,6 @@ brand appears in AI summaries and citations.`,
             We handle research, optimization, technical improvements, 
             and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
             `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_2,
-          title: 'White-Label Social Media Management',
-          description: [
-            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
-            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
-            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_3,
-          title: 'White-Label Pay-Per-Click Ads',
-          description: [
-            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
-            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
-            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_4,
-          title: 'White-Label Link Building',
-          description: [
-            `Link building requires consistent outreach and quality control. 
-            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
-            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_5,
-          title: 'White-Label Web Design and Development',
-          description: [
-            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
-            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
-            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
-            and timelines, all without having to manage in-house design or development teams.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_6,
-          title: 'White-Label Application Development',
-          description: [
-            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
-            We assist with application planning, development, integration, testing, and platform-wide updates.`,
-            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
           ],
           linkText: 'Start a Conversation',
           linkHref: '#',
@@ -14235,62 +13799,6 @@ brand appears in AI summaries and citations.`,
           linkText: 'Start a Conversation',
           linkHref: '#',
         },
-        {
-          icon: whiteServicesIncluded_2,
-          title: 'White-Label Social Media Management',
-          description: [
-            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
-            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
-            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_3,
-          title: 'White-Label Pay-Per-Click Ads',
-          description: [
-            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
-            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
-            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_4,
-          title: 'White-Label Link Building',
-          description: [
-            `Link building requires consistent outreach and quality control. 
-            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
-            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_5,
-          title: 'White-Label Web Design and Development',
-          description: [
-            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
-            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
-            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
-            and timelines, all without having to manage in-house design or development teams.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_6,
-          title: 'White-Label Application Development',
-          description: [
-            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
-            We assist with application planning, development, integration, testing, and platform-wide updates.`,
-            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
       ],
     },
 
@@ -15295,62 +14803,6 @@ brand appears in AI summaries and citations.`,
           linkText: 'Start a Conversation',
           linkHref: '#',
         },
-        {
-          icon: whiteServicesIncluded_2,
-          title: 'White-Label Social Media Management',
-          description: [
-            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
-            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
-            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_3,
-          title: 'White-Label Pay-Per-Click Ads',
-          description: [
-            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
-            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
-            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_4,
-          title: 'White-Label Link Building',
-          description: [
-            `Link building requires consistent outreach and quality control. 
-            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
-            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_5,
-          title: 'White-Label Web Design and Development',
-          description: [
-            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
-            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
-            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
-            and timelines, all without having to manage in-house design or development teams.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_6,
-          title: 'White-Label Application Development',
-          description: [
-            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
-            We assist with application planning, development, integration, testing, and platform-wide updates.`,
-            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
       ],
     },
 
@@ -16338,62 +15790,6 @@ brand appears in AI summaries and citations.`,
             We handle research, optimization, technical improvements, 
             and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
             `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_2,
-          title: 'White-Label Social Media Management',
-          description: [
-            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
-            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
-            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_3,
-          title: 'White-Label Pay-Per-Click Ads',
-          description: [
-            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
-            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
-            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_4,
-          title: 'White-Label Link Building',
-          description: [
-            `Link building requires consistent outreach and quality control. 
-            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
-            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_5,
-          title: 'White-Label Web Design and Development',
-          description: [
-            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
-            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
-            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
-            and timelines, all without having to manage in-house design or development teams.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_6,
-          title: 'White-Label Application Development',
-          description: [
-            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
-            We assist with application planning, development, integration, testing, and platform-wide updates.`,
-            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
           ],
           linkText: 'Start a Conversation',
           linkHref: '#',
@@ -17393,62 +16789,6 @@ brand appears in AI summaries and citations.`,
           linkText: 'Start a Conversation',
           linkHref: '#',
         },
-        {
-          icon: whiteServicesIncluded_2,
-          title: 'White-Label Social Media Management',
-          description: [
-            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
-            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
-            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_3,
-          title: 'White-Label Pay-Per-Click Ads',
-          description: [
-            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
-            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
-            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_4,
-          title: 'White-Label Link Building',
-          description: [
-            `Link building requires consistent outreach and quality control. 
-            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
-            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_5,
-          title: 'White-Label Web Design and Development',
-          description: [
-            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
-            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
-            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
-            and timelines, all without having to manage in-house design or development teams.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_6,
-          title: 'White-Label Application Development',
-          description: [
-            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
-            We assist with application planning, development, integration, testing, and platform-wide updates.`,
-            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
       ],
     },
 
@@ -18167,7 +17507,6 @@ brand appears in AI summaries and citations.`,
       isVisible: false,
       isVariant: '01',
       heading: 'What’s Included in Our SEO Services',
-
       list: [
         {
           icon: seo_tool_3,
@@ -18175,56 +17514,6 @@ brand appears in AI summaries and citations.`,
           description: [
             `We start the process by conducting a comprehensive keyword research. It helps determine the search terms that users input in search engines when looking for related information, products, or services.`,
             `Our effective SEO strategy consists of proper keyword research to match the content of the websites with what the users are actively searching for.`,
-          ],
-          button: 'Get Your Free SEO Audit',
-          btnColor: '#1A5A96',
-        },
-        {
-          icon: seo_tool_1,
-          title: 'On-Page SEO Optimization',
-          description: [
-            `Our focus on On-page SEO optimization is to improve search visibility. This involves optimization of page names, meta descriptions, headings, URLs, internal links, and content structure.`,
-            `On-page optimization helps search engines to understand the relevance of the pages while enhancing readability and user experience, making the content easy to access, arranged and in accordance with the targeted keywords.`,
-          ],
-          button: 'Get Your Free SEO Audit',
-          btnColor: '#1A5A96',
-        },
-        {
-          icon: seo_tool_2,
-          title: 'Technical SEO Improvements',
-          description: [
-            `In Technical SEO, we address the backend elements of a website that affect search engine crawling and indexing. This involves site speed improvement, mobile friendliness, HTTPS configuration, XML sitemaps, and crawl errors remedies.`,
-            `Technical optimization ensures search engines can efficiently access and understand the site effectively, and this is what is necessary to maintain the same ranking level.`,
-          ],
-          button: 'Get Your Free SEO Audit',
-          btnColor: '#1A5A96',
-        },
-        {
-          icon: seo_tool_4,
-          title: 'Content Optimization and Development',
-          description: [
-            `In content optimization, we improve existing content and create new, relevant content based on SEO insights. This is done to ensure that the content is informative, keyword-compatible, user and search engine friendly.`,
-            `High-quality content supports better engagement, increased page views, and stronger relevance signals, helping websites perform more effectively in search results.`,
-          ],
-          button: 'Get Your Free SEO Audit',
-          btnColor: '#1A5A96',
-        },
-        {
-          icon: seo_tool_5,
-          title: 'Link Building and Authority Development',
-          description: [
-            `In link building, we focus on earning high-quality backlinks from relevant and trustworthy websites. These links are indicators of credibility and authority to search engines.`,
-            ` Ethical link-building practices help strengthen a website’s domain authority over time,  improving its ability to rank competitively while maintaining compliance with search engine guidelines.`,
-          ],
-          button: 'Get Your Free SEO Audit',
-          btnColor: '#1A5A96',
-        },
-        {
-          icon: seo_tool_6,
-          title: 'SEO Monitoring and Reporting',
-          description: [
-            `We track keyword rankings, organic traffic, user behavior, and technical performance in SEO monitoring. Regular reporting gives an idea of what works and where it should be improved.`,
-            `The ongoing analysis helps refine SEO strategies, keeping up with the changes in the algorithms, and ensuring long-term effectiveness through data-driven optimization efforts.`,
           ],
           button: 'Get Your Free SEO Audit',
           btnColor: '#1A5A96',
@@ -19362,62 +18651,6 @@ brand appears in AI summaries and citations.`,
             We handle research, optimization, technical improvements, 
             and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
             `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_2,
-          title: 'White-Label Social Media Management',
-          description: [
-            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
-            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
-            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_3,
-          title: 'White-Label Pay-Per-Click Ads',
-          description: [
-            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
-            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
-            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_4,
-          title: 'White-Label Link Building',
-          description: [
-            `Link building requires consistent outreach and quality control. 
-            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
-            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_5,
-          title: 'White-Label Web Design and Development',
-          description: [
-            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
-            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
-            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
-            and timelines, all without having to manage in-house design or development teams.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_6,
-          title: 'White-Label Application Development',
-          description: [
-            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
-            We assist with application planning, development, integration, testing, and platform-wide updates.`,
-            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
           ],
           linkText: 'Start a Conversation',
           linkHref: '#',
@@ -21203,7 +20436,6 @@ brand appears in AI summaries and citations.`,
       isVisible: false,
       isVariant: '01',
       heading: 'What’s Included in Our SEO Services',
-
       list: [
         {
           icon: seo_tool_3,
@@ -21211,56 +20443,6 @@ brand appears in AI summaries and citations.`,
           description: [
             `We start the process by conducting a comprehensive keyword research. It helps determine the search terms that users input in search engines when looking for related information, products, or services.`,
             `Our effective SEO strategy consists of proper keyword research to match the content of the websites with what the users are actively searching for.`,
-          ],
-          button: 'Get Your Free SEO Audit',
-          btnColor: '#1A5A96',
-        },
-        {
-          icon: seo_tool_1,
-          title: 'On-Page SEO Optimization',
-          description: [
-            `Our focus on On-page SEO optimization is to improve search visibility. This involves optimization of page names, meta descriptions, headings, URLs, internal links, and content structure.`,
-            `On-page optimization helps search engines to understand the relevance of the pages while enhancing readability and user experience, making the content easy to access, arranged and in accordance with the targeted keywords.`,
-          ],
-          button: 'Get Your Free SEO Audit',
-          btnColor: '#1A5A96',
-        },
-        {
-          icon: seo_tool_2,
-          title: 'Technical SEO Improvements',
-          description: [
-            `In Technical SEO, we address the backend elements of a website that affect search engine crawling and indexing. This involves site speed improvement, mobile friendliness, HTTPS configuration, XML sitemaps, and crawl errors remedies.`,
-            `Technical optimization ensures search engines can efficiently access and understand the site effectively, and this is what is necessary to maintain the same ranking level.`,
-          ],
-          button: 'Get Your Free SEO Audit',
-          btnColor: '#1A5A96',
-        },
-        {
-          icon: seo_tool_4,
-          title: 'Content Optimization and Development',
-          description: [
-            `In content optimization, we improve existing content and create new, relevant content based on SEO insights. This is done to ensure that the content is informative, keyword-compatible, user and search engine friendly.`,
-            `High-quality content supports better engagement, increased page views, and stronger relevance signals, helping websites perform more effectively in search results.`,
-          ],
-          button: 'Get Your Free SEO Audit',
-          btnColor: '#1A5A96',
-        },
-        {
-          icon: seo_tool_5,
-          title: 'Link Building and Authority Development',
-          description: [
-            `In link building, we focus on earning high-quality backlinks from relevant and trustworthy websites. These links are indicators of credibility and authority to search engines.`,
-            ` Ethical link-building practices help strengthen a website’s domain authority over time,  improving its ability to rank competitively while maintaining compliance with search engine guidelines.`,
-          ],
-          button: 'Get Your Free SEO Audit',
-          btnColor: '#1A5A96',
-        },
-        {
-          icon: seo_tool_6,
-          title: 'SEO Monitoring and Reporting',
-          description: [
-            `We track keyword rankings, organic traffic, user behavior, and technical performance in SEO monitoring. Regular reporting gives an idea of what works and where it should be improved.`,
-            `The ongoing analysis helps refine SEO strategies, keeping up with the changes in the algorithms, and ensuring long-term effectiveness through data-driven optimization efforts.`,
           ],
           button: 'Get Your Free SEO Audit',
           btnColor: '#1A5A96',
@@ -22394,62 +21576,6 @@ brand appears in AI summaries and citations.`,
             We handle research, optimization, technical improvements, 
             and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
             `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_2,
-          title: 'White-Label Social Media Management',
-          description: [
-            `White-label social media services are intended for agencies that manage multiple brands and platforms without dedicated internal teams. 
-            We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
-            `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_3,
-          title: 'White-Label Pay-Per-Click Ads',
-          description: [
-            `Our white-label pay-per-click advertisement services help agencies manage advertising campaigns without building internal media-buying teams. 
-            We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
-            `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_4,
-          title: 'White-Label Link Building',
-          description: [
-            `Link building requires consistent outreach and quality control. 
-            Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
-            `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_5,
-          title: 'White-Label Web Design and Development',
-          description: [
-            `Our white-label web design and development services assist agencies in developing business websites and marketing-oriented web experiences. 
-            We handle design, front-end and back-end development, CMS implementation, and deployment according to your project requirements.`,
-            `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
-            and timelines, all without having to manage in-house design or development teams.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-        {
-          icon: whiteServicesIncluded_6,
-          title: 'White-Label Application Development',
-          description: [
-            `White-label app development is designed for agencies that want to offer custom web and mobile applications in addition to standard websites. 
-            We assist with application planning, development, integration, testing, and platform-wide updates.`,
-            `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
           ],
           linkText: 'Start a Conversation',
           linkHref: '#',
