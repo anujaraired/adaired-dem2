@@ -39,7 +39,7 @@ const DominateAI = ({ getplan }: any) => {
             breakIndex={5}
             isH1={true}
             subTitle={getplan?.subtitle}
-            title={getplan?.title}
+            headingParts={getplan?.headingParts}
             description={getplan?.description}
             isInCenter={true}
           />

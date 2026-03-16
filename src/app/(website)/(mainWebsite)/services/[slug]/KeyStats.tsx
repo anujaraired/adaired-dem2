@@ -66,7 +66,7 @@ const KeyStats = ({ keyStats }: any) => {
                   isBgWhite={true}
                   isInCenter={true}
                   subTitle={''}
-                  title={keyStats?.heading}
+                  headingParts={keyStats?.headingParts}
                 />
                 <div className="flex">
                   <IoArrowForwardCircleOutline
@@ -92,7 +92,7 @@ const KeyStats = ({ keyStats }: any) => {
                   isBgWhite={true}
                   isInCenter={true}
                   subTitle={''}
-                  title={keyStats?.heading}
+                  headingParts={keyStats?.headingParts}
                 />
               </div>
             )}
@@ -184,7 +184,7 @@ const KeyStats = ({ keyStats }: any) => {
               isBgWhite={true}
               isInCenter={true}
               subTitle={''}
-              title={keyStats?.heading}
+              headingParts={keyStats?.headingParts}
             />
             <div className="grid grid-cols-1 items-stretch gap-5 pt-[2rem] lg:grid-cols-[45%_50%] lg:gap-[6rem]">
               <div className="relative aspect-[4/3] md:h-full md:w-full lg:aspect-auto">
@@ -250,7 +250,7 @@ const KeyStats = ({ keyStats }: any) => {
               isBgWhite={true}
               isInCenter={true}
               subTitle={''}
-              title={keyStats?.heading}
+              headingParts={keyStats?.headingParts}
             />
 
             <div className="relative grid grid-cols-1 gap-[1rem] pt-[2rem] lg:grid-cols-2 lg:gap-[4rem]">
@@ -315,7 +315,7 @@ const KeyStats = ({ keyStats }: any) => {
                 isBgWhite={true}
                 isInCenter={true}
                 subTitle={''}
-                title={keyStats?.heading}
+                headingParts={keyStats?.headingParts}
               />
             </div>
             <div

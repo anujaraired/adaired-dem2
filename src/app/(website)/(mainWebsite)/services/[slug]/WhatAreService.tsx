@@ -27,7 +27,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
               <Heading
                 className="flex justify-center lg:justify-start"
                 subTitle={''}
-                title={whatareaiseo?.heading}
+                headingParts={whatareaiseo?.headingParts}
                 span={whatareaiseo?.span}
                 spanColor="text-[#FBD04F]"
                 isBgWhite={whatareaiseo?.isBgWhite && true}
@@ -76,7 +76,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
               <Heading
                 className="flex justify-center lg:justify-start"
                 subTitle={''}
-                title={whatareaiseo?.heading}
+                headingParts={whatareaiseo?.headingParts}
                 span={whatareaiseo?.span}
                 spanColor="text-[#FBD04F]"
                 isBgWhite={whatareaiseo?.isBgWhite && true}
@@ -131,7 +131,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
               <Heading
                 className="flex justify-center lg:justify-start"
                 subTitle={''}
-                title={whatareaiseo?.heading}
+                headingParts={whatareaiseo?.headingParts}
                 span={whatareaiseo?.span}
                 spanColor="text-[#FBD04F]"
                 isBgWhite={whatareaiseo?.isBgWhite && true}
@@ -308,7 +308,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
               <Heading
                 className="flex justify-center lg:justify-start"
                 subTitle={''}
-                title={whatareaiseo?.heading}
+                headingParts={whatareaiseo?.headingParts}
                 span={whatareaiseo?.span}
                 spanBreakIndex={2}
                 spanColor="text-[#FBD04F]"
@@ -387,7 +387,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
               <Heading
                 className="flex justify-center lg:justify-start"
                 subTitle={''}
-                title={whatareaiseo?.heading}
+                headingParts={whatareaiseo?.headingParts}
                 span={whatareaiseo?.span}
                 spanColor="text-[#FBD04F]"
                 isBgWhite={whatareaiseo?.isBgWhite && true}
@@ -436,7 +436,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
               <Heading
                 className="flex justify-center lg:justify-start"
                 subTitle={''}
-                title={whatareaiseo?.heading}
+                headingParts={whatareaiseo?.headingParts}
                 span={whatareaiseo?.span}
                 spanColor="text-[#FBD04F]"
                 isBgWhite={whatareaiseo?.isBgWhite && true}
@@ -498,7 +498,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
               <Heading
                 className="flex justify-center lg:justify-start"
                 subTitle={''}
-                title={whatareaiseo?.heading}
+                headingParts={whatareaiseo?.headingParts}
                 span={whatareaiseo?.span}
                 spanColor="text-[#FBD04F]"
                 isBgWhite={whatareaiseo?.isBgWhite && true}

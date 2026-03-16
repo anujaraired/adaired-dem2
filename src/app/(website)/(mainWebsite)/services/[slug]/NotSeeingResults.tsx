@@ -27,7 +27,7 @@ const NotSeeingResults = ({ notSeeingResult }: any) => {
           <Heading
             isBgWhite={true}
             isH1={true}
-            title={notSeeingResult?.heading}
+            headingParts={notSeeingResult?.headingParts}
             description={notSeeingResult?.description}
           />
           <SaveAndCancel
