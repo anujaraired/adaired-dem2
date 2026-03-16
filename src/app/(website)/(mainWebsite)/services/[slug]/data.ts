@@ -50,6 +50,7 @@ import stepWeb4 from '../../../../../../public/assets/WebDevelopment/step4.svg';
 import stepWeb5 from '../../../../../../public/assets/WebDevelopment/step5.svg';
 import stepWeb6 from '../../../../../../public/assets/WebDevelopment/step6.svg';
 import stepWeb7 from '../../../../../../public/assets/WebDevelopment/step7.svg';
+import bgImgBuildLink from '../../../../../../public/assets/images/services/webDesignDevelopment/bgImgBuildLink.png';
 import stepPPC1 from '../../../../../../public/assets/payperclick/step1.svg';
 import stepPPC2 from '../../../../../../public/assets/payperclick/step2.svg';
 import stepPPC3 from '../../../../../../public/assets/payperclick/step3.svg';
@@ -546,7 +547,7 @@ import WhatAreService1 from '../../../../../../public/assets/images/services/wor
 import WhatAreService2 from '../../../../../../public/assets/images/services/wordpressDevelopment/whatareservice2.png';
 import AdairedHelp from '../../../../../../public/assets/images/services/wordpressDevelopment/adairedHelp.png';
 import BuildLink from '../../../../../../public/assets/images/services/wordpressDevelopment/BuildLink.png';
-import bgImgBuildLink from '../../../../../../public/assets/images/services/wordpressDevelopment/bgImgBuildLink.png';
+import bgImg_BuildLink from '../../../../../../public/assets/images/services/wordpressDevelopment/bgImgBuildLink.png';
 import Icon1 from '../../../../../../public/assets/images/services/wordpressDevelopment/ourProcessIcon1.svg';
 import Icon2 from '../../../../../../public/assets/images/services/wordpressDevelopment/ourProcessIcon2.svg';
 import Icon3 from '../../../../../../public/assets/images/services/wordpressDevelopment/ourProcessIcon3.svg';
@@ -2763,8 +2764,9 @@ brand appears in AI summaries and citations.`,
     buildlinks: {
       isVisible: true,
       isCode01: false,
-      isVariant: '01',
+      isVariant: '03',
       breakIndex: 5,
+      bgImg: bgImg_BuildLink, 
       img: LinkBuilding,
       imgWidth: "479",
       imgHight: "400",
@@ -2780,8 +2782,9 @@ brand appears in AI summaries and citations.`,
           weight: '700',
         },
       ],
-      bgColor: '#FFFCF8',
       isBgWhite: true,
+      width: '50%',
+      paddingY : '3rem',
       data: [],
       button: 'Get a Free Audit ',
     },
@@ -3462,9 +3465,12 @@ brand appears in AI summaries and citations.`,
     buildlinks: {
       isVisible: true,
       isCode01: true,
-      isVariant: '01',
+      isVariant: '03',
       breakIndex: 5,
       img: BeautifulDesign,
+      bgImg: bgImg_BuildLink,
+      imgWidth: "579",
+      imgHight: "458",
       headingParts: [
         {
           text: 'Beautiful Design Meets Smart Development.',
@@ -3472,11 +3478,12 @@ brand appears in AI summaries and citations.`,
           weight: '700',
         },
       ],
-      bgColor: '#FFFCF8',
       isBgWhite: true,
+      textColor: 'white',
+      width: '50%',
       data: [
         {
-          description: `We build websites that captivate users and convert clicks into customers`,
+          desctioption: `We build websites that captivate users and convert clicks into customers`,
         },
       ],
       button: 'Start Your Website Project',
