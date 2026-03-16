@@ -736,7 +736,13 @@ export const SERVICES_DATA = {
     keyStats: {
       isVisible: true,
       code: '02',
-      heading: 'Key Stats Related to SEO Services ',
+      headingParts: [
+        {
+          text: 'Key Stats Related to SEO Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       isCard: true,
       img: keyStatsImg2,
       rocketImg: rocket,
@@ -1320,7 +1326,13 @@ export const SERVICES_DATA = {
     faqData: {
       isVisible: true,
       subtitle: 'FAQ',
-      title: 'Questions You Have, Answers You Need',
+      headingParts: [
+        {
+          text: 'Questions You Have, Answers You Need',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: `Have questions? Our FAQ section provides clear, concise answers about our services to guide you effortlessly.`,
       list: [
         {
@@ -1557,7 +1569,13 @@ export const SERVICES_DATA = {
     keyStats: {
       isVisible: true,
       code: '01',
-      heading: 'Key Stats Related to AI SEO',
+      headingParts: [
+        {
+          text: 'Key Stats Related to AI SEO',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       isCard: false,
       img: '',
       list: [
@@ -2112,7 +2130,13 @@ brand appears in AI summaries and citations.`,
     faqData: {
       isVisible: true,
       subtitle: 'FAQ',
-      title: 'Frequently Asked Questions and Their Answers',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions and Their Answers',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: `Our success-driven digital marketing services integrate AI-enhanced SEO, advanced analytics, and conversion-focused strategies to strengthen brand presence, improve search performance, and accelerate measurable business growth.`,
       list: [
         {
@@ -2322,7 +2346,13 @@ brand appears in AI summaries and citations.`,
     keyStats: {
       isVisible: true,
       code: '03',
-      heading: 'Key Stats on Authority Link Building ',
+      headingParts: [
+        {
+          text: 'Key Stats on Authority Link Building',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       bgColor: '#FB9100',
       isCard: false,
       img: keyStatsImg,
@@ -2952,7 +2982,13 @@ brand appears in AI summaries and citations.`,
     faqData: {
       isVisible: true,
       subtitle: 'FAQ',
-      title: 'Frequently Asked Questions on Authority Link Building Services',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions on Authority Link Building Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: ``,
       list: [
         {
@@ -3038,9 +3074,14 @@ brand appears in AI summaries and citations.`,
     keyStats: {
       isVisible: true,
       code: '04',
-      heading: 'Did You Know?',
       isCard: false,
-      // img: keyStatsImg,
+      headingParts: [
+        {
+          text: 'Did You Know?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       list: [
         {
           description: [
@@ -3607,7 +3648,13 @@ brand appears in AI summaries and citations.`,
     faqData: {
       isVisible: true,
       subtitle: 'FAQ',
-      title: 'Frequently Asked Questions on Authority Link Building Services',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions on Authority Link Building Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: ``,
       list: [
         {
@@ -3707,7 +3754,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       code: '01',
       isCarousel: true,
-      heading: 'Must-Know Local SEO Statistics',
+      headingParts: [
+        {
+          text: 'Must-Know Local SEO Statistics',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       isCard: false,
       list: [
         {
@@ -4214,7 +4267,13 @@ brand appears in AI summaries and citations.`,
     faqData: {
       isVisible: true,
       subtitle: 'FAQ',
-      title: 'Questions You Have, Answers You Need',
+      headingParts: [
+        {
+          text: 'Questions You Have, Answers You Need',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: `Have questions? Our FAQ section provides clear, concise answers about our services to guide you effortlessly.`,
       list: [
         {
@@ -4671,7 +4730,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       code: '03',
       img: whiteKeyStats,
-      heading: 'Must-Know Facts About White Label Social Media',
+      headingParts: [
+        {
+          text: 'Must-Know Facts About White Label Social Media',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       isImgBg: false,
       bgColor: '#FB9100',
       list: [
@@ -5130,7 +5195,13 @@ brand appears in AI summaries and citations.`,
     faqData: {
       isVisible: true,
       subtitle: 'FAQ',
-      title: 'Frequently Asked Questions',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: ``,
       list: [
         {
@@ -5493,7 +5564,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       code: '03',
       img: whiteSeoKeyStatsImg,
-      heading: 'White Label SEO Insights',
+      headingParts: [
+        {
+          text: 'White Label SEO Insights',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       bgColor: '#000000',
       textColor: '#FFFFFF',
       isImgBg: true,
@@ -5587,7 +5664,13 @@ brand appears in AI summaries and citations.`,
       trColor: 'bg-[#7259FF]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
-      heading: 'White Label SEO vs In-House SEO Teams',
+      headingParts: [
+        {
+          text: 'White Label SEO vs In-House SEO Teams',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description:
         'The comparison below demonstrates the operational differences between white-label SEO and in-house SEO teams.',
       data: [
@@ -5969,7 +6052,13 @@ brand appears in AI summaries and citations.`,
     faqData: {
       isVisible: true,
       subtitle: 'FAQ',
-      title: 'Frequently Asked Questions',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: ``,
       list: [
         {
@@ -6429,7 +6518,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       code: '03',
       img: whiteServicesKeyStatsImg,
-      heading: 'Why Choose White-Label Delivery',
+      headingParts: [
+        {
+          text: 'Why Choose White-Label Delivery',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       bgColor: '#FB9100',
       textColor: '#000000',
       isImgBg: true,
@@ -6790,7 +6885,13 @@ brand appears in AI summaries and citations.`,
     faqData: {
       isVisible: true,
       subtitle: 'FAQ',
-      title: 'Frequently Asked Questions',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: ``,
       list: [
         {
@@ -6967,7 +7068,13 @@ brand appears in AI summaries and citations.`,
     dataInTable: {
       isVisible: false,
       isVariant: '01',
-      heading: 'White Label SEO vs In-House SEO Teams',
+      headingParts: [
+        {
+          text: 'White Label SEO vs In-House SEO Teams',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description:
         'The comparison below demonstrates the operational differences between white-label SEO and in-house SEO teams.',
       data: [
@@ -7426,7 +7533,13 @@ brand appears in AI summaries and citations.`,
       isVisible: false,
       code: '01',
       img: whiteServicesKeyStatsImg,
-      heading: '',
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       isImgBg: true,
       isCard: false,
       list: [],
@@ -7801,7 +7914,13 @@ brand appears in AI summaries and citations.`,
     faqData: {
       isVisible: true,
       subtitle: 'FAQ',
-      title: 'Frequently Asked Questions',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: ``,
       list: [
         {
@@ -7993,7 +8112,13 @@ brand appears in AI summaries and citations.`,
     dataInTable: {
       isVisible: false,
       isVariant: '01',
-      heading: 'White Label SEO vs In-House SEO Teams',
+      headingParts: [
+        {
+          text: 'White Label SEO vs In-House SEO Teams',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description:
         'The comparison below demonstrates the operational differences between white-label SEO and in-house SEO teams.',
       data: [
@@ -8465,8 +8590,13 @@ brand appears in AI summaries and citations.`,
       trColor: 'bg-[#7259FF]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
-      heading:
-        'White-Label PPC Agency vs In-house PPC Team: What Should You Do?',
+        headingParts: [
+        {
+          text: 'White-Label PPC Agency vs In-house PPC Team: What Should You Do?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         `As your agency grows, you’ll eventually face a critical decision:`,
         `Should you build an in-house PPC team or partner with a white-label PPC agency?`,
@@ -8947,7 +9077,13 @@ brand appears in AI summaries and citations.`,
     faqData: {
       isVisible: true,
       subtitle: 'FAQ',
-      title: 'Frequently Asked Questions',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: ``,
       list: [
         {
@@ -9028,7 +9164,13 @@ brand appears in AI summaries and citations.`,
       isVisible: false,
       code: '01',
       img: whiteServicesKeyStatsImg,
-      heading: '',
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       isImgBg: true,
       isCard: false,
       list: [],
@@ -9403,7 +9545,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       code: '03',
       img: whiteLinkBuildingKeyStatsImg,
-      heading: 'Key Stats About White Label Link Building',
+      headingParts: [
+        {
+          text: 'Key Stats About White Label Link Building',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       bgColor: '#FB9100',
       isImgBg: true,
       isCard: false,
@@ -9735,7 +9883,13 @@ brand appears in AI summaries and citations.`,
     faqData: {
       isVisible: true,
       subtitle: 'FAQ',
-      title: 'Frequently Asked Questions',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: ``,
       list: [
         {
@@ -9912,8 +10066,13 @@ brand appears in AI summaries and citations.`,
       isInCenter: false,
       isBgWhite: false,
       isVariant: '01',
-      heading:
-        'White-Label PPC Agency vs In-house PPC Team: What Should You Do?',
+        headingParts: [
+        {
+          text: 'White-Label PPC Agency vs In-house PPC Team: What Should You Do?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         `As your agency grows, you’ll eventually face a critical decision:`,
         `Should you build an in-house PPC team or partner with a white-label PPC agency?`,
@@ -10734,7 +10893,13 @@ brand appears in AI summaries and citations.`,
     faqData: {
       isVisible: true,
       subtitle: 'FAQ',
-      title: 'Frequently Asked Questions',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: ``,
       list: [
         {
@@ -10809,7 +10974,13 @@ brand appears in AI summaries and citations.`,
       isVisible: false,
       code: '01',
       img: '',
-      heading: '',
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       isImgBg: true,
       isCard: false,
       list: [],
@@ -10820,8 +10991,13 @@ brand appears in AI summaries and citations.`,
       isInCenter: false,
       isBgWhite: false,
       isVariant: '01',
-      heading:
-        'White-Label PPC Agency vs In-house PPC Team: What Should You Do?',
+     headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         `As your agency grows, you’ll eventually face a critical decision:`,
         `Should you build an in-house PPC team or partner with a white-label PPC agency?`,
@@ -11519,7 +11695,13 @@ brand appears in AI summaries and citations.`,
       trColor: 'bg-[#7259FF]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
-      heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
+      headingParts: [
+        {
+          text: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [``],
       data: [
         {
@@ -11653,7 +11835,13 @@ brand appears in AI summaries and citations.`,
     faqData: {
       isVisible: true,
       subtitle: 'FAQ',
-      title: 'Frequently Asked Questions',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: ``,
       list: [
         {
@@ -11848,7 +12036,13 @@ brand appears in AI summaries and citations.`,
       isVisible: false,
       code: '01',
       img: '',
-      heading: '',
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       isImgBg: true,
       isCard: false,
       list: [],
@@ -12148,7 +12342,13 @@ brand appears in AI summaries and citations.`,
     keyStats: {
       isVisible: true,
       code: '01',
-      heading: 'The Data Behind AI Search Growth',
+      headingParts: [
+        {
+          text: 'The Data Behind AI Search Growth',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       isCard: false,
       img: '',
       list: [
@@ -12420,7 +12620,13 @@ brand appears in AI summaries and citations.`,
       trColor: 'bg-[#FB9100]',
       rowColor: 'bg-[#FB9100]/10',
       isVariant: '01',
-      heading: 'AEO vs Traditional SEO: A Strategic Comparison',
+      headingParts: [
+        {
+          text: 'AEO vs Traditional SEO: A Strategic Comparison',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description:
         'To understand the shift from rankings to AI citations, it helps to compare both strategies under the same core performance categories.',
       data: [
@@ -12562,7 +12768,13 @@ brand appears in AI summaries and citations.`,
     faqData: {
       isVisible: true,
       subtitle: 'FAQ',
-      title: 'Frequently Asked Questions',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: ``,
       list: [
         {
@@ -13792,7 +14004,13 @@ brand appears in AI summaries and citations.`,
     faqData: {
       isVisible: true,
       subtitle: 'FAQ',
-      title: 'Frequently Asked Questions',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: ``,
       list: [
         {
@@ -13851,7 +14069,13 @@ brand appears in AI summaries and citations.`,
       isVisible: false,
       code: '01',
       img: '',
-      heading: '',
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       isImgBg: true,
       isCard: false,
       list: [],
@@ -13865,7 +14089,13 @@ brand appears in AI summaries and citations.`,
       trColor: 'bg-[#7259FF]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
-      heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [``],
       data: [
         {
@@ -14336,7 +14566,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       code: '01',
       img: whiteLinkBuildingKeyStatsImg,
-      heading: 'Why Should You Rank #1 on Google Maps?',
+      headingParts: [
+        {
+          text: 'Why Should You Rank #1 on Google Maps?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       bgColor: '#FB9100',
       isImgBg: true,
       isCard: false,
@@ -14734,7 +14970,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       bgColor: 'bg-[#FAFAFA]',
       subtitle: 'FAQ',
-      title: 'Frequently Asked Questions',
+headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: ``,
       list: [
         {
@@ -14808,7 +15050,13 @@ brand appears in AI summaries and citations.`,
       trColor: 'bg-[#FB9100]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
-      heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [``],
       data: [
         {
@@ -15404,7 +15652,13 @@ brand appears in AI summaries and citations.`,
       trColor: 'bg-[#FB9100]',
       rowColor: 'bg-[#FFF6EB]',
       isVariant: '01',
-      heading: 'The Importance of Google Maps & Website Optimization',
+      headingParts: [
+        {
+          text: 'The Importance of Google Maps & Website Optimization',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [``],
       data: [
         {
@@ -15826,7 +16080,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       bgColor: 'bg-[#FAFAFA]',
       subtitle: 'FAQ',
-      title: 'Frequently Asked Questions',
+    headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: ``,
       list: [
         {
@@ -15915,7 +16175,13 @@ brand appears in AI summaries and citations.`,
       isVisible: false,
       code: '01',
       img: whiteLinkBuildingKeyStatsImg,
-      heading: 'Why Should You Rank #1 on Google Maps?',
+      headingParts: [
+        {
+          text: 'Why Should You Rank #1 on Google Maps?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       bgColor: '#FB9100',
       isImgBg: true,
       isCard: false,
@@ -16324,7 +16590,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       code: '01',
       img: whiteLinkBuildingKeyStatsImg,
-      heading: 'Key Stats About WordPress Development',
+      headingParts: [
+        {
+          text: 'Key Stats About WordPress Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       bgColor: '#FB9100',
       isImgBg: true,
       isCard: false,
@@ -16766,7 +17038,13 @@ brand appears in AI summaries and citations.`,
     faqData: {
       isVisible: true,
       subtitle: 'FAQ',
-      title: 'Frequently Asked Questions',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: ``,
       list: [
         {
@@ -16869,7 +17147,13 @@ brand appears in AI summaries and citations.`,
       trColor: 'bg-[#FB9100]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
-      heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [``],
       data: [
         {
@@ -17253,7 +17537,13 @@ brand appears in AI summaries and citations.`,
     keyStats: {
       isVisible: true,
       code: '02',
-      heading: 'Explosive Growth of LLM Platforms',
+      headingParts: [
+        {
+          text: 'Explosive Growth of LLM Platforms',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       isCard: true,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773297271/adaired/services/llm_service/KeyStats_flxjoi.png',
       list: [
@@ -17656,7 +17946,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       bgColor: 'bg-[#FFFFFF]',
       subtitle: 'FAQ',
-      title: 'Frequently Asked Questions',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: ``,
       list: [
         {
@@ -18166,7 +18462,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       code: '01',
       img: whiteLinkBuildingKeyStatsImg,
-      heading: 'Shopify’s Global Impact',
+      headingParts: [
+        {
+          text: 'Shopify’s Global Impact',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       bgColor: '#FB9100',
       isImgBg: true,
       isCard: false,
@@ -18609,7 +18911,13 @@ brand appears in AI summaries and citations.`,
     faqData: {
       isVisible: true,
       subtitle: 'FAQ',
-      title: 'Frequently Asked Questions',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: ``,
       list: [
         {
@@ -18800,7 +19108,13 @@ brand appears in AI summaries and citations.`,
       trColor: 'bg-[#FB9100]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
-      heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [``],
       data: [
         {
@@ -19184,7 +19498,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       code: '02',
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773318987/adaired/services/eCommerce_seo_india/eCommerceSeo_KeyStats_dxydm5.png',
-      heading: `Statistics Showing eCommerce SEO's Success!`,
+      headingParts: [
+        {
+          text: `Statistics Showing eCommerce SEO's Success!`,
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       bgColor: '#FB9100',
       isImgBg: true,
       isCard: false,
@@ -19608,7 +19928,13 @@ brand appears in AI summaries and citations.`,
     faqData: {
       isVisible: true,
       subtitle: 'FAQ',
-      title: 'Frequently Asked Questions',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: ``,
       list: [
         {
@@ -19808,7 +20134,13 @@ brand appears in AI summaries and citations.`,
       trColor: 'bg-[#FB9100]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
-      heading: 'Adaired Digital Media vs. Other Generative AI SEO Agencies',
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [``],
       data: [
         {
@@ -20169,7 +20501,13 @@ brand appears in AI summaries and citations.`,
     keyStats: {
       isVisible: true,
       code: '01',
-      heading: 'Statistics That Shape eCommerce',
+      headingParts: [
+        {
+          text: 'Statistics That Shape eCommerce',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       isCard: true,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773297271/adaired/services/llm_service/KeyStats_flxjoi.png',
       list: [
@@ -20679,7 +21017,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       bgColor: 'bg-[#FFFFFF]',
       subtitle: 'FAQ',
-      title: 'Frequently Asked Questions',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: ``,
       list: [
         {
@@ -21067,7 +21411,13 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       code: '01',
       img: whiteLinkBuildingKeyStatsImg,
-      heading: 'Why Businesses Are Investing in Custom Web Development',
+      headingParts: [
+        {
+          text: 'Why Businesses Are Investing in Custom Web Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       bgColor: '#FB9100',
       isImgBg: true,
       isCard: false,
@@ -21148,7 +21498,13 @@ brand appears in AI summaries and citations.`,
       trColor: 'bg-[#7259FF]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
-      heading: 'Custom Web Development vs Traditional Web Development',
+      headingParts: [
+        {
+          text: 'Custom Web Development vs Traditional Web Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: [
         `Here is a clear comparison table showing the difference between Web Development and Custom Web Development:`,
       ],
