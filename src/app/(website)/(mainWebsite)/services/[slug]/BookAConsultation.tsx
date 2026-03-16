@@ -40,7 +40,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
                 subTitle={''}
                 breakIndex={buildlinks?.breakIndex}
                 isH1={true}
-                title={buildlinks?.heading}
+                headingParts={buildlinks?.headingParts}
                 span={buildlinks?.span}
                 spanColor="text-[#FBD04F]"
                 isBgWhite={buildlinks?.isBgWhite && true}
@@ -165,9 +165,10 @@ const BookAConsultation = ({ buildlinks }: any) => {
               <Heading
                 breakIndex={buildlinks?.breakIndex}
                 isH1={true}
-                title={buildlinks?.heading}
                 headingParts={buildlinks?.headingParts}
-                className=""
+                isBgWhite={buildlinks?.isBgWhite && true}
+                className=''
+                title={buildlinks?.heading}
               />
 
               <div className="space-y-4">
@@ -275,7 +276,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
               <Heading
                 breakIndex={buildlinks?.breakIndex}
                 isH1={true}
-                title={buildlinks?.heading}
+                headingParts={buildlinks?.headingParts}
                 isBgWhite={buildlinks?.isBgWhite && true}
                 className=""
               />
@@ -350,7 +351,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
               <Heading
                 breakIndex={buildlinks?.breakIndex}
                 isH1={true}
-                title={buildlinks?.heading}
+                headingParts={buildlinks?.headingParts}
                 isBgWhite={buildlinks?.isBgWhite && true}
                 className=""
               />
@@ -427,7 +428,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
               <Heading
                 breakIndex={buildlinks?.breakIndex}
                 isH1={true}
-                title={buildlinks?.heading}
+                headingParts={buildlinks?.headingParts}
                 isBgWhite={buildlinks?.isBgWhite && true}
                 className=""
               />
@@ -513,9 +514,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
                 subTitle={''}
                 breakIndex={buildlinks?.breakIndex}
                 isH1={true}
-                title={buildlinks?.heading}
-                span={buildlinks?.span}
-                spanColor="text-[#FBD04F]"
+                headingParts={buildlinks?.headingParts}
                 isBgWhite={buildlinks?.isBgWhite && true}
               />
               <div>
@@ -580,7 +579,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
               <Heading
                 breakIndex={buildlinks?.breakIndex}
                 isH1={true}
-                title={buildlinks?.heading}
+                headingParts={buildlinks?.headingParts}
                 isBgWhite={buildlinks?.isBgWhite && true}
                 className=""
               />

@@ -30,7 +30,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
                 isDecVarticle
                 isInCenter={importantToBussiness?.isInCenter}
                 isBgWhite={importantToBussiness?.isInCenter && true}
-                title={importantToBussiness?.heading}
+                headingParts={importantToBussiness?.headingParts}
                 description={importantToBussiness?.description}
                 breakIndex={importantToBussiness?.breakIndex}
               />
@@ -178,7 +178,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
                 isDecVarticle
                 isInCenter={importantToBussiness?.isInCenter}
                 isBgWhite={importantToBussiness?.isInCenter && true}
-                title={importantToBussiness?.heading}
+                headingParts={importantToBussiness?.headingParts}
                 description={importantToBussiness?.description}
                 breakIndex={importantToBussiness?.breakIndex}
               />
@@ -228,7 +228,7 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
                 isDecVarticle
                 isInCenter={importantToBussiness?.isInCenter}
                 isBgWhite={importantToBussiness?.isInCenter && true}
-                title={importantToBussiness?.heading}
+                headingParts={importantToBussiness?.headingParts}
                 description={importantToBussiness?.description}
                 breakIndex={importantToBussiness?.breakIndex}
               />
