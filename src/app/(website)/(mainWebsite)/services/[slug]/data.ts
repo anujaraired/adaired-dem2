@@ -6582,7 +6582,7 @@ brand appears in AI summaries and citations.`,
 
     whatIncluded: {
       isVisible: true,
-      isVariant: '03',
+      isVariant: '01',
       breakIndex: 3,
       heading: 'White-Label Services We Provide',
       description: [
@@ -6599,7 +6599,7 @@ brand appears in AI summaries and citations.`,
             and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
             `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
           ],
-          linkText: 'Start a Conversation',
+          button: 'Start a Conversation',
           linkHref: '#',
           showIcon: true,
         },
@@ -6611,7 +6611,7 @@ brand appears in AI summaries and citations.`,
             We help with content planning, publishing, engagement monitoring, and performance analysis across all major social platforms.`,
             `All activity is carried out under your brand, allowing you to maintain a consistent tone and presentation while ensuring regular output and account-level management.`,
           ],
-          linkText: 'Start a Conversation',
+          button: 'Start a Conversation',
           linkHref: '#',
           showIcon: true,
         },
@@ -6623,7 +6623,7 @@ brand appears in AI summaries and citations.`,
             We support campaign setup, optimization, performance monitoring, and reporting across major ad platforms.`,
             `This model enables agencies to offer paid advertising as a managed service while keeping budget control, client communication, and strategic direction in-house.`,
           ],
-          linkText: 'Start a Conversation',
+          button: 'Start a Conversation',
           linkHref: '#',
           showIcon: true,
         },
@@ -6635,7 +6635,7 @@ brand appears in AI summaries and citations.`,
             Our white-label link-building services offer agencies structured outreach and placement management that aligns with search guidelines and long-term visibility goals.`,
             `This service allows agencies to strengthen authority for client sites without managing outreach operations or relying on inconsistent third-party vendors.`,
           ],
-          linkText: 'Start a Conversation',
+          button: 'Start a Conversation',
           linkHref: '#',
           showIcon: true,
         },
@@ -6648,7 +6648,7 @@ brand appears in AI summaries and citations.`,
             `This service enables agencies to offer custom websites under their own brand while maintaining control over client communication, scope, 
             and timelines, all without having to manage in-house design or development teams.`,
           ],
-          linkText: 'Start a Conversation',
+          button: 'Start a Conversation',
           linkHref: '#',
           showIcon: true,
         },
@@ -6660,12 +6660,11 @@ brand appears in AI summaries and citations.`,
             We assist with application planning, development, integration, testing, and platform-wide updates.`,
             `All development is done under your brand, allowing you to provide app-based solutions without the added complexity of managing application-level development internally.`,
           ],
-          linkText: 'Start a Conversation',
+          button: 'Start a Conversation',
           linkHref: '#',
           showIcon: true,
         },
       ],
-      button: 'Start a Conversation',
     },
 
     adairedHelp: {
@@ -7667,27 +7666,6 @@ brand appears in AI summaries and citations.`,
 
     whatIncluded: {
       isVisible: false,
-      isVariant: '03',
-      breakIndex: 3,
-      heading: 'White-Label Services We Provide',
-      description: [
-        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
-        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
-      ],
-      list: [
-        {
-          icon: whiteServicesIncluded_1,
-          title: 'White-Label SEO',
-          description: [
-            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
-            We handle research, optimization, technical improvements, 
-            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
-            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-      ],
     },
 
     adairedHelp: {
@@ -9015,27 +8993,6 @@ brand appears in AI summaries and citations.`,
 
     whatIncluded: {
       isVisible: false,
-      isVariant: '03',
-      breakIndex: 3,
-      heading: 'White-Label Services We Provide',
-      description: [
-        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
-        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
-      ],
-      list: [
-        {
-          icon: whiteServicesIncluded_1,
-          title: 'White-Label SEO',
-          description: [
-            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
-            We handle research, optimization, technical improvements, 
-            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
-            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-      ],
     },
 
     keyStats: {
@@ -10034,27 +9991,6 @@ brand appears in AI summaries and citations.`,
 
     whatIncluded: {
       isVisible: false,
-      isVariant: '03',
-      breakIndex: 3,
-      heading: 'White-Label Services We Provide',
-      description: [
-        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
-        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
-      ],
-      list: [
-        {
-          icon: whiteServicesIncluded_1,
-          title: 'White-Label SEO',
-          description: [
-            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
-            We handle research, optimization, technical improvements, 
-            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
-            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-      ],
     },
 
     needofservice: {
@@ -10945,27 +10881,6 @@ brand appears in AI summaries and citations.`,
 
     whatIncluded: {
       isVisible: false,
-      isVariant: '03',
-      breakIndex: 3,
-      heading: 'White-Label Services We Provide',
-      description: [
-        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
-        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
-      ],
-      list: [
-        {
-          icon: whiteServicesIncluded_1,
-          title: 'White-Label SEO',
-          description: [
-            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
-            We handle research, optimization, technical improvements, 
-            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
-            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-      ],
     },
 
     needofservice: {
@@ -11868,27 +11783,6 @@ brand appears in AI summaries and citations.`,
 
     whatIncluded: {
       isVisible: false,
-      isVariant: '03',
-      breakIndex: 3,
-      heading: 'White-Label Services We Provide',
-      description: [
-        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
-        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
-      ],
-      list: [
-        {
-          icon: whiteServicesIncluded_1,
-          title: 'White-Label SEO',
-          description: [
-            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
-            We handle research, optimization, technical improvements, 
-            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
-            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-      ],
     },
 
     needofservice: {
@@ -12712,28 +12606,6 @@ brand appears in AI summaries and citations.`,
 
     whatIncluded: {
       isVisible: false,
-      isVariant: '03',
-      breakIndex: 3,
-      heading: 'White-Label Services We Provide',
-      description: [
-        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
-        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
-      ],
-      list: [
-        {
-          icon: whiteServicesIncluded_1,
-          title: 'White-Label SEO',
-          description: [
-            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
-            We handle research, optimization, technical improvements, 
-            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
-            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-      ],
-      button: 'Start a Conversation',
     },
 
     buildlinks: {
@@ -13360,7 +13232,7 @@ brand appears in AI summaries and citations.`,
     importantToBussiness: {
       isVisible: true,
       breakIndex: 3,
-      isVariant: '03',
+      isVariant: '01',
       cardColor: '#F9F9F9',
       isCardVisible: true,
       headingParts: [
@@ -14053,27 +13925,6 @@ brand appears in AI summaries and citations.`,
 
     whatIncluded: {
       isVisible: false,
-      isVariant: '03',
-      breakIndex: 3,
-      heading: 'White-Label Services We Provide',
-      description: [
-        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
-        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
-      ],
-      list: [
-        {
-          icon: whiteServicesIncluded_1,
-          title: 'White-Label SEO',
-          description: [
-            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
-            We handle research, optimization, technical improvements, 
-            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
-            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-      ],
     },
 
     needofservice: {
@@ -15077,27 +14928,6 @@ brand appears in AI summaries and citations.`,
 
     whatIncluded: {
       isVisible: false,
-      isVariant: '03',
-      breakIndex: 3,
-      heading: 'White-Label Services We Provide',
-      description: [
-        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
-        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
-      ],
-      list: [
-        {
-          icon: whiteServicesIncluded_1,
-          title: 'White-Label SEO',
-          description: [
-            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
-            We handle research, optimization, technical improvements, 
-            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
-            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-      ],
     },
 
     needofservice: {
@@ -16090,27 +15920,6 @@ brand appears in AI summaries and citations.`,
 
     whatIncluded: {
       isVisible: false,
-      isVariant: '03',
-      breakIndex: 3,
-      heading: 'White-Label Services We Provide',
-      description: [
-        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
-        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
-      ],
-      list: [
-        {
-          icon: whiteServicesIncluded_1,
-          title: 'White-Label SEO',
-          description: [
-            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
-            We handle research, optimization, technical improvements, 
-            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
-            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-      ],
     },
 
     needofservice: {
@@ -17021,27 +16830,6 @@ brand appears in AI summaries and citations.`,
 
     whatIncluded: {
       isVisible: false,
-      isVariant: '03',
-      breakIndex: 3,
-      heading: 'White-Label Services We Provide',
-      description: [
-        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
-        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
-      ],
-      list: [
-        {
-          icon: whiteServicesIncluded_1,
-          title: 'White-Label SEO',
-          description: [
-            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
-            We handle research, optimization, technical improvements, 
-            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
-            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-      ],
     },
 
     needofservice: {
@@ -17777,20 +17565,6 @@ brand appears in AI summaries and citations.`,
     },
     whatIncluded: {
       isVisible: false,
-      isVariant: '01',
-      heading: 'What’s Included in Our SEO Services',
-      list: [
-        {
-          icon: seo_tool_3,
-          title: 'Keyword Research and Analysis',
-          description: [
-            `We start the process by conducting a comprehensive keyword research. It helps determine the search terms that users input in search engines when looking for related information, products, or services.`,
-            `Our effective SEO strategy consists of proper keyword research to match the content of the websites with what the users are actively searching for.`,
-          ],
-          button: 'Get Your Free SEO Audit',
-          btnColor: '#1A5A96',
-        },
-      ],
     },
     serviceResult: {
       isVisible: false,
@@ -18953,27 +18727,6 @@ brand appears in AI summaries and citations.`,
 
     whatIncluded: {
       isVisible: false,
-      isVariant: '03',
-      breakIndex: 3,
-      heading: 'White-Label Services We Provide',
-      description: [
-        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
-        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
-      ],
-      list: [
-        {
-          icon: whiteServicesIncluded_1,
-          title: 'White-Label SEO',
-          description: [
-            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
-            We handle research, optimization, technical improvements, 
-            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
-            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-      ],
     },
 
     needofservice: {
@@ -19480,7 +19233,7 @@ brand appears in AI summaries and citations.`,
 
     whatIncluded: {
       isVisible: true,
-      isVariant: '03',
+      isVariant: '01',
       breakIndex: 3,
       heading: 'Platform-Specific SEO for eCommerce Success',
       description: [
@@ -19495,7 +19248,7 @@ brand appears in AI summaries and citations.`,
             `Adaired offers full SEO e commerce services to Shopify stores, such as structured data implementation, technical search engine optimization, metadata optimization, and artificial intelligence content approaches.`,
             `With our future-ready strategy, your Shopify stores will be ranked higher, voice and AI search traffic will be drawn in, conversions will be increased, and your product pages will maintain search engine and user compatibility across all devices.`,
           ],
-          // linkText: 'Start a Conversation',
+          button: 'Start a Conversation',
           // linkHref: '#',
         },
         {
@@ -19505,7 +19258,7 @@ brand appears in AI summaries and citations.`,
             `Our Magento e-commerce SEO services aim at strong technical SEO, improved site architecture, quick loads of the pages, and Magento caters to product page management. Adaired will provide ease of navigation, enhanced indexing, and enhanced ranking of the search results.`,
             `Your Magento store with our 2025-oriented plans will ensure high-intent traffic and a high conversion rate that will make you stay out of the fray in the changing e-commerce environment.`,
           ],
-          // linkText: 'Start a Conversation',
+          button: 'Start a Conversation',
           // linkHref: '#',
         },
         {
@@ -19515,7 +19268,7 @@ brand appears in AI summaries and citations.`,
             `We also optimize the BigCommerce shop using platform-specific e-commerce SEO services such as content optimization, metadata optimization, structured data, and internal linking optimization. Adaired boosts the visibility, indexing, and organic traffic.`,
             `Mobile-first design, optimizing AI search, and technical SEO can make your BigCommerce store competitive, provide a smooth user experience, and increase your search performance.`,
           ],
-          // linkText: 'Start a Conversation',
+          button: 'Start a Conversation',
           // linkHref: '#',
         },
         {
@@ -19525,7 +19278,7 @@ brand appears in AI summaries and citations.`,
             `We also optimize the BigCommerce shop using platform-specific e-commerce SEO services such as content optimization, metadata optimization, structured data, and internal linking optimization.`,
             `Adaired boosts the visibility, indexing, and organic traffic. Mobile-first design, optimizing AI search, and technical SEO can make your BigCommerce store competitive, provide a smooth user experience, and increase your search performance.`,
           ],
-          // linkText: 'Start a Conversation',
+          button: 'Start a Conversation',
           // linkHref: '#',
         },
         {
@@ -19535,7 +19288,7 @@ brand appears in AI summaries and citations.`,
             `Adaired’s SEO e commerce services for OpenCart include technical audits, product page optimization, URL structure improvements, and mobile-first design adjustments.`,
             `Our priorities are search ranking and user experience, as well as conversions. Your OpenCart store benefits from advanced SEO strategies tailored to evolving search algorithms, AI, and voice search trends, ensuring long-term online growth.`,
           ],
-          // linkText: 'Start a Conversation',
+          button: 'Start a Conversation',
           // linkHref: '#',
         },
         {
@@ -19545,7 +19298,7 @@ brand appears in AI summaries and citations.`,
             `For custom or lesser-known platforms, Adaired offers complete e-commerce SEO, such as site audits, keyword strategy, technical optimization, content optimization, and conversion-oriented SEO.`,
             `We implement future-ready strategies to keep your store competitive on any platform, utilizing AI, voice search, and mobile-first optimization to keep it successful. We assist your business in securing additional traffic, increasing the level of engagement, and generating quantifiable growth.`,
           ],
-          // linkText: 'Start a Conversation',
+          button: 'Start a Conversation',
           // linkHref: '#',
         },
       ],
@@ -21965,27 +21718,6 @@ brand appears in AI summaries and citations.`,
 
     whatIncluded: {
       isVisible: false,
-      isVariant: '03',
-      breakIndex: 3,
-      heading: 'White-Label Services We Provide',
-      description: [
-        'Adaired provides a range of white-label digital services to help agencies meet client demand through multiple channels.',
-        "These services are delivered under your brand and are integrated into your agency's workflows, making it easier to provide consistent execution while reducing internal complexity.",
-      ],
-      list: [
-        {
-          icon: whiteServicesIncluded_1,
-          title: 'White-Label SEO',
-          description: [
-            `Our white-label SEO services help businesses offer search engine optimization without the need for in-house specialists. 
-            We handle research, optimization, technical improvements, 
-            and continuous performance monitoring while adhering to your company's service structure and reporting guidelines.`,
-            `This allows you to offer SEO as a long-term service, keep delivery consistent across accounts, and maintain complete control over client communication and branding.`,
-          ],
-          linkText: 'Start a Conversation',
-          linkHref: '#',
-        },
-      ],
     },
 
     needofservice: {
