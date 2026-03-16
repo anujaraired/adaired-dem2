@@ -185,7 +185,6 @@ const WhatAreService = ({ whatareaiseo }: any) => {
             paddingTop: whatareaiseo?.paddingY,
             paddingBottom: whatareaiseo?.paddingY,
             backgroundColor: whatareaiseo?.bgColor,
-            
           }}
         >
           <MaxWidthWrapper
@@ -200,8 +199,6 @@ const WhatAreService = ({ whatareaiseo }: any) => {
             >
               <Heading
                 className="flex justify-center lg:justify-start"
-                // title={whatareaiseo?.heading}
-                // span={whatareaiseo?.span}
                 headingParts={whatareaiseo?.headingParts}
                 spanColor="text-[#FBD04F]"
                 breakIndex={whatareaiseo?.breakIndex}
