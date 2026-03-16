@@ -200,8 +200,9 @@ const WhatAreService = ({ whatareaiseo }: any) => {
             >
               <Heading
                 className="flex justify-center lg:justify-start"
-                title={whatareaiseo?.heading}
-                span={whatareaiseo?.span}
+                // title={whatareaiseo?.heading}
+                // span={whatareaiseo?.span}
+                headingParts={whatareaiseo?.headingParts}
                 spanColor="text-[#FBD04F]"
                 breakIndex={whatareaiseo?.breakIndex}
                 isBgWhite={whatareaiseo?.bgColor && true}
