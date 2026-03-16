@@ -77,9 +77,6 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 className="flex justify-center lg:justify-start"
                 subTitle={''}
                 headingParts={whatareaiseo?.headingParts}
-                span={whatareaiseo?.span}
-                spanColor="text-[#FBD04F]"
-                isBgWhite={whatareaiseo?.isBgWhite && true}
               />
               <div className="">
                 {whatareaiseo?.data?.map((item: any) => {
@@ -132,9 +129,6 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 className="flex justify-center lg:justify-start"
                 subTitle={''}
                 headingParts={whatareaiseo?.headingParts}
-                span={whatareaiseo?.span}
-                spanColor="text-[#FBD04F]"
-                isBgWhite={whatareaiseo?.isBgWhite && true}
               />
               <div className="">
                 {whatareaiseo?.data?.map((item: any) => {
@@ -202,7 +196,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 headingParts={whatareaiseo?.headingParts}
                 spanColor="text-[#FBD04F]"
                 breakIndex={whatareaiseo?.breakIndex}
-                isBgWhite={whatareaiseo?.bgColor && true}
+                // isBgWhite={whatareaiseo?.bgColor && true}
               />
               <div className="">
                 {whatareaiseo?.data?.map((item: any, index: number) => {
@@ -309,10 +303,6 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 className="flex justify-center lg:justify-start"
                 subTitle={''}
                 headingParts={whatareaiseo?.headingParts}
-                span={whatareaiseo?.span}
-                spanBreakIndex={2}
-                spanColor="text-[#FBD04F]"
-                isBgWhite={whatareaiseo?.isBgWhite && true}
               />
               <div className="">
                 {whatareaiseo?.data?.map((item: any, index: number) => {
@@ -389,8 +379,6 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 subTitle={''}
                 headingParts={whatareaiseo?.headingParts}
                 span={whatareaiseo?.span}
-                spanColor="text-[#FBD04F]"
-                isBgWhite={whatareaiseo?.isBgWhite && true}
               />
               <div className="">
                 {whatareaiseo?.data?.map((item: any) => {
@@ -437,9 +425,6 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 className="flex justify-center lg:justify-start"
                 subTitle={''}
                 headingParts={whatareaiseo?.headingParts}
-                span={whatareaiseo?.span}
-                spanColor="text-[#FBD04F]"
-                isBgWhite={whatareaiseo?.isBgWhite && true}
               />
               <div className="">
                 {whatareaiseo?.data?.map((item: any) => {
@@ -499,9 +484,6 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 className="flex justify-center lg:justify-start"
                 subTitle={''}
                 headingParts={whatareaiseo?.headingParts}
-                span={whatareaiseo?.span}
-                spanColor="text-[#FBD04F]"
-                isBgWhite={whatareaiseo?.isBgWhite && true}
               />
               <div className="">
                 {whatareaiseo?.data?.map((item: any) => {

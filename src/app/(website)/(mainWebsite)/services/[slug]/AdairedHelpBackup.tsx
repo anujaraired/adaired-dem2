@@ -19,7 +19,7 @@ const AdairedHelpBackup = ({ adairedHelp }: any) => {
             breakIndex={6}
             isBgWhite
             isInCenter
-            title={adairedHelp?.heading}
+            headingParts={adairedHelp?.headingParts}
             className="mx-auto"
           />
         </div>

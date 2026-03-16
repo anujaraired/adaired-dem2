@@ -26,7 +26,7 @@ const BuildLinks = ({ buildlinks }: any) => {
                 subTitle={''}
                 breakIndex={5}
                 isH1={true}
-                title={buildlinks?.heading}
+                headingParts={buildlinks?.headingParts}
                 span={buildlinks?.span}
                 spanColor="text-[#FBD04F]"
                 isBgWhite={buildlinks?.isBgWhite && true}
