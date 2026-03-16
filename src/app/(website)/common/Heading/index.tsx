@@ -23,6 +23,7 @@ export interface IHeading {
   isLabel?: boolean;
   spanBreakIndex?: number;
   isCapitalize?: boolean;
+  headingParts?: any;
 }
 
 const Heading = ({
@@ -44,6 +45,7 @@ const Heading = ({
   isVarticle,
   isLabel,
   isCapitalize,
+  headingParts,
 }: IHeading) => {
   const safeTitle = title ?? '';
   const safeSpan = span ?? '';
@@ -264,46 +266,57 @@ const Heading = ({
                     <h1
                       className={`text-center ${isCapitalize && 'capitalize'} lg:text-left ${isBgWhite ? 'text-[#ffffff]' : 'text-[#000000]'}`}
                     >
-                      {breakIndex !== undefined ? (
-                        <>
-                          {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />{' '}
-                          {words.slice(breakIndex).join(' ')}
-                        </>
-                      ) : (
-                        words.join(' ')
-                      )}
-
-                      <span className={`${spanColor}`}>{span}</span>
+                      {headingParts
+                        ?.flatMap((part: any) =>
+                          part.text.split(' ').map((word: string) => ({
+                            word,
+                            color: part.color,
+                            weight: part.weight,
+                          }))
+                        )
+                        .map((item: any, i: number) => (
+                          <span
+                            key={i}
+                            style={{
+                              color: item.color,
+                              fontWeight: item.weight,
+                            }}
+                            className="text-[clamp(1.8rem,3vw,3.75rem)] leading-[clamp(2.5rem,3.65vw,4.65rem)]"
+                          >
+                            {item.word}{' '}
+                            {breakIndex === i + 1 && (
+                              <br className="hidden md:block" />
+                            )}
+                          </span>
+                        ))}
                     </h1>
                   ) : (
                     <h2
                       className={`text-center capitalize lg:text-left ${isBgWhite ? 'text-[#ffffff]' : 'text-[#000000]'}`}
                     >
-                      {breakIndex !== undefined ? (
-                        <>
-                          {words.slice(0, breakIndex).join(' ')}
-                          <br className="hidden md:block" />{' '}
-                          {words.slice(breakIndex).join(' ')}
-                        </>
-                      ) : (
-                        words.join(' ')
-                      )}
-
-                      <span
-                        className={`pl-3 pt-[0.25rem] text-center font-poppins text-[1.6rem] font-semibold leading-[2rem] ${spanColor} md:text-[2.25rem] md:leading-[2.75rem] lg:text-left lg:text-[1.8rem] lg:leading-[2.5rem] xl:text-[2.188rem] xl:leading-[3.125rem] 1360:text-[2rem] 1360:leading-[2.6rem] 2xl:leading-[1.6] 3xl:text-[2.188rem]`}
-                      >
-                        {/* {span} */}
-                        {spanBreakIndex !== undefined ? (
-                          <>
-                            {spans.slice(0, spanBreakIndex).join(' ')}
-                            <br className="hidden md:block" />{' '}
-                            {spans.slice(spanBreakIndex).join(' ')}
-                          </>
-                        ) : (
-                          spans.join(' ')
-                        )}
-                      </span>
+                      {headingParts
+                        ?.flatMap((part: any) =>
+                          part.text.split(' ').map((word: string) => ({
+                            word,
+                            color: part.color,
+                            weight: part.weight,
+                          }))
+                        )
+                        .map((item: any, i: number) => (
+                          <span
+                            key={i}
+                            style={{
+                              color: item.color,
+                              fontWeight: item.weight,
+                            }}
+                            className="text-[clamp(1.6rem,2.188vw,2.188rem)] leading-[clamp(2rem,3.125vw,3.125rem)]"
+                          >
+                            {item.word}{' '}
+                            {breakIndex === i + 1 && (
+                              <br className="hidden md:block" />
+                            )}
+                          </span>
+                        ))}
                     </h2>
                   )}
                 </div>
