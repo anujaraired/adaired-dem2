@@ -21687,7 +21687,13 @@ brand appears in AI summaries and citations.`,
     faqData: {
       isVisible: true,
       subtitle: 'FAQ',
-      title: 'Frequently Asked Questions',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
       description: ``,
       list: [
         {
