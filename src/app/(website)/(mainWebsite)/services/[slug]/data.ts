@@ -9923,7 +9923,7 @@ export const SERVICES_DATA = {
 
     whatareservice2: {
       isVisible: true,
-      isVariant: '11',
+      isVariant: '04',
       img: geoAiSeoWhatServiceImg,
       headingParts: [
         {
@@ -9933,6 +9933,11 @@ export const SERVICES_DATA = {
         },
       ],
       bgColor: '#FFFFFF',
+      imgWidth: '715px',
+      imgHight: '760px',
+      paddingY: '3rem',
+      width: '50%',
+      isGap: false,
       button: '',
       data: [
         {
@@ -9964,7 +9969,7 @@ export const SERVICES_DATA = {
       breakIndex: 0,
       img: geoAiSeoAdairedHelpImg,
       isInCenter: true,
-      bgColor: '#FFFBF5',
+      bgColor: 'bg-[#FFFBF5]',
       cardBg: '',
       headingParts: [
         {
