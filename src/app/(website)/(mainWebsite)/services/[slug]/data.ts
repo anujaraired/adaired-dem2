@@ -661,6 +661,7 @@ import customWebDevTechStackImg_5 from '../../../../../../public/assets/images/s
 
 // IOS App Development Images
 import iosAppDevKeyStatsImg from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevKeyStatsImg.png';
+import iosAppDevWhatServiceImg from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevWhatServiceImg.png';
 
 import iosAppDevImpImg_1 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevImpImg_1.png';
 import iosAppDevImpImg_2 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevImpImg_2.png';
@@ -18613,9 +18614,9 @@ export const SERVICES_DATA = {
       subheading: '',
       button: 'Let’s Build Your App',
       width: '45%',
-      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388293/adaired/services/custom_web_development/customWebDevBannerImg_jruqxc.png',
-      imgWidth: '1062',
-      imgHight: '602',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749342/adaired/services/ios_app_development/iosAppDevBannerImg_iwkfje.png',
+      imgWidth: '911',
+      imgHight: '682',
     },
 
     keyStats: {
@@ -18673,10 +18674,10 @@ export const SERVICES_DATA = {
       paddingY: '4rem',
       isRowReverse: true,
       width: '65%',
-      img: customWebDevWhatAreServiceImg,
-      // img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388292/adaired/services/custom_web_development/customWebDevWhatAreServiceImg_ropdfp.png',
-      imgWidth: '836px',
-      imgHight: '558px',
+      img: iosAppDevWhatServiceImg,
+      // img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749236/adaired/services/ios_app_development/iosAppDevWhatServiceImg_hmwdgq.png',
+      imgWidth: '931px',
+      imgHight: '621px',
       headingParts: [
         {
           text: 'What is iOS App Development?',
@@ -18909,35 +18910,35 @@ export const SERVICES_DATA = {
       ],
       list: [
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388295/adaired/services/custom_web_development/customWebDevWhatMkDiffImg_1_ogegl2.png',
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749342/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_1_tpiyob.png',
           name: 'Experienced Development Team',
           description: [
             `Our developers bring years of experience building iOS applications across multiple industries. This experience allows us to deliver reliable solutions that meet both technical and business requirements.`,
           ],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388295/adaired/services/custom_web_development/customWebDevWhatMkDiffImg_1_ogegl2.png',
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_2_jg8qis.png',
           name: 'Client-Focused Approach',
           description: [
             `We prioritize collaboration and transparency throughout the development process. By maintaining open communication, we ensure that every project aligns with the client’s vision and expectations.`,
           ],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388295/adaired/services/custom_web_development/customWebDevWhatMkDiffImg_1_ogegl2.png',
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_3_vvklaq.png',
           name: 'Scalable and Secure Applications',
           description: [
             `Security and scalability are built into every solution we develop. Our applications are designed to handle increasing user traffic while protecting sensitive data through advanced security practices.`,
           ],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388295/adaired/services/custom_web_development/customWebDevWhatMkDiffImg_1_ogegl2.png',
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773750392/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_4.png',
           name: 'Agile Development Methodology',
           description: [
             `Our agile approach allows us to adapt quickly to changing requirements while maintaining efficient development cycles. This flexibility ensures faster delivery without compromising quality.`,
           ],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388295/adaired/services/custom_web_development/customWebDevWhatMkDiffImg_1_ogegl2.png',
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_5_lecxdb.png',
           name: 'Long-Term Partnership',
           description: [
             `We view every project as the beginning of a long-term partnership. Our team provides continuous support and strategic guidance to help businesses grow and evolve their digital products.`,
@@ -18996,27 +18997,27 @@ export const SERVICES_DATA = {
       bgImg: '',
       list: [
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388294/adaired/services/custom_web_development/customWebDevIndustriesWeServe__1_ificfg.png',
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_1_gmywri.png',
           btn: [`Fintech`],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388294/adaired/services/custom_web_development/customWebDevIndustriesWeServe__2_jpt4f5.png',
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_2_r3qlub.png',
           btn: [`Healthcare`],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388295/adaired/services/custom_web_development/customWebDevIndustriesWeServe__3_fx5csy.png',
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749340/adaired/services/ios_app_development/iosAppDevIndustriesImg_3_m5hp7t.png',
           btn: [`E-commerce`],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388294/adaired/services/custom_web_development/customWebDevIndustriesWeServe__4_rd9gro.png',
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_4_okdehb.png',
           btn: [`Education`],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388294/adaired/services/custom_web_development/customWebDevIndustriesWeServe__5_ynvkcw.png',
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_5_vctvmh.png',
           btn: [`Travel and Hospitality`],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388293/adaired/services/custom_web_development/customWebDevIndustriesWeServe__6_m8d4ub.png',
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749339/adaired/services/ios_app_development/iosAppDevIndustriesImg_6_rseu98.png',
           btn: [`Fashion & Beauty`],
         },
       ],
@@ -19028,9 +19029,9 @@ export const SERVICES_DATA = {
       isVariant: '03',
       breakIndex: 4,
       bgImg: bgImgBuildLink,
-      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388292/adaired/services/custom_web_development/customWebDevBuildLinkImg_y1mjuu.png',
-      imgWidth: '738',
-      imgHight: '541',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevBuildLinkImg_qwlohk.png',
+      imgWidth: '744',
+      imgHight: '456',
       headingParts: [
         {
           text: 'Start Your iOS App',
