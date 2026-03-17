@@ -43,7 +43,6 @@ const BookAConsultation = ({ buildlinks }: any) => {
                 headingParts={buildlinks?.headingParts}
                 span={buildlinks?.span}
                 spanColor="text-[#FBD04F]"
-                isBgWhite={buildlinks?.isBgWhite && true}
               />
               <div>
                 {buildlinks?.data?.map((item: any) => {
@@ -100,7 +99,6 @@ const BookAConsultation = ({ buildlinks }: any) => {
                 headingParts={buildlinks?.headingParts}
                 span={buildlinks?.span}
                 spanColor="text-[#FBD04F]"
-                isBgWhite={buildlinks?.isBgWhite && true}
               />
               <div>
                 {buildlinks?.data?.map((item: any) => {
@@ -166,7 +164,6 @@ const BookAConsultation = ({ buildlinks }: any) => {
                 breakIndex={buildlinks?.breakIndex}
                 isH1={true}
                 headingParts={buildlinks?.headingParts}
-                isBgWhite={buildlinks?.isBgWhite && true}
                 className=''
               />
 
@@ -276,7 +273,6 @@ const BookAConsultation = ({ buildlinks }: any) => {
                 breakIndex={buildlinks?.breakIndex}
                 isH1={true}
                 headingParts={buildlinks?.headingParts}
-                isBgWhite={buildlinks?.isBgWhite && true}
                 className=""
               />
 
@@ -351,7 +347,6 @@ const BookAConsultation = ({ buildlinks }: any) => {
                 breakIndex={buildlinks?.breakIndex}
                 isH1={true}
                 headingParts={buildlinks?.headingParts}
-                isBgWhite={buildlinks?.isBgWhite && true}
                 className=""
               />
 
@@ -428,7 +423,6 @@ const BookAConsultation = ({ buildlinks }: any) => {
                 breakIndex={buildlinks?.breakIndex}
                 isH1={true}
                 headingParts={buildlinks?.headingParts}
-                isBgWhite={buildlinks?.isBgWhite && true}
                 className=""
               />
 
@@ -514,7 +508,6 @@ const BookAConsultation = ({ buildlinks }: any) => {
                 breakIndex={buildlinks?.breakIndex}
                 isH1={true}
                 headingParts={buildlinks?.headingParts}
-                isBgWhite={buildlinks?.isBgWhite && true}
               />
               <div>
                 {buildlinks?.data?.map((item: any) => {
@@ -579,7 +572,6 @@ const BookAConsultation = ({ buildlinks }: any) => {
                 breakIndex={buildlinks?.breakIndex}
                 isH1={true}
                 headingParts={buildlinks?.headingParts}
-                isBgWhite={buildlinks?.isBgWhite && true}
                 className=""
               />
 

@@ -17,7 +17,6 @@ const AdairedHelpBackup = ({ adairedHelp }: any) => {
         >
           <Heading
             breakIndex={6}
-            isBgWhite
             isInCenter
             headingParts={adairedHelp?.headingParts}
             className="mx-auto"

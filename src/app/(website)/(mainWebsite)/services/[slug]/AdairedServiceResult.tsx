@@ -154,7 +154,6 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
             >
               <Heading
                 isInCenter={true}
-                isBgWhite={true}
                 headingParts={aiseoResult?.headingParts}
                 description={aiseoResult?.description}
               />
@@ -281,7 +280,6 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
                 isInCenter={aiseoResult?.isInCenter}
                 description={aiseoResult?.description}
                 isDecVarticle={!aiseoResult?.isInCenter}
-                isBgWhite={!aiseoResult?.bgColor && true}
               />
             </div>
 

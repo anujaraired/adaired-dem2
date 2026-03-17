@@ -34,7 +34,6 @@ const OurProcess2 = ({ ourProcess }: any) => {
             breakIndex={ourProcess?.breakIndex}
             title={ourProcess?.title}
             isInCenter={ourProcess?.isInCenter}
-            isBgWhite={ourProcess?.isInCenter && true}
           />
         </div>
         <div

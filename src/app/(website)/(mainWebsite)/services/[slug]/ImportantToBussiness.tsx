@@ -29,7 +29,6 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
               <Heading
                 isDecVarticle
                 isInCenter={importantToBussiness?.isInCenter}
-                isBgWhite={importantToBussiness?.isInCenter && true}
                 headingParts={importantToBussiness?.headingParts}
                 description={importantToBussiness?.description}
                 breakIndex={importantToBussiness?.breakIndex}
@@ -176,7 +175,6 @@ const ImportantToBussiness = ({ importantToBussiness }: any) => {
               <Heading
                 isDecVarticle
                 isInCenter={importantToBussiness?.isInCenter}
-                isBgWhite={importantToBussiness?.isInCenter && true}
                 headingParts={importantToBussiness?.headingParts}
                 description={importantToBussiness?.description}
                 breakIndex={importantToBussiness?.breakIndex}

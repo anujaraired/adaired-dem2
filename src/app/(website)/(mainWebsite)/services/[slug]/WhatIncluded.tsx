@@ -26,7 +26,6 @@ const WhatIncluded = ({ whatIncluded }: any) => {
                   headingParts={whatIncluded?.headingParts}
                   description={whatIncluded?.description}
                   isInCenter={true}
-                  isBgWhite={true}
                 />
                 <div className="grid grid-cols-1 gap-6 pt-[1rem] lg:grid-cols-3">
                   {whatIncluded?.list?.map((card: any, index: number) => (
@@ -83,7 +82,6 @@ const WhatIncluded = ({ whatIncluded }: any) => {
                   headingParts={whatIncluded?.headingParts}
                   description={whatIncluded?.description}
                   isInCenter={true}
-                  isBgWhite={true}
                 />
                 <div className="grid grid-cols-1 gap-6 pt-[1rem] lg:grid-cols-2">
                   {whatIncluded?.list?.map((card: any, index: number) => (

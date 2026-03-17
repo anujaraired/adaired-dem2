@@ -29,7 +29,6 @@ const BuildLinks = ({ buildlinks }: any) => {
                 headingParts={buildlinks?.headingParts}
                 span={buildlinks?.span}
                 spanColor="text-[#FBD04F]"
-                isBgWhite={buildlinks?.isBgWhite && true}
               />
               <div>
                 {buildlinks?.data?.map((item: any) => {

@@ -69,7 +69,6 @@ const TechStackMobile = ({ techStackMobile }: any) => {
                         headingParts={techStackMobile?.headingParts}
                         description={techStackMobile?.description}
                         isInCenter={true}
-                        isBgWhite={true}
                     />
                 </div>
 

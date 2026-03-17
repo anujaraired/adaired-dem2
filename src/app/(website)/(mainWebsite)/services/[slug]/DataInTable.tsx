@@ -24,7 +24,6 @@ const DataInTable = ({ dataInTable }: any) => {
                         description={dataInTable?.description}
                         isInCenter={dataInTable?.isInCenter}
                         isDecVarticle={!dataInTable?.isInCenter}
-                        isBgWhite={dataInTable?.isBgWhite}
                     />
 
 

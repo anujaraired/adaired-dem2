@@ -51,7 +51,6 @@ const OurProcess = ({ ourProcess }: any) => {
               headingParts={ourProcess?.headingParts}
               description={ourProcess?.description}
               isInCenter={ourProcess?.isInCenter}
-              isBgWhite={ourProcess?.isInCenter && true}
             />
           </div>
 

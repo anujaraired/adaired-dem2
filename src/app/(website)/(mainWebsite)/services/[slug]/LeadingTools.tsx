@@ -55,7 +55,6 @@ const LeadingTools = ({ leadingTools }: any) => {
             headingParts={leadingTools?.headingParts}
             description={leadingTools?.description}
             isInCenter={true}
-            isBgWhite={!leadingTools?.bgImage && true}
           />
         </div>
 
