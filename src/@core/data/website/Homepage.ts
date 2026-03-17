@@ -824,7 +824,7 @@ export const ServiceSectionData = {
           label: 'iOS Development',
           title: 'iOS Development',
           description: `We specialize in iOS App Development, creating seamless, high-performing apps for iPhone and iPad. From design and coding to testing and deployment, we handle everything under your brand, helping you deliver quality apps while retaining full client ownership.`,
-          link: '/services/web-design-development-company',
+          link: '/services/ios-app-development-agency-india',
         },
         {
           icon: app_2,
