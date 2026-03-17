@@ -12,7 +12,7 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 const Testimonial = () => {
   const isMobile = useIsMobile();
   const charLimit = useBreakpointReviewCharLimit();
-  const { subTitle, title, description, testimonials } = TestimonialSectionData;
+  const { subTitle, headingParts, description, testimonials } = TestimonialSectionData;
   // const VISIBLE_CARDS = isMobile ? 1 : 3;
   const isDesktop = typeof window !== 'undefined' && window.innerWidth >= 1024;
   const VISIBLE_CARDS = isDesktop ? 3 : 1;
@@ -49,7 +49,7 @@ const Testimonial = () => {
             breakIndex={6}
             isLabel={true}
             subTitle={subTitle}
-            title={title}
+            headingParts={headingParts}
             span={''}
             description={description}
             isInCenter={true}

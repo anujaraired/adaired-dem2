@@ -41,10 +41,9 @@ const FAQ = ({ faqs }: any) => {
             breakIndex={6}
             isLabel
             subTitle={subTitle}
+            textColor={faqs?.textColor}
             headingParts={faqs?.headingParts}
-            description={faqs?.description}
-            isBgWhite
-            isInCenter
+            description={faqs?.description}            isInCenter
             className="w-full lg:w-[90%]"
           />
         </div>
