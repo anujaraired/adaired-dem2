@@ -118,7 +118,8 @@ const WhatIncluded = ({ whatIncluded }: any) => {
                           className={`${index === 0 && 'text-[#00769D]'} ${index === 1 && 'text-[#5E8E3E]'} ${index === 2 && 'text-[#D84861]'} ${index === 3 && 'text-[#7D79FD]'} absolute bottom-[2rem] left-[0rem] flex w-full cursor-pointer items-center justify-center gap-2 lg:left-[2rem] lg:w-fit lg:justify-start`}
                         >
                           <span className="text-[18px]">
-                            {'Get Your Free AI SEO Audit'}
+                            {/* {'Get Your Free AI SEO Audit'} */}
+                            {card.linkText}
                           </span>
                           <MdOutlineArrowOutward />
                         </p>
