@@ -874,6 +874,7 @@ export const SERVICES_DATA = {
     whatIncluded: {
       isVisible: true,
       isVariant: '01',
+      isInCenter: true,
       headingParts: [
         {
           text: 'What’s Included in Our SEO Services',
@@ -2021,6 +2022,7 @@ export const SERVICES_DATA = {
     whatIncluded: {
       isVisible: true,
       isVariant: '01',
+      isInCenter: true,
       breakIndex: 7,
       headingParts: [
         {
@@ -2546,6 +2548,7 @@ export const SERVICES_DATA = {
     whatIncluded: {
       isVisible: true,
       isVariant: '01',
+      isInCenter: true,
       headingParts: [
         {
           text: 'Link Building Services That We Offer At Adaired',
@@ -3245,6 +3248,7 @@ export const SERVICES_DATA = {
     whatIncluded: {
       isVisible: true,
       isVariant: '02',
+      isInCenter: true,
       headingParts: [
         {
           text: 'List Of Website Design and Development Services We Offer',
@@ -6152,6 +6156,7 @@ export const SERVICES_DATA = {
     whatIncluded: {
       isVisible: true,
       isVariant: '01',
+      isInCenter: false,
       breakIndex: 3,
       headingParts: [
         {
@@ -13594,7 +13599,7 @@ export const SERVICES_DATA = {
 
     adairedHelp: {
       isVisible: true,
-      breakIndex: 5,
+      breakIndex: 4,
       img: AdairedHelpgmb,
       isInCenter: false,
       bgColor: 'bg-[#FCFCFC]',
@@ -15912,7 +15917,7 @@ export const SERVICES_DATA = {
       headingParts: [
         {
           text: 'What is E-Commerce SEO?',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -16158,6 +16163,7 @@ export const SERVICES_DATA = {
     whatIncluded: {
       isVisible: true,
       isVariant: '01',
+      isInCenter: false,
       breakIndex: 3,
       headingParts: [
         {
@@ -16168,7 +16174,7 @@ export const SERVICES_DATA = {
       ],
       description: [
         'We also maximize WooCommerce and WordPress stores with complete e-commerce SEO services by including, but not limited to, keyword research, on-page optimization, product page optimization, schema markup, and site speed optimization.',
-        `Adaired will make sure that your shop is the top in search engines, provide people with a convenient and quick shopping process, and meet the search preferences to follow AI-driven and mobile-first traffic development.`,
+        // `Adaired will make sure that your shop is the top in search engines, provide people with a convenient and quick shopping process, and meet the search preferences to follow AI-driven and mobile-first traffic development.`,
       ],
       list: [
         {
