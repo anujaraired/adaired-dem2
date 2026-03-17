@@ -1075,7 +1075,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
-      textColor:"#FFFFFF",
+      textColor: '#FFFFFF',
       description: 'Start SEO that converts now.',
       buttonName: 'Book a Free Consultation',
       img: Everydayyouwait,
@@ -1092,12 +1092,12 @@ export const SERVICES_DATA = {
       headingParts: [
         {
           text: 'Powered By Leading Brands From All Around The World',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
-      description:
-        'We have worked with some of the leading brands to turn visitors into leads and paying customers. ',
+      description: 'We have worked with some of the leading brands to turn visitors into leads and paying customers. ',
+      textColor: '#FFFFFF',
       bgImage: leadingToolsImg,
       list: [
         {
@@ -1329,9 +1329,15 @@ export const SERVICES_DATA = {
       subtitle: 'Boost Traffic Today',
       isLabel: true,
       button: 'Get Your AI SEO Plan',
-      title:
-        'Get more visitors, attract the right audience, and increase your revenue.',
+      headingParts: [
+        {
+          text: 'Get more visitors, attract the right audience, and increase your revenue.',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: `Our proven SEO strategies put your website in front of people who are ready to buy.`,
+      textColor: '#FFFFFF',
     },
 
     faqData: {
@@ -1807,6 +1813,7 @@ export const SERVICES_DATA = {
         },
       ],
       description: 'Let AI Reveal What’s Holding You Back.',
+      textColor: '#FFFFFF',
       buttonName: 'Get Your Free AI SEO Audit',
       img: NotSeeingResult,
       bgImage: NotSeeingResultsBg,
@@ -1822,6 +1829,7 @@ export const SERVICES_DATA = {
       ],
       description:
         'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      textColor: '#FFFFFF',
       bgImage: leadingToolsImg,
     },
     leadingToolsForPerformence: {
@@ -2169,15 +2177,21 @@ export const SERVICES_DATA = {
       bgImg: stop_struggle,
       isHoverBgBlue: true,
     },
+
     getplan: {
       isVisible: true,
-      isLabel: false,
+      isLabel: true,
       button: 'Get Your AI SEO Plan',
       subtitle: 'Boost Traffic Today',
-      title: 'Dominate AI Search Today',
-      description: `Get a custom plan to optimize for AI-driven results: structured data,
-semantic content, answer-ready copy, and technical SEO—ensuring your
-brand appears in AI summaries and citations.`,
+      headingParts: [
+        {
+          text: 'Dominate AI Search Today',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
+      description: `Get a custom plan to optimize for AI-driven results: structured data, semantic content, answer-ready copy, and technical SEO—ensuring your brand appears in AI summaries and citations.`,
+      textColor: '#FFFFFF',
     },
     faqData: {
       isVisible: true,
@@ -4003,6 +4017,7 @@ brand appears in AI summaries and citations.`,
         },
       ],
       description: 'You shouldn’t be.',
+      textColor: '#FFFFFF',
       buttonName: 'Book a call with a local SEO expert!',
       img: LocalNotSee,
       bgImage: LocalNotSeeBg,
@@ -4361,6 +4376,7 @@ brand appears in AI summaries and citations.`,
       ],
       description:
         'From small businesses to multi-location brands, clients trust usto boost local rankings, manage online reputation, and drive consistent local leads that fuel long-term growth ',
+      textColor: '#FFFFFF',
       bgImage: leadingToolsImg,
       list: [
         {
@@ -5373,7 +5389,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: true,
       bgColor: '#FAFAFA',
-      trColor: '#7259FF',
+      trColor: 'bg-[#7259FF]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       headingParts: [
@@ -7605,8 +7621,12 @@ brand appears in AI summaries and citations.`,
           color: '#000000',
           weight: '700',
         },
+        {
+          text: 'Label PPC?',
+          color: '#FB9100',
+          weight: '700',
+        },
       ],
-      span: 'Label PPC?',
       bgColor: '#FFFCF8',
       data: [
         {
@@ -7664,7 +7684,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: false,
       bgColor: '#FAFAFA',
-      trColor: '#7259FF',
+      trColor: 'bg-[#7259FF]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       headingParts: [
@@ -9099,7 +9119,7 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '10',
+      isVariant: '04',
       img: saasSeoWhatIsImg,
       headingParts: [
         {
@@ -9866,7 +9886,7 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '07',
+      isVariant: '04',
       img: geoAiSeoWhatIsImg,
       headingParts: [
         {
@@ -9875,7 +9895,14 @@ brand appears in AI summaries and citations.`,
           weight: '700',
         },
       ],
-      bgColor: '#FFFCF8',
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      paddingY: '3rem',
+      width: '50%',
+      isGap: true,
+      isRowReverse: true,
+      imgWidth: '792px',
+      imgHight: '528px',
       data: [
         {
           desctioption: `GEO, or generative engine optimization, is the process of optimizing your brand, website, 
@@ -10167,7 +10194,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: true,
       bgColor: '#FAFAFA',
-      trColor: '#7259FF',
+      trColor: 'bg-[#7259FF]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       headingParts: [
@@ -10632,7 +10659,7 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '07',
+      isVariant: '04',
       img: WhatAreServiceAeoServiceImg,
       headingParts: [
         {
@@ -10641,7 +10668,14 @@ brand appears in AI summaries and citations.`,
           weight: '700',
         },
       ],
-      bgColor: '#FFFCF8',
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      paddingY: '4rem',
+      width: '50%',
+      isGap: true,
+      isRowReverse: true,
+      imgWidth: '877px',
+      imgHight: '492px',
       data: [
         {
           desctioption: [
@@ -10662,7 +10696,6 @@ brand appears in AI summaries and citations.`,
           desctioption: `By optimizing for answer engines, businesses and content creators can significantly enhance their visibility in search results, improve user engagement, and drive more organic traffic to their websites.`,
         },
       ],
-      button: '',
     },
 
     adairedHelp: {
@@ -10864,13 +10897,13 @@ brand appears in AI summaries and citations.`,
           buttonName: 'Build My AEO Strategy',
         },
       ],
-    }, 
+    },
 
     dataInTable: {
       isVisible: true,
       isInCenter: true,
       bgColor: '#FFFCF7',
-      trColor: '#FB9100',
+      trColor: 'bg-[#FB9100]',
       rowColor: 'bg-[#FB9100]/10',
       isVariant: '01',
       headingParts: [
@@ -12382,7 +12415,7 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '07',
+      isVariant: '04',
       breakIndex: 5,
       img: WhatAreServiceGMB,
       headingParts: [
@@ -12392,7 +12425,6 @@ brand appears in AI summaries and citations.`,
           weight: '700',
         },
       ],
-      bgColor: '#FFFCF8',
       data: [
         {
           desctioption: `Google Business Profile optimization, previously known as GMB (Google My Business) optimization, is the strategic process of improving and fine-tuning your business listing. 
@@ -12410,7 +12442,14 @@ brand appears in AI summaries and citations.`,
           desctioption: `Overall, effective GBP optimization services​ not only boost local SEO rankings but also help attract more customers by making it easier for them to find and connect with your business online`,
         },
       ],
-      button: '',
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      paddingY: '4rem',
+      width: '60%',
+      isGap: true,
+      isRowReverse: true,
+      imgWidth: '880px',
+      imgHight: '611px',
     },
 
     whatareservice2: {
@@ -13206,7 +13245,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: true,
       bgColor: '#FFFCF7',
-      trColor: '#FB9100',
+      trColor: 'bg-[#FB9100]',
       rowColor: 'bg-[#FFF6EB]',
       isVariant: '01',
       headingParts: [
@@ -13462,7 +13501,6 @@ brand appears in AI summaries and citations.`,
       breakIndex: 4,
       bgGradient: 'bg-[#FFFCF7]',
       description: [
-        `Our local SEO process is designed to create a strong synergy between your Google Business Profile and your website. By optimizing both together, we help your business gain better visibility across multiple areas of Google search.`,
         `Our structured approach ensures that every aspect of your local presence is strategically optimized.`,
       ],
       services: [
@@ -15866,11 +15904,10 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '01',
+      isVariant: '04',
       // breakIndex: 6,
       paddingY: '4rem',
-      isRowReverse: true,
-      width: '65%',
+      width: '60%',
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773318978/adaired/services/eCommerce_seo_india/eCommerceSeo_WhatAreService_a4ljur.png',
       headingParts: [
         {
@@ -15879,7 +15916,10 @@ brand appears in AI summaries and citations.`,
           weight: '700',
         },
       ],
-      bgColor: '#FFFCF8',
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      imgWidth: '780',
+      imgHight: '571',
       data: [
         {
           desctioption: `E-commerce SEO is essential for ensuring your products get discovered by the right customers.`,
@@ -16659,7 +16699,7 @@ brand appears in AI summaries and citations.`,
       imgWidth: '857px',
       imgHight: '572px',
       bgColor: '#000000',
-      textColor:"#FFFFFF",
+      textColor: "#FFFFFF",
       data: [
         {
           desctioption: `eCommerce Development refers to the process of designing, building, and maintaining online platforms that allow businesses to sell products or services over the internet. It involves creating a fully functional digital storefront where customers can browse products, add items to a cart, make secure payments, and manage orders seamlessly.`,

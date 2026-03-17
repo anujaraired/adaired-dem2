@@ -30,9 +30,8 @@ const DominateAI = ({ getplan }: any) => {
 
       <MaxWidthWrapper className="relative z-10 w-full">
         <div
-          className={`space-y-5 text-center transition-all duration-1000 ${
-            isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
-          }`}
+          className={`space-y-5 text-center transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'
+            }`}
         >
           <Heading
             isLabel={getplan?.isLabel && true}
@@ -41,6 +40,7 @@ const DominateAI = ({ getplan }: any) => {
             subTitle={getplan?.subtitle}
             headingParts={getplan?.headingParts}
             description={getplan?.description}
+            textColor={getplan?.textColor}
             isInCenter={true}
           />
 

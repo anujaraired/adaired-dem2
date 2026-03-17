@@ -49,6 +49,7 @@ const IndustryLeaders = ({ industryLeaders }: any) => {
             breakIndex={7}
             headingParts={industryLeaders?.headingParts}
             description={industryLeaders?.description}
+            textColor={industryLeaders?.textColor}
             isInCenter={true}
           />
         </div>
