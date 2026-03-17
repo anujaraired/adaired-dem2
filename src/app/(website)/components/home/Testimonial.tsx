@@ -50,7 +50,6 @@ const Testimonial = () => {
             isLabel={true}
             subTitle={subTitle}
             headingParts={headingParts}
-            span={''}
             description={description}
             isInCenter={true}
             className="w-[90%] lg:w-[65%]"
