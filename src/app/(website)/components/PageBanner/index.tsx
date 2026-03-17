@@ -5,7 +5,7 @@ import Heading from '../../common/Heading';
 import Image from 'next/image';
 import hero_banner from '../../../../../public/assets/images/home/hero_banner-bg.png';
 
-const PageBanner = ({ subTitle, headingParts, }: any) => {
+const PageBanner = ({ subTitle, headingParts }: any) => {
   const pathname = usePathname();
 
   return (
@@ -17,8 +17,8 @@ const PageBanner = ({ subTitle, headingParts, }: any) => {
         priority
         className="pointer-events-none object-fill lg:object-cover"
       />
-      <MaxWidthWrapper>
-        <Heading subTitle={subTitle} headingParts={headingParts} span={''} isInCenter={false} />
+      <MaxWidthWrapper className="w-full">
+        <Heading subTitle={subTitle} headingParts={headingParts} />
       </MaxWidthWrapper>
     </div>
   );
