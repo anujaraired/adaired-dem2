@@ -2466,7 +2466,6 @@ export const SERVICES_DATA = {
       width: '50%',
       imgWidth: '696',
       imgHight: '681',
-      IsGap: false,
       data: [
         {
           desctioption: `Authority link building is a strategic SEO process focused on earning high-quality backlinks from trusted, relevant, and authoritative websites.  Authority links, unlike low-value links, come from credible sources, including industry publications, long-established blogs, and websites with high domain authority.`,
@@ -2794,7 +2793,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       isCode01: false,
       isVariant: '03',
-      breakIndex: 5,
+      // breakIndex: 5,
       bgImg: bgImg_BuildLink,
       img: LinkBuilding,
       imgWidth: '479',
@@ -4734,11 +4733,11 @@ export const SERVICES_DATA = {
         {
           desctioption: `This model helps agencies:`,
           list: [
-            "Expand service offerings quickly",
-            "Increase recurring revenue",
-            "Improve client retention",
-            "Scale without operational stress",
-            "Maintain full brand ownership",
+            'Expand service offerings quickly',
+            'Increase recurring revenue',
+            'Improve client retention',
+            'Scale without operational stress',
+            'Maintain full brand ownership',
           ],
         },
         {
@@ -19030,9 +19029,7 @@ export const SERVICES_DATA = {
         `Some of the technologies we commonly use include:`,
       ],
       ContentDescription: '',
-      navItems: [
-        '',
-      ],
+      navItems: [''],
       mobileNavItems: [''],
       list: [
         [
@@ -19042,7 +19039,10 @@ export const SERVICES_DATA = {
           { image: customWebDevTechStackImg_4, desc: 'SwiftUI and UIKit' },
           { image: customWebDevTechStackImg_5, desc: 'Firebase' },
           { image: customWebDevTechStackImg_5, desc: 'REST APIs' },
-          { image: customWebDevTechStackImg_5, desc: 'Cloud platforms (AWS and Google Cloud)' },
+          {
+            image: customWebDevTechStackImg_5,
+            desc: 'Cloud platforms (AWS and Google Cloud)',
+          },
         ],
       ],
     },
@@ -19149,7 +19149,8 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          title: 'Which programming languages are used for iOS app development?',
+          title:
+            'Which programming languages are used for iOS app development?',
           description: [
             `Most modern iOS applications are built using Swift, Apple’s primary programming language known for its speed and safety. In some cases, Objective-C may also be used, particularly for maintaining or updating older applications.`,
           ],
