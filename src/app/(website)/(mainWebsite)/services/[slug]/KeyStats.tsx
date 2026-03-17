@@ -198,7 +198,7 @@ const KeyStats = ({ keyStats }: any) => {
                   alt="rocket"
                   className="left-[0.5 rem] absolute top-[-1rem]"
                 /> */}
-                
+
                 {keyStats?.rocketImg && (
                   <Image
                     src={keyStats.rocketImg}
@@ -258,7 +258,12 @@ const KeyStats = ({ keyStats }: any) => {
                     onMouseLeave={() => setActiveTab(0)}
                     // className={`relative flex w-[100%] flex-col px-[2rem] py-[2rem] transition-all duration-300 ease-in-out ${activeTab === index ? `bg-[${keyStats?.bgColor}]/20 text-white` : `bg-[${keyStats?.bgColor}]/10 text-black`}`}
 
-                    className={`relative flex w-[100%] flex-col px-[2rem] py-[2rem] transition-all duration-300 ease-in-out ${activeTab === index ? `bg-[${keyStats?.bgColor}]` : `bg-[${keyStats?.bgColor}]/10`}`}
+                    className={`relative flex w-[100%] flex-col px-[2rem] py-[2rem] transition-all duration-300 ease-in-out`}
+                    style={{
+                      backgroundColor: activeTab === index
+                        ? `${keyStats?.bgColor}B3`
+                        : `${keyStats?.bgColor}1A`
+                    }}
                   >
                     <div
                       className={`flex items-start gap-8 transition-all duration-700 ease-in-out lg:items-center lg:gap-16 lg:text-left`}
@@ -281,7 +286,8 @@ const KeyStats = ({ keyStats }: any) => {
                     </div>
                     {activeTab === index && (
                       <div
-                        className={`absolute right-0 top-0 h-full w-2 rounded-r-[1rem] bg-[${keyStats?.bgColor || '#FFFFFF'}]`}
+                        className={`absolute right-0 top-0 h-full w-2 rounded-r-[1rem]`}
+                        style={{ backgroundColor: keyStats?.bgColor || "#FFFFFF" }}
                       ></div>
                     )}
                   </div>
@@ -315,8 +321,8 @@ const KeyStats = ({ keyStats }: any) => {
             </div>
             <div
               className={`grid grid-cols-1 gap-4 pt-[2rem] transition-all duration-700 md:grid-cols-2 lg:grid-cols-4 ${isVisible
-                  ? 'translate-y-0 opacity-100'
-                  : 'translate-y-10 opacity-0'
+                ? 'translate-y-0 opacity-100'
+                : 'translate-y-10 opacity-0'
                 }`}
             >
               {keyStats?.list?.map((item: any, idx: any) => {
@@ -331,8 +337,8 @@ const KeyStats = ({ keyStats }: any) => {
                       transitionDelay: `${idx * 280}ms`,
                     }}
                     className={`rounded-3xl border-r-[1px] border-r-[#00000026]/10 p-[1.8rem] transition-all duration-700 last:border-r-0 lg:p-[1rem] xl:px-[1.75rem] xl:py-[1.5rem] 1360:p-[1rem] 1400:p-[1rem] ${isVisible
-                        ? 'translate-y-0 opacity-100'
-                        : 'translate-y-10 opacity-0'
+                      ? 'translate-y-0 opacity-100'
+                      : 'translate-y-10 opacity-0'
                       } ${isHovered
                         ? 'bg-gradient-to-br from-[#FB9100] to-[#000000]'
                         : ''
