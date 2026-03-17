@@ -35,7 +35,7 @@ const ReadyToStart = ({ handleClick, className }: any) => {
             <Heading
               breakIndex={5}
               isH1={true}
-              title={'Ready to Start Your SEO Project Today?'}
+              headingParts={[{text:'Ready to Start Your SEO Project Today?', color:"#FFFFFF", weight:700}]}
               description={''}
               isInCenter={true}
               className="whitespace-pre-line"

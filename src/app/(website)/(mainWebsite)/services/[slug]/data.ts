@@ -2426,21 +2426,27 @@ export const SERVICES_DATA = {
 
     whatareservice: {
       isVisible: true,
-      isVariant: '03',
+      isVariant: '04',
       img: WhatIsAuthorityLinkBuilding,
       headingParts: [
         {
           text: 'What Is Authority',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
         {
           text: 'Link Building?',
-          color: '#FB9100',
+          color: '#FBD04F',
           weight: '700',
         },
       ],
-      bgColor: '#FFFCF8',
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      // paddingY: '3rem',
+      width: '50%',
+      imgWidth: '696',
+      imgHight: '681',
+      IsGap: false,
       data: [
         {
           desctioption: `Authority link building is a strategic SEO process focused on earning high-quality backlinks from trusted, relevant, and authoritative websites.  Authority links, unlike low-value links, come from credible sources, including industry publications, long-established blogs, and websites with high domain authority.`,
@@ -4610,7 +4616,7 @@ export const SERVICES_DATA = {
       code: '02',
       isVisible: true,
       isStyleHeading: true,
-      width: '60%',
+      width: '50%',
       subtitle: 'Industry-Leading White Label',
       headingParts: [
         { text: 'Social Media Management', color: '#000000', weight: '400' },
@@ -4674,17 +4680,29 @@ export const SERVICES_DATA = {
 
     whatareservice: {
       isVisible: true,
-      isVariant: '05',
+      isVariant: '04',
+      isRowReverse: true,
       img: whiteWhatIs,
       headingParts: [
         {
           text: 'What is White Label',
-          color: '#000000',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+        {
+          text: 'Social Media Management?',
+          color: '#FBD04F',
           weight: '700',
         },
       ],
-      span: 'Social Media Management?',
-      bgColor: '#FFFCF8',
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      paddingY: '3rem',
+      width: '55%',
+      imgWidth: '609px',
+      imgHight: '663px',
+      listTextColor: '#FFFFFF',
+      IsGap: false,
       data: [
         {
           desctioption: `White-label social media management allows agencies to offer professional social media marketing services under their own brand without handling the fulfillment internally.`,
@@ -4696,21 +4714,11 @@ export const SERVICES_DATA = {
         {
           desctioption: `This model helps agencies:`,
           list: [
-            {
-              description: [`Expand service offerings quickly`],
-            },
-            {
-              description: [`Increase recurring revenue`],
-            },
-            {
-              description: [`Improve client retention`],
-            },
-            {
-              description: [`Scale without operational stress`],
-            },
-            {
-              description: [`Maintain full brand ownership`],
-            },
+            "Expand service offerings quickly",
+            "Increase recurring revenue",
+            "Improve client retention",
+            "Scale without operational stress",
+            "Maintain full brand ownership",
           ],
         },
         {
@@ -5326,21 +5334,27 @@ export const SERVICES_DATA = {
 
     whatareservice: {
       isVisible: true,
-      isVariant: '06',
+      isVariant: '04',
       img: whiteSeoWhatIs,
       headingParts: [
         {
           text: 'What Is White',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
         {
           text: 'Label SEO?',
-          color: '#FB9100',
+          color: '#FBD04F',
           weight: '700',
         },
       ],
-      bgColor: '#FFFCF8',
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      paddingY: '3rem',
+      width: '50%',
+      imgWidth: '602px',
+      imgHight: '567px',
+      IsGap: false,
       data: [
         {
           desctioption: `White label SEO is an outsourcing model in which a third-party provider offers SEO services to clients under another company's brand. 
@@ -5979,6 +5993,7 @@ export const SERVICES_DATA = {
       code: '02',
       isCenter: false,
       isVisible: true,
+      breakIndex: 2,
       heading2Color: '#FB9100',
       span: 'No in-house hiring. No brand dilution. Just reliable execution when demand grows.',
       subtitle: '',
@@ -6048,7 +6063,8 @@ export const SERVICES_DATA = {
 
     whatareservice: {
       isVisible: true,
-      isVariant: '07',
+      isVariant: '04',
+      isRowReverse: true,
       img: whiteServicesWhatIs,
       headingParts: [
         {
@@ -6056,9 +6072,20 @@ export const SERVICES_DATA = {
           color: '#FFFFFF',
           weight: '700',
         },
+        {
+          text: 'White Label Services',
+          color: '#FBD04F',
+          weight: '700',
+        },
       ],
-      span: 'White Label Services',
-      bgColor: '#FFFCF8',
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      paddingY: '3rem',
+      width: '50%',
+      imgWidth: '808px',
+      imgHight: '558px',
+      IsGap: false,
+
       data: [
         {
           desctioption: `White-label services allow agencies to offer specialized digital solutions without building or managing internal delivery teams. 
@@ -6818,21 +6845,27 @@ export const SERVICES_DATA = {
 
     whatareservice: {
       isVisible: true,
-      isVariant: '08',
+      isVariant: '04',
+      isRowReverse: true,
       img: WhatIsPPC,
       headingParts: [
         {
           text: 'What is Pay Per',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
         {
           text: 'Click Advertising?',
-          color: '#FB9100',
+          color: '#FBD04F',
           weight: '700',
         },
       ],
-      bgColor: '#FFFCF8',
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      paddingY: '3rem',
+      width: '50%',
+      imgWidth: '579px',
+      imgHight: '552px',
       data: [
         {
           desctioption: `PPC advertising is a digital marketing strategy where businesses pay a fee each time someone clicks on their ad. 
@@ -6858,7 +6891,7 @@ export const SERVICES_DATA = {
       title: 'How Pay-Per-Click Advertising Works',
       headingParts: [
         {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
+          text: 'How Pay-Per-Click Advertising Works',
           color: '#000000',
           weight: '700',
         },
@@ -7619,21 +7652,28 @@ export const SERVICES_DATA = {
 
     whatareservice: {
       isVisible: true,
-      isVariant: '09',
+      isVariant: '04',
+      isRowReverse: true,
       img: whiteWhatIsImg,
       headingParts: [
         {
           text: 'What Is White',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
         {
           text: 'Label PPC?',
-          color: '#FB9100',
+          color: '#FBD04F',
           weight: '700',
         },
       ],
-      bgColor: '#FFFCF8',
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      // paddingY: '3rem',
+      width: '50%',
+      imgWidth: '595px',
+      imgHight: '525px',
+      IsGap: false,
       data: [
         {
           desctioption: `White-label PPC is a partnership model that allows digital marketing agencies to offer professional paid advertising 
@@ -7689,6 +7729,7 @@ export const SERVICES_DATA = {
     dataInTable: {
       isVisible: true,
       isInCenter: false,
+      breakIndex: 4,
       bgColor: '#FAFAFA',
       trColor: 'bg-[#7259FF]',
       rowColor: 'bg-[#7259FF]/10',
@@ -8519,7 +8560,8 @@ export const SERVICES_DATA = {
 
     whatareservice: {
       isVisible: true,
-      isVariant: '07',
+      isVariant: '04',
+      isRowReverse: true,
       img: whiteLinkBuildingWhatIsImg,
       headingParts: [
         {
@@ -8527,9 +8569,19 @@ export const SERVICES_DATA = {
           color: '#FFFFFF',
           weight: '700',
         },
+        {
+          text: 'Label Link Building?',
+          color: '#FFDA24',
+          weight: '700',
+        },
       ],
-      span: 'Label Link Building?',
-      bgColor: '#FFFCF8',
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      paddingY: '3rem',
+      width: '50%',
+      imgWidth: '897px',
+      imgHight: '512px',
+      IsGap: false,
       data: [
         {
           desctioption: `White label link building is a fulfillment partnership model where a specialized SEO provider builds high-quality backlinks for your clients, 
@@ -11805,7 +11857,7 @@ export const SERVICES_DATA = {
       description: [
         `We follow a structured, agile-driven approach to deliver high-performance mobile applications that align with your business goals.`,
       ],
-      bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0]',
+      bgGradient: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFFFF]',
 
       services: [
         {
@@ -11883,7 +11935,7 @@ export const SERVICES_DATA = {
       description: '',
       headingParts: [
         {
-          text: 'Key Stats About White Label Link Building',
+          text: 'Tech Stack We Use in Our Mobile App Development Services',
           color: '#000000',
           weight: '700',
         },
@@ -11972,7 +12024,7 @@ export const SERVICES_DATA = {
     whatMkeDeferent: {
       isVisible: true,
       isVariant: '03',
-      breakIndex: 3,
+      breakIndex: 7,
       isInCenter: true,
       bgColor: true,
       cardColor: '#FFFFFF',
@@ -12465,7 +12517,7 @@ export const SERVICES_DATA = {
 
     whatareservice2: {
       isVisible: true,
-      isVariant: '11',
+      isVariant: '04',
       breakIndex: 5,
       img: WhatAreServiceGMB2,
       headingParts: [
@@ -12476,6 +12528,12 @@ export const SERVICES_DATA = {
         },
       ],
       bgColor: '#FFFFFF',
+      textColor: '#000000',
+      paddingY: '4rem',
+      width: '50%',
+      imgWidth: '752px',
+      imgHight: '717px',
+      IsGap: false,
       button: '',
       data: [
         {
@@ -14048,7 +14106,7 @@ export const SERVICES_DATA = {
 
     whatareservice2: {
       isVisible: true,
-      isVariant: '11',
+      isVariant: '04',
       img: WhatAreService2,
       headingParts: [
         {
@@ -14058,7 +14116,12 @@ export const SERVICES_DATA = {
         },
       ],
       bgColor: '#FFFFFF',
-      button: '',
+      textColor: '#000000',
+      paddingY: '3rem',
+      width: '50%',
+      imgWidth: '718px',
+      imgHight: '612px',
+      IsGap: false,
       data: [
         {
           desctioption: `WordPress development refers to the process of creating, customizing, and maintaining websites using the WordPress content management system (CMS).`,
@@ -17054,7 +17117,7 @@ export const SERVICES_DATA = {
     serviceResult: {
       isVisible: true,
       breakIndex: 1,
-      bgColor: '#FFF9F1',
+      bgColor: '#FFFBF5',
       isVariant: '01',
       headingParts: [
         {
