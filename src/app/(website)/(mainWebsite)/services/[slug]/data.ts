@@ -2113,7 +2113,7 @@ export const SERVICES_DATA = {
       ],
       span: '',
       description: `We leverage AI-driven SEO, analytics, and conversion strategies to enhance brand presence, boost search performance, and drive business growth.`,
-      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+      bgGradient: 'bg-gradient-to-b from-[#fafafa] via-[#fafafa] to-[#fafafa]',
 
       services: [
         {
@@ -4137,7 +4137,7 @@ export const SERVICES_DATA = {
       ],
       span: '',
       description: `We follow a strategic Local SEO process designed to improve your visibility in local search results and drive qualified leads.`,
-      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+      bgGradient: 'bg-gradient-to-b from-[#ffffff] to-[#fff8f0]',
 
       services: [
         {
@@ -9151,7 +9151,7 @@ export const SERVICES_DATA = {
 
     whatMissing: {
       isVisible: true,
-      bgColor: '#FFFCF8',
+      bgColor: '#FFF9F3',
       isInCenter: true,
       isVariant: '02',
       button: 'Dominate Search Results!',
@@ -9899,7 +9899,7 @@ export const SERVICES_DATA = {
       textColor: '#FFFFFF',
       paddingY: '3rem',
       width: '50%',
-      isGap: true,
+      isGap: false,
       isRowReverse: true,
       imgWidth: '792px',
       imgHight: '528px',
@@ -9964,7 +9964,7 @@ export const SERVICES_DATA = {
       breakIndex: 0,
       img: geoAiSeoAdairedHelpImg,
       isInCenter: true,
-      bgColor: '#FFFBF5',
+      bgColor: 'bg-[#FFFBF5]',
       cardBg: '',
       headingParts: [
         {
@@ -12358,7 +12358,7 @@ export const SERVICES_DATA = {
         `Show up first when customers search for your services and turn your Google Business Profile into a stream of calls and leads into real sales.`,
       ],
       button: 'Boost My Visibility Today',
-      width: '60%',
+      width: '50%',
       widthLg: '30rem',
       img: gbplocalSeoBannerBg,
       imgWidth: '811',
