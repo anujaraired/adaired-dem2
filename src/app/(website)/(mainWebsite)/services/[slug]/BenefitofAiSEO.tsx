@@ -22,7 +22,6 @@ const BenefitofAiSEO = ({ benefitofAiSeo }: any) => {
             isDecVarticle={!benefitofAiSeo?.isInCenter}
             isInCenter = {benefitofAiSeo?.isInCenter}
             description={benefitofAiSeo?.description}
-            isBgWhite={benefitofAiSeo?.isInCenter && true}
             className=""
           />
           {/* <div className="">

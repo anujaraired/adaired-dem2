@@ -21,7 +21,6 @@ const SeoPackages = ({ seopackages }: any) => {
                             headingParts={seopackages?.headingParts}
                             description={seopackages?.description}
                             isInCenter={true}
-                            isBgWhite={true}
                         />
                     </div>
                     <div

@@ -26,7 +26,6 @@ const AreYouTired = ({ areYouTired }: any) => {
                     <MaxWidthWrapper>
                         <Heading
                             breakIndex={8}
-                            isBgWhite
                             isInCenter
                             subTitle=""
                             headingParts={areYouTired?.headingParts}

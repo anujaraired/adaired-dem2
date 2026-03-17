@@ -15,7 +15,6 @@ const GetsCredit = ({ getsCredit }: any) => {
                             className={`transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
                         >
                             <Heading
-                                isBgWhite={true}
                                 isInCenter={true}
                                 subTitle={''}
                                 headingParts={getsCredit?.headingParts}

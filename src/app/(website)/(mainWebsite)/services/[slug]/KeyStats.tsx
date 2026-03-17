@@ -63,7 +63,6 @@ const KeyStats = ({ keyStats }: any) => {
               >
                 <Heading
                   breakIndex={6}
-                  isBgWhite={true}
                   isInCenter={true}
                   subTitle={''}
                   headingParts={keyStats?.headingParts}
@@ -89,7 +88,6 @@ const KeyStats = ({ keyStats }: any) => {
               >
                 <Heading
                   // breakIndex={6}
-                  isBgWhite={true}
                   isInCenter={true}
                   subTitle={''}
                   headingParts={keyStats?.headingParts}
@@ -181,7 +179,6 @@ const KeyStats = ({ keyStats }: any) => {
           >
             <Heading
               breakIndex={6}
-              isBgWhite={true}
               isInCenter={true}
               subTitle={''}
               headingParts={keyStats?.headingParts}
@@ -247,7 +244,6 @@ const KeyStats = ({ keyStats }: any) => {
           >
             <Heading
               // breakIndex={6}
-              isBgWhite={true}
               isInCenter={true}
               subTitle={''}
               headingParts={keyStats?.headingParts}
@@ -312,7 +308,6 @@ const KeyStats = ({ keyStats }: any) => {
             >
               <Heading
                 breakIndex={6}
-                isBgWhite={true}
                 isInCenter={true}
                 subTitle={''}
                 headingParts={keyStats?.headingParts}

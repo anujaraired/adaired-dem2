@@ -24,7 +24,6 @@ const IndustriesWeServe = ({ industriesWeServe }: any) => {
                         >
                             <Heading
                                 isInCenter={true}
-                                isBgWhite={true}
                                 headingParts={industriesWeServe?.headingParts}
                                 description={industriesWeServe?.description}
                             />

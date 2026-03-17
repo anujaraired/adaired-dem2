@@ -26,7 +26,6 @@ const WhatIncluded = ({ whatIncluded }: any) => {
                   headingParts={whatIncluded?.headingParts}
                   description={whatIncluded?.description}
                   isInCenter={true}
-                  isBgWhite={true}
                 />
                 <div className="grid grid-cols-1 gap-6 pt-[1rem] lg:grid-cols-3">
                   {whatIncluded?.list?.map((card: any, index: number) => (
@@ -83,7 +82,6 @@ const WhatIncluded = ({ whatIncluded }: any) => {
                   headingParts={whatIncluded?.headingParts}
                   description={whatIncluded?.description}
                   isInCenter={true}
-                  isBgWhite={true}
                 />
                 <div className="grid grid-cols-1 gap-6 pt-[1rem] lg:grid-cols-2">
                   {whatIncluded?.list?.map((card: any, index: number) => (
@@ -120,7 +118,8 @@ const WhatIncluded = ({ whatIncluded }: any) => {
                           className={`${index === 0 && 'text-[#00769D]'} ${index === 1 && 'text-[#5E8E3E]'} ${index === 2 && 'text-[#D84861]'} ${index === 3 && 'text-[#7D79FD]'} absolute bottom-[2rem] left-[0rem] flex w-full cursor-pointer items-center justify-center gap-2 lg:left-[2rem] lg:w-fit lg:justify-start`}
                         >
                           <span className="text-[18px]">
-                            {'Get Your Free AI SEO Audit'}
+                            {/* {'Get Your Free AI SEO Audit'} */}
+                            {card.linkText}
                           </span>
                           <MdOutlineArrowOutward />
                         </p>
