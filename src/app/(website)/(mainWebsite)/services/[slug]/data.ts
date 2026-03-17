@@ -1075,7 +1075,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
-      textColor:"#FFFFFF",
+      textColor: '#FFFFFF',
       description: 'Start SEO that converts now.',
       buttonName: 'Book a Free Consultation',
       img: Everydayyouwait,
@@ -9099,7 +9099,7 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '10',
+      isVariant: '04',
       img: saasSeoWhatIsImg,
       headingParts: [
         {
@@ -9866,7 +9866,7 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '07',
+      isVariant: '04',
       img: geoAiSeoWhatIsImg,
       headingParts: [
         {
@@ -9875,7 +9875,14 @@ brand appears in AI summaries and citations.`,
           weight: '700',
         },
       ],
-      bgColor: '#FFFCF8',
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      paddingY: '3rem',
+      width: '50%',
+      isGap: true,
+      isRowReverse: true,
+      imgWidth: '792px',
+      imgHight: '528px',
       data: [
         {
           desctioption: `GEO, or generative engine optimization, is the process of optimizing your brand, website, 
@@ -10632,7 +10639,7 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '07',
+      isVariant: '04',
       img: WhatAreServiceAeoServiceImg,
       headingParts: [
         {
@@ -10641,7 +10648,14 @@ brand appears in AI summaries and citations.`,
           weight: '700',
         },
       ],
-      bgColor: '#FFFCF8',
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      paddingY: '4rem',
+      width: '50%',
+      isGap: true,
+      isRowReverse: true,
+      imgWidth: '877px',
+      imgHight: '492px',
       data: [
         {
           desctioption: [
@@ -10662,7 +10676,6 @@ brand appears in AI summaries and citations.`,
           desctioption: `By optimizing for answer engines, businesses and content creators can significantly enhance their visibility in search results, improve user engagement, and drive more organic traffic to their websites.`,
         },
       ],
-      button: '',
     },
 
     adairedHelp: {
@@ -10864,7 +10877,7 @@ brand appears in AI summaries and citations.`,
           buttonName: 'Build My AEO Strategy',
         },
       ],
-    }, 
+    },
 
     dataInTable: {
       isVisible: true,
@@ -12382,7 +12395,7 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '07',
+      isVariant: '04',
       breakIndex: 5,
       img: WhatAreServiceGMB,
       headingParts: [
@@ -12392,7 +12405,6 @@ brand appears in AI summaries and citations.`,
           weight: '700',
         },
       ],
-      bgColor: '#FFFCF8',
       data: [
         {
           desctioption: `Google Business Profile optimization, previously known as GMB (Google My Business) optimization, is the strategic process of improving and fine-tuning your business listing. 
@@ -12410,7 +12422,14 @@ brand appears in AI summaries and citations.`,
           desctioption: `Overall, effective GBP optimization services​ not only boost local SEO rankings but also help attract more customers by making it easier for them to find and connect with your business online`,
         },
       ],
-      button: '',
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      paddingY: '4rem',
+      width: '60%',
+      isGap: true,
+      isRowReverse: true,
+      imgWidth: '880px',
+      imgHight: '611px',
     },
 
     whatareservice2: {
@@ -13462,7 +13481,6 @@ brand appears in AI summaries and citations.`,
       breakIndex: 4,
       bgGradient: 'bg-[#FFFCF7]',
       description: [
-        `Our local SEO process is designed to create a strong synergy between your Google Business Profile and your website. By optimizing both together, we help your business gain better visibility across multiple areas of Google search.`,
         `Our structured approach ensures that every aspect of your local presence is strategically optimized.`,
       ],
       services: [
@@ -15866,11 +15884,10 @@ brand appears in AI summaries and citations.`,
 
     whatareservice: {
       isVisible: true,
-      isVariant: '01',
+      isVariant: '04',
       // breakIndex: 6,
       paddingY: '4rem',
-      isRowReverse: true,
-      width: '65%',
+      width: '60%',
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773318978/adaired/services/eCommerce_seo_india/eCommerceSeo_WhatAreService_a4ljur.png',
       headingParts: [
         {
@@ -15879,7 +15896,10 @@ brand appears in AI summaries and citations.`,
           weight: '700',
         },
       ],
-      bgColor: '#FFFCF8',
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      imgWidth: '780',
+      imgHight: '571',
       data: [
         {
           desctioption: `E-commerce SEO is essential for ensuring your products get discovered by the right customers.`,
@@ -16659,7 +16679,7 @@ brand appears in AI summaries and citations.`,
       imgWidth: '857px',
       imgHight: '572px',
       bgColor: '#000000',
-      textColor:"#FFFFFF",
+      textColor: '#FFFFFF',
       data: [
         {
           desctioption: `eCommerce Development refers to the process of designing, building, and maintaining online platforms that allow businesses to sell products or services over the internet. It involves creating a fully functional digital storefront where customers can browse products, add items to a cart, make secure payments, and manage orders seamlessly.`,
