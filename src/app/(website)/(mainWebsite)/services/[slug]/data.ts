@@ -9151,7 +9151,7 @@ export const SERVICES_DATA = {
 
     whatMissing: {
       isVisible: true,
-      bgColor: '#FFFCF8',
+      bgColor: '#FFFAF5',
       isInCenter: true,
       isVariant: '02',
       button: 'Dominate Search Results!',
@@ -15917,7 +15917,7 @@ export const SERVICES_DATA = {
       headingParts: [
         {
           text: 'What is E-Commerce SEO?',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
