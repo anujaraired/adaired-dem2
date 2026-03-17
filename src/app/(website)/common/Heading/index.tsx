@@ -13,7 +13,7 @@ export interface IHeading {
   description?: string;
   isInCenter?: boolean;
   isVarticle?: boolean;
-  textColor?: boolean;
+  textColor?: string;
   className?: string;
   isDecVarticle?: boolean;
   description2?: string;
@@ -406,14 +406,16 @@ const Heading = ({
                   description.map((item: string, index: number) => (
                     <p
                       key={index}
-                      className={`${textColor ? 'text-[#FFFFFF]' : ''} pt-4 text-center lg:text-left`}
+                      className={`pt-4 text-center lg:text-left`}
+                      style={{ color: textColor || '#000000' }}
                     >
                       {item}
                     </p>
                   ))
                 ) : (
                   <p
-                    className={`${textColor ? 'text-[#FFFFFF]' : ''} pt-4 text-center lg:text-left`}
+                    className={`pt-4 text-center lg:text-left`}
+                    style={{ color: textColor || '#000000' }}
                   >
                     {description}
                   </p>
