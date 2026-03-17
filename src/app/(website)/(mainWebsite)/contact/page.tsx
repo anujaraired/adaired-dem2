@@ -23,7 +23,7 @@ const Contact = () => {
   return (
     <>
       {/* <PageBanner title="Contact Us" /> */}
-      <PageBanner subTitle={'CONTACT US'} title={'Get In Touch'} />
+      <PageBanner subTitle={'CONTACT US'} headingParts={[{text:'Get In Touch', color:"#000000", weight:700}]} />
 
       <section className="py-12 lg:py-24">
 

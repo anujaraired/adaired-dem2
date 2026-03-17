@@ -66,7 +66,7 @@ const CaseStudies = () => {
   return (
     <>
       {/* <PageBanner title="Case Studies" /> */}
-      <PageBanner subTitle={'LATEST'} title={'CASE STUDIES'} />
+      <PageBanner subTitle={'LATEST'} headingParts={[{ text: 'CASE STUDIES', color: "#000000", weight: 700 }]} isInCenter={false} />
       <Suspense fallback={<p>Loading feed...</p>}>
         <MaxWidthWrapper className="py-[3rem] lg:py-[4rem] xl:py-[6rem]">
           <div>
@@ -74,7 +74,8 @@ const CaseStudies = () => {
               isVarticle={true}
               breakIndex={3}
               subTitle={'CASE STUDIES'}
-              title={`Digital Agency That Turns Businesses Into Brands`}
+              headingParts={[{ text: 'Digital Agency That Turns Businesses Into Brands', color: "#000000", weight: 700 }]}
+              textColor='#000000'
             />
           </div>
           <div className="mb-[4rem] mt-[1rem] flex gap-[1rem] rounded-full bg-[#EDF6FF]">
@@ -82,11 +83,10 @@ const CaseStudies = () => {
               <p
                 key={idx}
                 onClick={() => setIsActiveTab(idx)}
-                className={`my-auto cursor-pointer rounded-full px-[3rem] py-[0.8rem] transition-all duration-300 ease-in-out ${
-                  isActiveTab === idx
+                className={`my-auto cursor-pointer rounded-full px-[3rem] py-[0.8rem] transition-all duration-300 ease-in-out ${isActiveTab === idx
                     ? 'scale-105 bg-[#1B5A96] text-white'
                     : 'hover:bg-[#1B5A96] hover:text-white'
-                }`}
+                  }`}
               >
                 {item}
               </p>
