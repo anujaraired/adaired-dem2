@@ -1,5 +1,5 @@
 import rocket from '../../../../../../public/assets/icons/rocket.svg';
-import aiseoresult from '../../../../../../public/assets/aiseo/AISEORESULT.png';
+// import aiseoresult from '../../../../../../public/assets/aiseo/AISEORESULT.png';
 // import aiseoresult_2 from '../../../../../../public/assets/680_500.png';
 // import aiseoresult_3 from '../../../../../../public/assets/aiseo/AISEORESULT.png';
 // import aiseoresult_4 from '../../../../../../public/assets/680_500.png';
@@ -113,6 +113,7 @@ import client_2 from '../../../../../../public/assets/LeadingTools/Group 1000005
 import client_3 from '../../../../../../public/assets/LeadingTools/Group 1000005355.png';
 import client_4 from '../../../../../../public/assets/LeadingTools/Group 1000005356.png';
 import client_5 from '../../../../../../public/assets/LeadingTools/Group 1000005428.png';
+import groth from '../../../../../../public/assets/icons/adwords-campaign.svg';
 
 // import adairedHelp_4 from '../../../../../../public/assets/images/services/seo/adairedSEO1.png';
 // import adairedHelp_7 from '../../../../../../public/assets/images/services/seo/adairedSEO2.png';
@@ -615,8 +616,6 @@ import ourProcess_ecomDev4 from '../../../../../../public/assets/images/services
 import ourProcess_ecomDev5 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ourProcess_ecomDev5.svg';
 import ourProcess_ecomDev6 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ourProcess_ecomDev6.svg';
 
-
-
 // eCommerce SEO Service Page Images
 import ecommerceSEO_Imptobusiness1 from '../../../../../../public/assets/images/services/eCommerce_Seo/ecommerceSEO_Imptobusiness1.svg';
 import ecommerceSEO_Imptobusiness2 from '../../../../../../public/assets/images/services/eCommerce_Seo/ecommerceSEO_Imptobusiness2.svg';
@@ -630,8 +629,6 @@ import eCommerceSEO_whatIncluded3 from '../../../../../../public/assets/images/s
 import eCommerceSEO_whatIncluded4 from '../../../../../../public/assets/images/services/eCommerce_Seo/eCommerceSEO_whatIncluded4.svg';
 import eCommerceSEO_whatIncluded5 from '../../../../../../public/assets/images/services/eCommerce_Seo/eCommerceSEO_whatIncluded5.svg';
 import eCommerceSEO_whatIncluded6 from '../../../../../../public/assets/images/services/eCommerce_Seo/eCommerceSEO_whatIncluded6.svg';
-
-
 
 // custom Web Development Images
 import customWebDevKeyStatsImg from '../../../../../../public/assets/images/services/customWebDev/customWebDevKeyStatsImg.png';
@@ -791,12 +788,11 @@ export const SERVICES_DATA = {
       headingParts: [
         {
           text: 'What Are SEO Services?',
-          color: '#FFFFFF',
+          color: '#000000',
           weight: '700',
         },
       ],
       bgColor: '#FFFCF8',
-      isBgWhite: false,
       button: '',
       data: [
         {
@@ -1021,7 +1017,7 @@ export const SERVICES_DATA = {
 
     serviceResult: {
       isVisible: true,
-      isVariant: '04',
+      isVariant: '01',
       headingParts: [
         {
           text: 'Why Partner With Adaired Digital Media to Hire SEO Services?',
@@ -1030,6 +1026,8 @@ export const SERVICES_DATA = {
         },
       ],
       bgImage: '',
+      bgColor: '#FFF9F1',
+      titleColor: '#FB9100',
       img: StrugglingImgSEO,
       description: [
         `Adaired, a leading SEO agency, puts your business at the forefront of technology with the help of proven SEO strategies. 
@@ -1039,7 +1037,7 @@ export const SERVICES_DATA = {
       isBgColor: true,
       list: [
         {
-          img: seo_resultIcon_1,
+          icon: seo_resultIcon_1,
           name: 'Tailored SEO Strategies',
           description: [
             `At Adaired, we offer tailored SEO strategies that match your business goals and objectives.`,
@@ -1047,7 +1045,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: seo_resultIcon_2,
+          icon: seo_resultIcon_2,
           name: 'Transparent Reporting',
           description: [
             `We believe in building long-term relationships with our clients.`,
@@ -1057,7 +1055,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          img: seo_resultIcon_3,
+          icon: seo_resultIcon_3,
           name: 'Sustainable White-Hat Practices',
           description: [
             `Delivering quality work to our clients has become our USP over the years. We work with a laser-sharp focus to generate organic traffic, conversions, and improve technical site health.`,
@@ -1073,10 +1071,11 @@ export const SERVICES_DATA = {
       headingParts: [
         {
           text: 'Every day you wait is a lost lead.',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
+      textColor:"#FFFFFF",
       description: 'Start SEO that converts now.',
       buttonName: 'Book a Free Consultation',
       img: Everydayyouwait,
@@ -1683,7 +1682,6 @@ export const SERVICES_DATA = {
       isVariant: '01',
       isDecVarticle: true,
       isInCenter: false,
-      isBgWhite: false,
       breakIndex: 6,
       activeDot: '#F28F17',
       inactiveDot: '#FFEACD',
@@ -1758,11 +1756,14 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      isRocket: true,
+      cardColor: '#F3F3F3',
+      titleColor: '#000000',
       description: null,
-      isBgColor: false,
       img: StrugglingImgAISEO,
       list: [
         {
+          icon: groth,
           name: 'Your Website Gets Traffic, but Not the Right Traffic',
           description: [
             'Many businesses rank for keywords but still don’t get leads or sales. AI search engines focus on user intent, not just rankings. When your content does not provide a clear answer to what users want, AI will push it down, creating low-quality traffic that does not convert. ',
@@ -1770,6 +1771,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
+          icon: groth,
           name: 'Rankings Drop Without Any Warning',
           description: [
             'AI-powered algorithms change often, and many businesses don’t see it coming. A single update may even take your site off the list. You’re likely to go unnoticed, lose visibility, traffic, and revenue overnight.',
@@ -1777,6 +1779,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
+          icon: groth,
           name: 'Your Content Doesn’t Stand Out Anymore',
           description: [
             'AI favors useful, clear, and original content. If your pages look like everyone else’s, no one pays attention to them. Generic Blogs, keyword repetition, and thin pages are difficult to rank and hence compete with the smarter content strategies used by brands.',
@@ -1784,6 +1787,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
+          icon: groth,
           name: 'You’re Making SEO Decisions Without Real Data',
           description: [
             'Most companies are dependent on guesswork or past reports. It is difficult to discover what works and what does not without insights provided by AI. This leads to wasted effort, slow growth, and missed opportunities while competitors move ahead faster.',
@@ -1798,7 +1802,7 @@ export const SERVICES_DATA = {
       headingParts: [
         {
           text: 'Not Seeing Results?',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -1812,7 +1816,7 @@ export const SERVICES_DATA = {
       headingParts: [
         {
           text: 'Industry Leaders That Rely On Us To Achieve AI Success',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -2410,13 +2414,16 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'What Is Authority',
-          color: '#FFFFFF',
+          color: '#000000',
+          weight: '700',
+        },
+        {
+          text: 'Link Building?',
+          color: '#FB9100',
           weight: '700',
         },
       ],
-      span: 'Link Building?',
       bgColor: '#FFFCF8',
-      isBgWhite: true,
       data: [
         {
           desctioption: `Authority link building is a strategic SEO process focused on earning high-quality backlinks from trusted, relevant, and authoritative websites.  Authority links, unlike low-value links, come from credible sources, including industry publications, long-established blogs, and websites with high domain authority.`,
@@ -2458,7 +2465,6 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '01',
       isDecVarticle: false,
-      isBgWhite: true,
       breakIndex: 6,
       activeDot: '#F28F17',
       inactiveDot: '#FFEACD',
@@ -2747,8 +2753,8 @@ brand appears in AI summaries and citations.`,
       breakIndex: 5,
       bgImg: bgImg_BuildLink,
       img: LinkBuilding,
-      imgWidth: "479",
-      imgHight: "400",
+      imgWidth: '479',
+      imgHight: '400',
       headingParts: [
         {
           text: 'Build Links That Work for Your Business in',
@@ -2761,7 +2767,6 @@ brand appears in AI summaries and citations.`,
           weight: '700',
         },
       ],
-      isBgWhite: true,
       width: '50%',
       paddingY: '3rem',
       data: [],
@@ -3065,8 +3070,8 @@ brand appears in AI summaries and citations.`,
         },
       ],
       img: webDevelopmentBannerBg,
-      imgWidth: "829",
-      imgHight: "530",
+      imgWidth: '829',
+      imgHight: '530',
     },
 
     keyStats: {
@@ -3166,7 +3171,6 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '01',
       isDecVarticle: true,
-      isBgWhite: false,
       isInCenter: false,
       breakIndex: 3,
       activeDot: '#000000',
@@ -3439,8 +3443,8 @@ brand appears in AI summaries and citations.`,
       breakIndex: 5,
       img: BeautifulDesign,
       bgImg: bgImg_BuildLink,
-      imgWidth: "579",
-      imgHight: "458",
+      imgWidth: '579',
+      imgHight: '458',
       headingParts: [
         {
           text: 'Beautiful Design Meets Smart Development.',
@@ -3448,7 +3452,6 @@ brand appears in AI summaries and citations.`,
           weight: '700',
         },
       ],
-      isBgWhite: true,
       textColor: 'white',
       width: '50%',
       data: [
@@ -3740,9 +3743,8 @@ brand appears in AI summaries and citations.`,
       subheading: '',
       width: '50%',
       img: localBannerBg,
-      imgWidth: "727",
-      imgHight: "598",
-
+      imgWidth: '727',
+      imgHight: '598',
     },
 
     keyStats: {
@@ -3835,7 +3837,7 @@ brand appears in AI summaries and citations.`,
 
     serviceResult: {
       isVisible: true,
-      isVariant: '02',
+      isVariant: '01',
       headingParts: [
         {
           text: 'Why Is Local SEO Important for Your Business?',
@@ -3846,11 +3848,12 @@ brand appears in AI summaries and citations.`,
       description: [
         `Local search optimization is necessary when the company is aimed at local consumers. It assists you attract ready-to-convert traffic, gain local visibility and stay ahead of competitors.`,
       ],
-      isBgColor: false,
+      bgColor: '#FFFAF4',
+      isRocket: true,
       img: localServiceResultImg,
       list: [
         {
-          img: localServiceResultIcon,
+          icon: localServiceResultIcon,
           name: 'Drives High-Intent Local Traffic',
           description: [
             `Local SEO makes your company reach the customers, who actively search your services in your area. 
@@ -3859,7 +3862,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: localServiceResultIcon,
+          icon: localServiceResultIcon,
           name: 'Increases Calls, Visits, and Bookings',
           description: [
             `The higher your business is on the local search results, the more customers can easily call, visit, or book your services. 
@@ -3868,7 +3871,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: localServiceResultIcon,
+          icon: localServiceResultIcon,
           name: 'Builds Trust and Credibility',
           description: [
             `Placing your brand at the first position in local search engine will instantly make your brand credible. 
@@ -3877,7 +3880,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: localServiceResultIcon,
+          icon: localServiceResultIcon,
           name: 'Outranks Local Competitors',
           description: [
             `The local SEO will make your business visible in a crowded marketplace because it will put you ahead of your competitors in your city. 
@@ -3886,7 +3889,7 @@ brand appears in AI summaries and citations.`,
           ],
         },
         {
-          img: localServiceResultIcon,
+          icon: localServiceResultIcon,
           name: 'Delivers Long-Term, Cost-Effective Growth',
           description: [
             `Unlike paid advertising, Local SEO delivers sustainable results over time without constant ad spend. 
@@ -3995,7 +3998,7 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'Still unsure about investing in local SEO?',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -4352,7 +4355,7 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'Local Businesses That Choose Us',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -4602,9 +4605,8 @@ brand appears in AI summaries and citations.`,
       button: 'Request a Consultation',
       subheading: 'We work behind the scenes. Your brand gets the credit.',
       img: whiteBannerBg,
-      imgWidth: "605",
-      imgHight: "597",
-
+      imgWidth: '605',
+      imgHight: '597',
     },
 
     keyStats: {
@@ -4656,13 +4658,12 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'What is White Label',
-          color: '#FFFFFF',
+          color: '#000000',
           weight: '700',
         },
       ],
       span: 'Social Media Management?',
       bgColor: '#FFFCF8',
-      isBgWhite: true,
       data: [
         {
           desctioption: `White-label social media management allows agencies to offer professional social media marketing services under their own brand without handling the fulfillment internally.`,
@@ -5065,8 +5066,8 @@ brand appears in AI summaries and citations.`,
       breakIndex: 4,
       bgImg: whiteBookConsultationBg,
       img: whiteBuildLinkImg,
-      imgWidth: "625",
-      imgHight: "507",
+      imgWidth: '625',
+      imgHight: '507',
       headingParts: [
         {
           text: 'Ready to Expand Your Agency?',
@@ -5076,7 +5077,6 @@ brand appears in AI summaries and citations.`,
       ],
       description: ``,
       isMask: true,
-      isBgWhite: true,
       textColor: 'white',
       width: '45%',
       paddingY: '5rem',
@@ -5227,9 +5227,8 @@ brand appears in AI summaries and citations.`,
       span: 'All set to deliver real SEO results to your clients without building an in-house team?',
       width: '50%',
       img: whiteSeoBannerBg,
-      imgWidth: "679",
-      imgHight: "558",
-
+      imgWidth: '679',
+      imgHight: '558',
     },
 
     getsCredit: {
@@ -5311,13 +5310,16 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'What Is White',
-          color: '#FFFFFF',
+          color: '#000000',
+          weight: '700',
+        },
+        {
+          text: 'Label SEO?',
+          color: '#FB9100',
           weight: '700',
         },
       ],
-      span: 'Label SEO?',
       bgColor: '#FFFCF8',
-      isBgWhite: true,
       data: [
         {
           desctioption: `White label SEO is an outsourcing model in which a third-party provider offers SEO services to clients under another company's brand. 
@@ -5370,7 +5372,6 @@ brand appears in AI summaries and citations.`,
     dataInTable: {
       isVisible: true,
       isInCenter: true,
-      isBgWhite: true,
       bgColor: '#FAFAFA',
       trColor: '#7259FF',
       rowColor: 'bg-[#7259FF]/10',
@@ -5745,8 +5746,8 @@ brand appears in AI summaries and citations.`,
       breakIndex: 4,
       bgImg: whiteBookConsultationBg,
       img: whiteSeoBuildLinkImg,
-      imgWidth: "625",
-      imgHight: "507",
+      imgWidth: '625',
+      imgHight: '507',
       headingParts: [
         {
           text: 'Ready to Offer SEO Without Building an In-House Team?',
@@ -5756,7 +5757,6 @@ brand appears in AI summaries and citations.`,
       ],
       description: ``,
       isMask: true,
-      isBgWhite: true,
       textColor: 'white',
       width: '45%',
       paddingY: '5rem',
@@ -5977,8 +5977,8 @@ brand appears in AI summaries and citations.`,
       button: 'Start a Conversation!',
       width: '60%',
       img: whiteServicesBannerBg,
-      imgWidth: "734",
-      imgHight: "512",
+      imgWidth: '734',
+      imgHight: '512',
     },
 
     keyStats: {
@@ -6038,7 +6038,6 @@ brand appears in AI summaries and citations.`,
       ],
       span: 'White Label Services',
       bgColor: '#FFFCF8',
-      isBgWhite: true,
       data: [
         {
           desctioption: `White-label services allow agencies to offer specialized digital solutions without building or managing internal delivery teams. 
@@ -6335,8 +6334,8 @@ brand appears in AI summaries and citations.`,
       breakIndex: 4,
       bgImg: whiteBookConsultationBg,
       img: whiteServicesBuildLinkImg,
-      imgWidth: "625",
-      imgHight: "507",
+      imgWidth: '625',
+      imgHight: '507',
       headingParts: [
         {
           text: 'Ready to Expand Your',
@@ -6351,7 +6350,6 @@ brand appears in AI summaries and citations.`,
       ],
       description: ``,
       isMask: true,
-      isBgWhite: true,
       textColor: 'white',
       width: '45%',
       paddingY: '5rem',
@@ -6672,7 +6670,6 @@ brand appears in AI summaries and citations.`,
 
     importantToBussiness: {
       isVisible: false,
-
     },
 
     serviceResult: {
@@ -6777,9 +6774,8 @@ brand appears in AI summaries and citations.`,
       button: 'Request a Campaign Audit',
       width: '55%',
       img: PPC_Banner,
-      imgWidth: "750",
-      imgHight: "593",
-
+      imgWidth: '750',
+      imgHight: '593',
     },
 
     keyStats: {
@@ -6805,13 +6801,16 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'What is Pay Per',
-          color: '#FFFFFF',
+          color: '#000000',
+          weight: '700',
+        },
+        {
+          text: 'Click Advertising?',
+          color: '#FB9100',
           weight: '700',
         },
       ],
-      span: 'Click Advertising?',
       bgColor: '#FFFCF8',
-      isBgWhite: true,
       data: [
         {
           desctioption: `PPC advertising is a digital marketing strategy where businesses pay a fee each time someone clicks on their ad. 
@@ -7130,8 +7129,8 @@ brand appears in AI summaries and citations.`,
       breakIndex: 4,
       bgImg: whiteBookConsultationBg,
       img: ppcServicesBuildLinkImg,
-      imgWidth: "625",
-      imgHight: "507",
+      imgWidth: '625',
+      imgHight: '507',
       headingParts: [
         {
           text: 'Build a PPC Campaign',
@@ -7146,7 +7145,6 @@ brand appears in AI summaries and citations.`,
       ],
       description: ``,
       isMask: true,
-      isBgWhite: true,
       textColor: 'white',
       width: '45%',
       paddingY: '5rem',
@@ -7593,9 +7591,8 @@ brand appears in AI summaries and citations.`,
       ],
       button: 'Become a White Label Reseller',
       img: whitePaidAdsBannerBg,
-      imgWidth: "751",
-      imgHight: "580",
-
+      imgWidth: '751',
+      imgHight: '580',
     },
 
     whatareservice: {
@@ -7605,13 +7602,12 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'What Is White',
-          color: '#FFFFFF',
+          color: '#000000',
           weight: '700',
         },
       ],
       span: 'Label PPC?',
       bgColor: '#FFFCF8',
-      isBgWhite: true,
       data: [
         {
           desctioption: `White-label PPC is a partnership model that allows digital marketing agencies to offer professional paid advertising 
@@ -7667,7 +7663,6 @@ brand appears in AI summaries and citations.`,
     dataInTable: {
       isVisible: true,
       isInCenter: false,
-      isBgWhite: false,
       bgColor: '#FAFAFA',
       trColor: '#7259FF',
       rowColor: 'bg-[#7259FF]/10',
@@ -8134,8 +8129,8 @@ brand appears in AI summaries and citations.`,
       breakIndex: 4,
       bgImg: whiteBookConsultationBg,
       img: whitePaidAdsBuildLinkImg,
-      imgWidth: "625",
-      imgHight: "507",
+      imgWidth: '625',
+      imgHight: '507',
       headingParts: [
         {
           text: 'Ready to Scale Your',
@@ -8150,7 +8145,6 @@ brand appears in AI summaries and citations.`,
       ],
       description: ``,
       isMask: true,
-      isBgWhite: true,
       textColor: 'white',
       width: '45%',
       paddingY: '5rem',
@@ -8450,9 +8444,8 @@ brand appears in AI summaries and citations.`,
       ],
       button: 'Boost My SEO Rankings',
       img: whiteLinkBuildingBannerBg,
-      imgWidth: "686",
-      imgHight: "558",
-
+      imgWidth: '686',
+      imgHight: '558',
     },
 
     keyStats: {
@@ -8511,7 +8504,6 @@ brand appears in AI summaries and citations.`,
       ],
       span: 'Label Link Building?',
       bgColor: '#FFFCF8',
-      isBgWhite: true,
       data: [
         {
           desctioption: `White label link building is a fulfillment partnership model where a specialized SEO provider builds high-quality backlinks for your clients, 
@@ -8773,8 +8765,8 @@ brand appears in AI summaries and citations.`,
       breakIndex: 4,
       bgImg: whiteLinkBuildingBookConsultationBg,
       img: whiteLinkBuildingBuildLinkImg,
-      imgWidth: "625",
-      imgHight: "534",
+      imgWidth: '625',
+      imgHight: '534',
       headingParts: [
         {
           text: 'Stop Turning Away SEO',
@@ -8788,7 +8780,6 @@ brand appears in AI summaries and citations.`,
         },
       ],
       description: ``,
-      isBgWhite: true,
       textColor: 'white',
       width: '50%',
       paddingY: '4rem',
@@ -8885,7 +8876,6 @@ brand appears in AI summaries and citations.`,
     dataInTable: {
       isVisible: false,
       isInCenter: false,
-      isBgWhite: false,
       isVariant: '01',
       headingParts: [
         {
@@ -9103,9 +9093,8 @@ brand appears in AI summaries and citations.`,
       button: 'Book a 30-Minute Strategy Call',
       width: '65%',
       img: saasSeoBannerBg,
-      imgWidth: "737",
-      imgHight: "558",
-
+      imgWidth: '737',
+      imgHight: '558',
     },
 
     whatareservice: {
@@ -9524,8 +9513,8 @@ brand appears in AI summaries and citations.`,
       breakIndex: 4,
       bgImg: saasSeoBuildLinkBg,
       img: saasSeoBuildLinkImg,
-      imgWidth: "540",
-      imgHight: "528",
+      imgWidth: '540',
+      imgHight: '528',
       headingParts: [
         {
           text: 'Ready to Scale Your',
@@ -9539,7 +9528,6 @@ brand appears in AI summaries and citations.`,
         },
       ],
       description: ``,
-      isBgWhite: true,
       textColor: 'white',
       width: '50%',
       paddingY: '4rem',
@@ -9653,7 +9641,6 @@ brand appears in AI summaries and citations.`,
     dataInTable: {
       isVisible: false,
       isInCenter: false,
-      isBgWhite: false,
       isVariant: '01',
       headingParts: [
         {
@@ -9870,12 +9857,11 @@ brand appears in AI summaries and citations.`,
         Our expert-driven strategy focuses on high-quality content, authority building, structured data optimization, and AI-ready website architecture.`,
       ],
       button: 'Optimize My Website for AI',
-      width: '60%',
+      width: '50%',
       widthLg: '30rem',
       img: geoAiSeoBannerBg,
-      imgWidth: "674",
-      imgHight: "498",
-
+      imgWidth: '674',
+      imgHight: '498',
     },
 
     whatareservice: {
@@ -9890,7 +9876,6 @@ brand appears in AI summaries and citations.`,
         },
       ],
       bgColor: '#FFFCF8',
-      isBgWhite: true,
       data: [
         {
           desctioption: `GEO, or generative engine optimization, is the process of optimizing your brand, website, 
@@ -9921,7 +9906,6 @@ brand appears in AI summaries and citations.`,
         },
       ],
       bgColor: '#FFFFFF',
-      isBgWhite: false,
       button: '',
       data: [
         {
@@ -10182,7 +10166,6 @@ brand appears in AI summaries and citations.`,
     dataInTable: {
       isVisible: true,
       isInCenter: true,
-      isBgWhite: true,
       bgColor: '#FAFAFA',
       trColor: '#7259FF',
       rowColor: 'bg-[#7259FF]/10',
@@ -10299,8 +10282,8 @@ brand appears in AI summaries and citations.`,
       breakIndex: 3,
       bgImg: saasSeoBuildLinkBg,
       img: geoAiSeoBuildLinkImg,
-      imgWidth: "793",
-      imgHight: "529",
+      imgWidth: '793',
+      imgHight: '529',
       headingParts: [
         {
           text: 'Ready to',
@@ -10314,7 +10297,6 @@ brand appears in AI summaries and citations.`,
         },
       ],
       description: ``,
-      isBgWhite: true,
       textColor: 'white',
       width: '50%',
       paddingY: '4rem',
@@ -10603,9 +10585,8 @@ brand appears in AI summaries and citations.`,
       button: 'Build My AEO Strategy',
       width: '50%',
       img: AeoServiceBannerImg,
-      imgWidth: "802",
-      imgHight: "594",
-
+      imgWidth: '802',
+      imgHight: '594',
     },
 
     keyStats: {
@@ -10661,7 +10642,6 @@ brand appears in AI summaries and citations.`,
         },
       ],
       bgColor: '#FFFCF8',
-      isBgWhite: true,
       data: [
         {
           desctioption: [
@@ -10759,7 +10739,7 @@ brand appears in AI summaries and citations.`,
     importantToBussiness: {
       isVisible: true,
       breakIndex: 5,
-      isBgWhite: false,
+      isCardVisible: false,
       isVariant: '01',
       cardColor: '#F9F9F9',
       headingParts: [
@@ -10884,12 +10864,11 @@ brand appears in AI summaries and citations.`,
           buttonName: 'Build My AEO Strategy',
         },
       ],
-    },
+    }, 
 
     dataInTable: {
       isVisible: true,
       isInCenter: true,
-      isBgWhite: true,
       bgColor: '#FFFCF7',
       trColor: '#FB9100',
       rowColor: 'bg-[#FB9100]/10',
@@ -11205,7 +11184,6 @@ brand appears in AI summaries and citations.`,
         },
       ],
       description: ``,
-      isBgWhite: true,
       data: [
         {
           desctioption: `If managing fulfillment is slowing your agency down, Adaired Digital Media’s white-label partnership 
@@ -11323,9 +11301,8 @@ brand appears in AI summaries and citations.`,
       button: 'Transform Your Website Into an App',
       width: '50%',
       img: mobileAppDevBannerBg,
-      imgWidth: "809",
-      imgHight: "650",
-
+      imgWidth: '809',
+      imgHight: '650',
     },
 
     whatareservice: {
@@ -11347,7 +11324,6 @@ brand appears in AI summaries and citations.`,
       imgHight: '631px',
       bgColor: '#000000',
       textColor: '#FFFFFF',
-      isBgWhite: true,
       data: [
         {
           desctioption: `Mobile app development is the process of designing, building, testing, and deploying software applications 
@@ -12021,8 +11997,8 @@ brand appears in AI summaries and citations.`,
       breakIndex: 4,
       bgImg: saasSeoBuildLinkBg,
       img: mobileAppDevBuildLinkImg,
-      imgWidth: "885",
-      imgHight: "590",
+      imgWidth: '885',
+      imgHight: '590',
       headingParts: [
         {
           text: 'Ready to Build Your Mobile App?',
@@ -12031,7 +12007,6 @@ brand appears in AI summaries and citations.`,
         },
       ],
       description: ``,
-      isBgWhite: true,
       textColor: 'white',
       width: '45%',
       paddingY: '3rem',
@@ -12130,7 +12105,6 @@ brand appears in AI summaries and citations.`,
     dataInTable: {
       isVisible: false,
       isInCenter: true,
-      isBgWhite: true,
       bgColor: '#FAFAFA',
       trColor: '#7259FF',
       rowColor: 'bg-[#7259FF]/10',
@@ -12354,9 +12328,8 @@ brand appears in AI summaries and citations.`,
       width: '60%',
       widthLg: '30rem',
       img: gbplocalSeoBannerBg,
-      imgWidth: "811",
-      imgHight: "562",
-
+      imgWidth: '811',
+      imgHight: '562',
     },
 
     keyStats: {
@@ -12420,7 +12393,6 @@ brand appears in AI summaries and citations.`,
         },
       ],
       bgColor: '#FFFCF8',
-      isBgWhite: true,
       data: [
         {
           desctioption: `Google Business Profile optimization, previously known as GMB (Google My Business) optimization, is the strategic process of improving and fine-tuning your business listing. 
@@ -12454,7 +12426,6 @@ brand appears in AI summaries and citations.`,
         },
       ],
       bgColor: '#FFFFFF',
-      isBgWhite: false,
       button: '',
       data: [
         {
@@ -12853,7 +12824,6 @@ brand appears in AI summaries and citations.`,
     dataInTable: {
       isVisible: false,
       isInCenter: true,
-      isBgWhite: true,
       bgColor: '#FAFAFA',
       trColor: '#FB9100',
       rowColor: 'bg-[#7259FF]/10',
@@ -12979,7 +12949,6 @@ brand appears in AI summaries and citations.`,
         },
       ],
       description: ``,
-      isBgWhite: true,
       data: [
         {
           desctioption: `AI-powered search platforms are already influencing how customers discover, evaluate, and choose businesses. 
@@ -13179,12 +13148,11 @@ brand appears in AI summaries and citations.`,
         `By optimizing both your Google Business Profile and website, we help your business appear where local customers are actively searching for services like yours.`,
       ],
       button: 'Get a Free Local SEO Audit',
-      width: '60%',
+      width: '50%',
       widthLg: '30rem',
       img: gmbWebsitelocalSeoBannerBg,
-      imgWidth: "769",
-      imgHight: "529",
-
+      imgWidth: '769',
+      imgHight: '529',
     },
 
     serviceResult: {
@@ -13237,7 +13205,6 @@ brand appears in AI summaries and citations.`,
     dataInTable: {
       isVisible: true,
       isInCenter: true,
-      isBgWhite: true,
       bgColor: '#FFFCF7',
       trColor: '#FB9100',
       rowColor: 'bg-[#FFF6EB]',
@@ -13350,7 +13317,7 @@ brand appears in AI summaries and citations.`,
     importantToBussiness: {
       isVisible: true,
       isInCenter: false,
-      isCardVisible: true,
+      isCardVisible: false,
       breakIndex: 2,
       isVariant: '01',
       cardColor: '#F9F9F9',
@@ -13563,7 +13530,6 @@ brand appears in AI summaries and citations.`,
         },
       ],
       bgColor: '#FFFFFF',
-      isBgWhite: false,
       button: '',
       data: [
         {
@@ -13650,8 +13616,8 @@ brand appears in AI summaries and citations.`,
       breakIndex: 4,
       bgImg: saasSeoBuildLinkBg,
       img: gmbWebsiteSeoBuildLinkImg,
-      imgWidth: "836",
-      imgHight: "599",
+      imgWidth: '836',
+      imgHight: '599',
       headingParts: [
         {
           text: 'Ready to Improve Your',
@@ -13665,9 +13631,8 @@ brand appears in AI summaries and citations.`,
         },
       ],
       description: ``,
-      isBgWhite: true,
       textColor: 'white',
-      width: "45%",
+      width: '45%',
       paddingY: '4rem',
       data: [
         {
@@ -13940,11 +13905,11 @@ brand appears in AI summaries and citations.`,
       ],
       subheading: 'Don’t wait to grow your business; let us assist you!',
       button: 'Create a Website for My Business',
-      width: '60%',
+      width: '50%',
       isGap: true,
       img: Banner,
-      imgWidth: "937",
-      imgHight: "813",
+      imgWidth: '937',
+      imgHight: '813',
     },
 
     keyStats: {
@@ -14015,7 +13980,6 @@ brand appears in AI summaries and citations.`,
       width: '60%',
       isGap: true,
       isRowReverse: true,
-      isBgWhite: true,
       data: [
         {
           desctioption: `With WordPress powering over 40% of all websites on the internet, it offers an unparalleled level of flexibility and customization.`,
@@ -14045,7 +14009,6 @@ brand appears in AI summaries and citations.`,
         },
       ],
       bgColor: '#FFFFFF',
-      isBgWhite: false,
       button: '',
       data: [
         {
@@ -14070,7 +14033,6 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '02',
       isDecVarticle: true,
-      isBgWhite: false,
       isInCenter: false,
       breakIndex: 3,
       activeDot: '#000000',
@@ -14185,7 +14147,7 @@ brand appears in AI summaries and citations.`,
           weight: '700',
         },
       ],
-      textColor:"#",
+      textColor: '#',
       breakIndex: 5,
       bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFFFFF]',
       description: [
@@ -14263,7 +14225,7 @@ brand appears in AI summaries and citations.`,
           weight: '700',
         },
       ],
-      textColor:"",
+      textColor: '',
       description: [
         `Our WordPress development services are designed to support businesses across a wide range of industries.`,
       ],
@@ -14401,8 +14363,8 @@ brand appears in AI summaries and citations.`,
       breakIndex: 3,
       bgImg: bgImgBuildLink,
       img: BuildLink,
-      imgWidth: "822",
-      imgHight: "549",
+      imgWidth: '822',
+      imgHight: '549',
       headingParts: [
         {
           text: 'Start Your WordPress',
@@ -14416,7 +14378,6 @@ brand appears in AI summaries and citations.`,
         },
       ],
       description: ``,
-      isBgWhite: true,
       textColor: 'white',
       width: '40%',
       paddingY: '3rem',
@@ -14599,18 +14560,16 @@ brand appears in AI summaries and citations.`,
           weight: '800',
         },
       ],
-      width: '50%',
+      width: '60%',
       heading2: 'White Label PPC Services',
       desc: [
         `Future-proof your visibility with strategic LLM SEO and generative search optimization.`,
         `At Adaired Digital Media, our LLM SEO services help your brand appear in AI-generated answers across platforms like ChatGPT, Gemini, Claude, and other AI-driven search systems.`,
       ],
       button: 'Get Your AI Visibility Report',
-      img:
-        'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773297265/adaired/services/llm_service/Banner_kjwupk.png',
-      imgWidth: "866",
-      imgHight: "711",
-
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773297265/adaired/services/llm_service/Banner_kjwupk.png',
+      imgWidth: '866',
+      imgHight: '711',
     },
     keyStats: {
       isVisible: true,
@@ -14672,7 +14631,6 @@ brand appears in AI summaries and citations.`,
       imgWidth: '619',
       imgHight: '549',
       customGap: '3rem',
-      isBgWhite: true,
       data: [
         {
           desctioption: `LLM SEO (Large Language Model Search Engine Optimization) is the strategic process of optimizing your brand so AI systems like ChatGPT, Google Gemini, and Claude can clearly understand, evaluate, and confidently reference your business in their generated answers.`,
@@ -14693,7 +14651,6 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '01',
       isDecVarticle: true,
-      isBgWhite: false,
       isInCenter: false,
       breakIndex: 3,
       activeDot: '#000000',
@@ -14843,7 +14800,7 @@ brand appears in AI summaries and citations.`,
     importantToBussiness: {
       isVisible: true,
       isInCenter: false,
-      isCardVisible: true,
+      isCardVisible: false,
       breakIndex: 2,
       isVariant: '01',
       cardColor: '#F9F9F9',
@@ -15021,8 +14978,8 @@ brand appears in AI summaries and citations.`,
       breakIndex: 4,
       bgImg: saasSeoBuildLinkBg,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773297265/adaired/services/llm_service/BuildLink_jenexd.png',
-      imgWidth: "879",
-      imgHight: "493",
+      imgWidth: '879',
+      imgHight: '493',
       headingParts: [
         {
           text: 'Let’s Build Your Custom',
@@ -15036,7 +14993,6 @@ brand appears in AI summaries and citations.`,
         },
       ],
       description: ``,
-      isBgWhite: true,
       textColor: 'white',
       width: '80%',
       paddingY: '3rem',
@@ -15211,11 +15167,11 @@ brand appears in AI summaries and citations.`,
       ],
       subheading: '',
       button: 'Launch My Shopify Store',
-      width: '48%',
+      width: '50%',
       widthLg: '30rem',
       img: ShopifyDevBannerImg,
-      imgWidth: "1075",
-      imgHight: "640",
+      imgWidth: '1075',
+      imgHight: '640',
       isGap: true,
     },
 
@@ -15285,7 +15241,6 @@ brand appears in AI summaries and citations.`,
       bgColor: '#000000',
       textColor: '#FFFFFF',
       isGap: true,
-      isBgWhite: true,
       data: [
         {
           desctioption: `Shopify development refers to the process of creating and customizing eCommerce websites using the Shopify platform. It encompasses a wide range of services, including store setup, theme design, app integration, and the implementation of Shopify Plus solutions. This development process is essential for businesses looking to establish a robust online presence, optimize user experience, and drive sales through tailored eCommerce solutions.`,
@@ -15648,11 +15603,11 @@ brand appears in AI summaries and citations.`,
       isCode01: true,
       isVariant: '03',
       breakIndex: 3,
-      paddingY: "2rem",
+      paddingY: '2rem',
       bgImg: bgImgBuildLink,
       img: shopifyDevBuildLinkImg,
-      imgWidth: "725",
-      imgHight: "506",
+      imgWidth: '725',
+      imgHight: '506',
       headingParts: [
         {
           text: 'Take Your eCommerce',
@@ -15665,9 +15620,9 @@ brand appears in AI summaries and citations.`,
           weight: '700',
         },
       ],
-      width: "55%",
+      width: '55%',
       isMask: false,
-      textColor: "#FFFFFF",
+      textColor: '#FFFFFF',
       description: ``,
       data: [
         {
@@ -15848,19 +15803,17 @@ brand appears in AI summaries and citations.`,
           weight: '800',
         },
       ],
-      width: '55%',
+      width: '60%',
       heading2: 'White Label PPC Services',
       desc: [
         `Get found by shoppers who are ready to buy and turn search traffic into predictable sales growth. `,
         `At Adaired Digital Media, we help e-commerce brands increase visibility, attract buyers, and convert clicks into loyal customers.`,
       ],
       button: 'Book a 30-Minute Strategy Call',
-      img:
-        'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773318980/adaired/services/eCommerce_seo_india/eCommerceSeo_Banner_lfjnx9.png',
-      imgWidth: "852",
-      imgHight: "618",
-      customGap: "8rem",
-
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773318980/adaired/services/eCommerce_seo_india/eCommerceSeo_Banner_lfjnx9.png',
+      imgWidth: '852',
+      imgHight: '618',
+      customGap: '8rem',
     },
 
     keyStats: {
@@ -15922,13 +15875,11 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'What is E-Commerce SEO?',
-          color: '#FFFFFF',
+          color: '#000000',
           weight: '700',
         },
       ],
-      span: '',
       bgColor: '#FFFCF8',
-      isBgWhite: true,
       data: [
         {
           desctioption: `E-commerce SEO is essential for ensuring your products get discovered by the right customers.`,
@@ -16020,7 +15971,7 @@ brand appears in AI summaries and citations.`,
     importantToBussiness: {
       isVisible: true,
       isInCenter: true,
-      isCardVisible: true,
+      isCardVisible: false,
       breakIndex: 5,
       isVariant: '01',
       cardColor: '#FFFFFF',
@@ -16102,7 +16053,6 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '01',
       isDecVarticle: true,
-      isBgWhite: false,
       isInCenter: true,
       breakIndex: 6,
       activeDot: '#000000',
@@ -16178,7 +16128,7 @@ brand appears in AI summaries and citations.`,
       ],
       description: [
         'We also maximize WooCommerce and WordPress stores with complete e-commerce SEO services by including, but not limited to, keyword research, on-page optimization, product page optimization, schema markup, and site speed optimization.',
-        `Adaired will make sure that your shop is the top in search engines, provide people with a convenient and quick shopping process, and meet the search preferences to follow AI-driven and mobile-first traffic development.`
+        `Adaired will make sure that your shop is the top in search engines, provide people with a convenient and quick shopping process, and meet the search preferences to follow AI-driven and mobile-first traffic development.`,
       ],
       list: [
         {
@@ -16272,7 +16222,7 @@ brand appears in AI summaries and citations.`,
           description: [
             `As search advances, with AI assistants, voice search, and smarter algorithms, the SEO strategy of Adaired would remain ahead.`,
             `Your e-commerce search engine strategy is adapted to the current requirements: conversational search, structured data, and mobile site speed.`,
-            `This makes sure your store is not lost in any of the search formats today and tomorrow.`
+            `This makes sure your store is not lost in any of the search formats today and tomorrow.`,
           ],
         },
         {
@@ -16280,7 +16230,7 @@ brand appears in AI summaries and citations.`,
           name: 'End-to-End Technical & UX Excellence',
           description: [
             `Our staff does all the technical work, including the speed of page loading, the ability to work on mobile devices, the correct site structure, and schema markup.`,
-            `Taking technical skill and usability into consideration, Adaired will make sure that your store offers a speedy, smooth, and secure shopping experience, which is a crucial aspect of the user-first search engines.`
+            `Taking technical skill and usability into consideration, Adaired will make sure that your store offers a speedy, smooth, and secure shopping experience, which is a crucial aspect of the user-first search engines.`,
           ],
         },
         {
@@ -16288,7 +16238,7 @@ brand appears in AI summaries and citations.`,
           name: 'Data‑Driven Insights & Transparent Reporting',
           description: [
             `Adaired offers in-depth analytics, traffic, conversion, and performance reports in an era where quantifiable outcomes are essential.`,
-            `Our data strategy helps you know whether your e-commerce SEO services are actually expanding your shop to make better decisions and ensure ROI.`
+            `Our data strategy helps you know whether your e-commerce SEO services are actually expanding your shop to make better decisions and ensure ROI.`,
           ],
         },
         {
@@ -16296,7 +16246,7 @@ brand appears in AI summaries and citations.`,
           name: 'Content & Authority Building for Trust & Visibility',
           description: [
             `In a time when measurable results are critical, Adaired provides detailed analytics, traffic tracking, conversion metrics, and performance reports. Adaired crafts product pages, guides, and content are of high quality in terms of trust, relevance, and expertise in modern standards.`,
-            `We assist in the development of the authority of your brand, which increases the ranking potential and makes customers more confident.`
+            `We assist in the development of the authority of your brand, which increases the ranking potential and makes customers more confident.`,
           ],
         },
         {
@@ -16304,7 +16254,7 @@ brand appears in AI summaries and citations.`,
           name: 'Scalable & Cost‑Effective SEO Services',
           description: [
             `Adaired grows with your business: No matter if you are a growing store or an established brand, the flexible e-commerce SEO services are fully equipped to meet your requirements without the cost of in-house staff.`,
-            `You have professional SEO at an affordable price, and you have access to tools, expertise, and best practices that most brands would have difficulty retaining in-house.`
+            `You have professional SEO at an affordable price, and you have access to tools, expertise, and best practices that most brands would have difficulty retaining in-house.`,
           ],
         },
         {
@@ -16312,7 +16262,7 @@ brand appears in AI summaries and citations.`,
           name: 'Competitive Edge in a Rapidly Evolving Market',
           description: [
             `The cookie-cutter SEO will not work as more e-commerce stores are optimized to the new SEO standards of 2025.`,
-            `Your niche, product offering, and audience are personalized so that Adaired can keep you ahead of the competition, flexible to the updates of the search engine, and have high visibility no matter what happens in the digital marketing world.`
+            `Your niche, product offering, and audience are personalized so that Adaired can keep you ahead of the competition, flexible to the updates of the search engine, and have high visibility no matter what happens in the digital marketing world.`,
           ],
         },
       ],
@@ -16325,8 +16275,8 @@ brand appears in AI summaries and citations.`,
       // breakIndex: 3,
       bgImg: bgImgBuildLink,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773398380/adaired/services/eCommerce_seo_india/Marketing_team_mbatf2.png',
-      imgWidth: "759",
-      imgHight: "507",
+      imgWidth: '759',
+      imgHight: '507',
       headingParts: [
         {
           text: 'Take the First Step',
@@ -16342,7 +16292,6 @@ brand appears in AI summaries and citations.`,
       description: ``,
       textColor: 'white',
       paddingY: '3rem',
-      isBgWhite: true,
       width: '65%',
       data: [
         {
@@ -16368,56 +16317,60 @@ brand appears in AI summaries and citations.`,
           title: 'What makes Adaired’s eCommerce SEO services different?',
           description: [
             `Adaired blends new 2025 trends of AI search, voice search, and mobile-first performance with established on-page, technical, and content SEO strategies.`,
-            `We offer e-commerce SEO that is specifically designed to meet your store's needs, which will have better visibility, targeted traffic, and more conversions than conventional SEO services.`
+            `We offer e-commerce SEO that is specifically designed to meet your store's needs, which will have better visibility, targeted traffic, and more conversions than conventional SEO services.`,
           ],
         },
         {
           title: 'How long does it take to see results from e-commerce SEO?',
           description: [
             `The results will differ based on the size of your store, competition, and the health of your SEO.`,
-            `As a rule, significant changes in the performance of SEO e commerce could be observed within 3-6 months, and the long-term benefits, such as organic traffic and improvement of positions, should be achieved after 6-12 months through the regular approaches of Adaired.`
+            `As a rule, significant changes in the performance of SEO e commerce could be observed within 3-6 months, and the long-term benefits, such as organic traffic and improvement of positions, should be achieved after 6-12 months through the regular approaches of Adaired.`,
           ],
         },
         {
-          title: 'Do you provide customized SEO strategies for different industries?',
+          title:
+            'Do you provide customized SEO strategies for different industries?',
           description: [
             `Yes. The e-commerce SEO services being offered by Adaired are fully niche, product range, and audience specific.`,
-            ` We conduct a market analysis, competition analysis, and user behavior analysis to design a specific SEO roadmap that gives you the best visibility and makes qualified users visit your store.`
+            ` We conduct a market analysis, competition analysis, and user behavior analysis to design a specific SEO roadmap that gives you the best visibility and makes qualified users visit your store.`,
           ],
         },
         {
-          title: 'How does Adaired ensure my site stays up-to-date with 2025 SEO trends?',
+          title:
+            'How does Adaired ensure my site stays up-to-date with 2025 SEO trends?',
           description: [
             `Our team is continually tracking search engine changes, AI search patterns, and voice search formulas.`,
-            `As a company with a well-developed e-commerce SEO, Adaired will be able to tailor their approaches in a more responsive manner, maximizing content, structure, and technical SEO in order to ensure that your shop is not only competitive but also perfectly aligned with the most recent 2025 standards.`
+            `As a company with a well-developed e-commerce SEO, Adaired will be able to tailor their approaches in a more responsive manner, maximizing content, structure, and technical SEO in order to ensure that your shop is not only competitive but also perfectly aligned with the most recent 2025 standards.`,
           ],
         },
         {
           title: 'Will your SEO strategies increase my online sales?',
           description: [
             `Absolutely. The SEO e commerce strategy is focused on high-intent keywords, better user experience, and optimization of conversion paths at Adaired.`,
-            `Our e-commerce SEO services will generate traffic but will convert visitors to paying customers through attracting the relevant traffic, fine-tuning product pages, and CTA.`
+            `Our e-commerce SEO services will generate traffic but will convert visitors to paying customers through attracting the relevant traffic, fine-tuning product pages, and CTA.`,
           ],
         },
         {
-          title: 'Can Adaired handle SEO for large and small e-commerce stores?',
+          title:
+            'Can Adaired handle SEO for large and small e-commerce stores?',
           description: [
             `Yes. E-commerce SEO services of Adaired are scalable, and they can serve small startups and large enterprise stores.`,
-            `We offer scalable services, from technical audits and optimization of the content to comprehensive SEO campaigns, meaning that all clients will enjoy the services of professional advice and quantitative outcomes.`
+            `We offer scalable services, from technical audits and optimization of the content to comprehensive SEO campaigns, meaning that all clients will enjoy the services of professional advice and quantitative outcomes.`,
           ],
         },
         {
           title: 'Do you optimize product pages individually?',
           description: [
             `Yes. At Adaired, we optimize individual product pages with targeted keywords, compelling descriptions, optimized meta tags, structured data, and internal linking.`,
-            `This ensures each product has the best chance to rank in search results and convert visitors into buyers.`
+            `This ensures each product has the best chance to rank in search results and convert visitors into buyers.`,
           ],
         },
         {
-          title: 'Do I need ongoing e-commerce SEO, or is it a one-time service?',
+          title:
+            'Do I need ongoing e-commerce SEO, or is it a one-time service?',
           description: [
             `E-commerce SEO is an ongoing process. Search algorithms evolve, competitors improve, and new products are added regularly.`,
-            `Adaired provides continuous optimization, monitoring, and strategy refinement to ensure your online store maintains rankings and achieves sustainable long-term growth.`
+            `Adaired provides continuous optimization, monitoring, and strategy refinement to ensure your online store maintains rankings and achieves sustainable long-term growth.`,
           ],
         },
       ],
@@ -16434,7 +16387,6 @@ brand appears in AI summaries and citations.`,
     dataInTable: {
       isVisible: false,
       isInCenter: true,
-      isBgWhite: true,
       bgColor: '#FAFAFA',
       trColor: '#FB9100',
       rowColor: 'bg-[#7259FF]/10',
@@ -16642,10 +16594,9 @@ brand appears in AI summaries and citations.`,
         `From concept to launch, we design and develop powerful eCommerce platforms as a leading eCommerce web development company that helps businesses sell smarter and grow faster online.`,
       ],
       button: 'Start Selling Online',
-      img:
-        'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773310273/adaired/services/eCommerceDevelopment/Banner_sctvn1.png',
-      imgWidth: "1111",
-      imgHight: "740",
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773310273/adaired/services/eCommerceDevelopment/Banner_sctvn1.png',
+      imgWidth: '1111',
+      imgHight: '740',
     },
 
     keyStats: {
@@ -16709,7 +16660,6 @@ brand appears in AI summaries and citations.`,
       imgHight: '572px',
       bgColor: '#000000',
       textColor:"#FFFFFF",
-      isBgWhite: false,
       data: [
         {
           desctioption: `eCommerce Development refers to the process of designing, building, and maintaining online platforms that allow businesses to sell products or services over the internet. It involves creating a fully functional digital storefront where customers can browse products, add items to a cart, make secure payments, and manage orders seamlessly.`,
@@ -16731,7 +16681,6 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isVariant: '01',
       isDecVarticle: true,
-      isBgWhite: false,
       isInCenter: false,
       breakIndex: 4,
       activeDot: '#000000',
@@ -16829,7 +16778,7 @@ brand appears in AI summaries and citations.`,
           description: [
             `Our custom eCommerce web development services focus on creating tailored online stores that align perfectly with your brand identity while delivering scalable eCommerce solutions development for modern businesses.`,
             `Instead of relying on generic templates, we build flexible and scalable platforms that allow you to manage products, handle transactions efficiently, and expand your store as your business grows.`,
-            `Whether you are launching a new eCommerce venture or upgrading an existing platform, our development approach ensures your website delivers optimal performance, reliability, and functionality.`
+            `Whether you are launching a new eCommerce venture or upgrading an existing platform, our development approach ensures your website delivers optimal performance, reliability, and functionality.`,
           ],
           button: 'Start Selling Online',
           btnColor: '#FB9100',
@@ -16908,7 +16857,8 @@ brand appears in AI summaries and citations.`,
           heading: 'Need Help',
           heading1: [`Growing Your `, `Online Store?`],
           description: [
-            `Get personalized guidance to grow, optimize, and`, ` scale your online store.`,
+            `Get personalized guidance to grow, optimize, and`,
+            ` scale your online store.`,
           ],
           buttonName: 'Talk to an eCommerce Expert',
         },
@@ -16998,7 +16948,7 @@ brand appears in AI summaries and citations.`,
           description: [
             `The process begins with a thorough discovery phase where we work closely with you to understand your business goals, target audience, product offerings, and technical requirements.`,
             `During this stage, we analyze your competitors, identify key opportunities, and define the core features your online store needs.`,
-            `This helps us create a clear project roadmap and ensures that the development strategy aligns with your business objectives and long-term growth plans.`
+            `This helps us create a clear project roadmap and ensures that the development strategy aligns with your business objectives and long-term growth plans.`,
           ],
         },
         {
@@ -17007,7 +16957,7 @@ brand appears in AI summaries and citations.`,
           description: [
             `Once we understand your requirements, our team develops a detailed strategy and project plan.`,
             `This includes selecting the right eCommerce platform, defining the site architecture, planning user journeys, and outlining technical specifications.`,
-            `By carefully planning every aspect of the project, we ensure a smooth development process and create a solid foundation for building a high-performing online store.`
+            `By carefully planning every aspect of the project, we ensure a smooth development process and create a solid foundation for building a high-performing online store.`,
           ],
         },
         {
@@ -17016,7 +16966,7 @@ brand appears in AI summaries and citations.`,
           description: [
             `In this stage, our designers focus on creating a visually appealing and user-friendly interface that enhances the overall shopping experience.`,
             `We design intuitive layouts, easy navigation systems, and mobile-responsive interfaces that help customers find products quickly and complete purchases effortlessly.`,
-            `Our design approach prioritizes usability, brand consistency, and conversion optimization to ensure the final website not only looks great but also performs effectively.`
+            `Our design approach prioritizes usability, brand consistency, and conversion optimization to ensure the final website not only looks great but also performs effectively.`,
           ],
         },
         {
@@ -17025,7 +16975,7 @@ brand appears in AI summaries and citations.`,
           description: [
             `During the development phase, our engineers transform the approved designs into a fully functional eCommerce platform.`,
             `We implement essential features such as product catalogs, shopping carts, secure checkout systems, payment gateways, and inventory management tools.`,
-            `We also integrate third-party services, including shipping providers, CRM systems, analytics tools, and marketing platforms, to enhance the functionality and efficiency of your online store.`
+            `We also integrate third-party services, including shipping providers, CRM systems, analytics tools, and marketing platforms, to enhance the functionality and efficiency of your online store.`,
           ],
         },
         {
@@ -17034,7 +16984,7 @@ brand appears in AI summaries and citations.`,
           description: [
             `Before launching the website, we conduct comprehensive testing to ensure everything works smoothly.`,
             `This includes functionality testing, performance checks, mobile responsiveness testing, security verification, and compatibility testing across different browsers and devices.`,
-            `Our quality assurance process ensures the website delivers a seamless shopping experience and operates reliably under real-world conditions.`
+            `Our quality assurance process ensures the website delivers a seamless shopping experience and operates reliably under real-world conditions.`,
           ],
         },
         {
@@ -17043,7 +16993,7 @@ brand appears in AI summaries and citations.`,
           description: [
             `After successful testing, we deploy your eCommerce website to the live environment. However, our work does not end there.`,
             `We continue to monitor performance, optimize site speed, analyze user behavior, and make improvements that enhance conversions and customer engagement.`,
-            `This ongoing optimization ensures your online store continues to grow and adapt to changing customer expectations and market trends.`
+            `This ongoing optimization ensures your online store continues to grow and adapt to changing customer expectations and market trends.`,
           ],
         },
       ],
@@ -17052,8 +17002,8 @@ brand appears in AI summaries and citations.`,
     serviceResult: {
       isVisible: true,
       breakIndex: 1,
-      bgcolor: 'bg-gradient-to-b from-[#fffdf9] to-[#fffdf9]',
-      isVariant: '03',
+      bgColor: '#FFF9F1',
+      isVariant: '01',
       headingParts: [
         {
           text: 'E-Commerce Platforms We Work With',
@@ -17067,41 +17017,35 @@ brand appears in AI summaries and citations.`,
         `Choosing the right eCommerce platform is essential for building a successful online store.`,
         `We also help businesses evaluate eCommerce website development packages and understand the typical eCommerce website development price before selecting the right platform.`,
       ],
-      bgColor: true,
       list: [
         {
-          img: seo_resultIcon_1,
           name: 'Shopify',
           description: [
             `Shopify is a popular cloud-based eCommerce platform known for its ease of use and powerful built-in features.`,
-            `It is ideal for businesses looking for a quick and reliable way to launch and manage their online store.`
+            `It is ideal for businesses looking for a quick and reliable way to launch and manage their online store.`,
           ],
         },
         {
-          img: seo_resultIcon_2,
           name: 'WooCommerce',
           description: [
             `WooCommerce is a flexible eCommerce solution built on WordPress.`,
-            `It offers extensive customization options and is suitable for businesses that want full control over their website and functionality.`
+            `It offers extensive customization options and is suitable for businesses that want full control over their website and functionality.`,
           ],
         },
         {
-          img: seo_resultIcon_3,
           name: 'Magento',
           description: [
             `Magento is a robust platform designed for businesses that require advanced customization and scalability.`,
-            `It is widely used by enterprises and high-volume online stores.`
+            `It is widely used by enterprises and high-volume online stores.`,
           ],
         },
         {
-          img: seo_resultIcon_3,
           name: 'BigCommerce',
           description: [
             `BigCommerce provides powerful built-in features, scalability, and strong performance capabilities, making it a great option for growing businesses and established brands.`,
           ],
         },
         {
-          img: seo_resultIcon_3,
           name: 'Custom eCommerce Solutions',
           description: [
             `Custom-built platforms allow businesses to implement specialized features, integrations, and workflows tailored to their operations.`,
@@ -17129,7 +17073,8 @@ brand appears in AI summaries and citations.`,
         },
       ],
       description: [
-        `Choosing the right development partner is essential for building a successful eCommerce platform.`, ` Our team focuses on delivering customized solutions that combine technical expertise, strategic thinking, and a deep understanding of digital commerce.`,
+        `Choosing the right development partner is essential for building a successful eCommerce platform.`,
+        ` Our team focuses on delivering customized solutions that combine technical expertise, strategic thinking, and a deep understanding of digital commerce.`,
       ],
       list: [
         {
@@ -17177,8 +17122,8 @@ brand appears in AI summaries and citations.`,
       breakIndex: 3,
       bgImg: bgImgBuildLink,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773386797/adaired/services/eCommerceDevelopment/Group_1000007436_r1hvxn.png',
-      imgWidth: "741",
-      imgHight: "495",
+      imgWidth: '741',
+      imgHight: '495',
       headingParts: [
         {
           text: 'Start Your E-Commerce ',
@@ -17192,7 +17137,6 @@ brand appears in AI summaries and citations.`,
         },
       ],
       description: ``,
-      isBgWhite: true,
       textColor: 'white',
       paddingY: '2rem',
       width: '45%',
@@ -17274,7 +17218,7 @@ brand appears in AI summaries and citations.`,
     },
 
     needofservice: {
-      isVisible: false
+      isVisible: false,
     },
 
     whyAdaired: {
@@ -17469,8 +17413,7 @@ brand appears in AI summaries and citations.`,
       ],
       subheading: '',
       button: 'Create Your Custom Platform',
-      width: '48%',
-      widthLg: '30rem',
+      width: '45%',
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388293/adaired/services/custom_web_development/customWebDevBannerImg_jruqxc.png',
       imgWidth: '1062',
       imgHight: '602',
@@ -17562,7 +17505,6 @@ brand appears in AI summaries and citations.`,
     dataInTable: {
       isVisible: true,
       isInCenter: true,
-      isBgWhite: true,
       bgColor: '#FAFAFA',
       trColor: 'bg-[#7259FF]',
       rowColor: 'bg-[#7259FF]/10',
@@ -18087,8 +18029,8 @@ brand appears in AI summaries and citations.`,
       breakIndex: 4,
       bgImg: bgImgBuildLink,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388292/adaired/services/custom_web_development/customWebDevBuildLinkImg_y1mjuu.png',
-      imgWidth: "738",
-      imgHight: "541",
+      imgWidth: '738',
+      imgHight: '541',
       headingParts: [
         {
           text: 'Start Your Custom Web',
@@ -18102,7 +18044,6 @@ brand appears in AI summaries and citations.`,
         },
       ],
       description: ``,
-      isBgWhite: true,
       textColor: 'white',
       width: '60%',
       paddingY: '2rem',
@@ -18233,7 +18174,6 @@ brand appears in AI summaries and citations.`,
       isVisible: false,
       isVariant: '02',
       isDecVarticle: true,
-      isBgWhite: false,
       isInCenter: false,
       breakIndex: 3,
       activeDot: '#000000',
@@ -18274,7 +18214,6 @@ brand appears in AI summaries and citations.`,
         },
       ],
       bgColor: '#FFFFFF',
-      isBgWhite: false,
       button: '',
       data: [
         {

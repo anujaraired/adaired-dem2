@@ -24,7 +24,6 @@ const WhatMakesAdaired = ({ whatMkeDeferent }: any) => {
               isInCenter={whatMkeDeferent?.isInCenter}
               description={whatMkeDeferent?.description}
               isDecVarticle={!whatMkeDeferent?.isInCenter}
-              isBgWhite={whatMkeDeferent?.bgColor && true}
             />
           </div>
         </div>

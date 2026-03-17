@@ -30,7 +30,6 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 headingParts={whatareaiseo?.headingParts}
                 span={whatareaiseo?.span}
                 spanColor="text-[#FBD04F]"
-                isBgWhite={whatareaiseo?.isBgWhite && true}
               />
               <div className="">
                 {whatareaiseo?.data?.map((item: any) => {

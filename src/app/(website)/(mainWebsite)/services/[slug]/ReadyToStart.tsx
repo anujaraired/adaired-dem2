@@ -38,7 +38,6 @@ const ReadyToStart = ({ handleClick, className }: any) => {
               title={'Ready to Start Your SEO Project Today?'}
               description={''}
               isInCenter={true}
-              isBgWhite={false}
               className="whitespace-pre-line"
             />
             <div className="flex justify-center">
