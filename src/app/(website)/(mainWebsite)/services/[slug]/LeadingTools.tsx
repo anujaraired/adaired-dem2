@@ -54,6 +54,7 @@ const LeadingTools = ({ leadingTools }: any) => {
             breakIndex={6}
             headingParts={leadingTools?.headingParts}
             description={leadingTools?.description}
+            textColor={leadingTools?.textColor}
             isInCenter={true}
           />
         </div>
