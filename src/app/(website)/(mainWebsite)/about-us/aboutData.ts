@@ -185,7 +185,13 @@ export const ABOUT_DATA = {
 
   howItStarted: {
     isVisible: true,
-    heading: 'How It All Started',
+    headingParts: [
+      {
+        text: 'How It All Started',
+        color: '#000000',
+        weight: '700',
+      },
+    ],
     timeline: [
       {
         img: howItStartedImg_1,
@@ -226,7 +232,14 @@ export const ABOUT_DATA = {
     isVisible: true,
     image: 'Static Website Images/about_main_anwqk5',
     subTitle: '',
-    title: 'We’re Not a Typical Digital Agency: You’ll See the Difference!',
+    breakIndex: 7,
+    headingParts: [
+      {
+        text: 'We’re Not a Typical Digital Agency: You’ll See the Difference!',
+        color: '#000000',
+        weight: '700',
+      },
+    ],
     description: `We are problem solvers, data thinkers, and growth partners who believe that great digital marketing requires collaboration, curiosity, and continuous improvement. 
         Rather than working in silos, we work as a cohesive team dedicated to providing value, clarity, and measurable results to our clients.`,
     cursive:
@@ -238,7 +251,13 @@ export const ABOUT_DATA = {
   peopleBehindWork: {
     isVisible: true,
     breakIndex: 3,
-    heading: 'The People Behind the Work',
+    headingParts: [
+      {
+        text: 'The People Behind the Work',
+        color: '#000000',
+        weight: '700',
+      },
+    ],
     description: [
       `Behind every strategy and result is a team of digital media specialists who are deeply concerned with performance and outcomes.`,
       `At Adaired Digital Media, our team combines expertise in strategy, media, technology, content, and analytics to help brands grow smarter, faster.`,
@@ -248,31 +267,31 @@ export const ABOUT_DATA = {
       {
         img: ORMManager,
         title: 'Sandeep Grewal',
-        desc: 'ORM Team Manegar',
+        desc: 'ORM Team Manager',
         icon: Linkedin,
       },
       {
         img: HRManager,
         title: 'Aarushi Sharma',
-        desc: 'HR Manegar',
+        desc: 'HR Manager',
         icon: Linkedin,
       },
       {
         img: SEOManager,
         title: 'Gourav Manuja',
-        desc: 'Seo Team Manegar',
+        desc: 'Seo Team Manager',
         icon: Linkedin,
       },
       {
         img: WebDevelopmentManager,
         title: 'Ratanjyot Singh',
-        desc: 'Project Manegar',
+        desc: 'Project Manager',
         icon: Linkedin,
       },
       {
         img: SalesManager,
         title: 'Sahil Khanna',
-        desc: 'Sales Team Manegar',
+        desc: 'Sales Team Manager',
         icon: Linkedin,
       },
     ],
@@ -281,7 +300,14 @@ export const ABOUT_DATA = {
   industriesWeWorkWith: {
     isVisible: true,
     code: '01',
-    heading: 'Industries We Work With',
+    headingParts: [
+      {
+        text: 'Industries We Work With',
+        color: '#FFFFFF',
+        weight: '700',
+      },
+    ],
+    textColor: '#FFFFFF',
     description: [
       `Every industry has a different definition of growth, and your marketing plan should reflect this.
             With an extensive understanding of market dynamics, consumer expectations, and competitive challenges, 
