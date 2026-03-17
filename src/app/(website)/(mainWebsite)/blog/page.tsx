@@ -64,14 +64,14 @@ const Blog = async () => {
 
   return (
     <>
-      <PageBanner subTitle={'Latest'} title="OUR BLOGS" />
+      <PageBanner subTitle={'Latest'} headingParts={[{text:'BLOGS', color:"#000000", weight:700}]} isInCenter={false} />
       <MaxWidthWrapper className="pb-[6rem] pt-[3rem] lg:py-[4rem] lg:pb-[10rem] xl:pb-[12rem] xl:pt-[6rem]">
         <div className="">
           <Heading
             isLabel={true}
             subTitle={'Our BLOGS'}
             breakIndex={3}
-            title={`Digital Agency That Turns Businesses Into Brands`}
+            headingParts={[{text:'Digital Agency That Turns Businesses Into Brands', color:"#000000", weight:700}]}
           />
           <BlogWPagination data={data} />
 
