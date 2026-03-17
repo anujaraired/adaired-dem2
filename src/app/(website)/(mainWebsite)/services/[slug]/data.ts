@@ -1096,7 +1096,8 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
-      description: 'We have worked with some of the leading brands to turn visitors into leads and paying customers. ',
+      description:
+        'We have worked with some of the leading brands to turn visitors into leads and paying customers. ',
       textColor: '#FFFFFF',
       bgImage: leadingToolsImg,
       list: [
@@ -9085,7 +9086,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/services/saas-seo-india',
+        canonical: '/services/saas-seo-agency',
       },
     },
     banner: {
@@ -9851,7 +9852,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/seo-company-india',
+        canonical: '/generative-engine-optimization-india',
       },
     },
     banner: {
@@ -11313,7 +11314,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/seo-company-india',
+        canonical: '/mobile-apps-development-india',
       },
     },
     banner: {
@@ -12335,7 +12336,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/seo-company-india',
+        canonical: '/gmb-optimization-india',
       },
     },
     banner: {
@@ -13167,7 +13168,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/seo-company-india',
+        canonical: '/gmb-website-seo-india',
       },
     },
     banner: {
@@ -13924,7 +13925,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/seo-company-india',
+        canonical: '/wordpress-development-company-india',
       },
     },
     banner: {
@@ -15185,7 +15186,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/seo-company-india',
+        canonical: '/shopify-development-company-india',
       },
     },
     banner: {
@@ -15825,7 +15826,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/seo-company-india',
+        canonical: '/ecommerce-seo-agency-india',
       },
     },
     banner: {
@@ -16609,7 +16610,7 @@ export const SERVICES_DATA = {
       description:
         'Top-rated SEO company in India delivering higher rankings, organic traffic, and real growth for businesses in the USA, UK, UAE, Canada and Australia.',
       alternates: {
-        canonical: '/services/ecommerce-development-company',
+        canonical: '/services/ecommerce-development-company-india',
       },
     },
     banner: {
@@ -16704,7 +16705,7 @@ export const SERVICES_DATA = {
       imgWidth: '857px',
       imgHight: '572px',
       bgColor: '#000000',
-      textColor: "#FFFFFF",
+      textColor: '#FFFFFF',
       data: [
         {
           desctioption: `eCommerce Development refers to the process of designing, building, and maintaining online platforms that allow businesses to sell products or services over the internet. It involves creating a fully functional digital storefront where customers can browse products, add items to a cart, make secure payments, and manage orders seamlessly.`,
@@ -17432,7 +17433,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/seo-company-india',
+        canonical: '/custom-web-development-company',
       },
     },
     banner: {
