@@ -105,7 +105,6 @@ const LeadingTools = ({ leadingTools }: any) => {
       )}
 
       <MaxWidthWrapper>
-
         {leadingTools?.isVariant === '02' && (
           <div>
             <div className="relative mt-4 sm:mt-6">
@@ -152,6 +151,35 @@ const LeadingTools = ({ leadingTools }: any) => {
           </div>
         )}
       </MaxWidthWrapper>
+
+
+      {leadingTools?.isVariant === '03' && (
+        <div className="w-full overflow-hidden pt-[2rem]">
+          <div
+            className={`flex w-max animate-marquee gap-[1rem] lg:gap-[2rem] pb-4 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+          >
+            {duplicatedList.map((item: any, idx: number) => (
+              <div
+                key={idx}
+                className="min-w-[60vw] sm:min-w-[50vw] lg:min-w-[290px] px-[1rem] py-[2rem] border rounded-[2rem] flex flex-col gap-[2rem] items-center justify-between"
+              >
+                <div className="relative w-[180px] h-[45px] lg:w-[292px] lg:h-[116px] flex items-center justify-center">
+                  <Image
+                    src={item?.img}
+                    alt="icon"
+                    // width={100}
+                    // height={88}
+                    fill
+                    className="object-contain"
+                  />
+                </div>
+
+                <p className="text-center text-[16px]">{item?.desc}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
     </div>
   );
 };
