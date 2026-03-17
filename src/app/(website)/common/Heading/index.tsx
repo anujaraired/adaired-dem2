@@ -62,7 +62,11 @@ const Heading = ({
               <div className="md:flex` w- block gap-3">
                 <div className="flex justify-center">
                   <div
-                    className={` ${textColor ? 'border-[#000000]/50 bg-[#FFFFFF]' : 'border-[#FFFFFF]/50 bg-transparent'} flex w-fit justify-center gap-3 rounded-full border-[0.71px] px-[1rem] py-[0.25rem]`}
+                    className={`flex w-fit justify-center gap-3 rounded-full border-[0.71px] px-[1rem] py-[0.25rem]`}
+                    style={{
+                      backgroundColor: textColor || '#000000',
+                      border: textColor || '#000000',
+                    }}
                   >
                     <Image
                       src={star}
@@ -72,18 +76,16 @@ const Heading = ({
                       className="mb-auto"
                     />
                     <span
-                      className={`my-auto uppercase ${textColor ? 'text-[#000000]' : 'text-[#FFFFFF]'}`}
+                      className={`my-auto uppercase`}
+                      style={{ color: textColor || '#000000' }}
                     >
                       {subTitle}
                     </span>
-                    {/* <div className="mb-auto mt-3 h-0.5 w-24 bg-[#D7EBFF]"></div> */}
                   </div>
                 </div>
                 <div className="mt-[1px] md:mt-[15px]">
                   {isH1 ? (
-                    <h1
-                      className={`capitalize ${textColor ? 'text-[#111111]' : 'text-[#FFFFFF]'} text-center`}
-                    >
+                    <h1 className={`text-center capitalize`}>
                       {headingParts
                         ?.flatMap((part: any) =>
                           part.text.split(' ').map((word: string) => ({
@@ -109,9 +111,7 @@ const Heading = ({
                         ))}
                     </h1>
                   ) : (
-                    <h2
-                      className={`capitalize ${textColor ? 'text-[#111111]' : 'text-[#FFFFFF]'} text-center`}
-                    >
+                    <h2 className={`text-center capitalize`}>
                       {headingParts
                         ?.flatMap((part: any) =>
                           part.text.split(' ').map((word: string) => ({
@@ -140,11 +140,30 @@ const Heading = ({
                 </div>
               </div>
               <div className="px-0 lg:px-[20%]">
-                <p
-                  className={`${textColor ? 'text-[#000000]' : 'text-[#FFFFFF]'} py-4 text-center`}
+                {/* <p
+                  className={`py-4 text-center`}
+                  style={{ color: textColor || '#000000' }}
                 >
                   {description}
-                </p>
+                </p> */}
+                {Array.isArray(description) ? (
+                  description.map((item: string, index: number) => (
+                    <p
+                      key={index}
+                      className={`py-4 text-center`}
+                      style={{ color: textColor || '#000000' }}
+                    >
+                      {item}
+                    </p>
+                  ))
+                ) : (
+                  <p
+                    className={`py-4 text-center`}
+                    style={{ color: textColor || '#000000' }}
+                  >
+                    {description}
+                  </p>
+                )}
               </div>
             </div>
           ) : (
@@ -159,7 +178,11 @@ const Heading = ({
                     className="mb-auto"
                   />
                   <span
-                    className={`my-auto uppercase ${textColor ? 'text-[#111111]' : 'text-white'} xl:text-[14px]`}
+                    className={`my-auto uppercase xl:text-[14px]`}
+                    style={{
+                      color: textColor || '#000000',
+                      border: textColor || '#000000',
+                    }}
                   >
                     {subTitle}
                   </span>
@@ -222,8 +245,27 @@ const Heading = ({
                 </div>
               </div>
               <div className={`${isDecVarticle && 'pt-[1rem]'}`}>
-                <p className="pt-4">{description}</p>
-                {isPara2 && <p className="py-4">{description2}</p>}
+                {/* <p className="pt-4" style={{ color: textColor || '#000000' }}>
+                  {description}
+                </p> */}
+                {Array.isArray(description) ? (
+                  description.map((item: string, index: number) => (
+                    <p
+                      key={index}
+                      className={`py-4 text-center`}
+                      style={{ color: textColor || '#000000' }}
+                    >
+                      {item}
+                    </p>
+                  ))
+                ) : (
+                  <p
+                    className={`py-4 text-center`}
+                    style={{ color: textColor || '#000000' }}
+                  >
+                    {description}
+                  </p>
+                )}
               </div>
             </div>
           )}
@@ -236,7 +278,8 @@ const Heading = ({
                 {isLabel && (
                   <div className="flex justify-center">
                     <div
-                      className={` ${textColor ? 'border-[#000000]/50 bg-[#FFFFFF]' : 'border-[#FFFFFF]/50 bg-transparent'} flex w-fit justify-center gap-3 rounded-full border-[0.71px] px-[1rem] py-[0.25rem]`}
+                      className={`flex w-fit justify-center gap-3 rounded-full border-[0.71px] px-[1rem] py-[0.25rem]`}
+                      style={{ color: textColor || '#000000' }}
                     >
                       <Image
                         src={star}
@@ -246,19 +289,20 @@ const Heading = ({
                         className="mb-auto"
                       />
                       <span
-                        className={`my-auto uppercase ${textColor ? 'text-[#000000]' : 'text-[#FFFFFF]'}`}
+                        className={`my-auto uppercase`}
+                        style={{
+                          color: textColor || '#000000',
+                          border: textColor || '#000000',
+                        }}
                       >
                         {subTitle}
                       </span>
-                      {/* <div className="mb-auto mt-3 h-0.5 w-24 bg-[#D7EBFF]"></div> */}
                     </div>
                   </div>
                 )}
                 <div className="">
                   {isH1 ? (
-                    <h1
-                      className={`capitalize ${textColor ? 'text-[#111111]' : 'text-[#FFFFFF]'} text-center`}
-                    >
+                    <h1 className={`text-center capitalize`}>
                       {headingParts
                         ?.flatMap((part: any) =>
                           part.text.split(' ').map((word: string) => ({
@@ -284,9 +328,7 @@ const Heading = ({
                         ))}
                     </h1>
                   ) : (
-                    <h2
-                      className={`capitalize ${textColor ? 'text-[#111111]' : 'text-[#FFFFFF]'} text-center`}
-                    >
+                    <h2 className={`text-center capitalize`}>
                       {headingParts
                         ?.flatMap((part: any) =>
                           part.text.split(' ').map((word: string) => ({
@@ -316,11 +358,30 @@ const Heading = ({
               </div>
               {description && (
                 <div className="px-0 lg:px-[15%]">
-                  <p
-                    className={`${textColor ? 'text-[#000000]' : 'text-[#FFFFFF]'} mx-auto w-[100%] py-4 text-center lg:w-[80%]`}
+                  {/* <p
+                    className={`mx-auto w-[100%] py-4 text-center lg:w-[80%]`}
+                    style={{ color: textColor || '#000000' }}
                   >
                     {description}
-                  </p>
+                  </p> */}
+                  {Array.isArray(description) ? (
+                    description.map((item: string, index: number) => (
+                      <p
+                        key={index}
+                        className={`mx-auto w-[100%] py-4 text-center lg:w-[80%]`}
+                        style={{ color: textColor || '#000000' }}
+                      >
+                        {item}
+                      </p>
+                    ))
+                  ) : (
+                    <p
+                      className={`mx-auto w-[100%] py-4 text-center lg:w-[80%]`}
+                      style={{ color: textColor || '#000000' }}
+                    >
+                      {description}
+                    </p>
+                  )}
                 </div>
               )}
             </div>
@@ -338,7 +399,13 @@ const Heading = ({
                       alt=""
                       className="mb-auto"
                     />
-                    <span className="my-auto uppercase text-[#000000]">
+                    <span
+                      className="my-auto uppercase"
+                      style={{
+                        color: textColor || '#000000',
+                        border: textColor || '#000000',
+                      }}
+                    >
                       {subTitle}
                     </span>
                   </div>
@@ -371,9 +438,7 @@ const Heading = ({
                         ))}
                     </h1>
                   ) : (
-                    <h2
-                      className={`text-center capitalize text-[#FFFFFF] lg:text-left`}
-                    >
+                    <h2 className={`text-center capitalize lg:text-left`}>
                       {headingParts
                         ?.flatMap((part: any) =>
                           part.text.split(' ').map((word: string) => ({
@@ -420,7 +485,6 @@ const Heading = ({
                     {description}
                   </p>
                 )}
-                {isPara2 && <p className="py-4">{description2}</p>}
               </div>
             </div>
           )}

@@ -1075,6 +1075,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      textColor:"#FFFFFF",
       description: 'Start SEO that converts now.',
       buttonName: 'Book a Free Consultation',
       img: Everydayyouwait,

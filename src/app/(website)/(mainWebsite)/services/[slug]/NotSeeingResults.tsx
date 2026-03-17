@@ -26,6 +26,7 @@ const NotSeeingResults = ({ notSeeingResult }: any) => {
         >
           <Heading
             isH1={true}
+            textColor={notSeeingResult?.textColor}
             headingParts={notSeeingResult?.headingParts}
             description={notSeeingResult?.description}
           />
