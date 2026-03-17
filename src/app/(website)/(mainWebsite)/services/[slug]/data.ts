@@ -1075,7 +1075,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
-      textColor:"#FFFFFF",
+      textColor: "#FFFFFF",
       description: 'Start SEO that converts now.',
       buttonName: 'Book a Free Consultation',
       img: Everydayyouwait,
@@ -1092,12 +1092,12 @@ export const SERVICES_DATA = {
       headingParts: [
         {
           text: 'Powered By Leading Brands From All Around The World',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
-      description:
-        'We have worked with some of the leading brands to turn visitors into leads and paying customers. ',
+      description: 'We have worked with some of the leading brands to turn visitors into leads and paying customers. ',
+      textColor: '#FFFFFF',
       bgImage: leadingToolsImg,
       list: [
         {
@@ -1329,9 +1329,15 @@ export const SERVICES_DATA = {
       subtitle: 'Boost Traffic Today',
       isLabel: true,
       button: 'Get Your AI SEO Plan',
-      title:
-        'Get more visitors, attract the right audience, and increase your revenue.',
+      headingParts: [
+        {
+          text: 'Get more visitors, attract the right audience, and increase your revenue.',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: `Our proven SEO strategies put your website in front of people who are ready to buy.`,
+      textColor: '#FFFFFF',
     },
 
     faqData: {
@@ -1807,6 +1813,7 @@ export const SERVICES_DATA = {
         },
       ],
       description: 'Let AI Reveal What’s Holding You Back.',
+      textColor: '#FFFFFF',
       buttonName: 'Get Your Free AI SEO Audit',
       img: NotSeeingResult,
       bgImage: NotSeeingResultsBg,
@@ -1822,6 +1829,7 @@ export const SERVICES_DATA = {
       ],
       description:
         'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      textColor: '#FFFFFF',
       bgImage: leadingToolsImg,
     },
     leadingToolsForPerformence: {
@@ -2169,15 +2177,21 @@ export const SERVICES_DATA = {
       bgImg: stop_struggle,
       isHoverBgBlue: true,
     },
+
     getplan: {
       isVisible: true,
-      isLabel: false,
+      isLabel: true,
       button: 'Get Your AI SEO Plan',
       subtitle: 'Boost Traffic Today',
-      title: 'Dominate AI Search Today',
-      description: `Get a custom plan to optimize for AI-driven results: structured data,
-semantic content, answer-ready copy, and technical SEO—ensuring your
-brand appears in AI summaries and citations.`,
+      headingParts: [
+        {
+          text: 'Dominate AI Search Today',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
+      description: `Get a custom plan to optimize for AI-driven results: structured data, semantic content, answer-ready copy, and technical SEO—ensuring your brand appears in AI summaries and citations.`,
+      textColor: '#FFFFFF',
     },
     faqData: {
       isVisible: true,
@@ -4003,6 +4017,7 @@ brand appears in AI summaries and citations.`,
         },
       ],
       description: 'You shouldn’t be.',
+      textColor: '#FFFFFF',
       buttonName: 'Book a call with a local SEO expert!',
       img: LocalNotSee,
       bgImage: LocalNotSeeBg,
@@ -4361,6 +4376,7 @@ brand appears in AI summaries and citations.`,
       ],
       description:
         'From small businesses to multi-location brands, clients trust usto boost local rankings, manage online reputation, and drive consistent local leads that fuel long-term growth ',
+      textColor: '#FFFFFF',
       bgImage: leadingToolsImg,
       list: [
         {
@@ -5373,7 +5389,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: true,
       bgColor: '#FAFAFA',
-      trColor: '#7259FF',
+      trColor: 'bg-[#7259FF]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       headingParts: [
@@ -7605,8 +7621,12 @@ brand appears in AI summaries and citations.`,
           color: '#000000',
           weight: '700',
         },
+        {
+          text: 'Label PPC?',
+          color: '#FB9100',
+          weight: '700',
+        },
       ],
-      span: 'Label PPC?',
       bgColor: '#FFFCF8',
       data: [
         {
@@ -7664,7 +7684,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: false,
       bgColor: '#FAFAFA',
-      trColor: '#7259FF',
+      trColor: 'bg-[#7259FF]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       headingParts: [
@@ -10167,7 +10187,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: true,
       bgColor: '#FAFAFA',
-      trColor: '#7259FF',
+      trColor: 'bg-[#7259FF]',
       rowColor: 'bg-[#7259FF]/10',
       isVariant: '01',
       headingParts: [
@@ -10864,13 +10884,13 @@ brand appears in AI summaries and citations.`,
           buttonName: 'Build My AEO Strategy',
         },
       ],
-    }, 
+    },
 
     dataInTable: {
       isVisible: true,
       isInCenter: true,
       bgColor: '#FFFCF7',
-      trColor: '#FB9100',
+      trColor: 'bg-[#FB9100]',
       rowColor: 'bg-[#FB9100]/10',
       isVariant: '01',
       headingParts: [
@@ -13206,7 +13226,7 @@ brand appears in AI summaries and citations.`,
       isVisible: true,
       isInCenter: true,
       bgColor: '#FFFCF7',
-      trColor: '#FB9100',
+      trColor: 'bg-[#FB9100]',
       rowColor: 'bg-[#FFF6EB]',
       isVariant: '01',
       headingParts: [
@@ -16659,7 +16679,7 @@ brand appears in AI summaries and citations.`,
       imgWidth: '857px',
       imgHight: '572px',
       bgColor: '#000000',
-      textColor:"#FFFFFF",
+      textColor: "#FFFFFF",
       data: [
         {
           desctioption: `eCommerce Development refers to the process of designing, building, and maintaining online platforms that allow businesses to sell products or services over the internet. It involves creating a fully functional digital storefront where customers can browse products, add items to a cart, make secure payments, and manage orders seamlessly.`,
