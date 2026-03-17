@@ -1,5 +1,5 @@
 import rocket from '../../../../../../public/assets/icons/rocket.svg';
-import aiseoresult from '../../../../../../public/assets/aiseo/AISEORESULT.png';
+// import aiseoresult from '../../../../../../public/assets/aiseo/AISEORESULT.png';
 // import aiseoresult_2 from '../../../../../../public/assets/680_500.png';
 // import aiseoresult_3 from '../../../../../../public/assets/aiseo/AISEORESULT.png';
 // import aiseoresult_4 from '../../../../../../public/assets/680_500.png';
@@ -791,7 +791,7 @@ export const SERVICES_DATA = {
       headingParts: [
         {
           text: 'What Are SEO Services?',
-          color: '#FFFFFF',
+          color: '#000000',
           weight: '700',
         },
       ],
@@ -1072,7 +1072,7 @@ export const SERVICES_DATA = {
       headingParts: [
         {
           text: 'Every day you wait is a lost lead.',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -1796,7 +1796,7 @@ export const SERVICES_DATA = {
       headingParts: [
         {
           text: 'Not Seeing Results?',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -1810,7 +1810,7 @@ export const SERVICES_DATA = {
       headingParts: [
         {
           text: 'Industry Leaders That Rely On Us To Achieve AI Success',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -2408,11 +2408,15 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'What Is Authority',
-          color: '#FFFFFF',
+          color: '#000000',
+          weight: '700',
+        },
+        {
+          text: 'Link Building?',
+          color: '#FB9100',
           weight: '700',
         },
       ],
-      span: 'Link Building?',
       bgColor: '#FFFCF8',
       data: [
         {
@@ -3988,7 +3992,7 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'Still unsure about investing in local SEO?',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -4345,7 +4349,7 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'Local Businesses That Choose Us',
-          color: '#000000',
+          color: '#FFFFFF',
           weight: '700',
         },
       ],
@@ -4649,7 +4653,7 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'What is White Label',
-          color: '#FFFFFF',
+          color: '#000000',
           weight: '700',
         },
       ],
@@ -5302,11 +5306,15 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'What Is White',
-          color: '#FFFFFF',
+          color: '#000000',
+          weight: '700',
+        },
+        {
+          text: 'Label SEO?',
+          color: '#FB9100',
           weight: '700',
         },
       ],
-      span: 'Label SEO?',
       bgColor: '#FFFCF8',
       data: [
         {
@@ -6791,11 +6799,15 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'What is Pay Per',
-          color: '#FFFFFF',
+          color: '#000000',
+          weight: '700',
+        },
+        {
+          text: 'Click Advertising?',
+          color: '#FB9100',
           weight: '700',
         },
       ],
-      span: 'Click Advertising?',
       bgColor: '#FFFCF8',
       data: [
         {
@@ -7589,7 +7601,7 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'What Is White',
-          color: '#FFFFFF',
+          color: '#000000',
           weight: '700',
         },
       ],
@@ -10730,7 +10742,7 @@ brand appears in AI summaries and citations.`,
     importantToBussiness: {
       isVisible: true,
       breakIndex: 5,
-      isCardVisible: true,
+      isCardVisible: false,
       isVariant: '01',
       cardColor: '#F9F9F9',
       headingParts: [
@@ -10855,7 +10867,7 @@ brand appears in AI summaries and citations.`,
           buttonName: 'Build My AEO Strategy',
         },
       ],
-    },
+    }, 
 
     dataInTable: {
       isVisible: true,
@@ -13311,7 +13323,7 @@ brand appears in AI summaries and citations.`,
     importantToBussiness: {
       isVisible: true,
       isInCenter: false,
-      isCardVisible: true,
+      isCardVisible: false,
       breakIndex: 2,
       isVariant: '01',
       cardColor: '#F9F9F9',
@@ -14796,7 +14808,7 @@ brand appears in AI summaries and citations.`,
     importantToBussiness: {
       isVisible: true,
       isInCenter: false,
-      isCardVisible: true,
+      isCardVisible: false,
       breakIndex: 2,
       isVariant: '01',
       cardColor: '#F9F9F9',
@@ -15873,11 +15885,10 @@ brand appears in AI summaries and citations.`,
       headingParts: [
         {
           text: 'What is E-Commerce SEO?',
-          color: '#FFFFFF',
+          color: '#000000',
           weight: '700',
         },
       ],
-      span: '',
       bgColor: '#FFFCF8',
       data: [
         {
@@ -15970,7 +15981,7 @@ brand appears in AI summaries and citations.`,
     importantToBussiness: {
       isVisible: true,
       isInCenter: true,
-      isCardVisible: true,
+      isCardVisible: false,
       breakIndex: 5,
       isVariant: '01',
       cardColor: '#FFFFFF',

@@ -33,7 +33,7 @@ const DataInTable = ({ dataInTable }: any) => {
                                 <div className="min-w-[700px] rounded-2xl overflow-hidden">
                                     <table className="w-full">
                                         <thead>
-                                            <tr className={`bg-[${dataInTable?.trColor}]`}>
+                                            <tr className={`${dataInTable?.trColor}`}>
                                                 {dataInTable?.data?.map(
                                                     (column: any, index: number) => (
                                                         <th
