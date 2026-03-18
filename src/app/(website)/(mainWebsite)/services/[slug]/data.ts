@@ -5753,7 +5753,7 @@ export const SERVICES_DATA = {
       breakIndex: 3,
       // bgcolor: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFFFF]',
       bgColor: '#FFF9F2',
-isInCenter: false,
+      isInCenter: false,
       textColor: '',
       headingParts: [
         {
@@ -9590,7 +9590,7 @@ isInCenter: false,
       isVariant: '01',
       breakIndex: 3,
       isInCenter: true,
-      bgColor: "#FFFCF9",
+      bgColor: '#FFFCF9',
       bgGradient: '',
       cardColor2: '#F9F9F9',
       cardColor: '#FFF8EF',
@@ -13371,7 +13371,7 @@ isInCenter: false,
       img: gmbWebsiteServiceResultImg,
       isRocket: true,
       imgHight: '560px',
-      cardColor: "#F3F3F3",
+      cardColor: '#F3F3F3',
       list: [
         {
           img: null,
@@ -13725,7 +13725,6 @@ isInCenter: false,
           color: '#000000',
           weight: '700',
         },
-
       ],
       bgColor: '#FFFFFF',
       textColor: '#000000',
@@ -13733,7 +13732,7 @@ isInCenter: false,
       width: '55%',
       imgWidth: '708px',
       imgHight: '647px',
-      customGap: "6rem",
+      customGap: '6rem',
       button: '',
       data: [
         {
@@ -19880,7 +19879,7 @@ isInCenter: false,
       ],
       subheading: '',
       button: 'Help Me Grow Online',
-      width: '50%',
+      width: '50',
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtBannerImg_zvcfx3.png',
       imgWidth: '679',
       imgHight: '699',
@@ -20000,8 +19999,7 @@ isInCenter: false,
           description: [
             `Every successful social media presence begins with a strong foundation. We take the time to understand your business model, industry landscape, competitors, and target audience behavior.`,
             {
-              desctioption:
-                'We analyze:',
+              desctioption: 'We analyze:',
               list: [
                 {
                   des: ['Your current social media performance'],
@@ -20026,11 +20024,12 @@ isInCenter: false,
           description: [
             `Once the foundation is clear, we develop a tailored content strategy aligned with your brand voice and audience preferences.`,
             {
-              desctioption:
-                'This includes:',
+              desctioption: 'This includes:',
               list: [
                 {
-                  des: ['Content pillars (educational, promotional, entertaining, community-driven)'],
+                  des: [
+                    'Content pillars (educational, promotional, entertaining, community-driven)',
+                  ],
                 },
                 {
                   des: ['Posting frequency and platform selection'],
@@ -20055,8 +20054,7 @@ isInCenter: false,
           description: [
             `Content is the heart of social media. Our team creates visually compelling and engaging posts designed to capture attention within seconds.`,
             {
-              desctioption:
-                'We focus on:',
+              desctioption: 'We focus on:',
               list: [
                 {
                   des: ['High-quality graphics and branded visuals'],
@@ -20084,8 +20082,7 @@ isInCenter: false,
           description: [
             `Posting randomly is not a strategy. At Adaired Digital Media, we schedule and publish content at optimal times based on audience activity and platform analytics.`,
             {
-              desctioption:
-                'We optimize for:',
+              desctioption: 'We optimize for:',
               list: [
                 {
                   des: ['Reach and discoverability'],
@@ -20110,8 +20107,7 @@ isInCenter: false,
           description: [
             `Social media success depends on real interaction. We actively manage your accounts to build strong relationships with your audience.`,
             {
-              desctioption:
-                'Our engagement process includes:',
+              desctioption: 'Our engagement process includes:',
               list: [
                 {
                   des: ['Responding to comments and direct messages'],
@@ -20120,7 +20116,9 @@ isInCenter: false,
                   des: ['Engaging with relevant profiles and communities'],
                 },
                 {
-                  des: ['Encouraging conversations through polls, questions, and interactive content'],
+                  des: [
+                    'Encouraging conversations through polls, questions, and interactive content',
+                  ],
                 },
                 {
                   des: ['Monitoring brand mentions'],
@@ -20136,8 +20134,7 @@ isInCenter: false,
           description: [
             `We don’t rely on guesswork. We track performance metrics and use insights to improve results over time.`,
             {
-              desctioption:
-                'We monitor:',
+              desctioption: 'We monitor:',
               list: [
                 {
                   des: ['Engagement rates'],
@@ -20178,7 +20175,7 @@ isInCenter: false,
       span: '',
       description: [
         `Our social media management services are designed to give your brand a strong, consistent, and engaging online presence.`,
-        `These services complement our comprehensive management process, delivering measurable results and strategic growth to our clients.`
+        `These services complement our comprehensive management process, delivering measurable results and strategic growth to our clients.`,
       ],
       services: [
         {
@@ -20439,7 +20436,8 @@ isInCenter: false,
       description: ``,
       list: [
         {
-          title: 'How does Adaired Digital Media start managing my social media?',
+          title:
+            'How does Adaired Digital Media start managing my social media?',
           description: [
             `We begin with detailed brand research and competitor analysis to understand your business, audience, and industry. From there, we build a customized strategy and content calendar aligned with your growth goals.`,
           ],
@@ -20481,7 +20479,8 @@ isInCenter: false,
           ],
         },
         {
-          title: 'What makes Adaired Digital different from other social media agencies?',
+          title:
+            'What makes Adaired Digital different from other social media agencies?',
           description: [
             `Our approach is structured, research-driven, and performance-focused. We don’t just post content; we build strategies, track measurable results, continuously optimize performance, and align social media efforts with your overall business goals.`,
           ],
