@@ -37,6 +37,7 @@ import steplocalseo3 from '../../../../../../public/assets/localseo/step3.svg';
 import steplocalseo4 from '../../../../../../public/assets/localseo/step4.svg';
 import steplocalseo5 from '../../../../../../public/assets/localseo/step5.svg';
 import steplocalseo6 from '../../../../../../public/assets/localseo/step6.svg';
+import steplocalseo7 from '../../../../../../public/assets/localseo/step7.svg';
 import steplinkbuild1 from '../../../../../../public/assets/localseo/step1.svg';
 import steplinkbuild2 from '../../../../../../public/assets/localseo/step2.svg';
 import steplinkbuild3 from '../../../../../../public/assets/localseo/step3.svg';
@@ -4289,7 +4290,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: steplocalseo6,
+          icon: steplocalseo7,
           title: 'Maintenance & Continuous Support',
           description: [
             `The relationship does not stop with the launch. We provide ongoing maintenance, updates, performance optimization, and technical support to ensure that your website is secure, scalable, and compliant with the changing business requirements.`,
