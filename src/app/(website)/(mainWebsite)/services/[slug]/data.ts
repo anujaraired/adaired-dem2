@@ -980,7 +980,7 @@ export const SERVICES_DATA = {
       ],
       description:
         'Our process is designed to increase both website traffic and revenue through a structured, data-driven strategy.',
-      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+      bgGradient: 'bg-gradient-to-b from-[#ffffff] to-[#FFF9F2]',
       services: [
         {
           icon: step1,
@@ -1972,7 +1972,7 @@ export const SERVICES_DATA = {
     whatMkeDeferent: {
       isVisible: true,
       isVariant: '01',
-      breakIndex: 4,
+      breakIndex: 5,
       isInCenter: true,
       bgColor: '#FFFFFF',
       bgGradient: '',
@@ -2485,6 +2485,7 @@ export const SERVICES_DATA = {
     needofservice: {
       isVisible: true,
       isBgCornerImg: true,
+      breakIndex: 6,
       isVariant: '01',
       headingParts: [
         {
@@ -4935,7 +4936,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: stepwhitelabelsocialmedia5,
+          icon: stepwhitelabel6,
           title: 'Publishing & Engagement',
           description: [
             `Performance tracking is essential for long-term success. With our white-label social media management approach, you receive branded monthly performance reports, engagement, reach, and growth metrics, audience behavior insights, and strategic recommendations for improvement.`,
@@ -9229,7 +9230,7 @@ export const SERVICES_DATA = {
 
     whatMissing: {
       isVisible: true,
-      bgColor: '#FFFAF5',
+      bgColor: '#FFF9F3',
       isInCenter: true,
       isVariant: '02',
       button: 'Dominate Search Results!',
@@ -10786,7 +10787,7 @@ export const SERVICES_DATA = {
       img: AeoServiceAdairedHelpImg,
       isInCenter: false,
       breakIndex: 5,
-      bgColor: '#FFFCF8',
+      bgColor: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFFBF5]',
       cardBg: '#FFF8F0',
       headingParts: [
         {
@@ -11475,7 +11476,7 @@ export const SERVICES_DATA = {
       breakIndex: 4,
       img: mobileAppDevAdairedHelpImg,
       isInCenter: false,
-      bgColor: '#FFFBF5',
+      bgColor: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0]',
       cardBg: '',
       headingParts: [
         {
@@ -12547,7 +12548,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
-      bgColor: '#FFFFFF',
+      bgColor: '#fffbf5',
       textColor: '#000000',
       paddingY: '4rem',
       width: '50%',
@@ -13646,17 +13647,22 @@ export const SERVICES_DATA = {
 
     whatareservice: {
       isVisible: true,
-      isVariant: '11',
-      breakIndex: 5,
+      isVariant: '04',
+      breakIndex: 6,
       img: gmbWebsiteWhatAreService,
       headingParts: [
         {
           text: 'How Combined GBP + Website Optimization Drives Results',
-          color: '#FFFFFF',
+          color: '#000000',
           weight: '700',
         },
       ],
       bgColor: '#FFFFFF',
+      textColor: '#000000',
+      paddingY: '4rem',
+      width: '55%',
+      imgWidth: '708px',
+      imgHight: '647px',
       button: '',
       data: [
         {
@@ -14869,7 +14875,7 @@ export const SERVICES_DATA = {
         `We provide end-to-end solutions that cover every aspect of LLM optimization, from technical infrastructure to content strategy, authority building, and ongoing monitoring.`,
         `Here’s how Adaired Digital helps your brand thrive in the age of AI:`,
       ],
-      bgGradient: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFF8F0]',
+      bgGradient: 'bg-gradient-to-b from-[#fffbf6] to-[#fffbf6]',
       services: [
         {
           icon: ourProcessIcon1,
@@ -18956,7 +18962,7 @@ export const SERVICES_DATA = {
     whatMkeDeferent: {
       isVisible: true,
       isVariant: '01',
-      breakIndex: 3,
+      breakIndex: 4,
       isInCenter: false,
       bgColor: false,
       bgGradient: 'bg-[#FFFFFF]',
@@ -19017,7 +19023,7 @@ export const SERVICES_DATA = {
 
     techStackMobile: {
       isVisible: true,
-      breakIndex: 4,
+      breakIndex: 5,
       headingParts: [
         {
           text: 'Technologies We Use for iOS Development',
