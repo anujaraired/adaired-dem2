@@ -20338,8 +20338,8 @@ export const SERVICES_DATA = {
       breakIndex: 4,
       bgImg: bgImgBuildLink,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821669/adaired/services/social_media_management/socialMediaMgtBuildLinkImg_fdqe6x.png',
-      imgWidth: '744',
-      imgHight: '456',
+      imgWidth: '581',
+      imgHight: '580',
       headingParts: [
         {
           text: 'Let’s Grow Your Social',
@@ -20356,6 +20356,7 @@ export const SERVICES_DATA = {
       textColor: 'white',
       width: 60,
       paddingY: '2rem',
+      customGap: '4rem',
       data: [
         {
           desctioption: `Take your brand to the next level with professional social media management. From strategy and content creation to engagement and analytics, we help you reach your audience, increase visibility, and drive measurable results.`,
@@ -21019,4 +21020,3 @@ export const SERVICES_DATA = {
     },
   },
 };
-
