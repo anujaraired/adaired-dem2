@@ -1066,6 +1066,8 @@ export const SERVICES_DATA = {
     serviceResult: {
       isVisible: true,
       isVariant: '01',
+      isInCenter: false,
+      textColor: '',
       headingParts: [
         {
           text: 'Why Partner With Adaired Digital Media to Hire SEO Services?',
@@ -1813,6 +1815,8 @@ export const SERVICES_DATA = {
     serviceResult: {
       isVisible: true,
       isVariant: '01',
+      isInCenter: false,
+      textColor: '',
       headingParts: [
         {
           text: 'Struggling to Rank in AI SEO Results? Here’s What You Need to Know',
@@ -3943,7 +3947,8 @@ export const SERVICES_DATA = {
     serviceResult: {
       isVisible: true,
       isVariant: '01',
-      isInCenter:true,
+      isInCenter: true,
+      textColor: '',
       headingParts: [
         {
           text: 'Why Is Local SEO Important for Your Business?',
@@ -5748,8 +5753,8 @@ export const SERVICES_DATA = {
       breakIndex: 3,
       // bgcolor: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFFFF]',
       bgColor: '#FFF9F2',
-
-      isInCenter: false,
+isInCenter: false,
+      textColor: '',
       headingParts: [
         {
           text: 'Common White Label SEO Use Cases',
@@ -13349,6 +13354,7 @@ export const SERVICES_DATA = {
       breakIndex: 4,
       bgColor: false,
       isInCenter: true,
+      textColor: '',
       headingParts: [
         {
           text: 'How Google Maps & Local Search Rankings Work',
@@ -13363,9 +13369,9 @@ export const SERVICES_DATA = {
       ],
       isBgColor: false,
       img: gmbWebsiteServiceResultImg,
-      isRocket:true,
+      isRocket: true,
       imgHight: '560px',
-      cardColor:"#F3F3F3",
+      cardColor: "#F3F3F3",
       list: [
         {
           img: null,
@@ -13727,7 +13733,7 @@ export const SERVICES_DATA = {
       width: '55%',
       imgWidth: '708px',
       imgHight: '647px',
-      customGap:"6rem",
+      customGap: "6rem",
       button: '',
       data: [
         {
@@ -13738,8 +13744,8 @@ export const SERVICES_DATA = {
         },
         {
           desctioption: `This integrated strategy allows your business to appear in multiple areas of Google search, including:`,
-          isListSingle:true,
-          isListBold:true,
+          isListSingle: true,
+          isListBold: true,
           list: [
             'Google Maps listings',
             'Local map pack results',
@@ -17216,6 +17222,8 @@ export const SERVICES_DATA = {
       breakIndex: 1,
       bgColor: '#FFFBF5',
       isVariant: '01',
+      isInCenter: false,
+      textColor: '',
       headingParts: [
         {
           text: 'E-Commerce Platforms We Work With',
@@ -18537,6 +18545,7 @@ export const SERVICES_DATA = {
       breakIndex: 5,
       bgColor: true,
       isInCenter: true,
+      textColor: '',
       headingParts: [
         {
           text: 'Key Benefits of Choosing Custom Web Development Services',
@@ -19671,6 +19680,7 @@ export const SERVICES_DATA = {
       breakIndex: 5,
       bgColor: true,
       isInCenter: true,
+      textColor: '',
       headingParts: [
         {
           text: 'Key Benefits of Choosing Custom Web Development Services',
@@ -20910,6 +20920,7 @@ export const SERVICES_DATA = {
       breakIndex: 5,
       bgColor: true,
       isInCenter: true,
+      textColor: '',
       headingParts: [
         {
           text: 'Key Benefits of Choosing Custom Web Development Services',
