@@ -388,6 +388,7 @@ export const TestimonialSectionData = {
       weight: '700',
     },
   ],
+  textColor: '#FFFFFF',
   span: '',
   description:
     'Discover client experiences that inspire, highlighting measurable results, innovative solutions, and the lasting impact we create across industries.',
