@@ -242,7 +242,7 @@ export const routes: {
         {
           icon: icon_3,
           name: 'Social Media Management',
-          href: '/services/strategic-social-media-management',
+          href: '/services/social-media-management-india',
           subItems: [
             {
               name: 'Port Creation',
