@@ -241,8 +241,8 @@ const KeyStats = ({ keyStats }: any) => {
               subTitle={''}
               headingParts={keyStats?.headingParts}
             />
-            <div className="flex items-center gap-5 pt-[2rem] lg:gap-[6rem]">
-              <div className={`w-[100%] lg:w-[${`${keyStats.width}%`}]`}>
+            <div className="flex flex-col lg:flex-row items-stretch gap-5 pt-[2rem] lg:gap-[6rem]">
+              <div className={`flex justify-center lg:justify-start w-[100%] lg:w-[${`${keyStats.width}%`}]`}>
                 <Image
                   src={keyStats?.img}
                   alt="img"
@@ -250,16 +250,6 @@ const KeyStats = ({ keyStats }: any) => {
                   height={keyStats?.imgHeight}
                   className="object-contain"
                 />
-
-                {/* {keyStats?.rocketImg && (
-                  <Image
-                    src={keyStats.rocketImg}
-                    width={148}
-                    height={152}
-                    alt="rocket"
-                    className="left-[0.5rem] absolute top-[-1rem]"
-                  />
-                )} */}
               </div>
 
               <div className={`mt-7 space-y-4 w-[100%] lg:w-[${`${100 - keyStats.width}%`}]`}>
