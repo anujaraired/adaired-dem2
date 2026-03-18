@@ -1,4 +1,4 @@
-import rocket from '../../../../../../public/assets/icons/rocket.svg';
+// import rocket from '../../../../../../public/assets/icons/rocket.svg';
 // import aiseoresult from '../../../../../../public/assets/aiseo/AISEORESULT.png';
 // import aiseoresult_2 from '../../../../../../public/assets/680_500.png';
 // import aiseoresult_3 from '../../../../../../public/assets/aiseo/AISEORESULT.png';
@@ -19858,7 +19858,6 @@ export const SERVICES_DATA = {
       imgWidth: '620',
       imgHeight: '725',
       width: 40,
-      rocketImg: rocket,
       list: [
         {
           icon: iosAppDevKeyStatsImg,
