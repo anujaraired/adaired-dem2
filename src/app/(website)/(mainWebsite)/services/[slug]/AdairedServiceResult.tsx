@@ -3,7 +3,7 @@ import Heading from '@/app/(website)/common/Heading';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import React, { useState } from 'react';
 import Image from 'next/image';
-import rocket from '../../../../../../public/assets/icons/rocket.svg'
+import rocket from '../../../../../../public/assets/icons/rocket.svg';
 import { MdKeyboardArrowDown, MdKeyboardArrowUp } from 'react-icons/md';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
@@ -41,11 +41,14 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
             <div className="flex flex-col justify-between gap-[6rem] pt-[3rem] lg:flex-row">
               <div
                 ref={ref}
-                className={`relative h-[480px] w-full rounded-[20px] transition-all duration-1000 lg:w-[42%] ${
+                className={`relative w-full rounded-[20px] transition-all duration-1000 lg:w-[42%] ${
                   isVisible
                     ? 'translate-x-0 opacity-100'
                     : '-translate-x-16 opacity-0'
                 }`}
+                style={{
+                  height: aiseoResult?.imgHight || '480px',
+                }}
               >
                 {/* Main image */}
                 <Image
@@ -112,15 +115,15 @@ const AdairedServiceResult = ({ aiseoResult }: any) => {
                             className={`font-bold ${
                               isActive ? 'hover:text-[var(--hover-color)]' : ''
                             }`}
-                            style={
-                              {
-                                '--hover-color':
-                                  aiseoResult.titleColor || '#000000',
-                                color: isActive
-                                  ? aiseoResult.titleColor || '#000000'
-                                  : '#000000',
-                              } as React.CSSProperties
-                            }
+                            // style={
+                            //   {
+                            //     '--hover-color':
+                            //       aiseoResult.titleColor || '#000000',
+                            //     color: isActive
+                            //       ? aiseoResult.titleColor || '#000000'
+                            //       : '#000000',
+                            //   } as React.CSSProperties
+                            // }
                           >
                             {item?.name}
                           </p>

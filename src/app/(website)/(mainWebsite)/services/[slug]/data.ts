@@ -1059,6 +1059,7 @@ export const SERVICES_DATA = {
       bgColor: '#FFF9F1',
       titleColor: '#FB9100',
       img: StrugglingImgSEO,
+      imgHight: '585px',
       description: [
         `Adaired, a leading SEO agency, puts your business at the forefront of technology with the help of proven SEO strategies. 
         We help your business stay visible, no matter how the search changes.`,
@@ -1798,6 +1799,7 @@ export const SERVICES_DATA = {
       cardColor: '#F3F3F3',
       titleColor: '#000000',
       description: null,
+      imgHight: '520px',
       img: StrugglingImgAISEO,
       list: [
         {
@@ -3909,6 +3911,7 @@ export const SERVICES_DATA = {
       bgColor: '#FFFAF4',
       isRocket: true,
       img: localServiceResultImg,
+      imgHight:"660px",
       list: [
         {
           icon: localServiceResultIcon,
@@ -5058,7 +5061,7 @@ export const SERVICES_DATA = {
       breakIndex: 5,
       isInCenter: false,
       bgGradient: '',
-      bgColor:"#FFFCF9",
+      bgColor: '#FFFCF9',
       cardColor2: '#F9F9F9',
       cardColor: '#FFF8EF',
       cardImgBgColor2: '#F3F3F3',
@@ -5701,6 +5704,7 @@ export const SERVICES_DATA = {
         The following use cases reflect common operational scenarios:`,
       ],
       img: WhiteSeoServiceResultImg,
+      imgHight:"540px",
       list: [
         {
           img: whiteSeoResult_Icon_1,
@@ -11414,7 +11418,7 @@ export const SERVICES_DATA = {
       code: '02',
       isVisible: true,
       isStyleHeading: true,
-      subtitle:"#1 Mobile App Development Company",
+      subtitle: '#1 Mobile App Development Company',
       headingParts: [
         {
           text: 'Custom iOS & Android',
@@ -12063,7 +12067,7 @@ export const SERVICES_DATA = {
       isVariant: '03',
       breakIndex: 7,
       isInCenter: true,
-      bgColor: "#FBFBFB",
+      bgColor: '#FBFBFB',
       cardColor: '#FFFFFF',
       cardColor2: '#FFF8EF',
       cardImgBgColor: '#F4F4F4',
@@ -13319,6 +13323,7 @@ export const SERVICES_DATA = {
       ],
       isBgColor: false,
       img: gmbWebsiteServiceResultImg,
+      imgHight:"560px",
       list: [
         {
           img: null,
@@ -15637,7 +15642,7 @@ export const SERVICES_DATA = {
       isVariant: '01',
       breakIndex: 3,
       isInCenter: false,
-      bgColor: "#FFF",
+      bgColor: '#FFF',
       bgGradient: 'bg-[#EEEEEE]/20',
       cardColor2: '#FFF8EF',
       cardColor: '#FFFFFF',
@@ -17173,6 +17178,7 @@ export const SERVICES_DATA = {
       ],
       bgImage: '',
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773382966/adaired/services/eCommerceDevelopment/Rectangle_10025_1_bewjuw.png',
+      imgHight:"650px",
       description: [
         `Choosing the right eCommerce platform is essential for building a successful online store.`,
         `We also help businesses evaluate eCommerce website development packages and understand the typical eCommerce website development price before selecting the right platform.`,
