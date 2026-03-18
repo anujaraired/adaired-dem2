@@ -41,7 +41,7 @@ const Stopstruggling = ({ stopStruggling }: any) => {
               </h2>
             )}
 
-            <div className="space-y-4 text-center">
+            <div className="space-y-4 w-[100%] mx-auto lg:w-[80%] text-center">
               {stopStruggling?.description?.map((item: any, idx: number) => (
                 <p key={idx} className="text-center text-white">
                   {item}
