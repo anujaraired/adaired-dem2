@@ -1816,7 +1816,7 @@ export const SERVICES_DATA = {
     serviceResult: {
       isVisible: true,
       isVariant: '01',
-      isInCenter: false,
+      isInCenter: true,
       textColor: '',
       headingParts: [
         {
@@ -2105,7 +2105,7 @@ export const SERVICES_DATA = {
             `We provide ChatGPT SEO solutions made to be AI discoverable. We ensure your content appears as a reliable, cited, and recommended source in the search results produced by the AI.`,
             `Our strategy ensures cross-industry visibility, drives high-intent user engagement, and positions your content high in the AI search.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#74AA9C',
         },
 
@@ -2116,7 +2116,7 @@ export const SERVICES_DATA = {
             `Our Perplexity AI SEO service integrates the basics of SEO with answer-engine formatting to optimize your content for recognition, trust, and visibility with AI search engines.`,
             `Through the combination of structured responses and content accessible to the AI, we enhance authority, engagement, and discoverability. This helps your brand appear in high-intent searches in the AI-based search results.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#20808D',
         },
 
@@ -2127,7 +2127,7 @@ export const SERVICES_DATA = {
             `Our Gemini AI SEO services combine traditional SEO best practices with AI-first page structuring to make your content easily discoverable, cited, and trusted in Google's AI-powered Gemini search results.`,
             `We ensure that your pages stand out as authoritative answers, boosting visibility, credibility, and user engagement in an increasingly AI-powered search landscape.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#2B99DE',
         },
 
@@ -2138,7 +2138,7 @@ export const SERVICES_DATA = {
             `Our Grok AI SEO helps to increase AI visibility, ensuring that insights are clear, authoritative, and easily discovered by Grok.`,
             `With the help of our strategies, your brand gains citation, trust, and recognition, gaining authority in your industry and maximizing content to provide answers using AI, high-intent traffic, and meaningful engagement.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#000000',
         },
 
@@ -2149,7 +2149,7 @@ export const SERVICES_DATA = {
             `Being one of the leaders in Answer Engine Optimization, Adaired integrates search engine AI with SEO best practices to ensure your site is answerable on ChatGPT, Gemini, and Perplexity.`,
             `We optimize content structure and relevance so that your pages gain recognition, credibility, and are continually surfaced by the AI-based search engines.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#1F66BE',
         },
 
@@ -2160,7 +2160,7 @@ export const SERVICES_DATA = {
             `Our Generative Engine Optimization services combine the basics of SEO with answer-based structuring, so that your content is easily found, cited, and surfaced by Gemini, Claude, and other AI engines.`,
             `We position your brand as an authoritative source, boosting your visibility, trust, and engagement on AI-driven search engines, and optimize content to high-intent user search queries.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#5F52B1',
         },
       ],
@@ -2236,6 +2236,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       isCenter: true,
       subtitle: '',
+      isInCenter: true,
       headingParts: [
         {
           text: 'Stop struggling with low traffic and poor visibility. Let Adaired’s AI-powered SEO audit uncover the gaps, optimize your site, and help your business outrank competitors.',
@@ -2847,8 +2848,8 @@ export const SERVICES_DATA = {
       // breakIndex: 5,
       bgImg: bgImg_BuildLink,
       img: LinkBuilding,
-      imgWidth: '479',
-      imgHight: '400',
+      imgWidth: '479px',
+      imgHight: '400px',
       headingParts: [
         {
           text: 'Build Links That Work for Your Business in',
@@ -3055,6 +3056,7 @@ export const SERVICES_DATA = {
     stopStruggling: {
       isVisible: true,
       isCenter: true,
+      isInCenter: true,
       isHoverBgBlue: true,
       subtitle: '',
       breakIndex: 3,
@@ -3348,7 +3350,7 @@ export const SERVICES_DATA = {
             `At Adaired, we provide powerful WordPress development services that are expected to take your digital presence to the next level. Our team breaks creative and technical limits to design and develop robust, high-performance, and SEO-optimized WordPress solutions.`,
             `From custom WordPress theme development and plugin customization to speed optimization, SEO implementation, and seamless third-party integrations, we deliver the end-to-end WordPress solutions to match the requirements of your business.`,
           ],
-          linkText: 'Get Your Free Website Audit',
+          button: 'Get Your Free Website Audit',
           linkHref: '#',
         },
 
@@ -3359,7 +3361,7 @@ export const SERVICES_DATA = {
             `Our online store development services can assist you in achieving the maximum for your online store, starting with consultation and design, development, deployment, and migration.`,
             `Being a successful Shopify development service partner, we provide high-performing, scalable, and tailored solutions that help shops perform better, increase their security, and build positive shopping experiences. You can count on us to increase your eCommerce business in a measurably meaningful way, whether you are opening another store or refining an already existing one.`,
           ],
-          linkText: 'Get Your Free Website Audit',
+          button: 'Get Your Free Website Audit',
           linkHref: '#',
         },
 
@@ -3370,7 +3372,7 @@ export const SERVICES_DATA = {
             `Our 360 eCommerce solutions are all-inclusive and applicable to businesses of any size and sector. Our website development experts create eCommerce online websites that are intuitive, user-friendly, and designed to align with your brand name and profitability.`,
             `We develop custom experiences using recent technologies and the best practices in the industry and enhance customer engagement, conversion, and business expansion.`,
           ],
-          linkText: 'Get Your Free Website Audit',
+          button: 'Get Your Free Website Audit',
           linkHref: '#',
         },
 
@@ -3381,7 +3383,7 @@ export const SERVICES_DATA = {
             `Our dedicated professionals offer web development services designed to be flexible, secure, and scalable with the development of your business. We develop feature-rich, high-performance websites to suit your specific needs, achieve maximum functionality, smooth user interfaces, and achieve scalability in the future.`,
             `All solutions that we develop are designed to help your business achieve its goals and bring long-term value.`,
           ],
-          linkText: 'Get Your Free Website Audit',
+          button: 'Get Your Free Website Audit',
           linkHref: '#',
         },
       ],
