@@ -1067,6 +1067,8 @@ export const SERVICES_DATA = {
     serviceResult: {
       isVisible: true,
       isVariant: '01',
+      isInCenter: false,
+      textColor: '',
       headingParts: [
         {
           text: 'Why Partner With Adaired Digital Media to Hire SEO Services?',
@@ -1814,6 +1816,8 @@ export const SERVICES_DATA = {
     serviceResult: {
       isVisible: true,
       isVariant: '01',
+      isInCenter: false,
+      textColor: '',
       headingParts: [
         {
           text: 'Struggling to Rank in AI SEO Results? Here’s What You Need to Know',
@@ -3944,7 +3948,8 @@ export const SERVICES_DATA = {
     serviceResult: {
       isVisible: true,
       isVariant: '01',
-      isInCenter:true,
+      isInCenter: true,
+      textColor: '',
       headingParts: [
         {
           text: 'Why Is Local SEO Important for Your Business?',
@@ -5749,8 +5754,8 @@ export const SERVICES_DATA = {
       breakIndex: 3,
       // bgcolor: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFFFF]',
       bgColor: '#FFF9F2',
-
       isInCenter: false,
+      textColor: '',
       headingParts: [
         {
           text: 'Common White Label SEO Use Cases',
@@ -9586,7 +9591,7 @@ export const SERVICES_DATA = {
       isVariant: '01',
       breakIndex: 3,
       isInCenter: true,
-      bgColor: "#FFFCF9",
+      bgColor: '#FFFCF9',
       bgGradient: '',
       cardColor2: '#F9F9F9',
       cardColor: '#FFF8EF',
@@ -13350,6 +13355,7 @@ export const SERVICES_DATA = {
       breakIndex: 4,
       bgColor: false,
       isInCenter: true,
+      textColor: '',
       headingParts: [
         {
           text: 'How Google Maps & Local Search Rankings Work',
@@ -13364,9 +13370,9 @@ export const SERVICES_DATA = {
       ],
       isBgColor: false,
       img: gmbWebsiteServiceResultImg,
-      isRocket:true,
+      isRocket: true,
       imgHight: '560px',
-      cardColor:"#F3F3F3",
+      cardColor: '#F3F3F3',
       list: [
         {
           img: null,
@@ -13720,7 +13726,6 @@ export const SERVICES_DATA = {
           color: '#000000',
           weight: '700',
         },
-
       ],
       bgColor: '#FFFFFF',
       textColor: '#000000',
@@ -13728,7 +13733,7 @@ export const SERVICES_DATA = {
       width: '55%',
       imgWidth: '708px',
       imgHight: '647px',
-      customGap:"6rem",
+      customGap: '6rem',
       button: '',
       data: [
         {
@@ -13739,8 +13744,8 @@ export const SERVICES_DATA = {
         },
         {
           desctioption: `This integrated strategy allows your business to appear in multiple areas of Google search, including:`,
-          isListSingle:true,
-          isListBold:true,
+          isListSingle: true,
+          isListBold: true,
           list: [
             'Google Maps listings',
             'Local map pack results',
@@ -17217,6 +17222,8 @@ export const SERVICES_DATA = {
       breakIndex: 1,
       bgColor: '#FFFBF5',
       isVariant: '01',
+      isInCenter: false,
+      textColor: '',
       headingParts: [
         {
           text: 'E-Commerce Platforms We Work With',
@@ -18538,6 +18545,7 @@ export const SERVICES_DATA = {
       breakIndex: 5,
       bgColor: true,
       isInCenter: true,
+      textColor: '',
       headingParts: [
         {
           text: 'Key Benefits of Choosing Custom Web Development Services',
@@ -19672,6 +19680,7 @@ export const SERVICES_DATA = {
       breakIndex: 5,
       bgColor: true,
       isInCenter: true,
+      textColor: '',
       headingParts: [
         {
           text: 'Key Benefits of Choosing Custom Web Development Services',
@@ -19871,7 +19880,7 @@ export const SERVICES_DATA = {
       ],
       subheading: '',
       button: 'Help Me Grow Online',
-      width: '50%',
+      width: '50',
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtBannerImg_zvcfx3.png',
       imgWidth: '679',
       imgHight: '699',
@@ -19991,8 +20000,7 @@ export const SERVICES_DATA = {
           description: [
             `Every successful social media presence begins with a strong foundation. We take the time to understand your business model, industry landscape, competitors, and target audience behavior.`,
             {
-              desctioption:
-                'We analyze:',
+              desctioption: 'We analyze:',
               list: [
                 {
                   des: ['Your current social media performance'],
@@ -20017,11 +20025,12 @@ export const SERVICES_DATA = {
           description: [
             `Once the foundation is clear, we develop a tailored content strategy aligned with your brand voice and audience preferences.`,
             {
-              desctioption:
-                'This includes:',
+              desctioption: 'This includes:',
               list: [
                 {
-                  des: ['Content pillars (educational, promotional, entertaining, community-driven)'],
+                  des: [
+                    'Content pillars (educational, promotional, entertaining, community-driven)',
+                  ],
                 },
                 {
                   des: ['Posting frequency and platform selection'],
@@ -20046,8 +20055,7 @@ export const SERVICES_DATA = {
           description: [
             `Content is the heart of social media. Our team creates visually compelling and engaging posts designed to capture attention within seconds.`,
             {
-              desctioption:
-                'We focus on:',
+              desctioption: 'We focus on:',
               list: [
                 {
                   des: ['High-quality graphics and branded visuals'],
@@ -20075,8 +20083,7 @@ export const SERVICES_DATA = {
           description: [
             `Posting randomly is not a strategy. At Adaired Digital Media, we schedule and publish content at optimal times based on audience activity and platform analytics.`,
             {
-              desctioption:
-                'We optimize for:',
+              desctioption: 'We optimize for:',
               list: [
                 {
                   des: ['Reach and discoverability'],
@@ -20101,8 +20108,7 @@ export const SERVICES_DATA = {
           description: [
             `Social media success depends on real interaction. We actively manage your accounts to build strong relationships with your audience.`,
             {
-              desctioption:
-                'Our engagement process includes:',
+              desctioption: 'Our engagement process includes:',
               list: [
                 {
                   des: ['Responding to comments and direct messages'],
@@ -20111,7 +20117,9 @@ export const SERVICES_DATA = {
                   des: ['Engaging with relevant profiles and communities'],
                 },
                 {
-                  des: ['Encouraging conversations through polls, questions, and interactive content'],
+                  des: [
+                    'Encouraging conversations through polls, questions, and interactive content',
+                  ],
                 },
                 {
                   des: ['Monitoring brand mentions'],
@@ -20127,8 +20135,7 @@ export const SERVICES_DATA = {
           description: [
             `We don’t rely on guesswork. We track performance metrics and use insights to improve results over time.`,
             {
-              desctioption:
-                'We monitor:',
+              desctioption: 'We monitor:',
               list: [
                 {
                   des: ['Engagement rates'],
@@ -20169,7 +20176,7 @@ export const SERVICES_DATA = {
       span: '',
       description: [
         `Our social media management services are designed to give your brand a strong, consistent, and engaging online presence.`,
-        `These services complement our comprehensive management process, delivering measurable results and strategic growth to our clients.`
+        `These services complement our comprehensive management process, delivering measurable results and strategic growth to our clients.`,
       ],
       services: [
         {
@@ -20430,7 +20437,8 @@ export const SERVICES_DATA = {
       description: ``,
       list: [
         {
-          title: 'How does Adaired Digital Media start managing my social media?',
+          title:
+            'How does Adaired Digital Media start managing my social media?',
           description: [
             `We begin with detailed brand research and competitor analysis to understand your business, audience, and industry. From there, we build a customized strategy and content calendar aligned with your growth goals.`,
           ],
@@ -20472,7 +20480,8 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          title: 'What makes Adaired Digital different from other social media agencies?',
+          title:
+            'What makes Adaired Digital different from other social media agencies?',
           description: [
             `Our approach is structured, research-driven, and performance-focused. We don’t just post content; we build strategies, track measurable results, continuously optimize performance, and align social media efforts with your overall business goals.`,
           ],
@@ -20911,6 +20920,7 @@ export const SERVICES_DATA = {
       breakIndex: 5,
       bgColor: true,
       isInCenter: true,
+      textColor: '',
       headingParts: [
         {
           text: 'Key Benefits of Choosing Custom Web Development Services',
