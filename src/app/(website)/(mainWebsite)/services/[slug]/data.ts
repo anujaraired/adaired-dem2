@@ -9273,7 +9273,7 @@ export const SERVICES_DATA = {
       imgWidth: '735px',
       imgHight: '477px',
       customGap: '12rem',
-      breakIndex: 5,
+      // breakIndex: 5,
       data: [
         {
           desctioption: `Helping B2B SaaS companies build predictable organic growth engines that increase MRR, generate qualified demos, 
