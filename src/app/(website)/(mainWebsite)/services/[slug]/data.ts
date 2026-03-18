@@ -243,8 +243,8 @@ import webDevelopmentBannerBg from '../../../../../../public/assets/web_developm
 import stop_struggle3 from '../../../../../../public/assets/localseo/stop_struggle3.png';
 
 // Local SEO Images
-// import localBannerBg from '../../../../../../public/assets/localseo/localBannerBg.png';
-import localBannerBg from '../../../../../../public/assets/localseo/New version of seo image.jpg';
+import localBannerBg from '../../../../../../public/assets/localseo/localBannerBg.png';
+// import localBannerBg from '../../../../../../public/assets/localseo/New version of seo image.jpg';
 
 import LocalWhatService from '../../../../../../public/assets/localseo/localWhatService.png';
 import LocalNotSee from '../../../../../../public/assets/localseo/localNotSee.png';
@@ -2336,7 +2336,6 @@ export const SERVICES_DATA = {
       'areYouTired',
       'whatareservice',
       'needofservice',
-      'serviceResult',
       'whatMissing',
       'stopStruggling',
       'adairedHelp',
@@ -2655,11 +2654,6 @@ export const SERVICES_DATA = {
         },
       ],
     },
-
-    serviceResult: {
-      isVisible: false,
-    },
-
     notSeeingResult: {
       isVisible: true,
       headingParts: [
@@ -3911,7 +3905,7 @@ export const SERVICES_DATA = {
       bgColor: '#FFFAF4',
       isRocket: true,
       img: localServiceResultImg,
-      imgHight:"660px",
+      imgHight: '660px',
       list: [
         {
           icon: localServiceResultIcon,
@@ -5704,7 +5698,7 @@ export const SERVICES_DATA = {
         The following use cases reflect common operational scenarios:`,
       ],
       img: WhiteSeoServiceResultImg,
-      imgHight:"540px",
+      imgHight: '540px',
       list: [
         {
           img: whiteSeoResult_Icon_1,
@@ -13323,7 +13317,7 @@ export const SERVICES_DATA = {
       ],
       isBgColor: false,
       img: gmbWebsiteServiceResultImg,
-      imgHight:"560px",
+      imgHight: '560px',
       list: [
         {
           img: null,
@@ -17178,7 +17172,7 @@ export const SERVICES_DATA = {
       ],
       bgImage: '',
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773382966/adaired/services/eCommerceDevelopment/Rectangle_10025_1_bewjuw.png',
-      imgHight:"650px",
+      imgHight: '650px',
       description: [
         `Choosing the right eCommerce platform is essential for building a successful online store.`,
         `We also help businesses evaluate eCommerce website development packages and understand the typical eCommerce website development price before selecting the right platform.`,
