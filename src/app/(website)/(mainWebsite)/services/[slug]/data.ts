@@ -1130,6 +1130,7 @@ export const SERVICES_DATA = {
         'We have worked with some of the leading brands to turn visitors into leads and paying customers. ',
       textColor: '#FFFFFF',
       bgImage: leadingToolsImg,
+      bgColor: '',
       list: [
         {
           img: client_1,
@@ -1889,6 +1890,7 @@ export const SERVICES_DATA = {
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
+      bgColor: '',
       list: [
         {
           img: client_1,
@@ -2707,6 +2709,7 @@ export const SERVICES_DATA = {
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
+      bgColor: '',
       list: [
         {
           img: client_1,
@@ -3395,6 +3398,7 @@ export const SERVICES_DATA = {
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
+      bgColor: '',
       list: [
         {
           img: client_1,
@@ -4417,6 +4421,7 @@ export const SERVICES_DATA = {
         'From small businesses to multi-location brands, clients trust usto boost local rankings, manage online reputation, and drive consistent local leads that fuel long-term growth ',
       textColor: '#FFFFFF',
       bgImage: leadingToolsImg,
+      bgColor: '',
       list: [
         {
           img: client_1,
@@ -18561,6 +18566,7 @@ export const SERVICES_DATA = {
       description:
         'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
       bgImage: '',
+      bgColor: '',
       list: [],
     },
 
@@ -19047,6 +19053,7 @@ export const SERVICES_DATA = {
       isVariant: '03',
       textColor: '',
       bgImage: '',
+      bgColor: 'bg-[#F9F9F9]',
       list: [
         {
           img: iosAppDevLeadingToolsImg_1,
@@ -19074,7 +19081,7 @@ export const SERVICES_DATA = {
         },
         {
           img: iosAppDevLeadingToolsImg_7,
-          desc: 'Cloud platforms (AWS and Google Cloud)',
+          desc: 'Cloud platforms (AWS Cloud)',
         },
       ],
     },
@@ -19082,7 +19089,7 @@ export const SERVICES_DATA = {
     industriesWeServe: {
       isVisible: true,
       code: '01',
-      bgColor: 'bg-[#FFFBF5]',
+      bgColor: 'bg-[#FFFFFF]',
       headingParts: [
         {
           text: 'Industries We Serve',
@@ -20232,6 +20239,7 @@ export const SERVICES_DATA = {
       isVariant: '03',
       textColor: '',
       bgImage: '',
+      bgColor: '',
       list: [
         {
           img: iosAppDevLeadingToolsImg_1,

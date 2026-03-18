@@ -465,15 +465,19 @@ const Heading = ({
               </div>
               <div className={`${isDecVarticle && 'pt-[0rem]'}`}>
                 {Array.isArray(description) ? (
-                  description.map((item: string, index: number) => (
-                    <p
-                      key={index}
-                      className={`pt-4 text-center lg:text-left`}
-                      style={{ color: textColor || '#000000' }}
-                    >
-                      {item}
-                    </p>
-                  ))
+                  description.map((item: string, index: number) => {
+                    const isLast = description.length - 1 === index;
+                    return (
+                      <p
+                        key={index}
+                        className={`pt-4 text-center lg:text-left ${isLast && isLastParaBold && 'font-bold'}`}
+                        style={{ color: textColor || '#000000' }}
+                      >
+                        {item}
+                      </p>
+                    );
+
+                  })
                 ) : (
                   <p
                     className={`pt-4 text-center lg:text-left`}
