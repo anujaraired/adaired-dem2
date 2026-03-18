@@ -18,7 +18,7 @@ const IndustriesWeServe = ({ industriesWeServe }: any) => {
         >
             <MaxWidthWrapper>
                 {industriesWeServe?.code === '01' && (
-                    <div className=''>
+                    <div className='flex flex-col items-center'>
                         <div
                             className={`flex w-full justify-center transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'} `}
                         >
@@ -29,7 +29,7 @@ const IndustriesWeServe = ({ industriesWeServe }: any) => {
                             />
                         </div>
 
-                        <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-[1.5rem] pt-4`}>
+                        <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-${industriesWeServe?.gridCols} gap-[1.5rem] pt-4`}>
                             {industriesWeServe?.list?.map((item: any, idx: number) => (
                                 <div
                                     key={idx}
@@ -40,8 +40,9 @@ const IndustriesWeServe = ({ industriesWeServe }: any) => {
                                 >
                                     <Image
                                         src={item?.img}
-                                        width={385}
-                                        height={436}
+                                        width={industriesWeServe?.imgWidth}
+                                        height={industriesWeServe?.imgHeight}
+                                        
                                         alt="img"
                                     />
 

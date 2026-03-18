@@ -680,6 +680,14 @@ import iosProcessIcon_5 from '../../../../../../public/assets/images/services/io
 import iosProcessIcon_6 from '../../../../../../public/assets/images/services/iosAppDev/iosProcessIcon_6.png';
 import iosProcessIcon_7 from '../../../../../../public/assets/images/services/iosAppDev/iosProcessIcon_7.png';
 
+import iosAppDevLeadingToolsImg_1 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_1.png';
+import iosAppDevLeadingToolsImg_2 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_2.png';
+import iosAppDevLeadingToolsImg_3 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_3.png';
+import iosAppDevLeadingToolsImg_4 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_4.png';
+import iosAppDevLeadingToolsImg_5 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_5.png';
+import iosAppDevLeadingToolsImg_6 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_6.png';
+import iosAppDevLeadingToolsImg_7 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_7.png';
+
 export type SectionKey =
   | 'banner'
   | 'getsCredit'
@@ -15694,6 +15702,9 @@ export const SERVICES_DATA = {
       ],
       isCard: false,
       bgImg: '',
+      gridCols: 4,
+      imgWidth: 385,
+      imgHeight: 436,
       list: [
         {
           img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773317137/adaired/services/shopify_Development_Images/shopiDevIndustriesWeServe__1_nxi3gz.png',
@@ -18059,6 +18070,9 @@ export const SERVICES_DATA = {
       ],
       isCard: false,
       bgImg: '',
+      gridCols: 4,
+      imgWidth: 385,
+      imgHeight: 436,
       list: [
         {
           img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388294/adaired/services/custom_web_development/customWebDevIndustriesWeServe__1_ificfg.png',
@@ -18630,10 +18644,11 @@ export const SERVICES_DATA = {
       'importantToBussiness',
       'ourProcess',
       'whatMkeDeferent',
-      'techStackMobile',
+      'leadingTools',
       'industriesWeServe',
       'buildlinks',
       'faqData',
+      'techStackMobile',
       'dataInTable',
       'adairedHelp',
       'benefitofAiSeo',
@@ -18647,7 +18662,6 @@ export const SERVICES_DATA = {
       'stopStruggling',
       'leadingToolsForPerformence',
       'notSeeingResult',
-      'leadingTools',
       'getplan',
     ] satisfies SectionKey[],
     metaDetails: {
@@ -19015,7 +19029,7 @@ export const SERVICES_DATA = {
       ],
     },
 
-    techStackMobile: {
+    leadingTools: {
       isVisible: true,
       breakIndex: 4,
       headingParts: [
@@ -19029,22 +19043,38 @@ export const SERVICES_DATA = {
         `Our development team uses modern technologies and frameworks to create reliable and scalable iOS applications. By leveraging the latest tools in the Apple ecosystem, we ensure that every app delivers exceptional performance and user experience.`,
         `Some of the technologies we commonly use include:`,
       ],
-      ContentDescription: '',
-      navItems: [''],
-      mobileNavItems: [''],
+      isVariant: '03',
+      textColor: '',
+      bgImage: '',
       list: [
-        [
-          { image: customWebDevTechStackImg_1, desc: 'Swift' },
-          { image: customWebDevTechStackImg_2, desc: 'Objective-C' },
-          { image: customWebDevTechStackImg_3, desc: 'Xcode' },
-          { image: customWebDevTechStackImg_4, desc: 'SwiftUI and UIKit' },
-          { image: customWebDevTechStackImg_5, desc: 'Firebase' },
-          { image: customWebDevTechStackImg_5, desc: 'REST APIs' },
-          {
-            image: customWebDevTechStackImg_5,
-            desc: 'Cloud platforms (AWS and Google Cloud)',
-          },
-        ],
+        {
+          img: iosAppDevLeadingToolsImg_1,
+          desc:'Swift',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_2,
+          desc:'Objective-C',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_3,
+          desc:'Xcode',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_4,
+          desc:'SwiftUI and UIKit',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_5,
+          desc:'Firebase',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_6,
+          desc:'REST APIs',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_7,
+          desc:'Cloud platforms (AWS and Google Cloud)',
+        },
       ],
     },
 
@@ -19064,6 +19094,9 @@ export const SERVICES_DATA = {
       ],
       isCard: false,
       bgImg: '',
+      gridCols: 3,
+      imgWidth: 520,
+      imgHeight: 467,
       list: [
         {
           img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_1_gmywri.png',
@@ -19180,6 +19213,38 @@ export const SERVICES_DATA = {
             `Yes, we work with startups, small businesses, and large enterprises to build custom iOS applications tailored to their specific needs. Whether you need a minimum viable product (MVP) or a fully featured enterprise platform, our team can deliver a solution that supports your business growth.`,
           ],
         },
+      ],
+    },
+
+    techStackMobile: {
+      isVisible: false,
+      breakIndex: 4,
+      headingParts: [
+        {
+          text: 'Technologies We Use for iOS Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Our development team uses modern technologies and frameworks to create reliable and scalable iOS applications. By leveraging the latest tools in the Apple ecosystem, we ensure that every app delivers exceptional performance and user experience.`,
+        `Some of the technologies we commonly use include:`,
+      ],
+      ContentDescription: '',
+      navItems: [
+        '',
+      ],
+      mobileNavItems: [''],
+      list: [
+        [
+          { image: customWebDevTechStackImg_1, desc: 'Swift' },
+          { image: customWebDevTechStackImg_2, desc: 'Objective-C' },
+          { image: customWebDevTechStackImg_3, desc: 'Xcode' },
+          { image: customWebDevTechStackImg_4, desc: 'SwiftUI and UIKit' },
+          { image: customWebDevTechStackImg_5, desc: 'Firebase' },
+          { image: customWebDevTechStackImg_5, desc: 'REST APIs' },
+          { image: customWebDevTechStackImg_5, desc: 'Cloud platforms (AWS and Google Cloud)' },
+        ],
       ],
     },
 
@@ -19621,22 +19686,6 @@ export const SERVICES_DATA = {
           description: [`Rank tracking & white-label reporting`],
         },
       ],
-    },
-
-    leadingTools: {
-      isVisible: false,
-      isVariant: '01',
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description:
-        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
-      bgImage: '',
-      list: [],
     },
 
     getplan: {
