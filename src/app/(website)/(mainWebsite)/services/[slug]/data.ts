@@ -688,7 +688,7 @@ import iosAppDevLeadingToolsImg_5 from '../../../../../../public/assets/images/s
 import iosAppDevLeadingToolsImg_6 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_6.png';
 import iosAppDevLeadingToolsImg_7 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_7.png';
 
-
+// Social Media Management Images
 import socialMediaMgtWhatServiceImg from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtWhatServiceImg.png';
 
 import socialMediaMgtProcessIcon_1 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtProcessIcon_1.png';
@@ -1366,10 +1366,17 @@ export const SERVICES_DATA = {
       isCenter: true,
       subtitle: '',
       breakIndex: 5,
-      title: 'Claim Your Free Audit Before Competitors Do!',
+      headingParts: [
+        {
+          text: 'Claim Your Free Audit Before Competitors Do!',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: [
         `Spot problems, improve rankings, and get more traffic at no cost.`,
       ],
+      textColor: '#FFFFFF',
       button: 'Get Your Free Website Audit!',
       bgImg: stop_struggle2,
     },
@@ -2222,9 +2229,15 @@ export const SERVICES_DATA = {
       isVisible: true,
       isCenter: true,
       subtitle: '',
-      title:
-        'Stop struggling with low traffic and poor visibility. Let Adaired’s AI-powered SEO audit uncover the gaps, optimize your site, and help your business outrank competitors.',
+      headingParts: [
+        {
+          text: 'Stop struggling with low traffic and poor visibility. Let Adaired’s AI-powered SEO audit uncover the gaps, optimize your site, and help your business outrank competitors.',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: [],
+      textColor: '',
       button: 'Start Your AI SEO Journey Now',
       bgImg: stop_struggle,
       isHoverBgBlue: true,
@@ -3037,8 +3050,14 @@ export const SERVICES_DATA = {
       isHoverBgBlue: true,
       subtitle: '',
       breakIndex: 3,
-      title:
-        'Maximize Your Online Presence With The Best Link Building Services',
+      headingParts: [
+        {
+          text: 'Maximize Your Online Presence With The Best Link Building Services',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
+      textColor: '',
       button: 'Get Started Now',
       description: [],
       bgImg: stop_struggle,
@@ -3692,11 +3711,18 @@ export const SERVICES_DATA = {
       isVisible: true,
       isCenter: true,
       subtitle: '',
-      title: 'Every Successful Website Starts with A Clear Strategy.',
+      headingParts: [
+        {
+          text: 'Every Successful Website Starts with A Clear Strategy.',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       button: 'Schedule a Strategy Call',
       description: [
         `Schedule a strategy call and let’s build a digital presence aligned\n with your business goals.`,
       ],
+      textColor: '#FFFFFF',
       bgImg: stop_struggle2,
     },
 
@@ -4347,9 +4373,16 @@ export const SERVICES_DATA = {
       isCenter: true,
       subtitle: '',
       span: `If You’re Not Ranking Locally,`,
-      title: 'You’re Losing Business',
+      headingParts: [
+        {
+          text: 'You’re Losing Business',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       button: 'Rank Higher on Local Search',
       description: [],
+      textColor: '',
       bgImg: stop_struggle3,
     },
 
@@ -4899,11 +4932,18 @@ export const SERVICES_DATA = {
       isVisible: true,
       isCenter: true,
       subtitle: '',
-      title: '',
+      headingParts: [
+        {
+          text: '',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: [
         `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.`,
         'By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.',
       ],
+      textColor: '#FFFFFF',
       button: '',
       bgImg: whiteStruggleBg,
       isHoverBgBlue: true,
@@ -6790,16 +6830,6 @@ export const SERVICES_DATA = {
 
     stopStruggling: {
       isVisible: false,
-      isCenter: true,
-      subtitle: '',
-      title: '',
-      description: [
-        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
-      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
-      ],
-      button: '',
-      bgImg: whiteStruggleBg,
-      isHoverBgBlue: true,
     },
 
     benefitofAiSeo: {
@@ -7607,16 +7637,6 @@ export const SERVICES_DATA = {
 
     stopStruggling: {
       isVisible: false,
-      isCenter: true,
-      subtitle: '',
-      title: '',
-      description: [
-        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
-      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
-      ],
-      button: '',
-      bgImg: whiteStruggleBg,
-      isHoverBgBlue: true,
     },
 
     benefitofAiSeo: {
@@ -18607,16 +18627,6 @@ export const SERVICES_DATA = {
 
     stopStruggling: {
       isVisible: false,
-      isCenter: true,
-      subtitle: '',
-      title: '',
-      description: [
-        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
-      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
-      ],
-      button: '',
-      bgImg: whiteStruggleBg,
-      isHoverBgBlue: true,
     },
 
     industryLeaders: {
@@ -19733,16 +19743,6 @@ export const SERVICES_DATA = {
 
     stopStruggling: {
       isVisible: false,
-      isCenter: true,
-      subtitle: '',
-      title: '',
-      description: [
-        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
-      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
-      ],
-      button: '',
-      bgImg: whiteStruggleBg,
-      isHoverBgBlue: true,
     },
 
     industryLeaders: {
@@ -20983,11 +20983,18 @@ export const SERVICES_DATA = {
       isVisible: false,
       isCenter: true,
       subtitle: '',
-      title: '',
+      headingParts: [
+        {
+          text: '',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
       description: [
         `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
       By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
       ],
+      textColor: '',
       button: '',
       bgImg: whiteStruggleBg,
       isHoverBgBlue: true,
