@@ -331,20 +331,21 @@ const Banner = () => {
           <div className="my-auto h-full space-y-4">
             <div className="flex w-[100%] justify-center">
               <div className="relative flex justify-end">
-                <div>
-                  <video
-                    autoPlay
-                    loop
-                    muted
-                    playsInline
-                    className="h-full rounded-2xl w-full"
-                  >
-                    <source
-                      src="/assets/videos/Graph animation_4.mp4"
-                      type="video/mp4"
-                    />
-                  </video>
-                </div>
+                <video
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="h-[43rem] w-full rounded-2xl"
+                >
+                  <source
+                    // src="/assets/videos/Adaired web video.mp4"
+                    // src="/assets/videos/Adaired web video.mp4"
+                    // src="/assets/videos/freepik_animate-this-futuristic-marketing-analytics-dashbo_grok_720p_1-1_24fps_55498.mp4"
+                    src="/assets/videos/freepik_scene-opens-with-a-soft-white-gradient-background-_minimax_1080p_1-1_24fps_55495.mp4"
+                    type="video/mp4"
+                  />
+                </video>
                 {/* <Image
                   src={banner_img_1}
                   width={599}
