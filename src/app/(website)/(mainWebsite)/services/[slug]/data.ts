@@ -988,7 +988,7 @@ export const SERVICES_DATA = {
       ],
       description:
         'Our process is designed to increase both website traffic and revenue through a structured, data-driven strategy.',
-      bgGradient: 'bg-gradient-to-b from-[#fffcf9] via-[#FFF9F2] to-[#FFF9F2]',
+      bgGradient: 'bg-gradient-to-b from-[#ffffff] to-[#FFF9F2]',
       services: [
         {
           icon: step1,
@@ -1982,7 +1982,7 @@ export const SERVICES_DATA = {
     whatMkeDeferent: {
       isVisible: true,
       isVariant: '01',
-      breakIndex: 4,
+      breakIndex: 5,
       isInCenter: true,
       bgColor: '#FFFFFF',
       bgGradient: '',
@@ -2495,6 +2495,7 @@ export const SERVICES_DATA = {
     needofservice: {
       isVisible: true,
       isBgCornerImg: true,
+      breakIndex: 6,
       isVariant: '01',
       headingParts: [
         {
@@ -4734,7 +4735,6 @@ export const SERVICES_DATA = {
       width: '55%',
       imgWidth: '609px',
       imgHight: '663px',
-      listTextColor: '#FFFFFF',
       IsGap: false,
       data: [
         {
@@ -4746,6 +4746,7 @@ export const SERVICES_DATA = {
         },
         {
           desctioption: `This model helps agencies:`,
+          listTextColor: '#FFFFFF',
           list: [
             'Expand service offerings quickly',
             'Increase recurring revenue',
@@ -4948,7 +4949,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: stepwhitelabelsocialmedia5,
+          icon: stepwhitelabel6,
           title: 'Publishing & Engagement',
           description: [
             `Performance tracking is essential for long-term success. With our white-label social media management approach, you receive branded monthly performance reports, engagement, reach, and growth metrics, audience behavior insights, and strategic recommendations for improvement.`,
@@ -5057,6 +5058,7 @@ export const SERVICES_DATA = {
       breakIndex: 5,
       isInCenter: false,
       bgGradient: '',
+      bgColor:"#FFFCF9",
       cardColor2: '#F9F9F9',
       cardColor: '#FFF8EF',
       cardImgBgColor2: '#F3F3F3',
@@ -5681,7 +5683,9 @@ export const SERVICES_DATA = {
     serviceResult: {
       isVisible: true,
       breakIndex: 3,
-      bgcolor: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFFFF]',
+      // bgcolor: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFFFF]',
+      bgColor: '#FFF9F2',
+
       isInCenter: false,
       headingParts: [
         {
@@ -5690,13 +5694,12 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
-      isVariant: '03',
+      isVariant: '01',
       description: [
         `Outsourcing SEO services is used across different types of agencies and service providers, 
         primarily as a way to support ongoing search optimization without expanding internal teams. 
         The following use cases reflect common operational scenarios:`,
       ],
-      bgColor: true,
       img: WhiteSeoServiceResultImg,
       list: [
         {
@@ -8631,9 +8634,9 @@ export const SERVICES_DATA = {
           isListSingle: true,
           isListBold: true,
           list: [
-            `1. You sell the service.`,
-            `2. We execute it.`,
-            `3. You keep the credit and the profit margin.`,
+            `You sell the service.`,
+            `We execute it.`,
+            `You keep the credit and the profit margin.`,
           ],
         },
       ],
@@ -8812,7 +8815,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '02',
       breakIndex: 3,
-      bgGradient: '',
+      bgColor: '#FFFCF9',
       cardColor: '#F9F9F9',
       cardColor2: '#FFF8EF',
       cardImgBgColor: '#F3F3F3',
@@ -9242,7 +9245,7 @@ export const SERVICES_DATA = {
 
     whatMissing: {
       isVisible: true,
-      bgColor: '#FFFAF5',
+      bgColor: '#FFF9F3',
       isInCenter: true,
       isVariant: '02',
       button: 'Dominate Search Results!',
@@ -10799,7 +10802,7 @@ export const SERVICES_DATA = {
       img: AeoServiceAdairedHelpImg,
       isInCenter: false,
       breakIndex: 5,
-      bgColor: '#FFFCF8',
+      bgColor: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFFBF5]',
       cardBg: '#FFF8F0',
       headingParts: [
         {
@@ -11411,6 +11414,7 @@ export const SERVICES_DATA = {
       code: '02',
       isVisible: true,
       isStyleHeading: true,
+      subtitle:"#1 Mobile App Development Company",
       headingParts: [
         {
           text: 'Custom iOS & Android',
@@ -11488,7 +11492,7 @@ export const SERVICES_DATA = {
       breakIndex: 4,
       img: mobileAppDevAdairedHelpImg,
       isInCenter: false,
-      bgColor: '#FFFBF5',
+      bgColor: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0]',
       cardBg: '',
       headingParts: [
         {
@@ -12059,7 +12063,7 @@ export const SERVICES_DATA = {
       isVariant: '03',
       breakIndex: 7,
       isInCenter: true,
-      bgColor: true,
+      bgColor: "#FBFBFB",
       cardColor: '#FFFFFF',
       cardColor2: '#FFF8EF',
       cardImgBgColor: '#F4F4F4',
@@ -12560,7 +12564,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
-      bgColor: '#FFFFFF',
+      bgColor: '#fffbf5',
       textColor: '#000000',
       paddingY: '4rem',
       width: '50%',
@@ -13659,17 +13663,22 @@ export const SERVICES_DATA = {
 
     whatareservice: {
       isVisible: true,
-      isVariant: '11',
-      breakIndex: 5,
+      isVariant: '04',
+      breakIndex: 6,
       img: gmbWebsiteWhatAreService,
       headingParts: [
         {
           text: 'How Combined GBP + Website Optimization Drives Results',
-          color: '#FFFFFF',
+          color: '#000000',
           weight: '700',
         },
       ],
       bgColor: '#FFFFFF',
+      textColor: '#000000',
+      paddingY: '4rem',
+      width: '55%',
+      imgWidth: '708px',
+      imgHight: '647px',
       button: '',
       data: [
         {
@@ -14882,7 +14891,7 @@ export const SERVICES_DATA = {
         `We provide end-to-end solutions that cover every aspect of LLM optimization, from technical infrastructure to content strategy, authority building, and ongoing monitoring.`,
         `Here’s how Adaired Digital helps your brand thrive in the age of AI:`,
       ],
-      bgGradient: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFF8F0]',
+      bgGradient: 'bg-gradient-to-b from-[#fffbf6] to-[#fffbf6]',
       services: [
         {
           icon: ourProcessIcon1,
@@ -15628,7 +15637,7 @@ export const SERVICES_DATA = {
       isVariant: '01',
       breakIndex: 3,
       isInCenter: false,
-      bgColor: false,
+      bgColor: "#FFF",
       bgGradient: 'bg-[#EEEEEE]/20',
       cardColor2: '#FFF8EF',
       cardColor: '#FFFFFF',
@@ -18976,7 +18985,7 @@ export const SERVICES_DATA = {
     whatMkeDeferent: {
       isVisible: true,
       isVariant: '01',
-      breakIndex: 3,
+      breakIndex: 4,
       isInCenter: false,
       bgColor: false,
       bgGradient: 'bg-[#FFFFFF]',
@@ -19037,7 +19046,7 @@ export const SERVICES_DATA = {
 
     leadingTools: {
       isVisible: true,
-      breakIndex: 4,
+      breakIndex: 5,
       headingParts: [
         {
           text: 'Technologies We Use for iOS Development',
@@ -19045,7 +19054,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
-      isLastParaBold:true,
+      isLastParaBold: true,
       description: [
         `Our development team uses modern technologies and frameworks to create reliable and scalable iOS applications. By leveraging the latest tools in the Apple ecosystem, we ensure that every app delivers exceptional performance and user experience.`,
         `Some of the technologies we commonly use include:`,
@@ -19239,9 +19248,7 @@ export const SERVICES_DATA = {
         `Some of the technologies we commonly use include:`,
       ],
       ContentDescription: '',
-      navItems: [
-        '',
-      ],
+      navItems: [''],
       mobileNavItems: [''],
       list: [
         [
@@ -19251,7 +19258,10 @@ export const SERVICES_DATA = {
           { image: customWebDevTechStackImg_4, desc: 'SwiftUI and UIKit' },
           { image: customWebDevTechStackImg_5, desc: 'Firebase' },
           { image: customWebDevTechStackImg_5, desc: 'REST APIs' },
-          { image: customWebDevTechStackImg_5, desc: 'Cloud platforms (AWS and Google Cloud)' },
+          {
+            image: customWebDevTechStackImg_5,
+            desc: 'Cloud platforms (AWS and Google Cloud)',
+          },
         ],
       ],
     },
@@ -20425,9 +20435,7 @@ export const SERVICES_DATA = {
         `Some of the technologies we commonly use include:`,
       ],
       ContentDescription: '',
-      navItems: [
-        '',
-      ],
+      navItems: [''],
       mobileNavItems: [''],
       list: [
         [
@@ -20437,7 +20445,10 @@ export const SERVICES_DATA = {
           { image: customWebDevTechStackImg_4, desc: 'SwiftUI and UIKit' },
           { image: customWebDevTechStackImg_5, desc: 'Firebase' },
           { image: customWebDevTechStackImg_5, desc: 'REST APIs' },
-          { image: customWebDevTechStackImg_5, desc: 'Cloud platforms (AWS and Google Cloud)' },
+          {
+            image: customWebDevTechStackImg_5,
+            desc: 'Cloud platforms (AWS and Google Cloud)',
+          },
         ],
       ],
     },
