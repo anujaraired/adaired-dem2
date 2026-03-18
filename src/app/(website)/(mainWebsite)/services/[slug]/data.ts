@@ -13289,7 +13289,7 @@ export const SERVICES_DATA = {
         `By optimizing both your Google Business Profile and website, we help your business appear where local customers are actively searching for services like yours.`,
       ],
       button: 'Get a Free Local SEO Audit',
-      width: '50',
+      width: 50,
       widthLg: '30rem',
       img: gmbWebsitelocalSeoBannerBg,
       imgWidth: '769',
