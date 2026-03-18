@@ -19049,31 +19049,31 @@ export const SERVICES_DATA = {
       list: [
         {
           img: iosAppDevLeadingToolsImg_1,
-          desc:'Swift',
+          desc: 'Swift',
         },
         {
           img: iosAppDevLeadingToolsImg_2,
-          desc:'Objective-C',
+          desc: 'Objective-C',
         },
         {
           img: iosAppDevLeadingToolsImg_3,
-          desc:'Xcode',
+          desc: 'Xcode',
         },
         {
           img: iosAppDevLeadingToolsImg_4,
-          desc:'SwiftUI and UIKit',
+          desc: 'SwiftUI and UIKit',
         },
         {
           img: iosAppDevLeadingToolsImg_5,
-          desc:'Firebase',
+          desc: 'Firebase',
         },
         {
           img: iosAppDevLeadingToolsImg_6,
-          desc:'REST APIs',
+          desc: 'REST APIs',
         },
         {
           img: iosAppDevLeadingToolsImg_7,
-          desc:'Cloud platforms (AWS and Google Cloud)',
+          desc: 'Cloud platforms (AWS and Google Cloud)',
         },
       ],
     },
@@ -19454,6 +19454,1130 @@ export const SERVICES_DATA = {
           name: 'Global Selling Capabilities',
           description: [
             `Shopify enables businesses to sell internationally with multi-currency support, global payment gateways, and localization tools that help reach customers across different markets.`,
+          ],
+        },
+      ],
+    },
+
+    benefitofAiSeo: {
+      isVisible: false,
+      isVariant: '02',
+      isDecVarticle: true,
+      isInCenter: false,
+      breakIndex: 3,
+      activeDot: '#000000',
+      inactiveDot: '#9DA0A3',
+      bgColor: 'bg-[#FAFAFA]',
+      textColor: '#000000',
+      textBg: '#EEEEEE',
+      borderColor: '#00000014',
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `As an experienced WordPress development agency, we offer a comprehensive range of WordPress development services designed to help businesses build powerful, scalable, and high-performing websites. `,
+      ],
+      list: [
+        {
+          name: 'Custom WordPress Website Development',
+          description: [
+            `Our custom WordPress website development services focus on building unique websites tailored specifically to your business needs. Instead of relying on generic templates, we design and develop fully customized WordPress websites that reflect your brand identity and provide an engaging user experience.`,
+          ],
+        },
+      ],
+    },
+
+    whatareservice2: {
+      isVisible: false,
+      isVariant: '11',
+      img: WhatAreService2,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      bgColor: '#FFFFFF',
+      button: '',
+      data: [
+        {
+          desctioption: `WordPress development refers to the process of creating, customizing, and maintaining websites using the WordPress content management system (CMS).`,
+        },
+        {
+          desctioption: ` It involves a variety of tasks, including designing themes, developing plugins, and configuring settings to ensure optimal performance and user experience.`,
+        },
+        {
+          desctioption: `Our WordPress developers India work with PHP, HTML, CSS, and JavaScript to build custom solutions tailored to specific client needs. They can create unique themes that define the visual appearance of a site and plugins that add functionality, such as contact forms, e-commerce capabilities, and SEO tools.`,
+        },
+        {
+          desctioption: `Additionally, WordPress development encompasses website optimization for speed and security, ensuring that the sites are responsive and accessible across different devices. Developers also engage in regular updates and troubleshooting to keep the website functional and secure from vulnerabilities. `,
+        },
+        {
+          desctioption: `Overall, WordPress development is a multifaceted discipline that combines technical skills with creative design to deliver effective online solutions.`,
+        },
+      ],
+    },
+
+    whatMissing: {
+      isVisible: false,
+      bgColor: '#FFFCF8',
+      isInCenter: true,
+      isVariant: '02',
+      button: 'Dominate Search Results!',
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [`The data is clear: SEO is not optional for SaaS growth.`],
+      list: [
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Research shows that 66% of B2B SaaS buyers rely on search engines to evaluate and compare solutions before making a purchase decision. (Statista)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `SEO not only improves SaaS rankings in SERPs but also increases visibility in emerging AI-powered search features and overviews, expanding brand exposure. (Forbes)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Data reveals that 70% of SaaS companies believe SEO generates stronger long-term sales results compared to PPC advertising. (Databox)`,
+          ],
+        },
+        {
+          icon: saasSeoMissing_1,
+          title: '',
+          description: [
+            `Organic search contributes 14.3% of total leads for SaaS businesses, making SEO one of the most consistent acquisition channels. (Sixth City Marketing)`,
+          ],
+        },
+      ],
+    },
+
+    whatIncluded: {
+      isVisible: false,
+    },
+
+    needofservice: {
+      isVisible: false,
+      isVariant: '04',
+      isBgCornerImg: true,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      data: [
+        {
+          desctioption: `White label SEO seeks to separate client ownership and service delivery. 
+          The agency remains the primary point of contact, but SEO fulfillment is handled externally.`,
+        },
+        {
+          desctioption: `Client acquisition, onboarding, and relationship management are handled entirely by the agency. 
+          The client receives SEO services directly from the agency they hired.`,
+        },
+        {
+          desctioption: `At Adaired, as a leading white-label SEO company, we do SEO execution, including research, optimization, 
+          and ongoing maintenance, which takes place quietly in the background. 
+          This allows agencies to provide SEO services without expanding their internal teams or infrastructure.`,
+        },
+        {
+          desctioption: `Furthermore, we ensure that all reporting, documentation, and performance updates are delivered using the agency's branding. 
+          Communication follows the agency's processes, ensuring continuity and brand integrity.`,
+        },
+      ],
+    },
+
+    serviceResult: {
+      isVisible: false,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      isVariant: '03',
+      description: [
+        `Outsourcing SEO services is used across different types of agencies and service providers, 
+        primarily as a way to support ongoing search optimization without expanding internal teams. 
+        The following use cases reflect common operational scenarios:`,
+      ],
+      isBgColor: true,
+      img: WhiteSeoServiceResultImg,
+      list: [
+        {
+          img: whiteSeoResult_1,
+          name: 'Web Design Agencies Adding SEO Retainers',
+          description: [
+            `Web design agencies often introduce SEO as a recurring service after a website launch. 
+            White label SEO allows these agencies to offer ongoing optimization, monitoring, and reporting without building a dedicated SEO department.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_2,
+          name: 'PPC Agencies Expanding into Organic Search',
+          description: [
+            `Paid media agencies frequently complement pay-per-click services with organic search offerings. 
+            White label SEO enables PPC-focused teams to support long-term visibility and traffic growth alongside paid campaigns.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_3,
+          name: 'Consultants Supporting Long-Term SEO Clients',
+          description: [
+            `Independent consultants and marketing advisors may use white-label SEO to fulfill execution-heavy tasks while remaining focused on strategy and client management. 
+            This model supports continuity for clients requiring ongoing optimization.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_4,
+          name: 'Multi-Location or Franchise SEO Support',
+          description: [
+            `Businesses operating across multiple locations often require scalable and standardized SEO execution. 
+            White label SEO supports consistent optimization, reporting, and performance tracking across regions while maintaining centralized brand control.`,
+          ],
+        },
+      ],
+    },
+
+    getsCredit: {
+      isVisible: false,
+      code: '01',
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      isCard: false,
+      list: [
+        {
+          description: [`SEO audits & strategy`],
+        },
+        {
+          description: [`Ongoing optimization`],
+        },
+        {
+          description: [`100% brand-safe delivery`],
+        },
+        {
+          description: [`Rank tracking & white-label reporting`],
+        },
+      ],
+    },
+
+    getplan: {
+      isVisible: false,
+      isLabel: false,
+      subtitle: '',
+      bgImage: stop_struggle2,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+
+    stopStruggling: {
+      isVisible: false,
+      isCenter: true,
+      subtitle: '',
+      title: '',
+      description: [
+        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
+      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
+      ],
+      button: '',
+      bgImg: whiteStruggleBg,
+      isHoverBgBlue: true,
+    },
+
+    industryLeaders: {
+      isVisible: false,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description:
+        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      bgImage: leadingToolsImg,
+    },
+
+    leadingToolsForPerformence: {
+      isVisible: false,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+
+    notSeeingResult: {
+      isVisible: false,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: '',
+      buttonName: '',
+      img: LocalNotSee,
+      bgImage: LocalNotSeeBg,
+    },
+  },
+  'social-media-management-india': {
+    sectionsOrder: [
+      'banner',
+      'keyStats',
+      'whatareservice',
+      'adairedHelp',
+      'importantToBussiness',
+      'ourProcess',
+      'whatMkeDeferent',
+      'leadingTools',
+      'industriesWeServe',
+      'buildlinks',
+      'faqData',
+      'techStackMobile',
+      'dataInTable',
+      'benefitofAiSeo',
+      'whatareservice2',
+      'whatMissing',
+      'whatIncluded',
+      'needofservice',
+      'serviceResult',
+      'getsCredit',
+      'readyToStart',
+      'stopStruggling',
+      'leadingToolsForPerformence',
+      'notSeeingResult',
+      'getplan',
+    ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/custom-web-development-company',
+      },
+    },
+    banner: {
+      code: '02',
+      isCenter: false,
+      isVisible: true,
+      heading2: '#1 on Google Maps: Get Seen by Local Customers',
+      isAbsolute: true,
+      isStyleHeading: true,
+      headingParts: [
+        { text: 'iOS App Development', color: '#000000', weight: '400' },
+        {
+          text: 'Agency You Can Trust',
+          color: '#FB9100',
+          weight: '700',
+        },
+      ],
+      isGap: true,
+      breakIndex: 8,
+      desc: [
+        `Get innovative, high-performance iOS apps tailored to your business needs, from concept to launch.`,
+        `At Adaired Digital Media, our expert iOS developers combine creativity, technical expertise, and agile development to create apps that engage users, drive growth, and scale with your business.`,
+      ],
+      subheading: '',
+      button: 'Let’s Build Your App',
+      width: '45%',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749342/adaired/services/ios_app_development/iosAppDevBannerImg_iwkfje.png',
+      imgWidth: '911',
+      imgHight: '682',
+    },
+
+    keyStats: {
+      isVisible: true,
+      code: '02',
+      img: whiteLinkBuildingKeyStatsImg,
+      headingParts: [
+        {
+          text: 'The Growth of the App Industry',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      bgColor: '#FB9100',
+      isImgBg: true,
+      isCard: false,
+      list: [
+        {
+          icon: iosAppDevKeyStatsImg,
+          desctioption: [
+            `The average smartphone user spends about 4.6 hours daily on their phone, and nearly 90% of that time is spent inside mobile apps.`,
+          ],
+        },
+        {
+          icon: iosAppDevKeyStatsImg,
+          desctioption: [
+            `Users worldwide spent more than 4.2 trillion hours using mobile apps in 2024, marking a record level of engagement.`,
+          ],
+        },
+        {
+          icon: iosAppDevKeyStatsImg,
+          desctioption: [
+            `Around 136 billion mobile apps were downloaded globally in 2024, reflecting a massive surge in app demand.`,
+          ],
+        },
+        {
+          icon: iosAppDevKeyStatsImg,
+          desctioption: [
+            `Over 35 million professional mobile app developers are active worldwide today.`,
+          ],
+        },
+        {
+          icon: iosAppDevKeyStatsImg,
+          desctioption: [
+            `About 90% of users check security and privacy details before installing a new mobile app.`,
+          ],
+        },
+      ],
+    },
+
+    whatareservice: {
+      isVisible: true,
+      isVariant: '04',
+      breakIndex: 6,
+      paddingY: '4rem',
+      isRowReverse: false,
+      width: '65%',
+      img: iosAppDevWhatServiceImg,
+      // img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749236/adaired/services/ios_app_development/iosAppDevWhatServiceImg_hmwdgq.png',
+      imgWidth: '931px',
+      imgHight: '621px',
+      headingParts: [
+        {
+          text: 'What is iOS App Development?',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      isGap: true,
+      data: [
+        {
+          desctioption: `iOS app development is the process of creating mobile applications that run on Apple’s iOS operating system, which powers devices like the iPhone and iPad. These apps are designed, developed, tested, and optimized to deliver seamless performance and a high-quality user experience within the Apple ecosystem. Businesses, startups, and organizations invest in iOS development to reach millions of Apple users who value performance, security, and premium digital experiences.`,
+        },
+        {
+          desctioption: `At its core, iOS app development involves building applications using Apple’s programming languages, such as Swift and Objective-C, along with development tools like Xcode, Apple’s official integrated development environment (IDE). Developers follow Apple’s design and usability guidelines to ensure apps are intuitive, responsive, and consistent with the overall iOS interface. Once developed and tested, apps are distributed through the Apple App Store, where users can easily download and install them on their devices.`,
+        },
+        {
+          desctioption: `Today, iOS applications play a crucial role in many industries, including e-commerce, healthcare, fintech, education, travel, and entertainment. With millions of active iPhone users worldwide, businesses leverage iOS apps to improve customer engagement, streamline operations, and deliver personalized digital services.`,
+        },
+      ],
+      button: '',
+    },
+
+    adairedHelp: {
+      isVisible: true,
+      breakIndex: 5,
+      img: shopifyDevAdairedHelpImg,
+      isInCenter: false,
+      textColor: '',
+      isnNumberBg: false,
+      numberBg: '',
+      bgColor: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFCF8]',
+      cardBg: '',
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Shopify has become one of the most trusted eCommerce platforms for businesses looking to build and scale online stores.`,
+        `Its powerful features, flexibility, and ease of use make it an ideal choice for startups, growing brands, and enterprise-level businesses alike.`,
+      ],
+      mainImage: whiteServicesAdairedHelpImg,
+      list: [
+        {
+          img: '',
+          name: 'Easy Store Management',
+          description: [
+            `Shopify provides a simple and intuitive dashboard that allows store owners to easily manage products, inventory, orders, and customer data without requiring advanced technical knowledge.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Secure Cloud Hosting',
+          description: [
+            `Being a fully hosted platform, Shopify offers reliable cloud infrastructure with built-in security, automatic updates, and PCI-compliant payment processing to keep your store safe and stable.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Mobile-Responsive Themes',
+          description: [
+            `Shopify offers professionally designed themes that are fully responsive and optimized for mobile devices, ensuring customers enjoy a seamless shopping experience across smartphones, tablets, and desktops. Choose Adaired Digital as your personalized Shopify theme development company!`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Powerful App Ecosystem',
+          description: [
+            `The Shopify App Store provides thousands of apps that extend store functionality. Businesses can integrate marketing tools, shipping solutions, CRM systems, and analytics platforms to enhance operations.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Global Selling Capabilities',
+          description: [
+            `Shopify enables businesses to sell internationally with multi-currency support, global payment gateways, and localization tools that help reach customers across different markets.`,
+          ],
+        },
+      ],
+    },
+
+    importantToBussiness: {
+      isVisible: true,
+      isInCenter: false,
+      breakIndex: 3,
+      isVariant: '01',
+      cardColor: '#F9F9F9',
+      headingParts: [
+        {
+          text: 'iOS App Development Services for Modern Businesses',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `We offer comprehensive iOS app development services designed to help businesses build secure, scalable, and high-performing applications for Apple devices.`,
+        `From concept to launch, our team delivers custom solutions that align with your business goals and user expectations.`,
+      ],
+      buttonName: 'Create Your Custom Platform',
+      data: [
+        {
+          icon: iosAppDevImpImg_1,
+          name: 'iPhone App Development',
+          description: [
+            `iPhone apps continue to dominate the premium smartphone market. Our developers create highly optimized applications that leverage the full capabilities of the iPhone as part of our expertise as an iPhone mobile app development company.`,
+            `By focusing on speed, responsiveness, and intuitive design, we ensure that the apps we build provide a seamless experience across various iPhone models and screen sizes.`,
+          ],
+          button: 'Let’s Build Your App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: iosAppDevImpImg_2,
+          name: 'iPad App Development',
+          description: [
+            `The iPad offers unique opportunities for productivity and immersive experiences, especially in education, healthcare, and enterprise operations.`,
+            `Our iPad app development services focus on utilizing the larger display and enhanced capabilities to create apps that deliver functionality and user engagement as a trusted iPad app development company offering advanced iPad application development services.`,
+            `From enterprise dashboards to interactive learning platforms, we build iPad apps that maximize efficiency and usability.`,
+          ],
+          button: 'Let’s Build Your App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: iosAppDevImpImg_3,
+          name: 'Swift App Development',
+          description: [
+            `Swift has become the preferred programming language for modern iOS applications due to its speed, safety, and flexibility. `,
+            `At Adaired Digital Media, our developers use Swift to create robust applications that deliver high performance and improved security.`,
+            `With Swift, we are able to develop scalable solutions that integrate smoothly with Apple’s latest frameworks and technologies, ensuring long-term compatibility with future iOS updates.`,
+          ],
+          button: 'Let’s Build Your App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: iosAppDevImpImg_4,
+          name: 'Custom iOS App Development',
+          description: [
+            `Every business has unique requirements, and our custom iOS app development services are designed to address those needs.`,
+            `We build fully tailored applications that reflect your brand identity, business processes, and customer expectations.`,
+            `Our team works closely with clients to understand their vision and transform it into a functional, user-centric application. We also ensure that the architecture of the app supports future feature expansions and integrations.`,
+          ],
+          button: 'Let’s Build Your App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: iosAppDevImpImg_5,
+          name: 'iOS UI/UX Design',
+          description: [
+            `A successful mobile application depends not only on functionality but also on the quality of its design. Our UI/UX design team focuses on creating visually appealing and highly intuitive interfaces that enhance the overall user experience.`,
+            `We follow Apple’s Human Interface Guidelines to ensure that every screen, interaction, and feature feels natural to users. Our design process includes wireframing, prototyping, usability testing, and continuous refinement.`,
+          ],
+          button: 'Let’s Build Your App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: iosAppDevImpImg_6,
+          name: 'App Testing and Quality Assurance',
+          description: [
+            `Quality assurance plays a critical role in the success of any mobile application. Our testing process ensures that your app performs reliably across multiple devices and operating system versions.`,
+            `We conduct comprehensive testing, including functional testing, performance testing, security testing, and compatibility testing.`,
+          ],
+          button: 'Let’s Build Your App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: iosAppDevImpImg_7,
+          name: 'App Store Deployment',
+          description: [
+            `Publishing an application on the Apple App Store requires compliance with strict guidelines. Our team manages the entire deployment process, from preparing the necessary documentation to optimizing app listings and submitting the application for review.`,
+            `We ensure your app meets Apple’s standards so that it can be successfully approved and made available to users worldwide.`,
+          ],
+          button: 'Let’s Build Your App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: iosAppDevImpImg_8,
+          name: 'Maintenance and Ongoing Support',
+          description: [
+            `Mobile applications require continuous updates and improvements to remain competitive. Our maintenance services include monitoring app performance, fixing bugs, updating features, and ensuring compatibility with new iOS versions.`,
+            `By providing long-term support, we help businesses keep their applications secure, efficient, and aligned with evolving user expectations.`,
+          ],
+          button: 'Let’s Build Your App',
+          btnColor: '#FB9100',
+        },
+      ],
+    },
+
+    ourProcess: {
+      isVisible: true,
+      isInCenter: true,
+      subtitle: 'Our Process',
+      headingParts: [
+        {
+          text: 'Our Strategic Process for High-Quality iOS App Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      breakIndex: 4,
+      bgGradient: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFFFF]',
+      span: '',
+      description: [
+        `Our development process is structured to deliver high-quality applications efficiently while maintaining transparency and collaboration throughout the project lifecycle.`,
+      ],
+      services: [
+        {
+          icon: iosProcessIcon_1,
+          title: 'Discovery and Requirement Analysis',
+          description: [
+            `Every successful application begins with a clear understanding of the business objectives and user expectations. During the discovery phase, our team works closely with stakeholders to gather detailed information about the project.`,
+            `We analyze the target audience, define the app’s core purpose, and identify the key features required to achieve business goals. This stage also involves researching competitors, studying market trends, and identifying potential opportunities that can give the application a competitive advantage.
+`,
+          ],
+        },
+        {
+          icon: iosProcessIcon_2,
+          title: 'Product Strategy and Planning',
+          description: [
+            `After the discovery stage, we move on to strategic planning. This step focuses on defining the structure and functionality of the application in detail. Our team collaborates with clients to prioritize features, determine the minimum viable product (MVP), and plan future enhancements.`,
+            `We create user journey maps to visualize how users will interact with the application. This helps us identify potential challenges and ensure that the app delivers a seamless experience from the first interaction to the final conversion.`,
+          ],
+        },
+        {
+          icon: iosProcessIcon_3,
+          title: 'UI/UX Design',
+          description: [
+            `User experience plays a critical role in the success of any mobile application. Our design team focuses on creating interfaces that are visually appealing, intuitive, and easy to navigate. The design process typically begins with wireframes that outline the structure and layout of each screen. `,
+            `These wireframes act as a blueprint for the application, allowing stakeholders to visualize the flow of the user experience. Once the wireframes are approved, our designers create interactive prototypes that demonstrate how users will interact with the app.`,
+          ],
+        },
+        {
+          icon: iosProcessIcon_4,
+          title: 'App Architecture and Development ',
+          description: [
+            `With the designs finalized, our developers begin building the application using modern iOS technologies such as Swift and advanced Apple frameworks. This stage involves both front-end and back-end development.`,
+            `Our developers follow best coding practices to ensure the application is scalable, maintainable, and optimized for performance. We also implement APIs, databases, payment gateways, and cloud services as required by the project.`,
+          ],
+        },
+        {
+          icon: iosProcessIcon_5,
+          title: 'Integration of Advanced Features',
+          description: [
+            `Modern mobile applications often require advanced functionalities to deliver better user experiences. During this phase, we integrate features such as push notifications, geolocation services, payment gateways, social media integrations, and analytics tools.`,
+            `Depending on the project requirements, we may also incorporate advanced technologies like artificial intelligence, machine learning, augmented reality, or cloud-based services. These features help enhance the functionality of the application and create more engaging experiences for users.`,
+          ],
+        },
+        {
+          icon: iosProcessIcon_6,
+          title: 'Testing and Quality Assurance',
+          description: [
+            `Quality assurance is a crucial step in the development process. Before the application is launched, it undergoes extensive testing to ensure it performs flawlessly under different conditions. We conduct multiple types of testing, including functional, performance, usability, and security.`,
+            `We test the app across different iOS devices and screen sizes to ensure compatibility and consistent performance. Our goal is to deliver a polished product that provides users with a smooth and reliable experience.`,
+          ],
+        },
+        {
+          icon: iosProcessIcon_7,
+          title: 'App Store Submission and Launch',
+          description: [
+            `After the application successfully passes the testing phase, we prepare it for submission to the Apple App Store. This process involves creating the necessary documentation, optimizing the app listing with compelling descriptions and visuals, and ensuring compliance with Apple’s guidelines.`,
+            `Our team manages the entire submission process, including responding to feedback from Apple’s review team if any changes are required. Once the application is approved, it becomes available for download by users worldwide.`,
+          ],
+        },
+      ],
+    },
+
+    whatMkeDeferent: {
+      isVisible: true,
+      isVariant: '01',
+      breakIndex: 3,
+      isInCenter: false,
+      bgColor: false,
+      bgGradient: 'bg-[#FFFFFF]',
+      cardColor2: '#FFF8F0',
+      cardColor: '#FBFBFB',
+      cardImgBgColor2: '#FFF2DF',
+      cardImgBgColor: '#F3F3F3',
+      borderColor2: '#FB9100',
+      borderColor: '#000000',
+      headingParts: [
+        {
+          text: 'Why Choose Our iOS App Development Company',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        'Selecting the right development partner can significantly impact the success of your mobile application. Our company stands out by combining technical expertise with a strong focus on client satisfaction and innovation.',
+      ],
+      list: [
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749342/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_1_tpiyob.png',
+          name: 'Experienced Development Team',
+          description: [
+            `Our developers bring years of experience building iOS applications across multiple industries. This experience allows us to deliver reliable solutions that meet both technical and business requirements.`,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_2_jg8qis.png',
+          name: 'Client-Focused Approach',
+          description: [
+            `We prioritize collaboration and transparency throughout the development process. By maintaining open communication, we ensure that every project aligns with the client’s vision and expectations.`,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_3_vvklaq.png',
+          name: 'Scalable and Secure Applications',
+          description: [
+            `Security and scalability are built into every solution we develop. Our applications are designed to handle increasing user traffic while protecting sensitive data through advanced security practices.`,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773750392/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_4.png',
+          name: 'Agile Development Methodology',
+          description: [
+            `Our agile approach allows us to adapt quickly to changing requirements while maintaining efficient development cycles. This flexibility ensures faster delivery without compromising quality.`,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_5_lecxdb.png',
+          name: 'Long-Term Partnership',
+          description: [
+            `We view every project as the beginning of a long-term partnership. Our team provides continuous support and strategic guidance to help businesses grow and evolve their digital products.`,
+          ],
+        },
+      ],
+    },
+
+    leadingTools: {
+      isVisible: true,
+      breakIndex: 4,
+      headingParts: [
+        {
+          text: 'Technologies We Use for iOS Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Our development team uses modern technologies and frameworks to create reliable and scalable iOS applications. By leveraging the latest tools in the Apple ecosystem, we ensure that every app delivers exceptional performance and user experience.`,
+        `Some of the technologies we commonly use include:`,
+      ],
+      isVariant: '03',
+      textColor: '',
+      bgImage: '',
+      list: [
+        {
+          img: iosAppDevLeadingToolsImg_1,
+          desc: 'Swift',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_2,
+          desc: 'Objective-C',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_3,
+          desc: 'Xcode',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_4,
+          desc: 'SwiftUI and UIKit',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_5,
+          desc: 'Firebase',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_6,
+          desc: 'REST APIs',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_7,
+          desc: 'Cloud platforms (AWS and Google Cloud)',
+        },
+      ],
+    },
+
+    industriesWeServe: {
+      isVisible: true,
+      code: '01',
+      bgColor: 'bg-[#FFFBF5]',
+      headingParts: [
+        {
+          text: 'Industries We Serve',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Our iOS app development solutions support a wide variety of industries, enabling businesses to deliver innovative digital experiences to their customers.`,
+      ],
+      isCard: false,
+      bgImg: '',
+      gridCols: 3,
+      imgWidth: 520,
+      imgHeight: 467,
+      list: [
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_1_gmywri.png',
+          btn: [`Fintech`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_2_r3qlub.png',
+          btn: [`Healthcare`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749340/adaired/services/ios_app_development/iosAppDevIndustriesImg_3_m5hp7t.png',
+          btn: [`E-commerce`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_4_okdehb.png',
+          btn: [`Education`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_5_vctvmh.png',
+          btn: [`Travel and Hospitality`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749339/adaired/services/ios_app_development/iosAppDevIndustriesImg_6_rseu98.png',
+          btn: [`Fashion & Beauty`],
+        },
+      ],
+    },
+
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '03',
+      breakIndex: 4,
+      bgImg: bgImgBuildLink,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevBuildLinkImg_qwlohk.png',
+      imgWidth: '744',
+      imgHight: '456',
+      headingParts: [
+        {
+          text: 'Start Your iOS App',
+          color: '#FFFFFF',
+          weight: '400',
+        },
+        {
+          text: 'Development Journey',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
+      description: ``,
+      textColor: 'white',
+      width: '60%',
+      paddingY: '2rem',
+      data: [
+        {
+          desctioption: `If you’re ready to bring your idea to life, partner with a trusted iOS development team that prioritizes quality, innovation, and long-term success.`,
+        },
+      ],
+      button: 'Start Your iOS App Project',
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: ``,
+      list: [
+        {
+          title: 'How long does it take to develop an iOS app?',
+          description: [
+            `The development timeline for an iOS app depends on several factors, including the complexity of the features, design requirements, integrations, and testing needs. A simple application may take around 2–3 months to develop, while more complex applications with advanced features can take 4–6 months or longer. During the planning phase, our team provides a detailed timeline based on your project scope.`,
+          ],
+        },
+        {
+          title: 'How much does iOS app development cost?',
+          description: [
+            `The cost of iOS app development varies depending on the app’s complexity, number of features, design requirements, and development time. Basic applications may cost significantly less than enterprise-level platforms with complex integrations and custom functionalities. After understanding your requirements, we provide a transparent estimate tailored to your project.`,
+          ],
+        },
+        {
+          title:
+            'Which programming languages are used for iOS app development?',
+          description: [
+            `Most modern iOS applications are built using Swift, Apple’s primary programming language known for its speed and safety. In some cases, Objective-C may also be used, particularly for maintaining or updating older applications.`,
+          ],
+        },
+        {
+          title: 'Can you update or improve an existing iOS application?',
+          description: [
+            `Yes, we provide services to upgrade, redesign, and improve existing iOS applications. Our team can enhance performance, add new features, modernize the user interface, and ensure compatibility with the latest iOS versions.`,
+          ],
+        },
+        {
+          title: 'Will you help with App Store submission?',
+          description: [
+            `Yes, we manage the complete App Store submission process. This includes preparing the necessary documentation, optimizing the app listing, and ensuring the application meets Apple’s guidelines so it can be approved smoothly.`,
+          ],
+        },
+        {
+          title: 'Do you provide post-launch support and maintenance?',
+          description: [
+            `Absolutely. After the app is launched, we continue to provide support services such as bug fixes, performance monitoring, feature enhancements, and updates to ensure compatibility with new iOS releases.`,
+          ],
+        },
+        {
+          title: 'Can you build custom iOS apps for startups and enterprises?',
+          description: [
+            `Yes, we work with startups, small businesses, and large enterprises to build custom iOS applications tailored to their specific needs. Whether you need a minimum viable product (MVP) or a fully featured enterprise platform, our team can deliver a solution that supports your business growth.`,
+          ],
+        },
+      ],
+    },
+
+    techStackMobile: {
+      isVisible: false,
+      breakIndex: 4,
+      headingParts: [
+        {
+          text: 'Technologies We Use for iOS Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Our development team uses modern technologies and frameworks to create reliable and scalable iOS applications. By leveraging the latest tools in the Apple ecosystem, we ensure that every app delivers exceptional performance and user experience.`,
+        `Some of the technologies we commonly use include:`,
+      ],
+      ContentDescription: '',
+      navItems: [
+        '',
+      ],
+      mobileNavItems: [''],
+      list: [
+        [
+          { image: customWebDevTechStackImg_1, desc: 'Swift' },
+          { image: customWebDevTechStackImg_2, desc: 'Objective-C' },
+          { image: customWebDevTechStackImg_3, desc: 'Xcode' },
+          { image: customWebDevTechStackImg_4, desc: 'SwiftUI and UIKit' },
+          { image: customWebDevTechStackImg_5, desc: 'Firebase' },
+          { image: customWebDevTechStackImg_5, desc: 'REST APIs' },
+          { image: customWebDevTechStackImg_5, desc: 'Cloud platforms (AWS and Google Cloud)' },
+        ],
+      ],
+    },
+
+    dataInTable: {
+      isVisible: false,
+      isInCenter: true,
+      bgColor: '#FAFAFA',
+      trColor: 'bg-[#7259FF]',
+      rowColor: 'bg-[#7259FF]/10',
+      isVariant: '01',
+      headingParts: [
+        {
+          text: 'Custom Web Development vs Traditional Web Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Here is a clear comparison table showing the difference between Web Development and Custom Web Development:`,
+      ],
+      data: [
+        {
+          desctioption: `Aspect`,
+          list: [
+            {
+              description: [`Definition`],
+            },
+            {
+              description: [`Development Approach`],
+            },
+            {
+              description: [`Customization Level`],
+            },
+            {
+              description: [`Development Time`],
+            },
+            {
+              description: [`Cost`],
+            },
+            {
+              description: [`Flexibility`],
+            },
+            {
+              description: [`Integration`],
+            },
+            {
+              description: [`Best Use Case`],
+            },
+          ],
+        },
+        {
+          desctioption: `Web Development`,
+          list: [
+            {
+              description: [
+                `The general process of building websites or web applications using available tools, frameworks, or CMS platforms.`,
+              ],
+            },
+            {
+              description: [
+                `Often uses prebuilt templates, themes, or platforms.`,
+              ],
+            },
+            {
+              description: [
+                `Limited to the features and structure provided by the platform.`,
+              ],
+            },
+            {
+              description: [
+                `Faster because many components are already built.`,
+              ],
+            },
+            {
+              description: [
+                `Usually lower due to faster development and prebuilt solutions.`,
+              ],
+            },
+            {
+              description: [
+                `May face limitations as the website grows or requires new features.`,
+              ],
+            },
+            {
+              description: [
+                `Limited flexibility depending on the platform being used.`,
+              ],
+            },
+            {
+              description: [
+                `Basic integrations with common tools and plugins.`,
+              ],
+            },
+            {
+              description: [
+                `Ideal for simple websites, blogs, portfolios, or small business sites.`,
+              ],
+            },
+          ],
+        },
+        {
+          desctioption: `Custom Web Development`,
+          list: [
+            {
+              description: [
+                `The process of building a website or web application is specifically tailored to the unique needs of a business.`,
+              ],
+            },
+            {
+              description: [
+                `Built from scratch or heavily customized to meet specific requirements.`,
+              ],
+            },
+            {
+              description: [
+                `Fully customizable design, features, and functionality.`,
+              ],
+            },
+            {
+              description: [
+                `Takes more time due to planning, design, and development from the ground up.`,
+              ],
+            },
+            {
+              description: [
+                `Generally higher because of custom design and development work.`,
+              ],
+            },
+            {
+              description: [
+                `Designed to scale easily as the business grows and needs evolve.`,
+              ],
+            },
+            {
+              description: [
+                `Highly flexible and adaptable to changing business requirements.`,
+              ],
+            },
+            {
+              description: [
+                `Can integrate with complex systems such as CRM, ERP, APIs, and custom tools.`,
+              ],
+            },
+            {
+              description: [
+                `Best for complex platforms, SaaS products, enterprise systems, or unique business processes.`,
+              ],
+            },
           ],
         },
       ],
