@@ -19,17 +19,21 @@ const config: Omit<Config, 'prefix' | 'presets' | 'content'> = {
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-    './node_modules/rizzui/dist/*.{js,ts,jsx,tsx}',
+    './node_modules/rizzui/dist/*.{js,ts,jsx,tsx}', // must use this line to compile and generate our RizzUI components style
   ],
   theme: {
     fontFamily: {
       inter: ['var(--font-inter)'],
       lexend: ['var(--font-lexend)'],
+      // nunito: ['var(--font-nunito)', 'sans-serif'],
+      // nunito: ['var(--font-Poppins)', 'Poppins'],
       poppins: ['var(--font-poppins)', 'sans-serif'],
       outfit: ['var(--font-outfit)', 'sans-serif'],
-      montserrat: ['var(--font-montserrat)', 'sans-serif'],
+      montserrat: ['var(--font-montserrat)'],
+
       baby: ['var(--font-baby)'],
       dm: ['var(--font-dm)'],
+      // poppins: ['var(--font-poppins)'],
     },
     screens: {
       xs: '480px',

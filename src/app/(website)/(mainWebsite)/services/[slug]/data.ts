@@ -680,13 +680,13 @@ import iosProcessIcon_5 from '../../../../../../public/assets/images/services/io
 import iosProcessIcon_6 from '../../../../../../public/assets/images/services/iosAppDev/iosProcessIcon_6.png';
 import iosProcessIcon_7 from '../../../../../../public/assets/images/services/iosAppDev/iosProcessIcon_7.png';
 
-import iosAppDevLeadingToolsImg_1 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_1.png';
-import iosAppDevLeadingToolsImg_2 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_2.png';
-import iosAppDevLeadingToolsImg_3 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_3.png';
-import iosAppDevLeadingToolsImg_4 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_4.png';
-import iosAppDevLeadingToolsImg_5 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_5.png';
-import iosAppDevLeadingToolsImg_6 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_6.png';
-import iosAppDevLeadingToolsImg_7 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_7.png';
+// import iosAppDevLeadingToolsImg_1 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_1.png';
+// import iosAppDevLeadingToolsImg_2 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_2.png';
+// import iosAppDevLeadingToolsImg_3 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_3.png';
+// import iosAppDevLeadingToolsImg_4 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_4.png';
+// import iosAppDevLeadingToolsImg_5 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_5.png';
+// import iosAppDevLeadingToolsImg_6 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_6.png';
+// import iosAppDevLeadingToolsImg_7 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_7.png';
 
 export type SectionKey =
   | 'banner'
@@ -19048,34 +19048,34 @@ export const SERVICES_DATA = {
       textColor: '',
       bgImage: '',
       list: [
-        {
-          img: iosAppDevLeadingToolsImg_1,
-          desc:'Swift',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_2,
-          desc:'Objective-C',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_3,
-          desc:'Xcode',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_4,
-          desc:'SwiftUI and UIKit',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_5,
-          desc:'Firebase',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_6,
-          desc:'REST APIs',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_7,
-          desc:'Cloud platforms (AWS and Google Cloud)',
-        },
+        // {
+        //   img: iosAppDevLeadingToolsImg_1,
+        //   desc:'Swift',
+        // },
+        // {
+        //   img: iosAppDevLeadingToolsImg_2,
+        //   desc:'Objective-C',
+        // },
+        // {
+        //   img: iosAppDevLeadingToolsImg_3,
+        //   desc:'Xcode',
+        // },
+        // {
+        //   img: iosAppDevLeadingToolsImg_4,
+        //   desc:'SwiftUI and UIKit',
+        // },
+        // {
+        //   img: iosAppDevLeadingToolsImg_5,
+        //   desc:'Firebase',
+        // },
+        // {
+        //   img: iosAppDevLeadingToolsImg_6,
+        //   desc:'REST APIs',
+        // },
+        // {
+        //   img: iosAppDevLeadingToolsImg_7,
+        //   desc:'Cloud platforms (AWS and Google Cloud)',
+        // },
       ],
     },
 

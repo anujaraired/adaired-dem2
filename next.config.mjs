@@ -87,9 +87,8 @@ const nextConfig = {
     // const dynamicRedirects = await fetchRedirects();
     return [
       {
-        source: '/services/expert-content-solutions/products/form',
-        destination:
-          '/services/expert-content-solutions/products/website-content/form',
+        source: '/expert-content-solutions/products/form',
+        destination: '/expert-content-solutions/products/website-content/form',
         permanent: true,
       },
       // ...dynamicRedirects, // Spread the dynamic redirects from API
@@ -97,14 +96,6 @@ const nextConfig = {
   },
   reactStrictMode: true,
   transpilePackages: ['core'],
-
-  webpack(config) {
-    config.module.rules.push({
-      test: /\.svg$/,
-      use: ['@svgr/webpack'],
-    });
-    return config;
-  },
 };
 
 export default nextConfig;
