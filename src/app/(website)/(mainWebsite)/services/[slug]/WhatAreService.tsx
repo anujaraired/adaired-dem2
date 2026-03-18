@@ -188,7 +188,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
             
           >
             <div
-              className={`my-auto w-[100%] lg:w-[${whatareaiseo.width}] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+              className={`my-auto w-[100%] lg:w-[${`${whatareaiseo.width}%`}] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
               <Heading
                 className="flex justify-center lg:justify-start"
@@ -253,7 +253,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
             </div>
             <div
               ref={ref}
-              className="my-auto pt-[2rem] lg:h-[var(--img-h)] lg:w-[var(--img-w)] lg:pt-0"
+              className={`my-auto w-[100%] lg:w-[${`${100 - whatareaiseo.width}%`}] pt-[2rem] lg:h-[var(--img-h)] lg:w-[var(--img-w)] lg:pt-0`}
               style={
                 {
                   '--img-w': whatareaiseo?.imgWidth,
