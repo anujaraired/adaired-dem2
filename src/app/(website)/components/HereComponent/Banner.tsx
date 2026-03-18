@@ -324,9 +324,9 @@ const Banner = () => {
           </div>
         </div> */}
         <div
-          // className={`relative mt-[5rem] w-[100%] transition-all delay-200 duration-1000 lg:mt-0 lg:w-[50%] lg:pt-0 ${
-          //   isVisible ? 'translate-x-0 opacity-100' : 'translate-x-16 opacity-0'
-          // }`}
+          className={`relative mt-[5rem] w-[100%] transition-all delay-200 duration-1000 lg:mt-0 lg:w-[50%] lg:pt-0 ${
+            isVisible ? 'translate-x-0 opacity-100' : 'translate-x-16 opacity-0'
+          }`}
         >
           <div className="my-auto h-full space-y-4">
             <div className="flex w-[100%] justify-center">
@@ -336,7 +336,7 @@ const Banner = () => {
                   loop
                   muted
                   playsInline
-                  className="h-[43rem] w-full rounded-2xl"
+                  className="h-[43rem] w-full !rounded-2xl"
                 >
                   <source
                     // src="/assets/videos/Adaired web video.mp4"
