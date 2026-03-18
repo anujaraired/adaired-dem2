@@ -199,10 +199,11 @@ const WhatAreService = ({ whatareaiseo }: any) => {
               />
               <div className="">
                 {whatareaiseo?.data?.map((item: any, index: number) => {
+                  const isLast = whatareaiseo?.data.length - 1 === index;
                   return (
                     <div key={index} className="">
                       <p
-                        className={`py-3 text-center lg:text-justify`}
+                        className={`py-3 text-center lg:text-justify ${isLast && whatareaiseo?.isLastParaBold && 'font-bold'}`}
                         style={{ color: whatareaiseo?.textColor }}
                       >
                         {item?.desctioption}

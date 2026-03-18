@@ -6118,7 +6118,7 @@ export const SERVICES_DATA = {
       imgWidth: '808px',
       imgHight: '558px',
       IsGap: false,
-
+      isLastParaBold: true,
       data: [
         {
           desctioption: `White-label services allow agencies to offer specialized digital solutions without building or managing internal delivery teams. 
@@ -19045,7 +19045,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
-      isLastParaBold:true,
+      isLastParaBold: true,
       description: [
         `Our development team uses modern technologies and frameworks to create reliable and scalable iOS applications. By leveraging the latest tools in the Apple ecosystem, we ensure that every app delivers exceptional performance and user experience.`,
         `Some of the technologies we commonly use include:`,
@@ -19774,8 +19774,8 @@ export const SERVICES_DATA = {
       'keyStats',
       'whatareservice',
       'adairedHelp',
-      'importantToBussiness',
       'ourProcess',
+      'importantToBussiness',
       'whatMkeDeferent',
       'leadingTools',
       'industriesWeServe',
@@ -19812,9 +19812,9 @@ export const SERVICES_DATA = {
       isAbsolute: true,
       isStyleHeading: true,
       headingParts: [
-        { text: 'iOS App Development', color: '#000000', weight: '400' },
+        { text: 'Grow Your Online', color: '#000000', weight: '400' },
         {
-          text: 'Agency You Can Trust',
+          text: 'Presence Across Social Media Platforms',
           color: '#FB9100',
           weight: '700',
         },
@@ -19822,11 +19822,11 @@ export const SERVICES_DATA = {
       isGap: true,
       breakIndex: 8,
       desc: [
-        `Get innovative, high-performance iOS apps tailored to your business needs, from concept to launch.`,
-        `At Adaired Digital Media, our expert iOS developers combine creativity, technical expertise, and agile development to create apps that engage users, drive growth, and scale with your business.`,
+        `Bring our expertise to your social media branding and achieve strategic growth that drives measurable results.`,
+        `We plan and create scroll-stopping content, ensure brand consistency, and actively engage your audience to help your brand stand out and grow.`,
       ],
       subheading: '',
-      button: 'Let’s Build Your App',
+      button: 'Help Me Grow Online',
       width: '45%',
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749342/adaired/services/ios_app_development/iosAppDevBannerImg_iwkfje.png',
       imgWidth: '911',
@@ -19839,7 +19839,7 @@ export const SERVICES_DATA = {
       img: whiteLinkBuildingKeyStatsImg,
       headingParts: [
         {
-          text: 'The Growth of the App Industry',
+          text: 'Why Do You Need a Custom Social Media Plan?',
           color: '#000000',
           weight: '700',
         },
@@ -19847,35 +19847,36 @@ export const SERVICES_DATA = {
       bgColor: '#FB9100',
       isImgBg: true,
       isCard: false,
+      rocketImg: rocket,
       list: [
         {
           icon: iosAppDevKeyStatsImg,
           desctioption: [
-            `The average smartphone user spends about 4.6 hours daily on their phone, and nearly 90% of that time is spent inside mobile apps.`,
+            `Over 5.66 billion people use social media worldwide in 2026, making it one of the most powerful digital channels for brand visibility.`,
           ],
         },
         {
           icon: iosAppDevKeyStatsImg,
           desctioption: [
-            `Users worldwide spent more than 4.2 trillion hours using mobile apps in 2024, marking a record level of engagement.`,
+            `The average user switches between 6–7 different social platforms each month, giving brands multiple touchpoints to connect and engage.`,
           ],
         },
         {
           icon: iosAppDevKeyStatsImg,
           desctioption: [
-            `Around 136 billion mobile apps were downloaded globally in 2024, reflecting a massive surge in app demand.`,
+            `Users spend an average of 2 hours and 40 minutes daily on social media apps, creating massive opportunities for consistent brand exposure.`,
           ],
         },
         {
           icon: iosAppDevKeyStatsImg,
           desctioption: [
-            `Over 35 million professional mobile app developers are active worldwide today.`,
+            `Platforms like YouTube, TikTok, and Instagram now drive over 60% of product discovery, reshaping how consumers find and evaluate brands.`,
           ],
         },
         {
           icon: iosAppDevKeyStatsImg,
           desctioption: [
-            `About 90% of users check security and privacy details before installing a new mobile app.`,
+            `52% of users prefer social search to discover user-generated content and authentic experiences, highlighting the growing importance of community-driven marketing.`,
           ],
         },
       ],
@@ -19894,7 +19895,7 @@ export const SERVICES_DATA = {
       imgHight: '621px',
       headingParts: [
         {
-          text: 'What is iOS App Development?',
+          text: 'What is Social Media Management?',
           color: '#FFFFFF',
           weight: '700',
         },
@@ -19904,13 +19905,13 @@ export const SERVICES_DATA = {
       isGap: true,
       data: [
         {
-          desctioption: `iOS app development is the process of creating mobile applications that run on Apple’s iOS operating system, which powers devices like the iPhone and iPad. These apps are designed, developed, tested, and optimized to deliver seamless performance and a high-quality user experience within the Apple ecosystem. Businesses, startups, and organizations invest in iOS development to reach millions of Apple users who value performance, security, and premium digital experiences.`,
+          desctioption: `Social media management is the process of planning, creating, publishing, and analyzing content across social media platforms like Instagram, Facebook, LinkedIn, TikTok, and YouTube. It helps businesses build brand awareness, connect with their audience, and grow consistently online.`,
         },
         {
-          desctioption: `At its core, iOS app development involves building applications using Apple’s programming languages, such as Swift and Objective-C, along with development tools like Xcode, Apple’s official integrated development environment (IDE). Developers follow Apple’s design and usability guidelines to ensure apps are intuitive, responsive, and consistent with the overall iOS interface. Once developed and tested, apps are distributed through the Apple App Store, where users can easily download and install them on their devices.`,
+          desctioption: `It involves more than just posting content. Social media management includes content strategy, caption writing, visual design, audience engagement, performance tracking, and continuous optimization to improve results over time.`,
         },
         {
-          desctioption: `Today, iOS applications play a crucial role in many industries, including e-commerce, healthcare, fintech, education, travel, and entertainment. With millions of active iPhone users worldwide, businesses leverage iOS apps to improve customer engagement, streamline operations, and deliver personalized digital services.`,
+          desctioption: `With the right strategy in place, social media becomes a powerful channel for increasing visibility, building trust, and driving measurable business growth. `,
         },
       ],
       button: '',
@@ -19924,160 +19925,185 @@ export const SERVICES_DATA = {
       textColor: '',
       isnNumberBg: false,
       numberBg: '',
-      bgColor: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFCF8]',
-      cardBg: '',
+      bgColor: '',
+      cardBg: '#FFFAF4',
       headingParts: [
         {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
+          text: 'Our Social Media Management Services',
           color: '#000000',
           weight: '700',
         },
       ],
       description: [
-        `Shopify has become one of the most trusted eCommerce platforms for businesses looking to build and scale online stores.`,
-        `Its powerful features, flexibility, and ease of use make it an ideal choice for startups, growing brands, and enterprise-level businesses alike.`,
+        `At Adaired Digital Media, we know that managing social media effectively requires more than just posting content.`,
+        `Therefore, we follow a structured and performance-driven approach to ensure your social media presence is consistent, engaging, and aligned with your business goals.`,
       ],
       mainImage: whiteServicesAdairedHelpImg,
       list: [
         {
           img: '',
-          name: 'Easy Store Management',
+          name: 'Brand Research & Strategic Foundation',
           description: [
-            `Shopify provides a simple and intuitive dashboard that allows store owners to easily manage products, inventory, orders, and customer data without requiring advanced technical knowledge.`,
+            `Every successful social media presence begins with a strong foundation. We take the time to understand your business model, industry landscape, competitors, and target audience behavior.`,
+            {
+              desctioption:
+                'We analyze:',
+              list: [
+                {
+                  des: ['Your current social media performance'],
+                },
+                {
+                  des: ['Audience demographics and interests'],
+                },
+                {
+                  des: ['Competitor positioning and content style'],
+                },
+                {
+                  des: ['Market trends within your niche'],
+                },
+              ],
+            },
+            `From this research, we define clear objectives such as increasing brand awareness, improving engagement rates, generating leads, or driving website traffic. This ensures your social media activity directly supports your broader business goals.`,
           ],
         },
         {
           img: '',
-          name: 'Secure Cloud Hosting',
+          name: 'Strategy & Calendar Development',
           description: [
-            `Being a fully hosted platform, Shopify offers reliable cloud infrastructure with built-in security, automatic updates, and PCI-compliant payment processing to keep your store safe and stable.`,
+            `Once the foundation is clear, we develop a tailored content strategy aligned with your brand voice and audience preferences.`,
+            {
+              desctioption:
+                'This includes:',
+              list: [
+                {
+                  des: ['Content pillars (educational, promotional, entertaining, community-driven)'],
+                },
+                {
+                  des: ['Posting frequency and platform selection'],
+                },
+                {
+                  des: ['Campaign planning and seasonal content'],
+                },
+                {
+                  des: ['Hashtag and keyword research'],
+                },
+                {
+                  des: ['Monthly content calendars'],
+                },
+              ],
+            },
+            `A structured calendar ensures consistency, which is essential for algorithm visibility and audience trust.`,
           ],
         },
         {
           img: '',
-          name: 'Mobile-Responsive Themes',
+          name: 'Creative Content Production',
           description: [
-            `Shopify offers professionally designed themes that are fully responsive and optimized for mobile devices, ensuring customers enjoy a seamless shopping experience across smartphones, tablets, and desktops. Choose Adaired Digital as your personalized Shopify theme development company!`,
+            `Content is the heart of social media. Our team creates visually compelling and engaging posts designed to capture attention within seconds.`,
+            {
+              desctioption:
+                'We focus on:',
+              list: [
+                {
+                  des: ['High-quality graphics and branded visuals'],
+                },
+                {
+                  des: ['Reels and short-form video concepts'],
+                },
+                {
+                  des: ['Captions that encourage interaction'],
+                },
+                {
+                  des: ['Strong calls-to-action'],
+                },
+                {
+                  des: ['Platform-optimized formatting'],
+                },
+              ],
+            },
+            `Every piece of content reflects your brand identity while being tailored to the specific platform’s style and audience behavior.`,
           ],
         },
         {
           img: '',
-          name: 'Powerful App Ecosystem',
+          name: 'Smart Publishing & Platform Optimization',
           description: [
-            `The Shopify App Store provides thousands of apps that extend store functionality. Businesses can integrate marketing tools, shipping solutions, CRM systems, and analytics platforms to enhance operations.`,
+            `Posting randomly is not a strategy. At Adaired Digital Media, we schedule and publish content at optimal times based on audience activity and platform analytics.`,
+            {
+              desctioption:
+                'We optimize for:',
+              list: [
+                {
+                  des: ['Reach and discoverability'],
+                },
+                {
+                  des: ['Engagement signals (likes, shares, saves, comments)'],
+                },
+                {
+                  des: ['Trending formats and features'],
+                },
+                {
+                  des: ['Algorithm-friendly best practices'],
+                },
+              ],
+            },
+            `This ensures your content performs at its highest potential.`,
           ],
         },
         {
           img: '',
-          name: 'Global Selling Capabilities',
+          name: 'Active Community Management',
           description: [
-            `Shopify enables businesses to sell internationally with multi-currency support, global payment gateways, and localization tools that help reach customers across different markets.`,
+            `Social media success depends on real interaction. We actively manage your accounts to build strong relationships with your audience.`,
+            {
+              desctioption:
+                'Our engagement process includes:',
+              list: [
+                {
+                  des: ['Responding to comments and direct messages'],
+                },
+                {
+                  des: ['Engaging with relevant profiles and communities'],
+                },
+                {
+                  des: ['Encouraging conversations through polls, questions, and interactive content'],
+                },
+                {
+                  des: ['Monitoring brand mentions'],
+                },
+              ],
+            },
+            `This helps increase trust, improve brand perception, and build long-term loyalty.`,
           ],
         },
-      ],
-    },
-
-    importantToBussiness: {
-      isVisible: true,
-      isInCenter: false,
-      breakIndex: 3,
-      isVariant: '01',
-      cardColor: '#F9F9F9',
-      headingParts: [
         {
-          text: 'iOS App Development Services for Modern Businesses',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: [
-        `We offer comprehensive iOS app development services designed to help businesses build secure, scalable, and high-performing applications for Apple devices.`,
-        `From concept to launch, our team delivers custom solutions that align with your business goals and user expectations.`,
-      ],
-      buttonName: 'Create Your Custom Platform',
-      data: [
-        {
-          icon: iosAppDevImpImg_1,
-          name: 'iPhone App Development',
+          img: '',
+          name: 'Analytics, Reporting & Continuous Optimization',
           description: [
-            `iPhone apps continue to dominate the premium smartphone market. Our developers create highly optimized applications that leverage the full capabilities of the iPhone as part of our expertise as an iPhone mobile app development company.`,
-            `By focusing on speed, responsiveness, and intuitive design, we ensure that the apps we build provide a seamless experience across various iPhone models and screen sizes.`,
+            `We don’t rely on guesswork. We track performance metrics and use insights to improve results over time.`,
+            {
+              desctioption:
+                'We monitor:',
+              list: [
+                {
+                  des: ['Engagement rates'],
+                },
+                {
+                  des: ['Reach and impressions'],
+                },
+                {
+                  des: ['Follower growth'],
+                },
+                {
+                  des: ['Click-through rates'],
+                },
+                {
+                  des: ['Conversion signals'],
+                },
+              ],
+            },
+            `Monthly performance reviews allow us to refine content strategies, adjust campaigns, and identify what drives the best results. This continuous improvement process ensures sustainable growth.`,
           ],
-          button: 'Let’s Build Your App',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: iosAppDevImpImg_2,
-          name: 'iPad App Development',
-          description: [
-            `The iPad offers unique opportunities for productivity and immersive experiences, especially in education, healthcare, and enterprise operations.`,
-            `Our iPad app development services focus on utilizing the larger display and enhanced capabilities to create apps that deliver functionality and user engagement as a trusted iPad app development company offering advanced iPad application development services.`,
-            `From enterprise dashboards to interactive learning platforms, we build iPad apps that maximize efficiency and usability.`,
-          ],
-          button: 'Let’s Build Your App',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: iosAppDevImpImg_3,
-          name: 'Swift App Development',
-          description: [
-            `Swift has become the preferred programming language for modern iOS applications due to its speed, safety, and flexibility. `,
-            `At Adaired Digital Media, our developers use Swift to create robust applications that deliver high performance and improved security.`,
-            `With Swift, we are able to develop scalable solutions that integrate smoothly with Apple’s latest frameworks and technologies, ensuring long-term compatibility with future iOS updates.`,
-          ],
-          button: 'Let’s Build Your App',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: iosAppDevImpImg_4,
-          name: 'Custom iOS App Development',
-          description: [
-            `Every business has unique requirements, and our custom iOS app development services are designed to address those needs.`,
-            `We build fully tailored applications that reflect your brand identity, business processes, and customer expectations.`,
-            `Our team works closely with clients to understand their vision and transform it into a functional, user-centric application. We also ensure that the architecture of the app supports future feature expansions and integrations.`,
-          ],
-          button: 'Let’s Build Your App',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: iosAppDevImpImg_5,
-          name: 'iOS UI/UX Design',
-          description: [
-            `A successful mobile application depends not only on functionality but also on the quality of its design. Our UI/UX design team focuses on creating visually appealing and highly intuitive interfaces that enhance the overall user experience.`,
-            `We follow Apple’s Human Interface Guidelines to ensure that every screen, interaction, and feature feels natural to users. Our design process includes wireframing, prototyping, usability testing, and continuous refinement.`,
-          ],
-          button: 'Let’s Build Your App',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: iosAppDevImpImg_6,
-          name: 'App Testing and Quality Assurance',
-          description: [
-            `Quality assurance plays a critical role in the success of any mobile application. Our testing process ensures that your app performs reliably across multiple devices and operating system versions.`,
-            `We conduct comprehensive testing, including functional testing, performance testing, security testing, and compatibility testing.`,
-          ],
-          button: 'Let’s Build Your App',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: iosAppDevImpImg_7,
-          name: 'App Store Deployment',
-          description: [
-            `Publishing an application on the Apple App Store requires compliance with strict guidelines. Our team manages the entire deployment process, from preparing the necessary documentation to optimizing app listings and submitting the application for review.`,
-            `We ensure your app meets Apple’s standards so that it can be successfully approved and made available to users worldwide.`,
-          ],
-          button: 'Let’s Build Your App',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: iosAppDevImpImg_8,
-          name: 'Maintenance and Ongoing Support',
-          description: [
-            `Mobile applications require continuous updates and improvements to remain competitive. Our maintenance services include monitoring app performance, fixing bugs, updating features, and ensuring compatibility with new iOS versions.`,
-            `By providing long-term support, we help businesses keep their applications secure, efficient, and aligned with evolving user expectations.`,
-          ],
-          button: 'Let’s Build Your App',
-          btnColor: '#FB9100',
         },
       ],
     },
@@ -20088,74 +20114,157 @@ export const SERVICES_DATA = {
       subtitle: 'Our Process',
       headingParts: [
         {
-          text: 'Our Strategic Process for High-Quality iOS App Development',
+          text: 'How We Handle Your Social Media',
           color: '#000000',
           weight: '700',
         },
       ],
       breakIndex: 4,
-      bgGradient: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFFFF]',
+      bgGradient: 'bg-[#FAFAFA]',
       span: '',
       description: [
-        `Our development process is structured to deliver high-quality applications efficiently while maintaining transparency and collaboration throughout the project lifecycle.`,
+        `Our social media management services are designed to give your brand a strong, consistent, and engaging online presence.`,
+        `These services complement our comprehensive management process, delivering measurable results and strategic growth to our clients.`
       ],
       services: [
         {
           icon: iosProcessIcon_1,
-          title: 'Discovery and Requirement Analysis',
+          title: 'Profile Setup & Optimization',
           description: [
-            `Every successful application begins with a clear understanding of the business objectives and user expectations. During the discovery phase, our team works closely with stakeholders to gather detailed information about the project.`,
-            `We analyze the target audience, define the app’s core purpose, and identify the key features required to achieve business goals. This stage also involves researching competitors, studying market trends, and identifying potential opportunities that can give the application a competitive advantage.
-`,
+            `Your social media profiles are often the first impression your audience has of your brand. We ensure each profile is professionally created or optimized to reflect your brand identity accurately and consistently across all platforms: Instagram, Facebook, LinkedIn, YouTube, TikTok, and X.`,
+            `This includes crafting compelling bios, selecting branded profile and cover images, adding optimized links and call-to-action buttons, and organizing highlights or pinned posts.`,
+            `Proper profile setup ensures your brand looks professional, is easily discoverable, and encourages new followers to engage with your content.`,
           ],
         },
         {
-          icon: iosProcessIcon_2,
-          title: 'Product Strategy and Planning',
+          icon: iosProcessIcon_1,
+          title: 'Paid Social Media Campaigns',
           description: [
-            `After the discovery stage, we move on to strategic planning. This step focuses on defining the structure and functionality of the application in detail. Our team collaborates with clients to prioritize features, determine the minimum viable product (MVP), and plan future enhancements.`,
-            `We create user journey maps to visualize how users will interact with the application. This helps us identify potential challenges and ensure that the app delivers a seamless experience from the first interaction to the final conversion.`,
+            `While organic growth is important, paid campaigns accelerate visibility and results. We develop and manage targeted ad campaigns across relevant platforms to reach your ideal audience, generate leads, and drive conversions.`,
+            `Our services include campaign planning, audience segmentation, ad creative development, budget optimization, A/B testing, and performance monitoring. `,
+            `By combining creative messaging with precise targeting and ongoing optimization, Adaired Digital Media maximizes your return on investment and helps your campaigns reach their full potential.`,
           ],
         },
         {
-          icon: iosProcessIcon_3,
-          title: 'UI/UX Design',
+          icon: iosProcessIcon_1,
+          title: 'Trend & Hashtag Research',
           description: [
-            `User experience plays a critical role in the success of any mobile application. Our design team focuses on creating interfaces that are visually appealing, intuitive, and easy to navigate. The design process typically begins with wireframes that outline the structure and layout of each screen. `,
-            `These wireframes act as a blueprint for the application, allowing stakeholders to visualize the flow of the user experience. Once the wireframes are approved, our designers create interactive prototypes that demonstrate how users will interact with the app.`,
+            `Social media is dynamic, and staying ahead of trends is critical for visibility. We research trending topics, popular hashtags, seasonal events, and platform-specific trends that align with your brand.`,
+            `By integrating these insights into your content, we increase discoverability, engagement, and reach while keeping your brand relevant in your industry.`,
+            `This ensures your posts aren’t just seen; they are noticed, shared, and remembered by your target audience.`,
           ],
         },
         {
-          icon: iosProcessIcon_4,
-          title: 'App Architecture and Development ',
+          icon: iosProcessIcon_1,
+          title: 'Analytics & Performance Reporting',
           description: [
-            `With the designs finalized, our developers begin building the application using modern iOS technologies such as Swift and advanced Apple frameworks. This stage involves both front-end and back-end development.`,
-            `Our developers follow best coding practices to ensure the application is scalable, maintainable, and optimized for performance. We also implement APIs, databases, payment gateways, and cloud services as required by the project.`,
+            `Measuring results is essential to growing your social media presence strategically. We track key performance indicators, including engagement rates, reach, impressions, follower growth, website clicks, and conversions.`,
+            `We provide detailed monthly reports with actionable insights, showing what’s working, what needs improvement, and recommendations for future campaigns.`,
+            `This transparency allows you to see the impact of your social media efforts and ensures every action contributes to measurable business growth.`,
           ],
         },
         {
-          icon: iosProcessIcon_5,
-          title: 'Integration of Advanced Features',
+          icon: iosProcessIcon_1,
+          title: 'Competitor & Market Insights',
           description: [
-            `Modern mobile applications often require advanced functionalities to deliver better user experiences. During this phase, we integrate features such as push notifications, geolocation services, payment gateways, social media integrations, and analytics tools.`,
-            `Depending on the project requirements, we may also incorporate advanced technologies like artificial intelligence, machine learning, augmented reality, or cloud-based services. These features help enhance the functionality of the application and create more engaging experiences for users.`,
+            `Understanding your industry and competitors is key to staying ahead. We continuously monitor your competitors’ social media activities, content strategies, and engagement patterns.`,
+            `Additionally, we analyze market trends to identify opportunities and gaps that your brand can capitalize on.`,
+            `These insights guide content decisions, posting strategies, and campaign planning, ensuring your brand maintains a competitive edge and remains a thought leader in your niche.`,
           ],
         },
         {
-          icon: iosProcessIcon_6,
-          title: 'Testing and Quality Assurance',
+          icon: iosProcessIcon_1,
+          title: 'Content Guidance & Strategy Support',
           description: [
-            `Quality assurance is a crucial step in the development process. Before the application is launched, it undergoes extensive testing to ensure it performs flawlessly under different conditions. We conduct multiple types of testing, including functional, performance, usability, and security.`,
-            `We test the app across different iOS devices and screen sizes to ensure compatibility and consistent performance. Our goal is to deliver a polished product that provides users with a smooth and reliable experience.`,
+            `Beyond execution, we provide expert guidance for businesses that want to stay involved in the creative process. This includes consulting on content strategy, brainstorming post ideas, planning campaigns, and refining messaging.`,
+            `By aligning our expertise with your brand vision, we help ensure that every piece of content, from captions to visuals, is on-brand, resonates with your audience, and supports your overall business objectives.`,
+            `This collaborative approach allows your social media to reflect both creativity and strategy, maximizing engagement and growth.`,
           ],
         },
+      ],
+    },
+
+    importantToBussiness: {
+      isVisible: true,
+      isInCenter: false,
+      breakIndex: 2,
+      isVariant: '01',
+      cardColor: '#F9F9F9',
+      headingParts: [
         {
-          icon: iosProcessIcon_7,
-          title: 'App Store Submission and Launch',
+          text: 'Connecting You Across Every Major Platform',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `We manage and optimize your presence across the most impactful social media platforms, ensuring your brand reaches the right audience with the right message at the right time.`,
+        ` Each platform requires a unique strategy, content style, and engagement approach, and we tailor our efforts accordingly.`,
+      ],
+      buttonName: '',
+      data: [
+        {
+          icon: iosAppDevImpImg_1,
+          name: 'Instagram',
           description: [
-            `After the application successfully passes the testing phase, we prepare it for submission to the Apple App Store. This process involves creating the necessary documentation, optimizing the app listing with compelling descriptions and visuals, and ensuring compliance with Apple’s guidelines.`,
-            `Our team manages the entire submission process, including responding to feedback from Apple’s review team if any changes are required. Once the application is approved, it becomes available for download by users worldwide.`,
+            `Instagram is a powerful visual platform designed for brand storytelling and audience engagement. We create high-quality posts, reels, carousels, and stories that capture attention within seconds.`,
+            `Our strategy focuses on consistent branding, trending formats, hashtag research, and interactive content such as polls and Q&As.`,
+            `By combining creative visuals with strong captions and calls-to-action, we help grow your followers, boost engagement rates, and improve overall brand visibility.`,
           ],
+          button: '',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: iosAppDevImpImg_1,
+          name: 'Facebook',
+          description: [
+            `Facebook remains one of the strongest platforms for community building and targeted advertising.`,
+            `Adaired Digital Media manages business pages, creates engaging posts, runs promotional campaigns, and optimizes ad performance to reach specific audience segments.`,
+            `From local businesses to growing brands, we leverage Facebook’s advanced targeting capabilities to increase awareness, drive website traffic, and generate leads.`,
+          ],
+          button: '',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: iosAppDevImpImg_1,
+          name: 'LinkedIn',
+          description: [
+            `LinkedIn is essential for professional branding and B2B growth. We craft thought-leadership content, industry insights, company updates, and professional visuals to position your brand as an authority in your field.`,
+            `Our strategy focuses on networking, audience targeting, and credibility-building content that strengthens trust and attracts high-value connections.`,
+          ],
+          button: '',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: iosAppDevImpImg_1,
+          name: 'YouTube',
+          description: [
+            `YouTube is one of the most influential platforms for long-form content and product discovery.`,
+            `We assist with content planning, video optimization, title and description strategy, thumbnail concepts, and audience engagement techniques.`,
+            `By improving discoverability and retention, we help your brand build credibility and long-term visibility through consistent video marketing.`,
+          ],
+          button: '',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: iosAppDevImpImg_1,
+          name: 'TikTok',
+          description: [
+            `TikTok thrives on creativity and trends. We develop short-form video strategies that align with trending formats while staying authentic to your brand voice.`,
+            `Our focus is on capturing attention quickly, encouraging interaction, and increasing organic reach through consistent and engaging content.`,
+          ],
+          button: '',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: iosAppDevImpImg_1,
+          name: 'X',
+          description: [
+            `X is ideal for real-time communication, industry conversations, and brand personality.`,
+            `We create engaging short-form updates, participate in relevant discussions, and help maintain an active presence that keeps your brand visible and worthy.`,
+          ],
+          button: '',
+          btnColor: '#FB9100',
         },
       ],
     },
@@ -20163,7 +20272,7 @@ export const SERVICES_DATA = {
     whatMkeDeferent: {
       isVisible: true,
       isVariant: '01',
-      breakIndex: 3,
+      breakIndex: 5,
       isInCenter: false,
       bgColor: false,
       bgGradient: 'bg-[#FFFFFF]',
@@ -20175,55 +20284,159 @@ export const SERVICES_DATA = {
       borderColor: '#000000',
       headingParts: [
         {
-          text: 'Why Choose Our iOS App Development Company',
+          text: 'Why Pick Adaired Digital to Manage Your Social Media Accounts?',
           color: '#000000',
           weight: '700',
         },
       ],
       description: [
-        'Selecting the right development partner can significantly impact the success of your mobile application. Our company stands out by combining technical expertise with a strong focus on client satisfaction and innovation.',
+        'At Adaired Digital Media, we’re more than just a social media service; we’re your strategic partner in growing your online presence.',
+        `Here’s why businesses trust us to manage their social media:`,
       ],
       list: [
         {
           img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749342/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_1_tpiyob.png',
-          name: 'Experienced Development Team',
+          name: 'Expertise & Experience',
           description: [
-            `Our developers bring years of experience building iOS applications across multiple industries. This experience allows us to deliver reliable solutions that meet both technical and business requirements.`,
+            `Our team consists of social media specialists, content creators, and strategists with proven experience across multiple industries. We understand platform trends, audience behavior, and what drives engagement and conversions.`,
           ],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_2_jg8qis.png',
-          name: 'Client-Focused Approach',
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749342/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_1_tpiyob.png',
+          name: 'Custom Strategies for Your Brand',
           description: [
-            `We prioritize collaboration and transparency throughout the development process. By maintaining open communication, we ensure that every project aligns with the client’s vision and expectations.`,
+            `We don’t use one-size-fits-all solutions. Every brand gets a tailored social media plan based on its unique goals, audience, and market. Your content, campaigns, and engagement are designed specifically to meet your objectives.`,
           ],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_3_vvklaq.png',
-          name: 'Scalable and Secure Applications',
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749342/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_1_tpiyob.png',
+          name: 'Data-Driven Approach',
           description: [
-            `Security and scalability are built into every solution we develop. Our applications are designed to handle increasing user traffic while protecting sensitive data through advanced security practices.`,
+            `We measure everything. From engagement rates to conversions, we monitor metrics closely and optimize campaigns for maximum results. Decisions are guided by data, not guesswork.`,
           ],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773750392/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_4.png',
-          name: 'Agile Development Methodology',
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749342/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_1_tpiyob.png',
+          name: 'Consistent Branding & Quality Content',
           description: [
-            `Our agile approach allows us to adapt quickly to changing requirements while maintaining efficient development cycles. This flexibility ensures faster delivery without compromising quality.`,
+            `We maintain your brand voice, aesthetics, and messaging across all platforms. Our content is scroll-stopping, engaging, and strategically designed to strengthen your identity online.`,
           ],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_5_lecxdb.png',
-          name: 'Long-Term Partnership',
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749342/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_1_tpiyob.png',
+          name: 'Community Engagement',
           description: [
-            `We view every project as the beginning of a long-term partnership. Our team provides continuous support and strategic guidance to help businesses grow and evolve their digital products.`,
+            `We don’t just post content; we help you build meaningful connections. Through responsive community management and interactive content, we foster loyalty, trust, and long-term engagement.`,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749342/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_1_tpiyob.png',
+          name: 'Transparent Reporting & Communication',
+          description: [
+            `You’ll always know how your social media is performing. We provide detailed reports, insights, and recommendations so you’re fully informed about your growth and ROI.`,
+          ],
+        },
+      ],
+    },
+
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '03',
+      breakIndex: 4,
+      bgImg: bgImgBuildLink,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevBuildLinkImg_qwlohk.png',
+      imgWidth: '744',
+      imgHight: '456',
+      headingParts: [
+        {
+          text: 'Let’s Grow Your Social',
+          color: '#FFFFFF',
+          weight: '400',
+        },
+        {
+          text: 'Media Presence!',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
+      description: ``,
+      textColor: 'white',
+      width: '60%',
+      paddingY: '2rem',
+      data: [
+        {
+          desctioption: `Take your brand to the next level with professional social media management. From strategy and content creation to engagement and analytics, we help you reach your audience, increase visibility, and drive measurable results.`,
+        },
+      ],
+      button: 'Launch my Social Media Plan',
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: ``,
+      list: [
+        {
+          title: 'How does Adaired Digital Media start managing my social media?',
+          description: [
+            `We begin with detailed brand research and competitor analysis to understand your business, audience, and industry. From there, we build a customized strategy and content calendar aligned with your growth goals.`,
+          ],
+        },
+        {
+          title: 'Do you create content in-house, or do I need to provide it?',
+          description: [
+            `We handle content creation, including graphics, captions, and short-form video concepts. However, we may request brand assets (logos, brand guidelines, product photos, etc.) to ensure everything reflects your identity accurately.`,
+          ],
+        },
+        {
+          title: 'Will I approve content before it goes live?',
+          description: [
+            `Yes. We share content calendars and creatives for approval before publishing. This ensures transparency and keeps your messaging aligned with your brand vision.`,
+          ],
+        },
+        {
+          title: 'How do you measure the success of my social media?',
+          description: [
+            `We track engagement rates, reach, impressions, follower growth, click-through rates, and conversion signals. You receive monthly performance reports with insights and improvement recommendations.`,
+          ],
+        },
+        {
+          title: 'Do you offer both organic and paid social media management?',
+          description: [
+            `Yes. We manage organic growth strategies and also run paid advertising campaigns to accelerate visibility, generate leads, and drive conversions.`,
+          ],
+        },
+        {
+          title: 'How do you handle comments and messages on my accounts?',
+          description: [
+            `We actively monitor your accounts, respond to comments and direct messages, engage with relevant communities, and manage brand mentions to build trust and loyalty.`,
+          ],
+        },
+        {
+          title: 'Can you manage multiple platforms for my business?',
+          description: [
+            `Absolutely. We manage Instagram, Facebook, LinkedIn, YouTube, TikTok, X, and other relevant platforms depending on your audience and objectives.`,
+          ],
+        },
+        {
+          title: 'What makes Adaired Digital different from other social media agencies?',
+          description: [
+            `Our approach is structured, research-driven, and performance-focused. We don’t just post content; we build strategies, track measurable results, continuously optimize performance, and align social media efforts with your overall business goals.`,
           ],
         },
       ],
     },
 
     leadingTools: {
-      isVisible: true,
+      isVisible: false,
       breakIndex: 4,
       headingParts: [
         {
@@ -20273,7 +20486,7 @@ export const SERVICES_DATA = {
     },
 
     industriesWeServe: {
-      isVisible: true,
+      isVisible: false,
       code: '01',
       bgColor: 'bg-[#FFFBF5]',
       headingParts: [
@@ -20315,97 +20528,6 @@ export const SERVICES_DATA = {
         {
           img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749339/adaired/services/ios_app_development/iosAppDevIndustriesImg_6_rseu98.png',
           btn: [`Fashion & Beauty`],
-        },
-      ],
-    },
-
-    buildlinks: {
-      isVisible: true,
-      isCode01: true,
-      isVariant: '03',
-      breakIndex: 4,
-      bgImg: bgImgBuildLink,
-      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevBuildLinkImg_qwlohk.png',
-      imgWidth: '744',
-      imgHight: '456',
-      headingParts: [
-        {
-          text: 'Start Your iOS App',
-          color: '#FFFFFF',
-          weight: '400',
-        },
-        {
-          text: 'Development Journey',
-          color: '#FFFFFF',
-          weight: '700',
-        },
-      ],
-      description: ``,
-      textColor: 'white',
-      width: '60%',
-      paddingY: '2rem',
-      data: [
-        {
-          desctioption: `If you’re ready to bring your idea to life, partner with a trusted iOS development team that prioritizes quality, innovation, and long-term success.`,
-        },
-      ],
-      button: 'Start Your iOS App Project',
-    },
-
-    faqData: {
-      isVisible: true,
-      subtitle: 'FAQ',
-      headingParts: [
-        {
-          text: 'Frequently Asked Questions',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: ``,
-      list: [
-        {
-          title: 'How long does it take to develop an iOS app?',
-          description: [
-            `The development timeline for an iOS app depends on several factors, including the complexity of the features, design requirements, integrations, and testing needs. A simple application may take around 2–3 months to develop, while more complex applications with advanced features can take 4–6 months or longer. During the planning phase, our team provides a detailed timeline based on your project scope.`,
-          ],
-        },
-        {
-          title: 'How much does iOS app development cost?',
-          description: [
-            `The cost of iOS app development varies depending on the app’s complexity, number of features, design requirements, and development time. Basic applications may cost significantly less than enterprise-level platforms with complex integrations and custom functionalities. After understanding your requirements, we provide a transparent estimate tailored to your project.`,
-          ],
-        },
-        {
-          title:
-            'Which programming languages are used for iOS app development?',
-          description: [
-            `Most modern iOS applications are built using Swift, Apple’s primary programming language known for its speed and safety. In some cases, Objective-C may also be used, particularly for maintaining or updating older applications.`,
-          ],
-        },
-        {
-          title: 'Can you update or improve an existing iOS application?',
-          description: [
-            `Yes, we provide services to upgrade, redesign, and improve existing iOS applications. Our team can enhance performance, add new features, modernize the user interface, and ensure compatibility with the latest iOS versions.`,
-          ],
-        },
-        {
-          title: 'Will you help with App Store submission?',
-          description: [
-            `Yes, we manage the complete App Store submission process. This includes preparing the necessary documentation, optimizing the app listing, and ensuring the application meets Apple’s guidelines so it can be approved smoothly.`,
-          ],
-        },
-        {
-          title: 'Do you provide post-launch support and maintenance?',
-          description: [
-            `Absolutely. After the app is launched, we continue to provide support services such as bug fixes, performance monitoring, feature enhancements, and updates to ensure compatibility with new iOS releases.`,
-          ],
-        },
-        {
-          title: 'Can you build custom iOS apps for startups and enterprises?',
-          description: [
-            `Yes, we work with startups, small businesses, and large enterprises to build custom iOS applications tailored to their specific needs. Whether you need a minimum viable product (MVP) or a fully featured enterprise platform, our team can deliver a solution that supports your business growth.`,
-          ],
         },
       ],
     },
