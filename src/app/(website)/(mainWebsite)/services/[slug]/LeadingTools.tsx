@@ -38,10 +38,11 @@ const LeadingTools = ({ leadingTools }: any) => {
   return (
     <div
       ref={ref}
-      className={`overflow-hidden bg-cover ${leadingTools?.isGapTop
-        ? 'pb-[3rem] lg:pb-[4rem]'
-        : 'pb-[3rem] pt-[2rem] lg:pb-[4rem] lg:pt-[2.5rem]'
-        } `}
+      className={`overflow-hidden bg-cover ${
+        leadingTools?.isGapTop
+          ? 'pb-[3rem] lg:pb-[4rem]'
+          : 'pb-[3rem] pt-[2rem] lg:pb-[4rem] lg:pt-[2.5rem]'
+      } `}
       style={{
         backgroundImage: `url(${leadingTools?.bgImage.src})`,
       }}
@@ -56,6 +57,7 @@ const LeadingTools = ({ leadingTools }: any) => {
             description={leadingTools?.description}
             textColor={leadingTools?.textColor}
             isInCenter={true}
+            isLastParaBold={leadingTools?.isLastParaBold}
           />
         </div>
 
@@ -88,7 +90,7 @@ const LeadingTools = ({ leadingTools }: any) => {
             {duplicatedList.map((item: any, idx: number) => (
               <div
                 key={idx}
-                className={`group relative flex flex-shrink-0 h-[7rem] items-center justify-center overflow-hidden rounded-[20px] border border-black/5 transition-all duration-700`}
+                className={`group relative flex h-[7rem] flex-shrink-0 items-center justify-center overflow-hidden rounded-[20px] border border-black/5 transition-all duration-700`}
                 style={{
                   transitionDelay: `${idx * 60}ms`,
                 }}
@@ -112,8 +114,9 @@ const LeadingTools = ({ leadingTools }: any) => {
                 {row1Duplicated.map((client, idx) => (
                   <div
                     key={`r1-${idx}`}
-                    className={`group relative flex-shrink-0 transition-all duration-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'
-                      }`}
+                    className={`group relative flex-shrink-0 transition-all duration-700 ${
+                      isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'
+                    }`}
                     style={{ transitionDelay: `${idx * 60}ms` }}
                   >
                     <Image
@@ -133,8 +136,9 @@ const LeadingTools = ({ leadingTools }: any) => {
                 {row2Duplicated.map((client, idx) => (
                   <div
                     key={`r2-${idx}`}
-                    className={`group relative flex-shrink-0 transition-all duration-700 ${isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'
-                      }`}
+                    className={`group relative flex-shrink-0 transition-all duration-700 ${
+                      isVisible ? 'scale-100 opacity-100' : 'scale-75 opacity-0'
+                    }`}
                     style={{ transitionDelay: `${idx * 60}ms` }}
                   >
                     <Image
@@ -152,18 +156,17 @@ const LeadingTools = ({ leadingTools }: any) => {
         )}
       </MaxWidthWrapper>
 
-
       {leadingTools?.isVariant === '03' && (
         <div className="w-full overflow-hidden pt-[2rem]">
           <div
-            className={`flex w-max animate-marquee gap-[1rem] lg:gap-[2rem] pb-4 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+            className={`flex w-max animate-marquee gap-[1rem] pb-4 lg:gap-[2rem] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
           >
             {duplicatedList.map((item: any, idx: number) => (
               <div
                 key={idx}
-                className="min-w-[60vw] sm:min-w-[50vw] lg:min-w-[290px] px-[1rem] py-[2rem] border rounded-[2rem] flex flex-col gap-[2rem] items-center justify-between"
+                className="flex min-w-[60vw] flex-col items-center justify-between gap-[2rem] rounded-[2rem] border px-[1rem] py-[2rem] sm:min-w-[50vw] lg:min-w-[290px]"
               >
-                <div className="relative w-[180px] h-[45px] lg:w-[292px] lg:h-[116px] flex items-center justify-center">
+                <div className="relative flex h-[45px] w-[180px] items-center justify-center lg:h-[116px] lg:w-[292px]">
                   <Image
                     src={item?.img}
                     alt="icon"
