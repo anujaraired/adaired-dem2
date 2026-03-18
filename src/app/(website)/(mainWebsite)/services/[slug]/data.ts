@@ -902,7 +902,7 @@ export const SERVICES_DATA = {
 
     whatIncluded: {
       isVisible: true,
-      isVariant: '01',
+      isVariant: '02',
       isInCenter: true,
       headingParts: [
         {
@@ -2051,7 +2051,7 @@ export const SERVICES_DATA = {
     },
     whatIncluded: {
       isVisible: true,
-      isVariant: '01',
+      isVariant: '02',
       isInCenter: true,
       breakIndex: 7,
       headingParts: [
@@ -19039,6 +19039,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      isLastParaBold:true,
       description: [
         `Our development team uses modern technologies and frameworks to create reliable and scalable iOS applications. By leveraging the latest tools in the Apple ecosystem, we ensure that every app delivers exceptional performance and user experience.`,
         `Some of the technologies we commonly use include:`,
