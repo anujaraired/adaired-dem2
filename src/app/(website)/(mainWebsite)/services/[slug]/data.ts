@@ -688,6 +688,23 @@ import iosAppDevLeadingToolsImg_5 from '../../../../../../public/assets/images/s
 import iosAppDevLeadingToolsImg_6 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_6.png';
 import iosAppDevLeadingToolsImg_7 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_7.png';
 
+
+import socialMediaMgtWhatServiceImg from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtWhatServiceImg.png';
+
+import socialMediaMgtProcessIcon_1 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtProcessIcon_1.png';
+import socialMediaMgtProcessIcon_2 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtProcessIcon_2.png';
+import socialMediaMgtProcessIcon_3 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtProcessIcon_3.png';
+import socialMediaMgtProcessIcon_4 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtProcessIcon_4.png';
+import socialMediaMgtProcessIcon_5 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtProcessIcon_5.png';
+import socialMediaMgtProcessIcon_6 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtProcessIcon_6.png';
+
+import socialMediaMgtImpIcon_1 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtImpIcon_1.png';
+import socialMediaMgtImpIcon_2 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtImpIcon_2.png';
+import socialMediaMgtImpIcon_3 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtImpIcon_3.png';
+import socialMediaMgtImpIcon_4 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtImpIcon_4.png';
+import socialMediaMgtImpIcon_5 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtImpIcon_5.png';
+import socialMediaMgtImpIcon_6 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtImpIcon_6.png';
+
 export type SectionKey =
   | 'banner'
   | 'getsCredit'
@@ -767,6 +784,7 @@ export const SERVICES_DATA = {
     keyStats: {
       isVisible: true,
       code: '02',
+      breakIndex: 6,
       headingParts: [
         {
           text: 'Key Stats Related to SEO Services',
@@ -14719,6 +14737,7 @@ export const SERVICES_DATA = {
     keyStats: {
       isVisible: true,
       code: '02',
+      breakIndex: 6,
       headingParts: [
         {
           text: 'Explosive Growth of LLM Platforms',
@@ -15967,6 +15986,7 @@ export const SERVICES_DATA = {
     keyStats: {
       isVisible: true,
       code: '02',
+      breakIndex: 6,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773318987/adaired/services/eCommerce_seo_india/eCommerceSeo_KeyStats_dxydm5.png',
       headingParts: [
         {
@@ -19809,7 +19829,7 @@ export const SERVICES_DATA = {
       isCenter: false,
       isVisible: true,
       heading2: '#1 on Google Maps: Get Seen by Local Customers',
-      isAbsolute: true,
+      isAbsolute: false,
       isStyleHeading: true,
       headingParts: [
         { text: 'Grow Your Online', color: '#000000', weight: '400' },
@@ -19819,7 +19839,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
-      isGap: true,
+      isGap: false,
       breakIndex: 8,
       desc: [
         `Bring our expertise to your social media branding and achieve strategic growth that drives measurable results.`,
@@ -19827,16 +19847,17 @@ export const SERVICES_DATA = {
       ],
       subheading: '',
       button: 'Help Me Grow Online',
-      width: '45%',
-      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749342/adaired/services/ios_app_development/iosAppDevBannerImg_iwkfje.png',
-      imgWidth: '911',
-      imgHight: '682',
+      width: '50%',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtBannerImg_zvcfx3.png',
+      imgWidth: '679',
+      imgHight: '699',
     },
 
     keyStats: {
       isVisible: true,
       code: '02',
-      img: whiteLinkBuildingKeyStatsImg,
+      breakIndex: 0,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtKeyStatsImg_tcfqxu.png',
       headingParts: [
         {
           text: 'Why Do You Need a Custom Social Media Plan?',
@@ -19888,11 +19909,11 @@ export const SERVICES_DATA = {
       breakIndex: 6,
       paddingY: '4rem',
       isRowReverse: false,
-      width: '65%',
-      img: iosAppDevWhatServiceImg,
-      // img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749236/adaired/services/ios_app_development/iosAppDevWhatServiceImg_hmwdgq.png',
-      imgWidth: '931px',
-      imgHight: '621px',
+      width: '50%',
+      img: socialMediaMgtWhatServiceImg,
+      // img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtWhatServiceImg_btxnjr.png',
+      imgWidth: '494px',
+      imgHight: '494px',
       headingParts: [
         {
           text: 'What is Social Media Management?',
@@ -19902,7 +19923,7 @@ export const SERVICES_DATA = {
       ],
       bgColor: '#000000',
       textColor: '#FFFFFF',
-      isGap: true,
+      isGap: false,
       data: [
         {
           desctioption: `Social media management is the process of planning, creating, publishing, and analyzing content across social media platforms like Instagram, Facebook, LinkedIn, TikTok, and YouTube. It helps businesses build brand awareness, connect with their audience, and grow consistently online.`,
@@ -19920,7 +19941,7 @@ export const SERVICES_DATA = {
     adairedHelp: {
       isVisible: true,
       breakIndex: 5,
-      img: shopifyDevAdairedHelpImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821674/adaired/services/social_media_management/socialMediaMgtAdairedHelpImg_nbysl1.png',
       isInCenter: false,
       textColor: '',
       isnNumberBg: false,
@@ -20128,7 +20149,7 @@ export const SERVICES_DATA = {
       ],
       services: [
         {
-          icon: iosProcessIcon_1,
+          icon: socialMediaMgtProcessIcon_1,
           title: 'Profile Setup & Optimization',
           description: [
             `Your social media profiles are often the first impression your audience has of your brand. We ensure each profile is professionally created or optimized to reflect your brand identity accurately and consistently across all platforms: Instagram, Facebook, LinkedIn, YouTube, TikTok, and X.`,
@@ -20137,7 +20158,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: iosProcessIcon_1,
+          icon: socialMediaMgtProcessIcon_2,
           title: 'Paid Social Media Campaigns',
           description: [
             `While organic growth is important, paid campaigns accelerate visibility and results. We develop and manage targeted ad campaigns across relevant platforms to reach your ideal audience, generate leads, and drive conversions.`,
@@ -20146,7 +20167,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: iosProcessIcon_1,
+          icon: socialMediaMgtProcessIcon_3,
           title: 'Trend & Hashtag Research',
           description: [
             `Social media is dynamic, and staying ahead of trends is critical for visibility. We research trending topics, popular hashtags, seasonal events, and platform-specific trends that align with your brand.`,
@@ -20155,7 +20176,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: iosProcessIcon_1,
+          icon: socialMediaMgtProcessIcon_4,
           title: 'Analytics & Performance Reporting',
           description: [
             `Measuring results is essential to growing your social media presence strategically. We track key performance indicators, including engagement rates, reach, impressions, follower growth, website clicks, and conversions.`,
@@ -20164,7 +20185,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: iosProcessIcon_1,
+          icon: socialMediaMgtProcessIcon_5,
           title: 'Competitor & Market Insights',
           description: [
             `Understanding your industry and competitors is key to staying ahead. We continuously monitor your competitors’ social media activities, content strategies, and engagement patterns.`,
@@ -20173,7 +20194,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          icon: iosProcessIcon_1,
+          icon: socialMediaMgtProcessIcon_6,
           title: 'Content Guidance & Strategy Support',
           description: [
             `Beyond execution, we provide expert guidance for businesses that want to stay involved in the creative process. This includes consulting on content strategy, brainstorming post ideas, planning campaigns, and refining messaging.`,
@@ -20204,7 +20225,7 @@ export const SERVICES_DATA = {
       buttonName: '',
       data: [
         {
-          icon: iosAppDevImpImg_1,
+          icon: socialMediaMgtImpIcon_1,
           name: 'Instagram',
           description: [
             `Instagram is a powerful visual platform designed for brand storytelling and audience engagement. We create high-quality posts, reels, carousels, and stories that capture attention within seconds.`,
@@ -20215,7 +20236,7 @@ export const SERVICES_DATA = {
           btnColor: '#FB9100',
         },
         {
-          icon: iosAppDevImpImg_1,
+          icon: socialMediaMgtImpIcon_2,
           name: 'Facebook',
           description: [
             `Facebook remains one of the strongest platforms for community building and targeted advertising.`,
@@ -20226,7 +20247,7 @@ export const SERVICES_DATA = {
           btnColor: '#FB9100',
         },
         {
-          icon: iosAppDevImpImg_1,
+          icon: socialMediaMgtImpIcon_3,
           name: 'LinkedIn',
           description: [
             `LinkedIn is essential for professional branding and B2B growth. We craft thought-leadership content, industry insights, company updates, and professional visuals to position your brand as an authority in your field.`,
@@ -20236,7 +20257,7 @@ export const SERVICES_DATA = {
           btnColor: '#FB9100',
         },
         {
-          icon: iosAppDevImpImg_1,
+          icon: socialMediaMgtImpIcon_4,
           name: 'YouTube',
           description: [
             `YouTube is one of the most influential platforms for long-form content and product discovery.`,
@@ -20247,7 +20268,7 @@ export const SERVICES_DATA = {
           btnColor: '#FB9100',
         },
         {
-          icon: iosAppDevImpImg_1,
+          icon: socialMediaMgtImpIcon_5,
           name: 'TikTok',
           description: [
             `TikTok thrives on creativity and trends. We develop short-form video strategies that align with trending formats while staying authentic to your brand voice.`,
@@ -20257,7 +20278,7 @@ export const SERVICES_DATA = {
           btnColor: '#FB9100',
         },
         {
-          icon: iosAppDevImpImg_1,
+          icon: socialMediaMgtImpIcon_6,
           name: 'X',
           description: [
             `X is ideal for real-time communication, industry conversations, and brand personality.`,
@@ -20295,42 +20316,42 @@ export const SERVICES_DATA = {
       ],
       list: [
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749342/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_1_tpiyob.png',
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_1_tskaab.png',
           name: 'Expertise & Experience',
           description: [
             `Our team consists of social media specialists, content creators, and strategists with proven experience across multiple industries. We understand platform trends, audience behavior, and what drives engagement and conversions.`,
           ],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749342/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_1_tpiyob.png',
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_2_zgzuwo.png',
           name: 'Custom Strategies for Your Brand',
           description: [
             `We don’t use one-size-fits-all solutions. Every brand gets a tailored social media plan based on its unique goals, audience, and market. Your content, campaigns, and engagement are designed specifically to meet your objectives.`,
           ],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749342/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_1_tpiyob.png',
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821669/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_3_ku4940.png',
           name: 'Data-Driven Approach',
           description: [
             `We measure everything. From engagement rates to conversions, we monitor metrics closely and optimize campaigns for maximum results. Decisions are guided by data, not guesswork.`,
           ],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749342/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_1_tpiyob.png',
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821669/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_4_rlpksv.png',
           name: 'Consistent Branding & Quality Content',
           description: [
             `We maintain your brand voice, aesthetics, and messaging across all platforms. Our content is scroll-stopping, engaging, and strategically designed to strengthen your identity online.`,
           ],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749342/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_1_tpiyob.png',
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821668/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_5_hwiddr.png',
           name: 'Community Engagement',
           description: [
             `We don’t just post content; we help you build meaningful connections. Through responsive community management and interactive content, we foster loyalty, trust, and long-term engagement.`,
           ],
         },
         {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749342/adaired/services/ios_app_development/iosAppDevWhatMkDiffImg_1_tpiyob.png',
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821668/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_6_hqvkgf.png',
           name: 'Transparent Reporting & Communication',
           description: [
             `You’ll always know how your social media is performing. We provide detailed reports, insights, and recommendations so you’re fully informed about your growth and ROI.`,
@@ -20345,7 +20366,7 @@ export const SERVICES_DATA = {
       isVariant: '03',
       breakIndex: 4,
       bgImg: bgImgBuildLink,
-      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevBuildLinkImg_qwlohk.png',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821669/adaired/services/social_media_management/socialMediaMgtBuildLinkImg_fdqe6x.png',
       imgWidth: '744',
       imgHight: '456',
       headingParts: [
