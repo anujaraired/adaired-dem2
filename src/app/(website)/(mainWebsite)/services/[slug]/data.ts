@@ -19081,7 +19081,7 @@ export const SERVICES_DATA = {
         },
         {
           img: iosAppDevLeadingToolsImg_7,
-          desc: 'Cloud platforms (AWS Cloud)',
+          desc: 'AWS Cloud',
         },
       ],
     },
