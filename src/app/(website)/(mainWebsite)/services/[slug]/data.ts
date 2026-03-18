@@ -2861,7 +2861,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
-      width: '50%',
+      width: 50,
       paddingY: '3rem',
       data: [],
       button: 'Get a Free Audit ',
@@ -3555,7 +3555,7 @@ export const SERVICES_DATA = {
         },
       ],
       textColor: 'white',
-      width: '50%',
+      width: 50,
       data: [
         {
           desctioption: `We build websites that captivate users and convert clicks into customers`,
@@ -20414,7 +20414,7 @@ export const SERVICES_DATA = {
       ],
       description: ``,
       textColor: 'white',
-      width: '60%',
+      width: 60,
       paddingY: '2rem',
       data: [
         {
