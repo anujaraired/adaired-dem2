@@ -3677,6 +3677,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       isCenter: true,
       subtitle: '',
+      breakIndex: 3,
       title: 'Every Successful Website Starts with A Clear Strategy.',
       button: 'Schedule a Strategy Call',
       description: [
@@ -3911,7 +3912,7 @@ export const SERVICES_DATA = {
       bgColor: '#FFFAF4',
       isRocket: true,
       img: localServiceResultImg,
-      imgHight:"660px",
+      imgHight: '660px',
       list: [
         {
           icon: localServiceResultIcon,
@@ -5704,7 +5705,7 @@ export const SERVICES_DATA = {
         The following use cases reflect common operational scenarios:`,
       ],
       img: WhiteSeoServiceResultImg,
-      imgHight:"540px",
+      imgHight: '540px',
       list: [
         {
           img: whiteSeoResult_Icon_1,
@@ -7130,7 +7131,7 @@ export const SERVICES_DATA = {
       img: benefitsOfPPC,
       isInCenter: false,
       cardBg: '#FFF8F0',
-      bgColor: '#FFFCF8',
+      bgColor: '#FFFCF9',
       headingParts: [
         {
           text: 'The Benefits of PPC Marketing for Your Company',
@@ -13323,7 +13324,7 @@ export const SERVICES_DATA = {
       ],
       isBgColor: false,
       img: gmbWebsiteServiceResultImg,
-      imgHight:"560px",
+      imgHight: '560px',
       list: [
         {
           img: null,
@@ -15642,7 +15643,7 @@ export const SERVICES_DATA = {
       isVariant: '01',
       breakIndex: 3,
       isInCenter: false,
-      bgColor: '#FFF',
+      bgColor: '#FBFBFB',
       bgGradient: 'bg-[#EEEEEE]/20',
       cardColor2: '#FFF8EF',
       cardColor: '#FFFFFF',
@@ -17177,7 +17178,7 @@ export const SERVICES_DATA = {
       ],
       bgImage: '',
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773382966/adaired/services/eCommerceDevelopment/Rectangle_10025_1_bewjuw.png',
-      imgHight:"650px",
+      imgHight: '650px',
       description: [
         `Choosing the right eCommerce platform is essential for building a successful online store.`,
         `We also help businesses evaluate eCommerce website development packages and understand the typical eCommerce website development price before selecting the right platform.`,
