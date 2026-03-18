@@ -243,8 +243,8 @@ import webDevelopmentBannerBg from '../../../../../../public/assets/web_developm
 import stop_struggle3 from '../../../../../../public/assets/localseo/stop_struggle3.png';
 
 // Local SEO Images
-// import localBannerBg from '../../../../../../public/assets/localseo/localBannerBg.png';
-import localBannerBg from '../../../../../../public/assets/localseo/New version of seo image.jpg';
+import localBannerBg from '../../../../../../public/assets/localseo/localBannerBg.png';
+// import localBannerBg from '../../../../../../public/assets/localseo/New version of seo image.jpg';
 
 import LocalWhatService from '../../../../../../public/assets/localseo/localWhatService.png';
 import LocalNotSee from '../../../../../../public/assets/localseo/localNotSee.png';
@@ -2524,7 +2524,7 @@ export const SERVICES_DATA = {
       breakIndex: 6,
       activeDot: '#F28F17',
       inactiveDot: '#FFEACD',
-      bgColor: 'bg-gradient-to-b from-[#FFF8F0] via-[#FFF8F0] to-[#FFFFFF]',
+      bgColor: 'bg-gradient-to-t from-[#FFF8F0] via-[#FFF8F0] to-[#FFFFFF]',
       textColor: '#FB9100',
       textBg: '#FFE6C380',
       borderColor: '#FB910040',
@@ -3899,6 +3899,7 @@ export const SERVICES_DATA = {
     serviceResult: {
       isVisible: true,
       isVariant: '01',
+      isInCenter:true,
       headingParts: [
         {
           text: 'Why Is Local SEO Important for Your Business?',
@@ -9546,7 +9547,7 @@ export const SERVICES_DATA = {
       isVariant: '01',
       breakIndex: 3,
       isInCenter: true,
-      bgColor: true,
+      bgColor: "#FFFCF9",
       bgGradient: '',
       cardColor2: '#F9F9F9',
       cardColor: '#FFF8EF',
@@ -13324,7 +13325,9 @@ export const SERVICES_DATA = {
       ],
       isBgColor: false,
       img: gmbWebsiteServiceResultImg,
+      isRocket:true,
       imgHight: '560px',
+      cardColor:"#F3F3F3",
       list: [
         {
           img: null,
@@ -13678,6 +13681,7 @@ export const SERVICES_DATA = {
           color: '#000000',
           weight: '700',
         },
+
       ],
       bgColor: '#FFFFFF',
       textColor: '#000000',
@@ -13685,6 +13689,7 @@ export const SERVICES_DATA = {
       width: '55%',
       imgWidth: '708px',
       imgHight: '647px',
+      customGap:"6rem",
       button: '',
       data: [
         {
@@ -13695,6 +13700,8 @@ export const SERVICES_DATA = {
         },
         {
           desctioption: `This integrated strategy allows your business to appear in multiple areas of Google search, including:`,
+          isListSingle:true,
+          isListBold:true,
           list: [
             'Google Maps listings',
             'Local map pack results',
