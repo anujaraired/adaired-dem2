@@ -793,8 +793,10 @@ export const SERVICES_DATA = {
         },
       ],
       isCard: true,
+      imgWidth: '594',
+      imgHeight: '675',
+      width: 40,
       img: keyStatsImg2,
-      rocketImg: rocket,
       list: [
         {
           icon: '',
@@ -14739,6 +14741,9 @@ export const SERVICES_DATA = {
         },
       ],
       isCard: true,
+      width: 40,
+      imgWidth: '619',
+      imgHeight: '693',
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773297271/adaired/services/llm_service/KeyStats_flxjoi.png',
       list: [
         {
@@ -15988,6 +15993,9 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      width: 40,
+      imgWidth: '620',
+      imgHeight: '725',
       bgColor: '#FB9100',
       isImgBg: true,
       isCard: false,
@@ -19835,7 +19843,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       code: '02',
       breakIndex: 0,
-      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtKeyStatsImg_tcfqxu.png',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773836300/adaired/services/social_media_management/socialMediaMgtKeyStatsImg_zywqa6.png',
       headingParts: [
         {
           text: 'Why Do You Need a Custom Social Media Plan?',
@@ -19846,6 +19854,9 @@ export const SERVICES_DATA = {
       bgColor: '#FB9100',
       isImgBg: true,
       isCard: false,
+      imgWidth: '620',
+      imgHeight: '725',
+      width: 40,
       rocketImg: rocket,
       list: [
         {
