@@ -64,7 +64,7 @@ const Blog = async () => {
 
   return (
     <>
-      <PageBanner subTitle={'Latest'} headingParts={[{text:'BLOGS', color:"#000000", weight:700}]} isInCenter={false} />
+      <PageBanner subTitle={'Latest'} headingParts={[{text:'OUR BLOGS', color:"#000000", weight:700}]} isInCenter={false} />
       <MaxWidthWrapper className="pb-[6rem] pt-[3rem] lg:py-[4rem] lg:pb-[10rem] xl:pb-[12rem] xl:pt-[6rem]">
         <div className="">
           <Heading
