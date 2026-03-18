@@ -5211,7 +5211,7 @@ export const SERVICES_DATA = {
       description: ``,
       isMask: true,
       textColor: 'white',
-      width: '45%',
+      width: 45,
       paddingY: '5rem',
       data: [
         {
@@ -5899,7 +5899,7 @@ export const SERVICES_DATA = {
       description: ``,
       isMask: true,
       textColor: 'white',
-      width: '45%',
+      width: 45,
       paddingY: '5rem',
       data: [
         {
@@ -6506,7 +6506,7 @@ export const SERVICES_DATA = {
       description: ``,
       isMask: true,
       textColor: 'white',
-      width: '45%',
+      width: 45,
       paddingY: '5rem',
       data: [
         {
@@ -7297,7 +7297,7 @@ export const SERVICES_DATA = {
       description: ``,
       isMask: true,
       textColor: 'white',
-      width: '45%',
+      width: 45,
       paddingY: '5rem',
       data: [
         {
@@ -8299,7 +8299,7 @@ export const SERVICES_DATA = {
       description: ``,
       isMask: true,
       textColor: 'white',
-      width: '45%',
+      width: 45,
       paddingY: '5rem',
       data: [
         {
@@ -8945,7 +8945,7 @@ export const SERVICES_DATA = {
       ],
       description: ``,
       textColor: 'white',
-      width: '50%',
+      width: 50,
       paddingY: '4rem',
       data: [
         {
@@ -9693,7 +9693,7 @@ export const SERVICES_DATA = {
       ],
       description: ``,
       textColor: 'white',
-      width: '50%',
+      width: 50,
       paddingY: '4rem',
       data: [
         {
@@ -10474,7 +10474,7 @@ export const SERVICES_DATA = {
       ],
       description: ``,
       textColor: 'white',
-      width: '50%',
+      width: 50,
       paddingY: '4rem',
       data: [
         {
@@ -11352,33 +11352,6 @@ export const SERVICES_DATA = {
 
     buildlinks: {
       isVisible: false,
-      isCode01: true,
-      isVariant: '03',
-      breakIndex: 3,
-      bgImg: whiteBookConsultationBg,
-      img: whiteServicesBuildLinkImg,
-      label: 'Ready to Expand Your',
-      headingParts: [
-        {
-          text: 'Digital Service Empire?',
-          color: '#FFFFFF',
-          weight: '700',
-        },
-      ],
-      description: ``,
-      data: [
-        {
-          desctioption: `If managing fulfillment is slowing your agency down, Adaired Digital Media’s white-label partnership 
-          can help you move forward without restructuring your team or changing how you work with clients.`,
-        },
-        {
-          desctioption: `We support agencies with structured white-label digital services designed for consistent delivery, brand protection, and long-term collaboration.`,
-        },
-        {
-          desctioption: `Talk to our team now to see if a white-label partnership makes sense for your agency.`,
-        },
-      ],
-      button: 'Get Started',
     },
 
     needofservice: {
@@ -12191,7 +12164,7 @@ export const SERVICES_DATA = {
       ],
       description: ``,
       textColor: 'white',
-      width: '45%',
+      width: 45,
       paddingY: '3rem',
       data: [
         {
@@ -13130,33 +13103,6 @@ export const SERVICES_DATA = {
 
     buildlinks: {
       isVisible: false,
-      isCode01: true,
-      isVariant: '06',
-      breakIndex: 3,
-      bgImg: saasSeoBuildLinkBg,
-      img: geoAiSeoBuildLinkImg,
-      label: 'Ready to',
-      headingParts: [
-        {
-          text: 'Dominate AI Search?',
-          color: '#FFFFFF',
-          weight: '700',
-        },
-      ],
-      description: ``,
-      data: [
-        {
-          desctioption: `AI-powered search platforms are already influencing how customers discover, evaluate, and choose businesses. 
-          If your brand is not structured for generative search engines, you risk losing visibility to competitors who adapt faster.`,
-        },
-        {
-          desctioption: `Our Generative Engine Optimization services are designed to position your business where modern discovery happens, inside AI-generated answers, summaries, and recommendations.`,
-        },
-        {
-          desctioption: `The future of search is not about rankings alone. It is about recognition, authority, and recommendation. Take the next step toward AI visibility.`,
-        },
-      ],
-      button: 'Optimize My Website for AI',
     },
 
     whatMkeDeferent: {
@@ -13838,7 +13784,7 @@ export const SERVICES_DATA = {
       ],
       description: ``,
       textColor: 'white',
-      width: '45%',
+      width: 45,
       paddingY: '4rem',
       data: [
         {
@@ -14590,7 +14536,7 @@ export const SERVICES_DATA = {
       ],
       description: ``,
       textColor: 'white',
-      width: '40%',
+      width: 40,
       paddingY: '3rem',
       data: [
         {
@@ -15206,7 +15152,7 @@ export const SERVICES_DATA = {
       ],
       description: ``,
       textColor: 'white',
-      width: '80%',
+      width: 80,
       paddingY: '3rem',
       data: [
         {
@@ -15835,7 +15781,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
-      width: '55%',
+      width: 55,
       isMask: false,
       textColor: '#FFFFFF',
       description: ``,
@@ -16511,7 +16457,7 @@ export const SERVICES_DATA = {
       description: ``,
       textColor: 'white',
       paddingY: '3rem',
-      width: '65%',
+      width: 65,
       data: [
         {
           desctioption: `Every day your store isn’t optimized is a missed revenue opportunity. Our expert e-commerce SEO services are designed to position your products in front of buyers who are ready to purchase. Let’s transform your organic traffic into predictable growth.`,
@@ -17360,7 +17306,7 @@ export const SERVICES_DATA = {
       description: ``,
       textColor: 'white',
       paddingY: '2rem',
-      width: '45%',
+      width: 45,
       data: [
         {
           desctioption: `Ready to build a powerful online store for your business? Our team of experienced eCommerce developers is here to help you create a scalable, secure, and high-performing eCommerce website tailored to your needs.`,
@@ -18269,7 +18215,7 @@ export const SERVICES_DATA = {
       ],
       description: ``,
       textColor: 'white',
-      width: '60%',
+      width: 60,
       paddingY: '2rem',
       data: [
         {
@@ -19217,7 +19163,7 @@ export const SERVICES_DATA = {
       ],
       description: ``,
       textColor: 'white',
-      width: '60%',
+      width: 60,
       paddingY: '2rem',
       data: [
         {
