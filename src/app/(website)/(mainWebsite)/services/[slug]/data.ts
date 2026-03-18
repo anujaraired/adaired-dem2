@@ -2073,7 +2073,7 @@ export const SERVICES_DATA = {
             `We provide ChatGPT SEO solutions made to be AI discoverable. We ensure your content appears as a reliable, cited, and recommended source in the search results produced by the AI.`,
             `Our strategy ensures cross-industry visibility, drives high-intent user engagement, and positions your content high in the AI search.`,
           ],
-          button: 'Get Your Free AI SEO Audit',
+          linkText: 'Get Your Free AI SEO Audit',
           btnColor: '#74AA9C',
         },
 
@@ -2084,7 +2084,7 @@ export const SERVICES_DATA = {
             `Our Perplexity AI SEO service integrates the basics of SEO with answer-engine formatting to optimize your content for recognition, trust, and visibility with AI search engines.`,
             `Through the combination of structured responses and content accessible to the AI, we enhance authority, engagement, and discoverability. This helps your brand appear in high-intent searches in the AI-based search results.`,
           ],
-          button: 'Get Your Free AI SEO Audit',
+          linkText: 'Get Your Free AI SEO Audit',
           btnColor: '#20808D',
         },
 
@@ -2095,7 +2095,7 @@ export const SERVICES_DATA = {
             `Our Gemini AI SEO services combine traditional SEO best practices with AI-first page structuring to make your content easily discoverable, cited, and trusted in Google's AI-powered Gemini search results.`,
             `We ensure that your pages stand out as authoritative answers, boosting visibility, credibility, and user engagement in an increasingly AI-powered search landscape.`,
           ],
-          button: 'Get Your Free AI SEO Audit',
+          linkText: 'Get Your Free AI SEO Audit',
           btnColor: '#2B99DE',
         },
 
@@ -2106,7 +2106,7 @@ export const SERVICES_DATA = {
             `Our Grok AI SEO helps to increase AI visibility, ensuring that insights are clear, authoritative, and easily discovered by Grok.`,
             `With the help of our strategies, your brand gains citation, trust, and recognition, gaining authority in your industry and maximizing content to provide answers using AI, high-intent traffic, and meaningful engagement.`,
           ],
-          button: 'Get Your Free AI SEO Audit',
+          linkText: 'Get Your Free AI SEO Audit',
           btnColor: '#000000',
         },
 
@@ -2117,7 +2117,7 @@ export const SERVICES_DATA = {
             `Being one of the leaders in Answer Engine Optimization, Adaired integrates search engine AI with SEO best practices to ensure your site is answerable on ChatGPT, Gemini, and Perplexity.`,
             `We optimize content structure and relevance so that your pages gain recognition, credibility, and are continually surfaced by the AI-based search engines.`,
           ],
-          button: 'Get Your Free AI SEO Audit',
+          linkText: 'Get Your Free AI SEO Audit',
           btnColor: '#1F66BE',
         },
 
@@ -2128,7 +2128,7 @@ export const SERVICES_DATA = {
             `Our Generative Engine Optimization services combine the basics of SEO with answer-based structuring, so that your content is easily found, cited, and surfaced by Gemini, Claude, and other AI engines.`,
             `We position your brand as an authoritative source, boosting your visibility, trust, and engagement on AI-driven search engines, and optimize content to high-intent user search queries.`,
           ],
-          button: 'Get Your Free AI SEO Audit',
+          linkText: 'Get Your Free AI SEO Audit',
           btnColor: '#5F52B1',
         },
       ],
@@ -17008,8 +17008,7 @@ export const SERVICES_DATA = {
           heading: 'Need Help',
           heading1: [`Growing Your `, `Online Store?`],
           description: [
-            `Get personalized guidance to grow, optimize, and`,
-            ` scale your online store.`,
+            `Get personalized guidance to grow, optimize, and scale your online store.`,
           ],
           buttonName: 'Talk to an eCommerce Expert',
         },
