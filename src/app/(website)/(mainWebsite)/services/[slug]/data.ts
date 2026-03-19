@@ -9281,7 +9281,7 @@ export const SERVICES_DATA = {
       imgWidth: '735px',
       imgHight: '477px',
       customGap: '12rem',
-      breakIndex: 5,
+      // breakIndex: 5,
       data: [
         {
           desctioption: `Helping B2B SaaS companies build predictable organic growth engines that increase MRR, generate qualified demos, 
@@ -16458,7 +16458,7 @@ export const SERVICES_DATA = {
       description: ``,
       textColor: 'white',
       paddingY: '3rem',
-      width: 65,
+      width: 55,
       data: [
         {
           desctioption: `Every day your store isn’t optimized is a missed revenue opportunity. Our expert e-commerce SEO services are designed to position your products in front of buyers who are ready to purchase. Let’s transform your organic traffic into predictable growth.`,
