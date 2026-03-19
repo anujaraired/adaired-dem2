@@ -21269,8 +21269,8 @@ export const SERVICES_DATA = {
       breakIndex: 3,
       isVariant: '01',
       isCardVisible: false,
-      cardColor: '#fffdf9',
-      borderColor: '#fff9ef',
+      cardColor: '#FFFDF9',
+      borderColor: '#FFF9EF',
       isLaunchCard: true,
       headingParts: [
         {
