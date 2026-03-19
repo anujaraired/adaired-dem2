@@ -486,6 +486,7 @@ import mobileAppDevTechStackImg_27 from '../../../../../../public/assets/images/
 import mobileAppDevTechStackImg_28 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_28.png';
 import mobileAppDevTechStackImg_29 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_29.png';
 import mobileAppDevTechStackImg_30 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_30.png';
+import LaunchMobileAppCardImage from '../../../../../../public/assets/images/services/mobileAppDevelopment/LaunchMobileAppCardImage.png';
 
 // GBP local Seo Images
 // import gbplocalSeoBannerBg from '../../../../../../public/assets/images/services/gbpLocalSeo/gbplocalSeoBannerBg.png';
@@ -722,6 +723,7 @@ import ourProcess_AndroidAppIcon4 from '../../../../../../public/assets/images/s
 import ourProcess_AndroidAppIcon5 from '../../../../../../public/assets/images/services/androidAppDevelopment/ourProcess_AndroidAppIcon5.svg';
 import ourProcess_AndroidAppIcon6 from '../../../../../../public/assets/images/services/androidAppDevelopment/ourProcess_AndroidAppIcon6.svg';
 
+import LaunchAppCardImg from '../../../../../../public/assets/images/services/androidAppDevelopment/LaunchAppCardImg.png';
 
 
 export type SectionKey =
@@ -10951,6 +10953,7 @@ export const SERVICES_DATA = {
       isCardVisible: false,
       isVariant: '01',
       cardColor: '#F9F9F9',
+      isLaunchCard: false, 
       headingParts: [
         {
           text: 'AEO Services Built for AI-Driven Search Ecosystems',
@@ -11761,7 +11764,7 @@ export const SERVICES_DATA = {
       breakIndex: 3,
       isVariant: '01',
       cardColor: '#F9F9F9',
-      isCardVisible: true,
+      isLaunchCard: true, 
       headingParts: [
         {
           text: 'Our Custom Mobile Application Development Services',
@@ -11924,6 +11927,20 @@ export const SERVICES_DATA = {
           ],
           button: 'Turn Your Site Into App',
           btnColor: '#FB9100',
+        },
+      ],
+      card: [
+        {
+          img: ImpToBusinessCradImg,
+          bgImg: LaunchMobileAppCardImage,
+          imgWidth: '424',
+          imgHeight: '413',
+          heading: 'Launch Your Next',
+          heading1: [`Mobile App with`, `Experts`],
+          description: [
+            `Custom Android and iOS apps built to`, `scale with your business.`,
+          ],
+          buttonName: 'Ask a Developer',
         },
       ],
     },
@@ -12646,6 +12663,7 @@ export const SERVICES_DATA = {
       breakIndex: 5,
       isVariant: '01',
       cardColor: '#F9F9F9',
+      isLaunchCard: false, 
       headingParts: [
         {
           text: 'Unlock Your Potential with Top-Notch GBP Optimization Services!',
@@ -16958,6 +16976,7 @@ export const SERVICES_DATA = {
       breakIndex: 2,
       isVariant: '01',
       cardColor: '#F9F9F9',
+      isLaunchCard: false, 
       headingParts: [
         {
           text: 'Explore Our Comprehensive eCommerce Development Services',
@@ -21249,9 +21268,10 @@ export const SERVICES_DATA = {
       isInCenter: false,
       breakIndex: 3,
       isVariant: '01',
-      isCardVisible: true,
+      isCardVisible: false,
       cardColor: '#fffdf9',
-      borderColor: '#fffbf4',
+      borderColor: '#fff9ef',
+      isLaunchCard: true, 
       headingParts: [
         {
           text: 'Our Full-Suite Android App Development Services',
@@ -21342,6 +21362,20 @@ export const SERVICES_DATA = {
           btnColor: '#FB9100',
         },
       ],
+      card: [
+        {
+          img: ImpToBusinessCradImg,
+          bgImg: LaunchAppCardImg,
+          imgWidth: '336',
+          imgHeight: '434',
+          heading: 'Don’t Let Your Great',
+          heading1: [`App Idea Stay `, `on Paper`],
+          description: [
+            `Build, launch, and scale with expert Android developers.`, ``,
+          ],
+          buttonName: 'Build with Us',
+        },
+      ],
     },
 
     ourProcess: {
@@ -21423,6 +21457,7 @@ export const SERVICES_DATA = {
       isnNumberBg: true,
       numberBg: '',
       bgColor: '',
+      cardBorderColor: '#e0e0e0',
       cardBg: '#F9F9F9',
       headingParts: [
         {
