@@ -5905,7 +5905,8 @@ export const SERVICES_DATA = {
       description: ``,
       isMask: true,
       textColor: 'white',
-      width: 45,
+      width: 50,
+      customGap: '12rem',
       paddingY: '5rem',
       data: [
         {
@@ -6512,7 +6513,8 @@ export const SERVICES_DATA = {
       description: ``,
       isMask: true,
       textColor: 'white',
-      width: 45,
+      width: 50,
+      customGap: '8rem',
       paddingY: '5rem',
       data: [
         {
@@ -8134,7 +8136,7 @@ export const SERVICES_DATA = {
       breakIndex: 2,
       img: whitePaidAdsAdairedHelpImg,
       isInCenter: false,
-      bgColor: '',
+      bgColor: '#FFFCF9',
       cardBg: '#FFF8F0',
       headingParts: [
         {
@@ -8306,7 +8308,7 @@ export const SERVICES_DATA = {
       description: ``,
       isMask: true,
       textColor: 'white',
-      width: 45,
+      width: 50,
       paddingY: '5rem',
       data: [
         {
@@ -8322,8 +8324,7 @@ export const SERVICES_DATA = {
           desctioption: `Let’s build predictable, scalable growth for your agency.`,
         },
       ],
-      button:
-        'Contact us today to discuss a customized white-label partnership.',
+      button: 'Contact us',
     },
 
     faqData: {
@@ -8952,7 +8953,8 @@ export const SERVICES_DATA = {
       ],
       description: ``,
       textColor: 'white',
-      width: 50,
+      width: 55,
+      customGap: '12rem',
       paddingY: '4rem',
       data: [
         {
