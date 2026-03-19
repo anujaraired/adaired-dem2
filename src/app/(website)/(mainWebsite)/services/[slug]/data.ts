@@ -23046,7 +23046,7 @@ export const SERVICES_DATA = {
         },
       ],
       isGap: true,
-      customGap: 0,
+      customGap: '0rem',
       breakIndex: 7,
       desc: [
         `Unlock the full potential of wearable technology with apps built for speed, accuracy, and usability.`,
@@ -23055,8 +23055,8 @@ export const SERVICES_DATA = {
       subheading: '',
       button: 'Let’s Plan Your Wearable App',
       width: 55,
-      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773905920/adaired/services/wearables_app_development/wearablesAppDevBannerImg_pn8oth.png',
-      imgWidth: '1338',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773924168/adaired/services/wearables_app_development/wearablesAppDevBannerImg_ogcwiw.png',
+      imgWidth: '960',
       imgHight: '860',
     },
 
