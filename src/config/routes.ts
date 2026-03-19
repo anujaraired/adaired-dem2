@@ -296,11 +296,11 @@ export const routes: {
             },
             {
               name: 'Android Development',
-              href: '#',
+              href: '/services/android-app-development-company-india',
             },
             {
               name: 'Cross-Platform',
-              href: '#',
+              href: '/services/cross-platform-app-development-india',
             },
             {
               name: 'Wearables',

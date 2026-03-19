@@ -707,6 +707,8 @@ import socialMediaMgtImpIcon_5 from '../../../../../../public/assets/images/serv
 import socialMediaMgtImpIcon_6 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtImpIcon_6.png';
 
 
+import crossPlatformWhatServiceImg from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatServiceImg.png';
+
 import crossPlatformProcessIcon_1 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformProcessIcon_1.png';
 import crossPlatformProcessIcon_2 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformProcessIcon_2.png';
 import crossPlatformProcessIcon_3 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformProcessIcon_3.png';
@@ -21131,11 +21133,11 @@ export const SERVICES_DATA = {
       breakIndex: 0,
       paddingY: '4rem',
       isRowReverse: true,
-      width: 50,
-      img: socialMediaMgtWhatServiceImg,
-      // img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtWhatServiceImg_btxnjr.png',
-      imgWidth: '494px',
-      imgHight: '494px',
+      width: 60,
+      img: crossPlatformWhatServiceImg,
+      // img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773900427/adaired/services/cross_platform_app_development/crossPlatformWhatServiceImg_rqsb4n.png',
+      imgWidth: '652px',
+      imgHight: '625px',
       headingParts: [
         {
           text: 'What is Cross-Platform App Development?',
@@ -21321,12 +21323,12 @@ export const SERVICES_DATA = {
     adairedHelp: {
       isVisible: true,
       breakIndex: 3,
-      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821674/adaired/services/social_media_management/socialMediaMgtAdairedHelpImg_nbysl1.png',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773900432/adaired/services/cross_platform_app_development/crossPlatformAdairedHelpImg_aiqlp5.png',
       isInCenter: false,
       textColor: '',
       isnNumberBg: false,
       numberBg: '',
-      bgColor: '',
+      bgColor: 'bg-[#FFFDF9]',
       cardBg: '#FFFAF4',
       headingParts: [
         {
@@ -21435,7 +21437,7 @@ export const SERVICES_DATA = {
         },
       ],
       breakIndex: 2,
-      bgGradient: 'bg-[#FAFAFA]',
+      bgGradient: '',
       span: '',
       description: [
         `Our step-by-step development process is designed to deliver high-quality cross-platform applications that align with your business goals and user expectations.`,
@@ -21506,24 +21508,24 @@ export const SERVICES_DATA = {
       isVariant: '03',
       breakIndex: 5,
       bgImg: bgImgBuildLink,
-      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821669/adaired/services/social_media_management/socialMediaMgtBuildLinkImg_fdqe6x.png',
-      imgWidth: '744',
-      imgHight: '456',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773900428/adaired/services/cross_platform_app_development/crossPlatformBuildLinkImg_gi3iso.png',
+      imgWidth: '785',
+      imgHight: '523',
       headingParts: [
         {
-          text: 'Ready to Build Your Cross',
+          text: 'Ready to Build Your',
           color: '#FFFFFF',
           weight: '400',
         },
         {
-          text: 'Platform App?',
+          text: 'Cross Platform App?',
           color: '#FFFFFF',
           weight: '700',
         },
       ],
       description: ``,
       textColor: 'white',
-      width: 60,
+      width: 50,
       paddingY: '2rem',
       data: [
         {
