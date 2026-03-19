@@ -706,7 +706,6 @@ import socialMediaMgtImpIcon_4 from '../../../../../../public/assets/images/serv
 import socialMediaMgtImpIcon_5 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtImpIcon_5.png';
 import socialMediaMgtImpIcon_6 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtImpIcon_6.png';
 
-
 import crossPlatformWhatServiceImg from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatServiceImg.png';
 
 import crossPlatformProcessIcon_1 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformProcessIcon_1.png';
@@ -21122,7 +21121,7 @@ export const SERVICES_DATA = {
       subheading: '',
       button: 'Get a Custom App',
       width: 55,
-      customGap:"0rem",
+      customGap: '0rem',
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773900428/adaired/services/cross_platform_app_development/crossPlatformBannerImg_tmm91n.png',
       imgWidth: '931',
       imgHight: '588',
@@ -21274,7 +21273,9 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
-      description: [`We leverage modern, high-performance frameworks to build cross-platform apps that deliver native-like speed, functionality, and user experience.`],
+      description: [
+        `We leverage modern, high-performance frameworks to build cross-platform apps that deliver native-like speed, functionality, and user experience.`,
+      ],
       list: [
         {
           icon: crossPlatformWhatMissingIcon_1,
@@ -21555,13 +21556,15 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          title: 'Is cross-platform app development better than native development?',
+          title:
+            'Is cross-platform app development better than native development?',
           description: [
             `It depends on your project requirements. Cross-platform development is ideal for faster development, lower costs, and wider reach, while native development may be preferred for highly complex or performance-intensive applications.`,
           ],
         },
         {
-          title: 'Which frameworks are used for cross-platform app development?',
+          title:
+            'Which frameworks are used for cross-platform app development?',
           description: [
             `Popular frameworks include React Native, Flutter, Xamarin, .NET MAUI, and Kotlin Multiplatform, each offering unique advantages based on project needs.`,
           ],
@@ -21591,7 +21594,8 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          title: 'Can you upgrade an existing app to a cross-platform solution?',
+          title:
+            'Can you upgrade an existing app to a cross-platform solution?',
           description: [
             `Yes, existing native applications can be migrated or modernized into cross-platform solutions to reduce maintenance costs and improve scalability.`,
           ],

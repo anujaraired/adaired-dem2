@@ -557,7 +557,7 @@ export const ServiceSectionData = {
     {
       title: 'AI SEO',
       description:
-        'We prepare your brand for the future of search by optimizing content, structure, and entity signals so large language models can accurately understand, trust, and recommend your business. From AI-driven search results to conversational interfaces, we ensure visibility beyond traditional search engines and capture emerging traffic opportunities.',
+        'We empower your brand by optimizing content, structure, and entity signals so large language models can accurately understand, trust, and recommend your business. From AI-driven search results to conversational interfaces, we ensure visibility beyond traditional search engines and capture emerging traffic opportunities.',
       link: '/services/ai-seo-india',
       list: [
         {
@@ -600,7 +600,7 @@ export const ServiceSectionData = {
     {
       title: 'Local SEO',
       description:
-        'We help your business dominate local search results by optimizing your Google Business Profile, targeting location-specific keywords, managing citations, and building a strong review profile. Our strategies are designed to improve your presence in the map pack, increase local visibility, and drive consistent calls, visits, and inquiries from nearby customers actively searching for your services.',
+        'We help your business dominate local search results by optimizing your Google Business Profile, targeting location-specific keywords, managing citations, and building a strong review profile. We improve your presence, increase local visibility, and drive consistent calls, visits, and inquiries from nearby customers.',
       link: '/services/local-seo-company-india',
       list: [
         {
