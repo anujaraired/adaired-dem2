@@ -336,7 +336,7 @@ const Banner = () => {
                   loop
                   muted
                   playsInline
-                  className="h-full w-full !rounded-2xl"
+                  className="h-[43rem] w-full !rounded-2xl"
                 >
                   <source
                     // src="/assets/videos/Adaired web video.mp4"
