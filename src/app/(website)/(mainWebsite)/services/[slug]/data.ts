@@ -706,6 +706,24 @@ import socialMediaMgtImpIcon_4 from '../../../../../../public/assets/images/serv
 import socialMediaMgtImpIcon_5 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtImpIcon_5.png';
 import socialMediaMgtImpIcon_6 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtImpIcon_6.png';
 
+// Android App Development Images
+import ImpToBusiness_AndroidAppIcon1 from '../../../../../../public/assets/images/services/androidAppDevelopment/ImpToBusiness_AndroidAppIcon1.svg';
+import ImpToBusiness_AndroidAppIcon2 from '../../../../../../public/assets/images/services/androidAppDevelopment/ImpToBusiness_AndroidAppIcon2.svg';
+import ImpToBusiness_AndroidAppIcon3 from '../../../../../../public/assets/images/services/androidAppDevelopment/ImpToBusiness_AndroidAppIcon3.svg';
+import ImpToBusiness_AndroidAppIcon4 from '../../../../../../public/assets/images/services/androidAppDevelopment/ImpToBusiness_AndroidAppIcon4.svg';
+import ImpToBusiness_AndroidAppIcon5 from '../../../../../../public/assets/images/services/androidAppDevelopment/ImpToBusiness_AndroidAppIcon5.svg';
+import ImpToBusiness_AndroidAppIcon6 from '../../../../../../public/assets/images/services/androidAppDevelopment/ImpToBusiness_AndroidAppIcon6.svg';
+import ImpToBusiness_AndroidAppIcon7 from '../../../../../../public/assets/images/services/androidAppDevelopment/ImpToBusiness_AndroidAppIcon7.svg';
+
+import ourProcess_AndroidAppIcon1 from '../../../../../../public/assets/images/services/androidAppDevelopment/ourProcess_AndroidAppIcon1.svg';
+import ourProcess_AndroidAppIcon2 from '../../../../../../public/assets/images/services/androidAppDevelopment/ourProcess_AndroidAppIcon2.svg';
+import ourProcess_AndroidAppIcon3 from '../../../../../../public/assets/images/services/androidAppDevelopment/ourProcess_AndroidAppIcon3.svg';
+import ourProcess_AndroidAppIcon4 from '../../../../../../public/assets/images/services/androidAppDevelopment/ourProcess_AndroidAppIcon4.svg';
+import ourProcess_AndroidAppIcon5 from '../../../../../../public/assets/images/services/androidAppDevelopment/ourProcess_AndroidAppIcon5.svg';
+import ourProcess_AndroidAppIcon6 from '../../../../../../public/assets/images/services/androidAppDevelopment/ourProcess_AndroidAppIcon6.svg';
+
+
+
 export type SectionKey =
   | 'banner'
   | 'getsCredit'
@@ -21024,6 +21042,604 @@ export const SERVICES_DATA = {
       buttonName: '',
       img: LocalNotSee,
       bgImage: LocalNotSeeBg,
+    },
+  },
+  'android-app-development-company': {
+    sectionsOrder: [
+      'banner',
+      'whatareservice',
+      'benefitofAiSeo',
+      'importantToBussiness',
+      'ourProcess',
+      'adairedHelp',
+      'whatMkeDeferent',
+      'leadingTools',
+      'industriesWeServe',
+      'buildlinks',
+      'faqData',
+      'keyStats',
+      'techStackMobile',
+      'dataInTable',
+      'whatareservice2',
+      'whatMissing',
+      'whatIncluded',
+      'needofservice',
+      'serviceResult',
+      'getsCredit',
+      'readyToStart',
+      'stopStruggling',
+      'leadingToolsForPerformence',
+      'notSeeingResult',
+      'getplan',
+    ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/custom-web-development-company',
+      },
+    },
+    banner: {
+      code: '02',
+      isCenter: false,
+      isVisible: true,
+      heading2: '#1 on Google Maps: Get Seen by Local Customers',
+      isAbsolute: true,
+      isStyleHeading: true,
+      headingParts: [
+        { text: 'Top-Notch Android App', color: '#000000', weight: '400' },
+        {
+          text: 'Development Company',
+          color: '#FB9100',
+          weight: '700',
+        },
+      ],
+      isGap: false,
+      breakIndex: 8,
+      desc: [
+        `Expert Android app development solutions designed to deliver performance, usability, and long-term success. Build a scalable, secure, and high-performance Android application tailored to your business needs.`,
+        `We at Adaired Digital Media deliver next-gen Android app development services that deliver exceptional user experiences.`,
+      ],
+      subheading: '',
+      button: 'Get Your Free Project Estimate',
+      width: 50,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773898272/adaired/services/android_app_Dev/Group_1000007694_lf2s6f.png',
+      imgWidth: '770',
+      imgHight: '824',
+    },
+
+    whatareservice: {
+      isVisible: true,
+      isVariant: '04',
+      breakIndex: 6,
+      paddingY: '4rem',
+      isRowReverse: true,
+      width: 55,
+      // img: socialMediaMgtWhatServiceImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773898274/adaired/services/android_app_Dev/Group_1000007765_we9ykn.png',
+      imgWidth: '652',
+      imgHight: '625',
+      headingParts: [
+        {
+          text: 'What is Android App Development?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      bgColor: '#FFFFFF',
+      textColor: '#000000',
+      isGap: false,
+      data: [
+        {
+          desctioption: `Android App Development is the process of designing, building, testing, and maintaining mobile applications that run on devices powered by the Android operating system.`,
+        },
+        {
+          desctioption: `These applications are specifically created for Android-powered devices such as smartphones, tablets, smart TVs, wearables, and other connected devices.`,
+        },
+        {
+          desctioption: `Android app development involves a combination of UI/UX design, programming, testing, deployment, and ongoing maintenance to ensure the application performs smoothly across different devices and screen sizes.`,
+        },
+        {
+          desctioption: `Because Android is an open-source platform developed by Google, developers have the flexibility to create highly customized and feature-rich mobile applications tailored to different business needs.`,
+        },
+        {
+          desctioption: `Most Android apps are developed using programming languages such as Java and Kotlin, along with official development tools like Android Studio. These tools provide developers with powerful features to write code, test applications, debug issues, and optimize performance.`,
+        },
+      ],
+      button: '',
+    },
+
+    benefitofAiSeo: {
+      isVisible: true,
+      isVariant: '01',
+      isDecVarticle: true,
+      isInCenter: false,
+      breakIndex: 4,
+      activeDot: '#000000',
+      inactiveDot: '#9DA0A3',
+      bgColor: 'bg-[#FAFAFA]',
+      textColor: '#000000',
+      textBg: '#EEEEEE',
+      borderColor: '#00000014',
+      headingParts: [
+        {
+          text: 'Key Benefits of Android App Development for Businesses',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Investing in Android app development offers numerous advantages for businesses looking to expand their digital presence and connect with mobile users.`,
+        `We help businesses leverage the power of Android applications to achieve sustainable growth and customer engagement.`
+      ],
+      list: [
+        {
+          name: 'Wider Market Reach',
+          description: [
+            `The Android platform dominates the global smartphone market, making it one of the most powerful channels for reaching a large audience.`,
+            `By launching an Android application, businesses can connect with millions of users worldwide and expand their customer base effectively.`
+          ],
+        },
+        {
+          name: 'Cost-Effective Development',
+          description: [
+            `Android’s open-source ecosystem allows developers to build applications without expensive licensing fees. This makes Android development a cost-efficient option for startups, small businesses, and large enterprises.`,
+            `We ensure optimized development processes that deliver high-quality apps while maintaining cost efficiency.`
+          ],
+        },
+        {
+          name: 'High Customization',
+          description: [
+            `Android offers extensive customization capabilities, allowing businesses to design applications that align perfectly with their brand identity and functional requirements.`,
+            `Adaired Digital develops fully customized Android apps with tailored features, unique UI/UX designs, and scalable architectures.`
+          ],
+        },
+        {
+          name: 'Scalability and Flexibility',
+          description: [
+            `Android apps can easily adapt as business needs evolve. Whether it’s adding new features, integrating advanced technologies, or supporting larger user bases, Android applications provide the flexibility required for long-term growth.`,
+            `We build scalable Android solutions that grow alongside your business.`
+          ],
+        },
+        {
+          name: 'Easy Integration',
+          description: [
+            `Android applications can seamlessly integrate with third-party platforms, APIs, cloud services, and enterprise systems. This allows businesses to enhance their app functionality and streamline processes across multiple digital channels.`,
+            `We ensure smooth integrations that improve operational efficiency and user experience.`
+          ],
+        },
+        {
+          name: 'Faster Time to Market',
+          description: [
+            `Android development frameworks and tools enable faster development cycles, allowing businesses to launch their applications quickly.`,
+            `With efficient development strategies and agile methodologies, our mobile app developers help businesses bring their Android apps to market faster while maintaining high quality and performance.`
+          ],
+        },
+        {
+          name: 'Strong Security Features',
+          description: [
+            `Security is a critical aspect of mobile applications. Android platform offers built-in security features such as application sandboxing, data encryption, and secure authentication.`,
+            `We implement advanced security practices to protect user data and ensure safe app performance.`
+          ],
+        },
+      ],
+    },
+
+    importantToBussiness: {
+      isVisible: true,
+      isInCenter: false,
+      breakIndex: 3,
+      isVariant: '01',
+      isCardVisible: true,
+      cardColor: '#fffdf9',
+      borderColor: '#fffbf4',
+      headingParts: [
+        {
+          text: 'Our Full-Suite Android App Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `As a trusted Android app development company, we deliver scalable, secure, and feature-rich Android solutions tailored to different industries and business models.`,
+      ],
+      buttonName: 'Get Your Free Project Estimate',
+      data: [
+        {
+          icon: ImpToBusiness_AndroidAppIcon1,
+          name: 'Custom App Development',
+          description: [
+            `Our custom Android app development services are designed to transform unique business ideas into powerful mobile applications.`,
+            `We build fully customized Android apps tailored to specific business goals, ensuring seamless functionality, scalability, and performance.`,
+            `Our developers create feature-rich applications with intuitive interfaces and robust architecture, enabling businesses to deliver personalized user experiences and stand out in competitive markets.`,
+          ],
+          button: 'Get Your Free Project Estimate',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: ImpToBusiness_AndroidAppIcon2,
+          name: 'UI/UX Design',
+          description: [
+            `A well-designed interface is essential for delivering a smooth and engaging user experience.`,
+            `Our Android UI/UX designers create visually appealing and intuitive interfaces that enhance usability and improve customer engagement.`,
+            `We focus on designing mobile experiences that are easy to navigate, responsive across devices, and aligned with modern design standards.`,
+            `Our UI/UX design process ensures that every Android application provides a seamless and enjoyable experience for users.`
+          ],
+          button: 'Get Your Free Project Estimate',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: ImpToBusiness_AndroidAppIcon3,
+          name: 'App Testing & Quality Assurance',
+          description: [
+            `Quality assurance plays a critical role in delivering reliable mobile applications.`,
+            `Our testing team performs comprehensive testing to ensure the app performs smoothly across multiple Android devices, screen sizes, and operating system versions.`,
+            `Our Android app testing services include functional testing, performance testing, security testing, and compatibility testing. This ensures that the application remains stable, secure, and optimized for real-world usage.`
+          ],
+          button: 'Get Your Free Project Estimate',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: ImpToBusiness_AndroidAppIcon4,
+          name: 'App Maintenance & Support',
+          description: [
+            `Launching an app is only the beginning. Continuous maintenance and updates are essential to ensure optimal performance and compatibility with new Android updates.`,
+            `Our Android app maintenance and support services include performance monitoring, bug fixing, security updates, and feature enhancements.`,
+            `We help businesses keep their mobile applications running smoothly while adapting to changing user needs and technology trends.`,
+          ],
+          button: 'Get Your Free Project Estimate',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: ImpToBusiness_AndroidAppIcon5,
+          name: 'App Integration Services',
+          description: [
+            `Modern mobile applications often require integration with third-party platforms and enterprise systems.`,
+            `Our Android app integration services enable seamless connectivity with APIs, cloud platforms, payment gateways, CRM systems, and other digital tools.`,
+            `These integrations enhance application functionality and allow businesses to streamline operations, automate processes, and deliver more powerful mobile solutions.`
+          ],
+          button: 'Get Your Free Project Estimate',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: ImpToBusiness_AndroidAppIcon6,
+          name: 'App Migration & Upgrade',
+          description: [
+            `If your existing mobile application requires modernization, our Android experts can help migrate or upgrade it to the latest technologies and frameworks.`,
+            `We ensure smooth Android app migration and upgrade services that improve performance, enhance security, and deliver better user experiences without disrupting existing business operations.`,
+          ],
+          button: 'Get Your Free Project Estimate',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: ImpToBusiness_AndroidAppIcon7,
+          name: 'App Consulting',
+          description: [
+            `Our Android consulting services help businesses plan and implement effective mobile strategies.`,
+            `From selecting the right technology stack to defining the application architecture, our experts provide guidance at every stage of the development journey.`,
+            `Whether you are launching a new product or improving an existing application, our consulting services help you make informed decisions and maximize the value of your mobile investment.`
+          ],
+          button: 'Get Your Free Project Estimate',
+          btnColor: '#FB9100',
+        },
+      ],
+    },
+
+    ourProcess: {
+      isVisible: true,
+      isInCenter: true,
+      subtitle: 'Our Process',
+      headingParts: [
+        {
+          text: 'Our Strategic Approach to Android App Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      breakIndex: 5,
+      bgGradient: 'bg-[#F9F9F9]/70',
+      span: '',
+      description: [
+        `At Adaired Digital Media, we follow a structured and agile development approach to deliver high-quality Android applications.`,
+        `Our proven Android app development process ensures transparency, efficiency, and timely project delivery.`,
+      ],
+      services: [
+        {
+          icon: ourProcess_AndroidAppIcon1,
+          title: 'Requirement Analysis',
+          description: [
+            `Every successful project begins with a deep understanding of business goals and user needs. During this stage, our experts gather detailed project requirements, analyze the target audience, and identify the features required for the application.`,
+            `This process allows us to define a clear development roadmap and create a solution that aligns with the client’s objectives.`,
+          ],
+        },
+        {
+          icon: ourProcess_AndroidAppIcon2,
+          title: 'UI/UX Design',
+          description: [
+            `Once the requirements are defined, our designers create intuitive user interfaces and engaging user experiences. We develop wireframes and interactive prototypes that demonstrate how users will interact with the application.`,
+            `Our design process ensures that the Android app remains visually appealing, easy to navigate, and optimized for user engagement.`,
+          ],
+        },
+        {
+          icon: ourProcess_AndroidAppIcon3,
+          title: 'Android App Development',
+          description: [
+            `In this stage, our skilled developers begin coding the application using modern technologies and development frameworks. We build scalable and secure applications with robust architectures that support future growth.`,
+            `Our development approach ensures high performance, smooth functionality, and compatibility across multiple Android devices.`,
+          ],
+        },
+        {
+          icon: ourProcess_AndroidAppIcon4,
+          title: 'Testing & Quality Assurance',
+          description: [
+            `Before launching the application, our QA team conducts thorough testing to identify and eliminate bugs or performance issues. We perform multiple testing methods, including functional testing, usability testing, security testing, and compatibility testing.`,
+            `This ensures the Android app performs flawlessly across different devices and operating environments.`,
+          ],
+        },
+        {
+          icon: ourProcess_AndroidAppIcon5,
+          title: 'App Deployment',
+          description: [
+            `After successful testing, the application is prepared for release. At Adaired Digital Media, we assist with the deployment process, ensuring the application is properly configured and published on the Google Play Store.`,
+            `Our team also helps optimize the app listing with descriptions, visuals, and metadata to improve visibility and downloads.`,
+          ],
+        },
+        {
+          icon: ourProcess_AndroidAppIcon6,
+          title: 'Maintenance & Updates',
+          description: [
+            `Our support continues even after the application is launched. We provide ongoing maintenance, performance optimization, and feature updates to keep the application aligned with evolving user needs and Android platform updates.`,
+            `Our team of expert app developers ensures long-term stability, security, and scalability for your Android mobile application development.`,
+          ],
+        },
+      ],
+    },
+
+    adairedHelp: {
+      isVisible: true,
+      breakIndex: 3,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773898275/adaired/services/android_app_Dev/Rectangle_10108_ulp0ko.png',
+      isInCenter: false,
+      textColor: '#000000',
+      isnNumberBg: true,
+      numberBg: '',
+      bgColor: '',
+      cardBg: '#F9F9F9',
+      headingParts: [
+        {
+          text: 'Our Android App Development Expertise Across Industries',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `With the flexibility of the Android platform, businesses can create customized mobile solutions that improve user engagement, streamline operations, and deliver better digital experiences.`,
+        `At Adaired Digital Media, we specialize in developing diverse types of Android applications tailored to specific business goals and market demands.`,
+      ],
+      mainImage: whiteServicesAdairedHelpImg,
+      list: [
+        {
+          img: '',
+          name: 'Business Applications',
+          description: [
+            `Business apps are designed to improve productivity, collaboration, and operational efficiency within organizations.`,
+            `These applications often include features such as task management, data tracking, communication tools, and integration with CRM or ERP systems.`,
+            `We build robust business applications that help companies automate workflows, enhance team productivity, and manage operations more efficiently.`
+          ],
+        },
+        {
+          img: '',
+          name: 'E-commerce Applications',
+          description: [
+            `E-commerce Android applications typically include features such as product catalogs, secure payment gateways, order tracking, and personalized recommendations.`,
+            `Our expert Android developers develop scalable e-commerce apps that provide seamless shopping experiences,`,
+            `helping businesses increase conversions and improve customer retention.`
+          ],
+        },
+        {
+          img: '',
+          name: 'Social Networking Applications',
+          description: [
+            `Social networking apps focus on connecting people and building digital communities. These apps allow users to communicate, share content, and interact in real time.`,
+            `From messaging platforms to community-based networks, we develop engaging social apps with intuitive interfaces, secure communication features, and smooth performance.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'On-Demand Service Applications',
+          description: [
+            `On-demand service apps connect users with service providers instantly. Popular examples include ride-sharing, food delivery, home services, and booking platforms.`,
+            `Our powerful on-demand Android applications are equipped with features like real-time tracking, secure payments, push notifications, and user-friendly dashboards for both customers and service providers.l.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Gaming Applications',
+          description: [
+            `Gaming apps are among the most popular categories on Android devices. These apps range from casual games to high-performance interactive gaming experiences.`,
+            `We create visually appealing and performance-optimized Android games that deliver immersive gameplay and engaging user experiences.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Education Applications',
+          description: [
+            `Education apps provide digital learning experiences through mobile devices. These applications include e-learning platforms, virtual classrooms, training tools, and skill development apps.`,
+            `Our interactive educational apps enhance learning through multimedia content, progress tracking, and user-friendly interfaces.`,
+          ],
+        },
+      ],
+    },
+
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '03',
+      breakIndex: 5,
+      bgImg: bgImgBuildLink,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773898271/adaired/services/android_app_Dev/Group_1000007701_qv7xap.png',
+      imgWidth: '903',
+      imgHight: '575',
+      headingParts: [
+        {
+          text: 'Let’s Turn Your Vision Into a',
+          color: '#FFFFFF',
+          weight: '400',
+        },
+        {
+          text: 'Successful Application',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
+      description: ``,
+      textColor: 'white',
+      width: 50,
+      paddingY: '2rem',
+      isGap: true,
+      data: [
+        {
+          desctioption: `Transform your idea into a powerful mobile solution with our expert Android app development services. At Adaired Digital Media, our experienced developers create scalable, secure, and high-performance Android applications tailored to your business goals.`,
+        },
+        {
+          desctioption: `Whether you need custom Android app development, enterprise mobile solutions, or want to hire dedicated Android developers, our team is ready to deliver innovative mobile applications that drive real business results.`,
+        },
+      ],
+      button: 'Talk to Our Android Experts',
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: ``,
+      list: [
+        {
+          title:
+            'What does an Android app development company do?',
+          description: [
+            `An Android app development company designs, develops, tests, and deploys mobile applications for devices running the Android operating system. These companies provide complete Android application development services, including UI/UX design, coding, testing, deployment, and post-launch maintenance.`,
+          ],
+        },
+        {
+          title: 'How long does it take to develop an Android app?',
+          description: [
+            `The development timeline depends on the app’s complexity, features, and design requirements. A simple Android application may take 2–3 months, while more advanced apps with complex features may require 4–6 months or longer.`,
+          ],
+        },
+        {
+          title: 'What is the cost of Android app development?',
+          description: [
+            `The cost of Android app development varies based on factors such as application complexity, design requirements, technology stack, and development time. Businesses can choose from flexible models such as fixed pricing, hourly hiring, or hiring dedicated Android developers.`,
+          ],
+        },
+        {
+          title: 'Why should businesses invest in Android app development?',
+          description: [
+            `Android has one of the largest mobile user bases worldwide, making it an ideal platform for businesses to reach a wider audience. Android apps help companies improve customer engagement, increase brand visibility, and provide convenient digital services.`,
+          ],
+        },
+        {
+          title: 'Do you provide custom Android app development services?',
+          description: [
+            `Yes, we provide fully custom Android app development services tailored to your specific business needs. Our team builds scalable applications with customized features, modern UI/UX design, and high-performance architecture.`,
+          ],
+        },
+        {
+          title: 'Can I hire dedicated Android developers for my project?',
+          description: [
+            `Yes, you can hire dedicated Android developers from our experienced team. We offer flexible engagement models, allowing businesses to hire developers on an hourly, part-time, or full-time basis depending on project requirements.`,
+          ],
+        },
+        {
+          title: 'Do you provide Android app maintenance and support?',
+          description: [
+            `Yes, we provide ongoing maintenance and support services to ensure your Android application remains updated, secure, and optimized. Our team offers bug fixes, performance improvements, security updates, and feature enhancements.`,
+          ],
+        },
+        {
+          title:
+            'Will you publish the app on the Google Play Store?',
+          description: [
+            `Yes, our team assists with the complete deployment process, including preparing the application for submission and publishing it on the Google Play Store. We also help optimize the app listing to improve visibility and downloads.`,
+          ],
+        },
+      ],
+    },
+
+    keyStats: {
+      isVisible: false,
+    },
+
+    whatMkeDeferent: {
+      isVisible: false,
+    },
+
+    leadingTools: {
+      isVisible: false,
+    },
+
+    industriesWeServe: {
+      isVisible: false,
+    },
+
+    techStackMobile: {
+      isVisible: false,
+    },
+
+    dataInTable: {
+      isVisible: false,
+    },
+
+    whatareservice2: {
+      isVisible: false,
+    },
+
+    whatMissing: {
+      isVisible: false,
+    },
+
+    whatIncluded: {
+      isVisible: false,
+    },
+
+    needofservice: {
+      isVisible: false,
+    },
+
+    serviceResult: {
+      isVisible: false,
+    },
+
+    getsCredit: {
+      isVisible: false,
+    },
+
+    getplan: {
+      isVisible: false,
+    },
+
+    stopStruggling: {
+      isVisible: false,
+    },
+
+    industryLeaders: {
+      isVisible: false,
+    },
+
+    leadingToolsForPerformence: {
+      isVisible: false,
+    },
+
+    notSeeingResult: {
+      isVisible: false,
     },
   },
 };
