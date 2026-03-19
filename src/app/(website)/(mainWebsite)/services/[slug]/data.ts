@@ -725,6 +725,23 @@ import ourProcess_AndroidAppIcon6 from '../../../../../../public/assets/images/s
 
 import LaunchAppCardImg from '../../../../../../public/assets/images/services/androidAppDevelopment/LaunchAppCardImg.png';
 
+import crossPlatformWhatServiceImg from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatServiceImg.png';
+
+import crossPlatformProcessIcon_1 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformProcessIcon_1.png';
+import crossPlatformProcessIcon_2 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformProcessIcon_2.png';
+import crossPlatformProcessIcon_3 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformProcessIcon_3.png';
+import crossPlatformProcessIcon_4 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformProcessIcon_4.png';
+import crossPlatformProcessIcon_5 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformProcessIcon_5.png';
+import crossPlatformProcessIcon_6 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformProcessIcon_6.png';
+import crossPlatformProcessIcon_7 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformProcessIcon_7.png';
+
+import crossPlatformWhatMissingIcon_1 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatMissingIcon_1.png';
+import crossPlatformWhatMissingIcon_2 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatMissingIcon_2.png';
+import crossPlatformWhatMissingIcon_3 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatMissingIcon_3.png';
+import crossPlatformWhatMissingIcon_4 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatMissingIcon_4.png';
+import crossPlatformWhatMissingIcon_5 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatMissingIcon_5.png';
+import crossPlatformWhatMissingIcon_6 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatMissingIcon_6.png';
+
 export type SectionKey =
   | 'banner'
   | 'getsCredit'
