@@ -833,7 +833,7 @@ export const ServiceSectionData = {
           label: 'Android App Development',
           title: 'Android App Development',
           description: `At Adaired, we specialize in Android App Development, building high-performing, user-friendly apps for all Android devices. From design and coding to testing and deployment, we handle everything under your brand, helping you deliver apps while retaining full client ownership.`,
-          link: '/services/web-design-development-company',
+          link: '/services/android-app-development-company-india',
         },
         {
           icon: app_3,
@@ -841,7 +841,7 @@ export const ServiceSectionData = {
           label: 'Cross-Platform',
           title: 'Cross-Platform',
           description: `At Adaired, we specialize in Cross-Platform App Development, creating apps that work flawlessly on both iOS and Android. From design and coding to testing and deployment, we handle the technical work under your brand, helping you deliver quality apps and scale your business effortlessly.`,
-          link: '/services/web-design-development-company',
+          link: '/services/cross-platform-app-development-india',
         },
         {
           icon: app_4,
