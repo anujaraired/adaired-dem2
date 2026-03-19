@@ -31,7 +31,10 @@ const Header = () => {
   const [level, setLevel] = useState<0 | 1 | 2>(0);
   const [activeMenu, setActiveMenu] = useState<any>(null);
   const [activeGroup, setActiveGroup] = useState<any>(null);
-
+  const handleMenuClose = () => {
+    setHover(null);
+    setActiveMenuTab(null);
+  };
   return (
     <div className="">
       <MaxWidthWrapper>
@@ -115,6 +118,7 @@ const Header = () => {
                                   <li key={i}>
                                     <Link
                                       href={item.href}
+                                      onClick={handleMenuClose}
                                       className={`group flex items-center gap-2 text-xs transition ${
                                         isItemActive
                                           ? 'text-[#FB9100]'
@@ -172,6 +176,7 @@ const Header = () => {
 
                                             <Link
                                               href={sub.href}
+                                              onClick={handleMenuClose}
                                               className={`group flex items-center gap-2 transition hover:text-[#FB9100]`}
                                             >
                                               <span
@@ -199,6 +204,7 @@ const Header = () => {
                                                     <Link
                                                       key={j}
                                                       href={item.href}
+                                                      onClick={handleMenuClose}
                                                       className={`group flex items-center gap-2 transition hover:text-[#FB9100]`}
                                                     >
                                                       <span
@@ -258,6 +264,7 @@ const Header = () => {
 
                                             <Link
                                               href={sub.href}
+                                              onClick={handleMenuClose}
                                               className={`group flex items-center gap-2 transition hover:text-[#FB9100]`}
                                             >
                                               <span
@@ -285,6 +292,7 @@ const Header = () => {
                                                     <Link
                                                       key={j}
                                                       href={item.href}
+                                                      onClick={handleMenuClose}
                                                       className={`group flex items-center gap-2 transition hover:text-[#FB9100]`}
                                                     >
                                                       <span
@@ -339,6 +347,7 @@ const Header = () => {
 
                                             <Link
                                               href={sub.href}
+                                              onClick={handleMenuClose}
                                               className={`group flex items-center gap-2 transition hover:text-[#FB9100]`}
                                             >
                                               <span
@@ -366,6 +375,7 @@ const Header = () => {
                                                     <Link
                                                       key={j}
                                                       href={item.href}
+                                                      onClick={handleMenuClose}
                                                       className={`group flex items-center gap-2 transition hover:text-[#FB9100]`}
                                                     >
                                                       <span
