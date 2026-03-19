@@ -169,9 +169,11 @@ const BookAConsultation = ({ buildlinks }: any) => {
               />
 
               <div className="space-y-4">
-                {buildlinks?.data?.map((item: any) => {
+                {buildlinks?.data?.map((item: any, index:number) => {
+                  const isFirst = 0 === index;
                   return (
                     <p
+                    className={`${isFirst && buildlinks?.isFirstParaBold && 'font-bold'}`}
                       style={{
                         color: buildlinks?.textColor || 'text-[#000000]',
                       }}

@@ -23518,7 +23518,7 @@ export const SERVICES_DATA = {
       textColor: 'white',
       width: 50,
       paddingY: '2rem',
-      span: `Turn Your Idea into a High-Performance Wearable Experience`,
+      isFirstParaBold: true,
       data: [
         {
           desctioption: `Turn Your Idea into a High-Performance Wearable Experience`,
