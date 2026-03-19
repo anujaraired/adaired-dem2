@@ -11938,7 +11938,7 @@ export const SERVICES_DATA = {
           heading: 'Launch Your Next',
           heading1: [`Mobile App with`, `Experts`],
           description: [
-            `Custom Android and iOS apps built to`, `scale with your business.`,
+            `Custom Android and iOS apps built to scale with your business.`,
           ],
           buttonName: 'Ask a Developer',
         },
@@ -21371,7 +21371,7 @@ export const SERVICES_DATA = {
           heading: 'Don’t Let Your Great',
           heading1: [`App Idea Stay `, `on Paper`],
           description: [
-            `Build, launch, and scale with expert Android developers.`, ``,
+            `Build, launch, and scale with expert`,` Android developers.`,
           ],
           buttonName: 'Build with Us',
         },
@@ -21549,7 +21549,7 @@ export const SERVICES_DATA = {
       description: ``,
       textColor: 'white',
       width: 50,
-      paddingY: '2rem',
+      paddingY: '3rem',
       isGap: true,
       data: [
         {
