@@ -164,6 +164,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
                 breakIndex={buildlinks?.breakIndex}
                 isH1={true}
                 headingParts={buildlinks?.headingParts}
+                span={buildlinks?.span}
                 className=""
               />
 
