@@ -1818,7 +1818,7 @@ export const SERVICES_DATA = {
     serviceResult: {
       isVisible: true,
       isVariant: '01',
-      isInCenter: false,
+      isInCenter: true,
       textColor: '',
       headingParts: [
         {
@@ -2107,7 +2107,7 @@ export const SERVICES_DATA = {
             `We provide ChatGPT SEO solutions made to be AI discoverable. We ensure your content appears as a reliable, cited, and recommended source in the search results produced by the AI.`,
             `Our strategy ensures cross-industry visibility, drives high-intent user engagement, and positions your content high in the AI search.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#74AA9C',
         },
 
@@ -2118,7 +2118,7 @@ export const SERVICES_DATA = {
             `Our Perplexity AI SEO service integrates the basics of SEO with answer-engine formatting to optimize your content for recognition, trust, and visibility with AI search engines.`,
             `Through the combination of structured responses and content accessible to the AI, we enhance authority, engagement, and discoverability. This helps your brand appear in high-intent searches in the AI-based search results.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#20808D',
         },
 
@@ -2129,7 +2129,7 @@ export const SERVICES_DATA = {
             `Our Gemini AI SEO services combine traditional SEO best practices with AI-first page structuring to make your content easily discoverable, cited, and trusted in Google's AI-powered Gemini search results.`,
             `We ensure that your pages stand out as authoritative answers, boosting visibility, credibility, and user engagement in an increasingly AI-powered search landscape.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#2B99DE',
         },
 
@@ -2140,7 +2140,7 @@ export const SERVICES_DATA = {
             `Our Grok AI SEO helps to increase AI visibility, ensuring that insights are clear, authoritative, and easily discovered by Grok.`,
             `With the help of our strategies, your brand gains citation, trust, and recognition, gaining authority in your industry and maximizing content to provide answers using AI, high-intent traffic, and meaningful engagement.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#000000',
         },
 
@@ -2151,7 +2151,7 @@ export const SERVICES_DATA = {
             `Being one of the leaders in Answer Engine Optimization, Adaired integrates search engine AI with SEO best practices to ensure your site is answerable on ChatGPT, Gemini, and Perplexity.`,
             `We optimize content structure and relevance so that your pages gain recognition, credibility, and are continually surfaced by the AI-based search engines.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#1F66BE',
         },
 
@@ -2162,7 +2162,7 @@ export const SERVICES_DATA = {
             `Our Generative Engine Optimization services combine the basics of SEO with answer-based structuring, so that your content is easily found, cited, and surfaced by Gemini, Claude, and other AI engines.`,
             `We position your brand as an authoritative source, boosting your visibility, trust, and engagement on AI-driven search engines, and optimize content to high-intent user search queries.`,
           ],
-          linkText: 'Get Your Free AI SEO Audit',
+          button: 'Get Your Free AI SEO Audit',
           btnColor: '#5F52B1',
         },
       ],
@@ -2238,6 +2238,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       isCenter: true,
       subtitle: '',
+      isInCenter: true,
       headingParts: [
         {
           text: 'Stop struggling with low traffic and poor visibility. Let Adaired’s AI-powered SEO audit uncover the gaps, optimize your site, and help your business outrank competitors.',
@@ -2849,8 +2850,8 @@ export const SERVICES_DATA = {
       // breakIndex: 5,
       bgImg: bgImg_BuildLink,
       img: LinkBuilding,
-      imgWidth: '479',
-      imgHight: '400',
+      imgWidth: '479px',
+      imgHight: '400px',
       headingParts: [
         {
           text: 'Build Links That Work for Your Business in',
@@ -3057,6 +3058,7 @@ export const SERVICES_DATA = {
     stopStruggling: {
       isVisible: true,
       isCenter: true,
+      isInCenter: true,
       isHoverBgBlue: true,
       subtitle: '',
       breakIndex: 3,
@@ -3158,7 +3160,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       desc: 'With billions of websites competing for attention, your brand has seconds to stand out. At Adaired Digital Media, we design and develop visually compelling websites that build trust, capture attention, and drive results.',
       button: 'Book a consultation today',
-      width: '60',
+      width: 50,
       breakIndex: 3,
       heading: 'Design That Builds Trust.',
       heading2: 'Design That Builds Trust.',
@@ -3350,7 +3352,7 @@ export const SERVICES_DATA = {
             `At Adaired, we provide powerful WordPress development services that are expected to take your digital presence to the next level. Our team breaks creative and technical limits to design and develop robust, high-performance, and SEO-optimized WordPress solutions.`,
             `From custom WordPress theme development and plugin customization to speed optimization, SEO implementation, and seamless third-party integrations, we deliver the end-to-end WordPress solutions to match the requirements of your business.`,
           ],
-          linkText: 'Get Your Free Website Audit',
+          button: 'Get Your Free Website Audit',
           linkHref: '#',
         },
 
@@ -3361,7 +3363,7 @@ export const SERVICES_DATA = {
             `Our online store development services can assist you in achieving the maximum for your online store, starting with consultation and design, development, deployment, and migration.`,
             `Being a successful Shopify development service partner, we provide high-performing, scalable, and tailored solutions that help shops perform better, increase their security, and build positive shopping experiences. You can count on us to increase your eCommerce business in a measurably meaningful way, whether you are opening another store or refining an already existing one.`,
           ],
-          linkText: 'Get Your Free Website Audit',
+          button: 'Get Your Free Website Audit',
           linkHref: '#',
         },
 
@@ -3372,7 +3374,7 @@ export const SERVICES_DATA = {
             `Our 360 eCommerce solutions are all-inclusive and applicable to businesses of any size and sector. Our website development experts create eCommerce online websites that are intuitive, user-friendly, and designed to align with your brand name and profitability.`,
             `We develop custom experiences using recent technologies and the best practices in the industry and enhance customer engagement, conversion, and business expansion.`,
           ],
-          linkText: 'Get Your Free Website Audit',
+          button: 'Get Your Free Website Audit',
           linkHref: '#',
         },
 
@@ -3383,7 +3385,7 @@ export const SERVICES_DATA = {
             `Our dedicated professionals offer web development services designed to be flexible, secure, and scalable with the development of your business. We develop feature-rich, high-performance websites to suit your specific needs, achieve maximum functionality, smooth user interfaces, and achieve scalability in the future.`,
             `All solutions that we develop are designed to help your business achieve its goals and bring long-term value.`,
           ],
-          linkText: 'Get Your Free Website Audit',
+          button: 'Get Your Free Website Audit',
           linkHref: '#',
         },
       ],
@@ -3853,7 +3855,7 @@ export const SERVICES_DATA = {
       span: 'Get discovered by the customers who are searching for your business right now',
       button: 'Book a Strategy Call',
       subheading: '',
-      width: '50',
+      width: 50,
       img: localBannerBg,
       imgWidth: '727',
       imgHight: '598',
@@ -4714,7 +4716,7 @@ export const SERVICES_DATA = {
       code: '02',
       isVisible: true,
       isStyleHeading: true,
-      width: '50',
+      width: 50,
       subtitle: 'Industry-Leading White Label',
       headingParts: [
         { text: 'Social Media Management', color: '#000000', weight: '400' },
@@ -5360,7 +5362,7 @@ export const SERVICES_DATA = {
       ],
       button: 'Talk to Us!',
       span: 'All set to deliver real SEO results to your clients without building an in-house team?',
-      width: '50',
+      width: 50,
       img: whiteSeoBannerBg,
       imgWidth: '679',
       imgHight: '558',
@@ -6119,7 +6121,7 @@ export const SERVICES_DATA = {
         'Adaired Digital Media works behind the scenes as your reseller SEO partner, delivering results-driven SEO and digital marketing while you keep full brand ownership.',
       ],
       button: 'Start a Conversation!',
-      width: '60',
+      width: 50,
       img: whiteServicesBannerBg,
       imgWidth: '734',
       imgHight: '512',
@@ -6919,7 +6921,7 @@ export const SERVICES_DATA = {
         `Drive high-intent traffic, generate qualified leads, and maximize ROI with data-driven PPC management. We build, optimize, and scale paid search campaigns that turn clicks into real revenue.`,
       ],
       button: 'Request a Campaign Audit',
-      width: '55',
+      width: 50,
       img: PPC_Banner,
       imgWidth: '750',
       imgHight: '593',
@@ -7726,7 +7728,7 @@ export const SERVICES_DATA = {
           weight: '800',
         },
       ],
-      width: '50',
+      width: 50,
       heading2: 'White Label PPC Services',
       desc: [
         `Stop turning down PPC clients. Launch high-performance white-label paid ads services without expanding your internal team.`,
@@ -8591,7 +8593,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
-      width: '70',
+      width: 50,
       desc: [
         `Strengthen your clients’ SEO strategy with expert white-label link-building services designed for agencies that want to scale without increasing overhead.`,
         `At Adaired Digital Media, white-label backlinks are built through ethical outreach, high-authority guest posting, and strategic placements that enhance domain authority, improve rankings, 
@@ -9257,7 +9259,7 @@ export const SERVICES_DATA = {
         We build SaaS SEO systems that generate qualified demos, lower CAC, and turn organic search into a predictable revenue channel.`,
       ],
       button: 'Book a 30-Minute Strategy Call',
-      width: '65',
+      width: 50,
       img: saasSeoBannerBg,
       imgWidth: '737',
       imgHight: '558',
@@ -9281,7 +9283,7 @@ export const SERVICES_DATA = {
       imgWidth: '735px',
       imgHight: '477px',
       customGap: '12rem',
-      breakIndex: 5,
+      // breakIndex: 5,
       data: [
         {
           desctioption: `Helping B2B SaaS companies build predictable organic growth engines that increase MRR, generate qualified demos, 
@@ -10023,7 +10025,7 @@ export const SERVICES_DATA = {
         Our expert-driven strategy focuses on high-quality content, authority building, structured data optimization, and AI-ready website architecture.`,
       ],
       button: 'Optimize My Website for AI',
-      width: '50',
+      width: 50,
       widthLg: '30rem',
       img: geoAiSeoBannerBg,
       imgWidth: '674',
@@ -10761,7 +10763,7 @@ export const SERVICES_DATA = {
         ` Using proven Answer Engine Optimization services, Adaired Digital Media helps you structure your content so AI platforms can understand it, trust it, and feature it at the top of the results.`,
       ],
       button: 'Build My AEO Strategy',
-      width: '50',
+      width: 50,
       img: AeoServiceBannerImg,
       imgWidth: '802',
       imgHight: '594',
@@ -11457,7 +11459,7 @@ export const SERVICES_DATA = {
         `Take your brand to your users’ fingertips with high-performance mobile apps designed to increase reach, engagement, and growth.`,
       ],
       button: 'Transform Your Website Into an App',
-      width: '50',
+      width: 50,
       img: mobileAppDevBannerBg,
       imgWidth: '809',
       imgHight: '650',
@@ -12483,7 +12485,7 @@ export const SERVICES_DATA = {
         `Show up first when customers search for your services and turn your Google Business Profile into a stream of calls and leads into real sales.`,
       ],
       button: 'Boost My Visibility Today',
-      width: '50',
+      width: 50,
       widthLg: '30rem',
       img: gbplocalSeoBannerBg,
       imgWidth: '811',
@@ -13302,7 +13304,6 @@ export const SERVICES_DATA = {
       isVisible: true,
       breakIndex: 4,
       bgColor: false,
-      isInCenter: true,
       textColor: '',
       headingParts: [
         {
@@ -14059,7 +14060,7 @@ export const SERVICES_DATA = {
       ],
       subheading: 'Don’t wait to grow your business; let us assist you!',
       button: 'Create a Website for My Business',
-      width: '50',
+      width: 50,
       isGap: true,
       img: Banner,
       imgWidth: '937',
@@ -14719,7 +14720,7 @@ export const SERVICES_DATA = {
           weight: '800',
         },
       ],
-      width: '60',
+      width: 50,
       heading2: 'White Label PPC Services',
       desc: [
         `Future-proof your visibility with strategic LLM SEO and generative search optimization.`,
@@ -15330,7 +15331,7 @@ export const SERVICES_DATA = {
       ],
       subheading: '',
       button: 'Launch My Shopify Store',
-      width: '50',
+      width: 50,
       widthLg: '30rem',
       img: ShopifyDevBannerImg,
       imgWidth: '1075',
@@ -15969,7 +15970,7 @@ export const SERVICES_DATA = {
           weight: '800',
         },
       ],
-      width: '60',
+      width: 50,
       heading2: 'White Label PPC Services',
       desc: [
         `Get found by shoppers who are ready to buy and turn search traffic into predictable sales growth. `,
@@ -16465,7 +16466,7 @@ export const SERVICES_DATA = {
       description: ``,
       textColor: 'white',
       paddingY: '3rem',
-      width: 65,
+      width: 55,
       data: [
         {
           desctioption: `Every day your store isn’t optimized is a missed revenue opportunity. Our expert e-commerce SEO services are designed to position your products in front of buyers who are ready to purchase. Let’s transform your organic traffic into predictable growth.`,
@@ -16760,7 +16761,7 @@ export const SERVICES_DATA = {
           weight: '800',
         },
       ],
-      width: '60',
+      width: 50,
       heading2: 'White Label PPC Services',
       desc: [
         `Empower your online business with a feature-packed eCommerce website designed for speed, usability, and scalability.`,
@@ -17314,7 +17315,8 @@ export const SERVICES_DATA = {
       description: ``,
       textColor: 'white',
       paddingY: '2rem',
-      width: 45,
+      customGap: '12rem',
+      width: 50,
       data: [
         {
           desctioption: `Ready to build a powerful online store for your business? Our team of experienced eCommerce developers is here to help you create a scalable, secure, and high-performing eCommerce website tailored to your needs.`,
@@ -17588,7 +17590,7 @@ export const SERVICES_DATA = {
       ],
       subheading: '',
       button: 'Create Your Custom Platform',
-      width: '45',
+      width: 50,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388293/adaired/services/custom_web_development/customWebDevBannerImg_jruqxc.png',
       imgWidth: '1062',
       imgHight: '602',
@@ -18716,7 +18718,7 @@ export const SERVICES_DATA = {
       ],
       subheading: '',
       button: 'Let’s Build Your App',
-      width: '45',
+      width: 50,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749342/adaired/services/ios_app_development/iosAppDevBannerImg_iwkfje.png',
       imgWidth: '911',
       imgHight: '682',
@@ -19834,7 +19836,7 @@ export const SERVICES_DATA = {
       ],
       subheading: '',
       button: 'Help Me Grow Online',
-      width: '50',
+      width: 50,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtBannerImg_zvcfx3.png',
       imgWidth: '679',
       imgHight: '699',
@@ -21035,4 +21037,3 @@ export const SERVICES_DATA = {
     },
   },
 };
-
