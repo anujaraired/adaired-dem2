@@ -21122,6 +21122,7 @@ export const SERVICES_DATA = {
       subheading: '',
       button: 'Get a Custom App',
       width: 55,
+      customGap:"0rem",
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773900428/adaired/services/cross_platform_app_development/crossPlatformBannerImg_tmm91n.png',
       imgWidth: '931',
       imgHight: '588',
@@ -21437,7 +21438,7 @@ export const SERVICES_DATA = {
         },
       ],
       breakIndex: 2,
-      bgGradient: '',
+      bgGradient: 'bg-[#FFFFFF]',
       span: '',
       description: [
         `Our step-by-step development process is designed to deliver high-quality cross-platform applications that align with your business goals and user expectations.`,
