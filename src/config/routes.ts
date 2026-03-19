@@ -304,7 +304,7 @@ export const routes: {
             },
             {
               name: 'Wearables',
-              href: '#',
+              href: '/services/wearables-app-development-india',
             },
           ],
         },
