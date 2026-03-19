@@ -2864,7 +2864,8 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
-      width: 50,
+      width: 60,
+      customGap: '12rem',
       paddingY: '3rem',
       data: [],
       button: 'Get a Free Audit ',
@@ -3559,12 +3560,13 @@ export const SERVICES_DATA = {
         },
       ],
       textColor: 'white',
-      width: 50,
+      width: 55,
       data: [
         {
           desctioption: `We build websites that captivate users and convert clicks into customers`,
         },
       ],
+      customGap: '8rem',
       button: 'Start Your Website Project',
     },
 
@@ -7290,7 +7292,7 @@ export const SERVICES_DATA = {
         {
           text: 'Build a PPC Campaign',
           color: '#FFFFFF',
-          weight: '400',
+          weight: '300',
         },
         {
           text: 'That Drives Results',
@@ -7301,8 +7303,9 @@ export const SERVICES_DATA = {
       description: ``,
       isMask: true,
       textColor: 'white',
-      width: 45,
-      paddingY: '5rem',
+      width: 50,
+      customGap: '12rem',
+      paddingY: '4rem',
       data: [
         {
           desctioption: `At Adaired, we don’t believe in generic ad campaigns. 
@@ -9697,7 +9700,7 @@ export const SERVICES_DATA = {
       ],
       description: ``,
       textColor: 'white',
-      width: 50,
+      width: 55,
       paddingY: '4rem',
       data: [
         {
@@ -10924,7 +10927,7 @@ export const SERVICES_DATA = {
 
     importantToBussiness: {
       isVisible: true,
-      breakIndex: 5,
+      // breakIndex: 5,
       isCardVisible: false,
       isVariant: '01',
       cardColor: '#F9F9F9',
@@ -13788,7 +13791,9 @@ export const SERVICES_DATA = {
       description: ``,
       textColor: 'white',
       width: 45,
+      isGap: true,
       paddingY: '4rem',
+      customGap: '10rem',
       data: [
         {
           desctioption: `If your business is not appearing in Google Maps or local search results, you could be missing valuable opportunities to connect with potential customers in your area.`,
@@ -14118,7 +14123,7 @@ export const SERVICES_DATA = {
     whatareservice: {
       isVisible: true,
       isVariant: '04',
-      breakIndex: 6,
+      // breakIndex: 6,
       img: WhatAreService1,
       imgWidth: '917px',
       imgHight: '612px',
@@ -14539,7 +14544,7 @@ export const SERVICES_DATA = {
       ],
       description: ``,
       textColor: 'white',
-      width: 40,
+      width: 50,
       paddingY: '3rem',
       data: [
         {
@@ -15158,7 +15163,7 @@ export const SERVICES_DATA = {
       ],
       description: ``,
       textColor: 'white',
-      width: 80,
+      width: 55,
       paddingY: '3rem',
       data: [
         {
@@ -15331,7 +15336,7 @@ export const SERVICES_DATA = {
       ],
       subheading: '',
       button: 'Launch My Shopify Store',
-      width: 50,
+      width: 45,
       widthLg: '30rem',
       img: ShopifyDevBannerImg,
       imgWidth: '1075',
@@ -17316,7 +17321,7 @@ export const SERVICES_DATA = {
       textColor: 'white',
       paddingY: '2rem',
       customGap: '12rem',
-      width: 50,
+      width: 55,
       data: [
         {
           desctioption: `Ready to build a powerful online store for your business? Our team of experienced eCommerce developers is here to help you create a scalable, secure, and high-performing eCommerce website tailored to your needs.`,
@@ -17590,7 +17595,7 @@ export const SERVICES_DATA = {
       ],
       subheading: '',
       button: 'Create Your Custom Platform',
-      width: 50,
+      width: 40,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388293/adaired/services/custom_web_development/customWebDevBannerImg_jruqxc.png',
       imgWidth: '1062',
       imgHight: '602',
@@ -18226,7 +18231,7 @@ export const SERVICES_DATA = {
       description: ``,
       textColor: 'white',
       width: 60,
-      paddingY: '2rem',
+      paddingY: '4rem',
       data: [
         {
           desctioption: `Every successful digital platform begins with the right strategy and development partner. Whether you need a custom website, a scalable web application, or a complex enterprise platform, our team is ready to help you turn your vision into a powerful and reliable digital solution.`,
@@ -18718,7 +18723,7 @@ export const SERVICES_DATA = {
       ],
       subheading: '',
       button: 'Let’s Build Your App',
-      width: 50,
+      width: 45,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749342/adaired/services/ios_app_development/iosAppDevBannerImg_iwkfje.png',
       imgWidth: '911',
       imgHight: '682',
@@ -19173,7 +19178,7 @@ export const SERVICES_DATA = {
       ],
       description: ``,
       textColor: 'white',
-      width: 60,
+      width: 50,
       paddingY: '2rem',
       data: [
         {
@@ -20284,10 +20289,10 @@ export const SERVICES_DATA = {
       isVariant: '01',
       breakIndex: 5,
       isInCenter: false,
-      bgColor: false,
+      bgColor: '#FFFAF5',
       bgGradient: 'bg-[#FFFFFF]',
       cardColor2: '#FFF8F0',
-      cardColor: '#FBFBFB',
+      cardColor: '#FFFFFF',
       cardImgBgColor2: '#FFF2DF',
       cardImgBgColor: '#F3F3F3',
       borderColor2: '#FB9100',
@@ -20372,7 +20377,8 @@ export const SERVICES_DATA = {
       ],
       description: ``,
       textColor: 'white',
-      width: 60,
+      width: 55,
+      customGap: '12rem',
       paddingY: '2rem',
       data: [
         {
