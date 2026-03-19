@@ -10953,7 +10953,7 @@ export const SERVICES_DATA = {
       isCardVisible: false,
       isVariant: '01',
       cardColor: '#F9F9F9',
-      isLaunchCard: false, 
+      isLaunchCard: false,
       headingParts: [
         {
           text: 'AEO Services Built for AI-Driven Search Ecosystems',
@@ -11764,7 +11764,7 @@ export const SERVICES_DATA = {
       breakIndex: 3,
       isVariant: '01',
       cardColor: '#F9F9F9',
-      isLaunchCard: true, 
+      isLaunchCard: true,
       headingParts: [
         {
           text: 'Our Custom Mobile Application Development Services',
@@ -12663,7 +12663,7 @@ export const SERVICES_DATA = {
       breakIndex: 5,
       isVariant: '01',
       cardColor: '#F9F9F9',
-      isLaunchCard: false, 
+      isLaunchCard: false,
       headingParts: [
         {
           text: 'Unlock Your Potential with Top-Notch GBP Optimization Services!',
@@ -16976,7 +16976,7 @@ export const SERVICES_DATA = {
       breakIndex: 2,
       isVariant: '01',
       cardColor: '#F9F9F9',
-      isLaunchCard: false, 
+      isLaunchCard: false,
       headingParts: [
         {
           text: 'Explore Our Comprehensive eCommerce Development Services',
@@ -21081,7 +21081,7 @@ export const SERVICES_DATA = {
       bgImage: LocalNotSeeBg,
     },
   },
-  'android-app-development-company': {
+  'android-app-development-company-india': {
     sectionsOrder: [
       'banner',
       'whatareservice',
@@ -21271,7 +21271,7 @@ export const SERVICES_DATA = {
       isCardVisible: false,
       cardColor: '#fffdf9',
       borderColor: '#fff9ef',
-      isLaunchCard: true, 
+      isLaunchCard: true,
       headingParts: [
         {
           text: 'Our Full-Suite Android App Development Services',
