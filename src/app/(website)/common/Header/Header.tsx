@@ -17,6 +17,11 @@ import SaveAndCancel from '../SaveAndCancel';
 import { GoArrowUpRight } from 'react-icons/go';
 import { MdArrowOutward } from 'react-icons/md';
 import contactus from '../../../../../public/assets/header/Group 1000006721.svg';
+import { TiMediaRecordOutline } from 'react-icons/ti';
+import { VscDebugBreakpointLogUnverified } from 'react-icons/vsc';
+import { TbPointFilled } from 'react-icons/tb';
+import { MdOutlineArrowRight } from 'react-icons/md';
+import { MdOutlineKeyboardDoubleArrowRight } from 'react-icons/md';
 
 const Header = () => {
   const router = useRouter();
@@ -106,8 +111,8 @@ const Header = () => {
                           <div
                             className={`${
                               menu.label === 'White Label'
-                                ? 'ml-[39%]'
-                                : 'ml-[52%]'
+                                ? 'ml-[38%]'
+                                : 'ml-[48.06%]'
                             } mx-auto w-fit rounded-xl bg-white p-4 shadow-lg`}
                           >
                             <ul className="space-y-2">
@@ -177,8 +182,9 @@ const Header = () => {
                                             <Link
                                               href={sub.href}
                                               onClick={handleMenuClose}
-                                              className={`group flex items-center gap-2 transition hover:text-[#FB9100]`}
+                                              className={`group flex items-center gap-0.5 transition hover:text-[#FB9100]`}
                                             >
+                                              {/* <TiMediaRecordOutline/> */}
                                               <span
                                                 className={`my-[0.65rem] block text-[15px] font-semibold transition ${pathname === sub?.href && 'text-[#FB9100]'}`}
                                               >
@@ -205,8 +211,9 @@ const Header = () => {
                                                       key={j}
                                                       href={item.href}
                                                       onClick={handleMenuClose}
-                                                      className={`group flex items-center gap-2 transition hover:text-[#FB9100]`}
+                                                      className={`group flex items-center gap-2 py-0.5 transition hover:text-[#FB9100]`}
                                                     >
+                                                      {/* <MdOutlineKeyboardDoubleArrowRight /> */}
                                                       <span
                                                         className={`text-[15px] ${isActive && 'font-bold text-[#FB9100]'}`}
                                                       >
@@ -230,7 +237,7 @@ const Header = () => {
                                       })}
                                   </div>
 
-                                  <div className="my-[0.5rem] grid grid-cols-3 gap-2">
+                                  <div className="my-[1rem] grid grid-cols-3 gap-2">
                                     {menu?.subItems
                                       ?.slice(3, 6)
                                       .map((sub: any, i: number) => {
@@ -293,8 +300,10 @@ const Header = () => {
                                                       key={j}
                                                       href={item.href}
                                                       onClick={handleMenuClose}
-                                                      className={`group flex items-center gap-2 transition hover:text-[#FB9100]`}
+                                                      className={`group flex items-center gap-2 py-0.5 transition hover:text-[#FB9100]`}
                                                     >
+                                                      {/* <MdOutlineKeyboardDoubleArrowRight /> */}
+
                                                       <span
                                                         className={`text-[15px] ${isActive && 'font-bold text-[#FB9100]'}`}
                                                       >
@@ -376,8 +385,10 @@ const Header = () => {
                                                       key={j}
                                                       href={item.href}
                                                       onClick={handleMenuClose}
-                                                      className={`group flex items-center gap-2 transition hover:text-[#FB9100]`}
+                                                      className={`group flex items-center gap-2 py-0.5 transition hover:text-[#FB9100]`}
                                                     >
+                                                      {/* <MdOutlineKeyboardDoubleArrowRight /> */}
+
                                                       <span
                                                         className={`text-[15px] ${isActive && 'font-bold text-[#FB9100]'}`}
                                                       >

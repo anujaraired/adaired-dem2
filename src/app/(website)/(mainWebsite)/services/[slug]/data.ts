@@ -743,7 +743,6 @@ import crossPlatformWhatMissingIcon_4 from '../../../../../../public/assets/imag
 import crossPlatformWhatMissingIcon_5 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatMissingIcon_5.png';
 import crossPlatformWhatMissingIcon_6 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatMissingIcon_6.png';
 
-
 // Wearables App Development Images
 import wearablesAppDevWhatServiceImg from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevWhatServiceImg.png';
 import wearablesAppDevKeyStatsIcon from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevKeyStatsIcon.png';
@@ -23038,7 +23037,11 @@ export const SERVICES_DATA = {
       isAbsolute: true,
       isStyleHeading: true,
       headingParts: [
-        { text: 'Expert Wearable Application', color: '#000000', weight: '400' },
+        {
+          text: 'Expert Wearable Application',
+          color: '#000000',
+          weight: '400',
+        },
         {
           text: 'Development for iOS, Android & Wear OS',
           color: '#FB9100',
@@ -23047,14 +23050,14 @@ export const SERVICES_DATA = {
       ],
       isGap: true,
       customGap: 0,
-      breakIndex: 7,
+      // breakIndex: 7,
       desc: [
         `Unlock the full potential of wearable technology with apps built for speed, accuracy, and usability.`,
         `At Adaired Digital Media, our team offers smart, future-ready wearable app development solutions that integrate effortlessly with modern ecosystems, enabling real-time data synchronization and meaningful user interactions.`,
       ],
       subheading: '',
       button: 'Let’s Plan Your Wearable App',
-      width: 55,
+      width: 50,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773905920/adaired/services/wearables_app_development/wearablesAppDevBannerImg_pn8oth.png',
       imgWidth: '1338',
       imgHight: '860',
@@ -23238,7 +23241,7 @@ export const SERVICES_DATA = {
         {
           icon: wearablesAppDevImpIcon_1,
           name: 'Android Wearable App Development',
-          description: [  
+          description: [
             `At Adaired Digital Media, we build powerful, feature-rich applications for Wear OS devices that are optimized for speed, reliability, and seamless connectivity.`,
             `Our development approach focuses on creating intuitive interfaces and real-time functionality that enhances user experience on compact screens.`,
             `Whether you're building a fitness tracker, healthcare app, or enterprise tool, our Android wearable solutions are designed to scale with your business and adapt to evolving user needs.`,
@@ -23249,7 +23252,7 @@ export const SERVICES_DATA = {
         {
           icon: wearablesAppDevImpIcon_2,
           name: 'iOS Wearable App Development',
-          description: [  
+          description: [
             `Our iOS wearable app development services focus on creating elegant and high-performing applications for Apple Watch users.`,
             `Leveraging advanced watchOS capabilities, we build apps that offer smooth navigation, precise functionality, and deep integration within the Apple ecosystem.`,
             `From real-time notifications and health tracking to advanced data visualization and personalized experiences, we ensure your app delivers value at every interaction.`,
@@ -23261,7 +23264,7 @@ export const SERVICES_DATA = {
         {
           icon: wearablesAppDevImpIcon_3,
           name: 'AR/VR Wearable App Development',
-          description: [  
+          description: [
             `We specialize in developing immersive applications for AR and VR-enabled wearable devices, unlocking new possibilities for interaction and visualization.`,
             `These solutions enable businesses to create engaging experiences such as virtual training environments, real-time assistance, product visualization, and interactive simulations.`,
             `Our AR/VR wearable apps are designed with precision to ensure smooth performance, low latency, and high responsiveness, making them ideal for industries like healthcare, education, retail, and manufacturing.`,
@@ -23272,7 +23275,7 @@ export const SERVICES_DATA = {
         {
           icon: wearablesAppDevImpIcon_4,
           name: 'Fitness & Wellness App Development',
-          description: [  
+          description: [
             `We create advanced fitness and healthcare wearable applications that empower users with real-time health insights and personalized recommendations.`,
             `By utilizing sensors such as heart rate monitors, GPS, and motion trackers, our apps provide accurate tracking of activities, sleep patterns, and vital health metrics.`,
             `These applications are designed not only to inform but also to engage users through intuitive dashboards, goal-setting features, and actionable insights, helping businesses deliver meaningful value in the rapidly growing health-tech space.`,
@@ -23283,7 +23286,7 @@ export const SERVICES_DATA = {
         {
           icon: wearablesAppDevImpIcon_5,
           name: 'Utility & Lifestyle Wearable Apps',
-          description: [  
+          description: [
             `Our utility-focused wearable applications are designed to simplify everyday tasks through quick, efficient, and intuitive interactions.`,
             `We develop apps that provide instant access to notifications, reminders, navigation, and media controls, ensuring users can stay connected without constantly reaching for their smartphones.`,
             `By focusing on minimalistic design and optimized performance, we ensure these apps deliver maximum usability while maintaining low power consumption.`,
@@ -23294,7 +23297,7 @@ export const SERVICES_DATA = {
         {
           icon: wearablesAppDevImpIcon_6,
           name: 'Smart Band & Fitness Tracker App',
-          description: [  
+          description: [
             `We design and develop companion applications for smart bands and fitness trackers that seamlessly collect, analyze, and present user data.`,
             `Our solutions focus on delivering accurate insights through advanced data processing and intuitive visualizations. `,
             `From syncing wearable data with mobile devices to integrating with cloud platforms for deeper analytics, Adaired Digital Media ensures a cohesive ecosystem that enhances both user experience and product functionality.`,
@@ -23305,7 +23308,7 @@ export const SERVICES_DATA = {
         {
           icon: wearablesAppDevImpIcon_7,
           name: 'Smart Glasses Wearable App',
-          description: [  
+          description: [
             `We develop advanced applications for smart glasses, designed to deliver real-time information through intuitive visual interfaces.`,
             `Our solutions leverage device capabilities such as cameras, sensors, and spatial computing to enable seamless interaction.`,
             `By integrating technologies like augmented reality (AR), computer vision, and low-latency data streaming, we build applications that support real-time overlays, object recognition, and interactive guidance.`,
@@ -23316,7 +23319,7 @@ export const SERVICES_DATA = {
         {
           icon: wearablesAppDevImpIcon_8,
           name: 'IoT-Enabled Wearable Applications',
-          description: [  
+          description: [
             `We develop wearable applications that are deeply integrated with IoT ecosystems, allowing seamless communication between devices, sensors, and cloud platforms.`,
             `These solutions enable real-time monitoring, predictive analytics, and automation, making them highly valuable for both consumer and enterprise use cases.`,
             `Our IoT-integrated wearable apps empower businesses to make data-driven decisions while delivering connected experiences that enhance efficiency and innovation.`,
@@ -23439,7 +23442,7 @@ export const SERVICES_DATA = {
           title: 'Discovery & Strategic Planning',
           description: [
             `Every successful wearable application begins with a clear understanding of the business goals and user expectations. During the discovery phase, our team works closely with clients to analyze their requirements, identify the target audience, and determine the wearable platforms and devices involved.`,
-            `This stage also involves evaluating market trends, understanding potential user behaviors, and outlining the key features that will define the application. The insights gathered during this phase help us establish a solid project roadmap and create a strategy that aligns technology with business objectives.`, 
+            `This stage also involves evaluating market trends, understanding potential user behaviors, and outlining the key features that will define the application. The insights gathered during this phase help us establish a solid project roadmap and create a strategy that aligns technology with business objectives.`,
           ],
         },
         {
@@ -23447,7 +23450,7 @@ export const SERVICES_DATA = {
           title: 'System Architecture & Technology',
           description: [
             `Wearable applications require a carefully planned architecture to ensure smooth performance across devices with limited resources. Our team designs a scalable and efficient system architecture that enables seamless communication between wearable devices, mobile applications, and cloud infrastructure.`,
-            `By selecting appropriate frameworks, APIs, and development tools, we create a foundation that supports stability, security, and long-term scalability. This step ensures that the application is capable of handling real-time data processing, device connectivity, and future updates without compromising performance.`, 
+            `By selecting appropriate frameworks, APIs, and development tools, we create a foundation that supports stability, security, and long-term scalability. This step ensures that the application is capable of handling real-time data processing, device connectivity, and future updates without compromising performance.`,
           ],
         },
         {
@@ -23455,7 +23458,7 @@ export const SERVICES_DATA = {
           title: 'UI/UX Design Optimization',
           description: [
             `Designing for wearable devices requires a different approach compared to traditional mobile or web applications. Our design team focuses on creating interfaces that deliver relevant information instantly while maintaining an intuitive user experience.`,
-            `Every element is carefully structured to ensure that users can access key features effortlessly, whether through touch interactions, voice commands, or gesture-based controls. The goal is to create a visually clean and highly functional interface that enhances usability without overwhelming the user.`, 
+            `Every element is carefully structured to ensure that users can access key features effortlessly, whether through touch interactions, voice commands, or gesture-based controls. The goal is to create a visually clean and highly functional interface that enhances usability without overwhelming the user.`,
           ],
         },
         {
@@ -23463,7 +23466,7 @@ export const SERVICES_DATA = {
           title: 'Development & Feature Implementation',
           description: [
             `Once the design and architecture are finalized, our development team begins building the core application features. This stage involves implementing functionalities such as sensor integration, real-time data processing, connectivity with smartphones or cloud platforms, and secure data handling.`,
-            `Our developers follow modern development practices and agile methodologies to ensure flexibility and faster iterations. By continuously testing and refining features throughout the development cycle, we maintain high-quality standards while ensuring the application remains efficient and responsive.`, 
+            `Our developers follow modern development practices and agile methodologies to ensure flexibility and faster iterations. By continuously testing and refining features throughout the development cycle, we maintain high-quality standards while ensuring the application remains efficient and responsive.`,
           ],
         },
         {
@@ -23471,7 +23474,7 @@ export const SERVICES_DATA = {
           title: 'Device Connectivity & Integration',
           description: [
             `Wearable applications rely heavily on seamless communication between devices and supporting platforms. To achieve this, we integrate reliable connectivity solutions that allow data to be transferred efficiently between wearable devices, mobile applications, and backend systems.`,
-            `Technologies such as Bluetooth Low Energy, Wi-Fi connectivity, and cloud synchronization are utilized to maintain stable communication and ensure real-time data availability. Proper integration ensures that users experience consistent functionality regardless of the device they are using.`, 
+            `Technologies such as Bluetooth Low Energy, Wi-Fi connectivity, and cloud synchronization are utilized to maintain stable communication and ensure real-time data availability. Proper integration ensures that users experience consistent functionality regardless of the device they are using.`,
           ],
         },
         {
@@ -23479,7 +23482,7 @@ export const SERVICES_DATA = {
           title: 'Quality Assurance',
           description: [
             `Before launching any wearable application, we conduct thorough testing to ensure that it performs reliably in real-world environments. Our quality assurance process evaluates functionality, usability, performance, and device compatibility.`,
-            `Special attention is given to battery efficiency, data accuracy, and responsiveness, as these factors are critical in wearable technology. Through continuous optimization, we ensure that the final product delivers a stable and seamless user experience across supported devices.`, 
+            `Special attention is given to battery efficiency, data accuracy, and responsiveness, as these factors are critical in wearable technology. Through continuous optimization, we ensure that the final product delivers a stable and seamless user experience across supported devices.`,
           ],
         },
         {
@@ -23487,7 +23490,7 @@ export const SERVICES_DATA = {
           title: 'Deployment and Launch',
           description: [
             `After the application successfully passes all testing phases, we prepare it for deployment on the intended platforms. Our team manages the entire launch process, ensuring the application complies with platform requirements and operates smoothly in production environments.`,
-            `By carefully handling the deployment stage, we ensure that the application reaches users efficiently and begins delivering value from the moment it goes live.`, 
+            `By carefully handling the deployment stage, we ensure that the application reaches users efficiently and begins delivering value from the moment it goes live.`,
           ],
         },
       ],
@@ -23608,7 +23611,9 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
-      description: [`We leverage modern, high-performance frameworks to build cross-platform apps that deliver native-like speed, functionality, and user experience.`],
+      description: [
+        `We leverage modern, high-performance frameworks to build cross-platform apps that deliver native-like speed, functionality, and user experience.`,
+      ],
       list: [
         {
           icon: crossPlatformWhatMissingIcon_1,
