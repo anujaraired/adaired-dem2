@@ -60,8 +60,9 @@ const WhatAreService = ({ whatareaiseo }: any) => {
             >
               <Image src={whatareaiseo?.img} width={602} height={50} alt="" />
             </div>
+            <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
           </MaxWidthWrapper>
-          <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
+          {/* <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} /> */}
         </div>
       )}
       {whatareaiseo?.isVariant === '02' && (
@@ -153,11 +154,10 @@ const WhatAreService = ({ whatareaiseo }: any) => {
             </div>
             <div
               ref={ref}
-              className={`right-0 top-0 flex -translate-y-0 justify-center transition-all duration-1000 lg:absolute lg:right-[-5%] lg:top-1/2 lg:flex lg:-translate-y-1/2 lg:justify-end ${
-                isVisible
-                  ? 'translate-x-0 opacity-100'
-                  : 'translate-x-12 opacity-0'
-              }`}
+              className={`right-0 top-0 flex -translate-y-0 justify-center transition-all duration-1000 lg:absolute lg:right-[-5%] lg:top-1/2 lg:flex lg:-translate-y-1/2 lg:justify-end ${isVisible
+                ? 'translate-x-0 opacity-100'
+                : 'translate-x-12 opacity-0'
+                }`}
             >
               <Image
                 src={whatareaiseo?.img}
@@ -167,6 +167,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 className="h-auto w-[clamp(24rem,50vw,51.75rem)] object-contain"
               />
             </div>
+            <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
           </MaxWidthWrapper>
           <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
         </div>
@@ -184,8 +185,8 @@ const WhatAreService = ({ whatareaiseo }: any) => {
             isRowReverse={whatareaiseo?.isRowReverse}
             isGap={whatareaiseo?.isGap}
             className={`block ${whatareaiseo?.isRowReverse && 'flex-row-reverse'} justify-between lg:flex`}
-            style={{gap:whatareaiseo?.customGap ||"4rem"}}
-            
+            style={{ gap: whatareaiseo?.customGap || "4rem" }}
+
           >
             <div
               className={`my-auto w-[100%] lg:w-[${`${whatareaiseo.width}%`}] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
@@ -195,7 +196,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 headingParts={whatareaiseo?.headingParts}
                 spanColor="text-[#FBD04F]"
                 breakIndex={whatareaiseo?.breakIndex}
-                // isBgWhite={whatareaiseo?.bgColor && true}
+              // isBgWhite={whatareaiseo?.bgColor && true}
               />
               <div className="">
                 {whatareaiseo?.data?.map((item: any, index: number) => {
@@ -247,9 +248,24 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                   );
                 })}
               </div>
-              {whatareaiseo?.button && (
-                <Button name={whatareaiseo?.button}  className='mt-[2rem]'/>
-              )}
+              {/* {whatareaiseo?.button && (
+                <Button
+                  name={whatareaiseo?.button}
+                  
+                  className='mt-[2rem]' />
+              )} */}
+              <div className='flex justify-center lg:justify-start'>
+                {whatareaiseo?.button && (
+                  <SaveAndCancel
+                    name={whatareaiseo?.button}
+                    isIcon={true}
+                    isBgWhite={true}
+                    isHoverBgBlue={true}
+                    handleClick={() => setOpen(!open)}
+                    className="my-[2rem]"
+                  />
+                )}
+              </div>
             </div>
             <div
               ref={ref}
@@ -277,8 +293,9 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 />
               )}
             </div>
+            <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
           </MaxWidthWrapper>
-          <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
+          {/* <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} /> */}
         </div>
       )}
       {whatareaiseo?.isVariant === '05' && (
@@ -309,18 +326,16 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                   return (
                     <div key={index} className="space-y-4">
                       <p
-                        className={`py-1 text-center lg:text-justify ${
-                          whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
-                        }`}
+                        className={`py-1 text-center lg:text-justify ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
+                          }`}
                       >
                         {item?.desctioption}
                       </p>
                       <div
-                        className={`grid w-fit pb-4 ${
-                          item?.list?.length > 4
-                            ? 'grid-cols-1 md:grid-cols-3'
-                            : 'grid-cols-1 md:grid-cols-2'
-                        }`}
+                        className={`grid w-fit pb-4 ${item?.list?.length > 4
+                          ? 'grid-cols-1 md:grid-cols-3'
+                          : 'grid-cols-1 md:grid-cols-2'
+                          }`}
                       >
                         {item?.list?.map((listItem: any, listIndex: number) => (
                           <div
@@ -336,9 +351,8 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                               (desc: string, descIndex: number) => (
                                 <p
                                   key={descIndex}
-                                  className={`text-left ${
-                                    whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
-                                  }`}
+                                  className={`text-left ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
+                                    }`}
                                 >
                                   {desc}
                                 </p>

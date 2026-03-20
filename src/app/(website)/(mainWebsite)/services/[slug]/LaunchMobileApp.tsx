@@ -10,7 +10,11 @@ import ImportantToBussiness from './ImportantToBussiness';
 const LaunchMobileApp = ({ handleClick, idx, isVisible, cardData }: any) => {
     //test
     return (
-        <div className="relative min-h-[480px] lg:min-h-[450px] rounded-2xl">
+        <div className={`relative min-h-[480px] lg:min-h-[450px] rounded-2xl transition-all duration-700 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}
+            style={{
+                transitionDelay: `${idx * 280}ms`,
+            }}
+        >
             <Image
                 src={LaunchMobileAppCardBg}
                 fill
@@ -30,7 +34,7 @@ const LaunchMobileApp = ({ handleClick, idx, isVisible, cardData }: any) => {
             <div
                 className='absolute w-full p-[2rem] md:p-[4rem] lg:p-[3rem] h-full'
             >
-                <h1 className="text-center text-white lg:text-left font-normal">
+                <h1 className="text-center text-white lg:text-left font-light">
                     {cardData?.heading}
                 </h1>
 
