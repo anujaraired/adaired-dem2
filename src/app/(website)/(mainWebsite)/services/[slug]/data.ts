@@ -1592,7 +1592,7 @@ export const SERVICES_DATA = {
     areYouTired: {
       isVisible: false,
     },
-    
+
     needofservice: {
       isVisible: false,
     },
@@ -1706,6 +1706,7 @@ export const SERVICES_DATA = {
       imgWidth: '603',
       imgHight: '493',
       button: 'Get Started',
+      customPadding: '0rem, 0rem',
       data: [
         {
           desctioption: `AI SEO, also known as generative search optimization services focus on optimizing your website content to appear in AI search results. It helps your website become discoverable, extractable, and trusted across AI-powered search experiences.`,
@@ -2508,9 +2509,11 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 4,
+      customGap: '8rem',
       bgColor: '#000000',
       textColor: '#FFFFFF',
-      // paddingY: '3rem',
+      customPadding: '0rem, 0rem',
       width: 50,
       imgWidth: '696',
       imgHight: '681',
@@ -2854,7 +2857,7 @@ export const SERVICES_DATA = {
       ],
       width: 60,
       customGap: '12rem',
-      paddingY: '3rem',
+      customPadding: '3rem, 3rem',
       data: [],
       button: 'Get a Free Audit ',
     },
@@ -3221,9 +3224,11 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 4,
+      customGap: '8rem',
       bgColor: '#000000',
       textColor: '#FFFFFF',
-      paddingY: '3rem',
+      customPadding: '4rem, 0rem',
       width: 50,
       imgWidth: '792px',
       imgHight: '528px',
@@ -3536,6 +3541,7 @@ export const SERVICES_DATA = {
       bgImg: bgImg_BuildLink,
       imgWidth: '579',
       imgHight: '458',
+      customPadding: '0rem, 0rem',
       headingParts: [
         {
           text: 'Beautiful Design Meets Smart Development.',
@@ -3550,6 +3556,7 @@ export const SERVICES_DATA = {
           desctioption: `We build websites that captivate users and convert clicks into customers`,
         },
       ],
+      customPaddingRight: 6,
       customGap: '8rem',
       button: 'Start Your Website Project',
     },
@@ -3921,6 +3928,7 @@ export const SERVICES_DATA = {
       textColor: '#FFFFFF',
       imgWidth: '608px',
       imgHight: '634px',
+      customPadding: '0rem, 0rem',
       data: [
         {
           desctioption: `Local SEO refers to the process of maximizing your online presence to increase visibility in local search results within a specific geographical area. 
@@ -4796,7 +4804,7 @@ export const SERVICES_DATA = {
       ],
       bgColor: '#000000',
       textColor: '#FFFFFF',
-      paddingY: '3rem',
+      customPadding: '3rem, 3rem',
       width: 55,
       imgWidth: '609px',
       imgHight: '663px',
@@ -5457,7 +5465,7 @@ export const SERVICES_DATA = {
       ],
       bgColor: '#000000',
       textColor: '#FFFFFF',
-      paddingY: '3rem',
+      customPadding: '3rem, 3rem',
       width: 50,
       imgWidth: '602px',
       imgHight: '567px',
@@ -6054,7 +6062,7 @@ export const SERVICES_DATA = {
       isVisible: false,
     },
 
-     leadingTools: {
+    leadingTools: {
       isVisible: false,
     },
 
@@ -6190,7 +6198,7 @@ export const SERVICES_DATA = {
       ],
       bgColor: '#000000',
       textColor: '#FFFFFF',
-      paddingY: '3rem',
+      customPadding: '3rem, 3rem',
       width: 50,
       imgWidth: '808px',
       imgHight: '558px',
@@ -6964,7 +6972,7 @@ export const SERVICES_DATA = {
       ],
       bgColor: '#000000',
       textColor: '#FFFFFF',
-      paddingY: '3rem',
+      customPadding: '3rem, 3rem',
       width: 50,
       imgWidth: '579px',
       imgHight: '552px',
@@ -7300,6 +7308,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 6,
       description: ``,
       isMask: true,
       textColor: 'white',
@@ -7762,7 +7771,7 @@ export const SERVICES_DATA = {
       ],
       bgColor: '#000000',
       textColor: '#FFFFFF',
-      // paddingY: '3rem',
+      // customPadding:"3rem, 3rem",
       width: 50,
       imgWidth: '595px',
       imgHight: '525px',
@@ -8669,7 +8678,7 @@ export const SERVICES_DATA = {
       ],
       bgColor: '#000000',
       textColor: '#FFFFFF',
-      paddingY: '3rem',
+      customPadding: '3rem, 3rem',
       width: 50,
       imgWidth: '897px',
       imgHight: '512px',
@@ -9286,6 +9295,8 @@ export const SERVICES_DATA = {
       imgWidth: '735px',
       imgHight: '477px',
       customGap: '12rem',
+      customPaddingRight: 4,
+      customPadding: '0rem, 0rem',
       // breakIndex: 5,
       data: [
         {
@@ -9698,6 +9709,8 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPadding: '4rem, 4rem',
+      customGap: '8rem',
       description: ``,
       textColor: 'white',
       width: 55,
@@ -10046,9 +10059,11 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 2,
+      customGap: '8rem',
       bgColor: '#000000',
       textColor: '#FFFFFF',
-      paddingY: '3rem',
+      customPadding: '2rem, 2rem',
       width: 50,
       isGap: false,
       isRowReverse: true,
@@ -10086,7 +10101,7 @@ export const SERVICES_DATA = {
       bgColor: '#FFFFFF',
       imgWidth: '715px',
       imgHight: '760px',
-      paddingY: '3rem',
+      customPadding: '3rem, 3rem',
       width: 50,
       isGap: false,
       button: '',
@@ -10479,6 +10494,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPadding: '4rem, 4rem',
       description: ``,
       textColor: 'white',
       width: 50,
@@ -10825,9 +10841,11 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 2,
+      customPadding: '3rem, 3rem',
+      customGap: '6rem',
       bgColor: '#000000',
       textColor: '#FFFFFF',
-      paddingY: '4rem',
       width: 50,
       isGap: true,
       isRowReverse: true,
@@ -11481,7 +11499,9 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
-      paddingY: '3rem',
+      customPaddingRight: 0,
+      customGap: '3rem',
+      customPadding: '3rem, 3rem',
       width: 60,
       isGap: true,
       isRowReverse: true,
@@ -12186,10 +12206,12 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 2,
+      customGap: '8rem',
       description: ``,
       textColor: 'white',
       width: 45,
-      paddingY: '3rem',
+      customPadding: '3rem, 3rem',
       data: [
         {
           desctioption: `Turn your idea into a powerful, high-performing mobile application with our expert development team. 
@@ -12589,9 +12611,11 @@ export const SERVICES_DATA = {
           desctioption: `Overall, effective GBP optimization services​ not only boost local SEO rankings but also help attract more customers by making it easier for them to find and connect with your business online`,
         },
       ],
+      customPaddingRight: 2,
+      customPadding: '3rem, 3rem',
+      customGap: '4rem',
       bgColor: '#000000',
       textColor: '#FFFFFF',
-      paddingY: '4rem',
       width: 60,
       isGap: true,
       isRowReverse: true,
@@ -13700,7 +13724,7 @@ export const SERVICES_DATA = {
       ],
       bgColor: '#FFFFFF',
       textColor: '#000000',
-      paddingY: '4rem',
+      customPadding: '3rem, 3rem',
       width: 55,
       imgWidth: '708px',
       imgHight: '647px',
@@ -13807,12 +13831,14 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 1,
+      customPadding: '4rem, 4rem',
+      customGap: '8rem',
       description: ``,
       textColor: 'white',
       width: 45,
       isGap: true,
       paddingY: '4rem',
-      customGap: '10rem',
       data: [
         {
           desctioption: `If your business is not appearing in Google Maps or local search results, you could be missing valuable opportunities to connect with potential customers in your area.`,
@@ -14153,9 +14179,11 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 0,
+      customGap: '4rem',
       bgColor: '#000000',
       textColor: '#FFFFFF',
-      paddingY: '3rem',
+      customPadding: '3rem, 3rem',
       width: 60,
       isGap: true,
       isRowReverse: true,
@@ -14189,7 +14217,7 @@ export const SERVICES_DATA = {
       ],
       bgColor: '#FFFFFF',
       textColor: '#000000',
-      paddingY: '3rem',
+      customPadding: '3rem, 3rem',
       width: 50,
       imgWidth: '718px',
       imgHight: '612px',
@@ -14561,10 +14589,12 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 6,
+      customGap: '8rem',
       description: ``,
       textColor: 'white',
-      width: 50,
-      paddingY: '3rem',
+      width: 45,
+      customPadding: '3rem, 3rem',
       data: [
         {
           desctioption: `At Adaired Digital, hire WordPress development India team to help you create a powerful online presence that attracts visitors, builds trust, and converts leads into customers.`,
@@ -14699,7 +14729,6 @@ export const SERVICES_DATA = {
       'banner',
       'keyStats',
       'whatareservice',
-      'benefitofAiSeo',
       'ourProcess',
       'importantToBussiness',
       'adairedHelp',
@@ -14815,7 +14844,7 @@ export const SERVICES_DATA = {
       ],
       bgColor: '#000000',
       textColor: '#FFFFFF',
-      paddingY: '3rem',
+      customPadding: '3rem, 3rem',
       width: 60,
       isRowReverse: true,
       imgWidth: '619',
@@ -15182,10 +15211,11 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 1,
       description: ``,
       textColor: 'white',
-      width: 55,
-      paddingY: '3rem',
+      width: 50,
+      customPadding: '3rem, 3rem',
       data: [
         {
           desctioption: `Partner with Adaired Digital, and let’s create a dynamic and robust SEO strategy that elevates your language model’s presence and impact online.`,
@@ -15417,7 +15447,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '04',
       breakIndex: 6,
-      paddingY: '3rem',
+      customPadding: '3rem, 3rem',
       isRowReverse: true,
       width: 65,
       img: shopifyDevWhatAreServiceImg,
@@ -15428,6 +15458,8 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 0,
+      customGap: '6rem',
       bgColor: '#000000',
       textColor: '#FFFFFF',
       isGap: true,
@@ -15813,6 +15845,8 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 4,
+      customPadding: '2rem, 2rem',
       width: 55,
       isMask: false,
       textColor: '#FFFFFF',
@@ -16075,6 +16109,9 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 4,
+      customPadding: '2rem, 2rem',
+      customGap: '8rem',
       bgColor: '#000000',
       textColor: '#FFFFFF',
       imgWidth: '780',
@@ -16489,9 +16526,11 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 4,
+      customGap: '4rem',
       description: ``,
       textColor: 'white',
-      paddingY: '3rem',
+      customPadding: '3rem, 3rem',
       width: 55,
       data: [
         {
@@ -16852,7 +16891,9 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
-      paddingY: '3rem',
+      customPaddingRight: 0,
+      customGap: '1rem',
+      customPadding: '3rem, 3rem',
       width: 60,
       isGap: true,
       isRowReverse: true,
@@ -17339,11 +17380,12 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPadding: '2rem, 2rem',
       description: ``,
       textColor: 'white',
       paddingY: '2rem',
       customGap: '12rem',
-      width: 55,
+      width: 50,
       data: [
         {
           desctioption: `Ready to build a powerful online store for your business? Our team of experienced eCommerce developers is here to help you create a scalable, secure, and high-performing eCommerce website tailored to your needs.`,
@@ -17582,7 +17624,6 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '04',
       breakIndex: 6,
-      paddingY: '4rem',
       isRowReverse: true,
       width: 65,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388292/adaired/services/custom_web_development/customWebDevWhatAreServiceImg_ropdfp.png',
@@ -17595,6 +17636,9 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 0,
+      customPadding: '4rem, 4rem',
+      customGap: '4rem',
       bgColor: '#000000',
       textColor: '#FFFFFF',
       isGap: true,
@@ -18156,6 +18200,9 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 6,
+      customPadding: '2rem, 2rem',
+      customGap: '8rem',
       description: ``,
       textColor: 'white',
       width: 60,
@@ -18318,7 +18365,7 @@ export const SERVICES_DATA = {
       code: '02',
       isCenter: false,
       isVisible: true,
-      customPadding: '4rem, 4rem',
+      customPadding: '1rem, 1rem',
       headingParts: [
         { text: 'iOS App Development', color: '#000000', weight: '400' },
         {
@@ -18392,7 +18439,6 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '04',
       breakIndex: 6,
-      paddingY: '4rem',
       isRowReverse: true,
       width: 65,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749236/adaired/services/ios_app_development/iosAppDevWhatServiceImg_hmwdgq.png',
@@ -18405,6 +18451,9 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 0,
+      customPadding: '4rem, 4rem',
+      customGap: '6rem',
       bgColor: '#000000',
       textColor: '#FFFFFF',
       isGap: true,
@@ -18786,10 +18835,12 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPadding: '4rem, 0rem',
+      customPaddingRight: 4,
+      customGap: '8rem',
       description: ``,
       textColor: 'white',
       width: 50,
-      paddingY: '2rem',
       data: [
         {
           desctioption: `If you’re ready to bring your idea to life, partner with a trusted iOS development team that prioritizes quality, innovation, and long-term success.`,
@@ -19486,7 +19537,6 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '04',
       breakIndex: 6,
-      paddingY: '4rem',
       isRowReverse: false,
       width: 50,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtWhatServiceImg_btxnjr.png',
@@ -19499,6 +19549,9 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 8,
+      customPadding: '2rem, 2rem',
+      customGap: '8rem',
       bgColor: '#000000',
       textColor: '#FFFFFF',
       isGap: false,
@@ -19957,6 +20010,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 8,
       description: ``,
       textColor: 'white',
       width: 55,
@@ -20034,567 +20088,6 @@ export const SERVICES_DATA = {
         },
       ],
     },
-
-    leadingTools: {
-      isVisible: false,
-      breakIndex: 4,
-      headingParts: [
-        {
-          text: 'Technologies We Use for iOS Development',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: [
-        `Our development team uses modern technologies and frameworks to create reliable and scalable iOS applications. By leveraging the latest tools in the Apple ecosystem, we ensure that every app delivers exceptional performance and user experience.`,
-        `Some of the technologies we commonly use include:`,
-      ],
-      isVariant: '03',
-      textColor: '',
-      bgImage: '',
-      bgColor: '',
-      list: [
-        {
-          img: iosAppDevLeadingToolsImg_1,
-          desc: 'Swift',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_2,
-          desc: 'Objective-C',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_3,
-          desc: 'Xcode',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_4,
-          desc: 'SwiftUI and UIKit',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_5,
-          desc: 'Firebase',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_6,
-          desc: 'REST APIs',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_7,
-          desc: 'Cloud platforms (AWS and Google Cloud)',
-        },
-      ],
-    },
-
-    industriesWeServe: {
-      isVisible: false,
-      code: '01',
-      bgColor: 'bg-[#FFFBF5]',
-      headingParts: [
-        {
-          text: 'Industries We Serve',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: [
-        `Our iOS app development solutions support a wide variety of industries, enabling businesses to deliver innovative digital experiences to their customers.`,
-      ],
-      isCard: false,
-      bgImg: '',
-      gridCols: 3,
-      imgWidth: 520,
-      imgHeight: 467,
-      list: [
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_1_gmywri.png',
-          btn: [`Fintech`],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_2_r3qlub.png',
-          btn: [`Healthcare`],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749340/adaired/services/ios_app_development/iosAppDevIndustriesImg_3_m5hp7t.png',
-          btn: [`E-commerce`],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_4_okdehb.png',
-          btn: [`Education`],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_5_vctvmh.png',
-          btn: [`Travel and Hospitality`],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749339/adaired/services/ios_app_development/iosAppDevIndustriesImg_6_rseu98.png',
-          btn: [`Fashion & Beauty`],
-        },
-      ],
-    },
-
-    techStackMobile: {
-      isVisible: false,
-      breakIndex: 4,
-      headingParts: [
-        {
-          text: 'Technologies We Use for iOS Development',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: [
-        `Our development team uses modern technologies and frameworks to create reliable and scalable iOS applications. By leveraging the latest tools in the Apple ecosystem, we ensure that every app delivers exceptional performance and user experience.`,
-        `Some of the technologies we commonly use include:`,
-      ],
-      ContentDescription: '',
-      navItems: [''],
-      mobileNavItems: [''],
-      list: [
-        [
-          { image: customWebDevTechStackImg_1, desc: 'Swift' },
-          { image: customWebDevTechStackImg_2, desc: 'Objective-C' },
-          { image: customWebDevTechStackImg_3, desc: 'Xcode' },
-          { image: customWebDevTechStackImg_4, desc: 'SwiftUI and UIKit' },
-          { image: customWebDevTechStackImg_5, desc: 'Firebase' },
-          { image: customWebDevTechStackImg_5, desc: 'REST APIs' },
-          {
-            image: customWebDevTechStackImg_5,
-            desc: 'Cloud platforms (AWS and Google Cloud)',
-          },
-        ],
-      ],
-    },
-
-    dataInTable: {
-      isVisible: false,
-      isInCenter: true,
-      bgColor: '#FAFAFA',
-      trColor: 'bg-[#7259FF]',
-      rowColor: 'bg-[#7259FF]/10',
-      isVariant: '01',
-      headingParts: [
-        {
-          text: 'Custom Web Development vs Traditional Web Development',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: [
-        `Here is a clear comparison table showing the difference between Web Development and Custom Web Development:`,
-      ],
-      data: [
-        {
-          desctioption: `Aspect`,
-          list: [
-            {
-              description: [`Definition`],
-            },
-            {
-              description: [`Development Approach`],
-            },
-            {
-              description: [`Customization Level`],
-            },
-            {
-              description: [`Development Time`],
-            },
-            {
-              description: [`Cost`],
-            },
-            {
-              description: [`Flexibility`],
-            },
-            {
-              description: [`Integration`],
-            },
-            {
-              description: [`Best Use Case`],
-            },
-          ],
-        },
-        {
-          desctioption: `Web Development`,
-          list: [
-            {
-              description: [
-                `The general process of building websites or web applications using available tools, frameworks, or CMS platforms.`,
-              ],
-            },
-            {
-              description: [
-                `Often uses prebuilt templates, themes, or platforms.`,
-              ],
-            },
-            {
-              description: [
-                `Limited to the features and structure provided by the platform.`,
-              ],
-            },
-            {
-              description: [
-                `Faster because many components are already built.`,
-              ],
-            },
-            {
-              description: [
-                `Usually lower due to faster development and prebuilt solutions.`,
-              ],
-            },
-            {
-              description: [
-                `May face limitations as the website grows or requires new features.`,
-              ],
-            },
-            {
-              description: [
-                `Limited flexibility depending on the platform being used.`,
-              ],
-            },
-            {
-              description: [
-                `Basic integrations with common tools and plugins.`,
-              ],
-            },
-            {
-              description: [
-                `Ideal for simple websites, blogs, portfolios, or small business sites.`,
-              ],
-            },
-          ],
-        },
-        {
-          desctioption: `Custom Web Development`,
-          list: [
-            {
-              description: [
-                `The process of building a website or web application is specifically tailored to the unique needs of a business.`,
-              ],
-            },
-            {
-              description: [
-                `Built from scratch or heavily customized to meet specific requirements.`,
-              ],
-            },
-            {
-              description: [
-                `Fully customizable design, features, and functionality.`,
-              ],
-            },
-            {
-              description: [
-                `Takes more time due to planning, design, and development from the ground up.`,
-              ],
-            },
-            {
-              description: [
-                `Generally higher because of custom design and development work.`,
-              ],
-            },
-            {
-              description: [
-                `Designed to scale easily as the business grows and needs evolve.`,
-              ],
-            },
-            {
-              description: [
-                `Highly flexible and adaptable to changing business requirements.`,
-              ],
-            },
-            {
-              description: [
-                `Can integrate with complex systems such as CRM, ERP, APIs, and custom tools.`,
-              ],
-            },
-            {
-              description: [
-                `Best for complex platforms, SaaS products, enterprise systems, or unique business processes.`,
-              ],
-            },
-          ],
-        },
-      ],
-    },
-
-    benefitofAiSeo: {
-      isVisible: false,
-      isVariant: '02',
-      isDecVarticle: true,
-      isInCenter: false,
-      breakIndex: 3,
-      activeDot: '#000000',
-      inactiveDot: '#9DA0A3',
-      bgColor: 'bg-[#FAFAFA]',
-      textColor: '#000000',
-      textBg: '#EEEEEE',
-      borderColor: '#00000014',
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: [
-        `As an experienced WordPress development agency, we offer a comprehensive range of WordPress development services designed to help businesses build powerful, scalable, and high-performing websites. `,
-      ],
-      list: [
-        {
-          name: 'Custom WordPress Website Development',
-          description: [
-            `Our custom WordPress website development services focus on building unique websites tailored specifically to your business needs. Instead of relying on generic templates, we design and develop fully customized WordPress websites that reflect your brand identity and provide an engaging user experience.`,
-          ],
-        },
-      ],
-    },
-
-    whatareservice2: {
-      isVisible: false,
-    },
-
-    whatMissing: {
-      isVisible: false,
-      bgColor: '#FFFCF8',
-      isInCenter: true,
-      isVariant: '02',
-      button: 'Dominate Search Results!',
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: [`The data is clear: SEO is not optional for SaaS growth.`],
-      list: [
-        {
-          icon: saasSeoMissing_1,
-          title: '',
-          description: [
-            `Research shows that 66% of B2B SaaS buyers rely on search engines to evaluate and compare solutions before making a purchase decision. (Statista)`,
-          ],
-        },
-        {
-          icon: saasSeoMissing_1,
-          title: '',
-          description: [
-            `SEO not only improves SaaS rankings in SERPs but also increases visibility in emerging AI-powered search features and overviews, expanding brand exposure. (Forbes)`,
-          ],
-        },
-        {
-          icon: saasSeoMissing_1,
-          title: '',
-          description: [
-            `Data reveals that 70% of SaaS companies believe SEO generates stronger long-term sales results compared to PPC advertising. (Databox)`,
-          ],
-        },
-        {
-          icon: saasSeoMissing_1,
-          title: '',
-          description: [
-            `Organic search contributes 14.3% of total leads for SaaS businesses, making SEO one of the most consistent acquisition channels. (Sixth City Marketing)`,
-          ],
-        },
-      ],
-    },
-
-    whatIncluded: {
-      isVisible: false,
-    },
-
-    needofservice: {
-      isVisible: false,
-      isVariant: '04',
-      isBgCornerImg: true,
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      data: [
-        {
-          desctioption: `White label SEO seeks to separate client ownership and service delivery. 
-          The agency remains the primary point of contact, but SEO fulfillment is handled externally.`,
-        },
-        {
-          desctioption: `Client acquisition, onboarding, and relationship management are handled entirely by the agency. 
-          The client receives SEO services directly from the agency they hired.`,
-        },
-        {
-          desctioption: `At Adaired, as a leading white-label SEO company, we do SEO execution, including research, optimization, 
-          and ongoing maintenance, which takes place quietly in the background. 
-          This allows agencies to provide SEO services without expanding their internal teams or infrastructure.`,
-        },
-        {
-          desctioption: `Furthermore, we ensure that all reporting, documentation, and performance updates are delivered using the agency's branding. 
-          Communication follows the agency's processes, ensuring continuity and brand integrity.`,
-        },
-      ],
-    },
-
-    serviceResult: {
-      isVisible: false,
-      breakIndex: 5,
-      bgColor: true,
-      isInCenter: true,
-      textColor: '',
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      isVariant: '03',
-      description: [
-        `Outsourcing SEO services is used across different types of agencies and service providers, 
-        primarily as a way to support ongoing search optimization without expanding internal teams. 
-        The following use cases reflect common operational scenarios:`,
-      ],
-      isBgColor: true,
-      img: WhiteSeoServiceResultImg,
-      list: [
-        {
-          img: whiteSeoResult_1,
-          name: 'Web Design Agencies Adding SEO Retainers',
-          description: [
-            `Web design agencies often introduce SEO as a recurring service after a website launch. 
-            White label SEO allows these agencies to offer ongoing optimization, monitoring, and reporting without building a dedicated SEO department.`,
-          ],
-        },
-        {
-          img: whiteSeoResult_2,
-          name: 'PPC Agencies Expanding into Organic Search',
-          description: [
-            `Paid media agencies frequently complement pay-per-click services with organic search offerings. 
-            White label SEO enables PPC-focused teams to support long-term visibility and traffic growth alongside paid campaigns.`,
-          ],
-        },
-        {
-          img: whiteSeoResult_3,
-          name: 'Consultants Supporting Long-Term SEO Clients',
-          description: [
-            `Independent consultants and marketing advisors may use white-label SEO to fulfill execution-heavy tasks while remaining focused on strategy and client management. 
-            This model supports continuity for clients requiring ongoing optimization.`,
-          ],
-        },
-        {
-          img: whiteSeoResult_4,
-          name: 'Multi-Location or Franchise SEO Support',
-          description: [
-            `Businesses operating across multiple locations often require scalable and standardized SEO execution. 
-            White label SEO supports consistent optimization, reporting, and performance tracking across regions while maintaining centralized brand control.`,
-          ],
-        },
-      ],
-    },
-
-    getsCredit: {
-      isVisible: false,
-      code: '01',
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      isCard: false,
-      list: [
-        {
-          description: [`SEO audits & strategy`],
-        },
-        {
-          description: [`Ongoing optimization`],
-        },
-        {
-          description: [`100% brand-safe delivery`],
-        },
-        {
-          description: [`Rank tracking & white-label reporting`],
-        },
-      ],
-    },
-
-    getplan: {
-      isVisible: false,
-      isLabel: false,
-      subtitle: '',
-      bgImage: stop_struggle2,
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
-    },
-
-    stopStruggling: {
-      isVisible: false,
-      isCenter: true,
-      subtitle: '',
-      headingParts: [
-        {
-          text: '',
-          color: '#FFFFFF',
-          weight: '700',
-        },
-      ],
-      description: [
-        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
-      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
-      ],
-      textColor: '',
-      button: '',
-      bgImg: whiteStruggleBg,
-      isHoverBgBlue: true,
-    },
-
-    industryLeaders: {
-      isVisible: false,
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description:
-        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
-      bgImage: leadingToolsImg,
-    },
-
-    leadingToolsForPerformence: {
-      isVisible: false,
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description:
-        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
-      bgImage: '',
-    },
-
-    notSeeingResult: {
-      isVisible: false,
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: '',
-      buttonName: '',
-      img: LocalNotSee,
-      bgImage: LocalNotSeeBg,
-    },
   },
   'android-app-development-company': {
     sectionsOrder: [
@@ -20663,7 +20156,6 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '04',
       breakIndex: 6,
-      paddingY: '4rem',
       isRowReverse: true,
       width: 55,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773898274/adaired/services/android_app_Dev/Group_1000007765_we9ykn.png',
@@ -21059,10 +20551,12 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 1,
+      customGap: '8rem',
       description: ``,
       textColor: 'white',
       width: 50,
-      paddingY: '3rem',
+      customPadding: '3rem, 3rem',
       isGap: true,
       data: [
         {
@@ -21137,74 +20631,6 @@ export const SERVICES_DATA = {
         },
       ],
     },
-
-    keyStats: {
-      isVisible: false,
-    },
-
-    whatMkeDeferent: {
-      isVisible: false,
-    },
-
-    leadingTools: {
-      isVisible: false,
-    },
-
-    industriesWeServe: {
-      isVisible: false,
-    },
-
-    techStackMobile: {
-      isVisible: false,
-    },
-
-    dataInTable: {
-      isVisible: false,
-    },
-
-    whatareservice2: {
-      isVisible: false,
-    },
-
-    whatMissing: {
-      isVisible: false,
-    },
-
-    whatIncluded: {
-      isVisible: false,
-    },
-
-    needofservice: {
-      isVisible: false,
-    },
-
-    serviceResult: {
-      isVisible: false,
-    },
-
-    getsCredit: {
-      isVisible: false,
-    },
-
-    getplan: {
-      isVisible: false,
-    },
-
-    stopStruggling: {
-      isVisible: false,
-    },
-
-    industryLeaders: {
-      isVisible: false,
-    },
-
-    leadingToolsForPerformence: {
-      isVisible: false,
-    },
-
-    notSeeingResult: {
-      isVisible: false,
-    },
   },
   'cross-platform-app-development': {
     sectionsOrder: [
@@ -21248,7 +20674,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       heading2: '#1 on Google Maps: Get Seen by Local Customers',
       isStyleHeading: true,
-      customPadding: '2rem, 2rem',
+      customPadding: '4rem, 4rem',
       headingParts: [
         { text: 'Cross-Platform App', color: '#000000', weight: '400' },
         {
@@ -21669,6 +21095,9 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 2,
+      customPadding: '2rem, 2rem',
+      customGap: '8rem',
       description: ``,
       textColor: 'white',
       width: 50,
@@ -21745,74 +21174,6 @@ export const SERVICES_DATA = {
           ],
         },
       ],
-    },
-
-    importantToBussiness: {
-      isVisible: false,
-    },
-
-    whatMkeDeferent: {
-      isVisible: false,
-    },
-
-    keyStats: {
-      isVisible: false,
-    },
-
-    leadingTools: {
-      isVisible: false,
-    },
-
-    industriesWeServe: {
-      isVisible: false,
-    },
-
-    techStackMobile: {
-      isVisible: false,
-    },
-
-    dataInTable: {
-      isVisible: false,
-    },
-
-    whatareservice2: {
-      isVisible: false,
-    },
-
-    whatIncluded: {
-      isVisible: false,
-    },
-
-    needofservice: {
-      isVisible: false,
-    },
-
-    serviceResult: {
-      isVisible: false,
-    },
-
-    getsCredit: {
-      isVisible: false,
-    },
-
-    getplan: {
-      isVisible: false,
-    },
-
-    stopStruggling: {
-      isVisible: false,
-    },
-
-    industryLeaders: {
-      isVisible: false,
-    },
-
-    leadingToolsForPerformence: {
-      isVisible: false,
-    },
-
-    notSeeingResult: {
-      isVisible: false,
     },
   },
   'wearables-app-development': {
@@ -21942,7 +21303,6 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '04',
       breakIndex: 0,
-      paddingY: '2rem',
       isRowReverse: true,
       width: 60,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773905921/adaired/services/wearables_app_development/wearablesAppDevWhatServiceImg_kkg2jr.png',
@@ -21955,6 +21315,9 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 2,
+      customPadding: '2rem, 2rem',
+      customGap: '6rem',
       bgColor: '#000000',
       textColor: '#FFFFFF',
       isGap: false,
@@ -22339,6 +21702,9 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 2,
+      customGap: '8rem',
+      customPadding: '2rem , 0rem',
       description: ``,
       textColor: 'white',
       width: 50,
@@ -22417,70 +21783,6 @@ export const SERVICES_DATA = {
         },
       ],
     },
-
-    whatMissing: {
-      isVisible: false,
-    },
-
-    whatMkeDeferent: {
-      isVisible: false,
-    },
-
-    leadingTools: {
-      isVisible: false,
-    },
-
-    industriesWeServe: {
-      isVisible: false,
-    },
-
-    techStackMobile: {
-      isVisible: false,
-    },
-
-    dataInTable: {
-      isVisible: false,
-    },
-
-    whatareservice2: {
-      isVisible: false,
-    },
-
-    whatIncluded: {
-      isVisible: false,
-    },
-
-    needofservice: {
-      isVisible: false,
-    },
-
-    serviceResult: {
-      isVisible: false,
-    },
-
-    getsCredit: {
-      isVisible: false,
-    },
-
-    getplan: {
-      isVisible: false,
-    },
-
-    stopStruggling: {
-      isVisible: false,
-    },
-
-    industryLeaders: {
-      isVisible: false,
-    },
-
-    leadingToolsForPerformence: {
-      isVisible: false,
-    },
-
-    notSeeingResult: {
-      isVisible: false,
-    },
   },
   'google-ads-management-company': {
     sectionsOrder: [
@@ -22525,7 +21827,7 @@ export const SERVICES_DATA = {
       heading2: '#1 on Google Maps: Get Seen by Local Customers',
       isAbsolute: false,
       isStyleHeading: true,
-      span:"Struggling to see results from your Google Ads?",
+      span: 'Struggling to see results from your Google Ads?',
       headingParts: [
         {
           text: 'Maximize ROI with a',
@@ -22607,7 +21909,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '04',
       breakIndex: 0,
-      paddingY: '2rem',
+      customPadding: '4rem, 3rem',
       isRowReverse: false,
       width: 70,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774000299/adaired/services/google_ads_mgt/googleAdsWhatServiceImg_ki1nwj.png',
@@ -22620,6 +21922,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 0,
       bgColor: '#000000',
       textColor: '#FFFFFF',
       isGap: true,
@@ -22640,7 +21943,7 @@ export const SERVICES_DATA = {
             'Landing page alignment',
             'Continuous A/B testing',
             'Detailed tracking',
-          ]
+          ],
         },
         {
           desctioption: `Whether you're looking to generate leads, increase online sales, or boost brand visibility, professional Google Ads management helps turn your ad spend into measurable business growth.`,
@@ -22933,10 +22236,10 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPadding: '3rem, 3rem',
       description: ``,
       textColor: 'white',
       width: 50,
-      paddingY: '2rem',
       customGap: '10rem',
       isFirstParaBold: false,
       data: [
