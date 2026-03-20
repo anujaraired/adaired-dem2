@@ -33,6 +33,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
           >
             <div
               className={`my-auto w-[100%] lg:w-[${`${whatareaiseo.width}%`}] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+              
             >
               <Heading
                 className="flex justify-center lg:justify-start"
