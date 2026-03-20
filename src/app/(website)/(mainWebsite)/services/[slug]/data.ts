@@ -72,8 +72,8 @@ import stepwhitelabellinkbuild6 from '../../../../../../public/assets/images/ser
 
 import NotSeeingResultsBg from '../../../../../../public/assets/NotSeeingResultsBg.png';
 import leadingToolsImg from '../../../../../../public/assets/leadingTools.png';
-import what_are_ai_seo from '../../../../../../public/assets/images/what_are_ai_seo.png';
-import what_are_ai_seo2 from '../../../../../../public/assets/what_are_ai_seo2.png';
+// import what_are_ai_seo from '../../../../../../public/assets/images/what_are_ai_seo.png';
+// import what_are_ai_seo2 from '../../../../../../public/assets/what_are_ai_seo2.png';
 import importantIcon_1 from '../../../../../../public/assets/aiseo/importantIcon_1.svg';
 import importantIcon_2 from '../../../../../../public/assets/aiseo/importantIcon_2.svg';
 import importantIcon_3 from '../../../../../../public/assets/aiseo/importantIcon_3.svg';
@@ -118,7 +118,7 @@ import adairedHelp_icon_8 from '../../../../../../public/assets/adairedHelp/help
 import adairedHelp_icon_9 from '../../../../../../public/assets/adairedHelp/help_icon_9.svg';
 import adairedHelp_icon_10 from '../../../../../../public/assets/adairedHelp/help_icon_10.svg';
 
-import StrugglingImgSEO from '../../../../../../public/assets/images/Struggling.png';
+// import StrugglingImgSEO from '../../../../../../public/assets/images/Struggling.png';
 import StrugglingImgAISEO from '../../../../../../public/assets/aiseo/AISEORESULT.png';
 
 import adaairedHelpSEO from '../../../../../../public/assets/images/adaairedHelp.png';
@@ -162,7 +162,7 @@ import BeautifulDesign from '../../../../../../public/assets/images/beautiful_de
 import NotSeeingResult from '../../../../../../public/assets/aiseo/NotSeeingResults.png';
 import Everydayyouwait from '../../../../../../public/assets/aiseo/Everydayyouwait.png';
 import keyStatsImg from '../../../../../../public/assets/images/SEO-keyword-ranking-software 1.png';
-import keyStatsImg2 from '../../../../../../public/assets/keyStatsImg.png';
+// import keyStatsImg2 from '../../../../../../public/assets/keyStatsImg.png';
 import WhatIsAuthorityLinkBuilding from '../../../../../../public/assets/images/link_builng_img.png';
 import WhatAreService from '../../../../../../public/assets/images/Development_Services.png';
 
@@ -787,7 +787,7 @@ export const SERVICES_DATA = {
       imgWidth: '594',
       imgHeight: '675',
       width: 40,
-      img: keyStatsImg2,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774008445/adaired/services/seo/keyStatsImg_bmfouo.png',
       list: [
         {
           icon: '',
@@ -819,8 +819,8 @@ export const SERVICES_DATA = {
 
     whatareservice: {
       isVisible: true,
-      isVariant: '01',
-      img: what_are_ai_seo2,
+      isVariant: '04',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774008577/adaired/services/seo/what_are_ai_seo2_ukuqxl.png',
       headingParts: [
         {
           text: 'What Are SEO Services?',
@@ -830,6 +830,10 @@ export const SERVICES_DATA = {
       ],
       bgColor: '#FFFCF8',
       button: '',
+      width: 50,
+      paddingY: '4rem',
+      imgWidth: '652',
+      imgHight: '568',
       data: [
         {
           desctioption: `Search Engine Optimization services focus on improving a website’s visibility in search engine results pages (SERPs). It is aimed at ensuring that websites appear higher in relevant searches, which will enable people to find accurate and useful information online.`,
@@ -1055,7 +1059,7 @@ export const SERVICES_DATA = {
       bgImage: '',
       bgColor: '#FFF9F1',
       titleColor: '#FB9100',
-      img: StrugglingImgSEO,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774009365/adaired/services/seo/Struggling_sul8ec.png',
       imgHight: '585px',
       description: [
         `Adaired, a leading SEO agency, puts your business at the forefront of technology with the help of proven SEO strategies. 
@@ -1688,7 +1692,7 @@ export const SERVICES_DATA = {
     whatareservice: {
       isVisible: true,
       isVariant: '04',
-      img: what_are_ai_seo,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774009805/adaired/services/ai_seo/what_are_ai_seo_pfumrm.png',
       headingParts: [
         {
           text: 'What Are AI SEO Services?',
@@ -1699,8 +1703,8 @@ export const SERVICES_DATA = {
       bgColor: '#000000',
       textColor: '#FFFFFF',
       width: 50,
-      imgWidth: '603px',
-      imgHight: '494px',
+      imgWidth: '603',
+      imgHight: '493',
       button: 'Get Started',
       data: [
         {
@@ -22632,8 +22636,8 @@ export const SERVICES_DATA = {
           list: [
             'Strategic keyword selection',
             'High-converting ad copies',
-            'Smart bidding and budget allocation',
-            'Landing page alignment for better conversions',
+            'Bidding and budget allocation',
+            'Landing page alignment',
             'Continuous A/B testing',
             'Detailed tracking',
           ]
