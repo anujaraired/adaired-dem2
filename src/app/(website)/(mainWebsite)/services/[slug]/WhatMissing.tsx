@@ -178,7 +178,7 @@ const WhatMissing = ({ whatMissing }: any) => {
                       alt="icons"
                       width={80}
                       height={80}
-                      className="object-contain h-[60px] w-[60px] md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px]"
+                      className="h-[60px] w-[60px] object-contain md:h-[70px] md:w-[70px] lg:h-[80px] lg:w-[80px]"
                     />
                   </div>
 

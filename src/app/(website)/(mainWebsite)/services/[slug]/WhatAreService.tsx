@@ -9,7 +9,6 @@ import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
 import { BiSolidBadgeCheck } from 'react-icons/bi';
 import { BsCheckAll } from 'react-icons/bs';
 import CldImage from '@/app/(website)/components/UI/CldImage';
-import Button from '@/app/(website)/common/Button';
 const WhatAreService = ({ whatareaiseo }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
   const [open, setOpen] = useState(false);
@@ -121,7 +120,11 @@ const WhatAreService = ({ whatareaiseo }: any) => {
         <div
           className={`${whatareaiseo?.isBgWhite ? 'bg-gradient-to-b from-black to-[#051C40]' : 'bg-[#FFFCF8] py-[3rem] lg:py-[4rem]'}`}
         >
-          <MaxWidthWrapper isGap={false} className="relative grid grid-cols-1 gap-[1rem] lg:grid-cols-2 lg:gap-[4rem]">
+          <MaxWidthWrapper
+            customPaddingRight={whatareaiseo?.customPaddingRight}
+            customPaddingLeft={whatareaiseo?.customPaddingLeft}
+            className="relative grid grid-cols-1 gap-[1rem] lg:grid-cols-2 lg:gap-[4rem]"
+          >
             <div
               className={`order-2 my-auto flex flex-col items-center py-[4rem] transition-all duration-1000 lg:order-1 lg:items-start ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
@@ -154,10 +157,11 @@ const WhatAreService = ({ whatareaiseo }: any) => {
             </div>
             <div
               ref={ref}
-              className={`right-0 top-0 flex -translate-y-0 justify-center transition-all duration-1000 lg:absolute lg:right-[-5%] lg:top-1/2 lg:flex lg:-translate-y-1/2 lg:justify-end ${isVisible
-                ? 'translate-x-0 opacity-100'
-                : 'translate-x-12 opacity-0'
-                }`}
+              className={`right-0 top-0 flex -translate-y-0 justify-center transition-all duration-1000 lg:absolute lg:right-[-5%] lg:top-1/2 lg:flex lg:-translate-y-1/2 lg:justify-end ${
+                isVisible
+                  ? 'translate-x-0 opacity-100'
+                  : 'translate-x-12 opacity-0'
+              }`}
             >
               <Image
                 src={whatareaiseo?.img}
@@ -183,10 +187,10 @@ const WhatAreService = ({ whatareaiseo }: any) => {
         >
           <MaxWidthWrapper
             isRowReverse={whatareaiseo?.isRowReverse}
-            isGap={whatareaiseo?.isGap}
+            customPaddingRight={whatareaiseo?.customPaddingRight}
+            customPaddingLeft={whatareaiseo?.customPaddingLeft}
             className={`block ${whatareaiseo?.isRowReverse && 'flex-row-reverse'} justify-between lg:flex`}
-            style={{ gap: whatareaiseo?.customGap || "4rem" }}
-
+            style={{ gap: whatareaiseo?.customGap || '4rem' }}
           >
             <div
               className={`my-auto w-[100%] lg:w-[${`${whatareaiseo.width}%`}] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
@@ -196,7 +200,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 headingParts={whatareaiseo?.headingParts}
                 spanColor="text-[#FBD04F]"
                 breakIndex={whatareaiseo?.breakIndex}
-              // isBgWhite={whatareaiseo?.bgColor && true}
+                // isBgWhite={whatareaiseo?.bgColor && true}
               />
               <div className="">
                 {whatareaiseo?.data?.map((item: any, index: number) => {
@@ -254,7 +258,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                   
                   className='mt-[2rem]' />
               )} */}
-              <div className='flex justify-center lg:justify-start'>
+              <div className="flex justify-center lg:justify-start">
                 {whatareaiseo?.button && (
                   <SaveAndCancel
                     name={whatareaiseo?.button}
@@ -326,16 +330,18 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                   return (
                     <div key={index} className="space-y-4">
                       <p
-                        className={`py-1 text-center lg:text-justify ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
-                          }`}
+                        className={`py-1 text-center lg:text-justify ${
+                          whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
+                        }`}
                       >
                         {item?.desctioption}
                       </p>
                       <div
-                        className={`grid w-fit pb-4 ${item?.list?.length > 4
-                          ? 'grid-cols-1 md:grid-cols-3'
-                          : 'grid-cols-1 md:grid-cols-2'
-                          }`}
+                        className={`grid w-fit pb-4 ${
+                          item?.list?.length > 4
+                            ? 'grid-cols-1 md:grid-cols-3'
+                            : 'grid-cols-1 md:grid-cols-2'
+                        }`}
                       >
                         {item?.list?.map((listItem: any, listIndex: number) => (
                           <div
@@ -351,8 +357,9 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                               (desc: string, descIndex: number) => (
                                 <p
                                   key={descIndex}
-                                  className={`text-left ${whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
-                                    }`}
+                                  className={`text-left ${
+                                    whatareaiseo?.isBgWhite && 'text-[#FFFFFF]'
+                                  }`}
                                 >
                                   {desc}
                                 </p>

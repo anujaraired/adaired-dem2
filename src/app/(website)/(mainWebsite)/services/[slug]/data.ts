@@ -3916,7 +3916,7 @@ export const SERVICES_DATA = {
       span: 'Get discovered by the customers who are searching for your business right now',
       button: 'Book a Strategy Call',
       subheading: '',
-      width: 50,
+      width: 40,
       img: localBannerBg,
       imgWidth: '727',
       imgHight: '598',
