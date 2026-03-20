@@ -557,7 +557,6 @@ import eCommerceSEO_whatIncluded6 from '../../../../../../public/assets/images/s
 
 // custom Web Development Images
 import customWebDevKeyStatsImg from '../../../../../../public/assets/images/services/customWebDev/customWebDevKeyStatsImg.png';
-import customWebDevWhatAreServiceImg from '../../../../../../public/assets/images/services/customWebDev/customWebDevWhatAreServiceImg.png';
 
 import customWebDevImpIcon_1 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_1.png';
 import customWebDevImpIcon_2 from '../../../../../../public/assets/images/services/customWebDev/customWebDevImpIcon_2.png';
@@ -586,7 +585,6 @@ import customWebDevTechStackImg_5 from '../../../../../../public/assets/images/s
 
 // IOS App Development Images
 import iosAppDevKeyStatsImg from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevKeyStatsImg.png';
-import iosAppDevWhatServiceImg from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevWhatServiceImg.png';
 
 import iosAppDevImpImg_1 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevImpImg_1.png';
 import iosAppDevImpImg_2 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevImpImg_2.png';
@@ -614,8 +612,6 @@ import iosAppDevLeadingToolsImg_6 from '../../../../../../public/assets/images/s
 import iosAppDevLeadingToolsImg_7 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevLeadingToolsImg_7.png';
 
 // Social Media Management Images
-import socialMediaMgtWhatServiceImg from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtWhatServiceImg.png';
-
 import socialMediaMgtProcessIcon_1 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtProcessIcon_1.png';
 import socialMediaMgtProcessIcon_2 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtProcessIcon_2.png';
 import socialMediaMgtProcessIcon_3 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtProcessIcon_3.png';
@@ -649,8 +645,6 @@ import ourProcess_AndroidAppIcon5 from '../../../../../../public/assets/images/s
 import ourProcess_AndroidAppIcon6 from '../../../../../../public/assets/images/services/androidAppDevelopment/ourProcess_AndroidAppIcon6.svg';
 
 // Cross-platform App Development Images
-import crossPlatformWhatServiceImg from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatServiceImg.png';
-
 import crossPlatformProcessIcon_1 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformProcessIcon_1.png';
 import crossPlatformProcessIcon_2 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformProcessIcon_2.png';
 import crossPlatformProcessIcon_3 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformProcessIcon_3.png';
@@ -667,7 +661,6 @@ import crossPlatformWhatMissingIcon_5 from '../../../../../../public/assets/imag
 import crossPlatformWhatMissingIcon_6 from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatMissingIcon_6.png';
 
 // Wearables App Development Images
-import wearablesAppDevWhatServiceImg from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevWhatServiceImg.png';
 import wearablesAppDevKeyStatsIcon from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevKeyStatsIcon.png';
 
 import wearablesAppDevProcessIcon_1 from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevProcessIcon_1.png';
@@ -17571,10 +17564,9 @@ export const SERVICES_DATA = {
       paddingY: '4rem',
       isRowReverse: true,
       width: 65,
-      img: customWebDevWhatAreServiceImg,
-      // img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388292/adaired/services/custom_web_development/customWebDevWhatAreServiceImg_ropdfp.png',
-      imgWidth: '836px',
-      imgHight: '558px',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773388292/adaired/services/custom_web_development/customWebDevWhatAreServiceImg_ropdfp.png',
+      imgWidth: '836',
+      imgHight: '558',
       headingParts: [
         {
           text: 'What is Custom Web Development?',
@@ -18385,10 +18377,9 @@ export const SERVICES_DATA = {
       paddingY: '4rem',
       isRowReverse: true,
       width: 65,
-      img: iosAppDevWhatServiceImg,
-      // img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749236/adaired/services/ios_app_development/iosAppDevWhatServiceImg_hmwdgq.png',
-      imgWidth: '931px',
-      imgHight: '621px',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749236/adaired/services/ios_app_development/iosAppDevWhatServiceImg_hmwdgq.png',
+      imgWidth: '931',
+      imgHight: '621',
       headingParts: [
         {
           text: 'What is iOS App Development?',
@@ -19480,10 +19471,9 @@ export const SERVICES_DATA = {
       paddingY: '4rem',
       isRowReverse: false,
       width: 50,
-      img: socialMediaMgtWhatServiceImg,
-      // img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtWhatServiceImg_btxnjr.png',
-      imgWidth: '494px',
-      imgHight: '494px',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtWhatServiceImg_btxnjr.png',
+      imgWidth: '494',
+      imgHight: '494',
       headingParts: [
         {
           text: 'What is Social Media Management?',
@@ -20660,7 +20650,6 @@ export const SERVICES_DATA = {
       paddingY: '4rem',
       isRowReverse: true,
       width: 55,
-      // img: socialMediaMgtWhatServiceImg,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773898274/adaired/services/android_app_Dev/Group_1000007765_we9ykn.png',
       imgWidth: '652',
       imgHight: '625',
@@ -21274,10 +21263,9 @@ export const SERVICES_DATA = {
       paddingY: '4rem',
       isRowReverse: true,
       width: 60,
-      img: crossPlatformWhatServiceImg,
-      // img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773900427/adaired/services/cross_platform_app_development/crossPlatformWhatServiceImg_rqsb4n.png',
-      imgWidth: '652px',
-      imgHight: '625px',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773900427/adaired/services/cross_platform_app_development/crossPlatformWhatServiceImg_rqsb4n.png',
+      imgWidth: '652',
+      imgHight: '625',
       headingParts: [
         {
           text: 'What is Cross-Platform App Development?',
@@ -21745,489 +21733,30 @@ export const SERVICES_DATA = {
 
     importantToBussiness: {
       isVisible: false,
-      isInCenter: false,
-      breakIndex: 2,
-      isVariant: '02',
-      cardColor: '#F9F9F9',
-      headingParts: [
-        {
-          text: 'Connecting You Across Every Major Platform',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: [
-        `We manage and optimize your presence across the most impactful social media platforms, ensuring your brand reaches the right audience with the right message at the right time.`,
-        ` Each platform requires a unique strategy, content style, and engagement approach, and we tailor our efforts accordingly.`,
-      ],
-      buttonName: '',
-      data: [
-        {
-          icon: socialMediaMgtImpIcon_1,
-          name: 'Instagram',
-          description: [
-            `Instagram is a powerful visual platform designed for brand storytelling and audience engagement. We create high-quality posts, reels, carousels, and stories that capture attention within seconds.`,
-            `Our strategy focuses on consistent branding, trending formats, hashtag research, and interactive content such as polls and Q&As.`,
-            `By combining creative visuals with strong captions and calls-to-action, we help grow your followers, boost engagement rates, and improve overall brand visibility.`,
-          ],
-          button: '',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: socialMediaMgtImpIcon_2,
-          name: 'Facebook',
-          description: [
-            `Facebook remains one of the strongest platforms for community building and targeted advertising.`,
-            `Adaired Digital Media manages business pages, creates engaging posts, runs promotional campaigns, and optimizes ad performance to reach specific audience segments.`,
-            `From local businesses to growing brands, we leverage Facebook’s advanced targeting capabilities to increase awareness, drive website traffic, and generate leads.`,
-          ],
-          button: '',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: socialMediaMgtImpIcon_3,
-          name: 'LinkedIn',
-          description: [
-            `LinkedIn is essential for professional branding and B2B growth. We craft thought-leadership content, industry insights, company updates, and professional visuals to position your brand as an authority in your field.`,
-            `Our strategy focuses on networking, audience targeting, and credibility-building content that strengthens trust and attracts high-value connections.`,
-          ],
-          button: '',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: socialMediaMgtImpIcon_4,
-          name: 'YouTube',
-          description: [
-            `YouTube is one of the most influential platforms for long-form content and product discovery.`,
-            `We assist with content planning, video optimization, title and description strategy, thumbnail concepts, and audience engagement techniques.`,
-            `By improving discoverability and retention, we help your brand build credibility and long-term visibility through consistent video marketing.`,
-          ],
-          button: '',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: socialMediaMgtImpIcon_5,
-          name: 'TikTok',
-          description: [
-            `TikTok thrives on creativity and trends. We develop short-form video strategies that align with trending formats while staying authentic to your brand voice.`,
-            `Our focus is on capturing attention quickly, encouraging interaction, and increasing organic reach through consistent and engaging content.`,
-          ],
-          button: '',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: socialMediaMgtImpIcon_6,
-          name: 'X',
-          description: [
-            `X is ideal for real-time communication, industry conversations, and brand personality.`,
-            `We create engaging short-form updates, participate in relevant discussions, and help maintain an active presence that keeps your brand visible and worthy.`,
-          ],
-          button: '',
-          btnColor: '#FB9100',
-        },
-      ],
     },
 
     whatMkeDeferent: {
       isVisible: false,
-      isVariant: '01',
-      breakIndex: 5,
-      isInCenter: false,
-      bgColor: false,
-      bgGradient: 'bg-[#FFFFFF]',
-      cardColor2: '#FFF8F0',
-      cardColor: '#FBFBFB',
-      cardImgBgColor2: '#FFF2DF',
-      cardImgBgColor: '#F3F3F3',
-      borderColor2: '#FB9100',
-      borderColor: '#000000',
-      headingParts: [
-        {
-          text: 'Why Pick Adaired Digital to Manage Your Social Media Accounts?',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: [
-        'At Adaired Digital Media, we’re more than just a social media service; we’re your strategic partner in growing your online presence.',
-        `Here’s why businesses trust us to manage their social media:`,
-      ],
-      list: [
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_1_tskaab.png',
-          name: 'Expertise & Experience',
-          description: [
-            `Our team consists of social media specialists, content creators, and strategists with proven experience across multiple industries. We understand platform trends, audience behavior, and what drives engagement and conversions.`,
-          ],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_2_zgzuwo.png',
-          name: 'Custom Strategies for Your Brand',
-          description: [
-            `We don’t use one-size-fits-all solutions. Every brand gets a tailored social media plan based on its unique goals, audience, and market. Your content, campaigns, and engagement are designed specifically to meet your objectives.`,
-          ],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821669/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_3_ku4940.png',
-          name: 'Data-Driven Approach',
-          description: [
-            `We measure everything. From engagement rates to conversions, we monitor metrics closely and optimize campaigns for maximum results. Decisions are guided by data, not guesswork.`,
-          ],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821669/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_4_rlpksv.png',
-          name: 'Consistent Branding & Quality Content',
-          description: [
-            `We maintain your brand voice, aesthetics, and messaging across all platforms. Our content is scroll-stopping, engaging, and strategically designed to strengthen your identity online.`,
-          ],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821668/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_5_hwiddr.png',
-          name: 'Community Engagement',
-          description: [
-            `We don’t just post content; we help you build meaningful connections. Through responsive community management and interactive content, we foster loyalty, trust, and long-term engagement.`,
-          ],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821668/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_6_hqvkgf.png',
-          name: 'Transparent Reporting & Communication',
-          description: [
-            `You’ll always know how your social media is performing. We provide detailed reports, insights, and recommendations so you’re fully informed about your growth and ROI.`,
-          ],
-        },
-      ],
     },
 
     keyStats: {
       isVisible: false,
-      code: '02',
-      breakIndex: 0,
-      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773836300/adaired/services/social_media_management/socialMediaMgtKeyStatsImg_zywqa6.png',
-      headingParts: [
-        {
-          text: 'Why Do You Need a Custom Social Media Plan?',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      bgColor: '#FB9100',
-      isImgBg: true,
-      isCard: false,
-      imgWidth: '620',
-      imgHeight: '725',
-      width: 40,
-      list: [
-        {
-          icon: iosAppDevKeyStatsImg,
-          desctioption: [
-            `Over 5.66 billion people use social media worldwide in 2026, making it one of the most powerful digital channels for brand visibility.`,
-          ],
-        },
-        {
-          icon: iosAppDevKeyStatsImg,
-          desctioption: [
-            `The average user switches between 6–7 different social platforms each month, giving brands multiple touchpoints to connect and engage.`,
-          ],
-        },
-        {
-          icon: iosAppDevKeyStatsImg,
-          desctioption: [
-            `Users spend an average of 2 hours and 40 minutes daily on social media apps, creating massive opportunities for consistent brand exposure.`,
-          ],
-        },
-        {
-          icon: iosAppDevKeyStatsImg,
-          desctioption: [
-            `Platforms like YouTube, TikTok, and Instagram now drive over 60% of product discovery, reshaping how consumers find and evaluate brands.`,
-          ],
-        },
-        {
-          icon: iosAppDevKeyStatsImg,
-          desctioption: [
-            `52% of users prefer social search to discover user-generated content and authentic experiences, highlighting the growing importance of community-driven marketing.`,
-          ],
-        },
-      ],
     },
 
     leadingTools: {
       isVisible: false,
-      breakIndex: 4,
-      headingParts: [
-        {
-          text: 'Technologies We Use for iOS Development',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: [
-        `Our development team uses modern technologies and frameworks to create reliable and scalable iOS applications. By leveraging the latest tools in the Apple ecosystem, we ensure that every app delivers exceptional performance and user experience.`,
-        `Some of the technologies we commonly use include:`,
-      ],
-      isVariant: '03',
-      textColor: '',
-      bgImage: '',
-      bgColor: '',
-      list: [
-        {
-          img: iosAppDevLeadingToolsImg_1,
-          desc: 'Swift',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_2,
-          desc: 'Objective-C',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_3,
-          desc: 'Xcode',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_4,
-          desc: 'SwiftUI and UIKit',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_5,
-          desc: 'Firebase',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_6,
-          desc: 'REST APIs',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_7,
-          desc: 'Cloud platforms (AWS and Google Cloud)',
-        },
-      ],
     },
 
     industriesWeServe: {
       isVisible: false,
-      code: '01',
-      bgColor: 'bg-[#FFFBF5]',
-      headingParts: [
-        {
-          text: 'Industries We Serve',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: [
-        `Our iOS app development solutions support a wide variety of industries, enabling businesses to deliver innovative digital experiences to their customers.`,
-      ],
-      isCard: false,
-      bgImg: '',
-      gridCols: 3,
-      imgWidth: 520,
-      imgHeight: 467,
-      list: [
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_1_gmywri.png',
-          btn: [`Fintech`],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_2_r3qlub.png',
-          btn: [`Healthcare`],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749340/adaired/services/ios_app_development/iosAppDevIndustriesImg_3_m5hp7t.png',
-          btn: [`E-commerce`],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_4_okdehb.png',
-          btn: [`Education`],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_5_vctvmh.png',
-          btn: [`Travel and Hospitality`],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749339/adaired/services/ios_app_development/iosAppDevIndustriesImg_6_rseu98.png',
-          btn: [`Fashion & Beauty`],
-        },
-      ],
     },
 
     techStackMobile: {
       isVisible: false,
-      breakIndex: 4,
-      headingParts: [
-        {
-          text: 'Technologies We Use for iOS Development',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: [
-        `Our development team uses modern technologies and frameworks to create reliable and scalable iOS applications. By leveraging the latest tools in the Apple ecosystem, we ensure that every app delivers exceptional performance and user experience.`,
-        `Some of the technologies we commonly use include:`,
-      ],
-      ContentDescription: '',
-      navItems: [''],
-      mobileNavItems: [''],
-      list: [
-        [
-          { image: customWebDevTechStackImg_1, desc: 'Swift' },
-          { image: customWebDevTechStackImg_2, desc: 'Objective-C' },
-          { image: customWebDevTechStackImg_3, desc: 'Xcode' },
-          { image: customWebDevTechStackImg_4, desc: 'SwiftUI and UIKit' },
-          { image: customWebDevTechStackImg_5, desc: 'Firebase' },
-          { image: customWebDevTechStackImg_5, desc: 'REST APIs' },
-          {
-            image: customWebDevTechStackImg_5,
-            desc: 'Cloud platforms (AWS and Google Cloud)',
-          },
-        ],
-      ],
     },
 
     dataInTable: {
       isVisible: false,
-      isInCenter: true,
-      bgColor: '#FAFAFA',
-      trColor: 'bg-[#7259FF]',
-      rowColor: 'bg-[#7259FF]/10',
-      isVariant: '01',
-      headingParts: [
-        {
-          text: 'Custom Web Development vs Traditional Web Development',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: [
-        `Here is a clear comparison table showing the difference between Web Development and Custom Web Development:`,
-      ],
-      data: [
-        {
-          desctioption: `Aspect`,
-          list: [
-            {
-              description: [`Definition`],
-            },
-            {
-              description: [`Development Approach`],
-            },
-            {
-              description: [`Customization Level`],
-            },
-            {
-              description: [`Development Time`],
-            },
-            {
-              description: [`Cost`],
-            },
-            {
-              description: [`Flexibility`],
-            },
-            {
-              description: [`Integration`],
-            },
-            {
-              description: [`Best Use Case`],
-            },
-          ],
-        },
-        {
-          desctioption: `Web Development`,
-          list: [
-            {
-              description: [
-                `The general process of building websites or web applications using available tools, frameworks, or CMS platforms.`,
-              ],
-            },
-            {
-              description: [
-                `Often uses prebuilt templates, themes, or platforms.`,
-              ],
-            },
-            {
-              description: [
-                `Limited to the features and structure provided by the platform.`,
-              ],
-            },
-            {
-              description: [
-                `Faster because many components are already built.`,
-              ],
-            },
-            {
-              description: [
-                `Usually lower due to faster development and prebuilt solutions.`,
-              ],
-            },
-            {
-              description: [
-                `May face limitations as the website grows or requires new features.`,
-              ],
-            },
-            {
-              description: [
-                `Limited flexibility depending on the platform being used.`,
-              ],
-            },
-            {
-              description: [
-                `Basic integrations with common tools and plugins.`,
-              ],
-            },
-            {
-              description: [
-                `Ideal for simple websites, blogs, portfolios, or small business sites.`,
-              ],
-            },
-          ],
-        },
-        {
-          desctioption: `Custom Web Development`,
-          list: [
-            {
-              description: [
-                `The process of building a website or web application is specifically tailored to the unique needs of a business.`,
-              ],
-            },
-            {
-              description: [
-                `Built from scratch or heavily customized to meet specific requirements.`,
-              ],
-            },
-            {
-              description: [
-                `Fully customizable design, features, and functionality.`,
-              ],
-            },
-            {
-              description: [
-                `Takes more time due to planning, design, and development from the ground up.`,
-              ],
-            },
-            {
-              description: [
-                `Generally higher because of custom design and development work.`,
-              ],
-            },
-            {
-              description: [
-                `Designed to scale easily as the business grows and needs evolve.`,
-              ],
-            },
-            {
-              description: [
-                `Highly flexible and adaptable to changing business requirements.`,
-              ],
-            },
-            {
-              description: [
-                `Can integrate with complex systems such as CRM, ERP, APIs, and custom tools.`,
-              ],
-            },
-            {
-              description: [
-                `Best for complex platforms, SaaS products, enterprise systems, or unique business processes.`,
-              ],
-            },
-          ],
-        },
-      ],
     },
 
     whatareservice2: {
@@ -22240,197 +21769,34 @@ export const SERVICES_DATA = {
 
     needofservice: {
       isVisible: false,
-      isVariant: '04',
-      isBgCornerImg: true,
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      data: [
-        {
-          desctioption: `White label SEO seeks to separate client ownership and service delivery. 
-          The agency remains the primary point of contact, but SEO fulfillment is handled externally.`,
-        },
-        {
-          desctioption: `Client acquisition, onboarding, and relationship management are handled entirely by the agency. 
-          The client receives SEO services directly from the agency they hired.`,
-        },
-        {
-          desctioption: `At Adaired, as a leading white-label SEO company, we do SEO execution, including research, optimization, 
-          and ongoing maintenance, which takes place quietly in the background. 
-          This allows agencies to provide SEO services without expanding their internal teams or infrastructure.`,
-        },
-        {
-          desctioption: `Furthermore, we ensure that all reporting, documentation, and performance updates are delivered using the agency's branding. 
-          Communication follows the agency's processes, ensuring continuity and brand integrity.`,
-        },
-      ],
     },
 
     serviceResult: {
       isVisible: false,
-      breakIndex: 5,
-      bgColor: true,
-      isInCenter: true,
-      textColor: '',
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      isVariant: '03',
-      description: [
-        `Outsourcing SEO services is used across different types of agencies and service providers, 
-        primarily as a way to support ongoing search optimization without expanding internal teams. 
-        The following use cases reflect common operational scenarios:`,
-      ],
-      isBgColor: true,
-      img: WhiteSeoServiceResultImg,
-      list: [
-        {
-          img: whiteSeoResult_1,
-          name: 'Web Design Agencies Adding SEO Retainers',
-          description: [
-            `Web design agencies often introduce SEO as a recurring service after a website launch. 
-            White label SEO allows these agencies to offer ongoing optimization, monitoring, and reporting without building a dedicated SEO department.`,
-          ],
-        },
-        {
-          img: whiteSeoResult_2,
-          name: 'PPC Agencies Expanding into Organic Search',
-          description: [
-            `Paid media agencies frequently complement pay-per-click services with organic search offerings. 
-            White label SEO enables PPC-focused teams to support long-term visibility and traffic growth alongside paid campaigns.`,
-          ],
-        },
-        {
-          img: whiteSeoResult_3,
-          name: 'Consultants Supporting Long-Term SEO Clients',
-          description: [
-            `Independent consultants and marketing advisors may use white-label SEO to fulfill execution-heavy tasks while remaining focused on strategy and client management. 
-            This model supports continuity for clients requiring ongoing optimization.`,
-          ],
-        },
-        {
-          img: whiteSeoResult_4,
-          name: 'Multi-Location or Franchise SEO Support',
-          description: [
-            `Businesses operating across multiple locations often require scalable and standardized SEO execution. 
-            White label SEO supports consistent optimization, reporting, and performance tracking across regions while maintaining centralized brand control.`,
-          ],
-        },
-      ],
     },
 
     getsCredit: {
       isVisible: false,
-      code: '01',
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      isCard: false,
-      list: [
-        {
-          description: [`SEO audits & strategy`],
-        },
-        {
-          description: [`Ongoing optimization`],
-        },
-        {
-          description: [`100% brand-safe delivery`],
-        },
-        {
-          description: [`Rank tracking & white-label reporting`],
-        },
-      ],
     },
 
     getplan: {
       isVisible: false,
-      isLabel: false,
-      subtitle: '',
-      bgImage: stop_struggle2,
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
     },
 
     stopStruggling: {
       isVisible: false,
-      isCenter: true,
-      subtitle: '',
-      headingParts: [
-        {
-          text: '',
-          color: '#FFFFFF',
-          weight: '700',
-        },
-      ],
-      description: [
-        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
-      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
-      ],
-      textColor: '',
-      button: '',
-      bgImg: whiteStruggleBg,
-      isHoverBgBlue: true,
     },
 
     industryLeaders: {
       isVisible: false,
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description:
-        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
-      bgImage: leadingToolsImg,
     },
 
     leadingToolsForPerformence: {
       isVisible: false,
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description:
-        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
-      bgImage: '',
     },
 
     notSeeingResult: {
       isVisible: false,
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: '',
-      buttonName: '',
-      img: LocalNotSee,
-      bgImage: LocalNotSeeBg,
     },
   },
   'wearables-app-development': {
@@ -22562,7 +21928,6 @@ export const SERVICES_DATA = {
       paddingY: '2rem',
       isRowReverse: true,
       width: 60,
-      // img: wearablesAppDevWhatServiceImg,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773905921/adaired/services/wearables_app_development/wearablesAppDevWhatServiceImg_kkg2jr.png',
       imgWidth: '786',
       imgHight: '525',
@@ -23038,416 +22403,26 @@ export const SERVICES_DATA = {
 
     whatMissing: {
       isVisible: false,
-      bgColor: '',
-      cardBg: '#FFF7ED',
-      cardBorderColor: '#FEDAAB',
-      isInCenter: false,
-      isVariant: '03',
-      button: '',
-      headingParts: [
-        {
-          text: 'Frameworks We Use for Cross-Platform App Development',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: [
-        `We leverage modern, high-performance frameworks to build cross-platform apps that deliver native-like speed, functionality, and user experience.`,
-      ],
-      list: [
-        {
-          icon: crossPlatformWhatMissingIcon_1,
-          title: 'React Native',
-          description: [
-            `Build fast and scalable apps using a single codebase with a rich ecosystem and strong community support.`,
-          ],
-        },
-        {
-          icon: crossPlatformWhatMissingIcon_2,
-          title: 'Flutter',
-          description: [
-            `Create visually stunning and highly responsive apps with customizable UI components and smooth performance.`,
-          ],
-        },
-        {
-          icon: crossPlatformWhatMissingIcon_3,
-          title: 'Xamarin',
-          description: [
-            `Develop secure and robust applications with seamless integration into the Microsoft ecosystem.`,
-          ],
-        },
-        {
-          icon: crossPlatformWhatMissingIcon_4,
-          title: 'Kotlin',
-          description: [
-            `Share business logic across platforms while maintaining native UI for enhanced performance and flexibility.`,
-          ],
-        },
-        {
-          icon: crossPlatformWhatMissingIcon_5,
-          title: 'Ionic',
-          description: [
-            `Develop lightweight, cross-platform apps using web technologies like HTML, CSS, and JavaScript for rapid and cost-effective solutions.`,
-          ],
-        },
-        {
-          icon: crossPlatformWhatMissingIcon_6,
-          title: 'PhoneGap / Apache Cordova',
-          description: [
-            `Package web applications into mobile apps with access to native device features, making it a practical choice for quick deployments.`,
-          ],
-        },
-      ],
     },
 
     whatMkeDeferent: {
       isVisible: false,
-      isVariant: '01',
-      breakIndex: 5,
-      isInCenter: false,
-      bgColor: false,
-      bgGradient: 'bg-[#FFFFFF]',
-      cardColor2: '#FFF8F0',
-      cardColor: '#FBFBFB',
-      cardImgBgColor2: '#FFF2DF',
-      cardImgBgColor: '#F3F3F3',
-      borderColor2: '#FB9100',
-      borderColor: '#000000',
-      headingParts: [
-        {
-          text: 'Why Pick Adaired Digital to Manage Your Social Media Accounts?',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: [
-        'At Adaired Digital Media, we’re more than just a social media service; we’re your strategic partner in growing your online presence.',
-        `Here’s why businesses trust us to manage their social media:`,
-      ],
-      list: [
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_1_tskaab.png',
-          name: 'Expertise & Experience',
-          description: [
-            `Our team consists of social media specialists, content creators, and strategists with proven experience across multiple industries. We understand platform trends, audience behavior, and what drives engagement and conversions.`,
-          ],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_2_zgzuwo.png',
-          name: 'Custom Strategies for Your Brand',
-          description: [
-            `We don’t use one-size-fits-all solutions. Every brand gets a tailored social media plan based on its unique goals, audience, and market. Your content, campaigns, and engagement are designed specifically to meet your objectives.`,
-          ],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821669/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_3_ku4940.png',
-          name: 'Data-Driven Approach',
-          description: [
-            `We measure everything. From engagement rates to conversions, we monitor metrics closely and optimize campaigns for maximum results. Decisions are guided by data, not guesswork.`,
-          ],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821669/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_4_rlpksv.png',
-          name: 'Consistent Branding & Quality Content',
-          description: [
-            `We maintain your brand voice, aesthetics, and messaging across all platforms. Our content is scroll-stopping, engaging, and strategically designed to strengthen your identity online.`,
-          ],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821668/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_5_hwiddr.png',
-          name: 'Community Engagement',
-          description: [
-            `We don’t just post content; we help you build meaningful connections. Through responsive community management and interactive content, we foster loyalty, trust, and long-term engagement.`,
-          ],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821668/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_6_hqvkgf.png',
-          name: 'Transparent Reporting & Communication',
-          description: [
-            `You’ll always know how your social media is performing. We provide detailed reports, insights, and recommendations so you’re fully informed about your growth and ROI.`,
-          ],
-        },
-      ],
     },
 
     leadingTools: {
       isVisible: false,
-      breakIndex: 4,
-      headingParts: [
-        {
-          text: 'Technologies We Use for iOS Development',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: [
-        `Our development team uses modern technologies and frameworks to create reliable and scalable iOS applications. By leveraging the latest tools in the Apple ecosystem, we ensure that every app delivers exceptional performance and user experience.`,
-        `Some of the technologies we commonly use include:`,
-      ],
-      isVariant: '03',
-      textColor: '',
-      bgImage: '',
-      bgColor: '',
-      list: [
-        {
-          img: iosAppDevLeadingToolsImg_1,
-          desc: 'Swift',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_2,
-          desc: 'Objective-C',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_3,
-          desc: 'Xcode',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_4,
-          desc: 'SwiftUI and UIKit',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_5,
-          desc: 'Firebase',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_6,
-          desc: 'REST APIs',
-        },
-        {
-          img: iosAppDevLeadingToolsImg_7,
-          desc: 'Cloud platforms (AWS and Google Cloud)',
-        },
-      ],
     },
 
     industriesWeServe: {
       isVisible: false,
-      code: '01',
-      bgColor: 'bg-[#FFFBF5]',
-      headingParts: [
-        {
-          text: 'Industries We Serve',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: [
-        `Our iOS app development solutions support a wide variety of industries, enabling businesses to deliver innovative digital experiences to their customers.`,
-      ],
-      isCard: false,
-      bgImg: '',
-      gridCols: 3,
-      imgWidth: 520,
-      imgHeight: 467,
-      list: [
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_1_gmywri.png',
-          btn: [`Fintech`],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_2_r3qlub.png',
-          btn: [`Healthcare`],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749340/adaired/services/ios_app_development/iosAppDevIndustriesImg_3_m5hp7t.png',
-          btn: [`E-commerce`],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_4_okdehb.png',
-          btn: [`Education`],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_5_vctvmh.png',
-          btn: [`Travel and Hospitality`],
-        },
-        {
-          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749339/adaired/services/ios_app_development/iosAppDevIndustriesImg_6_rseu98.png',
-          btn: [`Fashion & Beauty`],
-        },
-      ],
     },
 
     techStackMobile: {
       isVisible: false,
-      breakIndex: 4,
-      headingParts: [
-        {
-          text: 'Technologies We Use for iOS Development',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: [
-        `Our development team uses modern technologies and frameworks to create reliable and scalable iOS applications. By leveraging the latest tools in the Apple ecosystem, we ensure that every app delivers exceptional performance and user experience.`,
-        `Some of the technologies we commonly use include:`,
-      ],
-      ContentDescription: '',
-      navItems: [''],
-      mobileNavItems: [''],
-      list: [
-        [
-          { image: customWebDevTechStackImg_1, desc: 'Swift' },
-          { image: customWebDevTechStackImg_2, desc: 'Objective-C' },
-          { image: customWebDevTechStackImg_3, desc: 'Xcode' },
-          { image: customWebDevTechStackImg_4, desc: 'SwiftUI and UIKit' },
-          { image: customWebDevTechStackImg_5, desc: 'Firebase' },
-          { image: customWebDevTechStackImg_5, desc: 'REST APIs' },
-          {
-            image: customWebDevTechStackImg_5,
-            desc: 'Cloud platforms (AWS and Google Cloud)',
-          },
-        ],
-      ],
     },
 
     dataInTable: {
       isVisible: false,
-      isInCenter: true,
-      bgColor: '#FAFAFA',
-      trColor: 'bg-[#7259FF]',
-      rowColor: 'bg-[#7259FF]/10',
-      isVariant: '01',
-      headingParts: [
-        {
-          text: 'Custom Web Development vs Traditional Web Development',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: [
-        `Here is a clear comparison table showing the difference between Web Development and Custom Web Development:`,
-      ],
-      data: [
-        {
-          desctioption: `Aspect`,
-          list: [
-            {
-              description: [`Definition`],
-            },
-            {
-              description: [`Development Approach`],
-            },
-            {
-              description: [`Customization Level`],
-            },
-            {
-              description: [`Development Time`],
-            },
-            {
-              description: [`Cost`],
-            },
-            {
-              description: [`Flexibility`],
-            },
-            {
-              description: [`Integration`],
-            },
-            {
-              description: [`Best Use Case`],
-            },
-          ],
-        },
-        {
-          desctioption: `Web Development`,
-          list: [
-            {
-              description: [
-                `The general process of building websites or web applications using available tools, frameworks, or CMS platforms.`,
-              ],
-            },
-            {
-              description: [
-                `Often uses prebuilt templates, themes, or platforms.`,
-              ],
-            },
-            {
-              description: [
-                `Limited to the features and structure provided by the platform.`,
-              ],
-            },
-            {
-              description: [
-                `Faster because many components are already built.`,
-              ],
-            },
-            {
-              description: [
-                `Usually lower due to faster development and prebuilt solutions.`,
-              ],
-            },
-            {
-              description: [
-                `May face limitations as the website grows or requires new features.`,
-              ],
-            },
-            {
-              description: [
-                `Limited flexibility depending on the platform being used.`,
-              ],
-            },
-            {
-              description: [
-                `Basic integrations with common tools and plugins.`,
-              ],
-            },
-            {
-              description: [
-                `Ideal for simple websites, blogs, portfolios, or small business sites.`,
-              ],
-            },
-          ],
-        },
-        {
-          desctioption: `Custom Web Development`,
-          list: [
-            {
-              description: [
-                `The process of building a website or web application is specifically tailored to the unique needs of a business.`,
-              ],
-            },
-            {
-              description: [
-                `Built from scratch or heavily customized to meet specific requirements.`,
-              ],
-            },
-            {
-              description: [
-                `Fully customizable design, features, and functionality.`,
-              ],
-            },
-            {
-              description: [
-                `Takes more time due to planning, design, and development from the ground up.`,
-              ],
-            },
-            {
-              description: [
-                `Generally higher because of custom design and development work.`,
-              ],
-            },
-            {
-              description: [
-                `Designed to scale easily as the business grows and needs evolve.`,
-              ],
-            },
-            {
-              description: [
-                `Highly flexible and adaptable to changing business requirements.`,
-              ],
-            },
-            {
-              description: [
-                `Can integrate with complex systems such as CRM, ERP, APIs, and custom tools.`,
-              ],
-            },
-            {
-              description: [
-                `Best for complex platforms, SaaS products, enterprise systems, or unique business processes.`,
-              ],
-            },
-          ],
-        },
-      ],
     },
 
     whatareservice2: {
@@ -23460,197 +22435,34 @@ export const SERVICES_DATA = {
 
     needofservice: {
       isVisible: false,
-      isVariant: '04',
-      isBgCornerImg: true,
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      data: [
-        {
-          desctioption: `White label SEO seeks to separate client ownership and service delivery. 
-          The agency remains the primary point of contact, but SEO fulfillment is handled externally.`,
-        },
-        {
-          desctioption: `Client acquisition, onboarding, and relationship management are handled entirely by the agency. 
-          The client receives SEO services directly from the agency they hired.`,
-        },
-        {
-          desctioption: `At Adaired, as a leading white-label SEO company, we do SEO execution, including research, optimization, 
-          and ongoing maintenance, which takes place quietly in the background. 
-          This allows agencies to provide SEO services without expanding their internal teams or infrastructure.`,
-        },
-        {
-          desctioption: `Furthermore, we ensure that all reporting, documentation, and performance updates are delivered using the agency's branding. 
-          Communication follows the agency's processes, ensuring continuity and brand integrity.`,
-        },
-      ],
     },
 
     serviceResult: {
       isVisible: false,
-      breakIndex: 5,
-      bgColor: true,
-      isInCenter: true,
-      textColor: '',
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      isVariant: '03',
-      description: [
-        `Outsourcing SEO services is used across different types of agencies and service providers, 
-        primarily as a way to support ongoing search optimization without expanding internal teams. 
-        The following use cases reflect common operational scenarios:`,
-      ],
-      isBgColor: true,
-      img: WhiteSeoServiceResultImg,
-      list: [
-        {
-          img: whiteSeoResult_1,
-          name: 'Web Design Agencies Adding SEO Retainers',
-          description: [
-            `Web design agencies often introduce SEO as a recurring service after a website launch. 
-            White label SEO allows these agencies to offer ongoing optimization, monitoring, and reporting without building a dedicated SEO department.`,
-          ],
-        },
-        {
-          img: whiteSeoResult_2,
-          name: 'PPC Agencies Expanding into Organic Search',
-          description: [
-            `Paid media agencies frequently complement pay-per-click services with organic search offerings. 
-            White label SEO enables PPC-focused teams to support long-term visibility and traffic growth alongside paid campaigns.`,
-          ],
-        },
-        {
-          img: whiteSeoResult_3,
-          name: 'Consultants Supporting Long-Term SEO Clients',
-          description: [
-            `Independent consultants and marketing advisors may use white-label SEO to fulfill execution-heavy tasks while remaining focused on strategy and client management. 
-            This model supports continuity for clients requiring ongoing optimization.`,
-          ],
-        },
-        {
-          img: whiteSeoResult_4,
-          name: 'Multi-Location or Franchise SEO Support',
-          description: [
-            `Businesses operating across multiple locations often require scalable and standardized SEO execution. 
-            White label SEO supports consistent optimization, reporting, and performance tracking across regions while maintaining centralized brand control.`,
-          ],
-        },
-      ],
     },
 
     getsCredit: {
       isVisible: false,
-      code: '01',
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      isCard: false,
-      list: [
-        {
-          description: [`SEO audits & strategy`],
-        },
-        {
-          description: [`Ongoing optimization`],
-        },
-        {
-          description: [`100% brand-safe delivery`],
-        },
-        {
-          description: [`Rank tracking & white-label reporting`],
-        },
-      ],
     },
 
     getplan: {
       isVisible: false,
-      isLabel: false,
-      subtitle: '',
-      bgImage: stop_struggle2,
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
     },
 
     stopStruggling: {
       isVisible: false,
-      isCenter: true,
-      subtitle: '',
-      headingParts: [
-        {
-          text: '',
-          color: '#FFFFFF',
-          weight: '700',
-        },
-      ],
-      description: [
-        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
-      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
-      ],
-      textColor: '',
-      button: '',
-      bgImg: whiteStruggleBg,
-      isHoverBgBlue: true,
     },
 
     industryLeaders: {
       isVisible: false,
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description:
-        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
-      bgImage: leadingToolsImg,
     },
 
     leadingToolsForPerformence: {
       isVisible: false,
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description:
-        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
-      bgImage: '',
     },
 
     notSeeingResult: {
       isVisible: false,
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: '',
-      buttonName: '',
-      img: LocalNotSee,
-      bgImage: LocalNotSeeBg,
     },
   },
   'google-ads-management-company': {
@@ -23781,11 +22593,10 @@ export const SERVICES_DATA = {
       breakIndex: 0,
       paddingY: '2rem',
       isRowReverse: false,
-      width: 50,
-      img: wearablesAppDevWhatServiceImg,
-      // img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773905921/adaired/services/wearables_app_development/wearablesAppDevWhatServiceImg_kkg2jr.png',
-      imgWidth: '786px',
-      imgHight: '525px',
+      width: 60,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773905921/adaired/services/wearables_app_development/wearablesAppDevWhatServiceImg_kkg2jr.png',
+      imgWidth: '786',
+      imgHight: '525',
       headingParts: [
         {
           text: 'What is Wearable Application Development?',
@@ -23795,7 +22606,7 @@ export const SERVICES_DATA = {
       ],
       bgColor: '#000000',
       textColor: '#FFFFFF',
-      isGap: false,
+      isGap: true,
       data: [
         {
           desctioption: `Wearable application development refers to the process of designing, building, and optimizing software applications specifically for wearable devices such as smartwatches, fitness trackers, smart glasses, and other body-worn technologies.`,
