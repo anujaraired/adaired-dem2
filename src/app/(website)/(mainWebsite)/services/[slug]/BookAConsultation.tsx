@@ -35,6 +35,9 @@ const BookAConsultation = ({ buildlinks }: any) => {
           >
             <div
               className={`my-auto w-[100%] p-[2.5rem] transition-all duration-1000 lg:p-0 lg:w-[${`${buildlinks.width}%`}] ${isVisible ? 'translate-y-0 opacity-100' : '-translate-y-12 opacity-0'}`}
+              style={{
+                paddingBottom: buildlinks?.customPadding?.split(',')[0],
+              }}
             >
               <Heading
                 breakIndex={buildlinks?.breakIndex}
