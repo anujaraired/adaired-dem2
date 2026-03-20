@@ -24,7 +24,6 @@ const WhatAreService = ({ whatareaiseo }: any) => {
             paddingBottom: whatareaiseo?.customPadding?.split(',')[1] || '6rem',
           }}
         >
-
           <MaxWidthWrapper
             isRowReverse={whatareaiseo?.isRowReverse}
             customPaddingRight={whatareaiseo?.customPaddingRight}

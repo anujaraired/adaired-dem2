@@ -6,8 +6,6 @@ import groth from '../../../../../../public/assets/icons/growth 2.png';
 import Image from 'next/image';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 import DottedLine from '../../../../../../public/assets/Line 28.png';
-import keyStatsImg from '../../../../../../public/assets/keyStatsImg.png';
-import rocket from '../../../../../../public/assets/icons/rocket.svg';
 import { IoArrowForwardCircleOutline } from 'react-icons/io5';
 import ranking from '../../../../../../public/assets/icons/rankings.svg';
 import ranking2 from '../../../../../../public/assets/icons/rankings2.svg';

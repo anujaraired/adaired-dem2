@@ -2,10 +2,7 @@
 import React, { useState } from 'react';
 import SaveAndCancel from '@/app/(website)/common/SaveAndCancel';
 import LaunchMobileAppCardBg from '../../../../../../public/assets/images/services/mobileAppDevelopment/LaunchMobileAppCardBg.png';
-import LaunchMobileAppCardImage from '../../../../../../public/assets/images/services/mobileAppDevelopment/LaunchMobileAppCardImage.png';
 import Image from 'next/image';
-import GetQuoteModal from '@/app/(website)/components/popup/GetQuoteModal';
-import ImportantToBussiness from './ImportantToBussiness';
 
 const LaunchMobileApp = ({ handleClick, idx, isVisible, cardData }: any) => {
     //test

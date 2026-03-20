@@ -34,7 +34,6 @@ const OurProcess = ({ ourProcess }: any) => {
     <section
       ref={ref}
       id="services"
-      // For making bg-gradiant fixed at one place
       className={`${ourProcess?.bgGradient || 'bg-[#f9f9f9]/80'} relative bg-fixed py-[3rem] lg:py-[4rem]`}
     >
       <MaxWidthWrapper>
