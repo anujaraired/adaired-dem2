@@ -14785,7 +14785,6 @@ export const SERVICES_DATA = {
       'banner',
       'keyStats',
       'whatareservice',
-      'benefitofAiSeo',
       'ourProcess',
       'importantToBussiness',
       'adairedHelp',
