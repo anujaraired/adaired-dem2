@@ -153,12 +153,13 @@ const BookAConsultation = ({ buildlinks }: any) => {
           }}
         >
           <MaxWidthWrapper
-            isGap={buildlinks?.isGap}
+            customPaddingRight={buildlinks?.customPaddingRight}
+            customPaddingLeft={buildlinks?.customPaddingLeft}
             style={{ gap: buildlinks?.customGap || '4rem' }}
             className="block justify-between lg:flex"
           >
             <div
-              className={`my-auto w-[100%] p-[2.5rem] lg:p-0 transition-all duration-1000 lg:w-[${`${buildlinks.width}%`}] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+              className={`my-auto w-[100%] p-[2.5rem] transition-all duration-1000 lg:p-0 lg:w-[${`${buildlinks.width}%`}] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
               <Heading
                 breakIndex={buildlinks?.breakIndex}
@@ -169,11 +170,11 @@ const BookAConsultation = ({ buildlinks }: any) => {
               />
 
               <div className="space-y-4">
-                {buildlinks?.data?.map((item: any, index:number) => {
+                {buildlinks?.data?.map((item: any, index: number) => {
                   const isFirst = 0 === index;
                   return (
                     <p
-                    className={`${isFirst && buildlinks?.isFirstParaBold && 'font-bold'}`}
+                      className={`${isFirst && buildlinks?.isFirstParaBold && 'font-bold'}`}
                       style={{
                         color: buildlinks?.textColor || 'text-[#000000]',
                       }}

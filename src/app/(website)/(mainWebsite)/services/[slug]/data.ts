@@ -3840,7 +3840,7 @@ export const SERVICES_DATA = {
       span: 'Get discovered by the customers who are searching for your business right now',
       button: 'Book a Strategy Call',
       subheading: '',
-      width: 50,
+      width: 40,
       img: localBannerBg,
       imgWidth: '727',
       imgHight: '598',
@@ -6904,6 +6904,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPadding: '5rem, 5rem',
       desc: [
         `Drive high-intent traffic, generate qualified leads, and maximize ROI with data-driven PPC management. We build, optimize, and scale paid search campaigns that turn clicks into real revenue.`,
       ],
@@ -10745,7 +10746,7 @@ export const SERVICES_DATA = {
         },
       ],
       breakIndex: 3,
-      customPaddingRight: 8,
+      customPaddingRight: 4,
       customGap: '6rem',
       desc: [
         `Position your brand as a trusted source in AI-powered search results and earn visibility where answers are generated.`,
@@ -13293,6 +13294,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPadding: '8rem , 8rem',
       breakIndex: 6,
       desc: [
         `Increase your presence across Google Maps and local search to stay ahead of competitors and attract more customers actively searching for your services.`,
@@ -19406,6 +19408,7 @@ export const SERVICES_DATA = {
       ],
       isGap: false,
       breakIndex: 8,
+      customPadding: '5rem , 5rem',
       desc: [
         `Bring our expertise to your social media branding and achieve strategic growth that drives measurable results.`,
         `We plan and create scroll-stopping content, ensure brand consistency, and actively engage your audience to help your brand stand out and grow.`,
@@ -22559,10 +22562,10 @@ export const SERVICES_DATA = {
       paddingY: '2rem',
       isRowReverse: true,
       width: 60,
-      img: wearablesAppDevWhatServiceImg,
-      // img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773905921/adaired/services/wearables_app_development/wearablesAppDevWhatServiceImg_kkg2jr.png',
-      imgWidth: '786px',
-      imgHight: '525px',
+      // img: wearablesAppDevWhatServiceImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773905921/adaired/services/wearables_app_development/wearablesAppDevWhatServiceImg_kkg2jr.png',
+      imgWidth: '786',
+      imgHight: '525',
       headingParts: [
         {
           text: 'What is Wearable Application Development?',
