@@ -79,7 +79,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                                   />
                                 )}
                                 <p
-                                  className={`${item?.isListBold && 'font-bold'}`}
+                                  className={`text-left ${item?.isListBold && 'font-bold'}`}
                                   style={{
                                     color: item?.listTextColor || '#000000',
                                   }}

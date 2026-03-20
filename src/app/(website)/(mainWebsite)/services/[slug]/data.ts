@@ -21892,7 +21892,8 @@ export const SERVICES_DATA = {
       breakIndex: 0,
       paddingY: '2rem',
       isRowReverse: false,
-      width: 70,
+      width: 50,
+      customPaddingRight: 0,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774000299/adaired/services/google_ads_mgt/googleAdsWhatServiceImg_ki1nwj.png',
       imgWidth: '797',
       imgHight: '666',
@@ -21920,8 +21921,8 @@ export const SERVICES_DATA = {
             'Strategic keyword selection',
             'High-converting ad copies',
             'Smart bidding and budget allocation',
-            'Landing page alignment for better conversions',
             'Continuous A/B testing',
+            'Landing page alignment for better conversions',
             'Detailed tracking',
           ],
         },
@@ -22204,6 +22205,7 @@ export const SERVICES_DATA = {
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774000299/adaired/services/google_ads_mgt/googleAdsBuildLinkImg_ffqoby.png',
       imgWidth: '758',
       imgHight: '531',
+      customPadding: '3rem, 3rem',
       headingParts: [
         {
           text: 'Scale Your Business',
