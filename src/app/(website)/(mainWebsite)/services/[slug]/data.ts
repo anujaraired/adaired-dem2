@@ -4777,7 +4777,7 @@ export const SERVICES_DATA = {
       code: '02',
       isVisible: true,
       isStyleHeading: true,
-      width: 50,
+      width: 55,
       subtitle: 'Industry-Leading White Label',
       headingParts: [
         { text: 'Social Media Management', color: '#000000', weight: '400' },
@@ -4787,6 +4787,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPadding: '2rem, 2rem',
       desc: `Deliver expert social media marketing services under your brand without hiring a full in-house team. 
           With Adaired Digital Media, you get fully managed social media solutions that expand your service lineup without increasing overhead. 
           From content creation to campaign management, our team drives measurable growth for your clients, all under your brand.`,
@@ -7781,6 +7782,7 @@ export const SERVICES_DATA = {
       isCenter: false,
       isVisible: true,
       isStyleHeading: true,
+      customPadding: '4rem, 4rem',
       headingParts: [
         {
           text: 'Accelerate Agency Growth with',
@@ -7794,7 +7796,6 @@ export const SERVICES_DATA = {
         },
       ],
       width: 50,
-      heading2: 'White Label PPC Services',
       desc: [
         `Stop turning down PPC clients. Launch high-performance white-label paid ads services without expanding your internal team.`,
         `At Adaired Digital Media, we deliver high-performing Google Ads and paid media campaigns under your brand, so you can focus on sales and client relationships and grow faster.`,
@@ -18760,9 +18761,7 @@ export const SERVICES_DATA = {
       code: '02',
       isCenter: false,
       isVisible: true,
-      heading2: '#1 on Google Maps: Get Seen by Local Customers',
-      isAbsolute: true,
-      isStyleHeading: true,
+      customPadding: '4rem, 4rem',
       headingParts: [
         { text: 'iOS App Development', color: '#000000', weight: '400' },
         {
@@ -18777,12 +18776,11 @@ export const SERVICES_DATA = {
         `Get innovative, high-performance iOS apps tailored to your business needs, from concept to launch.`,
         `At Adaired Digital Media, our expert iOS developers combine creativity, technical expertise, and agile development to create apps that engage users, drive growth, and scale with your business.`,
       ],
-      subheading: '',
       button: 'Let’s Build Your App',
       width: 45,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749342/adaired/services/ios_app_development/iosAppDevBannerImg_iwkfje.png',
-      imgWidth: '911',
-      imgHight: '682',
+      imgWidth: '612',
+      imgHight: '752',
     },
 
     keyStats: {
@@ -21083,9 +21081,7 @@ export const SERVICES_DATA = {
       code: '02',
       isCenter: false,
       isVisible: true,
-      heading2: '#1 on Google Maps: Get Seen by Local Customers',
-      isAbsolute: true,
-      isStyleHeading: true,
+      customPadding: '2rem, 2rem',
       headingParts: [
         { text: 'Top-Notch Android App', color: '#000000', weight: '400' },
         {
@@ -21697,8 +21693,8 @@ export const SERVICES_DATA = {
       isCenter: false,
       isVisible: true,
       heading2: '#1 on Google Maps: Get Seen by Local Customers',
-      isAbsolute: false,
       isStyleHeading: true,
+      customPadding: '2rem, 2rem',
       headingParts: [
         { text: 'Cross-Platform App', color: '#000000', weight: '400' },
         {
@@ -21718,8 +21714,8 @@ export const SERVICES_DATA = {
       width: 55,
       customGap: '0rem',
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773900428/adaired/services/cross_platform_app_development/crossPlatformBannerImg_tmm91n.png',
-      imgWidth: '931',
-      imgHight: '588',
+      imgWidth: '722',
+      imgHight: '758',
     },
 
     whatareservice: {
@@ -22929,7 +22925,8 @@ export const SERVICES_DATA = {
       isCenter: false,
       isVisible: true,
       heading2: '#1 on Google Maps: Get Seen by Local Customers',
-      isAbsolute: true,
+      customPadding: '0rem, 0rem',
+      customPaddingRight: 0,
       isStyleHeading: true,
       headingParts: [
         {
