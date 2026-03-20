@@ -10,7 +10,7 @@ import Mask from '../../../../../../public/assets/images/services/WhiteLabel/whi
 import CldImage from '@/app/(website)/components/UI/CldImage';
 
 const BookAConsultation = ({ buildlinks }: any) => {
-  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
+  const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.25);
   const [open, setOpen] = useState(false);
   return (
     <div>
@@ -159,7 +159,7 @@ const BookAConsultation = ({ buildlinks }: any) => {
             className="block justify-between lg:flex"
           >
             <div
-              className={`my-auto w-[100%] p-[2.5rem] transition-all duration-1000 lg:p-0 lg:w-[${`${buildlinks.width}%`}] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+              className={`my-auto w-[100%] p-[2.5rem] transition-all duration-1000 lg:p-0 lg:w-[${`${buildlinks.width}%`}] ${isVisible ? 'translate-y-0 opacity-100' : '-translate-y-12 opacity-0'}`}
             >
               <Heading
                 breakIndex={buildlinks?.breakIndex}
@@ -200,14 +200,14 @@ const BookAConsultation = ({ buildlinks }: any) => {
 
             <div
               ref={ref}
-              className={`w-[100%] lg:w-[${`${100 - buildlinks.width}%`}] group order-1 flex justify-center justify-items-center transition-all duration-1000 lg:order-2 lg:justify-end lg:justify-items-end lg:p-0 lg:pt-0 ${isVisible ? 'translate-x-0 opacity-100 lg:translate-x-0' : '-translate-x-16 opacity-0'} ${buildlinks?.isCode02 ? 'items-end' : 'items-center'}`}
+              className={`w-[100%] lg:w-[${`${100 - buildlinks.width}%`}] group order-1 flex justify-center justify-items-center transition-all duration-1000 lg:order-2 lg:justify-end lg:justify-items-end lg:p-0 lg:pt-0 ${buildlinks?.isCode02 ? 'items-end' : 'items-center'}`}
             >
               <div className="relative mx-auto flex-1">
                 <div
                   className={`flex ${buildlinks?.isMask ? 'mx-[1rem] my-[1rem] items-center justify-center md:mx-[0.65rem] md:my-[0.65rem] lg:mx-[2.65rem] lg:my-[2.65rem]' : 'items-end justify-end'} transition-all duration-1000 ${
                     isVisible
                       ? 'translate-x-0 opacity-100'
-                      : '-translate-x-16 opacity-0'
+                      : 'translate-x-16 opacity-0'
                   }`}
                 >
                   {typeof buildlinks?.img === 'string' ? (

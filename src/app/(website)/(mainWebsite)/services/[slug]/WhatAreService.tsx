@@ -32,7 +32,7 @@ const WhatAreService = ({ whatareaiseo }: any) => {
             style={{ gap: whatareaiseo?.customGap || '4rem' }}
           >
             <div
-              className={`my-auto w-[100%] lg:w-[${`${whatareaiseo.width}%`}] ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+              className={`my-auto w-[100%] lg:w-[${`${whatareaiseo.width}%`}] transition-all delay-200 duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
             >
               <Heading
                 className="flex justify-center lg:justify-start"
@@ -45,7 +45,11 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                 {whatareaiseo?.data?.map((item: any, index: number) => {
                   const isLast = whatareaiseo?.data.length - 1 === index;
                   return (
-                    <div key={index} className="">
+                    <div
+                      key={index}
+                      className={`transition-all delay-200 duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0'}`}
+                      style={{ transitionDelay: `${index * 280}ms` }}
+                    >
                       <p
                         className={`py-3 text-center lg:text-justify ${isLast && whatareaiseo?.isLastParaBold && 'font-bold'}`}
                         style={{ color: whatareaiseo?.textColor }}
@@ -106,7 +110,11 @@ const WhatAreService = ({ whatareaiseo }: any) => {
             </div>
             <div
               ref={ref}
-              className={`my-auto w-[100%] lg:w-[${`${100 - whatareaiseo.width}%`}] pt-[2rem] lg:h-[var(--img-h)] lg:w-[var(--img-w)] lg:pt-0`}
+              className={`my-auto w-[100%] lg:w-[${`${100 - whatareaiseo.width}%`}] transform pt-[2rem] transition-all delay-200 duration-1000 lg:h-[var(--img-h)] lg:w-[var(--img-w)] lg:pt-0 ${
+                isVisible
+                  ? 'translate-x-0 opacity-100'
+                  : '-translate-x-16 opacity-0'
+              }`}
               style={
                 {
                   '--img-w': whatareaiseo?.imgWidth,

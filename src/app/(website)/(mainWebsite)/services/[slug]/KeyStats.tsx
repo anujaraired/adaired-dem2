@@ -188,7 +188,11 @@ const KeyStats = ({ keyStats }: any) => {
             />
             <div className="flex flex-col items-stretch gap-5 pt-[2rem] lg:flex-row lg:gap-[6rem]">
               <div
-                className={`flex w-[100%] justify-center lg:justify-start lg:w-[${`${keyStats.width}%`}]`}
+                className={`flex w-[100%] transform justify-center transition-all delay-200 duration-1000 lg:justify-start lg:w-[${`${keyStats.width}%`}] ${
+                  isVisible
+                    ? 'translate-x-0 opacity-100'
+                    : '-translate-x-16 opacity-0'
+                }`}
               >
                 <Image
                   src={keyStats?.img}
