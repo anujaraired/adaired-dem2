@@ -3536,6 +3536,7 @@ export const SERVICES_DATA = {
       bgImg: bgImg_BuildLink,
       imgWidth: '579',
       imgHight: '458',
+      customPadding: '0rem, 0rem',
       headingParts: [
         {
           text: 'Beautiful Design Meets Smart Development.',
