@@ -10821,7 +10821,7 @@ export const SERVICES_DATA = {
         },
       ],
       breakIndex: 3,
-      customPaddingRight: 8,
+      customPaddingRight: 4,
       customGap: '6rem',
       desc: [
         `Position your brand as a trusted source in AI-powered search results and earn visibility where answers are generated.`,
