@@ -680,6 +680,22 @@ import wearablesAppDevImpIcon_6 from '../../../../../../public/assets/images/ser
 import wearablesAppDevImpIcon_7 from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevImpIcon_7.png';
 import wearablesAppDevImpIcon_8 from '../../../../../../public/assets/images/services/wearablesAppDev/wearablesAppDevImpIcon_8.png';
 
+// Google Ads Images
+import googleAdsImpIcon_1 from '../../../../../../public/assets/images/services/googleAds/googleAdsImpIcon_1.png';
+import googleAdsImpIcon_2 from '../../../../../../public/assets/images/services/googleAds/googleAdsImpIcon_2.png';
+import googleAdsImpIcon_3 from '../../../../../../public/assets/images/services/googleAds/googleAdsImpIcon_3.png';
+import googleAdsImpIcon_4 from '../../../../../../public/assets/images/services/googleAds/googleAdsImpIcon_4.png';
+import googleAdsImpIcon_5 from '../../../../../../public/assets/images/services/googleAds/googleAdsImpIcon_5.png';
+import googleAdsImpIcon_6 from '../../../../../../public/assets/images/services/googleAds/googleAdsImpIcon_6.png';
+
+import googleAdsProcessIcon_1 from '../../../../../../public/assets/images/services/googleAds/googleAdsProcessIcon_1.png';
+import googleAdsProcessIcon_2 from '../../../../../../public/assets/images/services/googleAds/googleAdsProcessIcon_2.png';
+import googleAdsProcessIcon_3 from '../../../../../../public/assets/images/services/googleAds/googleAdsProcessIcon_3.png';
+import googleAdsProcessIcon_4 from '../../../../../../public/assets/images/services/googleAds/googleAdsProcessIcon_4.png';
+import googleAdsProcessIcon_5 from '../../../../../../public/assets/images/services/googleAds/googleAdsProcessIcon_5.png';
+import googleAdsProcessIcon_6 from '../../../../../../public/assets/images/services/googleAds/googleAdsProcessIcon_6.png';
+import googleAdsProcessIcon_7 from '../../../../../../public/assets/images/services/googleAds/googleAdsProcessIcon_7.png';
+
 export type SectionKey =
   | 'banner'
   | 'getsCredit'
@@ -22503,7 +22519,7 @@ export const SERVICES_DATA = {
       isCenter: false,
       isVisible: true,
       heading2: '#1 on Google Maps: Get Seen by Local Customers',
-      isAbsolute: true,
+      isAbsolute: false,
       isStyleHeading: true,
       span:"Struggling to see results from your Google Ads?",
       headingParts: [
@@ -22519,15 +22535,14 @@ export const SERVICES_DATA = {
         },
       ],
       isGap: true,
-      customGap: '0rem',
-      // breakIndex: 7,
+      breakIndex: 0,
       desc: [
         `Turn your underperforming campaigns into powerful revenue drivers with an expert Google Ads management agency. With strategic targeting, compelling ad copy, and continuous optimization, we at Adaired Digital Media help you convert more clicks into paying customers.`,
       ],
       subheading: '',
       button: 'Launch My Campaign',
       width: 55,
-      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773924168/adaired/services/wearables_app_development/wearablesAppDevBannerImg_ogcwiw.png',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774000300/adaired/services/google_ads_mgt/googleAdsBannerImg_wxjobl.png',
       imgWidth: '697',
       imgHight: '662',
     },
@@ -22536,7 +22551,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       code: '02',
       breakIndex: 0,
-      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773836300/adaired/services/social_media_management/socialMediaMgtKeyStatsImg_zywqa6.png',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774000301/adaired/services/google_ads_mgt/googleAdsKeyStatsImg_m79nlz.png',
       headingParts: [
         {
           text: 'Why Businesses Choose Google Ads',
@@ -22590,10 +22605,10 @@ export const SERVICES_DATA = {
       breakIndex: 0,
       paddingY: '2rem',
       isRowReverse: false,
-      width: 60,
-      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773905921/adaired/services/wearables_app_development/wearablesAppDevWhatServiceImg_kkg2jr.png',
-      imgWidth: '786',
-      imgHight: '525',
+      width: 70,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774000299/adaired/services/google_ads_mgt/googleAdsWhatServiceImg_ki1nwj.png',
+      imgWidth: '797',
+      imgHight: '666',
       headingParts: [
         {
           text: 'What is Google Ads Management?',
@@ -22649,7 +22664,7 @@ export const SERVICES_DATA = {
       buttonName: 'Launch My Campaign',
       data: [
         {
-          icon: wearablesAppDevImpIcon_1,
+          icon: googleAdsImpIcon_1,
           name: 'Search Ads',
           description: [
             `Search Ads are one of the most powerful ways to connect with potential customers at the exact moment they’re looking for what you offer. We conduct extensive keyword research to identify high-intent search terms, analyze competitor strategies, and craft compelling ad copy that encourages users to take action.`,
@@ -22659,7 +22674,7 @@ export const SERVICES_DATA = {
           btnColor: '#FB9100',
         },
         {
-          icon: wearablesAppDevImpIcon_1,
+          icon: googleAdsImpIcon_2,
           name: 'Display Ads',
           description: [
             `Display advertising allows your brand to reach a wider audience across millions of websites, apps, and platforms within Google’s network. We create visually engaging and strategically targeted display campaigns that build awareness, reinforce brand recognition, and nurture potential customers throughout their buying journey.`,
@@ -22669,7 +22684,7 @@ export const SERVICES_DATA = {
           btnColor: '#FB9100',
         },
         {
-          icon: wearablesAppDevImpIcon_1,
+          icon: googleAdsImpIcon_3,
           name: 'Shopping Ads',
           description: [
             `For eCommerce businesses, Shopping Ads provide a highly effective way to showcase products directly in search results. We optimize your product feed, enhance product titles and descriptions, and implement smart bidding strategies to ensure your listings stand out.`,
@@ -22679,7 +22694,7 @@ export const SERVICES_DATA = {
           btnColor: '#FB9100',
         },
         {
-          icon: wearablesAppDevImpIcon_1,
+          icon: googleAdsImpIcon_4,
           name: 'Video Ads',
           description: [
             `Video advertising on YouTube offers a unique opportunity to capture attention, tell your brand story, and build trust with your audience. We develop tailored video ad strategies that align with your marketing objectives, whether it’s increasing brand awareness, driving website traffic, or boosting conversions.`,
@@ -22689,7 +22704,7 @@ export const SERVICES_DATA = {
           btnColor: '#FB9100',
         },
         {
-          icon: wearablesAppDevImpIcon_1,
+          icon: googleAdsImpIcon_5,
           name: 'Remarketing Ads',
           description: [
             `Not every visitor converts on their first interaction, which is why remarketing plays a crucial role in a successful Google Ads strategy. We create highly targeted remarketing campaigns that re-engage users who have previously visited your website or interacted with your brand.`,
@@ -22699,7 +22714,7 @@ export const SERVICES_DATA = {
           btnColor: '#FB9100',
         },
         {
-          icon: wearablesAppDevImpIcon_1,
+          icon: googleAdsImpIcon_6,
           name: 'Local Search Ads',
           description: [
             `For businesses targeting a specific geographic area, local advertising is essential. We optimize your campaigns to appear in local search results and Google Maps, helping you attract nearby customers who are ready to take action.`,
@@ -22714,7 +22729,7 @@ export const SERVICES_DATA = {
     adairedHelp: {
       isVisible: true,
       breakIndex: 2,
-      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773905927/adaired/services/wearables_app_development/wearablesAppDevAdairedHelpImg_opxcsd.png',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774000301/adaired/services/google_ads_mgt/googleAdsAdairedHelpImg_s0xawe.png',
       isInCenter: false,
       textColor: '',
       isnNumberBg: false,
@@ -22835,52 +22850,59 @@ export const SERVICES_DATA = {
       ],
       services: [
         {
-          icon: wearablesAppDevProcessIcon_1,
-          title: '',
+          icon: googleAdsProcessIcon_1,
+          title: 'Deep Research & Business Understanding',
           description: [
-            ``,
+            `Every high-performing campaign begins with a deep understanding of your business and market. We take the time to analyze your products or services, target audience, competitors, and industry trends. This phase includes extensive keyword research focused on search intent, identifying high-value opportunities that align with your goals.`,
+            `We also evaluate your competitors’ advertising strategies to uncover gaps and opportunities that can give you a competitive edge. By the end of this stage, we have a clear roadmap that defines how your campaigns will be structured and positioned for success.`,
           ],
         },
         {
-          icon: wearablesAppDevProcessIcon_1,
-          title: '',
+          icon: googleAdsProcessIcon_2,
+          title: 'Strategic Planning & Campaign Blueprint',
           description: [
-            ``,
+            `Once research is complete, we translate insights into a clear campaign strategy. This includes defining campaign objectives, selecting the right campaign types, structuring ad groups, and mapping keywords to user intent.`,
+            `We carefully plan budget allocation, bidding strategies, and targeting parameters to ensure every element of your campaign is aligned with performance goals. This blueprint acts as the foundation for execution, ensuring that your campaigns are not only well-organized but also built to scale efficiently.`,
           ],
         },
         {
-          icon: wearablesAppDevProcessIcon_1,
-          title: '',
+          icon: googleAdsProcessIcon_3,
+          title: 'Campaign Setup & Precision Structuring',
           description: [
-            ``,
+            `With a solid plan in place, we move into building your campaigns. This involves setting up tightly themed ad groups, implementing the right keyword match types, configuring audience targeting, and adding all relevant extensions to enhance visibility and engagement.`,
+            `A properly structured account improves ad relevance, increases quality scores, and reduces cost-per-click, leading to better performance overall. Every detail is carefully configured to ensure your campaigns start strong and are easy to optimize over time.`,
           ],
         },
         {
-          icon: wearablesAppDevProcessIcon_1,
-          title: '',
+          icon: googleAdsProcessIcon_4,
+          title: 'Ad Copy Development & Creative Testing',
           description: [
-            ``,
+            `Your ad copy plays a critical role in attracting clicks and driving conversions. We create multiple variations of ad copy that are tailored to different audience segments and search intents. Each ad is designed to highlight your unique value proposition, address user pain points, and encourage action.`,
+            `We continuously test different headlines, descriptions, and calls-to-action to identify what resonates best with your audience. This ongoing experimentation allows us to refine messaging and improve performance over time.`,
           ],
         },
         {
-          icon: wearablesAppDevProcessIcon_1,
-          title: '',
+          icon: googleAdsProcessIcon_5,
+          title: 'Campaign Launch & Initial Optimization',
           description: [
-            ``,
+            `Once everything is set up and tested, we launch your campaigns with carefully selected bidding strategies and budget controls. During the initial phase, we closely monitor performance to ensure everything is functioning as expected.`,
+            `We quickly identify early trends, make necessary adjustments, and eliminate any inefficiencies. This proactive approach helps stabilize performance and sets the stage for long-term optimization.`,
           ],
         },
         {
-          icon: wearablesAppDevProcessIcon_1,
-          title: '',
+          icon: googleAdsProcessIcon_6,
+          title: 'Conversion Tracking & Data Integration',
           description: [
-            ``,
+            `Accurate data is the backbone of successful campaign management. We implement advanced tracking systems to measure key actions such as form submissions, calls, purchases, and other valuable conversions.`,
+            `By integrating data from multiple sources, we gain a complete view of how users interact with your ads and website. This allows us to make informed decisions and continuously refine your campaigns based on real performance metrics.`,
           ],
         },
         {
-          icon: wearablesAppDevProcessIcon_1,
-          title: '',
+          icon: googleAdsProcessIcon_7,
+          title: 'Continuous Performance Enhancement',
           description: [
-            ``,
+            `This is where the real impact happens. We continuously analyze campaign data to identify areas for improvement and growth. This includes refining keyword targeting, adjusting bids, improving ad copy, testing new creatives, and optimizing audience segments.`,
+            `Our goal is to improve efficiency by reducing wasted spend while increasing conversions and overall campaign profitability. This ongoing optimization ensures your campaigns remain competitive and continue to deliver better results over time.`,
           ],
         },
       ],
@@ -22890,19 +22912,19 @@ export const SERVICES_DATA = {
       isVisible: true,
       isCode01: true,
       isVariant: '03',
-      breakIndex: 5,
+      breakIndex: 3,
       bgImg: bgImgBuildLink,
-      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773905919/adaired/services/wearables_app_development/wearablesAppDevBuildLinkImg_z8tpiu.png',
-      imgWidth: '785',
-      imgHight: '523',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774000299/adaired/services/google_ads_mgt/googleAdsBuildLinkImg_ffqoby.png',
+      imgWidth: '758',
+      imgHight: '531',
       headingParts: [
         {
-          text: 'Plan Your Wearable',
+          text: 'Scale Your Business',
           color: '#FFFFFF',
           weight: '400',
         },
         {
-          text: 'App Development',
+          text: 'with Smarter Ads',
           color: '#FFFFFF',
           weight: '700',
         },
@@ -22911,16 +22933,17 @@ export const SERVICES_DATA = {
       textColor: 'white',
       width: 50,
       paddingY: '2rem',
-      isFirstParaBold: true,
+      customGap: '10rem',
+      isFirstParaBold: false,
       data: [
         {
-          desctioption: `Turn Your Idea into a High-Performance Wearable Experience`,
+          desctioption: `Your potential customers are already searching for your products and services. Make sure they find you first.`,
         },
         {
-          desctioption: `Collaborate with a wearable app development company like us to build a wearable app that stands out in a competitive market and delivers real value to your users.`,
+          desctioption: `With our expert Google Ads management services, you can attract high-intent traffic, generate quality leads, and turn clicks into real revenue.`,
         },
       ],
-      button: 'Get Your Custom Quote',
+      button: 'Get a Free Google Ads Audit',
     },
 
     faqData: {
@@ -22936,58 +22959,58 @@ export const SERVICES_DATA = {
       description: ``,
       list: [
         {
-          title: 'What is wearable app development?',
+          title: 'How much should I spend on Google Ads?',
           description: [
-            `Wearable app development is the process of creating applications specifically designed for devices such as smartwatches, fitness trackers, and smart glasses. These apps are optimized for small screens, real-time interactions, and seamless connectivity with smartphones and cloud systems.`,
+            `Your budget depends on your industry, competition, and goals. We help you determine an optimal budget that maximizes results while ensuring efficient use of your ad spend.`,
           ],
         },
         {
-          title: 'How long does it take to develop a wearable app?',
+          title: 'How long does it take to see results?',
           description: [
-            `The timeline depends on the complexity of the application, features, and supported devices. A basic wearable app may take a few weeks, while a more advanced solution with integrations and custom features can take several months.`,
+            `You can start seeing initial results within a few days of launching campaigns. However, optimal performance typically improves over 4–8 weeks as data is collected and campaigns are optimized.`,
           ],
         },
         {
-          title: 'Which wearable platforms do you support?',
+          title: 'Is Google Ads worth it for my business?',
           description: [
-            `We develop applications for major platforms, including Wear OS and watchOS, along with solutions for smart bands, fitness trackers, and smart glasses.`,
+            `Yes, Google Ads targets users actively searching for your products or services, making it one of the most effective ways to generate high-intent leads and sales when managed properly.`,
           ],
         },
         {
-          title: 'How much does wearable app development cost?',
+          title: 'Do you work with small businesses?',
           description: [
-            `The cost varies based on factors such as features, design complexity, platform selection, and integrations. Each project is unique, so we provide customized estimates based on your specific requirements.`,
+            `Absolutely. We work with businesses of all sizes, including startups and small businesses, creating strategies tailored to their budget and growth stage.`,
           ],
         },
         {
-          title: 'Can wearable apps work without a smartphone?',
+          title: 'What makes your Google Ads services different?',
           description: [
-            `Some wearable applications can function independently, especially on devices with built-in connectivity. However, many apps are designed to sync with smartphones or cloud systems for enhanced functionality and data storage.`,
+            `We focus on data-driven strategies, continuous optimization, and transparent reporting. Our goal isn’t just to drive clicks but to deliver measurable business results and ROI.`,
           ],
         },
         {
-          title: 'Do you provide post-launch support and maintenance?',
+          title: 'Will I have access to my Google Ads account?',
           description: [
-            `Yes, we offer continuous support, updates, and performance optimization to ensure your application remains secure, compatible, and up to date with evolving technologies.`,
+            `Yes, you will always have full ownership and access to your account. We believe in complete transparency and collaboration.`,
           ],
         },
         {
-          title: 'How do you ensure data security in wearable apps?',
+          title: 'Do you optimize landing pages as well?',
           description: [
-            `We implement strong security practices, including data encryption, secure APIs, and compliance with industry standards to protect user data and ensure safe communication between devices.`,
+            `Yes, we provide landing page recommendations and optimization support to improve conversion rates and ensure your traffic turns into leads or sales.`,
           ],
         },
         {
-          title: 'Can you integrate wearable apps with IoT systems?',
+          title: 'What metrics do you track and report?',
           description: [
-            `Yes, we specialize in integrating wearable applications with IoT ecosystems, enabling real-time data exchange, remote monitoring, and enhanced connectivity across devices and platforms.`,
+            `We track key performance indicators such as clicks, conversions, cost per lead, conversion rate, and return on ad spend to measure campaign success.`,
           ],
         },
       ],
     },
 
     benefitofAiSeo: {
-      isVisible: true,
+      isVisible: false,
       isVariant: '01',
       isDecVarticle: true,
       isInCenter: false,
