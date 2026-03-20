@@ -23458,6 +23458,8 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPaddingRight: 2,
+      customGap : '8rem',
       description: ``,
       textColor: 'white',
       width: 50,
