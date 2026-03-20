@@ -19,9 +19,9 @@ const WhatAreService = ({ whatareaiseo }: any) => {
         <div
           className={`relative py-[3rem] lg:py-0`}
           style={{
-            paddingTop: whatareaiseo?.paddingY,
-            paddingBottom: whatareaiseo?.paddingY,
             backgroundColor: whatareaiseo?.bgColor,
+            paddingTop: whatareaiseo?.customPadding?.split(',')[0] || '6rem',
+            paddingBottom: whatareaiseo?.customPadding?.split(',')[1] || '6rem',
           }}
         >
           <MaxWidthWrapper

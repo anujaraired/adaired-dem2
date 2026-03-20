@@ -1,7 +1,5 @@
 import React from 'react';
 import { useState } from 'react';
-import { MdOutlineArrowOutward } from 'react-icons/md';
-import { cards } from './Card';
 import MaxWidthWrapper from '@/app/(website)/components/MaxWidthWrapper';
 import Heading from '@/app/(website)/common/Heading';
 import { useInViewOnce } from '@/@core/hooks/useInViewOnce';

@@ -223,8 +223,7 @@ export const routes: {
           subItems: [
             {
               name: 'Google Ads',
-              href: '#',
-              // href: '/services/google-ads-management-company',
+              href: '/services/google-ads-management-company',
             },
             {
               name: 'Meta Ads',
