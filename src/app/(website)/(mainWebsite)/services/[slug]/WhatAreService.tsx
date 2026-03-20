@@ -252,12 +252,6 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                   );
                 })}
               </div>
-              {/* {whatareaiseo?.button && (
-                <Button
-                  name={whatareaiseo?.button}
-                  
-                  className='mt-[2rem]' />
-              )} */}
               <div className="flex justify-center lg:justify-start">
                 {whatareaiseo?.button && (
                   <SaveAndCancel
@@ -299,7 +293,6 @@ const WhatAreService = ({ whatareaiseo }: any) => {
             </div>
             <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
           </MaxWidthWrapper>
-          {/* <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} /> */}
         </div>
       )}
       {whatareaiseo?.isVariant === '05' && (
@@ -372,16 +365,6 @@ const WhatAreService = ({ whatareaiseo }: any) => {
                   );
                 })}
               </div>
-
-              {/* {whatareaiseo?.isBgWhite && (
-                <SaveAndCancel
-                  name={whatareaiseo?.button}
-                  isIcon={true}
-                  isBgWhite={true}
-                  handleClick={() => setOpen(!open)}
-                  className="my-[2rem] w-[16rem]"
-                />
-              )} */}
             </div>
           </MaxWidthWrapper>
           <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />

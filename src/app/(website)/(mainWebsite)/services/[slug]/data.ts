@@ -23017,10 +23017,10 @@ export const SERVICES_DATA = {
       paddingY: '2rem',
       isRowReverse: true,
       width: 60,
-      img: wearablesAppDevWhatServiceImg,
-      // img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773905921/adaired/services/wearables_app_development/wearablesAppDevWhatServiceImg_kkg2jr.png',
-      imgWidth: '786px',
-      imgHight: '525px',
+      // img: wearablesAppDevWhatServiceImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773905921/adaired/services/wearables_app_development/wearablesAppDevWhatServiceImg_kkg2jr.png',
+      imgWidth: '786',
+      imgHight: '525',
       headingParts: [
         {
           text: 'What is Wearable Application Development?',
