@@ -584,7 +584,7 @@ import customWebDevTechStackImg_4 from '../../../../../../public/assets/images/s
 import customWebDevTechStackImg_5 from '../../../../../../public/assets/images/services/customWebDev/customWebDevTechStackImg_5.png';
 
 // IOS App Development Images
-import iosAppDevKeyStatsImg from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevKeyStatsImg.png';
+import iosAppDevKeyStatsIcon from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevKeyStatsIcon.png';
 
 import iosAppDevImpImg_1 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevImpImg_1.png';
 import iosAppDevImpImg_2 from '../../../../../../public/assets/images/services/iosAppDev/iosAppDevImpImg_2.png';
@@ -18338,31 +18338,31 @@ export const SERVICES_DATA = {
       isCard: false,
       list: [
         {
-          icon: iosAppDevKeyStatsImg,
+          icon: iosAppDevKeyStatsIcon,
           desctioption: [
             `The average smartphone user spends about 4.6 hours daily on their phone, and nearly 90% of that time is spent inside mobile apps.`,
           ],
         },
         {
-          icon: iosAppDevKeyStatsImg,
+          icon: iosAppDevKeyStatsIcon,
           desctioption: [
             `Users worldwide spent more than 4.2 trillion hours using mobile apps in 2024, marking a record level of engagement.`,
           ],
         },
         {
-          icon: iosAppDevKeyStatsImg,
+          icon: iosAppDevKeyStatsIcon,
           desctioption: [
             `Around 136 billion mobile apps were downloaded globally in 2024, reflecting a massive surge in app demand.`,
           ],
         },
         {
-          icon: iosAppDevKeyStatsImg,
+          icon: iosAppDevKeyStatsIcon,
           desctioption: [
             `Over 35 million professional mobile app developers are active worldwide today.`,
           ],
         },
         {
-          icon: iosAppDevKeyStatsImg,
+          icon: iosAppDevKeyStatsIcon,
           desctioption: [
             `About 90% of users check security and privacy details before installing a new mobile app.`,
           ],
@@ -19432,31 +19432,31 @@ export const SERVICES_DATA = {
       width: 40,
       list: [
         {
-          icon: iosAppDevKeyStatsImg,
+          icon: iosAppDevKeyStatsIcon,
           desctioption: [
             `Over 5.66 billion people use social media worldwide in 2026, making it one of the most powerful digital channels for brand visibility.`,
           ],
         },
         {
-          icon: iosAppDevKeyStatsImg,
+          icon: iosAppDevKeyStatsIcon,
           desctioption: [
             `The average user switches between 6–7 different social platforms each month, giving brands multiple touchpoints to connect and engage.`,
           ],
         },
         {
-          icon: iosAppDevKeyStatsImg,
+          icon: iosAppDevKeyStatsIcon,
           desctioption: [
             `Users spend an average of 2 hours and 40 minutes daily on social media apps, creating massive opportunities for consistent brand exposure.`,
           ],
         },
         {
-          icon: iosAppDevKeyStatsImg,
+          icon: iosAppDevKeyStatsIcon,
           desctioption: [
             `Platforms like YouTube, TikTok, and Instagram now drive over 60% of product discovery, reshaping how consumers find and evaluate brands.`,
           ],
         },
         {
-          icon: iosAppDevKeyStatsImg,
+          icon: iosAppDevKeyStatsIcon,
           desctioption: [
             `52% of users prefer social search to discover user-generated content and authentic experiences, highlighting the growing importance of community-driven marketing.`,
           ],
