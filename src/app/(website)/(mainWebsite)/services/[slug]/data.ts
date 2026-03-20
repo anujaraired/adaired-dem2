@@ -18350,7 +18350,7 @@ export const SERVICES_DATA = {
       code: '02',
       isCenter: false,
       isVisible: true,
-      customPadding: '4rem, 4rem',
+      customPadding: '1rem, 1rem',
       headingParts: [
         { text: 'iOS App Development', color: '#000000', weight: '400' },
         {
@@ -21288,7 +21288,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       heading2: '#1 on Google Maps: Get Seen by Local Customers',
       isStyleHeading: true,
-      customPadding: '2rem, 2rem',
+      customPadding: '4rem, 4rem',
       headingParts: [
         { text: 'Cross-Platform App', color: '#000000', weight: '400' },
         {
