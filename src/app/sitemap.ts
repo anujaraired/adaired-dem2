@@ -258,6 +258,32 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
         changeFrequency: 'weekly',
         priority: 0.9,
       },
+      {
+        url: `${siteUri}/services/google-ads-management-company`,
+        lastModified: new Date(),
+        changeFrequency: 'weekly',
+        priority: 0.9,
+      },
+      // {
+      //   url: `${siteUri}/services/meta-ads-agency`,
+      //   lastModified: new Date(),
+      //   changeFrequency: 'weekly',
+      //   priority: 0.9,
+      // },
+
+      // {
+      //   url: `${siteUri}/services/linkedIn-marketing-agency`,
+      //   lastModified: new Date(),
+      //   changeFrequency: 'weekly',
+      //   priority: 0.9,
+      // },
+      
+      // {
+      //   url: `${siteUri}/services/tiktok-ads-agency`,
+      //   lastModified: new Date(),
+      //   changeFrequency: 'weekly',
+      //   priority: 0.9,
+      // },
 
 
       // =========================
