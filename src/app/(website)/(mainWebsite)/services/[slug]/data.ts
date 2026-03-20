@@ -6980,6 +6980,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPadding: '5rem, 5rem',
       desc: [
         `Drive high-intent traffic, generate qualified leads, and maximize ROI with data-driven PPC management. We build, optimize, and scale paid search campaigns that turn clicks into real revenue.`,
       ],
@@ -13369,6 +13370,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPadding: '8rem , 8rem',
       breakIndex: 6,
       desc: [
         `Increase your presence across Google Maps and local search to stay ahead of competitors and attract more customers actively searching for your services.`,
@@ -19861,6 +19863,7 @@ export const SERVICES_DATA = {
       ],
       isGap: false,
       breakIndex: 8,
+      customPadding: '5rem , 5rem',
       desc: [
         `Bring our expertise to your social media branding and achieve strategic growth that drives measurable results.`,
         `We plan and create scroll-stopping content, ensure brand consistency, and actively engage your audience to help your brand stand out and grow.`,
