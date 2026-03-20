@@ -21920,9 +21920,9 @@ export const SERVICES_DATA = {
           list: [
             'Strategic keyword selection',
             'High-converting ad copies',
-            'Smart bidding and budget allocation',
+            'Bidding and budget allocation',
             'Continuous A/B testing',
-            'Landing page alignment for better conversions',
+            'Landing page alignment',
             'Detailed tracking',
           ],
         },
