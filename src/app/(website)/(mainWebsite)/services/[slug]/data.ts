@@ -14807,6 +14807,7 @@ export const SERVICES_DATA = {
       width: 45,
       heading2: 'White Label PPC Services',
       customPadding: '6rem, 0rem',
+      customPaddingRight: 4,
       desc: [
         `Future-proof your visibility with strategic LLM SEO and generative search optimization.`,
         `At Adaired Digital Media, our LLM SEO services help your brand appear in AI-generated answers across platforms like ChatGPT, Gemini, Claude, and other AI-driven search systems.`,
