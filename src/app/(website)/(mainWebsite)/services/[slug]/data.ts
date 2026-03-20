@@ -739,7 +739,7 @@ export const SERVICES_DATA = {
       description:
         'Top-rated SEO company in India delivering higher rankings, organic traffic, and real growth for businesses in the USA, UK, UAE, Canada and Australia.',
       alternates: {
-        canonical: '/services/seo-company-india',
+        canonical: '/services/search-engine-optimization',
       },
     },
     banner: {
@@ -1610,7 +1610,7 @@ export const SERVICES_DATA = {
       description:
         'LLM-driven AI SEO services in India for ChatGPT, Gemini and Google AI Overviews to enhance search visibility, rankings, and long-term organic performance.',
       alternates: {
-        canonical: '/services/ai-seo-india',
+        canonical: '/services/ai-seo-agency',
       },
     },
     banner: {
@@ -2369,7 +2369,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/services/link-building-agency-india',
+        canonical: '/services/link-building-agency',
       },
     },
     banner: {
@@ -3815,7 +3815,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/services/local-seo-company-india',
+        canonical: '/services/local-seo-company',
       },
     },
 
@@ -6881,7 +6881,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/services/ppc-management-company-india',
+        canonical: '/services/ppc-management-company',
       },
     },
     banner: {
@@ -9981,7 +9981,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/generative-engine-optimization-india',
+        canonical: '/services/generative-engine-optimization',
       },
     },
     banner: {
@@ -10719,7 +10719,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/services/answer-engine-optimization-india',
+        canonical: '/services/answer-engine-optimization',
       },
     },
     banner: {
@@ -11418,7 +11418,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/mobile-apps-development-india',
+        canonical: '/services/mobile-app-development-company',
       },
     },
     banner: {
@@ -12456,7 +12456,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/gmb-optimization-india',
+        canonical: '/services/google-my-business-optimization',
       },
     },
     banner: {
@@ -13268,7 +13268,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/gmb-website-seo-india',
+        canonical: '/services/gmb-website-seo',
       },
     },
     banner: {
@@ -14039,7 +14039,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/wordpress-development-company-india',
+        canonical: '/services/wordpress-development-company',
       },
     },
     banner: {
@@ -14701,7 +14701,7 @@ export const SERVICES_DATA = {
       description:
         'Top-rated SEO company in India delivering higher rankings, organic traffic, and real growth for businesses in the USA, UK, UAE, Canada and Australia.',
       alternates: {
-        canonical: '/services/llm-seo-india',
+        canonical: '/services/llm-seo-agency',
       },
     },
     banner: {
@@ -15311,7 +15311,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/shopify-development-company-india',
+        canonical: '/services/shopify-development-company',
       },
     },
     banner: {
@@ -15954,7 +15954,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/ecommerce-seo-agency-india',
+        canonical: '/services/ecommerce-seo-agency',
       },
     },
     banner: {
@@ -16743,7 +16743,7 @@ export const SERVICES_DATA = {
       description:
         'Top-rated SEO company in India delivering higher rankings, organic traffic, and real growth for businesses in the USA, UK, UAE, Canada and Australia.',
       alternates: {
-        canonical: '/services/ecommerce-development-company-india',
+        canonical: '/services/ecommerce-development-company',
       },
     },
     banner: {
@@ -17477,7 +17477,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/custom-web-development-company',
+        canonical: '/services/custom-web-development-company',
       },
     },
     banner: {
@@ -18290,7 +18290,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/custom-web-development-company',
+        canonical: '/services/ios-app-development-company',
       },
     },
     banner: {
@@ -19379,7 +19379,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/custom-web-development-company',
+        canonical: '/services/social-media-management',
       },
     },
     banner: {
@@ -20611,7 +20611,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/custom-web-development-company',
+        canonical: '/services/android-app-development-company',
       },
     },
     banner: {
@@ -21223,7 +21223,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/custom-web-development-company',
+        canonical: '/services/cross-platform-app-development',
       },
     },
     banner: {
@@ -21832,7 +21832,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/custom-web-development-company',
+        canonical: '/services/wearables-app-development',
       },
     },
     banner: {
@@ -22498,7 +22498,7 @@ export const SERVICES_DATA = {
       description:
         'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
       alternates: {
-        canonical: '/custom-web-development-company',
+        canonical: '/services/google-ads-management-company',
       },
     },
     banner: {
