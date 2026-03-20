@@ -22508,14 +22508,15 @@ export const SERVICES_DATA = {
       heading2: '#1 on Google Maps: Get Seen by Local Customers',
       isAbsolute: true,
       isStyleHeading: true,
+      span:"Struggling to see results from your Google Ads?",
       headingParts: [
         {
-          text: 'Expert Wearable Application',
+          text: 'Maximize ROI with a',
           color: '#000000',
           weight: '400',
         },
         {
-          text: 'Development for iOS, Android & Wear OS',
+          text: 'Professional Google Ads Management Agency',
           color: '#FB9100',
           weight: '700',
         },
@@ -22524,15 +22525,14 @@ export const SERVICES_DATA = {
       customGap: '0rem',
       // breakIndex: 7,
       desc: [
-        `Unlock the full potential of wearable technology with apps built for speed, accuracy, and usability.`,
-        `At Adaired Digital Media, our team offers smart, future-ready wearable app development solutions that integrate effortlessly with modern ecosystems, enabling real-time data synchronization and meaningful user interactions.`,
+        `Turn your underperforming campaigns into powerful revenue drivers with an expert Google Ads management agency. With strategic targeting, compelling ad copy, and continuous optimization, we at Adaired Digital Media help you convert more clicks into paying customers.`,
       ],
       subheading: '',
-      button: 'Let’s Plan Your Wearable App',
+      button: 'Launch My Campaign',
       width: 55,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773924168/adaired/services/wearables_app_development/wearablesAppDevBannerImg_ogcwiw.png',
-      imgWidth: '960',
-      imgHight: '860',
+      imgWidth: '697',
+      imgHight: '662',
     },
 
     keyStats: {
@@ -22542,7 +22542,7 @@ export const SERVICES_DATA = {
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773836300/adaired/services/social_media_management/socialMediaMgtKeyStatsImg_zywqa6.png',
       headingParts: [
         {
-          text: 'Wearable App Development: Statistics & Facts',
+          text: 'Why Businesses Choose Google Ads',
           color: '#000000',
           weight: '700',
         },
@@ -22550,38 +22550,38 @@ export const SERVICES_DATA = {
       bgColor: '#FB9100',
       isImgBg: true,
       isCard: false,
-      imgWidth: '620',
-      imgHeight: '725',
+      imgWidth: '594',
+      imgHeight: '693',
       width: 40,
       list: [
         {
           icon: wearablesAppDevKeyStatsIcon,
           desctioption: [
-            `The global wearable technology market is expected to reach $109 billion by 2026 and grow to $231 billion by 2032.`,
+            `Businesses make an average of $2 for every $1 spent on Google Ads, delivering strong and measurable ROI.`,
           ],
         },
         {
           icon: wearablesAppDevKeyStatsIcon,
           desctioption: [
-            `Smartwatches dominate the market, accounting for around 46% of the total share in 2025.`,
+            `Over 63% of users have clicked on a Google ad, proving its effectiveness in capturing buyer intent.`,
           ],
         },
         {
           icon: wearablesAppDevKeyStatsIcon,
           desctioption: [
-            `Global wearable device shipments are projected to increase from ~590.7 million units (2025) to ~614.1 million (2026).`,
+            `Google Ads sees an average 4.4% conversion rate, turning targeted clicks into real customers.`,
           ],
         },
         {
           icon: wearablesAppDevKeyStatsIcon,
           desctioption: [
-            `70% of consumers buy wearables for health & fitness features, such as heart rate and blood oxygen monitoring.`,
+            `With 39%+ global PPC market share, Google Ads remains the leading advertising platform worldwide.`,
           ],
         },
         {
           icon: wearablesAppDevKeyStatsIcon,
           desctioption: [
-            `40% of newly launched wearables are expected to include AI-powered features by 2026.`,
+            `Users who click ads are 50% more likely to convert, making PPC a high-intent traffic driver.`,
           ],
         },
       ],
@@ -22599,7 +22599,7 @@ export const SERVICES_DATA = {
       imgHight: '525',
       headingParts: [
         {
-          text: 'What is Wearable Application Development?',
+          text: 'What is Google Ads Management?',
           color: '#FFFFFF',
           weight: '700',
         },
@@ -22609,13 +22609,25 @@ export const SERVICES_DATA = {
       isGap: true,
       data: [
         {
-          desctioption: `Wearable application development refers to the process of designing, building, and optimizing software applications specifically for wearable devices such as smartwatches, fitness trackers, smart glasses, and other body-worn technologies.`,
+          desctioption: `Google Ads management is the process of planning, creating, optimizing, and continuously improving paid advertising campaigns on Google Ads to drive targeted traffic, leads, and sales.`,
         },
         {
-          desctioption: `These applications are created to deliver quick, real-time interactions and insights while seamlessly integrating with smartphones, cloud platforms, and IoT ecosystems.`,
+          desctioption: `It goes far beyond simply launching ads. Effective management involves in-depth keyword research, audience targeting, compelling ad copy creation, bid strategy optimization, and ongoing performance analysis. The goal is to ensure your ads reach the right people at the right time, while maximizing return on investment (ROI) and minimizing wasted spend.`,
         },
         {
-          desctioption: `Unlike traditional mobile or web applications, wearable apps are built for compact screens, limited hardware resources, and on-the-go usage. This requires a strong focus on performance, minimalistic design, and intuitive user experiences that allow users to interact with the app effortlessly, often within just a few seconds.`,
+          listTextColor: '#FFFFFF',
+          desctioption: `A well-managed Google Ads campaign includes:`,
+          list: [
+            'Strategic keyword selection',
+            'High-converting ad copies',
+            'Smart bidding and budget allocation',
+            'Landing page alignment for better conversions',
+            'Continuous A/B testing',
+            'Detailed tracking',
+          ]
+        },
+        {
+          desctioption: `Whether you're looking to generate leads, increase online sales, or boost brand visibility, professional Google Ads management helps turn your ad spend into measurable business growth.`,
         },
       ],
       button: '',
@@ -22629,104 +22641,74 @@ export const SERVICES_DATA = {
       cardColor: '#F9F9F9',
       headingParts: [
         {
-          text: 'Our End-to-End Wearable App Development Services',
+          text: 'Google Ads Services That Drive Real Results',
           color: '#000000',
           weight: '700',
         },
       ],
       description: [
-        `Transform your ideas into high-performance applications, from concept and UI design to development and integration.`,
-        `We deliver wearable app development services designed to deliver seamless connectivity, real-time insights, and exceptional user experiences across a wide range of wearable devices.`,
+        `We offer a full suite of Google Ads management services designed to help you reach the right audience, generate quality leads, and maximize your return on investment.`,
       ],
-      buttonName: 'Let’s Plan Your Wearable App',
+      buttonName: 'Launch My Campaign',
       data: [
         {
           icon: wearablesAppDevImpIcon_1,
-          name: 'Android Wearable App Development',
+          name: 'Search Ads',
           description: [
-            `At Adaired Digital Media, we build powerful, feature-rich applications for Wear OS devices that are optimized for speed, reliability, and seamless connectivity.`,
-            `Our development approach focuses on creating intuitive interfaces and real-time functionality that enhances user experience on compact screens.`,
-            `Whether you're building a fitness tracker, healthcare app, or enterprise tool, our Android wearable solutions are designed to scale with your business and adapt to evolving user needs.`,
+            `Search Ads are one of the most powerful ways to connect with potential customers at the exact moment they’re looking for what you offer. We conduct extensive keyword research to identify high-intent search terms, analyze competitor strategies, and craft compelling ad copy that encourages users to take action.`,
+            `Our team continuously monitors performance, refines targeting, and adjusts bidding strategies to ensure your ads appear in the most valuable positions, driving qualified traffic that is more likely to convert into leads or sales.`,
           ],
-          button: 'Let’s Plan Your Wearable App',
+          button: 'Launch My Campaign',
           btnColor: '#FB9100',
         },
         {
-          icon: wearablesAppDevImpIcon_2,
-          name: 'iOS Wearable App Development',
+          icon: wearablesAppDevImpIcon_1,
+          name: 'Display Ads',
           description: [
-            `Our iOS wearable app development services focus on creating elegant and high-performing applications for Apple Watch users.`,
-            `Leveraging advanced watchOS capabilities, we build apps that offer smooth navigation, precise functionality, and deep integration within the Apple ecosystem.`,
-            `From real-time notifications and health tracking to advanced data visualization and personalized experiences, we ensure your app delivers value at every interaction.`,
-            `Our team emphasizes performance optimization and user-centric design to maximize engagement and retention.`,
+            `Display advertising allows your brand to reach a wider audience across millions of websites, apps, and platforms within Google’s network. We create visually engaging and strategically targeted display campaigns that build awareness, reinforce brand recognition, and nurture potential customers throughout their buying journey.`,
+            `By leveraging audience insights such as interests, demographics, and browsing behavior, we ensure your ads are shown to users who are most likely to engage with your brand.`,
           ],
-          button: 'Let’s Plan Your Wearable App',
+          button: 'Launch My Campaign',
           btnColor: '#FB9100',
         },
         {
-          icon: wearablesAppDevImpIcon_3,
-          name: 'AR/VR Wearable App Development',
+          icon: wearablesAppDevImpIcon_1,
+          name: 'Shopping Ads',
           description: [
-            `We specialize in developing immersive applications for AR and VR-enabled wearable devices, unlocking new possibilities for interaction and visualization.`,
-            `These solutions enable businesses to create engaging experiences such as virtual training environments, real-time assistance, product visualization, and interactive simulations.`,
-            `Our AR/VR wearable apps are designed with precision to ensure smooth performance, low latency, and high responsiveness, making them ideal for industries like healthcare, education, retail, and manufacturing.`,
+            `For eCommerce businesses, Shopping Ads provide a highly effective way to showcase products directly in search results. We optimize your product feed, enhance product titles and descriptions, and implement smart bidding strategies to ensure your listings stand out.`,
+            `By focusing on high-performing products and refining targeting based on user behavior, we help drive qualified traffic that is ready to make a purchase, ultimately increasing your online sales and return on ad spend.`,
           ],
-          button: 'Let’s Plan Your Wearable App',
+          button: 'Launch My Campaign',
           btnColor: '#FB9100',
         },
         {
-          icon: wearablesAppDevImpIcon_4,
-          name: 'Fitness & Wellness App Development',
+          icon: wearablesAppDevImpIcon_1,
+          name: 'Video Ads',
           description: [
-            `We create advanced fitness and healthcare wearable applications that empower users with real-time health insights and personalized recommendations.`,
-            `By utilizing sensors such as heart rate monitors, GPS, and motion trackers, our apps provide accurate tracking of activities, sleep patterns, and vital health metrics.`,
-            `These applications are designed not only to inform but also to engage users through intuitive dashboards, goal-setting features, and actionable insights, helping businesses deliver meaningful value in the rapidly growing health-tech space.`,
+            `Video advertising on YouTube offers a unique opportunity to capture attention, tell your brand story, and build trust with your audience. We develop tailored video ad strategies that align with your marketing objectives, whether it’s increasing brand awareness, driving website traffic, or boosting conversions.`,
+            `By targeting users based on their interests, search behavior, and viewing patterns, we ensure your message reaches the right audience at the right time, maximizing engagement and impact.`,
           ],
-          button: 'Let’s Plan Your Wearable App',
+          button: 'Launch My Campaign',
           btnColor: '#FB9100',
         },
         {
-          icon: wearablesAppDevImpIcon_5,
-          name: 'Utility & Lifestyle Wearable Apps',
+          icon: wearablesAppDevImpIcon_1,
+          name: 'Remarketing Ads',
           description: [
-            `Our utility-focused wearable applications are designed to simplify everyday tasks through quick, efficient, and intuitive interactions.`,
-            `We develop apps that provide instant access to notifications, reminders, navigation, and media controls, ensuring users can stay connected without constantly reaching for their smartphones.`,
-            `By focusing on minimalistic design and optimized performance, we ensure these apps deliver maximum usability while maintaining low power consumption.`,
+            `Not every visitor converts on their first interaction, which is why remarketing plays a crucial role in a successful Google Ads strategy. We create highly targeted remarketing campaigns that re-engage users who have previously visited your website or interacted with your brand.`,
+            `By delivering personalized ads based on their behavior, we keep your business top-of-mind and encourage them to return and complete their journey, turning missed opportunities into valuable conversions.`,
           ],
-          button: 'Let’s Plan Your Wearable App',
+          button: 'Launch My Campaign',
           btnColor: '#FB9100',
         },
         {
-          icon: wearablesAppDevImpIcon_6,
-          name: 'Smart Band & Fitness Tracker App',
+          icon: wearablesAppDevImpIcon_1,
+          name: 'Local Search Ads',
           description: [
-            `We design and develop companion applications for smart bands and fitness trackers that seamlessly collect, analyze, and present user data.`,
-            `Our solutions focus on delivering accurate insights through advanced data processing and intuitive visualizations. `,
-            `From syncing wearable data with mobile devices to integrating with cloud platforms for deeper analytics, Adaired Digital Media ensures a cohesive ecosystem that enhances both user experience and product functionality.`,
+            `For businesses targeting a specific geographic area, local advertising is essential. We optimize your campaigns to appear in local search results and Google Maps, helping you attract nearby customers who are ready to take action.`,
+            `Whether your goal is to increase store visits, phone calls, or local inquiries, we ensure your business stands out in your service area.`,
           ],
-          button: 'Let’s Plan Your Wearable App',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: wearablesAppDevImpIcon_7,
-          name: 'Smart Glasses Wearable App',
-          description: [
-            `We develop advanced applications for smart glasses, designed to deliver real-time information through intuitive visual interfaces.`,
-            `Our solutions leverage device capabilities such as cameras, sensors, and spatial computing to enable seamless interaction.`,
-            `By integrating technologies like augmented reality (AR), computer vision, and low-latency data streaming, we build applications that support real-time overlays, object recognition, and interactive guidance.`,
-          ],
-          button: 'Let’s Plan Your Wearable App',
-          btnColor: '#FB9100',
-        },
-        {
-          icon: wearablesAppDevImpIcon_8,
-          name: 'IoT-Enabled Wearable Applications',
-          description: [
-            `We develop wearable applications that are deeply integrated with IoT ecosystems, allowing seamless communication between devices, sensors, and cloud platforms.`,
-            `These solutions enable real-time monitoring, predictive analytics, and automation, making them highly valuable for both consumer and enterprise use cases.`,
-            `Our IoT-integrated wearable apps empower businesses to make data-driven decisions while delivering connected experiences that enhance efficiency and innovation.`,
-          ],
-          button: 'Let’s Plan Your Wearable App',
+          button: 'Launch My Campaign',
           btnColor: '#FB9100',
         },
       ],
@@ -22734,7 +22716,7 @@ export const SERVICES_DATA = {
 
     adairedHelp: {
       isVisible: true,
-      breakIndex: 4,
+      breakIndex: 2,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773905927/adaired/services/wearables_app_development/wearablesAppDevAdairedHelpImg_opxcsd.png',
       isInCenter: false,
       textColor: '',
@@ -22744,58 +22726,94 @@ export const SERVICES_DATA = {
       cardBg: '',
       headingParts: [
         {
-          text: 'Why Do Wearable Apps Stand Out?',
+          text: 'Complete Google Ads Management Services',
           color: '#000000',
           weight: '700',
         },
       ],
       description: [
-        `Wearable apps stand apart from traditional applications by offering real-time insights, seamless connectivity, and intuitive interactions on the go. As a leading wearable app development company, we ensure you get:`,
+        `By combining deep industry expertise with continuous testing and optimization, we ensure that every aspect of your campaigns is aligned with your business goals and delivers maximum return on investment.`,
       ],
       mainImage: whiteServicesAdairedHelpImg,
       list: [
         {
           img: '',
-          name: 'Real-Time Functionality',
+          name: 'Strategic Research & Planning',
           description: [
-            `Wearable applications are built to deliver instant data processing and feedback, enabling users to access critical information without delay.`,
-            `From monitoring heart rate and tracking steps to receiving timely notifications, these apps ensure high accuracy and responsiveness.`,
-            `This real-time capability is especially crucial in use cases like healthcare and fitness, where immediate insights can influence decisions and outcomes.`,
+            `Every successful campaign starts with a strong strategy. We take the time to understand your business, target audience, competitors, and objectives before launching any campaigns.`,
+            `This includes detailed keyword research based on search intent, competitor analysis to identify opportunities, and the development of a clear campaign roadmap. This strategic foundation ensures that your campaigns are built for performance from day one, targeting users who are most likely to convert.`,
           ],
         },
         {
           img: '',
-          name: 'Seamless Device Integration',
+          name: 'Campaign Setup & Account Structuring',
           description: [
-            `A core strength of wearable apps lies in their ability to connect and synchronize effortlessly with smartphones, cloud platforms, and other smart devices.`,
-            `Using technologies such as Bluetooth, Wi-Fi, and APIs, these applications enable smooth data exchange and continuous connectivity. `,
-            `This ensures users enjoy a unified experience across multiple devices without interruptions.`,
+            `A properly structured Google Ads account is essential for efficiency and scalability. We build your campaigns using proven frameworks that improve ad relevance, quality scores, and overall performance.`,
+            `From organizing ad groups and selecting the right match types to implementing extensions and targeting settings, we ensure your account is optimized for both immediate results and long-term growth.`,
           ],
         },
         {
           img: '',
-          name: 'Compact & Intuitive UI/UX',
+          name: 'High-Performance Creative Development',
           description: [
-            `Given the limited screen size of wearable devices, applications must focus on simplicity and usability.`,
-            `Interfaces are designed to present only the most relevant information in a clear and concise format.`,
-            `Features like voice commands, gesture controls, and glanceable screens enhance usability, allowing users to interact quickly and efficiently, even on the move.`,
+            `Your ads are the first interaction potential customers have with your brand, so they need to be compelling and persuasive. We craft high-converting ad copy that highlights your unique value, addresses user intent, and encourages action.`,
+            `Through continuous A/B testing of headlines, descriptions, and creatives, we refine messaging to improve click-through rates and conversion performance over time.`,
           ],
         },
         {
           img: '',
-          name: 'Sensor-Driven Capabilities',
+          name: 'Advanced Targeting & Segmentation',
           description: [
-            `Wearable devices come equipped with advanced sensors such as GPS, accelerometers, gyroscopes, and heart rate monitors, which power highly personalized experiences.`,
-            `Wearable applications utilize this data to provide context-aware insights, whether it’s tracking physical activity, monitoring health metrics, or enabling location-based services.`,
+            `Reaching the right audience is key to maximizing campaign success. We use advanced targeting techniques based on demographics, interests, behavior, and intent to ensure your ads are shown to users most likely to engage.`,
+            `By segmenting audiences and tailoring messaging accordingly, we increase relevance and improve overall campaign efficiency.`,
           ],
         },
         {
           img: '',
-          name: 'Power Efficiency',
+          name: 'Smart Bidding & Budget Optimization',
           description: [
-            `Battery life is a critical factor in wearable technology.`,
-            `Applications must be highly optimized to minimize power consumption while maintaining smooth performance.`,
-            `Efficient coding practices, background process management, and smart data handling help ensure that the app delivers consistent functionality without draining the device’s battery.`,
+            `Effective budget management is critical to achieving a strong ROI. We actively monitor campaign performance and adjust bidding strategies to ensure your budget is allocated to the highest-performing keywords and audiences.`,
+            `By reducing wasted spend and focusing on what works, we help you get the most value from every dollar invested in advertising.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Continuous Performance Improvement',
+          description: [
+            `Google Ads management is constantly evolving, and so are we. We continuously analyze campaign data to identify opportunities for improvement, including refining keywords, adjusting bids, testing new ad variations, and improving targeting.`,
+            `This ongoing optimization ensures your campaigns remain competitive and continue to deliver better results over time.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Performance Max Campaigns',
+          description: [
+            `Performance Max campaigns use Google’s machine learning to deliver ads across all available channels, including Search, Display, YouTube, Gmail, and Discover. We strategically set up and manage these campaigns to maximize conversions while identifying new audience segments and untapped opportunities.`,
+            `By continuously analyzing performance data, we refine campaign inputs to improve efficiency and drive better results over time.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Google Maps Optimization',
+          description: [
+            `For businesses targeting a specific geographic area, local advertising is essential. We optimize your campaigns to appear in local search results and Google Maps, helping you attract nearby customers who are ready to take action.`,
+            `Whether your goal is to increase store visits, phone calls, or local inquiries, we ensure your business stands out with our Google PPC management services in your area.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Landing Page Optimization',
+          description: [
+            `Driving traffic is only part of the equation; converting that traffic is what truly matters. We analyze your landing pages to identify areas for improvement, including design, messaging, user experience, and call-to-action placement.`,
+            `By aligning your landing pages with your ad campaigns, we help increase conversion rates and ensure you get the maximum value from every click.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Conversion Tracking & Performance Analytics',
+          description: [
+            `Accurate data is the foundation of successful Google Ads campaigns. We implement advanced tracking systems to monitor key actions such as form submissions, calls, purchases, and more.`,
+            `This allows us to gain deeper insights into user behavior, measure campaign effectiveness, and make informed decisions that continuously improve performance and ROI.`,
           ],
         },
       ],
@@ -22807,7 +22825,7 @@ export const SERVICES_DATA = {
       subtitle: 'Our Process',
       headingParts: [
         {
-          text: 'Delivering Wearable Apps Through a Structured Process',
+          text: 'Strategic Google Ads Management, Done for You',
           color: '#000000',
           weight: '700',
         },
@@ -22816,63 +22834,56 @@ export const SERVICES_DATA = {
       bgGradient: 'bg-[#FFFFFF]',
       span: '',
       description: [
-        `At Adaired Digital Media, we follow a well-defined and agile development process to transform innovative ideas into high-performance wearable applications.`,
+        `Our approach is designed to guide every stage of your campaign lifecycle, ensuring that each decision is backed by insights and aligned with your business objectives.`,
       ],
       services: [
         {
           icon: wearablesAppDevProcessIcon_1,
-          title: 'Discovery & Strategic Planning',
+          title: '',
           description: [
-            `Every successful wearable application begins with a clear understanding of the business goals and user expectations. During the discovery phase, our team works closely with clients to analyze their requirements, identify the target audience, and determine the wearable platforms and devices involved.`,
-            `This stage also involves evaluating market trends, understanding potential user behaviors, and outlining the key features that will define the application. The insights gathered during this phase help us establish a solid project roadmap and create a strategy that aligns technology with business objectives.`,
+            ``,
           ],
         },
         {
-          icon: wearablesAppDevProcessIcon_2,
-          title: 'System Architecture & Technology',
+          icon: wearablesAppDevProcessIcon_1,
+          title: '',
           description: [
-            `Wearable applications require a carefully planned architecture to ensure smooth performance across devices with limited resources. Our team designs a scalable and efficient system architecture that enables seamless communication between wearable devices, mobile applications, and cloud infrastructure.`,
-            `By selecting appropriate frameworks, APIs, and development tools, we create a foundation that supports stability, security, and long-term scalability. This step ensures that the application is capable of handling real-time data processing, device connectivity, and future updates without compromising performance.`,
+            ``,
           ],
         },
         {
-          icon: wearablesAppDevProcessIcon_3,
-          title: 'UI/UX Design Optimization',
+          icon: wearablesAppDevProcessIcon_1,
+          title: '',
           description: [
-            `Designing for wearable devices requires a different approach compared to traditional mobile or web applications. Our design team focuses on creating interfaces that deliver relevant information instantly while maintaining an intuitive user experience.`,
-            `Every element is carefully structured to ensure that users can access key features effortlessly, whether through touch interactions, voice commands, or gesture-based controls. The goal is to create a visually clean and highly functional interface that enhances usability without overwhelming the user.`,
+            ``,
           ],
         },
         {
-          icon: wearablesAppDevProcessIcon_4,
-          title: 'Development & Feature Implementation',
+          icon: wearablesAppDevProcessIcon_1,
+          title: '',
           description: [
-            `Once the design and architecture are finalized, our development team begins building the core application features. This stage involves implementing functionalities such as sensor integration, real-time data processing, connectivity with smartphones or cloud platforms, and secure data handling.`,
-            `Our developers follow modern development practices and agile methodologies to ensure flexibility and faster iterations. By continuously testing and refining features throughout the development cycle, we maintain high-quality standards while ensuring the application remains efficient and responsive.`,
+            ``,
           ],
         },
         {
-          icon: wearablesAppDevProcessIcon_5,
-          title: 'Device Connectivity & Integration',
+          icon: wearablesAppDevProcessIcon_1,
+          title: '',
           description: [
-            `Wearable applications rely heavily on seamless communication between devices and supporting platforms. To achieve this, we integrate reliable connectivity solutions that allow data to be transferred efficiently between wearable devices, mobile applications, and backend systems.`,
-            `Technologies such as Bluetooth Low Energy, Wi-Fi connectivity, and cloud synchronization are utilized to maintain stable communication and ensure real-time data availability. Proper integration ensures that users experience consistent functionality regardless of the device they are using.`,
+            ``,
           ],
         },
         {
-          icon: wearablesAppDevProcessIcon_6,
-          title: 'Quality Assurance',
+          icon: wearablesAppDevProcessIcon_1,
+          title: '',
           description: [
-            `Before launching any wearable application, we conduct thorough testing to ensure that it performs reliably in real-world environments. Our quality assurance process evaluates functionality, usability, performance, and device compatibility.`,
-            `Special attention is given to battery efficiency, data accuracy, and responsiveness, as these factors are critical in wearable technology. Through continuous optimization, we ensure that the final product delivers a stable and seamless user experience across supported devices.`,
+            ``,
           ],
         },
         {
-          icon: wearablesAppDevProcessIcon_7,
-          title: 'Deployment and Launch',
+          icon: wearablesAppDevProcessIcon_1,
+          title: '',
           description: [
-            `After the application successfully passes all testing phases, we prepare it for deployment on the intended platforms. Our team manages the entire launch process, ensuring the application complies with platform requirements and operates smoothly in production environments.`,
-            `By carefully handling the deployment stage, we ensure that the application reaches users efficiently and begins delivering value from the moment it goes live.`,
+            ``,
           ],
         },
       ],
