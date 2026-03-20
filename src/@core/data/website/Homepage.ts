@@ -696,8 +696,7 @@ export const ServiceSectionData = {
           label: 'Google Ads',
           title: 'Google Ads',
           description: `Maximize your online visibility and drive targeted traffic with our Google Ads management. We create, optimize, and monitor high-performing campaigns to increase leads, boost sales, and improve ROI. Our expert approach ensures your ads reach the right audience at the right time for measurable business growth.`,
-          link: '/services/ppc-management-company',
-          // link: '/services/google-ads-management-company',
+          link: '/services/google-ads-management-company',
         },
         {
           icon: TikTokAds,

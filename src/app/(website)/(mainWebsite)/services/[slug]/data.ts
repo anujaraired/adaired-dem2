@@ -1,17 +1,4 @@
-// import rocket from '../../../../../../public/assets/icons/rocket.svg';
-// import aiseoresult from '../../../../../../public/assets/aiseo/AISEORESULT.png';
-// import aiseoresult_2 from '../../../../../../public/assets/680_500.png';
-// import aiseoresult_3 from '../../../../../../public/assets/aiseo/AISEORESULT.png';
-// import aiseoresult_4 from '../../../../../../public/assets/680_500.png';
-// import meke_derefent from '../../../../../../public/assets/aiseo/make_deferent.png';
-// import meke_derefent_2 from '../../../../../../public/assets/aiseo/make_deferent_1.png';
-// import meke_derefent_3 from '../../../../../../public/assets/aiseo/make_deferent_2.png';
-// import meke_derefent_4 from '../../../../../../public/assets/aiseo/make_deferent_3.png';
 import step from '../../../../../../public/assets/aiseo/process/Group 1000005845 (1).svg';
-// import step_2 from '../../../../../../public/assets/aiseo/process/Group 1000005846.svg';
-// import step_3 from '../../../../../../public/assets/aiseo/process/Group 1000005847.svg';
-// import step_4 from '../../../../../../public/assets/aiseo/process/Group 1000005848.svg';
-// import step_5 from '../../../../../../public/assets/aiseo/process/Group 1000005849.svg';
 import step1 from '../../../../../../public/assets/seo/process/step1.svg';
 import step2 from '../../../../../../public/assets/seo/process/step2.svg';
 import step3 from '../../../../../../public/assets/seo/process/step3.svg';
@@ -70,7 +57,6 @@ import stepwhitelabelsocialmedia2 from '../../../../../../public/assets/images/s
 import stepwhitelabelsocialmedia3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step3.svg';
 import stepwhitelabelsocialmedia4 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step4.svg';
 import stepwhitelabelsocialmedia5 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step5.svg';
-// import stepwhitelabelsocialmedia6 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelSocialMedia/step6.svg';
 import stepwhitelabelpaidad1 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/step1.svg';
 import stepwhitelabelpaidad2 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/step2.svg';
 import stepwhitelabelpaidad3 from '../../../../../../public/assets/images/service/whitelabel/whiteLabelPaidAds/step3.svg';
@@ -85,7 +71,6 @@ import stepwhitelabellinkbuild5 from '../../../../../../public/assets/images/ser
 import stepwhitelabellinkbuild6 from '../../../../../../public/assets/images/service/whitelabel//whiteLabelLinkBuilding/step6.svg';
 
 import NotSeeingResultsBg from '../../../../../../public/assets/NotSeeingResultsBg.png';
-// import NotSeeingResultsBg2 from '../../../../../../public/assets/NotSeeingResultsBg2.png';
 import leadingToolsImg from '../../../../../../public/assets/leadingTools.png';
 import what_are_ai_seo from '../../../../../../public/assets/images/what_are_ai_seo.png';
 import what_are_ai_seo2 from '../../../../../../public/assets/what_are_ai_seo2.png';
@@ -116,58 +101,7 @@ import client_4 from '../../../../../../public/assets/LeadingTools/Group 1000005
 import client_5 from '../../../../../../public/assets/LeadingTools/Group 1000005428.png';
 import groth from '../../../../../../public/assets/icons/adwords-campaign.svg';
 
-// import adairedHelp_4 from '../../../../../../public/assets/images/services/seo/adairedSEO1.png';
-// import adairedHelp_7 from '../../../../../../public/assets/images/services/seo/adairedSEO2.png';
-// import adairedHelp_8 from '../../../../../../public/assets/images/services/seo/adairedSEO3.png';
-// import adairedHelp_15 from '../../../../../../public/assets/images/services/seo/adairedSEO4.png';
-// import adairedHelp_13 from '../../../../../../public/assets/images/services/seo/adairedSEO5.png';
-// import adairedHelp_12 from '../../../../../../public/assets/images/services/seo/adairedSEO6.png';
-// import adairedHelp_14 from '../../../../../../public/assets/images/services/seo/adairedSEO7.png';
-// import adairedHelp_16 from '../../../../../../public/assets/images/services/seo/adairedSEO8.png';
-// import adairedHelpaiseo1 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO1.png';
-// import adairedHelpaiseo2 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO2.png';
-// import adairedHelpaiseo3 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO3.png';
-// import adairedHelpaiseo4 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO4.png';
-// import adairedHelpaiseo5 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO5.png';
-// import adairedHelpaiseo6 from '../../../../../../public/assets/images/services/aiseo/adairedAISEO6.png';
-// import whatMkLocal from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo1.png';
-// import whatMkLocal1 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo2.png';
-// import whatMkLocal2 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo3.png';
-// import whatMkLocal3 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo4.png';
-// import whatMkLocal4 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo5.png';
-// import whatMkLocal5 from '../../../../../../public/assets/images/services/localSeo/adairedLocalSeo6.png';
-// import WhatMkeAd from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign1.png';
-// import WhatMkeAd2 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign2.png';
-// import WhatMkeAd3 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign3.png';
-// import WhatMkeAd4 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign4.png';
-// import WhatMkeAd5 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign5.png';
-// import WhatMkeAd6 from '../../../../../../public/assets/images/services/webDesignDevelopment/adairedWebDesign6.png';
-
-// import whiteLinkBuildingWhatMkDiffImg_1 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild1.png';
-// import whiteLinkBuildingWhatMkDiffImg_2 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild2.png';
-// import whiteLinkBuildingWhatMkDiffImg_3 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild3.png';
-// import whiteLinkBuildingWhatMkDiffImg_4 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild5.png';
-// import whiteLinkBuildingWhatMkDiffImg_5 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/adairedWhiteLinkBuild4.png';
-
-// import whatMkWhite_1 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia1.png';
-// import whatMkWhite_2 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia2.png';
-// import whatMkWhite_3 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia3.png';
-// import whatMkWhite_4 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia4.png';
-// import whatMkWhite_5 from '../../../../../../public/assets/images/services/WhiteLabel/socialMediaOutsourcing/adairedSocialMedia5.png';
-
-// import whatMkWhiteSeo_1 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo1.png';
-// import whatMkWhiteSeo_2 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo2.png';
-// import whatMkWhiteSeo_3 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo3.png';
-// import whatMkWhiteSeo_4 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo4.png';
-// import whatMkWhiteSeo_5 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo5.png';
-// import whatMkWhiteSeo_6 from '../../../../../../public/assets/images/services/WhiteLabel/seo_outsourcing/adairedWhiteLabelSeo6.png';
-
 import HowAdairedHelp from '../../../../../../public/assets/WebDevelopment/HowAdairedHelp.png';
-// import adairedHelp_1 from '../../../../../../public/assets/adairedHelp/Group 1000006012.png';
-// import adairedHelp_2 from '../../../../../../public/assets/adairedHelp/Group 1000006013.png';
-// import adairedHelp_3 from '../../../../../../public/assets/adairedHelp/Group 1000006014.png';
-// import adairedHelp_5 from '../../../../../../public/assets/adairedHelp/Group 1000006028.png';
-// import adairedHelp_6 from '../../../../../../public/assets/adairedHelp/Group 1000006029.png';
 
 import seo_resultIcon_1 from '../../../../../../public/assets/seo/seo_resultIcon_1.svg';
 import seo_resultIcon_2 from '../../../../../../public/assets/seo/seo_resultIcon_2.svg';
@@ -209,13 +143,6 @@ import AdairedHelp4 from '../../../../../../public/assets/images/AdairedHelp4.pn
 import AdairedHelp5 from '../../../../../../public/assets/images/AdairedHelp5.png';
 import AdairedHelp6 from '../../../../../../public/assets/images/AdairedHelp6.png';
 
-// import adairedDiff_1 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding1.png';
-// import adairedDiff_2 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding2.png';
-// import adairedDiff_3 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding3.png';
-// import adairedDiff_4 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding4.png';
-// import adairedDiff_5 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding5.png';
-// import adairedDiff_6 from '../../../../../../public/assets/images/services/linkBuilding/adairedLinkBuilding6.png';
-
 import linkServices_1 from '../../../../../../public/assets/images/linkServices_1.png';
 import linkServices_2 from '../../../../../../public/assets/images/linkServices_2.png';
 import linkServices_3 from '../../../../../../public/assets/images/linkServices_3.png';
@@ -245,7 +172,6 @@ import stop_struggle3 from '../../../../../../public/assets/localseo/stop_strugg
 
 // Local SEO Images
 import localBannerBg from '../../../../../../public/assets/localseo/localBannerBg.png';
-// import localBannerBg from '../../../../../../public/assets/localseo/New version of seo image.jpg';
 
 import LocalWhatService from '../../../../../../public/assets/localseo/localWhatService.png';
 import LocalNotSee from '../../../../../../public/assets/localseo/localNotSee.png';
@@ -273,7 +199,6 @@ import whiteKeyStats from '../../../../../../public/assets/images/services/White
 import whiteWhatIs from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteWhatIs.png';
 import whiteStruggleBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteStruggleBg.png';
 import whiteBannerBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteBannerBg.png';
-// import whiteAdairedHelpImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteAdairedHelpImg.png';
 import whiteBookConsultationBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteBookConsultationBg.png';
 import whiteBuildLinkImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteBuildLinkImg.png';
 
@@ -317,6 +242,9 @@ import whiteServicesAdairedHelpImg from '../../../../../../public/assets/images/
 //AeoService Page Images
 import WhatAreServiceAeoServiceImg from '../../../../../../public/assets/images/services/aeoService/whiteServicesAeoServiceImg.png';
 import AeoServiceAdairedHelpImg from '../../../../../../public/assets/images/services/aeoService/AeoServiceAdairedHelpImg.png';
+import AeoServiceBannerImg from '../../../../../../public/assets/images/services/aeoService/AeoServiceBannerImg.png';
+import ImpToBusinessCradImg from '../../../../../../public/assets/images/services/aeoService/ImpToBusinessCradImg.png';
+
 import AEOServiceImpIcon_1 from '../../../../../../public/assets/images/services/aeoService/ImpToBussinessImg/Icon1.svg';
 import AEOServiceImpIcon_2 from '../../../../../../public/assets/images/services/aeoService/ImpToBussinessImg/Icon2.svg';
 import AEOServiceImpIcon_3 from '../../../../../../public/assets/images/services/aeoService/ImpToBussinessImg/Icon3.svg';
@@ -326,10 +254,6 @@ import AEOServiceImpIcon_6 from '../../../../../../public/assets/images/services
 import AEOServiceImpIcon_7 from '../../../../../../public/assets/images/services/aeoService/ImpToBussinessImg/Icon7.svg';
 import AEOServiceImpIcon_8 from '../../../../../../public/assets/images/services/aeoService/ImpToBussinessImg/Icon8.svg';
 import AEOServiceImpIcon_9 from '../../../../../../public/assets/images/services/aeoService/ImpToBussinessImg/Icon9.svg';
-// import AEOServicewhatMke1 from '../../../../../../public/assets/images/services/aeoService/whatMkeDeferentImg/Img1.png';
-// import AEOServicewhatMke2 from '../../../../../../public/assets/images/services/aeoService/whatMkeDeferentImg/Img2.png';
-import AeoServiceBannerImg from '../../../../../../public/assets/images/services/aeoService/AeoServiceBannerImg.png';
-import ImpToBusinessCradImg from '../../../../../../public/assets/images/services/aeoService/ImpToBusinessCradImg.png';
 
 import whiteServicesIncluded_1 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesIncluded_1.png';
 import whiteServicesIncluded_2 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesIncluded_2.png';
@@ -401,14 +325,13 @@ import saasSeoImpIcon_4 from '../../../../../../public/assets/saasSeo/saasSeoImp
 import saasSeoImpIcon_5 from '../../../../../../public/assets/saasSeo/saasSeoImpIcon_5.png';
 import saasSeoImpIcon_6 from '../../../../../../public/assets/saasSeo/saasSeoImpIcon_6.png';
 
-// import saasSeoWhatMkDiffImg_1 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_1.png';
-// import saasSeoWhatMkDiffImg_2 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_2.png';
-// import saasSeoWhatMkDiffImg_3 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_3.png';
-// import saasSeoWhatMkDiffImg_4 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_4.png';
-// import saasSeoWhatMkDiffImg_5 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_5.png';
-// import saasSeoWhatMkDiffImg_6 from '../../../../../../public/assets/saasSeo/saasSeoWhatMkDiffImg_6.png';
-
 // GEO Ai Seo Images
+import geoAiSeoAdairedHelpImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoAdairedHelpImg.png';
+import geoAiSeoWhatIsImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoWhatIsImg.png';
+import geoAiSeoBannerBg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoBannerBg.png';
+import geoAiSeoBuildLinkImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoBuildLinkImg.png';
+import geoAiSeoWhatServiceImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoWhatServiceImg.png';
+
 import geoAiSeoImpIcon_1 from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoImpIcon_1.png';
 import geoAiSeoImpIcon_2 from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoImpIcon_2.png';
 import geoAiSeoImpIcon_3 from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoImpIcon_3.png';
@@ -423,18 +346,12 @@ import geoAiSeoProcess_4 from '../../../../../../public/assets/images/services/g
 import geoAiSeoProcess_5 from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoProcess_5.png';
 import geoAiSeoProcess_6 from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoProcess_6.png';
 
-import geoAiSeoAdairedHelpImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoAdairedHelpImg.png';
-import geoAiSeoWhatIsImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoWhatIsImg.png';
-import geoAiSeoBannerBg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoBannerBg.png';
-import geoAiSeoBuildLinkImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoBuildLinkImg.png';
-
-import geoAiSeoWhatServiceImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoWhatServiceImg.png';
-
 // Mobile App Development Images
 import mobileAppDevBannerBg from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevBannerBg.png';
 import mobileAppDevAdairedHelpImg from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevAdairedHelpImg.png';
 import mobileAppDevWhatService from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevWhatService.png';
 import mobileAppDevBuildLinkImg from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevBuildLinkImg.png';
+import LaunchMobileAppCardImage from '../../../../../../public/assets/images/services/mobileAppDevelopment/LaunchMobileAppCardImage.png';
 
 import mobileAppDevProcess_1 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevProcess_1.png';
 import mobileAppDevProcess_2 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevProcess_2.png';
@@ -486,21 +403,20 @@ import mobileAppDevTechStackImg_27 from '../../../../../../public/assets/images/
 import mobileAppDevTechStackImg_28 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_28.png';
 import mobileAppDevTechStackImg_29 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_29.png';
 import mobileAppDevTechStackImg_30 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_30.png';
-import LaunchMobileAppCardImage from '../../../../../../public/assets/images/services/mobileAppDevelopment/LaunchMobileAppCardImage.png';
 
 // GBP local Seo Images
-// import gbplocalSeoBannerBg from '../../../../../../public/assets/images/services/gbpLocalSeo/gbplocalSeoBannerBg.png';
 import gbplocalSeoBannerBg from '../../../../../../public/assets/images/services/gmb/gmb_only.png';
 import gmb_website_banner from '../../../../../../public/assets/images/services/gmb/gmb+website.png';
+import AdairedHelpgmb from '../../../../../../public/assets/images/services/gmb/AdairedHelpGmb.png';
+
+import WhatAreServiceGMB from '../../../../../../public/assets/images/services/gmb/whatAreServiceGMB.png';
+import WhatAreServiceGMB2 from '../../../../../../public/assets/images/services/gmb/whatAreServiceGMB2.png';
 
 import KeyStatsIcon1 from '../../../../../../public/assets/images/services/gmb/KeyStatIcon1.svg';
 import KeyStatsIcon2 from '../../../../../../public/assets/images/services/gmb/KeyStatIcon2.svg';
 import KeyStatsIcon3 from '../../../../../../public/assets/images/services/gmb/KeyStatIcon3.svg';
 import KeyStatsIcon4 from '../../../../../../public/assets/images/services/gmb/KeyStatIcon4.svg';
 import KeyStatsIcon5 from '../../../../../../public/assets/images/services/gmb/KeyStatIcon5.svg';
-import WhatAreServiceGMB from '../../../../../../public/assets/images/services/gmb/whatAreServiceGMB.png';
-import WhatAreServiceGMB2 from '../../../../../../public/assets/images/services/gmb/whatAreServiceGMB2.png';
-import AdairedHelpgmb from '../../../../../../public/assets/images/services/gmb/AdairedHelpGmb.png';
 
 import icon1 from '../../../../../../public/assets/images/services/gmb/ourProcess/Icon1.svg';
 import icon2 from '../../../../../../public/assets/images/services/gmb/ourProcess/icon2.svg';
@@ -543,20 +459,24 @@ import gmbProcessIcon_3 from '../../../../../../public/assets/images/services/gm
 import gmbProcessIcon_4 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbProcessIcon_4.png';
 import gmbProcessIcon_5 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbProcessIcon_5.png';
 import gmbProcessIcon_6 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbProcessIcon_6.png';
+
 // WordPress Development Images
 import Banner from '../../../../../../public/assets/images/services/wordpressDevelopment/Banner.png';
 import KeyStatsImg from '../../../../../../public/assets/images/services/wordpressDevelopment/KeyStatsIcon.svg';
-import WhatAreService1 from '../../../../../../public/assets/images/services/wordpressDevelopment/WhatAreService.png';
-import WhatAreService2 from '../../../../../../public/assets/images/services/wordpressDevelopment/whatareservice2.png';
 import AdairedHelp from '../../../../../../public/assets/images/services/wordpressDevelopment/adairedHelp.png';
 import BuildLink from '../../../../../../public/assets/images/services/wordpressDevelopment/BuildLink.png';
 import bgImg_BuildLink from '../../../../../../public/assets/images/services/wordpressDevelopment/bgImgBuildLink.png';
+
+import WhatAreService1 from '../../../../../../public/assets/images/services/wordpressDevelopment/WhatAreService.png';
+import WhatAreService2 from '../../../../../../public/assets/images/services/wordpressDevelopment/whatareservice2.png';
+
 import Icon1 from '../../../../../../public/assets/images/services/wordpressDevelopment/ourProcessIcon1.svg';
 import Icon2 from '../../../../../../public/assets/images/services/wordpressDevelopment/ourProcessIcon2.svg';
 import Icon3 from '../../../../../../public/assets/images/services/wordpressDevelopment/ourProcessIcon3.svg';
 import Icon4 from '../../../../../../public/assets/images/services/wordpressDevelopment/ourProcessIcon4.svg';
 import Icon5 from '../../../../../../public/assets/images/services/wordpressDevelopment/ourProcessIcon5.svg';
 import Icon6 from '../../../../../../public/assets/images/services/wordpressDevelopment/ourProcessIcon6.svg';
+
 import AdairedHelp_1 from '../../../../../../public/assets/images/services/wordpressDevelopment/AdairedHelp1.svg';
 import AdairedHelp_2 from '../../../../../../public/assets/images/services/wordpressDevelopment/AdairedHelp2.svg';
 import AdairedHelp_3 from '../../../../../../public/assets/images/services/wordpressDevelopment/AdairedHelp3.svg';
@@ -565,7 +485,6 @@ import AdairedHelp_5 from '../../../../../../public/assets/images/services/wordp
 import AdairedHelp_6 from '../../../../../../public/assets/images/services/wordpressDevelopment/AdairedHelp6.svg';
 
 // LLM Service Page Images
-
 import ourProcessIcon1 from '../../../../../../public/assets/images/services/llm/ourProcessIcon1.svg';
 import ourProcessIcon2 from '../../../../../../public/assets/images/services/llm/ourProcessIcon2.svg';
 import ourProcessIcon3 from '../../../../../../public/assets/images/services/llm/ourProcessIcon3.svg';
@@ -573,6 +492,7 @@ import ourProcessIcon4 from '../../../../../../public/assets/images/services/llm
 import ourProcessIcon5 from '../../../../../../public/assets/images/services/llm/ourProcessIcon5.svg';
 import ourProcessIcon6 from '../../../../../../public/assets/images/services/llm/ourProcessIcon6.svg';
 import ourProcessIcon7 from '../../../../../../public/assets/images/services/llm/ourProcessIcon7.svg';
+
 import ImpToBusinessIcon1 from '../../../../../../public/assets/images/services/llm/Icon1.svg';
 import ImpToBusinessIcon2 from '../../../../../../public/assets/images/services/llm/Icon2.svg';
 import ImpToBusinessIcon3 from '../../../../../../public/assets/images/services/llm/Icon3.svg';
@@ -604,6 +524,7 @@ import shopifyDevImpIcon_6 from '../../../../../../public/assets/images/services
 // eCommerce Development Service Page Images
 import ECommerceKeyStatsImg from '../../../../../../public/assets/images/services/eCommerceDevelopment/KeyStatsIcon.svg';
 import ecommerceDEV_whatareserviceImg from '../../../../../../public/assets/images/services/eCommerceDevelopment/ecommerceDEV_whatareserviceImg.png';
+
 import ecommerceDev_imptobusiness1 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ecommerceDev_imptobusiness1.svg';
 import ecommerceDev_imptobusiness2 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ecommerceDev_imptobusiness2.svg';
 import ecommerceDev_imptobusiness3 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ecommerceDev_imptobusiness3.svg';
@@ -611,6 +532,7 @@ import ecommerceDev_imptobusiness4 from '../../../../../../public/assets/images/
 import ecommerceDev_imptobusiness5 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ecommerceDev_imptobusiness5.svg';
 import ecommerceDev_imptobusiness6 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ecommerceDev_imptobusiness6.svg';
 import ecommerceDev_imptobusiness7 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ecommerceDev_imptobusiness7.svg';
+
 import ourProcess_ecomDev1 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ourProcess_ecomDev1.svg';
 import ourProcess_ecomDev2 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ourProcess_ecomDev2.svg';
 import ourProcess_ecomDev3 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ourProcess_ecomDev3.svg';
@@ -625,6 +547,7 @@ import ecommerceSEO_Imptobusiness3 from '../../../../../../public/assets/images/
 import ecommerceSEO_Imptobusiness4 from '../../../../../../public/assets/images/services/eCommerce_Seo/ecommerceSEO_Imptobusiness4.svg';
 import ecommerceSEO_Imptobusiness5 from '../../../../../../public/assets/images/services/eCommerce_Seo/ecommerceSEO_Imptobusiness5.svg';
 import ecommerceSEO_Imptobusiness6 from '../../../../../../public/assets/images/services/eCommerce_Seo/ecommerceSEO_Imptobusiness6.svg';
+
 import eCommerceSEO_whatIncluded1 from '../../../../../../public/assets/images/services/eCommerce_Seo/eCommerceSEO_whatIncluded1.svg';
 import eCommerceSEO_whatIncluded2 from '../../../../../../public/assets/images/services/eCommerce_Seo/eCommerceSEO_whatIncluded2.svg';
 import eCommerceSEO_whatIncluded3 from '../../../../../../public/assets/images/services/eCommerce_Seo/eCommerceSEO_whatIncluded3.svg';
@@ -708,6 +631,8 @@ import socialMediaMgtImpIcon_5 from '../../../../../../public/assets/images/serv
 import socialMediaMgtImpIcon_6 from '../../../../../../public/assets/images/services/socialMediaMgt/socialMediaMgtImpIcon_6.png';
 
 // Android App Development Images
+import LaunchAppCardImg from '../../../../../../public/assets/images/services/androidAppDevelopment/LaunchAppCardImg.png';
+
 import ImpToBusiness_AndroidAppIcon1 from '../../../../../../public/assets/images/services/androidAppDevelopment/ImpToBusiness_AndroidAppIcon1.svg';
 import ImpToBusiness_AndroidAppIcon2 from '../../../../../../public/assets/images/services/androidAppDevelopment/ImpToBusiness_AndroidAppIcon2.svg';
 import ImpToBusiness_AndroidAppIcon3 from '../../../../../../public/assets/images/services/androidAppDevelopment/ImpToBusiness_AndroidAppIcon3.svg';
@@ -722,8 +647,6 @@ import ourProcess_AndroidAppIcon3 from '../../../../../../public/assets/images/s
 import ourProcess_AndroidAppIcon4 from '../../../../../../public/assets/images/services/androidAppDevelopment/ourProcess_AndroidAppIcon4.svg';
 import ourProcess_AndroidAppIcon5 from '../../../../../../public/assets/images/services/androidAppDevelopment/ourProcess_AndroidAppIcon5.svg';
 import ourProcess_AndroidAppIcon6 from '../../../../../../public/assets/images/services/androidAppDevelopment/ourProcess_AndroidAppIcon6.svg';
-
-import LaunchAppCardImg from '../../../../../../public/assets/images/services/androidAppDevelopment/LaunchAppCardImg.png';
 
 // Cross-platform App Development Images
 import crossPlatformWhatServiceImg from '../../../../../../public/assets/images/services/crossPlatformAppDev/crossPlatformWhatServiceImg.png';
@@ -885,10 +808,6 @@ export const SERVICES_DATA = {
       ],
     },
 
-    areYouTired: {
-      isVisible: false,
-    },
-
     whatareservice: {
       isVisible: true,
       isVariant: '01',
@@ -965,18 +884,6 @@ export const SERVICES_DATA = {
           ],
         },
       ],
-    },
-
-    needofservice: {
-      isVisible: false,
-    },
-
-    benefitofAiSeo: {
-      isVisible: false,
-    },
-
-    whyAdaired: {
-      isVisible: false,
     },
 
     whatIncluded: {
@@ -1192,10 +1099,6 @@ export const SERVICES_DATA = {
       buttonName: 'Book a Free Consultation',
       img: Everydayyouwait,
       bgImage: stop_struggle2,
-    },
-
-    industryLeaders: {
-      isVisible: false,
     },
 
     leadingTools: {
@@ -1668,6 +1571,26 @@ export const SERVICES_DATA = {
         },
       ],
     },
+
+    industryLeaders: {
+      isVisible: false,
+    },
+
+    areYouTired: {
+      isVisible: false,
+    },
+    
+    needofservice: {
+      isVisible: false,
+    },
+
+    benefitofAiSeo: {
+      isVisible: false,
+    },
+
+    whyAdaired: {
+      isVisible: false,
+    },
   },
   'ai-seo-agency': {
     sectionsOrder: [
@@ -1753,10 +1676,6 @@ export const SERVICES_DATA = {
       ],
     },
 
-    areYouTired: {
-      isVisible: false,
-    },
-
     whatareservice: {
       isVisible: true,
       isVariant: '04',
@@ -1782,9 +1701,6 @@ export const SERVICES_DATA = {
           desctioption: `AI SEO combines the best practices of SEO  along with generative AI to ensure your content is discovered and ranked favourably. `,
         },
       ],
-    },
-    importantToBussiness: {
-      isVisible: false,
     },
     needofservice: {
       isVisible: true,
@@ -2426,6 +2342,14 @@ export const SERVICES_DATA = {
     seopackages: {
       isVisible: false,
     },
+
+    importantToBussiness: {
+      isVisible: false,
+    },
+
+    areYouTired: {
+      isVisible: false,
+    },
   },
   'link-building-agency': {
     sectionsOrder: [
@@ -2588,10 +2512,6 @@ export const SERVICES_DATA = {
       button: 'Start Building Today',
     },
 
-    importantToBussiness: {
-      isVisible: false,
-    },
-
     needofservice: {
       isVisible: true,
       isBgCornerImg: true,
@@ -2752,10 +2672,6 @@ export const SERVICES_DATA = {
           btnColor: '#1A5A96',
         },
       ],
-    },
-
-    serviceResult: {
-      isVisible: false,
     },
 
     notSeeingResult: {
@@ -3190,6 +3106,14 @@ export const SERVICES_DATA = {
         },
       ],
     },
+
+    serviceResult: {
+      isVisible: false,
+    },
+
+    importantToBussiness: {
+      isVisible: false,
+    },
   },
   'web-design-development-company': {
     sectionsOrder: [
@@ -3273,10 +3197,6 @@ export const SERVICES_DATA = {
       ],
     },
 
-    areYouTired: {
-      isVisible: false,
-    },
-
     whatareservice: {
       isVisible: true,
       isVariant: '04',
@@ -3305,10 +3225,6 @@ export const SERVICES_DATA = {
         },
       ],
       button: 'Start Building Today',
-    },
-
-    importantToBussiness: {
-      isVisible: false,
     },
 
     needofservice: {
@@ -3449,10 +3365,6 @@ export const SERVICES_DATA = {
           linkHref: '#',
         },
       ],
-    },
-
-    serviceResult: {
-      isVisible: false,
     },
 
     notSeeingResult: {
@@ -3869,6 +3781,18 @@ export const SERVICES_DATA = {
         },
       ],
     },
+
+    serviceResult: {
+      isVisible: false,
+    },
+
+    importantToBussiness: {
+      isVisible: false,
+    },
+
+    areYouTired: {
+      isVisible: false,
+    },
   },
   'local-seo-company': {
     sectionsOrder: [
@@ -3966,10 +3890,6 @@ export const SERVICES_DATA = {
           ],
         },
       ],
-    },
-
-    areYouTired: {
-      isVisible: false,
     },
 
     whatareservice: {
@@ -4509,14 +4429,6 @@ export const SERVICES_DATA = {
       ],
     },
 
-    benefitofAiSeo: {
-      isVisible: false,
-    },
-
-    whatIncluded: {
-      isVisible: false,
-    },
-
     industryLeaders: {
       isVisible: true,
       headingParts: [
@@ -4529,10 +4441,6 @@ export const SERVICES_DATA = {
       description:
         'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
       bgImage: leadingToolsImg,
-    },
-
-    leadingToolsForPerformence: {
-      isVisible: false,
     },
 
     leadingTools: {
@@ -4652,10 +4560,6 @@ export const SERVICES_DATA = {
       isVisible: false,
     },
 
-    getplan: {
-      isVisible: false,
-    },
-
     seopackages: {
       isVisible: true,
       cardLength: 2,
@@ -4741,6 +4645,26 @@ export const SERVICES_DATA = {
           btnColor: '#000000',
         },
       ],
+    },
+
+    getplan: {
+      isVisible: false,
+    },
+
+    leadingToolsForPerformence: {
+      isVisible: false,
+    },
+
+    benefitofAiSeo: {
+      isVisible: false,
+    },
+
+    whatIncluded: {
+      isVisible: false,
+    },
+
+    areYouTired: {
+      isVisible: false,
     },
   },
   'social-media-outsourcing-india': {
@@ -6030,18 +5954,6 @@ export const SERVICES_DATA = {
       ],
     },
 
-    leadingTools: {
-      isVisible: false,
-    },
-
-    getplan: {
-      isVisible: false,
-    },
-
-    stopStruggling: {
-      isVisible: false,
-    },
-
     ourProcess: {
       isVisible: false,
       isInCenter: true,
@@ -6125,6 +6037,18 @@ export const SERVICES_DATA = {
     },
 
     notSeeingResult: {
+      isVisible: false,
+    },
+
+     leadingTools: {
+      isVisible: false,
+    },
+
+    getplan: {
+      isVisible: false,
+    },
+
+    stopStruggling: {
       isVisible: false,
     },
   },
@@ -17523,99 +17447,6 @@ export const SERVICES_DATA = {
 
     seopackages: {
       isVisible: false,
-      cardLength: 3,
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: '',
-      data: [
-        {
-          title: 'Establish',
-          description:
-            'Start strong with the strategy to build visibility and create a foundation for growth.',
-          desc: '$399',
-          span: '/month',
-          desctioption: `Complete SEO Audit`,
-          list: [
-            {
-              des: [`ON-Page Optimization`],
-            },
-            {
-              des: [`Target 15 Primary Keywords`],
-            },
-            {
-              des: [`SEMRush Errors Fixing`],
-            },
-            {
-              des: [`Quality Link Building`],
-            },
-            {
-              des: [`Manual Monthly Reports`],
-            },
-            {
-              des: [`Competitor Analysis`],
-            },
-          ],
-          button: 'Start Growing',
-        },
-        {
-          title: 'Accelerate',
-          text: 'Recommended',
-          description:
-            'Step up with an expanded strategy, deeper optimization, and the tools to scale faster.',
-          desc: '$599',
-          span: '/month',
-          desctioption: `Everything In Starter`,
-          list: [
-            {
-              des: [`AI SEO, GEO, AEO, LLMs"`],
-            },
-            {
-              des: [`Unlimited Secondary Keywords`],
-            },
-            {
-              des: [`2 Website Blogs`],
-            },
-            {
-              des: [`Authority Guest Post Links`],
-            },
-            {
-              des: [`Technical Errors Fixing`],
-            },
-            {
-              des: [`Branded Monthly Reports`],
-            },
-          ],
-          button: 'Scale My Growth',
-        },
-        {
-          title: 'Dominate',
-          description:
-            'Dominate your market with advanced strategy and powerful execution.',
-          desc: '$899',
-          span: '/month',
-          desctioption: `Everything in Premium`,
-          list: [
-            {
-              des: [`Advanced AI Search & Visibility Optimization`],
-            },
-            {
-              des: [`Website Speed Optimization`],
-            },
-            {
-              des: [`Dedicated Account Manager`],
-            },
-            {
-              des: [`Complete SEO Growth roadmap`],
-            },
-          ],
-          button: 'Dominate Search',
-        },
-      ],
     },
   },
   'custom-web-development-company': {
@@ -18378,95 +18209,10 @@ export const SERVICES_DATA = {
 
     adairedHelp: {
       isVisible: false,
-      breakIndex: 5,
-      img: shopifyDevAdairedHelpImg,
-      isInCenter: false,
-      textColor: '#000000',
-      isnNumberBg: true,
-      numberBg: '#FEF1E0',
-      bgColor: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFCF8]',
-      cardBg: '',
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: [
-        `Shopify has become one of the most trusted eCommerce platforms for businesses looking to build and scale online stores.`,
-        `Its powerful features, flexibility, and ease of use make it an ideal choice for startups, growing brands, and enterprise-level businesses alike.`,
-      ],
-      mainImage: whiteServicesAdairedHelpImg,
-      list: [
-        {
-          img: '',
-          name: 'Easy Store Management',
-          description: [
-            `Shopify provides a simple and intuitive dashboard that allows store owners to easily manage products, inventory, orders, and customer data without requiring advanced technical knowledge.`,
-          ],
-        },
-        {
-          img: '',
-          name: 'Secure Cloud Hosting',
-          description: [
-            `Being a fully hosted platform, Shopify offers reliable cloud infrastructure with built-in security, automatic updates, and PCI-compliant payment processing to keep your store safe and stable.`,
-          ],
-        },
-        {
-          img: '',
-          name: 'Mobile-Responsive Themes',
-          description: [
-            `Shopify offers professionally designed themes that are fully responsive and optimized for mobile devices, ensuring customers enjoy a seamless shopping experience across smartphones, tablets, and desktops. Choose Adaired Digital as your personalized Shopify theme development company!`,
-          ],
-        },
-        {
-          img: '',
-          name: 'Powerful App Ecosystem',
-          description: [
-            `The Shopify App Store provides thousands of apps that extend store functionality. Businesses can integrate marketing tools, shipping solutions, CRM systems, and analytics platforms to enhance operations.`,
-          ],
-        },
-        {
-          img: '',
-          name: 'Global Selling Capabilities',
-          description: [
-            `Shopify enables businesses to sell internationally with multi-currency support, global payment gateways, and localization tools that help reach customers across different markets.`,
-          ],
-        },
-      ],
     },
 
     benefitofAiSeo: {
       isVisible: false,
-      isVariant: '02',
-      isDecVarticle: true,
-      isInCenter: false,
-      breakIndex: 3,
-      activeDot: '#000000',
-      inactiveDot: '#9DA0A3',
-      bgColor: 'bg-[#FAFAFA]',
-      textColor: '#000000',
-      textBg: '#EEEEEE',
-      borderColor: '#00000014',
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: [
-        `As an experienced WordPress development agency, we offer a comprehensive range of WordPress development services designed to help businesses build powerful, scalable, and high-performing websites. `,
-      ],
-      list: [
-        {
-          name: 'Custom WordPress Website Development',
-          description: [
-            `Our custom WordPress website development services focus on building unique websites tailored specifically to your business needs. Instead of relying on generic templates, we design and develop fully customized WordPress websites that reflect your brand identity and provide an engaging user experience.`,
-          ],
-        },
-      ],
     },
 
     whatareservice2: {
@@ -18475,48 +18221,6 @@ export const SERVICES_DATA = {
 
     whatMissing: {
       isVisible: false,
-      bgColor: '#FFFCF8',
-      isInCenter: true,
-      isVariant: '02',
-      button: 'Dominate Search Results!',
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: [`The data is clear: SEO is not optional for SaaS growth.`],
-      list: [
-        {
-          icon: saasSeoMissing_1,
-          title: '',
-          description: [
-            `Research shows that 66% of B2B SaaS buyers rely on search engines to evaluate and compare solutions before making a purchase decision. (Statista)`,
-          ],
-        },
-        {
-          icon: saasSeoMissing_1,
-          title: '',
-          description: [
-            `SEO not only improves SaaS rankings in SERPs but also increases visibility in emerging AI-powered search features and overviews, expanding brand exposure. (Forbes)`,
-          ],
-        },
-        {
-          icon: saasSeoMissing_1,
-          title: '',
-          description: [
-            `Data reveals that 70% of SaaS companies believe SEO generates stronger long-term sales results compared to PPC advertising. (Databox)`,
-          ],
-        },
-        {
-          icon: saasSeoMissing_1,
-          title: '',
-          description: [
-            `Organic search contributes 14.3% of total leads for SaaS businesses, making SEO one of the most consistent acquisition channels. (Sixth City Marketing)`,
-          ],
-        },
-      ],
     },
 
     whatIncluded: {
@@ -18525,150 +18229,22 @@ export const SERVICES_DATA = {
 
     needofservice: {
       isVisible: false,
-      isVariant: '04',
-      isBgCornerImg: true,
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      data: [
-        {
-          desctioption: `White label SEO seeks to separate client ownership and service delivery. 
-          The agency remains the primary point of contact, but SEO fulfillment is handled externally.`,
-        },
-        {
-          desctioption: `Client acquisition, onboarding, and relationship management are handled entirely by the agency. 
-          The client receives SEO services directly from the agency they hired.`,
-        },
-        {
-          desctioption: `At Adaired, as a leading white-label SEO company, we do SEO execution, including research, optimization, 
-          and ongoing maintenance, which takes place quietly in the background. 
-          This allows agencies to provide SEO services without expanding their internal teams or infrastructure.`,
-        },
-        {
-          desctioption: `Furthermore, we ensure that all reporting, documentation, and performance updates are delivered using the agency's branding. 
-          Communication follows the agency's processes, ensuring continuity and brand integrity.`,
-        },
-      ],
     },
 
     serviceResult: {
       isVisible: false,
-      breakIndex: 5,
-      bgColor: true,
-      isInCenter: true,
-      textColor: '',
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      isVariant: '03',
-      description: [
-        `Outsourcing SEO services is used across different types of agencies and service providers, 
-        primarily as a way to support ongoing search optimization without expanding internal teams. 
-        The following use cases reflect common operational scenarios:`,
-      ],
-      isBgColor: true,
-      img: WhiteSeoServiceResultImg,
-      list: [
-        {
-          img: whiteSeoResult_1,
-          name: 'Web Design Agencies Adding SEO Retainers',
-          description: [
-            `Web design agencies often introduce SEO as a recurring service after a website launch. 
-            White label SEO allows these agencies to offer ongoing optimization, monitoring, and reporting without building a dedicated SEO department.`,
-          ],
-        },
-        {
-          img: whiteSeoResult_2,
-          name: 'PPC Agencies Expanding into Organic Search',
-          description: [
-            `Paid media agencies frequently complement pay-per-click services with organic search offerings. 
-            White label SEO enables PPC-focused teams to support long-term visibility and traffic growth alongside paid campaigns.`,
-          ],
-        },
-        {
-          img: whiteSeoResult_3,
-          name: 'Consultants Supporting Long-Term SEO Clients',
-          description: [
-            `Independent consultants and marketing advisors may use white-label SEO to fulfill execution-heavy tasks while remaining focused on strategy and client management. 
-            This model supports continuity for clients requiring ongoing optimization.`,
-          ],
-        },
-        {
-          img: whiteSeoResult_4,
-          name: 'Multi-Location or Franchise SEO Support',
-          description: [
-            `Businesses operating across multiple locations often require scalable and standardized SEO execution. 
-            White label SEO supports consistent optimization, reporting, and performance tracking across regions while maintaining centralized brand control.`,
-          ],
-        },
-      ],
     },
 
     getsCredit: {
       isVisible: false,
-      code: '01',
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      isCard: false,
-      list: [
-        {
-          description: [`SEO audits & strategy`],
-        },
-        {
-          description: [`Ongoing optimization`],
-        },
-        {
-          description: [`100% brand-safe delivery`],
-        },
-        {
-          description: [`Rank tracking & white-label reporting`],
-        },
-      ],
     },
 
     leadingTools: {
       isVisible: false,
-      isVariant: '01',
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description:
-        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
-      bgImage: '',
-      bgColor: '',
-      list: [],
     },
 
     getplan: {
       isVisible: false,
-      isLabel: false,
-      subtitle: '',
-      bgImage: stop_struggle2,
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
     },
 
     stopStruggling: {
@@ -18677,45 +18253,14 @@ export const SERVICES_DATA = {
 
     industryLeaders: {
       isVisible: false,
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description:
-        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
-      bgImage: leadingToolsImg,
     },
 
     leadingToolsForPerformence: {
       isVisible: false,
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description:
-        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
-      bgImage: '',
     },
 
     notSeeingResult: {
       isVisible: false,
-      headingParts: [
-        {
-          text: 'Key Benefits of Choosing Custom Web Development Services',
-          color: '#000000',
-          weight: '700',
-        },
-      ],
-      description: '',
-      buttonName: '',
-      img: LocalNotSee,
-      bgImage: LocalNotSeeBg,
     },
   },
   'ios-app-development-company': {
@@ -23908,6 +23453,1297 @@ export const SERVICES_DATA = {
 
     whatIncluded: {
       isVisible: false,
+    },
+
+    needofservice: {
+      isVisible: false,
+      isVariant: '04',
+      isBgCornerImg: true,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      data: [
+        {
+          desctioption: `White label SEO seeks to separate client ownership and service delivery. 
+          The agency remains the primary point of contact, but SEO fulfillment is handled externally.`,
+        },
+        {
+          desctioption: `Client acquisition, onboarding, and relationship management are handled entirely by the agency. 
+          The client receives SEO services directly from the agency they hired.`,
+        },
+        {
+          desctioption: `At Adaired, as a leading white-label SEO company, we do SEO execution, including research, optimization, 
+          and ongoing maintenance, which takes place quietly in the background. 
+          This allows agencies to provide SEO services without expanding their internal teams or infrastructure.`,
+        },
+        {
+          desctioption: `Furthermore, we ensure that all reporting, documentation, and performance updates are delivered using the agency's branding. 
+          Communication follows the agency's processes, ensuring continuity and brand integrity.`,
+        },
+      ],
+    },
+
+    serviceResult: {
+      isVisible: false,
+      breakIndex: 5,
+      bgColor: true,
+      isInCenter: true,
+      textColor: '',
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      isVariant: '03',
+      description: [
+        `Outsourcing SEO services is used across different types of agencies and service providers, 
+        primarily as a way to support ongoing search optimization without expanding internal teams. 
+        The following use cases reflect common operational scenarios:`,
+      ],
+      isBgColor: true,
+      img: WhiteSeoServiceResultImg,
+      list: [
+        {
+          img: whiteSeoResult_1,
+          name: 'Web Design Agencies Adding SEO Retainers',
+          description: [
+            `Web design agencies often introduce SEO as a recurring service after a website launch. 
+            White label SEO allows these agencies to offer ongoing optimization, monitoring, and reporting without building a dedicated SEO department.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_2,
+          name: 'PPC Agencies Expanding into Organic Search',
+          description: [
+            `Paid media agencies frequently complement pay-per-click services with organic search offerings. 
+            White label SEO enables PPC-focused teams to support long-term visibility and traffic growth alongside paid campaigns.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_3,
+          name: 'Consultants Supporting Long-Term SEO Clients',
+          description: [
+            `Independent consultants and marketing advisors may use white-label SEO to fulfill execution-heavy tasks while remaining focused on strategy and client management. 
+            This model supports continuity for clients requiring ongoing optimization.`,
+          ],
+        },
+        {
+          img: whiteSeoResult_4,
+          name: 'Multi-Location or Franchise SEO Support',
+          description: [
+            `Businesses operating across multiple locations often require scalable and standardized SEO execution. 
+            White label SEO supports consistent optimization, reporting, and performance tracking across regions while maintaining centralized brand control.`,
+          ],
+        },
+      ],
+    },
+
+    getsCredit: {
+      isVisible: false,
+      code: '01',
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      isCard: false,
+      list: [
+        {
+          description: [`SEO audits & strategy`],
+        },
+        {
+          description: [`Ongoing optimization`],
+        },
+        {
+          description: [`100% brand-safe delivery`],
+        },
+        {
+          description: [`Rank tracking & white-label reporting`],
+        },
+      ],
+    },
+
+    getplan: {
+      isVisible: false,
+      isLabel: false,
+      subtitle: '',
+      bgImage: stop_struggle2,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
+    },
+
+    stopStruggling: {
+      isVisible: false,
+      isCenter: true,
+      subtitle: '',
+      headingParts: [
+        {
+          text: '',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
+      description: [
+        `If your clients are asking for social media management and you don’t want to build a full in-house team, our white label social media reseller model can be a practical and profitable solution.
+      By working with Adaired, agencies can confidently offer social media marketing white label services while focusing on growth, sales, and client strategy.`,
+      ],
+      textColor: '',
+      button: '',
+      bgImg: whiteStruggleBg,
+      isHoverBgBlue: true,
+    },
+
+    industryLeaders: {
+      isVisible: false,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description:
+        'The major companies around the world rely on us to give AI-guided recommendations, create brand awareness, build credibility, and drive impactful growth with precision.',
+      bgImage: leadingToolsImg,
+    },
+
+    leadingToolsForPerformence: {
+      isVisible: false,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description:
+        'Our solutions are powered by top tools designed to enhance efficiency, elevate performance, and drive meaningful outcomes consistently.',
+      bgImage: '',
+    },
+
+    notSeeingResult: {
+      isVisible: false,
+      headingParts: [
+        {
+          text: 'Key Benefits of Choosing Custom Web Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: '',
+      buttonName: '',
+      img: LocalNotSee,
+      bgImage: LocalNotSeeBg,
+    },
+  },
+  'google-ads-management-company': {
+    sectionsOrder: [
+      'banner',
+      'keyStats',
+      'whatareservice',
+      'importantToBussiness',
+      'adairedHelp',
+      'ourProcess',
+      'whatMkeDeferent',
+      'leadingTools',
+      'industriesWeServe',
+      'buildlinks',
+      'faqData',
+      'benefitofAiSeo',
+      'whatMissing',
+      'techStackMobile',
+      'dataInTable',
+      'whatareservice2',
+      'whatIncluded',
+      'needofservice',
+      'serviceResult',
+      'getsCredit',
+      'readyToStart',
+      'stopStruggling',
+      'leadingToolsForPerformence',
+      'notSeeingResult',
+      'getplan',
+    ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/custom-web-development-company',
+      },
+    },
+    banner: {
+      code: '02',
+      isCenter: false,
+      isVisible: true,
+      heading2: '#1 on Google Maps: Get Seen by Local Customers',
+      isAbsolute: true,
+      isStyleHeading: true,
+      headingParts: [
+        {
+          text: 'Expert Wearable Application',
+          color: '#000000',
+          weight: '400',
+        },
+        {
+          text: 'Development for iOS, Android & Wear OS',
+          color: '#FB9100',
+          weight: '700',
+        },
+      ],
+      isGap: true,
+      customGap: '0rem',
+      // breakIndex: 7,
+      desc: [
+        `Unlock the full potential of wearable technology with apps built for speed, accuracy, and usability.`,
+        `At Adaired Digital Media, our team offers smart, future-ready wearable app development solutions that integrate effortlessly with modern ecosystems, enabling real-time data synchronization and meaningful user interactions.`,
+      ],
+      subheading: '',
+      button: 'Let’s Plan Your Wearable App',
+      width: 55,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773924168/adaired/services/wearables_app_development/wearablesAppDevBannerImg_ogcwiw.png',
+      imgWidth: '960',
+      imgHight: '860',
+    },
+
+    keyStats: {
+      isVisible: true,
+      code: '02',
+      breakIndex: 0,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773836300/adaired/services/social_media_management/socialMediaMgtKeyStatsImg_zywqa6.png',
+      headingParts: [
+        {
+          text: 'Wearable App Development: Statistics & Facts',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      bgColor: '#FB9100',
+      isImgBg: true,
+      isCard: false,
+      imgWidth: '620',
+      imgHeight: '725',
+      width: 40,
+      list: [
+        {
+          icon: wearablesAppDevKeyStatsIcon,
+          desctioption: [
+            `The global wearable technology market is expected to reach $109 billion by 2026 and grow to $231 billion by 2032.`,
+          ],
+        },
+        {
+          icon: wearablesAppDevKeyStatsIcon,
+          desctioption: [
+            `Smartwatches dominate the market, accounting for around 46% of the total share in 2025.`,
+          ],
+        },
+        {
+          icon: wearablesAppDevKeyStatsIcon,
+          desctioption: [
+            `Global wearable device shipments are projected to increase from ~590.7 million units (2025) to ~614.1 million (2026).`,
+          ],
+        },
+        {
+          icon: wearablesAppDevKeyStatsIcon,
+          desctioption: [
+            `70% of consumers buy wearables for health & fitness features, such as heart rate and blood oxygen monitoring.`,
+          ],
+        },
+        {
+          icon: wearablesAppDevKeyStatsIcon,
+          desctioption: [
+            `40% of newly launched wearables are expected to include AI-powered features by 2026.`,
+          ],
+        },
+      ],
+    },
+
+    whatareservice: {
+      isVisible: true,
+      isVariant: '04',
+      breakIndex: 0,
+      paddingY: '2rem',
+      isRowReverse: false,
+      width: 50,
+      img: wearablesAppDevWhatServiceImg,
+      // img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773905921/adaired/services/wearables_app_development/wearablesAppDevWhatServiceImg_kkg2jr.png',
+      imgWidth: '786px',
+      imgHight: '525px',
+      headingParts: [
+        {
+          text: 'What is Wearable Application Development?',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      isGap: false,
+      data: [
+        {
+          desctioption: `Wearable application development refers to the process of designing, building, and optimizing software applications specifically for wearable devices such as smartwatches, fitness trackers, smart glasses, and other body-worn technologies.`,
+        },
+        {
+          desctioption: `These applications are created to deliver quick, real-time interactions and insights while seamlessly integrating with smartphones, cloud platforms, and IoT ecosystems.`,
+        },
+        {
+          desctioption: `Unlike traditional mobile or web applications, wearable apps are built for compact screens, limited hardware resources, and on-the-go usage. This requires a strong focus on performance, minimalistic design, and intuitive user experiences that allow users to interact with the app effortlessly, often within just a few seconds.`,
+        },
+      ],
+      button: '',
+    },
+
+    importantToBussiness: {
+      isVisible: true,
+      isInCenter: false,
+      breakIndex: 2,
+      isVariant: '01',
+      cardColor: '#F9F9F9',
+      headingParts: [
+        {
+          text: 'Our End-to-End Wearable App Development Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Transform your ideas into high-performance applications, from concept and UI design to development and integration.`,
+        `We deliver wearable app development services designed to deliver seamless connectivity, real-time insights, and exceptional user experiences across a wide range of wearable devices.`,
+      ],
+      buttonName: 'Let’s Plan Your Wearable App',
+      data: [
+        {
+          icon: wearablesAppDevImpIcon_1,
+          name: 'Android Wearable App Development',
+          description: [
+            `At Adaired Digital Media, we build powerful, feature-rich applications for Wear OS devices that are optimized for speed, reliability, and seamless connectivity.`,
+            `Our development approach focuses on creating intuitive interfaces and real-time functionality that enhances user experience on compact screens.`,
+            `Whether you're building a fitness tracker, healthcare app, or enterprise tool, our Android wearable solutions are designed to scale with your business and adapt to evolving user needs.`,
+          ],
+          button: 'Let’s Plan Your Wearable App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: wearablesAppDevImpIcon_2,
+          name: 'iOS Wearable App Development',
+          description: [
+            `Our iOS wearable app development services focus on creating elegant and high-performing applications for Apple Watch users.`,
+            `Leveraging advanced watchOS capabilities, we build apps that offer smooth navigation, precise functionality, and deep integration within the Apple ecosystem.`,
+            `From real-time notifications and health tracking to advanced data visualization and personalized experiences, we ensure your app delivers value at every interaction.`,
+            `Our team emphasizes performance optimization and user-centric design to maximize engagement and retention.`,
+          ],
+          button: 'Let’s Plan Your Wearable App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: wearablesAppDevImpIcon_3,
+          name: 'AR/VR Wearable App Development',
+          description: [
+            `We specialize in developing immersive applications for AR and VR-enabled wearable devices, unlocking new possibilities for interaction and visualization.`,
+            `These solutions enable businesses to create engaging experiences such as virtual training environments, real-time assistance, product visualization, and interactive simulations.`,
+            `Our AR/VR wearable apps are designed with precision to ensure smooth performance, low latency, and high responsiveness, making them ideal for industries like healthcare, education, retail, and manufacturing.`,
+          ],
+          button: 'Let’s Plan Your Wearable App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: wearablesAppDevImpIcon_4,
+          name: 'Fitness & Wellness App Development',
+          description: [
+            `We create advanced fitness and healthcare wearable applications that empower users with real-time health insights and personalized recommendations.`,
+            `By utilizing sensors such as heart rate monitors, GPS, and motion trackers, our apps provide accurate tracking of activities, sleep patterns, and vital health metrics.`,
+            `These applications are designed not only to inform but also to engage users through intuitive dashboards, goal-setting features, and actionable insights, helping businesses deliver meaningful value in the rapidly growing health-tech space.`,
+          ],
+          button: 'Let’s Plan Your Wearable App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: wearablesAppDevImpIcon_5,
+          name: 'Utility & Lifestyle Wearable Apps',
+          description: [
+            `Our utility-focused wearable applications are designed to simplify everyday tasks through quick, efficient, and intuitive interactions.`,
+            `We develop apps that provide instant access to notifications, reminders, navigation, and media controls, ensuring users can stay connected without constantly reaching for their smartphones.`,
+            `By focusing on minimalistic design and optimized performance, we ensure these apps deliver maximum usability while maintaining low power consumption.`,
+          ],
+          button: 'Let’s Plan Your Wearable App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: wearablesAppDevImpIcon_6,
+          name: 'Smart Band & Fitness Tracker App',
+          description: [
+            `We design and develop companion applications for smart bands and fitness trackers that seamlessly collect, analyze, and present user data.`,
+            `Our solutions focus on delivering accurate insights through advanced data processing and intuitive visualizations. `,
+            `From syncing wearable data with mobile devices to integrating with cloud platforms for deeper analytics, Adaired Digital Media ensures a cohesive ecosystem that enhances both user experience and product functionality.`,
+          ],
+          button: 'Let’s Plan Your Wearable App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: wearablesAppDevImpIcon_7,
+          name: 'Smart Glasses Wearable App',
+          description: [
+            `We develop advanced applications for smart glasses, designed to deliver real-time information through intuitive visual interfaces.`,
+            `Our solutions leverage device capabilities such as cameras, sensors, and spatial computing to enable seamless interaction.`,
+            `By integrating technologies like augmented reality (AR), computer vision, and low-latency data streaming, we build applications that support real-time overlays, object recognition, and interactive guidance.`,
+          ],
+          button: 'Let’s Plan Your Wearable App',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: wearablesAppDevImpIcon_8,
+          name: 'IoT-Enabled Wearable Applications',
+          description: [
+            `We develop wearable applications that are deeply integrated with IoT ecosystems, allowing seamless communication between devices, sensors, and cloud platforms.`,
+            `These solutions enable real-time monitoring, predictive analytics, and automation, making them highly valuable for both consumer and enterprise use cases.`,
+            `Our IoT-integrated wearable apps empower businesses to make data-driven decisions while delivering connected experiences that enhance efficiency and innovation.`,
+          ],
+          button: 'Let’s Plan Your Wearable App',
+          btnColor: '#FB9100',
+        },
+      ],
+    },
+
+    adairedHelp: {
+      isVisible: true,
+      breakIndex: 4,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773905927/adaired/services/wearables_app_development/wearablesAppDevAdairedHelpImg_opxcsd.png',
+      isInCenter: false,
+      textColor: '',
+      isnNumberBg: false,
+      numberBg: '',
+      bgColor: 'bg-[#FFF9F3]',
+      cardBg: '',
+      headingParts: [
+        {
+          text: 'Why Do Wearable Apps Stand Out?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Wearable apps stand apart from traditional applications by offering real-time insights, seamless connectivity, and intuitive interactions on the go. As a leading wearable app development company, we ensure you get:`,
+      ],
+      mainImage: whiteServicesAdairedHelpImg,
+      list: [
+        {
+          img: '',
+          name: 'Real-Time Functionality',
+          description: [
+            `Wearable applications are built to deliver instant data processing and feedback, enabling users to access critical information without delay.`,
+            `From monitoring heart rate and tracking steps to receiving timely notifications, these apps ensure high accuracy and responsiveness.`,
+            `This real-time capability is especially crucial in use cases like healthcare and fitness, where immediate insights can influence decisions and outcomes.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Seamless Device Integration',
+          description: [
+            `A core strength of wearable apps lies in their ability to connect and synchronize effortlessly with smartphones, cloud platforms, and other smart devices.`,
+            `Using technologies such as Bluetooth, Wi-Fi, and APIs, these applications enable smooth data exchange and continuous connectivity. `,
+            `This ensures users enjoy a unified experience across multiple devices without interruptions.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Compact & Intuitive UI/UX',
+          description: [
+            `Given the limited screen size of wearable devices, applications must focus on simplicity and usability.`,
+            `Interfaces are designed to present only the most relevant information in a clear and concise format.`,
+            `Features like voice commands, gesture controls, and glanceable screens enhance usability, allowing users to interact quickly and efficiently, even on the move.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Sensor-Driven Capabilities',
+          description: [
+            `Wearable devices come equipped with advanced sensors such as GPS, accelerometers, gyroscopes, and heart rate monitors, which power highly personalized experiences.`,
+            `Wearable applications utilize this data to provide context-aware insights, whether it’s tracking physical activity, monitoring health metrics, or enabling location-based services.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Power Efficiency',
+          description: [
+            `Battery life is a critical factor in wearable technology.`,
+            `Applications must be highly optimized to minimize power consumption while maintaining smooth performance.`,
+            `Efficient coding practices, background process management, and smart data handling help ensure that the app delivers consistent functionality without draining the device’s battery.`,
+          ],
+        },
+      ],
+    },
+
+    ourProcess: {
+      isVisible: true,
+      isInCenter: true,
+      subtitle: 'Our Process',
+      headingParts: [
+        {
+          text: 'Delivering Wearable Apps Through a Structured Process',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      breakIndex: 3,
+      bgGradient: 'bg-[#FFFFFF]',
+      span: '',
+      description: [
+        `At Adaired Digital Media, we follow a well-defined and agile development process to transform innovative ideas into high-performance wearable applications.`,
+      ],
+      services: [
+        {
+          icon: wearablesAppDevProcessIcon_1,
+          title: 'Discovery & Strategic Planning',
+          description: [
+            `Every successful wearable application begins with a clear understanding of the business goals and user expectations. During the discovery phase, our team works closely with clients to analyze their requirements, identify the target audience, and determine the wearable platforms and devices involved.`,
+            `This stage also involves evaluating market trends, understanding potential user behaviors, and outlining the key features that will define the application. The insights gathered during this phase help us establish a solid project roadmap and create a strategy that aligns technology with business objectives.`,
+          ],
+        },
+        {
+          icon: wearablesAppDevProcessIcon_2,
+          title: 'System Architecture & Technology',
+          description: [
+            `Wearable applications require a carefully planned architecture to ensure smooth performance across devices with limited resources. Our team designs a scalable and efficient system architecture that enables seamless communication between wearable devices, mobile applications, and cloud infrastructure.`,
+            `By selecting appropriate frameworks, APIs, and development tools, we create a foundation that supports stability, security, and long-term scalability. This step ensures that the application is capable of handling real-time data processing, device connectivity, and future updates without compromising performance.`,
+          ],
+        },
+        {
+          icon: wearablesAppDevProcessIcon_3,
+          title: 'UI/UX Design Optimization',
+          description: [
+            `Designing for wearable devices requires a different approach compared to traditional mobile or web applications. Our design team focuses on creating interfaces that deliver relevant information instantly while maintaining an intuitive user experience.`,
+            `Every element is carefully structured to ensure that users can access key features effortlessly, whether through touch interactions, voice commands, or gesture-based controls. The goal is to create a visually clean and highly functional interface that enhances usability without overwhelming the user.`,
+          ],
+        },
+        {
+          icon: wearablesAppDevProcessIcon_4,
+          title: 'Development & Feature Implementation',
+          description: [
+            `Once the design and architecture are finalized, our development team begins building the core application features. This stage involves implementing functionalities such as sensor integration, real-time data processing, connectivity with smartphones or cloud platforms, and secure data handling.`,
+            `Our developers follow modern development practices and agile methodologies to ensure flexibility and faster iterations. By continuously testing and refining features throughout the development cycle, we maintain high-quality standards while ensuring the application remains efficient and responsive.`,
+          ],
+        },
+        {
+          icon: wearablesAppDevProcessIcon_5,
+          title: 'Device Connectivity & Integration',
+          description: [
+            `Wearable applications rely heavily on seamless communication between devices and supporting platforms. To achieve this, we integrate reliable connectivity solutions that allow data to be transferred efficiently between wearable devices, mobile applications, and backend systems.`,
+            `Technologies such as Bluetooth Low Energy, Wi-Fi connectivity, and cloud synchronization are utilized to maintain stable communication and ensure real-time data availability. Proper integration ensures that users experience consistent functionality regardless of the device they are using.`,
+          ],
+        },
+        {
+          icon: wearablesAppDevProcessIcon_6,
+          title: 'Quality Assurance',
+          description: [
+            `Before launching any wearable application, we conduct thorough testing to ensure that it performs reliably in real-world environments. Our quality assurance process evaluates functionality, usability, performance, and device compatibility.`,
+            `Special attention is given to battery efficiency, data accuracy, and responsiveness, as these factors are critical in wearable technology. Through continuous optimization, we ensure that the final product delivers a stable and seamless user experience across supported devices.`,
+          ],
+        },
+        {
+          icon: wearablesAppDevProcessIcon_7,
+          title: 'Deployment and Launch',
+          description: [
+            `After the application successfully passes all testing phases, we prepare it for deployment on the intended platforms. Our team manages the entire launch process, ensuring the application complies with platform requirements and operates smoothly in production environments.`,
+            `By carefully handling the deployment stage, we ensure that the application reaches users efficiently and begins delivering value from the moment it goes live.`,
+          ],
+        },
+      ],
+    },
+
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '03',
+      breakIndex: 5,
+      bgImg: bgImgBuildLink,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773905919/adaired/services/wearables_app_development/wearablesAppDevBuildLinkImg_z8tpiu.png',
+      imgWidth: '785',
+      imgHight: '523',
+      headingParts: [
+        {
+          text: 'Plan Your Wearable',
+          color: '#FFFFFF',
+          weight: '400',
+        },
+        {
+          text: 'App Development',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
+      description: ``,
+      textColor: 'white',
+      width: 50,
+      paddingY: '2rem',
+      isFirstParaBold: true,
+      data: [
+        {
+          desctioption: `Turn Your Idea into a High-Performance Wearable Experience`,
+        },
+        {
+          desctioption: `Collaborate with a wearable app development company like us to build a wearable app that stands out in a competitive market and delivers real value to your users.`,
+        },
+      ],
+      button: 'Get Your Custom Quote',
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: ``,
+      list: [
+        {
+          title: 'What is wearable app development?',
+          description: [
+            `Wearable app development is the process of creating applications specifically designed for devices such as smartwatches, fitness trackers, and smart glasses. These apps are optimized for small screens, real-time interactions, and seamless connectivity with smartphones and cloud systems.`,
+          ],
+        },
+        {
+          title: 'How long does it take to develop a wearable app?',
+          description: [
+            `The timeline depends on the complexity of the application, features, and supported devices. A basic wearable app may take a few weeks, while a more advanced solution with integrations and custom features can take several months.`,
+          ],
+        },
+        {
+          title: 'Which wearable platforms do you support?',
+          description: [
+            `We develop applications for major platforms, including Wear OS and watchOS, along with solutions for smart bands, fitness trackers, and smart glasses.`,
+          ],
+        },
+        {
+          title: 'How much does wearable app development cost?',
+          description: [
+            `The cost varies based on factors such as features, design complexity, platform selection, and integrations. Each project is unique, so we provide customized estimates based on your specific requirements.`,
+          ],
+        },
+        {
+          title: 'Can wearable apps work without a smartphone?',
+          description: [
+            `Some wearable applications can function independently, especially on devices with built-in connectivity. However, many apps are designed to sync with smartphones or cloud systems for enhanced functionality and data storage.`,
+          ],
+        },
+        {
+          title: 'Do you provide post-launch support and maintenance?',
+          description: [
+            `Yes, we offer continuous support, updates, and performance optimization to ensure your application remains secure, compatible, and up to date with evolving technologies.`,
+          ],
+        },
+        {
+          title: 'How do you ensure data security in wearable apps?',
+          description: [
+            `We implement strong security practices, including data encryption, secure APIs, and compliance with industry standards to protect user data and ensure safe communication between devices.`,
+          ],
+        },
+        {
+          title: 'Can you integrate wearable apps with IoT systems?',
+          description: [
+            `Yes, we specialize in integrating wearable applications with IoT ecosystems, enabling real-time data exchange, remote monitoring, and enhanced connectivity across devices and platforms.`,
+          ],
+        },
+      ],
+    },
+
+    benefitofAiSeo: {
+      isVisible: true,
+      isVariant: '01',
+      isDecVarticle: true,
+      isInCenter: false,
+      breakIndex: 2,
+      activeDot: '#000000',
+      inactiveDot: '#9DA0A3',
+      bgColor: 'bg-[#FAFAFA]',
+      textColor: '#000000',
+      textBg: '#EEEEEE',
+      borderColor: '#00000014',
+      headingParts: [
+        {
+          text: 'Advanced Features Powering Our Wearable Applications',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Our wearable applications are built with a deep understanding of device limitations, user behavior, and real-world usage scenarios.`,
+      ],
+      list: [
+        {
+          name: 'Real-Time Data Synchronization',
+          description: [
+            `We enable seamless, real-time data synchronization across wearable devices, mobile applications, and cloud platforms.`,
+            `This ensures that users always have access to the most accurate and up-to-date information, whether it’s health metrics, activity data, or system notifications. Our approach minimizes latency and guarantees smooth data flow, even in dynamic environments.`,
+          ],
+        },
+        {
+          name: 'Advanced Sensor Integration',
+          description: [
+            `Wearable devices rely heavily on sensors, and we ensure full utilization of these capabilities.`,
+            `Our applications integrate seamlessly with sensors such as heart rate monitors, accelerometers, gyroscopes, and motion detectors to deliver precise tracking and context-aware insights. This enables highly personalized and responsive user experiences.`,
+          ],
+        },
+        {
+          name: 'Voice & Gesture Controls',
+          description: [
+            `To overcome the limitations of small screens, we integrate voice commands and gesture-based controls that allow users to interact effortlessly with the application.`,
+            `This creates a more natural and efficient user experience, reducing dependency on manual input while improving accessibility and convenience.`,
+          ],
+        },
+        {
+          name: 'Smart Notifications Alerts',
+          description: [
+            `Our applications deliver intelligent, context-aware notifications that keep users informed without overwhelming them.`,
+            `By prioritizing relevance and timing, we ensure that users receive meaningful alerts that enhance engagement and usability while maintaining a clutter-free experience.`,
+          ],
+        },
+        {
+          name: 'Cross-Platform Compatibility',
+          description: [
+            `We develop wearable applications that function seamlessly across multiple platforms, including wearable devices, smartphones, and cloud systems.`,
+            `This ensures a unified and consistent user experience, allowing data and functionality to remain synchronized across the entire ecosystem.`,
+          ],
+        },
+        {
+          name: 'Secure Data Handling',
+          description: [
+            `Security is a critical component of wearable applications, especially when handling sensitive user data.`,
+            `We implement advanced encryption protocols, secure APIs, and best practices in data protection to ensure complete confidentiality, integrity, and compliance with modern standards.`,
+          ],
+        },
+        {
+          name: 'Data Analytics & Actionable Insights',
+          description: [
+            `Our wearable apps go beyond data collection by transforming raw information into meaningful insights.`,
+            `Through intuitive dashboards and real-time analytics, users can monitor performance, track progress, and make informed decisions based on accurate and actionable data.`,
+          ],
+        },
+        {
+          name: 'Offline Functionality & Data Sync',
+          description: [
+            `We design applications that continue to function even in low or no-connectivity scenarios.`,
+            `Data is securely stored on the device and automatically synchronized once connectivity is restored, ensuring uninterrupted performance and a seamless user experience.`,
+          ],
+        },
+        {
+          name: 'Battery-Optimized Performance',
+          description: [
+            `Given the limitations of wearable devices, we prioritize energy efficiency in every application we build.`,
+            `Our development approach focuses on minimizing battery consumption while maintaining high performance, ensuring longer usage time, and providing a smoother overall experience.`,
+          ],
+        },
+      ],
+    },
+
+    whatMissing: {
+      isVisible: false,
+      bgColor: '',
+      cardBg: '#FFF7ED',
+      cardBorderColor: '#FEDAAB',
+      isInCenter: false,
+      isVariant: '03',
+      button: '',
+      headingParts: [
+        {
+          text: 'Frameworks We Use for Cross-Platform App Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `We leverage modern, high-performance frameworks to build cross-platform apps that deliver native-like speed, functionality, and user experience.`,
+      ],
+      list: [
+        {
+          icon: crossPlatformWhatMissingIcon_1,
+          title: 'React Native',
+          description: [
+            `Build fast and scalable apps using a single codebase with a rich ecosystem and strong community support.`,
+          ],
+        },
+        {
+          icon: crossPlatformWhatMissingIcon_2,
+          title: 'Flutter',
+          description: [
+            `Create visually stunning and highly responsive apps with customizable UI components and smooth performance.`,
+          ],
+        },
+        {
+          icon: crossPlatformWhatMissingIcon_3,
+          title: 'Xamarin',
+          description: [
+            `Develop secure and robust applications with seamless integration into the Microsoft ecosystem.`,
+          ],
+        },
+        {
+          icon: crossPlatformWhatMissingIcon_4,
+          title: 'Kotlin',
+          description: [
+            `Share business logic across platforms while maintaining native UI for enhanced performance and flexibility.`,
+          ],
+        },
+        {
+          icon: crossPlatformWhatMissingIcon_5,
+          title: 'Ionic',
+          description: [
+            `Develop lightweight, cross-platform apps using web technologies like HTML, CSS, and JavaScript for rapid and cost-effective solutions.`,
+          ],
+        },
+        {
+          icon: crossPlatformWhatMissingIcon_6,
+          title: 'PhoneGap / Apache Cordova',
+          description: [
+            `Package web applications into mobile apps with access to native device features, making it a practical choice for quick deployments.`,
+          ],
+        },
+      ],
+    },
+
+    whatMkeDeferent: {
+      isVisible: false,
+      isVariant: '01',
+      breakIndex: 5,
+      isInCenter: false,
+      bgColor: false,
+      bgGradient: 'bg-[#FFFFFF]',
+      cardColor2: '#FFF8F0',
+      cardColor: '#FBFBFB',
+      cardImgBgColor2: '#FFF2DF',
+      cardImgBgColor: '#F3F3F3',
+      borderColor2: '#FB9100',
+      borderColor: '#000000',
+      headingParts: [
+        {
+          text: 'Why Pick Adaired Digital to Manage Your Social Media Accounts?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        'At Adaired Digital Media, we’re more than just a social media service; we’re your strategic partner in growing your online presence.',
+        `Here’s why businesses trust us to manage their social media:`,
+      ],
+      list: [
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_1_tskaab.png',
+          name: 'Expertise & Experience',
+          description: [
+            `Our team consists of social media specialists, content creators, and strategists with proven experience across multiple industries. We understand platform trends, audience behavior, and what drives engagement and conversions.`,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821670/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_2_zgzuwo.png',
+          name: 'Custom Strategies for Your Brand',
+          description: [
+            `We don’t use one-size-fits-all solutions. Every brand gets a tailored social media plan based on its unique goals, audience, and market. Your content, campaigns, and engagement are designed specifically to meet your objectives.`,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821669/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_3_ku4940.png',
+          name: 'Data-Driven Approach',
+          description: [
+            `We measure everything. From engagement rates to conversions, we monitor metrics closely and optimize campaigns for maximum results. Decisions are guided by data, not guesswork.`,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821669/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_4_rlpksv.png',
+          name: 'Consistent Branding & Quality Content',
+          description: [
+            `We maintain your brand voice, aesthetics, and messaging across all platforms. Our content is scroll-stopping, engaging, and strategically designed to strengthen your identity online.`,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821668/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_5_hwiddr.png',
+          name: 'Community Engagement',
+          description: [
+            `We don’t just post content; we help you build meaningful connections. Through responsive community management and interactive content, we foster loyalty, trust, and long-term engagement.`,
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773821668/adaired/services/social_media_management/socialMediaMgtWhatMkDiffImg_6_hqvkgf.png',
+          name: 'Transparent Reporting & Communication',
+          description: [
+            `You’ll always know how your social media is performing. We provide detailed reports, insights, and recommendations so you’re fully informed about your growth and ROI.`,
+          ],
+        },
+      ],
+    },
+
+    leadingTools: {
+      isVisible: false,
+      breakIndex: 4,
+      headingParts: [
+        {
+          text: 'Technologies We Use for iOS Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Our development team uses modern technologies and frameworks to create reliable and scalable iOS applications. By leveraging the latest tools in the Apple ecosystem, we ensure that every app delivers exceptional performance and user experience.`,
+        `Some of the technologies we commonly use include:`,
+      ],
+      isVariant: '03',
+      textColor: '',
+      bgImage: '',
+      bgColor: '',
+      list: [
+        {
+          img: iosAppDevLeadingToolsImg_1,
+          desc: 'Swift',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_2,
+          desc: 'Objective-C',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_3,
+          desc: 'Xcode',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_4,
+          desc: 'SwiftUI and UIKit',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_5,
+          desc: 'Firebase',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_6,
+          desc: 'REST APIs',
+        },
+        {
+          img: iosAppDevLeadingToolsImg_7,
+          desc: 'Cloud platforms (AWS and Google Cloud)',
+        },
+      ],
+    },
+
+    industriesWeServe: {
+      isVisible: false,
+      code: '01',
+      bgColor: 'bg-[#FFFBF5]',
+      headingParts: [
+        {
+          text: 'Industries We Serve',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Our iOS app development solutions support a wide variety of industries, enabling businesses to deliver innovative digital experiences to their customers.`,
+      ],
+      isCard: false,
+      bgImg: '',
+      gridCols: 3,
+      imgWidth: 520,
+      imgHeight: 467,
+      list: [
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_1_gmywri.png',
+          btn: [`Fintech`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_2_r3qlub.png',
+          btn: [`Healthcare`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749340/adaired/services/ios_app_development/iosAppDevIndustriesImg_3_m5hp7t.png',
+          btn: [`E-commerce`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_4_okdehb.png',
+          btn: [`Education`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749341/adaired/services/ios_app_development/iosAppDevIndustriesImg_5_vctvmh.png',
+          btn: [`Travel and Hospitality`],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773749339/adaired/services/ios_app_development/iosAppDevIndustriesImg_6_rseu98.png',
+          btn: [`Fashion & Beauty`],
+        },
+      ],
+    },
+
+    techStackMobile: {
+      isVisible: false,
+      breakIndex: 4,
+      headingParts: [
+        {
+          text: 'Technologies We Use for iOS Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Our development team uses modern technologies and frameworks to create reliable and scalable iOS applications. By leveraging the latest tools in the Apple ecosystem, we ensure that every app delivers exceptional performance and user experience.`,
+        `Some of the technologies we commonly use include:`,
+      ],
+      ContentDescription: '',
+      navItems: [''],
+      mobileNavItems: [''],
+      list: [
+        [
+          { image: customWebDevTechStackImg_1, desc: 'Swift' },
+          { image: customWebDevTechStackImg_2, desc: 'Objective-C' },
+          { image: customWebDevTechStackImg_3, desc: 'Xcode' },
+          { image: customWebDevTechStackImg_4, desc: 'SwiftUI and UIKit' },
+          { image: customWebDevTechStackImg_5, desc: 'Firebase' },
+          { image: customWebDevTechStackImg_5, desc: 'REST APIs' },
+          {
+            image: customWebDevTechStackImg_5,
+            desc: 'Cloud platforms (AWS and Google Cloud)',
+          },
+        ],
+      ],
+    },
+
+    dataInTable: {
+      isVisible: false,
+      isInCenter: true,
+      bgColor: '#FAFAFA',
+      trColor: 'bg-[#7259FF]',
+      rowColor: 'bg-[#7259FF]/10',
+      isVariant: '01',
+      headingParts: [
+        {
+          text: 'Custom Web Development vs Traditional Web Development',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Here is a clear comparison table showing the difference between Web Development and Custom Web Development:`,
+      ],
+      data: [
+        {
+          desctioption: `Aspect`,
+          list: [
+            {
+              description: [`Definition`],
+            },
+            {
+              description: [`Development Approach`],
+            },
+            {
+              description: [`Customization Level`],
+            },
+            {
+              description: [`Development Time`],
+            },
+            {
+              description: [`Cost`],
+            },
+            {
+              description: [`Flexibility`],
+            },
+            {
+              description: [`Integration`],
+            },
+            {
+              description: [`Best Use Case`],
+            },
+          ],
+        },
+        {
+          desctioption: `Web Development`,
+          list: [
+            {
+              description: [
+                `The general process of building websites or web applications using available tools, frameworks, or CMS platforms.`,
+              ],
+            },
+            {
+              description: [
+                `Often uses prebuilt templates, themes, or platforms.`,
+              ],
+            },
+            {
+              description: [
+                `Limited to the features and structure provided by the platform.`,
+              ],
+            },
+            {
+              description: [
+                `Faster because many components are already built.`,
+              ],
+            },
+            {
+              description: [
+                `Usually lower due to faster development and prebuilt solutions.`,
+              ],
+            },
+            {
+              description: [
+                `May face limitations as the website grows or requires new features.`,
+              ],
+            },
+            {
+              description: [
+                `Limited flexibility depending on the platform being used.`,
+              ],
+            },
+            {
+              description: [
+                `Basic integrations with common tools and plugins.`,
+              ],
+            },
+            {
+              description: [
+                `Ideal for simple websites, blogs, portfolios, or small business sites.`,
+              ],
+            },
+          ],
+        },
+        {
+          desctioption: `Custom Web Development`,
+          list: [
+            {
+              description: [
+                `The process of building a website or web application is specifically tailored to the unique needs of a business.`,
+              ],
+            },
+            {
+              description: [
+                `Built from scratch or heavily customized to meet specific requirements.`,
+              ],
+            },
+            {
+              description: [
+                `Fully customizable design, features, and functionality.`,
+              ],
+            },
+            {
+              description: [
+                `Takes more time due to planning, design, and development from the ground up.`,
+              ],
+            },
+            {
+              description: [
+                `Generally higher because of custom design and development work.`,
+              ],
+            },
+            {
+              description: [
+                `Designed to scale easily as the business grows and needs evolve.`,
+              ],
+            },
+            {
+              description: [
+                `Highly flexible and adaptable to changing business requirements.`,
+              ],
+            },
+            {
+              description: [
+                `Can integrate with complex systems such as CRM, ERP, APIs, and custom tools.`,
+              ],
+            },
+            {
+              description: [
+                `Best for complex platforms, SaaS products, enterprise systems, or unique business processes.`,
+              ],
+            },
+          ],
+        },
+      ],
+    },
+
+    whatareservice2: {
+      isVisible: false,
+    },
+
+    whatIncluded: {
+      isVisible: false,
+      isVariant: '02',
+      isInCenter: true,
+      headingParts: [
+        {
+          text: 'What’s Included in Our SEO Services',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      list: [
+        {
+          icon: seo_tool_3,
+          title: 'Keyword Research and Analysis',
+          description: [
+            `We start the process by conducting a comprehensive keyword research. It helps determine the search terms that users input in search engines when looking for related information, products, or services.`,
+            `Our effective SEO strategy consists of proper keyword research to match the content of the websites with what the users are actively searching for.`,
+          ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',
+        },
+        {
+          icon: seo_tool_1,
+          title: 'On-Page SEO Optimization',
+          description: [
+            `Our focus on On-page SEO optimization is to improve search visibility. This involves optimization of page names, meta descriptions, headings, URLs, internal links, and content structure.`,
+            `On-page optimization helps search engines to understand the relevance of the pages while enhancing readability and user experience, making the content easy to access, arranged and in accordance with the targeted keywords.`,
+          ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',
+        },
+        {
+          icon: seo_tool_2,
+          title: 'Technical SEO Improvements',
+          description: [
+            `In Technical SEO, we address the backend elements of a website that affect search engine crawling and indexing. This involves site speed improvement, mobile friendliness, HTTPS configuration, XML sitemaps, and crawl errors remedies.`,
+            `Technical optimization ensures search engines can efficiently access and understand the site effectively, and this is what is necessary to maintain the same ranking level.`,
+          ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',
+        },
+        {
+          icon: seo_tool_4,
+          title: 'Content Optimization and Development',
+          description: [
+            `In content optimization, we improve existing content and create new, relevant content based on SEO insights. This is done to ensure that the content is informative, keyword-compatible, user and search engine friendly.`,
+            `High-quality content supports better engagement, increased page views, and stronger relevance signals, helping websites perform more effectively in search results.`,
+          ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',
+        },
+        {
+          icon: seo_tool_5,
+          title: 'Link Building and Authority Development',
+          description: [
+            `In link building, we focus on earning high-quality backlinks from relevant and trustworthy websites. These links are indicators of credibility and authority to search engines.`,
+            ` Ethical link-building practices help strengthen a website’s domain authority over time,  improving its ability to rank competitively while maintaining compliance with search engine guidelines.`,
+          ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',
+        },
+        {
+          icon: seo_tool_6,
+          title: 'SEO Monitoring and Reporting',
+          description: [
+            `We track keyword rankings, organic traffic, user behavior, and technical performance in SEO monitoring. Regular reporting gives an idea of what works and where it should be improved.`,
+            `The ongoing analysis helps refine SEO strategies, keeping up with the changes in the algorithms, and ensuring long-term effectiveness through data-driven optimization efforts.`,
+          ],
+          button: 'Get Your Free SEO Audit',
+          btnColor: '#1A5A96',
+        },
+      ],
     },
 
     needofservice: {
