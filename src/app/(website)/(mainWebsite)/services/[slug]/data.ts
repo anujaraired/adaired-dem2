@@ -796,7 +796,7 @@ export type SectionKey =
   | 'seopackages';
 
 export const SERVICES_DATA = {
-  'seo-company-india': {
+  'search-engine-optimization': {
     sectionsOrder: [
       'banner',
       'seopackages',
@@ -1668,7 +1668,7 @@ export const SERVICES_DATA = {
       ],
     },
   },
-  'ai-seo-india': {
+  'ai-seo-agency': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -2426,7 +2426,7 @@ export const SERVICES_DATA = {
       isVisible: false,
     },
   },
-  'link-building-agency-india': {
+  'link-building-agency': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -3869,7 +3869,7 @@ export const SERVICES_DATA = {
       ],
     },
   },
-  'local-seo-company-india': {
+  'local-seo-company': {
     sectionsOrder: [
       'banner',
       'seopackages',
@@ -6933,7 +6933,7 @@ export const SERVICES_DATA = {
       isVisible: false,
     },
   },
-  'ppc-management-company-india': {
+  'ppc-management-company': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -10031,7 +10031,7 @@ export const SERVICES_DATA = {
       isVisible: false,
     },
   },
-  'generative-engine-optimization-india': {
+  'generative-engine-optimization': {
     sectionsOrder: [
       'banner',
       'whatareservice',
@@ -10770,7 +10770,7 @@ export const SERVICES_DATA = {
       isVisible: false,
     },
   },
-  'answer-engine-optimization-india': {
+  'answer-engine-optimization': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -11466,7 +11466,7 @@ export const SERVICES_DATA = {
       isVisible: false,
     },
   },
-  'mobile-apps-development-india': {
+  'mobile-app-development-company': {
     sectionsOrder: [
       'banner',
       'whatareservice',
@@ -12505,7 +12505,7 @@ export const SERVICES_DATA = {
       isVisible: false,
     },
   },
-  'gmb-optimization-india': {
+  'google-my-business-optimization': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -13317,7 +13317,7 @@ export const SERVICES_DATA = {
       isVisible: false,
     },
   },
-  'gmb-website-seo-india': {
+  'gmb-website-seo': {
     sectionsOrder: [
       'banner',
       'serviceResult',
@@ -14087,7 +14087,7 @@ export const SERVICES_DATA = {
       isVisible: false,
     },
   },
-  'wordpress-development-company-india': {
+  'wordpress-development-company': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -14752,7 +14752,7 @@ export const SERVICES_DATA = {
       isVisible: false,
     },
   },
-  'llm-seo-india': {
+  'llm-seo-agency': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -15356,7 +15356,7 @@ export const SERVICES_DATA = {
       isVisible: false,
     },
   },
-  'shopify-development-company-india': {
+  'shopify-development-company': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -16000,7 +16000,7 @@ export const SERVICES_DATA = {
       isVisible: false,
     },
   },
-  'ecommerce-seo-agency-india': {
+  'ecommerce-seo-agency': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -16792,7 +16792,7 @@ export const SERVICES_DATA = {
       isVisible: false,
     },
   },
-  'ecommerce-development-company-india': {
+  'ecommerce-development-company': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -18742,7 +18742,7 @@ export const SERVICES_DATA = {
       bgImage: LocalNotSeeBg,
     },
   },
-  'ios-app-development-agency-india': {
+  'ios-app-development-company': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -19860,7 +19860,7 @@ export const SERVICES_DATA = {
       bgImage: LocalNotSeeBg,
     },
   },
-  'social-media-management-india': {
+  'social-media-management': {
     sectionsOrder: [
       'banner',
       'keyStats',
@@ -21120,7 +21120,7 @@ export const SERVICES_DATA = {
       bgImage: LocalNotSeeBg,
     },
   },
-  'android-app-development-company-india': {
+  'android-app-development-company': {
     sectionsOrder: [
       'banner',
       'whatareservice',
@@ -21733,7 +21733,7 @@ export const SERVICES_DATA = {
       isVisible: false,
     },
   },
-  'cross-platform-app-development-india': {
+  'cross-platform-app-development': {
     sectionsOrder: [
       'banner',
       'whatareservice',
@@ -22993,7 +22993,7 @@ export const SERVICES_DATA = {
       bgImage: LocalNotSeeBg,
     },
   },
-  'wearables-app-development-india': {
+  'wearables-app-development': {
     sectionsOrder: [
       'banner',
       'keyStats',
