@@ -765,7 +765,7 @@ export const SERVICES_DATA = {
       heading: 'Increase Your',
       heading2: 'Business Visibility',
       span: ``,
-      desc: 'Advanced Search Engine Optimization Services To Help You Get Discovered In Traditional and AI Search. ',
+      desc: 'Advanced Search Engine Optimization Services To Help You Get Discovered In Traditional and AI Search.',
       subheading: '',
       button: 'Get a Quote',
       width: '18rem',
@@ -802,12 +802,12 @@ export const SERVICES_DATA = {
         {
           icon: '',
           desctioption:
-            'Social media drives only 5% of website traffic, whereas organic traffic accounts for 53% of trackable traffic to websites. ',
+            'Social media drives only 5% of website traffic, whereas organic traffic accounts for 53% of trackable traffic to websites.',
         },
         {
           icon: '',
           desctioption:
-            'An average business spends between $500- $700 per month on SEO services.  ',
+            'An average business spends between $500- $700 per month on SEO services.',
         },
         {
           icon: '',
@@ -835,10 +835,10 @@ export const SERVICES_DATA = {
           desctioption: `Search Engine Optimization services focus on improving a website’s visibility in search engine results pages (SERPs). It is aimed at ensuring that websites appear higher in relevant searches, which will enable people to find accurate and useful information online.`,
         },
         {
-          desctioption: `SEO Services typically include a combination of keyword research, on-page optimization, technical optimization, content optimization, and link building. These services help search engines in understanding a website’s content, structure, and relevance to the search by a user. By aligning a website with search engine guidelines, SEO enhances user experience and search performance. `,
+          desctioption: `SEO Services typically include a combination of keyword research, on-page optimization, technical optimization, content optimization, and link building. These services help search engines in understanding a website’s content, structure, and relevance to the search by a user. By aligning a website with search engine guidelines, SEO enhances user experience and search performance.`,
         },
         {
-          desctioption: `Unlike paid advertising, SEO targets organic traffic, meaning visitors arrive through unpaid search results. This approach supports long-term growth by establishing authority, trust, and consistency in the long run. SEO Services are used by businesses, firms, and individuals who would like to expand their online presence, enhance the usability of their websites, and reach the right target markets through search engines.  `,
+          desctioption: `Unlike paid advertising, SEO targets organic traffic, meaning visitors arrive through unpaid search results. This approach supports long-term growth by establishing authority, trust, and consistency in the long run. SEO Services are used by businesses, firms, and individuals who would like to expand their online presence, enhance the usability of their websites, and reach the right target markets through search engines.`,
         },
       ],
     },
@@ -17534,7 +17534,7 @@ export const SERVICES_DATA = {
       isCenter: false,
       isVisible: true,
       heading2: '#1 on Google Maps: Get Seen by Local Customers',
-      isAbsolute: true,
+      isAbsolute: false,
       isStyleHeading: true,
       headingParts: [
         { text: 'Custom-Built Web ', color: '#000000', weight: '400' },
@@ -21307,8 +21307,8 @@ export const SERVICES_DATA = {
       button: 'Get a Custom App',
       width: 55,
       customGap: '0rem',
-      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773900428/adaired/services/cross_platform_app_development/crossPlatformBannerImg_tmm91n.png',
-      imgWidth: '722',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774002024/adaired/services/cross_platform_app_development/crossPlatformBannerImg_ebqalh.png',
+      imgWidth: '764',
       imgHight: '758',
     },
 
