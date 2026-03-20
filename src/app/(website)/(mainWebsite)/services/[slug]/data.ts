@@ -18821,6 +18821,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
+      customPadding: '4rem, 0rem',
       customPaddingRight: 4,
       customGap: '8rem',
       description: ``,
@@ -23078,5 +23079,3 @@ export const SERVICES_DATA = {
     },
   },
 };
-
-//test
