@@ -14728,6 +14728,7 @@ export const SERVICES_DATA = {
       'banner',
       'keyStats',
       'whatareservice',
+      'benefitofAiSeo',
       'ourProcess',
       'importantToBussiness',
       'adairedHelp',
@@ -20012,9 +20013,9 @@ export const SERVICES_DATA = {
       customPaddingRight: 8,
       description: ``,
       textColor: 'white',
-      width: 55,
+      width: 60,
       customGap: '12rem',
-      paddingY: '2rem',
+      customPadding: '2rem, 2rem',
       data: [
         {
           desctioption: `Take your brand to the next level with professional social media management. From strategy and content creation to engagement and analytics, we help you reach your audience, increase visibility, and drive measurable results.`,
@@ -21910,7 +21911,7 @@ export const SERVICES_DATA = {
       breakIndex: 0,
       customPadding: '4rem, 3rem',
       isRowReverse: false,
-      width: 70,
+      width: 60,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774000299/adaired/services/google_ads_mgt/googleAdsWhatServiceImg_ki1nwj.png',
       imgWidth: '797',
       imgHight: '666',
