@@ -147,6 +147,11 @@ const nextConfig = {
         permanent: true,
       },
       {
+        source: '/services/meta-ads-agency-india',
+        destination: '/services/meta-ads-agency',
+        permanent: true,
+      },
+      {
         source: '/services/social-media-management-india',
         destination: '/services/social-media-management',
         permanent: true,
@@ -179,11 +184,6 @@ const nextConfig = {
       {
         source: '/services/android-app-development-company-india',
         destination: '/services/android-app-development-company',
-        permanent: true,
-      },
-      {
-        source: '/services/meta-ads-agency-india',
-        destination: '/services/meta-ads-agency',
         permanent: true,
       },
       // ...dynamicRedirects, // Spread the dynamic redirects from API
