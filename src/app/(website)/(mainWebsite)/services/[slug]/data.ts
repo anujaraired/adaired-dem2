@@ -72,8 +72,8 @@ import stepwhitelabellinkbuild6 from '../../../../../../public/assets/images/ser
 
 import NotSeeingResultsBg from '../../../../../../public/assets/NotSeeingResultsBg.png';
 import leadingToolsImg from '../../../../../../public/assets/leadingTools.png';
-import what_are_ai_seo from '../../../../../../public/assets/images/what_are_ai_seo.png';
-import what_are_ai_seo2 from '../../../../../../public/assets/what_are_ai_seo2.png';
+// import what_are_ai_seo from '../../../../../../public/assets/images/what_are_ai_seo.png';
+// import what_are_ai_seo2 from '../../../../../../public/assets/what_are_ai_seo2.png';
 import importantIcon_1 from '../../../../../../public/assets/aiseo/importantIcon_1.svg';
 import importantIcon_2 from '../../../../../../public/assets/aiseo/importantIcon_2.svg';
 import importantIcon_3 from '../../../../../../public/assets/aiseo/importantIcon_3.svg';
@@ -101,7 +101,7 @@ import client_4 from '../../../../../../public/assets/LeadingTools/Group 1000005
 import client_5 from '../../../../../../public/assets/LeadingTools/Group 1000005428.png';
 import groth from '../../../../../../public/assets/icons/adwords-campaign.svg';
 
-import HowAdairedHelp from '../../../../../../public/assets/WebDevelopment/HowAdairedHelp.png';
+// import HowAdairedHelp from '../../../../../../public/assets/WebDevelopment/HowAdairedHelp.png';
 
 import seo_resultIcon_1 from '../../../../../../public/assets/seo/seo_resultIcon_1.svg';
 import seo_resultIcon_2 from '../../../../../../public/assets/seo/seo_resultIcon_2.svg';
@@ -118,12 +118,12 @@ import adairedHelp_icon_8 from '../../../../../../public/assets/adairedHelp/help
 import adairedHelp_icon_9 from '../../../../../../public/assets/adairedHelp/help_icon_9.svg';
 import adairedHelp_icon_10 from '../../../../../../public/assets/adairedHelp/help_icon_10.svg';
 
-import StrugglingImgSEO from '../../../../../../public/assets/images/Struggling.png';
-import StrugglingImgAISEO from '../../../../../../public/assets/aiseo/AISEORESULT.png';
+// import StrugglingImgSEO from '../../../../../../public/assets/images/Struggling.png';
+// import StrugglingImgAISEO from '../../../../../../public/assets/aiseo/AISEORESULT.png';
 
-import adaairedHelpSEO from '../../../../../../public/assets/images/adaairedHelp.png';
-import adairedHelpAISEO from '../../../../../../public/assets/aiseo/adairedHelp.png';
-import AdairedHelpSocial from '../../../../../../public/assets/images/AdairedHelpSocial.png';
+// import adaairedHelpSEO from '../../../../../../public/assets/images/adaairedHelp.png';
+// import adairedHelpAISEO from '../../../../../../public/assets/aiseo/adairedHelp.png';
+// import AdairedHelpSocial from '../../../../../../public/assets/images/AdairedHelpSocial.png';
 import missing_1 from '../../../../../../public/assets/images/missing_1.png';
 import missing_2 from '../../../../../../public/assets/images/missing_2.png';
 import missing_3 from '../../../../../../public/assets/images/missing_3.png';
@@ -154,31 +154,30 @@ import WhatIncluded2 from '../../../../../../public/assets/images/WhatIncluded2.
 import WhatIncluded3 from '../../../../../../public/assets/images/WhatIncluded3.png';
 import WhatIncluded4 from '../../../../../../public/assets/images/WhatIncluded4.png';
 
-import LinkBuilding from '../../../../../../public/assets/images/linkBuilding.png';
+// import LinkBuilding from '../../../../../../public/assets/images/linkBuilding.png';
 import adairedHelpImg from '../../../../../../public/assets/aiseo/adairedHelp.png';
-import adairedHelpImgLink from '../../../../../../public/assets/images/benefits_main.png';
-import BeautifulDesign from '../../../../../../public/assets/images/beautiful_design.png';
+// import adairedHelpImgLink from '../../../../../../public/assets/images/benefits_main.png';
+// import BeautifulDesign from '../../../../../../public/assets/images/beautiful_design.png';
 
-import NotSeeingResult from '../../../../../../public/assets/aiseo/NotSeeingResults.png';
-import Everydayyouwait from '../../../../../../public/assets/aiseo/Everydayyouwait.png';
-import keyStatsImg from '../../../../../../public/assets/images/SEO-keyword-ranking-software 1.png';
-import keyStatsImg2 from '../../../../../../public/assets/keyStatsImg.png';
-import WhatIsAuthorityLinkBuilding from '../../../../../../public/assets/images/link_builng_img.png';
-import WhatAreService from '../../../../../../public/assets/images/Development_Services.png';
+// import NotSeeingResult from '../../../../../../public/assets/aiseo/NotSeeingResults.png';
+// import Everydayyouwait from '../../../../../../public/assets/aiseo/Everydayyouwait.png';
+// import keyStatsImg from '../../../../../../public/assets/images/SEO-keyword-ranking-software 1.png';
+// import keyStatsImg2 from '../../../../../../public/assets/keyStatsImg.png';
+// import WhatIsAuthorityLinkBuilding from '../../../../../../public/assets/images/link_builng_img.png';
+// import WhatAreService from '../../../../../../public/assets/images/Development_Services.png';
 
-import webDevelopmentBannerBg from '../../../../../../public/assets/web_development_banner_img.png';
+// import webDevelopmentBannerBg from '../../../../../../public/assets/web_development_banner_img.png';
 
 import stop_struggle3 from '../../../../../../public/assets/localseo/stop_struggle3.png';
 
 // Local SEO Images
-import localBannerBg from '../../../../../../public/assets/localseo/localBannerBg.png';
-
-import LocalWhatService from '../../../../../../public/assets/localseo/localWhatService.png';
+// import localBannerBg from '../../../../../../public/assets/localseo/localBannerBg.png';
+// import LocalWhatService from '../../../../../../public/assets/localseo/localWhatService.png';
 import LocalNotSee from '../../../../../../public/assets/localseo/localNotSee.png';
 import LocalNotSeeBg from '../../../../../../public/assets/localseo/localNotSeeBg.png';
-import localServiceResultImg from '../../../../../../public/assets/localseo/localServiceResultImg.png';
-import needServiceImg from '../../../../../../public/assets/localseo/needServiceImg.png';
-import needServiceFactorsImg from '../../../../../../public/assets/localseo/needServiceFactorsImg.png';
+// import localServiceResultImg from '../../../../../../public/assets/localseo/localServiceResultImg.png';
+// import needServiceImg from '../../../../../../public/assets/localseo/needServiceImg.png';
+// import needServiceFactorsImg from '../../../../../../public/assets/localseo/needServiceFactorsImg.png';
 import localServiceResultIcon from '../../../../../../public/assets/localseo/localServiceResultIcon.png';
 
 import localMissing_1 from '../../../../../../public/assets/localseo/localMissing_1.png';
@@ -195,12 +194,12 @@ import localImpIcon_7 from '../../../../../../public/assets/localseo/localImpIco
 import localImpIcon_8 from '../../../../../../public/assets/localseo/localImpIcon_8.png';
 
 // White Label Social Media Page Images
-import whiteKeyStats from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteKeyStats.png';
-import whiteWhatIs from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteWhatIs.png';
+// import whiteKeyStats from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteKeyStats.png';
+// import whiteWhatIs from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteWhatIs.png';
 import whiteStruggleBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteStruggleBg.png';
-import whiteBannerBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteBannerBg.png';
+// import whiteBannerBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteBannerBg.png';
 import whiteBookConsultationBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteBookConsultationBg.png';
-import whiteBuildLinkImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteBuildLinkImg.png';
+// import whiteBuildLinkImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteBuildLinkImg.png';
 
 import whiteImpIcon_1 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteImpIcon_1.png';
 import whiteImpIcon_2 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteImpIcon_2.png';
@@ -210,10 +209,10 @@ import whiteImpIcon_5 from '../../../../../../public/assets/images/services/Whit
 import whiteImpIcon_6 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteImpIcon_6.png';
 
 // White Label Seo Page Images
-import whiteSeoBannerBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSeo/whiteSeoBannerBg.png';
-import whiteSeoKeyStatsImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSeo/whiteSeoKeyStatsImg.png';
-import whiteSeoWhatIs from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSeo/whiteSeoWhatIs.png';
-import whiteSeoBuildLinkImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSeo/whiteSeoBuildLinkImg.png';
+// import whiteSeoBannerBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSeo/whiteSeoBannerBg.png';
+// import whiteSeoKeyStatsImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSeo/whiteSeoKeyStatsImg.png';
+// import whiteSeoWhatIs from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSeo/whiteSeoWhatIs.png';
+// import whiteSeoBuildLinkImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSeo/whiteSeoBuildLinkImg.png';
 import WhiteSeoServiceResultImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSeo/WhiteSeoServiceResultImg.png';
 
 import whiteSeoResult_1 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSeo/whiteSeoResult_1.png';
@@ -233,16 +232,16 @@ import whiteSeoImpIcon_4 from '../../../../../../public/assets/images/services/W
 import whiteSeoImpIcon_5 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSeo/whiteSeoImpIcon_5.png';
 
 // White Label Services Page Images
-import whiteServicesBannerBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesBannerBg.png';
+// import whiteServicesBannerBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesBannerBg.png';
 import whiteServicesKeyStatsImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesKeyStatsImg.png';
-import whiteServicesWhatIs from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesWhatIs.png';
-import whiteServicesBuildLinkImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesBuildLinkImg.png';
+// import whiteServicesWhatIs from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesWhatIs.png';
+// import whiteServicesBuildLinkImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesBuildLinkImg.png';
 import whiteServicesAdairedHelpImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesAdairedHelpImg.png';
 
 //AeoService Page Images
-import WhatAreServiceAeoServiceImg from '../../../../../../public/assets/images/services/aeoService/whiteServicesAeoServiceImg.png';
+// import WhatAreServiceAeoServiceImg from '../../../../../../public/assets/images/services/aeoService/whiteServicesAeoServiceImg.png';
 import AeoServiceAdairedHelpImg from '../../../../../../public/assets/images/services/aeoService/AeoServiceAdairedHelpImg.png';
-import AeoServiceBannerImg from '../../../../../../public/assets/images/services/aeoService/AeoServiceBannerImg.png';
+// import AeoServiceBannerImg from '../../../../../../public/assets/images/services/aeoService/AeoServiceBannerImg.png';
 import ImpToBusinessCradImg from '../../../../../../public/assets/images/services/aeoService/ImpToBusinessCradImg.png';
 
 import AEOServiceImpIcon_1 from '../../../../../../public/assets/images/services/aeoService/ImpToBussinessImg/Icon1.svg';
@@ -263,9 +262,9 @@ import whiteServicesIncluded_5 from '../../../../../../public/assets/images/serv
 import whiteServicesIncluded_6 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelServices/whiteServicesIncluded_6.png';
 
 //PPC Images
-import PPC_Banner from '../../../../../../public/assets/images/PPCimg/PPC_Banner.png';
-import WhatIsPPC from '../../../../../../public/assets/images/PPCimg/WhatIsPPC.png';
-import ppcServicesBuildLinkImg from '../../../../../../public/assets/images/PPCimg/ppcServicesBuildLinkImg.png';
+// import PPC_Banner from '../../../../../../public/assets/images/PPCimg/PPC_Banner.png';
+// import WhatIsPPC from '../../../../../../public/assets/images/PPCimg/WhatIsPPC.png';
+// import ppcServicesBuildLinkImg from '../../../../../../public/assets/images/PPCimg/ppcServicesBuildLinkImg.png';
 import benefitsOfPPC from '../../../../../../public/assets/images/PPCimg/benefitsOfPPC.png';
 
 import ppcImpIcon_1 from '../../../../../../public/assets/images/PPCimg/ppcImpIcon_1.png';
@@ -279,10 +278,10 @@ import ppcImpIcon_8 from '../../../../../../public/assets/images/PPCimg/ppcImpIc
 import ppcImpIcon_9 from '../../../../../../public/assets/images/PPCimg/ppcImpIcon_9.png';
 
 // White Label Paid Ads Images
-import whitePaidAdsBannerBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelPaidAds/whitePaidAdsBannerBg.png';
-import whiteWhatIsImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelPaidAds/whiteWhatIsImg.png';
-import whitePaidAdsBuildLinkImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelPaidAds/whitePaidAdsBuildLinkImg.png';
-import whitePaidAdsAdairedHelpImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelPaidAds/whitePaidAdsAdairedHelpImg.png';
+// import whitePaidAdsBannerBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelPaidAds/whitePaidAdsBannerBg.png';
+// import whiteWhatIsImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelPaidAds/whiteWhatIsImg.png';
+// import whitePaidAdsBuildLinkImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelPaidAds/whitePaidAdsBuildLinkImg.png';
+// import whitePaidAdsAdairedHelpImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelPaidAds/whitePaidAdsAdairedHelpImg.png';
 
 import whitePaidAdsMissing_1 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelPaidAds/whitePaidAdsMissing_1.png';
 import whitePaidAdsMissing_2 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelPaidAds/whitePaidAdsMissing_2.png';
@@ -296,10 +295,10 @@ import whitePaidAdsImpIcon_5 from '../../../../../../public/assets/images/servic
 import whitePaidAdsImpIcon_6 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelPaidAds/whitePaidAdsImpIcon_6.png';
 
 // White Label Link Building Images
-import whiteLinkBuildingBannerBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/whiteLinkBuildingBannerBg.png';
+// import whiteLinkBuildingBannerBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/whiteLinkBuildingBannerBg.png';
 import whiteLinkBuildingKeyStatsImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/whiteLinkBuildingKeyStatsImg.png';
-import whiteLinkBuildingWhatIsImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatIsImg.png';
-import whiteLinkBuildingBuildLinkImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/whiteLinkBuildingBuildLinkImg.png';
+// import whiteLinkBuildingWhatIsImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/whiteLinkBuildingWhatIsImg.png';
+// import whiteLinkBuildingBuildLinkImg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/whiteLinkBuildingBuildLinkImg.png';
 import whiteLinkBuildingBookConsultationBg from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/whiteLinkBuildingBookConsultationBg.png';
 
 import whiteLinkBuildingImpIcon_1 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_1.png';
@@ -310,10 +309,10 @@ import whiteLinkBuildingImpIcon_5 from '../../../../../../public/assets/images/s
 import whiteLinkBuildingImpIcon_6 from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelLinkBuilding/whiteLinkBuildingImpIcon_6.png';
 
 // SAAS Seo Images
-import saasSeoBannerBg from '../../../../../../public/assets/saasSeo/saasSeoBannerBg.png';
-import saasSeoWhatIsImg from '../../../../../../public/assets/saasSeo/saasSeoWhatIsImg.png';
-import saasSeoAdairedHelpImg from '../../../../../../public/assets/saasSeo/saasSeoAdairedHelpImg.png';
-import saasSeoBuildLinkImg from '../../../../../../public/assets/saasSeo/saasSeoBuildLinkImg.png';
+// import saasSeoBannerBg from '../../../../../../public/assets/saasSeo/saasSeoBannerBg.png';
+// import saasSeoWhatIsImg from '../../../../../../public/assets/saasSeo/saasSeoWhatIsImg.png';
+// import saasSeoAdairedHelpImg from '../../../../../../public/assets/saasSeo/saasSeoAdairedHelpImg.png';
+// import saasSeoBuildLinkImg from '../../../../../../public/assets/saasSeo/saasSeoBuildLinkImg.png';
 import saasSeoBuildLinkBg from '../../../../../../public/assets/saasSeo/saasSeoBuildLinkBg.png';
 
 import saasSeoMissing_1 from '../../../../../../public/assets/saasSeo/saasSeoMissing_1.png';
@@ -326,11 +325,11 @@ import saasSeoImpIcon_5 from '../../../../../../public/assets/saasSeo/saasSeoImp
 import saasSeoImpIcon_6 from '../../../../../../public/assets/saasSeo/saasSeoImpIcon_6.png';
 
 // GEO Ai Seo Images
-import geoAiSeoAdairedHelpImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoAdairedHelpImg.png';
-import geoAiSeoWhatIsImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoWhatIsImg.png';
-import geoAiSeoBannerBg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoBannerBg.png';
-import geoAiSeoBuildLinkImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoBuildLinkImg.png';
-import geoAiSeoWhatServiceImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoWhatServiceImg.png';
+// import geoAiSeoAdairedHelpImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoAdairedHelpImg.png';
+// import geoAiSeoWhatIsImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoWhatIsImg.png';
+// import geoAiSeoBannerBg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoBannerBg.png';
+// import geoAiSeoBuildLinkImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoBuildLinkImg.png';
+// import geoAiSeoWhatServiceImg from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoWhatServiceImg.png';
 
 import geoAiSeoImpIcon_1 from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoImpIcon_1.png';
 import geoAiSeoImpIcon_2 from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoImpIcon_2.png';
@@ -347,10 +346,10 @@ import geoAiSeoProcess_5 from '../../../../../../public/assets/images/services/g
 import geoAiSeoProcess_6 from '../../../../../../public/assets/images/services/geoAiSeo/geoAiSeoProcess_6.png';
 
 // Mobile App Development Images
-import mobileAppDevBannerBg from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevBannerBg.png';
-import mobileAppDevAdairedHelpImg from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevAdairedHelpImg.png';
-import mobileAppDevWhatService from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevWhatService.png';
-import mobileAppDevBuildLinkImg from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevBuildLinkImg.png';
+// import mobileAppDevBannerBg from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevBannerBg.png';
+// import mobileAppDevAdairedHelpImg from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevAdairedHelpImg.png';
+// import mobileAppDevWhatService from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevWhatService.png';
+// import mobileAppDevBuildLinkImg from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevBuildLinkImg.png';
 import LaunchMobileAppCardImage from '../../../../../../public/assets/images/services/mobileAppDevelopment/LaunchMobileAppCardImage.png';
 
 import mobileAppDevProcess_1 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevProcess_1.png';
@@ -405,12 +404,12 @@ import mobileAppDevTechStackImg_29 from '../../../../../../public/assets/images/
 import mobileAppDevTechStackImg_30 from '../../../../../../public/assets/images/services/mobileAppDevelopment/mobileAppDevTechStackImg_30.png';
 
 // GBP local Seo Images
-import gbplocalSeoBannerBg from '../../../../../../public/assets/images/services/gmb/gmb_only.png';
+// import gbplocalSeoBannerBg from '../../../../../../public/assets/images/services/gmb/gmb_only.png';
 import gmb_website_banner from '../../../../../../public/assets/images/services/gmb/gmb+website.png';
-import AdairedHelpgmb from '../../../../../../public/assets/images/services/gmb/AdairedHelpGmb.png';
+// import AdairedHelpgmb from '../../../../../../public/assets/images/services/gmb/AdairedHelpGmb.png';
 
-import WhatAreServiceGMB from '../../../../../../public/assets/images/services/gmb/whatAreServiceGMB.png';
-import WhatAreServiceGMB2 from '../../../../../../public/assets/images/services/gmb/whatAreServiceGMB2.png';
+// import WhatAreServiceGMB from '../../../../../../public/assets/images/services/gmb/whatAreServiceGMB.png';
+// import WhatAreServiceGMB2 from '../../../../../../public/assets/images/services/gmb/whatAreServiceGMB2.png';
 
 import KeyStatsIcon1 from '../../../../../../public/assets/images/services/gmb/KeyStatIcon1.svg';
 import KeyStatsIcon2 from '../../../../../../public/assets/images/services/gmb/KeyStatIcon2.svg';
@@ -437,10 +436,10 @@ import icon_8 from '../../../../../../public/assets/images/services/gmb/ImpToBus
 import icon_9 from '../../../../../../public/assets/images/services/gmb/ImpToBusinessIcon/Icon9.svg';
 
 // GMB Website Seo Images
-import gmbWebsitelocalSeoBannerBg from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsitelocalSeoBannerBg.png';
-import gmbWebsiteSeoBuildLinkImg from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteSeoBuildLinkImg.png';
-import gmbWebsiteServiceResultImg from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteServiceResultImg.png';
-import gmbWebsiteWhatAreService from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteWhatAreService.png';
+// import gmbWebsitelocalSeoBannerBg from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsitelocalSeoBannerBg.png';
+// import gmbWebsiteSeoBuildLinkImg from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteSeoBuildLinkImg.png';
+// import gmbWebsiteServiceResultImg from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteServiceResultImg.png';
+// import gmbWebsiteWhatAreService from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteWhatAreService.png';
 
 import gmbWebsiteimpIcon_1 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_1.png';
 import gmbWebsiteimpIcon_2 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbWebsiteimpIcon_2.png';
@@ -461,14 +460,14 @@ import gmbProcessIcon_5 from '../../../../../../public/assets/images/services/gm
 import gmbProcessIcon_6 from '../../../../../../public/assets/images/services/gmbWebsiteSeo/gmbProcessIcon_6.png';
 
 // WordPress Development Images
-import Banner from '../../../../../../public/assets/images/services/wordpressDevelopment/Banner.png';
+// import Banner from '../../../../../../public/assets/images/services/wordpressDevelopment/Banner.png';
 import KeyStatsImg from '../../../../../../public/assets/images/services/wordpressDevelopment/KeyStatsIcon.svg';
-import AdairedHelp from '../../../../../../public/assets/images/services/wordpressDevelopment/adairedHelp.png';
-import BuildLink from '../../../../../../public/assets/images/services/wordpressDevelopment/BuildLink.png';
+// import AdairedHelp from '../../../../../../public/assets/images/services/wordpressDevelopment/adairedHelp.png';
+// import BuildLink from '../../../../../../public/assets/images/services/wordpressDevelopment/BuildLink.png';
 import bgImg_BuildLink from '../../../../../../public/assets/images/services/wordpressDevelopment/bgImgBuildLink.png';
 
-import WhatAreService1 from '../../../../../../public/assets/images/services/wordpressDevelopment/WhatAreService.png';
-import WhatAreService2 from '../../../../../../public/assets/images/services/wordpressDevelopment/whatareservice2.png';
+// import WhatAreService1 from '../../../../../../public/assets/images/services/wordpressDevelopment/WhatAreService.png';
+// import WhatAreService2 from '../../../../../../public/assets/images/services/wordpressDevelopment/whatareservice2.png';
 
 import Icon1 from '../../../../../../public/assets/images/services/wordpressDevelopment/ourProcessIcon1.svg';
 import Icon2 from '../../../../../../public/assets/images/services/wordpressDevelopment/ourProcessIcon2.svg';
@@ -501,11 +500,11 @@ import ImpToBusinessIcon5 from '../../../../../../public/assets/images/services/
 import ImpToBusinessIcon6 from '../../../../../../public/assets/images/services/llm/Icon6.svg';
 
 // shopyfy Service Page Images
-import ShopifyDevBannerImg from '../../../../../../public/assets/images/services/shopifyDevelopment/ShopifyDevBannerImg.png';
+// import ShopifyDevBannerImg from '../../../../../../public/assets/images/services/shopifyDevelopment/ShopifyDevBannerImg.png';
 import shopifyDevKeyStatsImg from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevKeyStatsImg.png';
-import shopifyDevWhatAreServiceImg from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevWhatAreServiceImg.png';
+// import shopifyDevWhatAreServiceImg from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevWhatAreServiceImg.png';
 import shopifyDevAdairedHelpImg from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevAdairedHelpImg.png';
-import shopifyDevBuildLinkImg from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevBuildLinkImg.png';
+// import shopifyDevBuildLinkImg from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevBuildLinkImg.png';
 
 import shopifyDevProcessIcon_1 from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevProcessIcon_1.png';
 import shopifyDevProcessIcon_2 from '../../../../../../public/assets/images/services/shopifyDevelopment/shopifyDevProcessIcon_2.png';
@@ -523,7 +522,7 @@ import shopifyDevImpIcon_6 from '../../../../../../public/assets/images/services
 
 // eCommerce Development Service Page Images
 import ECommerceKeyStatsImg from '../../../../../../public/assets/images/services/eCommerceDevelopment/KeyStatsIcon.svg';
-import ecommerceDEV_whatareserviceImg from '../../../../../../public/assets/images/services/eCommerceDevelopment/ecommerceDEV_whatareserviceImg.png';
+// import ecommerceDEV_whatareserviceImg from '../../../../../../public/assets/images/services/eCommerceDevelopment/ecommerceDEV_whatareserviceImg.png';
 
 import ecommerceDev_imptobusiness1 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ecommerceDev_imptobusiness1.svg';
 import ecommerceDev_imptobusiness2 from '../../../../../../public/assets/images/services/eCommerceDevelopment/ecommerceDev_imptobusiness2.svg';
@@ -787,7 +786,8 @@ export const SERVICES_DATA = {
       imgWidth: '594',
       imgHeight: '675',
       width: 40,
-      img: keyStatsImg2,
+      // img: keyStatsImg2,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774008445/adaired/services/seo/keyStatsImg_bmfouo.png',
       list: [
         {
           icon: '',
@@ -820,7 +820,8 @@ export const SERVICES_DATA = {
     whatareservice: {
       isVisible: true,
       isVariant: '04',
-      img: what_are_ai_seo2,
+      // img: what_are_ai_seo2,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774243115/adaired/services/seo/what_are_ai_seo2_txkzxa.png',
       headingParts: [
         {
           text: 'What Are SEO Services?',
@@ -1058,7 +1059,7 @@ export const SERVICES_DATA = {
       bgImage: '',
       bgColor: '#FFF9F1',
       titleColor: '#FB9100',
-      img: StrugglingImgSEO,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774243269/adaired/services/seo/Struggling_slosmx.png',
       imgHight: '585px',
       description: [
         `Adaired, a leading SEO agency, puts your business at the forefront of technology with the help of proven SEO strategies. 
@@ -1109,7 +1110,9 @@ export const SERVICES_DATA = {
       textColor: '#FFFFFF',
       description: 'Start SEO that converts now.',
       buttonName: 'Book a Free Consultation',
-      img: Everydayyouwait,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774009508/adaired/services/seo/Everydayyouwait_vf3ldu.png',
+      imgHight: '404',
+      imgWidth: '498',
       bgImage: stop_struggle2,
     },
 
@@ -1195,7 +1198,7 @@ export const SERVICES_DATA = {
     adairedHelp: {
       isVisible: true,
       breakIndex: 6,
-      img: adaairedHelpSEO,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774243851/adaired/services/seo/adaairedHelp_cwbya8.png',
       isInCenter: true,
       cardBg: '#FFF8F0',
       headingParts: [
@@ -1687,11 +1690,10 @@ export const SERVICES_DATA = {
         },
       ],
     },
-
     whatareservice: {
       isVisible: true,
       isVariant: '04',
-      img: what_are_ai_seo,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774009805/adaired/services/ai_seo/what_are_ai_seo_pfumrm.png',
       headingParts: [
         {
           text: 'What Are AI SEO Services?',
@@ -1702,8 +1704,8 @@ export const SERVICES_DATA = {
       bgColor: '#000000',
       textColor: '#FFFFFF',
       width: 50,
-      imgWidth: '603px',
-      imgHight: '494px',
+      imgWidth: '603',
+      imgHight: '494',
       button: 'Get Started',
       customPadding: '0rem, 0rem',
       data: [
@@ -1819,8 +1821,8 @@ export const SERVICES_DATA = {
       cardColor: '#F3F3F3',
       titleColor: '#000000',
       description: null,
-      imgHight: '520px',
-      img: StrugglingImgAISEO,
+      imgHight: '520',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774244288/adaired/services/ai_seo/AISEORESULT_l3ybp6.png',
       list: [
         {
           icon: groth,
@@ -1869,7 +1871,9 @@ export const SERVICES_DATA = {
       description: 'Let AI Reveal What’s Holding You Back.',
       textColor: '#FFFFFF',
       buttonName: 'Get Your Free AI SEO Audit',
-      img: NotSeeingResult,
+      imgHight: '376',
+      imgWidth: '475',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774244371/adaired/services/ai_seo/NotSeeingResults_udzuba.png',
       bgImage: NotSeeingResultsBg,
     },
     industryLeaders: {
@@ -1939,7 +1943,7 @@ export const SERVICES_DATA = {
     },
     adairedHelp: {
       isVisible: true,
-      img: adairedHelpAISEO,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774244891/adaired/services/ai_seo/adairedHelp_nkcjye.png',
       isInCenter: true,
       cardBg: '#FFF8F0',
       headingParts: [
@@ -2240,7 +2244,6 @@ export const SERVICES_DATA = {
       bgImg: stop_struggle,
       isHoverBgBlue: true,
     },
-
     getplan: {
       isVisible: true,
       isLabel: true,
@@ -2415,7 +2418,7 @@ export const SERVICES_DATA = {
       ],
       bgColor: '#FB9100',
       isCard: false,
-      img: keyStatsImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774245266/adaired/services/link_building/SEO-keyword-ranking-software_1_kwlhv5.png',
       list: [
         {
           icon: '',
@@ -2495,7 +2498,7 @@ export const SERVICES_DATA = {
     whatareservice: {
       isVisible: true,
       isVariant: '04',
-      img: WhatIsAuthorityLinkBuilding,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774245155/adaired/services/link_building/link_builng_img_euhnn0.png',
       headingParts: [
         {
           text: 'What Is Authority',
@@ -2779,7 +2782,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
-      img: adairedHelpImgLink,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774245406/adaired/services/link_building/benefits_main_c1y7kk.png',
       list: [
         {
           img: benefits_1,
@@ -2839,9 +2842,9 @@ export const SERVICES_DATA = {
       isVariant: '03',
       // breakIndex: 5,
       bgImg: bgImg_BuildLink,
-      img: LinkBuilding,
-      imgWidth: '479px',
-      imgHight: '400px',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774245178/adaired/services/link_building/linkBuilding_t2b0hc.png',
+      imgWidth: '479',
+      imgHight: '400',
       headingParts: [
         {
           text: 'Build Links That Work for Your Business in',
@@ -3071,7 +3074,7 @@ export const SERVICES_DATA = {
       isVisible: false,
       isLabel: false,
       subtitle: '',
-      bgImage: stop_struggle2,
+      bgImage: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774243689/adaired/services/seo/stop_struggle2_kbcs9x.png',
       title: 'Stop Guessing Start Acting ',
       description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
     },
@@ -3172,7 +3175,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
-      img: webDevelopmentBannerBg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774246401/adaired/services/web_design_development/web_development_banner_img_tnhwdq.png',
       imgWidth: '829',
       imgHight: '530',
     },
@@ -3215,7 +3218,7 @@ export const SERVICES_DATA = {
     whatareservice: {
       isVisible: true,
       isVariant: '04',
-      img: WhatAreService,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774246547/adaired/services/web_design_development/Development_Services_vcm0bs.png',
       headingParts: [
         {
           text: 'What Are Website Design and Development Services?',
@@ -3229,8 +3232,8 @@ export const SERVICES_DATA = {
       textColor: '#FFFFFF',
       customPadding: '4rem, 0rem',
       width: 50,
-      imgWidth: '792px',
-      imgHight: '528px',
+      imgWidth: '792',
+      imgHight: '528',
       data: [
         {
           desctioption: `Website design and development is the process of creating, building, and maintaining a visually appealing, functional, and user-friendly website. 
@@ -3475,7 +3478,7 @@ export const SERVICES_DATA = {
           weight: '700',
         },
       ],
-      img: HowAdairedHelp,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774246654/adaired/services/web_design_development/HowAdairedHelp_dywgp5.png',
       list: [
         {
           img: AdairedHelp1,
@@ -3536,7 +3539,7 @@ export const SERVICES_DATA = {
       isCode01: true,
       isVariant: '03',
       breakIndex: 5,
-      img: BeautifulDesign,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774246707/adaired/services/web_design_development/beautiful_design_mp1iwy.png',
       bgImg: bgImg_BuildLink,
       imgWidth: '579',
       imgHight: '458',
@@ -3728,14 +3731,14 @@ export const SERVICES_DATA = {
         `Schedule a strategy call and let’s build a digital presence aligned\n with your business goals.`,
       ],
       textColor: '#FFFFFF',
-      bgImg: stop_struggle2,
+      bgImg: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774243689/adaired/services/seo/stop_struggle2_kbcs9x.png',
     },
 
     getplan: {
       isVisible: false,
       isLabel: false,
       subtitle: '',
-      bgImage: stop_struggle2,
+      bgImage: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774243689/adaired/services/seo/stop_struggle2_kbcs9x.png',
       title: 'Stop Guessing Start Acting ',
       description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
     },
@@ -3860,7 +3863,7 @@ export const SERVICES_DATA = {
       button: 'Book a Strategy Call',
       subheading: '',
       width: 40,
-      img: localBannerBg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774246806/adaired/services/local_seo/localBannerBg_tukkil.png',
       imgWidth: '727',
       imgHight: '598',
     },
@@ -3914,7 +3917,7 @@ export const SERVICES_DATA = {
     whatareservice: {
       isVisible: true,
       isVariant: '04',
-      img: LocalWhatService,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774246867/adaired/services/local_seo/localWhatService_cwbepa.png',
       headingParts: [
         {
           text: 'What Is Local SEO?',
@@ -3925,8 +3928,8 @@ export const SERVICES_DATA = {
       width: 55,
       bgColor: '#000000',
       textColor: '#FFFFFF',
-      imgWidth: '608px',
-      imgHight: '634px',
+      imgWidth: '608',
+      imgHight: '634',
       customPadding: '0rem, 0rem',
       data: [
         {
@@ -3967,7 +3970,7 @@ export const SERVICES_DATA = {
       ],
       bgColor: '#FFFAF4',
       isRocket: true,
-      img: localServiceResultImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774246924/adaired/services/local_seo/localServiceResultImg_yzvage.png',
       imgHight: '660px',
       list: [
         {
@@ -4022,7 +4025,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '02',
       isBgCornerImg: true,
-      img: needServiceImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774246973/adaired/services/local_seo/needServiceImg_zoa3mj.png',
       headingParts: [
         {
           text: 'Why “Near Me” Searches Are More Important Than Ever',
@@ -4044,7 +4047,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '03',
       isBgCornerImg: true,
-      img: needServiceFactorsImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774247086/adaired/services/local_seo/needServiceFactorsImg_fcc8de.png',
       headingParts: [
         {
           text: 'Why These Factors Matter',
@@ -4123,7 +4126,9 @@ export const SERVICES_DATA = {
       description: 'You shouldn’t be.',
       textColor: '#FFFFFF',
       buttonName: 'Book a call with a local SEO expert!',
-      img: LocalNotSee,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774247067/adaired/services/local_seo/localNotSee_tlmh4n.png',
+      imgWidth: '552',
+      imgHight: '404',
       bgImage: LocalNotSeeBg,
     },
 
@@ -4737,7 +4742,7 @@ export const SERVICES_DATA = {
           From content creation to campaign management, our team drives measurable growth for your clients, all under your brand.`,
       button: 'Request a Consultation',
       subheading: 'We work behind the scenes. Your brand gets the credit.',
-      img: whiteBannerBg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774247428/adaired/services/white_label_social_media/whiteBannerBg_bmaxbv.png',
       imgWidth: '605',
       imgHight: '597',
     },
@@ -4745,7 +4750,7 @@ export const SERVICES_DATA = {
     keyStats: {
       isVisible: true,
       code: '03',
-      img: whiteKeyStats,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774247483/adaired/services/white_label_social_media/whiteKeyStats_uhetb3.png',
       headingParts: [
         {
           text: 'Must-Know Facts About White Label Social Media',
@@ -4788,7 +4793,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '04',
       isRowReverse: true,
-      img: whiteWhatIs,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774247543/adaired/services/white_label_social_media/whiteWhatIs_vexiq0.png',
       headingParts: [
         {
           text: 'What is White Label',
@@ -4805,8 +4810,8 @@ export const SERVICES_DATA = {
       textColor: '#FFFFFF',
       customPadding: '3rem, 3rem',
       width: 55,
-      imgWidth: '609px',
-      imgHight: '663px',
+      imgWidth: '609',
+      imgHight: '663',
       IsGap: false,
       data: [
         {
@@ -5043,7 +5048,7 @@ export const SERVICES_DATA = {
       isInCenter: true,
       isDecVarticle: false,
       cardBg: '#FFF8F0',
-      img: AdairedHelpSocial,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774247538/adaired/services/white_label_social_media/whiteAdairedHelpImg_mzoyu7.png',
       breakIndex: 7,
       headingParts: [
         {
@@ -5208,7 +5213,7 @@ export const SERVICES_DATA = {
       isVariant: '03',
       breakIndex: 4,
       bgImg: whiteBookConsultationBg,
-      img: whiteBuildLinkImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774247765/adaired/services/white_label_social_media/whiteBuildLinkImg_dxqacy.png',
       imgWidth: '625',
       imgHight: '507',
       headingParts: [
@@ -5369,7 +5374,7 @@ export const SERVICES_DATA = {
       button: 'Talk to Us!',
       span: 'All set to deliver real SEO results to your clients without building an in-house team?',
       width: 50,
-      img: whiteSeoBannerBg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774247891/adaired/services/white_label_seo_outsourcing/whiteSeoBannerBg_lco1pl.png',
       imgWidth: '679',
       imgHight: '558',
     },
@@ -5404,7 +5409,7 @@ export const SERVICES_DATA = {
     keyStats: {
       isVisible: true,
       code: '03',
-      img: whiteSeoKeyStatsImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774247962/adaired/services/white_label_seo_outsourcing/whiteSeoKeyStatsImg_uufdxe.png',
       headingParts: [
         {
           text: 'White Label SEO Insights',
@@ -5449,7 +5454,7 @@ export const SERVICES_DATA = {
     whatareservice: {
       isVisible: true,
       isVariant: '04',
-      img: whiteSeoWhatIs,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774248023/adaired/services/white_label_seo_outsourcing/whiteSeoWhatIs_loimtb.png',
       headingParts: [
         {
           text: 'What Is White',
@@ -5466,8 +5471,8 @@ export const SERVICES_DATA = {
       textColor: '#FFFFFF',
       customPadding: '3rem, 3rem',
       width: 50,
-      imgWidth: '602px',
-      imgHight: '567px',
+      imgWidth: '602',
+      imgHight: '567',
       IsGap: false,
       data: [
         {
@@ -5779,7 +5784,7 @@ export const SERVICES_DATA = {
         primarily as a way to support ongoing search optimization without expanding internal teams. 
         The following use cases reflect common operational scenarios:`,
       ],
-      img: WhiteSeoServiceResultImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774248110/adaired/services/white_label_seo_outsourcing/WhiteSeoServiceResultImg_uon6e8.png',
       imgHight: '540px',
       list: [
         {
@@ -5896,7 +5901,7 @@ export const SERVICES_DATA = {
       isVariant: '03',
       breakIndex: 4,
       bgImg: whiteBookConsultationBg,
-      img: whiteSeoBuildLinkImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774248166/adaired/services/white_label_seo_outsourcing/whiteSeoBuildLinkImg_otests.png',
       imgWidth: '625',
       imgHight: '507',
       headingParts: [
@@ -6129,7 +6134,7 @@ export const SERVICES_DATA = {
       ],
       button: 'Start a Conversation!',
       width: 50,
-      img: whiteServicesBannerBg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774248324/adaired/services/white_label_agency/whiteServicesBannerBg_iksgjr.png',
       imgWidth: '734',
       imgHight: '512',
     },
@@ -6137,7 +6142,7 @@ export const SERVICES_DATA = {
     keyStats: {
       isVisible: true,
       code: '03',
-      img: whiteServicesKeyStatsImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774248375/adaired/services/white_label_agency/whiteServicesKeyStatsImg_x0fkt7.png',
       headingParts: [
         {
           text: 'Why Choose White-Label Delivery',
@@ -6182,7 +6187,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '04',
       isRowReverse: true,
-      img: whiteServicesWhatIs,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774248382/adaired/services/white_label_agency/whiteServicesWhatIs_trukjs.png',
       headingParts: [
         {
           text: 'Know More About',
@@ -6199,8 +6204,8 @@ export const SERVICES_DATA = {
       textColor: '#FFFFFF',
       customPadding: '3rem, 3rem',
       width: 50,
-      imgWidth: '808px',
-      imgHight: '558px',
+      imgWidth: '808',
+      imgHight: '558',
       IsGap: false,
       isLastParaBold: true,
       data: [
@@ -6394,7 +6399,7 @@ export const SERVICES_DATA = {
 
     adairedHelp: {
       isVisible: true,
-      img: whiteServicesAdairedHelpImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774248320/adaired/services/white_label_agency/whiteServicesAdairedHelpImg_cgavtx.png',
       isInCenter: false,
       cardBg: '#FFF8F0',
       breakIndex: 3,
@@ -6499,7 +6504,7 @@ export const SERVICES_DATA = {
       isVariant: '03',
       breakIndex: 4,
       bgImg: whiteBookConsultationBg,
-      img: whiteServicesBuildLinkImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774248340/adaired/services/white_label_agency/whiteServicesBuildLinkImg_qznm6j.png',
       imgWidth: '625',
       imgHight: '507',
       headingParts: [
@@ -6931,7 +6936,7 @@ export const SERVICES_DATA = {
       ],
       button: 'Request a Campaign Audit',
       width: 50,
-      img: PPC_Banner,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774248651/adaired/services/ppc_management_comapny/PPC_Banner_sdxdmr.png',
       imgWidth: '750',
       imgHight: '593',
     },
@@ -6956,7 +6961,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '04',
       isRowReverse: true,
-      img: WhatIsPPC,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774248665/adaired/services/ppc_management_comapny/WhatIsPPC_pogxhb.png',
       headingParts: [
         {
           text: 'What is Pay Per',
@@ -6973,8 +6978,8 @@ export const SERVICES_DATA = {
       textColor: '#FFFFFF',
       customPadding: '3rem, 3rem',
       width: 50,
-      imgWidth: '579px',
-      imgHight: '552px',
+      imgWidth: '579',
+      imgHight: '552',
       data: [
         {
           desctioption: `PPC advertising is a digital marketing strategy where businesses pay a fee each time someone clicks on their ad. 
@@ -7196,7 +7201,7 @@ export const SERVICES_DATA = {
     adairedHelp: {
       isVisible: true,
       breakIndex: 4,
-      img: benefitsOfPPC,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774248656/adaired/services/ppc_management_comapny/benefitsOfPPC_eidgsg.png',
       isInCenter: false,
       cardBg: '#FFF8F0',
       bgColor: '#FFFCF9',
@@ -7292,7 +7297,7 @@ export const SERVICES_DATA = {
       isVariant: '03',
       breakIndex: 4,
       bgImg: whiteBookConsultationBg,
-      img: ppcServicesBuildLinkImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774248662/adaired/services/ppc_management_comapny/ppcServicesBuildLinkImg_buqlas.png',
       imgWidth: '625',
       imgHight: '507',
       headingParts: [
@@ -7660,7 +7665,7 @@ export const SERVICES_DATA = {
       isVisible: false,
       isLabel: false,
       subtitle: '',
-      bgImage: stop_struggle2,
+      bgImage: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774243689/adaired/services/seo/stop_struggle2_kbcs9x.png',
       title: 'Stop Guessing Start Acting ',
       description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
     },
@@ -7746,7 +7751,7 @@ export const SERVICES_DATA = {
         `At Adaired Digital Media, we deliver high-performing Google Ads and paid media campaigns under your brand, so you can focus on sales and client relationships and grow faster.`,
       ],
       button: 'Become a White Label Reseller',
-      img: whitePaidAdsBannerBg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774248953/adaired/services/white_label_paid_ads/whitePaidAdsBannerBg_qxoxck.png',
       imgWidth: '751',
       imgHight: '580',
     },
@@ -7755,7 +7760,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '04',
       isRowReverse: true,
-      img: whiteWhatIsImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774248962/adaired/services/white_label_paid_ads/whiteWhatIsImg_vroknc.png',
       headingParts: [
         {
           text: 'What Is White',
@@ -7772,8 +7777,8 @@ export const SERVICES_DATA = {
       textColor: '#FFFFFF',
       // customPadding:"3rem, 3rem",
       width: 50,
-      imgWidth: '595px',
-      imgHight: '525px',
+      imgWidth: '595',
+      imgHight: '525',
       IsGap: false,
       data: [
         {
@@ -8140,7 +8145,7 @@ export const SERVICES_DATA = {
     adairedHelp: {
       isVisible: true,
       breakIndex: 2,
-      img: whitePaidAdsAdairedHelpImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774248949/adaired/services/white_label_paid_ads/whitePaidAdsAdairedHelpImg_spowks.png',
       isInCenter: false,
       bgColor: '#FFFCF9',
       cardBg: '#FFF8F0',
@@ -8296,7 +8301,7 @@ export const SERVICES_DATA = {
       isVariant: '03',
       breakIndex: 4,
       bgImg: whiteBookConsultationBg,
-      img: whitePaidAdsBuildLinkImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774248957/adaired/services/white_label_paid_ads/whitePaidAdsBuildLinkImg_mbyyfj.png',
       imgWidth: '625',
       imgHight: '507',
       headingParts: [
@@ -8610,7 +8615,7 @@ export const SERVICES_DATA = {
         and drive measurable organic growth, all under your brand name.`,
       ],
       button: 'Boost My SEO Rankings',
-      img: whiteLinkBuildingBannerBg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774250129/adaired/services/white_label_link_building/whiteLinkBuildingBannerBg_n4zi6o.png',
       imgWidth: '686',
       imgHight: '558',
     },
@@ -8618,7 +8623,7 @@ export const SERVICES_DATA = {
     keyStats: {
       isVisible: true,
       code: '03',
-      img: whiteLinkBuildingKeyStatsImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774250141/adaired/services/white_label_link_building/whiteLinkBuildingKeyStatsImg_njguwb.png',
       headingParts: [
         {
           text: 'Key Stats About White Label Link Building',
@@ -8662,7 +8667,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '04',
       isRowReverse: true,
-      img: whiteLinkBuildingWhatIsImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774250146/adaired/services/white_label_link_building/whiteLinkBuildingWhatIsImg_xt25aa.png',
       headingParts: [
         {
           text: 'What is White',
@@ -8679,8 +8684,8 @@ export const SERVICES_DATA = {
       textColor: '#FFFFFF',
       customPadding: '3rem, 3rem',
       width: 50,
-      imgWidth: '897px',
-      imgHight: '512px',
+      imgWidth: '897',
+      imgHight: '512',
       IsGap: false,
       data: [
         {
@@ -8942,7 +8947,7 @@ export const SERVICES_DATA = {
       isVariant: '03',
       breakIndex: 4,
       bgImg: whiteLinkBuildingBookConsultationBg,
-      img: whiteLinkBuildingBuildLinkImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774250264/adaired/services/white_label_link_building/whiteLinkBuildingBuildLinkImg_dvdziv.png',
       imgWidth: '625',
       imgHight: '534',
       headingParts: [
@@ -9271,7 +9276,7 @@ export const SERVICES_DATA = {
       ],
       button: 'Book a 30-Minute Strategy Call',
       width: 50,
-      img: saasSeoBannerBg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774250353/adaired/services/saas_seo/saasSeoBannerBg_ollwbb.png',
       imgWidth: '737',
       imgHight: '558',
     },
@@ -9279,7 +9284,7 @@ export const SERVICES_DATA = {
     whatareservice: {
       isVisible: true,
       isVariant: '04',
-      img: saasSeoWhatIsImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774250398/adaired/services/saas_seo/saasSeoWhatIsImg_txguuk.png',
       headingParts: [
         {
           text: 'Adaired Digital: A Dedicated B2B SaaS SEO Agency',
@@ -9291,11 +9296,11 @@ export const SERVICES_DATA = {
       textColor: '#FFFFFF',
       width: 60,
       isRowReverse: true,
-      imgWidth: '735px',
-      imgHight: '477px',
+      imgWidth: '735',
+      imgHight: '477',
       customGap: '12rem',
       customPaddingRight: 4,
-      customPadding: '0rem, 0rem',
+      customPadding: '2rem, 2rem',
       // breakIndex: 5,
       data: [
         {
@@ -9530,7 +9535,7 @@ export const SERVICES_DATA = {
     adairedHelp: {
       isVisible: true,
       breakIndex: 4,
-      img: saasSeoAdairedHelpImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774250352/adaired/services/saas_seo/saasSeoAdairedHelpImg_t8vozm.png',
       isInCenter: false,
       bgColor: '',
       cardBg: '#FFF8F0',
@@ -9693,7 +9698,7 @@ export const SERVICES_DATA = {
       isVariant: '03',
       breakIndex: 4,
       bgImg: saasSeoBuildLinkBg,
-      img: saasSeoBuildLinkImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774250377/adaired/services/saas_seo/saasSeoBuildLinkImg_fhez80.png',
       imgWidth: '540',
       imgHight: '528',
       headingParts: [
@@ -10042,7 +10047,7 @@ export const SERVICES_DATA = {
       button: 'Optimize My Website for AI',
       width: 50,
       widthLg: '30rem',
-      img: geoAiSeoBannerBg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774250711/adaired/services/generative_engine_optimization/geoAiSeoBannerBg_lbc0ah.png',
       imgWidth: '674',
       imgHight: '498',
     },
@@ -10050,7 +10055,7 @@ export const SERVICES_DATA = {
     whatareservice: {
       isVisible: true,
       isVariant: '04',
-      img: geoAiSeoWhatIsImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774250728/adaired/services/generative_engine_optimization/geoAiSeoWhatIsImg_jtr4hh.png',
       headingParts: [
         {
           text: 'What is GEO?',
@@ -10066,8 +10071,8 @@ export const SERVICES_DATA = {
       width: 50,
       isGap: false,
       isRowReverse: true,
-      imgWidth: '792px',
-      imgHight: '528px',
+      imgWidth: '792',
+      imgHight: '528',
       data: [
         {
           desctioption: `GEO, or generative engine optimization, is the process of optimizing your brand, website, 
@@ -10089,7 +10094,7 @@ export const SERVICES_DATA = {
     whatareservice2: {
       isVisible: true,
       isVariant: '04',
-      img: geoAiSeoWhatServiceImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774250755/adaired/services/generative_engine_optimization/geoAiSeoWhatServiceImg_iyfqvx.png',
       headingParts: [
         {
           text: 'How Generative AI SEO Strengthens Your Visibility',
@@ -10098,8 +10103,8 @@ export const SERVICES_DATA = {
         },
       ],
       bgColor: '#FFFFFF',
-      imgWidth: '715px',
-      imgHight: '760px',
+      imgWidth: '715',
+      imgHight: '760',
       customPadding: '3rem, 3rem',
       width: 50,
       isGap: false,
@@ -10132,7 +10137,7 @@ export const SERVICES_DATA = {
     adairedHelp: {
       isVisible: true,
       breakIndex: 0,
-      img: geoAiSeoAdairedHelpImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774250709/adaired/services/generative_engine_optimization/geoAiSeoAdairedHelpImg_ccmypb.png',
       isInCenter: true,
       bgColor: 'bg-[#FFFBF5]',
       cardBg: '',
@@ -10478,7 +10483,7 @@ export const SERVICES_DATA = {
       isVariant: '03',
       breakIndex: 3,
       bgImg: saasSeoBuildLinkBg,
-      img: geoAiSeoBuildLinkImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774250715/adaired/services/generative_engine_optimization/geoAiSeoBuildLinkImg_pzmpnr.png',
       imgWidth: '793',
       imgHight: '529',
       headingParts: [
@@ -10783,7 +10788,7 @@ export const SERVICES_DATA = {
       ],
       button: 'Build My AEO Strategy',
       width: 40,
-      img: AeoServiceBannerImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774250924/adaired/services/aeo_service/AeoServiceBannerImg_fz9su1.png',
       imgWidth: '802',
       imgHight: '594',
     },
@@ -10832,7 +10837,7 @@ export const SERVICES_DATA = {
     whatareservice: {
       isVisible: true,
       isVariant: '04',
-      img: WhatAreServiceAeoServiceImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774250958/adaired/services/aeo_service/whiteServicesAeoServiceImg_pd9de4.png',
       headingParts: [
         {
           text: 'What is AEO?',
@@ -10848,8 +10853,8 @@ export const SERVICES_DATA = {
       width: 50,
       isGap: true,
       isRowReverse: true,
-      imgWidth: '877px',
-      imgHight: '492px',
+      imgWidth: '877',
+      imgHight: '492',
       data: [
         {
           desctioption: [
@@ -10874,7 +10879,7 @@ export const SERVICES_DATA = {
 
     adairedHelp: {
       isVisible: true,
-      img: AeoServiceAdairedHelpImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774250921/adaired/services/aeo_service/AeoServiceAdairedHelpImg_uiaamd.png',
       isInCenter: false,
       breakIndex: 5,
       bgColor: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFFBF5]',
@@ -11482,7 +11487,7 @@ export const SERVICES_DATA = {
       ],
       button: 'Transform Your Website Into an App',
       width: 50,
-      img: mobileAppDevBannerBg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774251074/adaired/services/mobile_app_dev/mobileAppDevBannerBg_ccxctf.png',
       imgWidth: '809',
       imgHight: '650',
     },
@@ -11490,7 +11495,7 @@ export const SERVICES_DATA = {
     whatareservice: {
       isVisible: true,
       isVariant: '04',
-      img: mobileAppDevWhatService,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774251126/adaired/services/mobile_app_dev/mobileAppDevWhatService_cr1trn.png',
       headingParts: [
         {
           text: 'What is Mobile App Development?',
@@ -11504,8 +11509,8 @@ export const SERVICES_DATA = {
       width: 60,
       isGap: true,
       isRowReverse: true,
-      imgWidth: '947px',
-      imgHight: '631px',
+      imgWidth: '947',
+      imgHight: '631',
       bgColor: '#000000',
       textColor: '#FFFFFF',
       data: [
@@ -11541,7 +11546,7 @@ export const SERVICES_DATA = {
     adairedHelp: {
       isVisible: true,
       breakIndex: 4,
-      img: mobileAppDevAdairedHelpImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774251073/adaired/services/mobile_app_dev/mobileAppDevAdairedHelpImg_vjzqme.png',
       isInCenter: false,
       bgColor: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFF8F0]',
       cardBg: '',
@@ -12195,7 +12200,7 @@ export const SERVICES_DATA = {
       isVariant: '03',
       breakIndex: 4,
       bgImg: saasSeoBuildLinkBg,
-      img: mobileAppDevBuildLinkImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774251079/adaired/services/mobile_app_dev/mobileAppDevBuildLinkImg_tepele.png',
       imgWidth: '885',
       imgHight: '590',
       headingParts: [
@@ -12528,7 +12533,7 @@ export const SERVICES_DATA = {
       button: 'Boost My Visibility Today',
       width: 50,
       widthLg: '30rem',
-      img: gbplocalSeoBannerBg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774251451/adaired/services/gmb_only/gmb_only_s5qstv.png',
       imgWidth: '811',
       imgHight: '562',
     },
@@ -12585,7 +12590,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '04',
       breakIndex: 5,
-      img: WhatAreServiceGMB,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774251475/adaired/services/gmb_only/whatAreServiceGMB_bho4xs.png',
       headingParts: [
         {
           text: 'What is Google Business Profile Optimization?',
@@ -12618,15 +12623,15 @@ export const SERVICES_DATA = {
       width: 60,
       isGap: true,
       isRowReverse: true,
-      imgWidth: '880px',
-      imgHight: '611px',
+      imgWidth: '880',
+      imgHight: '611',
     },
 
     whatareservice2: {
       isVisible: true,
       isVariant: '04',
       breakIndex: 5,
-      img: WhatAreServiceGMB2,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774251617/adaired/services/gmb_only/whatAreServiceGMB2_uklcuo.png',
       headingParts: [
         {
           text: 'Why Your Business Needs GBP Optimization',
@@ -12638,8 +12643,8 @@ export const SERVICES_DATA = {
       textColor: '#000000',
       paddingY: '4rem',
       width: 50,
-      imgWidth: '752px',
-      imgHight: '717px',
+      imgWidth: '752',
+      imgHight: '717',
       IsGap: false,
       button: '',
       data: [
@@ -12789,7 +12794,7 @@ export const SERVICES_DATA = {
     adairedHelp: {
       isVisible: true,
       breakIndex: 5,
-      img: AdairedHelpgmb,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774251452/adaired/services/gmb_only/AdairedHelpGmb_wxal6l.png',
       isInCenter: false,
       bgColor: 'bg-gradient-to-b from-[#FFFEFB] to-[#FFF7EB]',
       cardBg: '',
@@ -13340,7 +13345,7 @@ export const SERVICES_DATA = {
       button: 'Get a Free Local SEO Audit',
       width: 50,
       widthLg: '30rem',
-      img: gmbWebsitelocalSeoBannerBg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774251924/adaired/services/gmb%2Bwebsite/gmbWebsitelocalSeoBannerBg_go6guv.png',
       imgWidth: '769',
       imgHight: '529',
     },
@@ -13363,9 +13368,9 @@ export const SERVICES_DATA = {
         `These factors help Google decide which businesses are the most relevant and trustworthy for a particular search query.`,
       ],
       isBgColor: false,
-      img: gmbWebsiteServiceResultImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774251960/adaired/services/gmb%2Bwebsite/gmbWebsiteServiceResultImg_bx46j3.png',
       isRocket: true,
-      imgHight: '560px',
+      imgHight: '560',
       cardColor: '#F3F3F3',
       list: [
         {
@@ -13713,7 +13718,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '04',
       breakIndex: 6,
-      img: gmbWebsiteWhatAreService,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774251965/adaired/services/gmb%2Bwebsite/gmbWebsiteWhatAreService_irxz8q.png',
       headingParts: [
         {
           text: 'How Combined GBP + Website Optimization Drives Results',
@@ -13725,8 +13730,8 @@ export const SERVICES_DATA = {
       textColor: '#000000',
       customPadding: '3rem, 3rem',
       width: 55,
-      imgWidth: '708px',
-      imgHight: '647px',
+      imgWidth: '708',
+      imgHight: '647',
       customGap: '6rem',
       button: '',
       data: [
@@ -13757,7 +13762,7 @@ export const SERVICES_DATA = {
     adairedHelp: {
       isVisible: true,
       breakIndex: 4,
-      img: AdairedHelpgmb,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774252005/adaired/services/gmb%2Bwebsite/Rectangle_10108_hzcsrr.png',
       isInCenter: false,
       bgColor: 'bg-[#FCFCFC]',
       cardBg: '',
@@ -13815,7 +13820,7 @@ export const SERVICES_DATA = {
       isVariant: '03',
       breakIndex: 4,
       bgImg: saasSeoBuildLinkBg,
-      img: gmbWebsiteSeoBuildLinkImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774251929/adaired/services/gmb%2Bwebsite/gmbWebsiteSeoBuildLinkImg_mspqar.png',
       imgWidth: '836',
       imgHight: '599',
       headingParts: [
@@ -14111,7 +14116,7 @@ export const SERVICES_DATA = {
       button: 'Create a Website for My Business',
       width: 50,
       isGap: true,
-      img: Banner,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774252246/adaired/services/wordpressDevelopment/Banner_nzfhce.png',
       imgWidth: '937',
       imgHight: '813',
     },
@@ -14168,9 +14173,9 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '04',
       // breakIndex: 6,
-      img: WhatAreService1,
-      imgWidth: '917px',
-      imgHight: '612px',
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774252309/adaired/services/wordpressDevelopment/WhatAreService_a1qal0.png',
+      imgWidth: '917',
+      imgHight: '612',
       headingParts: [
         {
           text: 'Is WordPress Development Right for Your Business?',
@@ -14206,7 +14211,7 @@ export const SERVICES_DATA = {
     whatareservice2: {
       isVisible: true,
       isVariant: '04',
-      img: WhatAreService2,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774252320/adaired/services/wordpressDevelopment/whatareservice2_nl0ypz.png',
       headingParts: [
         {
           text: 'What is WordPress Development',
@@ -14218,8 +14223,8 @@ export const SERVICES_DATA = {
       textColor: '#000000',
       customPadding: '3rem, 3rem',
       width: 50,
-      imgWidth: '718px',
-      imgHight: '612px',
+      imgWidth: '718',
+      imgHight: '612',
       IsGap: false,
       data: [
         {
@@ -14425,7 +14430,7 @@ export const SERVICES_DATA = {
     adairedHelp: {
       isVisible: true,
       breakIndex: 5,
-      img: AdairedHelp,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774252302/adaired/services/wordpressDevelopment/adairedHelp_bxwtmr.png',
       isInCenter: true,
       bgColor: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFCF8]',
       cardBg: '',
@@ -14573,7 +14578,7 @@ export const SERVICES_DATA = {
       isVariant: '03',
       breakIndex: 3,
       bgImg: bgImgBuildLink,
-      img: BuildLink,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774252243/adaired/services/wordpressDevelopment/BuildLink_xkwmqn.png',
       imgWidth: '822',
       imgHight: '549',
       headingParts: [
@@ -15388,7 +15393,7 @@ export const SERVICES_DATA = {
       button: 'Launch My Shopify Store',
       width: 45,
       widthLg: '30rem',
-      img: ShopifyDevBannerImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774252502/adaired/services/shopify_Development_Images/ShopifyDevBannerImg_zqgj9o.png',
       imgWidth: '1075',
       imgHight: '640',
       isGap: true,
@@ -15449,7 +15454,9 @@ export const SERVICES_DATA = {
       customPadding: '3rem, 3rem',
       isRowReverse: true,
       width: 65,
-      img: shopifyDevWhatAreServiceImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774252551/adaired/services/shopify_Development_Images/shopifyDevWhatAreServiceImg_p79em4.png',
+      imgWidth: '836',
+      imgHight: '558',
       headingParts: [
         {
           text: 'What is Shopify Development',
@@ -15567,7 +15574,7 @@ export const SERVICES_DATA = {
     adairedHelp: {
       isVisible: true,
       breakIndex: 5,
-      img: shopifyDevAdairedHelpImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774252488/adaired/services/shopify_Development_Images/shopifyDevAdairedHelpImg_ixiwzq.png',
       isInCenter: false,
       textColor: '#000000',
       isnNumberBg: true,
@@ -15829,7 +15836,7 @@ export const SERVICES_DATA = {
       breakIndex: 3,
       paddingY: '2rem',
       bgImg: bgImgBuildLink,
-      img: shopifyDevBuildLinkImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774252509/adaired/services/shopify_Development_Images/shopifyDevBuildLinkImg_ufxknj.png',
       imgWidth: '725',
       imgHight: '506',
       headingParts: [
@@ -16882,7 +16889,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '04',
       // breakIndex: 5,
-      img: ecommerceDEV_whatareserviceImg,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1773382974/adaired/services/eCommerceDevelopment/Group_1000007437_jdfbav.png',
       headingParts: [
         {
           text: 'What is eCommerce Development?',
@@ -16896,8 +16903,8 @@ export const SERVICES_DATA = {
       width: 60,
       isGap: true,
       isRowReverse: true,
-      imgWidth: '857px',
-      imgHight: '572px',
+      imgWidth: '857',
+      imgHight: '572',
       bgColor: '#000000',
       textColor: '#FFFFFF',
       data: [
@@ -19356,7 +19363,7 @@ export const SERVICES_DATA = {
       isVisible: false,
       isLabel: false,
       subtitle: '',
-      bgImage: stop_struggle2,
+      bgImage: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774243689/adaired/services/seo/stop_struggle2_kbcs9x.png',
       headingParts: [
         {
           text: 'Key Benefits of Choosing Custom Web Development Services',
@@ -23017,7 +23024,7 @@ export const SERVICES_DATA = {
       isVisible: false,
       isLabel: false,
       subtitle: '',
-      bgImage: stop_struggle2,
+      bgImage: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774243689/adaired/services/seo/stop_struggle2_kbcs9x.png',
       headingParts: [
         {
           text: 'Key Benefits of Choosing Custom Web Development Services',

@@ -42,7 +42,12 @@ const NotSeeingResults = ({ notSeeingResult }: any) => {
           ref={ref}
           className={`flex justify-center justify-items-center pt-2 lg:justify-end lg:justify-items-end ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-16 opacity-0'}`}
         >
-          <Image src={notSeeingResult?.img} alt="img" />
+          <Image
+            src={notSeeingResult?.img}
+            alt="img"
+            width={notSeeingResult?.imgWidth}
+            height={notSeeingResult?.imgHight}
+          />
         </div>
         <GetQuoteModal isOpen={open} onClose={() => setOpen(false)} />
       </MaxWidthWrapper>
