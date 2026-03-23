@@ -3082,7 +3082,8 @@ export const SERVICES_DATA = {
       isVisible: false,
       isLabel: false,
       subtitle: '',
-      bgImage: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774243689/adaired/services/seo/stop_struggle2_kbcs9x.png',
+      bgImage:
+        'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774243689/adaired/services/seo/stop_struggle2_kbcs9x.png',
       title: 'Stop Guessing Start Acting ',
       description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
     },
@@ -3739,14 +3740,16 @@ export const SERVICES_DATA = {
         `Schedule a strategy call and let’s build a digital presence aligned\n with your business goals.`,
       ],
       textColor: '#FFFFFF',
-      bgImg: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774243689/adaired/services/seo/stop_struggle2_kbcs9x.png',
+      bgImg:
+        'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774243689/adaired/services/seo/stop_struggle2_kbcs9x.png',
     },
 
     getplan: {
       isVisible: false,
       isLabel: false,
       subtitle: '',
-      bgImage: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774243689/adaired/services/seo/stop_struggle2_kbcs9x.png',
+      bgImage:
+        'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774243689/adaired/services/seo/stop_struggle2_kbcs9x.png',
       title: 'Stop Guessing Start Acting ',
       description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
     },
@@ -7673,7 +7676,8 @@ export const SERVICES_DATA = {
       isVisible: false,
       isLabel: false,
       subtitle: '',
-      bgImage: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774243689/adaired/services/seo/stop_struggle2_kbcs9x.png',
+      bgImage:
+        'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774243689/adaired/services/seo/stop_struggle2_kbcs9x.png',
       title: 'Stop Guessing Start Acting ',
       description: `Book a free consultation with one of our experts for a detailed audit of your backlink profile and a custom strategy to maximize your rankings and domain authority.`,
     },
@@ -19372,7 +19376,8 @@ export const SERVICES_DATA = {
       isVisible: false,
       isLabel: false,
       subtitle: '',
-      bgImage: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774243689/adaired/services/seo/stop_struggle2_kbcs9x.png',
+      bgImage:
+        'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774243689/adaired/services/seo/stop_struggle2_kbcs9x.png',
       headingParts: [
         {
           text: 'Key Benefits of Choosing Custom Web Development Services',
@@ -23033,7 +23038,8 @@ export const SERVICES_DATA = {
       isVisible: false,
       isLabel: false,
       subtitle: '',
-      bgImage: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774243689/adaired/services/seo/stop_struggle2_kbcs9x.png',
+      bgImage:
+        'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774243689/adaired/services/seo/stop_struggle2_kbcs9x.png',
       headingParts: [
         {
           text: 'Key Benefits of Choosing Custom Web Development Services',
@@ -23184,7 +23190,7 @@ export const SERVICES_DATA = {
       isVisible: true,
       isVariant: '04',
       breakIndex: 0,
-      customPadding: '1rem, 0rem',
+      customPadding: '2rem, 2rem',
       isRowReverse: false,
       width: 55,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774263868/adaired/services/meta_ads_mgt/Group_1000007422_1_t4l8ge.png',
@@ -23218,7 +23224,7 @@ export const SERVICES_DATA = {
     importantToBussiness: {
       isVisible: true,
       isInCenter: false,
-      breakIndex: 2,
+      // breakIndex: 2,
       isVariant: '01',
       cardColor: '#F9F9F9',
       headingParts: [
@@ -23404,7 +23410,7 @@ export const SERVICES_DATA = {
     whatMkeDeferent: {
       isVisible: true,
       isVariant: '01',
-      breakIndex: 5,
+      // breakIndex: 5,
       isInCenter: false,
       bgColor: false,
       bgGradient: 'bg-[#FFFFFF]',
@@ -23430,7 +23436,7 @@ export const SERVICES_DATA = {
           name: 'Performance-First Approach',
           description: [
             `We don’t measure success by impressions, clicks, or other vanity metrics that look good on reports but don’t impact your business. Our focus is on outcomes that matter, qualified leads, customer acquisition, revenue growth, and return on ad spend.`,
-            `Every campaign, every test, and every optimization is tied directly to improving your bottom line. This ensures your ad budget is always working toward meaningful business results, not just surface-level engagement.`
+            `Every campaign, every test, and every optimization is tied directly to improving your bottom line. This ensures your ad budget is always working toward meaningful business results, not just surface-level engagement.`,
           ],
         },
         {
@@ -23438,7 +23444,7 @@ export const SERVICES_DATA = {
           name: 'Data-Driven Decisions',
           description: [
             `In Meta advertising, assumptions can be expensive. That’s why we rely on data to guide every move we make. From audience targeting and creative performance to budget allocation and scaling decisions, everything is backed by real-time insights and analytics.`,
-            `We continuously analyze campaign performance to identify patterns, uncover opportunities, and eliminate inefficiencies. This allows us to refine strategies with precision, ensuring your campaigns improve over time instead of stagnating.`
+            `We continuously analyze campaign performance to identify patterns, uncover opportunities, and eliminate inefficiencies. This allows us to refine strategies with precision, ensuring your campaigns improve over time instead of stagnating.`,
           ],
         },
         {
@@ -23446,7 +23452,7 @@ export const SERVICES_DATA = {
           name: 'Proven Frameworks',
           description: [
             `Our approach isn’t based on guesswork or one-off tactics; it’s built on proven frameworks that have been tested and refined across different industries and campaign types. These frameworks allow us to launch campaigns faster, reduce trial and error, and achieve results more efficiently.`,
-            `By following a structured system, we’re able to create consistency in performance while still adapting strategies to fit your unique business needs.`
+            `By following a structured system, we’re able to create consistency in performance while still adapting strategies to fit your unique business needs.`,
           ],
         },
         {
@@ -23454,7 +23460,7 @@ export const SERVICES_DATA = {
           name: 'Transparent Reporting',
           description: [
             `Transparency is at the core of how we work. You’ll never be left wondering where your budget is going or how your campaigns are performing. We provide clear, detailed reports that break down key metrics such as cost per acquisition, return on ad spend, and overall growth trends.`,
-            `More importantly, we go beyond reporting numbers; we provide insights. You’ll understand what’s working, what’s being improved, and what steps we’re taking next to drive better results.`
+            `More importantly, we go beyond reporting numbers; we provide insights. You’ll understand what’s working, what’s being improved, and what steps we’re taking next to drive better results.`,
           ],
         },
         {
@@ -23462,7 +23468,7 @@ export const SERVICES_DATA = {
           name: 'Full-Funnel Growth Strategy',
           description: [
             `Most agencies focus only on top-of-funnel traffic or bottom-of-funnel conversions. We optimize the entire customer journey. From attracting new audiences to nurturing warm prospects and converting high-intent users, every stage of your funnel is strategically designed to work together.`,
-            `This full-funnel approach increases efficiency, improves conversion rates, and ensures you’re maximizing the value of every visitor and interaction.`
+            `This full-funnel approach increases efficiency, improves conversion rates, and ensures you’re maximizing the value of every visitor and interaction.`,
           ],
         },
         {
@@ -23470,7 +23476,7 @@ export const SERVICES_DATA = {
           name: 'Custom-Tailored Execution',
           description: [
             `Your business is unique, and your advertising strategy should reflect that. We take the time to understand your brand, your audience, and your goals before building a tailored campaign strategy.`,
-            `This personalized approach allows us to create highly relevant ads, target the right audiences, and position your offer in a way that resonates, leading to stronger engagement and higher conversions.`
+            `This personalized approach allows us to create highly relevant ads, target the right audiences, and position your offer in a way that resonates, leading to stronger engagement and higher conversions.`,
           ],
         },
         {
@@ -23478,7 +23484,7 @@ export const SERVICES_DATA = {
           name: 'Creative-Led Performance Advantage',
           description: [
             `In today’s crowded digital space, creativity is the biggest differentiator. While many agencies focus heavily on technical setup, we prioritize the element that drives the majority of results, your ad creative.`,
-            `We combine compelling visuals with persuasive messaging to create ads that capture attention, communicate value, and inspire action. By continuously testing and refining creatives, we ensure your campaigns stay fresh, competitive, and high-performing.`
+            `We combine compelling visuals with persuasive messaging to create ads that capture attention, communicate value, and inspire action. By continuously testing and refining creatives, we ensure your campaigns stay fresh, competitive, and high-performing.`,
           ],
         },
         {
@@ -23486,7 +23492,7 @@ export const SERVICES_DATA = {
           name: 'Continuous Testing & Optimization Culture',
           description: [
             `Success in Meta Ads doesn’t come from a single winning campaign; it comes from constant iteration. We operate with a testing-first mindset, where new ideas, creatives, and strategies are continuously launched and evaluated.`,
-            `This culture of ongoing experimentation allows us to stay ahead of platform changes, adapt to audience behavior, and consistently improve campaign performance over time.`
+            `This culture of ongoing experimentation allows us to stay ahead of platform changes, adapt to audience behavior, and consistently improve campaign performance over time.`,
           ],
         },
       ],
@@ -23603,17 +23609,14 @@ export const SERVICES_DATA = {
 
     benefitofAiSeo: {
       isVisible: false,
-
     },
 
     whatMissing: {
       isVisible: false,
-
     },
 
     leadingTools: {
       isVisible: false,
-
     },
 
     industriesWeServe: {
@@ -23622,7 +23625,6 @@ export const SERVICES_DATA = {
 
     dataInTable: {
       isVisible: false,
-
     },
 
     whatareservice2: {
@@ -23642,7 +23644,7 @@ export const SERVICES_DATA = {
     },
 
     getsCredit: {
-      isVisible: false
+      isVisible: false,
     },
 
     getplan: {
