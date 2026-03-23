@@ -91,6 +91,11 @@ const nextConfig = {
         destination: '/expert-content-solutions/products/website-content/form',
         permanent: true,
       },
+      {
+        source: '/services/seo-company-india',
+        destination: '/services/search-engine-optimization',
+        permanent: true,
+      },
       // ...dynamicRedirects, // Spread the dynamic redirects from API
     ];
   },

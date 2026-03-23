@@ -143,7 +143,7 @@ const GetQuoteModal = ({ isOpen, onClose }: GetQuoteModalProps) => {
               alt="get_a_Quote"
               className="object-contain"
             />
-            <div className="absolute bottom-6 left-6 w-[80%] md:bottom-[16rem] lg:bottom-[9rem] 1400:bottom-[3rem]">
+            <div className="absolute bottom-0 left-6  w-[80%] lg:bottom-0">
               <p className="text-[28px] font-medium leading-[35px] text-[#FFFFFF]">
                 Achieve Higher Conversions by Solving Issues Early
               </p>
