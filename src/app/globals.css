@@ -123,3 +123,29 @@
 html {
   scroll-behavior: smooth;
 }
+
+
+/* @keyframes borderMove {
+  0% {
+    background-position: 0% 0%, 0% 0%;
+  }
+  100% {
+    background-position: 0% 0%, 300% 0%;
+  }
+}
+
+.animate-borderMove {
+  background-size: 300% 300%, 300% 300%;
+  animation: borderMove 3s linear infinite;
+} */
+
+
+/* Hide scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
