@@ -182,18 +182,8 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/services/wearables-app-development',
-        destination: '/services/cross-platform-app-development',
-        permanent: true,
-      },
-      {
-        source: '/services/android-app-development-company-india',
-        destination: '/services/android-app-development-company',
-        permanent: true,
-      },
-      {
-        source: '/services/android-app-development-company-india',
-        destination: '/services/android-app-development-company',
+        source: '/services/meta-ads-agency-india',
+        destination: '/services/meta-ads-agency',
         permanent: true,
       },
       // ...dynamicRedirects, // Spread the dynamic redirects from API
