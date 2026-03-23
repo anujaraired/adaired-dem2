@@ -695,6 +695,14 @@ import googleAdsProcessIcon_5 from '../../../../../../public/assets/images/servi
 import googleAdsProcessIcon_6 from '../../../../../../public/assets/images/services/googleAds/googleAdsProcessIcon_6.png';
 import googleAdsProcessIcon_7 from '../../../../../../public/assets/images/services/googleAds/googleAdsProcessIcon_7.png';
 
+// Meta Ads Images
+import metaAdsImpIcon_1 from '../../../../../../public/assets/images/services/metaAds/metaAdsImpIcon_1.svg';
+import metaAdsImpIcon_2 from '../../../../../../public/assets/images/services/metaAds/metaAdsImpIcon_2.svg';
+import metaAdsImpIcon_3 from '../../../../../../public/assets/images/services/metaAds/metaAdsImpIcon_3.svg';
+import metaAdsImpIcon_4 from '../../../../../../public/assets/images/services/metaAds/metaAdsImpIcon_4.svg';
+import metaAdsImpIcon_5 from '../../../../../../public/assets/images/services/metaAds/metaAdsImpIcon_5.svg';
+import metaAdsImpIcon_6 from '../../../../../../public/assets/images/services/metaAds/metaAdsImpIcon_6.svg';
+
 export type SectionKey =
   | 'banner'
   | 'getsCredit'
@@ -23098,6 +23106,563 @@ export const SERVICES_DATA = {
       buttonName: '',
       img: LocalNotSee,
       bgImage: LocalNotSeeBg,
+    },
+  },
+  'meta-ads-agency': {
+    sectionsOrder: [
+      'banner',
+      'whatareservice',
+      'importantToBussiness',
+      'adairedHelp',
+      'whatMkeDeferent',
+      'buildlinks',
+      'faqData',
+      'keyStats',
+      'ourProcess',
+      'leadingTools',
+      'benefitofAiSeo',
+      'industriesWeServe',
+      'whatMissing',
+      'techStackMobile',
+      'dataInTable',
+      'whatareservice2',
+      'whatIncluded',
+      'needofservice',
+      'serviceResult',
+      'getsCredit',
+      'readyToStart',
+      'stopStruggling',
+      'leadingToolsForPerformence',
+      'notSeeingResult',
+      'getplan',
+    ] satisfies SectionKey[],
+    metaDetails: {
+      title: 'SEO Comapny India | ROI Driven SEO Services | SEO India',
+      description:
+        'Partner with a leading SEO company delivering proven strategies that grow organic traffic, improve search rankings, and generate measurable business results.',
+      alternates: {
+        canonical: '/services/meta-ads-agency',
+      },
+    },
+    banner: {
+      code: '02',
+      isCenter: false,
+      isVisible: true,
+      heading2: '#1 on Google Maps: Get Seen by Local Customers',
+      isAbsolute: false,
+      isStyleHeading: true,
+      span: '',
+      headingParts: [
+        {
+          text: 'A Performance-First',
+          color: '#000000',
+          weight: '400',
+        },
+        {
+          text: 'Meta Ads Management Agency',
+          color: '#FB9100',
+          weight: '700',
+        },
+      ],
+      customPaddingRight: '8',
+      customGap: '12rem',
+      isGap: true,
+      breakIndex: 2,
+      desc: [
+        `Turn your ad spend into a predictable revenue engine with high-converting Facebook & Instagram campaigns.`,
+        `We help brands cut wasted spend, scale winning campaigns, and unlock consistent growth using proven Meta advertising strategies tailored to your business goals.`,
+      ],
+      subheading: '',
+      button: 'Build My Custom Ads Plan',
+      width: 50,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774263391/adaired/services/meta_ads_mgt/Group_1000007432_lkkfq2.png',
+      imgWidth: '566',
+      imgHight: '554',
+    },
+
+    whatareservice: {
+      isVisible: true,
+      isVariant: '04',
+      breakIndex: 0,
+      customPadding: '1rem, 0rem',
+      isRowReverse: false,
+      width: 55,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774263868/adaired/services/meta_ads_mgt/Group_1000007422_1_t4l8ge.png',
+      imgWidth: '792',
+      imgHight: '725',
+      headingParts: [
+        {
+          text: 'What is Meta Ads Management?',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
+      customPaddingRight: 1,
+      bgColor: '#000000',
+      textColor: '#FFFFFF',
+      isGap: false,
+      data: [
+        {
+          desctioption: `In today’s competitive digital landscape, simply running ads isn’t enough. Businesses need a structured, data-backed system that consistently delivers results. Meta Ads Management provides exactly that, a scalable, repeatable framework for acquiring customers, increasing revenue, and growing your brand with confidence.`,
+        },
+        {
+          desctioption: `Meta Ads Management involves the strategic planning, execution, optimization, and scaling of paid advertising campaigns across platforms such as Facebook and Instagram ads. It goes far beyond simply boosting posts or launching basic ads. Instead, it’s a performance-driven approach focused on turning ad spend into measurable business outcomes, such as qualified leads, consistent sales, and sustainable long-term growth.`,
+        },
+        {
+          desctioption: `At its core, Meta Ads Management combines data analysis, audience insights, creative strategy, and continuous testing to ensure your ads reach the right people with the right message at exactly the right moment in their buying journey. It’s not just about visibility; it’s about influence, engagement, and conversion.`,
+        },
+      ],
+      button: '',
+    },
+
+    importantToBussiness: {
+      isVisible: true,
+      isInCenter: false,
+      breakIndex: 2,
+      isVariant: '01',
+      cardColor: '#F9F9F9',
+      headingParts: [
+        {
+          text: 'What’s Included in Our Meta Ads Management Services?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `When you partner with us, you’re not just getting someone to “run ads.” You’re investing in a complete, performance-driven system designed to generate consistent, measurable growth.`,
+      ],
+      buttonName: 'Build My Custom Ads Plan',
+      data: [
+        {
+          icon: metaAdsImpIcon_1,
+          name: 'Campaign Strategy',
+          description: [
+            `Every successful campaign starts with a solid foundation. We, as a Facebook Ad agency, develop a customized advertising strategy based on your business goals, target audience, and competitive landscape. This includes defining your ideal customer profiles, mapping out your sales funnel, selecting the right campaign objectives, and planning how to move users from awareness to conversion.`,
+            `Instead of taking a one-size-fits-all approach, we create a tailored roadmap that aligns your ad campaigns with real business outcomes, whether that’s lead generation, eCommerce sales, or brand growth.`,
+          ],
+          button: 'Build My Custom Ads Plan',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: metaAdsImpIcon_2,
+          name: 'High-Converting Ad Creatives',
+          description: [
+            `Creative is the backbone of performance on Meta platforms. Our team designs and develops scroll-stopping visuals and compelling ad copy that not only grab attention but also drive action. We focus on creating multiple variations of ads, including images, videos, headlines, and primary text, all tailored to your audience’s preferences and pain points.`,
+            `By continuously testing different creative angles, hooks, and formats, we identify what resonates best and double down on what works, ensuring your campaigns stay fresh, engaging, and conversion-focused.`,
+          ],
+          button: 'Build My Custom Ads Plan',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: metaAdsImpIcon_3,
+          name: 'Advanced Audience Targeting',
+          description: [
+            `Reaching the right audience is just as important as the message itself. We leverage Meta’s advanced targeting capabilities to connect your ads with users who are most likely to convert.`,
+            `This includes building highly refined audiences based on demographics, interests, and behaviors, as well as creating custom audiences from your existing data, such as website visitors or customer lists. We also develop lookalike audiences to expand your reach while maintaining high relevance. Over time, we continuously refine targeting based on performance data to improve efficiency and lower acquisition costs.`,
+          ],
+          button: 'Build My Custom Ads Plan',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: metaAdsImpIcon_4,
+          name: 'Budget Planning & Media Buying',
+          description: [
+            `A successful Meta ads strategy isn’t just about how much you spend; it’s about how intelligently that budget is allocated. We help you determine the optimal ad spend based on your goals, industry benchmarks, and growth stage, ensuring you’re investing enough to generate meaningful results without overspending.`,
+            `This includes prioritizing high-performing audiences, allocating more spend to winning creatives, and ensuring your budget supports both testing and scaling. Whether you’re working with a modest budget or scaling aggressively, every rupee is carefully managed to deliver the highest possible return.`,
+          ],
+          button: 'Build My Custom Ads Plan',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: metaAdsImpIcon_5,
+          name: 'Weekly Optimization & Scaling',
+          description: [
+            `Launching campaigns is just the beginning; real results come from continuous optimization. We actively monitor your campaigns, analyze performance metrics, and make data-driven adjustments on a weekly (and often daily) basis.`,
+            `This includes testing new creatives, adjusting budgets, refining audience segments, and improving bidding strategies. Underperforming elements are quickly replaced, while winning campaigns are scaled strategically to maximize results. This ongoing optimization ensures your ads are always improving and delivering the best possible return.`,
+          ],
+          button: 'Build My Custom Ads Plan',
+          btnColor: '#FB9100',
+        },
+        {
+          icon: metaAdsImpIcon_6,
+          name: 'Transparent Reporting & Dashboards',
+          description: [
+            `We believe in complete transparency and clear communication. You’ll have access to detailed performance reports and easy-to-understand dashboards that show exactly how your campaigns are performing. We track key metrics such as cost per lead, return on ad spend (ROAS), conversion rates, and overall campaign growth.`,
+            `Beyond just numbers, we provide insights and recommendations so you understand what’s working, what’s improving, and where we’re headed next. This keeps you informed, confident, and in control of your advertising investment.`,
+          ],
+          button: 'Build My Custom Ads Plan',
+          btnColor: '#FB9100',
+        },
+      ],
+    },
+
+    adairedHelp: {
+      isVisible: true,
+      breakIndex: 3,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774263382/adaired/services/meta_ads_mgt/Rectangle_10108_1_eznixw.png',
+      isInCenter: false,
+      textColor: '',
+      isnNumberBg: false,
+      numberBg: '',
+      bgColor: 'bg-[#FFF8F0]',
+      cardBg: '',
+      headingParts: [
+        {
+          text: 'How We Consistently Deliver High-Performing Meta Ads',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        `Our Meta Ads Management process is built on a proven, repeatable system designed to deliver consistent and scalable results.`,
+      ],
+      mainImage: whiteServicesAdairedHelpImg,
+      list: [
+        {
+          img: '',
+          name: 'Strategy & Research',
+          description: [
+            `Everything starts with a deep understanding of your business, audience, and market. We analyze your industry, competitors, and current positioning to uncover growth opportunities. This includes identifying your ideal customer profiles, understanding their behavior, and mapping out a full-funnel strategy that guides them from first interaction to final conversion.`,
+            `Rather than jumping straight into ads, we build a strategic foundation that ensures every campaign has a clear direction. This allows us to create campaigns that are not only targeted but also aligned with real business objectives like increasing revenue, reducing cost per acquisition, and improving overall return on ad spend.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Campaign Setup',
+          description: [
+            `Once the strategy is defined, we move into building your campaigns inside Meta Ads Manager with precision and structure. This includes setting up campaigns, ad sets, and ads in a way that maximizes performance and scalability.`,
+            `We carefully choose campaign objectives, placements, bidding strategies, and budget allocation to ensure your ads are optimized from day one. Tracking systems such as the Meta Pixel are properly configured to capture accurate data, allowing us to measure performance and make smarter decisions as campaigns progress.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Creative Testing',
+          description: [
+            `Creativity is one of the most important drivers of success in Meta advertising. Instead of relying on a single ad, we develop multiple creative variations designed to test different messaging angles, visuals, and formats.`,
+            `We experiment with hooks, headlines, ad copy, and design styles to identify what resonates most with your audience. This structured A/B testing approach allows us to quickly discover high-performing creatives and eliminate underperforming ones, ensuring your campaigns continuously improve over time.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Optimization & Scaling',
+          description: [
+            `After launch, our focus shifts to continuous improvement and growth. We actively monitor campaign performance and make data-driven optimizations to improve efficiency and results. This includes adjusting targeting, refining creatives, reallocating budgets, and improving bidding strategies.`,
+            `Once we identify winning campaigns, we scale them strategically, expanding audiences, increasing budgets, and introducing new variations to maintain performance. This ensures your campaigns don’t just perform well in the short term but continue to grow sustainably over time.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Budget Planning & Allocation',
+          description: [
+            `Before campaigns go live, we carefully plan how your budget will be distributed to maximize impact. This includes allocating spend across different funnel stages, audiences, and testing initiatives. We, as Meta Ad Agency, ensure there’s a balance between experimentation and scaling, so you’re not just spending but investing in growth.`,
+            `As campaigns run, we dynamically reallocate budgets toward top-performing ads and audiences, ensuring every dollar is working as efficiently as possible.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Retargeting & Funnel Optimization',
+          description: [
+            `Not every customer converts on the first click, and that’s where retargeting becomes critical. We build strategic retargeting campaigns to re-engage users who have interacted with your brand, whether they visited your website, engaged with your ads, or added products to their cart.`,
+            `By nurturing these warm audiences with tailored messaging, we significantly increase conversion rates and reduce overall acquisition costs.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Audience Expansion & Lookalike Scaling',
+          description: [
+            `Once we identify high-performing audiences, we expand your reach using advanced lookalike strategies. This allows us to find new users who share similar behaviors and characteristics with your best customers.`,
+            `This step is key to scaling campaigns without sacrificing performance, helping you grow beyond your existing audience while maintaining strong conversion rates.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Performance Analysis & Insights',
+          description: [
+            `Beyond day-to-day optimization, we conduct deeper performance analysis to uncover trends, patterns, and growth opportunities. This includes identifying which creatives, audiences, and strategies are driving the most value.`,
+            `These insights allow us to make smarter long-term decisions and continuously refine our advertising strategy for better results over time.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Rapid Testing & Iteration',
+          description: [
+            `Speed matters in digital advertising. We follow a fast testing cycle that allows us to quickly launch new ideas, gather data, and iterate based on performance.`,
+            `This agile approach ensures your campaigns stay competitive, adapt to market changes, and consistently improve without long delays.`,
+          ],
+        },
+        {
+          img: '',
+          name: 'Tracking & Conversion Accuracy',
+          description: [
+            `Accurate data is the backbone of successful Meta Ads Management. We ensure proper tracking setup using tools like the Meta Pixel and Conversion API (if applicable), so every action, click, lead, or purchase is recorded correctly.`,
+            `This allows us to optimize campaigns based on real performance, not assumptions, leading to better decision-making and higher ROI.`,
+          ],
+        },
+      ],
+    },
+
+    whatMkeDeferent: {
+      isVisible: true,
+      isVariant: '01',
+      breakIndex: 5,
+      isInCenter: false,
+      bgColor: false,
+      bgGradient: 'bg-[#FFFFFF]',
+      cardColor2: '#F9F9F9',
+      cardColor: '#FFF8EF',
+      cardImgBgColor2: '#F3F3F3',
+      cardImgBgColor: '#FFEDD7',
+      borderColor2: '#051B3C',
+      borderColor: '#F28F17',
+      headingParts: [
+        {
+          text: 'Why Pick Adaired Digital Media for Your Meta Ads Management Company?',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: [
+        'When you work with us at Adaired Digital Media, you’re not just outsourcing a Meta Ad management company; you’re partnering with a team dedicated to driving real, measurable growth.',
+      ],
+      list: [
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774263373/adaired/services/meta_ads_mgt/Group_1000006050_z4dhdn.png',
+          name: 'Performance-First Approach',
+          description: [
+            `We don’t measure success by impressions, clicks, or other vanity metrics that look good on reports but don’t impact your business. Our focus is on outcomes that matter, qualified leads, customer acquisition, revenue growth, and return on ad spend.`,
+            `Every campaign, every test, and every optimization is tied directly to improving your bottom line. This ensures your ad budget is always working toward meaningful business results, not just surface-level engagement.`
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774263368/adaired/services/meta_ads_mgt/Group_1000006154_enkyow.png',
+          name: 'Data-Driven Decisions',
+          description: [
+            `In Meta advertising, assumptions can be expensive. That’s why we rely on data to guide every move we make. From audience targeting and creative performance to budget allocation and scaling decisions, everything is backed by real-time insights and analytics.`,
+            `We continuously analyze campaign performance to identify patterns, uncover opportunities, and eliminate inefficiencies. This allows us to refine strategies with precision, ensuring your campaigns improve over time instead of stagnating.`
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774263362/adaired/services/meta_ads_mgt/Group_1000006148_hkwdjl.png',
+          name: 'Proven Frameworks',
+          description: [
+            `Our approach isn’t based on guesswork or one-off tactics; it’s built on proven frameworks that have been tested and refined across different industries and campaign types. These frameworks allow us to launch campaigns faster, reduce trial and error, and achieve results more efficiently.`,
+            `By following a structured system, we’re able to create consistency in performance while still adapting strategies to fit your unique business needs.`
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774263357/adaired/services/meta_ads_mgt/Group_1000006016_cnbhha.png',
+          name: 'Transparent Reporting',
+          description: [
+            `Transparency is at the core of how we work. You’ll never be left wondering where your budget is going or how your campaigns are performing. We provide clear, detailed reports that break down key metrics such as cost per acquisition, return on ad spend, and overall growth trends.`,
+            `More importantly, we go beyond reporting numbers; we provide insights. You’ll understand what’s working, what’s being improved, and what steps we’re taking next to drive better results.`
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774263351/adaired/services/meta_ads_mgt/Group_1000006155_ztji1o.png',
+          name: 'Full-Funnel Growth Strategy',
+          description: [
+            `Most agencies focus only on top-of-funnel traffic or bottom-of-funnel conversions. We optimize the entire customer journey. From attracting new audiences to nurturing warm prospects and converting high-intent users, every stage of your funnel is strategically designed to work together.`,
+            `This full-funnel approach increases efficiency, improves conversion rates, and ensures you’re maximizing the value of every visitor and interaction.`
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774263346/adaired/services/meta_ads_mgt/Group_1000006010_un3hje.png',
+          name: 'Custom-Tailored Execution',
+          description: [
+            `Your business is unique, and your advertising strategy should reflect that. We take the time to understand your brand, your audience, and your goals before building a tailored campaign strategy.`,
+            `This personalized approach allows us to create highly relevant ads, target the right audiences, and position your offer in a way that resonates, leading to stronger engagement and higher conversions.`
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774263327/adaired/services/meta_ads_mgt/Group_1000006055_ayav8b.png',
+          name: 'Creative-Led Performance Advantage',
+          description: [
+            `In today’s crowded digital space, creativity is the biggest differentiator. While many agencies focus heavily on technical setup, we prioritize the element that drives the majority of results, your ad creative.`,
+            `We combine compelling visuals with persuasive messaging to create ads that capture attention, communicate value, and inspire action. By continuously testing and refining creatives, we ensure your campaigns stay fresh, competitive, and high-performing.`
+          ],
+        },
+        {
+          img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774263323/adaired/services/meta_ads_mgt/Group_1000006009_yned8k.png',
+          name: 'Continuous Testing & Optimization Culture',
+          description: [
+            `Success in Meta Ads doesn’t come from a single winning campaign; it comes from constant iteration. We operate with a testing-first mindset, where new ideas, creatives, and strategies are continuously launched and evaluated.`,
+            `This culture of ongoing experimentation allows us to stay ahead of platform changes, adapt to audience behavior, and consistently improve campaign performance over time.`
+          ],
+        },
+      ],
+    },
+
+    buildlinks: {
+      isVisible: true,
+      isCode01: true,
+      isVariant: '03',
+      breakIndex: 4,
+      bgImg: bgImgBuildLink,
+      img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774263986/adaired/services/meta_ads_mgt/Group_1000007434_fsegfp.png',
+      imgWidth: '667',
+      imgHight: '609',
+      headingParts: [
+        {
+          text: 'Turn Your Ad Spend',
+          color: '#FFFFFF',
+          weight: '400',
+        },
+        {
+          text: 'Into Scalable Revenue!',
+          color: '#FFFFFF',
+          weight: '700',
+        },
+      ],
+      customPadding: '3rem, 3rem',
+      description: ``,
+      textColor: 'white',
+      width: 50,
+      customGap: '10rem',
+      isFirstParaBold: false,
+      data: [
+        {
+          desctioption: `Stop wasting budget on ads that don’t convert. Partner with a performance-first Meta Ads agency that focuses on what actually matters: growth, profitability, and measurable results.`,
+        },
+        {
+          desctioption: `Whether you're looking to generate more leads, increase sales, or scale your business, we’ll build a data-driven strategy tailored to your goals and execute it with precision.`,
+        },
+      ],
+      button: 'Build My Custom Ads Plan',
+    },
+
+    faqData: {
+      isVisible: true,
+      subtitle: 'FAQ',
+      headingParts: [
+        {
+          text: 'Frequently Asked Questions',
+          color: '#000000',
+          weight: '700',
+        },
+      ],
+      description: ``,
+      list: [
+        {
+          title: 'How much should I spend on Meta ads?',
+          description: [
+            `Your ad budget depends on your goals, industry, and growth stage. We typically recommend starting with a budget that allows for proper testing and data collection, then scaling based on performance. We’ll guide you on the ideal budget during your strategy call.`,
+          ],
+        },
+        {
+          title: 'How long does it take to see results?',
+          description: [
+            `Most campaigns start generating data within the first few days, but meaningful results typically appear within 2–4 weeks as we test and optimize. Long-term performance improves significantly as campaigns scale and mature.`,
+          ],
+        },
+        {
+          title: 'Do you work with small businesses or only large brands?',
+          description: [
+            `We work with both. Whether you're a small business looking to generate leads or a growing brand aiming to scale aggressively, we tailor our strategy to fit your needs and budget.`,
+          ],
+        },
+        {
+          title: 'What makes you different from other Meta ad agencies?',
+          description: [
+            `We focus on performance over vanity metrics. Our approach is data-driven, creative-led, and built on proven frameworks designed to generate real business results, not just clicks or impressions.`,
+          ],
+        },
+        {
+          title: 'Will I have access to my ad account and data?',
+          description: [
+            `Yes, 100%. You’ll always have full ownership and access to your ad account, campaigns, and data. We believe in complete transparency.`,
+          ],
+        },
+        {
+          title: 'Do you create the ad creatives as well?',
+          description: [
+            `Yes. We handle both strategy and creative development, including ad copy, visuals, and testing multiple variations to find what performs best.`,
+          ],
+        },
+        {
+          title: 'What industries do you specialize in?',
+          description: [
+            `We’ve worked across multiple industries, including eCommerce, local services, SaaS, and coaching businesses. Our frameworks are adaptable and customized to your specific niche.`,
+          ],
+        },
+        {
+          title: 'Do you offer any guarantees?',
+          description: [
+            `While no agency can guarantee specific results due to variables like market conditions and competition, we guarantee a structured, data-driven approach focused on maximizing your return on investment and continuously improving performance.`,
+          ],
+        },
+      ],
+    },
+
+    ourProcess: {
+      isVisible: false,
+    },
+
+    keyStats: {
+      isVisible: false,
+    },
+
+    benefitofAiSeo: {
+      isVisible: false,
+
+    },
+
+    whatMissing: {
+      isVisible: false,
+
+    },
+
+    leadingTools: {
+      isVisible: false,
+
+    },
+
+    industriesWeServe: {
+      isVisible: false,
+    },
+
+    dataInTable: {
+      isVisible: false,
+
+    },
+
+    whatareservice2: {
+      isVisible: false,
+    },
+
+    whatIncluded: {
+      isVisible: false,
+    },
+
+    needofservice: {
+      isVisible: false,
+    },
+
+    serviceResult: {
+      isVisible: false,
+    },
+
+    getsCredit: {
+      isVisible: false
+    },
+
+    getplan: {
+      isVisible: false,
+    },
+
+    stopStruggling: {
+      isVisible: false,
+    },
+
+    industryLeaders: {
+      isVisible: false,
+    },
+
+    leadingToolsForPerformence: {
+      isVisible: false,
+    },
+
+    notSeeingResult: {
+      isVisible: false,
     },
   },
 };
