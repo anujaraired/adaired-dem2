@@ -96,6 +96,11 @@ const nextConfig = {
         destination: '/services/search-engine-optimization',
         permanent: true,
       },
+      {
+        source: '/services/ecommerce-seo-agency-india',
+        destination: '/services/ecommerce-seo-agency',
+        permanent: true,
+      },
       // ...dynamicRedirects, // Spread the dynamic redirects from API
     ];
   },
