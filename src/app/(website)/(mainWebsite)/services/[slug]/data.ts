@@ -23174,7 +23174,7 @@ export const SERVICES_DATA = {
       ],
       subheading: '',
       button: 'Build My Custom Ads Plan',
-      width: 50,
+      width: 55,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774263391/adaired/services/meta_ads_mgt/Group_1000007432_lkkfq2.png',
       imgWidth: '566',
       imgHight: '554',
@@ -23304,7 +23304,7 @@ export const SERVICES_DATA = {
       textColor: '',
       isnNumberBg: false,
       numberBg: '',
-      bgColor: 'bg-[#FFF8F0]',
+      bgColor: 'bg-[#FFFCF9]',
       cardBg: '',
       headingParts: [
         {
