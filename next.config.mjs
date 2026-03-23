@@ -147,11 +147,6 @@ const nextConfig = {
         permanent: true,
       },
       {
-        source: '/services/meta-ads-agency-india',
-        destination: '/services/meta-ads-agency',
-        permanent: true,
-      },
-      {
         source: '/services/social-media-management-india',
         destination: '/services/social-media-management',
         permanent: true,
