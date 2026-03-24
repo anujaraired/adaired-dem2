@@ -91,6 +91,96 @@ const nextConfig = {
         destination: '/expert-content-solutions/products/website-content/form',
         permanent: true,
       },
+      {
+        source: '/services/seo-company-india',
+        destination: '/services/search-engine-optimization',
+        permanent: true,
+      },
+      {
+        source: '/services/ecommerce-seo-agency-india',
+        destination: '/services/ecommerce-seo-agency',
+        permanent: true,
+      },
+      {
+        source: '/services/ai-seo-india',
+        destination: '/services/ai-seo-agency',
+        permanent: true,
+      },
+      {
+        source: '/services/llm-seo-india',
+        destination: '/services/llm-seo-agency',
+        permanent: true,
+      },
+      {
+        source: '/services/generative-engine-optimization-india',
+        destination: '/services/generative-engine-optimization',
+        permanent: true,
+      },
+      {
+        source: '/services/answer-engine-optimization-india',
+        destination: '/services/answer-engine-optimization',
+        permanent: true,
+      },
+      {
+        source: '/services/local-seo-company-india',
+        destination: '/services/local-seo-company',
+        permanent: true,
+      },
+      {
+        source: '/services/gmb-optimization-india',
+        destination: '/services/google-my-business-optimization',
+        permanent: true,
+      },
+      {
+        source: '/services/gmb-website-seo-india',
+        destination: '/services/gmb-website-seo',
+        permanent: true,
+      },
+      {
+        source: '/services/link-building-agency-india',
+        destination: '/services/link-building-agency',
+        permanent: true,
+      },
+      {
+        source: '/services/ppc-management-company-india',
+        destination: '/services/ppc-management-company',
+        permanent: true,
+      },
+      {
+        source: '/services/social-media-management-india',
+        destination: '/services/social-media-management',
+        permanent: true,
+      },
+      {
+        source: '/services/wordpress-development-company-india',
+        destination: '/services/wordpress-development-company',
+        permanent: true,
+      },
+      {
+        source: '/services/shopify-development-company-india',
+        destination: '/services/shopify-development-company',
+        permanent: true,
+      },
+      {
+        source: '/services/ecommerce-development-company-india',
+        destination: '/services/ecommerce-development-company',
+        permanent: true,
+      },
+      {
+        source: '/services/mobile-apps-development-india',
+        destination: '/services/mobile-app-development-company',
+        permanent: true,
+      },
+      {
+        source: '/services/ios-app-development-agency-india',
+        destination: '/services/ios-app-development-company',
+        permanent: true,
+      },
+      {
+        source: '/services/android-app-development-company-india',
+        destination: '/services/android-app-development-company',
+        permanent: true,
+      },
       // ...dynamicRedirects, // Spread the dynamic redirects from API
     ];
   },
