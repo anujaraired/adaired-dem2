@@ -924,7 +924,7 @@ export const SERVICES_DATA = {
           title: 'Keyword Research and Analysis',
           description: [
             `We start the process by conducting a comprehensive keyword research. It helps determine the search terms that users input in search engines when looking for related information, products, or services.`,
-            `Our effective SEO strategy consists of proper keyword research to match the content of the websites with what the users are actively searching for.`,
+            `Our expert SEO team excels in building effective SEO strategy consists of proper keyword research to match the content of the websites with what the users are actively searching for.`,
           ],
           button: 'Get Your Free SEO Audit',
           btnColor: '#1A5A96',
@@ -1091,16 +1091,14 @@ export const SERVICES_DATA = {
             `We believe in building long-term relationships with our clients.`,
             `This is why we use advanced digital marketing tools such as Ahrefs, Yoast, BuzzSumo, Hootsuite, and more to create result-driven strategies, track real-time results, 
             and drive long-term revenue for our clients.`,
-            `Our search engine optimization strategy services are built on a structured, analytical approach that strengthens visibility, improves relevance, and supports long-term growth.`,
           ],
         },
         {
           icon: seo_resultIcon_3,
           name: 'Sustainable White-Hat Practices',
           description: [
-            `Delivering quality work to our clients has become our USP over the years. We work with a laser-sharp focus to generate organic traffic, conversions, and improve technical site health.`,
-            `Our approach to search engine optimization is deep-rooted in advanced keyword research, SEO audits, market gap analysis, and data-driven strategies to meet your goals.`,
-            `We address all the aspects of search engine optimization, right from on-page optimization to link building, ensuring that your digital presence is robust and sustainable.`,
+            `We work with a laser-sharp focus to generate organic traffic, conversions, and improve technical site health.`,
+            `Our SEO approach is deep-rooted in advanced keyword research, SEO audits, market gap analysis, and data-driven strategies to meet your goals.`,
           ],
         },
       ],
@@ -1764,8 +1762,7 @@ export const SERVICES_DATA = {
         },
       ],
       description: [
-        `Modern search algorithms are growing exponentially and becoming more complex. Google now uses more than 200 ranking factors and thousands of algorithm adjustments annually. `,
-        `Users encounter multimodal result blocks, AI summaries, and conversational interfaces before they can actually reach traditional organic listings in the search engine result pages.  This has increased the need for AI SEO because it blends the strengths of classic SEO with the realities of AI-powered retrieval.`,
+        `AI SEO helps improve your search engine visibility, ensures your content is fully optimized for both users and search engines, and drives higher conversions. Here's a list of key benefits of AI-powered SEO for your business include improved visibility, optimized content, and higher conversions:`,
       ],
       list: [
         {
@@ -1836,7 +1833,7 @@ export const SERVICES_DATA = {
           icon: groth,
           name: 'Your Website Gets Traffic, but Not the Right Traffic',
           description: [
-            'Many businesses rank for keywords but still don’t get leads or sales. AI search engines focus on user intent, not just rankings. When your content does not provide a clear answer to what users want, AI will push it down, creating low-quality traffic that does not convert. ',
+            'Many businesses rank for keywords but still don’t get leads or sales. AI search engines focus on user intent, not just rankings. When your content does not provide a clear answer to users, AI will push it down, creating low-quality traffic that does not convert. ',
             ``,
           ],
         },
@@ -1852,7 +1849,7 @@ export const SERVICES_DATA = {
           icon: groth,
           name: 'Your Content Doesn’t Stand Out Anymore',
           description: [
-            'AI favors useful, clear, and original content. If your pages look like everyone else’s, no one pays attention to them. Generic Blogs, keyword repetition, and thin pages are difficult to rank and hence compete with the smarter content strategies used by brands.',
+            'AI favors useful, clear, and original content. If your pages look like everyone else’s, no one pays attention to them. Generic Blogs, keyword repetition, and thin pages are difficult to rank and hence compete with the content strategies used by brands.',
             ``,
           ],
         },
@@ -1967,8 +1964,8 @@ export const SERVICES_DATA = {
           img: adairedHelp_icon_5,
           name: 'AI-Led SEO Strategies Tailored to Your Business Goals',
           description: [
-            'Adaired designs AI-powered SEO strategies that work exactly in line with your business goals. By analyzing industry trends, competitor actions, and search results of users, ',
-            `we develop tailor-made roadmaps to achieve sustainable rankings, qualified traffic, ensuring your SEO efforts contribute directly to revenue, not just visibility.`,
+            `Adaired develops comprehensive AI-powered SEO strategies that are fully aligned with your business goals and growth objectives.`,
+            `Using this data, we craft tailor-made SEO roadmaps designed to deliver sustainable search rankings, attract highly qualified traffic, and maximize return on investment.`
           ],
         },
         {
@@ -1983,8 +1980,7 @@ export const SERVICES_DATA = {
           img: adairedHelp_icon_7,
           name: 'Search Intent Optimization for Higher Conversions',
           description: [
-            `Adaired uses AI to decode the user's intent in each search query. We optimize content and pages to align with the informational, navigational, and transactional intents. This enhances interaction, `,
-            `minimizes bounces and maximizes conversions- to assist your site in capturing visitors with better chances of taking constructive action.`,
+            `Adaired uses AI to decode the user's intent in each search query. We optimize content and pages to align with the informational, navigational, and transactional intents.`,` This enhances interaction, minimizes bounces and maximizes conversions- to assist your site in capturing visitors with better chances of taking constructive action.`,
           ],
         },
         {
@@ -2063,7 +2059,7 @@ export const SERVICES_DATA = {
           img: 'adaired/services/ai_seo/adairedAISEO4_smalkf.png',
           name: 'Content That Works for AI and People',
           description: [
-            'We create our content in a way that meets the demands of search engines and actual users. AI helps us to interpret search intent and frame content properly, whereas our professionals make sure that it remains straightforward, practical, and comprehensible. ',
+            'We create our content in a way that meets the demands of search engines and actual users. AI helps us to interpret search intent and frame content properly, whereas our writers ensure that it remains clear, practical, and comprehensible. ',
             `This translates to an increase in rankings, improved engagement, and consequently converting.`,
           ],
         },
@@ -2116,7 +2112,7 @@ export const SERVICES_DATA = {
           title: 'Perplexity AI SEO',
           description: [
             `Our Perplexity AI SEO service integrates the basics of SEO with answer-engine formatting to optimize your content for recognition, trust, and visibility with AI search engines.`,
-            `Through the combination of structured responses and content accessible to the AI, we enhance authority, engagement, and discoverability. This helps your brand appear in high-intent searches in the AI-based search results.`,
+            `Through the combination of structured responses and content accessible to the AI, we enhance authority, engagement, and discoverability.`,
           ],
           button: 'Get Your Free AI SEO Audit',
           btnColor: '#20808D',
@@ -2127,7 +2123,7 @@ export const SERVICES_DATA = {
           title: 'Gemini AI SEO',
           description: [
             `Our Gemini AI SEO services combine traditional SEO best practices with AI-first page structuring to make your content easily discoverable, cited, and trusted in Google's AI-powered Gemini search results.`,
-            `We ensure that your pages stand out as authoritative answers, boosting visibility, credibility, and user engagement in an increasingly AI-powered search landscape.`,
+            `We ensure that you stand out as authoritative answers, boosting visibility, credibility, and user engagement in an AI-powered search landscape.`,
           ],
           button: 'Get Your Free AI SEO Audit',
           btnColor: '#2B99DE',
@@ -2189,7 +2185,7 @@ export const SERVICES_DATA = {
           title: 'GEO Discovery & Audit',
           description: [
             `We examine how AI models perceive your brand, including search appearances, indexing, and content structure, to create a comprehensive AI search presence overview.  `,
-            `This audit identifies opportunities, gaps, and actionable insights to help your brand become more discoverable, trustworthy, and authoritative on multiple AI-powered search platforms.`,
+            `Adaired Digital Media identifies opportunities, gaps, and actionable insights to help your brand become more discoverable, trustworthy, and authoritative on multiple AI-powered search platforms.`,
           ],
         },
         {
@@ -2691,8 +2687,8 @@ export const SERVICES_DATA = {
           icon: linkServices_5,
           title: 'Articles',
           description: [
-            `Our article link building services involve creating, publishing and promoting high-quality content on relevant websites to earn backlinks, increase domain authority and boost search engine rankings. All these techniques serve as 'votes of confidence', signalling to search engines that your content is valuable, which increases page authority and rankings.`,
-            `Consistent, high-quality links establish your website as a trusted, authoritative source in your niche.`,
+            `Our article link building services involve creating, publishing and promoting high-quality content on relevant websites to earn backlinks, increase domain authority and boost rankings.`,
+            `All these techniques serve as 'votes of confidence', signalling to search engines that your content is valuable, which increases page authority and rankings.`,
           ],
           button: 'Get Your Free AI SEO Audit',
           btnColor: '#1A5A96',
@@ -2898,7 +2894,7 @@ export const SERVICES_DATA = {
           img: 'adaired/services/link_building/adairedLinkBuilding1_o9qrri.png',
           name: 'Links That Build Real Authority',
           description: [
-            `Adaired focuses on authoritative and niche-specific backlinks rather than pursuing high quantities. Every link is evaluated for domain strength, traffic quality, relevance, and editorial.`,
+            `At Adaired, every link is evaluated for domain strength, traffic quality, relevance, and editorial.`,
             `This quality-first approach ensures the long-term  SEO value, protects your website from penalties, and generates sustainable growth in your ranking, as opposed to short-lived spikes.`,
           ],
         },
@@ -2984,7 +2980,7 @@ export const SERVICES_DATA = {
           title: 'Prospecting High-Authority Websites',
           description: [
             `Highly authoritative, niche-relevant sites are identified and qualified by our team on the basis of rigid criteria like the domain strength, organic traffic, and editorial quality.`,
-            `Adaired ensures each prospect meets our quality standards, guaranteeing that every backlink adds real value and strengthens your website’s overall authority. This process helps maintain a strong, natural backlink profile that supports long-term SEO performance and credibility.`,
+            `Adaired ensures each prospect meets our quality standards, guaranteeing that every backlink adds real value and strengthens your website’s overall authority. It helps maintain a strong, natural backlink profile that supports long-term SEO performance and credibility.`,
           ],
         },
         {
@@ -3366,7 +3362,7 @@ export const SERVICES_DATA = {
           title: 'Shopify Development',
           description: [
             `Our online store development services can assist you in achieving the maximum for your online store, starting with consultation and design, development, deployment, and migration.`,
-            `Being a successful Shopify development service partner, we provide high-performing, scalable, and tailored solutions that help shops perform better, increase their security, and build positive shopping experiences. You can count on us to increase your eCommerce business in a measurably meaningful way, whether you are opening another store or refining an already existing one.`,
+            `Being a successful Shopify development service partner, we provide high-performing, scalable, and tailored solutions that help shops perform better, increase their security, and build positive shopping experiences. Count on us to increase your eCommerce business in a measurably meaningful way, whether you are opening another store or refining an already existing one.`,
           ],
           button: 'Get Your Free Website Audit',
           linkHref: '#',
@@ -3493,7 +3489,6 @@ export const SERVICES_DATA = {
           img: AdairedHelp1,
           name: 'Custom Design Aligned With Your Brand',
           description: [
-            `The website designs that Adaired builds are completely personalized, which can be considered to be an expression of your brand identity, personality, and objectives.`,
             `We do not make a one-size-fits-all template but create visually appealing layouts, color schemes, and interfaces that can communicate your brand in a straightforward way.`,
             `This will make your site unique and provide your visitors with a consistent and memorable brand experience. And this is what separates us as a web design and development company.`,
           ],
@@ -3620,7 +3615,7 @@ export const SERVICES_DATA = {
         },
         {
           img: 'adaired/services/web_design_development/adairedWebDesign4_gbwvap.png',
-          name: 'Quick Turnaround Time',
+          name: 'Quick turnaround time',
           description: [
             `With efficient project management and a dedicated workforce, we ensure that the projects are completed faster without compromising quality. `,
             `We offer our clients round-the-clock support, maintenance and updates to keep your website secure and up-to-date. Companies from all around the world trust us for reliable, innovative and growth-oriented digital solutions. `,
@@ -3630,13 +3625,13 @@ export const SERVICES_DATA = {
           img: 'adaired/services/web_design_development/adairedWebDesign5_r7i3ws.png',
           name: 'Highly skilled team members',
           description: [
-            `At Adaired, we have a team of highly skilled, knowledgeable and experienced professionals including developers, designers, and digital marketers. Our website design team brings skills and creativity to build websites that excel in functionality, performance and aesthetics.`,
+            `At Adaired, we have a team of highly skilled, knowledgeable and experienced professionals including developers, designers, and digital marketers. Our website design team build websites that excel in functionality, performance and aesthetics.`,
             `Everything right from UX to backend coding, everything is handled expertly, delivering a seamless and engaging online experience. `,
           ],
         },
         {
           img: 'adaired/services/web_design_development/adairedWebDesign6_kix9co.png',
-          name: 'Proven Track Record of Success',
+          name: 'Proven track record of success',
           description: [
             `Adaired has a proven track record of delivering results to our clients. Our portfolio spans multiple industries, demonstrating our ability to adapt and innovate with time. `,
             `Our problem solving attitude combined with technological knowledge help us transform our clients digital presence into powerful growth engines. `,
@@ -3668,7 +3663,7 @@ export const SERVICES_DATA = {
           icon: stepWeb1,
           title: 'Discovery & Requirement Analysis',
           description: [
-            `We begin by gaining a deep understanding of your business objectives, target audience, industry landscape, and technical requirements. This discovery phase allows us to evaluate your current digital presence and identify opportunities to improve functionality, performance, and user experience.`,
+            `We begin by gaining a deep understanding of your business objectives, target audience, industry landscape, and technical requirements. It allows us to evaluate your digital presence and improve functionality, performance, and user experience.`,
             'By aligning our insights with your long-term goals, we create a strong foundation that guides the entire web development process and ensures the final solution truly reflects your vision.',
           ],
         },
@@ -3700,7 +3695,7 @@ export const SERVICES_DATA = {
           icon: stepWeb5,
           title: 'Quality Assurance & Testing',
           description: [
-            `Before launching your website, we conduct comprehensive quality assurance and testing to ensure everything functions perfectly. This process includes functionality testing, cross-browser and cross-device compatibility checks, performance optimization, and security validation.`,
+            `Before launching your website, we conduct comprehensive quality assurance and testing to ensure everything functions perfectly. It includes functionality testing, cross-browser and cross-device compatibility checks, performance optimization, and security validation.`,
             'Our goal is to eliminate any potential issues and deliver a website that provides a smooth, reliable, and consistent user experience.',
           ],
         },
@@ -4195,7 +4190,7 @@ export const SERVICES_DATA = {
           description: [
             `We develop, maximize and control your business listings in reputable local directories and sites. 
             Regular citations enhance the competence of the search engines and your local authority.`,
-            `This ensures your business ranks for searches that matter most, bringing qualified local traffic that is more likely to convert.`,
+            `This ensures your business ranks for searches that matter most, bringing qualified local traffic that is more likely to convert. We keep your listings accurate and up-to-date to boost trust and stay ahead in local search.`,
           ],
           button: 'Get Your Free Local SEO Audit',
         },
@@ -4204,7 +4199,7 @@ export const SERVICES_DATA = {
           name: 'Review & Reputation Management',
           description: [
             `Local search rankings and purchasing decisions have a significant contribution of customer reviews. 
-            We assist in creating additional positive reviews and feedback management, as well as responding in a strategic manner.`,
+            We assist in creating additional positive reviews and feedback management, and responding in a strategic manner.`,
             `Having a good review profile instills trust, credibility, and motivates potential customers to use your business instead of the other 
             businesses in the area as well as boosting the overall local search performance.`,
           ],
@@ -7023,8 +7018,7 @@ export const SERVICES_DATA = {
       ],
       span: 'Here’s a detailed breakdown of how the entire system works:',
       description: [
-        `PPC advertising operates through a real-time auction system that determines which ads appear in search results, in what position, and at what cost. Unlike traditional advertising, where you pay for exposure, PPC ensures you only pay when a user actively engages with your ad.`,
-        `Here’s a detailed breakdown of how the entire system works:`,
+        `Unlike traditional advertising, PPC ensures you only pay when a user actively engages with your ad. Here’s how the entire system works:`,
       ],
       bgGradient: 'bg-gradient-to-b from-[#FFF8F0] via-[#FFF9F2] to-[#FFFFFF]',
 
@@ -7036,14 +7030,12 @@ export const SERVICES_DATA = {
             `Every successful PPC campaign starts with precision targeting. We identify high-intent keywords that your ideal customers are actively searching for.`,
             `Our focus is not just traffic; it’s profitable traffic. 
             We analyze commercial and transactional search terms, competitor bidding strategies, cost-per-click trends, conversion intent signals, and long-tail opportunities.`,
-            `This ensures your ads appear when customers are ready to take action.`,
           ],
         },
         {
           icon: stepPPC2,
           title: 'Smart Campaign Structure & Targeting',
           description: [
-            `We build tightly organized campaigns to maximize relevance and performance.`,
             `Our setup includes strategic campaign segmentation, themed ad groups for keyword alignment, location-based targeting, device optimization, and audience layering and remarketing.`,
             `This structure improves efficiency, reduces wasted spending, and increases conversion potential.`,
           ],
@@ -7054,7 +7046,7 @@ export const SERVICES_DATA = {
           description: [
             `Our team crafts compelling ad copy that matches search intent and drives clicks.`,
             `Each ad is designed with attention-grabbing headlines, benefit-driven descriptions, clear calls-to-action, and strategic use of ad extensions.`,
-            `We ensure your ads stand out while staying highly relevant to the search query.`,
+            `At Adaired Digital Media, we ensure your ads stand out while staying highly relevant to the search query.`,
           ],
         },
         {
@@ -7234,7 +7226,8 @@ export const SERVICES_DATA = {
           name: 'Fast Market Entry',
           description: [
             `PPC allows your business to appear at the top of search results almost instantly.`,
-            `Unlike long-term strategies that take months to gain traction, paid campaigns can begin generating clicks and leads as soon as they go live. Whether you're launching a new service or entering a competitive market, PPC gives you immediate exposure.`,
+            `Unlike long-term strategies that take months to gain traction, paid campaigns can begin generating clicks and leads as soon as they go live.`,
+            `Whether you're launching a new service or entering a competitive market, PPC gives you immediate exposure.`,
           ],
         },
         {
@@ -7296,7 +7289,8 @@ export const SERVICES_DATA = {
           name: 'Works Alongside SEO',
           description: [
             `PPC and SEO are strongest when combined.`,
-            `While SEO builds long-term authority, PPC provides immediate traffic and valuable keyword insights. The data gathered from paid campaigns can also improve your organic strategy, creating a powerful, integrated marketing approach.`,
+            `While SEO builds long-term authority, PPC provides immediate traffic and valuable keyword insights.`,
+            `The data gathered from paid campaigns can also improve your organic strategy, creating a powerful, integrated marketing approach.`,
           ],
         },
       ],
@@ -9395,10 +9389,10 @@ export const SERVICES_DATA = {
           icon: saasSeoImpIcon_1,
           name: 'Technical SaaS SEO Audits',
           description: [
-            `SaaS websites are often complex, dynamic pages; product dashboards, subdomains, integrations, and layered site architecture can create hidden SEO issues that limit growth. 
+            `SaaS websites are often complex, dynamic pages; product dashboards, subdomains, integrations, and layered site architecture can create issues that limit growth. 
             Our technical SaaS SEO audits go beyond surface-level checks.`,
-            `We analyze crawlability, indexation, site structure, internal linking, page speed, Core Web Vitals, structured data, and technical bottlenecks that impact rankings. 
-            Then we prioritize fixes based on revenue impact, ensuring your platform is search-engine optimized, scalable, and technically sound for long-term growth.`,
+            `We analyze crawlability, indexation, site structure, internal linking, page speed, Core Web Vitals, structured data, and technical bottlenecks that impact rankings.`,
+            `Then we prioritize fixes based on revenue impact, ensuring your platform is search-engine optimized, scalable, and technically sound for long-term growth.`,
           ],
           button: 'Book a 30-Minute Strategy Call',
           btnColor: '#FB9100',
@@ -9434,7 +9428,7 @@ export const SERVICES_DATA = {
           name: 'Competitor & Alternative Pages',
           description: [
             `Decision-stage buyers frequently search for comparisons and alternatives before committing to a solution. 
-            We create optimized competitor comparisons and alternative pages designed to capture this high-intent traffic.`,
+            We create optimized competitor comparisons and alternative pages to capture this high-intent traffic.`,
             `These pages are strategically structured to rank, persuade, and convert, positioning your SaaS as the superior choice.`,
             `By targeting “[Competitor] vs." and “[Competitor] alternatives” keywords, we help you intercept buyers actively evaluating options 
             and increase your demo conversion rates.`,
@@ -9536,7 +9530,7 @@ export const SERVICES_DATA = {
           icon: stepSaas6,
           title: 'Continuous Scaling & Growth Expansion',
           description: [
-            `SEO is not a one-time campaign; it’s a long-term growth engine. Once initial traction is achieved, we shift from foundation-building to aggressive expansion and compounding scale.`,
+            `SEO is not a one-time campaign; it’s a long-term growth engine. Once initial traction is achieved, we shift from basics to aggressive expansion and compounding scale.`,
             `We aim to expand into high-intent keyword clusters, target adjacent industries, launch advanced use-case pages, scale competitor content, 
             optimize underperforming pages for conversions, and leverage data insights to focus on revenue-driving topics.`,
           ],
@@ -9568,8 +9562,7 @@ export const SERVICES_DATA = {
           name: 'Long Sales Cycles',
           description: [
             `B2B SaaS purchases rarely happen overnight. Buyers research, compare, validate, and involve internal stakeholders before making a decision.`,
-            `Your SEO strategy must support every stage of that journey, from early problem awareness to decision-ready comparison searches. 
-            That means building content ecosystems, not just ranking blog posts.`,
+            `Your SEO strategy must support every stage of that journey, from early problem awareness to decision-ready comparison searches.`,
           ],
         },
         {
@@ -10241,8 +10234,8 @@ export const SERVICES_DATA = {
           description: [
             `We create strategically structured content designed for both human engagement and AI interpretation. Our content is built around semantic depth, topical authority, 
             and clear entity positioning so that generative AI systems can accurately understand and summarize your expertise.`,
-            `Whether it’s concise, answer-focused content or comprehensive long-form resources, we align every piece with real search intent. 
-            This significantly improves your chances of being included in AI-generated summaries, comparisons, and recommendations.`,
+            `Whether it’s concise, answer-focused content or long-form resources, we align every piece with real search intent. 
+            This improves your chances of being included in AI-generated summaries, comparisons, and recommendations.`,
           ],
           button: 'Optimize My Website for AI',
           btnColor: '#FB9100',
@@ -10262,8 +10255,7 @@ export const SERVICES_DATA = {
           icon: geoAiSeoImpIcon_3,
           name: 'User Intent & Search Behavior Alignment',
           description: [
-            `Generative search platforms interpret conversational queries and contextual patterns differently than traditional search engines.`,
-            `We conduct in-depth research into evolving user behavior, conversational search trends, and industry-specific demand signals.`,
+            `Generative search platforms interpret conversational queries and contextual patterns differently than traditional search engines. We conduct in-depth research into evolving user behavior, conversational search trends, and industry-specific demand signals.`,
             `By aligning your content with how users actually interact with AI platforms, we ensure your brand becomes the most relevant and helpful solution when AI systems generate responses.`,
           ],
           button: 'Optimize My Website for AI',
@@ -10287,7 +10279,7 @@ export const SERVICES_DATA = {
           description: [
             `The AI search landscape evolves rapidly, and static optimization strategies quickly become outdated.`,
             `We use advanced AI-powered analysis tools to monitor how your brand appears within generative search environments.`,
-            `By tracking changes in AI-generated responses, content citations, and search behavior trends, we continuously refine your strategy to maintain and expand your AI visibility.`,
+            `By tracking changes in AI-generated responses, content citations, and search behavior trends, we refine your strategy to expand your AI visibility.`,
           ],
           button: 'Optimize My Website for AI',
           btnColor: '#FB9100',
@@ -10452,7 +10444,7 @@ export const SERVICES_DATA = {
           ],
         },
         {
-          desctioption: `They`,
+          desctioption: `Other AI SEO Agencies`,
           list: [
             {
               description: [
@@ -10914,7 +10906,7 @@ export const SERVICES_DATA = {
           name: 'Content Structure',
           description: [
             `AI systems favor content that is logically organized and easy to interpret. Clear headings, direct definitions, concise explanations, and well-structured formatting make it easier for algorithms to extract reliable answers`,
-            `When information is layered properly, from high-level summaries to supporting details, AI engines can confidently identify what your page is about and determine whether it directly answers a query.`,
+            `When information is layered properly, AI engines can confidently identify what your page is about and determine whether it directly answers a query.`,
           ],
         },
         {
@@ -10922,7 +10914,7 @@ export const SERVICES_DATA = {
           name: 'Authority Signals',
           description: [
             `Citations are heavily influenced by trust. AI models evaluate brand credibility using signals such as backlink quality, expert authorship, consistent publishing history, and third-party mentions.`,
-            `If your website demonstrates expertise and industry recognition, AI engines are more likely to treat your content as a dependable source worth referencing in generated responses.`,
+            `If your website demonstrates expertise and industry recognition, AI engines may treat your content as a dependable source worth referencing in generated responses.`,
           ],
         },
         {
@@ -10975,7 +10967,6 @@ export const SERVICES_DATA = {
         },
       ],
       description: [
-        `AI search engines evaluate content differently from traditional ranking algorithms. They extract, interpret, validate, and synthesize information before choosing what to cite.`,
         `Our services are designed to align your digital presence with that evaluation model, ensuring your brand becomes a trusted source behind AI-generated answers. AI search engines evaluate content differently from traditional ranking algorithms.`,
       ],
       buttonName: 'Build My AEO Strategy',
@@ -11016,7 +11007,7 @@ export const SERVICES_DATA = {
           name: 'AI-Ready Content Development & Enhancement',
           description: [
             `AI engines favor content that is precise, factual, and directly responsive to user intent. We refine and develop content that is designed specifically for generative extraction. This includes crafting definition blocks, data-supported explanations, structured Q&A segments, and contextual reinforcement throughout the page.`,
-            `We remove ambiguity, strengthen topical authority, and ensure every key section clearly answers identifiable user questions. The objective is to make your content quotable, reliable, and easy for AI systems to summarize without distortion.`,
+            `We remove ambiguity, strengthen topical authority, and ensure every key section clearly answers identifiable user questions. The objective is to make your content quotable for AI systems to summarize without distortion.`,
           ],
           button: 'Build My AEO Strategy',
           btnColor: '#FB9100',
@@ -11036,8 +11027,7 @@ export const SERVICES_DATA = {
           name: 'Authority & Credibility Engineering',
           description: [
             `AI models prioritize trusted sources when generating responses. We, as a leading AEO agency, strengthen your authority footprint both on-site and across the broader digital ecosystem.`,
-            `This includes reinforcing author expertise signals, improving brand entity clarity, aligning content with reputable references, and supporting strategic digital authority initiatives.`,
-            `Over time, these signals compound, increasing the probability that AI engines select your brand as a citation-worthy source.`,
+            `This includes reinforcing author expertise signals, improving brand entity clarity, aligning content with reputable references, and supporting strategic digital authority initiatives. Over time, these signals compound, increasing the probability that AI engines select your brand as a citation-worthy source.`,
           ],
           button: 'Build My AEO Strategy',
           btnColor: '#FB9100',
@@ -11048,7 +11038,6 @@ export const SERVICES_DATA = {
           description: [
             `As AI-generated answers reduce traditional click-through behavior, visibility becomes just as important as traffic. We optimize your content to appear within featured snippets, AI summaries, conversational search responses, and voice-driven results.`,
             `Even when users don’t visit your website directly, your brand gains authority exposure by being referenced within the answer itself. This shifts your visibility strategy from pure traffic acquisition to influence and recognition within AI-driven ecosystems.`,
-            `As AI-generated answers reduce traditional click-through behavior, visibility becomes just as important as traffic. We optimize your content to appear within featured snippets, AI summaries, conversational search responses, and voice-driven results.`,
           ],
           button: 'Build My AEO Strategy',
           btnColor: '#FB9100',
@@ -11058,8 +11047,7 @@ export const SERVICES_DATA = {
           name: 'AI Visibility Analytics & Performance Reporting',
           description: [
             `Measuring Answer Engine Optimization services requires more than tracking rankings. We monitor citation frequency, AI-generated mentions, referral behavior, engagement patterns, and emerging visibility trends.`,
-            `Our reporting provides insight into how your content performs within AI systems, identifying which topics generate the strongest presence and where optimization efforts can yield further gains.`,
-            `This data-driven approach ensures continuous strategic improvement.`,
+            `Our reporting provides insight into how your content performs within AI systems, identifying which topics generate the strongest presence and where optimization efforts can yield further gains. This data-driven approach ensures continuous strategic improvement.`,
           ],
           button: 'Build My AEO Strategy',
           btnColor: '#FB9100',
@@ -11228,7 +11216,7 @@ export const SERVICES_DATA = {
           img: 'adaired/services/aeo_service/Img1_i7g6cb.png',
           name: 'Proprietary AEO Framework',
           description: [
-            `We don’t apply generic SEO checklists to AI search. Our proprietary framework is designed specifically for answer engine ecosystems. It combines semantic architecture, entity engineering, citation readiness, and authority development into a structured methodology that aligns with how AI systems actually evaluate and extract information.`,
+            `Our proprietary framework is designed specifically for answer engine ecosystems. It combines semantic architecture, entity engineering, citation readiness, and authority development into a structured methodology that aligns with how AI systems actually evaluate and extract information.`,
             `This structured approach ensures consistency, scalability, and measurable progress, not isolated optimizations.`,
           ],
         },
@@ -11572,8 +11560,6 @@ export const SERVICES_DATA = {
       description: [
         `Mobile apps are transforming how growing companies operate, compete, and scale. 
         At Adaired Digital Media, we believe a well-designed mobile app is not just a digital product; it’s a long-term business asset that drives measurable growth.`,
-        `We work closely with growing brands to build mobile solutions that strengthen their market presence, 
-      improve operational efficiency, and create meaningful customer relationships.`,
       ],
       mainImage: whiteServicesAdairedHelpImg,
       list: [
@@ -12623,9 +12609,6 @@ export const SERVICES_DATA = {
           desctioption: `Regularly updating your profile with posts about promotions, events, and other relevant news can also engage potential customers. Encouraging and responding to customer reviews is crucial for building credibility and maintaining a positive reputation.
            Utilizing features such as business hours, appointment links, and FAQs will further enhance the user experience.`,
         },
-        {
-          desctioption: `Overall, effective GBP optimization services​ not only boost local SEO rankings but also help attract more customers by making it easier for them to find and connect with your business online`,
-        },
       ],
       customPaddingRight: 2,
       customPadding: '3rem, 3rem',
@@ -12749,8 +12732,7 @@ export const SERVICES_DATA = {
           name: 'Photo & Video Optimization',
           description: [
             `Visual content plays a major role in attracting customers and building trust. Businesses with high-quality photos and videos often receive more engagement and clicks compared to those without visuals. `,
-            `We optimize and upload professional images of your business location, interior, exterior, products, services, and team members.`,
-            `These visuals help customers better understand your brand while improving engagement with your profile.`,
+            `We optimize and upload professional images of your business location, interior, exterior, products, services, and team members. These visuals help customers better understand your brand while improving engagement with your profile.`,
           ],
           button: 'Boost My Visibility Today',
           btnColor: '#FB9100',
@@ -12770,7 +12752,7 @@ export const SERVICES_DATA = {
           icon: icon_8,
           name: 'Listing Monitoring & Protection',
           description: [
-            `Unauthorized edits or competitor interference can sometimes change important details on your business listing. Our monitoring system continuously checks your profile for any suspicious or incorrect updates.`,
+            `Unauthorized edits or competitor interference can sometimes change important details on your business listing.`,
             `If changes occur, we quickly correct them to maintain the accuracy of your listing.`,
             `This proactive protection ensures that your business information remains reliable and trustworthy for customers searching on Google.`,
           ],
@@ -12798,7 +12780,7 @@ export const SERVICES_DATA = {
             `Take the next step toward stronger local visibility and more customer inquiries. `,
             `Contact Adaired Digital today to get started with professional Google My Business optimization services.`,
           ],
-          buttonName: 'Optimize My Website for AI',
+          buttonName: 'Optimize My Google Business Profile',
         },
       ],
     },
@@ -12924,7 +12906,7 @@ export const SERVICES_DATA = {
           icon: icon1,
           title: 'Business Profile Audit',
           description: [
-            `We begin by conducting a comprehensive audit of your existing Google My Business Profile. This includes analyzing your current rankings, profile completeness, business information, categories, images, and customer reviews. `,
+            `We conduct a audit of your existing GMB Profile. This includes analyzing your rankings, profile completeness, business information, categories, images, and customer reviews. `,
             `The audit helps us identify areas that need improvement and opportunities to enhance your profile’s performance.`,
           ],
         },
@@ -13377,7 +13359,6 @@ export const SERVICES_DATA = {
       isVariant: '01',
       description: [
         `Understanding how local search rankings work is essential for any business that wants to improve its online visibility. When customers search for services near them, Google uses several factors to determine which businesses appear in the local results and the Google Maps “Map Pack.”`,
-        `These factors help Google decide which businesses are the most relevant and trustworthy for a particular search query.`,
       ],
       isBgColor: false,
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774251960/adaired/services/gmb%2Bwebsite/gmbWebsiteServiceResultImg_bx46j3.png',
@@ -13390,7 +13371,7 @@ export const SERVICES_DATA = {
           name: 'Relevance',
           description: [
             `Relevance refers to how closely a business matches what a user is searching for. Google analyzes the information in your Google Business Profile and website content to determine whether your business offers the services being searched.`,
-            `This is why accurate categories, service descriptions, and well-optimized website content are extremely important. Businesses that clearly communicate their services and target keywords tend to rank higher in local searches.`,
+            `This is why accurate categories, service descriptions, and well-optimized website content are extremely important.`,
           ],
         },
         {
@@ -13405,8 +13386,8 @@ export const SERVICES_DATA = {
           img: null,
           name: 'Prominence',
           description: [
-            `IProminence refers to the overall reputation and authority of a business online. Google evaluates factors such as customer reviews, backlinks, business mentions, directory listings, and overall online presence to determine how well-known and trustworthy a business is. Companies with strong online reputations and consistent information across platforms often achieve better local search visibility.`,
-            `When these factors are properly optimized through both Google Business Profile and website SEO, businesses significantly improve their chances of appearing in local search results and attracting nearby customers.`,
+            `Prominence refers to the overall reputation and authority of a business online. Google evaluates factors such as customer reviews, backlinks, business mentions, directory listings, and overall online presence to determine how trustworthy a business is.`,
+            `Optimizing Google Business Profile and website SEO helps businesses rank in local search and attract nearby customers.`,
           ],
         },
       ],
@@ -13541,7 +13522,6 @@ export const SERVICES_DATA = {
       description: [
         `Our complete local SEO solution focuses on improving your business's visibility in both Google Maps and organic search results.`,
         `By optimizing your Google Business Profile alongside your website, we create a strong and consistent digital presence that helps your business attract customers who are actively searching for services in your area.`,
-        `Our approach combines technical SEO improvements, strategic content optimization, and local search enhancements to help your business gain a competitive advantage.`,
       ],
       buttonName: 'Get a Free Local SEO Audit',
       data: [
@@ -13550,7 +13530,7 @@ export const SERVICES_DATA = {
           name: 'Google Business Profile Setup & Optimization',
           description: [
             `Your Google Business Profile is often the first interaction potential customers have with your business when searching locally. We optimize every component of your profile to ensure it accurately represents your business and performs well in Google Maps results.`,
-            `This includes selecting the most relevant primary and secondary categories, optimizing the business description, adding detailed services, updating operating hours, and uploading high-quality images that showcase your brand.`,
+            `This includes selecting the primary and secondary categories, optimizing the business description, adding detailed services, updating operating hours, and uploading high-quality images that showcase your brand.`,
             `We also ensure that your service areas, contact details, and location information are accurate and fully optimized to maximize local visibility.`,
           ],
           button: 'Get a Free Local SEO Audit',
@@ -13583,7 +13563,7 @@ export const SERVICES_DATA = {
           name: 'Local Landing Page Development',
           description: [
             `Many businesses serve multiple cities or neighborhoods, and having optimized landing pages for these locations significantly improves local search visibility.`,
-            `We create or optimize location-specific pages that target important service areas. These pages include locally relevant content, service information, and geographic signals that help search engines associate your business with those locations.`,
+            `We optimize location-specific pages that target important service areas. These pages include locally relevant content, service information, and geographic signals that help search engines associate your business with those locations.`,
             `As a result, your website becomes more visible when customers search for services in those specific areas.`,
           ],
           button: 'Get a Free Local SEO Audit',
@@ -13604,9 +13584,9 @@ export const SERVICES_DATA = {
           icon: gmbWebsiteimpIcon_6,
           name: 'Review & Reputation Management',
           description: [
-            `Customer reviews are one of the most influential ranking factors in local SEO. Positive reviews not only improve your rankings but also build trust with potential customers.`,
-            `We help implement a review generation strategy that encourages satisfied customers to leave feedback.`,
-            `In addition, we guide you in responding to reviews professionally and effectively, which helps demonstrate credibility and improve customer engagement.`,
+            `Customer reviews are one of the most influential ranking factors in local search engine optimization.`,
+            `Positive reviews not only improve your rankings but also build trust with potential customers.`,
+            `Adaired Digital Media guides you in responding to reviews professionally and effectively, which helps demonstrate credibility and improve customer engagement.`,
           ],
           button: 'Get a Free Local SEO Audit',
           btnColor: '#FB9100',
@@ -13627,7 +13607,7 @@ export const SERVICES_DATA = {
           name: 'Website Performance & Mobile Optimization',
           description: [
             `Most local searches happen on mobile devices, which means your website must load quickly and provide a seamless mobile experience.`,
-            `We optimize your website’s loading speed, improve mobile responsiveness, and enhance usability to ensure visitors can easily navigate your site and access important information.`,
+            `We optimize your website’s loading speed, improve mobile responsiveness, and enhance usability to ensure visitors can easily navigate your site.`,
             `A fast and mobile-friendly website not only improves user experience but also contributes to better search rankings.`,
           ],
           button: 'Get a Free Local SEO Audit',
@@ -13639,7 +13619,7 @@ export const SERVICES_DATA = {
           description: [
             `Content is a powerful component of local SEO.`,
             `We optimize your existing website content and develop new locally relevant content that aligns with what your target audience is searching for.`,
-            `This includes service descriptions, location-based content, FAQs, and informative resources that help both search engines and customers better understand your offerings.`,
+            `This includes service descriptions, location-based content, FAQs, and informative resources that help both search engines and customers.`,
           ],
           button: 'Get a Free Local SEO Audit',
           btnColor: '#FB9100',
@@ -13679,7 +13659,7 @@ export const SERVICES_DATA = {
           icon: gmbProcessIcon_1,
           title: 'Comprehensive Local SEO Audit',
           description: [
-            `The first step in our process is to analyze your current online presence. We conduct a detailed audit of your Google Business Profile, website structure, and current keyword rankings.`,
+            `The first step in our process is to analyze your online presence. We conduct a detailed audit of your Google Business Profile, website structure, and current keyword rankings.`,
             `We also evaluate competitor performance to identify opportunities for improvement. This audit allows us to develop a customized strategy that addresses the specific challenges and opportunities within your local market.`,
           ],
         },
@@ -13819,7 +13799,7 @@ export const SERVICES_DATA = {
           img: '',
           name: 'Continuous Monitoring & Improvement',
           description: [
-            `Search engine algorithms and market competition constantly evolve. Our team continuously monitors campaign performance and makes strategic adjustments to maintain strong rankings and improve results over time.`,
+            `Our team continuously monitors campaign performance and makes strategic adjustments to maintain strong rankings and improve results over time.`,
             `By combining these strategies, we help businesses build a strong and sustainable online presence that continues attracting local customers and driving business growth.`,
           ],
         },
@@ -14278,37 +14258,28 @@ export const SERVICES_DATA = {
       ],
       description: [
         `As an experienced WordPress development agency, we offer a comprehensive range of WordPress development services designed to help businesses build powerful, scalable, and high-performing websites. `,
-        `Whether you are launching a new website, upgrading an existing platform, or adding advanced functionality, our team of skilled developers delivers customized WordPress solutions that align with your business goals.`,
-        `We combine technical expertise, creative design, and modern development practices to ensure that every WordPress website we build is fast, secure, SEO-friendly, and optimized for long-term growth.`,
       ],
       list: [
         {
           name: 'Custom WordPress Website Development',
           description: [
-            `Our custom WordPress website development services focus on building unique websites tailored specifically to your business needs. Instead of relying on generic templates, we design and develop fully customized WordPress websites that reflect your brand identity and provide an engaging user experience.`,
-            `Our developers carefully analyze your business requirements, target audience, and industry trends to create a website that not only looks visually appealing but also performs efficiently across all devices.`,
-            ` Every website we develop is responsive, mobile-friendly, and optimized for search engines to help improve online visibility and drive organic traffic.`,
-            `We also ensure that the website architecture is scalable so that your platform can grow alongside your business. Whether you need a corporate website, a business portfolio, a service-based website, or a content-driven platform, our team can deliver a solution that aligns perfectly with your long-term digital strategy.`,
+            `Our custom WordPress website development services focus on building websites tailored to your needs. We design and develop fully customized WordPress websites that reflect your brand identity and provide an engaging user experience.`,
+            `Our developers analyze your requirements, target audience, and industry trends to create a website that looks appealing and performs efficiently across all devices.`,
           ],
         },
         {
           name: 'WordPress Theme Development',
           description: [
-            `A well-designed theme plays a crucial role in defining the visual identity and user experience of your website. We, as a WordPress development company India, focus on creating custom themes that combine modern design with clean, optimized code.`,
+            `We, as a WordPress development company India, focus on creating custom themes that combine modern design with clean, optimized code.`,
             `We design themes that are lightweight, fast-loading, and fully responsive across desktops, tablets, and mobile devices. Our development process ensures that the theme structure follows WordPress best practices, which improves website stability, maintainability, and SEO performance.`,
-            `In addition to aesthetics, we prioritize usability and accessibility to ensure visitors can easily navigate your website and find the information they need.`,
-            ` Our custom themes are also built with flexibility in mind, allowing businesses to update content, modify layouts, and expand functionality without requiring complex technical changes.`,
           ],
         },
         {
           name: 'WordPress Plugin Development',
           description: [
-            `Sometimes your website needs functionality that standard plugins cannot provide. Our WordPress plugin development services allow businesses to add custom features tailored specifically to their operational requirements.
+            `Our WordPress plugin development services allow businesses to add custom features tailored specifically to their operational requirements.
 `,
-            `Our developers build secure, scalable, and well-documented plugins that seamlessly integrate with your WordPress website. Whether you require advanced forms, booking systems, API integrations, custom dashboards, or unique business workflows, we develop plugins that enhance your website’s capabilities.
-`,
-            `We ensure that every plugin is developed following WordPress coding standards, which helps maintain compatibility with future updates and reduces the risk of security vulnerabilities.`,
-            `By creating custom plugins, we help businesses automate processes, improve efficiency, and deliver better digital experiences to their users.
+            `Our developers build secure, scalable, and well-documented plugins that integrate with your website. Whether you require advanced forms, booking systems, API integrations, custom dashboards, or unique business workflows, we develop plugins that enhance your website’s capabilities.
 `,
           ],
         },
@@ -14318,22 +14289,17 @@ export const SERVICES_DATA = {
             `For businesses looking to sell products or services online, we offer comprehensive WooCommerce development services that transform WordPress websites into powerful e-commerce platforms.
 `,
             `Our WooCommerce development solutions include everything from store setup and product catalog management to payment gateway integration and shipping configuration.`,
-            ` We design user-friendly shopping experiences that make it easy for customers to browse products, complete purchases, and interact with your brand.
-`,
-            `We also implement advanced features such as inventory management systems, subscription services, multi-currency support, and custom checkout processes. By optimizing the entire purchase journey, we help businesses improve conversion rates and maximize their online sales potential.
-`,
+
           ],
         },
         {
           name: 'WordPress Migration & Redesign',
           description: [
-            `If your existing website is built on another platform or has become outdated, our WordPress migration and redesign services can help you transition smoothly to a more modern and flexible system.
+            `If your existing website is built on another platform or has become outdated, we help you transition smoothly to a more modern and flexible system.
 `,
             `Our team handles the entire migration process, including content transfer, database migration, URL structure preservation, and SEO protection. We ensure that your website maintains its existing search engine rankings while benefiting from improved design and performance.
 `,
-            `In addition to migration, we also provide complete website redesign services that refresh the visual appearance, improve usability, and modernize the overall structure of your site.`,
-            ` By upgrading your website with the latest design standards and development technologies, we help businesses enhance their digital presence and stay competitive in the evolving online landscape.
-`,
+
             ``,
           ],
         },
@@ -14343,22 +14309,17 @@ export const SERVICES_DATA = {
             `Website performance plays a crucial role in user experience, search engine rankings, and overall conversion rates. Our WordPress speed optimization services focus on improving website loading times and enhancing Core Web Vitals performance.
 `,
             `We analyze various performance factors such as server response time, image optimization, script loading, caching configuration, and database efficiency.`,
-            ` By implementing advanced optimization techniques, we significantly reduce page load times and ensure that your website delivers a smooth browsing experience for visitors.
-`,
-            `Our optimization process may include CDN integration, code minification, lazy loading implementation, and server-level improvements. Faster websites not only improve user engagement but also contribute to better SEO rankings and increased customer satisfaction.
-`,
+
           ],
         },
         {
           name: 'WordPress Maintenance & Support',
           description: [
-            `A successful website requires continuous monitoring, updates, and improvements. Our WordPress maintenance and support services ensure that your website remains secure, updated, and fully functional at all times.
+            `Our WordPress maintenance and support services ensure that your website remains secure, updated, and fully functional at all times.
 `,
             `We handle essential maintenance tasks such as WordPress core updates, plugin updates, security monitoring, performance checks, and routine backups. Our team also provides ongoing technical support to quickly resolve any issues that may arise.
 `,
-            `Regular maintenance helps prevent security vulnerabilities, improve website stability, and ensure compatibility with new technologies and updates.`,
-            ` With our dedicated support services, businesses can focus on their operations while we take care of their website’s health and performance.
-`,
+
           ],
         },
       ],
@@ -14379,43 +14340,39 @@ export const SERVICES_DATA = {
       breakIndex: 5,
       bgGradient: 'bg-gradient-to-b from-[#FFFFFF] to-[#FFFFFF]',
       description: [
-        `Our development process focuses on collaboration, quality assurance, and continuous improvement to create high-performing WordPress websites that support long-term business growth.`,
+        `We build high-performing WordPress websites that grow your business through collaboration and continuous improvement.`,
       ],
       services: [
         {
           icon: Icon1,
           title: 'Requirement Analysis',
           description: [
-            `Every successful project begins with a thorough understanding of your business goals, target audience, and technical requirements. During the requirement analysis stage, our team works closely with you to gather important information about your brand, services, competitors, and desired website functionality.`,
+            `During the requirement analysis stage, our team works closely with you to gather important information about your brand, services, competitors, and desired website functionality.`,
             `We evaluate factors such as website objectives, content structure, design preferences, and integration needs. This step helps us identify the most suitable WordPress solutions and ensures that the final product aligns with your business strategy.`,
-            `By clearly defining project requirements at the beginning, we reduce the chances of miscommunication and ensure a smooth development process.`,
           ],
         },
         {
           icon: Icon2,
           title: 'UI/UX Design Planning',
           description: [
-            `Once the project requirements are finalized, our designers focus on creating an intuitive and visually engaging user experience. During the UI/UX planning stage, we develop wireframes, design layouts, and user interface concepts that reflect your brand identity and improve website usability.`,
+            `During the UI/UX planning stage, we develop wireframes, design layouts, and user interface concepts that reflect your brand identity and improve website usability.`,
             `Our goal is to create a design that is not only visually appealing but also easy for visitors to navigate. We pay close attention to layout structure, typography, color schemes, and user interaction elements to ensure the website delivers a consistent experience across all devices.`,
-            `The design phase also includes mobile responsiveness planning, ensuring that your WordPress website performs perfectly on smartphones, tablets, and desktops.`,
           ],
         },
         {
           icon: Icon3,
           title: 'Development and Customization',
           description: [
-            `After the design is approved, our developers begin building the website using modern WordPress development practices. This stage involves creating custom themes, configuring plugins, and implementing the required functionality to bring the design to life. Our developers work with technologies such as PHP, HTML, CSS, and JavaScript to develop secure and scalable solutions tailored to your specific business needs.`,
+            `After the design is approved, our developers begin building the website using modern WordPress development practices. This stage involves creating custom themes, configuring plugins, and implementing the required functionality to bring the design to life.`,
             `We also focus on writing clean, optimized code that ensures faster loading speeds and long-term maintainability. Throughout the development process, we regularly review progress and ensure that all features and integrations are functioning as expected.`,
-            `This collaborative approach allows us to maintain transparency and deliver a website that meets both technical and business expectations.`,
           ],
         },
         {
           icon: Icon4,
           title: 'Testing and Quality Assurance',
           description: [
-            `Before launching the website, we perform extensive testing to ensure that every component functions correctly. Our quality assurance process includes testing website performance, responsiveness, security, and compatibility across different browsers and devices.`,
+            `Before launching the website, we perform extensive testing to ensure that every component functions correctly. Our QA process includes testing website performance, responsiveness, security, and compatibility across different browsers and devices.`,
             `We verify that all forms, navigation elements, and interactive features operate smoothly. Additionally, we check page loading speed, optimize images and scripts, and ensure the website follows SEO best practices.`,
-            `This detailed testing process helps eliminate potential issues and guarantees that your website provides a reliable and user-friendly experience.`,
           ],
         },
         {
@@ -14423,8 +14380,7 @@ export const SERVICES_DATA = {
           title: 'Website Launch',
           description: [
             `Once the testing phase is successfully completed, we prepare the website for launch. Our team ensures that the hosting environment is properly configured and that the website is fully optimized for performance and security before going live.`,
-            `We also verify that all content, links, and integrations are functioning correctly. The launch phase involves deploying the website to the live server while ensuring minimal downtime.`,
-            `Our goal is to make the transition from development to a live environment as smooth as possible.`,
+            `We also verify that all content, links, and integrations are functioning correctly. Adaired Digital's launch phase involves deploying the website to the live server while ensuring minimal downtime.`,
           ],
         },
         {
@@ -14433,7 +14389,6 @@ export const SERVICES_DATA = {
           description: [
             `Our relationship with clients does not end after the website goes live. We provide ongoing WordPress maintenance and support to ensure that your website continues to operate smoothly and remains up to date.`,
             `This includes regular software updates, security monitoring, performance optimization, and troubleshooting. We also assist with future improvements, feature enhancements, and technical support whenever required.`,
-            `With our dedicated post-launch support, your WordPress website remains secure, efficient, and capable of adapting to evolving business needs.`,
           ],
         },
       ],
@@ -14548,14 +14503,6 @@ export const SERVICES_DATA = {
         {
           img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_3_r3sl4v.png',
           name: 'SEO-Friendly Development',
-          description: [
-            `Through years, we have built a reputation on delivering quality work to our clients. Since there are a number of steps involved in the website creation, we create timelines for different aspects of the project to complete it on time. `,
-            `Whether you need a simple business website or a complex e-commerce platform, we are capable of developing tailored solutions that can scale with your business. `,
-          ],
-        },
-        {
-          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_4_zvk0k1.png',
-          name: 'Quick Turnaround Time',
           description: [
             `Our websites are built following SEO best practices, helping your site perform better in search engine results and attract more organic traffic. `,
           ],
@@ -14910,8 +14857,8 @@ export const SERVICES_DATA = {
         {
           name: 'Visibility Inside AI-Generated Answers',
           description: [
-            `LLM SEO helps your brand appear directly within AI-generated responses rather than just traditional search listings. As users increasingly rely on conversational platforms like ChatGPT and Google Gemini for answers, being mentioned inside those responses places your brand at the exact moment decisions are made.`,
-            `Instead of competing for clicks, you become part of the answer itself.`,
+            `LLM SEO helps your brand appear directly within AI-generated responses rather than just traditional search listings.`,
+            `As users increasingly rely on conversational platforms like ChatGPT and Google Gemini for answers, being mentioned inside those responses places your brand at the exact moment decisions are made.`,
           ],
         },
         {
@@ -14970,8 +14917,7 @@ export const SERVICES_DATA = {
         },
       ],
       description: [
-        `We provide end-to-end solutions that cover every aspect of LLM optimization, from technical infrastructure to content strategy, authority building, and ongoing monitoring.`,
-        `Here’s how Adaired Digital helps your brand thrive in the age of AI:`,
+        `Here’s how Adaired Digital's end-to-end LLM SEO solutions helps your brand thrive in the age of AI:`,
       ],
       bgGradient: 'bg-gradient-to-b from-[#fffbf6] to-[#fffbf6]',
       services: [
@@ -14988,7 +14934,7 @@ export const SERVICES_DATA = {
           title: 'Entity & Knowledge Graph Optimization',
           description: [
             `Large language models rely on structured entities to understand relationships between brands, topics, and concepts. Our team optimizes your brand’s digital presence to ensure AI systems clearly recognize who you are, what you do, and your authority in your industry.`,
-            `This includes enhancing your presence in knowledge graphs, ensuring consistent brand mentions across platforms, and aligning content with AI-friendly entity signals. Effective entity optimization increases the likelihood that AI tools will reference your brand when generating answers, boosting visibility at the exact moment customers are seeking solutions.`,
+            `This includes enhancing your presence in knowledge graphs, ensuring consistent brand mentions across platforms, and aligning content with AI-friendly entity signals. Effective entity optimization may reference your brand in AI tools when generating answers, boosting visibility at the exact moment customers are seeking solutions.`,
           ],
         },
         {
@@ -15048,8 +14994,7 @@ export const SERVICES_DATA = {
         },
       ],
       description: [
-        `The way people search has changed. Instead of browsing multiple websites and comparing links, users are now asking AI systems direct, conversational questions and receiving instant, summarized answers. These AI-generated responses influence purchasing decisions, vendor shortlists, product comparisons, and brand perception long before a user ever visits a website.`,
-        `If your brand is not included in those answers, you are effectively invisible during the most critical stage of the decision-making process.`,
+        `The way people search has changed. And if your brand is not included in those answers, you are effectively invisible during the most critical stage of the decision-making process.`,
         `That’s why our LLM SEO services focus on optimizing your visibility across the AI platforms shaping modern discovery:`,
       ],
       buttonName: 'Get a Free Local SEO Audit',
@@ -15058,7 +15003,7 @@ export const SERVICES_DATA = {
           icon: ImpToBusinessIcon1,
           name: 'ChatGPT',
           description: [
-            `With hundreds of millions of active users, ChatGPT has become a primary destination for research, recommendations, and solution discovery. Users rely on it to compare services, evaluate providers, and ask complex industry questions`,
+            `With hundreds of millions of active users, ChatGPT has become a primary destination for research, recommendations, and solution discovery.`, ` Users rely on it to compare services, evaluate providers, and ask complex industry questions`,
             `We structure your brand authority, entity signals, and content ecosystem to increase the likelihood that your business is contextually referenced within these AI-generated conversations.`,
           ],
           button: 'Get Your AI Visibility Report',
@@ -15092,7 +15037,7 @@ export const SERVICES_DATA = {
           description: [
             `Claude is widely used for in-depth research, analytical queries, and business-focused prompts.`,
             `It favors well-structured, high-authority sources with clear contextual relationships.`,
-            `We enhance your digital footprint to ensure your brand demonstrates the expertise and clarity necessary to be included in more complex AI-generated responses.`,
+            `We enhance your digital footprint to ensure your brand demonstrates the expertise and clarity, required in more complex AI-generated responses.`,
           ],
           button: 'Get Your AI Visibility Report',
           btnColor: '#FB9100',
@@ -15519,9 +15464,9 @@ export const SERVICES_DATA = {
           icon: shopifyDevImpIcon_1,
           name: 'Custom Shopify Store Development',
           description: [
-            `Our custom Shopify store development services focus on building fully tailored eCommerce websites that align with your brand identity and business objectives.`,
+            `Our custom Shopify store development services focus on building eCommerce websites that align with your brand identity and business objectives.`,
             `We create scalable store architectures, design intuitive user journeys, and implement advanced features that help businesses stand out in the competitive online marketplace.`,
-            `Whether you are launching a new store or redesigning an existing one, we ensure your Shopify store is built for performance, usability, and future growth.`,
+            `Whether you are launching a new store or redesigning an existing one, we build Shopify stores for performance, usability, and growth.`,
           ],
           button: 'Launch My Shopify Store',
           btnColor: '#FB9100',
@@ -15552,9 +15497,9 @@ export const SERVICES_DATA = {
           icon: shopifyDevImpIcon_4,
           name: 'Shopify Plus Development',
           description: [
-            `For rapidly growing brands and enterprise-level businesses, we offer advanced development solutions using Shopify Plus. Shopify Plus provides powerful features such as advanced automation, higher scalability, and enhanced customization options. `,
-            `Our team leverages these capabilities to build high-performance stores capable of handling large product catalogs, high traffic volumes, and complex operational requirements. `,
-            `This allows businesses to scale efficiently while maintaining exceptional customer experiences.`,
+            `For rapidly growing brands and enterprise-level businesses, we offer advanced development solutions using Shopify Plus.`,
+            `Shopify Plus provides powerful features such as advanced automation, higher scalability, and enhanced customization options. `,
+            `Our team leverages these capabilities to build high-performance stores capable of handling large product catalogs, high traffic volumes, and complex operational requirements. This allows businesses to scale efficiently while maintaining exceptional customer experiences.`,
           ],
           button: 'Launch My Shopify Store',
           btnColor: '#FB9100',
@@ -15575,7 +15520,7 @@ export const SERVICES_DATA = {
           name: 'Shopify Store Optimization',
           description: [
             `A successful Shopify store requires continuous improvement and optimization. `,
-            `Our Shopify store optimization services focus on improving page load speed, enhancing user experience, refining product pages, and optimizing checkout processes. `,
+            `Our Shopify store optimization services focus on improving page load speed, user experience, product pages, and checkout processes. `,
             `By analyzing store performance and user behavior, we implement targeted improvements that increase engagement, reduce bounce rates, and ultimately drive higher conversion rates.`,
           ],
           button: 'Launch My Shopify Store',
@@ -15625,7 +15570,7 @@ export const SERVICES_DATA = {
           img: '',
           name: 'Mobile-Responsive Themes',
           description: [
-            `Shopify offers professionally designed themes that are fully responsive and optimized for mobile devices, ensuring customers enjoy a seamless shopping experience across smartphones, tablets, and desktops. Choose Adaired Digital as your personalized Shopify theme development company!`,
+            `Shopify offers professionally designed themes that are fully responsive and optimized for mobile devices, ensuring customers enjoy a seamless shopping experience across smartphones, tablets, and desktops.`,
           ],
         },
         {
@@ -15766,20 +15711,13 @@ export const SERVICES_DATA = {
         },
         {
           img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_4_zvk0k1.png',
-          name: 'Quick Turnaround Time',
-          description: [
-            `Our websites are built following SEO best practices, helping your site perform better in search engine results and attract more organic traffic.`,
-          ],
-        },
-        {
-          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_5_fvsjh9.png',
           name: 'SEO-Friendly Shopify Stores',
           description: [
             `Our development practices follow SEO best practices, including clean code structure, optimized page performance, and mobile-friendly design. This helps improve search engine visibility and ensures your store is positioned for long-term organic growth.`,
           ],
         },
         {
-          img: 'adaired/services/shopify_Development_Images/ShopifyDevwhatmkdiffimg_6_ur6asc.png',
+          img: 'adaired/services/wordpressDevelopment/wordpress_whatmke_5_fvsjh9.png',
           name: 'Dedicated Support & Maintenance',
           description: [
             `Our partnership continues even after your store is launched. We provide ongoing maintenance, updates, technical support, and performance monitoring to ensure your Shopify store remains secure, efficient, and up to date.`,
@@ -16151,9 +16089,6 @@ export const SERVICES_DATA = {
         {
           desctioption: `Our professional team provides full e-commerce SEO solutions such as technical optimization, strategic keyword planning, bright content, and conversion-oriented solutions.`,
         },
-        {
-          desctioption: `Through Adaired, your online store can enjoy the competitive edge it needs to develop steadily and sustainably.`,
-        },
       ],
     },
 
@@ -16183,9 +16118,8 @@ export const SERVICES_DATA = {
           img: '',
           name: 'Large Product Inventories Require Structured SEO',
           description: [
-            `Online stores often contain extensive product catalogs`,
-            ` Without a clear site architecture, internal linking structure, and optimized category hierarchy, search engines struggle to crawl and rank pages effectively.`,
-            `A strategic structure ensures every product contributes to overall organic growth.`,
+            `Online stores often contain extensive product catalogs with multiple items, making it challenging for search engines to properly crawl, index, and rank every page.`, 
+            `Without a clear site architecture, logical internal linking, and an optimized category and subcategory hierarchy, valuable pages can become buried or overlooked.`,
           ],
         },
         {
@@ -16216,8 +16150,8 @@ export const SERVICES_DATA = {
           img: '',
           name: 'Conversion-Focused Strategy',
           description: [
-            `Unlike standard SEO, e-commerce SEO must prioritize revenue, not just traffic. That means optimizing product descriptions, improving user experience, enhancing site speed, and aligning search intent with buyer behavior to increase conversions.`,
-            `At Adaired Digital Media, our e-commerce SEO strategies are built specifically for online stores, balancing technical precision, structured growth, and revenue-focused optimization to deliver long-term results.`,
+            `E-commerce SEO prioritizes revenue over traffic, optimizing product pages, user experience, site speed, and search intent to drive conversions.`,
+            `At Adaired Digital Media, we deliver tailored e-commerce SEO strategies that combine technical precision with scalable, revenue-focused growth.`,
           ],
         },
       ],
@@ -16284,8 +16218,7 @@ export const SERVICES_DATA = {
           icon: ecommerceSEO_Imptobusiness5,
           name: 'Trust & Authority',
           description: [
-            `Trustworthiness has become a priority for search engines these days.`,
-            `Our e-commerce search engine optimization services use in-depth product descriptions, actual user reviews, copy of the highest quality, and clear policies.`,
+            `Trustworthiness has become a priority for search engines these days. Our e-commerce search engine optimization services use in-depth product descriptions, actual user reviews, copy of the highest quality, and clear policies.`,
             `Through the use of e-commerce SEO, we will increase the credibility, user confidence, and authority of your store to beat out the competition.`,
           ],
           button: 'Book a 30-Minute Strategy Call',
@@ -16342,14 +16275,14 @@ export const SERVICES_DATA = {
         {
           name: 'Faster Site & Better Mobile Experience',
           description: [
-            `We have e-commerce SEO services that enhance the speed of the site, navigation, and usability on mobile phones to offer a smooth shopping experience. Adaired will optimize your store to make it performance-wise and responsive, bounce rates will be lower, and visitors will also feel entertained.`,
+            `Adaired will optimize your store to make it performance-wise and responsive, bounce rates will be lower, and visitors will also feel entertained.`,
             `Our e-commerce SEO strategy will guarantee that your customers have a quick, hassle-free, and user-friendly browsing experience, as we have combined the technical SEO with a customer-friendly design.`,
           ],
         },
         {
           name: 'Higher Conversions & Sales Potential',
           description: [
-            `The e-commerce SEO that is offered by Adaired focuses on high-intent keywords and optimizes the pages that are concerned with the products to get ready-to-buy visitors. We maximize the use of e-commerce SEO to increase calls-to-action, product descriptions, and page layouts, and convert traffic into real sales with improved e-commerce SEO.`,
+            `We maximize the use of e-commerce SEO to increase calls-to-action, product descriptions, and page layouts, and convert traffic into real sales with improved e-commerce SEO.`,
             `We optimize your store in terms of conversion and ranking improvement, which is why we will make your store earn more and grow in a measurable way.`,
           ],
         },
@@ -16364,7 +16297,7 @@ export const SERVICES_DATA = {
           name: 'Brand Authority & Competitive Edge',
           description: [
             `Having the SEO e-commerce experience of Adaired, your shop will have authority and credibility in its niche. Top pages gain confidence with the shoppers and enhance brand awareness.`,
-            `Our e-commerce search engine optimization efforts can guarantee that you surpass the competition, topple search rankings, and establish your presence on the internet as a quality, go-to service provider, and provide your business with a sustainable competitive edge in the online retailing marketplace.`,
+            `Our e-commerce search engine optimization efforts can guarantee that you surpass the competition, and provide your business with a sustainable competitive edge in the online retailing marketplace.`,
           ],
         },
       ],
@@ -16383,7 +16316,7 @@ export const SERVICES_DATA = {
         },
       ],
       description: [
-        'We also maximize WooCommerce and WordPress stores with complete e-commerce SEO services by including, but not limited to, keyword research, on-page optimization, product page optimization, schema markup, and site speed optimization.',
+        'At Adaired Digital Media, we offer custom e-commerce SEO solutions to all big platforms to make sure that your online store is ranked higher and will bring more people, and we can turn a visitor into a customer.',
         // `Adaired will make sure that your shop is the top in search engines, provide people with a convenient and quick shopping process, and meet the search preferences to follow AI-driven and mobile-first traffic development.`,
       ],
       list: [
@@ -16391,8 +16324,8 @@ export const SERVICES_DATA = {
           icon: eCommerceSEO_whatIncluded1,
           title: 'WordPress / WooCommerce SEO',
           description: [
-            `Adaired offers full SEO e commerce services to Shopify stores, such as structured data implementation, technical search engine optimization, metadata optimization, and artificial intelligence content approaches.`,
-            `With our future-ready strategy, your Shopify stores will be ranked higher, voice and AI search traffic will be drawn in, conversions will be increased, and your product pages will maintain search engine and user compatibility across all devices.`,
+            `We also maximize WooCommerce and WordPress stores with complete e-commerce SEO services by including, but not limited to, keyword research, on-page optimization, product page optimization, schema markup, and site speed optimization. `,
+            `Adaired will make sure that your shop is the top in search engines, provide people with a convenient and quick shopping process, and meet the search preferences to follow AI-driven and mobile-first traffic development.`,
           ],
           button: 'Start a Conversation',
           // linkHref: '#',
@@ -16401,8 +16334,8 @@ export const SERVICES_DATA = {
           icon: eCommerceSEO_whatIncluded2,
           title: 'Shopify SEO',
           description: [
-            `Our Magento e-commerce SEO services aim at strong technical SEO, improved site architecture, quick loads of the pages, and Magento caters to product page management. Adaired will provide ease of navigation, enhanced indexing, and enhanced ranking of the search results.`,
-            `Your Magento store with our 2025-oriented plans will ensure high-intent traffic and a high conversion rate that will make you stay out of the fray in the changing e-commerce environment.`,
+            `Adaired offers full SEO e-commerce services to Shopify stores, such as structured data implementation, technical search engine optimization, metadata optimization, and artificial intelligence content approaches.`,
+            `With our future-ready strategy, your Shopify stores will be ranked higher, voice and AI search traffic will be drawn in, conversions will be increased, and your product pages will maintain search engine and user compatibility across all devices.`,
           ],
           button: 'Start a Conversation',
           // linkHref: '#',
@@ -16411,8 +16344,8 @@ export const SERVICES_DATA = {
           icon: eCommerceSEO_whatIncluded3,
           title: 'Magento SEO',
           description: [
-            `We also optimize the BigCommerce shop using platform-specific e-commerce SEO services such as content optimization, metadata optimization, structured data, and internal linking optimization. Adaired boosts the visibility, indexing, and organic traffic.`,
-            `Mobile-first design, optimizing AI search, and technical SEO can make your BigCommerce store competitive, provide a smooth user experience, and increase your search performance.`,
+            `Our Magento e-commerce SEO services aim at strong technical SEO, improved site architecture, quick loads of the pages, and Magento caters to product page management. Adaired will provide ease of navigation, enhanced indexing, and enhanced ranking of the search results.`,
+            `Your Magento store with our 2025-oriented plans will ensure high-intent traffic and a high conversion rate to help you stand out in the changing e-commerce environment.`,
           ],
           button: 'Start a Conversation',
           // linkHref: '#',
@@ -16421,8 +16354,8 @@ export const SERVICES_DATA = {
           icon: eCommerceSEO_whatIncluded4,
           title: 'BigCommerce SEO',
           description: [
-            `We also optimize the BigCommerce shop using platform-specific e-commerce SEO services such as content optimization, metadata optimization, structured data, and internal linking optimization.`,
-            `Adaired boosts the visibility, indexing, and organic traffic. Mobile-first design, optimizing AI search, and technical SEO can make your BigCommerce store competitive, provide a smooth user experience, and increase your search performance.`,
+            `We also optimize the BigCommerce shop using platform-specific e-commerce SEO services such as content optimization, metadata optimization, structured data, and internal linking optimization. Adaired boosts the visibility, indexing, and organic traffic.`,
+            `Mobile-first design, optimizing AI search, and technical SEO can make your BigCommerce store competitive, provide a smooth user experience, and increase your search performance.`,
           ],
           button: 'Start a Conversation',
           // linkHref: '#',
@@ -16431,8 +16364,8 @@ export const SERVICES_DATA = {
           icon: eCommerceSEO_whatIncluded5,
           title: 'OpenCart SEO',
           description: [
-            `Adaired’s SEO e commerce services for OpenCart include technical audits, product page optimization, URL structure improvements, and mobile-first design adjustments.`,
-            `Our priorities are search ranking and user experience, as well as conversions. Your OpenCart store benefits from advanced SEO strategies tailored to evolving search algorithms, AI, and voice search trends, ensuring long-term online growth.`,
+            `Adaired’s SEO e commerce services for OpenCart include technical audits, product page optimization, URL structure improvements, and mobile-first design adjustments. Our priorities are search ranking and user experience, as well as conversions.`,
+            `Your OpenCart store benefits from advanced SEO strategies tailored to evolving search algorithms, AI, and voice search trends, ensuring long-term online growth.`,
           ],
           button: 'Start a Conversation',
           // linkHref: '#',
@@ -16442,7 +16375,7 @@ export const SERVICES_DATA = {
           title: 'Custom / Other Platforms SEO',
           description: [
             `For custom or lesser-known platforms, Adaired offers complete e-commerce SEO, such as site audits, keyword strategy, technical optimization, content optimization, and conversion-oriented SEO.`,
-            `We implement future-ready strategies to keep your store competitive on any platform, utilizing AI, voice search, and mobile-first optimization to keep it successful. We assist your business in securing additional traffic, increasing the level of engagement, and generating quantifiable growth.`,
+            `We implement future-ready strategies to keep your store competitive on any platform, utilizing AI, voice search, and mobile-first optimization. We assist your business in securing additional traffic, increasing engagement, and generating quantifiable growth.`,
           ],
           button: 'Start a Conversation',
           // linkHref: '#',
@@ -16477,8 +16410,7 @@ export const SERVICES_DATA = {
           name: 'Future‑Ready SEO Strategy',
           description: [
             `As search advances, with AI assistants, voice search, and smarter algorithms, the SEO strategy of Adaired would remain ahead.`,
-            `Your e-commerce search engine strategy is adapted to the current requirements: conversational search, structured data, and mobile site speed.`,
-            `This makes sure your store is not lost in any of the search formats today and tomorrow.`,
+            `Your e-commerce search engine strategy is adapted to the current requirements: conversational search, structured data, and mobile site speed. This makes sure your store is not lost in any of the search formats today and tomorrow.`,
           ],
         },
         {
@@ -16501,7 +16433,7 @@ export const SERVICES_DATA = {
           img: 'adaired/services/eCommerce_seo_india/Group_1_kfwcw5.png',
           name: 'Content & Authority Building for Trust & Visibility',
           description: [
-            `In a time when measurable results are critical, Adaired provides detailed analytics, traffic tracking, conversion metrics, and performance reports. Adaired crafts product pages, guides, and content are of high quality in terms of trust, relevance, and expertise in modern standards.`,
+            `In a time when measurable results are critical, Adaired Digital Media provides detailed analytics, traffic tracking, conversion metrics, as well as performance reports.`,
             `We assist in the development of the authority of your brand, which increases the ranking potential and makes customers more confident.`,
           ],
         },
@@ -16510,7 +16442,7 @@ export const SERVICES_DATA = {
           name: 'Scalable & Cost‑Effective SEO Services',
           description: [
             `Adaired grows with your business: No matter if you are a growing store or an established brand, the flexible e-commerce SEO services are fully equipped to meet your requirements without the cost of in-house staff.`,
-            `You have professional SEO at an affordable price, and you have access to tools, expertise, and best practices that most brands would have difficulty retaining in-house.`,
+            `You have professional SEO at an affordable price, and access to tools, expertise, and best practices that most brands would have difficulty retaining in-house.`,
           ],
         },
         {
@@ -16957,7 +16889,6 @@ export const SERVICES_DATA = {
         },
       ],
       description: [
-        `A successful eCommerce website goes beyond an attractive design; it must deliver a seamless shopping experience, strong performance, and reliable functionality.`,
         `Modern online stores require advanced features that help customers browse products easily, complete purchases securely, and stay engaged with your brand. Implementing the right features ensures better user experience, higher conversion rates, and long-term business growth.`,
       ],
       list: [
@@ -17049,7 +16980,7 @@ export const SERVICES_DATA = {
           name: 'eCommerce Store Design & UX',
           description: [
             `An effective eCommerce website must provide a smooth and engaging user experience. Our design and UX experts focus on creating visually appealing storefronts that guide visitors through the buying journey effortlessly.`,
-            `We prioritize intuitive navigation, responsive layouts, and clear product presentation to ensure customers can easily find what they are looking for.`,
+            `Adaired Digital Media prioritizes intuitive navigation, responsive layouts, and clear product presentation to ensure customers can easily find what they are looking for.`,
             `By combining design aesthetics with usability best practices, we create online stores that not only look great but also encourage customers to explore products and complete purchases.`,
           ],
           button: 'Start Selling Online',
@@ -17070,7 +17001,7 @@ export const SERVICES_DATA = {
           icon: ecommerceDev_imptobusiness4,
           name: 'Payment Gateway Integration',
           description: [
-            `Secure and seamless payment processing is essential for building customer trust in online transactions. Our team integrates reliable payment gateways that support multiple payment methods, including credit cards, digital wallets, and international payment options.`,
+            `Secure and seamless payment processing is essential for building customer trust in online transactions. Our team integrates reliable payment gateways that support credit cards, digital wallets, and international payment options.`,
             `We ensure that the payment process is fast, secure, and compliant with industry standards, providing customers with confidence when completing purchases.`,
             `This integration helps streamline the checkout process and enhances the overall shopping experience.`,
           ],
@@ -17206,7 +17137,7 @@ export const SERVICES_DATA = {
           icon: ourProcess_ecomDev1,
           title: 'Discovery & Requirement Analysis',
           description: [
-            `The process begins with a thorough discovery phase where we work closely with you to understand your business goals, target audience, product offerings, and technical requirements.`,
+            `The process begins with a discovery phase where we work closely with you to understand your business goals, target audience, product offerings, and technical requirements.`,
             `During this stage, we analyze your competitors, identify key opportunities, and define the core features your online store needs.`,
             `This helps us create a clear project roadmap and ensures that the development strategy aligns with your business objectives and long-term growth plans.`,
           ],
@@ -17235,7 +17166,7 @@ export const SERVICES_DATA = {
           description: [
             `During the development phase, our engineers transform the approved designs into a fully functional eCommerce platform.`,
             `We implement essential features such as product catalogs, shopping carts, secure checkout systems, payment gateways, and inventory management tools.`,
-            `We also integrate third-party services, including shipping providers, CRM systems, analytics tools, and marketing platforms, to enhance the functionality and efficiency of your online store.`,
+            `We also integrate third-party services: shipping providers, CRM systems, analytics tools, and marketing platforms, to enhance the functionality and efficiency of your online store.`,
           ],
         },
         {
@@ -17285,21 +17216,18 @@ export const SERVICES_DATA = {
           name: 'Shopify',
           description: [
             `Shopify is a popular cloud-based eCommerce platform known for its ease of use and powerful built-in features.`,
-            `It is ideal for businesses looking for a quick and reliable way to launch and manage their online store.`,
           ],
         },
         {
           name: 'WooCommerce',
           description: [
-            `WooCommerce is a flexible eCommerce solution built on WordPress.`,
-            `It offers extensive customization options and is suitable for businesses that want full control over their website and functionality.`,
+            `WooCommerce offers extensive customization options and is suitable for businesses that want full control over their website and functionality.`,
           ],
         },
         {
           name: 'Magento',
           description: [
             `Magento is a robust platform designed for businesses that require advanced customization and scalability.`,
-            `It is widely used by enterprises and high-volume online stores.`,
           ],
         },
         {
@@ -17848,7 +17776,7 @@ export const SERVICES_DATA = {
           icon: customWebDevImpIcon_1,
           name: 'Tailored Solutions for Your Business Needs',
           description: [
-            `One of the biggest advantages of custom web app development is the ability to build a platform specifically designed around your business requirements. Every organization operates differently, with unique workflows, processes, and goals. `,
+            `One of the biggest advantages of custom web app development is the ability to build a platform designed around your business requirements. Every organization operates differently, with unique workflows, processes, and goals. `,
             `Custom app web development eliminates this limitation by allowing developers to design features and functionality that directly support your business operations.`,
             `Whether you need custom dashboards, booking systems, user portals, data management tools, or complex automation processes, the solution can be built specifically for your needs.`,
           ],
@@ -18513,7 +18441,7 @@ export const SERVICES_DATA = {
           icon: iosAppDevImpImg_1,
           name: 'iPhone App Development',
           description: [
-            `iPhone apps continue to dominate the premium smartphone market. Our developers create highly optimized applications that leverage the full capabilities of the iPhone as part of our expertise as an iPhone mobile app development company.`,
+            `iPhone apps continue to dominate the smartphone market. We create highly optimized applications that leverage the full capabilities of the iPhone as part of our expertise as an iPhone mobile app development company.`,
             `By focusing on speed, responsiveness, and intuitive design, we ensure that the apps we build provide a seamless experience across various iPhone models and screen sizes.`,
           ],
           button: 'Let’s Build Your App',
@@ -18523,9 +18451,8 @@ export const SERVICES_DATA = {
           icon: iosAppDevImpImg_2,
           name: 'iPad App Development',
           description: [
-            `The iPad offers unique opportunities for productivity and immersive experiences, especially in education, healthcare, and enterprise operations.`,
             `Our iPad app development services focus on utilizing the larger display and enhanced capabilities to create apps that deliver functionality and user engagement as a trusted iPad app development company offering advanced iPad application development services.`,
-            `From enterprise dashboards to interactive learning platforms, we build iPad apps that maximize efficiency and usability.`,
+            `From enterprise dashboards to interactive learning platforms, we at Adaired Digital Media, build iPad apps that maximize efficiency and usability.`,
           ],
           button: 'Let’s Build Your App',
           btnColor: '#FB9100',
@@ -18534,8 +18461,7 @@ export const SERVICES_DATA = {
           icon: iosAppDevImpImg_3,
           name: 'Swift App Development',
           description: [
-            `Swift has become the preferred programming language for modern iOS applications due to its speed, safety, and flexibility. `,
-            `At Adaired Digital Media, our developers use Swift to create robust applications that deliver high performance and improved security.`,
+            `Swift has become the preferred programming language for modern iOS applications due to its speed, safety, and flexibility. At Adaired Digital Media, our developers use Swift to create robust applications that deliver high performance and improved security.`,
             `With Swift, we are able to develop scalable solutions that integrate smoothly with Apple’s latest frameworks and technologies, ensuring long-term compatibility with future iOS updates.`,
           ],
           button: 'Let’s Build Your App',
@@ -18545,8 +18471,7 @@ export const SERVICES_DATA = {
           icon: iosAppDevImpImg_4,
           name: 'Custom iOS App Development',
           description: [
-            `Every business has unique requirements, and our custom iOS app development services are designed to address those needs.`,
-            `We build fully tailored applications that reflect your brand identity, business processes, and customer expectations.`,
+            `Every business has unique requirements, and our custom iOS app development services are designed to address those needs. We build fully tailored applications that reflect your brand identity, business processes, and customer expectations.`,
             `Our team works closely with clients to understand their vision and transform it into a functional, user-centric application. We also ensure that the architecture of the app supports future feature expansions and integrations.`,
           ],
           button: 'Let’s Build Your App',
@@ -18556,7 +18481,7 @@ export const SERVICES_DATA = {
           icon: iosAppDevImpImg_5,
           name: 'iOS UI/UX Design',
           description: [
-            `A successful mobile application depends not only on functionality but also on the quality of its design. Our UI/UX design team focuses on creating visually appealing and highly intuitive interfaces that enhance the overall user experience.`,
+            `A successful mobile application depends not only on functionality but also on the quality of its design. Our UI/UX design team focuses on creating visually appealing and intuitive interfaces that enhance the overall user experience.`,
             `We follow Apple’s Human Interface Guidelines to ensure that every screen, interaction, and feature feels natural to users. Our design process includes wireframing, prototyping, usability testing, and continuous refinement.`,
           ],
           button: 'Let’s Build Your App',
@@ -18567,7 +18492,7 @@ export const SERVICES_DATA = {
           name: 'App Testing and Quality Assurance',
           description: [
             `Quality assurance plays a critical role in the success of any mobile application. Our testing process ensures that your app performs reliably across multiple devices and operating system versions.`,
-            `We conduct comprehensive testing, including functional testing, performance testing, security testing, and compatibility testing.`,
+            `We conduct comprehensive testing, including functional testing, performance testing, security testing, and compatibility testing. By prioritizing quality at every stage, we deliver an application that meets user expectations.`,
           ],
           button: 'Let’s Build Your App',
           btnColor: '#FB9100',
@@ -18610,7 +18535,7 @@ export const SERVICES_DATA = {
       bgGradient: 'bg-gradient-to-b from-[#FFF8F0] to-[#FFFFFF]',
       span: '',
       description: [
-        `Our development process is structured to deliver high-quality applications efficiently while maintaining transparency and collaboration throughout the project lifecycle.`,
+        `Our process is structured to deliver high-quality applications while maintaining transparency and collaboration throughout the project lifecycle.`,
       ],
       services: [
         {
@@ -19793,15 +19718,14 @@ export const SERVICES_DATA = {
       bgGradient: 'bg-[#FAFAFA]',
       span: '',
       description: [
-        `Our social media management services are designed to give your brand a strong, consistent, and engaging online presence.`,
-        `These services complement our comprehensive management process, delivering measurable results and strategic growth to our clients.`,
+        `Our social media management process is designed to give your brand a strong, consistent, and engaging online presence.`,
       ],
       services: [
         {
           icon: socialMediaMgtProcessIcon_1,
           title: 'Profile Setup & Optimization',
           description: [
-            `Your social media profiles are often the first impression your audience has of your brand. We ensure each profile is professionally created or optimized to reflect your brand identity accurately and consistently across all platforms: Instagram, Facebook, LinkedIn, YouTube, TikTok, and X.`,
+            `Your social media profiles are often the first impression your audience has of your brand. We ensure each profile is optimized to reflect your brand identity accurately and consistently across all platforms: Instagram, Facebook, LinkedIn, YouTube, TikTok, and X.`,
             `This includes crafting compelling bios, selecting branded profile and cover images, adding optimized links and call-to-action buttons, and organizing highlights or pinned posts.`,
             `Proper profile setup ensures your brand looks professional, is easily discoverable, and encourages new followers to engage with your content.`,
           ],
@@ -19812,7 +19736,7 @@ export const SERVICES_DATA = {
           description: [
             `While organic growth is important, paid campaigns accelerate visibility and results. We develop and manage targeted ad campaigns across relevant platforms to reach your ideal audience, generate leads, and drive conversions.`,
             `Our services include campaign planning, audience segmentation, ad creative development, budget optimization, A/B testing, and performance monitoring. `,
-            `By combining creative messaging with precise targeting and ongoing optimization, Adaired Digital Media maximizes your return on investment and helps your campaigns reach their full potential.`,
+            `By combining creative messaging with precise targeting and ongoing optimization, we maximize your return on investment and helps your campaigns reach their full potential.`,
           ],
         },
         {
@@ -19839,14 +19763,14 @@ export const SERVICES_DATA = {
           description: [
             `Understanding your industry and competitors is key to staying ahead. We continuously monitor your competitors’ social media activities, content strategies, and engagement patterns.`,
             `Additionally, we analyze market trends to identify opportunities and gaps that your brand can capitalize on.`,
-            `These insights guide content decisions, posting strategies, and campaign planning, ensuring your brand maintains a competitive edge and remains a thought leader in your niche.`,
+            `These insights guide content decisions, posting strategies, and campaign planning, ensuring your brand maintains a competitive edge and remains a leader in your niche.`,
           ],
         },
         {
           icon: socialMediaMgtProcessIcon_6,
           title: 'Content Guidance & Strategy Support',
           description: [
-            `Beyond execution, we provide expert guidance for businesses that want to stay involved in the creative process. This includes consulting on content strategy, brainstorming post ideas, planning campaigns, and refining messaging.`,
+            `Beyond execution, we provide expert guidance for businesses that want to stay involved in the creative process.`,
             `By aligning our expertise with your brand vision, we help ensure that every piece of content, from captions to visuals, is on-brand, resonates with your audience, and supports your overall business objectives.`,
             `This collaborative approach allows your social media to reflect both creativity and strategy, maximizing engagement and growth.`,
           ],
@@ -19879,7 +19803,6 @@ export const SERVICES_DATA = {
           description: [
             `Instagram is a powerful visual platform designed for brand storytelling and audience engagement. We create high-quality posts, reels, carousels, and stories that capture attention within seconds.`,
             `Our strategy focuses on consistent branding, trending formats, hashtag research, and interactive content such as polls and Q&As.`,
-            `By combining creative visuals with strong captions and calls-to-action, we help grow your followers, boost engagement rates, and improve overall brand visibility.`,
           ],
           button: '',
           btnColor: '#FB9100',
@@ -19890,7 +19813,6 @@ export const SERVICES_DATA = {
           description: [
             `Facebook remains one of the strongest platforms for community building and targeted advertising.`,
             `Adaired Digital Media manages business pages, creates engaging posts, runs promotional campaigns, and optimizes ad performance to reach specific audience segments.`,
-            `From local businesses to growing brands, we leverage Facebook’s advanced targeting capabilities to increase awareness, drive website traffic, and generate leads.`,
           ],
           button: '',
           btnColor: '#FB9100',
@@ -19911,7 +19833,6 @@ export const SERVICES_DATA = {
           description: [
             `YouTube is one of the most influential platforms for long-form content and product discovery.`,
             `We assist with content planning, video optimization, title and description strategy, thumbnail concepts, and audience engagement techniques.`,
-            `By improving discoverability and retention, we help your brand build credibility and long-term visibility through consistent video marketing.`,
           ],
           button: '',
           btnColor: '#FB9100',
@@ -20325,8 +20246,7 @@ export const SERVICES_DATA = {
           description: [
             `A well-designed interface is essential for delivering a smooth and engaging user experience.`,
             `Our Android UI/UX designers create visually appealing and intuitive interfaces that enhance usability and improve customer engagement.`,
-            `We focus on designing mobile experiences that are easy to navigate, responsive across devices, and aligned with modern design standards.`,
-            `Our UI/UX design process ensures that every Android application provides a seamless and enjoyable experience for users.`,
+            `We focus on designing mobile experiences that are easy to navigate, responsive across devices, and aligned with modern design standards. We ensure that every Android application provides a seamless user experience.`,
           ],
           button: 'Get Your Free Project Estimate',
           btnColor: '#FB9100',
@@ -20368,8 +20288,9 @@ export const SERVICES_DATA = {
           icon: ImpToBusiness_AndroidAppIcon6,
           name: 'App Migration & Upgrade',
           description: [
-            `If your existing mobile application requires modernization, our Android experts can help migrate or upgrade it to the latest technologies and frameworks.`,
-            `We ensure smooth Android app migration and upgrade services that improve performance, enhance security, and deliver better user experiences without disrupting existing business operations.`,
+            `If your existing mobile application requires modernization, we help migrate or upgrade it to the latest technologies and frameworks.`,
+            `Seamless Android migration and upgrades that enhance performance, security, and user experience, without disruption.`,
+            `From upgrading legacy systems to adopting modern frameworks like Kotlin-based development, we focus on enhancing overall app functionality and scalability.`
           ],
           button: 'Get Your Free Project Estimate',
           btnColor: '#FB9100',
@@ -20419,7 +20340,6 @@ export const SERVICES_DATA = {
       span: '',
       description: [
         `At Adaired Digital Media, we follow a structured and agile development approach to deliver high-quality Android applications.`,
-        `Our proven Android app development process ensures transparency, efficiency, and timely project delivery.`,
       ],
       services: [
         {
@@ -20501,8 +20421,7 @@ export const SERVICES_DATA = {
           img: '',
           name: 'Business Applications',
           description: [
-            `Business apps are designed to improve productivity, collaboration, and operational efficiency within organizations.`,
-            `These applications often include features such as task management, data tracking, communication tools, and integration with CRM or ERP systems.`,
+            `Business applications often include features such as task management, data tracking, communication tools, and integration with CRM or ERP systems.`,
             `We build robust business applications that help companies automate workflows, enhance team productivity, and manage operations more efficiently.`,
           ],
         },
@@ -20511,8 +20430,7 @@ export const SERVICES_DATA = {
           name: 'E-commerce Applications',
           description: [
             `E-commerce Android applications typically include features such as product catalogs, secure payment gateways, order tracking, and personalized recommendations.`,
-            `Our expert Android developers develop scalable e-commerce apps that provide seamless shopping experiences,`,
-            `helping businesses increase conversions and improve customer retention.`,
+            `Our expert Android developers develop scalable e-commerce apps that provide seamless shopping experiences, helping businesses increase conversions and improve customer retention.`,
           ],
         },
         {
@@ -22024,7 +21942,7 @@ export const SERVICES_DATA = {
           icon: googleAdsImpIcon_4,
           name: 'Video Ads',
           description: [
-            `Video advertising on YouTube offers a unique opportunity to capture attention, tell your brand story, and build trust with your audience. We develop tailored video ad strategies that align with your marketing objectives, whether it’s increasing brand awareness, driving website traffic, or boosting conversions.`,
+            `Video advertising on YouTube offers an opportunity to capture attention, tell your brand story, and build trust with your audience. We develop tailored video ad strategies that align with your objectives, whether it’s increasing brand awareness, driving website traffic, or boosting conversions.`,
             `By targeting users based on their interests, search behavior, and viewing patterns, we ensure your message reaches the right audience at the right time, maximizing engagement and impact.`,
           ],
           button: 'Launch My Campaign',
@@ -22045,7 +21963,7 @@ export const SERVICES_DATA = {
           name: 'Local Search Ads',
           description: [
             `For businesses targeting a specific geographic area, local advertising is essential. We optimize your campaigns to appear in local search results and Google Maps, helping you attract nearby customers who are ready to take action.`,
-            `Whether your goal is to increase store visits, phone calls, or local inquiries, we ensure your business stands out in your service area.`,
+            `Whether your goal is to increase store visits, phone calls, or local inquiries, we ensure your business stands out in your service area. We use local SEO and targeted ads to reach nearby customers and turn searches into real results.`,
           ],
           button: 'Launch My Campaign',
           btnColor: '#FB9100',
@@ -22080,14 +21998,14 @@ export const SERVICES_DATA = {
           name: 'Strategic Research & Planning',
           description: [
             `Every successful campaign starts with a strong strategy. We take the time to understand your business, target audience, competitors, and objectives before launching any campaigns.`,
-            `This includes detailed keyword research based on search intent, competitor analysis to identify opportunities, and the development of a clear campaign roadmap. This strategic foundation ensures that your campaigns are built for performance from day one, targeting users who are most likely to convert.`,
+            `This includes detailed keyword research based on search intent, competitor analysis to identify opportunities, and the development of a clear campaign roadmap.`,
           ],
         },
         {
           img: '',
           name: 'Campaign Setup & Account Structuring',
           description: [
-            `A properly structured Google Ads account is essential for efficiency and scalability. We build your campaigns using proven frameworks that improve ad relevance, quality scores, and overall performance.`,
+            `We build your campaigns using proven frameworks that improve ad relevance, quality scores, and overall performance.`,
             `From organizing ad groups and selecting the right match types to implementing extensions and targeting settings, we ensure your account is optimized for both immediate results and long-term growth.`,
           ],
         },
@@ -22127,7 +22045,7 @@ export const SERVICES_DATA = {
           img: '',
           name: 'Performance Max Campaigns',
           description: [
-            `Performance Max campaigns use Google’s machine learning to deliver ads across all available channels, including Search, Display, YouTube, Gmail, and Discover. We strategically set up and manage these campaigns to maximize conversions while identifying new audience segments and untapped opportunities.`,
+            `We use Google’s machine learning to deliver ads across all available channels, including Search, Display, YouTube, Gmail, and Discover. We manage these campaigns to maximize conversions while identifying new audience segments and untapped opportunities.`,
             `By continuously analyzing performance data, we refine campaign inputs to improve efficiency and drive better results over time.`,
           ],
         },
@@ -22152,7 +22070,7 @@ export const SERVICES_DATA = {
           name: 'Conversion Tracking & Performance Analytics',
           description: [
             `Accurate data is the foundation of successful Google Ads campaigns. We implement advanced tracking systems to monitor key actions such as form submissions, calls, purchases, and more.`,
-            `This allows us to gain deeper insights into user behavior, measure campaign effectiveness, and make informed decisions that continuously improve performance and ROI.`,
+            `This allows us to gain insights into user behavior, measure campaign effectiveness, and make informed decisions that continuously improve performance and ROI.`,
           ],
         },
       ],
@@ -22173,15 +22091,15 @@ export const SERVICES_DATA = {
       bgGradient: 'bg-[#FFFFFF]',
       span: '',
       description: [
-        `Our approach is designed to guide every stage of your campaign lifecycle, ensuring that each decision is backed by insights and aligned with your business objectives.`,
+        `We guide every stage of your campaign lifecycle, ensuring that each decision is backed by insights and aligned with your business objectives.`,
       ],
       services: [
         {
           icon: googleAdsProcessIcon_1,
           title: 'Deep Research & Business Understanding',
           description: [
-            `Every high-performing campaign begins with a deep understanding of your business and market. We take the time to analyze your products or services, target audience, competitors, and industry trends. This phase includes extensive keyword research focused on search intent, identifying high-value opportunities that align with your goals.`,
-            `We also evaluate your competitors’ advertising strategies to uncover gaps and opportunities that can give you a competitive edge. By the end of this stage, we have a clear roadmap that defines how your campaigns will be structured and positioned for success.`,
+            `Every high-performing campaign begins with a deep understanding of your business and market. We take the time to analyze your products or services, target audience, competitors, and industry trends.`,
+            `We also evaluate your competitors’ advertising strategies to uncover gaps and opportunities that can give you a competitive edge. By the end of this stage, we have a clear roadmap that defines how your campaigns will be positioned for success.`,
           ],
         },
         {
@@ -22189,14 +22107,14 @@ export const SERVICES_DATA = {
           title: 'Strategic Planning & Campaign Blueprint',
           description: [
             `Once research is complete, we translate insights into a clear campaign strategy. This includes defining campaign objectives, selecting the right campaign types, structuring ad groups, and mapping keywords to user intent.`,
-            `We carefully plan budget allocation, bidding strategies, and targeting parameters to ensure every element of your campaign is aligned with performance goals. This blueprint acts as the foundation for execution, ensuring that your campaigns are not only well-organized but also built to scale efficiently.`,
+            `We strategically plan budgets, bidding, and targeting to align with your performance goals. By combining data-driven insights with industry best practices, we create a well-structured approach that maximizes efficiency and return on investment.`,
           ],
         },
         {
           icon: googleAdsProcessIcon_3,
           title: 'Campaign Setup & Precision Structuring',
           description: [
-            `With a solid plan in place, we move into building your campaigns. This involves setting up tightly themed ad groups, implementing the right keyword match types, configuring audience targeting, and adding all relevant extensions to enhance visibility and engagement.`,
+            `With a solid plan in place, we move into building your campaigns. This involves setting up themed ad groups, implementing the right keyword match types, configuring audience targeting, and adding all relevant extensions to enhance visibility and engagement.`,
             `A properly structured account improves ad relevance, increases quality scores, and reduces cost-per-click, leading to better performance overall. Every detail is carefully configured to ensure your campaigns start strong and are easy to optimize over time.`,
           ],
         },
@@ -22204,7 +22122,7 @@ export const SERVICES_DATA = {
           icon: googleAdsProcessIcon_4,
           title: 'Ad Copy Development & Creative Testing',
           description: [
-            `Your ad copy plays a critical role in attracting clicks and driving conversions. We create multiple variations of ad copy that are tailored to different audience segments and search intents. Each ad is designed to highlight your unique value proposition, address user pain points, and encourage action.`,
+            `Your ad copy plays a critical role in attracting clicks and driving conversions. We create multiple variations of ad copy that are tailored to different audience segments and search intents.`,
             `We continuously test different headlines, descriptions, and calls-to-action to identify what resonates best with your audience. This ongoing experimentation allows us to refine messaging and improve performance over time.`,
           ],
         },
@@ -23243,7 +23161,7 @@ export const SERVICES_DATA = {
           icon: metaAdsImpIcon_1,
           name: 'Campaign Strategy',
           description: [
-            `Every successful campaign starts with a solid foundation. We, as a Facebook Ad agency, develop a customized advertising strategy based on your business goals, target audience, and competitive landscape. This includes defining your ideal customer profiles, mapping out your sales funnel, selecting the right campaign objectives, and planning how to move users from awareness to conversion.`,
+            `We, as a Facebook Ad agency, develop a customized advertising strategy based on your business goals, target audience, and competitive landscape. This includes defining your ideal customer profiles, mapping out your sales funnel, selecting the right campaign objectives, and planning how to move users from awareness to conversion.`,
             `Instead of taking a one-size-fits-all approach, we create a tailored roadmap that aligns your ad campaigns with real business outcomes, whether that’s lead generation, eCommerce sales, or brand growth.`,
           ],
           button: 'Build My Custom Ads Plan',
@@ -23274,7 +23192,7 @@ export const SERVICES_DATA = {
           name: 'Budget Planning & Media Buying',
           description: [
             `A successful Meta ads strategy isn’t just about how much you spend; it’s about how intelligently that budget is allocated. We help you determine the optimal ad spend based on your goals, industry benchmarks, and growth stage, ensuring you’re investing enough to generate meaningful results without overspending.`,
-            `This includes prioritizing high-performing audiences, allocating more spend to winning creatives, and ensuring your budget supports both testing and scaling. Whether you’re working with a modest budget or scaling aggressively, every rupee is carefully managed to deliver the highest possible return.`,
+            `This includes prioritizing high-performing audiences, allocating more spend to winning creatives, and ensuring your budget supports both testing and scaling. Whether you’re working with a modest budget or scaling aggressively, every dollar is managed to deliver the highest possible return.`,
           ],
           button: 'Build My Custom Ads Plan',
           btnColor: '#FB9100',
@@ -23328,8 +23246,8 @@ export const SERVICES_DATA = {
           img: '',
           name: 'Strategy & Research',
           description: [
-            `Everything starts with a deep understanding of your business, audience, and market. We analyze your industry, competitors, and current positioning to uncover growth opportunities. This includes identifying your ideal customer profiles, understanding their behavior, and mapping out a full-funnel strategy that guides them from first interaction to final conversion.`,
-            `Rather than jumping straight into ads, we build a strategic foundation that ensures every campaign has a clear direction. This allows us to create campaigns that are not only targeted but also aligned with real business objectives like increasing revenue, reducing cost per acquisition, and improving overall return on ad spend.`,
+            `Everything starts with a deep understanding of your business, audience, and market. We analyze your industry, competitors, and current positioning to uncover growth opportunities.`,
+            `Rather than jumping straight into ads, we build a strategic foundation that ensures every campaign has a clear direction.`,
           ],
         },
         {
@@ -23337,7 +23255,7 @@ export const SERVICES_DATA = {
           name: 'Campaign Setup',
           description: [
             `Once the strategy is defined, we move into building your campaigns inside Meta Ads Manager with precision and structure. This includes setting up campaigns, ad sets, and ads in a way that maximizes performance and scalability.`,
-            `We carefully choose campaign objectives, placements, bidding strategies, and budget allocation to ensure your ads are optimized from day one. Tracking systems such as the Meta Pixel are properly configured to capture accurate data, allowing us to measure performance and make smarter decisions as campaigns progress.`,
+            `We carefully choose campaign objectives, placements, bidding strategies, and budget allocation to ensure your ads are optimized from day one.`,
           ],
         },
         {
@@ -23345,22 +23263,22 @@ export const SERVICES_DATA = {
           name: 'Creative Testing',
           description: [
             `Creativity is one of the most important drivers of success in Meta advertising. Instead of relying on a single ad, we develop multiple creative variations designed to test different messaging angles, visuals, and formats.`,
-            `We experiment with hooks, headlines, ad copy, and design styles to identify what resonates most with your audience. This structured A/B testing approach allows us to quickly discover high-performing creatives and eliminate underperforming ones, ensuring your campaigns continuously improve over time.`,
+            `We experiment with hooks, headlines, ad copy, and design styles to identify what resonates most with your audience.`,
           ],
         },
         {
           img: '',
           name: 'Optimization & Scaling',
           description: [
-            `After launch, our focus shifts to continuous improvement and growth. We actively monitor campaign performance and make data-driven optimizations to improve efficiency and results. This includes adjusting targeting, refining creatives, reallocating budgets, and improving bidding strategies.`,
-            `Once we identify winning campaigns, we scale them strategically, expanding audiences, increasing budgets, and introducing new variations to maintain performance. This ensures your campaigns don’t just perform well in the short term but continue to grow sustainably over time.`,
+            `After launch, our focus shifts to continuous improvement and growth. We actively monitor campaign performance and make data-driven optimizations to improve efficiency and results.`,
+            `Once we identify winning campaigns, we scale them strategically, expanding audiences, increasing budgets, and introducing new variations to maintain performance. `,
           ],
         },
         {
           img: '',
           name: 'Budget Planning & Allocation',
           description: [
-            `Before campaigns go live, we carefully plan how your budget will be distributed to maximize impact. This includes allocating spend across different funnel stages, audiences, and testing initiatives. We, as Meta Ad Agency, ensure there’s a balance between experimentation and scaling, so you’re not just spending but investing in growth.`,
+            `Before campaigns go live, we carefully plan how your budget will be distributed to maximize impact. We, as Meta Ad Agency, ensure there’s a balance between experimentation and scaling, so you’re not just spending but investing in growth.`,
             `As campaigns run, we dynamically reallocate budgets toward top-performing ads and audiences, ensuring every dollar is working as efficiently as possible.`,
           ],
         },
@@ -23368,7 +23286,7 @@ export const SERVICES_DATA = {
           img: '',
           name: 'Retargeting & Funnel Optimization',
           description: [
-            `Not every customer converts on the first click, and that’s where retargeting becomes critical. We build strategic retargeting campaigns to re-engage users who have interacted with your brand, whether they visited your website, engaged with your ads, or added products to their cart.`,
+            `We build strategic retargeting campaigns to re-engage users who have interacted with your brand, whether they visited your website, engaged with your ads, or added products to their cart.`,
             `By nurturing these warm audiences with tailored messaging, we significantly increase conversion rates and reduce overall acquisition costs.`,
           ],
         },
@@ -23484,7 +23402,7 @@ export const SERVICES_DATA = {
           name: 'Creative-Led Performance Advantage',
           description: [
             `In today’s crowded digital space, creativity is the biggest differentiator. While many agencies focus heavily on technical setup, we prioritize the element that drives the majority of results, your ad creative.`,
-            `We combine compelling visuals with persuasive messaging to create ads that capture attention, communicate value, and inspire action. By continuously testing and refining creatives, we ensure your campaigns stay fresh, competitive, and high-performing.`,
+            `We combine compelling visuals with persuasive messaging to create ads that capture attention, communicate value, and inspire action.`,
           ],
         },
         {
