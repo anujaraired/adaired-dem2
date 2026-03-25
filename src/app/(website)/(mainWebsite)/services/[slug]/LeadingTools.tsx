@@ -8,8 +8,8 @@ import { useInViewOnce } from '@/@core/hooks/useInViewOnce';
 
 const LeadingTools = ({ leadingTools }: any) => {
   const { ref, isVisible } = useInViewOnce<HTMLDivElement>(0.2);
-  const row1 = leadingTools?.list?.slice(0, 10) || [];
-  const row2 = leadingTools?.list?.slice(10, 20) || [];
+  const row1 = leadingTools?.list?.slice(0, 7) || [];
+  const row2 = leadingTools?.list?.slice(7, 14) || [];
   // const row3 = leadingTools?.list?.slice(20, 30) || [];
 
   const row1Duplicated = [...row1, ...row1];

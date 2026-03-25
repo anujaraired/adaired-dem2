@@ -193,6 +193,21 @@ import localImpIcon_6 from '../../../../../../public/assets/localseo/localImpIco
 import localImpIcon_7 from '../../../../../../public/assets/localseo/localImpIcon_7.png';
 import localImpIcon_8 from '../../../../../../public/assets/localseo/localImpIcon_8.png';
 
+import localLeadingToolsIcon_1 from '../../../../../../public/assets/LeadingTools/LocalSEOleadingTools_1.png';
+import localLeadingToolsIcon_2 from '../../../../../../public/assets/LeadingTools/LocalSEOleadingTools_2.png';
+import localLeadingToolsIcon_3 from '../../../../../../public/assets/LeadingTools/LocalSEOleadingTools_3.png';
+import localLeadingToolsIcon_4 from '../../../../../../public/assets/LeadingTools/LocalSEOleadingTools_4.png';
+import localLeadingToolsIcon_5 from '../../../../../../public/assets/LeadingTools/LocalSEOleadingTools_5.png';
+import localLeadingToolsIcon_6 from '../../../../../../public/assets/LeadingTools/LocalSEOleadingTools_6.png';
+import localLeadingToolsIcon_7 from '../../../../../../public/assets/LeadingTools/LocalSEOleadingTools_7.png';
+import localLeadingToolsIcon_8 from '../../../../../../public/assets/LeadingTools/LocalSEOleadingTools_8.png';
+import localLeadingToolsIcon_9 from '../../../../../../public/assets/LeadingTools/LocalSEOleadingTools_9.png';
+import localLeadingToolsIcon_10 from '../../../../../../public/assets/LeadingTools/LocalSEOleadingTools_10.png';
+import localLeadingToolsIcon_11 from '../../../../../../public/assets/LeadingTools/LocalSEOleadingTools_11.png';
+import localLeadingToolsIcon_12 from '../../../../../../public/assets/LeadingTools/LocalSEOleadingTools_12.png';
+import localLeadingToolsIcon_13 from '../../../../../../public/assets/LeadingTools/LocalSEOleadingTools_13.png';
+import localLeadingToolsIcon_14 from '../../../../../../public/assets/LeadingTools/LocalSEOleadingTools_14.png';
+
 // White Label Social Media Page Images
 // import whiteKeyStats from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteKeyStats.png';
 // import whiteWhatIs from '../../../../../../public/assets/images/services/WhiteLabel/whiteLabelSocialMedia/whiteWhatIs.png';
@@ -3735,8 +3750,7 @@ export const SERVICES_DATA = {
         `Schedule a strategy call and let’s build a digital presence aligned\n with your business goals.`,
       ],
       textColor: '#FFFFFF',
-      bgImg:
-        'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774243689/adaired/services/seo/stop_struggle2_kbcs9x.png',
+      bgImg: stop_struggle2,
     },
 
     getplan: {
@@ -4491,46 +4505,46 @@ export const SERVICES_DATA = {
       bgColor: '',
       list: [
         {
-          img: client_1,
+          img: localLeadingToolsIcon_1,
         },
         {
-          img: client_2,
+          img: localLeadingToolsIcon_2,
         },
         {
-          img: client_3,
+          img: localLeadingToolsIcon_3,
         },
         {
-          img: client_4,
+          img: localLeadingToolsIcon_4,
         },
         {
-          img: client_5,
+          img: localLeadingToolsIcon_5,
         },
         {
-          img: client_1,
+          img: localLeadingToolsIcon_6,
         },
         {
-          img: client_2,
+          img: localLeadingToolsIcon_7,
         },
         {
-          img: client_3,
+          img: localLeadingToolsIcon_8,
         },
         {
-          img: client_4,
+          img: localLeadingToolsIcon_9,
         },
         {
-          img: client_5,
+          img: localLeadingToolsIcon_10,
         },
         {
-          img: client_1,
+          img: localLeadingToolsIcon_11,
         },
         {
-          img: client_2,
+          img: localLeadingToolsIcon_12,
         },
         {
-          img: client_3,
+          img: localLeadingToolsIcon_13,
         },
         {
-          img: client_4,
+          img: localLeadingToolsIcon_14,
         },
         {
           img: client_5,
@@ -12955,6 +12969,14 @@ export const SERVICES_DATA = {
           title: 'Ongoing Monitoring and Updates',
           description: [
             `Optimization is not a one-time task. We continuously monitor your profile’s performance, publish updates through Google Posts, and make improvements to maintain strong visibility and engagement.`,
+          ],
+        },
+        {
+          icon: icon7,
+          title: 'Performance Tracking and Reporting',
+          description: [
+            `Finally, we track key performance metrics such as profile views, phone calls, direction requests, and website clicks. Regular reports provide clear insights into how your optimized profile is generating leads and contributing to business growth.
+`,
           ],
         },
       ],
