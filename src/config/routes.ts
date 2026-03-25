@@ -336,8 +336,8 @@ export const routes: {
       ],
     },
     {
-      label: 'White Label',
-      value: 'White Label',
+      label: 'For Agencies',
+      value: 'For Agencies',
       href: '/services/white-label-agency-india',
       subItems: [
         { name: 'White Label SEO', href: '/services/seo-outsourcing-india' },
@@ -355,6 +355,13 @@ export const routes: {
         },
       ],
     },
+
+    {
+      label: 'Industries',
+      value: 'industries',
+      href: '#',
+    },
+
     {
       label: 'Resources',
       value: 'resources',
@@ -365,12 +372,6 @@ export const routes: {
         { name: 'Blog', href: '/blog' },
         { name: 'Career', href: '/career' },
       ],
-    },
-
-    {
-      label: 'Contact Us',
-      value: 'contact',
-      href: '/contact',
     },
   ],
 

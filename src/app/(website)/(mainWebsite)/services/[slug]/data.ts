@@ -853,9 +853,10 @@ export const SERVICES_DATA = {
         },
       ],
       bgColor: '#FFFCF8',
-      textColor: '#000000',
+      button: '',
       width: 50,
-      imgWidth: '653',
+      paddingY: '4rem',
+      imgWidth: '652',
       imgHight: '568',
       data: [
         {
