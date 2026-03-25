@@ -1829,7 +1829,7 @@ export const SERVICES_DATA = {
       cardColor: '#F3F3F3',
       titleColor: '#000000',
       description: null,
-      imgHight: '520',
+      imgHight: '520px',
       img: 'https://res.cloudinary.com/dsksxpsdh/image/upload/v1774244288/adaired/services/ai_seo/AISEORESULT_l3ybp6.png',
       list: [
         {
