@@ -1242,7 +1242,7 @@ const Header = () => {
             />
           </div>
         </div>
-        <GetEnquiryModal isOpen={!open} onClose={() => setOpen(false)} />
+        <GetEnquiryModal isOpen={open} onClose={() => setOpen(false)} />
       </MaxWidthWrapper >
 
       {show && (
