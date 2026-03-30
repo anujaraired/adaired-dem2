@@ -1,0 +1,315 @@
+import { Request, Response } from "express";
+import Blog from "../models/Blog";
+import cloudinary from "../config/cloudinary";
+import mongoose from "mongoose";
+
+export const getBlogs = async (req: Request, res: Response) => {
+  try {
+    const blogs = await Blog.find()
+      .sort({ createdAt: -1 })
+      .lean();
+
+    const formattedBlogs = blogs.map((blog) => {
+      const { image, ...rest } = blog;
+
+      return {
+        ...rest,
+        featuredImage: image?.url || null,
+      };
+    });
+
+    return res.status(200).json({
+      success: true,
+      data: formattedBlogs,
+    });
+  } catch (error) {
+    console.error("Get Blogs Error:", error);
+    return res.status(500).json({
+      success: false,
+      message: "Server error",
+    });
+  }
+};
+
+// export const createBlog = async (req: Request, res: Response) => {
+//   try {
+//     const blogData: any = { ...req.body };
+
+//     // Parse SEO JSON
+//     if (req.body.seo) {
+//       blogData.seo = JSON.parse(req.body.seo);
+//     }
+
+//     // ✅ Generate Canonical Link Automatically
+//     if (!blogData.seo) {
+//       blogData.seo = {};
+//     }
+
+//     blogData.seo.canonicalLink = `https://adaired.com/blog/${blogData.slug}`;
+
+//     // Cloudinary image
+//     if (req.file) {
+//       blogData.image = {
+//         url: req.file.path,
+//         public_id: req.file.filename || req.file.originalname,
+//       };
+//     }
+
+//     const blog = await Blog.create(blogData);
+
+//     res.status(201).json({
+//       success: true,
+//       message: "Blog created successfully",
+//       data: blog,
+//     });
+//   } catch (error: any) {
+//     res.status(500).json({
+//       success: false,
+//       message: error.message,
+//     });
+//   }
+// };
+
+export const createBlog = async (req: Request, res: Response) => {
+  try {
+    const blogData: any = { ...req.body };
+
+    // ✅ Parse SEO JSON safely
+    if (req.body.seo) {
+      blogData.seo = JSON.parse(req.body.seo);
+    }
+
+    // ✅ Ensure SEO object exists
+    if (!blogData.seo) {
+      blogData.seo = {};
+    }
+
+    // ✅ Generate Canonical Link
+    blogData.seo.canonicalLink = `https://adaired.com/blog/${blogData.slug}`;
+
+    // ✅ Cloudinary Image
+    if (req.file) {
+      blogData.image = {
+        url: req.file.path,        // clean Cloudinary URL
+        public_id: req.file.filename, // auto-generated public_id
+      };
+    }
+
+    const blog = await Blog.create(blogData);
+
+    return res.status(201).json({
+      success: true,
+      message: "Blog created successfully",
+      data: blog,
+    });
+  } catch (error: any) {
+    console.error("Add Blog Error:", error);
+
+    return res.status(500).json({
+      success: false,
+      message: error.message,
+    });
+  }
+};
+
+export const updateBlog = async (req: Request, res: Response) => {
+  try {
+    const { slug } = req.params;
+
+    // 🔥 Find by slug instead of ID
+    const existingBlog = await Blog.findOne({ slug });
+
+    if (!existingBlog) {
+      return res.status(404).json({
+        success: false,
+        message: "Blog not found",
+      });
+    }
+
+    const updateData: any = {};
+
+    /* =========================
+       Normal Fields
+    ========================== */
+    if (req.body.postTitle)
+      updateData.postTitle = req.body.postTitle;
+
+    if (req.body.slug)
+      updateData.slug = req.body.slug;
+
+    if (req.body.category)
+      updateData.category = req.body.category;
+
+    if (req.body.postDescription)
+      updateData.postDescription = req.body.postDescription;
+
+    /* =========================
+       SEO Parsing
+    ========================== */
+    if (req.body.seo) {
+      const parsedSEO = JSON.parse(req.body.seo);
+      updateData.seo = {
+        ...existingBlog.seo,
+        ...parsedSEO,
+      };
+    } else {
+      updateData.seo = existingBlog.seo;
+    }
+
+    /* =========================
+       Canonical Auto Update
+    ========================== */
+    const finalSlug = updateData.slug || existingBlog.slug;
+
+    updateData.seo.canonicalLink =
+      `https://adaired.com/blog/${finalSlug}`;
+
+    /* =========================
+       Image Handling
+    ========================== */
+    if (req.file) {
+      if (existingBlog.image?.public_id) {
+        await cloudinary.uploader.destroy(existingBlog.image.public_id);
+      }
+
+      updateData.image = {
+        url: req.file.path,
+        public_id: req.file.filename || req.file.originalname,
+      };
+    } else {
+      updateData.image = existingBlog.image;
+    }
+
+    // 🔥 Update using _id internally
+    const updatedBlog = await Blog.findByIdAndUpdate(
+      existingBlog._id,
+      updateData,
+      { new: true }
+    );
+
+    res.status(200).json({
+      success: true,
+      message: "Blog updated successfully",
+      data: updatedBlog,
+    });
+
+  } catch (error: any) {
+    res.status(500).json({
+      success: false,
+      message: error.message,
+    });
+  }
+};
+
+export const getBlogById = async (req: Request, res: Response) => {
+  try {
+    const { id } = req.params;
+
+    // ✅ Check valid Mongo ID
+    // if (!mongoose.Types.ObjectId.isValid(id)) {
+    //   return res.status(400).json({
+    //     success: false,
+    //     message: "Invalid blog ID",
+    //   });
+    // }
+
+    const blog = await Blog.findById(id);
+
+    if (!blog) {
+      return res.status(404).json({
+        success: false,
+        message: "Blog not found",
+      });
+    }
+
+    return res.status(200).json({
+      success: true,
+      data: blog,
+    });
+  } catch (error) {
+    console.error("Get Blog By ID Error:", error);
+
+    return res.status(500).json({
+      success: false,
+      message: "Server error",
+    });
+  }
+};
+
+
+export const getBlogBySlug = async (req: Request, res: Response) => {
+  try {
+    const { slug } = req.params;
+
+    if (!slug) {
+      return res.status(400).json({
+        success: false,
+        message: "Slug is required",
+      });
+    }
+
+    const blog = await Blog.findOne({ slug }).lean();
+
+    if (!blog) {
+      return res.status(404).json({
+        success: false,
+        message: "Blog not found",
+      });
+    }
+
+    const { image, ...rest } = blog;
+
+    return res.status(200).json({
+      success: true,
+      data: {
+        ...rest,
+        featuredImage: image?.url || null,
+      },
+    });
+  } catch (error) {
+    console.error("Get Blog By Slug Error:", error);
+
+    return res.status(500).json({
+      success: false,
+      message: "Server error",
+    });
+  }
+};
+
+export const deleteBlog = async (req: Request, res: Response) => {
+  try {
+    const { id } = req.params;
+
+    if (Array.isArray(id) || !mongoose.Types.ObjectId.isValid(id)) {
+      return res.status(400).json({
+        success: false,
+        message: "Invalid blog ID",
+      });
+    }
+
+    const deletedBlog = await Blog.findByIdAndDelete(id);
+
+    if (!deletedBlog) {
+      return res.status(404).json({
+        success: false,
+        message: "Blog not found",
+      });
+    }
+
+    // Delete Cloudinary image after DB delete
+    if (deletedBlog.image?.public_id) {
+      await cloudinary.uploader.destroy(deletedBlog.image.public_id);
+    }
+
+    return res.status(200).json({
+      success: true,
+      message: "Blog deleted successfully",
+    });
+
+  } catch (error: any) {
+    return res.status(500).json({
+      success: false,
+      message: error.message,
+    });
+  }
+};
